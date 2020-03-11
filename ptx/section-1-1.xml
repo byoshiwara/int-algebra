@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Models</title>
+
+<subsection><title>Tables, Graphs, and Equations</title>
+
+<definition><title>Mathematical Model</title>
+    <p>
+        A <term>mathematical model</term><idx>mathematical model</idx> is a simplified description of reality that helps us understand a system or process.
+    </p>
+</definition>
+<p>
+    We can use a model to analyze data, identify trends, and predict the effects of change. The first step in creating a model is to describe relationships between the variables involved.
+</p>
+
+<exercise><title>QuickCheck 1</title>
+<webwork>
+    <setup><pg-code>       
+            $step1 = RadioButtons(
+              ["Solve the equation.",
+              "Analyze data, identify trends, and predict the effects of change.",
+              "Describe the relationships between the variables involved.",
+              "Make a table of values."],
+              2, 
+            );            
+        </pg-code></setup>
+    <statement>
+        <p>What is the first step in creating a mathematical model?</p>
+        <p><var name="$step1" form="buttons"/></p>      
+    </statement>
+    <solution>
+        <p>Describe the relationships between the variables involved.</p>
+    </solution>
+</webwork></exercise>
+
+<p>
+    Starting from a description in words, we can represent the relationship by:
+    <ul>
+        <li><p>a table of values</p></li>
+        <li><p>a graph, or by</p></li>
+        <li><p>an algebraic equation</p></li>
+    </ul>
+</p>
+
+<p>
+    Each of these mathematical tools is useful in a different way.
+    <ol label="1">
+        <li>A table of values lists specific data points with precise numerical values.</li>
+        <li>A graph is a visual display of the data. It is easier to spot trends and describe the overall behavior of the variables from a graph.</li>
+        <li>An algebraic equation is a compact summary of the model. It can be used to analyze the model and to make predictions.</li> 
+    </ol>
+</p>
+
+
+<exercise><title>QuickCheck 2</title>
+<webwork>
+    <setup><pg-code>       
+            $threeways = RadioButtons(
+              ["By inputs, outputs, or evaluation",
+              "By tables, equations, or graphs",
+              "By the intercepts, the slope, or the vertex",
+              "By numbers, letters, or diagrams"],
+              1, 
+            );            
+        </pg-code></setup>
+    <statement>
+        <p>Name three ways to represent a relationship between variables.</p>
+        <p><var name="$threeways" form="buttons"/></p>      
+    </statement>
+    <solution>
+        <p>By tables, equations, or graphs</p>
+    </solution>
+</webwork></exercise>
+
+<p>
+    In the examples that follow, observe the interplay among the three modeling tools and how each contributes to the model.
+</p>
+
+<example xml:id="example-bicycle">
+    <statement>
+        <p>
+            In May 2005, the city of Lyons, France, started a bicycle rental program. Over 3,000 bicycles are available at 350 computerized stations around the city. Each of the 52,000 subscribers pays an annual 5 euro fee (about $7.20) and gets a PIN to access the bicycles. The bicycles rent for 1 euro per hour and can be returned to any station.
+        </p>
+        <p>Your community decides to set up a similar program, charging a $5 subscription fee and $3 an hour for rental. (A fraction of an hour is charged as the corresponding fraction of $3).</p>
+        <p><ol label="a">
+            <li><p>Make a table of values showing the cost, <m>C</m>, of renting a bike for various lengths of time, <m>t</m>.</p></li>
+            <li><p>Plot the points on a graph. Draw a curve through the data points.</p></li>
+            <li><p>Write an equation for <m>C</m> in terms of <m>t</m>.</p></li>
+        </ol></p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li><p>There is an initial fee of $5, and a rental fee of $3 per hour. To find the cost, we multiply the time by $3 per hour, and add the result to the $5 subscription fee.  For example, the cost of a one-hour bike ride is
+                <md><mrow>\text{Cost}\amp=(\$5\text{ insurance fee})+(\$3\text{ per hour})\times(\alert{\text{one hour}})</mrow>
+                <mrow>C\amp=5+3(\alert{1})=8</mrow></md>
+            A one-hour bike ride costs $8.</p>
+            <p>We calculate the cost for the other values of <m>t</m>. and record the results in a table as shown below.</p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <col/><col/><col bottom="none" top="none" /><col />
+                <row>
+                    <cell><line>Length of rental</line><line>(hours)</line></cell>
+                    <cell><line>Cost of rental</line><line>(dollars)</line></cell>
+                    <cell bottom="none" top="none" ></cell>
+                    <cell><m>(t,C)</m></cell></row>
+                <row> 
+                    <cell><m>0</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell bottom="none" top="none"><m>\quad C=5+3(\alert{0})\quad</m></cell>
+                    <cell><m>(0,5)</m></cell></row>
+                <row> <cell><m>1</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell bottom="none" top="none"><m>\quad C=5+3(\alert{1})\quad</m></cell>
+                    <cell><m>(1,8)</m></cell></row>
+                <row> <cell><m>2</m></cell>
+                    <cell><m>11</m></cell>
+                    <cell bottom="none" top="none"><m>C=5+3(\alert{2})</m></cell>
+                    <cell><m>(2,11)</m></cell></row>
+                <row> <cell><m>3</m></cell>
+                    <cell><m>14</m></cell>
+                    <cell bottom="none" top="none"><m>C=5+3(\alert{3})</m></cell>
+                    <cell><m>(3,14)</m></cell></row>
+                    </tabular></sidebyside></li>
+            <li>        
+                <sidebyside widths="55% 28%"><stack><p>Each pair of values represents a point on the graph.  The first value gives the horizontal coordinate of the point, and the second value gives the vertical coordinate.</p> 
+                <p>The points lie on a straight line, as shown in the figure.  The line extends  infinitely in only one direction, because negative values of <m>t</m> do not make sense here.</p></stack>
+                <image source="images/fig-Annelise-1"><description>graph</description></image></sidebyside>
+            </li>
+            <li>
+                <p>To write an equation, we let <m>C</m> represent the cost of the rental, and we use <m>t</m> for the number of hours:</p>
+                <p><md><mrow>\text{Cost}\amp=(\$5\text{ subscription})+\$3\cdot\text{(number of hours)}</mrow>
+                <mrow>C\amp=5+3\cdot t</mrow></md> </p></li>
+        </ol></p>
+    </solution>
+</example>
+
+<exercise><title>Practice 1</title>
+    <webwork>
+        <setup><pg-code>
+            $subscription=Compute("7");
+            $rate = Compute("2.50");
+        </pg-code></setup>
+        <statement>
+            <p>Write an equation for the cost <m>C</m> of renting a bicycle for <m>t</m> hours if the subscription fee is $7 and the rental fee is $2.50 per hour.</p>
+            <p><md>
+                <mrow>\text{Cost}\amp = (\text{subscription fee})+(\text{hourly rate})\cdot(\text{number of hours}) </mrow>
+            </md></p>
+            <p>
+                <m>C=</m><var name="$subscription" width="2"/><m>+</m> <var name="$rate" width="3"/> <m>\cdot ~ t</m>
+            </p>
+        </statement>
+        <hint>
+            <p>Fill in the correct numbers.</p>
+        </hint>
+        <solution>
+            <p><m>C=7+2.50t </m></p>
+        </solution>
+    </webwork>    
+</exercise>
+    
+</subsection>
+
+<subsection><title>Equations for Linear Models</title>
+<p>
+    The equation we wrote in the first Example is an example of a <term>linear model</term>, which describes a variable that increases or decreases at a constant rate.
+</p>    
+
+<definition><title>Linear Model</title>
+    <p>
+        A <term>linearl model</term><idx>linear model</idx> describes a variable that increases or decreases at a constant rate. It has the form
+        <md><mrow>\blert{y=(\text{starting value})+(\text{rate})\times t }</mrow></md>
+    </p>
+</definition>
+
+<exercise><title>QuickCheck 3</title>
+<webwork>
+    <setup><pg-code>       
+            $which = RadioButtons(
+              ["Increasing variables",
+              "Variables that change at a constant rate",
+              "Variables that describe time",
+              "Variables that can be graphed"],
+              1, 
+            );            
+        </pg-code></setup>
+    <statement>
+        <p>What sort of variables can be described by a linear model?</p>
+        <p><var name="$which" form="buttons"/></p>      
+    </statement>
+    <solution>
+        <p>Variables that change at a constant rate</p>
+    </solution>
+</webwork></exercise>
+
+<p>In the next example we see how a graph and its equation are related.</p>
+
+<example xml:id="example-6hrbike"><statement>
+    <p>Use the equation <m>C=5+3\cdot t</m> you found in <xref ref="example-bicycle" text="type-global"/> to answer the following questions.  Then show how to find the answers by using the graph.</p><p>
+    <ol label="a">
+        <li><p>How much will it cost to rent a bicycle for 6 hours?</p></li>
+        <li><p>How long can you bicycle for $18.50?</p></li>
+    </ol></p></statement>
+<solution><p><ol label="a">
+    <li>
+        <p>We substitute <m>t=\alert{6}</m> into the equation to find 
+        <me>C=5+3(\alert{6})=23</me>
+        A 6-hour bike ride will cost $23.  The point <m>P</m> on the graph in the figure represents the cost of a 6-hour bike ride.  The value on the <m>C</m>-axis at the same height as point <m>P</m> is 23, so a 6-hour bike ride costs $23.</p></li>
+    <li>
+        <sidebyside widths="60% 35%">
+        <p>We substitute <m>C=\alert{18.50}</m> into the equation and solve for <m>t</m>.
+        <md><mrow>\alert{18.50}\amp=5+3t</mrow>
+        <mrow>13.50\amp=3t</mrow>
+        <mrow>t\amp=4.5</mrow></md>
+        For $18.50 Annelise can bicycle for <m>4\frac{1}{2} </m> hours. The point <m>Q</m> on the graph represents an $18.50 bike ride. The value on the <m>t</m>-axis below point <m>Q</m> is 4.5, so $18.50 will buy a 4.5 hour bike ride.</p>
+            <image source="images/fig1-2"><description>line though points</description></image></sidebyside>
+        </li>
+    </ol></p>
+</solution></example>
+
+<exercise>
+    <title>Practice 2</title>
+    <webwork>
+        <setup><pg-code>
+            $time = Compute("1.5");
+        </pg-code></setup>
+        <statement>
+            <p>In the preceding Example, how long can you bicycle for $9.50?</p> 
+            <p> Answer: <var name="$time" width="2"/> hr.</p> 
+            <p>Show this on the graph.</p>
+        </statement>
+        <hint>
+            <p>Start by finding $9.50 on the Cost (vertical axis). Then find the point on the graph with <m>C</m>-coordinate $9.50. Finally, find the <m>t</m>-coordinate of that point.</p>
+        </hint>
+        <solution>
+            <p>1.5 hours</p>
+            <p>A figure is below.</p>
+        </solution>
+    </webwork>    
+    <conclusion>
+        <sidebyside width="30%" margins="0% 70%"><image source="images/fig-ex-1-1-3"><description>cost of bike rental</description></image></sidebyside>
+    </conclusion>
+</exercise>
+
+
+<p>
+    In <xref ref="example-6hrbike" text="type-global" />, note the different algebraic techniques we used in parts (a) and (b):
+    <ul>
+        <li><p>
+            In part (a) we were given a value of <m>t</m> and we <term>evaluated the expression</term> <m>5 + 3t</m> to find <m>C</m>.
+        </p></li>
+        <li><p>In part (b) we were given a value of <m>C</m> and we <term>solved the equation</term> <m>C = 5 + 3t</m> to find <m>t</m>.</p></li>
+    </ul>    
+</p>
+
+
+
+<exercise>
+    <title>QuickCheck 4</title>
+<webwork>
+    <setup>
+        <pg-code>
+             $which1 = PopUp(
+              ["?","solving","evaluating"],
+              2, 
+            );
+             $which2 = PopUp(
+              ["?","solving","evaluating"],
+              1, 
+            );
+        </pg-code>
+    </setup>
+    <statement><p>
+        Consider the expression <m>C = 5 + 3t</m>. Finding a value of <m>C</m> when we know <m>t</m> is called <var name="$which1" form="popup"/> the expression. Finding a value of <m>t</m> when we know <m>C</m> is called <var name="$which2" form="popup"/> the equation.
+    </p></statement>
+    <solution>
+        <p>evaluating; solving</p>
+    </solution>
+</webwork>
+</exercise>
+
+
+
+<p>
+    In the examples above, the graph is <term>increasing</term> as <m>t</m> increases. In the next Example we consider a <term>decreasing graph</term>.
+</p>
+
+<example xml:id="Leon-camper">
+    <statement>
+        <p>Leon's camper has a 20-gallon gas tank, and he gets 12 miles to the gallon. (Note that getting 12 miles to the gallon is the same as using ​ <m>\frac{1}{12}</m> gallon of gas per mile.)</p>
+        <p><ol label="a">
+            <li><p>Write an equation for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles.</p></li>
+            <li><p>Make a table of values for the equation.</p></li>
+            <li><p>Graph the equation,</p></li>
+            <li><p>If Leon has less than 5 gallons of gas left, how many miles has he driven since his last fill-up? Illustrate on the graph.</p></li>
+        </ol></p>
+    </statement>
+    <solution><p>
+        <ol label="a">
+            <li><p>We use the form for a linear model,
+                <md><mrow>y=(\text{starting value})+(\text{rate})\times t</mrow></md>
+                However, in this problem, instead of variables <m>y</m> and <m>t</m>, we use <m>g</m> and <m>d</m>.  Leon's fuel tank started with 20 gallons, and the amount of gasoline is decreasing at a rate of <m>\frac{1}{12}</m> gallon for every mile that he drives. Thus,
+                <md><mrow>g=20-\frac{1}{12}d </mrow></md>
+            </p></li>
+            <li><p>
+                Every time Leon drives 12 miles, he uses another gallon of gasoline. So, to make the calculations easier, we choose values that are divisible by 12.
+            </p>
+            <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+                <col halign="left"/><col /><col /><col /><col />
+                    <row bottom="minor">
+                        <cell><m>d</m> (miles)</cell>
+                        <cell>0</cell>
+                        <cell>48</cell>
+                        <cell>96</cell>
+                        <cell>144</cell>
+                    </row>
+                    <row>
+                        <cell><m>g</m> (gallons)</cell>
+                        <cell>20</cell>
+                        <cell>16</cell>
+                        <cell>12</cell>
+                        <cell>8</cell>
+                    </row>
+            </tabular></sidebyside>
+            </li>
+            <li><p>
+                We scale the values of <m>d</m> along the horizontal axis, and the values of <m>g</m> along the vertical axis. Then we plot the points from the table and connect with a line, as shown in the figure below.
+            </p></li>
+            <li><p>
+                If Leon has less than 5 gallons of gasoline left, then <m>g\lt 5</m>, as shown on the <m>g</m>-axis. Using our model from part (a), we solve the inequality.
+                <md>
+                    <mrow>20-\frac{1}{12}d \amp \lt 5 </mrow>
+                    <mrow>-\frac{1}{12}d \amp \lt -15 </mrow>
+                    <mrow>d \amp\gt 180 </mrow>
+                </md>
+                Leon has driven at least 180 miles. The solution is shown on the graph below.
+            </p></li>
+        </ol>
+    </p>
+     <sidebyside  width="40%"><image source="images/fig-example-1-1-3"><description>gas mileage</description></image></sidebyside>
+    </solution>
+</example>
+
+<p>
+    In part (d) of the previous Example we used an <term>inequality</term> to answer the question. We use inequalities to model English phrases such as "less than," "more than," "at least," and "at most."
+</p>
+
+
+
+<exercise>
+    <title>Practice 3</title>
+    <introduction>
+        <sidebyside width="40%"><image source="images/fig-ex-ans-1-1-3"><description>gas mileage</description></image></sidebyside>
+    </introduction>
+    <webwork>
+        <setup><pg-code>
+            $gas = RadioButtons(
+              ["At least 7.5 gallons",
+              "At most 7.5 gallons",
+              "At least 20 gallons.",
+              "At most 240 gallons"],
+              1, 
+            );            
+        </pg-code></setup>
+        <statement>
+            <p>Leon forgot to reset his odometer after his last fill-up, but he thinks he has driven at least 150 miles. How much gas does he have left? <var name="$gas" form="buttons"/></p> 
+            <p>Show this on the graph.</p>
+        </statement>
+        <hint>
+            <p>Locate 150 miles on the <m>d</m>-axis. What part of the axis represents "at least" 150 miles? Find the points on the graph with <m>d</m>-coordinates at least 150. What are the <m>g</m>-coordinates of those points?</p>
+        </hint>
+        <solution>
+            <p>At mos 7.5 gallon</p>
+        </solution>
+    </webwork>    
+    <conclusion>
+        <sidebyside width="30%" margins="0% 70%"><image source="images/fig-ex-1-1-3"><description>cost of bike rental</description></image></sidebyside>
+    </conclusion>
+</exercise>
+</subsection>
+
+<xi:include href="./section-1-1-exercises.xml" />                
+
+<!--
+<xi:include href="./summary-1-1.xml" /> 
+   -->
+
+</section>
+<!-- </book>  </mathbook> -->

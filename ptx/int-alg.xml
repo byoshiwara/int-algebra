@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--********************************************************************
+
+
+
+*********************************************************************-->
+<!-- This file was originally part of the book     -->
+<!-- (as copied on 2020/03/15)                     -->
+<!--                                               -->
+<!--   Intermediate Algebra   -->
+<!--                                               -->
+<!-- Copyright (C) Katherine Yoshiwara      -->
+
+<!-- Master file                           -->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+
+<xi:include href="./bookinfo.xml" />   <!-- ISBN, website, other metadata -->
+
+<book xml:id="int-alg">
+       <title>Intermediate Algebra</title>
+       <subtitle>Functions and Graphs</subtitle>
+
+       <xi:include href="./frontmatter.xml" />  
+
+
+        <xi:include href="./chap1.xml" />        <!-- Functions and their graphs  -->
+
+    <xi:include href="./backmatter.xml" />       
+    </book>
+</pretext>
