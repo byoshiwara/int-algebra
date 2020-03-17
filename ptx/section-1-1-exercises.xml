@@ -35,12 +35,12 @@
                     <li><p><m>14-\dfrac{3}{4}x \ge 5 </m></p></li>
                 </ol>
             </p></statement>
-            <answer><p>
+<!--            <answer><p>
                 <ol label="a" cols="2">
                     <li><p><m>x\lt 5.5</m></p></li>
                     <li><p><m>x \le 12</m></p></li>
                 </ol>
-            </p></answer>
+            </p></answer> -->
         </exercise>
 
         <exercise number="3">
@@ -62,7 +62,6 @@
                     <mrow>\underline{\qquad\quad}\quad\amp=\qquad \underline{\qquad\qquad\qquad} \amp\amp -{} \qquad \underline{\qquad\qquad} </mrow>
                 </md>
             </p></statement>
-            <answer><p><m>I=200+0.09 S</m></p></answer>
         </exercise>
 
     <exercisegroup  cols="2"><introduction><p>
