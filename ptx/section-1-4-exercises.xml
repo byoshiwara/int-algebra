@@ -114,7 +114,7 @@
                     <p>Use a rate of change to calculate the town's average rate of growth, in people per year. First, complete the table of values:</p>
                     <sidebyside widths="50% 40%" margins="0% 0%">
                     <stack>
-                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center" width="10cm">
+                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
                               <cell><m>~t~</m></cell>
                               <cell><m>~P~</m></cell>
@@ -797,6 +797,94 @@
         </ol></p>
     </statement>
 </exercise>
+
+    <exercise number="11">
+        <statement>
+            <p>A spring is suspended from the ceiling. The table shows the length of the spring, in centimeters, as it is stretched by hanging various weights from it.
+            </p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <col  halign="left" />
+                <col  halign="center" />
+                <col  halign="center" />
+                <col  halign="center" />
+                <col  halign="center" />
+                <col  halign="center" />
+                <col  halign="center" />
+                <col  halign="center" />
+                    <row bottom="minor">
+                        <cell>Weight, kg</cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>22</m></cell></row>
+                    <row>
+                        <cell>Length, cm</cell>
+                        <cell><m>25.87 </m> </cell>
+                        <cell><m>25.88</m> </cell>
+                        <cell><m>26.36</m> </cell>
+                        <cell><m>26.6</m> </cell>
+                        <cell><m>26.84</m> </cell>
+                        <cell><m>27.2</m> </cell>
+                        <cell><m>28.04</m> </cell></row>
+            </tabular></sidebyside>
+            <p><ol label="a">
+                <li><p>If you plot the data, will the points lie on a straight line? Why or why not?</p></li>
+                <li><p>Interpret the slope as a rate of change. Include units in your answer</p></li>
+        </ol></p>
+    </statement>
+    <answer>
+        <p><ol label="a">
+            <li><p>Yes, the slope is 0.12</p></li>
+            <li><p>0.12 cm/kg: The spring stretches an extra 0.12 cm for each additional 1 kg mass.</p></li>
+        </ol></p>
+    </answer>
+    </exercise>
+
+    <exercise number="12">
+        <statement>
+            <p>
+                Th e graph shows the rise in sea level attributed to the melting of land-based glaciers from 1960 to 2003.
+            </p>
+            <sidebyside width="85%">
+                <image source="images/fig-hw-1-4-12"><description>rise in sea level</description></image>
+            </sidebyside>
+            <p><ol>
+                <li>
+                    <p>The graph appears to be almost linear from 1992 to 2002. Read the graph to complete the table, then compute the slope of the graph over that time interval, including units. What does the slope mean in this situation?</p>
+                    <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                        <row>
+                            <cell>Year</cell>
+                            <cell>Sea level</cell>
+                        </row>
+                        <row>
+                            <cell>1992</cell>
+                            <cell><m></m></cell>
+                        </row>
+                        <row>
+                            <cell>2002</cell>
+                            <cell><m></m></cell>
+                        </row>
+                    </tabular></sidebyside>
+                </li>
+                <li>
+                    <p>What was the total change in sea level from land-based glaciers over the time period from 1960 to 2003?</p>
+                </li>
+                <li>
+                    <p>Calculate the average rate of change of sea level from land-based glaciers from 1960 to 2003.</p>
+                </li>
+                <li>
+                    <p>From 1960 to 2003, the land-based glaciers decreased in thickness by about 8 meters (or 0.008 km). The total area of those glaciers is 785,000 square kilometers. Calculate the total volume of water released by melting. (Hint: <m>\text{Volume}= \text{area}\times \text{thickness} </m>)</p>
+                </li>
+                <li>
+                    <p>The surface area of the world’s oceans is 361.6 million square kilometers. When the meltwater from the land-based glaciers (that's the volume you calculated in part (d)) enters the oceans, how much will the sea level rise, in kilometers? Use the formula in part (d). Convert your answer to millimeters, and check your answer against your answer to part (b).</p>
+                </li>
+            </ol></p>
+        </statement>
+    </exercise>
+
 
 </subexercises>
 
