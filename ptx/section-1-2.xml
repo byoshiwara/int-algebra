@@ -21,7 +21,6 @@
 <exercise>
     <title>QuickCheck 1</title>
 <webwork>
-    <setup>
         <pg-code>
              $which1 = RadioButtons(
               ["The variables displayed on the axes",
@@ -31,7 +30,7 @@
               3, 
             ); 
         </pg-code>
-    </setup>
+    
     <statement><p>
         What are the intercepts of a graph?</p>
         <p><var name="$which1" form="buttons"/> 
@@ -73,7 +72,6 @@
 <exercise>
     <title>Practice 1</title>
     <webwork>
-        <setup>
             <pg-code>
                 Context("Point");
                 $x0=-6;
@@ -81,7 +79,7 @@
                 $xint = Point($x0,0);
                 $yint = Point(0,$y0);
             </pg-code>
-        </setup>
+        
         <statement>
             <p>Find the intercepts of the graph of <m>y=-9-\dfrac{3}{2}x </m>. Enter each intercept as an ordered pair.</p>
             <p>The <m>x</m>-intercept is <var name="$xint"  width="4"/>.  </p>
@@ -115,7 +113,7 @@
 
 <exercise><title>Practice 2</title>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         Context("Point");
         $x0= 528;
         $y0= 11;
@@ -143,7 +141,7 @@
             ],
             2
         );
-    </pg-code></setup>
+    </pg-code>
     <statement>
         <p>The gas tank in Rosa's Toyota Prius holds 11 gallons, and she gets 48 miles to the gallon.</p>
         <p><ol label="a">
@@ -216,7 +214,6 @@
 <exercise>
     <title>QuickCheck 2</title>
 <webwork>
-    <setup>
         <pg-code>
              $which1 = RadioButtons(
               ["\(y=mx+b\)",
@@ -226,7 +223,7 @@
               1, 
             ); 
         </pg-code>
-    </setup>
+    
     <statement><p>
         What is the general form of a linear equation?</p>
         <p><var name="$which1" form="buttons"/> 
@@ -286,14 +283,13 @@
 <exercise xml:id="BreadbasketBakery">
     <title>Practice 3</title>
     <webwork>
-    <setup>
       <pg-code>
     Context("ImplicitPlane");
     Context()->variables->add(y=>"Real");
     $equation = ImplicitPlane("15x+4y=120");
    
       </pg-code>
-    </setup>
+    
     <statement>
         <p>The manager at Breadbasket Bakery has $120 to spend on advertising. An ad in the local newspaper costs $15, and posters cost $4 each. She decides to buy <m>x</m> ads and <m>y</m> posters. Write an equation relating <m>x</m> and <m>y</m>.</p> 
         <p>
@@ -329,7 +325,6 @@
 <exercise>
     <title>QuickCheck 3</title>
 <webwork>
-    <setup>
         <pg-code>
              $which1 = RadioButtons(
               ["Make a table of values and plot the points.",
@@ -339,7 +334,7 @@
               3, 
             ); 
         </pg-code>
-    </setup>
+    
     <statement><p>
         Describe the intercept method of graphing a linear equation.</p>
         <p><var name="$which1" form="buttons"/> 
@@ -406,15 +401,13 @@
 <exercise>
     <title>Practice 4</title>
     <webwork>
-        <setup>
             <pg-code>
                 Context("Point");
                 $x0=8;
                 $y0=30;
                 $xint = Point($x0,0);
                 $yint = Point(0,$y0);
-            </pg-code>
-        </setup>
+            </pg-code>        
         <statement>
             <p>Find the <m>x</m>- and <m>y</m>-intercepts of the equation in Practice 3 (<xref ref="BreadbasketBakery" text="type-global"/>), and use the intercepts to graph the equation. Enter each intercept as an ordered pair.</p>
             <p>The <m>x</m>-intercept is <var name="$xint"  width="4"/>.  </p>
@@ -526,7 +519,6 @@
 <exercise>
     <title>Practice 5</title>
     <webwork>
-    <setup>
       <pg-code>
         $fun=Formula("-3x+60");
      
@@ -535,8 +527,7 @@
 
         $equation = ImplicitPlane("3x-20y=76");
    
-      </pg-code>
-    </setup>
+      </pg-code>    
     <statement>
         <p><ol label="a">
           <li>
