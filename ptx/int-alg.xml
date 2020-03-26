@@ -18,13 +18,13 @@
 <xi:include href="./bookinfo.xml" />   <!-- ISBN, website, other metadata -->
 
 <book xml:id="int-alg">
-       <title>Intermediate Algebra</title>
-       <subtitle>Functions and Graphs</subtitle>
+   <title>Intermediate Algebra</title>
+   <subtitle>Functions and Graphs</subtitle>
 
-       <xi:include href="./frontmatter.xml" />  
+   <xi:include href="./frontmatter.xml" />  
 
-
-        <xi:include href="./chap1.xml" />        <!-- Functions and their graphs  -->
+    <xi:include href="./chap1.xml" />   <!-- Linear Models  -->
+    <xi:include href="./chap2.xml" />   <!-- Linear Models  -->
 
     <xi:include href="./backmatter.xml" />       
     </book>

@@ -15,8 +15,7 @@
          <sidebyside width="80%"><image source="images/BirthRateVsFemaleLiteracy"><description>Plot of birth rate vs     female literacy</description></image></sidebyside>
     </introduction>
 
-<!--  -->
-<!--     <xi:include href="./section-2-1.xml" />   Linear REgression  -->
+    <xi:include href="./section-2-1.xml" />  <!-- Linear Regression -->
         
 
 </chapter> 

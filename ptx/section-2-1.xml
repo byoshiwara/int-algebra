@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="LinReg"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Regression</title>
+
+<subsection><title>Shrinking Rain Forest</title>
+
+<sidebyside widths="68% 30%" margins="0% 0%" valigns="middle middle">
+    <stack>
+        <p>
+            The Amazon Basin in South America contains over half of the planet's rain forest. The Amazon rain forest is home to the largest collection of plant and animal species in the world, including more than one-third of all living species. During the 1960s, colonists began cutting down the rain forest to clear land for agriculture. The construction of the Trans-Amazonian Highway in thee arly 1970s opened large forest areas to development by settlers and commercial interests, increasing the rate of deforestation.
+        </p>
+        <p>
+            Environmentalists are concerned about the loss of biodiversity which will result from destruction of the forest, and about the release of the carbon contained within the vegetation, which could accelerate global warming.
+        </p>
+        <p>
+            In Brazil, the Instituto Nacional de Pesquisas Espaciais (INPE, or National Institute of Space Research) uses Landsat satellite photos to monitor the pace of deforestation. According to their data, the original Amazon rain forest biome in Brazil of 4,100,000 square kilometers was reduced to 3,413,000 square kilometers by 2005, representing a loss of 16.8%. The figures for 1987 to 2006 are shown at right, and a plot of the data appears below
+        </p>
+    </stack>
+    <tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
+        <row>
+            <cell>Year</cell>
+            <cell><line>Remaining forest</line><line>(thousands sq km)</line></cell>
+        </row>
+        <row>
+            <cell>1987</cell>
+            <cell>3745</cell>
+        </row>
+        <row>
+            <cell>1988</cell>
+            <cell>3274</cell>
+        </row>
+        <row>
+            <cell>1989</cell>
+            <cell>3706</cell>
+        </row>
+        <row>
+            <cell>1990</cell>
+            <cell>3692</cell>
+        </row>
+        <row>
+            <cell>1991</cell>
+            <cell>3681</cell>
+        </row>
+        <row>
+            <cell>1992</cell>
+            <cell>3667</cell>
+        </row>
+        <row>
+            <cell>1993</cell>
+            <cell>3652</cell>
+        </row>
+        <row>
+            <cell>1994</cell>
+            <cell>3637</cell>
+        </row>
+        <row>
+            <cell>1995</cell>
+            <cell>3608</cell>
+        </row>
+        <row>
+            <cell>1996</cell>
+            <cell>3590</cell>
+        </row>
+        <row>
+            <cell>1997</cell>
+            <cell>3577</cell>
+        </row>
+        <row>
+            <cell>1998</cell>
+            <cell>3560</cell>
+        </row>
+        <row>
+            <cell>1999</cell>
+            <cell>3542</cell>
+        </row>
+        <row>
+            <cell>2000</cell>
+            <cell>3524</cell>
+        </row>
+        <row>
+            <cell>2001</cell>
+            <cell>3506</cell>
+        </row>
+        <row>
+            <cell>2002</cell>
+            <cell>3485</cell>
+        </row>
+        <row>
+            <cell>2003</cell>
+            <cell>3460</cell>
+        </row>
+        <row>
+            <cell>2004</cell>
+            <cell>3432</cell>
+        </row>
+        <row>
+            <cell>2005</cell>
+            <cell>3413</cell>
+        </row>
+        <row>
+            <cell>2006</cell>
+            <cell>3400</cell>
+        </row>
+    </tabular>
+</sidebyside>
+
+<sidebyside width="95%">
+    <image source="images/fig-rain-forest"><description>plot of shrinking rain forest</description></image>
+</sidebyside>
+
+<p>
+    Although the data points do not all lie exactly on a straight line, they are very close. One question we might ask is: If deforestation continues at the same rate, when will the Amazon rain forest disappear completely? In this section we learn to find a linear model that approximates a data set.
+</p>
+    
+</subsection>
+
+<subsection><title>Line of Best Fit</title>
+<p>
+    In most cases, a mathematical model is not a perfect description of reality. Many factors can affect empirical data, including measurement error, environmental conditions, and the influence of related variables. Nonetheless, we can often findan equation that approximates the data in a useful way.
+</p>
+
+<example>
+    <statement>
+        <p>
+            The table shows the minimum wage in the US at five-year intervals. (Source: Economic Policy Institute)
+        </p>
+        <sidebyside><tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
+            <row>
+                <cell halign="left">Year</cell>
+                <cell>1960</cell>
+                <cell>1965</cell>
+                <cell>1970</cell>
+                <cell>1975</cell>
+                <cell>1980</cell>
+                <cell>1985</cell>
+                <cell>1990</cell>
+                <cell>1995</cell>
+                <cell>2000</cell>
+            </row>
+            <row>
+                <cell halign="left">Min. wage</cell>
+                <cell>1.00</cell>
+                <cell>1.25</cell>
+                <cell>1.60</cell>
+                <cell>2.10</cell>
+                <cell>3.10</cell>
+                <cell>3.35</cell>
+                <cell>3.80</cell>
+                <cell>4.25</cell>
+                <cell>5.15</cell>
+            </row>
+        </tabular></sidebyside>
+        <sidebyside widths="40% 50%" margins="0% 0%" valigns="top middle">
+            <p><ol label="a">
+                <li><p>
+                    Let <m>t</m> represent the number of years after 1960, and plot the data. Is the data linear?
+                </p></li>
+                <li><p>
+                    Draw a line that "fits" the data.
+                </p></li>
+            </ol></p>
+            <image source="images/fig-example-2-1-1"><description>scatterplot of minimum wage</description></image>
+        </sidebyside>
+    </statement>
+    <solution>
+            <p><ol label="a">
+                <li><p>
+                   The graph shown is called a <term>scatterplot</term>. The data are not strictly linear, because the slope is not constant: from 1960 to 1965, the minimum wage increased at an average rate of <m>\dfrac{1.25-1.00}{5}=0.05</m> dollars per year, and from 1970 to 1975, the minimum wage increased at a rate of <m>\dfrac{2.10-1.60}{5}=0.10</m> dollars per year. However, the data points do appear to lie close to an imaginary line.
+                </p></li>
+                <li>
+                    <sidebyside widths="45% 51%" margins="0% 0%" valigns="top middle">
+                    <p>
+                    We would like to draw a line that comes as close as possible to all the data points, even though it may not pass precisely through any of them. In particular, we try to adjust the line so that we have the same number of points above the line and below the line. One possible solution is shown in the figure at right
+                    </p>
+                    <image source="images/fig-example-2-1-1ans"><description>scatterplot of minimum wage</description></image>
+                </sidebyside>
+                </li>
+            </ol></p>
+    </solution>
+</example>
+
+<p>
+    A line that fits the data in a scatterplot is called a <term>regression line</term>. Drawing aregression line by eye is a subjective process. In the Activities Workbook we'll use acalculator to compute a particular regression line called the <term>least-squares regression line</term>, which is widely used in statistics and modeling.
+</p>
+<p>
+    We can still find an equation for a line of best fit using the point-slope formula. We choose two points on the line whose coordinates we can estimate fairly accurately. Note that these two points need not be any of the original data points.
+</p>
+
+
+<exercise><title>QuickCheck 1</title>
+<webwork>
+    <pg-code>       
+        $explain = RadioButtons(
+          ["Choose two data points and use the point-slope formula.",
+          "Use the point-slope formula with the first and last data points.",
+          "The regression line must pass through two data points, and we use the point-slope formula for those points.",
+          "Choose two points on the regression line and use the point-slope formula."],
+          3, 
+        );            
+        </pg-code>
+    <statement>
+        <p>Explain how to find the equation of a regression line.</p>
+        <p><var name="$explain" form="buttons"/></p>      
+    </statement>
+    <solution>
+        <p>Choose two points on the regression line and use the point-slope formula.</p>
+    </solution>
+</webwork></exercise>
+
+<exercise><title>Practice 1</title>
+    <webwork>
+        <pg-code>
+        Context("ImplicitPlane");
+        Context()->variables->add(y=>"Real");
+        $m = (3.35-1.25)/(25-5);
+        $equation = ImplicitPlane("y = 1.25 + $m *(x-5)");   
+        </pg-code>
+        <statement>
+            <p>
+                The regression line in the Example above appears to pass through the points (5, 1.25) and (25, 3.35). Use those points to find an equation for the regression line.
+            </p>
+            <p><var name="$equation" width="12"/> </p>
+        </statement>
+        <solution>
+            <p><m>
+                y = 0.105x+0.725
+            </m></p>
+        </solution>
+    </webwork>
+</exercise>
+
+</subsection>
+
+<subsection><title>Line of Best Fit</title>
+
+
+<example>
+    <statement>
+        <p>
+            An outdoor snack bar collected the following data showing the number of cups of cocoa, <m>C</m>, they sold when the high temperature for the day was <m>T\degree</m> Celsius.
+        </p>
+        <sidebyside><tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
+            <row>
+                <cell align="left">
+                    Temperature (<m>\degree\text{C}</m>), <m>T</m>
+                </cell>
+                <cell>2</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+                <cell>8</cell>
+                <cell>10</cell>
+                <cell>11</cell>
+                <cell>12</cell>
+                <cell>15</cell>
+                <cell>16</cell>
+                <cell>18</cell>
+            </row>
+            <row>
+                <cell align="left">
+                    Cups of cocoa, <m>C</m>
+                </cell>
+                <cell>45</cell>
+                <cell>42</cell>
+                <cell>42</cell>
+                <cell>35</cell>
+                <cell>25</cell>
+                <cell>25</cell>
+                <cell>17</cell>
+                <cell>16</cell>
+                <cell>15</cell>
+                <cell>6</cell>
+            </row>
+        </tabular></sidebyside>
+        <p><ol label="a">
+            <li><p>
+                Make a scatterplot of the data, and draw a regression line
+            </p></li>
+            <li><p>
+                Read values from your line for the number of cups of cocoa that will be sold when the temperature is <m>8\degree\text{C}</m> and when the temperature is <m>16\degree\text{C}</m>.
+            </p></li>
+            <li><p>
+                Find an equation for the regression line.
+            </p></li>
+            <li><p>
+                Use your equation to predict the number of cups of cocoa that will be sold when the temperature is <m>9\degree\text{C}</m>, and when the temperature is <m>24\degree\text{C}</m>
+            </p></li>
+        </ol></p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>
+           <p>
+            The scatterplot and a regression line are shown in the figure.
+            </p>
+            <sidebyside width="85%">
+                <image source="images/fig-example-cocoa"><description>scatterplot with regression line</description></image>
+            </sidebyside>
+            <p>
+                The regression line need not pass through any of the data points, but it should be as close as possible. We try to draw the regression line so that there are an equal number of data points above and below the line.
+            </p>
+        </li>
+        <li>
+            <p>
+                The points <m>(8, 32)</m> and <m>(16, 12)</m> appear to lie on the regression line. According to this model, the snack bar will sell 32 cups of cocoa when the temperature is <m>8\degree\text{C}</m>, and 12 cups when it is <m>16\degree\text{C}</m>. These values are close to the actual data, but not exact.
+            </p>
+        </li>
+        <li>
+            <p>
+                To find an equation for the regression line, we use two points on the line<mdash/>not data points! We will use <m>(8, 32)</m> and <m>(16, 12)</m>. First we compute the slope
+                <md><mrow>
+                    m=\frac{C_2-C_1}{T_2-T_1}=\frac{12-32}{16-8}=-2.5
+                </mrow></md>
+                Next, we apply the point-slope formula. We'll use the point <m>(16, 12)</m>.
+                <md>
+                    <mrow>
+                        C\amp= C_1+m(T-T_1)
+                    </mrow>
+                    <mrow>
+                        C\amp= 12-2.5(T-16)
+                    </mrow>
+                    <mrow>
+                        C\amp= -2.5T+52
+                    </mrow>
+                </md>
+            </p>
+        </li>
+        <li>
+            <p>
+                When <m>T=\alert{9}</m>,
+                <md><mrow>
+                    C=-2.5(\alert{9})+52=29.5
+                </mrow></md>
+                We predict that the snack bar will sell 29 or 30 cups of cocoa when the temperature is <m>9\degree\text{C}</m>. When <m>T = \alert{24}</m>,
+                <md><mrow>
+                    C=-2.5(\alert{24})+52=-8
+                </mrow></md>
+                Because the snack bar cannot sell <m>-8</m> cups of cocoa, this prediction is not useful. (What is the Fahrenheit equivalent of 24°C?)
+            </p>
+        </li>
+    </ol></p></solution>
+</example>
+
+<p>
+    Using a regression line to estimate values between known data points is called <term>interpolation</term>. If the data points lie fairly close to the regression line, then interpolation will usually give a fairly accurate estimate. In the Example above, the estimate of 29 or 30 cups of cocoa at <m>9\degree\text{C} </m> seems reasonable in the context of the data.
+</p>
+<p>
+    Making predictions beyond the range of known data is called <term>extrapolation</term>. Extrapolation can often give useful information, but if we try to extrapolate too far beyond our data, we may get unreasonable results. The conditions that produced the data may no longer hold, as in the Example above, or other unexpected conditions may arise to alter the situation.
+</p>
+
+
+<exercise>
+    <title>QuickCheck 2</title>
+<webwork>
+    <pg-code>
+         $TF = PopUp(
+          ["?","True","False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or false.
+            <ol label="a">
+            <li><p>
+                A scatterplot is a type of linear model. <var name="$TF" form="popup"/>
+            </p></li>
+            <li><p>
+               A regression line should give the same <m>y</m>-values as the data points. <var name="$TF" form="popup"/>
+            </p></li>
+            <li><p>
+                We use interpolation to estimate the <m>y</m>-value at a data point. <var name="$TF" form="popup"/>
+            </p></li>
+            <li><p>
+                Extrapolation is usually more reliable than interpolation. <var name="$TF" form="popup"/>
+            </p></li>
+        </ol></p>
+    </statement>
+    <solution>
+        <p>The statements are all false.</p>
+    </solution>
+</webwork>
+</exercise>
+
+
+
+
+
+
+
+</subsection>
+
+
+<!-- 
+<xi:include href="./section-2-1-exercises.xml" />                
+ -->
+
+
+</section>
+<!-- </book>  </mathbook> -->
