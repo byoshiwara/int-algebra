@@ -447,7 +447,7 @@
     The data in a scatterplot may show a linear trend, even though the individual points are not clustered closely around a line. Scattering of data is common in the social sciences, where many variables may influence a particular situation. Nonetheless, by analyzing the data, we may be able to detect a connection between some of the variables.
 </p>
 
-<example>
+<example xml:id="example-cocoa">
     <statement>
         <p>
             The world's population is growing at different rates in different nations. Many factors, including economic and social forces, influence the birthrate. Is there a connection between birth rates and education levels? The figure below shows the birth rate plotted against the female literacy rate in 148 countries.
@@ -619,9 +619,7 @@
 </subsection>
 
 
-<!-- 
 <xi:include href="./section-2-1-exercises.xml" />                
- -->
 
 
 </section>
