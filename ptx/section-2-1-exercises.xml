@@ -1,0 +1,568 @@
+<?xml version="1.0"?>
+
+
+<!-- Copyright (C) Katherine Yoshiwara      -->
+
+
+<exercises xml:id="section-2-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Problem Set 2.1</title>
+
+<subexercises><title>Skills Practice</title>
+
+    <exercise number="1">
+        <statement>
+            <p><ol label="a">
+                <li><p>
+                    Find the slope, the <m>C</m>-intercept, and the <m>T</m>-intercept for the regression line in <xref ref="example-cocoa" text="type-global" />.
+                </p></li>
+                <li><p>
+                    Explain the meaning of the slope and the intercepts for this situation.
+                </p></li>
+            </ol></p>
+        </statement>
+        <answer>
+            <p>
+                The slope is <m>-2.5</m>, which indicates that the snack bar sells 2.5 fewer cups of cocoa for each <m>1\degree\text{C}</m> increase in temperature. The <m>C</m>-intercept of 52 indicates that 52 cups of cocoa would be sold at a temperature of <m>0\degree\text{C}</m>. The <m>T</m>-intercept of 20.8 indicates that no cocoa will be sold at a temperature of <m>20.8\degree\text{C}</m>.
+            </p>
+        </answer>
+    </exercise>
+
+    <exercise number="2">
+        <statement>
+            <p>
+                Choose the correct graph for each equation. The scales on both axes are the same.
+                <ol label="a" cols="2">
+                    <li><p><m>
+                        y=\dfrac{3}{4}x+2
+                    </m></p></li>
+                    <li><p><m>
+                        y=\dfrac{-3}{4}x+2
+                    </m></p></li>
+                    <li><p><m>
+                        y=\dfrac{3}{4}x-2
+                    </m></p></li>
+                    <li><p><m>
+                        y=\dfrac{-3}{4}x-2
+                    </m></p></li>
+                </ol>
+            </p>
+            <sidebyside widths="36% 36%" margins="5% 5%">
+                <stack>
+                    <image xml:id="fig-hw-2-1-2-I">
+                        <description>positive slope, negative y-intercept</description>
+                        <latex-image>
+                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                        <![CDATA[\tikzset{%
+                        }
+                        \begin{tikzpicture} [scale=.35]
+                        \draw[cyan] (-6,-6) grid (6,6);
+                        \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+                        \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.5) node[above]{$y$};
+                        \draw[red,thick,<->, >=stealth'] (-16/3,-6)--(6,5/2);
+                        \node at (-8,7){\textbf{I}};
+                        \node[text=white] at (-8,-8){I };
+                        \end{tikzpicture}]]>
+                    </latex-image>
+                    </image>
+                    <image xml:id="fig-hw-2-1-2-III">
+                        <description>negative slope, positive y-intercept</description>
+                        <latex-image>
+                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                        <![CDATA[\tikzset{%
+                        }
+                        \begin{tikzpicture} [scale=.35]
+                        \draw[cyan] (-6,-6) grid (6,6);
+                        \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+                        \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.5) node[above]{$y$};
+                        \draw[red,thick,<->, >=stealth'] (-16/3,6)--(6,-5/2);
+                        \node at (-8,7){\textbf{III}};
+                        \node[text=white] at (-8,-8){III };
+                        \end{tikzpicture}]]>
+                    </latex-image>
+                    </image>
+                </stack>
+                <stack>
+                    <image xml:id="fig-hw-2-1-2-II">
+                        <description>positive slope, positive y-intercept</description>
+                        <latex-image>
+                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                        <![CDATA[\tikzset{%
+                        }
+                        \begin{tikzpicture} [scale=.35]
+                        \draw[cyan] (-6,-6) grid (6,6);
+                        \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+                        \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.5) node[above]{$y$};
+                        \draw[red,thick,<->, >=stealth'] (-6,-5/2)--(16/3,6);
+                        \node at (-8,7){\textbf{II}};
+                        \node[text=white] at (-8,-8){ II};
+                        \end{tikzpicture}]]>
+                    </latex-image>
+                    </image>
+                    <image xml:id="fig-hw-2-1-2-IV">
+                        <description>negative slope, negative y-intercept</description>
+                        <latex-image>
+                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                        <![CDATA[\tikzset{%
+                        }
+                        \begin{tikzpicture} [scale=.35]
+                        \draw[cyan] (-6,-6) grid (6,6);
+                        \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+                        \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.5) node[above]{$y$};
+                        \draw[red,thick,<->, >=stealth'] (-16/3,6)--(6,-5/2);
+                        \node at (-8,7){\textbf{III}};
+                        \node[text=white] at (-8,-8){IV };
+                        \end{tikzpicture}]]>
+                    </latex-image>
+                    </image>
+                </stack>
+            </sidebyside>
+        </statement>
+    </exercise>
+
+    <exercisegroup cols="2">
+        <introduction>
+            <p>
+                In Problems 3 and 4, the regression lines can be improved by adjusting either <m>m</m> or <m>b</m>. Draw a line that fits the data points more closely.
+            </p>
+        </introduction>
+
+        <exercise number="3"><statement><sidebyside width="50%"><image source="images/fig-ex-2-1-3"><description>scatterplot and line</description></image></sidebyside></statement>
+            <answer><sidebyside width="40%"><image source="images/fig-ex-2-1-3ans"><description>scatterplot and line</description></image></sidebyside></answer></exercise>
+
+        <exercise number="4"><statement><sidebyside width="50%"><image source="images/fig-ex-2-1-4"><description>scatterplot and line</description></image></sidebyside></statement></exercise>
+
+    </exercisegroup>
+
+    <exercise number="5">
+        <statement>
+            <p><ol label="a">
+                <li>
+                    <p>
+                        Sketch  four different lines through the point <m>(2, 3)</m> with the following slopes:
+                        <md><mrow>
+                            m=\frac{2}{5}, \quad m=\frac{-2}{5}, \quad m=\frac{5}{2}, \quad m=\frac{-5}{2}
+                        </mrow></md>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What do you notice about these lines?
+                    </p>
+                </li>
+            </ol></p>
+        </statement>
+        <answer>
+            <p><ol label="a">
+                <li><sidebyside width="45%" margins="0% 60%">
+                    <image xml:id="fig-ex-2-1-5ans">
+                    <description>four lines through (2,3)</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.4]
+                    \draw[cyan] (-6,-6) grid (6,6);
+                    \draw[black,thick,->,>=stealth'] (-6,0)--(6.6,0) node[right]{$x$};
+                    \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.6) node[above]{$y$};
+                    \draw[samples=2,domain={-6:6},smooth,variable=\x,red,very thick] plot (\x,{(3+2/5*(\x-2))}) node[right]{$m=\frac{2}{5}$};
+                    \draw[samples=2,domain={4/5:28/5},smooth,variable=\x,red,very thick] plot (\x,{(3-5/2*(\x-2))}) node[below]{$m=\frac{-5}{2}$};
+                    \draw[samples=2,domain={-11/2:6},smooth,variable=\x,blue,very thick] plot (\x,{(3-2/5*(\x-2))}) node[right]{$m=\frac{-2}{5}$};
+                    \draw[samples=2,domain={-8/5:16/5},smooth,variable=\x,blue,very thick] plot (\x,{(3+5/2*(\x-2))}) node[above]{$m=\frac{5}{2}$};
+                    \filldraw[black] (2,3) circle (.2);
+                    \end{tikzpicture}]]>
+                </latex-image>
+                </image>
+                </sidebyside></li>
+                <li>
+                    <p>The lines with slope <m>\dfrac{2}{5}</m> and <m>\dfrac{-5}{2}</m> are perpendicular to each other, and the lines with slope <m>\dfrac{-2}{5}</m> and <m>\dfrac{5}{2}</m> are perpendicular to each other.</p>
+                </li>
+            </ol></p>
+        </answer>
+    </exercise>
+
+<exercise number="6">
+    <statement>
+        <p>
+            Choose the correct graph for each equation. The scales on both axes are the same.
+            <ol label="a" cols="2">
+                <li><p><m>
+                    y=1+2(x+3)
+                </m></p></li>
+                <li><p><m>
+                    y=-1+2(x-3)
+                </m></p></li>
+                <li><p><m>
+                    y=-1+2(x+3)
+                </m></p></li>
+                <li><p><m>
+                    y=1+2(x-2)
+                </m></p></li>
+            </ol>
+        </p>
+        <sidebyside widths="36% 36%" margins="5% 5%">
+            <stack>
+                <image xml:id="fig-hw-2-1-6-I">
+                    <description>positive slope, y-intercept -5</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.35]
+                    \draw[cyan] (-6,-9) grid (6,3);
+                    \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+                    \draw[black,thick,->,>=stealth'] (0,-9)--(0,3.5) node[above]{$y$};
+                    \draw[samples=2,domain={-2:4},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(1+2*(\x-3))});
+                    \node at (-8,3){\textbf{I}};
+                    \node[text=white] at (-8,-11){I };
+                    \end{tikzpicture}]]>
+                </latex-image>
+                </image>
+                <image xml:id="fig-hw-2-1-6-III">
+                    <description>positive slope, y-intercept 7</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.35]
+                    \draw[cyan] (-6,-3) grid (6,9);
+                    \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+                    \draw[black,thick,->,>=stealth'] (0,-3)--(0,9.5) node[above]{$y$};
+                    \draw[samples=2,domain={-5:1},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(1+2*(\x+3))});
+                    \node at (-8,9){\textbf{III}};
+                    \node[text=white] at (-8,-5){III };
+                    \end{tikzpicture}]]>
+                </latex-image>
+                </image>
+            </stack>
+            <stack>
+                <image xml:id="fig-hw-2-1-6-II">
+                    <description>positive slope, y-intercept 5</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.35]
+                    \draw[cyan] (-6,-3) grid (6,9);
+                    \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+                    \draw[black,thick,->,>=stealth'] (0,-3)--(0,9.5) node[above]{$y$};
+                    \draw[samples=2,domain={-4:2},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(-1+2*(\x+3))});
+                    \node at (-8,9){\textbf{II}};
+                    \node[text=white] at (-8,-5){II };
+                    \end{tikzpicture}]]>
+                </latex-image>
+                </image>
+                <image xml:id="fig-hw-2-1-6-IV">
+                    <description>positive slope, y-intercept -7</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.35]
+                    \draw[cyan] (-6,-9) grid (6,3);
+                    \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+                    \draw[black,thick,->,>=stealth'] (0,-9)--(0,3.5) node[above]{$y$};
+                    \draw[samples=2,domain={-1:5},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(-1+2*(\x-3))});
+                    \node at (-8,3){\textbf{IV}};
+                    \node[text=white] at (-8,-11){IV };
+                    \end{tikzpicture}]]>
+                </latex-image>
+                </image>
+            </stack>
+        </sidebyside>
+    </statement>
+</exercise>
+
+<exercisegroup>
+    <introduction>
+        <p>
+            In Problems 7 and 8, we find a linear model from two data points.
+            <ol label="a">
+                <li><p>
+                    Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?
+                </p></li>
+                <li><p>
+                    Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?
+                </p></li>
+                <li><p>
+                    State the slope of the line, including units, and explain its meaning in the context of the problem.
+                </p></li>
+            </ol>
+        </p>
+    </introduction>
+
+    <exercise number="7">
+        <statement>
+            <p>
+                On an international flight a passenger may check two bags each weighing 70 kilograms, or 154 pounds, and one carry-on bag weighing 50 kilograms, or 110 pounds. Express the weight, <m>p</m>, of a bag in pounds in terms of its weight,<m>i</m>, in kilograms.
+            </p>
+        </statement>
+        <answer>
+            <p><ol label="a" cols="2">
+                <li><sidebyside width="50%" margins="0% 50%"><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+                    <row>
+                        <cell><m>k</m></cell>
+                        <cell><m>70</m></cell>
+                        <cell><m>50</m></cell></row>
+                    <row>
+                        <cell><m>p</m></cell>
+                        <cell><m>154</m></cell>
+                        <cell><m>110</m></cell></row>
+                    </tabular></sidebyside></li>
+                <li><p><m>p=2.2k </m></p></li>
+                <li><p><m>m =2.2 </m> pounds/kg is the conversion factor from kilograms to pounds</p></li>
+            </ol></p>
+        </answer>
+    </exercise>
+
+    <exercise number="8">
+        <statement>
+            <p>
+                Ms. Randolph bought a used car in 2010. In 2012 the car was worth $9000, and in 2015 it was valued at $4500. Express the value, <m>V</m>, of Ms. Randolph's car in terms of the number of years, <m>t</m>, she has owned it.
+            </p>
+        </statement>
+    </exercise>
+
+</exercisegroup>
+</subexercises>
+
+
+<subexercises><title>Applications</title>
+
+<exercise number="9">
+    <statement>
+        <p>
+            With Americans' increased use of faxes, pagers, and cell phones, new area codes are being created at a steady rate. The table shows the number of areacodes in the US each year. (Source: USA Today, NeuStar, Inc.)
+        </p>
+        <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor"><col halign="left"/><col/><col/><col/><col/><col/><col/><col/>
+                <row bottom="minor">
+                    <cell>Year</cell>
+                    <cell><m>1997</m></cell>
+                    <cell><m>1998</m></cell>
+                    <cell><m>1999</m></cell>
+                    <cell><m>2000</m></cell>
+                    <cell><m>2001</m></cell>
+                    <cell><m>2002</m></cell>
+                    <cell><m>2003</m></cell></row>
+                <row>
+                    <cell>Number of area codes</cell>
+                    <cell><m>151</m></cell>
+                    <cell><m>186</m></cell>
+                    <cell><m>204</m></cell>
+                    <cell><m>226</m></cell>
+                    <cell><m>239</m></cell>
+                    <cell><m>262</m></cell>
+                    <cell><m>274</m></cell></row>
+        </tabular></sidebyside>
+        <p><ol label="a">
+            <li><p>Let <m>t</m> represent the number of years after 1995 and plot the data. Draw a line of best fit for the data points. </p></li>
+            <li><p>Find an equation for your regression line.</p></li>
+            <li><p>How many area codes do you predict for 2010?</p></li>
+        </ol></p>
+    </statement>
+    <answer><p>
+        <ol label="a" cols="2">
+            <li><sidebyside width="80%" margins="0% 20%"><image source="images/fig-hw-2-1-9ans"><description>scatterplot with regression line</description></image></sidebyside></li>
+            <li><p><m>y = 121 + 19.86t</m></p></li>
+            <li><p><m>419 </m></p></li>
+        </ol></p>
+    </answer>
+</exercise>
+
+<exercise number="10">
+    <statement>
+        <p>
+            The table shows the amount of carbon released into the atmosphere annually from burning fossil fuels, in billions of tons, at 5-year intervals from 1950 to 1995. (Source: www.worldwatch.org)
+        </p>
+        <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+            <col halign="left"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+                <row bottom="minor">
+                    <cell>Year</cell>
+                    <cell><m>1950</m></cell>
+                    <cell><m>1955</m></cell>
+                    <cell><m>1960</m></cell>
+                    <cell><m>1965</m></cell>
+                    <cell><m>1970</m></cell>
+                    <cell><m>1975</m></cell>
+                    <cell><m>1980</m></cell>
+                    <cell><m>1985</m></cell>
+                    <cell><m>1990</m></cell>
+                    <cell><m>1995</m></cell></row>
+                <row>
+                    <cell><line>Carbon</line><line>emissions</line></cell>
+                    <cell><m>1.6</m></cell>
+                    <cell><m>2.0</m></cell>
+                    <cell><m>2.5</m></cell>
+                    <cell><m>3.1</m></cell>
+                    <cell><m>4.0</m></cell>
+                    <cell><m>4.5</m></cell>
+                    <cell><m>5.2</m></cell>
+                    <cell><m>5.3</m></cell>
+                    <cell><m>5.9</m></cell>
+                    <cell><m>6.2</m></cell></row>
+            </tabular></sidebyside>
+            <p><ol label="a">
+                <li><p>Let <m>t</m> represent the number of years after 1950 and plot the data. Scale the <m>t</m>-axis from 0 to 50 by 5's, and the <m>C</m> axis from 0 to 7 by 0.5's. </p></li>
+                <li><p>Draw a line of best fit for the data points.</p></li>
+                <li><p>Find an equation for your regression line.</p></li>
+                <li><p>Estimate the amount of carbon released in 1992.</p></li>
+            </ol></p>
+        </statement>
+<!--  (from MFG)      <answer><p><ol label="a">
+                <li><sidebyside width="25%"><image source="images/fig-ans-1-6-21"><description>scatterplot with regression line</description></image></sidebyside></li>
+                <li><p><m>y = 1.6 + 0.11t</m></p></li>
+                <li><p><m>6.2</m> billion tons</p></li>
+            </ol></p>
+        </answer> -->
+</exercise>
+
+<exercise number="11">
+    <statement>
+        <p>Male birds with the largest repertoire of songs are the first to acquire mates in the spring. The table shows the number of different songs sung by severalsedge warblers, and the days on which they acquired their mates, where day 1 is April 20. (Source: Krebs and Davies, 1993)</p>
+        <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+        <col halign="left"/>
+        <col halign="center"/>
+        <col halign="center"/>
+        <col halign="center"/>
+        <col halign="center"/>
+        <col halign="center"/>
+        <col halign="center"/>
+        <col halign="center"/>
+        <col halign="center"/>
+        <col halign="center"/>
+        <col halign="center"/>
+            <row bottom="minor">
+                <cell><line>Number of</line><line>songs, <m>x</m></line></cell>
+                <cell><m>41</m></cell>
+                <cell><m>38</m></cell>
+                <cell><m>34</m></cell>
+                <cell><m>32</m></cell>
+                <cell><m>30</m></cell>
+                <cell><m>25</m></cell>
+                <cell><m>24</m></cell>
+                <cell><m>24</m></cell>
+                <cell><m>23</m></cell>
+                <cell><m>14</m></cell></row>
+            <row>
+                <cell>Pairing day, <m>y</m></cell>
+                <cell><m>20</m></cell>
+                <cell><m>24</m></cell>
+                <cell><m>25</m></cell>
+                <cell><m>21</m></cell>
+                <cell><m>24</m></cell>
+                <cell><m>27</m></cell>
+                <cell><m>31</m></cell>
+                <cell><m>35</m></cell>
+                <cell><m>40</m></cell>
+                <cell><m>42</m></cell>
+            </row>
+            </tabular></sidebyside>
+        <p><ol label="a">
+            <li><p>
+                Plot the data points on graph paper, scale the <m>x</m>-axis from 0 to 65 by 5’s, and the <m>y</m>-axis from 0 to 60 by 5’s.
+            </p></li>
+            <li><p>
+                The least-squares regression line is <m>y = -0.85x + 53</m>. Graph this line on the same grid with the data. (Make a short table of values and plot the points.)
+            </p></li>
+            <li><p>What does the slope of the regression line tell us about sedge warblers?
+            </p></li>
+            <li><p>Use extrapolation to estimate when a sedge warbler that knows 10 songs can expect to find a mate.
+            </p></li>
+            <li><p>What do the intercepts of the regression line represent? Do these values make sense for this situation?
+            </p></li>
+        </ol></p>
+    </statement>
+    <answer>
+        <p><ol label="a">
+            <li>
+                <sidebyside width="35%" margins="0% 0%">
+                    <image xml:id="fig-hw-2-1-11ans">
+                    <description>scatterplot and regression line</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.6]
+                    \draw[cyan] (0,0) grid[step=1/2] (6.5,6);
+                    \draw[black,thick,->,>=stealth'] (0,0)--(7.,0) node[right]{$x$};
+                    \draw[black,thick,->,>=stealth'] (0,0)--(0,6.5) node[above]{$y$};
+                    \foreach \x [evaluate=\x as \xi using int( 10* \x )]  in {1,2,...,6} {
+                      \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\xi};
+                    }
+                    \foreach \x [evaluate=\x as \xi using int( 10* \x )]  in {1,2,...,6} {
+                      \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\xi};
+                    }
+                    \filldraw[blue] (4.1,2.0) circle (.15);
+                    \filldraw[blue] (3.8,2.4) circle (.15);
+                    \filldraw[blue] (3.4,2.5) circle (.15);
+                    \filldraw[blue] (3.2,2.1) circle (.15);
+                    \filldraw[blue] (3.0,2.4) circle (.15);
+                    \filldraw[blue] (2.5,2.7) circle (.15);
+                    \filldraw[blue] (2.4,3.1) circle (.15);
+                    \filldraw[blue] (2.4,3.5) circle (.15);
+                    \filldraw[blue] (2.3,4.0) circle (.15);
+                    \filldraw[blue] (1.4,4.2) circle (.15);
+                    \draw[samples=2,domain=0:{5.3/.85},smooth,variable=\x,red,very thick] plot (\x,{-0.85*\x+5.3 });
+                    \end{tikzpicture}]]>
+                </latex-image>
+                </image>
+                </sidebyside>
+            </li>
+            <li><p>The graph is above.</p></li>
+            <li><p>
+                The slope tells us that the time it takes for a bird to attract a mate decreases by 0.85 days for every additional song it learns.
+            </p></li>
+            <li><p>44.5 days</p></li>
+            <li><p>
+                The <m>C</m>-intercept tells us that a warbler with a repretoire of 53  songs wouold acquire a mate immediately. The <m>B</m>-intercept tells  us that a warbler with no songs would take 62 days to find a mate. These values make sense in context.
+            </p></li>
+        </ol></p>
+    </answer>
+</exercise>
+
+<exercise number="12">
+    <statement>
+        <p>
+             One measure of a person's physical fitness is the body mass index, or BMI. Your body mass index is the ratio of your weight in kilograms to the square ofyour height in meters. The points on the scatterplot show the BMI of Miss America from 1921 to 1991.
+        </p>
+        <sidebyside width="80%">
+            <image source="images/fig-BMI"><description>Miss America BMI</description></image>
+        </sidebyside>
+        <p><ol label="a">
+            <li><p>
+                Use a straightedge to draw a line of best fit on the scatterplot above.
+            </p></li>
+            <li><p>
+                The equation of the least-squares regression line for the data is
+                <md><mrow>y = 20.69 - 0.04t</mrow></md>
+                where <m>t</m> is the number of years since 1920. On the figure above, relabel the horizontal axis with values of <m>t</m>. Then graph this line and compare to your estimated line of best fit.
+            </p></li>
+            <li><p>
+                Do thinner people have higher or lower BMI scores than fatter people? Use the definition of BMI to explain your reasoning
+            </p></li>
+            <li><p>
+                The Center for Disease Control considers a BMI between 18.5 and 24.9 to be healthy. In 2002, Miss America was 5'3" tall and weighed 110 pounds. Calculate her BMI. (You will need to convert inches to meters and pounds to kilograms.)
+            </p></li>
+            <li><p>
+                What BMI score does the regression line predict for Miss America 2002?
+            </p></li>
+            <li><p>
+                There are no data points for the years 1928 to 1932. What happened during those years that might cause this gap?
+            </p></li>
+        </ol></p>
+    </statement>
+</exercise>
+
+
+</subexercises>
+
+</exercises>
