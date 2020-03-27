@@ -20,7 +20,6 @@
 <exercise>
     <title>QuickCheck 1</title>
 <webwork>
-    <setup>
         <pg-code>
             $which = new_checkbox_multiple_choice();
             $which -> qa (
@@ -38,7 +37,7 @@
             "\( x =1\)$BR");
 
         </pg-code>
-    </setup>
+    
     <statement><p>
         Which of the following values are solutions of the equation
         <md><mrow>-2x^3 +x^2+16x =15 ?</mrow></md></p>
@@ -74,9 +73,9 @@
 
 <exercise><title>Practice 1</title>
     <webwork>
-        <setup><pg-code>
+        <pg-code>
             $x = Compute("2");
-        </pg-code></setup>
+        </pg-code>
         <statement><p>
             Find the solution of the equation <m>16 - 2(3x - 1) = 4x + 2(x - 3)</m>.</p>
             <p><m>x=</m><var name="$x" width="3"/>
@@ -170,7 +169,7 @@
 <exercise>
     <title>QuickCheck 2</title>
     <webwork>
-        <setup><pg-code>
+        <pg-code>
             $ineq = RadioButtons(
               ["\(2x &gt; -8  \) has solution \( x\lt -4 \) ",
               "\(-2x &gt; -8  \) has solution \( x\lt 4 \)",
@@ -178,7 +177,7 @@
               "\(x-2 &gt; -8  \) has solution \( x\lt -6 \)"],
               1, 
             );            
-        </pg-code></setup>
+        </pg-code>
         <statement>
             <p>Which of the following are correct solutions of the inequality? </p>
             <p><var name="$ineq" form="buttons"/></p> 
@@ -191,10 +190,10 @@
 
 <exercise><title>Practice 2</title>
     <webwork>
-        <setup><pg-code>
+        <pg-code>
             Context("Inequalities");
             $answer= Compute("x  &lt; 3 ");
-        </pg-code></setup>
+        </pg-code>
         <statement><p>
             Solve the inequality <m>2x + 1 \lt 7</m>, and graph the solutions on a number line.</p>
             <p>Solution: <var name="$answer" width="8"/>
@@ -245,7 +244,7 @@
 <exercise>
     <title>QuickCheck 3</title>
     <webwork>
-        <setup><pg-code>
+        <pg-code>
             $which = RadioButtons(
               ["A value of \(x \) that makes the equation true.",
               "An ordered pair of values \((x,y) \) that satisfy the equation.",
@@ -253,7 +252,7 @@
               "The graph of the equation."],
               1, 
             );            
-        </pg-code></setup>
+        </pg-code>
         <statement>
             <p>What is the solution of an equation in two variables?</p>
             <p><var name="$which" form="buttons"/></p> 
@@ -286,13 +285,13 @@
 
 <exercise xml:id="exercise-table-linear-equation"><title>Practice 3</title>
     <webwork>
-        <setup><pg-code>
+        <pg-code>
             $a14 = Compute("-4");
             $a16 = Compute("4");
             $a22 = Compute("-3");
             $a23 = Compute("0");
             $a25 = Compute("6");
-        </pg-code></setup>
+        </pg-code>
         <statement>
             <p>Find some more solutions of the equation <m>-3x + 4y = 24</m> and complete the table of values:</p>
             <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
@@ -353,7 +352,7 @@
 
 <exercise><title>QuickCheck 4</title>
     <webwork>
-        <setup><pg-code>
+        <pg-code>
             $true = PopUp(
               ["?","True","False"],
               1, # index of correct answer; could also just be the correct answer
@@ -362,7 +361,7 @@
               ["?","True","False"],
               2, # index of correct answer; could also just be the correct answer
             );
-        </pg-code></setup>
+        </pg-code>
         <statement>
             <p>True or false?</p>
             <p><ol>
@@ -438,14 +437,14 @@
     </image>
     </sidebyside></introduction>
     <webwork>
-        <setup><pg-code>
+        <pg-code>
             $which = RadioButtons(
               ["\( (-13,4) \)",
               " \( (-1.6,4.8) \)",
               " \( (1.125,7) \)"],
               1, 
             ); 
-        </pg-code></setup>
+        </pg-code>
         <statement><p>
             On the grid above, plot the points you found in Practice 3. All the points should lie on a straight line; draw the line with a ruler or straightedge. Which of the following points lie on the graph?</p>
             <p><var name="$which" form="buttons"/></p>
@@ -540,9 +539,9 @@
     </image>
 </sidebyside></introduction>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         $answer = Compute("-2.5");
-    </pg-code></setup>
+    </pg-code>
     <statement>
         <p><ol label="a">
             <li><p>Use the graph of <m>y = 30 - 8x</m> to solve the equation <m>30 - 8x = 50</m>.Follow the steps:
@@ -637,10 +636,10 @@
     </image>
 </sidebyside></introduction>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         Context("Inequalities");
         $answer = Compute("x &gt; 2");
-    </pg-code></setup>
+    </pg-code>
     <statement>
         <p><ol label="a">
             <li><p>Use the graph of <m>y = 30 - 8x</m> to solve the equation <m>30 - 8x \lt 14</m>.
@@ -717,10 +716,10 @@
 
 <exercise><title>Practice 7</title>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         Context()->flags->set( reduceConstants => 0, reduceConstantFunctions => 0,  );
         $f = Formula("3/4 x + 6");
-    </pg-code></setup>
+    </pg-code>
     <statement><p>
         <ol label="a">
             <li><p>Solve the equation <m>-3x + 4y = 24</m> for <m>y</m> in terms of <m>x</m>.</p>
@@ -787,10 +786,10 @@
 
 <exercise><title>Practice 8</title>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         Context("Point");
         $answer = Point("(-2.5,-122)");
-    </pg-code></setup>
+    </pg-code>
     <statement>
         <ol label="a">
             <li><p>

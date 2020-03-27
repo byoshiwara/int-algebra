@@ -30,14 +30,13 @@
 <exercise>
     <title>QuickCheck 1</title>
 <webwork>
-    <setup>
         <pg-code>
              $which1 = PopUp(
               ["?","rate","integer", "price"],
               1, 
             );
         </pg-code>
-    </setup>
+    
     <statement><p>
         A ratio that compares two quantities with different units is called a <var name="$which1" form="popup"/>.
     </p></statement>
@@ -70,7 +69,7 @@
 
 <exercise><title>Practice 1</title>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         $rate = 34/5;
         $answer = Compute("$rate");
         $units = PopUp(["?",
@@ -80,7 +79,7 @@
         "hours per mile"],
           3, 
         );
-    </pg-code></setup>
+    </pg-code>
     <statement>
         <p>
             Delbert biked 34 miles in 5 hours. Use a ratio to calculate his average speed.
@@ -144,7 +143,7 @@
 
 <exercise><title>QuickCheck 2</title>
 <webwork>
-    <setup><pg-code>       
+    <pg-code>       
             $step1 = RadioButtons(
               ["A triangle",
               "Speed",
@@ -152,7 +151,7 @@
               "Coordinate"],
               2, 
             );            
-        </pg-code></setup>
+        </pg-code>
     <statement>
         <p>What does the symbol <m>\Delta</m> stand for?</p>
         <p><var name="$step1" form="buttons"/></p>      
@@ -166,7 +165,7 @@
 
 <exercise><title>Practice 2</title>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         $rate = (421-127)/(10-4);
         $answer = Compute("$rate");
         $units = PopUp(["?",
@@ -176,7 +175,7 @@
         "hours per mile"],
           3, 
         );
-    </pg-code></setup>
+    </pg-code>
     <statement>
         <p>
             Nelson is a long-distance truck driver. On a recent trip through the Midwest,he noted these odometer readings:
@@ -247,7 +246,7 @@
 
 <exercise><title>QuickCheck 3</title>
 <webwork>
-    <setup><pg-code>       
+    <pg-code>       
             $button = RadioButtons(
               ["The \(y\)-axis",
               "Slope",
@@ -255,7 +254,7 @@
               "The doordinate of a point"],
               1, 
             );            
-        </pg-code></setup>
+        </pg-code>
     <statement>
         <p>What feature of a graph illustrates rate of change?</p>
         <p><var name="$button" form="buttons"/></p>      
@@ -285,7 +284,7 @@
 
 <exercise><title>QuickCheck 4</title>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         $answer = RadioButtons(
               ["From one end of the graph to the other.",
               "As we move up the \(y\)-axis.",
@@ -293,7 +292,7 @@
               "For each unit of increase in the \(x\)-coordinate."],
               3, 
             );      
-    </pg-code></setup>
+    </pg-code>
     <statement>
         <p>
            The slope of a line tells us how much the <m>y</m>-coordinate changes
@@ -549,12 +548,12 @@
     </image>
 </sidebyside></introduction>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         $m = -225/6;
         $slope = Compute("$m");
         $dely = -$m;
         $length = Compute("$dely");
-    </pg-code></setup>
+    </pg-code>
     <statement>
         <p><ol>
             <li><p>Compute the slope of the line.</p>
@@ -708,7 +707,7 @@
         </sidebyside>
     </introduction>
     <webwork>
-        <setup><pg-code>
+        <pg-code>
             $rate= (150-25)/10;
             $m = Compute("$rate");
 
@@ -727,7 +726,7 @@
               "The cost to use the dump site"],
               0, 
             );            
-        </pg-code></setup>
+        </pg-code>
         <statement>
             <p>
                 The graph shows the amount of garbage <m>G</m> (in tons) that has been deposited at a dumpsite <m>t</m> years after new regulations go into effect.
@@ -829,7 +828,7 @@
 
 <exercise><title>QuickCheck 5</title>
 <webwork>
-    <setup><pg-code>       
+    <pg-code>       
             $Button = RadioButtons(
               ["The equation of a line",
               "The general linear formula",
@@ -837,7 +836,7 @@
               "\(D=RT\)"],
               2, 
             );            
-        </pg-code></setup>
+        </pg-code>
     <statement>
         <p>What formula can we use to find <m>\Delta y</m> when we know <m>\Delta x</m>, or <m>\Delta x</m> when we know <m>\Delta y</m>?</p>
         <p><var name="$Button" form="buttons"/></p>      
@@ -898,9 +897,9 @@
 
 <exercise><title>Practice 5</title>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
         $answer= NumberWithUnits("2.4 ft");
-    </pg-code></setup>
+    </pg-code>
     <statement>
         <p>
             A wheelchair ramp can have a slope of no more than 24%, or 0.24. What height can the wheelchair ramp climb over a horizontal distance of 10 feet?
@@ -925,7 +924,7 @@
 
 <exercise><title>QuickCheck 6</title>
 <webwork>
-    <setup><pg-code>       
+    <pg-code>       
             $Pick = RadioButtons(
               ["Plot them and look at the graph.",
               "Calculate the slopes between points.",
@@ -933,7 +932,7 @@
               "It depends on the scales on the axes."],
               1, 
             );            
-        </pg-code></setup>
+        </pg-code>
     <statement>
         <p>How can we can tell whether a collection of data points lies on a straight line?</p>
         <p><var name="$Pick" form="buttons"/></p>      
@@ -978,7 +977,7 @@
 
 <exercise><title>Practice 6</title>
 <webwork>
-    <setup><pg-code>
+    <pg-code>
          $YN = PopUp(
           ["?","Yes","No"],
           2, 
@@ -989,7 +988,7 @@
           ],
           1, 
         );            
-     </pg-code></setup>
+     </pg-code>
      <statement>
          <p>
              Could this table represent a linear equation? <var name="$YN" form="popup"/>
