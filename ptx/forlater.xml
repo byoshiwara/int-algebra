@@ -1,0 +1,26 @@
+<p>Some examples of quadratic equations are    
+    <me>2x^2+5x-3=0,~~~~~~7t-t^2=0,~~~~~~\text{and}~~~~~~3w^2=16</me>
+The first equation is already written in standard form, with <m>a=2,~b=5,~</m> and <m>~c=3.~</m> In standard form, the other two equations are 
+    <md><mrow>-t^2+7t \amp = 0 \amp \amp \text{so}~~~~a=-1,~b=7,~c=0</mrow>
+        <mrow>3w^2+0w-16 \amp = 0 \amp \amp \text{so}~~~~a=3,~b=0,~c=-16</mrow></md>
+The numbers <m>a,~b,</m> and <m>c</m> are called <term>parameters</term>.  They are the coefficients of, respectively, the quadratic term (the <m>x^2</m>-term), the linear term (the <m>x</m>-term), and the constant term.  Note that the <m>x^2</m>-term and the <m>x</m>-term in a quadratic expression are not like terms, so they cannot be combined.</p>
+</introduction>
+
+<exercise><title>QuickCheck 1</title>
+<webwork><pg-code>       
+            $step1 = RadioButtons(
+              ["\(3x+2x^2=1\)",
+              "\(4x^3-2x^2+2=0\)",
+              "\(36y-16=0\)",
+              "\(v^2=6v\)"],
+              1, 
+            );            
+        </pg-code>
+    <statement>
+        <p>Which of the following equations are quadratic?</p>
+        <p><var name="$step1" form="buttons"/></p>      
+    </statement>
+    <solution>
+        <p>1 and 4</p>
+    </solution>
+</webwork></exercise>

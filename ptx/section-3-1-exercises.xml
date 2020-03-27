@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+
+
+<!-- Copyright (C) Katherine Yoshiwara      -->
+
+
+<exercises xml:id="section-3-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Set 3.1</title>
+    
+<subexercises><title>Skills Practice</title>
+
+<exercise number="1"><statement><p>Solve. Remember that every positive number has two square roots.<ol label="a" cols="2">
+        <li><p><m>3x^2=147</m></p></li>
+        <li><p><m>4x^2=25 </m></p></li></ol></p></statement>
+    <answer><p><ol label="a" cols="2">
+        <li><p><m>\pm 7</m></p></li>
+        <li><p><m>\pm \drac{5}{2}</m></p></li></ol></p></answer></exercise>
+
+<exercise number="2"><statement><p>Solve. Round your answers to two decimal places.<ol label="a" cols="2">
+        <li><p><m>3x^2=15</m></p></li>
+        <li><p><m>0.4x^2=2x^2-8.6</m></p></li></ol></p></statement>
+    <answer><p><ol label="a" cols="2">
+        <li><p><m>\pm 2.24</m></p></li>
+        <li><p><m>\pm 2.32</m></p></li></ol></p></answer></exercise>
+
+<exercise number="3"><statement><p><ol label="a">
+        <li><p>Complete the table and graph <m>~y=2x^2-5</m>.  
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~x~</m></cell>
+                        <cell><m>-3~</m></cell>
+                        <cell><m>-2~</m></cell>
+                        <cell><m>-1~</m></cell>
+                        <cell><m>~0~</m></cell>
+                        <cell><m>~1~</m></cell>
+                        <cell><m>~2~</m></cell>
+                        <cell><m>~3~</m></cell></row>
+                    <row> 
+                        <cell><m>~y~</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p>
+            <sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside></li>
+        <li>Use the graph to solve the equation <m>~2x^2-5=7</m>. Show your work on the graph. How many solutions did you find?</li></ol></p></statement>
+        <answer><p><ol label="a">
+            <li><sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside></li>
+            <li>Two solutions. <m>\approx \pm 2.5</m></li></ol></p></answer></exercise>
+
+<exercise number="4"><statement><p>Solve the equation <m>~2x^2-5=7~</m> algebraically, by "undoing" each operation. (Remember that every positive number has two square roots.)</p></statement>
+    <answer><m>\pm \sqrt{6}</m></answer></exercise>   
+
+<exercisegroup cols="2"><introduction><p>For problems 5-8, Solve by extracting roots. Give exact values for your answers.
+</p></introduction>
+
+<exercise number="5"><statement><p><m>3x^2-9=0</m></p></statement>
+    <answer><p><m>\pm \sqrt{3}</m></p></answer></exercise>
+
+<exercise number="6"><statement><p><m>\dfrac{3x^2}{5}=6</m></p></statement></exercise>
+
+ <exercise number="7"><statement><p><m>(2x-1)^2=16</m></p></statement>
+    <answer><p><m>\dfrac{5}{2},~\dfrac{-3}{2} </m></p></answer></exercise>
+
+<exercise number="8"><statement><p><m>4(x-1)^2=12</m></p></statement></exercise>       
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For problems 9 and 10, solve by extracting roots. Round your answers to two decimal places.</p></introduction>
+        
+<exercise number="9"><statement><p><m>5x^2-97=3.2x^2-38</m></p></statement>
+    <answer><p><m>\pm 5.73</m></p></answer></exercise>
+
+<exercise number="10"><statement><p><m>17-\dfrac{x^2}{4}=43-x^2</m></p></statement></exercise>        
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For problems 11 and 14, solve the formula for the specified variable.
+</p></introduction>
+        
+<exercise number="11"><statement><p><m>F=\dfrac{mv^2}{r},~</m> for <m>v</m></p></statement>
+    <answer><p><m>\pm \dfrac{Fr}{m}</m></p></answer></exercise>
+
+<exercise number="12"><statement><p><m>S=4 \pi r^2,~</m> for <m>r</m></p></statement></exercise>  
+
+<exercise number="13"><statement><p><m>L=\dfrac{8}{\pi^2}T^2,~</m> for <m>T</m></p></statement>
+    <answer><p><m>\pm pi \sqrt{\dfrac{L}{8}}</m></p></answer></exercise>
+
+<exercise number="14"><statement><p><m>s=4 \dfrac{1}{2}gt^2,~</m> for <m>t</m></p></statement></exercise>      
+</exercisegroup>
+</subexercises>
+
+<subexercises><title>Applications</title>
+
+<exercisegroup><introduction><p>For problems 15 and 16, <ol label="a">
+    <li>Make a sketch of the situation described, and label a right triangle.</li>
+    <li>Use the Pythagorean theorem to solve each problem.</li></ol></p></introduction>
+
+<exercise number="15"><statement><p>The size of a TV screen is the length of its diagonal.  If the width of a 35-inch 
+    TV screen is 28 inches, what is its height?</p></statement>
+    <answer>21 in</answer></exercise>
+
+<exercise number="16"><statement><p>If a 30-meter pine tree casts a shadow of 30 meters, how far is the tip of the shadow from the top of the tree? </p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For problems 17 and 18, <ol label="a">
+    <li>Use technology to graph the quadratic equation in the suggested window.</li>
+    <li>Use your graph to find two solutions for the equation in part (b).</li>  
+    <li>Check your solutions algebraically, using mental arithmetic.</li></ol></p></introduction>
+
+<exercise number="17"><statement><p><ol label="a">
+    <li><m>y=3(x-4)^2</m>
+        <md><mrow>\text{Xmin} \amp = -5 \amp \amp \text{Ymin} = -20</mrow>
+            <mrow>\text{Xmax} \amp = 15 \amp \amp \text{Ymax}  = 130</mrow></md></li>
+    <li><m>3(x-4)^2 = 108</m></li></ol></p></statement>
+    <answer> b. 10, -2</answer></exercise>
+
+<exercise number="18"><statement><p><ol label="a">
+    <li><m>y=\dfrac{1}{2}(x+3)^2</m>
+        <md><mrow>\text{Xmin} \amp = -15 \amp \amp \text{Ymin}  = -5</mrow>
+            <mrow>\text{Xmax} \amp = 5 \amp \amp \text{Ymax}  = 15</mrow></md></li>
+    <li><m>\dfrac{1}{2}(x+3)^2 = 8</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="19"><statement><p>You plan to deposit your savings of $1600 in an account that compounds interest annually.<ol label="a">
+    <li>Write a formula for the amount, <m>A</m>, in your savings account after two years in terms of the interest rate, <m>r</m>.</li>
+    <li>Complete the table showing your account balance after two years for various interest rates.
+
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~r~</m></cell>
+                        <cell><m>0.02</m></cell>
+                        <cell><m>0.04</m></cell>
+                        <cell><m>0.06</m></cell>
+                        <cell><m>0.08</m></cell></row>
+                    <row> 
+                        <cell><m>~A~</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>To the nearest tenth of a percent, what interest rate will you require if you want your $1600 to grow to $2000 in two years?</li>
+    <li>Use your calculator to graph the formula for the account balance.  Locate the point on the graph that corresponds to the amount in part (b).</li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li><m>A=1600(1+r)^2</m></li>
+        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~r~</m></cell>
+                        <cell><m>0.02</m></cell>
+                        <cell><m>0.04</m></cell>
+                        <cell><m>0.06</m></cell>
+                        <cell><m>0.08</m></cell></row>
+                    <row> 
+                        <cell><m>~A~</m></cell>
+                        <cell><m>1664.64</m></cell>
+                        <cell><m>1730.56</m></cell>
+                        <cell><m>1797.76</m></cell>
+                        <cell><m>1866.24</m></cell></row>
+                    </tabular></sidebyside></li>
+        <li>11.8%</li></ol></p></answer></exercise>
+
+<exercise number="20"><statement><p>Two years ago Carol's living expenses were $1200 per month. This year the same items cost Carol $1400 per month. What was the annual inflation rate for the past two years?</p></statement></exercise>
+
+<exercise number="21"><statement><p><ol label="a">
+    <li>Write a formula for the volume of the bottle in terms of its radius.</li>
+    <li><p>Complete the table of values for the volume equation. If you cut the radius of the bottle in half, by what factor does the volume decrease?
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~r~</m></cell>
+                        <cell><m>~1~</m></cell>
+                        <cell><m>~2~</m></cell>
+                        <cell><m>~3~</m></cell>
+                        <cell><m>~4~</m></cell>
+                        <cell><m>~5~</m></cell>
+                        <cell><m>~6~</m></cell>
+                        <cell><m>~7~</m></cell>
+                        <cell><m>~8~</m></cell></row>
+                    <row> 
+                        <cell><m>~V~</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li>What radius should the bottle have if it must hold 240 milliliters of shampoo? (A milliliter is equal to one cubic centimeter.)</li>
+    <li>Use your calculator to graph the volume equation. (Use the table to help you choose a suitable window.) Locate the point on the graph that corresponds to the bottle in part (c). Make a sketch of your graph, and lable the scales on the axes.</li></ol></p></statement>
+    <answer><ol label="a">
+        <li><m>V=62.8r^2</m></li>
+        <li><m>\dfrac{1}{4}</m></li>
+        <li>1.96 cm</li></ol></answer></exercise>
+
+    </subexercises>
+
+</exercises>
