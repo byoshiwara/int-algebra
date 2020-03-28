@@ -16,6 +16,7 @@
     </introduction>
 
     <xi:include href="./section-2-1.xml" />  <!-- Linear Regression -->
+    <xi:include href="./section-2-2.xml" />  <!-- Linear Systems -->
         
 
 </chapter> 
