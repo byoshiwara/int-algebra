@@ -410,12 +410,207 @@
     </solution>
 </example>
 
+<exercise>
+    <title>QuickCheck 3</title>
+<webwork>
+    <pg-code>
+        $typeI =  PopUp(
+        ["?","dependent","inconsistent", "consistent and independent"],
+        2, 
+        );
+        $typeD =  PopUp(
+        ["?","dependent","inconsistent", "consistent and independent"],
+        1, 
+        );
+        $typeC =  PopUp(
+        ["?","dependent","inconsistent", "consistent and independent"],
+        3, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            Complete the statements.
+            <ol label="a">
+            <li><p>
+                If two lines have the same slope but different <m>y</m>-intercepts, the system is <var name="$typeI" form="popup"/>
+            </p></li>
+            <li><p>
+               If two lines have the same slope and the same <m>y</m>-intercept, the system is <var name="$typeD" form="popup"/>
+            </p></li>
+            <li><p>
+                If two lines have the same <m>y</m>-intercept but different slopes, the system is <var name="$typeC" form="popup"/>
+            </p></li>
+            <li><p>
+                If both lines are horizontal, the system is <var name="$typeD" form="popup"/>
+            </p></li>
+        </ol></p>
+    </statement>
+    <solution>
+        <p><ol>
+            <li><p>Inconsistent</p></li>
+            <li><p>Dependent</p></li>
+            <li><p>Consistent and independent</p></li>
+            <li><p>Dependent</p></li>
+        </ol></p>
+    </solution>
+</webwork>
+</exercise>
+
+<exercise>
+    <title>Practice 3</title>
+    <webwork>
+        <pg-code>
+            $type =  PopUp(
+            ["?","dependent","inconsistent", "consistent and independent"],
+            2, 
+            );
+            
+        </pg-code>
+        <statement>
+            <p><ol label="a">
+                <li><p>Graph the system
+                    <md>
+                        <mrow>y = -3x + 6</mrow>
+                        <mrow>6x + 2y = 15</mrow>
+                    </md>
+                    by hand, using either the intercept method or the slope-intercept method.</p></li>
+                <li><p>Identify the system as dependent, inconsistent, or consistent and independent.</p>
+                <p><var name="$type" form="popup"/> </p></li>
+            </ol></p>
+        </statement>
+        <solution>
+            <p><ol label="a" cols="2">
+                <li><p>A graph is below.</p></li>
+                <li><p>Inconsistent: The graph consists of parallel lines.</p></li>
+            </ol></p>
+        </solution>
+    </webwork>
+    <conclusion>
+        <sidebyside width="30%"><image source="images/fig-in-ex-ans-8-1-5"><description>parallel lines</description></image></sidebyside>
+    </conclusion>
+</exercise>
 
 </subsection>
 
-<!-- 
+<subsection><title>Applications</title>
+
+<p>
+    Systems of equations are useful in many applied problems. One example involves supply and demand. The owner of a retail business must try to balance the demand for his product from consumers with the supply he can obtain from manufacturers. Supply and demand both vary with the price of the product: consumers usually buy fewer items if the price increases, but manufacturers will be willing to supply more units of the product if its price increases.
+</p>
+<p>
+    The <term>demand equation</term><idx>demand equation</idx> gives the number of units of the product that consumers will buy at a given price. The <term>supply equation</term><idx>supply equation</idx> gives the number of units that theproducer will supply at that price. The price at which the supply and demand are equal is called the <term>equilibrium price</term><idx>equilibrium price</idx>. This is the price at which the consumer and the producer agree to do business
+</p>
+
+
+
+<example>
+    <statement>
+        <p>
+            A woolens mill can produce <m>400x</m> yards of fine suit fabric if it can charge <m>x</m> dollars per yard. The mill's clients in the garment industry will buy <m>6000 - 100x</m> yards of wool fabric at a price of <m>x</m> dollars per yard. Find the equilibrium price and the amount of fabric that will change hands at that price.
+        </p>
+    </statement>
+    <solution>
+        <p>
+           <ul>
+                <li><title>Step 1</title>
+                    <p>We choose variables for the unknown quantities.</p>
+                    <sidebyside width="30%" margins="0% 0%"><tabular>
+                            <row><cell>Price per yard:</cell>
+                                <cell><m>x</m></cell></row>
+                            <row><cell>Number of yards:</cell>
+                                <cell><m>y</m></cell></row>
+                    </tabular></sidebyside>
+                </li>
+                <li><title>Step 2</title>
+                    <p>The supply equation tells us how many yards of fabric the mill will produce for a price of <m>x</m> dollars per yard.
+                        <me>y=400x</me>
+                    The demand equation tells us how many yards of fabric the garment industry will buy at a price of <m>x</m> dollars per yard.
+                            <me>y = 6000 - 100x</me></p>
+                </li>
+                <li><title>Step 3</title>
+                    <p>We graph the two equations on the same set of axes, as shown below. We set the window values to
+                    <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 94</mrow>
+                        <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 6200</mrow></md>
+                    and use the <c>TRACE</c> or the <term>intersect</term> command to locate the solution. The graphs intersect at the point <m>(12, 4800)</m>.
+                    </p>
+                    <sidebyside  width="40%"><image source="images/fig-GC-equilibrium.png"><description>GC graph of supply and demand of wool fabric</description></image></sidebyside>         </li>
+                <li><title>Step 4</title>
+                    <p>The equilibrium price is $12 per yard, and the mill will sell 4800 yards of fabric at that price.</p>
+                </li>
+            </ul>
+        </p>
+    </solution>
+</example>
+
+<p>
+    A business venture calculates its <term>profit</term> by subtracting its <term>costs</term> from its <term>revenue</term>, the amount of money it takes in from sales.
+    <md><mrow>
+        \blert{\text{Profit} = \text{Revenue} -\text{Cost}}
+    </mrow></md>
+    Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs,the cost of labor and materials to produce its product. Revenue is the product ofthe selling price per item times the number of items sold. If the company’s revenueexactly equals its costs (so that their profit is zero), we say that the business venturewill <term>break even</term><idx>break even</idx>.
+</p>
+
+<exercise><title>Practice 4</title>
+<webwork>
+    <pg-code>
+        $C = Formula("200+4x");
+        $R = Formula("12x");
+        Context("Point");
+        $a = Point("(25,300)");
+        $n = Compute("25");
+    </pg-code>
+    <statement>
+        <p>
+            The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.
+            <ol label="a">
+                <li><p>
+                    Express the cost <m>C</m> of production in terms of the number <m>x</m> of pendants produced.
+                </p>
+                <p><m>C=</m><var name="$C" width="7"/>
+                </p></li>
+                <li><p>
+                    Express the revenue <m>R</m> in terms of the number <m>x</m> of pendants sold.
+                </p>
+                <p><m>R=</m><var name="$R" width="7"/>
+                </p></li>
+                <li><p>
+                    Graph the revenue and cost on the same set of axes. (Find the intercepts of each equation to help you choose a window for the graph.) State the solution of the system.
+                </p>
+                <p>Solution <var name="$a" width="6"/> Give the solution as an ordered pair.
+                </p></li>
+                <li><p>
+                    How many pendants must be sold for the Aquarius company to break even on a particular production run?
+                </p>
+                <p>The must sell <var name="$n" width="2"/> pendants to break even.
+                </p></li>
+            </ol>            
+        </p>
+    </statement>
+    <solution>
+        <p>           
+            <ol label="a">
+                <li><p>
+                    <m>C=200+4x</m>
+                </p></li>
+                <li><p>
+                    <m>R=12x</m>
+                </p></li>
+                <li><p>
+                    <m>(25,300)</m>
+                </p></li>
+                <li><p>
+                    They must sell 25 pendants in order to break even.
+                </p></li>
+            </ol>            
+        </p>
+    </solution>
+</webwork>
+
+</exercise>
+
+</subsection>
+
 <xi:include href="./section-2-2-exercises.xml" />                
- -->
 
 
 </section>
