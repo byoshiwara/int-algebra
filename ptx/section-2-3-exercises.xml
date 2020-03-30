@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+
+
+<!-- Copyright (C) Katherine Yoshiwara      -->
+
+
+<exercises xml:id="section-2-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Problem Set 2.3</title>
+
+<subexercises><title>Skills Practice</title>
+
+<exercise number="1">
+    <statement>
+        <p>
+            Solve the system by <term>substitution</term>:
+            <m>
+                \begin{aligned}[t]
+                2x \amp = y+7\\
+                2y \amp = 14-3x
+                \end{aligned}
+            </m>
+            <ul>
+                <li><p>Step 1</p>
+                <p>Choose one of the equations, and solve for one of the variables.</p>
+                </li>
+                <li><p>Step 2</p>
+                <p>Substitute this new expression for <m>x</m> or <m>y</m> into the other equation.</p>
+                </li>
+                <li><p>Step 3</p>
+                    <p>Notice that the new equation has only one variable. Solve the equation.</p>
+                </li>
+                <li><p>Step 4</p>
+                    <p>Substitute the answer to Step 3 into the result of Step 1 to find the other variable. Write your solution as an ordered pair.</p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+    <answer>
+        <p><m>(4,1) </m></p>
+    </answer>
+</exercise>
+
+<exercise number="2">
+    <statement>
+        <p>
+            Solve the system by <term>elimination</term>:
+            <m>
+                \begin{aligned}[t]
+                3x+5y \amp = 1\\
+                2x-3y \amp = 7
+                \end{aligned}
+            </m>
+            <ul>
+                <li><p>Step 1</p>
+                <p>We choose to eliminate <m>x</m>. Multiply the first equation by <m>2</m> and the second equation by <m>-3</m>. (Why?)
+                <md>
+                    <mrow>\alert{2}[3x+5y=1] \amp\rightarrow \hphantom{other side of equation} </mrow>
+                    <mrow>\alert{-3}[2x-3y=7] \amp\rightarrow \hphantom{other side of equation} </mrow>
+                </md>
+                </p>
+                </li>
+                <li><p>Step 2</p>
+                <p>The coefficients of <m>x</m> are now opposites. Add the two equations together.</p>
+                </li>
+                <li><p>Step 3</p>
+                    <p> Solve the new equation for the remaining variable.</p>
+                </li>
+                <li><p>Step 4</p>
+                    <p>Use substitution to find the other variable. Write your solution as an ordered pair.</p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</exercise>
+
+<exercisegroup cols="2"><introduction>
+    <p>
+        For Problems 3 and 4, clear the fractions in each equation first, then solve the sys-tem by substitution or by linear combinations.
+    </p>
+</introduction>
+
+    <exercise number="3">
+        <statement>
+            <p> <m>
+                \begin{aligned}[t]
+                \dfrac{x}{4} \amp = \dfrac{y}{3}-\dfrac{5}{12} \\
+                \dfrac{y}{5} \amp = \dfrac{1}{2}-\dfrac{x}{10}
+                \end{aligned}
+            </m> </p>
+        </statement>
+        <answer>
+            <p><m>(1,2) </m></p>
+        </answer>
+    </exercise>
+
+    <exercise number="4">
+        <statement>
+            <p> <m>
+                \begin{aligned}[t]
+                \dfrac{t}{3} \amp = \dfrac{w}{3}+2 \\
+                \dfrac{w}{3} \amp = \dfrac{t}{6}-1
+                \end{aligned}
+            </m> </p>
+        </statement>
+    </exercise>
+
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction>
+    <p>
+        For Problems 5 and 6, use linear combinations to identify each system as dependent, inconsistent, or consistent and independent.
+    </p>
+</introduction>
+
+    <exercise number="5">
+        <statement>
+            <p> <m>
+                \begin{aligned}[t]
+                2n-5p \amp = 6 \\
+                \dfrac{15p}{2}+9 \amp = 3n
+                \end{aligned}
+            </m> </p>
+        </statement>
+        <answer><p>Dependent</p></answer>
+    </exercise>
+
+    <exercise number="6">
+        <statement>
+            <p> <m>
+                \begin{aligned}[t]
+                -3x=4y+8 \\
+                \dfrac{1}{2}x + \dfrac{4}{3}  = \dfrac{-2}{3}y
+                \end{aligned}
+            </m> </p>
+        </statement>
+    </exercise>
+
+</exercisegroup>
+
+
+
+
+
+</subexercises>
+
+
+<subexercises><title>Applications</title>
+
+
+
+</subexercises>
+
+</exercises>

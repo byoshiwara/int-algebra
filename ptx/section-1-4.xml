@@ -814,8 +814,8 @@
 </sidebyside>
 <p>
    <md>
-       <mrow>m \amp=\frac{\Delta y}{\Delta x} \amp\amp\blert{\text{Substitute the known values.}} </mrow>
-       <mrow>\frac{2}{3} \amp= \frac{\Delta y}{9} \amp\amp \blert{\text{Solve for }\Delta y.} </mrow>
+       <mrow>m \amp=\frac{\Delta y}{\Delta x} \amp\amp\bluetext{\text{Substitute the known values.}} </mrow>
+       <mrow>\frac{2}{3} \amp= \frac{\Delta y}{9} \amp\amp \bluetext{\text{Solve for }\Delta y.} </mrow>
        <mrow>\Delta y \amp = 9 \left(\frac{2}{3} \right)=6</mrow>
    </md>
 </p>
@@ -880,10 +880,10 @@
         <p>
             <md>
                 <mrow>
-                    0.24 \amp = \frac{4}{\Delta x} \amp\amp \blert{\text{Multiply both sides by }\Delta x.}
+                    0.24 \amp = \frac{4}{\Delta x} \amp\amp \bluetext{\text{Multiply both sides by }\Delta x.}
                 </mrow>
                 <mrow>
-                    0.24 \Delta x \amp = 4 \amp\amp \blert{\text{Divide both sides by }0.24.}
+                    0.24 \Delta x \amp = 4 \amp\amp \bluetext{\text{Divide both sides by }0.24.}
                 </mrow>
                 <mrow>
                     \Delta x\amp = \frac{4}{0.24}=16.\overline{6}

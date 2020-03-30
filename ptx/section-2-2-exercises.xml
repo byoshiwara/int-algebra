@@ -5,7 +5,7 @@
 
 
 <exercises xml:id="section-2-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Problem Set 2.1</title>
+    <title>Problem Set 2.2</title>
 
 <subexercises><title>Skills Practice</title>
 
@@ -94,7 +94,7 @@
                            <cell><m>\text{Ymin}=-10</m></cell>
                         </row>
                         <row>
-                           <cell><m>\text{Xmax}=-9.4 \qquad</m></cell>
+                           <cell><m>\text{Xmax}=9.4 \qquad</m></cell>
                                <cell><m>\text{Ymax}=10</m></cell>
                         </row>
                     </tabular></sidebyside>
@@ -377,7 +377,7 @@
                 <li><p>
                     How many loaves must the bakery sell to break even on a given day?
                 </p>
-                <sidebyside width="60%">
+                <sidebyside width="55%">
                     <image xml:id="fig-hw-2-1-10">
                     <description>grid</description>
                     <latex-image>
@@ -467,7 +467,147 @@
     </answer>
 </exercise>
 
+<exercise number="12">
+    <statement>
+        <p>
+            There were 42 passengers on a local airplane flight. First-class fare was $80, and coach fare was $64. If the revenue for the flight totaled $2880, how many first-class and how many coach passengers paid for the flight?
+            <ol label="a">
+                <li>
+                    <p>
+                        Write algebraic expressions to fill in the table.
+                    </p>
+                    <sidebyside><tabular top="minor" left="minor" right="minor" bottom="minor" halign="center">
+                        <row>
+                            <cell> </cell>
+                            <cell>Number of tickets</cell>
+                            <cell>Cost per ticket</cell>
+                            <cell>Revenue</cell>
+                        </row>
+                        <row>
+                            <cell>First-class</cell>
+                            <cell><m>x</m></cell>
+                            <cell> </cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Coach</cell>
+                            <cell><m>y</m></cell>
+                            <cell> </cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Total</cell>
+                            <cell> </cell>
+                            <cell> </cell>
+                            <cell></cell>
+                        </row>
+                    </tabular></sidebyside>
+                </li>
+                <li>
+                    <p>
+                        Write an equation about the number of tickets sold.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Write a second equation about the revenue from the tickets.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Graph both equations on graph paper and solve the system. (<term>Hint</term>: Find the intercepts of each equation to help you choose scales for the axes.)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Answer the question in the problem.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</exercise>
 
+<exercise number="13">
+    <statement>
+        <p>
+            Mel's Pool Service can clean <m>1.5x</m> pools per week if it charges <m>x</m> dollars per pool, and the public will book <m>120 - 2.5x</m> pool cleanings at <m>x</m> dollars per pool.
+            <ol label="a">
+                <li><p>What is the supply equation?</p></li>
+                <li><p>What is the demand equation?</p></li>
+                <li><p>Graph both equations in the window
+                    </p>
+                    <sidebyside><tabular>
+                        <row>
+                           <cell><m>\text{Xmin}=0 \qquad</m></cell>
+                           <cell><m>\text{Ymin}=0</m></cell>
+                        </row>
+                        <row>
+                           <cell><m>\text{Xmax}=50 \qquad</m></cell>
+                               <cell><m>\text{Ymax}=125</m></cell>
+                        </row>
+                    </tabular></sidebyside>
+                </li>
+                <li><p>Find the equilibrium price and the number of pools Mel will clean at that price.</p></li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p><ol label="a">
+            <li><p><m>S=1.5x</m></p></li>
+            <li><p><m>D=120-2.5x</m></p></li>
+            <li><sidebyside width="45%" margins="0% 0%">
+                <image xml:id="fig-hw-2-2-13ans">
+                <description>two lines</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [xscale=1, yscale=.75]
+                \draw[cyan] (0,0) grid[xstep=1/2, ystep=1/4] (5,6.25);
+                \draw[black,thick,->,>=stealth'] (0,0)--++(5.4,0);
+                \draw[black,thick,->,>=stealth'] (0,0)--++(0,6.6);
+                \foreach \x [evaluate=\x as \xi using int( 10* \x )]  in {1,2,...,5} {
+                  \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
+                }
+                \foreach \x [evaluate=\x as \xi using int(20* \x )]  in {1,2,...,6} {
+                  \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+                }
+                \draw[red,thick] (0,6) -- (4.8,0);
+                \draw[blue,thick] (0,0) -- (5,3.75);
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+            </sidebyside></li>
+            <li><p><m>x=30</m>; <m>S=45</m></p></li>
+        </ol></p>
+    </answer>
+</exercise>
+
+<exercise number="14">
+    <statement>
+        <p><ol label="a">
+            <li>
+                 <p>
+                    Explain  how you can tell, without graphing, that the system has no solution.
+                    <md>
+                        <mrow>3x=y+3</mrow>
+                        <mrow>6x-2y=12</mrow>
+                    </md>
+                </p>
+           </li>
+           <li>
+               <p>
+                   Explain how you can tell, without graphing, that the system has infinitely many solutions.
+                    <md>
+                        <mrow>-x+2y=4</mrow>
+                        <mrow>3x=6y-12</mrow>
+                    </md>
+               </p>
+           </li>
+        </ol></p>
+        </statement>
+</exercise>
 
 </subexercises>
 
