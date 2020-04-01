@@ -154,12 +154,12 @@
             First, we rewrite each equation in the form <m>Ax + By = C</m>.
             <md>
                 <mrow>
-                    5x\amp= 2y+21\amp\amp\bluetext{\text{Subtract }2y}
-                    \amp 2y\amp=19-3x \amp\amp\bluetext{\text{Add }3x \text{ to}}
+                    5x\amp= 2y+21\amp\amp\glert{\text{Subtract }2y}
+                    \amp 2y\amp=19-3x \amp\amp\glert{\text{Add }3x \text{ to}}
                 </mrow>
                 <mrow>
-                    \underline{\hphantom{5x}-2y}\amp= \underline{{-2y}\hphantom{21} }\amp\amp\bluetext{\text{from both sides.}}
-                    \amp \underline{\hphantom{3x}{+3x}}\amp=\underline{{+3x}\hphantom{3x}} \amp\amp\bluetext{\text{both sides.}}
+                    \underline{\hphantom{5x}-2y}\amp= \underline{{-2y}\hphantom{21} }\amp\amp\glert{\text{from both sides.}}
+                    \amp \underline{\hphantom{3x}{+3x}}\amp=\underline{{+3x}\hphantom{3x}} \amp\amp\glert{\text{both sides.}}
                 </mrow>
                 <mrow>
                     5x-2y\amp= 21\amp\amp
@@ -181,10 +181,10 @@
             Note that the <m>y</m>-terms canceled, or were <term>eliminated</term>. Solving the new equation, <m>8x = 40</m>, we find that <m>x = 5</m>. We are not finished yet, because we must still find the value of <m>y</m>. We can substitute our value for <m>x</m> into either of the original equations, and solve for <m>y</m>. We'll use the second equation, <m>3x+2y=19</m>:
             <md>
                 <mrow>
-                    3(\alert{5})+2y \amp = 19 \amp\amp \bluetext{\text{Subtract 15 from both sides.}}
+                    3(\alert{5})+2y \amp = 19 \amp\amp \glert{\text{Subtract 15 from both sides.}}
                 </mrow>
                 <mrow>
-                    2y \amp = 4 \amp\amp \bluetext{\text{Divide by 2.}}
+                    2y \amp = 4 \amp\amp \glert{\text{Divide by 2.}}
                 </mrow>
                 <mrow>
                     y \amp = 2     

@@ -91,10 +91,10 @@
 <p>
     <md>
         <mrow>
-            3(\alert{4})+ 6(\alert{6}) \amp \stackrel{?}{=} 48\amp\amp \bluetext{\text{True}} 
+            3(\alert{4})+ 6(\alert{6}) \amp \stackrel{?}{=} 48\amp\amp \glert{\text{True}} 
         </mrow>
         <mrow>
-            5(\alert{4})+ 2(\alert{6}) \amp \stackrel{?}{=} 32\amp\amp \bluetext{\text{True}} 
+            5(\alert{4})+ 2(\alert{6}) \amp \stackrel{?}{=} 32\amp\amp \glert{\text{True}} 
         </mrow>
     </md>
     Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces.
@@ -182,8 +182,8 @@
 <p>
     The values we obtain from a calculator may be only approximations, so it is a good idea to check the solution algebraically. In the example above, we find that both equations are true when we substitute <m>x = \alert{-2}</m> and <m>y=\blert{-3}</m>.
     <md>
-        <mrow>\blert{-3}\amp = 1.7(\alert{-2})+0.4\amp\amp \bluetext{\text{True}}</mrow>
-        <mrow>\blert{-3}\amp = 4.2(\alert{-2})+5.2\amp\amp \bluetext{\text{True}}</mrow>
+        <mrow>\blert{-3}\amp = 1.7(\alert{-2})+0.4\amp\amp \glert{\text{True}}</mrow>
+        <mrow>\blert{-3}\amp = 4.2(\alert{-2})+5.2\amp\amp \glert{\text{True}}</mrow>
     </md>
 </p>
 
@@ -254,8 +254,8 @@
 <p>
     We can substitute these values into the original system to check that they satisfy both equations.
         <md>
-            <mrow>3(\alert{4.36}) - 2.8(\alert{-2.85}) \amp = 21.06 \amp\amp \bluetext{\text{True}}</mrow>
-            <mrow>2(\alert{4.36}) + 1.2(\alert{-2.85}) \amp = 5.3 \amp\amp \bluetext{\text{True}}</mrow>
+            <mrow>3(\alert{4.36}) - 2.8(\alert{-2.85}) \amp = 21.06 \amp\amp \glert{\text{True}}</mrow>
+            <mrow>2(\alert{4.36}) + 1.2(\alert{-2.85}) \amp = 5.3 \amp\amp \glert{\text{True}}</mrow>
         </md>
 </p>
 
@@ -372,8 +372,8 @@
             <li>
                 <p>We use the calculator to graph both equations on the same axes. First, we rewrite the second equation in slope-intercept form by solving for <m>y</m>.
                 <md>
-                    <mrow>2x + 2y \amp = 3\amp\amp \bluetext{\text{Substract } 2x \text{ from both sides.}}</mrow>
-                    <mrow>2y \amp = -2x + 3\amp\amp \bluetext{\text{Divide both sides by 2.}}</mrow>
+                    <mrow>2x + 2y \amp = 3\amp\amp \glert{\text{Substract } 2x \text{ from both sides.}}</mrow>
+                    <mrow>2y \amp = -2x + 3\amp\amp \glert{\text{Divide both sides by 2.}}</mrow>
                     <mrow>y \amp = -x + 1.5</mrow>
                 </md>
                 We enter the equations as
@@ -389,14 +389,14 @@
                 <sidebyside widths="60% 30%" margins="0% 0%" valigns="middle middle">
                     <p>
                     <md>
-                        <mrow>x \amp = \frac{2}{3}y + 3\amp\amp \bluetext{\text{Subtract 3.}}  </mrow>
-                        <mrow>x -3\amp = \frac{2}{3}y \amp\amp \bluetext{\text{Multiply by }   \frac{3}{2}.}</mrow>
+                        <mrow>x \amp = \frac{2}{3}y + 3\amp\amp \glert{\text{Subtract 3.}}  </mrow>
+                        <mrow>x -3\amp = \frac{2}{3}y \amp\amp \glert{\text{Multiply by }   \frac{3}{2}.}</mrow>
                         <mrow>\frac{3}{2}x-\frac{9}{2}\amp = y</mrow>
                     </md>
                     For the second equation,
                     <md>
-                        <mrow>3x - 2y \amp = 9  \amp\amp \bluetext{\text{Subtract }    3x.}</mrow>
-                        <mrow>-2y \amp = -3x + 9  \amp\amp \bluetext{\text{Divide by } -2.}</mrow>
+                        <mrow>3x - 2y \amp = 9  \amp\amp \glert{\text{Subtract }    3x.}</mrow>
+                        <mrow>-2y \amp = -3x + 9  \amp\amp \glert{\text{Divide by } -2.}</mrow>
                         <mrow>y \amp = \frac{3}{2}x - \frac{9}{2}</mrow>
                     </md>
                     </p>

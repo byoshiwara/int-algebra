@@ -60,10 +60,10 @@
     <solution><p>
         We begin by simplifying each side of the equation.
         <md>
-            <mrow>3(2x-5)-4x\amp  =2x-(6-3x)\amp\amp\bluetext{\text{Apply the distrubutive law. }} </mrow>
-            <mrow>6x-15-4x\amp  =2x-6+3x\amp\amp\bluetext{\text{Combine like terms. }} </mrow>
-            <mrow>2x-15\amp  =5x-6\amp\amp\bluetext{\text{Add } {-5x+15} \text{ to both sides} } </mrow>
-            <mrow>-3x \amp = 9 \amp\amp \bluetext{\text{Divide both sides by }{-3.}} </mrow>
+            <mrow>3(2x-5)-4x\amp  =2x-(6-3x)\amp\amp\glert{\text{Apply the distrubutive law. }} </mrow>
+            <mrow>6x-15-4x\amp  =2x-6+3x\amp\amp\glert{\text{Combine like terms. }} </mrow>
+            <mrow>2x-15\amp  =5x-6\amp\amp\glert{\text{Add } {-5x+15} \text{ to both sides} } </mrow>
+            <mrow>-3x \amp = 9 \amp\amp \glert{\text{Divide both sides by }{-3.}} </mrow>
             <mrow>x\amp = -3</mrow>
         </md>
         The solution is <m>-3</m>. You can check that substituting <m>x=-3</m> into the original equation produces a true statement.
@@ -126,7 +126,7 @@
         <p>We begin by isolating the term containing the variable, just as we dowhen solving a linear equation. We subtract 5 from both sides to obtain  
         <md><mrow>-2x \lt -3</mrow></md>
         Then we divide both sides by −2 to find
-        <md><mrow>x\gt \frac{-3}{-2}\amp =\frac{3}{2}\amp\amp\bluetext{\text{Reverse the direction of the inequality.}} </mrow></md>
+        <md><mrow>x\gt \frac{-3}{-2}\amp =\frac{3}{2}\amp\amp\glert{\text{Reverse the direction of the inequality.}} </mrow></md>
         Any value of <m>x</m> greater than <m>\frac{3}{2} </m> is a solution of the inequality. Because we cannot list all of these solutions, we often illustrate them as a graph on a number line, as shown below.</p>
         <sidebyside width="70%">
             <image xml:id="fig-example-1-3-2">
@@ -502,7 +502,7 @@
     <image source="images/fig-graph-to-solve"><description>function graph</description></image></sidebyside> 
     <p>You can verify the solution algebraically by substituting <m>x = \alert{9}</m> into the equation:</p> 
     <p>Does <m>150 = 285 - 15(\alert{9})</m>? </p><p>
-    <me>285 - 15(\alert{9}) = 285 - 135 = 150. ~~~~~~\bluetext{\text{Yes}}</me>
+    <me>285 - 15(\alert{9}) = 285 - 135 = 150. ~~~~~~\glert{\text{Yes}}</me>
 </p></solution></example>
 
 <p>
@@ -696,9 +696,9 @@
         <p>
             First, we solve the equation for <m>y</m> in terms of <m>x</m>.
             <md>
-                <mrow>3x+2y \amp = 16\amp\amp\bluetext{\text{Subtract } 3x \text{ from both sides.}} </mrow>
-                <mrow>2y\amp = -3x+16 \amp\amp\bluetext{\text{Divide both sides by 2.}} </mrow>
-                <mrow>y\amp = \frac{-3x}{2}+\frac{16}{2}\amp\amp \bluetext{\text{Simplify.}} </mrow>
+                <mrow>3x+2y \amp = 16\amp\amp\glert{\text{Subtract } 3x \text{ from both sides.}} </mrow>
+                <mrow>2y\amp = -3x+16 \amp\amp\glert{\text{Divide both sides by 2.}} </mrow>
+                <mrow>y\amp = \frac{-3x}{2}+\frac{16}{2}\amp\amp \glert{\text{Simplify.}} </mrow>
                 <mrow>y\amp= -1.5x+8</mrow>
             </md>
         </p>

@@ -35,12 +35,13 @@
         \newcommand\degree[0]{^{\circ}}
         \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
 <!-- 
-       \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
-    \newcommand{\bluetext}[1]{\boldsymbol{\color{blue}{#1}}}
+       \newcommand{\alert}[1]{\color{magenta}{#1}}
+    \newcommand{\glert}[1]{\boldsymbol{\color{blue}{#1}}}
  --> 
-        \newcommand{\alert}[1]{\color{red}{#1}}
+        
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
         \newcommand{\blert}[1]{\color{blue}{#1}}
-        \newcommand{\bluetext}[1]{\color{blue}{#1}} <!-- comments in aligned equations -->
+        \newcommand{\glert}[1]{\color{green}{#1}} <!-- comments in aligned equations -->
         \delimitershortfall-1sp
         \newcommand\abs[1]{\left|#1\right|}
     </macros>
