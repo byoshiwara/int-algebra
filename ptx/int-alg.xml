@@ -24,7 +24,8 @@
    <xi:include href="./frontmatter.xml" />  
 
     <xi:include href="./chap1.xml" />   <!-- Linear Models  -->
-    <xi:include href="./chap2.xml" />   <!-- Linear Models  -->
+    <xi:include href="./chap2.xml" /> <!--Applicatios of Linear Models-->
+    <xi:include href="./chap3.xml" />   <!-- Quadratic Models  -->
 
     <xi:include href="./backmatter.xml" />       
     </book>

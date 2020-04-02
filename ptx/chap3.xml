@@ -57,8 +57,8 @@
         The total distance traveled by the ball can be modeled by the equation, <m>d = kt^2</m>, where <m>k</m> is a constant. Galileo found that this relationship holds no matter how steep he made the ramp. If we plot the height of the ball (rather than the distance traveled) as a function of time, we obtain a portion of the graph of a quadratic function.
     </p>
     </introduction>
-<!--  -->
-<!--     <xi:include href="./section-2-1.xml" />   Linear REgression  -->
+    
+    <xi:include href="./section-3-1.xml" /> <!--Extraction of roots -->
         
 
 </chapter> 
