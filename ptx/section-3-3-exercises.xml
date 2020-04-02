@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+
+
+<!-- Copyright (C) Katherine Yoshiwara      -->
+
+
+<exercises xml:id="section-3-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Set 3.3</title>
+    
+<subexercises><title>Skills Practice</title>
+
+<exercise number="1"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol label="a" cols="3">
+        <li><m>y=x^2+k</m></li>
+        <li><m>y=x^2+kx </m></li>
+        <li><m>y=kx^2</m></li>
+        <li><m>y=kx </m></li>
+        <li><m>y=x+k</m></li>
+        <li><m>y=x^2-k </m></li></ol></p>
+        <sidebyside width="40%"><image source="images/fig???" ><description>parabolas</description></image></sidebyside>
+    </statement>
+    <answer><p><ol label="a" cols="2">
+        <li>ii</li>
+        <li>iv</li>
+        <li>i</li>
+        <li>iii</li>
+        <li>vi</li>
+        <li>v</li></ol></p></answer></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 2 and 3, factor the right side of the formula.</p></introduction>
+
+<exercise number="2"><statement><m>A=\dfrac{1}{2}bh + \dfrac{1}{2}h^2</m></statement></exercise>
+
+<exercise number="3"><statement><m>S=2 \pi R^2+2 \pi RH</m></statement>
+        <answer><m>2 \pi R(R+H)</m></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 4 and 5, solve the equation.</p></introduction>
+
+<exercise number="4"><statement><m>-9x=81x^2</m></statement></exercise>
+
+<exercise number="5"><statement><m>0=-140x-4x^2</m></statement>
+    <answer><m>0, -35</m></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For problems 6 and 7, which technique would you use to solve the equation, extracting roots or factoring? Then solve the equation.</p></introduction>
+
+<exercise number="6"><statement><p><ol label="a" cols="2">
+    <li><m>3x^2-15=0</m></li>
+    <li><m>3x^2-15x=0</m></li>
+    <li><m>(2x-3)^2=9</m></li>
+    <li><m>2x^2-3x=9</m></li></ol></p></statement></exercise>
+
+ <exercise number="7"><statement><p><ol label="a" cols="2">
+    <li><m>20x-2x^2</m></li>
+    <li><m>20=2x^2</m></li>
+    <li><m>4x^2=2+2x</m></li>
+    <li><m>4(x+2)^2-1=0</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>factoring; <m>0,10</m></li>
+    <li>extraction of roots; <m>\pm \sqrt{10}</m></li>
+    <li>factoring; <m>\dfrac{-1}{2}, 1</m></li>
+    <li>extraction of roots; <m>\dfrac{-5}{2}, \dfrac{-5}{2}</m></li></ol></p></answer></exercise>
+</exercisegroup>
+
+<exercise number="8"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol label="a" cols="3">
+        <li><p><m>y=-kx</m></p></li>
+        <li><p><m>y=-kx^2 </m></p></li>
+        <li><p><m>y=k-x^2</m></p></li>
+        <li><p><m>y=x-k </m></p></li>
+        <li><p><m>y=k-x</m></p></li>
+        <li><p><m>y=x^2-kx </m></p></li></ol></p><sidebyside width="40%"><image source="images/fig???" ><description>parabolas</description></image></sidebyside>
+    </statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 9 and 10, find the <m>x</m>-intercepts and the vertex of the graph. Then sketch the graph by hand.</p></introduction> 
+
+<exercise number="9"><statement><p><ol label="a" cols="2">
+    <li><m>y=x^2-4x</m></li>
+    <li><m>y=x^2+2x</m></li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li><p><m>(0,0), (4,0); (2,-4)</m></p>
+        <sidebyside width="40%"><image source="images/fig???" ><description>parabolas</description></image></sidebyside></li>
+        <li><p><m>(0,0), (-2,0); (-1,-1)</m></p>
+        <sidebyside width="40%"><image source="images/fig???" ><description>parabolas</description></image></sidebyside></li></ol></p></answer>
+</exercise>
+
+<exercise number="10"><statement><p><ol label="a" cols="2">
+    <li><m>y=3x^2+6x</m></li>
+    <li><m>y=-2x^2+5x</m></li></ol></p></statement></exercise>      
+</exercisegroup>
+</subexercises>
+
+<subexercises><title>Applications</title>
+
+<exercisegroup cols="2"><introduction><p>For problems 11-12, find the <m>x</m>-intercepts and the vertex of each graph.  Then sketch the graph.</p></introduction>
+
+<exercise number="11"><statement><m>y=225-x^2</m></statement>
+    <answer><p><m>(-15,0), (15,0); (0,255)</m></p>
+        <sidebyside width="40%"><image source="images/fig???" ><description>parabolas</description></image></sidebyside></answer></exercise>
+
+<exercise number="12"><statement><m>y=40x-2x^2</m></statement></exercise>
+</exercisegroup>
+
+<exercise number="13"><statement><p>Commercial fishermen rely on a steady supply of fish in their area. To avoid overfishing, they adjust their harvest to the size of the population. The formula
+    <me>R=0.4x-0.001x^2</me>
+gives the annual rate of growth, in tons per year, of a fish population of biomass <m>x</m> tons.
+<ol label="a">
+    <li>Find the vertex of the graph. What does it tell us about the fish population?</li>
+    <li>Find the <m>x</m>-intercepts of the graph. What do they tell us about the fish population?</li>
+    <li><p>Sketch the graph for <m>0 \le x \le 5000</m>.</p>
+     <sidebyside width="40%"><image source="images/fig???" ><description>parabolas</description></image></sidebyside></li>
+    <li>For what values of <m>x</m> does the fish population decrease rather than increase? Suggest a reason why the population might decrease.</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>(2000, 400)</m></li>
+    <li><m>(0,0), (4000,0)</m></li>
+    <li><sidebyside width="40%"><image source="images/fig???" ><description>parabolas</description></image></sidebyside></li>
+    <li><m>x \gt 4000</m></li></ol></p>
+</answer></exercise>
+
+<exercise number="14"><statement><p>After it lands on Earth, the distance the space shuttle travels is given by
+        <me> d=vT+\dfrac{v^2}{2a}</me>   
+where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the pilot's reaction time before the brakes are applied, and <m>a</m> is the shuttle's deceleration.
+ <ol label="a">
+    <li>Suppose that for a particular landing, <m>T=0.5</m> seconds and <m>a=12</m> ft/sec. Write the equation for <m>d</m> in terms of <m>v</m>, using these values.</li>    
+    <li>Find the coordinates of the vertex and the horizontal intercepts of the graph of your equation.  Use these points to help you graph the equation.</li> 
+    <li>Explain the meaning of the vertex and the intercepts, if any, in this context. As <m>v</m> increases, what happens to <m>d</m>?</li>  
+    <li>The runway at Edwards Air Force base is 15,000 feet long. Graph your equation again in an appropriate (larger) window, and use it to estimate the answer to the question:  What is the maximum velocity the shuttle can have at touchdown and still stop on the runway?</li></ol></p>
+</statement></exercise>
+
+<exercisegroup><introduction><p>For problems 15-18, graph the set of equations in the standard window on your calculator.  Describe how the parameters <m>a,~b,~</m> and <m>c</m> in each equation transform the graph, compared to the basic parabola.</p></introduction>
+
+<exercise number="15"><statement><p><ol label="a" cols="2">  
+    <li><m>y=x^2</m></li>
+    <li><m>y=3x^2</m></li>
+    <li><m>y=\dfrac{1}{4}x^2</m></li>
+    <li><m>y=-2x^2</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>basic parabola</li>
+    <li>narrower</li>
+    <li>wider</li>
+    <li>narrower and reflected about <m>y</m>-axis</li></ol></p>
+</answer></exercise>
+
+<exercise number="16"><statement><p><ol label="a" cols="2">  
+    <li><m>y=x^2</m></li>
+    <li><m>y=x^2+1</m></li>
+    <li><m>y=x^2+3</m></li>
+    <li><m>y=x^2-6</m></li></ol></p></statement></exercise>
+
+<exercise number="17"><statement><p><ol label="a" cols="2">  
+    <li><m>y=x^2-4x</m></li>
+    <li><m>y=x^2+4x</m></li>
+    <li><m>y=4x-x^2</m></li>
+    <li><m>y=-x^2-4x</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>x</m>-intercepts at 0 and 4</li>
+    <li><m>x</m>-intercepts at 0 and <m>-4</m></li>
+    <li>reflection of (a) about <m>y</m>-axis</li>
+    <li>reflection of (b) about <m>y</m>-axis</li></ol></p>
+</answer></exercise>
+
+<exercise number="18"><statement><p><ol label="a" cols="2">  
+    <li><m>y=x^2-4x</m></li>
+    <li><m>y=2x^2-8x</m></li>
+    <li><m>y=\dfrac{1}{2}x^2-2x</m></li>
+    <li><m>y=-x^2+4x</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+    </subexercises>
+
+</exercises>
