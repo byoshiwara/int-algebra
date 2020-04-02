@@ -14,67 +14,200 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
 
 <subsection><title>Graphs of Quadratic Equations</title>
 
-<p>The simplest quadratic equation in two variables is 
-    <me>y=x^2</me>
-Its graph is not a straight line, but a curve called a <term>parabola</term>, shown in the figure. You can verify the table of values below for this parabola.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>-2</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>9</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>9</m></cell></row>
-                    </tabular></sidebyside></p>
-
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside>
+<sidebyside widths="50% 40%" margins="0% 0%" valigns="middle middle">
+    <stack>
+        <p>The simplest quadratic equation in two variables is 
+            <md><mrow>y=x^2</mrow></md>
+            Its graph is not a straight line, but a curve called a <term>parabola</term>, shown in the figure. You can verify the table of values below for this parabola.
+        </p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>3</m></cell></row>
+                <row> 
+                    <cell><m>y</m></cell>
+                    <cell><m>9</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>9</m></cell></row>
+            </tabular>
+    </stack>
+    <image xml:id="fig-standard-parab">
+    <description>standard parabola</description>
+    <latex-image>
+    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+    <![CDATA[\tikzset{%
+    }
+    \begin{tikzpicture} [scale=.6]
+    \draw[cyan] (-5,-1) grid (5,10);
+    \draw[black,thick,->,>=stealth'] (-5,0)--++(10.6,0) node[right]{$x$};
+    \draw[black,thick,->,>=stealth'] (0,-1)--(0,10.6) node[above]{$y$};
+    \foreach \x  in {-5,5} {
+      \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\x};
+    }
+    \foreach \x in {5,10} {
+      \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\x};
+    }
+    \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(\x)^2});
+    \node at (0,-1.7) {$y=x^2$};
+    \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <warning><p>Be careful when squaring negative numbers. To evaluate the square of a negative number on a calculator, we must enclose the number in parentheses.  For example,
     <me>(-3)^2=(-3)(-3)=9,~~~~\text{but}~~~~-3^2=-3 \cdot 3=-9</me></p></warning>
 
-<example><statement><p>Graph the parabola <m>~y=x^2-4</m></p></statement>
+<example>
+    <statement>
+        <p>Graph the parabola <m>~y=x^2-4</m></p>
+    </statement>
+    <solution>
+        <p>
+            We make a table of values and plot the points. The graph is shown below.
+        </p>
+        <sidebyside widths="50% 40%" margins="0% 0%" valigns="middle middle">
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>3</m></cell>
+                </row>
+                <row> 
+                    <cell><m>y</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>-4</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>5</m></cell>
+                </row>
+            </tabular>
+            <image xml:id="fig-example-3-1-1">
+            <description>parabola</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.6]
+            \draw[cyan] (-5,-6) grid (5,6);
+            \draw[black,thick,->,>=stealth'] (-5,0)--++(10.6,0) node[right]{$x$};
+            \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.6) node[above]{$y$};
+            \foreach \x  in {-5,5} {
+              \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\x};
+            }
+            \foreach \x in {5,-5} {
+              \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\x};
+            }
+            \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(\x)^2-4});
+            \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside>
+    </solution>
+</example>
+
     
-<solution><p>We make a table of values and plot the points. The graph is shown below.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>-2</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>-4</m></cell>
-                        <cell><m>-3</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>5</m></cell></row>
-                    </tabular></sidebyside></p>
+<exercise>
+    <title>Practice 1</title>
+  <webwork>
+     
+      <pg-code>
+        $fun=Formula("4-(x)**2");
+        $fake=Formula("(2+x)**2");
+        $fake2=Formula("-(2-x)**2");
+        $fake3=Formula("2-(x)^2");
 
-        <sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside>
-</solution></example>
+        foreach my $i (0..3) {
+        $gr[$i] = init_graph(-5,-6,5,6, axes=>[0,0], grid=>[10,12], size=>[240,240]);
+        $gr[$i]->lb('reset');
+        }
 
-<exercise><title>Practice 1</title>
-    <statement><p>Graph the parabola <m>~y=4-x^2</m> on the same grid in Example 1.</p></statement>
-<answer>
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside>
-</answer></exercise>  
+
+        add_functions($gr[0], "$fun for x in &lt;-5,5>  using color:red and weight:2");
+        $gr[0]->lb( new Label(4,5,"(C)", 'black','center','middle','large'));
+
+        add_functions($gr[1], "$fake for x in &lt;-5,5>  using color:red and weight:2");
+        $gr[1]->lb( new Label(4,5,"(A)", 
+        'black','center','middle','large'));
+
+        add_functions($gr[2], "$fake2 for x in &lt;-5,5>  using color:red and weight:2");
+        $gr[2]->lb( new Label(4,5,"(B)", 
+        'black','center','middle','large'));
+
+        add_functions($gr[3], "$fake3 for x in &lt;-5,5>  using color:red and weight:2");
+        $gr[3]->lb( new Label(4,5,"(D)", 
+        'black','center','middle','large'));
+
+
+        $mc = RadioButtons(
+                    [ "(A)", "(B)", "(C)","(D)"],
+                    2
+                );
+      </pg-code>     
+    <statement>
+            <p>Graph the parabola <m>~y=4-x^2</m> on the same grid in the Example above.</p>
+            <sidebyside widths="35% 35%" margins="5% 5%">
+                <image pg-name="$gr[1]"/>
+                <image pg-name="$gr[2]"/>
+            </sidebyside>
+            <sidebyside widths="35% 35%" margins="5% 5%">
+                <image pg-name="$gr[0]"/>
+                <image pg-name="$gr[3]"/>
+            </sidebyside>
+            <p>The graph of the parabola <m>~y=4-x^2</m> on the same grid from the Example is</p>
+            <p><var name="$mc" form="buttons"/> </p>
+    </statement>
+    <solution>
+        <sidebyside widths="40%">
+                <image pg-name="$gr[0]"/>
+            </sidebyside>
+            <p>
+              A graph is also shown below..
+            </p>
+    </solution>
+  </webwork>
+    <conclusion>
+        <sidebyside width="35%" margins="0% 65%">
+            <image xml:id="fig-ex-3-1-1ans">
+            <description>parabola</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.6]
+            \draw[cyan] (-5,-6) grid (5,6);
+            \draw[black,thick,->,>=stealth'] (-5,0)--++(10.6,0) node[right]{$x$};
+            \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.6) node[above]{$y$};
+            \foreach \x  in {-5,5} {
+              \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\x};
+            }
+            \foreach \x in {5,-5} {
+              \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\x};
+            }
+            \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{4-(\x)^2});
+            \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside>
+    </conclusion>
+</exercise> 
+
 </subsection>
 
 <subsection><title>Solving Quadratic Equations</title>
@@ -82,31 +215,118 @@ Its graph is not a straight line, but a curve called a <term>parabola</term>, sh
 <p>How can we solve a quadratic equation? Consider the equation
     <me>x^2-4=5</me>
 First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> from Example 1.</p>
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside>
+
+<sidebyside  width="40%">
+     <image xml:id="fig-solve-quadratic">
+        <description>parabola and y=5</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (-5,-6) grid (5,6);
+        \draw[black,thick,->,>=stealth'] (-5,0)--++(10.6,0) node[right]{$x$};
+        \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.6) node[above]{$y$};
+        \foreach \x  in {-5,5} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\x};
+        }
+        \foreach \x in {5,-5} {
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\x};
+        }
+        \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(\x)^2 -4});
+        \draw[green!60!black,ultra thick] (-5,5)--(5,5);
+        \draw[green!60!black,ultra thick, dashed, ->, >=stealth'] (-3,5) -- ++(0,-5);
+        \draw[green!60!black,ultra thick, dashed, ->, >=stealth'] (3,5) -- ++(0,-5);
+        \filldraw[red] (-3,5) circle (.2);
+        \filldraw[red] (3,5) circle (.2);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>    
 <p>We would like to find the <m>x</m>-values that make <m>y=5</m>. The horizontal line <m>y=5</m> intersects the graph at two points with <m>y</m>-coordinate 5, and their <m>x</m>-coordinates are the solutions of the equation. Thus, there are two solutions, namely <m>3</m> and <m>-3</m>.</p> 
 
-<p>Algebraically, we solve the equation as follows. <ul>  
-    <li><p>First, we isolate the variable.  We add 4 to both sides, yielding <m>~x^2=9</m>.</p></li> 
-    <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
-        <md><mrow> x^2 \amp = 9  \amp \amp \glert{\text{Take square roots of both sides.}}</mrow>
-            <mrow> x \amp = \pm \sqrt{9} = \pm 3 \amp \amp \glert{\text{Remember that every positive number has two square roots.}}</mrow></md></p></li></ul>
-The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.</p> 
+<p>
+    Algebraically, we solve the equation as follows. 
+    <ul> 
+        <li><p>First, we isolate the variable.  We add 4 to both sides, yielding <m>~x^2=9</m>.</p></li> 
+        <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
+            <md>
+                <mrow> 
+                    x^2 \amp = 9  \amp \amp \glert{\text{Take square roots of both sides.}}
+                </mrow>
+                <mrow> 
+                    x \amp = \pm \sqrt{9} = \pm 3 \amp \amp \glert{\text{Remember that every positive number}}
+                </mrow>
+                <mrow>
+                     \amp \amp \amp \glert{\text{has two square roots.}}
+                </mrow>
+            </md></p>
+        </li></ul>
+    The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.
+</p>  
 
 <note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions.</p></note>
 
-<example><statement><p>Solve the equation
-    <me>\dfrac{1}{2}x^2-7=8</me>
-graphically and algebraically.</p></statement> 
-
-<solution><p>The figure shows the graph of <m>~y=\dfrac{1}{2}x^2-7.</m> </p>
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside> 
-<p>We would like to find the <m>x</m>-values that make <m>y=8</m>. The horizontal line <m>y=8</m> intersects the graph at two points with <m>x</m>-coordinates approximately <m>5.5</m> and <m>-5.5</m>. These are the solution of the equation.</p>         
-<p>Algebraically, we solve the equation as follows. <ul>  
-    <li><p>First, we isolate the variable.  We add 7 to both sides, then multiply by 2, yielding <m>~x^2=30</m>.</p></li> 
-    <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
-        <md><mrow> x^2 \amp = 30  \amp \amp \glert{\text{Take square roots of both sides.}}</mrow>
-            <mrow> x \amp = \pm \sqrt{30} \amp \amp \glert{\text{Remember that every positive number has two square roots.}}</mrow></md></p></li>
-    <li><p>We use a calculator to find that <m>\sqrt{30}</m> is approximately 5.477, or about 5.5, as we saw on the graph.</p></li></ul></p></solution>
+<example>
+    <statement>
+        <p>
+            Solve the equation
+            <md><mrow>
+                \frac{1}{2}x^2-7=8
+            </mrow></md>
+            graphically and algebraically.
+        </p>
+    </statement> 
+    <solution>
+        <p>
+            The figure shows the graph of <m>~y=\dfrac{1}{2}x^2-7.</m> 
+        </p>
+        <sidebyside  width="40%">
+            <image xml:id="fig-solve-quadratic2">
+            <description>parabola and y=8</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.5]
+            \draw[cyan] (-8,-8) grid (8,10);
+            \draw[black,thick,->,>=stealth'] (-8,0)--++(16.6,0) node[right]{$x$};
+            \draw[black,thick,->,>=stealth'] (0,-8)--(0,10.6) node[above]{$y$};
+            \foreach \x  in {-8,-6,-4,-2,2,4,6,8} {
+              \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+            }
+            \foreach \x in {-8,-6,-4,-2,2,4,6,8,10} {
+              \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
+            }
+            \draw[samples=65,domain={-sqrt(34):sqrt(34)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{1/2*(\x)^2 -7});
+            \draw[green!60!black,ultra thick] (-8,8)--(8,8);
+            \draw[green!60!black,ultra thick, dashed, ->, >=stealth'] ({-sqrt(30)},8) -- ++(0,-8);
+            \draw[green!60!black,ultra thick, dashed, ->, >=stealth'] ({sqrt(30)},8) -- ++(0,-8);
+            \filldraw[red] ({-sqrt(30)},8) circle (.2);
+            \filldraw[red] ({sqrt(30)},8) circle (.2);
+            \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside> 
+        <p>
+            We would like to find the <m>x</m>-values that make <m>y=8</m>. The horizontal line <m>y=8</m> intersects the graph at two points with <m>x</m>-coordinates approximately <m>5.5</m> and <m>-5.5</m>. These are the solution of the equation.
+        </p>  
+        <p>Algebraically, we solve the equation as follows. 
+            <ul> 
+                <li><p>First, we isolate the variable.  We add 7 to both sides, then multiply by 2, yielding <m>~x^2=30</m>.</p></li> 
+                <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
+                    <md>
+                        <mrow> x^2 \amp = 30  \amp \amp \glert{\text{Take square roots of both sides.}}</mrow>
+                        <mrow> x \amp = \pm \sqrt{30} \amp \amp \glert{\text{Remember that every positive number}}
+                        </mrow>
+                        <mrow>  \amp   \amp \amp \glert{\text{has two square roots.}}
+                        </mrow>
+                    </md>
+                </p></li>
+                <li><p>We use a calculator to find that <m>\sqrt{30}</m> is approximately 5.477, or about 5.5, as we saw on the graph.</p></li>
+            </ul>
+        </p>
+    </solution>
 </example>
 
 <warning><p>It is important to make a distinction betweeen exact values and decimal approximations.<ul> 

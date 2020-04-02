@@ -19,6 +19,7 @@
     <xi:include href="./section-2-2.xml" />  <!-- Linear Systems -->
     <xi:include href="./section-2-3.xml" />  <!-- Algebraic solution -->
     <xi:include href="./section-2-4.xml" />  <!-- Gaussian Reduction -->
+    <xi:include href="./chap2-summary.xml" /> <!--Summary and Review-->
         
 
 </chapter> 
