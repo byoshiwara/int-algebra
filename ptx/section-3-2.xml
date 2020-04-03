@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Intercepts"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Intercepts, Solutions, and Factors</title>
+<section xml:id="Intercepts-Factors"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Intercepts, Solutions, and Factors</title>
 
 <introduction><p>In the last section, we used extraction of roots to solve quadratic equations of the form 
     <me>~a(x-p)^2=q~</me> 
@@ -265,7 +265,7 @@ Both of these equations have solution <m>x=1</m>.  We say that 1 is a solution o
 </subsection>
 
 
-<xi:include href="./section-3-1-exercises.xml" />                
+<xi:include href="./section-3-2-exercises.xml" />                
 
 <!--
 <xi:include href="./summary-1-1.xml" /> 
