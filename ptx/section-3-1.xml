@@ -170,7 +170,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
                 <image pg-name="$gr[0]"/>
                 <image pg-name="$gr[3]"/>
             </sidebyside>
-            <p>The graph of the parabola <m>~y=4-x^2</m> on the same grid from the Example is</p>
+            <p>Which of the following is the best match for the graph of the parabola <m>~y=4-x^2</m> (using the same scale grid as in the Example)?</p>
             <p><var name="$mc" form="buttons"/> </p>
     </statement>
     <solution>
@@ -334,23 +334,45 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
     <li>The values from the calculator, <m>\pm 5.477</m>, are decimal approximations to the solutions, rounded to thousandths.</li></ul></p></warning>    
 
 <exercise><title>QuickCheck 2</title>
-<webwork><pg-code>       
-            $which = RadioButtons(
-              ["\(x^2=40, ~~~~~~ x = \pm 6.32455532\)",
-              "\(t^2 = \dfrac{81}{64}, ~~~~~~ t = \pm 1.125\)",
-              "\(w^2= 50, ~~~~~~ w = \pm 5\sqrt{2}\)",
-              "\(b^2= (0.632)^2, ~~~~~~ b = \pm 0.632\)"],
+    <webwork>
+        <pg-code>       
+            $approximation = PopUp(
+              ["?","exact solutions", "approximations"],
+              2, 
+            );
+            $exact = PopUp(
+              ["?","exact solutions", "approximations"],
               1, 
-            );            
+            );
         </pg-code>
-    <statement>
-        <p>Which solutions are exact values, and which are approximations?</p>
-        <p><var name="$which" form="buttons"/></p>      
-    </statement>
-    <solution>
-        <p>Only the solutions to (a) are approximations.</p>
-    </solution>
-</webwork></exercise>
+        <statement>
+            <p>
+                Which solutions are exact values, and which are approximations?
+                <ol label="a">
+                    <li><p>
+                        <m>x^2=40, \qquad\qquad x=\pm 6.32455532</m>
+                        <var name="$approximation" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        <m>t^2=\dfrac{81}{64}, \qquad\qquad t=\pm 1.125</m>
+                        <var name="$exact" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        <m>w^2=50, \qquad\qquad w=\pm 5\sqrt{2} </m>
+                        <var name="$exact" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        <m>b^2=(0.632)^2, \qquad b=\pm 0.632</m>
+                        <var name="$exact" form="popup"/>
+                    </p></li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>Only the solutions to (a) are approximations.</p>
+        </solution>
+    </webwork>
+</exercise>
 
 <p>We can now solve quadratic equations of the form <m>~ax^2+c = 0~</m>, by isolating <m>x</m> on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called <term>extraction of roots</term>.</p>
 
@@ -361,10 +383,37 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
     <li>Take the square root of each side.</li></ol></p></assemblage> 
 
 <exercise><title>Practice 2</title>
-    <statement><p>Solve by extracting roots <m>~~\dfrac{3x^2-8}{4} = 10</m></p></statement>
+    <webwork>
+        <pg-code>
+            $r1 = Compute("4");
+            $r2 = Compute("-4");
+            $answer = List("$r1, $r2");
+            $my_evaluator = $answer -> cmp(
+             showHints=>1,
+             showLengthHints => 1,
+             partialCredit => 1,
+            ); 
+       </pg-code>
+       <statement>
+            <p>
+                Solve by extracting roots <m>\quad\dfrac{3x^2-8}{4} = 10</m>
+            </p>
+            <p>
+                <m>x=</m><var name="$answer" width="6" evaluator="$my_evaluator"/> Use a comma to separate different solutions.
+            </p>
+        </statement>
         <hint>
-            <p>First isolate <m>x^2</m>. Then take the square root of both sides.</p></hint>
-        <solution><m>\pm 4</m></solution></exercise>
+            <p>
+                First isolate <m>x^2</m>. Then take the square root of both sides.
+            </p>
+        </hint>
+        <solution>
+            <p>
+                <m>\pm 4</m>
+            </p>
+        </solution>
+    </webwork>
+</exercise>
 
 <p>In the next Example, we compare the steps for <em>evaluating a quadratic expression</em> and for <em>solving a quadratic equation</em>.</p>
 
@@ -388,7 +437,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
         <me>t=\pm \sqrt{1.25} \approx \pm 1.118</me>
     Only the positive solution makes sense here, so the cat has approximately 1.12 seconds to be in position for landing.</p></li></ol></p>
 <p>A graph of the cat's height after <m>t</m> seconds is shown below. The points corresponding to parts (a) and (b) are labeled.</p>
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside>
+    <sidebyside  width="40%"><image source="images/fig-cat-falling"><description>graph </description></image></sidebyside>
 </solution></example>
 </subsection>
 
@@ -397,7 +446,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
 <p>The formulas for the volume and surface area of some everyday objects, such as cylinders and cones, involve quadratic expressions. We can use extraction of roots to solve problems involving these objects.</p>
 
 <assemblage><title>Formulas for Volume and Surface Area</title>
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside>
+    <sidebyside  width="90%"><image source="images/fig-volume-and-surface-area"><description>graph </description></image></sidebyside>
 </assemblage>
 
 <example><statement><p>The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters.  What is the radius of the can, to the nearest tenth of a centimeter?</p></statement>
@@ -411,49 +460,132 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
 
 
 <exercise><title>Practice 3</title>
-<statement><p>The glass pyramid at the Louvre in Paris has a square base, is 21.64 meters tall, and encloses a volume of 9049.68 cubic meters. Use the formula <m>~V=\dfrac{1}{3}s^2h~</m> to find the length of the base. Round your answer to hundredths.</p></statement>
-<solution><p>35.42 m</p></solution>
+    <webwork>
+        <pg-code>
+            $h = 21.64;
+            $V = 9049.68;
+            $s = Compute("sqrt(3*$V / $h ) ")->with(
+                      tolType => 'absolute',
+                      tolerance => .0051,
+                    );
+        </pg-code>
+        <statement>
+            <p>
+                The glass pyramid at the Louvre in Paris has a square base, is 21.64 meters tall, and encloses a volume of 9049.68 cubic meters. Use the formula <m>~ V=\dfrac{1}{3}s^2h~</m> to find the length of the base. Round your answer to hundredths.
+            </p>
+            <p>
+                Answer: <var name="$s" width="4"/> meters
+            </p>
+        </statement>
+        <solution><p>35.42 m</p></solution>
+    </webwork>
 </exercise>
+
 </subsection>
 
 <subsection><title>Solving Formulas</title>
 
 <p>Sometimes it is useful to solve a formula for one variable in terms of the others. You might want to know what radius you need to build cones of various fixed volumes. In that case, it is more efficient to solve the volume formula for <m>r</m> in terms of <m>v</m>.</p>
 
-<example><statement><p>The formula <m>~V=\dfrac{1}{3}\pi r^2h~</m> gives the volume of a cone in terms of its height and radius.  Solve the formula for <m>r</m> in terms of <m>V</m> and <m>h</m>.</p></statement>
+<example>
+    <statement>
+        <p>
+            The formula <m>~V=\dfrac{1}{3}\pi r^2h~</m> gives the volume of a cone in terms of its height and radius.  Solve the formula for <m>r</m> in terms of <m>V</m> and <m>h</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Because the variable we want is squared, we use extraction of roots. First, we multiply both sides by 3 to clear the fraction.
+            <md>
+                <mrow>3V \amp = \pi r^2h  \amp \amp \glert{\text{Divide both sides by } \pi h.}</mrow>
+                <mrow>\frac{3V}{\pi h} \amp = r^2  \amp \amp \glert{\text{Take square roots.}}</mrow>
+                <mrow>\pm \sqrt{\frac{3V}{\pi h}} \amp = r</mrow>
+            </md>
+            Because the radius of a cone must be a positive number, we use only the positive square root: <m> \quad r = \sqrt{\dfrac{3V}{\pi h}}</m>.
+        </p>
+    </solution>
+</example>
 
-<solution><p>Because the variable we want is squared, we use extraction of roots. First, we multiply both sides by 3 to clear the fraction.
-    <md><mrow>3V \amp = \pi r^2h  \amp \amp \glert{\text{Divide both sides by}~ \pi h.}}</mrow>
-        <mrow>\dfrac{3V}{\pi h} \amp r^2  \amp \amp \glert{\text{Take square roots.}}</mrow>
-        <mrow>\pm \sqrt{\dfrac{3V}{\pi h}} \amp = r</mrow></md>
-Because the radius of a cone must be a positive number, we use only the positive square root: <m>~r = \sqrt{\dfrac{3V}{\pi h}}</m>.</p></solution></example>
-
-<exercise><title>Practice 4</title>
-<statement><p>Write a formula for the radius of a circle in terms of its area.</p>
-    <p>Hint: Start with the formula for the area of a circle.</p>    
+<exercise>
+    <title>Practice 4</title>
+    <webwork>
+         <pg-code>
+             Context()->variables->add(A=>"Real");
+             $radius = Formula("sqrt(A/pi)");
+        </pg-code> 
+        <statement>
+            <p>Find a formula for the radius of a circle in terms of its area, <m>A</m>.</p>
+            <p><m>r=</m><var name="$radius" width="15"/> </p>
+            <instruction>
+                Note: enter "sqrt(2)" to get <m>\sqrt{2}</m>, and use "pi" to get <m>\pi</m>.
+            </instruction>
+         </statement>
+       <hint>
+            <p>Start with the formula for the area of a circle: <m>A =</m> </p>
             <p>Solve for <m>r</m> in terms of <m>A</m>.</p>
-</statement>
-<solution><m>r=\sqrt{\dfrac{A}{\pi}}</m></solution>
+        </hint>
+        <solution>
+            <p><m>r=\sqrt{\dfrac{A}{\pi}}</m></p>
+        </solution>
+    </webwork>
 </exercise>
+
 
 <exercise><title>QuickCheck 3</title>
-<statement><p>Match each quantity with the appropriate units.<ol label="a">
-    <li>Height of a cylinder</li>
-    <li>Volume of a cone</li>
-    <li>Surface area of a sphere</li>
-    <li>Area of a triangle</li></ol></p>
-    <p><ol label="i">
-        <li>Square meters</li>
-        <li>Feet</li>
-        <li>Cubic centimeters</li>
-        <li>Kilograms</li></ol></p></statement>
-    <solution>
-        <p><ol label="a">
-            <li>ii</li>
-            <li>iii</li>
-            <li>i</li>
-            <li>i</li></ol></p></solution>
+    <webwork>
+        <pg-code>
+            $length = PopUp(
+              ["?","I", "II","III","IV"],
+              2, 
+            );
+            $area = PopUp(
+              ["?","I", "II","III","IV"],
+              1, 
+            );
+            $volume = PopUp(
+              ["?","I", "II","III","IV"],
+              3, 
+            );
+            
+        </pg-code>
+        <statement>
+            <p>
+                Match each quantity with the appropriate units.
+                <ol label="a">
+                    <li><p>
+                        Height of a cylinder <var name="$length" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        Volume of a cone <var name="$volume" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        Surface area of a sphere <var name="$area" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        Area of a triangle <var name="$area" form="popup"/>
+                    </p></li>
+                </ol>
+            </p>
+            <p>
+                <ol label="I">
+                    <li>Square meters</li>
+                    <li>Feet</li>
+                    <li>Cubic centimeters</li>
+                    <li>Kilograms</li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p><ol label="a">
+                <li>II</li>
+                <li>III</li>
+                <li>I</li>
+                <li>I</li>
+            </ol></p>
+        </solution>
+    </webwork>    
 </exercise>
+
 </subsection>
 
 <subsection><title>More Extraction of Roots</title>
@@ -474,29 +606,83 @@ This gives us two equations for <m>x</m>,
 The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solutions satisfy the original equation.</p></solution>
 </example>
 
-<exercise><title>Practice 5</title>
-<statement><p>Solve by extracting roots:  
-    <me>2(5x+3)^2=38</me> <ol label="a">  
-    <li>Give your answers as exact values.</li>
-    <li>Find approximations for the solutions to two decimal places.</li></ol> </p></statement>
 
-<answer><p><ol label="a">
-    <li><m>r=\dfrac{-3\pm \sqrt{19}}{5}</m></li>
-    <li><m>0.27,~-1.47</m></li></ol></p>
-</answer></exercise>
+
+<exercise>
+    <title>Practice 5</title>
+    <webwork>
+         <pg-code>
+            $x0 = Compute("(-3 + sqrt(19))/5");
+            $x1 = Formula("(-3 - sqrt(19))/5");
+            $exact = List("$x0,$x1");
+            $approx = List("$x0,$x1")->with(
+              tolType => 'absolute',
+              tolerance => .0051,
+            );
+        </pg-code> 
+        <statement>
+            <p>Solve <m>2(5x + 3)^2 = 38</m> by extracting roots.</p>
+            <p><ol label="a">
+                <li><p>Give your answers as exact values, separating the solutions with a comma.</p>
+                <p><var name="$exact" width="25"/> </p>
+                <p>Note: Enter "sqrt(2)" to get <m>\sqrt{2}</m>, and take care to use parentheses appropriately. </p>
+                <p>Use the "Preview My Answers" button to see if you have entered valid syntax.</p></li>
+                <li><p>Find approximations for the solutions to two decimal places, separating the solutions with a comma.</p>
+                <p><var name="$approx" width="15"/></p></li>
+            </ol></p>
+        </statement>
+        <solution>
+            <p><ol label="a" cols="2">
+                <li><p><m>x=\dfrac{-3\pm \sqrt{19}}{5} </m></p></li>
+                <li><p><m>x\approx -1.47</m> or <m>x\approx 0.27</m></p></li>
+            </ol></p>
+        </solution>
+    </webwork>
+</exercise>
+
 
 <exercise><title>QuickCheck 4</title>
-<statement><p>True or false.<ol label="a">
-    <li>The first step in extraction of roots is to take square roots.</li>
-    <li>The solutions of a quadratic equation are always of the form <m>~\pm k</m>.</li>
-    <li>Your calculator gives exact decimal values for square roots of integers.</li>
-    <li>The coefficients of a quadratic equation are called parabolas.</li></ol></p></statement>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>False</li>
-    <li>False</li>
-    <li>False</li></ol></p></answer>
+    <webwork>
+        <pg-code>
+            $TF = PopUp(
+              ["?","True", "False"],
+              2, 
+            );           
+        </pg-code>
+        <statement>
+            <p>
+                True or false.
+                <ol label="a">
+                    <li><p>
+                        The first step in extraction of roots is to take square roots. 
+                        <var name="$TF" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        The solutions of a quadratic equation are always of the form <m>~\pm k</m>. 
+                        <var name="$TF" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        Your calculator gives exact decimal values for square roots of integers. 
+                        <var name="$TF" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        The coefficients of a quadratic equation are called parabolas. 
+                        <var name="$TF" form="popup"/>
+                    </p></li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p><ol label="a">
+                <li>False</li>
+                <li>False</li>
+                <li>False</li>
+                <li>False</li>
+            </ol></p>
+        </solution>
+    </webwork>
 </exercise>
+
 </subsection>
 
 <subsection><title>An Application: Compound Interest</title>
@@ -527,14 +713,36 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
         <md><mrow>A \amp = P(1+r)^2</mrow>
             <mrow>100 \amp = (1+0.04)^2 = 108.16</mrow></md></p>
 
+
 <exercise><title>Practice 6</title>
-<statement><p>The average cost of dinner and a movie two years ago was $36. This year the average cost is $38.16. What was the rate of inflation over the past two years?  (Round to two decimal places.)</p></statement>
-<answer>2.96%</answer>
+    <webwork>
+        <pg-code>
+            $C0 = 36;
+            $C1 = 38.16;
+            $r = Compute("100*sqrt($C1 / $C0 ) -100")->with(
+                      tolType => 'absolute',
+                      tolerance => .0051,
+                    );
+            
+        </pg-code>
+        <statement>
+            <p>
+                The average cost of dinner and a movie two years ago was $36. This year the average cost is $38.16. What was the rate of inflation over the past two years?  (Round to two decimal places.)
+            </p>
+            <p>
+                Answer: <var name="$r" width="3"/>%
+            </p>
+        </statement>
+        <solution>
+            <p>
+                2.96%
+            </p>
+        </solution>
+    </webwork>
 </exercise>
 
+
 </subsection>
-
-
 
 <xi:include href="./section-3-1-exercises.xml" />                
 
