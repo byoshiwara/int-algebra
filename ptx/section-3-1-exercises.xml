@@ -44,10 +44,56 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
                     </tabular></sidebyside></p>
-            <sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside></li>
+            <sidebyside  width="32%">
+                 <image xml:id="fig-hw-3-1-3">
+                    <description>grid</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.5]
+                    \draw[cyan] (-4,-8) grid (4,12);
+                    \draw[black,thick,->,>=stealth'] (-4,0)--++(8.6,0) node[right]{$x$};
+                    \draw[black,thick,->,>=stealth'] (0,-8)--(0,12.6) node[above]{$y$};
+                    \foreach \x  in {-4,-2,2,4} {
+                      \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+                    }
+                    \foreach \x in {-8,-6,-4,-2,2,4,6,8,10,12} {
+                      \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
+                    }
+                    \end{tikzpicture}]]>
+                </latex-image>
+                </image>
+            </sidebyside></li>
         <li>Use the graph to solve the equation <m>~2x^2-5=7</m>. Show your work on the graph. How many solutions did you find?</li></ol></p></statement>
         <answer><p><ol label="a">
-            <li><sidebyside  width="40%"><image source="images/fig-???"><description>graph </description></image></sidebyside></li>
+            <li><sidebyside  width="32%" margins="0% 60%">
+                 <image xml:id="fig-hw-3-1-3ans">
+                    <description>parabola</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.5]
+                    \draw[cyan] (-4,-8) grid (4,12);
+                    \draw[black,thick,->,>=stealth'] (-4,0)--++(8.6,0) node[right]{$x$};
+                    \draw[black,thick,->,>=stealth'] (0,-8)--(0,12.6) node[above]{$y$};
+                    \foreach \x  in {-4,-2,2,4} {
+                      \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+                    }
+                    \foreach \x in {-8,-6,-4,-2,2,4,6,8,10,12} {
+                      \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
+                    }
+                    \draw[samples=65,domain={-sqrt(17/2):sqrt(17/2)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{2*(\x)^2-5});
+                    \draw[green!60!black,ultra thick] (-4,7)--(4,7);
+                    \draw[green!60!black,ultra thick, dashed, ->, >=stealth'] ({-sqrt(6)},7) -- ++(0,-7);
+                    \draw[green!60!black,ultra thick, dashed, ->, >=stealth'] ({sqrt(6)},7) -- ++(0,-7);
+                    \filldraw[red] ({-sqrt(6)},7) circle (.2);
+                    \filldraw[red] ({sqrt(6)},7) circle (.2);
+                    \end{tikzpicture}]]>
+                </latex-image>
+                </image>
+            </sidebyside></li>
             <li>Two solutions. <m>\approx \pm 2.5</m></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement><p>Solve the equation <m>~2x^2-5=7~</m> algebraically, by "undoing" each operation. (Remember that every positive number has two square roots.)</p></statement>
