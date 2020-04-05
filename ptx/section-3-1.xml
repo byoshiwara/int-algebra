@@ -3,14 +3,59 @@
 
 <section xml:id="ExtractRoots"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Extraction of Roots</title>
 
-<introduction><p>So far you have learned how to solve linear equations.  In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term>.  Now we'll consider second-degree equations, or <term>quadratic</term> equations. A quadratic equation includes the square of the variable.</p> 
+<subsection><title>Introduction</title>
+
+<p>So far you have learned how to solve linear equations.  In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term>.  Now we'll consider second-degree equations, or <term>quadratic</term> equations. A quadratic equation includes the square of the variable.</p> 
 
 <assemblage><title>Quadratic Equations</title>
 <p>A <term>quadratic equation</term> can be written in the standard form 
     <me>ax^2+bx+c=0</me>
 where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></assemblage>
 
-<p>We would like to be able to solve quadratic equations, use them in applications, and graph quadratic equations in two variables. Let's begin by considering some simple examples.</p></introduction>
+
+<exercise><title>QuickCheck 1</title>
+    <webwork>
+        <pg-code>       
+            $quadratic = PopUp(
+              ["?","quadratic", "not"],
+              1, 
+            );
+            $not = PopUp(
+              ["?","quadratic", "not"],
+              2, 
+            );
+        </pg-code>
+        <statement>
+            <p>
+                Which of the following equations are quadratic?
+                <ol label="a">
+                    <li><p>
+                        <m>3x+2x^2=1</m>
+                        <var name="$quadratic" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        <m>4z^2-2z^3+2=0</m>
+                        <var name="$not" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        <m>36y-16=0 </m>
+                        <var name="$not" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        <m>v^2=6v</m>
+                        <var name="$quadratic" form="popup"/>
+                    </p></li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>(a) and (d) are quadratic.</p>
+        </solution>
+    </webwork>
+</exercise>
+
+<p>We would like to be able to solve quadratic equations, use them in applications, and graph quadratic equations in two variables. Let's begin by considering some simple examples.</p>
+</subsection>
 
 <subsection><title>Graphs of Quadratic Equations</title>
 
@@ -399,7 +444,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
                 Solve by extracting roots <m>\quad\dfrac{3x^2-8}{4} = 10</m>
             </p>
             <p>
-                <m>x=</m><var name="$answer" width="6" evaluator="$my_evaluator"/> Use a comma to separate different solutions.
+                <m>x=</m><var name="$answer" width="6" evaluator="$my_evaluator"/> Enter solutions separated by a comma.
             </p>
         </statement>
         <hint>

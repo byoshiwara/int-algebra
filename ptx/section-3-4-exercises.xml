@@ -108,7 +108,7 @@
 </answer></exercise>
 
 <exercise number="20"><statement><p>A box is made from a square piece of cardboard by cutting 2-inch squares from each corner and turning up the edges.</p>
-<sidebyside  width="40%"><image source="images/fig-???"><description>box</description></image></sidebyside>
+<sidebyside  width="60%"><image source="images/fig-hw-3-4-20"><description>box</description></image></sidebyside>
 <p><ol label="a">
     <li>If the piece of cardboard is <m>x</m> inches square, write expressions for the length, width and height of the box. Then write an expression for the volume <m>V</m> of the box in terms of <m>x</m>.</li>
     <li>Graph your expression for the volume on your calculator. What is the smallest value of <m>x</m> that makes sense for this problem?  Why?</li>
