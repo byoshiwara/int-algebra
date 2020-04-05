@@ -59,6 +59,10 @@
     </introduction>
     
     <xi:include href="./section-3-1.xml" /> <!--Extraction of roots -->
+    <xi:include href="./section-3-2.xml" /> <!--Intercepts,... -->
+    <xi:include href="./section-3-3.xml" /> <!--Graphing Parab -->
+    <xi:include href="./section-3-4.xml" /> <!--Completing Square -->
+    <xi:include href="./chap3-summary.xml" /> <!--Summary and Review-->
         
 
 </chapter> 

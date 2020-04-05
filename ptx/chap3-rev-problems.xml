@@ -68,9 +68,21 @@
         <li>Sketch the graph.</li></ol></p></introduction>
 
 <exercise number="15"><statement><m>y=\dfrac{1}{2}x^2</m></statement>
-    <answer><p><ol label="a">
-        <li><p>Vertex: <m>(0,0)</m>, <m>y</m>-int: <m>(0,0)</m>, <m>x</m>-int: <m>(0,0)</m></p></li>
-        <li><sidebyside width="40%"><image source="images/fig???"><description>figures </description></image></sidebyside></li></ol></p></answer></exercise>
+    <answer>
+        <p>
+            <ol label="a">
+                <li><p>
+                    Vertex: <m>(0,0)</m>, <m>y</m>-int: <m>(0,0)</m>, <m>x</m>-int: <m>(0,0)</m>
+                </p></li>
+                <li>
+                    <sidebyside width="40%">
+                        <image source="images/fig???"><description>figures </description></image>
+                    </sidebyside>
+                </li>
+            </ol>
+        </p>
+    </answer>
+</exercise>
 
 <exercise number="16"><statement><m>y=x^2-4</m></statement>
     <answer><p><ol label="a">
