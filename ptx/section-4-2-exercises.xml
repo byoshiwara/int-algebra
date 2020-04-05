@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+
+
+<!-- Copyright (C) Katherine Yoshiwara      -->
+
+
+<exercises xml:id="section-4-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Set 4.2</title>
+    
+<subexercises><title>Skills Practice</title>
+
+<exercise number="1"><statement><p>Francine throws a wrench into the air from the bottom of a trench 12 feet deep.  Its height <m>t</m> seconds later is given in feet by  
+    <me>h=-12+32t-16t^2</me> <ol label="a">  
+    <li>Graph the equation.
+        <sidebyside  width="30%"><image source="images/fig-???"><description>grid</description></image></sidebyside></li>
+    <li>Find the vertex of the graph.</li>
+    <li>What does the <m>h</m>-coordinate of the vertex tell us about the wrench?</li>
+    <li>What does the <m>t</m>-coordinate of the vertex tell us about the wrench?</li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li><sidebyside  width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><m>(1,4)</m></li>
+    <li>The wrench reaches its greatest height of 4 feet.</li>
+    <li>The wrench reaches its greatest height 1 second after Francine throws it.</li></ol></p>
+</answer></exercise>
+
+<exercise number="2"><statement><p><ol label="a">
+    <li>The math club has $68 in the treasury. Annual dues are $4. If <m>x</m> more students join, write an expression for the amount of money in the treasury.</li>
+    <li>The monthly dues for Rafael's condo association are $120. However, for each new tenant who moves in, the dues will be reduced by $5. Write an expression for the dues if <m>x</m> new tenants move in.</li></ol></p></statement>
+</exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 3 and 4, graph the parabola. What is the vertex of the graph?
+</p></introduction>
+
+<exercise number="3"><statement><p><ol label="a">
+    <li><m>y=(x-3)^2</m></li>
+    <li><m>y=-(x-3)^2</m></li>
+    <li><m>y=-(x-3)^2+4</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>(3,0)</m></li>
+    <li><m>(3,0)</m></li>
+    <li><m>(3,4)</m></li></ol></p>
+</answer></exercise>
+
+<exercise number="4"><statement><p><ol label="a">
+    <li><m>y=(x+4)^2</m></li>
+    <li><m>y=\dfrac{1}{2}(x+4)^2</m></li>
+    <li><m>y=3+\dfrac{1}{2}(x+4)^2</m></li></ol></p></statement>
+</exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 5 and 6: <ol label="a">
+    <li>Find the vertex of the parabola.</li>
+    <li>Sketch the graph.</li>
+    <li>Write the equation in standard form.</li></ol>
+</p></introduction>
+
+<exercise number="5"><statement><m>y=2(x-3)^2+4</m></statement>
+    <answer><ol label="a">
+    <li><m>(3,4)</m></li>
+    <li><sidebyside  width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><m>y=2x^2-12x+22</m></li></ol></answer></exercise>
+
+<exercise number="6"><statement><m>y=-\dfrac{1}{2}(x+4)^2-3</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 7 and 8, write the equation in the form <m>~a(x-p)^2+q~</m> by completing the square.</p></introduction>
+
+<exercise number="7"><statement><m>y=3x^2+6x-2</m></statement>
+<answer><m>y=(3x+1)^2-5</m></answer></exercise>
+
+<exercise number="8"><statement><m>y=-2x^2-8x+3</m></statement></exercise>
+</exercisegroup>
+</subexercises>
+
+<subexercises><title>Applications</title>
+
+<exercise number="9"><statement><p><ol label="a">
+    <li>Write an equation for a parabola whose vertex is the point <m>(5,10)</m>. (Many answers are possible.)</li>
+    <li>Find the value of <m>a</m> if the <m>x</m>-intercept of the parabola is <m>-5</m>.</li></ol></p>
+</statement>
+    <answer><p><ol label="a">
+    <li><m>y=a(x-5)^2-10</m></li>
+    <li><m>\dfrac{1}{5}</m></li></ol></p></answer></exercise>
+
+<exercise number="10"><statement><p>A breeder of horses wants to fence two adjacent rectangular grazing areas along a river with 600 meters of fence. <ol label="a">
+    <li>Write an expression for the total area, <m>A</m>, of the grazing land in terms of the width, <m>w</m>, of the rectangles.</li>
+    <li>What is the largest area she can enclose?</li></ol></p>
+</statement></exercise>  
+
+<exercise number="11"><statement><p>The owner of a motel has 60 rooms to rent. She finds that if she charges $20 per room per night, all the rooms will be rented. For every $2 that she increases the price of a room, three rooms will stand vacant.<ol label="a">
+    <li><p>Complete the table. The first two rows are filled in for you.</p>
+        <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>No. of price increases</cell>
+                        <cell>Price of a room</cell>
+                        <cell>No. of rooms rented</cell>
+                        <cell>Total revenue</cell></row>
+                    <row> 
+                        <cell><m>0</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>1200</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>22</m></cell>
+                        <cell><m>57</m></cell>
+                        <cell><m>1254</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>4</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>5</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>6</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>7</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>8</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>9</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>11</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>12</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>13</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>14</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>15</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>16</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>17</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>18</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>19</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>20</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li>Let  stand for the number of $2 price increases the owner makes. Write algebraic expressions for the price of a room, the number of rooms that will be rented, and the total revenue earned at that price.</li>
+    <li>Use your calculator to make a table of values for your algebraic expressions. Let <m>Y_1</m> stand for the price of a room, <m>Y_2</m> for the number of rooms rented, and <m>Y_3</m> for the total revenue. Verify the values you calculated in part (a).</li>
+    <li>Use your table to find a value of <m>x</m> that causes the total revenue to be zero.</li>
+    <li>Use your graphing calculator to graph your formula for total revenue.</li>
+    <li>What is the lowest price that the owner can charge for a room if she wants her revenue to exceed $1296 per night? What is the highest price she can charge to obtain this revenue?</li>
+    <li>What is the maximum revenue the owner can earn in one night? How much should she charge for a room to maximize her revenue? How many rooms will she rent at that price?</li></ol></p>
+    </statement>
+    <answer><p><ol label="a">
+        <li>(table)</li>
+        <li><m>20+2x,~ 60-3x,~ (20+2x)(60-3x)</m></li>
+        <li>(table)</li>
+        <li><m>x= 20</m></li>
+        <li><sidebyside  width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <li>$24, $36</li>
+        <li>$1350, $30, 45 rooms</li></ol></p>
+    </answer></exercise>
+
+<exercise number="12"><statement><p>A travel agent offers a group rate of $2400 per person for a week in London if 16 people sign up for the tour. For each additional person who signs up, the price per person is reduced by $100.
+<ol label="a">
+    <li>Let <m>x</m> represent the number of additional people who sign up. Write expressions for the number of people signed up, the price per person, and the total revenue.</li>
+    <li>How many people must sign up for the tour in order for the travel agent to maximize her revenue?</li></ol></p>
+ </statement></exercise>    
+
+<exercise number="13"><statement><p>In skeet shooting, the clay pigeon is launched from a height of 4 feet and reaches a maximum height of 164 feet at a distance of 80 feet from the launch site.  <ol label="a">
+    <li>Write an equation for the height of the clay pigeon in terms of the horizontal distance it has traveled.</li> 
+    <li>If the shooter misses the clay pigeon, how far from the launch site will it hit the ground?</li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li><m>h=\dfrac{-1}{40}(x-80)^2+164</m></li>
+    <li>160.99 ft</li></ol></p></answer></exercise>
+
+<exercise number="14"><statement><p><ol label="a">
+    <li>Graph in the standard window two lines and a parabola:
+        <md><mrow>Y_1 \amp = x+2</mrow>
+            <mrow>Y_2 \amp = 4-x</mrow>
+            <mrow>Y_3 \amp = (x+2)(4-x)</mrow></md></li>
+    <li>What do you notice about the  <m>x</m>-intercepts of the graphs?</li>
+    <li>What do you notice about the vertex of the parabola and the intersection point of the two lines?</li></ol></p>
+</statement></exercise>
+
+<exercise number="15"><statement><p><ol label="a">  
+    <li>Graph in the standard window two lines and a parabola:
+        <md><mrow>Y_1 \amp = x+4</mrow>
+            <mrow>Y_2 \amp = x-2</mrow>
+            <mrow>Y_3 \amp = (x+4)(x-2)</mrow></md></li>
+    <li>What are the <m>x</m>-intercepts of the parabola?</li>
+    <li><p>By referring to your graph, complete the table showing whether the <m>y</m>-values are positive or negative in each region.
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>x \lt -4</m></cell>
+                        <cell><m>-4 \lt x \lt 2</m></cell>
+                        <cell><m>x \gt 2</m></cell></row>
+                    <row> 
+                        <cell><m>Y_1</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>Y_2</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>Y_3</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li><sidebyside  width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><m>(-4,0),~(0,2)</m></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>x \lt -4</m></cell>
+                        <cell><m>-4 \lt x \lt 2</m></cell>
+                        <cell><m>x \gt 2</m></cell></row>
+                    <row> 
+                        <cell><m>Y_1</m></cell>
+                        <cell><m>-</m></cell>
+                        <cell><m>+</m></cell>
+                        <cell><m>+</m></cell></row>
+                    <row> 
+                        <cell><m>Y_2</m></cell>
+                        <cell><m>-</m></cell>
+                        <cell><m>-</m></cell>
+                        <cell><m>+</m></cell></row>
+                    <row> 
+                        <cell><m>Y_3</m></cell>
+                        <cell><m>+</m></cell>
+                        <cell><m>-</m></cell>
+                        <cell><m>+</m></cell></row>
+                    </tabular></sidebyside></li></ol></p>
+</answer></exercise>
+
+</subexercises>
+
+</exercises>
