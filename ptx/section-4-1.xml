@@ -118,9 +118,9 @@ When we evalute this last expression, we get two different positive values, <m>x
 </solution></example>
 
 <exercise><title>Practice 2</title>
-<p>The height of a baseball is given by the equation
+<statement><p>The height of a baseball is given by the equation
     <me>h=-16t^2+64t+4</me>
-where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places.</p>
+where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places.</p></statement>
 <hint><p>Set <m>h=20</m>, then write the equation in standard form.</p>
         <p>Divide each term by <m>-16</m>.</p>
         <p>Use the quadratic formula to solve.</p></hint>
@@ -307,6 +307,6 @@ Expressions in <m>y</m> are treated as constants with respect to <m>x</m>, so th
 
 
 
-<xi:include href="./section-3-4-exercises.xml" /> <!-- exercises  -->
+<xi:include href="./section-4-1-exercises.xml" /> <!-- exercises  -->
 </section> 
 <!-- </book>  </mathbook> -->
