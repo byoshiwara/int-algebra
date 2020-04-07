@@ -11,17 +11,58 @@
 <exercise number="1"><statement><p>Francine throws a wrench into the air from the bottom of a trench 12 feet deep.  Its height <m>t</m> seconds later is given in feet by  
     <me>h=-12+32t-16t^2</me> <ol label="a">  
     <li>Graph the equation.
-        <sidebyside  width="30%"><image source="images/fig-???"><description>grid</description></image></sidebyside></li>
+        <sidebyside  width="42%">
+            <image xml:id="fig-hw-4-2-1">
+                <description>grid</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [xscale=1.6, yscale=.8]
+                \draw[cyan] (0,-6) grid[xstep=1/2] (3,3);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(3.3,0) node[right]{$t$};
+                \draw[black,thick, ->, >=stealth'] (0,-6)--(0,3.6) node[above]{$h$};
+                \foreach \x in  {0.5,1,1.5,2,2.5,3} {
+                 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-6,-5,...,-1,1,2,3} {
+                 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside></li>
     <li>Find the vertex of the graph.</li>
     <li>What does the <m>h</m>-coordinate of the vertex tell us about the wrench?</li>
     <li>What does the <m>t</m>-coordinate of the vertex tell us about the wrench?</li></ol></p>
 </statement>
 <answer><p><ol label="a">
-    <li><sidebyside  width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside  width="35%" margins="0% 20%" >
+            <image xml:id="fig-hw-4-2-1ans">
+                <description>grid</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [xscale=1.6, yscale=.8]
+                \draw[cyan] (0,-6) grid[xstep=1/2] (3,3);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(3.3,0) node[right]{$t$};
+                \draw[black,thick, ->, >=stealth'] (0,-6)--(0,3.6) node[above]{$h$};
+                \foreach \x in  {0.5,1,1.5,2,2.5,3} {
+                 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-6,-5,...,-1,1,2,3} {
+                 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[samples=65,domain={0:2},smooth,variable=\x,red,very thick] plot ({\x},{-8*(\x)^2 +16* \x -6});
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+    </sidebyside></li>
     <li><m>(1,4)</m></li>
     <li>The wrench reaches its greatest height of 4 feet.</li>
     <li>The wrench reaches its greatest height 1 second after Francine throws it.</li></ol></p>
-</answer></exercise>
+</answer></exercise> 
 
 <exercise number="2"><statement><p><ol label="a">
     <li>The math club has $68 in the treasury. Annual dues are $4. If <m>x</m> more students join, write an expression for the amount of money in the treasury.</li>
@@ -57,7 +98,28 @@
 <exercise number="5"><statement><m>y=2(x-3)^2+4</m></statement>
     <answer><ol label="a">
     <li><m>(3,4)</m></li>
-    <li><sidebyside  width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside  width="60%" margins="0% 20%" >
+            <image xml:id="fig-hw-4-2-5ans">
+                <description>parabola</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.7]
+                \draw[cyan] (0,0) grid (6,6);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(6.5,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,0)--(0,6.6) node[above]{$y$};
+                \foreach \x in  {1,2,...,6} {
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x [evaluate=\x as \xi using int(5*\x)] in {1,2,...,6} {
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[samples=65,domain={0:6},smooth,variable=\x,red,very thick] plot ({\x},{(2*(\x -3)^2 +4)/5});
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+    </sidebyside></li>
     <li><m>y=2x^2-12x+22</m></li></ol></answer></exercise>
 
 <exercise number="6"><statement><m>y=-\dfrac{1}{2}(x+4)^2-3</m></statement></exercise>
@@ -213,7 +275,7 @@
         <li><m>20+2x,~ 60-3x,~ (20+2x)(60-3x)</m></li>
         <li>(table)</li>
         <li><m>x= 20</m></li>
-        <li><sidebyside  width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <li><sidebyside  width="30%" margins="0% 20%"><image source="images/fig-hw-4-2-11ans"><description>graph</description></image></sidebyside></li>
         <li>$24, $36</li>
         <li>$1350, $30, 45 rooms</li></ol></p>
     </answer></exercise>

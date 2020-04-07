@@ -46,7 +46,7 @@ We substitute <m>\alert{2}</m> for <m>a</m>, <m>\alert{-4}</m> for <m>b</m>, and
         <md><mrow> x \amp =\frac{-(\alert{-4})\pm \sqrt{(\alert{-4})^2 - 4(\alert{2})(\alert{1})}}{2(\alert{2})}</mrow>
             <mrow>\amp = \frac{4 \pm \sqrt{8}}{4}</mrow></md>
 Using a calculator, we find that the solutions are approximately <m>1.7</m> and <m>0.3</m>. These values are the <m>x</m>-intercepts of the graph of <m>~y = 2x^2 - 4x + 1,~</m> as shown in the figure.</p>
-    <sidebyside  width="30%"><image source="images/fig-parabola-intercepts" ><description>parabola with irrational x-intercepts</description></image></sidebyside></solution></example>
+    <sidebyside  width="38%"><image source="images/fig-parabola-intercepts" ><description>parabola with irrational x-intercepts</description></image></sidebyside></solution></example>
 
 <exercise><title>Practice 1</title>
     <webwork><pg-code>
@@ -117,14 +117,40 @@ When we evalute this last expression, we get two different positive values, <m>x
 <p>The dimensions of the play area can be 72.4 feet by 82.8 feet, or it can be 27.6 feet by 217.2 feet.</p>
 </solution></example>
 
-<exercise><title>Practice 2</title>
-<statement><p>The height of a baseball is given by the equation
-    <me>h=-16t^2+64t+4</me>
-where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places.</p></statement>
-<hint><p>Set <m>h=20</m>, then write the equation in standard form.</p>
-        <p>Divide each term by <m>-16</m>.</p>
-        <p>Use the quadratic formula to solve.</p></hint>
-<answer><p>0.27 sec, 3.73 sec</p></answer></exercise>       
+<exercise><title>Practice 4</title>
+    <webwork>
+         <pg-code>
+            Context("Complex")->functions->disable("sqrt");
+            Context()->functions->enable("sqrt");
+            Context()->{error}{msg}{"Can't take sqrt of -18"}
+              = "Your should not leave a negative number under the radical.";
+            Context()->{error}{msg}{"Can't take sqrt of -5"}
+              = "Your should not leave a negative number under the radical.";
+
+            $a = Compute("-1/2+3/2 i");
+            $b = Compute("-1/2-3/2 i");
+            $answer = List("$a,$b");
+            $my_evaluator = $answer -> cmp(
+             showHints=>1,
+             showLengthHints => 1,
+             partialCredit => 1,
+            ); 
+            
+        </pg-code> 
+        <statement>
+            <p>
+                Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers, separated with a comma.
+            </p>
+            <p>
+                <m>x=</m><var name="$answer" width="15"/> 
+            </p>
+        </statement>
+        <solution>
+            <p><m>\dfrac{-1}{2} \pm \dfrac{3}{2}i</m></p>
+        </solution>
+    </webwork>
+</exercise>
+     
 </subsection>
 
 <subsection><title>Complex Numbers</title>
@@ -164,17 +190,55 @@ Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real
 
 <p>The solutions of many quadratic equations involve imaginary numbers.</p>
  
-<example><statement><p>Solve <m>~~2x^2-x+2 = 0</m>.</p></statement>
-
-<solution><p>For this equation, <m>a=\alert{2},~b=\alert{-1},~</m> and <m>c=\alert{2}</m>. We substitute these values into the quadratic formula to obtain
-    <me>x=\dfrac{-(\alert{-1})} \pm \sqrt{(\alert{-1})^2-4(\alert{2})(\alert{2})}}{2(\alert{2})} = \dfrac{1 \pm \sqrt{-15}}{4}</me>    
-We write the solutions as  
-    <me>\dfrac{1 \pm i\sqrt{15}}{4}~~~\text{or}~~~\dfrac{1}{4} \pm \dfrac{\sqrt{15}}{4}</me>
-Because the solutions are not real numbers, the graph of 
-    <me>y=2x^2-x+2</me>
-has no <m>x</m>-intercepts, as shown below.</p>
-  <sidebyside  width="30%"><image source="images/fig-???" ><description>parabola</description></image></sidebyside>
-</solution></example>
+<example>
+    <statement>
+        <p>
+            Solve <m>~~2x^2-x+2 = 0</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            For this equation, <m>a=\alert{2}</m>, <m>b=\alert{-1}</m>, and <m>c=\alert{2}</m>. We substitute these values into the quadratic formula to obtain
+            <md>
+                <mrow>
+                    x=\frac{ -(\alert{-1}) \pm \sqrt{ (\alert{-1})^2 - 4(\alert{2}) (\alert{2})} } { 2(\alert{2}) } = \frac{1 \pm \sqrt{-15} } {4}
+                </mrow>
+            </md>
+            We write the solutions as 
+            <md>
+                <mrow>
+                    \frac{1 \pm i\sqrt{15}}{4} \qquad \text{or} \qquad \frac{1}{4} \pm \frac{\sqrt{15}}{4}
+                </mrow>
+            </md> 
+            Because the solutions are not real numbers, the graph of 
+            <md><mrow>
+                y=2x^2-x+2
+            </mrow></md>
+            has no <m>x</m>-intercepts, as shown below.</p>
+            <sidebyside  width="30%">
+                <image xml:id="fig-example-complex-roots">
+                    <description>parabola no x-intercepts</description>
+                    <latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.9]
+                    \draw[cyan] (-2,-1) grid (3,4);
+                    \draw[black,thick, ->, >=stealth'] (-2,0)--(3.3,0) node[right]{$x$};
+                    \draw[black,thick, ->, >=stealth'] (0,-1)--(0,4.3) node[above]{$y$};
+                    \foreach \x in  {-2,-1,1,2,3} {
+                     \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                    }
+                    \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-1,1,2,3,4} {
+                     \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                    }
+                    \draw[samples=65,domain={-3/2:2},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(2*(\x)^2 - \x +2)/2 });
+                    \end{tikzpicture}]]>
+                </latex-image>
+                </image>
+            </sidebyside>
+    </solution>
+</example>
 
 The sum of a real number and an imaginary number is called a <term>complex number</term>.  
 
@@ -240,16 +304,47 @@ For example, consider the three functions graphed below.</p>
 </example> 
 
 <exercise><title>QuickCheck 3</title>
-<statement><p>True or False. <ol label="a">
-    <li>The discriminant is part of the quadratic formula.</li>
-    <li>We use the discriminant to calculate the solutions of a quadratic equation.</li>
-    <li>If the discriminant is negative, both <m>x</m>-intercepts of the graph are negative.</li>
-    <li>If a quadratic equation won't factor, its graph has no <m>x</m>-intercepts.</li></ol></p></statement>
-<answer><p><ol label="a">
-    <li>True</li>
-    <li>False</li>
-    <li>False</li>
-    <li>False</li></ol></p></answer></exercise>
+<webwork>
+    <pg-code>       
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $TF = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or False. 
+            <ol label="a">
+                <li><p>
+                    The discriminant is part of the quadratic formula. <var name="$True" form="popup"/>
+                </p></li>
+                <li><p>
+                    We use the discriminant to calculate the solutions of a quadratic equation. <var name="$TF" form="popup"/>
+                </p></li>
+                <li><p>
+                    If the discriminant is negative, both <m>x</m>-intercepts of the graph are negative. <var name="$TF" form="popup"/>
+                </p></li>
+                <li><p>
+                    If a quadratic equation won't factor, its graph has no <m>x</m>-intercepts. <var name="$TF" form="popup"/>
+                </p></li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p>
+        <ol label="a">
+            <li>True</li>
+            <li>False</li>
+            <li>False</li>
+            <li>False</li>
+        </ol>
+        </p>
+    </solution>
+</webwork>
+</exercise>
 
 
 <exercise xml:id="exercise-discriminant">

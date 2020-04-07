@@ -71,7 +71,7 @@ on the same screen. Use <c>WINDOW</c> settings to match the graph in <xref ref="
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside widths="23%" margins="0% 70%"><image source="images/fig-in-ex-ans-6-5-1"><description>parabola for quadratic inequality</description></image></sidebyside>
+        <sidebyside widths="23%" margins="0% 70%"><image source="images/fig-ex-4-4-1ans"><description>parabola for quadratic inequality</description></image></sidebyside>
     </conclusion>
 </exercise>
 
@@ -116,17 +116,8 @@ This set is another type of compound inequality, and its graph consists of two p
 </webwork></exercise>
 
 <exercise>
-    <title>Practice 3</title>
+    <title>Practice 2</title>
     <webwork><pg-code>
-            Context("Interval");
-            Context()->{error}{msg}{"Unexpected character '&lt;'"}
-              = "Your answer should not contain inequality symbols. Give your answer in interval notation.";
-            Context()->{error}{msg}{"Unexpected character '>'"}
-              = "Your answer should not contain inequality symbols. Give your answer in interval notation.";
-            Context()->{error}{msg}{"'or' is not defined in this context"}
-              = "Use 'U' (upper case u) to indicate a union";
-
-
             $f = Formula("16+6x-x^2");
             $answer = Compute("(-inf,-2]U[8,inf)");
             $my_evaluator = $answer -> cmp(
@@ -142,7 +133,6 @@ This set is another type of compound inequality, and its graph consists of two p
                 <p><var name="$f" width="12"/><m>\le 0</m> </p></li>
             <li><p>Graph the equation <m>y = 16 + 6x - x^2</m>.</p></li>
             <li><p>Locate the points on the graph with <m>y</m>-coordinate less than zero, and mark the <m>x</m>-coordinates of the points on the <m>x</m>-axis.</p></li></ol></p>
-    <instruction>When using interval notation, use "inf" for <m>\infty</m> and use "U" (an upper case letter u) for the union symbol <m>\cup</m>.</instruction>
  </statement>
     <solution><p><ol label="a">
         <li><p><m>16+6x-x^2\le 0</m></p></li>
@@ -151,7 +141,7 @@ This set is another type of compound inequality, and its graph consists of two p
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="25%" margins="0% 75%"><image source="images/fig-in-ex-ans-6-5-3" ><description>parabola for quadrtic inequality</description></image></sidebyside>
+        <sidebyside width="25%" margins="0% 75%"><image source="images/fig-ex-4-4-2ans" ><description>parabola for quadratic inequality</description></image></sidebyside>
     </conclusion>
 </exercise>
 
@@ -181,33 +171,84 @@ This set is another type of compound inequality, and its graph consists of two p
 
 <solution><p><ol label="a">
     <li><p><m>[3,6)</m>. This is called a half-open or half-closed interval.</p>
-    <sidebyside width="25%"><image source="images/fig???"><description>number line</description></image></sidebyside></li>
+    <sidebyside width="65%"><image source="images/fig-half-open-interval"><description>number line</description></image></sidebyside></li>
     <li><p><m>[-9, \infty)</m>. We always use round brackets next to the symbol <m>\infty</m> because <m>\infty</m> is not a specific number and is not included in the set. </p>
-    <sidebyside width="25%"><image source="images/fig???"><description>number line</description></image></sidebyside></li>
+    <sidebyside width="75%"><image source="images/fig-half-closed-infinite-interval"><description>number line</description></image></sidebyside></li>
     <li><p><m>(-\infty,1] \cup (4, \infty)</m>. The word "or" describes the union of two sets. </p>
-    <sidebyside width="25%"><image source="images/fig???"><description>number line</description></image></sidebyside></li>
+    <sidebyside width="65%"><image source="images/fig-disjoint-infinite-intervals"><description>number line</description></image></sidebyside></li>
     <li><p><m>(-8,-5] \cup [-1,3)</m>. </p>
-    <sidebyside width="25%"><image source="images/fig???"><description>number line</description></image></sidebyside></li>
+    <sidebyside width="60%"><image source="images/fig-disjoint-finite-intervals"><description>number line</description></image></sidebyside></li>
     </ol></p></solution></example>
 
 <exercise><title>Practice 3</title>
-    <statement><p>Write the solutions to Exercises 1 and 2 in interval notation.</p></statement>
-<answer><m>[-3,5];~~(-\infty,-2]\cup [8,\infty)</m></answer>
+<webwork>
+    <pg-code>
+        Context("Interval");
+            Context()->{error}{msg}{"Unexpected character '&lt;'"}
+              = "Your answer should not contain inequality symbols. Give your answer in interval notation.";
+            Context()->{error}{msg}{"Unexpected character '>'"}
+              = "Your answer should not contain inequality symbols. Give your answer in interval notation.";
+            Context()->{error}{msg}{"'or' is not defined in this context"}
+              = "Use 'U' (upper case u) to indicate a union";
+        $I1 = Interval([-3,5]);
+        $I2 = Union("(-infinity,-2] U [8,infinity)");
+    </pg-code>
+    <statement>
+        <p>
+            Write the solutions to Practice 1 and Practice 2 in interval notation.
+        </p>
+    <instruction>When using interval notation, use "inf" for <m>\infty</m> and use "U" (an upper case letter u) for the union symbol <m>\cup</m>.</instruction>
+        <p>
+            Practice 1 answer: <var name="$I1" width="5"/>
+        </p>
+        <p>
+            Practice 1 answer: <var name="$I2" width="15"/>
+        </p>
+    </statement>
+    <solution>
+        <p>
+             Practice 1: <m> [-3,5]</m>
+        </p>
+        <p>
+             Practice 2: <m>(-\infty,-2]\cup [8,\infty)</m>
+        </p>
+    </solution>
+</webwork>
 </exercise>
 
 <exercise><title>QuickCheck 3</title>
-<p>True or False  <ol label="a">
-    <li>An open interval includes only the numbers between its endpoints.</li>
-    <li>Infinite intervals include the number <m>\infty</m>.</li>
-    <li>The union of two intervals includes all numbers that lie in both intervals.</li>
-    <li>An interval must be either closed or open.</li>
-</ol></p>
-<answer><p><ol label="a">
+<webwork>
+    <pg-code>
+         $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $TF = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+   </pg-code>
+    <statement>
+        <p>True or False  
+            <ol label="a">
+                <li>An open interval includes only the numbers between its endpoints. <var name="$True" form="popup" /></li>
+                <li>Infinite intervals include the number <m>\infty</m>. <var name="$TF"  form="popup" /></li>
+                <li>The union of two intervals includes all numbers that lie in both intervals. <var name="$True"  form="popup" /></li>
+                <li>An interval must be either closed or open. <var name="$TF"  form="popup" />
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
     <li>True</li>
     <li>False</li>
     <li>True</li>
-    <li>False</li></ol></p></answer>
+    <li>False</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
+
 </subsection>
 
 <subsection><title>Solving Quadratic Inequalities Algebraically</title>
@@ -239,9 +280,9 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
     <li><p>We subtract <m>20</m> from both sides of the inequality so that we have <m>0</m> on the right side.
                 <me>16 + 6x - x^2\le 0</me></p></li>
     <li><p>Consider the equation <m>y = 16 + 6x - x^2</m>. To locate the <m>x</m>-intercepts, we set <m>y = 0</m> and solve for <m>x</m>.
-        <md><mrow>16 + 6x - x^2 \amp= 0 \amp\amp \blert{\text{Multiply each term by }-1.}</mrow>
-            <mrow>x^2 - 6x - 16 \amp = 0 \amp\amp \blert{\text{Factor the left side.}}</mrow>
-            <mrow>(x - 8)(x + 2)\amp= 0\amp\amp \blert{\text{Apply the zero-factor principle.}}</mrow>
+        <md><mrow>16 + 6x - x^2 \amp= 0 \amp\amp \glert{\text{Multiply each term by }-1.}</mrow>
+            <mrow>x^2 - 6x - 16 \amp = 0 \amp\amp \glert{\text{Factor the left side.}}</mrow>
+            <mrow>(x - 8)(x + 2)\amp= 0\amp\amp \glert{\text{Apply the zero-factor principle.}}</mrow>
             <mrow>x - 8 = 0 ~~~\text{ or }~~~x + 2 \amp= 0</mrow>
             <mrow>x = 8  ~~~\text{ or }~~~ x \amp= -2</mrow></md>
     The <m>x</m>-intercepts are <m>x = -2</m> and <m>x = 8</m>.</p></li>
