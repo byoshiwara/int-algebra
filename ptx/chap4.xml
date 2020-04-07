@@ -88,7 +88,11 @@
     </introduction>
 <!--  -->
      <xi:include href="./section-4-1.xml" /> <!-- Quadratic Formula  -->
-        
+     <xi:include href="./section-4-2.xml" /> <!-- The Vertex  -->
+     <xi:include href="./section-4-3.xml" /> <!-- Curve Fitting  -->
+     <xi:include href="./section-4-4.xml" /> <!-- Quadratic Inequalities-->
+     <xi:include href="./chap4-summary.xml" /> <!--Summary & Review-->
+       
 
 </chapter> 
 <!-- </book>  </mathbook> -->
