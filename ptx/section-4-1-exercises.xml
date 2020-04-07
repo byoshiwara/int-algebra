@@ -26,14 +26,34 @@
     <li><p>Solve by the quadratic formula
     <me>2x^2-1=5x</me>
     <md><mrow>\amp\blert{\text{Write the equation in standard form.}}</mrow>
-        <mrow>\amp\blert{\text{Substitute}~a=<fillin characters="6"/>,~b=<fillin characters="6"/>,~c=<fillin characters="6"/>~ \text{into the quadratic formula.}}</mrow>
+        <mrow>\amp\blert{\text{Substitute }a=<fillin characters="4"/>,~b=<fillin characters="4"/>,~c=<fillin characters="4"/> \text{ into the quadratic formula.}}</mrow>
         <mrow>\amp\blert{\text{Simplify.  (Start with the radical.)}}</mrow>
         <mrow>\amp\blert{\text{Find decimal approximations for your answers.  Round to hundredths.}}</mrow></md></p></li>
     <li><p>Graph <m>~y=2x^2-5x-1</m> in the window
         <md><mrow>\text{Xmin}=-1~~~~\text{Ymin}=-5</mrow>
             <mrow>\text{Xmax}=5~~~~~\text{Ymax}=5</mrow></md>
         Sketch your graph on the grid.</p>
-        <sidebyside  width="80%"><image source="images/fig-???"><description>grid </description></image></sidebyside></li>
+        <sidebyside  width="40%">
+            <image xml:id="fig-hw-4-1-2">
+                <description>grid</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.75]
+                \draw[cyan] (-1,-5) grid (5,5);
+                \draw[black,thick, ->, >=stealth'] (-1,0)--(5.5,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5.6) node[above]{$y$};
+                \foreach \x in  {-1,1,2,...,5} {
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x in  {-5,-4,...,-1,1,2,...,5} {
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside></li>
     <li>How are your solutions from part (a) related to the graph?</li></ol></p></statement></exercise>
 
 <exercise number="3"><statement><p><ol label="a">
@@ -93,7 +113,7 @@
 <answer><p>c.  31.77 mph</p></answer></exercise>
 
 <exercise number="14"><statement><sidebyside widths="70% 20%"><p>When you look down from a height, say a tall building or a mountain peak, your line of sight is tangent to the Earth at the horizon, as shown in the figure.</p>
-    <image source="images/fig-6-2-43"><description>tangent to earth</description></image></sidebyside><p><ol>
+    <image source="images/fig-hw-4-1-14"><description>tangent to earth</description></image></sidebyside><p><ol>
         <li><p>Suppose you are standing on top of the Petronas Tower in Kuala Lumpur, <m>1483</m> feet high. How far can you see on a clear day? (You will need to use the Pythagorean theorem and the fact that the radius of the Earth is <m>3960</m> miles. Don't forget to convert the height of the Petronas Tower to miles.)</p></li>
         <li><p>How tall a building should you stand on in order to see <m>100</m> miles?</p></li>
     </ol></p></statement></exercise>
@@ -106,7 +126,7 @@
     <answer><p>b.  <m>10h(2h-6)=2160~~~</m>c.  12 ft by 18 ft by 10ft</p></answer></exercise>
 
 <exercise number="16"><statement><p>You have 72 feet of rope to enclose a rectangular display area against one wall of an exhibit hall. The area enclosed depends upon the dimensions of the rectangle you make. Because the wall makes one side of the rectangle, the length of the rope accounts for only three sides, as shown below.</p>
-      <sidebyside width="40%"><image source="images/fig-???.jpg"><description>figure</description></image></sidebyside>
+      <sidebyside width="40%"><image source="images/fig-hw-4-1-16"><description>figure</description></image></sidebyside>
 <p><ol label="a">                                     
     <li>Let  stand for the height of a rectangle, and write an algebraic expression for the base of the rectangle.</li>  
     <li>Write an expression for the area of the rectangle.</li> 

@@ -3,8 +3,9 @@
 
 <section xml:id="CurveFitting"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Curve Fitting</title>
-
+<introduction>
 <p>Earlier, we used linear regression to fit a line to a collection of data points.  In this section we'll see how to fit a quadratic equation to a collection of data points.</p>
+</introduction>
 
 <subsection><title>Finding a Quadratic Equation through Three Points</title>
 
@@ -68,10 +69,10 @@ Next, we eliminate <m>b</m> from Equations (4) and (5): we add <m>-3</m> times E
             <cell><m></m></cell></row>
     </tabular></sidebyside>
 <p>or <m>a = 1</m>. We substitute <m>1</m> for <m>a</m> in Equation (4) to find
-        <md><mrow>8(\alert{1}) + 2b \amp= 2 \amp\amp \blert{\text{Solve for }b.}</mrow>
+        <md><mrow>8(\alert{1}) + 2b \amp= 2 \amp\amp \glert{\text{Solve for }b.}</mrow>
             <mrow>b \amp= -3</mrow></md>
 Finally, we substitute <m>-3</m> for <m>b</m> and <m>1</m> for <m>a</m> in Equation (1) to find
-        <md><mrow>\alert{1} + (\alert{-3}) + c\amp = 3\amp\amp \blert{\text{Solve for }c.}</mrow>
+        <md><mrow>\alert{1} + (\alert{-3}) + c\amp = 3\amp\amp \glert{\text{Solve for }c.}</mrow>
             <mrow>c \amp = 5</mrow></md>
 Thus, the equation of the parabola is
     <me>y = x^2 - 3x + 5</me>
@@ -80,18 +81,44 @@ The parabola and the three points are shown below.</p>
 </solution></example>
 
 <exercise><title>QuickCheck 1</title>
-<statement><p>Fill in the blanks. To find the equation for a parabola: <ol label="a">
-    <li>We can use the formula <m>~y=a(x-x_v)^2+y_v~</m> if we know the <fillin characters="6"/> and one other point.</li>
-    <li>We can use the formula <m>~y=a(x-r_1)(x-r_2)~</m> if we know the <fillin characters="6"/> and one other point.
-    </li>
-    <li>Otherwise, we must know at least<fillin characters="6"/> points on the graph.</li> 
-    <li>In that case, we use <fillin characters="6"/>to solve for the parameters of the equation.</li></ol></p>
-</statement>
-<answer><p><ol label="a">
+<webwork>
+    <pg-code>
+        $a = PopUp(
+          ["?","Gaussian elimination", "x-intercepts", "vertex", "three", "one"],
+          3, 
+        );
+        $b = PopUp(
+          ["?","Gaussian elimination", "x-intercepts", "vertex", "three", "one"],
+          2, 
+        );
+        $c = PopUp(
+          ["?","Gaussian elimination", "x-intercepts", "vertex", "three", "one"],
+          4, 
+        );
+        $d = PopUp(
+          ["?","Gaussian elimination", "x-intercepts", "vertex", "three", "one"],
+          1, 
+        );
+    </pg-code>
+    <statement>
+        <p>Fill in the blanks. To find the equation for a parabola: 
+            <ol label="a">
+                <li>We can use the formula <m>~y=a(x-x_v)^2+y_v~</m> if we know the <var name="$a" form="popup"/> and one other point.</li>
+                <li>We can use the formula <m>~y=a(x-r_1)(x-r_2)~</m> if we know the <var name="$b" form="popup"/> and one other point.
+                </li>
+                <li>Otherwise, we must know at least <var name="$c" form="popup"/> points on the graph.</li> 
+                <li>In that case, we use <var name="$d" form="popup"/> to solve for the parameters of the equation.</li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
     <li>vertex</li>
     <li><m>x</m>-intercepts</li>
     <li>three</li>
-    <li>Gaussian elimination</li></ol></p></answer>
+    <li>Gaussian elimination</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 
 <exercise>
@@ -116,7 +143,7 @@ The parabola and the three points are shown below.</p>
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="25%" margins="0% 70%"><image source="images/fig-in-ex-ans-6-6-2"><description>parabola</description></image></sidebyside>
+        <sidebyside width="25%" margins="0% 70%"><image source="images/fig-ex-4-3-1ans"><description>parabola</description></image></sidebyside>
     </conclusion>
 </exercise>
 </subsection>
@@ -167,50 +194,106 @@ The graph of this function, along with the data points, is shown at right.</p></
 <p>As was the case with linear regression, the graph of the regression equation may not pass through all of the data points, but it should be close to most of them.</p>
 
 <exercise><title>Practice 2</title>
-<statement><p>The data below show Americans' annual per capita consumption of chicken for several years since 1985.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell>Year</cell>
-                        <cell>1986</cell>
-                        <cell>1987</cell>
-                        <cell>1988</cell>
-                        <cell>1989</cell>
-                        <cell>1990</cell></row>
-                    <row> 
-                        <cell>Pounds of chicken</cell>
-                        <cell><m>51.3</m></cell>
-                        <cell><m>55.5</m></cell>
-                        <cell><m>57.4</m></cell>
-                        <cell><m>60.8</m></cell>
-                        <cell><m>63.6</m></cell></row>
-                    </tabular></sidebyside>
-<ol label="a">
-    <li>Use the values for 1987 through 1989 to fit a quadratic equation to the data, <m>~C=at^2+bt+c,~</m> where <m>t</m> is measured in years since 1985.</li>
-    <li>What does your equation predict for per capita chicken consumption in 1990?</li>
-    <li>Sketch the graph of your equation and the given data. Does your model provide a good fit for the data?</li></ol>
-</p></statement>
-<answer><p><ol label="a">
-    <li><m>C=0.75t^2-1.85t+56.2</m></li>
-    <li>65.7 lbs</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        Context()->variables->add(t=>"Real");
+        $a = Compute("0.75");
+        $b = Compute("-1.85");
+        $c = Compute("56.2");
+        $p = Formula("$a*t**2 + $b *t + $c");
+        $t = 5;
+        $answer = $p->eval(t=>$t);
+    </pg-code>
+    <statement>
+        <p>
+            The data below show Americans' annual per capita consumption of chicken for several years since 1985.
+        </p>
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <row bottom="minor">
+                <cell>Year</cell>
+                <cell>1986</cell>
+                <cell>1987</cell>
+                <cell>1988</cell>
+                <cell>1989</cell>
+                <cell>1990</cell></row>
+            <row> 
+                <cell>Pounds of chicken</cell>
+                <cell><m>51.3</m></cell>
+                <cell><m>55.5</m></cell>
+                <cell><m>57.4</m></cell>
+                <cell><m>60.8</m></cell>
+                <cell><m>63.6</m></cell>
+            </row>
+        </tabular>        
+        <ol label="a">
+            <li><p>
+                Use the values for 1987 through 1989 to fit a quadratic equation to the data, <m>~C=at^2+bt+c,~</m> where <m>t</m> is measured in years since 1985.
+            </p>
+            <p>
+                <m>C=</m><var name="$p" width="18"/></p></li>
+            <li><p>What does your equation predict for per capita chicken consumption in 1990?
+            </p>
+            <p>   
+                Answer: <var name="$answer" width="3"/> lbs
+            </p></li>
+            <li><p>
+                Sketch the graph of your equation and the given data. Does your model provide a good fit for the data?
+            </p></li>
+        </ol>
+    </statement>
+    <solution>
+        <p><ol label="a">
+        <li><p><m>C=0.75t^2-1.85t+56.2</m></p></li>
+        <li><p>65.7 lbs</p></li>
+        <li><p>A graph is below.</p></li>
+    </ol></p>
+    </solution>
+</webwork>
+<conclusion>
+    <sidebyside width="25%" margins="0% 30%">
+        <image source="images/fig-chicken-consumption"><description>scatterplot and parabola fit</description></image>
+    </sidebyside>
+</conclusion>
 </exercise>
 
 <exercise><title>QuickCheck 2</title>
-<p>True or False  <ol label="a">
-    <li>We can plot the data points to see what type of curve is appropriate as a model.</li>
-    <li>We write a system of equations in which the <m>y</m>-coordinates of the data points are the unknown values.</li>
-    <li>A good regression equation will pass through all of the data points.</li>
-    <li>According to the model in Example 2, higher speeds always result in higher driving costs.</li></ol></p>
-<answer><p><ol label="a">
-    <li>True</li>
-    <li>False</li>
-    <li>False</li>
-    <li>False</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $TF = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>True or False  
+            <ol label="a">
+                <li>We can plot the data points to see what type of curve is appropriate as a model.  <var name="$TF" form="popup"/> </li>
+                <li>We write a system of equations in which the <m>y</m>-coordinates of the data points are the unknown values.  <var name="$False" form="popup"/></li>
+                <li>A good regression equation will pass through all of the data points.  <var name="$False" form="popup"/></li>
+                <li>According to the model in Example 2, higher speeds always result in higher driving costs.  <var name="$False" form="popup"/></li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>True</li>
+            <li>False</li>
+            <li>False</li>
+            <li>False</li>
+        </ol></p>
+    </solution>
+</webwork>
 </exercise>
+
 </subsection>
 
 <subsection><title>Using a Calculator for Quadratic Regression</title>
 
-<p>We can use a graphing calculator to find an approximate quadratic fit for a set of data. The procedure is similar to the steps for linear regression.</p></technology>
+<p>We can use a graphing calculator to find an approximate quadratic fit for a set of data. The procedure is similar to the steps for linear regression.</p>
 
 <example xml:id="example-GC-quadratic-fit"><statement><p><ol label="a">
         <li><p>Use your calculator to find a quadratic fit for the data in <xref ref="example-quadratic-fit" text="type-global"/>.</p></li>
@@ -226,7 +309,7 @@ The graph of this function, along with the data points, is shown at right.</p></
             <sidebyside width="70%"><image source="images/fig-GC-quadratic-regression2" ><description>GC plot and GC table quadratic regression output</description></image></sidebyside></li>
     </ol></p></solution></example>
 
-<exercise><title>Practice 5</title>
+<exercise><title>Practice 3</title>
     <webwork><pg-code>
             $Pop = PopUp(
             ["?","linear","quadratic"],
@@ -268,7 +351,7 @@ The graph of this function, along with the data points, is shown at right.</p></
     </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="40%" margins="0% 60$"><image source="images/fig-in-ex-ans-6-6-5"><description>parabola fit to points</description></image></sidebyside>
+        <sidebyside width="40%" margins="0% 60$"><image source="images/fig-ex-4-3-5."><description>parabola fit to points</description></image></sidebyside>
     </conclusion>
 </exercise>
 </subsection>
@@ -327,16 +410,36 @@ From either the graph of the regression equation or from the table (see figure b
 <p>Even though your calculator can always compute a regression equation,that equation is not necessarily appropriate for your data. Choosing a reasonable type of regression equation for a particular data set requires knowledge of different kinds of models and the physical or natural laws that govern the situation at hand.</p></warning>
 
 <exercise><title>QuickCheck 3</title>
-<p>True or False  <ol label="a">
-    <li>Your calculator can choose the correct type of regression equation for a data set.</li>
-    <li>It is only necessary to use the first and last data points to compute a regression equation.</li>
-    <li>A regression equation may fit some of the data but still be a poor model.</li>
-    <li>A good regression equation should fit all the data points exactly.</li></ol></p>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>False</li>
-    <li>True</li>
-    <li>False</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $TF = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>True or False  
+            <ol label="a">
+                <li>Your calculator can choose the correct type of regression equation for a data set.  <var name="$False" form="popup"/> </li>
+                <li>It is only necessary to use the first and last data points to compute a regression equation.  <var name="$False" form="popup"/></li>
+                <li>A regression equation may fit some of the data but still be a poor model.  <var name="$TF" form="popup"/></li>
+                <li>A good regression equation should fit all the data points exactly.  <var name="$False" form="popup"/></li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>False</li>
+            <li>False</li>
+            <li>True</li>
+            <li>False</li>
+        </ol></p>
+    </solution>
+</webwork>
 </exercise>
 
 <exercise><title>Practice 4</title>
@@ -383,7 +486,7 @@ From either the graph of the regression equation or from the table (see figure b
     </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="40%" margins="0% 50%"><image source="images/fig-in-ex-ans-6-6-6.jpg"><description>parabola fit to points</description></image></sidebyside>
+        <sidebyside width="40%" margins="0% 50%"><image source="images/fig-ex-4-3-4ans"><description>parabola fit to points</description></image></sidebyside>
     </conclusion>
 </exercise>
 </subsection>

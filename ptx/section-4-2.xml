@@ -6,7 +6,7 @@
 
 <subsection><title>Finding the Vertex</title>
 
-<p>In Section 3.3 we was that the vertex of the graph of <m>~y=ax^2+bx~</m>has -coordinate given by
+<p>In Section 3.3 we saw that the vertex of the graph of <m>~y=ax^2+bx~</m>has -coordinate given by
     <me>x_v=\dfrac{-b}{2a}</me>
 Now we'll see that the same formula holds for any parabola.  Use your calculator t<m>x</m>o graph the two parabolas
     <md><mrow>y \amp = 2x^2+8x</mrow>
@@ -14,12 +14,39 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
  in the window  
     <md><mrow>\text{Xmin}=-6~~~~\text{Ymin}=-6</mrow>
         <mrow>\text{Xmax}=4~~~~~\text{Ymax}=10</mrow></md></p>
-
-<p>The graphs are shown above.  Now compare the two graphs.  You should notice that:<ul>
-    <li>The second graph is identical to the first, except shifted upward by 6 units.</li>
-    <li>For both graphs, the <m>x</m>-coordinate of the vertex is <m>x_v=-2</m>.</li></ul></p> 
-
-<p>We see that the <m>x</m>-coordinate of the vertex is not affected by an upward shift. The formula for the <m>x</m>-coordinate of the vertex still holds.</p>
+<sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
+     <p>
+        The graphs are shown at right.  Now compare the two graphs.  You should notice that:
+        <ul>
+            <li>The second graph is identical to the first, except shifted upward by 6 units.</li>
+            <li>For both graphs, the <m>x</m>-coordinate of the vertex is <m>x_v=-2</m>.</li>
+        </ul>
+    </p> 
+    <image xml:id="fig-2-parabolas-symmetry-line">
+        <description>two parabolas with same symmetry line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.6, yscale=.3]
+        \draw[cyan] (-6,-10) grid[ystep=2] (2,10);
+        \draw[black,thick, ->, >=stealth'] (-6,0)--(2.5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,10.6) node[above]{$y$};
+        \foreach \x in  {-4,-2,2} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-8,-4,4,8} {
+         \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-5:1},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{2*(\x)^2 +8* \x });
+        \draw[samples=65,domain={-sqrt(6)-2:sqrt(6)-2},smooth,variable=\x,blue,very thick, <->, >=stealth'] plot ({\x},{2*(\x)^2 +8* \x+6 });
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
+<p>
+    We see that the <m>x</m>-coordinate of the vertex is not affected by an upward shift. The formula for the <m>x</m>-coordinate of the vertex still holds.
+</p> 
 
 <assemblage><title>Vertex of a Parabola</title>
     <p>For the graph of  <m>~~y=ax^2+bx+c=0,~~</m> the <m>x</m>-coordinate of the vertex is 
@@ -147,7 +174,7 @@ The vertex of this parabola is
         <md><mrow>x_v \amp= \frac{-(-12)}{2(2)}=3</mrow>
             <mrow>y_v \amp = 2(3)^2 - 12(3) + 10=-8</mrow></md>
 and its graph is shown below.</p>
-    <sidebyside  width="30%"><image source="images/fig-vertex-form"><description>parabola
+    <sidebyside  width="35%"><image source="images/fig-vertex-form"><description>parabola
     with vertex labeled</description></image></sidebyside>
 
 <p>Notice that the coordinates of the vertex, <m>(3,-8)</m>, are apparent in the original equation; we don’t need to do any computation to find the vertex.
@@ -278,12 +305,12 @@ The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
             <mrow>7 \amp= 100a+11</mrow>
             <mrow>a \amp = -0.04</mrow></md>
     The equation of the trajectory is <m>~y=-0.04(x-10)^2+11</m>.</p>
-    <sidebyside  width="30%"><image source="images/fig???" ><description>parabola</description></image></sidebyside></li>
+    <sidebyside  width="40%"><image source="images/fig-free-throw" ><description>parabola</description></image></sidebyside></li>
     <li><p> We'd like to know if the point <m>(15,10)</m> is on the trajectory of Andre's free-throw. We substitute <m>x=\alert{15}</m> into the equation. 
         <md><mrow>y \amp =-0.04(\alert{15}-10)^2+11</mrow>
             <mrow>y \amp =-0.04(25)+11 = 10</mrow></md>
     From our computations, we see that the point <m>(15,10)</m> is indeed on the trajectory. However, because Andre's shot will probably hit the backboard just where the hoop attaches and bounce off, so it is unlikely that his shot will score.</p> </li></ol></p>
-</solution></example>
+</solution></example> 
 
 <exercise><title>QuickCheck 3</title>
 <webwork><pg-code>       
@@ -305,8 +332,26 @@ The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
 </webwork></exercise>
 
 <exercise><title>Practice 5</title>
-<statement><p>A parabola has its vertex at <m>(16,80)</m> and one of its  <m>x</m>-intercepts at <m>(40,0)</m>. Find an equation for the parabola.</p></statement>
-<answer><m>y=\dfrac{-5}{36}(x-16)^2+80</m></answer></exercise>       
+<webwork>
+    <pg-code>
+        Context()->flags->set( reduceConstants => 0, reduceConstantFunctions => 0,  );
+        $f = Formula("-5/36*(x-16)**2 +80 ");
+    </pg-code>
+    <statement>
+        <p>
+            A parabola has its vertex at <m>(16,80)</m> and one of its  <m>x</m>-intercepts at <m>(40,0)</m>. Find an equation for the parabola.
+        </p>
+        <p>
+            <m>y=</m><var name="$f" width="15"/>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <m>y=\dfrac{-5}{36}(x-16)^2+80</m>
+        </p>
+    </solution>
+</webwork>
+</exercise>      
 </subsection>
 
 
