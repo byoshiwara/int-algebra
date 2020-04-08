@@ -59,7 +59,7 @@ on the same screen. Use <c>WINDOW</c> settings to match the graph in <xref ref="
         </pg-code>
     <statement><p><ol label="a">
         <li><p>Graph the function <m>y = x^2 - 2x - 9</m> in the window
-            <md><mrow>\text{Xmin} \amp = -0.4 \amp\amp \text{Xmax} = 9.4</mrow>
+            <md><mrow>\text{Xmin} \amp = -9.4 \amp\amp \text{Xmax} = 9.4</mrow>
                 <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 10</mrow></md></p></li>
         <li><p>Use the graph to solve the inequality <m>x^2 - 2x - 9 \le 6</m>.</p>
                 <p>Solution: <var name="$answer" width="20"/> </p></li></ol></p>
@@ -71,7 +71,37 @@ on the same screen. Use <c>WINDOW</c> settings to match the graph in <xref ref="
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside widths="23%" margins="0% 70%"><image source="images/fig-ex-4-4-1ans"><description>parabola for quadratic inequality</description></image></sidebyside>
+        <sidebyside widths="50%" margins="0% 10%">
+         <image xml:id="fig-ex-4-4-1ans">
+                <description>parabola for quadratic inequality</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.35]
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+                \foreach \x in  {-5, 5, -10, 10} {
+                 \draw[cyan, very thick] (\x,-10) --++(0,20);
+                 \draw[cyan, very thick] (-10,\x) --++(20,0);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[samples=65,domain={-sqrt(20)+1:1+sqrt(20)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2-  2*\x-9) });
+                \draw[green!60!black,very thick, dashed, ->, >=stealth'] (-3,6) -- ++(0,-6);
+                \draw[green!60!black,very thick, dashed, ->, >=stealth'] (5,6) -- ++(0,-6);
+                \filldraw[red] (-3,6) circle (.2);
+                \filldraw[red] (5,6) circle (.2);
+                \draw[blue,ultra thick] (5,0) -- (-3,0);
+                \filldraw[blue] (-3,0) circle (.2);
+                \filldraw[blue] (5,0) circle (.2);
+                \end{tikzpicture}
+                \newline        
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside>
     </conclusion>
 </exercise>
 
