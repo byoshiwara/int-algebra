@@ -28,7 +28,9 @@
     <xi:include href="./chap3.xml" />   <!-- Quadratic Models  -->
     <xi:include href="./chap4.xml" />   <!-- Apps of Quad Models  -->
     <xi:include href="./chap5.xml" />   <!-- Functions & Graphs  -->
-
+    <xi:include href="./chap6.xml" />   <!-- Powers & Roots  -->
+    <xi:include href="./chap7.xml" />   <!-- Exponential Functions  -->
+    <xi:include href="./chap8.xml" />  <!--Polynomials & Rational  -->
     <xi:include href="./chap9.xml" />   <!-- Equations & Graphs  -->
 
     <xi:include href="./backmatter.xml" />       

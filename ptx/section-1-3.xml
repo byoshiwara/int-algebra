@@ -20,31 +20,30 @@
 <exercise>
     <title>QuickCheck 1</title>
 <webwork>
-        <pg-code>
-            $which = new_checkbox_multiple_choice();
-            $which -> qa (
-            "A question can go here, but PTX ignores this",
-            "\( x =-3\)$BR",
-            "\( x =1\)$BR",
-            );
-            $which -> extra(
-            "\( x =2\)$BR",
-            "\( x =3\)$BR",
-            );
-            $which -> makeLast( "\( x =2\)$BR",
-            "\( x =-3\)$BR",
-            "\( x =3\)$BR",
-            "\( x =1\)$BR");
-
-        </pg-code>
-    
+    <pg-code>
+        $which = new_checkbox_multiple_choice();
+        $which -> qa (
+        "A question can go here, but PTX ignores this",            
+        "\( 3x+2x^2=1\)$BR",           
+        "\( v^2 =6v\)$BR",
+        );
+        $which -> extra(
+        "\( 4z^2 -2z^3+2=0\)$BR",
+        "\( 36y-16=0\)$BR",
+        );
+        $which -> makeLast( 
+        "\( 3x+2x^2=1\)$BR",
+        "\( 4z^2 -2z^3+2=0\)$BR",
+        "\( 36y-16=0\)$BR",
+        "\( v^2 =6v\)$BR"
+        );
+    </pg-code>    
     <statement><p>
-        Which of the following values are solutions of the equation
-        <md><mrow>-2x^3 +x^2+16x =15 ?</mrow></md></p>
+        Which of the following equations are quadratic?</p>
         <p><var name="$which" form="checkboxes"/> 
     </p></statement>
     <solution>
-        <p><m>x=-3</m> and <m>x=1</m></p>
+            <p>(A) and (D) are quadratic.</p>
     </solution>
 </webwork>
 </exercise>

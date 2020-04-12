@@ -373,6 +373,45 @@
     </statement>
 </exercise>
 
+<exercise number="17">
+    <statement>
+        <p>
+            The center of a circle is the point <m>C(2, 4)</m>, and <m>P(-1, 6)</m> is a point on the circle. Find the equation of the line tangent to the circle at the point <m>P</m>. (Hint: Recallt hat the tangent line to a circle is perpendicular to the radius at the point of tangency.)
+        </p>
+        <sidebyside width="45%">
+            <image xml:id="fig-hw-9-1-17">
+            <description>circle and tangent line</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.6]
+            \draw[cyan] (-4,-1) grid (7,11);
+            \draw[black,thick, ->, >=stealth'] (-4,0)--(7.6,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-1)--(0,11.6) node[above]{$y$};
+            \foreach \x in  {5} {
+             \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \foreach \x in  {10,5} {
+             \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \draw[red, thick,<->, >=stealth'] (-4,3/2)--(7/3,11) node[text=black,below right, xshift=-.5cm, yshift=-.8cm, fill=white, inner sep=2]{Tangent line};
+            \draw[blue, thick] (2,4) circle ({sqrt(13)});
+            \draw[blue,thick](2,4)--(-1,6) node[text=black,above left, fill=white, inner sep=2]{$P(-1,6)$};
+            \filldraw[red] (-1,6) circle (.1);
+            \filldraw[blue] (2,4) circle (.1) node[text=black,right, xshift=1mm, fill=white, inner sep=2] {$C(2,4)$};
+            \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside>
+    </statement>
+    <answer>
+        <p><m>
+            y=\dfrac{3}{2}x+\dfrac{15}{2}
+        </m></p>
+    </answer>
+</exercise>
+
 </subexercises>
 
 </exercises>
