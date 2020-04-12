@@ -3,30 +3,36 @@
     <title>Equations and Graphs</title>
     <introduction>
 
-        <sidebyside width="60%" margins="0% 40%"><image source="images/shutterstock_240006133.jpg"><description>computer chip</description></image></sidebyside>
-        <sidebyside width="60%" margins="0% 40%"><image source="images/Durer-font.png"><description>font designed by Albrecht Durer</description></image></sidebyside>
+        <sidebyside width="60%" margins="0% 40%"><image source="images/shutterstock_67170118.jpg"><description>squirrel</description></image></sidebyside>
+        <sidebyside width="60%" margins="0% 40%"><image source="images/squirrel.jpg"><description>squirrel</description></image></sidebyside>
 
     <p>
-        The graphs of linear functions, quadratic functions, power functions, and exponential all have a characteristic shape. On the other hand, the family of polynomial funcions has graphs that represent a huge variety of different shapes.
+        <term>Linear programming</term><idx>linear programming</idx> is an application of linear systems developed in the 1940s to solve complex optimization problems during wartime operations. Today linear programming is used for scheduling and allocation of resources, in shipping and telecommunications networks, and in the selection of stocks and bonds for portfolios. In 1980, the computer scientist Laszlo Lovasz said that "If one would take statistics about which  mathematical problem is using up most of the computer time in the world, ... the answer would probably be linear programming."
     </p>
     <p>
-        Ever since Gutenberg's invention of movable type in 1455, artists and printers have been interested in the design of pleasing and practical fonts. In 1525, Albrecht Durer published <pubtitle>On the Just Shaping of Letters</pubtitle>, which set forth a system of rules for the geometric construction of Roman capitals. The letters shown above are examples of Durer's font. Until the twentieth century, a ruler and compass were the only practical design tools, so straight lines and circular arcs were the only geometric objects that could be accurately reproduced.
+        George Dantzig (1914-2005) invented the simplex method for solving linear programming problems in 1947. His first application of the method was to determine an adequate diet of least cost. This problem involved nine equations in 77 unknowns, and took 120 days to solve using the desk calculators available at the time. In this chapter we use a graphing technique to solve problems in two unknowns. For example, the diet of the Columbian ground squirrel consists of two foods: grass and forb, a type of flowering weed. Small animals spend most of their time foraging for food, but must also be alert for predators. Which foraging strategy favors survival: should the squirrel try to satisfy its dietary requirements in minimum time, thus minimizing its exposure to predators and the elements, or should it try to maximize its intake of nutrients?
     </p>
     <p>
-        With the advent of computers, complex curves and surfaces, such as the smooth contours of modern cars, can be defined precisely. In the 1960s the French automobile engineer Pierre Bézier developed a new design tool based on <em>polynomials</em>. <term>Bézier curves</term><idx>Bézier curves</idx> are widely used today in all fields of design, from technical plans and blueprints to the most creative artistic projects.
+        Using linear programming, Gary Belovsky of Notre Dame University identified the optimal amounts of forb and grass for each foraging strategy. We can compare those solutions to the squirrel's actual diet to see which strategy the squirrel favors.
     </p>
-    <p>
-        The study of Bézier curves falls under the general topic of curve fitting, but these curves do not really have a scientific purpose. A scientist does not use Bézier curves to fit a function to data. Rather, Bézier curves have more of an artistic purpose. Computer programs like Illustrator, Freehand, and CorelDraw use cubic Bézier curves. The PostScript printer language and Type 1 fonts also use cubic Bézier curves, and TrueType fonts use quadratic Bézier curves.
-    </p>
-    <sidebyside width="50%"><image source="images/Letter-a">
+    <sidebyside>
+    <image source="images/fig-minimize-time-eating">
       <description>
-        design of the letter a
+        feasible set with different times
       </description>
-    </image></sidebyside>
+    </image>
+    <image source="images/fig-maximize-energy">
+      <description>
+        feasible set with different energy consumed
+      </description>
+    </image>
+    </sidebyside>
        
 </introduction>
 
 <xi:include href="./section-9-1.xml" />  <!--Properties of Lines-->
+<xi:include href="./section-9-2.xml" />  <!--Conic Sections: Ellipses-->
+<xi:include href="./section-9-3.xml" />  <!--Conic Sections:Hyperbolas-->
         
 
 </chapter> 

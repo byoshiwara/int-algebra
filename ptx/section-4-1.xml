@@ -81,23 +81,62 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
 
 
 <exercise><title>QuickCheck 2</title>
-<webwork><pg-code>       
-            $lint = RadioButtons(
-              ["\(6(x-4)^2=120\)",
-              "\(x^2-9x+20=0\)",
-              "\(1.4x^2-6.2x+2.5=0\)",
-              "\(x^2-20x=44\)"],
+    <webwork>
+        <pg-code>
+            $a = PopUp(
+              ["?","I", "II","III","IV"],
               2, 
+            );
+            $b = PopUp(
+              ["?","I", "II","III","IV"],
+              1, 
+            );
+            $c = PopUp(
+              ["?","I", "II","III","IV"],
+              4, 
+            );            
+            $d = PopUp(
+              ["?","I", "II","III","IV"],
+              3, 
             );            
         </pg-code>
-    <statement>
-        <p>Match each equation with the most efficient method of solution.</p>
-        <p><var name="$lint" form="buttons"/></p>      
-    </statement>
-    <solution>
-        <p><m>12x</m></p>
-    </solution>
-</webwork></exercise>
+        <statement>
+            <p>
+                Match each equation with the most efficient method of solution.
+                <ol label="a">
+                    <li><p>
+                        <m>6(x-4)^2=120 </m> <var name="$a" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        <m>x^2-9x+20=0</m> <var name="$b" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        <m>1.4x^2-6.2x+2.5=0</m> <var name="$c" form="popup"/>
+                    </p></li>
+                    <li><p>
+                        <m>x^2-20x=44</m> <var name="$d" form="popup"/>
+                    </p></li>
+                </ol>
+            </p>
+            <p>
+                <ol label="I">
+                    <li>Factoring</li>
+                    <li>Extraction of roots</li>
+                    <li>Completing the square </li>
+                    <li>Quadratic formula</li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p><ol label="a">
+                <li>II</li>
+                <li>I</li>
+                <li>IV</li>
+                <li>III</li>
+            </ol></p>
+        </solution>
+    </webwork>    
+</exercise>
 
 <example xml:id="example-fencing-areas"><statement><p>The owners of a day-care center plan to enclose a divided play area against the back wall of their building, as shown below. They have <m>300</m> feet of picket fence and would like the total area of the playground to be <m>6000</m> square feet. Can they enclose the playground with the fence they have, and if so, what should the dimensions of the playground be?</p>
     <sidebyside  width="30%"><image source="images/fig-fencing-areas" ><description>two fenced rectangles against wall</description></image> </sidebyside></statement>
