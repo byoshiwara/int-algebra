@@ -14,8 +14,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
 
 
 <exercise><title>QuickCheck 1</title>
-    <webwork>
-        <pg-code>       
+    <webwork><pg-code>       
             $quadratic = PopUp(
               ["?","quadratic", "not"],
               1, 
@@ -25,31 +24,17 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
               2, 
             );
         </pg-code>
-        <statement>
-            <p>
-                Which of the following equations are quadratic?
-                <ol label="a">
-                    <li><p>
-                        <m>3x+2x^2=1</m>
-                        <var name="$quadratic" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        <m>4z^2-2z^3+2=0</m>
-                        <var name="$not" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        <m>36y-16=0 </m>
-                        <var name="$not" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        <m>v^2=6v</m>
-                        <var name="$quadratic" form="popup"/>
-                    </p></li>
-                </ol>
-            </p>
-        </statement>
-        <solution>
-            <p>(a) and (d) are quadratic.</p>
+    <statement><p>Which of the following equations are quadratic?<ol label="a">
+        <li><p><m>3x+2x^2=1</m>
+            <var name="$quadratic" form="popup"/></p></li>
+        <li><p><m>4z^2-2z^3+2=0</m>
+            <var name="$not" form="popup"/></p></li>
+        <li><p><m>36y-16=0 </m>
+            <var name="$not" form="popup"/></p></li>
+        <li><p><m>v^2=6v</m>
+            <var name="$quadratic" form="popup"/></p></li></ol></p>
+    </statement>
+        <solution><p>(a) and (d) are quadratic.</p>
         </solution>
     </webwork>
 </exercise>
@@ -60,11 +45,9 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
 <subsection><title>Graphs of Quadratic Equations</title>
 
 <sidebyside widths="50% 40%" margins="0% 0%" valigns="middle middle">
-    <stack>
-        <p>The simplest quadratic equation in two variables is 
+    <stack><p>The simplest quadratic equation in two variables is 
             <md><mrow>y=x^2</mrow></md>
-            Its graph is not a straight line, but a curve called a <term>parabola</term>, shown in the figure. You can verify the table of values below for this parabola.
-        </p>
+    Its graph is not a straight line, but a curve called a <term>parabola</term>, shown in the figure. You can verify the table of values below for this parabola.</p>
         <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
@@ -112,14 +95,9 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
 <warning><p>Be careful when squaring negative numbers. To evaluate the square of a negative number on a calculator, we must enclose the number in parentheses.  For example,
     <me>(-3)^2=(-3)(-3)=9,~~~~\text{but}~~~~-3^2=-3 \cdot 3=-9</me></p></warning>
 
-<example>
-    <statement>
-        <p>Graph the parabola <m>~y=x^2-4</m></p>
-    </statement>
-    <solution>
-        <p>
-            We make a table of values and plot the points. The graph is shown below.
-        </p>
+<example><statement><p>Graph the parabola <m>~y=x^2-4</m></p></statement>
+    
+<solution><p>We make a table of values and plot the points. The graph is shown below.</p>
         <sidebyside widths="50% 40%" margins="0% 0%" valigns="middle middle">
             <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -130,21 +108,17 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
                     <cell><m>0</m></cell>
                     <cell><m>1</m></cell>
                     <cell><m>2</m></cell>
-                    <cell><m>3</m></cell>
-                </row>
-                <row> 
-                    <cell><m>y</m></cell>
+                    <cell><m>3</m></cell></row>
+                <row><cell><m>y</m></cell>
                     <cell><m>5</m></cell>
                     <cell><m>0</m></cell>
                     <cell><m>-3</m></cell>
                     <cell><m>-4</m></cell>
                     <cell><m>-3</m></cell>
                     <cell><m>0</m></cell>
-                    <cell><m>5</m></cell>
-                </row>
+                    <cell><m>5</m></cell></row>
             </tabular>
-            <image xml:id="fig-example-3-1-1">
-            <description>parabola</description>
+            <image xml:id="fig-example-3-1-1"><description>parabola</description>
             <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -162,17 +136,13 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
             \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(\x)^2-4});
             \end{tikzpicture}]]>
             </latex-image>
-            </image>
-        </sidebyside>
+            </image></sidebyside>
     </solution>
 </example>
 
     
-<exercise>
-    <title>Practice 1</title>
-  <webwork>
-     
-      <pg-code>
+<exercise><title>Practice 1</title>
+  <webwork><pg-code>
         $fun=Formula("4-(x)**2");
         $fake=Formula("(2+x)**2");
         $fake2=Formula("-(2-x)**2");
@@ -182,7 +152,6 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
         $gr[$i] = init_graph(-5,-6,5,6, axes=>[0,0], grid=>[10,12], size=>[240,240]);
         $gr[$i]->lb('reset');
         }
-
 
         add_functions($gr[0], "$fun for x in &lt;-5,5>  using color:red and weight:2");
         $gr[0]->lb( new Label(4,5,"(C)", 'black','center','middle','large'));
@@ -199,14 +168,12 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
         $gr[3]->lb( new Label(4,5,"(D)", 
         'black','center','middle','large'));
 
-
         $mc = RadioButtons(
                     [ "(A)", "(B)", "(C)","(D)"],
                     2
                 );
       </pg-code>     
-    <statement>
-            <p>Graph the parabola <m>~y=4-x^2</m> on the same grid in the Example above.</p>
+    <statement><p>Graph the parabola <m>~y=4-x^2</m> on the same grid in the Example above.</p>
             <sidebyside widths="35% 35%" margins="5% 5%">
                 <image pg-name="$gr[1]"/>
                 <image pg-name="$gr[2]"/>
@@ -218,13 +185,8 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
             <p>Which of the following is the best match for the graph of the parabola <m>~y=4-x^2</m> (using the same scale grid as in the Example)?</p>
             <p><var name="$mc" form="buttons"/> </p>
     </statement>
-    <solution>
-        <sidebyside widths="40%">
-                <image pg-name="$gr[0]"/>
-            </sidebyside>
-            <p>
-              A graph is also shown below..
-            </p>
+    <solution><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+            <p>A graph is also shown below.</p>
     </solution>
   </webwork>
     <conclusion>
@@ -290,42 +252,21 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
 </sidebyside>    
 <p>We would like to find the <m>x</m>-values that make <m>y=5</m>. The horizontal line <m>y=5</m> intersects the graph at two points with <m>y</m>-coordinate 5, and their <m>x</m>-coordinates are the solutions of the equation. Thus, there are two solutions, namely <m>3</m> and <m>-3</m>.</p> 
 
-<p>
-    Algebraically, we solve the equation as follows. 
-    <ul> 
-        <li><p>First, we isolate the variable.  We add 4 to both sides, yielding <m>~x^2=9</m>.</p></li> 
-        <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
-            <md>
-                <mrow> 
-                    x^2 \amp = 9  \amp \amp \glert{\text{Take square roots of both sides.}}
-                </mrow>
-                <mrow> 
-                    x \amp = \pm \sqrt{9} = \pm 3 \amp \amp \glert{\text{Remember that every positive number}}
-                </mrow>
-                <mrow>
-                     \amp \amp \amp \glert{\text{has two square roots.}}
-                </mrow>
-            </md></p>
-        </li></ul>
-    The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.
-</p>  
+<p>Algebraically, we solve the equation as follows. <ul> 
+    <li><p>First, we isolate the variable.  We add 4 to both sides, yielding <m>~x^2=9</m>.</p></li> 
+    <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
+        <md><mrow>x^2 \amp = 9  \amp \amp \glert{\text{Take square roots of both sides.}}</mrow>
+            <mrow>x \amp = \pm \sqrt{9} = \pm 3 \amp \amp \glert{\text{Remember that every positive number}}</mrow>
+            <mrow>\amp \amp \amp \glert{\text{has two square roots.}}</mrow></md></p></li></ul>
+    The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.</p>  
 
 <note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions.</p></note>
 
-<example>
-    <statement>
-        <p>
-            Solve the equation
-            <md><mrow>
-                \frac{1}{2}x^2-7=8
-            </mrow></md>
-            graphically and algebraically.
-        </p>
-    </statement> 
-    <solution>
-        <p>
-            The figure shows the graph of <m>~y=\dfrac{1}{2}x^2-7.</m> 
-        </p>
+<example><statement><p>Solve the equation
+        <md><mrow>\frac{1}{2}x^2-7=8</mrow></md>
+graphically and algebraically.</p></statement> 
+    
+<solution><p> The figure shows the graph of <m>~y=\dfrac{1}{2}x^2-7.</m> </p>
         <sidebyside  width="40%">
             <image xml:id="fig-solve-quadratic2">
             <description>parabola and y=8</description>
@@ -353,25 +294,15 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
             </latex-image>
             </image>
         </sidebyside> 
-        <p>
-            We would like to find the <m>x</m>-values that make <m>y=8</m>. The horizontal line <m>y=8</m> intersects the graph at two points with <m>x</m>-coordinates approximately <m>5.5</m> and <m>-5.5</m>. These are the solution of the equation.
-        </p>  
-        <p>Algebraically, we solve the equation as follows. 
-            <ul> 
-                <li><p>First, we isolate the variable.  We add 7 to both sides, then multiply by 2, yielding <m>~x^2=30</m>.</p></li> 
-                <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
-                    <md>
-                        <mrow> x^2 \amp = 30  \amp \amp \glert{\text{Take square roots of both sides.}}</mrow>
-                        <mrow> x \amp = \pm \sqrt{30} \amp \amp \glert{\text{Remember that every positive number}}
-                        </mrow>
-                        <mrow>  \amp   \amp \amp \glert{\text{has two square roots.}}
-                        </mrow>
-                    </md>
-                </p></li>
-                <li><p>We use a calculator to find that <m>\sqrt{30}</m> is approximately 5.477, or about 5.5, as we saw on the graph.</p></li>
-            </ul>
-        </p>
-    </solution>
+<p>We would like to find the <m>x</m>-values that make <m>y=8</m>. The horizontal line <m>y=8</m> intersects the graph at two points with <m>x</m>-coordinates approximately <m>5.5</m> and <m>-5.5</m>. These are the solution of the equation.</p>  
+<p>Algebraically, we solve the equation as follows. <ul> 
+        <li><p>First, we isolate the variable.  We add 7 to both sides, then multiply by 2, yielding <m>~x^2=30</m>.</p></li> 
+        <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
+            <md><mrow> x^2 \amp = 30  \amp \amp \glert{\text{Take square roots of both sides.}}</mrow>
+                <mrow> x \amp = \pm \sqrt{30} \amp \amp \glert{\text{Remember that every positive number}}</mrow>
+                <mrow>  \amp   \amp \amp \glert{\text{has two square roots.}}</mrow></md>
+        </p></li>
+        <li><p>We use a calculator to find that <m>\sqrt{30}</m> is approximately 5.477, or about 5.5, as we saw on the graph.</p></li></ul></p></solution>
 </example>
 
 <warning><p>It is important to make a distinction betweeen exact values and decimal approximations.<ul> 
@@ -379,8 +310,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
     <li>The values from the calculator, <m>\pm 5.477</m>, are decimal approximations to the solutions, rounded to thousandths.</li></ul></p></warning>    
 
 <exercise><title>QuickCheck 2</title>
-    <webwork>
-        <pg-code>       
+    <webwork><pg-code>       
             $approximation = PopUp(
               ["?","exact solutions", "approximations"],
               2, 
@@ -390,31 +320,17 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
               1, 
             );
         </pg-code>
-        <statement>
-            <p>
-                Which solutions are exact values, and which are approximations?
-                <ol label="a">
-                    <li><p>
-                        <m>x^2=40, \qquad\qquad x=\pm 6.32455532</m>
-                        <var name="$approximation" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        <m>t^2=\dfrac{81}{64}, \qquad\qquad t=\pm 1.125</m>
-                        <var name="$exact" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        <m>w^2=50, \qquad\qquad w=\pm 5\sqrt{2} </m>
-                        <var name="$exact" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        <m>b^2=(0.632)^2, \qquad b=\pm 0.632</m>
-                        <var name="$exact" form="popup"/>
-                    </p></li>
-                </ol>
-            </p>
-        </statement>
-        <solution>
-            <p>Only the solutions to (a) are approximations.</p>
+    <statement><p>Which solutions are exact values, and which are approximations?<ol label="a">
+        <li><p><m>x^2=40, \qquad\qquad x=\pm 6.32455532</m>
+                    <var name="$approximation" form="popup"/></p></li>
+        <li><p><m>t^2=\dfrac{81}{64}, \qquad\qquad t=\pm 1.125</m>
+                <var name="$exact" form="popup"/></p></li>
+        <li><p><m>w^2=50, \qquad\qquad w=\pm 5\sqrt{2} </m>
+                        <var name="$exact" form="popup"/></p></li>
+        <li><p><m>b^2=(0.632)^2, \qquad b=\pm 0.632</m>
+                        <var name="$exact" form="popup"/></p></li></ol></p>
+    </statement>
+    <solution><p>Only the solutions to (a) are approximations.</p>
         </solution>
     </webwork>
 </exercise>
@@ -428,8 +344,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
     <li>Take the square root of each side.</li></ol></p></assemblage> 
 
 <exercise><title>Practice 2</title>
-    <webwork>
-        <pg-code>
+    <webwork><pg-code>
             $r1 = Compute("4");
             $r2 = Compute("-4");
             $answer = List("$r1, $r2");
@@ -439,24 +354,12 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
              partialCredit => 1,
             ); 
        </pg-code>
-       <statement>
-            <p>
-                Solve by extracting roots <m>\quad\dfrac{3x^2-8}{4} = 10</m>
-            </p>
-            <p>
-                <m>x=</m><var name="$answer" width="6" evaluator="$my_evaluator"/> Enter solutions separated by a comma.
-            </p>
+    <statement><p>Solve by extracting roots <m>\quad\dfrac{3x^2-8}{4} = 10</m></p>
+        <p><m>x=</m><var name="$answer" width="6" evaluator="$my_evaluator"/> Enter solutions separated by a comma.</p>
         </statement>
-        <hint>
-            <p>
-                First isolate <m>x^2</m>. Then take the square root of both sides.
-            </p>
-        </hint>
-        <solution>
-            <p>
-                <m>\pm 4</m>
-            </p>
-        </solution>
+        <hint><p>First isolate <m>x^2</m>. Then take the square root of both sides.</p></hint>
+    <solution><p><m>\pm 4</m></p>
+    </solution>
     </webwork>
 </exercise>
 
@@ -466,6 +369,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
     <li>What is the height of the cat 0.5 second later?</li>
     <li>How long does the cat have to get in position to land on its feet before it reaches the ground?</li></ol></p>
 </statement>
+
 <solution><p><ol label="a">
     <li><p>We evaluate the formula for <m>t=0.5</m>. We substitute <m>\alert{0.5}</m> for <m>t</m> into the formula, and simplify. 
         <md><mrow>h \amp= 20-16(\alert{0.5})^2 \amp \amp \glert{\text{Compute the power.}}</mrow>
@@ -503,10 +407,8 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
  The radius of the can is 4.2 centimeters.</p></solution>
 </example>
 
-
 <exercise><title>Practice 3</title>
-    <webwork>
-        <pg-code>
+    <webwork><pg-code>
             $h = 21.64;
             $V = 9049.68;
             $s = Compute("sqrt(3*$V / $h ) ")->with(
@@ -514,13 +416,8 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
                       tolerance => .0051,
                     );
         </pg-code>
-        <statement>
-            <p>
-                The glass pyramid at the Louvre in Paris has a square base, is 21.64 meters tall, and encloses a volume of 9049.68 cubic meters. Use the formula <m>~ V=\dfrac{1}{3}s^2h~</m> to find the length of the base. Round your answer to hundredths.
-            </p>
-            <p>
-                Answer: <var name="$s" width="4"/> meters
-            </p>
+    <statement><p>The glass pyramid at the Louvre in Paris has a square base, is 21.64 meters tall, and encloses a volume of 9049.68 cubic meters. Use the formula <m>~ V=\dfrac{1}{3}s^2h~</m> to find the length of the base. Round your answer to hundredths.</p>
+        <p>Answer: <var name="$s" width="4"/> meters</p>
         </statement>
         <solution><p>35.42 m</p></solution>
     </webwork>
@@ -532,53 +429,36 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
 
 <p>Sometimes it is useful to solve a formula for one variable in terms of the others. You might want to know what radius you need to build cones of various fixed volumes. In that case, it is more efficient to solve the volume formula for <m>r</m> in terms of <m>v</m>.</p>
 
-<example>
-    <statement>
-        <p>
-            The formula <m>~V=\dfrac{1}{3}\pi r^2h~</m> gives the volume of a cone in terms of its height and radius.  Solve the formula for <m>r</m> in terms of <m>V</m> and <m>h</m>.
-        </p>
-    </statement>
-    <solution>
-        <p>
-            Because the variable we want is squared, we use extraction of roots. First, we multiply both sides by 3 to clear the fraction.
-            <md>
-                <mrow>3V \amp = \pi r^2h  \amp \amp \glert{\text{Divide both sides by } \pi h.}</mrow>
-                <mrow>\frac{3V}{\pi h} \amp = r^2  \amp \amp \glert{\text{Take square roots.}}</mrow>
-                <mrow>\pm \sqrt{\frac{3V}{\pi h}} \amp = r</mrow>
-            </md>
-            Because the radius of a cone must be a positive number, we use only the positive square root: <m> \quad r = \sqrt{\dfrac{3V}{\pi h}}</m>.
-        </p>
-    </solution>
+<example><statement><p>The formula <m>~V=\dfrac{1}{3}\pi r^2h~</m> gives the volume of a cone in terms of its height and radius.  Solve the formula for <m>r</m> in terms of <m>V</m> and <m>h</m>.</p></statement>
+    
+<solution><p>Because the variable we want is squared, we use extraction of roots. First, we multiply both sides by 3 to clear the fraction.
+        <md><mrow>3V \amp = \pi r^2h  \amp \amp \glert{\text{Divide both sides by } \pi h.}</mrow>
+            <mrow>\frac{3V}{\pi h} \amp = r^2  \amp \amp \glert{\text{Take square roots.}}</mrow>
+            <mrow>\pm \sqrt{\frac{3V}{\pi h}} \amp = r</mrow></md>
+Because the radius of a cone must be a positive number, we use only the positive square root: <m> \quad r = \sqrt{\dfrac{3V}{\pi h}}</m>.</p></solution>
 </example>
 
-<exercise>
-    <title>Practice 4</title>
-    <webwork>
-         <pg-code>
+<exercise><title>Practice 4</title>
+    <webwork><pg-code>
              Context()->variables->add(A=>"Real");
              $radius = Formula("sqrt(A/pi)");
         </pg-code> 
-        <statement>
-            <p>Find a formula for the radius of a circle in terms of its area, <m>A</m>.</p>
+    <statement><p>Find a formula for the radius of a circle in terms of its area, <m>A</m>.</p>
             <p><m>r=</m><var name="$radius" width="15"/> </p>
             <instruction>
                 Note: enter "sqrt(2)" to get <m>\sqrt{2}</m>, and use "pi" to get <m>\pi</m>.
             </instruction>
          </statement>
-       <hint>
-            <p>Start with the formula for the area of a circle: <m>A =</m> </p>
+       <hint><p>Start with the formula for the area of a circle: <m>A =</m> </p>
             <p>Solve for <m>r</m> in terms of <m>A</m>.</p>
         </hint>
-        <solution>
-            <p><m>r=\sqrt{\dfrac{A}{\pi}}</m></p>
-        </solution>
+    <solution><p><m>r=\sqrt{\dfrac{A}{\pi}}</m></p>
+    </solution>
     </webwork>
 </exercise>
 
-
 <exercise><title>QuickCheck 3</title>
-    <webwork>
-        <pg-code>
+    <webwork><pg-code>
             $length = PopUp(
               ["?","I", "II","III","IV"],
               2, 
@@ -590,43 +470,23 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
             $volume = PopUp(
               ["?","I", "II","III","IV"],
               3, 
-            );
-            
+            );           
         </pg-code>
-        <statement>
-            <p>
-                Match each quantity with the appropriate units.
-                <ol label="a">
-                    <li><p>
-                        Height of a cylinder <var name="$length" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        Volume of a cone <var name="$volume" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        Surface area of a sphere <var name="$area" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        Area of a triangle <var name="$area" form="popup"/>
-                    </p></li>
-                </ol>
-            </p>
-            <p>
-                <ol label="I">
-                    <li>Square meters</li>
-                    <li>Feet</li>
-                    <li>Cubic centimeters</li>
-                    <li>Kilograms</li>
-                </ol>
-            </p>
-        </statement>
-        <solution>
-            <p><ol label="a">
+    <statement><p>Match each quantity with the appropriate units.<ol label="a">
+            <li><p>Height of a cylinder <var name="$length" form="popup"/></p></li>
+            <li><p>Volume of a cone <var name="$volume" form="popup"/></p></li>
+            <li><p>Surface area of a sphere <var name="$area" form="popup"/></p></li>
+            <li><p>Area of a triangle <var name="$area" form="popup"/></p></li></ol></p>
+        <p><ol label="I">
+            <li>Square meters</li>
+            <li>Feet</li>
+            <li>Cubic centimeters</li>
+            <li>Kilograms</li></ol></p></statement>
+    <solution><p><ol label="a">
                 <li>II</li>
                 <li>III</li>
                 <li>I</li>
-                <li>I</li>
-            </ol></p>
+                <li>I</li></ol></p>
         </solution>
     </webwork>    
 </exercise>
@@ -651,12 +511,8 @@ This gives us two equations for <m>x</m>,
 The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solutions satisfy the original equation.</p></solution>
 </example>
 
-
-
-<exercise>
-    <title>Practice 5</title>
-    <webwork>
-         <pg-code>
+<exercise><title>Practice 5</title>
+    <webwork><pg-code>
             $x0 = Compute("(-3 + sqrt(19))/5");
             $x1 = Formula("(-3 - sqrt(19))/5");
             $exact = List("$x0,$x1");
@@ -665,65 +521,44 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
               tolerance => .0051,
             );
         </pg-code> 
-        <statement>
-            <p>Solve <m>2(5x + 3)^2 = 38</m> by extracting roots.</p>
-            <p><ol label="a">
-                <li><p>Give your answers as exact values, separating the solutions with a comma.</p>
-                <p><var name="$exact" width="25"/> </p>
-                <p>Note: Enter "sqrt(2)" to get <m>\sqrt{2}</m>, and take care to use parentheses appropriately. </p>
-                <p>Use the "Preview My Answers" button to see if you have entered valid syntax.</p></li>
-                <li><p>Find approximations for the solutions to two decimal places, separating the solutions with a comma.</p>
-                <p><var name="$approx" width="15"/></p></li>
-            </ol></p>
-        </statement>
-        <solution>
-            <p><ol label="a" cols="2">
+<statement><p>Solve <m>2(5x + 3)^2 = 38</m> by extracting roots.</p>
+    <p><ol label="a">
+        <li><p>Give your answers as exact values, separating the solutions with a comma.</p>
+            <p><var name="$exact" width="25"/> </p>
+            <p>Note: Enter "sqrt(2)" to get <m>\sqrt{2}</m>, and take care to use parentheses appropriately. </p>
+            <p>Use the "Preview My Answers" button to see if you have entered valid syntax.</p></li>
+        <li><p>Find approximations for the solutions to two decimal places, separating the solutions with a comma.</p>
+            <p><var name="$approx" width="15"/></p></li></ol></p>
+    </statement>
+    <solution><p><ol label="a" cols="2">
                 <li><p><m>x=\dfrac{-3\pm \sqrt{19}}{5} </m></p></li>
-                <li><p><m>x\approx -1.47</m> or <m>x\approx 0.27</m></p></li>
-            </ol></p>
+                <li><p><m>x\approx -1.47</m> or <m>x\approx 0.27</m></p></li></ol></p>
         </solution>
     </webwork>
 </exercise>
 
-
 <exercise><title>QuickCheck 4</title>
-    <webwork>
-        <pg-code>
+    <webwork><pg-code>
             $TF = PopUp(
               ["?","True", "False"],
               2, 
             );           
         </pg-code>
-        <statement>
-            <p>
-                True or false.
-                <ol label="a">
-                    <li><p>
-                        The first step in extraction of roots is to take square roots. 
-                        <var name="$TF" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        The solutions of a quadratic equation are always of the form <m>~\pm k</m>. 
-                        <var name="$TF" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        Your calculator gives exact decimal values for square roots of integers. 
-                        <var name="$TF" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        The coefficients of a quadratic equation are called parabolas. 
-                        <var name="$TF" form="popup"/>
-                    </p></li>
-                </ol>
-            </p>
-        </statement>
-        <solution>
-            <p><ol label="a">
+    <statement><p>True or false.<ol label="a">
+        <li><p>The first step in extraction of roots is to take square roots. 
+                        <var name="$TF" form="popup"/></p></li>
+        <li><p>The solutions of a quadratic equation are always of the form <m>~\pm k</m>. 
+                        <var name="$TF" form="popup"/></p></li>
+        <li><p>Your calculator gives exact decimal values for square roots of integers. 
+                        <var name="$TF" form="popup"/></p></li>
+        <li><p>The coefficients of a quadratic equation are called parabolas. 
+                        <var name="$TF" form="popup"/></p></li></ol></p>
+    </statement>
+    <solution><p><ol label="a">
                 <li>False</li>
                 <li>False</li>
                 <li>False</li>
-                <li>False</li>
-            </ol></p>
+                <li>False</li></ol></p>
         </solution>
     </webwork>
 </exercise>
@@ -758,31 +593,19 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
         <md><mrow>A \amp = P(1+r)^2</mrow>
             <mrow>100 \amp = (1+0.04)^2 = 108.16</mrow></md></p>
 
-
 <exercise><title>Practice 6</title>
-    <webwork>
-        <pg-code>
+    <webwork><pg-code>
             $C0 = 36;
             $C1 = 38.16;
             $r = Compute("100*sqrt($C1 / $C0 ) -100")->with(
                       tolType => 'absolute',
                       tolerance => .0051,
                     );
-            
         </pg-code>
-        <statement>
-            <p>
-                The average cost of dinner and a movie two years ago was $36. This year the average cost is $38.16. What was the rate of inflation over the past two years?  (Round to two decimal places.)
-            </p>
-            <p>
-                Answer: <var name="$r" width="3"/>%
-            </p>
-        </statement>
-        <solution>
-            <p>
-                2.96%
-            </p>
-        </solution>
+    <statement><p>The average cost of dinner and a movie two years ago was $36. This year the average cost is $38.16. What was the rate of inflation over the past two years?  (Round to two decimal places.)</p>
+        <p>Answer: <var name="$r" width="3"/>%</p>
+    </statement>
+    <solution><p>2.96%</p></solution>
     </webwork>
 </exercise>
 

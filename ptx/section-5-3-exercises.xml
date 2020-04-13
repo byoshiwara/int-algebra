@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+
+
+<!-- Copyright (C) Katherine Yoshiwara      -->
+
+
+<exercises xml:id="section-5-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Set 5.3</title>
+    
+<subexercises><title>Skills Practice</title>
+
+<exercise number="1"><statement><p>Evaluate each function.<ol label="a" cols="2">
+    <li><p><m>f(x)=-2x^3-3x^2;~~f(-2)</m></p></li>
+    <li><p><m>g(x)=\dfrac{x-1}{x^2+2x};~~g(-1)</m></p></li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li><m>4</m></li>
+    <li><m>2</m></li></ol></p>
+</answer></exercise>
+
+<exercisegroup><introduction><p>For Problems 2 and 3, compute each cube root. Round your answers to three decimal places if necessary. Verify your answers by cubing them.</p></introduction>
+
+<exercise number="2"><statement><p><ol label="a" cols="2">
+    <li><m>\sqrt[3]{512}</m></li>
+    <li><m>\sqrt[3]{-125}</m></li>
+    <li><m>\sqrt[3]{-0.064}</m></li>
+    <li><m>\sqrt[3]{1.728}</m></li></ol></p>
+    </statement></exercise>
+
+<exercise number="3"><statement><p><ol label="a" cols="2">
+    <li><m>\sqrt[3]{9}</m></li>
+    <li><m>\sqrt[3]{258}</m></li>
+    <li><m>\sqrt[3]{-0.02}</m></li>
+    <li><m>\sqrt[3]{-3.1}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><m>2.080</m></li>
+    <li><m>6.366</m></li>
+    <li><m>-0.126</m></li>
+    <li><m>-1.458</m></li></ol></p></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 4-6, simplify each by following the order of operations.</p></introduction>
+
+<exercise number="4"><statement><p><ol label="a" cols="2">
+    <li><m>\dfrac{6-2\sqrt[3]{64}}{2}</m></li>
+    <li><m>2\sqrt[3]{-125}-\sqrt[3]{6^2-3^2}</m></li></ol></p>
+</statement></exercise>
+
+<exercise number="5"><statement><p><ol label="a" cols="2">
+    <li><m>\sqrt[3]{\dfrac{8-1}{64-8}</m></li>
+    <li><m>\dfrac{4+\sqrt[3]{-216}}{8-\sqrt[3]{8}}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><m>\dfrac{1}{2}</m></li>
+    <li><m>\dfrac{-1}{3}</m></li></ol></p></answer></exercise>
+
+<exercise number="6"><statement><p><ol label="a" cols="2">
+    <li><m>\sqrt[3]{3^3+4^3+5^3}</m></li>
+    <li><m>\sqrt[3]{9^3+10^3-1^3}</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For problems 7-16, simplify the expression according to the order of operations.</p></introduction>
+    <exercise number="7"><statement><ol label="a">
+            <li><p><m>-\abs{-9} </m></p></li>
+            <li><p><m>-(-9) </m></p></li>
+        </ol></statement>
+    <answer><p><ol label="a" cols="2">
+                <li><p><m>-9</m></p></li>
+                <li><p><m>9</m></p></li>
+            </ol></p></answer></exercise>
+
+    <exercise number="8"><statement><ol label="a">
+            <li><p><m>2-(-6) </m></p></li>
+            <li><p><m>2-\abs{-6} </m></p></li>
+        </ol></statement></exercise>
+
+    <exercise number="9"><statement><ol label="a">
+            <li><p><m>\abs{-8}-\abs{12} </m></p></li>
+            <li><p><m>\abs{-8-12} </m></p></li>
+        </ol></statement>
+    <answer><p><ol label="a" cols="2">
+                <li><p><m>-4</m></p></li>
+                <li><p><m>20</m></p></li>
+            </ol></p></answer></exercise>
+
+    <exercise number="10"><statement><ol label="a">
+            <li><p><m>\abs{-3}+\abs{-5} </m></p></li>
+            <li><p><m>\abs{-3+(-5)} </m></p></li></ol></statement></exercise>
+
+    <exercise number="11"><statement><p><m>4-9\abs{2-8} </m></p></statement>
+        <answer><p><m>-50 </m></p></answer></exercise>
+
+    <exercise number="12"><statement><p><m>2-5\abs{-6-3} </m></p></statement></exercise>
+
+    <exercise number="13"><statement><p><m>\abs{-4-5} \abs{1-3(-5)} </m></p></statement>
+        <answer><p><m>144 </m></p></answer></exercise>
+
+    <exercise number="14"><statement><p><m>\abs{-3+7}\abs{-2(6-10)} </m></p></statement></exercise>
+
+    <exercise number="15"><statement><p><m> \abs{ \abs{-5}-\abs{-6}} </m></p></statement>
+        <answer><p><m>1 </m></p></answer></exercise>
+
+    <exercise number="16"><statement><p><m>\abs{ \abs{4}-\abs{-6}} </m></p></statement></exercise>
+</exercisegroup>
+</subexercises>
+
+<subexercises><title>Applications</title>
+
+<exercise number="17"><statement><p><ol label="a">
+    <li>Use your calculator to graph <m>f(x)=x^2</m>  and <m>g(x)=x^3</m> on the same axes for <m>0 \le x \le 1</m>.
+        Which function is greater on that interval?</li>
+    <li>Use your calculator to graph <m>f(x)=\sqrt{x}</m> and <m>g(x)=\sqrt[3]{x}</m> on the same axes for <m>0 \le x \le 1</m>. Which function is greater on that interval?</li></ol>
+</p></statement>
+<answer><p><ol label="a">
+    <li><m>f</m></li>
+    <li><m>g</m></li></ol></p></answer></exercise>
+
+<exercise number="18"><statement><p><ol label="a">
+    <li>Use your calculator to graph <m>f(x)=\dfrac{1}{x}</m> and <m>g(x)=\dfrac{1}{x^2}</m> on the same axes for <m>0 \le x \le 1</m>.
+        Which function is greater on that interval?</li>
+    <li>Use your calculator to graph <m>f(x)=\dfrac{1}{x}</m> and <m>g(x)=\dfrac{1}{x^2}</m> on the same axes for <m>1 \le x \le 4</m>. Which function is greater on that interval?</li></ol></p></statement></exercise>
+
+<exercise number="19"><statement><p>Use the graph of <m>y=\dfrac{1}{x}</m> to solve the inequality <m>\dfrac{1}{x} \le 2</m>.</p>
+    <sidebyside width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+</statement>
+<answer><p><m>(-\infty,0) \cup [0.5,\infty) </m></p></answer></exercise>
+
+<exercise number="20"><statement><p>Use the graph of <m>y=\abs{x-2}</m> to solve the inequality <m>\abs{x-2} \gt 1</m>.</p>
+    <sidebyside width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+</statement></exercise>
+
+<exercise number="21"><statement><p>Match each graph with its equation.</p>
+    <sidebyside width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<p><ol label="i" cols="3">
+    <li><m>f(x)=3\sqrt{x}</m></li>
+    <li><m>f(x)=2x^3</m></li>
+    <li><m>f(x)=\dfrac{2x}{3}</m></li>
+    <li><m>f(x)=\dfrac{3}{x}</m></li>
+    <li><m>f(x)=2\sqrt[3]{x}</m></li>
+    <li><m>f(x)=3x^2</m></li></ol></p>
+</statement>
+<answer><p><ol label="i" cols="3">
+    <li>vi</li>
+    <li>ii</li>
+    <li>iv</li>
+    <li>i</li>
+    <li>v</li>
+    <li>iii</li></ol></p></answer></exercise>
+
+<exercise number="22"><statement><p>Match each graph with its equation.</p>
+    <sidebyside width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<p><ol label="i" cols="3">
+    <li><m>f(x)=x^3-2</m></li>
+    <li><m>f(x)=\sqrt[3]{x}+2</m></li>
+    <li><m>f(x)=\dfrac{1}{(x-3)^2}</m></li>
+    <li><m>f(x)=\abs{x}-3</m></li>
+    <li><m>f(x)=x^2+3</m></li>
+    <li><m>f(x)=\sqrt{x+3}</m></li></ol></p>
+</statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 23 and 24, graph the function in the window
+    <md><mrow>\text{Xmin} \amp = -47 \amp\amp \text{Xmax} = 47</mrow>
+        <mrow>\text{Ymin} \amp = -31 \amp\amp \text{Ymax} = 31</mrow></md>
+ Use the graph to solve each equation or inequality. Check your solutions algebraically.</p></introduction>
+
+    <exercise number="23"><statement><p>Graph <m>~~F(x) = 4\sqrt{x - 25}</m>.<ol label="a">
+            <li><p>Solve <m> ~~4\sqrt{x - 25}=16</m></p></li>
+            <li><p>Solve <m> ~~4\sqrt{x - 25}=-16</m></p></li>
+            <li><p>Solve <m>~~8\lt 4\sqrt{x - 25}\le 24</m></p></li>
+        </ol></p></statement>
+    <answer><p><ol label="a" cols="2">
+        <li><p><m>41</m></p></li>
+        <li>no solution</li>
+        <li><p><m>29\lt x\le 61</m></p></li>
+    </ol></p></answer></exercise>
+
+    <exercise number="24"><statement><p>Graph <m>~~G(x) = 20 - 0.001(x - 8)^4 </m>.<ol label="a">
+            <li><p>Solve <m> ~~20 - 0.001(x - 8)^4 =26.2</m></p></li>
+            <li><p>Solve <m> ~~20 - 0.001(x - 8)^4 =-8.561</m></p></li>
+            <li><p>Solve <m> ~~20 - 0.001(x - 8)^4 \ge 10</m></p></li>
+        </ol></p></statement></exercise>
+</exercisegroup>
+</subexercises>
+
+</exercises>
