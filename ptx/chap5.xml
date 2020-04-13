@@ -12,7 +12,8 @@
         <p>Each of the graphs represents a nonlinear function. A <term>function</term> is a special relationship between two variables, and we have already encountered linear and quadratic funtions. In this chapter we examine the properties and features of some basic nonlinear functions, and how they may be used as mathematial models.</p>
     </introduction>
 <!--  -->
-<!--     <xi:include href="./section-2-1.xml" />   Linear REgression  -->
+     <xi:include href="./section-5-1.xml" />  <!-- Functions -->
+     <xi:include href="./section-5-2.xml" />  <!--Graphs of Functions-->
         
 
 </chapter> 

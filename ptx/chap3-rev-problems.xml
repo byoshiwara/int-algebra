@@ -211,12 +211,12 @@
     <introduction><p>For Problems 35 and 36, show that the shaded areas are equal.</p></introduction>
 
 <exercise number="35"><statement>
-    <sidebyside width="40%"><image source="images/fig-chap3-rev-35"><description>figures </description></image></sidebyside>
+    <sidebyside width="80%"><image source="images/fig-chap3-rev-35"><description>figures </description></image></sidebyside>
 </statement>
     <answer><m>A_1=x^2-\left(\dfrac{1}{2}y^2+\dfrac{1}{2}y^2\right)=x^2-y^2;~~A_2=(x+y)(x-y)=x^2-y^2</m></answer></exercise>
 
 <exercise number="36"><statement>
-    <sidebyside  width="30%"><image source="images/fig-chap3-rev-36"><description>figures </description></image></sidebyside>
+    <sidebyside  width="60%"><image source="images/fig-chap3-rev-36"><description>figures </description></image></sidebyside>
 </statement>
     <answer><m>A_1=\pi (x+y)^2- \pi x^2 - \pi y^2 = 2 \pi xy;~~A_2=\pi y (2x) = 2 \pi xy</m></answer></exercise>
 </exercisegroup>
