@@ -8,12 +8,238 @@
     
 <subexercises><title>Skills Practice</title>
 
+<exercise number="1">
+    <statement>
+        <p>
+            Complete the box.
+        </p>
+        <assemblage><title>Conic Sections</title>
+            <p>
+                The graph of <m>~Ax^2 + Cy^2 + Dx + Ey + F = 0~</m> is
+                <ol label = "1">
+                    <li><p>a circle if </p></li>
+                    <li><p>a parabola if </p></li>
+                    <li><p>an ellipse if </p></li>
+                    <li><p>a hyperbola if </p></li>
+                </ol>
+            </p>
+        </assemblage>
+    </statement>
+    <answer>
+        <assemblage><title>Conic Sections</title>
+            <p>
+                The graph of <m>~Ax^2 + Cy^2 + Dx + Ey + F = 0~</m> is
+                <ol label = "1">
+                    <li><p>a circle if <m>A=C</m>.</p></li>
+                    <li><p>a parabola if <m>A=0</m> or <m>C=0</m> (but not both).</p></li>
+                    <li><p>an ellipse if <m>A</m> and <m>C</m> have the same sign.</p></li>
+                    <li><p>a hyperbola if <m>A</m> and <m>C</m> have opposite signs.</p></li>
+                </ol>
+            </p>
+        </assemblage>
+    </answer>
+</exercise>
 
+<exercise number="2">
+    <statement>
+        <p>
+            Use your calculator to graph <m>y^2 −  x^2 = 1</m> in the window <m>[-6, 6]\times [-4, 4]</m>. First, solve the equation for <m>y</m>. (You should get two functions.)
+            <md><mrow>
+                y_1= \underline{\qquad\qquad\qquad}\qquad \text{ and } \qquad y_2= \underline{\qquad\qquad\qquad}
+            </mrow></md>
+            <ol label="a">
+                <li><p>
+                    The graph of this equation is a <fillin characters="12"/>.
+                </p></li>
+                <li><p>
+                    The graph has <term>vertices</term> at <fillin characters="8"/> and <fillin characters="8"/>.
+                </p></li>
+                <li><p>
+                    Now add to your graph the lines <m>y = x</m> and <m>y = -x</m>. These are the asymptotes of the hyperbola.
+                </p></li>
+            </ol>
+        </p>
+    </statement>
+</exercise>
+
+<exercise number="3">
+    <statement>
+        <p>
+            Use the calculator to graph <m>x^2 −  y^2 = 1</m> in the window <m>[-6, 6]\times [-4, 4]</m>. (Follow the steps above for Problem 2.)
+            <ol label="a">
+                <li><p>
+                    What are the vertices of this hyperbola?
+                </p></li>
+                <li><p>
+                    What are the asymptotes?
+                </p></li>
+                <li><p>
+                    How does this hyperbola differ from the one in Problem 2?
+                </p></li>
+            </ol>
+        </p>
+    </statement>
+</exercise>
 
 
 </subexercises>
 
 <subexercises><title>Applications</title>
+
+<exercisegroup cols="2"><introduction>
+    <p>
+        Graph each hyperbola.
+    </p>
+</introduction>
+
+<exercise number="4">
+    <statement>
+        <p><m>
+            \dfrac{x^2}{25}-\dfrac{y^2}{9}=1
+        </m></p>
+    </statement>
+</exercise>
+
+<exercise number="5">
+    <statement>
+        <p><m>
+            \dfrac{y^2}{12}-\dfrac{x^2}{8}=1
+        </m></p>
+    </statement>
+    <answer>
+        <sidebyside width="90%" margins="0% 0%">
+             <image xml:id="fig-hw-9-3-5ans">
+                <description>hyperbola, open up and down</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.3]
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(10.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,10.6) node[above]{$y$};
+                \foreach \x in {-10,-5,5,10} {
+                 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 }
+                \foreach \x in {-10,-5,5,10} {
+                 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                 }
+                % \def\a{sqrt(8)};
+                % \def\b{sqrt(12)};
+                \def\h{0};
+                \def\k{0};
+                \filldraw[cyan!60!white,very thick, opacity=.3] ({\h-sqrt(8)},{\k-sqrt(12)}) rectangle ({\h+sqrt(8)},{\k+sqrt(12)});
+                \draw[samples=2,domain={-8:8},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+sqrt(12)/sqrt(8) * (\x - \h) } );
+                \draw[samples=2,domain={-8:8},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-sqrt(12)/sqrt(8) * (\x - \h) } );
+                \filldraw[black] (\h,\k) circle (.1);
+                \draw[samples=65,domain={-1.75:1.75},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+sqrt(8)*sinh(\x)}, {\k+sqrt(12)*cosh(\x)});
+                \draw[samples=65,domain={-1.75:1.75},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+sqrt(8)*sinh(\x)}, {\k-sqrt(12)*cosh(\x)});
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside>
+    </answer>
+</exercise>
+
+<exercise number="6">
+    <statement>
+        <p><m>
+            9x^2-4y^2=36
+        </m></p>
+    </statement>
+</exercise>
+
+<exercise number="7">
+    <statement>
+        <p><m>
+            3x^2=4y^2+24
+        </m></p>
+    </statement>
+    <answer>
+        <sidebyside width="90%" margins="0% 0%">
+             <image xml:id="fig-hw-9-3-7ans">
+                <description>hyperbola, open left and right</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.3]
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(10.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,10.6) node[above]{$y$};
+                \foreach \x in {-10,-5,5,10} {
+                 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 }
+                \foreach \x in {-10,-5,5,10} {
+                 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                 }
+                % \def\a{sqrt(8)};
+                % \def\b{sqrt(6)};
+                \def\h{0};
+                \def\k{0};
+                \draw[black] ({\h-sqrt(8)},{\k-sqrt(6)}) rectangle ({\h+sqrt(8)},{\k+sqrt(6)});
+                \draw[samples=2,domain={-10:10},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+sqrt(6)/sqrt(8) * (\x - \h) } );
+                \draw[samples=2,domain={-10:10},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-sqrt(6)/sqrt(8) * (\x - \h) } );
+                \filldraw[black] (\h,\k) circle (.1);
+                \draw[samples=65,domain={-1.95:1.95},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+sqrt(8)*cosh(\x)}, {\k+sqrt(6)*sinh(\x)});
+                \draw[samples=65,domain={-1.95:1.95},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h-sqrt(8)*cosh(\x)}, {\k+sqrt(6)*sinh(\x)});
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside>
+    </answer>
+</exercise>
+
+<exercise number="8">
+    <statement>
+        <p><m>
+            \dfrac{1}{2}x^2=y^2-12
+        </m></p>
+    </statement>
+</exercise>
+
+<exercise number="9">
+    <statement>
+        <p><m>
+            y^2=\dfrac{1}{2}x^2-16
+        </m></p>
+    </statement>
+    <answer>
+        <sidebyside width="90%" margins="0% 0%">
+             <image xml:id="fig-hw-9-3-9ans">
+                <description>hyperbola, open left and right</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.3]
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(10.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,10.6) node[above]{$y$};
+                \foreach \x in {-10,-5,5,10} {
+                 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 }
+                \foreach \x in {-10,-5,5,10} {
+                 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                 }
+                % \def\a{sqrt(32)};
+                \def\b{4};
+                \def\h{0};
+                \def\k{0};
+                \draw[black] ({\h-sqrt(32)},{\k-\b}) rectangle ({\h+sqrt(32)},{\k+\b});
+                \draw[samples=2,domain={-10:10},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+\b/sqrt(32) * (\x - \h) } );
+                \draw[samples=2,domain={-10:10},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-\b/sqrt(32) * (\x - \h) } );
+                \filldraw[black] (\h,\k) circle (.1);
+                \draw[samples=65,domain={-1.2:1.2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+sqrt(32)*cosh(\x)}, {\k+\b*sinh(\x)});
+                \draw[samples=65,domain={-1.2:1.2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h-sqrt(32)*cosh(\x)}, {\k+\b*sinh(\x)});
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside>
+    </answer>
+</exercise>
+
+</exercisegroup>
 
 
 

@@ -36,7 +36,7 @@
 <exercise number="7"><statement><sidebyside  width="60%"><image source="images/fig-hw-4-3-7"><description>graph</description></image></sidebyside></statement>
 <answer><m>y=-x^2</m></answer></exercise>
 
-<exercise number="8"><statement><sidebyside  width="60%"><image source="images/8ig-hw-4-3-8"><description>graph</description></image></sidebyside></statement></exercise>
+<exercise number="8"><statement><sidebyside  width="60%"><image source="images/fig-hw-4-3-8"><description>graph</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 9-12, solve the system by elimination. Begin by eliminating <m>c</m>.</p></introduction>
