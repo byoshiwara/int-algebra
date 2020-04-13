@@ -51,12 +51,10 @@ The coefficient of the linear term, <m>2p</m>, is twice the constant in the bino
               2, 
             );            
         </pg-code>
-    <statement>
-        <p>What is the linear term of <m>(x+6)^2</m> ?</p>
+    <statement><p>What is the linear term of <m>(x+6)^2</m> ?</p>
         <p><var name="$lint" form="buttons"/></p>      
     </statement>
-    <solution>
-        <p><m>12x</m></p>
+    <solution><p><m>12x</m></p>
     </solution>
 </webwork></exercise>
 
@@ -79,12 +77,11 @@ You can check that in the resulting trinomial, the constant term is equal to <em
     <li><p>One-half of <m>-12</m> is <m>-6</m>, so the constant term is <m>(-6)^2</m>, or <m>36</m>. We add <m>36</m> to obtain
     <md><mrow>x^2 - 12x \alert{{}+{}36}=(x - 6)^2\amp\amp\amp  {\large\glert{\underset{p^2\, = \,(-6)^2 \,=\, 36\hphantom{0}}{\stackrel {p\, = \,\frac{1}{2}(-12) \,=\, -6}{}}}}</mrow></md></p></li>
     <li><p>One-half of <m>5</m> is <m>\dfrac{5}{2}</m>, so the constant term is <m>\left(\dfrac{5}{2}\right)^2</m>, or <m>\dfrac{25}{4}</m>. We add <m>\dfrac{25}{4}</m> to obtain
-    <md><mrow>x^2 +5x \alert{{}+{}\frac{25}{4}}=\left(x +\frac{5}{2}\right)^2 \amp\amp\amp {\large \glert{\underset{p^2\, = \,(\frac{5}{2})^2 \,= \,\frac{25}{4}}{\stackrel {p \,= \,\frac{1}{2}(5) \,=\, \frac{5}{2}~~ }{}}}}</mrow></md></p></li></ol>
-    </p></solution></example>
+    <md><mrow>x^2 +5x \alert{{}+{}\frac{25}{4}}=\left(x +\frac{5}{2}\right)^2 \amp\amp\amp {\large \glert{\underset{p^2\, = \,(\frac{5}{2})^2 \,= \,\frac{25}{4}}{\stackrel {p \,= \,\frac{1}{2}(5) \,=\, \frac{5}{2}~~ }{}}}}</mrow></md></p></li></ol></p>
+</solution></example>
 
 <exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $TF = PopUp(
           ["?","True","False"],
           2, 
@@ -94,38 +91,17 @@ You can check that in the resulting trinomial, the constant term is equal to <em
           1, 
         );
     </pg-code>
-    <statement>
-        <p>True or False.  
-            <ol label="a">
-                <li>
-                    <p>
-                        Every quadratic equation can be solved by factoring. <var name="$TF" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Every expression of the form <m>x^2+bx</m> can be turned into a perfect square by adding an appropriate constant.  <var name="$True" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The coefficient of the linear term in the expansion of <m>(x+p)^2</m> is twice the constant term.  <var name="$TF" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>To complete the square means to square the expression.  <var name="$TF" form="popup"/>
-                    </p>
-                </li>
-            </ol>
-        </p>
+    <statement><p>True or False.<ol label="a">
+        <li><p>Every quadratic equation can be solved by factoring. <var name="$TF" form="popup"/></p></li>
+        <li><p>Every expression of the form <m>x^2+bx</m> can be turned into a perfect square by adding an appropriate constant.  <var name="$True" form="popup"/></p></li>
+        <li><p>The coefficient of the linear term in the expansion of <m>(x+p)^2</m> is twice the constant term.  <var name="$TF" form="popup"/></p></li>
+        <li><p>To complete the square means to square the expression.  <var name="$TF" form="popup"/></p></li></ol></p>
     </statement>
-    <solution>
-        <p><ol label="a">
+    <solution><p><ol label="a">
             <li>False</li>
             <li>True</li>
             <li>False</li>
-            <li>False</li>
-        </ol></p>
+            <li>False</li></ol></p>
     </solution>
 </webwork>
 </exercise>
@@ -143,18 +119,16 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         <li><p><m>x^2-18x{}+</m><var name="$pa2" width="2"/><m> = (x+</m><var name="$pa" width="2"/><m>)^2</m></p></li>
         <li><p><m>x^2 +9x{}+</m><var name="$pb2" width="2"/><m> = (x+</m><var name="$pb" width="2"/> <m> )^2</m></p></li>
         </ol></p>
-        </statement>
+    </statement>
         <hint>
             <p>For part (a):
             <m>p=\frac{1}{2}(-18)={}</m>_____ , <m>p^2={}</m> ______</p>
             <p>For part (b): 
             <m>p=\frac{1}{2}(9)={}</m>_____ , <m>p^2={}</m> ______</p>
         </hint>
-        <solution>
-            <p><ol label="a" cols="2">
+    <solution><p><ol label="a" cols="2">
                 <li><p><m>x^2 - 18x + 81 = (x - 9)^2</m></p></li>
-                <li><p><m>x^2+9x+\dfrac{81}{4}=\left(x+\dfrac{9}{2}\right)^2 </m></p></li>
-            </ol></p>
+                <li><p><m>x^2+9x+\dfrac{81}{4}=\left(x+\dfrac{9}{2}\right)^2 </m></p></li></ol></p>
         </solution></webwork>
 </exercise>
 </subsection>
@@ -235,8 +209,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
 </ol></p></solution></example>
 
 <exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
          $one = PopUp(
           ["?","a","b", "c", "d"],
           4, 
@@ -255,40 +228,23 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         );
         
     </pg-code>
-    <statement>
-        <p>Put the steps for completing the square in the correct order:
-            <ol label="a">
+    <statement><p>Put the steps for completing the square in the correct order:<ol label="a">
                 <li>Add to both sides of the equation.</li>
                 <li>Use extraction of roots.</li>
                 <li>Write the left side as a perfect square.</li>
-                <li>Write the equation with the constant term on the right side.</li>
-            </ol>
-        </p>
-        <p>
-            <ul>
-                <li><p>
-                    Step 1: <var name="$one" form="popup"/>
-                </p></li>
-                <li><p>
-                    Step 2: <var name="$two" form="popup"/>
-                </p></li>
-                <li><p>
-                    Step 3: <var name="$three" form="popup"/>
-                </p></li>
-                <li><p>
-                    Step 4: <var name="$four" form="popup"/>
-                </p></li>
-            </ul>
-        </p>
+                <li>Write the equation with the constant term on the right side.</li></ol></p>
+        <p><ul>
+                <li><p>Step 1: <var name="$one" form="popup"/></p></li>
+                <li><p>Step 2: <var name="$two" form="popup"/></p></li>
+                <li><p>Step 3: <var name="$three" form="popup"/></p></li>
+                <li><p>Step 4: <var name="$four" form="popup"/></p></li></ul></p>
     </statement>
-    <solution>
-        <p>d, a, c, b</p>
+    <solution><p>d, a, c, b</p>
     </solution>
 </webwork>
 </exercise>
 
-<exercise xml:id="exercise-completing-the-square2">
-    <title>Practice 2</title>
+<exercise xml:id="exercise-completing-the-square2"><title>Practice 2</title>
     <webwork><pg-code>
             Context("Fraction");
             $p = Compute("-3/2");

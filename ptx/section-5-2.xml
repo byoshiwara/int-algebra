@@ -218,8 +218,7 @@ and press <c>ZOOM</c> <m>6</m> for the standard window. Your calculator does not
 </technology>
 
 <exercise><title>Practice 3</title>
-    <webwork>
-        <setup><pg-code>
+    <webwork><pg-code>
             Context("Fraction")->variables->add(r=>'Real');
             $func = Formula("x**3-2");
             $a0 = $func->eval(x=>-2);
@@ -231,7 +230,7 @@ and press <c>ZOOM</c> <m>6</m> for the standard window. Your calculator does not
             $a4 = Fraction($a4);
             $a5 = $func->eval(x=>1);
             $a6 = $func->eval(x=>2);
-        </pg-code></setup>
+        </pg-code>
         <statement><p>Let <m>f(x) = <var name="$func"/></m></p>
         <p>Complete the table of values and sketch a graph of the function.</p> <sidebyside>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor"> <row bottom="minor">
