@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+
+
+<!-- This file was originally part of the book     -->
+<!--   Modeling, Functions, and Graphs   -->
+<!--           4th                                     -->
+<!-- Copyright (C) Katherine Yoshiwara      -->
+
+<exercises xml:id="section-6-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Problem Set 6.3</title>
+
+<subexercises><title>Warm Up</title>
+
+<exercise number="1"><statement><p>Combining powers and roots<ol label="a">
+    <li><p>Start with 8, square it, and then take the cube root of the result.  That is:  
+            <me>\sqrt[3]{8^2} = \sqrt[3]{?}=</me>
+    Now start with 8, take the cube root, then square the result.  That is:    
+            <me>(\sqrt[3]{8})^2 = (?)^2=</me></p></li>
+    <li><p>Do you get the same answers for parts (a) and (b)? You should! Now try the same thing with some irrational numbers. Use your calculator, and round your answers to two decimal places.
+        <md><mrow>\sqrt{3^5} \amp =  \amp \amp (\sqrt{3})^5 = </mrow>
+            <mrow>(\sqrt[3]{58})^4\amp = \amp \amp \sqrt[3]{58^4}=</mrow></md></p></li>
+    <li><p>Choose the most convenient order of operations to evaluate each root without using a calculator.<ol label="i" cols="2">
+            <li><m>\sqrt[5]{32^3}</m></li>
+            <li><m>-\sqrt[3]{27^4}</m></li></ol></p></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>4; 4</li>
+    <li>15.59; 15.59</li>
+    <li><m>8;~-81</m></li></ol></p></answer></exercise>         
+
+<exercise number="2"><statement><p>Using exponents<ol label="a">
+    <li><p>Simplify <m>(\sqrt[3]{8})^2</m> using exponents as follows. Fill in the blanks with the correct exponents. 
+        <me>(\sqrt[3]{8})^2 = (8^{<fillin characters="2"/>})^2 = 8^{<fillin characters="2"/>}</me></p></li>               
+    <li>Use your calculator to compute <m>8^{2/3}</m>.  Don't forget to put parentheses around the exponent.</li>
+    <li><p>Approximate each power to the nearest thousandth.<ol label="1" cols="2">
+        <li><m>12^{5/6}</m></li>
+        <li><m>\sqrt[3]{6^4}</m></li>
+        <li><m>37^{-2/3}</m></li>
+        <li><m>4.7^{2.3}</m></li></ol></p></li></ol></p></statement></exercise>
+
+<exercise number="3"><statement><p>Converting between radical notation and exponent notation<ol label="a" cols="3">
+    <li>Write with radicals.<ol label="i" cols="3">
+        <li><m>x^{4/5}</m></li>    
+        <li><m>b^{-5/6}</m></li>
+        <li><m>(pq)^{-2/3}</m></li>
+        <li><m>3x{0.4}</m></li>
+        <li><m>4z^{-4/3}</m></li>
+        <li><m>-2x^{0.25}y^{0.75}</m></li></ol></li>
+    <li>Write with fractional exponents.<ol label="i" cols="3">
+        <li><m>\sqrt[3]{x^2}</m></li>    
+        <li><m>2\sqrt[5]{ab^3}</m></li>
+        <li><m>\dfrac{-4m}{\sqrt[6]{p^7}</m></li>
+        <li><m>\sqrt[3]{(ab)^2</m></li>
+        <li><m>\dfrac[8}{\sqrt[4}{x^3}</m></li>
+        <li><m>\dfrac{R}{3\sqrt{TK^5}</m></li></ol></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>\sqrt[5]{x^4};~~\dfrac{1}{\sqrt[6]{b^5};~~\dfrac{1}{\sqrt[3]{p^2q^2};~~3\sqrt[5]{x^2};~~\dfrac{4}{\sqrt[3]{z^4};~~-2\sqrt[4]{xy^3}</m></li>
+    <li><m>x^{2/3};~~2a^{1/5}b^{3/5};~~-4mp^{-7/6};~~(ab)^{2/3};~~8x^{-3/4};~~\dfrac{1}{3}RT^{-1/2}K^{-5/2}</m></li></ol></p></answer></exercise>
+
+<exercise number="4"><statement><p>Evaluate each power without using a calculator.<ol label="a" cols="3">
+        <li><p><m>81^{3/4} </m></p></li>
+        <li><p><m>125^{2/3} </m></p></li>
+        <li><p><m>625^{0.75} </m></p></li>
+        <li><p><m>16^{-3/2} </m></p></li>
+        <li><p><m>8^{-4/3} </m></p></li>
+        <li><p><m>32^{-1.6} </m></p></li></ol></p></statement></exercise>
+</subexercises>
+
+<subexercises><title>Skills Practice</title>
+
+<exercisegroup><introduction><p>For Problems 5 and 6, write each power in radical form.</p></introduction>
+
+<exercise number="5"><statement><p><ol cols="3">
+    <li><p><m>y^{3/4} </m></p></li>
+    <li><p><m>a^{-2/7} </m></p></li>
+    <li><p><m>(st)^{-3/5} </m></p></li>
+</ol></p></statement>
+<answer><p><ol cols="3">
+    <li><p><m>\sqrt[4]{y^3}</m></p></li>
+    <li><p><m>\dfrac{1}{\sqrt[7]{a^2}}</m></p></li>
+    <li><p><m>\dfrac{1}{\sqrt[5]{s^3t^3}</m></p></li>
+</ol></p></answer></exercise>
+
+<exercise number="6"><statement><p><ol cols="3">
+    <li><p><m>5y^{2/3} </m></p></li>
+    <li><p><m>6w^{-1.5} </m></p></li>
+    <li><p><m>-3x^{0.4}y^{0.6} </m></p></li>
+</ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 7 and 8, write each expression with fractional exponents.</p></introduction>
+
+<exercise number="7"><statement><p><ol cols="3">
+    <li><p><m>\sqrt{y^3} </m></p></li>
+    <li><p><m>6\sqrt[5]{(ab)^3} </m></p></li>
+    <li><p><m>\dfrac{-2n}{\sqrt[8]{q^{11}}} </m></p></li>
+</ol></p></statement>
+<answer><p><ol cols="3">
+    <li><p><m>y^{3/2}</m></p></li>
+    <li><p><m>6a^{3/5}b^{3/5}</m></p></li>
+    <li><p><m>-2nq^{-11/8}</m></p></li>
+</ol></p></answer></exercise>
+
+<exercise number="8"><statement><p><ol cols="3">
+    <li><p><m>\sqrt[3]{ab^2} </m></p></li>
+    <li><p><m>\dfrac{5}{\sqrt[3]{y^2}} </m></p></li>
+    <li><p><m>\dfrac{S}{4\sqrt{VH^3}} </m></p></li>
+</ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 9 and 10, evaluate each root without using a calculator.</p></introduction>
+
+<exercise number="9"><statement><p><ol cols="3">
+    <li><p><m>\sqrt[4]{16y^{12}} </m></p></li>
+    <li><p><m>\sqrt[5]{243x^{10}}</m></p></li>
+    <li><p><m>\sqrt[3]{8x^9y^{27}} </m></p></li>
+</ol></p></statement>
+<answer><p><ol cols="4">
+    <li><p><m>2y^3</m></p></li>
+    <li><p><m>3x^2</m></p></li>
+    <li><p><m>2x^2y^9</m></p></li></ol></p>
+</answer></exercise>
+
+<exercise number="10"><statement><p><ol cols="3">
+    <li><p><m>-\sqrt[4]{81a^8b^{12}}</m></p></li>
+    <li><p><m>\sqrt[3]{64x^6 y^{18}}</m></p></li>
+    <li><p><m>-\sqrt[5]{32x^{25}y^{5}} </m></p></li>
+</ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 11<ndash/>16, simplify by applying the laws of exponents. Write your answers with positive exponents only.
+</p></introduction>
+
+<exercise number="11"><statement><m>4a^{6/5}a^{4/5} </m></statement>
+<answer><m>4a^2</m></answer></exercise>
+
+<exercise number="12"><statement><m>(-2m^{2/3})^4 </m></statement></exercise>
+
+<exercise number="13"><statement><m>\dfrac{8w^{9/4}}{2w^{3/4}} </m></statement>
+<answer><m>4w^{3/2} </m></answer></exercise>
+
+<exercise number="14"><statement><m>(-3u^{5/3}) (5u^{-2/3}) </m></statement></exercise>
+
+<exercise number="15"><statement><m>\dfrac{k^{3/4}}{2k} </m></statement>
+<answer><m>\dfrac{1}{2k^{1/4}} </m></answer></exercise>
+
+<exercise number="16"><statement><m>c^{-2/3}\left(\dfrac{2}{3}c^2 \right) </m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 17<ndash/>20, solve. Round your answers to the nearest thousandth if necessary.</p></introduction>
+
+<exercise number="17"><statement><p><m>x^{2/3} - 1 = 15</m></p></statement>
+<answer><p><m>x = 64</m></p></answer></exercise>
+
+<exercise number="18"><statement><p><m>x^{-2/5} = 9</m></p></statement></exercise>
+
+<exercise number="19"><statement><p><m>6-2.4x^{-5/4} = 8 </m></p></statement>
+<answer><p><m>x = 1.157</m></p></answer></exercise>
+
+<exercise number="20"><statement><p><m>2(5.2 - x^{5/3}) = 1.4</m></p></statement>
+<answer><p><m>x\approx 2.466 </m></p></answer>
+</exercise>
+</exercisegroup>
+
+<exercise number="21"><statement><p> If <m>f (x) = (3x - 4)^{3/2}</m>, find <m>x</m> so that <m>f (x) = 27</m>.
+</p></statement>
+<answer><p><m>\dfrac{13}{3} </m></p></answer></exercise>
+
+<exercise number="22"><statement><p>
+    If <m>S(x) = 12x^{-5/4}</m>, find <m>x</m> so that <m>S(x) = 20</m>.
+</p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 23<ndash/>26, use the distributive law to find the product.
+</p></introduction>
+
+<exercise number="23"><statement><m>x^{1/3} (2x^{2/3} - x^{1/3})</m></statement>
+<answer><m>2x-x^{2/3}</m></answer></exercise>
+
+<exercise number="24"><statement><m>3y^{-3/8}\left(\dfrac{1}{4}y^{-1/4} + y^{3/4} \right)</m></statement></exercise>
+
+<exercise number="25"><statement><m>(2x^{1/4} + 1) (x^{1/4} - 1) </m></statement>
+<answer><p><m>2x^{1/2} - x^{1/4} - 1 </m></p></answer></exercise>
+
+<exercise number="26"><statement><m>(a^{3/4}-2)^2 </m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>30, factor out the smallest power from each expression. Write your answers with positive exponents only.</p></introduction>
+
+<exercise number="27"><statement><p><m>x^{3/2} + x = x(~~\text{?}~~)</m></p></statement>
+<answer><p><m>x(x^{1/2} + 1)</m></p></answer>
+</exercise>
+
+<exercise number="28"><statement><p><m>y^{3/4} - y^{-1/4} = y^{-1/4}(~~\text{?}~~)</m></p></statement></exercise>
+
+<exercise number="29"><statement><p><m>a^{1/3} + 3 - a^{-1/3} = a^{-1/3}(~~\text{?}~~)</m></p></statement>
+<answer><p><m>\dfrac{a^{2/3}+a^{1/3}-1}{a^{1/3}} </m></p></answer>
+</exercise>
+
+<exercise number="30"><statement><p><m>4b-6+4b^{-2/3} = 2b^{-2/3}(~~\text{?}~~)</m></p></statement>
+</exercise>
+</subexercises>
+
+<subexercises><title>Applications</title>
+
+<exercise number="30"><statement><p><ol label="a">
+    <li><p>Complete the table of values, then graph both functions on the grid, along with the graph of <m>y=x</m>.
+            <me>f(x) = x^{4/3},~~~~~~g(x)=x^{3/2}</me>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell></row>
+                    <row><cell><m>f(x)</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell></row>
+                    <row><cell><m>g(x)</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell></row>
+                    </tabular></sidebyside></p>
+    <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><p>Check your work by graphing the functions in the suggested window, and compare the graphs.
+            <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 6</mrow>
+        <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 10</mrow></md></p></li></ol></p></statement>
+<answer><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell></row>
+                    <row><cell><m>f(x)</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>4.3</m></cell>
+                        <cell><m>6.4</m></cell>
+                        <cell><m>8.5</m></cell>
+                        <cell><m>10.9</m></cell></row>
+                    <row><cell><m>g(x)</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2.8</m></cell>
+                        <cell><m>5.2</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>11.2</m></cell>
+                        <cell><m>14.7</m></cell></row>
+                    </tabular></sidebyside></p>
+    <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></answer></exercise>
+
+<exercise number="31"><statement><p><ol label="a">
+    <li><p>Complete the table of values, then graph both functions on the grid, along with the graph of <m>y=x</m>.
+            <me>f(x) = x^{3/4},~~~~~~g(x)=x^{2/3}</me>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row><cell><m>f(x)</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell></row>
+                    <row><cell><m>g(x)</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell>
+                        <cell><m>~~~</m></cell></row>
+                    </tabular></sidebyside></p>
+    <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><p>Check your work by graphing the functions in the suggested window, and compare the graphs.
+            <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 10</mrow>
+        <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 4</mrow></md></p></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 33 and 34, solve the equations, and locate the corresponding points on the graphs in Problems 31 and 32.
+</p></introduction>
+
+<exercise number="33"><statement><p><ol cols="2">
+    <li><p><m>x^{4/3}=4 </m></p></li>
+    <li><p><m>x^{3/2}=6</m></p></li>
+</ol></p></statement>
+<answer><p><ol cols="2">
+    <li><p><m>2.83</m></p></li>
+    <li><p><m>3.30</m></p></li>
+</ol></p></answer></exercise>
+
+<exercise number="34"><statement><p><ol cols="3">
+    <li><p><m>x^{3/4}=4 </m></p></li>
+    <li><p><m>x^{2/3}=6</m></p></li>
+</ol></p></statement></exercise>
+
+<exercise number="35"><statement><p>In the 1970s, Jared Diamond studied the number of bird species on small islands near New Guinea. He found that larger islands support a larger number of different species, according to the formula
+    <me>S = 15.1A^{0.22}</me>
+where <m>S</m> is the number of species on an island of area <m>A</m> square kilometers. (Source: Chapman and Reiss, 1992)
+    <ol>
+    <li><p>Fill in the table.</p>
+            <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <row><cell><m>A</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>100</m></cell>
+                    <cell><m>1000</m></cell>
+                    <cell><m>5000</m></cell>
+                    <cell><m>10,000</m></cell></row>
+                <row><cell><m>S</m></cell>
+                    <cell><m>\hphantom{000000} </m></cell>
+                    <cell><m>\hphantom{000000} </m></cell>
+                    <cell><m>\hphantom{000000} </m></cell>
+                    <cell><m>\hphantom{000000} </m></cell>
+                    <cell><m>\hphantom{000000} </m></cell></row>
+            </tabular></sidebyside></li>
+    <li><p>Graph the function on the domain <m>0\lt A\le 10,000</m>.</p></li>
+    <li><p>How many species of birds would you expect to find on Manus Island, with an area of <m>2100</m> square kilometers? On Lavongai, which bird's area is <m>1140</m> square kilometers?</p></li>
+    <li><p>How large must an island be in order to support <m>200</m> different species of bird?</p></li></ol></p>
+</statement>
+<answer><p><ol cols="2">
+    <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <row><cell><m>A</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>100</m></cell>
+                    <cell><m>1000</m></cell>
+                    <cell><m>5000</m></cell>
+                    <cell><m>10,000</m></cell></row>
+                <row><cell><m>S</m></cell>
+                    <cell><m>25 </m></cell>
+                    <cell><m>42 </m></cell>
+                    <cell><m>69 </m></cell>
+                    <cell><m>98 </m></cell>
+                    <cell><m>115 </m></cell></row>
+            </tabular></sidebyside></li>
+    <li><sidebyside width="80%"><image source="images/fig-ans-3-4-27"><description>power function</description></image></sidebyside></li>
+    <li><p><m>81</m>, <m>71</m></p></li>
+    <li><p><m>126,000</m> sq km</p></li></ol></p>
+</answer></exercise>
+
+<exercise number="36"><statement><p>The climate of a region has a great influence on the types of animals that can survive there. Extreme temperatures create difficult living conditions, so the diversity of wildlife decreases as the annual temperature range increases. Along the west coast of North America, the number of species of mammals, <m>M</m>, is approximately related to the temperature range, <m>R</m>, (in degrees Celsius) by the function 
+    <me>M = f (R) = 433.8R^{-0.742}</me>. (Source: Chapman and Reiss, 1992)<ol>
+    <li><p>Graph the function for temperature ranges up to <m>30\degree</m>C.</p></li>
+    <li><p>How many species would you expect to find in a region where the temperature range is <m>10\degree </m>C? Label the corresponding point on your graph.</p></li>
+    <li><p>If <m>50</m> different species are found in a certain region, what temperature range would you expect the region to experience? Label the corresponding point on your graph.</p></li>
+    <li><p>Evaluate the function to find <m>f (9)</m>, <m>f (10)</m>, <m>f (19)</m>, and <m>f (20)</m>. What do these values represent? Calculate the change in the number of species as the temperature range increases from <m>9\degree</m>C to <m>10\degree</m>C and from <m>19\degree</m>C to <m>20\degree</m>C. Which <m>1\degree</m> increase results in a greater decrease in diversity? Explain your answer in terms of slopes on your graph.</p></li></ol></p>
+</statement></exercise>
+
+<exercise number="37"><statement>
+    <sidebyside widths="55% 45%" valigns="middle middle" margins="0% 0%"><p>
+        The table at right shows the exponent, <m>p</m>, in the allometric equation
+    <md><mrow>\text{variable} = k (\text{body mass})^p</mrow></md>
+    for some variables related to mammals. (Source: Chapman and Reiss, 1992)</p>
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/>
+        <row><cell halign="center">Variable</cell>
+            <cell>Exponent, <m>p</m></cell></row>
+        <row><cell>Home range size</cell>
+            <cell><m>1.26</m></cell></row>
+        <row><cell>Lung volume</cell>
+            <cell><m>1.02</m></cell></row>
+        <row><cell>Brain mass</cell>
+            <cell><m>0.70</m></cell></row>
+        <row><cell>Heart rate</cell>
+            <cell><m>-0.25</m></cell></row>
+    </tabular></sidebyside><p><ol label="a">
+    <li><p>The average body mass of a dolphin is about <m>140</m> kilograms, twice the body mass of an average human male.
+    Using the allometric equation above, calculate the ratio of the brain mass of a dolphin to that of a human.</p></li>
+    <li><p>A good-sized brown bear weighs about <m>280</m> kilograms, twice the weight of a dolphin. Calculate the ratio of the brain mass of a brown bear to that of a dolphin.</p></li>
+    <li><p>Use a ratio to compare the heartbeat frequencies of a dolphin and a human, and those of a brown bear and a dolphin. </p></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>1.62</li>
+    <li>1.62</li>
+    <li>0.84; 0.84</li></ol></p></answer></exercise>
+
+</subexercises>
+
+</exercises>

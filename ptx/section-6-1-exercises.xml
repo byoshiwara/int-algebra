@@ -11,7 +11,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercisegroup><introduction><p>For Problems 1<ndash/>5, sinplify.  Write your answers as integers or common fractions; do not use a calculator!</p></introduction>
+<exercisegroup><introduction><p>For Problems 1<ndash/>5, simplify.  Write your answers as integers or common fractions; do not use a calculator!</p></introduction>
 
 <exercise number="1"><statement><p><ol label="a" cols="3">
     <li><m>3^2</m></li>    
@@ -30,478 +30,297 @@
 
 <exercise number="2"><statement><p><ol label="a" cols="3">
     <li><m>\dfrac{1}{2^3}</m></li>    
-    <li><m>\dfrac{1}{2^{-3}</m></li>
+    <li><m>\dfrac{1}{2^{-3}}</m></li>
     <li><m>\dfrac{-1}{2^3}</m></li>
-    <li><m>\dfrac{-1}{2^{-3}</m></li>
+    <li><m>\dfrac{-1}{2^{-3}}</m></li>
     <li><m>(\dfrac{1}{2})^3</m></li>
     <li><m>(\dfrac{1}{2})^{-3}</m></li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><m>f(x)=\sqrt{x}</m></statement>
+<exercise number="3"><statement><p><ol label="a" cols="3">
+    <li><m>5 \cdot 2^3</m></li>    
+    <li><m>5 \cdot 2^{-3}</m></li>
+    <li><m>\dfrac{5}{2^3}</m></li>
+    <li><m>\dfrac{1}{5 \cdot 2^3}</m></li>
+    <li><m>\dfrac{5}{2^{-3}}</m></li>
+    <li><m>\dfrac{5^{-2}}{2^{-3}}</m></li></ol></p></statement>
 <answer><p><ol label="a">
-    <li>none</li>
-    <li><m>(0, \infty)</m></li>
-    <li>none</li>
-    <li>none</li></ol></p></answer></exercise>
+    <li><m>40</m></li>
+    <li><m>\dfrac{5}{8}</m></li>
+    <li><m>\dfrac{5}{8}</m></li>
+    <li><m>\dfrac{1}{40}</m></li>
+    <li><m>40</m></li>
+    <li><m>\dfrac{8}{5}</m></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><m>f(x)=\sqrt[3]{x}</m></statement></exercise>
+<exercise number="4"><statement><p><ol label="a" cols="3">
+    <li><m>\dfrac{2^3}{5^{-2}}</m></li>    
+    <li><m>\dfrac{2^{-3}}{5^2}</m></li>
+    <li><m>\dfrac{5^{-2}}{2^{-3}}</m></li>
+    <li><m>(\dfrac{5}{2})^{-3}</m></li>
+    <li><m>5^2 \cdot 2^{-3}</m></li>
+    <li><m>5^{-2} \cdot 2^{-3}</m></li></ol></p></statement></exercise>
 
-<exercise number="5"><statement><m>f(x)=\dfrac{1}{x}</m></statement>
+<exercise number="5"><statement><p><ol label="a" cols="2">
+    <li><m>2^{-1}+4^{-1}</m></li>    
+    <li><m>2^{-1} \cdot 4^{-1}</m></li>
+    <li><m>2 \cdot 4^{-1}</m></li>
+    <li><m>2 + 4^{-1}</m></li>
+    <li><m>(2 + 4)^{-1}</m></li>
+    <li><m>(2 \cdot 4)^{-1}</m></li>
+    <li><m>(2^{-1} + 4^{-1})^{-1}</m></li>
+    <li><m>(2^{-1} \cdot 4^{-1})^{-1}</m></li></ol></p></statement>
 <answer><p><ol label="a">
-    <li><m>(-infty, 0)</m></li>
-    <li>none</li>
-    <li><m>(0, \infty)</m></li>
-    <li>none</li></ol></p></answer></exercise>
-
-<exercise number="6"><statement><m>f(x)=\dfrac{1}{x^2}</m></statement></exercise>
+    <li><m>\dfrac{3}{4}</m></li>    
+    <li><m>\dfrac{1}{8}</m></li>
+    <li><m>\dfrac{1}{2}</m></li>
+    <li><m>\dfrac{9}{4}</m></li>
+    <li><m>\dfrac{1}{6}</m></li>
+    <li><m>2</m></li>
+    <li><m>\dfrac{4}{3}</m></li>
+    <li><m>8</m></li></ol></p></answer></exercise>
 </exercisegroup>
 
-<exercise number="7"><statement><p>The graph defines a function, <m>h</m>, that shows the height, <m>s</m>, in meters, of a duck <m>t</m> seconds after it is flushed out of the bushes.
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
-<ol label="a">
-    <li>Use function notation to state that <m>s</m> is a function of <m>t</m>.</li>
-    <li>What does the statement <m>h(3)=7</m> mean in this context?</li></ol></p></statement>
+<exercisegroup><introduction><p>For Problems 6 and 7, write without negative exponents and simplify. </p></introduction>
+
+<exercise number="6"><statement><p><ol label="a" cols="2">
+    <li><m>\dfrac{5}{4^{-3}}</m></li>
+    <li><m>(2q)^{-5}</m></li>
+    <li><m>-4x^{-2}</m></li>
+    <li><m>\dfrac{8}{b^{-3}}</m></li></ol></p></statement>
+</exercise>
+
+<exercise number="7"><statement><p><ol label="a" cols="2">
+    <li><m>(m-n)^{-2}</m></li>
+    <li><m>y^{-2}+y^{-3}</m></li>
+    <li><m>2pq^~/Pretext/mathbook/script/mbx -c webwork -d wwscratch -s https://webwork-ptx.aimath.org test-section.xml
+xsltproc --xinclude --stringparam webwork.extraction ~/Pretext/int-alg/wwscratch/webwork-extraction.xml ~/PreText/mathbook/xsl/pretext-merge.xsl test-section.xml > merge.xml
+xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml{-4}</m></li>
+    <li><m>\dfrac{-5y^{-2}}{x^{-5}}</m></li></ol></p></statement>
 <answer><p><ol label="a">
-    <li> <m>s=h(t)</m></li>
-    <li>After 3 seconds, the duck is at a height of 7 meters.</li></ol></p></answer></exercise>
+    <li><m>\dfrac{1}{(m-n)^2}</m></li>
+    <li><m>\dfrac{1}{y^2}+\dfrac{1}{y^3}</m></li>
+    <li><m>\dfrac{2p}{q^4}</m></li>
+    <li><m>\dfrac{-5x^5}{y^2}</m></li></ol></p></answer></exercise>
+</exercisegroup>
 
-<exercise number="8"><statement><p>The graph defines a function, <m>f</m>, that shows the atmospheric pressure, <m>P</m>, in inches of mercury, at an altitude of <m>a</m> feet.
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
-<ol label="a">
-    <li>Use function notation to state that <m>P</m> is a function of <m>a</m>.</li>
-    <li>What does the statement <m>f(1500)=28.3</m> mean in this context?</li></ol></p></statement></exercise>
+<exercise number="8"><statement><p>Write each expression as a power function using negative exponents.<ol label="a" cols="3">
+    <li><m>F(r)=\dfrac{3}{r^4}</m> </li>
+    <li><m>G(w)=\dfrac{2}{5w^3}</m> </li>
+    <li><m>H(z)=\dfrac{1}{(3z)^2}</m> </li></ol></p></statement></exercise>
 
+<exercisegroup><introduction><p>For Problems 9<ndash/>11, solve.</p></introduction>
+    
+<exercise number="9"><statement><m>6x^{-2}=3.84</m></statement>
+<answer><m>1.25</m></answer></exercise>
+
+<exercise number="10"><statement><m>12+0.04t^{-3}=175.84</m></statement></exercise>
+
+<exercise number="11"><statement><m>100-0.15v^{-4}=6.25</m></statement>
+<answer><m>0.2</m></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 12-14, use the laws of exponents to simplify and write without negative exponents.</p></introduction>
+
+<exercise number="12"><statement><p><ol label="a" cols="2">
+    <li><m>a^{-3} \cdot a^8</m></li>
+    <li><m>5^{-4} \cdot 5^{-3}</m></li>
+    <li><m>\dfrac{p^{-7}}{p^{-4}}</m></li>
+    <li><m>(7^{-2})^5</m></li></ol></p>
+    </statement></exercise>
+
+<exercise number="13"><statement><p><ol label="a" cols="3">
+    <li><m>(4x^{-5})(5x^2)</m></li>
+    <li><m>\dfrac{3u^{-3}}{9u^9}</m></li>
+    <li><m>\dfrac{5^6t^0}{5^{-2}t^{-1}}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="3">
+    <li><m>\dfrac{20}{x^3}</m></li>
+    <li><m>\dfrac{1}{3u^{12}}</m></li>
+    <li><m>5^8t</m></li></ol></p></answer></exercise>
+
+<exercise number="14"><statement><p><ol label="a" cols="3">
+    <li><m>(3x^{-2}y^3)^{-2}</m></li>
+    <li><m>(\dfrac{6a^{-3}}{b^2})^{-2}</m></li>
+    <li><m>\dfrac{5h^{-3}(h^4)^{-2}}{6h^{-5}}</m></li></ol></p>
+    </statement></exercise>
+</exercisegroup>
+
+<exercisegroup ><introduction><p>For Problems 15 and 16, write each expression as a sum of terms of the form <m>kx^p</m>.
+</p></introduction>
+
+<exercise number="15"><statement><p><ol label="a" cols="2">
+        <li><m>\dfrac{x}{3} + \dfrac{3}{x}</m></li>
+        <li><m>\dfrac{x-6x^2}{4x^3}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><m>\dfrac{1}{3}x+3x^{-1}</m></li>
+    <li><m>\dfrac{1}{4}x^{-2}-\dfrac{3}{2}x^{-1}</m></li></ol></p>
+</answer></exercise>
+
+<exercise number="16"><statement><p><ol label="a" cols="2">
+        <li><m>\dfrac{2}{x^4}(\dfrac{x^2}{2} + \dfrac{x}{2} - \dfrac{1}{4})</m></li>
+        <li><m>\dfrac{x^2}{3}(\dfrac{2}{x^4} - \dfrac{1}{3x^2} + \dfrac{1}{2})</m></li></ol></p>
+</statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, use the distributive law to write each product as a sum of power functions.</p></introduction>
+
+<exercise number="17"><statement><p><m>x^{-1}(x^2 - 3x + 2)</m></p></statement>
+<answer><p><m>x - 3 + 2x^{-1}</m></p></answer></exercise>
+
+<exercise number="18"><statement><p><m>-3t^{-2}(t^2 - 2 - 4t^{-2})</m></p></statement></exercise>
+
+<exercise number="19"><statement><p><m>2u^{-3}(-2u^3 - u^2 + 3u)</m></p></statement>
+<answer><p><m>-4 - 2u^{-1} + 6u^{-2}</m></p></answer></exercise>
+
+<exercise number="20"><statement><p><m>\dfrac{-1}{2}z^{-3}(-2z^2+3z-4)</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 21 and 22, factor as indicated, writing the second factor with positive exponents only.</p></introduction>
+
+<exercise number="21"><statement><p><m>4x^2 + 16x^{-2} = 4x^{-2}(~~ \text{?} ~~)</m></p></statement>
+<answer><p><m>4x^{-2}(x^4 + 4)</m></p></answer></exercise>
+
+<exercise number="22"><statement><p><m>3a^{-3} - 3a + a^3 = a^{-3} (~~ \text{?} ~~)</m></p></statement></exercise>
+</exercisegroup>
 </subexercises>
 
 <subexercises><title>Applications</title>
 
-<exercisegroup><introduction><p>In Problems 9<ndash/>12, which graph best illustrates each of the following situations?</p></introduction>
-    
-<exercise number="9"><statement><p>Your pulse rate during an aerobics class</p>
-    <sidebyside  width="95%"><image source="images/fig-2-4-1"><description>two curves</description></image></sidebyside></statement>
-<answer><p>(b) </p></answer></exercise>
-
-<exercise number="10"><statement><p>The stopping distances for cars traveling at various speeds</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-2"><description>two curves</description></image></sidebyside>
-    </statement></exercise>
-
-<exercise number="11"><statement><p>Your income in terms of the number of hours you worked</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-3"><description>two curves</description></image></sidebyside></statement>
-<answer><p>(a) </p></answer></exercise>
-
-<exercise number="12"><statement><p>Your temperature during an illness</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-4"><description>two curves</description></image></sidebyside>
-    </statement></exercise>
-</exercisegroup>
-
-<exercisegroup ><introduction><p>Choose the graph that depicts the function described in Problems 13 and 14.</p></introduction>
-
-<exercise number="13"><statement><p>Inflation is still rising, but by less each month.</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-9"><description>four curves</description></image></sidebyside></statement>
-<answer><p>(b)</p></answer></exercise>
-
-<exercise number="14"><statement><p>The price of wheat was rising more rapidly in 1996 than at any time during the previous decade.</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-10"><description>four curves</description></image></sidebyside>
-    </statement></exercise>
-</exercisegroup>
-
-<exercisegroup ><introduction><p>In Problems 15 and 16, match each graph with the function it illustrates.</p></introduction>
-
-<exercise number="15"><statement><p><ol label="a">
-        <li><p>The volume of a cylindrical container of constant height as a function of its radius</p></li>
-        <li><p>The time it takes to travel a fixed distance as a function of average speed</p></li>
-        <li><p>The simple interest earned at a given interest rate as a function of the investment</p></li>
-        <li><p>The number of Senators present versus the number absent in the U.S. Senate</p></li>
-    </ol></p>
-    <sidebyside width="80%"><image source="images/fig-2-4-11"><description>four curves</description></image></sidebyside>
-</statement>
-<answer><p><ol label="a" cols="4">
-    <li><p>II</p></li><li><p>IV</p></li><li><p>I</p></li><li><p>III</p></li>
-</ol></p></answer></exercise>
-
-<exercise number="16"><statement><p><ol label="a">
-        <li><p>Unemployment was falling but is now steady.</p></li>
-        <li><p>Inflation, which rose slowly until last month, is now rising rapidly.</p></li>
-        <li><p>The birthrate rose steadily until 1990 but is now beginning to fall.</p></li>
-        <li><p>The price of gasoline has fallen steadily over the past few months.</p></li>
-    </ol></p>
-    <sidebyside width="80%"><image source="images/fig-2-4-12"><description>four curves</description></image></sidebyside>
-</statement></exercise>
-</exercisegroup>
-
-<exercisegroup><introduction><p>Each situation in Problems 17<ndash/>22 can be modeled by a transformation of a basic function. Name the basic function and sketch a possible graph.</p></introduction>
-
-<exercise number="17"><statement><p>The volume of a hot air balloon, as a function of its radius</p></statement>
-<answer><p><m>y = x^3</m> stretched or compressed vertically</p>
-<sidebyside width="20%"><image source="images/fig-ans-2-4-19"><description>cubic</description></image></sidebyside>
-</answer></exercise>
-
-<exercise number="18"><statement><p>The length of a rectangle as a function of its width, if its
-area is <m>24</m> square feet</p></statement></exercise>
-
-<exercise number="19"><statement><p>The time it takes you to travel <m>600</m> miles, as a function of your average speed</p></statement>
-<answer><p><m>y =\dfrac{1}{x} </m> stretched or compressed vertically</p>
-<sidebyside width="20%"><image source="images/fig-ans-2-4-21"><description>reciprocal</description></image></sidebyside>
-</answer></exercise>
-
-<exercise number="20"><statement><p>The sales tax on a purchase, as a function of its price</p></statement></exercise>
-
-<exercise number="21"><statement><p>The width of a square skylight, as a function of its area</p></statement>
-<answer><p><m>y =\sqrt{x} </m></p>
-<sidebyside width="20%"><image source="images/fig-ans-2-4-23"><description>root</description></image></sidebyside>
-</answer></exercise>
-
-<exercise number="22"><statement><p>The sales tax on a purchase, as a function of its price</p></statement></exercise>
-</exercisegroup>
-
-<exercisegroup cols="2"><introduction><p>In Problems 23 and 24, use the table of values to answer the questions.
-    <ol label="a">
-        <li><p>Based on the given values, is the function increasing or decreasing?</p></li>
-        <li><p>Could the function be concave up, concave down, or linear?</p></li>
-    </ol></p></introduction>
-
-<exercise number="23"><statement><sidebyside>
-    <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-        <row>
-            <cell><m>x</m></cell>
-            <cell><m>0</m></cell>
-            <cell><m>1</m></cell>
-            <cell><m>2</m></cell>
-            <cell><m>3</m></cell>
-            <cell><m>4</m></cell></row>
-        <row>
-            <cell><m>f(x)</m></cell>
-            <cell><m>1</m></cell>
-            <cell><m>1.5</m></cell>
-            <cell><m>2.25</m></cell>
-            <cell><m>3.375</m></cell>
-            <cell><m>5.0625</m></cell></row>
-    </tabular></sidebyside></statement>
-<answer><p><ol label="a"><li><p>Increasing</p></li><li><p>Concave up</p></li></ol></p></answer></exercise>
-
-<exercise number="24"><statement><sidebyside>
-    <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-        <row>
-            <cell><m>x</m></cell>
-            <cell><m>0</m></cell>
-            <cell><m>1</m></cell>
-            <cell><m>2</m></cell>
-            <cell><m>3</m></cell>
-            <cell><m>4</m></cell></row>
-        <row>
-            <cell><m>g(x)</m></cell>
-            <cell><m>1</m></cell>
-            <cell><m>0.8</m></cell>
-            <cell><m>0.64</m></cell>
-            <cell><m>0.512</m></cell>
-            <cell><m>0.4096</m></cell></row>
-    </tabular></sidebyside></statement></exercise>
-</exercisegroup>
-
-<exercisegroup cols="2"><introduction><p>For Problems 25 and 26, plot the data; then decide which of the basic functions could describe the data.</p></introduction>
-
-<exercise number="25"><statement><sidebyside>
-    <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-        <row>
-            <cell><m>~x~</m></cell>
-            <cell><m>0.5</m></cell>
-            <cell><m>~1~</m></cell>
-            <cell><m>~2~</m></cell>
-            <cell><m>~3~</m></cell>
-            <cell><m>~4~</m></cell></row>
-        <row>
-            <cell><m>y</m></cell>
-            <cell><m>12</m></cell>
-            <cell><m>6</m></cell>
-            <cell><m>3</m></cell>
-            <cell><m>2</m></cell>
-            <cell><m>1.5</m></cell></row>
-    </tabular>    </sidebyside></statement>
-<answer><m>y=\dfrac{k}{x}</answer></exercise>
-
-<exercise number="26"><statement><sidebyside>
-    <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-        <row>
-            <cell><m>~x~</m></cell>
-            <cell><m>~0~</m></cell>
-            <cell><m>0.5</m></cell>
-            <cell><m>~1~</m></cell>
-            <cell><m>~2~</m></cell>
-            <cell><m>3</m></cell></row>
-        <row>
-            <cell><m>y</m></cell>
-            <cell><m>0</m></cell>
-            <cell><m>0.0125</m></cell>
-            <cell><m>0.1</m></cell>
-            <cell><m>0.8</m></cell>
-            <cell><m>2.7</m></cell></row>
-    </tabular>    </sidebyside></statement></exercise>
-</exercisegroup>
-
-<exercise number="27"><statement><p>Four different functions are described below. Match each description with the appropriate table of values and with its graph.<ol label="a">
-    <li><p>As a chemical pollutant pours into a lake, its concentration is a function of time. The concentration of the pollutant initially increases quite rapidly, but due to the natural mixing and self-cleansing action of the lake, the concentration levels off and stabilizes at some saturation level.</p></li>
-    <li><p>An overnight express train travels at a constant speed across the Great Plains. The train's distance from its point of origin is a function of time.</p></li>
-    <li><p>The population of a small suburb of a Florida city is a function of time. The population began increasing rather slowly, but it has continued to grow at a faster and faster rate.</p></li>
-    <li><p>The level of production at a manufacturing plant is a function of capital outlay, that is, the amount of money invested in the plant. At first, small increases in capital outlay result in large increases in production, but eventually the investors begin to experience diminishing returns on their money, so that although production continues to increase, it is at a disappointingly slow rate.</p></li>
-    </ol>
-    <ol label="1">
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-                <row>
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~1~</m></cell>
-                    <cell><m>~2~</m></cell>
-                    <cell><m>~3~</m></cell>
-                    <cell><m>~4~</m></cell>
-                    <cell><m>~5~</m></cell>
-                    <cell><m>~6~</m></cell>
-                    <cell><m>~7~</m></cell>
-                    <cell><m>~8~</m></cell></row>
-                <row>
-                    <cell><m>y</m></cell>
-                    <cell><m>60</m></cell>
-                    <cell><m>72</m></cell>
-                    <cell><m>86</m></cell>
-                    <cell><m>104</m></cell>
-                    <cell><m>124</m></cell>
-                    <cell><m>149</m></cell>
-                    <cell><m>179</m></cell>
-                    <cell><m>215</m></cell></row>
-            </tabular>    </sidebyside></li>
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-                <row>
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~1~</m></cell>
-                    <cell><m>~2~</m></cell>
-                    <cell><m>~3~</m></cell>
-                    <cell><m>~4~</m></cell>
-                    <cell><m>~5~</m></cell>
-                    <cell><m>~6~</m></cell>
-                    <cell><m>~7~</m></cell>
-                    <cell><m>~8~</m></cell></row>
-                <row>
-                    <cell><m>y</m></cell>
-                    <cell><m>60</m></cell>
-                    <cell><m>85</m></cell>
-                    <cell><m>103</m></cell>
-                    <cell><m>120</m></cell>
-                    <cell><m>134</m></cell>
-                    <cell><m>147</m></cell>
-                    <cell><m>159</m></cell>
-                    <cell><m>169</m></cell></row>
-            </tabular>    </sidebyside></li>
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-                <row>
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~1~</m></cell>
-                    <cell><m>~2~</m></cell>
-                    <cell><m>~3~</m></cell>
-                    <cell><m>~4~</m></cell>
-                    <cell><m>~5~</m></cell>
-                    <cell><m>~6~</m></cell>
-                    <cell><m>~7~</m></cell>
-                    <cell><m>~8~</m></cell></row>
-                <row>
-                    <cell><m>y</m></cell>
-                    <cell><m>60</m></cell>
-                    <cell><m>120</m></cell>
-                    <cell><m>180</m></cell>
-                    <cell><m>240</m></cell>
-                    <cell><m>300</m></cell>
-                    <cell><m>360</m></cell>
-                    <cell><m>420</m></cell>
-                    <cell><m>480</m></cell></row>
-            </tabular>    </sidebyside></li>
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-                <row>
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~1~</m></cell>
-                    <cell><m>~2~</m></cell>
-                    <cell><m>~3~</m></cell>
-                    <cell><m>~4~</m></cell>
-                    <cell><m>~5~</m></cell>
-                    <cell><m>~6~</m></cell>
-                    <cell><m>~7~</m></cell>
-                    <cell><m>~8~</m></cell></row>
-                <row>
-                    <cell><m>y</m></cell>
-                    <cell><m>60</m></cell>
-                    <cell><m>96</m></cell>
-                    <cell><m>118</m></cell>
-                    <cell><m>131</m></cell>
-                    <cell><m>138</m></cell>
-                    <cell><m>143</m></cell>
-                    <cell><m>146</m></cell>
-                    <cell><m>147</m></cell></row>
-            </tabular>    </sidebyside></li>
-    </ol></p>
-    <sidebyside widths="20% 20% 20% 20%">
-        <image source="images/fig-2-4-41A.jpg"><description>increasing concave down</description></image>
-        <image source="images/fig-2-4-41B.jpg"><description>increasing line</description></image>
-        <image source="images/fig-2-4-41C.jpg"><description>increasing concave down</description></image>
-        <image source="images/fig-2-4-41D.jpg"><description>increasing concave up</description></image>
-    </sidebyside></statement>
-<answer><p><ol label="a" cols="2">
-    <li><p>Table (4), Graph (C)</p></li>
-    <li><p>Table (3), Graph (B)</p></li>
-    <li><p>Table (1), Graph (D)</p></li>
-    <li><p>Table (2), Graph (A)</p></li>
-</ol></p></answer></exercise>
-
-<exercise number="28"><statement><p>Four different functions are described below. Match each description with the appropriate table of values and with its graph.<ol label="a">
-    <li><p>Fresh water flowing through Crystal Lake has gradually reduced the phosphate concentration to its natural level, and it is now stable.</p></li>
-    <li><p>The number of bacteria in a person during the course of an illness is a function of time. It increases rapidly at first, then decreases slowly as the patient recovers.</p></li>
-    <li><p>A squirrel drops a pine cone from the top of a California redwood. The height of the pine cone is a function of time, decreasing ever more rapidly as gravity accelerates its descent.</p></li>
-    <li><p>Enrollment in Ginny's Weight Reduction program is a function of time. It began declining last fall. After the holidays, enrollment stabilized for a while but soon began to fall off again.</p></li>
-    </ol>
-    <ol label="1">
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-                <row>
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~0~</m></cell>
-                    <cell><m>~1~</m></cell>
-                    <cell><m>~2~</m></cell>
-                    <cell><m>~3~</m></cell>
-                    <cell><m>~4~</m></cell></row>
-                <row>
-                    <cell><m>y</m></cell>
-                    <cell><m>160</m></cell>
-                    <cell><m>144</m></cell>
-                    <cell><m>96</m></cell>
-                    <cell><m>16</m></cell>
-                    <cell><m>0</m></cell></row>
-            </tabular>    </sidebyside></li>
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-                <row>
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~0~</m></cell>
-                    <cell><m>~1~</m></cell>
-                    <cell><m>~2~</m></cell>
-                    <cell><m>~3~</m></cell>
-                    <cell><m>~4~</m></cell></row>
-                <row>
-                    <cell><m>y</m></cell>
-                    <cell><m>20</m></cell>
-                    <cell><m>560</m></cell>
-                    <cell><m>230</m></cell>
-                    <cell><m>90</m></cell>
-                    <cell><m>30</m></cell></row>
-            </tabular>    </sidebyside></li>
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-                <row>
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~0~</m></cell>
-                    <cell><m>~1~</m></cell>
-                    <cell><m>~2~</m></cell>
-                    <cell><m>~3~</m></cell>
-                    <cell><m>~4~</m></cell></row>
-                <row>
-                    <cell><m>y</m></cell>
-                    <cell><m>480</m></cell>
-                    <cell><m>340</m></cell>
-                    <cell><m>240</m></cell>
-                    <cell><m>160</m></cell>
-                    <cell><m>120</m></cell></row>
-            </tabular>    </sidebyside></li>
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-                <row>
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~0~</m></cell>
-                    <cell><m>~1~</m></cell>
-                    <cell><m>~2~</m></cell>
-                    <cell><m>~3~</m></cell>
-                    <cell><m>~4~</m></cell></row>
-                <row>
-                    <cell><m>y</m></cell>
-                    <cell><m>250</m></cell>
-                    <cell><m>180</m></cell>
-                    <cell><m>170</m></cell>
-                    <cell><m>150</m></cell>
-                    <cell><m>80</m></cell></row>
-            </tabular>    </sidebyside></li>
-    </ol></p>
-    <sidebyside widths="20% 20% 20% 20%">
-        <image source="images/fig-2-4-42A.jpg"><description>decreasing w/ inflection</description></image>
-        <image source="images/fig-2-4-42B.jpg"><description>decreasing concave up</description></image>
-        <image source="images/fig-2-4-42C.jpg"><description>decreasing concave down</description></image>
-        <image source="images/fig-2-4-42D.jpg"><description>surge function</description></image>
-    </sidebyside></statement></exercise>
-
-<exercise number="29"><statement><p>The table shows the radii, <m>r</m>, of several gold coins, in centimeters, and their value, <m>v</m>, in dollars.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
-        <row>
-            <cell halign="left">Radius</cell>
-            <cell><m>0.5</m></cell>
-            <cell><m>1</m></cell>
-            <cell><m>1.5</m></cell>
-            <cell><m>2</m></cell>
-            <cell><m>2.5</m></cell></row>
-        <row>
-            <cell halign="left">Value</cell>
-            <cell><m>200</m></cell>
-            <cell><m>800</m></cell>
-            <cell><m>1800</m></cell>
-            <cell><m>3200</m></cell>
-            <cell><m>5000</m></cell></row>
-    </tabular></sidebyside>
-    <p><ol label="a">
-        <li><p>Which graph represents the data?</p>
-        <sidebyside width="80%"><image source="images/fig-2-4-43"><description>four curves</description></image></sidebyside></li>
-        <li><p>Which equation describes the function?
-            <ol label="i" cols="4">
-                <li><p><m>v=k\sqrt{r} </m></p></li>
-                <li><p><m>v=kr</m></p></li>
-                <li><p><m>v=kr^2</m></p></li>
-                <li><p><m>v=\dfrac{k}{r} </m></p></li>
-            </ol></p></li>
+<exercise number="23"><statement><p>Let <m>~g(x)=x^{-3}.~</m> Complete the tables.<ol label="a">
+        <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <row><cell><m>x</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>4.5</m></cell>
+                    <cell><m>6.2</m></cell>
+                    <cell><m>9.3</m></cell></row>
+                <row><cell><m>g(x)</m></cell>
+                    <cell><m>\hphantom{0000} </m></cell>
+                    <cell><m>\hphantom{0000} </m></cell>
+                    <cell><m>\hphantom{0000} </m></cell>
+                    <cell><m>\hphantom{0000} </m></cell>
+                    <cell><m>\hphantom{0000} </m></cell></row></tabular></sidebyside></li>
+        <li><p>What happens to the values of <m>g(x)</m> as the values of <m>x</m> increase? Explain why.</p></li>
+        <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <row><cell><m>x</m></cell>
+                    <cell><m>1.5</m></cell>
+                    <cell><m>0.6</m></cell>
+                    <cell><m>0.1</m></cell>
+                    <cell><m>0.03</m></cell>
+                    <cell><m>0.002</m></cell></row>
+                <row><cell><m>g(x)</m></cell>
+                    <cell><m>\hphantom{0000} </m></cell>
+                    <cell><m>\hphantom{0000} </m></cell>
+                    <cell><m>\hphantom{0000} </m></cell>
+                    <cell><m>\hphantom{0000} </m></cell>
+                    <cell><m>\hphantom{0000} </m></cell></row></tabular></sidebyside></li>
+        <li><p>What happens to the values of <m>g(x)</m> as the values of <m>x</m> decrease toward <m>0</m>? Explain why.</p></li>
     </ol></p></statement>
-<answer><p><ol label="a" cols="2">
-    <li><p>III</p></li>
-    <li><p>3</p></li>
-</ol></p></answer></exercise>
+<answer><p><ol label="a">
+    <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <row><cell><m>x</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>4.5</m></cell>
+                    <cell><m>6.2</m></cell>
+                    <cell><m>9.3</m></cell></row>
+                <row><cell><m>g(x)</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>0.125</m></cell>
+                    <cell><m>0.011</m></cell>
+                    <cell><m>0.0042</m></cell>
+                    <cell><m>0.0012 </m></cell></row></tabular></sidebyside></li>
+    <li><p>they decrease</p></li>
+    <li><p><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <row><cell><m>x</m></cell>
+                    <cell><m>1.5</m></cell>
+                    <cell><m>0.6</m></cell>
+                    <cell><m>0.1</m></cell>
+                    <cell><m>0.03</m></cell>
+                    <cell><m>0.002</m></cell></row>
+                <row><cell><m>f(x)</m></cell>
+                    <cell><m>0.30</m></cell>
+                    <cell><m>4.63</m></cell>
+                    <cell><m>1000</m></cell>
+                    <cell><m>37,037</m></cell>
+                    <cell><m>125 \times 10^6</m></cell></row></tabular></sidebyside></p></li>
+    <li><p>they increase</p></li></ol></p></answer></exercise>
 
-<exercise number="30"><statement><p>The table shows how the amount of water, <m>A</m>, flowing past a point on a river is related to the width, <m>W</m>, of the river at that point.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
-        <row>
-            <cell halign="left">Width (feet)</cell>
-            <cell><m>11</m></cell>
-            <cell><m>23</m></cell>
-            <cell><m>34</m></cell>
-            <cell><m>46</m></cell></row>
-        <row>
-            <cell><line>Amount of water</line><line><m>\text{(ft}^3/\text{sec)} </m></line></cell>
-            <cell><m>23</m></cell>
-            <cell><m>34</m></cell>
-            <cell><m>41</m></cell>
-            <cell><m>47</m></cell></row>
-    </tabular></sidebyside><p><ol label="a">
-        <li><p>Which graph represents the data?</p>
-        <sidebyside width="80%"><image source="images/fig-2-4-44"><description>four curves</description></image></sidebyside></li>
-        <li><p>Which equation describes the function?
-            <ol label="i" cols="4">
-                <li><p><m>A=k\sqrt{W} </m></p></li>
-                <li><p><m>A=kW</m></p></li>
-                <li><p><m>A=kW^2</m></p></li>
-                <li><p><m>A=\dfrac{k}{W} </m></p></li>
-            </ol></p></li>
-    </ol></p></statement></exercise>
+<exercise number="24"><statement><p><ol>
+        <li><p>Use your calculator to graph each of the following functions on the window
+            <md><mrow>{\text{Xmin}} \amp = -5 \amp\amp {\text{Xmax}} = 5</mrow>
+                <mrow>{\text{Ymin}} \amp = -2 \amp\amp {\text{Ymax}} = 10</mrow></md> 
+        <ol cols="2">
+                <li><m>f(x)=x^2</m></li>
+                <li><m>f(x)=x^{-2} </m></li>
+                <li><m>f(x)=\dfrac{1}{x^2} </m></li>
+                <li><m>f(x)=\left(\dfrac{1}{x} \right)^2 </m></li></ol></p></li>
+        <li><p>Which functions have the same graph? Explain your results.</p></li></ol></p>
+</statement></exercise>
 
-<exercise number="31"><statement><p>As the global population increases, many scientists believe it is approaching, or has already exceeded, the maximum number the Earth can sustain.  This maximum number, or carrying capacity, depends on the finite natural resources of the planet -- water, land, air, and materials -- but also on how people use and preserve the resources.  The graphs show four different ways that a growing population can approach its carrying capacity over time. 
- (Source:  Meadows, Randers, and Meadows, 2004)</p>
+<exercise number="25"><statement><p> When an automobile accelerates, the power, <m>P</m>, needed to overcome air resistance varies directly with a power of the speed, <m>v</m>.<ol>
+    <li><p>Use the data and the graph to find the scaling exponent and the constant of variation. Then write a formula for <m>P</m> as a power function of <m>v</m>.</p>
+            <sidebyside widths="60% 36%" valigns="middle middle" margins="0% 0%">
+            <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <col right="major" halign="left"/><col/><col/><col/><col/>
+                <row><cell><m>v</m> (mph)</cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>40</m></cell></row>
+                <row><cell><m>P</m> (watts)</cell>
+                    <cell><m>355</m></cell>
+                    <cell><m>2840</m></cell>
+                    <cell><m>9585</m></cell>
+                    <cell><m>22,720</m></cell></row>
+            </tabular>
+            <image source="images/fig-3-2-25"><description>power function</description></image></sidebyside></li>
+        <li><p>Find the speed that requires <m>50,000</m> watts of power.</p></li>
+        <li><p>If you increase your speed by <m>50\%</m>, by what factor does the power requirement increase?</p></li>
+    </ol></p></statement>
+<answer><p><ol cols="3">
+    <li><m>P = 0.355v^3</m></li>
+    <li><p><m>v\approx 52.03</m> mph</p></li>
+    <li><m>3.375</m></li></ol></p>
+</answer></exercise>
 
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside> 
+<exercise number="26"><statement><p>Poiseuille's law for the flow of liquid through a tube can be used to describe blood flow through an artery. The rate of flow, <m>F</m>, in liters per minute is proportional to the fourth power of the radius, <m>r</m>, divided by the length, <m>L</m>, of the artery.<ol label="a">
+        <li><p>Write a formula for the rate of flow as a power function of radius.</p></li>
+        <li><p>If the radius and length of the artery are measured in centimeters, then the constant of variation, <m>k = 7.8\times 10^5</m>, is determined by blood pressure and viscosity. If a certain artery is <m>20</m> centimeters long, what should its radius be in order to allow a blood flow of <m>5</m> liters per minute?</p></li></ol></p>
+</statement></exercise>
 
-<p>Match each graph to one of the scenarios described in (a)-(d), and explain your choice.<ol label="a">
-    <li>Sigmoid growth:  the population levels off smoothly below the carrying capacity.</li>
-    <li>Overshoot and collapse:  the population exceeds the carrying capacity with severe damage to the resource base, and is forced to decline rapidly to achieve a new balance with a reduced carrying capacity.</li>
-    <li>Continued growth:  the carrying capacity is far away, or growing faster than the population.</li>
-    <li>Overshoot and oscillation:  the population exceeds the carrying capacity without inflicting permanent damage, then oscillates around the limit before leveling off.</li></ol></p></statement></exercise>
+<exercise number="27"><statement><p>The f-stop setting on a camera regulates the size of the aperture and thus the amount of light entering the camera. The f-stop <m>f</m> is inversely proportional to the diameter, <m>d</m>, of the aperture.
+    <ol>
+        <li><p>Use the data and the graph to find the constant of proportionality and write <m>d</m> as a power function of <m>f</m>. Values of <m>d</m> have been rounded to one decimal place.</p>
+            <sidebyside widths="50% 40%" valigns="middle middle">
+            <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <col right="major" halign="left"/><col/><col/><col/><col/><col/>
+                <row><cell><m>f</m></cell>
+                    <cell><m>2.8</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>5.6</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell><m>11</m></cell></row>
+                <row><cell><m>d</m></cell>
+                    <cell><m>17.9</m></cell>
+                    <cell><m>12.5</m></cell>
+                    <cell><m>8.9</m></cell>
+                    <cell><m>6.3</m></cell>
+                    <cell><m>4.5</m></cell></row>
+        </tabular><image source="images/fig-3-2-28"><description>power function</description></image></sidebyside></li>
+        <li><p>Why are the f-stop settings labeled with the values given in the table?</p>
+        <hint><p>As you stop down the aperture from one f-value to the next, by what factor does <m>d</m> increase?</p></hint></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>d=50f^{-1}</m></li>
+    <li>The are of the aperture decreases by a factor of 0.5 at each <m>f</m>-stop.</li></ol></p>
+</answer></exercise>
+
+<exercise number="28"><statement><p>The lifetime of a star is roughly inversely proportional to the cube of its mass. Our Sun, which has a mass of one solar mass, will last for approximately <m>10</m> billion years.<ol>
+        <li><p>Write a power function for the lifetime, <m>L</m>, of a star in terms of its mass, <m>m</m>.</p></li>
+        <li><p>Sketch a graph of the function using units of solar mass on the horizontal axis.</p></li>
+        <li><p>How long will a star that is <m>10</m> times as massive as the Sun last?</p></li>
+        <li><p>One solar mass is about <m>2\times 10^{30}</m> kilograms. Rewrite your formula for <m>L</m> with the units of mass in kilograms.</p></li>
+        <li><p>How long will a star that is half as massive as the Sun last?</p></li></ol></p>
+</statement></exercise>
+
 
 </subexercises>
 </exercises>
