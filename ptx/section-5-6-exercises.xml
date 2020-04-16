@@ -208,7 +208,7 @@ area is <m>24</m> square feet</p></statement></exercise>
             <cell><m>2</m></cell>
             <cell><m>1.5</m></cell></row>
     </tabular>    </sidebyside></statement>
-<answer><m>y=\dfrac{k}{x}</answer></exercise>
+<answer><m>y=\dfrac{k}{x}</m></answer></exercise>
 
 <exercise number="26"><statement><sidebyside>
     <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">

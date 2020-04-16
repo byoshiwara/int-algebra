@@ -13,8 +13,7 @@
 where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></assemblage>
 
 
-<exercise>
-    <title>QuickCheck 1</title>
+<exercise><title>QuickCheck 1</title>
 <webwork>
     <pg-code>
         $which = new_checkbox_multiple_choice();
@@ -34,12 +33,10 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
         "\( v^2 =6v\)$BR"
         );
     </pg-code>    
-    <statement><p>
-        Which of the following equations are quadratic?</p>
+    <statement><p>Which of the following equations are quadratic?</p>
         <p><var name="$which" form="checkboxes"/> 
     </p></statement>
-    <solution>
-            <p>(A) and (D) are quadratic.</p>
+    <solution><p>(A) and (D) are quadratic.</p>
     </solution>
 </webwork>
 </exercise> 
