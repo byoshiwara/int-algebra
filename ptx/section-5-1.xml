@@ -525,22 +525,68 @@ We see that</p>
 <p>Remember that when we write <m>y = f(x)</m>, the symbol <m>f(x)</m> is just another name for the output variable.</p>
 
 <assemblage>
-    <title>Function Notation</title><sidebyside width="65%">
-    <image  source="images/fig-Function-Notation.png"><description>Function Notation</description></image></sidebyside>
+    <title>Function Notation</title>
+    <sidebyside width="65%">
+        <image xml:id="Function-Notation">
+        <description>Function notation</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \node[text=red] at (-3,1){Input variable};
+        \draw [red,->, >=stealth'] (-1.7,1) to [out=0,in=90] (-.28,.22);
+        \node[text=blue] at (3.2,-1){Output variable};
+        \draw [blue,->, >=stealth'] (1.7,-1) to [out=180,in=275] (.7,-.27);
+        \node at (0,0){$f({\color{red}x})=\color{blue}y$};
+        \node[text=white, opacity=0] at (0,1.5) {0};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 </assemblage>
 
 <exercise><title>QuickCheck 4</title>
-    <statement><p>True or False.  <ol label="a">
-        <li>The notation <m>f(t)</m> indicates the product of <m>f</m> and <m>t</m>.</li>
-        <li>If <m>y=f(x)</m>, then <m>f(x)</m> gives the value of the input variable.</li>
-        <li>If <m>Q</m> is a function of <m>M</m>, we may write <m>M=f(Q)</m>.</li>
-        <li>In the equation <m>d=g(n)</m> the letters <m>d,~g,</m> and <m>n</m> are variables.</li>
-    </ol></p></statement>
-    <answer><p><ol label="a">
-        <li>False</li>
-        <li>False</li>
-        <li>False</li>
-        <li>False</li></ol></p></answer></exercise>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or False.
+            <ol label="a">
+                <li><p>
+                    The notation <m>f(t)</m> indicates the product of  <m>f</m> and <m>t</m>. <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    If <m>y=f(x)</m>, then <m>f(x)</m> gives the value of the input variable. <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    If <m>Q</m> is a function of <m>M</m>, we may write <m>M=f(Q)</m>. <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    In the equation <m>d=g(n)</m>, the letters <m>d</m>, <m>g</m>, and <m>n</m> are variables. <var name="$False" form="popup"/>
+                </p></li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>False</li>
+            <li>False</li>
+            <li>False</li>
+            <li>False</li>
+        </ol></p>
+    </solution>
+</webwork>    
+</exercise>
 
 <exercise><title>Practice 5</title>
     <introduction><p>Let <m>F</m> be the name of the function defined by the graph in <xref ref="example-sun-hours" text="type-global"/>, the number of hours of daylight in Peoria <m>t</m> days after January 1.</p></introduction>

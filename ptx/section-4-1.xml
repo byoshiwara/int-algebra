@@ -61,8 +61,19 @@ Using a calculator, we find that the solutions are approximately <m>1.7</m> and 
         <statement>
             <p>Use the quadratic formula to solve <m>~x^2 - 3x = 1</m>.</p>
             <p>Solutions: <m>x=</m><var name="$answer" width="25" evaluator="$my_evaluator"/></p>
-            <instructions><p>List all the values that are solutions. Use a comma to separate different solutions.</p></instructions>
+            <instructions><p>List all the values that are solutions. Enter "sqrt(2)" to get <m>\sqrt{2}</m>, and use a comma to separate different solutions.</p></instructions>
         </statement>
+        <hint>
+            <p>
+                Write the equation in standard form.
+            </p>
+            <p>
+                Substitute <m>a = 1</m>, <m>b = -3</m>, <m>c = -1</m> into the quadratic formula.
+            </p>
+            <p>
+                Simplify.
+            </p>
+        </hint>
         <solution>
             <p><m>x=\dfrac{3\pm \sqrt{13}}{2} </m></p>
         </solution>
@@ -156,36 +167,49 @@ When we evalute this last expression, we get two different positive values, <m>x
 <p>The dimensions of the play area can be 72.4 feet by 82.8 feet, or it can be 27.6 feet by 217.2 feet.</p>
 </solution></example>
 
-<exercise><title>Practice 4</title>
+<exercise><title>Practice 2</title>
     <webwork>
          <pg-code>
-            Context("Complex")->functions->disable("sqrt");
-            Context()->functions->enable("sqrt");
-            Context()->{error}{msg}{"Can't take sqrt of -18"}
-              = "Your should not leave a negative number under the radical.";
-            Context()->{error}{msg}{"Can't take sqrt of -5"}
-              = "Your should not leave a negative number under the radical.";
+            $a = Compute("(4+sqrt(12))/2")->with(
+              tolType => 'absolute',
+              tolerance => .0051,
+            );
 
-            $a = Compute("-1/2+3/2 i");
-            $b = Compute("-1/2-3/2 i");
+            $b = Compute("(4-sqrt(12))/2")->with(
+              tolType => 'absolute',
+              tolerance => .0051,
+            );
             $answer = List("$a,$b");
             $my_evaluator = $answer -> cmp(
              showHints=>1,
              showLengthHints => 1,
              partialCredit => 1,
-            ); 
-            
+              tolType => 'absolute',
+              tolerance => .0051,
+            );             
         </pg-code> 
         <statement>
-            <p>
-                Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers, separated with a comma.
+            <p>The height of a baseball is given by the equation
+                <md><mrow>h=-16t^2+64t+4</mrow></md>
+                where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places, and separate the values with a comma.
             </p>
             <p>
-                <m>x=</m><var name="$answer" width="15"/> 
+                <m>t=</m><var name="$answer" width="15"  evaluator="$my_evaluator"/> sec.
             </p>
         </statement>
+        <hint>
+            <p>
+                Set <m>h=20</m>, then write the equation in standard form.
+            </p>
+            <p>
+                Divide each term by <m>-16</m>.
+            </p>
+            <p>
+                Use the quadratic formula to solve.
+            </p>
+        </hint>
         <solution>
-            <p><m>\dfrac{-1}{2} \pm \dfrac{3}{2}i</m></p>
+            <p>0.27 sec, 3.73 sec</p>
         </solution>
     </webwork>
 </exercise>
@@ -282,8 +306,37 @@ Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real
 The sum of a real number and an imaginary number is called a <term>complex number</term>.  
 
 <exercise><title>Practice 4</title>
-<statement><p>Use extraction of roots to solve  <m>~(2x+1)^2+9=0.~</m>  Write your answers as complex numbers.</p></statement>
-    <answer><m>\dfrac{-1}{2} \pm \dfrac{3}{2}i</m></answer>
+    <webwork>
+         <pg-code>
+            Context("Complex")->functions->disable("sqrt");
+            Context()->functions->enable("sqrt");
+            Context()->{error}{msg}{"Can't take sqrt of -18"}
+              = "Your should not leave a negative number under the radical.";
+            Context()->{error}{msg}{"Can't take sqrt of -5"}
+              = "Your should not leave a negative number under the radical.";
+
+            $a = Compute("-1/2+3/2 i");
+            $b = Compute("-1/2-3/2 i");
+            $answer = List("$a,$b");
+            $my_evaluator = $answer -> cmp(
+             showHints=>1,
+             showLengthHints => 1,
+             partialCredit => 1,
+            ); 
+            
+        </pg-code> 
+        <statement>
+            <p>
+                Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers, separated with a comma.
+            </p>
+            <p>
+                <m>x=</m><var name="$answer" width="15"/> 
+            </p>
+        </statement>
+        <solution>
+            <p><m>\dfrac{-1}{2} \pm \dfrac{3}{2}i</m></p>
+        </solution>
+    </webwork>
 </exercise>
 </subsection>
 

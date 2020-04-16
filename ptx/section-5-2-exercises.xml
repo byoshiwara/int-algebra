@@ -10,9 +10,9 @@
 
 <exercise number="1"><statement><p>Use the graph of <m>~y=1.4x-0.64~</m> to solve the inequalities. Show your method on the graph.<ol label="a" cols="2">
     <li><p><m>1.4x-0.64 \gt 0.2</m></p>
-        <sidebyside  width="30%"><image source="images/fig-ex-1-3-23"><description>y = 1.4x - 0.64</description></image></sidebyside></li>
+        <sidebyside  width="60%"><image source="images/fig-hw-5-2-1"><description>y = 1.4x - 0.64</description></image></sidebyside></li>
     <li><p><m>-1.2 \gt1.4x-0.64 </m></p>
-        <sidebyside  width="30%"><image source="images/fig-ex-1-3-23"><description>y = 1.4x - 0.64</description></image></sidebyside></li></ol></p>
+        <sidebyside  width="60%"><image source="images/fig-hw-5-2-1"><description>y = 1.4x - 0.64</description></image></sidebyside></li></ol></p>
 </statement>
 <answer><p><ol label="a">
     <li><m>x \gt 0.6</m></li>
@@ -21,14 +21,14 @@
 
 <exercise number="2"><statement><p>Use the graphs to solve the inequalities. Show your method on the graph.<ol label="a" cols="2">
     <li><p><m>-6x^2+4.8x-0.9 \ge 0</m></p>
-        <sidebyside width="70%"><image source="images/fig-6-5-7"><description>parabola</description></image></sidebyside>
+        <sidebyside width="70%"><image source="images/fig-hw-5-2-2"><description>parabola</description></image></sidebyside>
     </li>
     <li><p><m>5x^2+7.5x+1.8 \le 0</m></p>
-        <sidebyside width="70%"><image source="images/fig-6-5-8"><description>parabola</description></image></sidebyside>
+        <sidebyside width="70%"><image source="images/fig-hw-5-2-2"><description>parabola</description></image></sidebyside>
     </li></ol></p>
     </statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 3-6, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>6, <ol label="a">
     <li>Make a table of values and sketch a graph of the function by plotting points. (Use the suggested <m>x</m>-values.)</li>
     <li>Use your calculator to make a table of values and to graph the function.  Compare the calculator's graph with your sketch.</li></ol></p></introduction>
 
@@ -53,7 +53,7 @@
 <exercisegroup><introduction><p>For Problems 7 and 8, use the graph.</p></introduction>
 
 <exercise number="7"><statement>
-    <sidebyside width="35%"><image source="images/fig-ex-1-3-1"><description>curve</description></image></sidebyside>
+    <sidebyside width="35%"><image source="images/fig-hw-5-2-7"><description>curve</description></image></sidebyside>
     <p><ol label="a">
     <li>Find <m>h(-3), ~h(1),</m> and <m>h(3)</m>.</li>
     <li>For what value(s) of <m>z</m> is <m>h(z)=3</m>?</li>
@@ -71,7 +71,7 @@
     <li>increasing: <m>(-4,-2)</m> and <m>(0,3)</m>; decreasing: <m>(-2,0)</m></li></ol></p></answer></exercise>
 
 <exercise number="8"><statement>
-    <sidebyside width="35%"><image source="images/fig-ex-1-3-3"><description>curve</description></image></sidebyside>
+    <sidebyside width="35%"><image source="images/fig-hw-5-2-8"><description>curve</description></image></sidebyside>
     <p><ol label="a">
     <li>Find <m>R(1)</m> and <m>R(3)</m>.</li>
     <li>For what value(s) of <m>p</m> is <m>R(p)=2</m>?</li>
@@ -83,7 +83,7 @@
 </exercisegroup>
 
 <exercise number="9"><statement><p>The graph shows the speed of sound in the ocean as a function of depth, <m>S = f (d)</m>. The speed of sound is affected both by increasing water pressure and by dropping temperature. (Source: Scientific American)</p>
-    <sidebyside  width="40%"><image source="images/fig-ex-1-3-17"><description>speed of sound vs depth</description></image></sidebyside><p><ol label="a">
+    <sidebyside  width="44%"><image source="images/fig-hw-5-2-9"><description>speed of sound vs depth</description></image></sidebyside><p><ol label="a">
         <li><p>Evaluate <m>f (1000)</m> and explain its meaning.</p></li>
         <li><p>Solve <m>f (d) = 1500</m> and explain its meaning.</p></li>
         <li><p>At what depth is the speed of sound the slowest, and what is the speed? Write your answer with function notation.</p></li>
@@ -95,7 +95,7 @@
         <li><p><m>f</m> increases from about <m>1533</m> to <m>1541</m> in the first <m>110</m> meters of depth, then drops to about <m>1487</m> at <m>810</m> meters, then rises again, passing <m>1553</m> at a depth of about <m>1600</m> meters.</p></li></ol></p></answer></exercise>
 
 <exercise number="10"><statement><p>The figure shows a graph of <m>M = g(q)</m>.</p> 
-    <sidebyside width="40%"><image source="images/fig-ex-1-3-29"><description>mystery curve</description></image></sidebyside><p><ol label="a">
+    <sidebyside width="40%"><image source="images/fig-hw-5-2-10"><description>mystery curve</description></image></sidebyside><p><ol label="a">
         <li><p>Find all values of <m>q</m> for which<ol label="I">
                 <li><p><m>g(q) = 0</m></p></li>
                 <li><p><m>g(q) = 16</m></p></li>
@@ -105,7 +105,7 @@
 </ol></p></statement></exercise>
 
 <exercise number="11"><statement><p>The figure shows the graph of <m> g(x) = \dfrac{12}{2 + x^2}</m>. Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers in interval notation.</p>
-    <sidebyside width="35%"><image source="images/fig-ex-1-3-25"><description>bell-like curve</description></image></sidebyside><p>
+    <sidebyside width="35%"><image source="images/fig-hw-5-2-11"><description>bell-like curve</description></image></sidebyside><p>
             <ol label="a" cols="2">
                 <li><m>\dfrac{12}{2 + x^2} = 4</m></li>
                 <li><m>\dfrac{12}{2 + x^2} \gt 4</m></li>
@@ -120,7 +120,7 @@
             </ol></p></answer></exercise>
 
 <exercise number="12"><statement><p>The figure shows the graph of <m> H(t)=t^3-4t^2-4t-12</m>. Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers in interval notation.</p>
-    <sidebyside width="35%"><image source="images/fig-ex-1-3-28"><description>cubic</description></image></sidebyside>
+    <sidebyside width="35%"><image source="images/fig-hw-5-2-12"><description>cubic</description></image></sidebyside>
     <p><ol label="a" cols="2">
                 <li><m>t^3-4t^2-4t-12 = -4</m></li>
                 <li><m>t^3-4t^2-4t-12=16</m></li>
@@ -150,7 +150,6 @@ Then answer the questions about the graph. </p></introduction>
     <li>Write an equation of the form <m>F(a)=b</m> for each turning point and each <m>x</m>-intercept.</li></ol></p></statement>
 </exercise>
 </exercisegroup>
-
 
 </subexercises>
 

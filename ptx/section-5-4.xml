@@ -157,7 +157,7 @@ The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope o
     <li>A table describes direct variation if the ratio of corresponding entries is <fillin characters="6"/>.</li>
     <li>A graph describes direct variation if it is a <fillin characters="6"/>.</li>
     <li>An equation describes direct variation if it has the form <fillin characters="6"/>.</li>
-    <li>If two variables vary directly, we may also say that they are <fillin characters="6"/>.</li>
+    <li>If two variables vary directly, we may also say that they are <fillin characters="6"/>.
 </li></ol></p>   
 </statement>
 <answer><p><ol label="a">
@@ -408,6 +408,8 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
     <li>True</li>
     <li>False</li>
     <li>True</li></ol></p>
+</answer>
+</exercise>
 
 <p>Even without an equation, we can check whether a table of data describes direct variation or merely an increasing function. If <m>y</m> varies directly with <m>x^n</m>, then <m>y = kx^n</m>, or, equivalently,<m>\dfrac{y}{x^n} = k</m>.</p>
 
@@ -509,6 +511,7 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
 where the constant <m>k</m> depends on the material of the model. If we double the length, width, and height of the model, then
     <md><mrow> W_\text{new} \amp = k(2l)(2w)(2h)</mrow>
         <mrow> \amp = 2^3(klwh) = 8W_\text{old}</mrow>
+    </md>
 The weight of the new model is <m>2^3 = 8</m> times the weight of the original model.</p></solution></example>
 
 <exercise><title>Practice 6</title>
@@ -539,7 +542,15 @@ The weight of the new model is <m>2^3 = 8</m> times the weight of the original m
             <p><var name="$explain" form="checkboxes"/> </p>
         </statement>
         <solution>
-            <p>(b): The graph is a straight line through the origin.</p>
+            <p><m>A= \pi r^2</m></p>
+            <p>Doubling the diameter means doubling the radius.</p>
+            <p><m>
+                \begin{aligned}[t]
+                    A_\text{new} \amp = \pi (2r)^2 \\
+                    \amp = 4\pi r^2 \\
+                    \amp= 4A_\text{old}
+                \end{aligned}
+            </m></p>
         </solution>
     </webwork>
 </exercise>

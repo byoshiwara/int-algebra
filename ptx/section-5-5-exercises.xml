@@ -9,13 +9,13 @@
 <subexercises><title>Skills Practice</title>
 
 <exercise number="1"><statement><p>Which of these graphs could describe inverse variation?</p>
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside  width="90%"><image source="images/fig-hw-5-5-1"><description>graph</description></image></sidebyside>
 </statement>
-<answer>(c)</answer></statement>
+<answer>(c)</answer>
 </exercise>
 
-<exercise number="2"><statement><p><p>Which of these graphs could describe inverse variation?</p>
-    <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>         
+<exercise number="2"><statement><p>Which of these graphs could describe inverse variation?</p>
+    <sidebyside  width="90%"><image source="images/fig-hw-5-5-2"><description>graph</description></image></sidebyside>         
 </statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 3 and 4, <ol label="a">
@@ -305,7 +305,7 @@
         <row><cell><m>400</m></cell>
             <cell><m>10</m></cell></row>
         <row><cell><m>1000</m></cell>
-            <cell><m>4</m></cell></row></row>
+            <cell><m>4</m></cell></row>
     </tabular></sidebyside></statement>
 <answer><p><ol label="a" cols="2">
     <li><p><m>T=\dfrac{4000}{d} </m></p></li>

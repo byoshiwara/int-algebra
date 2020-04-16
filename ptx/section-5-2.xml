@@ -60,20 +60,48 @@
 <p>Each point on the graph of the function <m>f</m> has coordinates <m>(x, f(x))</m> for some value of <m>x</m>.</p></assemblage>
 
 <exercise><title>QuickCheck 1</title>
-<statement><p>True or False <ol label="a">
-    <li>If <m>(12,5)</m> lies on the graph of <m>f</m>, then <m>f(5)=12</m>.</li>
-    <li>If <m>g(p)=w</m>, then <m>(p,w)</m> lies on the graph of <m>g</m>.</li>
-    <li>We can find the function value at <m>x</m> by finding the <m>x</m>-coordinate of the corresponding point on the graph of <m>f</m>.</li>
-    <li>Every <m>y</m>-coordinate on the graph of <m>F</m> represents a function value for <m>F</m>.</li></ol></p>   
-</statement>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>True</li>
-    <li>False</li>
-    <li>True</li></ol></p>
-</answer></exercise>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or False.
+            <ol label="a">
+                <li><p>
+                    If <m>(12,5)</m> lies on the graph of <m>f</m>, then <m>f(5)=12</m>. <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    If <m>g(p)=w</m>, then <m>(p,w)</m> lies on the graph of <m>g</m>. <var name="$True" form="popup"/>
+                </p></li>
+                <li><p>
+                    We can find the function value at <m>x</m> by finding the <m>x</m>-coordinate of the corresponding point on the graph of <m>f</m>. <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    Every <m>y</m>-coordinate on the graph of <m>F</m> represents a function value for <m>F</m>. <var name="$True" form="popup"/>
+                </p></li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>False</li>
+            <li>True</li>
+            <li>False</li>
+            <li>True</li>
+        </ol></p>
+    </solution>
+</webwork>    
+</exercise>
 
-<example xml:id="example-function-graph"><statement><p>The figure shows the graph of a function <m>g</m>.</p><sidebyside width="30%"><image source="images/fig-function"><description>graph of a function</description></image></sidebyside><p>
+<example xml:id="example-function-graph"><statement><p>The figure shows the graph of a function <m>g</m>.</p><sidebyside width="35%"><image source="images/fig-function"><description>graph of a function</description></image></sidebyside><p>
     <ol label="a">
         <li>Find <m>g(-2)</m> and <m>g(5)</m>.</li>
         <li>For what value(s) of <m>t</m> is <m>g(t) = -2</m>?</li>
@@ -89,18 +117,46 @@
     </ol></p></solution></example>
 
 <exercise><title>QuickCheck 2</title>
-<statement><p>True or False <ol label="a">
-    <li>A graph is called increasing if its <m>x</m>-values increase.</li>
-    <li>The maximum function value is the <m>y</m>-coordinate of the highest point on the graph.</li>
-    <li>If we say that <m>f</m> is increasing on the interval <m>(2,7)</m>, we mean that the function values increased from 2 to 7.</li>
-    <li>It is not possible for a function of <m>x</m> to take on the same value at two different <m>x</m>-values.</li></ol></p>   
-</statement>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>True</li>
-    <li>False</li>
-    <li>False</li></ol></p>
-</answer></exercise>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or False.
+            <ol label="a">
+                <li><p>
+                    A graph is called increasing if its <m>x</m>-values increase. <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    The maximum function value is the <m>y</m>-coordinate of the highest point on the graph. <var name="$True" form="popup"/>
+                </p></li>
+                <li><p>
+                    If we say that <m>f</m> is increasing on the interval <m>(2,7)</m>, we mean that the function values increased from 2 to 7. <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    It is not possible for a function of <m>x</m> to take on the same value at two different <m>x</m>-values. <var name="$False" form="popup"/>
+                </p></li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>False</li>
+            <li>True</li>
+            <li>False</li>
+            <li>False</li>
+        </ol></p>
+    </solution>
+</webwork>    
+</exercise>
 
 <exercise><title>Practice 2</title>
     <introduction><p>Refer to the graph of the function <m>g</m> shown in <xref ref="example-function-graph" text="type-global"/>.</p>
@@ -275,7 +331,7 @@ and press <c>ZOOM</c> <m>6</m> for the standard window. Your calculator does not
             <p>The graph is shown below.</p>
         </solution>                
     </webwork>
-    <conclusion><sidebyside width="25%" margins="0% 75%"><image source="images/fig-in-ex-ans-1-3-3"><description>cubic</description></image></sidebyside></conclusion>
+    <conclusion><sidebyside width="25%" margins="0% 75%"><image source="images/fig-ex-5-2-3ans"><description>cubic</description></image></sidebyside></conclusion>
 </exercise>
 
 </subsection>
@@ -394,8 +450,25 @@ at most one point.</p></assemblage>
 </exercise>
 
 <exercise><title>QuickCheck 5</title>
-<statement><p>To solve an equation graphically, it is helpful to sketch in a <fillin characters="6"/> line.  We are looking for <fillin characters="6"/> values that give the required <fillin characters="6"/> value.</p></statement>
-<answer><p>horizontal line; <m>x</m>; <m>y</m></p></answer>
+<webwork>
+    <pg-code>
+        Context()->variables->add(y =>"Real"); 
+        $horizontal = PopUp(
+          ["?","vertical", "horizontal", slanted],
+          2, 
+        );
+        $x = Formula("x");
+        $y = Formula("y");
+    </pg-code>
+    <statement>
+        <p>
+            To solve an equation graphically, it is helpful to sketch in a <var name="$horizontal" form="popup" /> line.  We are looking for <var name="$x" width="1" /> values that give the required <var name="$y" width="1" /> value.
+        </p>
+    </statement>
+    <solution>
+        <p>horizontal line; <m>x</m>; <m>y</m></p>
+    </solution>
+</webwork>
 </exercise>
 
 <example xml:id="example-graph-to-solve-cubic2"><statement><p>Use the graph in <xref ref="example-graph-to-solve-cubic" text="type-global"/>  to solve the inequality
@@ -438,10 +511,34 @@ The cost of producing 500 backpacks is $13,000.</p></solution>
 </example>  
 
 <exercise><title>Practice 7</title>
-<statement><p>The volume of a sphere of radius <m>r</m> centimeters is given by
-    <me>V=V(r) = \dfrac{4}{3} \pi r^3</me>
-Evaluate <m>V(10)</m> and explain what it means.</p></statement>
-<answer><p><m>4188.79~ \text{cm}^3</m>. A sphere of radius 10 cm has volume 4188.79 cubic cm.</p></answer>
+    <webwork> 
+        <pg-code>
+            $meaning = RadioButtons(
+                ["the volume (in cm) of a sphere whose radius is 10 cu. cm","the radius (in cm) of a sphere whose volume is 10 cm","the volume (in sq. cm) of a sphere whose radius is 10 cm","the volume (in cu. cm) of a sphere whose radius is 10 cm"],
+              3, # index of correct answer; could also just be the correct answer
+            );
+            Context("Fraction")->variables->add(r=>'Real');
+            $V=Formula("4/3 * pi* r**3");
+            $V0 = $V->eval(r=>10);
+        </pg-code>
+     
+    <statement>
+        <p>
+            The volume of a sphere of radius <m> r </m> centimeters is given by
+            <me> V = V(r) = \frac{4}{3}\pi r^3 </me>
+            Evaluate <m> V(10) </m> and explain what it means.
+        </p>
+        <instruction>Note: You may use "pi" to enter the number <m>\pi</m>.</instruction>
+        <p>
+            <m> V(10)= </m><var name="$V0" width="12"/>, which represents 
+        </p>
+        <p>
+            <var name="$meaning" form="buttons"/></p>
+    </statement>
+    <solution>
+        <p><m> V(10) = 4000\pi/3\approx 4188.79 \text{ cm}^3 </m> is the volume of a sphere whose radius is 10 cm.</p>
+    </solution>
+    </webwork>    
 </exercise>
 
 
