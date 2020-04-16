@@ -34,28 +34,77 @@ Simplifying radicals occupies the same position in the order of operations as co
 </solution></example>
 
 <exercise><title> Practice 1</title>
-    <statement><p>Simplify each expression.<ol label="a" cols = "2">
-    <li><m>5-3\sqrt[3]{64}</m></li>
-    <li> <m>\dfrac{6-\sqrt[3]{-27}}{2}</m></li></ol></p>
-</statement>
-<answer><p><ol label="a" cols = "2">
+<webwork>
+    <pg-code>
+        $a = Compute("-7");
+        $b = Compute("9/2");
+    </pg-code>
+    <statement>
+        <p>
+            Simplify each expression.
+            <ol label="a" cols = "2">
+                <li>
+                    <p>
+                        <m>5-3\sqrt[3]{64}=</m><var name="$a" width="4"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\dfrac{6-\sqrt[3]{-27}}{2}=</m><var name="$b" width="4"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a" cols = "2">
     <li><m>-7</m></li>
-    <li> <m>\dfrac{9}{2}</m></li></ol></p></answer>
+    <li> <m>\dfrac{9}{2}</m></li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 
 <exercise><title>QuickCheck 1</title>
-<statement><p>True or False <ol label="a">
-    <li>A negative number has a negative cube root.</li>
-    <li>A negative number has a negative square root.</li>
-    <li>A positive number has a negative square root.</li>
-    <li>A positive number has a negative cube root.</li></ol></p>   
-</statement>
-<answer><p><ol label="a">
-    <li>True</li>
-    <li>False</li>
-    <li>True</li>
-    <li>False</li></ol></p>
-</answer></exercise>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or False.
+            <ol label="a">
+                <li><p>
+                    A negative number has a negative cube root. <var name="$True" form="popup"/>
+                </p></li>
+                <li><p>
+                    A negative number has a negative square root. <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    A positive number has a negative square root. <var name="$True" form="popup"/>
+                </p></li>
+                <li><p>
+                    A positive number has a negative cube root. <var name="$False" form="popup"/>
+                </p></li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>True</li>
+            <li>False</li>
+            <li>True</li>
+            <li>False</li>
+        </ol></p>
+    </solution>
+</webwork>
+</exercise>
 
 <note><p>We can use the calculator to find cube roots as follows. Press the MATH  key to get a menu of options. Option 4 is labeled  <m>\sqrt[3]{~~}</m>;  this is the cube root key. To find the cube root of, say, 15.625, we key in
     <me>\boxed{\text{MATH}}~~\boxed{4}~~15.625~~ \boxed{~)~}~~ \boxed{\text{ENTER}}</me>
@@ -137,17 +186,38 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
 </exercise>
 
 <exercise><title>QuickCheck 3</title>
-<statement><p>True or False:  <m>\abs{a+b} = \abs{a} + \abs{b}</m></p> 
-    <p>Hint:  Try some values of <m>a</m> and <m>b</m>.</p>
-</statement>
-<answer><p>False</p></answer></exercise>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+        True or False: <m>\left| {a+b} \right| = \left|{a}\right| + \left|{b}\right|</m> <var name="$False" form="popup"/>
+        </p>
+        <instruction>
+            Hint: Try some values of <m>a</m> and <m>b</m>.
+        </instruction>
+    </statement>
+    <solution>
+        <p>False</p>
+    </solution>
+</webwork>
+</exercise>
+
 </subsection>
 
 <subsection><title>Eight Basic Graphs</title>
 
 <p>Most of the graphs in this section will be new to you, but many useful graphs are variations of the eight basic functions shown below.</p>
 
-<p>Consider the first pair of graphs.  You have already studied the graph of <m>f(x)=x^2</m>, the basic parabola. Compare that graph with the graph of <m>g(x)=x^3</m>. Notice several differences in the shape of the two graphs. Once you have a good idea of the shape of a graph, up can make a quick sketch with just a few "guide points." For these two graphs, complete a short table of values to find useful guide points:
+<p>Consider the first pair of graphs.  You have already studied the graph of <m>f(x)=x^2</m>, the basic parabola. Compare that graph with the graph of <m>g(x)=x^3</m>. Notice several differences in the shape of the two graphs. Once you have a good idea of the shape of a graph, up can make a quick sketch with just a few "guide points." For these two graphs, complete a short table of values to find useful guide points:</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -159,11 +229,11 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
                         <cell><m>2</m></cell></row>
                     <row> 
                         <cell><m>f(x)</m></cell>
-                        <cell><m>~~</m></cell>
-                        <cell><m>~~</m></cell>
-                        <cell><m>~~</m></cell>
-                        <cell><m>~~</m></cell>
-                        <cell><m>~~</m></cell></row>
+                        <cell><m>\qquad</m></cell>
+                        <cell><m>\qquad</m></cell>
+                        <cell><m>\qquad</m></cell>
+                        <cell><m>\qquad</m></cell>
+                        <cell><m>\qquad</m></cell></row>
                     <row> 
                         <cell><m>g(x)</m></cell>
                         <cell><m>~~</m></cell>
@@ -173,22 +243,110 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
                         <cell><m>~~</m></cell></row>
                     </tabular></sidebyside>
 
-<sidebyside  width="80%"><image source="images/fig-???"><description>graphs</description></image></sidebyside>
+<sidebyside  width="80%"><image source="images/fig-parabola-cubic"><description>graphs</description></image></sidebyside>
 
 <p>The next pair of graphs are <m>f(x)=\sqrt{x}</m> and <m>g(x)=\sqrt[3]{x}</m>. Once again, notice the differences in the two graphs. For example, we cannot take the square root of a negative number, but we can take its cube root.  How is this reflected in the graphs?</p>
 
-<sidebyside  width="80%"><image source="images/fig-???"><description>graphs</description></image></sidebyside>
+<sidebyside  widths="36% 36%" margins="10% 10%" valigns="middle middle">
+    <image xml:id="fig-square-root">
+        <description>square root graph</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[lightgray] (0,0) grid (12,10);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(12.5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
+        \foreach \x  in {5,10} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         }
+        \foreach \x in {5,10} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={0:12},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {sqrt(\x)});
+        \node[above, text=red, fill=white, inner sep=2] at (6,4) {$f(x)=\sqrt{x}$};
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+    <image xml:id="fig-cube-root">
+        <description>cube root graph</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (-6,-6) grid (6,6);
+        \draw[black,thick, ->, >=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-6)--(0,6.6) node[above]{$y$};
+        \foreach \x  in {5,-5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         }
+        \foreach \x in {-3,3} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={0:6},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {(\x)^(1/3)});
+        \draw[samples=65,domain={0:6},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {-\x}, {-(\x)^(1/3)});
+        \node[ text=red, fill=white, inner sep=2] at (3,-2.5) {$g(x)=\sqrt[3]{x}$};
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside>
 
-The next pair of functions, <m>f(x)=\dfrac{1}{x}</m> and <m>g(x)=\dfrac{1}{x^2}</m>, are both undefined at <m>x=0</m>, so thier graphs do not include any points with <m>x</m>-coordinate zero. For very small positive values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very large. As <m>x</m> gets closer to zero, the graphs approach the vertical line <m>x=0</m> (the <m>y</m>-axis). This line is called a <term>vertical asymptote</term> for the graph.</p>
+
+<p>The next pair of functions, <m>f(x)=\dfrac{1}{x}</m> and <m>g(x)=\dfrac{1}{x^2}</m>, are both undefined at <m>x=0</m>, so thier graphs do not include any points with <m>x</m>-coordinate zero. For very small positive values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very large. As <m>x</m> gets closer to zero, the graphs approach the vertical line <m>x=0</m> (the <m>y</m>-axis). This line is called a <term>vertical asymptote</term> for the graph.</p>
 
 <p>Also, notice that for very large values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very close to zero. Their graphs approach the horizontal line <m>y=0</m> (the <m>x</m>-axis).  This line is called the <term>horizontal asymptote</term> for the graph.</p>
 
-<sidebyside  width="80%"><image source="images/fig-???"><description>graphs</description></image></sidebyside>
+<sidebyside  width="80%"><image source="images/fig-inverses"><description>graphs</description></image></sidebyside>
 
 <p>Finally, compare the familiar graph of <m>f(x)=x</m> with the graph of <m>g(x)=\abs{x}</m>. The piecewise definition of <m>\abs{x}</m> means that we graph <m>y=x</m> in the first quadrant (where <m>x \ge 0</m>), and <m>y=-x</m> in the first quadrant <m>x \lt 0</m>).  The result is the V-shaped graph shown below.</p>
 
-<sidebyside  width="80%"><image source="images/fig-???"><description>graphs</description></image></sidebyside>
-
+<sidebyside  widths="35% 42%" margins="8% 8%">
+    <image xml:id="fig-line">
+        <description>y=x</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (-5,-5) grid (5,5);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(5.5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5.5) node[above]{$y$};
+        \foreach \x  in {-4,4} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         }
+        \foreach \x in {-4,4} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->,>=stealth'] (-5,-5)--(5,5);
+        \node[ text=red, fill=white, inner sep=2] at (-2.7,2.3) {$f(x)=x$};
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+    <image xml:id="fig-absolute-value">
+        <description>y=abs(x)</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (-6,-4) grid (6,6);
+        \draw[black,thick, ->, >=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-4)--(0,6.5) node[above]{$y$};
+        \foreach \x  in {-5,5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         }
+        \foreach \x in {5} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <-,>=stealth'] (-6,6)--(0,0);
+        \draw[red,very thick, ->,>=stealth'] (0,0)--(6,6);
+        \node[ text=red, fill=white, inner sep=2] at (-2.7,-2.3) {$g(x)=|x|$};
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside>
 <p>Because they are fundamental to further study of mathematics and its applications, you should become familiar with the properties of these eight graphs, and be able to sketch them easily from memory, using their basic shapes and a few guidepoints.</p>
 
 </subsection>
