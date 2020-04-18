@@ -18,6 +18,7 @@
      <xi:include href="./section-5-4.xml" />  <!--Direct Variation-->
      <xi:include href="./section-5-5.xml" />  <!--Inverse Variation-->
      <xi:include href="./section-5-6.xml" />  <!--Functions as Models-->
+     <xi:include href="./chap5-summary.xml" /> <!--Summary & Review-->
         
 
 </chapter> 
