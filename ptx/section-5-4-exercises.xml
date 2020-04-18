@@ -28,10 +28,10 @@
                         <cell><m>2</m></cell></row>
                     <row> 
                         <cell><m>f(x)</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
+                        <cell><m>\hphantom{\qquad}</m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li><p><m>g(x)=2x^2</m>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -43,10 +43,10 @@
                         <cell><m>2</m></cell></row>
                     <row> 
                         <cell><m>g(x)</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
+                        <cell><m>\hphantom{\qquad}</m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li><p><m>h(x)=\dfrac{2}{x}</m>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -58,10 +58,10 @@
                         <cell><m>2</m></cell></row>
                     <row> 
                         <cell><m>h(x)</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
+                        <cell><m>\hphantom{\qquad}</m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell></row>
                     </tabular></sidebyside></p></li></ol></p>
     </statement></exercise>
 
@@ -76,15 +76,15 @@
                         <cell><m>x</m></cell>
                         <cell><m>2</m></cell>
                         <cell><m>5</m></cell>
-                        <cell><m></m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>12</m></cell>
                         <cell><m></m></cell></row>
                     <row> 
                         <cell><m>y</m></cell>
-                        <cell><m></m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>1.5</m></cell>
                         <cell><m>2.4</m></cell>
-                        <cell><m></m></cell>
+                        <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>4.5</m></cell></row>
                     </tabular></sidebyside></p></statement>
 <answer><p><ol label="a" cols="2">
@@ -126,7 +126,7 @@
                     </tabular></sidebyside></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 5-8, decide whether<ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 5-8, decide whether<ol label="a">
     <li><m>y</m> varies directly with <m>x</m></li>
     <li><m>y</m> varies directly with <m>x^2</m></li>
     <li><m>y</m> does not vary directly with a power of <m>x</m></li></ol></p>
@@ -419,11 +419,11 @@
     <li>Answer the question in the problem.</li></ol></p></introduction>
 
 <exercise number="16"><statement><sidebyside widths="50% 27%" valigns="middle middle"><p>A wide pipe can handle a greater water flow than a narrow pipe. The graph shows the water flow through a pipe, <m>w</m>, as a function of its radius, <m>r</m>. How great is the water flow through a pipe of radius of <m>10</m> inches?</p>
-    <image source="images/fig-3-1-36"><description>increasing concave up</description></image></sidebyside></statement>
+    <image source="images/fig-hw-5-4-16"><description>increasing concave up</description></image></sidebyside></statement>
 </exercise>
 
 <exercise number="17"><statement><sidebyside widths="50% 27%" valigns="middle middle"><p>The faster a car moves, the more difficult it is to stop. The graph shows the distance, <m>d</m>, required to stop a car as a function of its velocity, <m>v</m>, before the brakes were applied. What distance is needed to stop a car moving at <m>100</m> kilometers per hour?</p>
-    <image source="images/fig-3-1-35"><description>increasing concave up</description></image></sidebyside></statement>
+    <image source="images/fig-hw-5-4-17"><description>increasing concave up</description></image></sidebyside></statement>
 <answer><p><ol label="a" cols="2">
     <li><p><m>d = 0.005v^2</m></p></li>
     <li><p><m>50</m> m</p></li>

@@ -74,7 +74,7 @@
 
 <exercise><title>QuickCheck 1</title>
 <webwork>
-    <setup><pg-code>       
+     <pg-code>       
             $dirvar = RadioButtons(
               ["If it has a constant slope",
               "If it includes the point \((0,0)\)",
@@ -82,7 +82,7 @@
               "If each output is double the previous one"],
               2, 
             );            
-        </pg-code></setup>
+        </pg-code> 
     <statement>
         <p>When does a table represent direct variation?</p>
         <p><var name="$dirvar" form="buttons"/></p>      
@@ -153,19 +153,64 @@ The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope o
 </exercise>
 
 <exercise><title>QuickCheck 2</title>
-<statement><p><ol label="a">
-    <li>A table describes direct variation if the ratio of corresponding entries is <fillin characters="6"/>.</li>
-    <li>A graph describes direct variation if it is a <fillin characters="6"/>.</li>
-    <li>An equation describes direct variation if it has the form <fillin characters="6"/>.</li>
-    <li>If two variables vary directly, we may also say that they are <fillin characters="6"/>.
-</li></ol></p>   
-</statement>
-<answer><p><ol label="a">
-    <li>constant</li>
-    <li>straight line through the origin</li>
-    <li><m>y=kx</m></li>
-    <li>directly proportional</li></ol></p>
-</answer></exercise>
+<webwork>
+    <pg-code>
+        Context()->variables->add(k=>"Real", y=>"Real");
+        $a = PopUp(
+          ["?","linear", "constant", "increasing", "positive"],
+          2, 
+        );
+        $b = PopUp(
+          ["?","straight line through the origin", 
+          "line with positive slope", 
+          "basic graph", 
+          "constant of variation"],
+          1, 
+        );
+        $c = Formula("kx");
+        $d = PopUp(
+          ["?","growing exponentially", 
+          "constant", 
+          "independent", 
+          "directly proportional"],
+          4, 
+        );
+    </pg-code>
+    <statement>
+        <p><ol label="a">
+            <li>
+                <p>
+                    A table describes direct variation if the ratio of corresponding entries is <var name="$a" form="popup"/>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A graph describes direct variation if it is a <var name="$b" form="popup"/>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    An equation describes direct variation if it has the form <m>y=</m><var name="$c" width="6"/>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If two variables vary directly, we may also say that they are <var name="$d" form="popup"/>.
+                </p>                
+            </li>
+        </ol></p> 
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>constant</li>
+            <li>straight line through the origin</li>
+            <li><m>y=kx</m></li>
+            <li>directly proportional</li>
+        </ol></p>
+    </solution>
+</webwork>
+</exercise>
+
 </subsection>
 
 <subsection><title>The Scaling Property of Direct Variation</title>
@@ -321,7 +366,7 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
 
 <exercise><title>QuickCheck 3</title>
 <webwork>
-    <setup><pg-code>       
+     <pg-code>       
             $exdir = RadioButtons(
               ["Double the value of \(x\).",
               "Find the \(y\)-intercept of the graph.",
@@ -329,7 +374,7 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
               "All of the above."],
               2, 
             );            
-        </pg-code></setup>
+        </pg-code> 
     <statement>
         <p>How can you find the value of the constant of variation?</p>
         <p><var name="$exdir" form="buttons"/></p>      
@@ -398,17 +443,53 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
 <warning><p>The graph of a direct variation always passes through the origin, so when the input is zero, the output is also zero. Thus, the functions <m>y = 3x + 2</m> and <m>y = 0.4x^2 - 2.3</m>, for example, are not direct variation, even though they are increasing functions for positive <m>x</m>.</p></warning>
 
 <exercise><title>QuickCheck 4</title>
-<statement><p>True or False. <ol label="a">
-    <li>Every increasing function is a direct variation.</li>
-    <li>Every direct variation is an increasing function.</li>
-    <li>The graph of every direct variation is a straight line.</li>
-    <li>The graph of every direct variation passes through the origin.</li></ol></p></statement>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>True</li>
-    <li>False</li>
-    <li>True</li></ol></p>
-</answer>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or False. 
+            <ol label="a">
+                <li>
+                    <p>
+                        Every increasing function is a direct variation. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Every direct variation is an increasing function. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The graph of every direct variation is a straight line. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The graph of every direct variation passes through the origin. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>False</li>
+            <li>True</li>
+            <li>False</li>
+            <li>True</li></ol>
+        </p>
+    </solution>
+</webwork>
 </exercise>
 
 <p>Even without an equation, we can check whether a table of data describes direct variation or merely an increasing function. If <m>y</m> varies directly with <m>x^n</m>, then <m>y = kx^n</m>, or, equivalently,<m>\dfrac{y}{x^n} = k</m>.</p>
@@ -538,7 +619,12 @@ The weight of the new model is <m>2^3 = 8</m> times the weight of the original m
             );
         </pg-code>
         <statement>
-            <p>Use the formula for the area of a circle to show that doubling the diameter of a pizza quadruples its area. Check all the relevant statements.</p>
+            <p>
+                Use the formula for the area of a circle to show that doubling the diameter of a pizza quadruples its area. 
+            </p>
+            <p>
+                Check all the relevant statements.
+            </p>
             <p><var name="$explain" form="checkboxes"/> </p>
         </statement>
         <solution>

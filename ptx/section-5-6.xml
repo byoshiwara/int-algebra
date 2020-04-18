@@ -91,7 +91,7 @@
     </solution>
   </webwork>
     <conclusion>
-        <sidebyside width="35%" margins="0% 65%"><image source="images/fig-in-ex-ans-2-4-1"><description>piecewise graph</description></image></sidebyside>
+        <sidebyside width="35%" margins="0% 65%"><image source="images/fig-ex-5-6-1ans"><description>piecewise graph</description></image></sidebyside>
     </conclusion>
 </exercise>
 
@@ -200,22 +200,53 @@
 </exercise>
 
 <exercise><title>QuickCheck 1</title>
- <statement><p> Match each type of graph with its properties.<ol label="a">
-    <li>Increasing, concave up </li> 
-    <li>Increasing, concave down</li>
-    <li>Decreasing, concave up</li>
-    <li>Decreasing, concave down</li></ol>
-  <ol label="i">  
-    <li> <m>y</m>-values decrease, slopes decrease</li>
-    <li><m>y</m>-values decrease, slopes increase</li>
-    <li><m>y</m>-values increase, slopes decrease</li>
-    <li><m>y</m>-values increase, slopes increase</li></ol></p></statement>
-<answer><p><ol label="a">
-    <li>iv</li> 
-    <li>iii</li>
-    <li>ii</li>
-    <li>i</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $a = PopUp(
+          ["?","i", "ii", "iii", "iv"],
+          4, 
+        );
+        $b = PopUp(
+          ["?","i", "ii", "iii", "iv"],
+          3, 
+        );
+        $c = PopUp(
+          ["?","i", "ii", "iii", "iv"],
+          2, 
+        );
+        $d = PopUp(
+          ["?","i", "ii", "iii", "iv"],
+          1, 
+        );
+    </pg-code>
+    <statement>
+        <p> 
+            Match each type of graph with its properties.
+            <ol label="a">
+                <li><p>Increasing, concave up <var name="$a" form="popup"/></p> </li> 
+                <li><p>Increasing, concave down <var name="$b" form="popup"/></p></li>
+                <li><p>Decreasing, concave up <var name="$c" form="popup"/></p></li>
+                <li><p>Decreasing, concave down <var name="$d" form="popup"/></p></li>
+            </ol>
+            <ol label="i">  
+                <li> <m>y</m>-values decrease, slopes decrease</li>
+                <li><m>y</m>-values decrease, slopes increase</li>
+                <li><m>y</m>-values increase, slopes decrease</li>
+                <li><m>y</m>-values increase, slopes increase</li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>iv</li> 
+            <li>iii</li>
+            <li>ii</li>
+            <li>i</li>
+        </ol></p>
+    </solution>
+</webwork>
 </exercise>
+
 </subsection>
 
 <subsection><title>Using the Basic Functions as Models</title>
@@ -229,9 +260,57 @@
     <li>The loudness, or intensity, <m>I</m>, of the music at a concert is a function of the <em>reciprocal of the square</em> of your distance, <m>d</m>, from the speakers.</li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><m>B=kc^3</m><sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-    <li><m>Q=k\sqrt{D}</m><sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-    <li><m>I=\dfrac{k}{d^2}</m><sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li></ol></p></solution></example>
+    <li><m>B=kc^3</m><sidebyside  width="40%">
+    <!-- could use fig-cubic-model -->
+        <image xml:id="fig-example-5-6-3a">
+            <description>cubic</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [yscale=.6]
+            \draw[cyan] (0,0) grid (8,8);
+            \draw[black,thick, ->, >=stealth'] (0,0)--(8.4,0) node[right]{$c$};
+            \draw[black,thick, ->, >=stealth'] (0,0)--(0,8.4) node[above]{$B$};
+            \draw[samples=65,domain={0:(320)^(1/3)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {(\x)^3/40});
+            \end{tikzpicture}]]>
+            </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><m>Q=k\sqrt{D}</m><sidebyside  width="40%">
+    <!-- could use fig-sqrt-model -->
+        <image xml:id="fig-example-5-6-3b">
+            <description>square root</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [yscale=.6]
+            \draw[cyan] (0,0) grid (8,8);
+            \draw[black,thick, ->, >=stealth'] (0,0)--(8.4,0) node[right]{$D$};
+            \draw[black,thick, ->, >=stealth'] (0,0)--(0,8.4) node[above]{$Q$};
+            \draw[samples=65,domain={0:8},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {(sqrt(8*\x)});
+            \end{tikzpicture}]]>
+            </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><m>I=\dfrac{k}{d^2}</m><sidebyside  width="40%">
+    <!-- could use fig-inverse-square-model -->
+        <image xml:id="fig-example-5-6-3c">
+            <description>inverse square</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [yscale=.6]
+            \draw[cyan] (0,0) grid (8,8);
+            \draw[black,thick, ->, >=stealth'] (0,0)--(8.4,0) node[right]{$d$};
+            \draw[black,thick, ->, >=stealth'] (0,0)--(0,8.4) node[above]{$I$};
+            \draw[samples=65,domain={sqrt(2):8},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {16/(\x)^2});
+            \end{tikzpicture}]]>
+            </latex-image>
+        </image>
+    </sidebyside></li></ol></p></solution></example>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
@@ -250,14 +329,100 @@
 </webwork></exercise>
 
 <exercise><title>Practice 3</title>
-<statement><p>Choose one of the eight basic functions to model each situation, and sketch a possible graph.<ol label="a">
-    <li>The contractor for a new hotel is estimating the cost of the marble tile for a circular lobby. The cost, <m>C</m>, is a function of the square of the diameter, <m>D</m>, of the lobby.</li>
-    <li>Investors are deciding whether to support a windmill farm. The wind speed, <m>v</m>, needed to generate a given amount of power is a function of the cube root of the power, <m>P</m>.</li>
-    <li>The frequency, <m>F</m>, of the note produced by a violin string is a function of the reciprocal of the length, <m>L</m>, of the string.</li></ol></p></statement>
-<answer><p><ol label="a">
-    <li><m>C=kD^2</m><sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-    <li><m>v=k\sqrt[3]{P}</m><sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-    <li><m>F=\dfrac{k}{L}</m><sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
+<introduction><title>Graphs of the eight basic functions: Eight basic graphs</title>
+    <sidebyside><image source="images/fig-basic-a-c"><description>parabola, cubic, square root</description></image></sidebyside>
+    <sidebyside><image source="images/fig-basic-d-f"><description>cube root, reciprocal, inverse square</description></image></sidebyside>
+    <sidebyside  width="60%"><image source="images/fig-basic-g-h"><description>line, absolute value</description></image></sidebyside>
+</introduction>
+<webwork>
+    <pg-code>
+        $a = PopUp(
+          ["?","quadratic", 
+          "cubic",
+          "square root",
+          "cube root",
+          "reciprocal",
+          "inverse square",
+          "linear",
+          "absolute value"],
+          1, 
+        );
+        $b = PopUp(
+          ["?","quadratic", 
+          "cubic",
+          "square root",
+          "cube root",
+          "reciprocal",
+          "inverse square",
+          "linear",
+          "absolute value"],
+          4, 
+        );
+        $c = PopUp(
+          ["?","quadratic", 
+          "cubic",
+          "square root",
+          "cube root",
+          "reciprocal",
+          "inverse square",
+          "linear",
+          "absolute value"],
+          5, 
+        );
+   </pg-code>
+    <statement>
+        <p>
+            Choose one of the eight basic functions to model each situation, and sketch a possible graph.
+            <ol label="a">
+                <li>
+                    <p>
+                        The contractor for a new hotel is estimating the cost of the marble tile for a circular lobby. The cost, <m>C</m>, is a function of the square of the diameter, <m>D</m>, of the lobby.
+                    </p>
+                    <p>
+                        Basic function: <var name="$a" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Investors are deciding whether to support a windmill farm. The wind speed, <m>v</m>, needed to generate a given amount of power is a function of the cube root of the power, <m>P</m>.
+                    </p>
+                    <p>
+                        Basic function: <var name="$b" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The frequency, <m>F</m>, of the note produced by a violin string is a function of the reciprocal of the length, <m>L</m>, of the string.
+                    </p>
+                    <p>
+                        Basic function: <var name="$c" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>
+                <p><m>C=kD^2</m>; a graph is below.</p>
+            </li>
+            <li>
+                <p><m>v=k\sqrt[3]{P}</m>; a graph is below.</p>
+            </li>
+            <li>
+                <p><m>F=\dfrac{k}{L}</m>; a graph is below.</p>
+            </li>
+        </ol></p>
+    </solution>
+</webwork>
+<conclusion>
+    <p><ol label="a">
+        <li><sidebyside  width="35%" margins="0% 5%"><image source="images/fig-quadratic-model"><description>graph</description></image></sidebyside></li>
+        <li><sidebyside  width="35%" margins="0% 5%"><image source="images/fig-cube-root-model"><description>graph</description></image></sidebyside></li>
+        <li><sidebyside  width="35%" margins="0% 5%"><image source="images/fig-inverse-model"><description>graph</description></image></sidebyside></li>
+    </ol></p>
+</conclusion>
+</exercise>
 
 <p>Example 4 illustrates an application of the function <m>f(x)=\sqrt{x}</m>.</p>
 
@@ -366,7 +531,7 @@
     </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="25%" margins="0% 75%"><image source="images/fig-in-ex-ans-2-4-3"><description>two concave up decreasing curves</description></image></sidebyside>
+        <sidebyside width="25%" margins="0% 75%"><image source="images/fig-ex-5-6-4ans"><description>two concave up decreasing curves</description></image></sidebyside>
     </conclusion>
 </exercise>
 

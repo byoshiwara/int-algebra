@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="chap4-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="chap5-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Chapter 5 Summary and Review</title>
 
 <subsection><title>Glossary</title>
@@ -27,7 +27,7 @@
 <p><ol label="1">
     <li>A function can be described in words, by a table, by a graph, or by an equation.</li>
     <li><assemblage><title>Function Notation</title><sidebyside width="65%">
-        <image  source="images/fig-Function-Notation.png"><description>Function Notation</description></image></sidebyside></assemblage></li>
+        <image  source="images/fig-Function-Notation"><description>Function Notation</description></image></sidebyside></assemblage></li>
 	<li>Finding the value of the output variable that corresponds to a particular value of the input variable is called 
         <term>evaluating the function</term>.</li>
     <li>The point <m>(a, b)</m> lies on the graph of the function <m>f</m> if and only if <m>f(a)=b</m>.</li>

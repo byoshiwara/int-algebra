@@ -83,7 +83,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <exercise><title>QuickCheck 1</title>
 <webwork>
-    <setup><pg-code>       
+     <pg-code>       
             $invvar = RadioButtons(
               ["Check whether \(xy\) is a constant.",
               "Check whether the function is decreasing.",
@@ -91,7 +91,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
               "Check whether \(y/x\) is a constant."],
               0, 
             );            
-        </pg-code></setup>
+        </pg-code> 
     <statement>
         <p>How can you test whether a table for <m>y=f(x)</m> represents inverse variation?</p>
         <p><var name="$invvar" form="buttons"/></p>      
@@ -126,14 +126,13 @@ where <m>k</m> is a positive constant.</p></assemblage>
         <li><p>How much current is drawn by a light bulb with a resistance of <m>533.3</m> ohms?</p></li>
         <li><p>What is the resistance of a toaster that draws <m>12.5</m> amps of current?</p></li>
     </ol></p></statement>
-
 <solution><p><ol label="a">
-	<li>Because <m>I</m> varies inversely with <m>R</m>, we know that <m>I=\dfrac{k}{R}</m>. To find the constant <m>k</m>, we substitute <m>\alert{10}</m> for <m>I</m> and <m>\alert{12}</m> for <m>R</m>.
-			<md><mrow>\alert{10} \amp =\dfrac{k}{\alert{12}} \amp \amp \blert{\text{Solve for}~k.}</mrow>
-				<mrow>k \amp = 10 \cdot 12 = 120</mrow></md>
-	So the formula is <m>I=\dfrac{120}{R}</m>.</li>
-	<li><p>We use the formula to complete the table.
-		<sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <li>Because <m>I</m> varies inversely with <m>R</m>, we know that <m>I=\dfrac{k}{R}</m>. To find the constant <m>k</m>, we substitute <m>\alert{10}</m> for <m>I</m> and <m>\alert{12}</m> for <m>R</m>.
+            <md><mrow>\alert{10} \amp =\dfrac{k}{\alert{12}} \amp \amp \glert{\text{Solve for}~k.}</mrow>
+                <mrow>k \amp = 10 \cdot 12 = 120</mrow></md>
+    So the formula is <m>I=\dfrac{120}{R}</m>.</li>
+    <li><p>We use the formula to complete the table.
+        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
                     <cell><m>R</m></cell>
                     <cell><m>1</m></cell>
@@ -148,14 +147,35 @@ where <m>k</m> is a positive constant.</p></assemblage>
                     <cell><m>6</m></cell></row>
             </tabular></sidebyside>
         A graph of <m>I</m> as a function of <m>R</m> is shown below.</p>
-        <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <sidebyside  width="50%">
+            <image xml:id="fig-example-5-5-1">
+                <description>current vs resistance</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.25]
+                \draw[cyan] (0,0) grid (25,25);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(26,0) node[right]{$R$};
+                \draw[black,thick, ->, >=stealth'] (0,0)--(0,26) node[above]{$I$};
+                \foreach \x [evaluate=\x as \xi using int(2*\x)] in {5,10,15,20,25} {
+                 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[samples=65,domain={6/5:25},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {30/(\x)});
+                \filldraw[red] (6,5) circle (.3) node[above right, xshift=4, fill=white, inner sep=2] {$(12,10)$};
+                \node[black,fill=white, inner sep=2] at (12,20) {$I=\Large \frac{120}{R}$};
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside></li>
      <li>We substitute <m>\alert{533.3}</m> for <m>R</m> in the formula.
-     	<me>I=\dfrac{120}{\alert{533.3}} = 0.225</me>
-     	The light bulb draws 0.225 amps of current.</li>
+        <me>I=\dfrac{120}{\alert{533.3}} = 0.225</me>
+        The light bulb draws 0.225 amps of current.</li>
      <li>We substitute <m>\alert{12.5}</m> for <m>I</m> in the formula and solve for <m>R</m>.
-     		<md><mrow>\alert{12.5} \amp =\dfrac{120}{R} \amp \amp \blert{\text{Solve for}~R.}</mrow>
-				<mrow>R \amp = \dfrac{120}{12.5} = 9.6</mrow></md>
-		The toaster has a resistance of 9.6 ohms.</li></ol>
+            <md><mrow>\alert{12.5} \amp =\dfrac{120}{R} \amp \amp \glert{\text{Solve for}~R.}</mrow>
+                <mrow>R \amp = \dfrac{120}{12.5} = 9.6</mrow></md>
+        The toaster has a resistance of 9.6 ohms.</li></ol>
 </p></solution></example>
 
 <exercise><title>Practice 1</title>
@@ -234,7 +254,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
     </solution>
   </webwork>
     <conclusion>
-        <sidebyside width="30%"><image source="images/fig-in-ex-ans-3-1-8"><description>reciprocal</description></image></sidebyside>
+        <sidebyside width="30%"><image source="images/fig-ex-5-4-1ans"><description>reciprocal</description></image></sidebyside>
     </conclusion>
 </exercise>
 
@@ -255,7 +275,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
         <li>Write a formula that gives signal strength as a function of distance.</li>
         <li>If you live <m>5</m> kilometers from the station, what is the strength of the signal you will receive?</li>
         <li><p>Graph your function in the window
-        	<md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 6</mrow>
+            <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 6</mrow>
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 0.02</mrow></md></p></li>
     </ol></p></statement>
 
@@ -267,9 +287,33 @@ where <m>k</m> is a positive constant.</p></assemblage>
     <li><p>Now we can substitute <m>\alert{5}</m> for <m>d</m> and solve for <m>I</m>.
         <me>I = \frac{0.016}{\alert{5}^2}= 0.00064</me>
     At a distance of <m>5</m> kilometers from the station, the signal strength is <m>0.00064</m> watt per square meter.</p></li>
-	<li>The graph is shown below.
-		<sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-	</ol></p>
+    <li><p>The graph is shown below.</p>
+        <sidebyside  width="40%">
+            <image xml:id="fig-example-5-5-2">
+                <description>inverse-square</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.65]
+                \draw[cyan] (0,0) grid (6,10);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(6.6,0) node[right]{$d$};
+                \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$I$};
+                \foreach \x in {5} {
+                 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 }
+                \foreach \x [evaluate=\x as \xi using (\x/500)] in {5} {
+                 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                 \draw[black] (.1,10) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$0.02$};
+                \draw[samples=65,domain={sqrt(4/5):6},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {8/(\x)^2});
+                \filldraw[red] (1,8) circle (.1) node[right, xshift=4, fill=white, inner sep=2] {$(1,0.016)$};
+                \node[black,fill=white, inner sep=2] at (4,6) {$I=\Large \frac{0.016}{d^2}$};
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside></li>
+    </ol></p>
 </solution></example>
 
 <p>To summarize, an inverse variation is an example of a decreasing function, but not every decreasing function describes an inverse variation.</p> 
@@ -282,22 +326,41 @@ where <m>k</m> is a positive constant.</p></assemblage>
 <sidebyside width="50%"><image source="images/fig-inverse-variation-with-power"><description>inverse variation</description></image></sidebyside>
 
 <exercise><title>QuickCheck 2</title>
-<statement><p>Use the table to decide whether <m>H</m> could vary inversely with <m>m^2</m>.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>m</m></cell>
-                        <cell><m>0.05</m></cell>
-                        <cell><m>0.20</m></cell>
-                        <cell><m>0.25</m></cell>
-                        <cell><m>0.4</m></cell></row>
-                    <row> 
-                        <cell><m>H</m></cell>
-                        <cell><m>240</m></cell>
-                        <cell><m>15</m></cell>
-                        <cell><m>9.6</m></cell>
-                        <cell><m>3.75</m></cell></row>
-                    </tabular></sidebyside></p></statement>
-<answer>Yes</answer></exercise>
+<webwork>
+    <pg-code>
+        $Yes = PopUp(
+          ["?","Yes", "No"],
+          1, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            Use the table to decide whether <m>H</m> could vary inversely with <m>m^2</m>.
+        </p>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <row bottom="minor">
+                <cell><m>m</m></cell>
+                <cell><m>0.05</m></cell>
+                <cell><m>0.20</m></cell>
+                <cell><m>0.25</m></cell>
+                <cell><m>0.4</m></cell></row>
+            <row> 
+                <cell><m>H</m></cell>
+                <cell><m>240</m></cell>
+                <cell><m>15</m></cell>
+                <cell><m>9.6</m></cell>
+                <cell><m>3.75</m></cell></row>
+            </tabular>
+        </sidebyside>
+        <p>
+            <var name="$Yes" form="popup"/>
+        </p>
+    </statement>
+    <solution>
+        <p>Yes, the product <m>Hm^2</m> is the constant 0.6</p>
+    </solution>
+</webwork>
+</exercise>
 
 <p>In Section 5.4, we considered the scaling property of direct variation. If <m>y=kx</m> and you double the value of <m>x</m>, then the value of <m>y</m> doubles also.  If <m>y=kx^2</m> and you double the value of <m>x</m>, then the value of <m>y</m> is multiplied by a factor of <m>2^2=4</m>.</p>
 
@@ -337,21 +400,50 @@ Your new weight will be <m>\dfrac{1}{4}</m> of your old weight. By a similar cal
 </exercise>
 
 <exercise><title>QuickCheck 3</title>
-<statement><p> Match each formula with its description. <ol label="a" cols="2">
-    <li>Direct variation</li>
-    <li>Direct variation with a power</li>
-    <li>Inverse variation</li>
-    <li>Inverse variation with a power</li></ol></p>
-    <p><ol label="i" cols ="2">
-        <li><m>I={50}{d^2}</m></li>
-        <li><m>S=15.3h^2</m></li>
-        <li><m>N={2600}{P}</m></li>
-        <li><m>C=85A</m></li></ol></p></statement>
-<answer><p><ol label="i" cols ="2">
+<webwork>
+    <pg-code>
+        $a = PopUp(
+          ["?","i", "ii", "iii", "iv"],
+          4, 
+        );
+        $b = PopUp(
+          ["?","i", "ii", "iii", "iv"],
+          2, 
+        );
+        $c = PopUp(
+          ["?","i", "ii", "iii", "iv"],
+          3, 
+        );
+        $d = PopUp(
+          ["?","i", "ii", "iii", "iv"],
+          1, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            Match each formula with its description below. 
+            <ol label="a" cols="2">
+                <li><p>Direct variation <var name="$a" form="popup"/></p></li>
+                <li><p>Direct variation with a power <var name="$b" form="popup"/></p></li>
+                <li><p>Inverse variation <var name="$c" form="popup"/></p></li>
+                <li><p>Inverse variation with a power <var name="$d" form="popup"/></p></li>
+            </ol>
+        </p>
+        <p><ol label="i" cols ="2">
+            <li><m>I=\dfrac{50}{d^2}</m></li>
+            <li><m>S=15.3h^2</m></li>
+            <li><m>N=\dfrac{2600}{P}</m></li>
+            <li><m>C=85A</m></li></ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a" cols ="2">
         <li>iv</li>
         <li>ii</li>
         <li>iii</li>
-        <li>i</li></ol></p></answer>
+        <li>i</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 </subsection>
 
