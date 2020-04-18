@@ -5,7 +5,7 @@
 
 <introduction><p>In the previous section we saw that inverse variation can be expressed as a power function by using negative exponents. We can also use exponents to denote square roots and other radicals.</p></introduction>
 
-<subsection><title><m>n^{th} Roots</title>
+<subsection><title><m>n^\text{th}</m> Roots</title>
 
 <p>Recall that <m>s</m> is a square root of <m>b</m> if <m>s^2 = b</m>, and <m>s</m> is a cube root of <m>b</m> if <m>s^3 = b</m>. In a similar way, we can define the fourth, fifth, or sixth root of a number. For instance, the fourth root of <m>b</m> is a number <m>s</m> whose fourth power is <m>b</m>.</p>
 

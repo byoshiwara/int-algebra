@@ -110,33 +110,33 @@
 
 <subexercises><title>Applications</title>
 
-<exercisegroup><introduction><p>In Problems 9<ndash/>12, which graph best illustrates each of the following situations?</p></introduction>
+<exercisegroup cols="2"><introduction><p>In Problems 9<ndash/>12, which graph best illustrates each of the following situations?</p></introduction>
     
 <exercise number="9"><statement><p>Your pulse rate during an aerobics class</p>
-    <sidebyside  width="95%"><image source="images/fig-2-4-1"><description>two curves</description></image></sidebyside></statement>
+    <sidebyside  width="95%"><image source="images/fig-hw-5-6-9"><description>two curves</description></image></sidebyside></statement>
 <answer><p>(b) </p></answer></exercise>
 
 <exercise number="10"><statement><p>The stopping distances for cars traveling at various speeds</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-2"><description>two curves</description></image></sidebyside>
+    <sidebyside width="95%"><image source="images/fig-hw-5-6-10"><description>two curves</description></image></sidebyside>
     </statement></exercise>
 
 <exercise number="11"><statement><p>Your income in terms of the number of hours you worked</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-3"><description>two curves</description></image></sidebyside></statement>
+    <sidebyside width="95%"><image source="images/fig-hw-5-6-11"><description>two curves</description></image></sidebyside></statement>
 <answer><p>(a) </p></answer></exercise>
 
 <exercise number="12"><statement><p>Your temperature during an illness</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-4"><description>two curves</description></image></sidebyside>
+    <sidebyside width="95%"><image source="images/fig-hw-5-6-12"><description>two curves</description></image></sidebyside>
     </statement></exercise>
 </exercisegroup>
 
-<exercisegroup ><introduction><p>Choose the graph that depicts the function described in Problems 13 and 14.</p></introduction>
+<exercisegroup cols="2" ><introduction><p>Choose the graph that depicts the function described in Problems 13 and 14.</p></introduction>
 
 <exercise number="13"><statement><p>Inflation is still rising, but by less each month.</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-9"><description>four curves</description></image></sidebyside></statement>
+    <sidebyside width="95%"><image source="images/fig-hw-5-6-13"><description>four curves</description></image></sidebyside></statement>
 <answer><p>(b)</p></answer></exercise>
 
 <exercise number="14"><statement><p>The price of wheat was rising more rapidly in 1996 than at any time during the previous decade.</p>
-    <sidebyside width="95%"><image source="images/fig-2-4-10"><description>four curves</description></image></sidebyside>
+    <sidebyside width="95%"><image source="images/fig-hw-5-6-14"><description>four curves</description></image></sidebyside>
     </statement></exercise>
 </exercisegroup>
 
@@ -148,7 +148,7 @@
         <li><p>The simple interest earned at a given interest rate as a function of the investment</p></li>
         <li><p>The number of Senators present versus the number absent in the U.S. Senate</p></li>
     </ol></p>
-    <sidebyside width="80%"><image source="images/fig-2-4-11"><description>four curves</description></image></sidebyside>
+    <sidebyside width="80%"><image source="images/fig-hw-5-6-15"><description>four curves</description></image></sidebyside>
 </statement>
 <answer><p><ol label="a" cols="4">
     <li><p>II</p></li><li><p>IV</p></li><li><p>I</p></li><li><p>III</p></li>
@@ -160,7 +160,7 @@
         <li><p>The birthrate rose steadily until 1990 but is now beginning to fall.</p></li>
         <li><p>The price of gasoline has fallen steadily over the past few months.</p></li>
     </ol></p>
-    <sidebyside width="80%"><image source="images/fig-2-4-12"><description>four curves</description></image></sidebyside>
+    <sidebyside width="80%"><image source="images/fig-hw-5-6-16"><description>four curves</description></image></sidebyside>
 </statement></exercise>
 </exercisegroup>
 
@@ -168,7 +168,7 @@
 
 <exercise number="17"><statement><p>The volume of a hot air balloon, as a function of its radius</p></statement>
 <answer><p><m>y = x^3</m> stretched or compressed vertically</p>
-<sidebyside width="20%"><image source="images/fig-ans-2-4-19"><description>cubic</description></image></sidebyside>
+<sidebyside width="20%"><image source="images/fig-hw-5-6-17ans"><description>cubic</description></image></sidebyside>
 </answer></exercise>
 
 <exercise number="18"><statement><p>The length of a rectangle as a function of its width, if its
@@ -176,14 +176,14 @@ area is <m>24</m> square feet</p></statement></exercise>
 
 <exercise number="19"><statement><p>The time it takes you to travel <m>600</m> miles, as a function of your average speed</p></statement>
 <answer><p><m>y =\dfrac{1}{x} </m> stretched or compressed vertically</p>
-<sidebyside width="20%"><image source="images/fig-ans-2-4-21"><description>reciprocal</description></image></sidebyside>
+<sidebyside width="20%"><image source="images/fig-hw-5-6-19ans"><description>reciprocal</description></image></sidebyside>
 </answer></exercise>
 
 <exercise number="20"><statement><p>The sales tax on a purchase, as a function of its price</p></statement></exercise>
 
 <exercise number="21"><statement><p>The width of a square skylight, as a function of its area</p></statement>
 <answer><p><m>y =\sqrt{x} </m></p>
-<sidebyside width="20%"><image source="images/fig-ans-2-4-23"><description>root</description></image></sidebyside>
+<sidebyside width="20%"><image source="images/fig-hw-5-6-21ans"><description>root</description></image></sidebyside>
 </answer></exercise>
 
 <exercise number="22"><statement><p>The sales tax on a purchase, as a function of its price</p></statement></exercise>
@@ -373,11 +373,8 @@ area is <m>24</m> square feet</p></statement></exercise>
                     <cell><m>147</m></cell></row>
             </tabular>    </sidebyside></li>
     </ol></p>
-    <sidebyside widths="20% 20% 20% 20%">
-        <image source="images/fig-2-4-41A.jpg"><description>increasing concave down</description></image>
-        <image source="images/fig-2-4-41B.jpg"><description>increasing line</description></image>
-        <image source="images/fig-2-4-41C.jpg"><description>increasing concave down</description></image>
-        <image source="images/fig-2-4-41D.jpg"><description>increasing concave up</description></image>
+    <sidebyside widths="100%">
+        <image source="images/fig-hw-5-6-27"><description>four increasing graphs</description></image>
     </sidebyside></statement>
 <answer><p><ol label="a" cols="2">
     <li><p>Table (4), Graph (C)</p></li>
@@ -462,11 +459,8 @@ area is <m>24</m> square feet</p></statement></exercise>
                     <cell><m>80</m></cell></row>
             </tabular>    </sidebyside></li>
     </ol></p>
-    <sidebyside widths="20% 20% 20% 20%">
-        <image source="images/fig-2-4-42A.jpg"><description>decreasing w/ inflection</description></image>
-        <image source="images/fig-2-4-42B.jpg"><description>decreasing concave up</description></image>
-        <image source="images/fig-2-4-42C.jpg"><description>decreasing concave down</description></image>
-        <image source="images/fig-2-4-42D.jpg"><description>surge function</description></image>
+    <sidebyside widths="100%">
+        <image source="images/fig-hw-5-6-28"><description>four decreasing graphs</description></image>
     </sidebyside></statement></exercise>
 
 <exercise number="29"><statement><p>The table shows the radii, <m>r</m>, of several gold coins, in centimeters, and their value, <m>v</m>, in dollars.</p>
@@ -518,7 +512,7 @@ area is <m>24</m> square feet</p></statement></exercise>
             <cell><m>47</m></cell></row>
     </tabular></sidebyside><p><ol label="a">
         <li><p>Which graph represents the data?</p>
-        <sidebyside width="80%"><image source="images/fig-2-4-44"><description>four curves</description></image></sidebyside></li>
+        <sidebyside width="80%"><image source="images/fig-hw-5-6-30"><description>four curves</description></image></sidebyside></li>
         <li><p>Which equation describes the function?
             <ol label="i" cols="4">
                 <li><p><m>A=k\sqrt{W} </m></p></li>

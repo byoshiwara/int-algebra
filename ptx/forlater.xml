@@ -65,7 +65,7 @@ You can see that the <m>y</m>-intercept, <m>6</m>, is just the constant term of 
 
 <exercise><title>QuickCheck 4</title>
 <webwork>
-    <setup><pg-code>       
+     <pg-code>       
             $nox = RadioButtons(
               ["\(a\)",
               "\(b\)",
@@ -73,7 +73,7 @@ You can see that the <m>y</m>-intercept, <m>6</m>, is just the constant term of 
               "None of these"],
               2, 
             );            
-        </pg-code></setup>
+        </pg-code> 
     <statement>
         <p>The <m>y</m>-intercept of <m>y=ax^2+bx+c</m> is the same as the value of which parameter?</p>
         <p><var name="$nox" form="buttons"/></p>      
@@ -99,13 +99,13 @@ So the coordinates of the vertex are <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</
 <exercise>
   <title>Practice 4</title>
     <webwork>
-        <setup><pg-code>
+         <pg-code>
             Context("Point");
             $answer= Point("(1,1)");
             $maxmin = PopUp(
             ["?","maximum","minimum"],
             2, );
-        </pg-code></setup>
+        </pg-code> 
         <statement>
             <p>Find the vertex of the graph of <m>f(x) = 3x^2 - 6x + 4</m>.</p>
             <p><var name="$answer" width="5"/> </p>
@@ -173,7 +173,7 @@ The only difference between the two solutions is the sign between the terms. For
 <exercise xml:id="exercise-discriminant">
   <title>Practice 5</title>
     <webwork>
-        <setup><pg-code>
+         <pg-code>
             $counta = PopUp(
             ["?","None","1", "2", "Other"],
             "None", );
@@ -181,7 +181,7 @@ The only difference between the two solutions is the sign between the terms. For
             ["?","None","1", "2", "Other"],
             "1", );
             
-        </pg-code></setup>
+        </pg-code> 
         <statement>
             <p>Use the discriminant to discover how many <m>x</m>-intercepts the graph of each function has.</p>
             <p><ol label="a" cols="2">
@@ -196,8 +196,8 @@ The only difference between the two solutions is the sign between the terms. For
 
 <exercise><title>Pause and Reflect</title>
 <webwork>
-    <setup><pg-code>                      
-        </pg-code></setup>
+     <pg-code>                      
+        </pg-code> 
     <statement>
         <p>Explain what the discriminant tells us about a quadratic equation.</p>
         <p><var form="essay"/></p>      
@@ -237,7 +237,7 @@ The only difference between the two solutions is the sign between the terms. For
 <exercise>
   <title>Practice 6</title>
     <webwork>
-        <setup><pg-code>
+         <pg-code>
             Context("Point")->flags->set( reduceConstants => 0, reduceConstantFunctions => 0,   );
             $intercepts=List("(0,4),(1,0), (4,0)");
             $my_evaluator = $intercepts -> cmp(
@@ -247,7 +247,7 @@ The only difference between the two solutions is the sign between the terms. For
             ); 
             $v = Formula("(5/2,-9/4)");
             
-        </pg-code></setup>
+        </pg-code> 
         <statement>
             <p><ol label="a">
                 <li><p>Find the intercepts and the vertex of the graph of <m>f(x) = x^2 - 5x + 4</m>.</p>
@@ -272,8 +272,8 @@ The only difference between the two solutions is the sign between the terms. For
 
 <exercise><title>Pause and Reflect</title>
 <webwork>
-    <setup><pg-code>                      
-        </pg-code></setup>
+     <pg-code>                      
+        </pg-code> 
     <statement>
         <p>Which points on a parabola should you find to help you sketch its graph? Describe how to find each of these points.</p>
         <p><var form="essay"/></p>      

@@ -59,7 +59,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 <exercise><title>QuickCheck 1</title>
 <webwork>
-    <setup><pg-code>       
+     <pg-code>       
             $twoout = RadioButtons(
               ["There cannot be two output values for a single input value.",
               "We can display the variables as ordered pairs.",
@@ -67,7 +67,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
               "The values of the input and output variables must be different."],
               0, 
             );            
-        </pg-code></setup>
+        </pg-code> 
     <statement>
         <p>What distinguishes a function from other variable relationships?</p>
         <p><var name="$twoout" form="buttons"/></p>      
