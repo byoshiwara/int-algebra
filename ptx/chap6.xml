@@ -106,6 +106,7 @@
      <xi:include href="./section-6-2.xml" />  <!--Roots and Radicals -->
      <xi:include href="./section-6-3.xml" />  <!--Rational Exponents -->
      <xi:include href="./section-6-4.xml" /> <!--Working with Radicals-->
+     <xi:include href="./section-6-5.xml" /> <!--Radical Equations-->
         
 
 </chapter> 

@@ -486,7 +486,7 @@
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="30%"><image source="images/fig-in-ex-ans-8-1-5"><description>parallel lines</description></image></sidebyside>
+        <sidebyside width="30%"><image source="images/fig-ex-2-2-3ans"><description>parallel lines</description></image></sidebyside>
     </conclusion>
 </exercise>
 
@@ -605,54 +605,6 @@
         </p>
     </solution>
 </webwork>
-</exercise>
-
-<exercise><title>Practice 1</title>
-    <webwork>
-        <pg-code>
-            Context()->variables->add(y=>"Real");
-            $xeq = Formula("2y-2");
-            $y = Compute("1");
-            $x = Compute("0");
-            Context("Point");
-            $solution = Point($x,$y);
-        </pg-code>
-        <statement>
-            <p>
-                Follow the suggested steps to solve the system by substitution:
-                <md>
-                    <mrow>3y-2x\amp=3</mrow>
-                    <mrow>x-2y\amp=-2</mrow>
-                </md>
-                <ul>
-                    <li><p>Step 1</p>
-                    <p>Solve the second equation for <m>x</m> in terms of <m>y</m>.</p>
-                    <p><m>x=</m><var name="$xeq" width="5"/> </p>
-                    </li>
-                    <li><p>Step 2</p>
-                    <p>Substitute your expression for <m>x</m> into the first equation.</p>
-                    <p><m>3y -2 \large(</m><var name="$xeq" width="5"/><m>{\large)} =3</m> </p>
-                    </li>
-                    <li><p>Step 3</p>
-                        <p>Solve the equation you got in Step 2.</p>
-                        <p><m>y=</m><var name="$y" width="2"/> </p>
-                    </li>
-                    <li><p>Step 4</p>
-                        <p>You now have the solution value for <m>y</m>. Substitute that value into your result from Step 1 to find the solution value for <m>x</m>. 
-                        </p>
-                         <p><m>x=</m><var name="$x" width="2"/> </p>
-                        <p>As always, you should check that your solution values satisfy both equations in the system.</p>
-                    <p>The solution to the system is <var name="$solution" width="6"/> (Give the solution as an ordered pair.)</p>
-                    </li>
-                </ul>
-            </p>
-        </statement>
-        <solution>
-            <p><m>
-                (0,1)
-            </m></p>
-        </solution>
-    </webwork>
 </exercise>
 
 </subsection>
