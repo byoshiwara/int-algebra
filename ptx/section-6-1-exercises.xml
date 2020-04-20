@@ -33,8 +33,8 @@
     <li><m>\dfrac{1}{2^{-3}}</m></li>
     <li><m>\dfrac{-1}{2^3}</m></li>
     <li><m>\dfrac{-1}{2^{-3}}</m></li>
-    <li><m>(\dfrac{1}{2})^3</m></li>
-    <li><m>(\dfrac{1}{2})^{-3}</m></li></ol></p></statement></exercise>
+    <li><m>\left(\dfrac{1}{2}\right)^3</m></li>
+    <li><m>\left(\dfrac{1}{2}\right)^{-3}</m></li></ol></p></statement></exercise>
 
 <exercise number="3"><statement><p><ol label="a" cols="3">
     <li><m>5 \cdot 2^3</m></li>    
@@ -66,8 +66,8 @@
     <li><m>2 + 4^{-1}</m></li>
     <li><m>(2 + 4)^{-1}</m></li>
     <li><m>(2 \cdot 4)^{-1}</m></li>
-    <li><m>(2^{-1} + 4^{-1})^{-1}</m></li>
-    <li><m>(2^{-1} \cdot 4^{-1})^{-1}</m></li></ol></p></statement>
+    <li><m>\left(2^{-1} + 4^{-1}\right)^{-1}</m></li>
+    <li><m>\left(2^{-1} \cdot 4^{-1}\right)^{-1}</m></li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>\dfrac{3}{4}</m></li>    
     <li><m>\dfrac{1}{8}</m></li>
@@ -91,9 +91,7 @@
 <exercise number="7"><statement><p><ol label="a" cols="2">
     <li><m>(m-n)^{-2}</m></li>
     <li><m>y^{-2}+y^{-3}</m></li>
-    <li><m>2pq^~/Pretext/mathbook/script/mbx -c webwork -d wwscratch -s https://webwork-ptx.aimath.org test-section.xml
-xsltproc --xinclude --stringparam webwork.extraction ~/Pretext/int-alg/wwscratch/webwork-extraction.xml ~/PreText/mathbook/xsl/pretext-merge.xsl test-section.xml > merge.xml
-xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml{-4}</m></li>
+    <li><m>2pq^{-4}</m></li>
     <li><m>\dfrac{-5y^{-2}}{x^{-5}}</m></li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>\dfrac{1}{(m-n)^2}</m></li>
@@ -118,13 +116,13 @@ xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml{-4}</m></li
 <answer><m>0.2</m></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 12-14, use the laws of exponents to simplify and write without negative exponents.</p></introduction>
+<exercisegroup><introduction><p>For Problems 12<ndash/>14, use the laws of exponents to simplify and write without negative exponents.</p></introduction>
 
 <exercise number="12"><statement><p><ol label="a" cols="2">
     <li><m>a^{-3} \cdot a^8</m></li>
     <li><m>5^{-4} \cdot 5^{-3}</m></li>
     <li><m>\dfrac{p^{-7}}{p^{-4}}</m></li>
-    <li><m>(7^{-2})^5</m></li></ol></p>
+    <li><m>\left(7^{-2}\right)^5</m></li></ol></p>
     </statement></exercise>
 
 <exercise number="13"><statement><p><ol label="a" cols="3">
@@ -137,9 +135,9 @@ xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml{-4}</m></li
     <li><m>5^8t</m></li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><p><ol label="a" cols="3">
-    <li><m>(3x^{-2}y^3)^{-2}</m></li>
-    <li><m>(\dfrac{6a^{-3}}{b^2})^{-2}</m></li>
-    <li><m>\dfrac{5h^{-3}(h^4)^{-2}}{6h^{-5}}</m></li></ol></p>
+    <li><m>\left(3x^{-2}y^3\right)^{-2}</m></li>
+    <li><m>\left(\dfrac{6a^{-3}}{b^2}\right)^{-2}</m></li>
+    <li><m>\dfrac{5h^{-3}\left(h^4\right)^{-2}}{6h^{-5}}</m></li></ol></p>
     </statement></exercise>
 </exercisegroup>
 
@@ -155,8 +153,8 @@ xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml{-4}</m></li
 </answer></exercise>
 
 <exercise number="16"><statement><p><ol label="a" cols="2">
-        <li><m>\dfrac{2}{x^4}(\dfrac{x^2}{2} + \dfrac{x}{2} - \dfrac{1}{4})</m></li>
-        <li><m>\dfrac{x^2}{3}(\dfrac{2}{x^4} - \dfrac{1}{3x^2} + \dfrac{1}{2})</m></li></ol></p>
+        <li><m>\dfrac{2}{x^4}\left(\dfrac{x^2}{2} + \dfrac{x}{2} - \dfrac{1}{4}\right)</m></li>
+        <li><m>\dfrac{x^2}{3}\left(\dfrac{2}{x^4} - \dfrac{1}{3x^2} + \dfrac{1}{2}\right)</m></li></ol></p>
 </statement></exercise>
 </exercisegroup>
 
@@ -272,7 +270,7 @@ xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml{-4}</m></li
                     <cell><m>9585</m></cell>
                     <cell><m>22,720</m></cell></row>
             </tabular>
-            <image source="images/fig-3-2-25"><description>power function</description></image></sidebyside></li>
+            <image source="images/fig-hw-6-1-25"><description>power function</description></image></sidebyside></li>
         <li><p>Find the speed that requires <m>50,000</m> watts of power.</p></li>
         <li><p>If you increase your speed by <m>50\%</m>, by what factor does the power requirement increase?</p></li>
     </ol></p></statement>
@@ -305,7 +303,7 @@ xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml{-4}</m></li
                     <cell><m>8.9</m></cell>
                     <cell><m>6.3</m></cell>
                     <cell><m>4.5</m></cell></row>
-        </tabular><image source="images/fig-3-2-28"><description>power function</description></image></sidebyside></li>
+        </tabular><image source="images/fig-hw-6-1-27"><description>power function</description></image></sidebyside></li>
         <li><p>Why are the f-stop settings labeled with the values given in the table?</p>
         <hint><p>As you stop down the aperture from one f-value to the next, by what factor does <m>d</m> increase?</p></hint></li></ol></p></statement>
 <answer><p><ol label="a">
@@ -320,7 +318,6 @@ xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml{-4}</m></li
         <li><p>One solar mass is about <m>2\times 10^{30}</m> kilograms. Rewrite your formula for <m>L</m> with the units of mass in kilograms.</p></li>
         <li><p>How long will a star that is half as massive as the Sun last?</p></li></ol></p>
 </statement></exercise>
-
 
 </subexercises>
 </exercises>
