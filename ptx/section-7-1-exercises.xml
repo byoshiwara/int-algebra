@@ -6,20 +6,15 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Katherine Yoshiwara      -->
 
-<exercises xml:id="section-6-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Problem Set 6.1</title>
+<exercises xml:id="section-7-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Problem Set 7.1</title>
 
-<subexercises><title>Skills Practice</title>
+<subexercises><title>Warm Up</title>
 
-<exercisegroup><introduction><p>For Problems 1<ndash/>5, simplify.  Write your answers as integers or common fractions; do not use a calculator!</p></introduction>
-
-<exercise number="1"><statement><p><ol label="a" cols="3">
-    <li><m>3^2</m></li>    
-    <li><m>3^{-2}</m></li>
-    <li><m>(-3)^2</m></li>
-    <li><m>(-3)^{-2}</m></li>
-    <li><m>-3^2</m></li>
-    <li><m>-3^{-2}</m></li></ol></p></statement>
+<exercise number="1"><statement><p><ol label="a">
+    <li>A parking permit at Huron College cost $25 last year, but this year the price increased by 12%.  What is the price this year?</li>
+    <li>If the price of a parking permit increases by 12% again next year, what will the price be then?</li>
+    <li>Did the parking permit increase by the same amount each year?  Why or why not?</li></ol></p></statement>
 <answer><p><ol label="a" cols="3">
     <li><m>9</m></li>    
     <li><m>\dfrac{1}{9}</m></li>
@@ -28,21 +23,12 @@
     <li><m>-9</m></li>
     <li><m>\dfrac{-1}{9}</m></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol label="a" cols="3">
-    <li><m>\dfrac{1}{2^3}</m></li>    
-    <li><m>\dfrac{1}{2^{-3}}</m></li>
-    <li><m>\dfrac{-1}{2^3}</m></li>
-    <li><m>\dfrac{-1}{2^{-3}}</m></li>
-    <li><m>(\dfrac{1}{2})^3</m></li>
-    <li><m>(\dfrac{1}{2})^{-3}</m></li></ol></p></statement></exercise>
+<exercise number="2"><statement><p><ol label="a">
+    <li>The computer you want cost $1200 when it first came on the market, but after 3 months the price was reduced by 15%.  What was the price then?</li>
+    <li>If the price falls by another 15% next month, what will the price be then?</li> 
+    <li>Did the price fall by the same amount each month?  Why or why not?</li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol label="a" cols="3">
-    <li><m>5 \cdot 2^3</m></li>    
-    <li><m>5 \cdot 2^{-3}</m></li>
-    <li><m>\dfrac{5}{2^3}</m></li>
-    <li><m>\dfrac{1}{5 \cdot 2^3}</m></li>
-    <li><m>\dfrac{5}{2^{-3}}</m></li>
-    <li><m>\dfrac{5^{-2}}{2^{-3}}</m></li></ol></p></statement>
+<exercise number="3"><statement><p>The value of your stock portfolio fell 10% last year, but this year it increased by 10%.  How does the current value of your portfolio compare to what it was two years ago?</p></statement>
 <answer><p><ol label="a">
     <li><m>40</m></li>
     <li><m>\dfrac{5}{8}</m></li>
@@ -51,112 +37,112 @@
     <li><m>40</m></li>
     <li><m>\dfrac{8}{5}</m></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol label="a" cols="3">
-    <li><m>\dfrac{2^3}{5^{-2}}</m></li>    
-    <li><m>\dfrac{2^{-3}}{5^2}</m></li>
-    <li><m>\dfrac{5^{-2}}{2^{-3}}</m></li>
-    <li><m>(\dfrac{5}{2})^{-3}</m></li>
-    <li><m>5^2 \cdot 2^{-3}</m></li>
-    <li><m>5^{-2} \cdot 2^{-3}</m></li></ol></p></statement></exercise>
+<exercise number="4"><statement><p>You got a 5% raise in January, but then in March everyone took a pay cut of 5%.  How does your new salary compare to what it was last December?</p></statement></exercise>
 
-<exercise number="5"><statement><p><ol label="a" cols="2">
-    <li><m>2^{-1}+4^{-1}</m></li>    
-    <li><m>2^{-1} \cdot 4^{-1}</m></li>
-    <li><m>2 \cdot 4^{-1}</m></li>
-    <li><m>2 + 4^{-1}</m></li>
-    <li><m>(2 + 4)^{-1}</m></li>
-    <li><m>(2 \cdot 4)^{-1}</m></li>
-    <li><m>(2^{-1} + 4^{-1})^{-1}</m></li>
-    <li><m>(2^{-1} \cdot 4^{-1})^{-1}</m></li></ol></p></statement>
-<answer><p><ol label="a">
-    <li><m>\dfrac{3}{4}</m></li>    
-    <li><m>\dfrac{1}{8}</m></li>
-    <li><m>\dfrac{1}{2}</m></li>
-    <li><m>\dfrac{9}{4}</m></li>
-    <li><m>\dfrac{1}{6}</m></li>
-    <li><m>2</m></li>
-    <li><m>\dfrac{4}{3}</m></li>
-    <li><m>8</m></li></ol></p></answer></exercise>
-</exercisegroup>
+<exercisegroup cols="2"><introduction><p>For Problems 5-10, solve. Round your answers to two places if necessary.</p>
+</introduction>
 
-<exercisegroup><introduction><p>For Problems 6 and 7, write without negative exponents and simplify. </p></introduction>
+<exercise number="5"><statement><m>768 = 12b^3</m></statement>
+<answer></answer></exercise>
 
-<exercise number="6"><statement><p><ol label="a" cols="2">
-    <li><m>\dfrac{5}{4^{-3}}</m></li>
-    <li><m>(2q)^{-5}</m></li>
-    <li><m>-4x^{-2}</m></li>
-    <li><m>\dfrac{8}{b^{-3}}</m></li></ol></p></statement>
+<exercise number="6"><statement><m>1875 = 3b^4</m></statement>
 </exercise>
 
-<exercise number="7"><statement><p><ol label="a" cols="2">
-    <li><m>(m-n)^{-2}</m></li>
-    <li><m>y^{-2}+y^{-3}</m></li>
-    <li><m>2pq^{-4}</m></li>
-    <li><m>\dfrac{-5y^{-2}}{x^{-5}}</m></li></ol></p></statement>
-<answer><p><ol label="a">
-    <li><m>\dfrac{1}{(m-n)^2}</m></li>
-    <li><m>\dfrac{1}{y^2}+\dfrac{1}{y^3}</m></li>
-    <li><m>\dfrac{2p}{q^4}</m></li>
-    <li><m>\dfrac{-5x^5}{y^2}</m></li></ol></p></answer></exercise>
-</exercisegroup>
+<exercise number="7"><statement><m>14,929.92 = 5000b^6</m></statement>
+<answer></answer></exercise>
 
-<exercise number="8"><statement><p>Write each expression as a power function using negative exponents.<ol label="a" cols="3">
-    <li><m>F(r)=\dfrac{3}{r^4}</m> </li>
-    <li><m>G(w)=\dfrac{2}{5w^3}</m> </li>
-    <li><m>H(z)=\dfrac{1}{(3z)^2}</m> </li></ol></p></statement></exercise>
-
-<exercisegroup><introduction><p>For Problems 9<ndash/>11, solve.</p></introduction>
-    
-<exercise number="9"><statement><m>6x^{-2}=3.84</m></statement>
+<exercise number="8"><statement><m>151,875 = 20,000b^5</m></statement></exercise>
+   
+<exercise number="9"><statement><m>1253 = 260(1+r)^12</m></statement>
 <answer><m>1.25</m></answer></exercise>
 
-<exercise number="10"><statement><m>12+0.04t^{-3}=175.84</m></statement></exercise>
+<exercise number="10"><statement><m>56.27 = 78(1-r)^8</m></statement></exercise>
+</exercisegroup>
+</subexercises>
 
-<exercise number="11"><statement><m>100-0.15v^{-4}=6.25</m></statement>
+<subexercises><title>Skills Practice</title>
+
+<exercise number="11"><statement><p>The population of Summerville is currently <m>12</m> hundred people.<ol>
+    <li><p>Write a formula for the population if it grows at a constant rate of <m>1.5</m> hundred people per year. What is the population after <m>3</m> years?</p></li>
+    <li><p>Write a formula for the population if it has a constant growth factor of <m>1.5</m> per year. What is the population after <m>3</m> years?   </p></li></ol>
+</p></statement>
+<answer><p><ol cols="2">
+    <li><p><m>P = 1200 + 150t</m>;  <m>1650</m></p></li>
+    <li><p><m>P = 1200\cdot 1.5^t</m>;  <m>4050</m></p></li>
+</ol></p></answer></exercise>
+
+<exercise number="12"><statement><p>Delbert's sports car was worth  $<m>45,000</m> when he bought it.<ol>
+    <li><p>Write a formula for the value of the car if it depreciates at a constant rate of $<m>7000</m> per year. What is the value of the car after <m>4</m> years?</p></li>
+    <li><p>Write a formula for the value of the car if it has a constant depreciation factor of <m>0.70</m> per year. What is the value of the car after <m>4</m> years?</p></li>
+</ol></p></statement></exercise>
+
+<exercise number="13"><statement><p>Francine's truck was worth $<m>18,000</m> when she bought it.<ol>
+    <li><p>Write a formula for the value of the truck if it depreciates by $<m>2000</m> per year. What is the value of the truck after <m>5</m> years?</p></li>
+    <li><p>Write a formula for the value of the truck if it depreciates by <m>20\%</m> per year. What is the value of the truck after <m>5</m> years?</p></li>
+</ol></p></statement>
+<answer><p><ol cols="2">
+    <li><p><m>V = 18,000 - 2000t</m>; $<m>8000</m></p></li>
+    <li><p><m>V = 18,000\cdot 0.8^t</m>; $<m>5898.24</m></p></li>
+</ol></p></answer></exercise>
+
+<exercise number="14"><statement><p>The population of Lakeview is currently <m>150,000</m> people.<ol>
+    <li><p>Write a formula for the population if it grows by <m>6000</m> people per year. What is the population after <m>2</m> years?</p></li>
+    <li><p>Write a formula for the population if grows by <m>6\%</m> per year. What is the population after <m>2</m> years?</p></li>
+</ol></p></statement></exercise>
+
+<exercise number="15"><statement><p>The table shows the growth factor for a number of different populations.  For each population, find the percent growth rate.</p>
+<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Population</cell>
+                        <cell>A</cell>
+                        <cell>B</cell>
+                        <cell>C</cell>
+                        <cell>D</cell>
+                        <cell>E</cell></row>
+                    <row> 
+                        <cell>Growth factor</cell>
+                        <cell><m>1.2</m></cell>
+                        <cell><m>1.02</m></cell>
+                        <cell><m>1.075</m></cell>
+                        <cell><m>2.0</m></cell>
+                        <cell><m>2.15</m></cell></row>
+                    <row> 
+                        <cell>Percent growth rate</cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></statement>
 <answer><m>0.2</m></answer></exercise>
-</exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 12-14, use the laws of exponents to simplify and write without negative exponents.</p></introduction>
+<exercise number="16"><statement><p>The table shows the decay factor for a number of different populations.  For each population, find the percent decay rate.</p>
+    <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Population</cell>
+                        <cell>A</cell>
+                        <cell>B</cell>
+                        <cell>C</cell>
+                        <cell>D</cell>
+                        <cell>E</cell></row>
+                    <row> 
+                        <cell>Decay factor</cell>
+                        <cell><m>0.6</m></cell>
+                        <cell><m>0.06</m></cell>
+                        <cell><m>0.96</m></cell>
+                        <cell><m>0.996</m></cell>
+                        <cell><m>0.096</m></cell></row>
+                    <row> 
+                        <cell>Percent decay rate</cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></statement></exercise>
+</subexercises>
 
-<exercise number="12"><statement><p><ol label="a" cols="2">
-    <li><m>a^{-3} \cdot a^8</m></li>
-    <li><m>5^{-4} \cdot 5^{-3}</m></li>
-    <li><m>\dfrac{p^{-7}}{p^{-4}}</m></li>
-    <li><m>(7^{-2})^5</m></li></ol></p>
-    </statement></exercise>
-
-<exercise number="13"><statement><p><ol label="a" cols="3">
-    <li><m>(4x^{-5})(5x^2)</m></li>
-    <li><m>\dfrac{3u^{-3}}{9u^9}</m></li>
-    <li><m>\dfrac{5^6t^0}{5^{-2}t^{-1}}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="3">
-    <li><m>\dfrac{20}{x^3}</m></li>
-    <li><m>\dfrac{1}{3u^{12}}</m></li>
-    <li><m>5^8t</m></li></ol></p></answer></exercise>
-
-<exercise number="14"><statement><p><ol label="a" cols="3">
-    <li><m>(3x^{-2}y^3)^{-2}</m></li>
-    <li><m>(\dfrac{6a^{-3}}{b^2})^{-2}</m></li>
-    <li><m>\dfrac{5h^{-3}(h^4)^{-2}}{6h^{-5}}</m></li></ol></p>
-    </statement></exercise>
-</exercisegroup>
-
-<exercisegroup ><introduction><p>For Problems 15 and 16, write each expression as a sum of terms of the form <m>kx^p</m>.
-</p></introduction>
-
-<exercise number="15"><statement><p><ol label="a" cols="2">
-        <li><m>\dfrac{x}{3} + \dfrac{3}{x}</m></li>
-        <li><m>\dfrac{x-6x^2}{4x^3}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
-    <li><m>\dfrac{1}{3}x+3x^{-1}</m></li>
-    <li><m>\dfrac{1}{4}x^{-2}-\dfrac{3}{2}x^{-1}</m></li></ol></p>
-</answer></exercise>
-
-<exercise number="16"><statement><p><ol label="a" cols="2">
-        <li><m>\dfrac{2}{x^4}(\dfrac{x^2}{2} + \dfrac{x}{2} - \dfrac{1}{4})</m></li>
-        <li><m>\dfrac{x^2}{3}(\dfrac{2}{x^4} - \dfrac{1}{3x^2} + \dfrac{1}{2})</m></li></ol></p>
-</statement></exercise>
-</exercisegroup>
+<subexercises><title>Applications</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, use the distributive law to write each product as a sum of power functions.</p></introduction>
 

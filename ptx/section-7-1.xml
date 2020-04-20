@@ -3,46 +3,128 @@
 
 <section xml:id="ExponentialGrowthandDecay"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponential Growth and Decay</title>
 
+<subsection><title>Introduction</title>
+
+<investigation xml:id="investigation-population-growth"><title>Population Growth</title>
+
+<statement><p>In a laboratory experiment, researchers establish a colony of <m>100</m> bacteria and monitor its growth. The colony triples in population every day.</p>    
+    <sidebyside widths="52% 40%"><p>
+    <ol label="1">
+        <li><p>Fill in the table showing the population <m>P(t)</m> of bacteria <m>t</m> days later.</p></li>
+        <li><p>Plot the data points from the table and connect them with a smooth curve.</p></li>
+        <li><p>Write a function that gives the population of the colony at any time <m>t</m>, in days.
+        <em>Hint:</em> Express the values you calculated in part (1) using powers of <m>3</m>. Do you see a connection between the value of <m>t</m> and the exponent on <m>3</m>?</p></li>
+        <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate domain and range.) The graph should resemble your hand-drawn graph from part (2).</p></li>
+        <li><p>Evaluate your function to find the number of bacteria present after <m>8</m> days. How many bacteria are present after <m>36</m> hours?</p></li>
+    </ol></p>
+        <stack>
+            <tabular halign="center" right="minor" left="minor" bottom="minor">
+                <col top="minor" />
+                <col top="minor" />
+                <col top="none" />
+                <col halign="left"/>
+                        
+                <row bottom="minor">
+                    <cell><m>~t~</m></cell>
+                    <cell><m>P(t)</m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"></cell>
+                </row>
+                <row> 
+                    <cell><m>~0~</m></cell>
+                    <cell><m>100</m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(0)=100}</m></cell>
+                </row>
+                <row> 
+                    <cell><m>~1~</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(1)=100\cdot 3=}</m></cell>
+                </row>
+                <row> 
+                    <cell><m>~2~</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(2)=[100\cdot 3]\cdot 3=}</m></cell>
+                </row>
+                <row> 
+                    <cell><m>~3~</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(3)=}</m></cell>
+                </row>
+                <row> 
+                    <cell><m>~4~</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(4)=}</m></cell>
+                </row>
+                <row> 
+                    <cell><m>~5~</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(5)=}</m></cell>
+                </row>
+            </tabular><p></p>
+    <image source="images/fig-grid-for-bacteria-population"><description>grid for graph of bacteria population
+    </description></image></stack></sidebyside></statement></investigation>
+
+<p>The function in <xref ref="investigation-population-growth" text="type-global"/> describes <term>exponential growth</term>. During each time interval of a fixed length, the population is multiplied by a certain constant amount. In this case, the bacteria population grows by a factor of <m>3</m> every day.</p>
+<sidebyside width="60%"><image source="images/fig-table-bacteria-population"><description>table of bacteria population</description></image></sidebyside>
+
+<p>For this reason, we say that <m>3</m> is the <term>growth factor</term><idx>growth factor</idx> for the function. </p>
+</subsection>
+
 <subsection><title>Growth Factors</title>
 
 <p>Researchers often use cell lines from the fruit fly <em>Drosophila melanogaster</em> to study protein interactions related to cancer and other diseases.  From 60% to 70% of human disease genes are found in <em>Drosophila</em> cells, and gene discoveries in the flies have led to parallel studies in vertebrates.</p>
 
-<p>One milliliter of culture contains about 1 million <em>Drosophila</em> cells, and the population doubles every 24 hours. The table shows the population, <m>P(t)</m>, of <em>Drosophila</em> cells, in millions, as a function of time in days.
+<p>One milliliter of culture contains about 1 million <em>Drosophila</em> cells, and the population doubles every 24 hours. The table shows the population, <m>P(t)</m>, of <em>Drosophila</em> cells, in millions, as a function of time in days.</p>
 
 <sidebyside widths="30% 50%" valigns="middle middle">
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>t</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>6</m></cell></row>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>P(t)</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>1</m></cell></row>
                     <row> 
-                        <cell><m>P(t)</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>8</m></cell>
-                        <cell><m>16</m></cell>
-                        <cell><m>32</m></cell>
-                        <cell><m>64</m></cell></row>
-                    </tabular></sidebyside></p>
-
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>2</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>4</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>8</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>16</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>5</m></cell>
+                        <cell bottom="minor"><m>32</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>6</m></cell>
+                        <cell bottom="minor"><m>64</m></cell></row>
+                    </tabular> 
     <image source="images/fig-???"><description>graph</description></image></sidebyside>
 
-<p>The function  describes <term>exponential growth</m>.  During each time interval of a fixed length the population is <em>multiplied</em> by a certain constant amount, in this case by 2. Because the population grew by a factor of 2 every day, we say that 2 is the <term>growth factor</term> for the function. Functions that describe exponential growth can be expressed in a standard form.</p>
+<p>The function  describes <term>exponential growth</term>.  During each time interval of a fixed length the population is <em>multiplied</em> by a certain constant amount, in this case by 2. Because the population grew by a factor of 2 every day, we say that 2 is the <term>growth factor</term> for the function. Functions that describe exponential growth can be expressed in a standard form.</p>
 
 <assemblage><title>Exponential Growth</title>
 <p>The function
     <me>P(t)=P_0 b^t</me> 
 describes <term>exponential growth</term>, where <m>P_0=P(0)</m> is the <term>initial value</term> of the function and <m>b</m> is the <term>growth factor</term>.</p></assemblage>
 
+<note><p>Look carefully at the difference between a power function, <m>f(x) = kx^p</m>, and this new exponential growth function, <m>P(t)=P_0 b^t</m>. The power function has the variable as its base, and the exponent is a constant.  In the exponential growth function, the base is a constant and the exponent is a variable.</p></note>
+
 <p>For the <em>Drosophila</em> cell population, we have
     <me>P(t)=1 \cdot 2^t</me>
-so <m>P_0 = 1</m> and <m>b=2</m>. You can see that the graph of the function is not linear. In fact, the population grows slowly at first, but eventually grows faster and faster.</p>
+so <m>P_0 = 1</m> and <m>b=2</m>. We can verify that this formula returns the values in the table above. For example, after <m>\alert{4}</m> days we have
+    <me>P(\alert{4}) = 1 \cdot 2^\alert{4} = 16</me>
+as recorded in the table.</p>
 
 <example><statement><p>In 1985, there were about 1.2 million cell phone users world-wide. Since that time, the number has grown by a factor of 1.5 each year.<ol label="a">
     <li>Make a table of values and graph the function.</li>
@@ -50,401 +132,637 @@ so <m>P_0 = 1</m> and <m>b=2</m>. You can see that the graph of the function is 
     <li>How many cell phone users does the formula predict for the year 2000?</li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><p>We let <m>t=0</m> in 1985, so <m>C(0)=1.2</m>, in millions. Each value of <m>C(t)</m> can be obtained by multiplying the previous value by the growth factor, 1.5.
+    <li><p>We let <m>t=0</m> in 1985, so <m>C(0)=1.2</m>, in millions. Each value of <m>C(t)</m> can be obtained by multiplying the previous value by the growth factor, 1.5.</p>
     <sidebyside widths="30% 50%" valigns="middle middle">
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>C(t)</m></cell>
+                        <cell><m></m></cell></row>
+                    <row><cell><m>0</m></cell>
+                        <cell><m>1.2</m></cell>
+                        <cell><m></m></cell></row>
+                    <row><cell><m>1</m></cell>
+                        <cell><m>1.8</m></cell>
+                        <cell><m>\blert{1.2\times 1.5 = 1.8}</m></cell></row>
+                    <row><cell><m>2</m></cell>
+                        <cell><m>2.7</m></cell>
+                        <cell><m>\blert{1.8\times 1.5 = 2.7}</m></cell></row>
+                    <row><cell><m>3</m></cell>
+                        <cell><m>4.05</m></cell>
+                        <cell><m>\blert{2.7\times 1.5 = 4.05}</m></cell></row>
+                    <row><cell><m>4</m></cell>
+                        <cell><m>6.08</m></cell>
+                        <cell><m>\blert{4.05\times 1.5 = 6.08}</m></cell></row>
+                    <row><cell><m>5</m></cell>
+                        <cell><m>9.1</m></cell>
+                        <cell><m>\blert{6.08\times 1.5 = 9.1}</m></cell></row>
+                    <row><cell><m>6</m></cell>
+                        <cell><m>13.7</m></cell>
+                        <cell><m>\blert{9.1\times 1.5 = 13.7}</m></cell></row>
+                    <row><cell><m>7</m></cell>
+                        <cell><m>20.5</m></cell>
+                        <cell><m>\blert{13.7\times 1.5 = 20.5}</m></cell></row>
+                  </tabular>
+        <image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>The initial value of the function is <m>C_0 = C(0) = 1.2</m> million. The annual growth factor is <m>b=1.5</m>, so the formula is
+        <me>C(t) = 1.2(1.5)^t</me></li>
+    <li>The year 2000 is 15 years after 1985, so we evaluate the function for <m>t = \alert{15}</m>. 
+        <me>C(\alert{15}) = 1.2(1.5)^{\alert{15}} = 525.47</me>
+    The formula predicts that over 525 million people used cell phones in 2000.</li></ol></p></solution></example>
+
+<p>In the examples above, you can see that the graphs of the functions are not linear. In each case, the function grows slowly at first, but eventually grows faster and faster.</p>
+
+<warning><p>Be careful when evaluating exponential growth functions.  In Example 1c, note that 
+    <me>1.2\blert{(1.5)^{15}} = 1.2 \times \blert{437.89} = 525.47~~~~~~~\blert{\text{Compute the power first.}}</me>              
+According to the order of operations, we compute the power <m>1.5^{15}</m> first, and then multiply the result by 1.2.</p></warning>
+
+<exercise><title>QuickCheck 1</title>
+<statement><p>A population grows according to the formula <m>P(t) = 800(1.06)^t</m>, where <m>t</m> is in years.
+<ol label="a">
+    <li>What was the starting value of the population?</li>
+    <li>What was the population one year later?</li>
+    <li>What does 1.06 tell you about the population?</li>
+    <li><p>Choose the correct first step to evaluate <m>800(1.06)^5</m>:<ol label="i">
+        <li>Multiply 800 by 1.06</li> 
+        <li>Raise 1.06 to the 5th power</li></ol></p></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>800</li>
+    <li>848</li>
+    <li>The population grew by a factor of 1.06 each year.</li>
+    <li>Raise 1.06 to the 5th power</li></ol></p></answer>
+</exercise>
+
+<exercise ><title>Practice 1</title>
+<statement><p>A colony of rabbits started with a population of 20 rabbits and grows by a factor of 1.26 every month.<ol label="a">  
+    <li>Complete the table for the number of rabbits <m>P(t)</m> after <m>t</m> months, and graph the function.      <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>0</m></cell>
                         <cell><m>1</m></cell>
                         <cell><m>2</m></cell>
                         <cell><m>3</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>6</m></cell>
-                        <cell><m>7</m></cell></row>
+                        <cell><m>4</m></cell></row>
                     <row> 
-                        <cell><m>C(t)</m></cell>
-                        <cell><m>1.2</m></cell>
-                        <cell><m>1.8</m></cell>
-                        <cell><m>2.7</m></cell>
-                        <cell><m>4.05</m></cell>
-                        <cell><m>6.08</m></cell>
-                        <cell><m>9.1</m></cell>
-                        <cell><m>13.7</m></cell>
-                        <cell><m>20.5</m></cell></row>
-                    <row> 
+                        <cell><m>P(t)</m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
-                        <cell><m>1.2 \times 1.5 = 1.8</m></cell>
-                        <cell><m>1.8 \times 1.5 = 2.7</m></cell>
-                        <cell><m>2.7 \times 1.5 = 4.05</m></cell>
-                        <cell><m>4.05 \times 1.5 = 6.08</m></cell>
-                        <cell><m>6.08 \times 1.5 = 9.1</m></cell>
-                        <cell><m>9.1 \times 1.5 = 13.7</m></cell>
-                        <cell><m>13.7 \times 1.5 = 20.5</m></cell></row>
-                    </tabular></sidebyside></p>
-
-        <image source="images/fig-???"><description>graph</description></image></sidebyside></p></li>
-    <li>The initial value of the function is <m>C_0 = C(0) = 1.2</m> million. The annual growth factor is <m>b=1.5</m>, so the formula is
-        <me>C(t) = 1.2(1.5)^t</me></li>
-    <li>The year 2000 is 15 years after 1985, so we evaluate the function for <m>\alert{15}t=</m>. 
-        <me>C(\alert{15}) = 1.2(1.5)^{\alert{15}} = 525.47</me>
-    The formula predicts that over 525 million people used cell phones in 2000.</li></ol></p></solution></example>
-
-<warning><p><ol>
-    <li><p>A negative exponent does <em>not</em> mean that the power is negative! For example,
-    <me>2^{-3}\ne -2^3</me></p></li>
-    <li><p>In <xref ref="example-integer-exponents" text="type-global" />b, note that 
-    <me>9x^{-2} \ne  \frac{1}{9x^2}</me>
-    The exponent, <m>-2</m>, applies only to the base <m>x</m>, not to <m>9</m>.</p></li>   
-</ol></p></warning>
-
-<exercise><title>QuickCheck 1</title>
-<statement><p>True or false.<ol label="a">
-    <li>Negative exponents are used to denote reciprocals.</li>
-    <li>We can write <m>\dfrac{1}{4x^3}</m> as <m>4x^{-3}</m>.</li>
-    <li>Any number raised to the zero power is zero.</li>
-    <li><m>(-4)^{-3}=4^3</m></li></ol></p></statement>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></li>       
+    <li>Write a formula for the function <m>P(t)</m>.</li>
+    <li>How many rabbits will there be after 1 year?</li></ol></p></statement>
 <answer><p><ol label="a">
-    <li>True</li>
-    <li>False</li>
-    <li>False</li>
-    <li>False</li></ol></p></answer>
-</exercise>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>P(t)</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>32</m></cell>
+                        <cell><m>40</m></cell>
+                        <cell><m>50</m></cell></row>
+                    </tabular></sidebyside>       
+        <sidebyside><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><p><m>P(t)=20(1.26)^t</m></p></li>
+    <li>25</li></ol></p></answer></exercise>
+</subsection>
 
-<exercise ><title>Practice 1</title>
-    <webwork><pg-code>
-            Context("Fraction");
-            LimitedPowers::OnlyPositiveIntegers();
-            $a = Compute("1/5**4");
-            Context("RationalFunction");
-            $f = Formula("5/x**4");
-        </pg-code>
-    <statement><p>Write each expression without using negative exponents.<ol label="a" cols="2">
-                <li><p><m>5^{-4}=</m><var name="$a" width="10"/> </p></li>
-                <li><p><m>5x^{-4}=</m><var name="$f" width="10"/></p></li></ol></p>
-    </statement>
-    <solution><p><ol label="a" cols="2">
-            <li><p><m>\dfrac{1}{5^4}</m> </p></li>
-            <li><p><m>\dfrac{5}{x^4} </m></p></li></ol></p>
-    </solution>
-    </webwork>
-</exercise>
+<subsection><title>Comparing Linear Growth and Exponential Growth</title>
 
-<p>In the next example, we see how to evaluate expressions that contain negative exponents and how to solve equations involving negative exponents.</p>
+<p>It may be helpful to compare linear growth <idx>linear growth</idx> and <idx>exponential growth</idx> exponential growth. Consider the two functions
+    <me>L(t) = 5 + 2t ~\text{ and } ~ E(t) = 5 \cdot 2^t ~~~ (t \ge 0)</me>
+whose graphs are shown below.</p>
+<sidebyside widths="15% 15% 65%">
+<stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>L(t)</m></cell></row>
+        <row>
+            <cell><m>0</m></cell>
+            <cell><m>5</m></cell></row>
+        <row>
+            <cell><m>1</m></cell>
+            <cell><m>7</m></cell></row>
+        <row>
+            <cell><m>2</m></cell>
+            <cell><m>9</m></cell></row>
+        <row>
+            <cell><m>3</m></cell>
+            <cell><m>11</m></cell></row>
+        <row>
+            <cell><m>4</m></cell>
+            <cell><m>13</m></cell></row>
+    </tabular><p>Slope <m>m=2</m></p></stack>
 
-<example xml:id="example-BMI-index"><statement><p>The body mass index, or BMI, is one measure of a person’s physical fitness. Your body mass index is defined by
-    <me>\text{BMI} = wh^{-2}</me>
-where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters. The World Health Organization classifies a person as obese if his or her BMI is <m>25</m> or higher.<ol label="a">
-    <li><p>Calculate the BMI for a woman who is <m>1.625</m> meters (<m>64</m> inches) tall and weighs <m>54</m> kilograms (<m>120</m> pounds).</p></li>
-    <li><p>For a fixed weight, how does BMI vary with height?</p></li>
-    <li><p>The world’s heaviest athlete is the amateur sumo wrestler Emanuel Yarbrough, who weighs <m>319</m> kg (<m>704</m> pounds). What height would Yarbrough have to be to have a BMI under <m>25</m>?</p></li>
-</ol></p></statement>
+<stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor">
+            <cell><m>t</m></cell>
+            <cell><m>E(t)</m></cell></row>
+        <row>
+            <cell><m>0</m></cell>
+            <cell><m>5</m></cell></row>
+        <row>
+            <cell><m>1</m></cell>
+            <cell><m>10</m></cell></row>
+        <row>
+            <cell><m>2</m></cell>
+            <cell><m>20</m></cell></row>
+        <row>
+            <cell><m>3</m></cell>
+            <cell><m>40</m></cell></row>
+        <row>
+            <cell><m>4</m></cell>
+            <cell><m>80</m></cell></row>
+    </tabular><p>Growth factor <m>b=2</m></p></stack>
+
+<image source="images/fig-linear-vs-exponential"><description>graph of linear and exponential</description></image>
+</sidebyside>
+
+<p><m>L</m> is a linear function with <m>y</m>-intercept <m>5</m> and slope <m>2</m>; <m>E</m> is an exponential function with initial value <m>5</m> and growth factor <m>2</m>. In a way, the growth factor of an exponential function is analogous to the slope of a linear function: Each measures how quickly the function is increasing.</p>
+    
+<p> However, for each unit increase in <m>t</m>, <m>2</m> units are <em>added</em> to the value of <m>L(t)</m>, whereas the value of <m>E(t)</m> is <em>multiplied</em> by <m>2</m>. An exponential function with growth factor <m>2</m> eventually grows much more rapidly than a linear function with slope <m>2</m>, as you can see by comparing the graphs or the function values in the tables.</p>
+
+<example xml:id="example-compare-linear-vs-exponential"><statement>
+<p>A solar energy company sold $<m>80,000</m> worth of solar collectors last year, its first year of operation. This year its sales rose to $<m>88,000</m>. The marketing department must estimate its projected sales for the next 3 years.<ol label="a">
+    <li>If the marketing department predicts that sales will grow linearly, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow linearly.</li>
+    <li>If the marketing department predicts that sales will grow exponentially, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow exponentially.</li>
+    </ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><p>We evaluate the formula to find
-        <me>\text{BMI} = 54(1.625^{-2})= 54(\dfrac{1}{1.625^2})= 20.45</me></p></li>
-    <li><p><m>\text{BMI} = wh^{-2} = \dfrac{w}{h^2}</m>, so BMI varies inversely with the square of height. That is, for a fixed weight, BMI decreases as height increases.</p></li>
-    <li><p>To find the height that gives a BMI of <m>25</m>, we solve the equation <m>25 = 319h^{-2}</m>. Note that the variable <m>h</m> appears in the denominator of a fraction, so we begin by clearing the denominator—in this case we multiply both sides of the equation by <m>h^2</m>.
-        <md><mrow>25 \amp = \frac{319}{h^2} \amp\amp \blert{\text{Multiply both sides by }h^2.}</mrow>
-            <mrow>25h^2 \amp = 319 \amp\amp \blert{\text{Divide both sides by }25.}</mrow>
-            <mrow>h^2 \amp = 12.76 \amp\amp \blert{\text{Extract square roots.}}</mrow> 
-            <mrow>h \amp\approx 3.57</mrow></md>
-    To have a BMI under <m>25</m>, Yarbrough would have to be over <m>3.57</m> meters, or <m>11</m> feet <m>8</m> inches tall. (In fact, he is <m>6</m> feet <m>8</m> inches tall.)</p></li>
-</ol></p></solution></example>
-
-<exercise><title>Practice 2</title>
-    <webwork><pg-macros>
-            loadMacros(
-              "parserRoot.pl"
-            ) ;
-        </pg-macros><pg-code>
-            parser::Root->Enable;
-            Context()->operators->undefine("^","**");
-            Context()->functions->disable("All");
-            Context()->functions->enable("sqrt");
-            $a = Compute("root(3,2/15)");
-        </pg-code>
-    <statement><p>Solve the equation <m>0.2x^{-3} = 1.5</m></p>
-            <p><m>x=</m><var name="$a" width="12"/> </p>
-            <instruction>Enter "root(n,x)" for  <m>\sqrt[n]{x} </m>.</instruction>
-    </statement>
-        <hint><p><m>\blert{\text{Rewrite without a negative exponent.}}</m></p>
-            <p><m>\blert{\text{Clear the fraction.}}</m></p>
-            <p><m>\blert{\text{Isolate the variable.}}</m></p></hint>
-    <solution><p><m>x=\sqrt[3]{\dfrac{2}{15}}\approx 0.51 </m></p>
-        </solution>
-    </webwork>
-</exercise>
+    <li><p>Let <m>L(t)</m> represent the company's total sales <m>t</m> years after starting business, where <m>t = 0</m> is the first year of operation. If sales grow linearly, then <m>L(t)</m> has the form <m>L(t) = mt + b</m>. Because <m>L(0) = 80,000</m>, the intercept <m>b</m> is <m>80,000</m>. The slope <m>m</m> of the graph is
+        <me>\dfrac{\Delta S}{\Delta t}= \dfrac{8000 \text{ dollars}}{1\text{ year}}= 8000 \text{ dollars/year}</me>
+    where <m>\Delta S = 8000</m> is the increase in sales during the first year. Thus, <m>L(t) = 8000t + 80,000</m>, and sales grow by adding $<m>8000</m> each year. The expected sales total for the next year is
+            <me>L(2) = 8000(2) + 80,000 = 96,000</me></p></li>
+    <li><p>Let <m>E(t)</m> represent the company's sales assuming that sales will grow exponentially. Then <m>E(t)</m> has the form <m>E(t) = E_0 b^t</m>, and the initial value is <m>E_0 = 80,000</m>. We find the growth factor in sales over the first year by dividing <m>E(1)</m> by <m>E_0</m>:
+        <md><mrow>E(1) \amp = E_0 b^1</mrow>
+            <mrow> \text{so}~~b \amp = \dfrac{E(1)}{E_0} = \dfrac{88,000}{80,000} = 1.1</mrow></md> 
+    Thus, <m>E(t) = 80,000(1.1)^t</m>, and the expected sales total for the next year is
+            <me>E(2) = 80,000(1.10)^2= 96,800</me></p></li>
+    </ol></p>
+    <p>We evaluate each function at several points to obtain the graphs shown in the figure.</p>    
+        <sidebyside widths="45% 45%">
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>L(t)</m></cell>
+                    <cell><m>E(t)</m></cell></row>
+                <row>
+                    <cell><m>0</m></cell>
+                    <cell><m>80,000</m></cell>
+                    <cell><m>80,000</m></cell></row>
+                <row>
+                    <cell><m>1</m></cell>
+                    <cell><m>88,000</m></cell>
+                    <cell><m>88,000</m></cell></row>
+                <row>
+                    <cell><m>2</m></cell>
+                    <cell><m>96,000</m></cell>
+                    <cell><m>96,800</m></cell></row>
+                <row>
+                    <cell><m>3</m></cell>
+                    <cell><m>104,000</m></cell>
+                    <cell><m>106,480</m></cell></row>
+                <row>
+                    <cell><m>4</m></cell>
+                    <cell><m>112,000</m></cell>
+                    <cell><m>117,128</m></cell></row>
+            </tabular>
+            <image source="images/fig-linear-vs-exponential2"><description>linear and exponential growth</description></image></sidebyside>
+</solution></example>
 
 </subsection>
 
-<subsection><title>Power Functions</title>
+<subsection><title>Exponential Decay</title>
 
-<p>The functions that describe direct and inverse variation are part of a larger family of functions called <term>power functions</term>.</p> 
+<p>In the examples above, exponential growth was modeled by increasing functions of the form
+    <me>P(t) = P_0 b^t</me>
+ where the growth factor, <m>b</m>, is a number greater than 1. If we multiply the function value by a number smaller than 1, the function values will decrease. Thus, if <m>0 \lt b \lt 1</m>, then <m>P(t) = P_0b^t</m> is a <em>decreasing</em> function. In this case, we say that the function describes <term>exponential decay</term>, and the constant <m>b</m> is called the <term>decay factor</term><idx>decay factor</idx>.</p>
 
-<assemblage><title>Power Function</title>
-    <p>A function of the form
-        <me>f(x) = kx^p</me>
-    where <m>k</m> and <m>p</m> are nonzero constants, is called a <term>power function</term><idx>power function</idx>.
-    </p></assemblage>
+ <investigation xml:id="investigation-exponential-decay"><title>Exponential Decay</title>
 
-<p>Examples of power functions are
-    <me>V(r ) = \frac{4}{3}\pi r^3 ~~\text{ and }~~L(T ) = 0.8125T^2</me>
-In addition, the basic functions
-    <me>f (x) = \frac{1}{x} ~~\text{ and }~~ g(x) = \frac{1}{x^2}</me>
-which we studied in <xref ref="chap2" text="type-global"/> can be written as
-    <me>f (x) = x^{-1} ~~\text{ and }~~ g(x) = x^{-2} </me>
-Their graphs are shown below. Note that the domains of power functions with negative exponents do not include zero.</p>
-    <sidebyside width="50%"><image source="images/fig-basic-reciprocal-functions"  ><description>graphs of the two basic reciprocal functions</description></image></sidebyside>
+ <statement><p>A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals), the population declined to approximately 0.90 of its earlier figure.</p>
+    <sidebyside><tabular halign="center" right="minor" left="minor" bottom="minor"><col top="minor" /><col top="minor" /><col top="none"/><col halign="left"/>                      
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>P(t)</m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"></cell></row>
+                <row> 
+                    <cell><m>0</m></cell>
+                    <cell><m>5000</m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(0)=5000}</m></cell></row>
+                <row> 
+                    <cell><m>10</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(10)=5000\cdot 0.90=}</m></cell></row>
+                <row> 
+                    <cell><m>20</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(20)=[5000\cdot 0.90]\cdot 0.90=}</m></cell></row>
+                <row> 
+                    <cell><m>30</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(3)=}</m></cell></row>
+                <row> 
+                    <cell><m>40</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(4)=}</m></cell></row>
+                <row> 
+                    <cell><m>50</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(5)=}</m></cell></row>
+            </tabular></sidebyside>
+        <sidebyside widths="62% 32%" valigns="middle middle"><p>
+    <ol label="1"> 
+        <li><p>Fill in the table showing the population <m>P(t)</m> of the town <m>t</m> years after 1940.</p></li>
+        <li><p>Plot the data points and connect them with a smooth curve. </p></li>
+        <li><p>Write a function that gives the population of the town at any time <m>t</m> in years after 1940.
+            <hint><p>Express the values you calculated in part (1) using powers of <m>0.90</m>. Do you see a connection between the value of <m>t</m> and the exponent on <m>0.90</m>?</p></hint></p></li>
+        <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate domain and range.) The graph should resemble your hand-drawn graph from part (2).</p></li>
+        <li>Evaluate your function to find the population of the town in 1995. What was the population in 2000?</li>
+    </ol></p>      
+        <image source="images/fig-grid-for-population-decay"><description>grid </description></image></sidebyside>
+</statement></investigation>
 
-<example xml:id="example-identify-power-functions"><statement><p>Which of the following are power functions?<ol label="a" cols="3">
-    <li><p><m>f(x) = \dfrac{1}{3}x^4 + 2</m></p></li>
-    <li><p><m>g(x) = \dfrac{1}{3x^4}</m></p></li>
-    <li><p><m>h(x) = \dfrac{x + 6}{x^3}</m></p></li>
+<example><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined by a factor of 0.942 each year.<ol label="a">
+    <li>In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of <m>t</m>, the number of years after 1944.</li>
+    <li>Graph the function from 1944 to 2000.</li>
+    <li>In 1998, only 3.3% of beer was sold in refillable bottles. How well does the model predict this number?</li></ol>
+</p></statement>
+
+<solution><p><ol label="a">
+    <li>We let <m>t=0</m> in 1944, so that <m>P_0 = 98</m>. The formula is
+    <me>P(t)=P_0 b^t = 90(0.942)^t</me></li>
+    <li><p>We evaluate the formula for several values of <m>t</m>, and plot the data points.
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Year</cell>
+                        <cell>1950</cell>
+                        <cell>1965</cell>
+                        <cell>1980</cell>
+                        <cell>1995</cell></row>
+                    <row><cell><m>t</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>21</m></cell>
+                        <cell><m>36</m></cell>
+                        <cell><m>51</m></cell></row>
+                    <row> 
+                        <cell><m>P(t)</m></cell>
+                        <cell>68.5%</cell>
+                        <cell>27.9%</cell>
+                        <cell>11.4%</cell>
+                        <cell>4.7%</cell></row>
+                    </tabular></sidebyside>       
+        <sidebyside><image source="images/fig-???"><description>graph</description></image></sidebyside></p></li>
+    <li>In 1998, <m>t=54</m>, and
+            <me>P(54) = 98(0.942)^{54} = 3.89</me>
+        The model predicts that 3.89% of beer was sold in refillable bottles in 1998, just slightly above the actual figure.</li></ol></p>
+</solution></example>
+
+<exercise><title>Practice 2</title>
+<statement><p>The number of perch in Hidden Lake has declined to 0.88 of its previous value every year since 2000, when the perch population was estimated at 8000. <ol label="a">
+    <li>Let <m>P(t)</m> represent the perch population <m>t</m> years after 2000. Complete the table. 
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>20</m></cell></row>
+                    <row> 
+                        <cell><m>P(t)</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></li>                         
+    <li>Write a formula for the function <m>P(t)</m>.</li>
+    <li>Graph the function, using the table values to choose an appropriate window.</li>
+    <li>What does the model predict for the perch population in 2025?</li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>20</m></cell></row>
+                    <row> 
+                        <cell><m>P(t)</m></cell>
+                        <cell><m>6195</m></cell>
+                        <cell><m>2877</m></cell>
+                        <cell><m>2228</m></cell>
+                        <cell><m>1176</m></cell>
+                        <cell><m>621</m></cell></row>
+                    </tabular></sidebyside></li> 
+        <li><sidebyside><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <li>327</li></ol></p>   
+    </answer>
+</exercise>
+
+<exercise><title>QuickCheck 2</title>
+<statement><p><ol label="a">
+    <li>We can tell whether a linear function is increasing or decreasing by whether its slope is <fillin characters="6"/>.</li>
+    <li>We can tell whether an exponential function is increasing or decreasing by whether <m>b</m> is <fillin characters="6"/>.</li>
+    <li>If a linear function has slope 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one?</li>
+    <li>If an exponential function has growth factor 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one?</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>positive or negative</li>
+    <li>greater than 1 or less than 1</li>
+    <li>Add 1.5</li>
+    <li>Multiply by 1.5</li></ol></p></answer></exercise>
+</subsection>
+
+<subsection><title>Percent Increase</title>
+
+<p>Exponential growth is often described as growth by a certain percent increase. Suppose the town of Lakeview had 4000 residents in the year 2000, and grew at a rate of 5% per year. This means that each year we add 5% of last year's population to find the current population, <m>P(t)</m>. Thus
+    <md><mrow>\text{In 2000,} ~~P(0) \amp = 4000</mrow>
+        <mrow>\text{In 2001,}~~P(1) \amp = 4000 + \blert{0.05(4000)} = 4200 \amp\amp \blert{\text{Add 5% of}~P(0).}</mrow>
+        <mrow>\text{In 2002,}~~P(2) \amp = 4200 + \blert{0.05(4200)} = 4410 \amp\amp \blert{\text{Add 5% of}~P(1).}</mrow></md>
+and so on. Now here is the important observation about percent increase:</p>  
+
+<p><me>\text{Adding 5% of the old population is the same as multiplying the old population by 1.05.}</me>
+
+    <md><mrow>4000 + 0.05(4000) \amp = 4000(1+0.05) = 4000(1.05) \amp \amp \blert{\text{Factor out 4000.}}</mrow>
+        <mrow>4200 + 0.05(4200) \amp = 4200(1+0.05) = 4200(1.05) \amp \amp \blert{\text{Factor out 4000.}}</mrow></md></p>
+
+<p>Thus, we can find the current population by multiplying the old population by 1.05. In other words,</p>
+
+ <p><me>\text{Growing by 5% is the same as growing by a factor of 1.05.}</me></p>  
+
+<p>A formula for the population of Lakeview  years after 2000 is
+    <me>P(t) = 4000(1.05)</me> 
+This formula describes exponential growth with a growth factor of <m>b=1.05</m>. In general, a function that grows at a percent rate <m>r</m>, where <m>r</m> is expressed as a decimal, has a growth factor of <m>b=1+r</m>.</p>
+
+<assemblage><title>Growth by a Constant Percent</title>
+    <p>The function
+        <me>P(t) =P_0 (1+r)^t</me>
+    describes exponential growth at a constant percent rate of growth, <m>r</m>.</p>
+    <p> The <term>initial value</term> of the function is <m>P_0 = P(0)</m>, and <m>b=1+r</m> is the <term>growth factor</term>.</p></assemblage>
+
+<p>Many quantities besides population can grow by a fixed percent. For example, an inflation rate gives the percent rate at which prices are rising.</p>
+
+<example><statement><p>During a period of rapid inflation, prices rose by 12% each year. At the beginning of this time, a loaf of bread cost $2.<ol label="a">
+    <li>Make a table showing the cost of bread over the next four years.</li>
+    <li>Write a function that gives the price of a loaf of bread  years after inflation began.</li>
+    <li>How much did a loaf of bread cost after 6 years?  After 30 months?</li>
+    <li>Graph the function found in (b).</li>
 </ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><p>This is not a power function, because of the addition of the constant term.</p></li>
-    <li><p>We can write <m>g(x) = \frac{1}{3}x^{-4}</m>, so <m>g</m> is a power function.</p></li>
-    <li><p>This is not a power function, but it can be treated as the sum of two power functions, because <m>h(x) = x^{-2} + 6x^{-3}</m>.</p></li>
-</ol></p></solution></example>
+    <li><p>The percent increase in the cost of bread is 12% every year. Therefore, the growth factor for the cost of bread is <m>1+0.12 = 1.12</m> every year.  If <m>P(t)</m> represents the price of bread after <m>t</m> years, then <m>P(0)=2</m>, and we multiply the price by 1.12 every year, as shown in the table.</p>
+        <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>P(t)</m></cell>
+                        <cell bottom="minor"><m></m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>P(0)=2.00</m></cell>
+                        <cell bottom="minor"><m>2</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>P(1)=2.24</m></cell>
+                        <cell bottom="minor"><m>2(1.12)</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>P(2)=2.51</m></cell>
+                        <cell bottom="minor"><m>2(1.12)^2</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>P(3)=2.81</m></cell>
+                        <cell bottom="minor"><m>2(1.12)^3</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>P(4)=3.15</m></cell>
+                        <cell bottom="minor"><m>2(1.12)^4</m></cell></row>                 
+                    </tabular></sidebyside></p> </li>
+    <li>Look closely at the third column of the table. After <m>t</m> years of inflation the original price of $2 has been multiplied <m>t</m> times by a factor of 1.12.  Thus, 
+        <me>P(t)=2(1.12)^t</me></li>
+    <li>To find the price of bread at any time after inflation began, we evaluate the function at the appropriate value of <m>t</m>.
+        <me>P(\alert{6}) = 2(1.12)^{\alert{6}} \approx 3.95</me>
+    After 6 years the price was $3.95.  Thirty months is 2.5 years, so we evaluate <m>P(2.5)</m>.
+        <me>P(\alert{2.5}) = 2(1.12)^{\alert{2.5}} \approx 2.66</me>
+    After 30 months the price was $2.66.</li>
+    <li><p>To graph the function   
+        <me>P(t) = 2(1.12)^t</me>
+    we evaluate it for several values, as shown in the table.  We plot the points and connect them with a smooth curve to obtain the graph shown.</p>  
+        <sidebyside><image source="images/fig-???"><description>graph</description></image></sidebyside></li></ol></p>
+</solution></example>
 
-<exercise><title>QuickCheck 2</title>
-<statement><p>True or false.<ol label="a">
-    <li>The exponent in a power function must be positive.</li>
-    <li>Direct and inverse variation are examples of power functions.</li>
-    <li>If <m>f</m> is a power function, then <m>f(0)=0</m>.</li>
-    <li>The sum of two power functions is not always a power function.</li>
+<exercise><title>QuickCheck 3</title>
+<statement><p>Fill in the blanks.<ol label="a">
+    <li>Increasing by 10% is the same as multiplying by <fillin characters="6"/>.</li>
+    <li>If a population grows by 2% annually, its growth factor is <fillin characters="6"/>.</li>
+    <li>If a population grows by 46% annually, its growth factor is <fillin characters="6"/>.</li>
+    <li>If a population grows by 100% annually, its growth factor is <fillin characters="6"/>.</li>
 </ol></p></statement>
 <answer><p><ol label="a">
-    <li>False</li>
-    <li>True</li>
-    <li>False</li>
-    <li>True</li></ol></p></answer>
+    <li>1.10</li>
+    <li>1.02</li>
+    <li>1.46</li>
+    <li>2</li></ol></p></answer>
 </exercise>
 
 <exercise><title>Practice 3</title>
-    <webwork><pg-code>
-            Context(Fraction);
-            $a = Compute("1/4");
-            $b = Compute("2/5");
-            $g = Formula("$a*x^(-1)");
-            $h = Formula("$b*x^(-6)");
-            Context()->operators->undefine("/");
-            $f = Formula("12*x^(-2)");
-            
-#           Context()->operators->redefine("/");
-  
-        </pg-code>
-    <statement><p>Write each function as a power function in the form <m>y = kx ^p</m>.</p> 
-            <p>For this exercise, enter rational numbers in decimal form. For example, enter "0.5" rather than "1/2".</p>
-            <p><ol label="a">
-                <li><p><m>f(x) = \dfrac{12}{x^2}=</m><var name="$f" width="10"/> </p></li>
-                <li><p><m>g(x) = \dfrac{1}{4x}=</m><var name="$g" width="10"/></p></li>
-                <li><p><m>h(x) = \dfrac{2}{5x^6}=</m><var name="$h" width="10"/></p></li></ol></p>
-    </statement>
-    <solution><p><ol label="a" cols="3">
-                <li><p><m>f(x) = 12x^{-2}</m></p></li>
-                <li><p><m>g(x)=\dfrac{1}{4}x^{-1}=0.25 x^{-1}</m></p></li>
-                <li><p><m>h(x)=\dfrac{2}{5}x^{-6}=0.4 x^{-6}</m></p></li></ol></p>
-    </solution>
-    </webwork>
+<statement><p>Tombstone, Arizona was the most famous "boomtown" during the gold rush in the American west.  It was established in December, 1879, after the discovery of a large silver deposit nearby.  The original town had 40 dwellings and a population of 100.  Over the next two to three years, the population grew at an average rate of 19% per month.
+<ol label="a">
+    <li>What was the population one year later, in December, 1880?</li>
+    <li>Write a formula for <m>P(t)</m>, the population of Tombstone <m>t</m> months after its founding.</li>
+    <li><p>Complete the table and sketch a graph of <m>P(t)</m>.</p>
+        <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>25</m></cell></row>
+                    <row> 
+                        <cell><m>P(t)</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li>Tombstone's peak population was about 10,000 people. Use your graph to estimate the time it took to reach that figure.</li></ol></p></statement>
+<answer><p><ol label="a">
+            <li>806</li>
+            <li><m>P(t)=100(1.19)^t</m></li>
+            <li><sidebyside><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+            <li>About 26 months</li></ol></p></answer>
 </exercise>  
 
-<p>Most applications are concerned with positive variables only, so many models use only the portion of the graph in the first quadrant.</p>
+<p>Compound interest is another example of exponential growth. Suppose you deposit a sum of money into an account that pays 5% interest compounded annually. Each year, 5% of your current balance is added to your account as interest, so your balance grows by a factor of 1.05. In general, we have the following formula.</p>
 
-<example><statement><p>The intensity of the radiation from our Sun varies inversely with distance.<ol label="a">  
-    <li>Use a negative exponent to write a formula for the intensity <m>I</m> as a function of <m>d,~I=f(d)</m>.</li>
-    <li>The planet Mercury is 0.387 AU (Astronomical Units) distant from the Sun, and the intensity of radiation at its surface is 9147 watts per square meter.  Find the constant of proportionality in the formula for <m>I</m>.</li>
-    <li>Graph  <m>I=f(d)</m>.</li>
-    <li>Earth is 1 AU from the sun.  What is the intensity of the Sun's radiation at the surface of the Earth?</li>
-    <li>The surface of Jupiter receives 50.63 watts per square meter of the Suns' radiation. How far is Jupiter from the Sun?</li></ol></p></statement>
+<assemblage><title>Compound Interest</title>
+<p>If a <term>principal</term> of <m>P</m> dollars is invested in an account that pays an interest rate <m>r</m> compounded annually, the <term>balance</term> <m>B</m> after <m>t</m> years is given by
+    <me>B=P(1+r)^t</me></p></assemblage>
+
+</subsection>
+
+<subsection><title>Percent Decrease</title>
+
+<p>We have seen that a percent increase of <m>r</m> (in decimal form) corresponds to a growth factor of <m>b=1+r</m>. A percent decrease of <m>r</m> corresponds to a decay factor of <m>b=1-r</m>. For example, if a population declines by 25% each year, then each year the new population is 75% of its previous value. So
+    <me>b = 1-0.25  = 0.75</me>
+and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us the population remaining, not the amount of decline.</p>
+
+<example><statement><p>According to <em>Context</em> magazine: "Computing prices have been falling exponentially for the past 30 years and will probably stay on that curve for another couple of decades." In fact, prices have been falling at a rate of 37% every year. Suppose an accounting firm invests $50,000 in new computer equipment.<ol label="a">
+    <li>Write a formula for the value <m>V(t)</m> of the equipment <m>t</m> years from now.</li>
+    <li>What will the equipment be worth in 5 years?</li>
+    <li>Graph the function <m>V(t)</m> for <m>0 \le t \le 20</m>.</li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li>If we use <m>k</m> for the constant of proportionality, then <m>I=\dfrac{k}{d^2}</m>.  Rewriting this equation with a negative exponent gives <m>I=kd^{-2}</m>.</li>
-    <li><p>We substitute <m>T=9147</m> and <m>d=0.387</m> to obtain
-        <md><mrow>9147 \amp = k(0.387)^{-2}</mrow>
-            <mrow>9147 \amp = \dfrac{k}{(0.387)^2} \amp \amp \blert{\text{Multiply both sides by}~0.387^2.}</mrow> 
-            <mrow>1369.9 \amp = k</mrow></md>
-     Thus, <m>I=f(d)=1370d^{-2}</m>.</p></li>
-    <li>We evaluate the function for several values of <m>d</m>, and use a calculator to obtain the graph shown.
+    <li><p>The initial value of the equipment is <m>V_0 = 50,000</m>. Every year, the value of the equipment is     
+        multiplied by
+            <me>b=1-r=1-0.37 = 0.63</me>
+        After <m>t</m> years, the value of the equipment is 
+            <me>V(t)=50,000(0.63)^t</me></p></li>
+    <li><p>After 5 years, we have 
+            <me>V(\alert{5}) = 50,000(0.63)^{\alert{5}} = 4962.18</me>
+        The value of the equipment after 5 years is $4962.18.</p></li>
+    <li><p>We evaluate the function <m>V(t)</m> for several values of <m>t</m>, and plot the points to obtain the graph shown.</p>
+        <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>12</m></cell></row>
+                    <row> 
+                        <cell><m>V(t)</m></cell>
+                        <cell><m>19,845</m></cell>
+                        <cell><m>7876</m></cell>
+                        <cell><m>3126</m></cell>
+                        <cell><m>492</m></cell>
+                        <cell><m>195</m></cell></row>
+                    </tabular></sidebyside></p>
         <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-    <li>We substitute <m>d=1</m> into the formula to obtain
-        <me>I=1370(1)^{-2} = 1370</me>
-    Earth receives 1370 watts/m<m>^2</m> of solar radiation.</li>
-    <li><p>We substitute <m>I=\alert{50.63}</m> into the formula, and solve for <m>d</m>.
-        <md><mrow>\alert{50.63} \amp = 1370d^{-2} = \dfrac{1370}{d^2} \amp \amp \blert{\text{Multiply both sides by}~d^2.}</mrow>
-            <mrow>50.63d^2 \amp = 1370   \amp \amp \blert{\text{Divide both sides by 50.63.}}</mrow>
-            <mrow>d^2 \amp = \dfrac{1370}{50.63} = 27.059   \amp \amp \blert{\text{Extract roots.}}</mrow>
-            <mrow>d = \amp 5.202</mrow></md>
-    Jupiter is 5.202 AU from the sun, or about 484 million miles.</p></li></ol></p></solution>
+    </ol></p></solution>
 </example>
 
-<p>The function <m>I = \dfrac{k}{d^2}</m> is an example of an <term>inverse square law</term><idx>inverse square law</idx>, because <m>I</m> varies inversely with the square of <m>d</m>. Such laws are fairly common in physics and its applications, because gravitational and other forces behave in this way. Here is another example of an inverse square law.</p>
+<note><p>In Example 4, the value of the computer equipment decreases by 37% each year, so 63% of the value remains, and the decay factor for the value function is 0.63, not 0.37.  The function <m>V(t)</m> gives the value remaining, not the amount that has depreciated.</p></note>
 
 <exercise><title>Practice 4</title>
+<statement><p>The number of butterflies visiting a nature station is declining by 18% per year. In 1998, 3600 butterflies visited the nature station.<ol label="a">
+    <li>What is the decay factor in the annual butterfly count?</li>     
+    <li>Write a formula for <m>B(t)</m>, the number of butterflies <m>t</m> years after 1998.</li>  
+    <li><p>Complete the table and sketch a graph of <m>B(t)</m>.</p>
+        <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>~2~</m></cell>
+                        <cell><m>~4~</m></cell>
+                        <cell><m>~6~</m></cell>
+                        <cell><m>~8~</m></cell>
+                        <cell><m>~10~</m></cell></row>
+                    <row> 
+                        <cell><m>V(t)</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p>
+        <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+</ol></p></statement> 
+<answer><p><ol label="a">
+    <li>0.82</li>
+    <li><m>B(t)=3600(0.82)^t</m></li>
+    <li><sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+</ol></p></answer></exercise>
+
+<warning><p>Compare these two descriptions of exponential decay:<ul>
+    <li>Each year, the population decreases <em>by</em> 25% of its previous value.</li>
+    <li>Each year, the population decreases <em>to</em> 25% of its previous value.</li></ul></p>
+<p>In the first description, <m>r=0.25</m> and <m>b=1-r = 0.75</m>. If the population this year is 100, next year it will be 75. If 25% of the population is gone, 75% remains.</p>
+<p>In the second description, only 25% of the population remains, so <m>b = 0.25</m>. If the population this year is 100, next year it will be 25.</p></warning>
+
+<exercise><title>QuickCheck 4</title>
+<statement><p><ol label="a">
+    <li>If <m>b=0.9</m>, it represents a percent decrease of <fillin characters="6"/>.</li>
+    <li>An annual decrease of 15% corresponds to a decay factor of <fillin characters="6"/>.</li>
+    <li>Which function decreases more rapidly: <m>f(x)</m>, with a decay factor of 0.15, or <m>g(x)</m>, with a decay factor of 0.05?</li>
+    <li>An exponential function <m>P(t)=P_0b^t</m> is decreasing if <fillin characters="6"/>.</li>
+</ol></p></statement>
+<answer><p><ol label="a">
+    <li>10%</li>
+    <li>0.85</li>
+    <li><m>f(x)</m></li>
+    <li><m>b \lt 1</m></li></ol></p></answer>
+</exercise>
+
+<p>We summarize our observations about exponential growth and decay functions as follows.</p>
+
+<assemblage><title>Exponential Growth and Decay</title><idx>exponential growth and decay</idx>
+<p>The function
+    <me>P(t) = P_0 b^t</me>
+models exponential growth and decay.</p>
+<p><ul>
+    <li><m>P_0 =P(0)</m> is the <term>initial value</term><idx>initial value</idx> of <m>P</m>;</li>
+    <li><m>b</m> is the <term>growth</term> <idx>growth factor</idx> or <term>decay factor</term><idx>decay factor</idx>.</li></ul>
+<ol>
+    <li><p>If <m>b \gt 1</m>, then <m>P(t)</m> is increasing, and <m>b = 1 + r</m>, where <m>r</m> represents percent increase.</p></li>
+    <li><p>If <m>0 \lt b \lt 1</m>, then <m>P(t)</m> is decreasing, and <m>b = 1 - r</m>, where <m>r</m> represents percent decrease.</p></li>
+</ol></p></assemblage>
+
+<exercise><title>Practice 5</title>
     <webwork><pg-code>
-            $k = 0.8 ;
-            $p = 0.01;
-            $d = Compute("sqrt($k/$p)")->with(
+            $p0 = 20000;
+            $p1 = 17000;
+            $delta = $p1 - $p0;
+            $decrease = abs("$delta");
+            $ratio = $p1/$p0;
+            $decay = (1-$ratio)*100;
+            $age = 5;
+            $linear = $p0 + $age*$delta;
+            $exponential = Compute("$p0 * $ratio**$age")->with(
               tolType => 'absolute',
-              tolerance => .1,
+              tolerance => 1,
             );
         </pg-code>
-    <statement><p>Cell phone towers typically transmit signals at 10 watts of power. The signal strength varies inversely with the square of distance from the tower, and 1 kilometer away the signal strength is 0.8 picowatt. (A picowatt is <m>10^{-12}</m> watt.) Cell phones can receive a signal as small as 0.01 picowatt. How far can you be from the nearest tower and still hope to have cell phone reception?</p>
-            <p>About <var name="$d" width="2"/> km </p></statement>
-    <solution><p>About 9 km</p>
-        </solution>
-    </webwork>
-</exercise>
-
-</subsection>
-
-<subsection><title>Working with Negative Exponents</title>
-
-<p>The laws of exponents apply to all integer exponents, positive negative, and zero.  When we allow negative exponents, we only need one version of the rule for computing quotients of powers, namely
-    <me>\dfrac{a^m}{a^n} = a{m-n}~~~~~~(a \not=0)</me>
-For example, by applying this new version of the law we find
-    <me>\dfrac{x^2}{x^5} = x^{2-5} = x^{-3}</me>
-which is consistent with our previous version of the rule,
-    <m>\dfrac{x^2}{x^5} = \dfrac{1}{x^{5-2}} = \dfrac{1}{x^3}</m></p>
-
-<p>For reference, we restate the laws of exponents below.  The laws are valid for all integer exponents <m>m</m> and <m>n</m>, and for <m>a,~b \not= 0</m>.</p>
-
-<assemblage><title>Laws of Exponents</title>
-<idx>laws of exponents</idx>
-<p><ol label="I">
-    <li><p><m>\displaystyle{a^m\cdot a^n = a^{m+n}}</m></p></li>
-    <li><p><m>\displaystyle{\frac{a^m}{a^n}=a^{m-n}}</m></p></li>
-    <li><p><m>\displaystyle{\left(a^m\right)^n=a^{mn}}</m></p></li>
-    <li><p><m>\displaystyle{\left(ab\right)^n=a^n b^n}</m></p></li>
-    <li><p><m>\displaystyle{\left(\frac{a}{b}\right)^n=\frac{a^n}{b^n}}</m></p></li>
-</ol></p>
-</assemblage>
-
-<example xml:id="example-laws-of-exponents"><p>
-    <md><mrow>\text{a}\amp. ~x^3\cdot x^{-5} = x^{3-5} = x^{-2} 
-    \amp\amp     \blert{\text{Apply the first law: Add exponents.}} </mrow>
-        <mrow>\text{b}\amp. ~\frac{8x^{-2}}{4x^{-6}}= \frac{8}{4}x^{-2-(-6)} = 2x^4
-    \amp\amp     \blert{\text{Apply the second law: Subtract exponents.}} </mrow>
-        <mrow>\text{c}\amp. ~\left(5x^{-3}\right)^{-2}= 5^{-2}(x^{-3})^{-2}=\frac{x^6}{25}
-    \amp\amp     \blert{\text{Apply laws IV and III.}}</mrow></md>
-</p> </example>
-
-<p>You can check that each of the calculations in <xref ref="example-laws-of-exponents" text="type-global"/> is shorter when we use negative exponents instead of converting the expressions into algebraic fractions.</p>
-
-<exercise><title>Practice 5</title>
-    <webwork><pg-code>
-            Context("RationalFunction")->variables->add(a=>"Real", r=>"Real");
-            $f = Formula("-8/a^2");
-            $g = Formula("1/(3r^2)");
-        </pg-code>
-    <statement><p>Simplify by applying the laws of exponents. Write without negative exponents.<ol label="a">
-        <li><p><m>\left(2a^{-4}\right) \left(-4a^2\right)=</m><var name="$f" width="10"/> </p></li>
-        <li><p><m>\dfrac{(r^2)^{-3}}{3r^{-4}}=</m><var name="$g" width="10"/></p></li></ol></p>
+    <statement><p>A new car begins to depreciate in value as soon as you drive it off the lot. Some models depreciate linearly, and others depreciate exponentially. Suppose you buy a new car for $20,000, and <m>1</m> year later its value has decreased to $17,000.</p>
+        <p><ol label="a">
+            <li><p>If the value decreased linearly, what was its annual rate of decrease?</p>
+                <p>$<var name="$decrease" width="4"/> per year </p></li>
+            <li><p>If the value decreased exponentially, what was its annual decay factor? <var name="$ratio" width="3"/> What was its annual percent depreciation? <var name="$decay" width="2"/>% </p></li>
+            <li><p>Calculate the value of your car when it is <m>5</m> years old under each assumption, linear or exponential depreciation.</p>
+                <p>Linear: $<var name="$linear" width="4"/></p>
+                <p>Exponential: $<var name="$exponential" width="4"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a" cols="2">
-            <li><p><m>\dfrac{-8}{a^2} </m></p></li>
-            <li><p><m>\dfrac{1}{3r^2} </m></p></li></ol></p>
+    <solution><p><ol label="a">
+                <li><p><m>\$3000</m> per year</p></li>
+                <li><p><m>0.85</m>; <m>15\%</m></p></li>
+                <li><p>Linear: <m>\$5000</m>; Exponential: <m>\$8874</m></p></li></ol></p>
     </solution>
     </webwork>
-</exercise>
-
-<warning><p>The laws of exponents do not apply to sums or differences of powers. We can add or subtract like terms, that is, powers with the same exponent. For example,
-    <me>6x^{-2} + 3x^{-2} = 9x^{-2}</me>
-but <em>we cannot add or subtract terms with different exponents</em>. Thus, for example,
-    <md><mrow>4x^2 \amp- 3x^{-2} \amp\amp \text{cannot be simplified}</mrow>
-        <mrow>x^{-1} \amp + x^{-3}\amp\amp \text{cannot be simplified}</mrow></md>
-</p></warning>
-
-<p>In the opening table we saw that <m>2^0 = 1</m>, and in fact <m>a^0 = 1</m> as long as <m>a \ne 0</m>. Now we can see that this definition is consistent with the laws of exponents. The quotient of any (nonzero) number divided by itself is <m>1</m>. But by applying the second law of exponents, we also have
-    <me>1 = \frac{a^m}{a^m}= a^{m-m} = a^0</me></p>
-
-<assemblage><title>Zero as Exponent</title><p>
-    <me>a^0 = 1, ~~ \text{ if } a \ne 0</me></p>
-</assemblage>
-
-<p>For example,
-    <me>3^0 = 1, ~~ (-528)^0 = 1, ~~ \text{ and } ~~ (0.024)^0 = 1</me></p>
-
-<exercise><title>QuickCheck 3</title>
-<statement><p>True or false.<ol label="a">
-    <li>We cannot add or subtract terms with different exponents.</li>
-    <li><m>(a+b)^5=a^5+b^5</m> is an application of the fourth law of exponents.</li>
-    <li>If <m>x \not= 0</m>, then <m>\dfrac{k}{x^{-n}} = kx^n</m>.</li>
-    <li><m>(x^2)^{-3} = (x^{-2})^3</m> because <m>\dfrac{1}{x^2 \cdot x^2 \cdot x^2} = (\dfrac{1}{x^2})(\dfrac{1}{x^2})(\dfrac{1}{x^2})</m> .</li></ol></p></statement>
-<answer><p><ol label="a">
-    <li>True</li>
-    <li>False</li>
-    <li>True</li>
-    <li>True</li></ol></p></answer>
-</exercise>
+</exercise> 
 
 </subsection>
 
-<subsection><title>Review of Scientific Notation</title>
-
-<p>Scientists and engineers regularly encounter very large numbers such as, 
-    <me>5,980,000,000,000,000,000,000,000,</me>
-(the mass of the earth in kilograms) and very small numbers such as
-    <me>0.000~ 000~ 000~ 000~ 000~ 000~ 000 ~001~~/Pretext/mathbook/script/mbx -c webwork -d wwscratch -s https://webwork-ptx.aimath.org test-section.xml
-xsltproc --xinclude --stringparam webwork.extraction ~/Pretext/int-alg/wwscratch/webwork-extraction.xml ~/PreText/mathbook/xsl/pretext-merge.xsl test-section.xml > merge.xml
-xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml 67</me>
-(the mass of a hydrogen atom in grams) in their work. These numbers are easier to use when expressed in <term>scientific notation</term>.  </p>
-
-<assemblage><title>To Write a Number in Scientific Notation</title>
-<p><ol label="1">
-    <li>Locate the decimal point so that there is exactly one nonzero digit to its left.</li>
-    <li><p>Count the number of places you moved the decimal point:  this determines the power of 10.<ol label="a">
-        <li>If the original number is greater than 10, the exponent is positive.</li>
-        <li>If the original number is less than 1, the exponent is negative.</li></ol></p></li></ol></p></assemblage>
-
-<example><statement><p>Write each number in scientific notation.<ol label="a" cols="2">
-    <li><m>478,000</m></li>
-    <li><m>0.00032</m></li></ol></p></statement>
-    
-<solution><p><ol label="a">
-    <li><p><md><mrow>478,000 \amp = 4.78000 \times 10^5 \amp \amp \blert{\text{Move the decimal 5 places to the left.}}</mrow>         <mrow>\amp = 4.78 \times 10^5</mrow></md></p></li>
-    <li><p><md><mrow>0.00032 \amp = 00003.2 \times 10^{-4} \amp \amp \blert{\text{Move the decimal 4 places to the right.}}</mrow></md></p></li></ol></p></solution>
-</example>
-
-<exercise><title>Practice 5</title>
-<statement><p>Write each number in scientific notation.<ol label="a" cols="2">
-    <li><m>0.063</m></li>
-    <li><m>1480</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
-    <li><m>6.3 \times 10^{-2}</m></li>
-    <li><m>1.480 \times 10^3</m></li></ol></p></answer>
-</exercise>
-
-<p>Your calculator displays numbers in scientific notation if they are too large or too small to fit in the display screen.  Try squaring the number <m>123,456,789</m> on your calculator.  Enter
-    <me>123456789~~\boxed{x^2}</me>
-and the calculator will display the result as
-    <me>1.524157875~~\text{E}~~16</me>
-This is how the calculator displays the number <m>1.524157875 \times 10^{16}</m>. Notice that the power <m>10^{16}</m> is displayed as E 16.</p>
-
-<p>To enter a number in scientific form, we use the key labeled <m>\boxed{\text{EE}}</m>. For example, to enter <m>3.26 \times 10^{-18}</m> we enter the keying sequence
-    <me>3.26~~ \boxed{\text{EE}} ~~ \boxed{(-)} ~~ 18</me></p>
-
-<example><statement><p>In 2019, the average American ate 98.6 kilograms of meat.  It takes about 16 kilograms of grain to produce one kilogram of meat, and advanced farming techniques can produce about 6000 kilograms of grain on each hectare of arable land.  (A hectare is 10,000 square meters, or just under two and a half acres.)  Now, the total land area of the Earth is about 13 billion hectares, but only about 11% of that land is arable. Is it possible for each of the 7.8 billion people on Earth to eat as much meat as Americans do?
-</p></statement>
-
-<solution><p>First we'll compute the amount of meat necessary to feed every person on earth 110 kilograms per year.  In scientific notation, the population of Earth is <m>7.8 \times 10^9</m> people. 
-    <me>(7.8 \times 10^9~ \text{people}) \times (98.6~ \text{kg/person}) = 7.69 \times 10^{11}~\text{kg meat}</me>
-Next we'll compute the amount of grain needed to produce that much meat. 
-    <me>(16~ \text{kg grain/kg meat}) \times (7.69 \times 10^{11}~\text{kg meat}) = 1.23 \times 10^{13} \text{kg grain}</me>
-Next we'll see how many hectares of land are needed to produce that much grain. 
-    <me>(1.23 \times 10^{13} \text{kg grain}) \div (6000~ \text{kg grain/hectare}) = 2.05 \times 10^9 \text{hectares}</me>
-Finally, we'll compute the amount of land on Earth suitable for grain production.
-    <me>0.11 \times (13 \times 10^9~ \text{hectares}) = 1.43 \times 10^9~ \text{hectares}</me>
-The amount of arable land on Earth is less than the amount needed to produce that much grain. Thus, even if we use every hectare of arable land to produce grain for livestock, we won't have enough to provide every person on Earth with 98.6  kilograms of meat per year.</p></solution>
-</example>
-
-</subsection>
-
-<xi:include href="./section-6-1-exercises.xml" />                
+<xi:include href="./section-7-1-exercises.xml" />                
 
 
 </section>
