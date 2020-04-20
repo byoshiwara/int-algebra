@@ -53,17 +53,66 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
     <me>9^{1/2} =\sqrt{9} = 3</me></p>
 
 <exercise><title>QuickCheck 1</title>
-<statement><p>Fill in the blanks.<ol label="a">
-    <li>Inverse variation can be expressed as a power function by using a <fillin characters="6"/> exponent.</li>
-    <li>The number <m>n</m> in the expression <m>\sqrt[n]{b}</m> is called the <fillin characters="6"/> of the radical.</li>
-    <li>We use <fillin characters="6"/> exponents to denote radicals.</li>
-    <li>State the law of exponents that shows that <m>a^{1/2}</m> is a square root of <m>a</m>.</li>
-</ol></p></statement>
-<answer><p><ol label="a">
-    <li>negative</li>
-    <li>index</li>
-    <li>fractional</li>
-    <li><m>(a^m)^n = a^{mn}</m></li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $a = PopUp(
+          ["?","power", "negative", "reciprocal", "inverse"],
+          2, 
+        );
+        $b = PopUp(
+          ["?","root", "exponent", "radicand", "index"],
+          4, 
+        );
+        $c = PopUp(
+          ["?","fractional", "negative", "reciprocal", "inverse"],
+          1, 
+        );
+        $d = RadioButtons(
+          ["\( a^m\cdot a^n=a^{m+n} \)", 
+          "\( \frac{a^m}{a^n}=a^{m-n} \)", 
+          "\( \left(a^m\right)^n=a^{mn} \)", 
+          "\( (ab)^n=a^n b^n \)",
+          "\( \left(\frac{a}{b}\right)^n=\frac{a^n}{b^n} \)"],
+          2, 
+        );
+     </pg-code>
+    <statement>
+        <p>
+            Fill in the blanks.
+            <ol label="a">
+                <li>
+                    <p>
+                        Inverse variation can be expressed as a power function by using a <var name="$a" form="popup"/> exponent.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The number <m>n</m> in the expression <m>\sqrt[n]{b}</m> is called the <var name="$b" form="popup"/> of the radical.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We use <var name="$c" form="popup"/> exponents to denote radicals.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        State the law of exponents that shows that <m>a^{1/2}</m> is a square root of <m>a</m>.
+                    </p>
+                    <p>
+                        <var name="$d" form="buttons"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>negative</li>
+        <li>index</li>
+        <li>fractional</li>
+        <li><m>(a^m)^n = a^{mn}</m></li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 
 <p>In general, any nonnegative number raised to the <m>1/2</m> power is equal to the positive square root of the number, or
@@ -203,17 +252,50 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 </exercise>
 
 <exercise><title>QuickCheck 2</title>
-<statement><p>True or false.<ol label="a">
-    <li>The exponent <m>\dfrac{1}{n}</m> tells us to take a reciprocal.</li>
-    <li>The exponent 0.2 denotes a fifth root.</li>
-    <li>A power with a negative exponent is not a real number.</li>
-    <li>The expressions <m>x^{-3}</m> and <m>x^{1\3}</m> are the same.</li></ol></p>
-</statement>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>True</li>
-    <li>False</li>
-    <li>False</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or false.
+            <ol label="a">
+                <li>
+                    <p>The exponent <m>\dfrac{1}{n}</m> tells us to take a reciprocal. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The exponent 0.2 denotes a fifth root. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A power with a negative exponent is not a real number. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The expressions <m>x^{-3}</m> and <m>x^{1/3}</m> are the same. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>False</li>
+        <li>True</li>
+        <li>False</li>
+        <li>False</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 
 </subsection>
@@ -307,18 +389,52 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 </exercise>
 
 <exercise><title>QuickCheck 3</title>
-<statement><p>True or false.<ol label="a">
-    <li>All expressions of the form <m>x^{1/n}</m> represent irrational numbers.</li>
-    <li>When we enter an exponent <m>1/n</m> into a calculator, we must enclose it in parentheses.</li>
-    <li>In the expression <m>16x^{1/4}</m>, the exponent does not apply to 16.</li>
-    <li>You can use your calculator to find a decimal equivalent for an irrational number.</li>
-</ol></p></statement>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>True</li>
-    <li>True</li>
-    <li>False</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or false.
+            <ol label="a">
+                <li>
+                    <p>All expressions of the form <m>x^{1/n}</m> represent irrational numbers. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        When we enter an exponent <m>1/n</m> into a calculator, we must enclose it in parentheses. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In the expression <m>16x^{1/4}</m>, the exponent does not apply to 16. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You can use your calculator to find a decimal equivalent for an irrational number. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>False</li>
+        <li>True</li>
+        <li>True</li>
+        <li>False</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
+
 </subsection>
 
 <subsection><title>Using Fractional Exponents to Solve Equations</title>
@@ -352,14 +468,50 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
 </solution></example>
 
 <exercise><title>QuickCheck 4</title>
-<statement><p><ol label="a">
-    <li>How do we solve the equation <m>x^8=32</m>?</li>
-    <li>Which law of exponents justifies this strategy?</li></ol></p>
-</statement>
-<answer><p><ol label="a">
-    <li>Raise each side to the power <m>1/8</m>.</li>
-    <li><m>\left(x^a\right)^b = x^{ab}</m></li></ol></p>
-</answer></exercise>
+<webwork>
+    <pg-code>
+        $a = RadioButtons(
+          ["Divide both sides of the equation by 8.", 
+          "Add \(-8\) to each side of the equation.", 
+          "Multiply both sides by \(\frac{1}{8} \).", 
+          "Raise each side of the equation to the power \(\frac{1}{8}\)."],
+          3, 
+        );
+        $b = RadioButtons(
+          ["\( a^m\cdot a^n=a^{m+n} \)", 
+          "\( \frac{a^m}{a^n}=a^{m-n} \)", 
+          "\( \left(a^m\right)^n=a^{mn} \)", 
+          "\( (ab)^n=a^n b^n \)",
+          "\( \left(\frac{a}{b}\right)^n=\frac{a^n}{b^n} \)"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p><ol label="a">
+            <li>
+                <p>
+                    How do we solve the equation <m>x^8=32</m>?
+                </p>
+                <p>
+                    <var name="$a" form="buttons"/>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Which law of exponents justifies this strategy?
+                </p>
+                <p>
+                    <var name="$b" form="buttons"/>
+                </p>
+            </li>
+        </ol></p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>Raise each side to the power <m>1/8</m>.</li>
+        <li><m>\left(x^a\right)^b = x^{ab}</m></li></ol></p>
+    </solution>
+</webwork>
+</exercise>
 
 </subsection>
 
@@ -369,7 +521,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
     <me>D=f(w)=kw^{1/3}</me></p>
 
 <example><statement><p><ol label="a">
-    <li>A diamond weighing one-quarter carat has diameter about 4.05 millimeters. Find the constant of proportionality,<m>k</m>, and write a formula for <m>D</m> as a function of <m>w</m>.</li>
+    <li>A diamond weighing one-quarter carat has diameter about 4.05 millimeters. Find the constant of proportionality, <m>k</m>, and write a formula for <m>D</m> as a function of <m>w</m>.</li>
     <li><p>Complete the table with the diameters of diamonds of various weights. 
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -430,7 +582,30 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
                         <cell><m>9.2</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li>We plot the points from the table and draw a smooth curve to obtain the graph shown.
-        <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <sidebyside  width="45%">
+            <image xml:id="fig-example-diamond">
+                <description>diameter vs carats</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [xscale=1.2, yscale=.3]
+                \draw[cyan] (0,0) grid[xstep=1/2] (4,10);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(4.4,0) node[right]{$w$};
+                \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$D$};
+                \foreach \x  in {1,2,3,4} {
+                 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 }
+                \foreach \x in {5,10} {
+                 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[samples=65,domain={0:3.8},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {6.4*(\x)^(1/3)});
+                \node[above, text=red, fill=white, inner sep=2] at (2.3,3) {$D=6.4 w^{1/3}$};
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+
+        </sidebyside></li>
     <li>We evaluate the function for <m>w=45.52</m> to obtain
         <me>D=6.4(45.52)^{1/3} = 22.85</me>
      According to our formula, the Hope Diamond is about 22.85 millimeters in diameter.</li></ol></p>
@@ -550,7 +725,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
     </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="20%" margins="0% 80%"><image source="images/fig-in-ex-ans-3-3-8"><description>power function</description></image></sidebyside>
+        <sidebyside width="20%" margins="0% 80%"><image source="images/fig-ex-6-2-8ans"><description>power function</description></image></sidebyside>
     </conclusion>
 </exercise>
 </subsection>
@@ -578,10 +753,10 @@ where the length of the skid marks, <m>d</m>, is given in feet.<ol label="a">
             <mrow>\amp = (1920)^{1/2} \approx 43.8178046</mrow></md>
         The car was traveling at approximately <m>44</m> miles per hour.</p></li>
     <li><p>We would like to find the value of <m>d</m> when the value of <m>v</m> is known. We substitute <m>v = \alert{80}</m> into the formula and solve the equation
-        <me>\alert{80} = (24d)^{1/2} ~~ \blert{\text{ Solve for }d.}</me>
+        <me>\alert{80} = (24d)^{1/2} ~~ \glert{\text{ Solve for }d.}</me>
     Because <m>d</m> appears to the power <m>\frac{1}{2}</m>, we first square both sides of the equation to get
-        <md><mrow>80^2 \amp = \left((24d)^{1/2}\right)^2 \amp\amp \blert{\text{Square both sides.}}</mrow>
-            <mrow>6400 \amp = 24d \amp\amp \blert{\text{Divide by }24.}</mrow>
+        <md><mrow>80^2 \amp = \left((24d)^{1/2}\right)^2 \amp\amp \glert{\text{Square both sides.}}</mrow>
+            <mrow>6400 \amp = 24d \amp\amp \glert{\text{Divide by }24.}</mrow>
             <mrow>266.\overline{6} \amp = d</mrow></md>
     You can check that this value for <m>d</m> works in the original equation. Thus, the car will skid approximately <m>267</m> feet. A graph of the function <m>v = (24d)^{1/2}</m> is shown below, along with the points corresponding to the values in parts (a) and (b).</p>
     <sidebyside  width="50%"><image source="images/fig-velocity-vs-braking-distance" ><description>velocity vs braking distance</description></image></sidebyside></li>
@@ -590,23 +765,89 @@ where the length of the skid marks, <m>d</m>, is given in feet.<ol label="a">
 <note><p>Thus, we can solve an equation where one side is an <m>n</m>th root of <m>x</m> by raising both sides of the equation to the <m>n</m>th power. We must be careful when raising both sides of an equation to an even power, since extraneous solutions may be introduced. However, because most applications of power functions deal with positive domains only, they do not usually involve extraneous solutions.</p></note>
 
 <exercise><title>QuickCheck 5</title>
-<statement><p><ol label="a">
-    <li>How do we solve the equation <m>~x^{1/6} = 12</m>?</li>
-    <li>How do we solve the equation <m>~\sqrt[6]{x} = 12</m>?</li>
-    <li>How do we solve the equation <m>~x^6 = 12</m>?</li>
-    <li>How do we evaluate the function <m>~f(x)=x^{1/6}</m> for <m>x=12</m>?</li></ol></p>
-</statement>
-<answer><p><ol label="a">
-    <li>Raise each side to the power <m>6</m>.</li>
-    <li>Raise each side to the power <m>6</m>.</li>
-    <li>Raise each side to the power <m>\dfrac{1}{6}</m>.</li>
-    <li>Raise 12 to the power <m>\dfrac{1}{6}</m>.</li></ol></p>
-</answer></exercise>
+<webwork>
+    <pg-code>
+        $a = RadioButtons(
+          ["Raise each side to the power 6.", 
+          "Raise each side to the power \(\frac{1}{6}\).", 
+          "Multiply both sides by 6.", 
+          "Multiply both sides by \(\frac{1}{6} \)."],
+          0, 
+        );
+        $c = RadioButtons(
+          ["Raise each side to the power 6.", 
+          "Raise each side to the power \(\frac{1}{6}\).", 
+          "Multiply both sides by 6.", 
+          "Multiply both sides by \(\frac{1}{6} \)."],
+          1, 
+        );
+        $d = RadioButtons(
+          ["Raise 12 to the power 6.", 
+          "Raise 12 the power \(\frac{1}{6}\).", 
+          "Multiply 12 by 6.", 
+          "Multiply 12 by \(\frac{1}{6} \)."],
+          1, 
+        );
+    </pg-code>
+    <statement>
+        <p><ol label="a">
+            <li>
+                <p>
+                    How do we solve the equation <m>~x^{1/6} = 12</m>?
+                </p>
+                <p>
+                    <var name="$a" form="buttons"/>
+                </p>
+            </li>
+            <li>
+                <p>
+                    How do we solve the equation <m>~\sqrt[6]{x} = 12</m>?
+                </p>
+                <p>
+                    <var name="$a" form="buttons"/>
+                </p>
+            </li>
+            <li>
+                <p>
+                    How do we solve the equation <m>~x^6 = 12</m>?
+                </p>
+                <p>
+                    <var name="$c" form="buttons"/>
+                </p>
+            </li>
+            <li>
+                <p>
+                    How do we evaluate the function <m>~f(x)=x^{1/6}</m> for <m>x=12</m>?
+                </p>
+                <p>
+                    <var name="$d" form="buttons"/>
+                </p>
+            </li>
+        </ol></p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>Raise each side to the power <m>6</m>.</li>
+        <li>Raise each side to the power <m>6</m>.</li>
+        <li>Raise each side to the power <m>\dfrac{1}{6}</m>.</li>
+        <li>Raise 12 to the power <m>\dfrac{1}{6}</m>.</li></ol></p>
+    </solution>
+</webwork>
+</exercise>
 
 <exercise><title>Practice 9</title>
-<statement><p>Solve <m>~5(x-1)^{1/4} = 10</m></p>
-    <p>Hint:  Isolate the radical, then raise both sides to the fourth power.</p></statement>
-<answer><m>17</m></answer>
+<webwork>
+    <pg-code>
+        $a = Compute("17");
+    </pg-code>
+    <statement>
+        <p>Solve <m>~5(x-1)^{1/4} = 10</m></p>
+        <p><m>x=</m><var name="$a" width="3"/></p>
+        <instruction>Hint:  Isolate the radical, then raise both sides to the fourth power.</instruction>
+    </statement>
+    <solution>
+        <p>17</p>
+    </solution>
+</webwork>
 </exercise>
 </subsection>
 
@@ -642,16 +883,58 @@ but <m>(-64)^{1/6}</m> is not a real number. On the other hand,
 because the exponent <m>1/6</m> applies only to <m>64</m>, and the negative sign is applied after the root is computed.</p>
 
 <exercise><title>QuickCheck 6</title>
-<statement><p>Fill in the blanks.<ol label="a">
-    <li>We cannot take an <fillin characters="6"/>root of a <fillin characters="6"/> number.</li>
-    <li>The principal root is the<fillin characters="6"/> root.</li>
-    <li>An odd root of a negative number is <fillin characters="6"/>.</li>
-    <li>An <m>n^{th}</m> root is the same as the <fillin characters="6"/>power.</li></ol></p></statement>
-<answer><p><ol label="a">
+<webwork>
+    <pg-code>
+        $even = PopUp(
+          ["?","even", "odd", "cube"],
+          1, 
+        );
+        $negative = PopUp(
+          ["?","positive", "negative"],
+          2, 
+        );
+        $positive = PopUp(
+          ["?","positive", "negative"],
+          1, 
+        );
+        $d = PopUp(
+          ["?","nth", "1/n"],
+          2, 
+        );        
+    </pg-code>
+    <statement>
+        <p>
+            Fill in the blanks.
+            <ol label="a">
+                <li>
+                    <p>
+                        We cannot take an <var name="$even" form="popup"/> root of a <var name="$negative" form="popup"/> number.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The principal root is the <var name="$positive" form="popup"/> root.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An odd root of a negative number is <var name="$negative" form="popup"/>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An <m>n^{th}</m> root is the same as the <var name="$d" form="popup"/> power.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
     <li>even, negative</li>
     <li>positive</li>
     <li>negative</li>
-    <li><m>\dfrac{1}{n}</m></li></ol></p></answer>
+    <li><m>\dfrac{1}{n}</m></li></ol></p></solution>
+</webwork>
 </exercise>
 
 <exercise><title>Practice 10</title>

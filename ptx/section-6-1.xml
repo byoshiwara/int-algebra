@@ -45,16 +45,51 @@
 </ol></p></warning>
 
 <exercise><title>QuickCheck 1</title>
-<statement><p>True or false.<ol label="a">
-    <li>Negative exponents are used to denote reciprocals.</li>
-    <li>We can write <m>\dfrac{1}{4x^3}</m> as <m>4x^{-3}</m>.</li>
-    <li>Any number raised to the zero power is zero.</li>
-    <li><m>(-4)^{-3}=4^3</m></li></ol></p></statement>
-<answer><p><ol label="a">
-    <li>True</li>
-    <li>False</li>
-    <li>False</li>
-    <li>False</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or false.
+            <ol label="a">
+                <li>
+                    <p>
+                        Negative exponents are used to denote reciprocals. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We can write <m>\dfrac{1}{4x^3}</m> as <m>4x^{-3}</m>. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Any number raised to the zero power is zero. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(-4)^{-3}=4^3</m>  <var name="$False" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>True</li>
+        <li>False</li>
+        <li>False</li>
+        <li>False</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 
 <exercise ><title>Practice 1</title>
@@ -91,9 +126,9 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
         <me>\text{BMI} = 54(1.625^{-2})= 54(\dfrac{1}{1.625^2})= 20.45</me></p></li>
     <li><p><m>\text{BMI} = wh^{-2} = \dfrac{w}{h^2}</m>, so BMI varies inversely with the square of height. That is, for a fixed weight, BMI decreases as height increases.</p></li>
     <li><p>To find the height that gives a BMI of <m>25</m>, we solve the equation <m>25 = 319h^{-2}</m>. Note that the variable <m>h</m> appears in the denominator of a fraction, so we begin by clearing the denominator—in this case we multiply both sides of the equation by <m>h^2</m>.
-        <md><mrow>25 \amp = \frac{319}{h^2} \amp\amp \blert{\text{Multiply both sides by }h^2.}</mrow>
-            <mrow>25h^2 \amp = 319 \amp\amp \blert{\text{Divide both sides by }25.}</mrow>
-            <mrow>h^2 \amp = 12.76 \amp\amp \blert{\text{Extract square roots.}}</mrow> 
+        <md><mrow>25 \amp = \frac{319}{h^2} \amp\amp \glert{\text{Multiply both sides by }h^2.}</mrow>
+            <mrow>25h^2 \amp = 319 \amp\amp \glert{\text{Divide both sides by }25.}</mrow>
+            <mrow>h^2 \amp = 12.76 \amp\amp \glert{\text{Extract square roots.}}</mrow> 
             <mrow>h \amp\approx 3.57</mrow></md>
     To have a BMI under <m>25</m>, Yarbrough would have to be over <m>3.57</m> meters, or <m>11</m> feet <m>8</m> inches tall. (In fact, he is <m>6</m> feet <m>8</m> inches tall.)</p></li>
 </ol></p></solution></example>
@@ -114,9 +149,9 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
             <p><m>x=</m><var name="$a" width="12"/> </p>
             <instruction>Enter "root(n,x)" for  <m>\sqrt[n]{x} </m>.</instruction>
     </statement>
-        <hint><p><m>\blert{\text{Rewrite without a negative exponent.}}</m></p>
-            <p><m>\blert{\text{Clear the fraction.}}</m></p>
-            <p><m>\blert{\text{Isolate the variable.}}</m></p></hint>
+        <hint><p><m>\glert{\text{Rewrite without a negative exponent.}}</m></p>
+            <p><m>\glert{\text{Clear the fraction.}}</m></p>
+            <p><m>\glert{\text{Isolate the variable.}}</m></p></hint>
     <solution><p><m>x=\sqrt[3]{\dfrac{2}{15}}\approx 0.51 </m></p>
         </solution>
     </webwork>
@@ -138,7 +173,7 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
     <me>V(r ) = \frac{4}{3}\pi r^3 ~~\text{ and }~~L(T ) = 0.8125T^2</me>
 In addition, the basic functions
     <me>f (x) = \frac{1}{x} ~~\text{ and }~~ g(x) = \frac{1}{x^2}</me>
-which we studied in <xref ref="chap2" text="type-global"/> can be written as
+which we studied in <xref ref="chap5" text="type-global"/> can be written as
     <me>f (x) = x^{-1} ~~\text{ and }~~ g(x) = x^{-2} </me>
 Their graphs are shown below. Note that the domains of power functions with negative exponents do not include zero.</p>
     <sidebyside width="50%"><image source="images/fig-basic-reciprocal-functions"  ><description>graphs of the two basic reciprocal functions</description></image></sidebyside>
@@ -156,18 +191,53 @@ Their graphs are shown below. Note that the domains of power functions with nega
 </ol></p></solution></example>
 
 <exercise><title>QuickCheck 2</title>
-<statement><p>True or false.<ol label="a">
-    <li>The exponent in a power function must be positive.</li>
-    <li>Direct and inverse variation are examples of power functions.</li>
-    <li>If <m>f</m> is a power function, then <m>f(0)=0</m>.</li>
-    <li>The sum of two power functions is not always a power function.</li>
-</ol></p></statement>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>True</li>
-    <li>False</li>
-    <li>True</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or false.
+            <ol label="a">
+                <li>
+                    <p>
+                        The exponent in a power function must be positive. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Direct and inverse variation are examples of power functions. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>f</m> is a power function, then <m>f(0)=0</m>. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The sum of two power functions is not always a power function. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>False</li>
+        <li>True</li>
+        <li>False</li>
+        <li>True</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
+
 
 <exercise><title>Practice 3</title>
     <webwork><pg-code>
@@ -210,18 +280,40 @@ Their graphs are shown below. Note that the domains of power functions with nega
     <li>If we use <m>k</m> for the constant of proportionality, then <m>I=\dfrac{k}{d^2}</m>.  Rewriting this equation with a negative exponent gives <m>I=kd^{-2}</m>.</li>
     <li><p>We substitute <m>T=9147</m> and <m>d=0.387</m> to obtain
         <md><mrow>9147 \amp = k(0.387)^{-2}</mrow>
-            <mrow>9147 \amp = \dfrac{k}{(0.387)^2} \amp \amp \blert{\text{Multiply both sides by}~0.387^2.}</mrow> 
+            <mrow>9147 \amp = \dfrac{k}{(0.387)^2} \amp \amp \glert{\text{Multiply both sides by}~0.387^2.}</mrow> 
             <mrow>1369.9 \amp = k</mrow></md>
      Thus, <m>I=f(d)=1370d^{-2}</m>.</p></li>
     <li>We evaluate the function for several values of <m>d</m>, and use a calculator to obtain the graph shown.
-        <sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <sidebyside  width="40%">
+            <image xml:id="fig-example-6-1-4">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.6, yscale=.4]
+        \draw[cyan] (0,0) grid (6,10);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(6.6,0) node[right]{$d$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$I$};
+        \foreach \x  in {5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         }
+        \foreach \x [evaluate=\x as \xi using int(1000*\x)] in {5,10} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain={sqrt(.137):6},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {1.37/(\x)^2});
+        \node[above, text=red, fill=white, inner sep=2] at (3,6) {$I=1370d^{-2}$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside></li>
     <li>We substitute <m>d=1</m> into the formula to obtain
         <me>I=1370(1)^{-2} = 1370</me>
     Earth receives 1370 watts/m<m>^2</m> of solar radiation.</li>
     <li><p>We substitute <m>I=\alert{50.63}</m> into the formula, and solve for <m>d</m>.
-        <md><mrow>\alert{50.63} \amp = 1370d^{-2} = \dfrac{1370}{d^2} \amp \amp \blert{\text{Multiply both sides by}~d^2.}</mrow>
-            <mrow>50.63d^2 \amp = 1370   \amp \amp \blert{\text{Divide both sides by 50.63.}}</mrow>
-            <mrow>d^2 \amp = \dfrac{1370}{50.63} = 27.059   \amp \amp \blert{\text{Extract roots.}}</mrow>
+        <md><mrow>\alert{50.63} \amp = 1370d^{-2} = \dfrac{1370}{d^2} \amp \amp \glert{\text{Multiply both sides by}~d^2.}</mrow>
+            <mrow>50.63d^2 \amp = 1370   \amp \amp \glert{\text{Divide both sides by 50.63.}}</mrow>
+            <mrow>d^2 \amp = \dfrac{1370}{50.63} = 27.059   \amp \amp \glert{\text{Extract roots.}}</mrow>
             <mrow>d = \amp 5.202</mrow></md>
     Jupiter is 5.202 AU from the sun, or about 484 million miles.</p></li></ol></p></solution>
 </example>
@@ -270,11 +362,11 @@ which is consistent with our previous version of the rule,
 
 <example xml:id="example-laws-of-exponents"><p>
     <md><mrow>\text{a}\amp. ~x^3\cdot x^{-5} = x^{3-5} = x^{-2} 
-    \amp\amp     \blert{\text{Apply the first law: Add exponents.}} </mrow>
+    \amp\amp     \glert{\text{Apply the first law: Add exponents.}} </mrow>
         <mrow>\text{b}\amp. ~\frac{8x^{-2}}{4x^{-6}}= \frac{8}{4}x^{-2-(-6)} = 2x^4
-    \amp\amp     \blert{\text{Apply the second law: Subtract exponents.}} </mrow>
+    \amp\amp     \glert{\text{Apply the second law: Subtract exponents.}} </mrow>
         <mrow>\text{c}\amp. ~\left(5x^{-3}\right)^{-2}= 5^{-2}(x^{-3})^{-2}=\frac{x^6}{25}
-    \amp\amp     \blert{\text{Apply laws IV and III.}}</mrow></md>
+    \amp\amp     \glert{\text{Apply laws IV and III.}}</mrow></md>
 </p> </example>
 
 <p>You can check that each of the calculations in <xref ref="example-laws-of-exponents" text="type-global"/> is shorter when we use negative exponents instead of converting the expressions into algebraic fractions.</p>
@@ -314,16 +406,51 @@ but <em>we cannot add or subtract terms with different exponents</em>. Thus, for
     <me>3^0 = 1, ~~ (-528)^0 = 1, ~~ \text{ and } ~~ (0.024)^0 = 1</me></p>
 
 <exercise><title>QuickCheck 3</title>
-<statement><p>True or false.<ol label="a">
-    <li>We cannot add or subtract terms with different exponents.</li>
-    <li><m>(a+b)^5=a^5+b^5</m> is an application of the fourth law of exponents.</li>
-    <li>If <m>x \not= 0</m>, then <m>\dfrac{k}{x^{-n}} = kx^n</m>.</li>
-    <li><m>(x^2)^{-3} = (x^{-2})^3</m> because <m>\dfrac{1}{x^2 \cdot x^2 \cdot x^2} = (\dfrac{1}{x^2})(\dfrac{1}{x^2})(\dfrac{1}{x^2})</m> .</li></ol></p></statement>
-<answer><p><ol label="a">
-    <li>True</li>
-    <li>False</li>
-    <li>True</li>
-    <li>True</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or false.
+            <ol label="a">
+                <li>
+                    <p>
+                        We cannot add or subtract terms with different exponents. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(a+b)^5=a^5+b^5</m> is an application of the fourth law of exponents. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>x \not= 0</m>, then <m>\dfrac{k}{x^{-n}} = kx^n</m>. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(x^2)^{-3} = (x^{-2})^3</m> because <m>\dfrac{1}{x^2 \cdot x^2 \cdot x^2} = \left(\dfrac{1}{x^2}\right)\left(\dfrac{1}{x^2}\right)\left(\dfrac{1}{x^2}\right)</m> . <var name="$True" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>True</li>
+        <li>False</li>
+        <li>True</li>
+        <li>True</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 
 </subsection>
@@ -331,11 +458,9 @@ but <em>we cannot add or subtract terms with different exponents</em>. Thus, for
 <subsection><title>Review of Scientific Notation</title>
 
 <p>Scientists and engineers regularly encounter very large numbers such as, 
-    <me>5,980,000,000,000,000,000,000,000,</me>
+    <md><mrow>5,980,000,000,000,000,000,000,000,</mrow></md>
 (the mass of the earth in kilograms) and very small numbers such as
-    <me>0.000~ 000~ 000~ 000~ 000~ 000~ 000 ~001~~/Pretext/mathbook/script/mbx -c webwork -d wwscratch -s https://webwork-ptx.aimath.org test-section.xml
-xsltproc --xinclude --stringparam webwork.extraction ~/Pretext/int-alg/wwscratch/webwork-extraction.xml ~/PreText/mathbook/xsl/pretext-merge.xsl test-section.xml > merge.xml
-xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml 67</me>
+    <md><mrow>0.000~ 000~ 000~ 000~ 000~ 000~ 000 ~001~ 67</mrow></md>
 (the mass of a hydrogen atom in grams) in their work. These numbers are easier to use when expressed in <term>scientific notation</term>.  </p>
 
 <assemblage><title>To Write a Number in Scientific Notation</title>
@@ -350,17 +475,47 @@ xsltproc --xinclude ~/Pretext/int-alg/xsl/int-alg-html.xsl merge.xml 67</me>
     <li><m>0.00032</m></li></ol></p></statement>
     
 <solution><p><ol label="a">
-    <li><p><md><mrow>478,000 \amp = 4.78000 \times 10^5 \amp \amp \blert{\text{Move the decimal 5 places to the left.}}</mrow>         <mrow>\amp = 4.78 \times 10^5</mrow></md></p></li>
-    <li><p><md><mrow>0.00032 \amp = 00003.2 \times 10^{-4} \amp \amp \blert{\text{Move the decimal 4 places to the right.}}</mrow></md></p></li></ol></p></solution>
+    <li><p><md><mrow>478,000 \amp = 4.78000 \times 10^5 \amp \amp \glert{\text{Move the decimal 5 places to the left.}}</mrow>         <mrow>\amp = 4.78 \times 10^5</mrow></md></p></li>
+    <li><p><md><mrow>0.00032 \amp = 00003.2 \times 10^{-4} \amp \amp \glert{\text{Move the decimal 4 places to the right.}}</mrow></md></p></li></ol></p></solution>
 </example>
 
 <exercise><title>Practice 5</title>
-<statement><p>Write each number in scientific notation.<ol label="a" cols="2">
-    <li><m>0.063</m></li>
-    <li><m>1480</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
-    <li><m>6.3 \times 10^{-2}</m></li>
-    <li><m>1.480 \times 10^3</m></li></ol></p></answer>
+<webwork>
+    <pg-code>
+        Context("ScientificNotation");
+        Context()->operators->add(
+         '*' => {precedence => 3, associativity => 'left', type => 'bin',
+                    TeX => '\times ', class => 'ScientificNotation::BOP::x'},
+            );
+        $a = Compute("6.3 * 10**-2");
+        $b = Compute("1.480 * 10**3");
+    </pg-code>
+    <statement>
+        <p>
+            Write each number in scientific notation.
+            <ol label="a" cols="2">
+                <li>
+                    <p>
+                        <m>0.063=</m><var name="$a" width="8"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>1480=</m><var name="$b" width="8"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <instruction>
+            Enter "10^-1" to get <m>10^{-1}</m>, and you may use either "*" or a lower case "x" for multiplication.
+        </instruction>
+    </statement>
+    <solution>
+        <p><ol label="a" cols="2">
+            <li><m>6.3 \times 10^{-2}</m></li>
+            <li><m>1.480 \times 10^3</m></li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 
 <p>Your calculator displays numbers in scientific notation if they are too large or too small to fit in the display screen.  Try squaring the number <m>123,456,789</m> on your calculator.  Enter
@@ -376,13 +531,13 @@ This is how the calculator displays the number <m>1.524157875 \times 10^{16}</m>
 </p></statement>
 
 <solution><p>First we'll compute the amount of meat necessary to feed every person on earth 110 kilograms per year.  In scientific notation, the population of Earth is <m>7.8 \times 10^9</m> people. 
-    <me>(7.8 \times 10^9~ \text{people}) \times (98.6~ \text{kg/person}) = 7.69 \times 10^{11}~\text{kg meat}</me>
+    <me>(7.8 \times 10^9 \text{ people}) \times (98.6 \text{ kg/person}) = 7.69 \times 10^{11} \text{ kg meat}</me>
 Next we'll compute the amount of grain needed to produce that much meat. 
-    <me>(16~ \text{kg grain/kg meat}) \times (7.69 \times 10^{11}~\text{kg meat}) = 1.23 \times 10^{13} \text{kg grain}</me>
+    <me>(16 \text{ kg grain/kg meat}) \times (7.69 \times 10^{11} \text{ kg meat}) = 1.23 \times 10^{13} \text{ kg grain}</me>
 Next we'll see how many hectares of land are needed to produce that much grain. 
-    <me>(1.23 \times 10^{13} \text{kg grain}) \div (6000~ \text{kg grain/hectare}) = 2.05 \times 10^9 \text{hectares}</me>
+    <me>(1.23 \times 10^{13} \text{ kg grain}) \div (6000~ \text{ kg grain/hectare}) = 2.05 \times 10^9 \text{ hectares}</me>
 Finally, we'll compute the amount of land on Earth suitable for grain production.
-    <me>0.11 \times (13 \times 10^9~ \text{hectares}) = 1.43 \times 10^9~ \text{hectares}</me>
+    <me>0.11 \times (13 \times 10^9 \text{ hectares}) = 1.43 \times 10^9 \text{ hectares}</me>
 The amount of arable land on Earth is less than the amount needed to produce that much grain. Thus, even if we use every hectare of arable land to produce grain for livestock, we won't have enough to provide every person on Earth with 98.6  kilograms of meat per year.</p></solution>
 </example>
 
