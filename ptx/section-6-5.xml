@@ -50,7 +50,7 @@ You can check that <m>25</m> is <em>not</em> a solution to the original equation
 <answer><p>even; extraneous</p></answer>
 </exercise>
 
-<example><statement><p>Solve the equation  <m>~\sqrt{x+2}+4 = x</m></p></statement>
+<example xml:id="example-radical-equations"><statement><p>Solve the equation  <m>~\sqrt{x+2}+4 = x</m></p></statement>
 
 <solution><p>First, we isolate the radical expression on one side of the equation. (This will make it easier to square both sides.)
         <md><mrow>\sqrt{x+2}\amp = x-4\amp\amp\blert{\text{Square both sides of the equation.}}</mrow>
@@ -69,11 +69,11 @@ You can check that <m>25</m> is <em>not</em> a solution to the original equation
 as shown at right. The graphs intersect in only one point, <m>(7, 3)</m>, so there is only one solution, <m>x=7</m>.</p>
     <image source="images/fig-radical-equation"><description>graphs of both sides of radical equation</description></image></sidebyside></solution></example>
 
-<warning><p>When we square both sides of an equation, it is <em>not</em> correct to square each term of the equation separately. Thus, in <xref ref="example-radical-equationS" text="type-global"/>, the original equation is <em>not</em> equivalent to
+<warning><p>When we square both sides of an equation, it is <em>not</em> correct to square each term of the equation separately. Thus, in <xref ref="example-radical-equations" text="type-global"/>, the original equation is <em>not</em> equivalent to
         <me>(\sqrt{x+2})^2+4^2=x^2 </me>
 This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>entire</em> left side of the equation as a binomial, like this,
         <me>(\sqrt{x+2}+4)^2=x^2 </me>
- or we may proceed as shown in <xref ref="example-radical-equationS" text="type-global"/>.</p></warning>
+ or we may proceed as shown in <xref ref="example-radical-equations" text="type-global"/>.</p></warning>
 
 <exercise><title>Practice 2</title>
 <statement><p>Solve <m>~2x-5 = \sqrt{40-3x}</m></p>

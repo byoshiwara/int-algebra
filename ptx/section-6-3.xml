@@ -444,7 +444,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
 
 <subsection><title>Operations with Rational Exponents</title>
 
-<p>Powers with rational exponents—positive, negative, or zero—obey the laws of exponents, which we discussed in <xref ref="Variation" text="type-global"/>. You may want to review those laws before studying the following examples.</p>
+<p>Powers with rational exponents—positive, negative, or zero—obey the laws of exponents, which we discussed in <xref ref="IntegerExponents" text="type-global"/>. You may want to review those laws before studying the following examples.</p>
 
 <example xml:id="example-operations-with-rational-exponents"><statement><p><ol label="a">
     <li><p><md><mrow>\frac{7^{0.75}}{7^{0.5}}\amp= 7^{0.75-0.5} = 7^{0.25}
