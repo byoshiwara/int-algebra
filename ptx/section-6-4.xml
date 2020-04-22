@@ -461,15 +461,18 @@ These rules tell us that for products and quotients, the radicands do not have t
     <li><p><m>\left(\sqrt{x}-\sqrt{y} \right)\left(\sqrt{x}+\sqrt{y} \right)</m></p></li></ol></p></statement>
 
 <solution><p><ol label="a">
-	<li><p>We multiply each term within the parentheses by <m>2\sqrt{3}</m>.
-        <md><mrow>\alert{2\sqrt{3}} \left(\sqrt{2x}+\sqrt{6} \right) \amp = \alert{2\sqrt{3}} \cdot \sqrt{2x} + 		\alert{2\sqrt{3}} \cdot 5\sqrt{6} \amp \amp \glert{\text{Apply the Product Rule.}}</mrow>
+    <li><p>We multiply each term within the parentheses by <m>2\sqrt{3}</m>.
+        <md>
+            <mrow>\alert{2\sqrt{3}}\amp \left(\sqrt{2x}+\sqrt{6} \right) =</mrow>
+            <mrow>\amp = \alert{2\sqrt{3}} \cdot \sqrt{2x} +         \alert{2\sqrt{3}} \cdot 5\sqrt{6} \amp \amp \glert{\text{Apply the Product Rule.}}</mrow>
             <mrow>\amp = \alert{2}\sqrt{\alert{3} \cdot 2x} + \alert{2} \cdot 5 \sqrt{\alert{3} \cdot 6} \amp \amp \glert{\text{Simplify the radicals.}}</mrow>
-            <mrow>\amp = 2\sqrt{6x}+10\sqrt{18}= 2\sqrt{6x}+10\cdot \sqrt{9}\sqrt{2}</mrow>
+            <mrow>\amp = 2\sqrt{6x}+10\sqrt{18}</mrow>
+            <mrow>\amp = 2\sqrt{6x}+10\cdot \sqrt{9}\sqrt{2}</mrow>
             <mrow>\amp = 2\sqrt{6x}+30\sqrt{2}</mrow></md></p></li>
     <li><p>We use the "FOIL" method to expand the product.
             <md><mrow>\left(\sqrt{x}-\sqrt{y} \right)\left(\sqrt{x}+\sqrt{y} \right) \amp = \sqrt{x}\sqrt{x}+\sqrt{x}\sqrt{y}-\sqrt{x}\sqrt{y}-\sqrt{y}\sqrt{y}</mrow>
-            	<mrow>\amp = \sqrt{x^2}+\sqrt{xy}-\sqrt{xy}-\sqrt{y^2}</mrow>
-            	<mrow>\amp = x-y</mrow></md></p></li></ol></p></solution>
+                <mrow>\amp = \sqrt{x^2}+\sqrt{xy}-\sqrt{xy}-\sqrt{y^2}</mrow>
+                <mrow>\amp = x-y</mrow></md></p></li></ol></p></solution>
 </example>
 
 <note><p>In Example 7a, observe that
