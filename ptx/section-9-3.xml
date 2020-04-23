@@ -241,7 +241,7 @@
 
 
 
-<exercise><title>QuickCheck1</title>
+<exercise><title>QuickCheck 1</title>
 <webwork>
     <pg-code>
         $vertices = PopUp(
