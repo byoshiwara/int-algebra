@@ -11,7 +11,7 @@
 
 <subexercises><title>Warm Up</title>
 
-<exercisegroup><introduction><p>Each question in Problems 1-4 is followed by three examples.  Use your calculator to decide if the examples are true or false, then circle the correct answer.</p></introduction>
+<exercisegroup><introduction><p>Each question in Problems 1<ndash/>4 is followed by three examples.  Use your calculator to decide if the examples are true or false, then circle the correct answer.</p></introduction>
 
 <exercise number="1"><statement><p>Is <m>~\sqrt{a+b} =\sqrt{a}+\sqrt{b}~</m>?  Yes or No<ol label="a">
     <li><m>\sqrt{12} = \sqrt{8}+\sqrt{4}</m></li>
@@ -55,7 +55,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercisegroup><introduction><p>For Problems 7-9, simplify. Assume that all variables represent positive numbers.
+<exercisegroup><introduction><p>For Problems 7<ndash/>9, simplify. Assume that all variables represent positive numbers.
 </p></introduction>
 
 <exercise number="7"><statement><p><ol label="a" cols="3">
@@ -87,7 +87,7 @@
         </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 10-12, simplify.</p></introduction>
+<exercisegroup><introduction><p>For Problems 10<ndash/>12, simplify.</p></introduction>
 
 <exercise number="10"><statement><p><ol label="a" cols="2">
         <li><p><m>-\sqrt{18s}\sqrt{2s^3} </m></p></li>
@@ -120,33 +120,33 @@
 
 <exercise number="14"><statement><p><ol label="a" cols="2">
     <li><m>2v\sqrt{v}+3\sqrt{v^3}-\dfrac{v^2}{\sqrt{v}}</m></li>
-    <li><m>12\sqrt[3]{w^2}-\sqrt[3]{w}(-2\sqrt[3]{w})+\dfrac{8w}{\sqrt[3]{w}}</m></li></ol></p></statement>
+    <li><m>12\sqrt[3]{w^2}-\sqrt[3]{w}\left(-2\sqrt[3]{w}\right)+\dfrac{8w}{\sqrt[3]{w}}</m></li></ol></p></statement>
 </exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 15-18, multiply.</p></introduction>
+<exercisegroup><introduction><p>For Problems 15<ndash/>18, multiply.</p></introduction>
 
 <exercise number="15"><statement><p><ol label="a" cols="2">
-    <li><m>3\sqrt{2}(\sqrt{6}+\sqrt{10})</m></li>
-    <li><m>\sqrt{3k}(3\sqrt{k}-k\sqrt{6k})</m></li></ol></p></statement>
+    <li><m>3\sqrt{2}\left(\sqrt{6}+\sqrt{10}\right)</m></li>
+    <li><m>\sqrt{3k}\left(3\sqrt{k}-k\sqrt{6k}\right)</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>6\sqrt{3}+6\sqrt{5}</m></li>
     <li><m>3k\sqrt{3}-3k^2\sqrt{2}</m></li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><ol label="a" cols="2">
-    <li><m>\sqrt[3]{2}(\sqrt[3]{20}-2\sqrt[3]{12})</m></li>
-    <li><m>\sqrt[3]{3}(2\sqrt[3]{18}+\sqrt[3]{36})</m></li></ol></p></statement></exercise>
+    <li><m>\sqrt[3]{2}\left(\sqrt[3]{20}-2\sqrt[3]{12}\right)</m></li>
+    <li><m>\sqrt[3]{3}\left(2\sqrt[3]{18}+\sqrt[3]{36}\right)</m></li></ol></p></statement></exercise>
 
 <exercise number="17"><statement><p><ol label="a" cols="2">
     <li><m>(\sqrt{x}-3)(\sqrt{x}+3)</m></li>
-    <li><m>(\sqrt{2}-\sqrt{3})(\sqrt{2}+2\sqrt{3})</m></li></ol></p></statement>
+    <li><m>\left(\sqrt{2}-\sqrt{3}\right)\left(\sqrt{2}+2\sqrt{3}\right)</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>x-9</m></li>
     <li><m>-4+\sqrt{6}</m></li></ol></p></answer></exercise>
 
 <exercise number="18"><statement><p><ol label="a" cols="2">
-    <li><m>(\sqrt{5}-\sqrt{2})^2</m></li>
-    <li><m>(\sqrt{a}-2\sqrt{b})^2</m></li></ol></p></statement></exercise>
+    <li><m>\left(\sqrt{5}-\sqrt{2}\right)^2</m></li>
+    <li><m>\left(\sqrt{a}-2\sqrt{b}\right)^2</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="19"><statement><p>Reduce if possible.<ol label="a" cols="3">
@@ -172,7 +172,7 @@
 <exercise number="22"><statement><p><m>4x^2-20x+22=0 \text{, }~\dfrac{5-\sqrt{3}}{2}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 23-26, rationalize the denominator.</p></introduction>
+<exercisegroup><introduction><p>For Problems 23<ndash/>, rationalize the denominator.</p></introduction>
 
 <exercise number="23"><statement><p><ol label="a" cols="2">
     <li><m>\sqrt{\dfrac{7x}{18}}</m></li>

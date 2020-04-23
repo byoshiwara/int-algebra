@@ -1,1136 +1,721 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Ellipses"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Conic Sections: Ellipses</title>
-
-<introduction>
-    <p>
-        The graph of any first-degree equation in two variables,
-        <md><mrow>
-            Ax + By = C
-        </mrow></md>
-        is a line (as long as <m>A</m> and <m>B</m> are not both 0). A second-degree equation in two variables has the general form
-        <md><mrow>
-            Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0
-        </mrow></md>
-        where <m>A</m>, <m>B</m>, and <m>C</m> cannot all be zero (because in that case the equation would not be second degree). The graphs of such equations are curves called <term>conic sections</term><idx>conic section</idx> because they are formed by the intersection of a plane and a cone, as illustrated below. Except for a few special cases called <em>degenerate conics</em>, the conic sections fall into four categories called <term>circles</term>, <term>ellipses</term>, <term>hyperbolas</term>, and <term>parabolas</term>.
-    </p>
-    <sidebyside width="90%">
-        <image source="images/conics"><description>conics</description></image>
-    </sidebyside>
-    <p>
-        Conic sections whose centers (or vertices, in the case of parabolas) are located at the origin are called <term>central conics</term><idx>central conic</idx>.
-    </p>
-</introduction>
-
-<subsection><title>Circles and Ellipses</title>
-
+<section xml:id="Distance-and-Midpoint"   xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>The Distance and Midpoint Formulas</title>
+                
+<subsection><title>Distance in a Coordinate Plane</title>   
+                   
 <p>
-    The circle is the most familiar of the conic sections. Recall that the standard equation for a circle of radius, <m>r</m>, centered at the point <m>(h, k)</m> is:
-    <md><mrow>
-        (x -h)^2 + (y- k)^2 = r^2
-    </mrow></md>
-    and a circle whose center is the origin has equation
-    <md><mrow>
-        x^2 + y^2 = r^2
-    </mrow></md>
-    If we divide through by <m>r^2</m>, we can also write this equation in the form
-    <md><mrow>
-        \frac{x^2}{r^2}+\frac{y^2}{r^2}=1
-    </mrow></md>
-    Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <m>r^2</m>. You can check that the <m>x</m>- and <m>y</m>-intercepts of this circle are <m>(0, \pm r)</m> and <m>(\pm r, 0)</m>.
+    Figure (a) shows a line segment joining the two points <m>(-2, 7)</m> and <m>(6, 3)</m>. What isthe distance between the two points?
 </p>
-<p>
-    If the denominators of the <m>x</m>-squared and <m>y</m>-squared terms are not equal, the graph is called an <term>ellipse</term><idx>ellipse</idx>. An ellipse is an elongated circle, or oval. Ellipses appear in a variety of applications. The orbits of the planets and of satellites about the earth are ellipses. The arches in some bridges are elliptical in shape, and whispering domes, such as the ceiling of the Mormon Tabernacle in Salt Lake City, are made from ellipses.
-</p>
-<p>
-    Recall that a circle is the set of all points in a plane that lie at a fixed distance from its center. An ellipse also has a geometric definition.
-</p>
-<definition><title>Ellipse</title>
-    <p>
-        An <term>ellipse</term><idx>ellipse</idx> is the set of points in the plane, the sum of whose distances fro mtwo fixed points (the <term>foci</term><idx>focus</idx>) is a constant.
-    </p>
-</definition>
-<p>
-    Using the distance formula and the definition above, we can show that the equation of an ellipse centered at the origin has the following standard form.
-</p>
-<assemblage><title>Central Ellipse</title>
-<p>
-    The equation of an <term>ellipse</term> centered at the origin is
-    <md><mrow>
-        \frac{x^2}{a^2}+\frac{y^2}{b^2}=1
-    </mrow></md>
-</p>
-</assemblage>
-
-<p>
-    By setting <m>y</m> equal to zero in the equation above, we find that the <m>x</m>-intercepts of this ellipse are <m>a</m> and <m>-a</m>; by setting <m>x</m> equal to zero, we find that the <m>y</m>-intercepts are <m>b</m> and <m>-b</m>.
-</p>
-<p>
-    The line segment that passes through the foci (labeled <m>F_1</m> and <m>F_2</m> on the graphs below) and ends on the ellipse is called the <term>major axis</term><idx>major axis</idx>. If <m>a \gt b</m>, the major axis is horizontal, as shown in the Figure below left. The <m>x</m>-intercepts are the endpoints of the major axis, so its length is <m>2a</m>. The vertical segment with length <m>2b</m> is called the <term>minor axis</term><idx>minor axis</idx>. The endpoints of the major axis are the <term>vertices</term><idx>vertex</idx> of the ellipse and the endpoints of the minor axis are the <term>covertices</term><idx>covertex</idx>.
-</p>
-<sidebyside widths="47% 47%" margins="0% 0%">
-    <image xml:id="fig-ellipse-wide">
-        <description>ellipse with horizontal major axis</description>
+<sidebyside widths="42% 42%" margins="5% 5%">
+    <image xml:id="fig-line-segment-in-coordinate-plane">
+        <description>line segment in coordinate plane</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.7]
-        \draw[black,thick, ->, >=stealth'] (-5,0)--(5,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5) node[above]{$y$};
-        \draw[red, thick] (0,0) ellipse (3 and 2);
-        \draw[green, very thick] (0,-2) -- (0,2);
-        \draw[blue, ultra thick](-3,0)--(3,0);
-        \filldraw[black] ({-sqrt(5)},0) circle (.1) node[above, text=black]{$F_1$};
-        \filldraw[red] ({-3},0) circle (.1) node[above left, text=black]{$(-a,0)$};
-        \filldraw[red] (3,0) circle (.1) node[above right, text=black]{$(a,0)$};
-        \filldraw[red] (0,2) circle (.1) node[above left, text=black]{$(0,b)$};
-        \filldraw[red] (0,-2) circle (.1) node[below right, text=black]{$(0,-b)$};
-        \filldraw[black] ({sqrt(5)},0) circle (.1) node[above, text=black]{$F_2$};
-        \draw [blue!70!black, decorate, decoration={brace,amplitude=10pt}] (3,0)--(-3,0);
-        \draw [blue!70!black,->, >=stealth'] (-1.6,-2.6) to [out=20,in=240] (-.1,-.65);
-        \node[text=blue!70!black] at (-3.2,-2.6){Major axis};
-        \node at (2.8,-3.7) {\Large${\frac{x^2}{a^2}+\frac{y^2}{b^2}={} }$\normalsize 1};
-        \node at (2.8, -4.8) {$a > b$};
-        \draw [green!70!black, decorate, decoration={brace,amplitude=10pt}] (0,2)--(0,-2);
-        \draw [green!70!black,<-, >=stealth'] (.65,0.1) to [out=40,in=200] (1.5,2.2) node[right]{Minor axis};
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (-5,-5) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(10.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,10.6) node[above]{$y$};
+        \foreach \x in  {10,5,-5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, thick] (-2,7)--(6,3);
+        \node at (2.5,-7) {Figure a};
         \end{tikzpicture}]]>
-    </latex-image>
+        </latex-image>
     </image>
-    <image xml:id="fig-ellipse-tall">
-        <description>ellipse with vertical major axis</description>
+    <image xml:id="fig-line-segment-hypotenuse">
+        <description>line segment as hypotenuse</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.7]
-        \draw[black,thick, ->, >=stealth'] (-5,0)--(5,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5) node[above]{$y$};
-        \draw[red, thick] (0,0) ellipse (2 and 3);
-        \draw[blue, ultra thick] (0,-3) -- (0,3);
-        \draw[green, ultra thick](-2,0)--(2,0);
-        \filldraw[black] (0,{sqrt(5)}) circle (.1) node[left, text=black]{$F_1$};
-        \filldraw[red] (-2,0) circle (.1) node[above left, text=black]{$(-a,0)$};
-        \filldraw[red] (2,0) circle (.1) node[above right, text=black]{$(a,0)$};
-        \filldraw[red] (0,3) circle (.1) node[above left, text=black]{$(0,b)$};
-        \filldraw[red] (0,-3) circle (.1) node[below right, text=black]{$(0,-b)$};
-        \filldraw[black] (0,{-sqrt(5)}) circle (.1) node[left, text=black]{$F_2$};
-        \draw [green!70!black, decorate, decoration={brace,amplitude=10pt}] (2,0)--(-2,0);
-        \draw [green!70!black,->, >=stealth'] (-1.8,-2) to [out=20,in=240] (-.1,-.65);
-        \node[text=green!50!black] at (-3.35,-2){Minor axis};
-        \node at (3.7,-1.7) {\Large${\frac{x^2}{a^2}+\frac{y^2}{b^2}={} }$\normalsize 1};
-        \node at (3.7, -2.8) {$a < b$};
-        \draw [blue!80!black, decorate, decoration={brace,amplitude=10pt}] (0,3)--(0,-3);
-        \draw [blue!80!black,<-, >=stealth'] (.65,0.1) to [out=40,in=200] (1.5,3.2) node[right]{Major axis};
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (-5,-5) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(10.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,10.6) node[above]{$y$};
+        \foreach \x in  {10,5,-5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, thick] (-2,7)--(6,3);
+        \node at (2.5,-7) {Figure b};
+        \draw[blue,ultra thick, dashed] (-2,7)--(-2,3) node[left, midway, xshift=-2, fill=white, inner sep=1]{$a$};
+        \draw[blue,ultra thick, dashed] (-2,3)--(6,3) node[below, midway, yshift=-2, fill=white, inner sep=1]{$b$};
+        \filldraw[blue] (-2,7) circle (.2) node[above left, yshift=3, fill=white, inner sep=1, text=black] {$(-2,7)$};
+        \filldraw[blue] (-2,3) circle (.2) node[below left, yshift=-3, fill=white, inner sep=1, text=black] {$(-2,3)$};
+        \filldraw[blue] (6,3) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(6,3)$};
         \end{tikzpicture}]]>
-    </latex-image>
+        </latex-image>
     </image>
 </sidebyside>
 
+<assembly>
+    <p>
+        The distance between two points is the length of the segment joining them.
+    </p>
+</assembly>
+
 <p>
-    If <m>a \lt b</m>, the major axis is vertical and has length <m>2b</m>. In this case the endpoint sof the major axis are the <m>y</m>-intercepts of the ellipse. (See Figure above right.) The minor axis is horizontal and has length <m>2a</m>.
+    If we make a right triangle as shown in Figure (b), we can use the Pythagorean theorem to find its length. First, notice that the coordinates at the right angle are <m>(-2, 3)</m>. We can find the lengths of the two legs of the triangle, because they are horizontal and vertical segments.
+    <md>
+        <mrow>a\amp= \abs{3-7} = 4</mrow>
+        <mrow>b\amp=\abs{6-(-2)}=8</mrow>
+    </md>
+    The segment we want is the hypotenuse of the right triangle, so we apply the Pythagorean theorem.
+    <md>
+        <mrow>c^2 \amp= a^2+b^2</mrow>
+        <mrow>\amp= 4^2+8^2=80\amp\amp \glert{\text{Take square roots.}}</mrow>
+        <mrow>c\amp=\sqrt{80}\approx 8.9</mrow>
+    </md>
 </p>
+
+</subsection>
+
+<subsection><title>The Distance Formula</title>
 <p>
-    The standard form of the equation for an ellipse gives us enough information to sketch its graph
+    We can also use the Pythagorean theorem to derive a formula for the distance between any two points, <m>P_1</m> and <m>P_2</m>, in terms of their coordinates. We first label a right triangle, as we did in the exmple above. Draw a horizontal line through <m>P_1</m> and a vertical line through <m>P_2</m>. These lines meet at a point <m>P_3</m>, as shown in the figure below. The <m>x</m>-coordinate of <m>P_3</m> is the same as the <m>x</m>-coordinate of <m>P_2</m>, and the <m>y</m>-coordinate of <m>P_3</m> is the same as the <m>y</m>-coordinate of <m>P_1</m>. Thus, the coordinates of <m>P_3</m> are <m>(x_2, y_1)</m>.
 </p>
+
+<sidebyside  width="70%">
+    <image source="images/fig-distance-formula"><description>distance between two points in the plane</description></image>
+</sidebyside>
+
+<p>
+    The distance between <m>P_1</m> and <m>P_3</m> is <m>\abs{x_2-x_1}</m> , and the distance between <m>P_2</m> and <m>P_3</m> is <m>\abs{y_2-y_1} </m>. These two numbers are the lengths of the legs of the right triangle. The length of the hypotenuse is the distance between <m>P_1</m> and <m>P_2</m>, which we'll call <m>d</m>. By the Pythagorean theorem,
+    <md>
+        <mrow>d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2</mrow>
+    </md>
+    Taking the (positive) square root of each side of this equation gives us the <term>distance formula</term><idx>distance formula</idx>.</p>
+
+<assemblage><title>Distance Formula</title>
+    <p>
+        The <term>distance</term> <m>d</m> between points <m>P_1(x_1,y_1)</m> and <m>P_2(x_2,y_2)</m> is
+        <md>
+            <mrow>\blert{d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}}</mrow>
+        </md>
+    </p>
+</assemblage>
+
+<exercise><title>QuickCheck 1</title>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or false.
+            <ol label="a">
+                <li>
+                    <p>The distance formula is a version of the Pythagorean theorem. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(u-v)^2 = (v-u)^2 = |u-v|^2=|v-u|^2 </m> <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We can find the length of a horizontal segment by subtracting the <m>x</m>-coordinates of its endpoints. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The distance between two points is always a positive number (or zero). <var name="$True" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>True</li>
+        <li>True</li>
+        <li>True</li>
+        <li>True</li></ol></p>
+    </solution>
+</webwork>
+</exercise>
 
 <example>
     <statement>
-        <p>
-            Graph <m>\dfrac{x^2}{8}+\dfrac{y^2}{25}=1 </m>
-        </p>
+        <p>Find the distance between <m>(2,-1)</m> and <m>(4,3)</m>.</p>
     </statement>
     <solution>
         <p>
-            The graph is an ellipse with major axis on the <m>y</m>-axis. Because <m>a^2 = 8</m> and <m>b^2 = 25</m>, the vertices are located at <m>(0, 5)</m> and <m>(0, -5)</m>, and the covertices lie  <m>\sqrt{8} </m>  units to the right and left of the center, or approximately at <m>(2.8, 0)</m> and <m>(-2.8, 0)</m>. To sketch the ellipse, we first locate the vertices and covertices. Then we draw a smooth curve through the points. The graph of <m>\dfrac{x^2}{8}+\dfrac{y^2}{25}=1 </m> is shown below.
+            Substitute <m>(2,-1)</m> for <m>(x_1,y_1)</m> and <m>(4,3)</m> for <m>(x_2,y_2)</m> in the distance formula to obtain
+            <md>
+                <mrow>d \amp = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2}</mrow>
+                <mrow>\amp = \sqrt{(4-2)^2+\left[3-(-1)\right]^2}</mrow>
+                <mrow>\amp = \sqrt{4+16} =\sqrt{20} \approx 4.47 </mrow>
+            </md>
         </p>
-        <sidebyside width="50%">
-            <image xml:id="fig-example-9-2-1">
-        <description>ellipse with vertical major axis</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.6]
-        \draw[cyan] (-6,-6) grid (6,6);
-        \draw[black,thick, ->, >=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-6)--(0,6.5) node[above]{$y$};
-        \foreach \x in  {-5,5} {
-         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-        }
-        \draw[red, thick] (0,0) ellipse ({sqrt(8)} and 5);
-        \filldraw[black] (0,{sqrt(17)}) circle (.1) node[right, text=black]{$F_1$};
-        \filldraw[black] (0,{-sqrt(17)}) circle (.1) node[right, text=black]{$F_2$};
-        \filldraw[red] ({-sqrt(8)},0) circle (.1);
-        \filldraw[red] ({sqrt(8)},0);
-        \filldraw[red] (0,5) circle (.1);
-        \filldraw[red] (0,-5) circle (.1);
-        \node[fill=white, inner sep=2] at (-3.75,5.1) {\Large${\frac{x^2}{8}+\frac{y^2}{25}={} }$\normalsize 1};
-        \draw [green!60!black, decorate, decoration={brace,amplitude=6pt}] (0,.1)--({sqrt(8)},.1) node[above, yshift=.3cm, midway, fill=white, inner sep=2]{$\sqrt{8}$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-        </sidebyside>
     </solution>
 </example>
+
+<p>
+    It doesn't matter which point we call <m>P_1</m>  and which is <m>P_2</m>. We obtain the same answer in Example 1 if we switch the two points and use <m>(4,3)</m> for <m>P_1</m> and <m>(2,-1)</m> for <m>P_2</m>:
+    <md>
+        <mrow>d \amp = \sqrt{(2-4)^2+[(-1)-3]^2}</mrow>
+        <mrow>\amp = \sqrt{4+16} =\sqrt{20}</mrow>
+    </md>
+</p>
+
+
+<warning>
+    <p>
+        We cannot simplify <m>\sqrt{4+16} </m> as <m>\sqrt{4}+\sqrt{16} </m>. Remember that <m>\sqrt{a^2+b^2}\ne a+b </m>. You can easily see this by observing that
+        <md><mrow>
+            \sqrt{3^2+4^2}=\sqrt{9+16}=\sqrt{5}
+        </mrow></md>
+        so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For the same reason, we cannot simplify the distance formula to <m>(x-x_1)+(y-y_1)</m>.
+    </p>
+</warning>
 
 <exercise><title>Practice 1</title>
 <webwork>
     <pg-code>
-        Context(Point);
-        $answer = List("(-3,0), (3,0), (0,-2), (0,2)");
-        $my_evaluator = $answer -> cmp(
-         showHints=>1,
-         showLengthHints => 1,
-         partialCredit => 1,
-        ); 
+        $d = Compute("sqrt(208)");
     </pg-code>
     <statement>
         <p><ol label="a">
             <li>
                 <p>
-                    Find the intercepts of the graph of <m>\dfrac{x^2}{9}+\dfrac{y^2}{4}=1 </m>. Separate different intercepts with a comma. 
+                    Find the distance between the points <m>(-5,3)</m> and <m>(3,-9)</m>: <var name="$d" width="10"/>
                 </p>
+                <instruction>
+                    Enter "sqrt(2)" to get <m>\sqrt{2}</m>.
+                </instruction>
+            </li>
+            <li>
                 <p>
-                    <var name="$answer" width="20"  evaluator="$my_evaluator"/> 
+                    Plot the points, and illustrate how the Pythagorean theorem is used in calculating the distance.
                 </p>
             </li>
-            <li><p>
-                Graph the ellipse.
-            </p></li>
         </ol></p>
     </statement>
-    <solution><p><ol label="a">
-        <li><p>
-            <m>(3,0) </m>, <m>(-3,0) </m>, <m>(0,2) </m>, <m>(0,-2) </m>
-        </p></li>
-        <li><p>A graph is below.</p></li>
-    </ol></p></solution>
+    <solution>
+        <p><ol label="a">
+            <li><m>\sqrt{208}</m></li>
+            <li>A graph is below.</li>
+        </ol></p>
+    </solution>
 </webwork>
-<conclusion>
-    <sidebyside width="35%" margins="0% 0%">
-        <image xml:id="fig-ex-9-2-1ans">
-        <description>ellipse with horizontal major axis</description>
+<conclusion><sidebyside width="40%">
+    <image xml:id="fig-ex-9-2-1ans">
+        <description>distance formula</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.6]
-        \draw[cyan] (-5,-5) grid (5,5);
-        \draw[black,thick, ->, >=stealth'] (-5,0)--(5.5,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5.5) node[above]{$y$};
-        \foreach \x in  {-5,5} {
-         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (-8,-10) grid (5,5);
+        \draw[black,thick, ->, >=stealth'] (-8,0)--(5.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,5.6) node[above]{$y$};
+        \foreach \x in  {5,-5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
-        \draw[red, thick] (0,0) ellipse (3 and 2);
-        \filldraw[red] (-3,0) circle (.1) node[above left, yshift=4, fill=white, inner sep=1]{$(-3,0)$};
-        \filldraw[red] (3,0) circle (.1) node[above right, yshift=4, fill=white, inner sep=1]{$(3,0)$};
-        \filldraw[red] (0,2) circle (.1) node[above right, xshift=1, yshift=4, fill=white, inner sep=1]{$(0,2)$};
-        \filldraw[red] (0,-2) circle (.1) node[below right, xshift=1, yshift=-4, fill=white, inner sep=1]{$(0,-2)$};
-        \node[fill=white, inner sep=2] at (-2.9,3.6) {\Large${\frac{x^2}{9}+\frac{y^2}{4}={} }$\normalsize 1};
+        \draw[red, thick] (-5,3)--(3,-9) node[midway, right, xshift=3, yshift=5, fill=white, inner sep=1] {$d$};
+        \draw[blue,ultra thick, dashed] (-5,3)--(-5,-9) node[left, midway, xshift=-2, fill=white, inner sep=1]{$8$};
+        \draw[blue,ultra thick, dashed] (-5,-9)--(3,-9) node[below, midway, yshift=-2, fill=white, inner sep=1]{$12$};
+        \filldraw[blue] (-5,3) circle (.2) node[above left, yshift=3, fill=white, inner sep=1, text=black] {$(-5,3)$};
+        \filldraw[blue] (3,-9) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(3,-9)$};
+        \node[fill=white, inner sep=1,text=red] at (0.5,1.5) {$8^2+12^2=d^2$};
         \end{tikzpicture}]]>
-    </latex-image>
+        </latex-image>
     </image>
-    </sidebyside>
-</conclusion>
+</sidebyside></conclusion>
 </exercise>
 
+</subsection>
 
-
-
-<exercise><title>QuickCheck1</title>
-<webwork>
-    <pg-code>
-        $vertices = PopUp(
-          ["?", "two foci", "center and radius","vertices and covertices", "slope and intercepts"],
-         3, 
-        );
-        $horizontal = PopUp(
-          ["?","horizontal", "vertical"],
-          1, 
-        );
-        $intercept = PopUp(
-          ["?","a", "b"],
-         2, 
-        );
-        $conics = PopUp(
-          ["?","conic sections", "quadrants", "formulas", "solutions"],
-         1, 
-        );
-    </pg-code>
-    <statement>
-        <p><ol>
-            <li><p>
-                To sketch an ellipse, we locate <var name="$vertices" form="popup"/>, then draw a smooth curve through them.
-            </p></li>
-            <li><p>
-                If <m>a\gt b</m>, is the major axis horizontal or vertical? <var name="$horizontal" form="popup"/>
-            </p></li>
-            <li><p>
-                The <m>y</m>-intercepts of a central ellipse lie <var name="$intercept" form="popup"/> units from the center.
-            </p></li>
-            <li><p>
-                An ellipse is one of the four <var name="$conics" form="popup"/>.
-            </p></li>
-        </ol></p>
-    </statement>
-    <solution>
-        <p><ol>
-            <li><p>vertices and covertices</p></li>
-            <li><p>horizontal</p></li>
-            <li><p><m>b</m></p></li>
-            <li><p>conic sections</p></li>
-        </ol></p>
-    </solution>
-</webwork>
-</exercise>
-
+<subsection><title>Finding the Midpoint</title>
 <p>
-    The equation of any central ellipse may be written as
-    <md><mrow>
-        Ax^2+By^2=C
-    </mrow></md>
-    where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph are easier to identify if we first convert the equation to standard form.
+    The <term>midpoint</term><idx>midpoint</idx> of a segment is the point halfway between its endpoints, so that the distance from the midpoint to either endpoint is the same. The <m>x</m>-coordinate of the midpoint is halfway between the <m>x</m>-coordinates of the endpoints, and likewise for the <m>y</m>-coordinate. For the points <m>(-2, 7)</m> and <m>(6, 3)</m> shown below, the <m>x</m>-coordinate of the midpoint is <m>2</m>, which is halfway between <m>-2</m> and <m>6</m>. The <m>y</m>-coordinate is halfway between <m>7</m> and <m>3</m>, or <m>5</m>. Thus, the midpoint is <m>(2, 5)</m>
+</p>
+<sidebyside width="50%">
+    <image xml:id="fig-line-segment-midpoint">
+        <description>line segment</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (-5,-5) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(10.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,10.6) node[above]{$y$};
+        \foreach \x in  {10,5,-5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, thick] (-2,7)--(6,3);
+        \draw[blue,ultra thick, dashed] (-2,7)--(-2,3)--(6,3);
+        \draw[green,ultra thick, dashed] (-2,5)--(2,5)--(2,3);
+        \filldraw[blue] (-2,7) circle (.2) node[above left, yshift=3, fill=white, inner sep=1, text=black] {$(-2,7)$};
+        \filldraw[black] (2,5) circle (.2) node[above right, yshift=3, fill=white, inner sep=1, text=black] {$(2,5)$};
+        \filldraw[blue] (6,3) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(6,3)$};
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside>
+
+</subsection>
+
+<subsection><title>The Midpoint Formula</title>
+<p>
+    If we know the coordinates of two points, we can calculate the coordinates of the midpoint. Each coordinate of the midpoint is the average of the corresponding coordinates of the two points.
 </p>
 
-<example>
-    <statement>
-        <p>
-            Graph <m>4x^2 =y^2=12</m>
-        </p>
-    </statement>
-    <solution>
-        <sidebyside widths="40% 58%" margins="0% 0%" valigns="middle middle">
-            <image xml:id="fig-example-9-2-2">
-            <description>ellipse with vertical major axis</description>
-            <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
-            \begin{tikzpicture} [scale=.7]
-            \draw[cyan] (-5,-5) grid (5,5);
-            \draw[black,thick, ->, >=stealth'] (-5,0)--(5.5,0) node[right]{$x$};
-            \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5.5) node[above]{$y$};
-            \foreach \x in  {-5,5} {
-             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-            }
-            \draw[red, thick] (0,0) ellipse ({sqrt(3)} and {sqrt(12)});
-            \filldraw[red] ({-sqrt(3)},0) circle (.1) node[above left, xshift=-3, yshift=4, fill=white, inner sep=1]{$(-\sqrt{3},0)$};
-            \filldraw[red] ({sqrt(3)},0) circle (.1) node[above right, xshift=3, yshift=4, fill=white, inner sep=1]{$(\sqrt{3},0)$};
-            \filldraw[red] (0,{sqrt(12)}) circle (.1) node[above right, xshift=1, yshift=4, fill=white, inner sep=1]{$(0,2\sqrt{3})$};
-            \filldraw[red] (0,{-sqrt(12)}) circle (.1) node[below right, xshift=1, yshift=-4, fill=white, inner sep=1]{$(0,-2\sqrt{3})$};
-            \node[fill=white, inner sep=2] at (-2.9,3.6) {$4x^2+y^2=12$};
-            \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-            <p>
-                 First we convert the equation to standard form: we divide through by the constant term, 12, to obtain
-                 <md><mrow>
-                     \frac{x^2}{3}+\frac{y^2}{12}=1
-                 </mrow></md>
-                 Because <m>a^2=3</m> and <m>b^2=12</m>, the vertices are <m>(0,\pm 2\sqrt{3}) </m> and the covertices are <m>(\pm \sqrt{3},0) </m>. We plot points at about <m>(0, \pm 3.5)</m> and <m>(\pm 1.7, 0)</m>, then draw an ellipse through the points, as shown at left.
-            </p>
-        </sidebyside>
-    </solution>
-</example>
+<assemblage><title>Midpoint Formula</title>
+<p>
+    The <term>midpoint</term><idx>midpoint</idx> of the line segment joining the points <m>P_1(x_1,y_1)</m> and <m>P_2(x_2,y_2)</m> is the point <m>M(\overline{x},\overline{y})</m>, where
+    <md>
+        <mrow>
+            \blert{\overline{x}=\dfrac{x_1+x_2}{2}}\qquad\text{ and }\qquad\blert{\overline{y}=\dfrac{y_1+y_2}{2}}
+        </mrow>
+    </md>
+</p>
+</assemblage>
+
+<example><statement><p>Find the midpoint of the line segment joining the points <m>(-2,1)</m> and <m>(4,3)</m>.</p></statement>
+
+<solution><p>We substitute <m>(-2,1)</m> for <m>(x_1,y_1)</m> and <m>(4,3)</m> for <m>(x_2,y_2)</m> in the midpoint formula to obtain 
+    <md><mrow>\overline{x}\amp=\dfrac{x_1+x_2}{2}=\dfrac{-2+4}{2}=1</mrow>
+        <mrow>\overline{y}\amp=\dfrac{y_1+y_2}{2}=\dfrac{1+3}{2}=2</mrow></md>
+The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m>.</p></solution></example>
 
 <exercise><title>Practice 2</title>
 <webwork>
     <pg-code>
-      $xfunc[0] = sub { my $t = shift();
-        return 4/3*cos($t); };
-      $yfunc[0] = sub { my $t = shift();
-        return sqrt(2)*sin($t); };
-      $xfunc[1] = sub { my $t = shift();
-        return sqrt(2)*cos($t); };
-      $yfunc[1] = sub { my $t = shift();
-        return 4/3*sin($t); };
-      $xfunc[2] = sub { my $t = shift();
-        return 3*cos($t); };
-      $yfunc[2] = sub { my $t = shift();
-        return sqrt(8)*sin($t); };
-      $xfunc[3] = sub { my $t = shift();
-        return 3/4*cos($t); };
-      $yfunc[3] = sub { my $t = shift();
-        return sqrt(1/2)*sin($t); };
-
-       foreach my $i (0..3) {
-        $gr[$i] = init_graph(-3,-3,3,3, axes=>[0,0], grid=>[6,6], size=>[240,240]);
-          $fn[$i] = new Fun( $xfunc[$i], $yfunc[$i], $gr[$i] );
-          $fn[$i]->domain(0,6.2832);
-        }
-
-       foreach my $i (0..3) {
-       $gr[$i] -> lb('reset');
-        $gr[$i] -> lb(new Label (-0.2,2,2,'black','center','middle'));
-        $gr[$i] -> lb(new Label (-0.2,-2,-2,'black','center','middle'));
-        $gr[$i] -> lb(new Label (2,-0.2,2,'black','center','middle'));
-        $gr[$i] -> lb(new Label (-2,-0.2,-2,'black','center','middle'));
-        }
-        $gr[0] -> lb(new Label (-2.5,2.5,"(A)",'black','center','middle'));
-        $gr[1] -> lb(new Label (-2.5,2.5,"(B)",'black','center','middle'));
-        $gr[2] -> lb(new Label (-2.5,2.5,"(C)",'black','center','middle'));
-        $gr[3] -> lb(new Label (-2.5,2.5,"(D)",'black','center','middle'));
-
-        $mc = RadioButtons(
-                    [ "(A)", "(B)", "(C)","(D)"],
-                    0
-                );
-      </pg-code>     
-    <statement>
-            <p>Graph <m>9x^2+8y^2=16</m></p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[0]"/>
-                <image pg-name="$gr[1]"/>
-            </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[2]"/>
-                <image pg-name="$gr[3]"/>
-            </sidebyside>
-            <p>Which of the above is the best match for the graph)?</p>
-            <p><var name="$mc" form="buttons"/> </p>
-     </statement>
-    <solution>
-        <sidebyside widths="40%">
-                <image pg-name="$gr[0]"/>
-            </sidebyside>
-            <p>
-              A graph is also shown below.
-            </p>
-    </solution>
-</webwork>
-    <conclusion>
-        <sidebyside width="35%" margins="0% 65%">
-            <image xml:id="fig-ex-9-2-2ans">
-            <description>ellipse</description>
-            <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
-            \begin{tikzpicture} [scale=.7]
-            \draw[cyan] (-3,-3) grid (3,3);
-            \draw[black,thick, ->, >=stealth'] (-3,0)--(3.5,0) node[right]{$x$};
-            \draw[black,thick, ->, >=stealth'] (0,-3)--(0,3.5) node[above]{$y$};
-            \foreach \x in  {-2,2} {
-             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-            }
-            \draw[red, thick] (0,0) ellipse (4/3 and {sqrt(2)});
-            \filldraw[red] ({-4/3},0) circle (.1) node[above left, xshift=-1, yshift=6, fill=white, inner sep=1]{$\left(\frac{-4}{3},0\right)$};
-            \filldraw[red] ({4/(3)},0) circle (.1) node[above right, xshift=3, yshift=4, fill=white, inner sep=1]{$\left(\frac{4}{3},0\right)$};
-            \filldraw[red] (0,{sqrt(2)}) circle (.1) node[above right, xshift=3, yshift=2, fill=white, inner sep=1]{$(0,\sqrt{2})$};
-            \filldraw[red] (0,{-sqrt(2)}) circle (.1) node[below right, xshift=2, yshift=-3, fill=white, inner sep=1]{$(0,-\sqrt{2})$};
-            \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </conclusion>
-</exercise>
-
-<p>
-    We can find coordinates of other points on an ellipse by substituting a value for one variable and solving for the other variable.
-</p>
-
-<example>
-    <statement>
-        <p><ol label="a">
-            <li><p>
-                Find the exact coordinates of any points with <m>y</m>-coordinate 2 on the ellipse <m>4x^2 + y^2 = 12</m>. Plot and label those points on the ellipse.
-            </p></li>
-            <li><p>
-                Solve the equation <m>4x^2 + y^2 = 12</m> when <m>y = -4</m>. What do the solutions tell you about the graph of the ellipse?
-            </p></li>
-        </ol></p>
-    </statement>
-    <solution>
-        <p><ol label="a">
-            <li>
-                <sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
-                    <p>We substitute <m>y = \alert{2}</m> into the equation and solve for <m>x</m>.
-                    <md>
-                        <mrow>
-                            4x^2+(\alert{2})^2\amp = 12
-                        </mrow>
-                        <mrow>
-                            4x^2\amp = 8
-                        </mrow>
-                        <mrow>
-                            x^2\amp = 2
-                        </mrow>
-                        <mrow>
-                            x\amp= \pm \sqrt{2}
-                        </mrow>
-                    </md></p>
-                    <image xml:id="fig-example-9-2-3">
-                        <description>ellipse with vertical major axis</description>
-                        <latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                        <![CDATA[\tikzset{%
-                        }
-                        \begin{tikzpicture} [scale=.6]
-                        \draw[cyan] (-4,-4) grid (4,4);
-                        \draw[black,thick, ->, >=stealth'] (-4,0)--(4.5,0) node[right]{$x$};
-                        \draw[black,thick, ->, >=stealth'] (0,-4)--(0,4.5) node[above]{$y$};
-                        \foreach \x in  {-4,4} {
-                         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-                         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-                        }
-                        \draw[red, thick] (0,0) ellipse ({sqrt(3)} and {sqrt(12)});
-                        \filldraw[red] ({-sqrt(2)},2) circle (.1) node[above left, xshift=-1, yshift=6, fill=white, inner sep=1]{$\left(-\sqrt{2},0\right)$};
-                        \filldraw[red] ({sqrt(2)},2) circle (.1) node[above right, xshift=3, yshift=4, fill=white, inner sep=1]{$\left(\sqrt{2},0\right)$};
-                        \end{tikzpicture}]]>
-                    </latex-image>
-                    </image>
-                </sidebyside>
-                <p>
-                    There are two points with <m>y=2</m>, namely <m>\left(\sqrt{2},2\right) </m> and <m>\left(-\sqrt{2},2\right) </m>
-                </p>
-            </li>
-            <li><p>
-                We substitute <m>y = \alert{-4}</m> into the equation and solve for <m>x</m>.
-                <md>
-                    <mrow>
-                        4x^2+(\alert{-4})^2\amp = 12
-                    </mrow>
-                    <mrow>
-                        4x^2\amp = -4
-                    </mrow>
-                    <mrow>
-                        x^2\amp = -1
-                    </mrow>
-                </md>
-                Because there are no real solutions, there are no points on the ellipse with <m> = -4</m>.
-            </p></li>
-        </ol></p>
-    </solution>
-</example>
-
-<exercise><title>Practice 3</title>
-<webwork>
-    <pg-code>
-        Context(Point)->flags->set( reduceConstants => 0, reduceConstantFunctions => 0,  );
-        $answer = Formula("(2*sqrt(2)/3,-1), (-2*sqrt(2)/3,-1)");
-        $my_evaluator = $answer -> cmp(
-         showHints=>1,
-         showLengthHints => 1,
-         partialCredit => 1,
-        ); 
+        Context("Point");
+        $answer = Point("(-1,-3)");
     </pg-code>
-    <statement>
-        <p>
-            Find the exact coordinates of all points with <m>y</m>-coordinate <m>-1</m> on the ellipse <m>9x^2 + 8y^2 = 16</m>. 
-        </p>
-        <instructions>
-            <p>
-                Enter "sqrt(2)"  for <m>\sqrt{2}</m>, and separate different points with a comma. 
-            </p>
-        </instructions>
-        <p>
-            <var name="$answer" width="27"  evaluator="$my_evaluator"/> 
-        </p>
-    </statement>
-    <solution>
-        <p>
-            <m>\left(\dfrac{2\sqrt{2}}{3}, -1 \right) </m>, <m>\left(\dfrac{-2\sqrt{2}}{3}, -1 \right) </m>
-        </p>
-    </solution>
-</webwork>
-</exercise>
-
-</subsection>
-
-<subsection><title>Translated Ellipses</title>
-
-<p>
-    An ellipse whose center is at the point <m>(h, k)</m> instead of the origin is said to be shifted or <term>translated</term> to that location.
-</p>
-
-<assemblage><title>Ellipse</title>
-    <p>
-        The standard equation for an ellipse centered at <m>(h,k)</m> is
-        <md><mrow>
-            \dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1
-        </mrow></md>
-    </p>
-</assemblage>
-
-<p> 
-    The horizontal axis of the ellipse has length <m>2a</m>, and the vertical axis has length <m>2b</m>, the same as for central ellipses. When <m>a \gt b</m>, the major axis is horizontal and the ellipse is short and wide. When <m>a \lt b</m>, the major axis is vertical and the ellipse is tall and narrow, as shown below.
-</p>
-
-<sidebyside widths="47% 47%" margins="0% 0%">
-    <image xml:id="fig-ellipse-wide-translated">
-        <description>ellipse with horizontal major axis</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.7]
-        \coordinate (O) at (5,5);
-        \draw[black,thick, ->, >=stealth'] (-.5,0)--(10,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-.5)--(0,10) node[above]{$y$};
-        \draw[gray,thick,dashed] (5,-.5)--++(0,10.5);
-        \draw[gray,thick,dashed] (-.5,5)--++(10.5,0);
-        \draw[red, thick] (O) ellipse (3 and 2);
-        \draw[green, very thick] (O)-- ++(0,2);
-        \draw[blue, ultra thick] (O) -- ++(3,0);
-        \filldraw[black] ($(O)+({-sqrt(5)},0)$) circle (.1) node[above, text=black]{$F_1$};
-        \filldraw[gray] (O) circle (.1) node[below left, text=black]{$(h,k)$};
-        \filldraw[black] ($(O)+({sqrt(5)},0)$) circle (.1) node[above, text=black]{$F_2$};
-        \draw [blue!70!black, decorate, decoration={brace,amplitude=8pt}] (O)++(3,0)--(O) node[below, midway, yshift=-.25cm]{$a$};
-        \draw [green!70!black, decorate, decoration={brace,amplitude=7pt}] (O)++(0,2)--(O) node[right, midway, xshift=.2cm]{$b$};
-        \node[fill=white, inner sep=2] at (2.3, 1.3){$a>b$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    <image xml:id="fig-ellipse-tall-translated">
-        <description>ellipse with vertical major axis</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.7]
-        \coordinate (O) at (5,5);
-        \draw[black,thick, ->, >=stealth'] (-.5,0)--++(10.5,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-.5)--++(0,10.5) node[above]{$y$};
-        \draw[gray,thick,dashed] (5,-.5)--++(0,10.5);
-        \draw[gray,thick,dashed] (-.5,5)--++(10.5,0);
-        \draw[red, thick] (O) ellipse (2 and 3);
-        \draw[blue, ultra thick] (O) -- ++(0,3);
-        \draw[green, ultra thick](O)--++(2,0);
-        \filldraw[black] ($(O)+(0,{sqrt(5)})$) circle (.1) node[left, text=black]{$F_1$};
-        \filldraw[gray] (O) circle (.1) node[above left, text=black]{$(h,k)$};
-        \filldraw[black] ($(O)+(0,{-sqrt(5)})$) circle (.1) node[left, text=black]{$F_2$};
-        \draw [green!70!black, decorate, decoration={brace,amplitude=7pt}] (O)++(2,0)--(O) node[below, midway, yshift=-.2cm]{$a$};
-        \draw [blue!80!black, decorate, decoration={brace,amplitude=10pt}] (O)++(0,3)--(O) node[right, midway, xshift=.3cm]{$b$};
-        \node[fill=white, inner sep=2] at (2.3, 1.3){$a<b$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside> 
-
-<example><statement><p><ol label="a">
-    <li>Graph <m>~~\dfrac{(x+2)^2}{16} + \dfrac{(y-1)^2}{5} = 1</m></li>
-    <li>Find the exact coordinates of the intercepts of the graph.</li></ol></p></statement>
-    
-<solution><p>
-    <ol label="a">
-        <li><p>The graph is an ellipse with center at <m>(-2,1)</m>.  We have <m>a=4</m> and <m>b=\sqrt{5}</m>,  and the major axis is parallel to the <m>x</m>-axis because <m>a \gt b</m>. We plot the vertices four units to the left and right of the center, a <m>(-6,1)</m> and <m>(2,1)</m>. The covertices lie <m>\sqrt{5}</m> units above and below the center, at approximately <m>(-2, 3.2)</m> and <m>(-2, -1.2)</m>. The graph is shown below.</p>
-
-   <sidebyside width="60%">
-     <image xml:id="fig-example-9-2-4">
-        <description>translated ellipse</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.7]
-        \coordinate (O) at (-2,1);
-        \draw[cyan] (-7,-3) grid (2,5);
-        \draw[black,thick, ->, >=stealth'] (-7,0)--(2.5,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-3)--(0,5.5) node[above]{$y$};
-        \draw[green,ultra thick,dashed] (O)++(0,{-sqrt(5)})--++(0,{2*sqrt(5)});
-        \draw[blue,very thick,dashed] (-6,1)--++(8,0);
-        \draw[red, thick] (O) ellipse (4 and {sqrt(5)});
-        \filldraw[gray] (O) circle (.1) node[above left, text=black]{$(-2,1)$};
-        \filldraw[red] ($(O)+(-4,0) $) circle (.1) node[above left, xshift=-1, yshift=6, fill=white, inner sep=1]{$(-6,1)$};
-        \filldraw[red] ($(O)+(4,0) $) circle (.1) node[above right, xshift=3, yshift=4, fill=white, inner sep=1]{$(2,1)$};
-        \filldraw[red] ($(O)+(0,{sqrt(5)})$) circle (.1) node[above right, xshift=3, yshift=2, fill=white, inner sep=1]{$(-2,3.2)$};
-        \filldraw[red] ($(O)+(0,{-sqrt(5)})$) circle (.1) node[below, yshift=-3, fill=white, inner sep=1]{$(-2,-1.2)$};
-        \draw [green!60!black, decorate, decoration={brace,amplitude=7pt}] (O)++(0,{-sqrt(5)})--(O) node[left, midway, xshift=-.4cm, fill=white, inner sep=2]{$b = \sqrt{5}$};
-        \draw [blue, decorate, decoration={brace,amplitude=8pt}] (O)--++(4,0) node[above, midway, yshift=.4cm, fill=white, inner sep=2]{$a = 4$};
-        \node[fill=white, inner sep=2] at (-5,4.3){\Large${\frac{(x+2)^2}{16}+\frac{(y-1)^2}{5}={} }$\normalsize 1};
-        \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-</sidebyside></li>
-    
-    <li>
-        <p>
-            We set <m>y=\alert{0}</m> and solve the resulting equation to find the <m>x</m>-intercepts.
-            <md>
-                <mrow>
-                     \dfrac{(x+2)^2}{16} + \dfrac{(\alert{0}-1)^2}{5} \amp = 1 \amp\amp \glert{\text{Subtract}~ \dfrac{1}{5}~ \text{from both sides.}}
-                </mrow>
-                <mrow>
-                    \dfrac{(x+2)^2}{16} \amp = \dfrac{4}{5} \amp\amp \glert{\text{Multiply both sides by 16.}}
-                </mrow>
-                <mrow>
-                    (x+2)^2 \amp = \dfrac{64}{5} \amp\amp \glert{\text{Extract roots.}}
-                </mrow>
-                <mrow>
-                     x+2 \amp = \pm \sqrt{\dfrac{64}{5}}
-                </mrow>
-                <mrow>
-                    x \amp = -2 \pm \dfrac{8\sqrt{5}}{5}
-                </mrow>
-            </md>
-        </p>
-
-    <p>
-        The <m>x</m>-intercepts are <m>\left(-2 \pm \dfrac{8\sqrt{5}}{5}, 0\right)</m> or approximately <m>(1.6,0)</m> and <m>(-5.6,0)</m>. We set <m>x=\alert{0}</m> to find the <m>y</m>-intercepts.
-        <md>
-            <mrow>
-                \dfrac{(\alert{0}+2)^2}{16} + \dfrac{(y-1)^2}{5} \amp = 1 \amp\amp \glert{\text{Subtract}~ \dfrac{1}{4}~ \text{from both sides.}}
-            </mrow>
-            <mrow>
-                \dfrac{(y-1)^2}{5} \amp = \dfrac{3}{4} \amp\amp \glert{\text{Multiply both sides by 5.}}
-            </mrow>
-            <mrow>
-                (y-1)^2 \amp = \dfrac{15}{4} \amp\amp \glert{\text{Extract roots.}}
-            </mrow>
-            <mrow>
-                y-1 \amp = \pm \sqrt{\dfrac{15}{4}}
-            </mrow>
-            <mrow>
-                y \amp = 1 \pm \dfrac{\sqrt{15}}{2}
-            </mrow>
-        </md>
-    </p>
-
-    <p>The <m>y</m>-intercepts are <m>\left(0, 1 \pm \dfrac{\sqrt{15}}{4}\right)</m> or approximately <m>(0, 2.9)</m> and <m>(0, -0.9)</m></p></li></ol></p>
-</solution></example>
-
-<exercise><title>Practice 4</title>
-<webwork>
-    <pg-code>
-      $xfunc[0] = sub { my $t = shift();
-        return 5+ sqrt(15)*cos($t); };
-      $yfunc[0] = sub { my $t = shift();
-        return -3+sqrt(8)*sin($t); };
-      $xfunc[1] = sub { my $t = shift();
-        return -3+sqrt(8)*cos($t); };
-      $yfunc[1] = sub { my $t = shift();
-        return 5+ sqrt(15)*sin($t); };
-      $xfunc[2] = sub { my $t = shift();
-        return -5+ sqrt(15)*cos($t); };
-      $yfunc[2] = sub { my $t = shift();
-        return 3+sqrt(8)*sin($t); };
-      $xfunc[3] = sub { my $t = shift();
-        return 3+sqrt(8)*cos($t); };
-      $yfunc[3] = sub { my $t = shift();
-        return -5+ sqrt(15)*sin($t); };
-
-       foreach my $i (0..3) {
-        $gr[$i] = init_graph(-10,-10,10,10, axes=>[0,0], grid=>[20,20], size=>[240,240]);
-      $fn[$i] = new Fun( $xfunc[$i], $yfunc[$i], $gr[$i] );
-      $fn[$i]->domain(0,6.2832);
-        }
-
-       foreach my $i (0..3) {
-       $gr[$i] -> lb('reset');
-        $gr[$i] -> lb(new Label (-0.8,5,5,'black','center','middle'));
-        $gr[$i] -> lb(new Label (-0.8,-5,-5,'black','center','middle'));
-        $gr[$i] -> lb(new Label (5,-0.8,5,'black','center','middle'));
-        $gr[$i] -> lb(new Label (-5,-0.8,-5,'black','center','middle'));
-        }
-        $gr[0] -> lb(new Label (-8.5,9,"(C)",'black','center','middle'));
-        $gr[1] -> lb(new Label (-8.5,9,"(B)",'black','center','middle'));
-        $gr[2] -> lb(new Label (-8.5,9,"(A)",'black','center','middle'));
-        $gr[3] -> lb(new Label (-8.5,9,"(D)",'black','center','middle'));
-
-        $mc = RadioButtons(
-                    [ "(A)", "(B)", "(C)","(D)"],
-                    2
-                );
-        Context(Point);
-        $vertices = List("(5+sqrt(15),-3), (5-sqrt(15),-3)");
-        $my_evaluator = $vertices -> cmp(
-         showHints=>1,
-         showLengthHints => 1,
-         partialCredit => 1,
-        ); 
-        $covertices = List("(5,-3+sqrt(8)), (5,-3-sqrt(8))");
-        $my_evaluator2 = $covertices -> cmp(
-         showHints=>1,
-         showLengthHints => 1,
-         partialCredit => 1,
-        ); 
-      </pg-code>     
-    <statement>
-        <p><ol label="a">
-            <li>
-                <p>Graph <m>\dfrac{(x-5)^2}{15} + \dfrac{(y+3)^2}{8} = 1</m></p>
-                <sidebyside widths="35% 35%" margins="5% 5%">
-                    <image pg-name="$gr[2]"/>
-                    <image pg-name="$gr[1]"/>
-                </sidebyside>
-                <sidebyside widths="35% 35%" margins="5% 5%">
-                    <image pg-name="$gr[0]"/>
-                    <image pg-name="$gr[3]"/>
-                </sidebyside>
-                <p>Which of the above is the best match for the graph)?</p>
-                <p><var name="$mc" form="buttons"/> </p>
-            </li>
+    <statement><p>
+        <ol label="a">
             <li>
                 <p>
-                    Find the coordinates of the vertices and covertices.  Separate different points with a comma. 
-                </p>
-                <p>
-                    vertices: <var name="$vertices" width="25"  evaluator="$my_evaluator"/> 
-                </p>
-                <p>
-                    covertices: <var name="$covertices" width="25"  evaluator="$my_evaluator2"/> 
-                </p>
-            </li>
-        </ol></p>
-     </statement>
-    <solution>
-        <p><ol label="a">
-            <li>
-                <sidebyside widths="40%">
-                        <image pg-name="$gr[0]"/>
-                    </sidebyside>
-                <p>
-                  A graph is also shown below.
-                </p>
-            </li>
-            <li><p>
-                vertices: <m>(5-\sqrt{15}, -3)</m>, <m>(5+\sqrt{15}, -3)</m>
-                </p>
-                <p>covertices: <m>(5, -3+\sqrt{8})</m>, <m>(5, -3-\sqrt{8})</m>
-            </p></li>
-        </ol></p>
-    </solution>
-</webwork>
-    <conclusion>
-        <sidebyside width="35%" margins="0% 65%">
-            <image xml:id="fig-ex-9-2-4ans">
-            <description>translated ellipse</description>
-            <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
-            \begin{tikzpicture} [scale=.35]
-            \coordinate (O) at (5,-3);
-            \draw[cyan] (-10,-10) grid (10,10);
-            \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
-            \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
-            \foreach \x in  {-5, 5, -10, 10} {
-             \draw[cyan, very thick] (\x,-10) --++(0,20);
-             \draw[cyan, very thick] (-10,\x) --++(20,0);
-             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-            }
-            \draw[red, thick] (O) ellipse ({sqrt(15)} and {sqrt(8)});
-            \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </conclusion>
-</exercise>
-
-<exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>
-        Context()->variables->add(a =>"Real", b =>"Real",A =>"Real", B =>"Real", C =>"Real"); 
-        $C = Formula("C");
-        $delx = Formula("a");
-        $mdelx = Formula("-a");
-            $multians = MultiAnswer($mdelx,$delx)->with(
-          singleResult => 0,
-          checkTypes => 0,
-          checker => sub {
-              my ( $correct, $student, $self ) = @_;
-              my ( $f1stu, $f2stu ) = @{$student};
-              my ( $f1, $f2 ) = @{$correct};
-              if ( ($f1 == $f1stu &amp;&amp; $f2 == $f2stu) ||
-                   ($f1 == $f2stu &amp;&amp; $f2 == $f1stu)  
-              ) {
-              return[1,1];
-              } elsif ( ($f1 == $f1stu )  ||
-                       ($f2 == $f1stu )  
-                  ) {
-                  return [1,0];
-              } elsif ( ($f1 == $f2stu)   ||
-                       ($f2 == $f2stu )  
-                  ) {
-                  return [0,1];
-            } else {
-                return [0,0];
-            }
-            }
-        );            
-         $center = PopUp(
-          ["?","center", "vertex", "covertex", "intercept"],
-         1, 
-        );
-        $vertical = PopUp(
-          ["?"," 0 ", "Undefined"],
-          2, 
-        );
-        $axis = Formula("2b");
-    </pg-code>
-    <statement>
-        <p><ol label="a">
-            <li><p>To write the equation <m>Ax^2 + By^2 = C</m> in the standard form for ellipses, we divide through by <var name="$C" width="2"/></p></li>
-            <li><p>The <m>x</m>-coordinates of all points on a central ellipse <m>\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1 </m> lie between <var name="$multians" width="2"/> and <var name="$multians" width="2"/></p></li>
-            <li>
-                <p>
-                    In the standard form for an ellipse, <m>(h, k)</m> are the coordinates of the <var name="$center" form="popup"/> of the ellipse.
+                    Find the midpoint of the line joining the points <m>(-5,3)</m> and <m>(3,-9)</m>: <var name="$answer" width="6"/>
                 </p>
             </li>
             <li>
                 <p>
-                    The vertical axis of an ellipse <m>\dfrac{(x-h)^2}{a^2}+\dfrac{(y-k)^2}{b^2}=1 </m> has length <var name="$axis" width="2"/>.
+                    Plot the points and draw a rectangle with the points as opposite vertices. Illustrate that the midpoint is the center of the rectangle.
                 </p>
             </li>
         </ol></p>
     </statement>
-    <solution>
-        <p><ol label="a">
-            <li><p><m>C</m></p></li>
-            <li><p><m>-a</m> and <m>a</m></p></li>
-            <li><p>center</p></li>
-            <li><p><m>2b</m></p></li>
-        </ol></p>
-    </solution>
-</webwork>
-</exercise>
-
-</subsection>
-
-<subsection><title>Writing in Standard Form</title>
-
-<p>Second-degree equations in which the coefficients of <m>x^2</m> and <m>y^2</m> have the same sign can be written in one of the standard forms for an ellipse by completing the square. The equation can be graphed easily from the standard form.</p>
-
-<example>
-    <statement>
-        <p><ol label="a">
-            <li>Write the equation in standard form.
-                    <me>4x^2 + 9y^2 - 16x - 18y -11 = 0</me></li>
-            <li>Graph the equation.</li>
-        </ol></p>
-    </statement>
-    <solution>
-        <p><ol label="a">
-            <li><p>
-                We first prepare to complete the square in both <m>x</m> and <m>y</m>. Begin by factoring out the coefficients of <m>x^2</m> and <m>y^2</m>.
-                <md>
-                    <mrow>\alert{4}(x^2-4x \underline{\hphantom{0000}}) + \alert{9}(y^2 - 2y \underline{\hphantom{0000}}) = 11</mrow>
-                </md>
-                We complete the square in <m>x</m> by adding <m>\alert{4}</m> to <m>x^2-4x</m>, and adding <m>4 \cdot \alert{4}</m>, or <m>\blert{16}</m>, to the right side of the equation. We  complete the square in <m>y</m> by adding <m>\alert{1}</m> to <m>y^2-2y</m>, and  <m>9 \cdot \alert{1}</m>, or <m>\blert{9}</m>, to the right side.
-                <md><mrow>
-                    4(x^2-4x+\alert{4}) + 9(y^2 - 2y + \alert{1}) = 11 + \blert{16} + \blert{9}
-                </mrow></md>
-                We write each term on the left side as a perfect square to get
-                <md>
-                    <mrow> 4(x-2)^2 + 9(y-1)^2 \amp= 36 \amp\amp \glert{\text{Divide both sides by 36.}} </mrow>
-                    <mrow>\frac{(x-2)^2}{9} + \frac{(y-1)^2}{4} = 1</mrow>
-                </md>
-                </p></li>
-                <li><p>
-                    The graph is an ellipse with center at <m>(2, 1),~a^2=9</m>, and <m>b^2=4</m>  The vertices lie 3 units to the right and left of the center at <m>(5,1)</m> and <m>(-1,1)</m>; the covertices lie 2 units above and below the center at <m>(2,3)</m> and <m>(2,-1)</m>.  The graph is shown below.
-                </p>
-    
-            <sidebyside width="50%">
-                <image xml:id="fig-example-9-2-5">
-                    <description>translated ellipse</description>
-                    <latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                    <![CDATA[\tikzset{%
-                    }
-                    \begin{tikzpicture} [scale=.8]
-                    \coordinate (O) at (2,1);
-                    \draw[cyan] (-3,-2) grid (6,4);
-                    \draw[black,thick, ->, >=stealth'] (-3,0)--(6.6,0) node[right]{$x$};
-                    \draw[black,thick, ->, >=stealth'] (0,-2)--(0,4.6) node[left, xshift=2]{$y$};
-                     \draw[black] (5,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$5$};
-                     \draw[black] (.1,3) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$3$};
-                     \draw[red, thick] (O) ellipse (3 and 2);
-                    \filldraw[black] (O) circle (.1) node[below left, yshift=-2, xshift=-.2cm,fill=white, inner sep=1]{$(2,1)$};
-                    \draw [green!40!black, decorate, decoration={brace,amplitude=6pt}] (O)--++(0,2) node[left, midway, xshift=-.4cm, fill=white, inner sep=2]{$2$};
-                    \draw [blue, decorate, decoration={brace,amplitude=8pt}] (O)--++(3,0) node[above, midway, yshift=.4cm, fill=white, inner sep=2]{$3$};
-                    \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-            </sidebyside></li>
-        </ol></p>
-    </solution>
-</example>
-
-<warning>
-    <p>
-        When completing the square in the Example above, do not forget the coefficients you factored out in the first step. When we add 4 to complete the square in <m>x</m>, it is multiplied by a factor of 4, so we must add <m>4 \cdot 4</m> or 16 to the right side of the equation. Similarly, we must add <m>9 \cdot 1</m> or 9 to the right side when we complete the square in <m>x</m>.
-    </p>
-</warning>
-
-<exercise><title>Practice 5</title>
-<webwork>
-    <pg-code>
-        $a2 = Compute("16");
-        $b2 = Compute("4");
-        $h = Compute("-2");
-        $k = Compute("2");
-    </pg-code>
-    <statement>
-        <p><ol label="a">
-            <li>
-                <p>
-                   Write the equation <m>x^2 + 4y^2 + 4x - 16y + 4 = 0</m> in standard form: <m>\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1</m>
-                </p>
-                <p>
-                    <m>h=</m><var name="$h" width="2"/>, <m>k=</m><var name="$k" width="2"/>, <m>a^2=</m><var name="$a2" width="2"/>, <m>b^2=</m><var name="$b2" width="2"/>
-                </p>
-            </li>
-            <li><p>
-                Graph the equation.
-            </p></li>
-        </ol></p>
-    </statement>
-    <solution>
-        <p><ol label="a">
-            <li><p>
-                <m>\dfrac{(x+2)^2}{16} + \dfrac{(y-2)^2}{4} = 1</m>
-            </p></li>
-            <li><p>A graph is below.</p></li>
-        </ol></p>
-    </solution>
+    <solution><p><ol label="a">
+        <li><m>(-1,-3)</m></li>
+        <li>A figure is below.</li>
+    </ol></p></solution>
 </webwork>
 <conclusion>
-    <sidebyside width="40%" margins="0% 10%">
-        <image xml:id="fig-ex-9-2-5ans">
-            <description>translated ellipse</description>
+    <sidebyside width="35%" margins="0% 0%">
+         <image xml:id="fig-ex-9-2-2ans">
+            <description>rectangle</description>
             <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
-            \begin{tikzpicture} [scale=.6]
-            \coordinate (O) at (-2,2);
-            \draw[cyan] (-7,-1) grid (3,5);
-            \draw[black,thick, ->, >=stealth'] (-7,0)--(3.6,0) node[right]{$x$};
-            \draw[black,thick, ->, >=stealth'] (0,-1)--(0,5.6) node[left, xshift=2]{$y$};
-            \foreach \x in  {-3,3} {
+            \begin{tikzpicture} [scale=.45]
+            \draw[lightgray] (-8,-10) grid (5,5);
+            \draw[black,thick, ->, >=stealth'] (-8,0)--(5.6,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-10)--(0,5.6) node[above]{$y$};
+            \foreach \x in  {5,-5} {
              \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-             }
-            \foreach \x in  {5} {
              \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-             }
-             \draw[red, thick] (O) ellipse (4 and 2);
+            }
+            \draw[gray, very thick, dashed] (-5,3) rectangle (3,-9);
+            \draw[blue, thick, dashed] (-5,3)--(3,-9);
+            \draw[blue, thick, dashed] (-5,-9)--(3,3);
+            \filldraw[blue] (-5,3) circle (.2) node[above left, yshift=3, fill=white, inner sep=1, text=black] {$(-5,3)$};
+            \filldraw[blue] (3,-9) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(3,-9)$};
+            \filldraw[red] (-1,-3) circle (.2) node[left, xshift=-3, fill=white, inner sep=1] {$(-1,-3)$};
             \end{tikzpicture}]]>
-        </latex-image>
+            </latex-image>
         </image>
     </sidebyside>
 </conclusion>
 </exercise>
+</subsection>
+
+<subsection><title>Circles</title>
+<p>
+    A <term>circle</term><idx>circle</idx> is the set of all points in a plane that lie at a given distance, called the <term>radius</term><idx>radius</idx>, from a fixed point called the <term>center</term><idx>center</idx>. We can use the distance formula to find an equation for a circle. First consider the circle in Figure (a), whose center is the origin, <m>(0,0)</m>.</p> 
+
+
+<sidebyside width="90%">
+    <image source="images/fig-circles"><description>circles</description></image></sidebyside>
+
+<p>
+    The distance from the origin to any point <m>P(x,y)</m> on the circle is <m>r</m>. Therefore, 
+    <md><mrow>\sqrt{(x-0)^2+(y-0)^2}=r</mrow></md>
+    or, squaring both sides,
+    <md><mrow>(x-0)^2+(y-0)^2=r^2</mrow></md>
+    Thus, the equation for a circle of radius <m>r</m> centered at the origin is
+    <md><mrow>\blert{x^2+y^2=r^2}</mrow></md>
+</p>
+
+<p>Now consider the circle in Figure (b), whose center is the point <m>(h,k)</m>.  Every point <m>P(x,y)</m> on the circle lies a distance <m>r</m> from <m>(h,k)</m>, so the equation of the circle is given by the following formula.</p>
+
+<assemblage><title>Standard Form for a Circle</title>
+    <p>
+        The equation for a <term>circle</term> of radius <m>r</m> centered at the point <m>(k,k)</m> is
+        <md>
+            <mrow>\blert{(x-h)^2+(y-k)^2=r^2}</mrow>
+        </md>
+    </p>
+</assemblage>
+
+<exercise><title>QuickCheck 3</title>
+<webwork>
+    <pg-code>
+        $No = PopUp(
+          ["?","Yes", "No"],
+          2, 
+        );
+        $radius = Compute("9");
+        $diameter = Compute("18");
+    </pg-code>
+    <statement>
+        <p><ol label="a">
+            <li>
+                <p>Does the center of a circle lie on the graph of the circle? <var name="$No" form="popup"/> </p>
+            </li>
+            <li>
+                <p>What is the radius of the circle <m>x^2 + y^2 = 81</m>? <var name="$radius" width="2"/> </p>
+            </li>
+            <li>
+                <p>What is the diameter of the circle in part (b)?  <var name="$diameter" width="2"/></p>
+            </li>
+            <li>
+                <p>Can we simplify the equation in part (b) to <m>x + y = 9</m>? <var name="$No" form="popup"/></p>
+            </li>
+        </ol></p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>No</li>
+            <li>9</li>
+            <li>18</li>
+            <li>No</li>
+        </ol></p>
+    </solution>
+</webwork>
+</exercise>
+
+<p>The equation <m>(x-h)^2+(y-k)^2=r^2 </m> is the <term>standard form</term> for a circle of radius <m>r</m> with center at <m>(h,k)</m>. It is easy to graph a circle if its equation is given in standard form.</p>
+
+<example><statement><p>Graph the circles.</p><p><ol label="a" cols="2">
+    <li><m>(x-2)^2+(y+3)^2=16</m></li>
+    <li><m>x^2+(y-4)^2=7</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><p>The graph of <m>(x-2)^2+(y+3)^2=16</m> is a circle with radius 4 and center at <m>(2,-3)</m>. To sketch the graph, we first locate the center of the circle. (The center is not part of the graph of the circle.) From the center, we move a distance of 4 units (the radius of the circle) in each of four directions:  up, down, left, and right. This locates four points that lie on the circle: <m>(2,1)</m>, <m>(2,-7)</m>, <m>(-2,-3)</m>, and <m>(6,-3)</m>.  We sketch the circle through these four points.</p> 
+
+    <image source="images/fig-circles2"><description>circles</description></image></li>
+
+    <li><p>The graph of <m>x^2+(y-4)^2=7</m> is a circle with radius <m>\sqrt{7}</m> and center at <m>(0,4)</m>.  From the center, we move approximately <m>\sqrt{7}</m>, or 2.6 units in each of the four coordinate directions to obtain the points <m>(0,6.6)</m>, <m>(0,1.4)</m>, <m>(-2.6,4)</m>, and <m>(2.6,4)</m>. We sketch the circle through these four points.</p></li>
+</ol></p></solution></example>
+
+<exercise><title>Practice 3</title>
+<webwork>
+    <pg-code>
+        Context("Point");
+        $center = Point("(-3,-2)");
+        $r = Compute("4");
+    </pg-code>
+    <statement><p><ol label="a">
+        <li>
+            <p>
+                State the center and radius of the circle
+                <me>(x+3)^2+(y+2)^2=16</me>
+            </p>
+            <p>center: <var name="$center"  width="6"/>, radius: <var name="$r" width="2"/> </p>
+        </li>
+        <li>Graph the circle.</li>
+    </ol></p></statement>
+    <solution><p><ol label="a">
+    <li><p>center <m>(-3,-2)</m>, radius 4</p></li>
+    <li>A graph is below.</li>
+</ol></p></solution>
+</webwork>
+<conclusion><sidebyside width="40%">
+    <image xml:id="fig-ex-9-2-3ans">
+        <description>circle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[lightgray] (-8,-8) grid (3,3);
+        \draw[black,thick, ->, >=stealth'] (-8,0)--(3.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-8)--(0,3.6) node[above]{$y$};
+        \foreach \x in  {2,-5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, thick] (-3,-2) circle (4cm);
+        \filldraw (-3,-2) circle (.15) node[below, yshift=-2, fill=white, inner sep=1]{$(-3,-2)$};
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside></conclusion>
+</exercise>
 
 </subsection>
 
-<subsection><title>Finding the Equation of an Ellipse</title>
+<subsection><title>General Form for Circles</title>
 
 <p>
-    To write the equation of an ellipse from a description of its properties, we must find the center of the ellipse and the lengths of its axes.  We can then substitute this information into the standard form.
+    The equations of circles often appear in a <term>general quadratic form</term><idx>general quadratic form</idx>, rather than the standard form described above.  For example, we can expand the squares of binomials in Example 3a,
+    <md><mrow>(x-2)^2+(y+3)^2=16</mrow></md>
+    to obtain
+    <md><mrow>x^2-4x+4+y^2+6y+9=16</mrow></md>
+    or
+    <md><mrow>x^2+y^2-4x+6y-3=0</mrow></md>
 </p>
-    
+<p>
+    This is a quadratic equation in two variables. Such an equation describes a circle if the coefficients of the quadratic, or squared, terms are equal.</p>  
+
+<p>
+    Conversely, an equation of the form <m>x^2+y^2+ax+by+c=0</m> can be converted to standard form by completing the square in both variables.  Once this is done, the center and radius of the circle can be determined directly from the equation.</p>
+
 <example>
     <statement>
-        <p>Find the equation of the ellipse with vertices at <m>(3,3)</m> and <m>(3,-5)</m> and covertices at <m>(1,-1)</m> and <m>(5,-1)</m>.</p>
+        <p>
+            Write the equation of the circle
+            <md><mrow>x^2+y^2+8x-2y+6=0</mrow></md>
+            in standard form, and graph the equation.
+        </p>
     </statement>
     <solution>
-        <sidebyside widths="63% 35%" margins="0% 0%" valigns="middle middle">
         <p>
-            You may find it helpful to plot the given points to help you visualize the ellipse. The center of the ellipse is the midpoint of the major (or minor) axis.
-            <md>
-                <mrow>h \amp = \overline{x} = \dfrac{1+5}{2} = 3</mrow>
-                <mrow>k \amp = \overline{y} = \dfrac{3-5}{2} = -1</mrow>
-            </md> 
-            
+            We prepare to complete the square in both variables by writing the equation as
+            <md><mrow>
+                (x^2+8x+<fillin characters="6"/>)+(y^2-2y+<fillin characters="6"/>)=-6
+            </mrow></md>
+            We complete the square in <m>x</m> by adding 16 to each side of the equation, and complete the square in <m>y</m> by adding 1 to each side, to get
+            <md><mrow>
+                (x^2+8x+\alert{16})+(y^2-2y+\alert{1})=-6+\alert{16}+\alert{1}
+            </mrow></md>
         </p>
-        <image xml:id="fig-example-9-2-6">
-            <description>axes of ellipse</description>
+        <sidebyside widths="55% 40%" margins="0% 0%" aligns="middle middle">
+            <p>
+            from which we obtain the standard form,
+            <md><mrow>
+                (x+4)^2+(y-1)^2=11
+            </mrow></md>
+            Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}</m>, or approximately 3.3.  The graph is shown at right.
+        </p>
+             <image xml:id="fig-example-9-2-4">
+            <description>circle</description>
             <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
             \begin{tikzpicture} [scale=.6]
-            \coordinate (O) at (3,-1);
-            \draw[cyan] (-2,-6) grid (8,4);
-            \draw[black,thick, ->, >=stealth'] (-2,0)--(8.6,0) node[right]{$x$};
-            \draw[black,thick, ->, >=stealth'] (0,-6)--(0,4.6) node[left, xshift=2]{$y$};
-            \foreach \x in  {-2,2,4,6} {
+            \draw[lightgray] (-9,-3) grid (1,6);
+            \draw[black,thick, ->, >=stealth'] (-9,0)--(1.6,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-3)--(0,6.6) node[above]{$y$};
+            \foreach \x in  {-5} {
              \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-             }
-            \foreach \x in  {-4,-2,2} {
+            }
+            \foreach \x in  {5} {
              \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-             }
-            \draw[blue, ultra thick, dashed] (3,3) --(3,-5) ;
-            \draw[green!70!black, ultra thick, dashed] (1,-1) --(5,-1) ;
-            \filldraw[black] (O) circle (.1);
+            }
+            \draw[red, thick] (-4,1) circle ({sqrt(11)});
+            \draw[blue,thick, dashed](-4,1)--({-4-sqrt(7)},3) node[above right, midway]{$r=\sqrt{11}$};
+            \filldraw (-4,1) circle (.15) node[right, xshift=3, fill=white, inner sep=1]{$(-4,1)$};
+            \filldraw[red] ({-4-sqrt(7)},3) circle (.15) node[above left, yshift=3, fill=white, inner sep=1]{$P(x,y)$};
+            \end{tikzpicture}]]>
+            </latex-image>
+        </image>
+        </sidebyside>
+    </solution>
+</example>
+
+<exercise><title>QuickCheck 4</title>
+<webwork>
+    <pg-code>
+        $a = PopUp(
+          ["?",
+          "area and circumference", 
+          "center and radius",
+          "diameter and arclength"],
+          2, 
+        );
+        $b = PopUp(
+          ["?",
+          "squared", 
+          "opposites",
+          "equal",
+          "zero"],
+          3, 
+        );
+        $c = PopUp(
+          ["?",
+          "completing the square", 
+          "cross-multiplying",
+          "factoring"],
+          1, 
+        );        
+    </pg-code>
+    <statement>
+        <p>
+            Fill in the blanks.
+            <ol label="a">
+                <li><p>
+                    The standard form for a circle is useful because we can see the <var name="$a" form="popup"/> of the circle in the equation.
+                </p></li>
+                <li><p>
+                    A quadratic equation in two variables describes a circle if the coefficients of the quadratic terms are <var name="$b" form="popup"/>.
+                </p></li>
+                <li><p>
+                    We convert the equation for a circle into standard form by <var name="$c" form="popup"/> in both variables.
+                </p></li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li>center and radius</li>
+            <li>equal</li>
+            <li>completing the square</li>
+        </ol></p>
+    </solution>
+</webwork>
+</exercise>
+
+<exercise><title>Practice 4</title>
+<webwork>
+    <pg-code>
+        $h = Compute("7");
+        $k = Compute("-2");
+        $r = Compute("sqrt(28)");
+    </pg-code>
+    <statement>
+        <p>
+            Write the equation of the circle
+            <m>x^2+y^2-14x+4y+25=0</m>
+            in standard form: 
+            <md><mrow>(x-h)^2+(y-k)^2=r^2</mrow></md>
+            <m>h=</m><var name="$h" width="2"/>, <m>k=</m><var name="$k" width="2"/>, <m>r=</m><var name="$r" width="8"/>, 
+        </p>
+        <instruction>
+            Enter "sqrt(2)" for <m>\sqrt{2}</m>.
+        </instruction>
+    </statement>
+    <solution>
+        <p><m>(x-7)^2+(y+2)^2=28</m></p>
+    </solution>
+</webwork>
+</exercise>
+
+<p>
+    We can write an equation for any circle if we can find its center and radius.
+</p>
+
+<example>
+    <statement>
+        <p>Find an equation for the circle whose diameter has endpoints <m>(7,5)</m> and <m>(1,-1)</m>.</p>
+    </statement> 
+    <solution>
+        <sidebyside widths="60% 35%">
+            <p>The center of the circle is the midpoint of its diameter.  We use the midpoint formula to find the center:
+            <md><mrow>h=\overline{x}=\dfrac{7+1}{2}=4</mrow>
+                <mrow>k=\overline{y}=\dfrac{5-1}{2}=2</mrow></md>
+            Thus, the center is the point <m>(h,k)=(4,2)</m>.  </p> 
+            <image xml:id="fig-example-9-2-5">
+            <description>circle with diameter (7,5) to (1,-1)</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.55]
+            \draw[lightgray] (-1,-3) grid (9,7);
+            \draw[black,thick, ->, >=stealth'] (-1,0)--(9.6,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-3)--(0,7.6) node[above]{$y$};
+            \foreach \x in  {2,4,6,8} {
+             \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \foreach \x in  {-2,2,4,6} {
+             \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \draw[very thick] (4,2) -- (4,{2+sqrt(18)}) node[left,midway, xshift=-3, fill=white, inner sep=1] {$r=\sqrt{18}$};
+            \draw[blue, thick,dashed] (4,2) circle ({sqrt(18)});
+            \filldraw (4,2) circle (.15) node[below right, xshift=3, fill=white, inner sep=1]{$(4,2)$};
+            \draw[red,thick] (7,5) -- (1,-1);
+            \filldraw[red] (7,5) circle (.15) node[above right, yshift=3, fill=white, inner sep=1]{$(7,5)$};
+            \filldraw[red] (1,-1) circle (.15) node[below, yshift=-.8cm, fill=white, inner sep=1]{$(1,-1)$};
             \end{tikzpicture}]]>
             </latex-image>
             </image>
         </sidebyside>
         <p>
-            Thus, the center is the point <m>(3, -1)</m>. The horizontal axis is shorter, and <m>a</m> is the distance between the center and either covertex, say <m>(5, −1)</m> Thus, 
-            <md><mrow>a = 5-3 = 2</mrow></md> 
-            The value of <m>b</m> is the distance from the center to one of the vertices, say <m>(3,3)</m>:
-            <md><mrow>b = 3-(-1) = 4</mrow></md>
-            The equation of the ellipse has the form
-            <md><mrow>
-                \frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1
-            </mrow></md>
-            The equation of the ellipse has  <m>h=3</m>, <m>k=-1</m>, <m>a=2</m>, <m>b=4</m>. Thus the equation is
+            The radius is the distance from the center to either of the endpoints of the diameter, say the point <m>(7,5)</m>. We use the distance formula with the points <m>(7,5)</m> and <m>(4,2)</m> to find the radius.
             <md>
-                <mrow>
-                    \frac{(x-3)^2}{4} + \frac{(y+1)^2}{16} = 1
-                </mrow>
+                <mrow>r \amp = \sqrt{(7-4)^2+(5-2)^2}</mrow>
+                <mrow>\amp = \sqrt{3^2+3^2}=\sqrt{18}</mrow>
             </md>
-            If we clear this equation of fractions and expand the powers, we obtain the general form
-            <md>
-                <mrow>4(x-3)^2 + (y+1)^2 \amp = 16 \amp\amp\glert{\text{Square each binomial.}} </mrow>
-                <mrow>4(x^2-6x+9) +(y^2+2y+1) \amp = 16\amp\amp\glert{\text{Apply the distributive law..}} </mrow>
-                <mrow>4x^2-24x+36+y^2+2y+1 \amp = 16</mrow>
-                <mrow>4x^2+y^2-24x+2y+21 \amp = 0</mrow>
-            </md>
+            Finally, we substitute 4 for<m>h</m> and 2 for <m>k</m> (the coordinates of the center) and <m>\sqrt{18}</m> for <m>r</m> (the radius) into the standard form 
+            <md><mrow>(x-h)^2+(y-k)^2=r^2</mrow></md>
+            to obtain 
+            <md><mrow>(x-4)^2+(y-2)^2=18</mrow></md>
         </p>
     </solution>
 </example>
 
-<exercise><title>Practice 6</title>
+<exercise><title>Practice 5</title>
 <webwork>
     <pg-code>
         Context()->variables->set(
-          x=>{limits=>[-7,-1]},
-          y=>{limits=>[-1,3]},
+          x=>{limits=>[-4-sqrt(13),-4+sqrt(13)]},
+          y=>{limits=>[-3-sqrt(13),-3+sqrt(13)]},
         );
-        $a = 3;
-        $b = 2;
+        $rsq = 13;
+        $r = sqrt($rsq);
         $h = -4;
-        $k = 1;
+        $k = -3;
         $answer = ImplicitEquation(
-          "(x-$h)^2 /$a**2 + (y-$k)^2 /$b**2=1",
+          "(x-$h)^2  + (y-$k)^2 =$rsq",
           solutions=>[ 
-             [$h,$k+$b],
-             [$h,$k-$b],
-             [$h+$a,$k],
-             [$h-$a,$k],
+             [$h,$k+$r],
+             [$h,$k-$r],
+             [$h+$r,$k],
+             [$h-$r,$k],
           ]
         );
     </pg-code>
     <statement>
         <p>
-            Find the equation of the ellipse with vertices at <m>(-7,1)</m> and <m>(-1,1)</m> and a minor axis of length 4.
+            Find an equation for the circle whose diameter has endpoint <m>(-7,-5) </m> and <m>(-1,-1) </m>.
         </p>
         <p>
             <var name="$answer" width="30"/>
         </p>
     </statement>
     <solution><p>
-        <m>\dfrac{(x+4)^2}{9} + \dfrac{(y-1)^2}{4} = 1</m>
+        <m>(x+4)^2 + (y+3)^2 = 13</m>
     </p></solution>
 </webwork>
 </exercise>
 
-
 </subsection>
 
-
-<xi:include href="./section-9-2-exercises.xml" />                
-
+<xi:include href="./section-9-2-exercises.xml" />
 
 </section>
-<!-- </book>  </mathbook> -->

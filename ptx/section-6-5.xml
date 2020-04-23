@@ -12,25 +12,67 @@ we square both sides to find
 		<mrow>x+3 \amp = 16</mrow></md>
 You can check that <m>x=13</m> is the solution for this equation.</p>
 
-<example><statement><p>Solve <m>~4\sqrt[3]{x-9} = 12</m></p></statement>
-
-<solution><p>We first divide both sides of the equation by 4 to isolate the radical.
-	<me>\sqrt[3]{x-9} = 3</me>
-Next, we cube both sides of the equation.
-	<md><mrow>(\sqrt[3]{x-9})^3 \amp = 3^3</mrow>
-		<mrow>x-9 \amp = 27</mrow>
-		<mrow>x \amp = 36</mrow></md>
-The solution is 36.  We can also solve the equation graphically by graphing <m>y=4\sqrt[3]{x-9}</m>, as shown in the figure.  The point <m>(36,12)</m> lies on the graph, so <m>x=36</m> is the solution of the equation <m>~4\sqrt[3]{x-9} = 12</m>.</p>
-	<sidebyside  width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<example>
+    <statement>
+        <p>Solve <m>~4\sqrt[3]{x-9} = 12</m></p>
+    </statement>
+    <solution>
+        <p>We first divide both sides of the equation by 4 to isolate the radical.
+            <me>\sqrt[3]{x-9} = 3</me>
+        Next, we cube both sides of the equation.
+            <md><mrow>(\sqrt[3]{x-9})^3 \amp = 3^3</mrow>
+                <mrow>x-9 \amp = 27</mrow>
+                <mrow>x \amp = 36</mrow></md>
+        </p>
+        <sidebyside  widths="40% 58%" margins="0% 0%" valigns="middle middle">
+            <p>
+                The solution is 36.  We can also solve the equation graphically by graphing <m>y=4\sqrt[3]{x-9}</m>, as shown in the figure.  The point <m>(36,12)</m> lies on the graph, so <m>x=36</m> is the solution of the equation <m>~4\sqrt[3]{x-9} = 12</m>.
+            </p>
+            <image xml:id="fig-example-6-5-1">
+                <description>transformed cube root function</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [xscale=.16,yscale=.24]
+                \draw[cyan] (0,-8) grid[step=4] (48,16);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(49.5,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-8)--(0,17.6) node[above]{$y$};
+                \foreach \x  in {8,16,...,48} {
+                 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 }
+                \foreach \x in {-8,0,8,16} {
+                 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[samples=129,domain={9:48)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {4*(\x-9)^(1/3)});
+                \draw[samples=129,domain={0:9},smooth,variable=\x,red,very thick, <-,>=stealth'] plot ( {\x}, {-4*(9-\x)^(1/3)});
+                \filldraw[red] (36,12) ellipse (.6 and .4);
+                \node[text=red,fill=white, inner sep=2] at (42.3,16) {$y=4\sqrt[3]{x-9}$};
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside>
 </solution></example>
 
 <exercise><title>Practice 1</title>
-<statement><p>Solve <m>~6+2\sqrt[4]{12-v} = 10</m></p>
-<p>Hint: <ul>
-	<li>Isolate the radical.</li>
-	<li>Raise each side to the fourth power.</li>
-	<li>Complete the solution.</li></ul></p></statement>
-<answer><p><m>v=-4</m></p></answer></exercise>
+<webwork>
+    <pg-code>
+        $ans = Compute("-4");
+    </pg-code>
+    <statement>
+        <p>Solve <m>~6+2\sqrt[4]{12-v} = 10</m></p>
+        <p><m>v=</m><var name="$ans" width="2"/></p>
+        <p>Hint: 
+            <ul>
+                <li>Isolate the radical.</li>
+                <li>Raise each side to the fourth power.</li>
+                <li>Complete the solution.</li>
+            </ul>
+        </p>
+    </statement>
+    <solution><p><m>v=-4</m></p></solution>
+</webwork>
+</exercise>
 
 </subsection>
 
@@ -46,22 +88,35 @@ You can check that <m>25</m> is <em>not</em> a solution to the original equation
 <p>Raising both sides of an equation to an odd power does not introduce extraneous solutions.  However, if we raise both sides to an even power, we should check each solution in the original equation.</p>
 
 <exercise><title>QuickCheck 1</title>
-<statement><p>When we raise both sides of an equation to an <fillin characters="6"/> power, it is possible to introduce <fillin characters="6"/> solutions.</p></statement>
-<answer><p>even; extraneous</p></answer>
+<webwork>
+    <pg-code>
+        $even = PopUp(
+          ["?","even", "odd"],
+          1, 
+        );
+        $extraneous = PopUp(
+          ["?","essential", "extraneous"],
+          2, 
+        );
+        
+    </pg-code>
+    <statement><p>When we raise both sides of an equation to an <var name="$even" form="popup"/> power, it is possible to introduce <var name="$extraneous" form="popup"/> solutions.</p></statement>
+    <solution><p>even; extraneous</p></solution>
+</webwork>
 </exercise>
 
-<example><statement><p>Solve the equation  <m>~\sqrt{x+2}+4 = x</m></p></statement>
+<example xml:id="example-radical-equations"><statement><p>Solve the equation  <m>~\sqrt{x+2}+4 = x</m></p></statement>
 
 <solution><p>First, we isolate the radical expression on one side of the equation. (This will make it easier to square both sides.)
-        <md><mrow>\sqrt{x+2}\amp = x-4\amp\amp\blert{\text{Square both sides of the equation.}}</mrow>
+        <md><mrow>\sqrt{x+2}\amp = x-4\amp\amp\glert{\text{Square both sides of the equation.}}</mrow>
             <mrow>\left(\sqrt{x+2}\right)^{\alert{2}}\amp = (x-4)^{\alert{2}}</mrow>
-            <mrow>x+2\amp = x^2-8x+16 \amp\amp\blert{\text{Subtract }x + 2 \text{ from both sides.}}</mrow>
-            <mrow> x^2-9x+14\amp = 0\amp\amp\blert{\text{Factor the left side.}}</mrow>
+            <mrow>x+2\amp = x^2-8x+16 \amp\amp\glert{\text{Subtract }x + 2 \text{ from both sides.}}</mrow>
+            <mrow> x^2-9x+14\amp = 0\amp\amp\glert{\text{Factor the left side.}}</mrow>
             <mrow> x=2\hphantom{000}\amp\text{or}\hphantom{000}x=7</mrow></md></p>
 <p><em>Check</em></p><sidebyside widths="40% 45%" margins="5% 10%">
-	<p>Does <m>\sqrt{\alert{2}+2}+4=\alert{2} </m>?</p><p> <m>\hphantom{blank}\blert{{\text{No; }2\text{ is not a solution.}}} </m></p></sidebyside>
+	<p>Does <m>\sqrt{\alert{2}+2}+4=\alert{2} </m>?</p><p> <m>\hphantom{blank}\glert{{\text{No; }2\text{ is not a solution.}}} </m></p></sidebyside>
 <sidebyside widths="40% 45%" margins="5% 10%">
-	<p>Does <m>\sqrt{\alert{7}+2}+4=\alert{7} </m>?</p><p> <m>\hphantom{blank}\blert{{\text{Yes; }7\text{ is  a solution.}}} </m></p>
+	<p>Does <m>\sqrt{\alert{7}+2}+4=\alert{7} </m>?</p><p> <m>\hphantom{blank}\glert{{\text{Yes; }7\text{ is  a solution.}}} </m></p>
 </sidebyside>
 <p>The apparent solution <m>2</m> is extraneous. The only solution to the original equation is <m>7</m>. We can verify the solution by graphing the equations</p>
 <sidebyside  widths="55% 40%" valigns="middle middle" margins="0%"><p>
@@ -69,32 +124,75 @@ You can check that <m>25</m> is <em>not</em> a solution to the original equation
 as shown at right. The graphs intersect in only one point, <m>(7, 3)</m>, so there is only one solution, <m>x=7</m>.</p>
     <image source="images/fig-radical-equation"><description>graphs of both sides of radical equation</description></image></sidebyside></solution></example>
 
-<warning><p>When we square both sides of an equation, it is <em>not</em> correct to square each term of the equation separately. Thus, in <xref ref="example-radical-equationS" text="type-global"/>, the original equation is <em>not</em> equivalent to
+<warning><p>When we square both sides of an equation, it is <em>not</em> correct to square each term of the equation separately. Thus, in <xref ref="example-radical-equations" text="type-global"/>, the original equation is <em>not</em> equivalent to
         <me>(\sqrt{x+2})^2+4^2=x^2 </me>
 This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>entire</em> left side of the equation as a binomial, like this,
         <me>(\sqrt{x+2}+4)^2=x^2 </me>
- or we may proceed as shown in <xref ref="example-radical-equationS" text="type-global"/>.</p></warning>
+ or we may proceed as shown in <xref ref="example-radical-equations" text="type-global"/>.</p></warning>
 
 <exercise><title>Practice 2</title>
-<statement><p>Solve <m>~2x-5 = \sqrt{40-3x}</m></p>
-<p>Hint: <ul>
-	<li>Square both sides.</li>
-	<li>Solve the quadratic equation.</li>
-	<li>Check for extraneous roots.</li></ul></p></statement>
-<answer><m>x=5</m></answer></exercise>
+<webwork>
+    <pg-code>
+        $ans = Compute("5");
+    </pg-code>
+    <statement>
+        <p>Solve <m>~2x-5 = \sqrt{40-3x}</m></p>
+        <p><m>x=</m><var name="$ans" width="2"/></p>
+        <p>Hint: <ul>
+            <li>Square both sides.</li>
+            <li>Solve the quadratic equation.</li>
+            <li>Check for extraneous roots.</li>
+        </ul></p>
+    </statement>
+    <solution><m>x=5</m></solution>
+</webwork>
+</exercise>
 
 <exercise><title>QuickCheck 2</title>
-<statement><p>True or false.<ol label="a">
-    <li>At most one of the solutions of a radical equation can be extraneous.</li>
-	<li>We don't have to check for extraneous solutions if we cube both sides of an equation.</li>
-	<li>We can square each term of an equation separately without changing its solutions.</li>
-	<li>It is helpful to isolate the radical before squaring both sides.</li></ol></p>
-</statement>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>True</li>
-    <li>False</li>
-    <li>True</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or false.
+            <ol label="a">
+                <li>
+                    <p>At most one of the solutions of a radical equation can be extraneous. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We don't have to check for extraneous solutions if we cube both sides of an equation. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We can square each term of an equation separately without changing its solutions. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        It is helpful to isolate the radical before squaring both sides. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>False</li>
+        <li>True</li>
+        <li>False</li>
+        <li>True</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 </subsection>
 
@@ -102,16 +200,35 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
 
 <p>	We can also solve formulas involving radicals for one variable in terms of the others.</p>
 
-<example><statement><p>Solve the formula  <m>~t=\sqrt{1+s^2}~</m> for <m>s</m>.</p></statement>
-
-<solution><p>Because the variable we want is under a square root, we square both sides of the equation, to get
-	 <md><mrow> t^2 \amp = 1+s^2\amp\amp\blert{\text{Subtract 1 from both sides.}}</mrow>
-        <mrow>t^2-1 \amp = s^2 \amp\amp\blert{\text{Take square roots.} </mrow>
-        <mrow>s \amp =\pm \sqrt{t^2-1}</mrow></md></p></solution></example>
+<example>
+    <statement>
+        <p>Solve the formula  <m>~t=\sqrt{1+s^2}~</m> for <m>s</m>.</p>
+    </statement>
+    <solution>
+        <p>
+            Because the variable we want is under a square root, we square both sides of the equation, to get
+            <md>
+                <mrow> t^2 \amp = 1+s^2\amp\amp\glert{\text{Subtract 1 from both sides.}}</mrow>
+                <mrow>t^2-1 \amp = s^2 \amp\amp\glert{\text{Take square roots.} }</mrow>
+                <mrow>s \amp =\pm \sqrt{t^2-1}</mrow>
+            </md>
+        </p>
+    </solution>
+</example>
 
 <exercise><title>Practice 3</title>
-<statement><p>Solve the formula <m>~r-2 = \sqrt[3]{V-Bh}~</m> for <m>h</m>.</p></statement>
-<answer><m>h=\dfrac{V-(r-2)^3}{B}</m></answer></exercise>
+<webwork>
+    <pg-code>
+        Context()->variables->add(V=>"Real", r=>"Real", B=>"Real");
+        $a = Formula("(V-(r-2)^3)/B");
+    </pg-code>
+    <statement>
+        <p>Solve the formula <m>~r-2 = \sqrt[3]{V-Bh}~</m> for <m>h</m>.</p>
+        <p><m>h=</m><var name="$a" width="15"/> </p>
+    </statement>
+    <solution><m>h=\dfrac{V-(r-2)^3}{B}</m></solution>
+</webwork>
+</exercise>
 
 </subsection>
 
@@ -128,13 +245,13 @@ Now we square each side to remove one radical. Be careful when squaring the bino
         <md><mrow>(\sqrt{x-7})^{\alert{2}}\amp =(7-\sqrt{x})^{\alert{2}}</mrow>
             <mrow> x-7\amp = 49-14\sqrt{x}+x</mrow></md>
 We collect like terms, and isolate the radical on one side of the equation.
-        <md><mrow>-56 \amp = -14\sqrt{x}\amp\amp\blert{\text{Divide both sides by }-14.}</mrow>
+        <md><mrow>-56 \amp = -14\sqrt{x}\amp\amp\glert{\text{Divide both sides by }{-14}.}</mrow>
             <mrow>4 \amp = \sqrt{x}</mrow></md>
 Finally, we square both sides again to obtain
         <md><mrow>(4)^{\alert{2}} \amp = (\sqrt{x})^{\alert{2}}</mrow>
             <mrow>16 \amp = x</mrow></md></p>
 <p><em>Check</em></p><sidebyside widths="40% 45%" margins="5% 10%"><p>
-    Does <m>\sqrt{\alert{16}-7}+\sqrt{\alert{16}}=7</m>?</p><p> <m>\hphantom{blank}\blert{\text{Yes. The solution is } 16.}</m>
+    Does <m>\sqrt{\alert{16}-7}+\sqrt{\alert{16}}=7</m>?</p><p> <m>\hphantom{blank}\glert{\text{Yes. The solution is } 16.}</m>
     </p></sidebyside></solution></example>
 
 <warning><p>Recall that we cannot solve a radical equation by squaring each term separately. So it is <em>incorrect</em> to begin <xref ref="example-radical-equation-with-3-terms" text="type-hybrid"/> by writing
@@ -142,15 +259,34 @@ Finally, we square both sides again to obtain
 We must square the <em>entire expression</em> on each side of the equal sign as one piece.</p></warning>
 
 <exercise><title>Practice 4</title>
-<statement><p>Solve <m>~\sqrt{3x+1} = 6 - \sqrt{9-x}</m></p>
-<p>Hint: <ul>
-	<li>Square both sides.</li>
-	<li>Isolate the radical term.</li>
-	<li>Divide both sides by 4.</li>
-	<li>Square both sides again.</li>
-	<li>Solve the quadratic equation.</li>
-	<li>Check for extraneous roots.</li></ul></p></statement>
-<answer><m>x=5;~ x=8</m></answer></exercise>
+<webwork>
+    <pg-code>
+        $r1 = Compute("5");
+        $r2 = Compute("8");
+        $answer = List("$r1, $r2");
+        $my_evaluator = $answer -> cmp(
+         showHints=>1,
+         showLengthHints => 1,
+         partialCredit => 1,
+        ); 
+        
+    </pg-code>
+    <statement>
+        <p>Solve <m>~\sqrt{3x+1} = 6 - \sqrt{9-x}</m></p>
+        <p><m>x=</m><var name="$answer" evaluator="$my_evaluator" width="5"/> </p>
+        <p>Hint: <ul>
+            <li>Square both sides.</li>
+            <li>Isolate the radical term.</li>
+            <li>Divide both sides by 4.</li>
+            <li>Square both sides again.</li>
+            <li>Solve the quadratic equation.</li>
+            <li>Check for extraneous roots.</li></ul>
+        </p>
+        <instruction>Use a comma to separate different solutions.</instruction>
+    </statement>
+    <solution><m>x=5</m>;  <m>x=8</m></solution>
+</webwork>
+</exercise>
 </subsection>
 
 <subsection><title>Simplifying <m>\sqrt[n]{a^n}</m></title>
@@ -183,25 +319,73 @@ In this case, <m>\sqrt{a^2}</m> does not equal <m>a</m>, because <m>a</m> is neg
 	<li><m>\sqrt{(x-1)^2} = \abs{x-1}</m></li></ol></p></statement></example>
 
 <exercise><title>Practice 5</title>
-<statement><p>Simplify. <ol label="a" cols="2">  
-	<li><m>\sqrt[3]{-125x^6}</m></li>
-	<li><m>\sqrt[4]{16x^{12}}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
-	<li><m>-5x^2</m></li>
-	<li><m>2\abs{x^3}</m></li></ol></p></answer></exercise>
+<webwork>
+    <pg-code>
+        $a = Formula("-5*x^2");
+        $b = Formula("2* abs(x^3)");
+    </pg-code>
+    <statement>
+        <p>Simplify. <ol label="a" cols="2">  
+            <li>
+                <p><m>\sqrt[3]{-125x^6}=</m><var name="$a" width="8"/> </p>
+            </li>
+            <li>
+                <p><m>\sqrt[4]{16x^{12}}=</m><var name="$b" width="8"/></p>
+            </li>
+        </ol></p>
+        <instruction>Use "abs(x)" to get <m>| x |</m>.</instruction>
+    </statement>
+    <solution><p><ol label="a" cols="2">
+        <li><m>-5x^2</m></li>
+        <li><m>2\left| {x^3} \right|</m></li></ol></p></solution>
+</webwork>
+</exercise>
 
 <exercise><title>QuickCheck 3</title>
-<statement><p>True or false.<ol label="a">
-    <li>If an equation contains more than one radical, we square each term of the equation.</li>
-    <li><m>(7-\sqrt{x})^2 = 49-x</m></li>
-    <li>If <m>\sqrt{x^2} \not= x</m>, then <m>\sqrt{x^2} = -x</m>.</li>
-    <li>If <m>n</m> is even and <m>a \not= 0</m>, then <m>a^n</m> is always positive.</li></ol></p>
-</statement>
-<answer><p><ol label="a">
-    <li>False</li>
-    <li>False</li>
-    <li>True</li>
-    <li>True</li></ol></p></answer>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+          ["?","True", "False"],
+          1, 
+        );
+        $False = PopUp(
+          ["?","True", "False"],
+          2, 
+        );
+    </pg-code>
+    <statement>
+        <p>
+            True or false.
+            <ol label="a">
+                <li>
+                    <p>If an equation contains more than one radical, we square each term of the equation. <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(7-\sqrt{x})^2 = 49-x</m> <var name="$False" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>\sqrt{x^2} \not= x</m>, then <m>\sqrt{x^2} = -x</m>. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>n</m> is even and <m>a \not= 0</m>, then <m>a^n</m> is always positive. <var name="$True" form="popup"/>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>False</li>
+        <li>False</li>
+        <li>True</li>
+        <li>True</li></ol></p>
+    </solution>
+</webwork>
 </exercise>
 
 </subsection>
