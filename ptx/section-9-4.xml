@@ -169,6 +169,7 @@
 <exercise><title>Practice 1</title>
 <webwork>
     <pg-code>
+        $refreshCachedImages = 1;
   $xfunc[0] = sub { my $t = shift();
     return 3*cosh($t); };
   $yfunc[0] = sub { my $t = shift();
@@ -814,6 +815,7 @@
 <exercise><title>Practice 5</title>
 <webwork>
     <pg-code>
+        $refreshCachedImages = 1;
         $h = -4;
         $k = 0;
         $a = sqrt(12);
@@ -1084,6 +1086,7 @@
 <exercise><title>Practice 6</title>
 <webwork>
     <pg-code>
+        $refreshCachedImages = 1;
         Context()->variables->add(y=>"Real");
         $f = Formula("(x+2)^2 /6 - (y+1)^2 /4");
         $h = -2;

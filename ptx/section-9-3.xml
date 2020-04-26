@@ -341,6 +341,7 @@
 <exercise><title>Practice 2</title>
 <webwork>
     <pg-code>
+        $refreshCachedImages = 1;
       $xfunc[0] = sub { my $t = shift();
         return 4/3*cos($t); };
       $yfunc[0] = sub { my $t = shift();
