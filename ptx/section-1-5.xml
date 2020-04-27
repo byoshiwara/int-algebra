@@ -334,6 +334,7 @@
     <title>Practice 2</title>
     <webwork>
         <pg-code>
+            $refreshCachedImages = 1;
             Context("Numeric")->variables->add(t=>'Real');
             $x1 = 1;
             $y1 = 64.6;
