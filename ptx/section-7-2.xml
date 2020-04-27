@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="ExponentialFunctions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponential Functions</title>
+
+<subsection><title>Introduction</title>
+
+<p>In <xref ref="Exponential-Growth-and-Decay" text="type-global"/>, we studied functions that describe exponential growth or decay. More formally, we define an <term>exponential function</term> as follows.</p>
+
+<assemblage><title>Exponential Function</title>
+<p>An <term>exponential function</term> has the form
+	<me>f(x) = ab^x,~~~~ \text{ where } ~~~b \gt 0 ~~~\text{ and } ~~~b \ne 1 \text{, } ~~~a \ne 0</me>
+</p></assemblage>
+
+<p>Some examples of exponential functions are
+	<me>f (x) = 5^x,~~~~  P(t) = 250(1.7)^t,~~~~ \text{and } ~~~~g(n) = 2.4(0.3)^n</me>
+The constant <m>a</m> is the <m>y</m>-intercept of the graph because
+	<me>f (0) = a \cdot b^0 = a \cdot 1 = a</me>
+For the examples above, we find that the <m>y</m>-intercepts are
+	<md><mrow>f(0) \amp= 5^0 = 1 </mrow>
+		<mrow>P(0) \amp= 250(1.7)^0 = 250</mrow>
+		<mrow>g(0) \amp= 2.4(0.3)^0 = 2.4</mrow></md></p>
+
+<p>The positive constant <m>b</m> is called the <term>base</term> of the exponential function.</p>
+
+<exercise><title>QuickCheck 1</title>
+<webwork><pg-code>       
+            $expfn = RadioButtons(
+              ["\(f(x)=3x^4\)",
+              "\(f(x)=3(4)^x\)",
+              "\(f(x)=2x^{\frac{3}{4}}\)",
+              "\(f(x)=\dfrac{4}{x^3}\)"],
+              1, 
+            );            
+        </pg-code>
+    <statement><p>Which of the following is an exponential function?</p>
+        <p><var name="$expfn" form="buttons"/></p>      
+    </statement>
+    <solution><p><m>f(x)=3(4)^x</m></p>
+    </solution>
+</webwork></exercise>
+
+<note><p><ul>
+    <li> We do not allow <m>b</m> to be negative, because if <m>b \lt 0</m>, then <m>b^x</m> is not a real number for some values of <m>x</m>. For example, if <m>b = -4</m> and <m>f (x) = (-4)^x</m>, then <m>f (1/2) = (-4)^{1/2}</m> is an imaginary number.</li>
+    <li> We also exclude <m>b = 1</m> as a base because <m>1^x = 1</m> for all values of <m>x</m>; hence the function <m>f (x) = 1^x</m> is actually the constant function <m>f (x) = 1</m>.</li>
+</ul></p></note>
+</subsection>
+
+<subsection><title>Graphs of Exponential Functions</title>
+
+<p>The graphs of exponential functions have two characteristic shapes, depending on whether the base, <m>b</m>, is greater than <m>1</m> or less than <m>1</m>. As typical examples, consider the graphs of <m>f (x) = 2^x</m> and <m>g(x) =\left(\dfrac{1}{2}\right)^x</m> shown below. Some values for <m>f</m> and <m>g</m> are recorded in the tables.</p>
+<sidebyside widths="15% 15% 70%">
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>f(x)</m></cell></row>
+        <row>
+            <cell><m>-3</m></cell>
+            <cell><m>\frac{1}{8}</m></cell></row>
+        <row>
+            <cell><m>-2</m></cell>
+            <cell><m>\frac{1}{4}</m></cell></row>
+        <row>
+            <cell><m>-1</m></cell>
+            <cell><m>\frac{1}{2}</m></cell></row>
+        <row>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell></row>
+        <row>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell></row>
+        <row>
+            <cell><m>2</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>3</m></cell>
+            <cell><m>8</m></cell></row>
+    </tabular>
+
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>g(x)</m></cell></row>
+        <row>
+            <cell><m>-3</m></cell>
+            <cell><m>8</m></cell></row>
+        <row>
+            <cell><m>-2</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>-1</m></cell>
+            <cell><m>2</m></cell></row>
+        <row>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell></row>
+        <row>
+            <cell><m>1</m></cell>
+            <cell><m>\frac{1}{2}</m></cell></row>
+        <row>
+            <cell><m>2</m></cell>
+            <cell><m>\frac{1}{4}</m></cell></row>
+        <row>
+            <cell><m>3</m></cell>
+            <cell><m>\frac{1}{8}</m></cell></row>
+    </tabular>
+
+    <image source="images/fig-exponential-growth-and-decay"><description>graphs of exponential growth and decay</description></image></sidebyside>
+
+<p>Notice that <m>f (x) = 2^x</m> is an increasing function and <m>g(x) = \left(\dfrac{1}{2}\right)^x</m> is a decreasing function. Both are concave up. In general, exponential functions have the following properties.</p>
+
+<assemblage><title>Properties of Exponential Functions, <m>f(x) = ab^x</m>, <m>a \gt 0</m></title><p><ol>
+	<li><p>If <m>b \gt 1</m>, the function is increasing and concave up;</p> 
+		<p>if <m>0 \lt b \lt 1</m>, the function is decreasing and concave up.</p></li>
+	<li><p>The <m>y</m>-intercept is <m>(0, a)</m>. There is no <m>x</m>-intercept.</p></li>
+</ol></p></assemblage>
+
+<p>In the table for <m>f(x)</m>, you can see that as the <m>x</m>-values decrease toward negative infinity, the corresponding <m>y</m>-values decrease toward zero. As a result, the graph of <m>f</m> decreases toward the <m>x</m>-axis, but never touches it, as we move to the left. The negative <m>x</m>-axis is a <term>horizontal asymptote</term> for exponential functions with <m>b \gt 1</m>, as shown in figure (a).</p>
+    
+<p> For exponential functions with <m>0 \lt b \lt 1</m>, the positive <m>x</m>-axis is an asymptote, as illustrated in figure (b). </p>
+
+<exercise><title>QuickCheck 2</title>
+<webwork><pg-code>       
+            $truexp = RadioButtons(
+              ["An exponential function is not defined for negative inputs.",
+              "The outputs of an exponential function cannot be negative.",
+              "The \(y\)-intercept of the function \(f(x)=2(3)^x\) is \((0,6)\).",
+              "The function \(f(x)=16(0.5)^x\) decreases by 8 each time we increase \(x\) by 1."],
+              1, 
+            );            
+        </pg-code>
+    <statement><p>Which statement is true?</p>
+        <p><var name="$truexp" form="buttons"/></p>      
+    </statement>
+    <solution><p>The outputs of an exponential function cannot be negative.</p>
+    </solution>
+</webwork></exercise>
+
+<p>How does the value of <m>b</m> affect the graph? For increasing functions, the larger the value of the base, <m>b</m>, the faster the function grows. In Example 1, we compare two exponential functions with different bases. </p>
+
+<example xml:id="example-two-exponential-growth"><statement><p>Compare the graphs of <m>f (x) = 3^x</m> and <m>g(x) = 4^x</m>.</p></statement>
+
+<solution><p>First, we evaluate each function for several convenient values, as shown in the table.</p>
+<p>Then we plot the points for each function and connect them with smooth curves. Note that <m>a=1</m> for both functions, so their graphs have the same <m>y</m>-intercept, <m>(0,1)</m>.</p> 
+<p>For positive <m>x</m>-values, <m>g(x)</m> is always larger than <m>f(x)</m>, and is increasing more rapidly. In the figure, we can see that <m>g(x) = 4^x</m> climbs more rapidly than <m>f(x) = 3^x</m>. However, for negative <m>x</m>-values, <m>g(x)</m> is smaller than <m>f(x)</m>.</p>
+
+<sidebyside widths="40% 30%" valigns="middle middle" margins="0% 20%">
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>f(x)</m></cell>
+            <cell><m>g(x)</m></cell></row>
+        <row>
+            <cell><m>-2</m></cell>
+            <cell><m>\dfrac{1}{9}</m></cell>
+            <cell><m>\dfrac{1}{16}</m></cell></row>
+        <row>
+            <cell><m>-1</m></cell>
+            <cell><m>\dfrac{1}{3}</m></cell>
+            <cell><m>\dfrac{1}{4}</m></cell></row>
+        <row>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>1</m></cell></row>
+        <row>
+            <cell><m>1</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>2</m></cell>
+            <cell><m>9</m></cell>
+            <cell><m>16</m></cell></row>
+    </tabular>
+	<image source="images/fig-two-exponential-growth"><description>two exponential growth functions</description></image>
+</sidebyside></solution></example>
+
+<note><sidebyside widths="55% 32%"><p>For decreasing exponential functions, those with bases between <m>0</m> and <m>1</m>, the smaller the base, the more steeply the graph decreases. For example, compare the graphs of <m>p(x) = 0.8^x</m> and <m>q(x) = 0.5^x</m> shown in the figure at right.</p>
+<image source="images/fig-two-exponential-decay"><description>two exponential decay functions</description></image></sidebyside></note>
+
+<exercise><title>Practice 1</title>
+ <statement><p><ol label="a">
+       <li><p>Which of the graphs at right is <m>p(x)=0.8^x</m>, and which is <m>q(x)=0.5^x~</m>?  </p></li>
+       <li><p>Which graph decreases more steeply?</p></li></ol></p>
+    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+</statement>
+<answer><p><ol label="a">
+        <li><p>Graph I is <m>q</m>, and graph II is <m>p</m>.</p></li>
+        <li><p><m>q</m> decreases more sreeply</p></li></ol></p></answer></exercise>
+
+<exercise><title>QuickCheck 2</title>
+<statement><p>True or False.<ol label="a">
+    <li>An exponential function <m>f(x)=b^x</m> is always positive.</li>
+	<li>The function <m>f(x)=ab^x</m> has a horizontal asymptote at <m>y=0</m>.</li>
+	<li>The value of <m>b</m> determines how rapidly the graph of <m>f(x)=ab^x</m> increases or decreases.</li>
+	<li>The graph of <m>f(x)=ab^x</m> is decreasing if <m>b \lt 0</m>.</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>True</li>
+    <li>True</li>
+    <li>True</li>
+    <li>False</li></ol></p></answer>
+</exercise>
+</subsection>
+
+<subsection><title>Comparing Exponential and Power Functions</title>
+
+<p>We have studied several families of functions, including linear, quadratic, and power functions. Exponential functions are useful because they model growth or decline by a constant factor.</p>
+
+<warning><p>Exponential functions<idx>exponential functions</idx> are not the same as the power functions <idx>power functions</idx> we studied earlier. Although both involve expressions with exponents, it is the location of the variable that makes the difference. A power function, <m>h(x)=hx^p</m>, has a variable base and a constant exponent. An exponential function, <m>f(x)=ab^x</m>, has a constant base and a variable exponent.</p></warning>
+
+<assemblage><title>Power Functions vs Exponential Functions</title>
+<sidebyside>
+   <tabular>
+        <col halign="left" width="50%"/>
+        <col halign="left" width="25%"/>
+        <col halign="left" width="25%"/>
+         <row>
+            <cell><p><m>\hphantom{General formula and m}</m></p></cell>
+            <cell><p><term>Power Functions</term></p></cell>
+            <cell><p><term>Exponential Functions</term></p></cell></row>
+        <row>
+            <cell><p><em>General formula</em></p></cell>
+            <cell><p><m>h(x)=kx^p</m></p></cell>
+            <cell><p><m>f(x)=ab^x</m></p></cell></row>
+        <row>
+            <cell><p><em>Description</em></p></cell>
+            <cell><p>variable base and constant exponent</p></cell>
+            <cell><p>constant base and variable exponent</p></cell></row>
+        <row>
+            <cell><p><em>Example</em></p></cell>
+            <cell><p><m>h(x)=2x^3</m></p></cell>
+            <cell><p><m>f(x)=2(3^x)</m></p></cell></row>
+    </tabular></sidebyside></assemblage>
+
+<p>These two families of functions have very different properties, as well.</p>
+
+<example xml:id="example-power-vs-exponential"><statement><p>Which of the functions shown below is exponential, and which is a cubic power function?</p>
+<sidebyside widths="25% 25% 50%">
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>h(x)</m></cell></row>
+        <row>
+            <cell><m>-3</m></cell>
+            <cell><m>-54</m></cell></row>
+        <row>
+            <cell><m>-2</m></cell>
+            <cell><m>-16</m></cell></row>
+        <row>
+            <cell><m>-1</m></cell>
+            <cell><m>-2</m></cell></row>
+        <row>
+            <cell><m>0</m></cell>
+            <cell><m>0</m></cell></row>
+        <row>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell></row>
+        <row>
+            <cell><m>2</m></cell>
+            <cell><m>16</m></cell></row>
+        <row>
+            <cell><m>3</m></cell>
+            <cell><m>54</m></cell></row></tabular>
+
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor">
+            <cell><m>x</m></cell>
+            <cell><m>f(x))</m></cell></row>
+        <row>
+            <cell><m>-3</m></cell>
+            <cell><m>\dfrac{2}{27}</m></cell></row>
+        <row>
+            <cell><m>-2</m></cell>
+            <cell><m>\dfrac{1}{4}</m></cell></row>
+        <row>
+            <cell><m>-1</m></cell>
+            <cell><m>\dfrac{2}{3}</m></cell></row>
+        <row>
+            <cell><m>0</m></cell>
+            <cell><m>2</m></cell></row>
+        <row>
+            <cell><m>1</m></cell>
+            <cell><m>6</m></cell></row>
+        <row>
+            <cell><m>2</m></cell>
+            <cell><m>18</m></cell></row>
+        <row>
+            <cell><m>3</m></cell>
+            <cell><m>54</m></cell></row>
+    </tabular>
+	<image source="images/fig-???"><description>graph</description></image></sidebyside>
+</p></statement>
+
+<solution><p>We can tell that <m>f</m> is an exponential function because its values increase by a factor of 3 for each unit increase in <m>x</m>. The base of the function is <m>b=3</m>. We also see from the table that <m>a=f(0)=2</m>, so <m>f(x)=2(3^x)</m>. Thus, <m>h</m> must be the power function, <m>(x)=kx^3</m>. To find <m>k</m>, we notice that <m>h(1)=k</m>, so <m>k=2</m>, and <m>h(x)=2x^3</m>.</p>
+
+<p>As you would expect, the graphs of the two functions are also quite different. In particular, note that the power function passes through the origin, while the exponential function approaches the negative <m>x</m>-axis as a horizontal asymptote.</p>
+  
+<p> From the table, we see that <m>h(3) = f(3) = 54</m>, so the two graphs intersect at <m>x = 3</m>. (They also intersect at approximately <m>x = 2.48</m>.) However, if you compare the values of <m>h(x) = 2x^3</m> and <m>f(x) = 2(3^x)</m> for larger values of <m>x</m>, you will see that eventually the exponential function overtakes the power function.</p></solution></example>
+
+<sidebyside widths="35% 58%">
+<p>The relationship in <xref ref="example-power-vs-exponential" text="type-global"/> holds true for all increasing power and exponential functions: For large enough values of <m>x</m>, the exponential function will always be greater than the power function, regardless of the parameters in the functions. The figure at left  shows the graphs of <m>f(x) = x^6</m> and <m>g(x) = 1.8^x</m>. At first, <m>f (x) \gt g(x)</m>, but at around <m>x = 37</m>, <m>g(x)</m> overtakes <m>f (x)</m>, and <m>g(x) \gt f (x)</m> for all <m>x \gt 37</m>.</p>
+
+<image source="images/fig-power-vs-exponential-3"><description>power function vs exponential from 0 to 50</description></image></sidebyside>
+
+<exercise xml:id="exercise-identify-power-and-exponential-functions"><title>Practice 3</title>
+    <webwork><pg-code>
+            $match = new_checkbox_multiple_choice();
+            $match -> qa (
+            "A question can go here, but PTX ignores this",
+            "\( F(x)= 1.5^x \) $BR",
+            "\( H(x)= 3^{1.5x} \) $BR",
+            );
+            $match -> extra(
+            "\( G(x)= 3x^{1.5} \) $BR",
+            "\( K(x)= (3x)^{1.5} \) $BR"
+            );
+            $match -> makeLast(
+            "\( F(x)= 1.5^x \) $BR",
+            "\( G(x)= 3x^{1.5} \) $BR",
+            "\( H(x)= 3^{1.5x} \) $BR",
+            "\( K(x)= (3x)^{1.5} \) $BR",
+             "None of the above");
+
+            $match2 = new_checkbox_multiple_choice();
+            $match2 -> qa (
+            "A question can go here, but PTX ignores this",
+            "\( G(x)= 3x^{1.5} \) $BR",
+            "\( K(x)= (3x)^{1.5} \) $BR"
+            );
+            $match2 -> extra(
+            "\( F(x)= 1.5^x \) $BR",
+            "\( H(x)= 3^{1.5x} \) $BR",
+            );
+            $match2 -> makeLast(
+            "\( F(x)= 1.5^x \) $BR",
+            "\( G(x)= 3x^{1.5} \) $BR",
+            "\( H(x)= 3^{1.5x} \) $BR",
+            "\( K(x)= (3x)^{1.5} \) $BR",
+            "None of the above");
+        </pg-code>
+   	<statement><p>Which of the following functions are exponential functions, and which are power functions?<ol label="a" cols="2">
+                <li><m>F(x) = 1.5^x</m></li>
+                <li><m>G(x) = 3x^{1.5}</m></li>
+                <li><m>H(x) = 3^{1.5x}</m></li>
+                <li><m>K(x) = (3x)^{1.5}</m></li></ol></p>
+            <p>Exponential: <var name="$match" form="checkboxes"/> </p>
+            <p>Power: <var name="$match2" form="checkboxes"/> </p>
+    </statement>
+    <solution> <p>Exponential:  (a) and (c); power: (b) and (d)</p>
+     </solution>
+    </webwork>
+</exercise>
+
+<exercise><title>QuickCheck 3</title>
+<statement><p>True or False.<ol label="a">
+    <li>A power function eventually grows more rapidly then an exponential function.</li>
+	<li>To find the base of an exponential function, we can divide any function value of an integer by the previous one.</m>.</li>
+	<li>Power functions and exponential functions both pass through the origin.</li>
+	<li>Exponential functions model growth or decline by a constant factor.</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>False</li>
+    <li>True</li>
+    <li>False</li>
+    <li>True</li></ol></p></answer>
+</exercise>
+</subsection>
+
+<subsection><title>Exponential Equations</title>
+
+<p>An <term>exponential equation</term><idx>exponential equation</idx> is one in which the variable is part of an exponent. For example, the equation
+	<me>3^x = 81</me>
+is exponential. </p>
+<p>Many exponential equations can be solved by writing both sides of the equation as powers with the same base. To solve the equation above, we write
+	<me>3^x = 3^4</me>
+which is true if and only if <m>x = 4</m>.</p> 
+<p>In general, if two equivalent powers have the same base, then their exponents must be equal also, as long as the base is not <m>0</m> or <m>\pm 1</m>.</p>
+
+<p>If possible, we can use the laws of exponents can be used to express both sides of an equation as single powers of a common base.</p>
+
+<example xml:id="example-exponential-equations"><statement><p>Solve the following equations.
+	<ol label="a" cols="2">
+		<li><m>3^{x-2} = 9^3</m></li>
+		<li><m> 27 \cdot 3^{-2x} = 9^{x+1}</m></li>
+	</ol></p></statement>
+
+<solution><p><ol label="a">
+	<li>Using the fact that <m>9 = 3^2</m>, we write each side of the equation as a power of <m>3</m>:
+		<md><mrow>3^{x-2} \amp = \left(3^2\right)^3 \amp \amp \blert{\text{Simplify the right side.}}</mrow>
+			<mrow>3^{x-2} \amp = 3^6</mrow></md> 
+	Now we equate the exponents to obtain
+		<me>x - 2 \amp = 6</me>
+	The solution is <m>x=8</m>.</li>
+	<li>We write each factor as a power of <m>3</m>.
+		<me>3^3 \cdot 3^{-2x} = \left(3^2\right)^{x+1}~~~~~~~~\blert{27=3^3~\text{and}~9=3^2.}</me>
+	We use the laws of exponents to simplify each side:
+		<me>3^{3-2x} = 3^{2x+2}</me>
+	Now we equate the exponents to obtain
+		<md><mrow>3 - 2x \amp = 2x + 2</mrow>
+			<mrow>-4x =\amp  -1</mrow></md>
+	The solution is <m>x = \dfrac{1}{4}</m>.</li>
+</ol></p></solution></example>
+
+<exercise><title>QuickCheck 4</title>
+<webwork><pg-code>       
+            $strat = RadioButtons(
+              ["Divide both sides by 3.",
+              "Add \(3^2\) to both sides.",
+              "Simplify the left side.",
+              "Write the right side as a power of 3."],
+              3, 
+            );            
+        </pg-code>
+   <statement><p>Which is a good strategy for solving <m>3^{x-2}=81</m>?</p>
+        <p><var name="$strat" form="buttons"/></p>      
+    </statement>
+    <solution><p>Write the right side as a power of 3.</p>
+    </solution>
+</webwork></exercise>
+
+<exercise><title>Practice 4</title>
+    <webwork><pg-code>
+            $answer=Compute("5");
+        </pg-code>
+    <statement><p>Solve the equation <m>2^{x+2} = 128</m>.</p>
+            <p><m>x=</m><var name="$answer" width="2"/> </p>
+    </statement>
+        <hint>
+            <p><m>\blert{\text{Write each side as a power of 2.}}</m></p>
+            <p><m>\blert{\text{Equate exponents.}}</m></p>
+        </hint>
+    <solution><p><m>x=5</m></p>
+     </solution>
+    </webwork>
+</exercise>
+</subsection>
+
+<subsection><title>Applications</title>
+
+<p>Exponential equations arise frequently in the study of exponential growth.</p>
+
+<example xml:id="example-flea-population"><statement><p>During the summer a population of fleas doubles in number every <m>5</m> days. <ol label="a">
+	<li>If a population starts with 10 fleas, write a formula for the number of fleas present after <m>t</m> days.</li>
+	<li>How long will it be before there are 10,240 fleas?</li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><p>We let <m>P</m> represent the number of fleas present after <m>t</m> days. The original population of <m>10</m> doubles not every day, but every <m>5</m> days. A table of values for <m>P</m> would look like this.
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>P(t)</m></cell>
+                    	<cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>10</m></cell>
+                    	<cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>5</m></cell>
+                        <cell bottom="minor"><m>20</m></cell>
+                    	<cell bottom="minor"><m>P(\alert{5}) = 10 \cdot 2^{\alert{1}} = 20</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>10</m></cell>
+                        <cell bottom="minor"><m>40</m></cell>
+                    	<cell bottom="minor"><m>P(\alert{10}) = 10 \cdot 2^{\alert{2}} = 40</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>15</m></cell>
+                        <cell bottom="minor"><m>80</m></cell>
+                    	<cell bottom="minor"><m>P(\alert{15}) = 10 \cdot 2^{\alert{3}} = 80</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>20</m></cell>
+                        <cell bottom="minor"><m>160</m></cell>
+                    	<cell bottom="minor"><m>P(\alert{20}) = 10 \cdot 2^{\alert{4}} = 160</m></cell></row>
+                    </tabular></sidebyside>
+
+    Notice that the original population is multiplied by another factor of 2 every 5 days. We must divide <m>t</m> by 5 to see how many times the population doubles. The formula for <m>P</m> is thus
+		<me>P(t) = 10 \cdot 2^{t/5}</me></p></li>
+	<li>We set <m>P = \alert{10,240}</m> and solve for <m>t</m>:
+		<md><mrow>\alert{10,240} \amp = 10\cdot 2^{t/5}\amp\amp \blert{\text{Divide both sides by 10.}}</mrow>
+			<mrow>1024 \amp = 2^{t/5} \amp\amp \blert{\text {Write 1024 as a power of 2.}}</mrow>
+			<mrow>2^{10} \amp = 2^{t/5}</mrow></md>
+	We equate the exponents to get <m>10 = \dfrac{t}{5}</m>, or <m>t = 50</m>. The population will grow to <m>10,240</m> fleas in <m>50</m> days.</li></ol></p></solution></example>
+
+<p>In Example 4a, we can also use the laws of exponents to write the formula as 
+	<me>P(t)=10 \cdot (2^{1/5})^t</me> 
+From this form see that the growth factor for this function is <m>2^{1/5}</m>, or about 1.149. The flea population grows at about 14.9% per day.</p>
+
+<exercise><title>Practice 4</title>
+    <webwork><pg-code>
+            Context()->variables->add(t=>"Real");
+            $N = Formula("100 * 8**(t/4)");
+            $answer = Compute("12");
+        </pg-code></setup>
+    <statement><p>During an advertising campaign in a large city, the makers of Chip-O's corn chips estimate that the number of people who have heard of Chip-O's increases by a factor of <m>8</m> every 4 days.</p>
+    <p><ol label="a">
+            <li><p>If 100 people are given trial bags of Chip-O's to start the campaign, write a function, <m>N(t)</m>, for the number of people who have heard of Chip-O's after <m>t</m> days of advertising.</p>
+            <p><m>N(t)=</m><var name="$N" width="10"/> </p></li>
+            <li><p>Use your calculator to graph the function <m>N(t)</m> on the domain <m>0 \le t \le 15</m>.</p></li>
+            <li><p>How many days should the makers run the campaign in order for Chip-O's to be familiar to <m>51,200</m> people? Use algebraic methods to find your answer and verify on your graph.</p>
+            <p>Answer: <var name="$answer" width="2"/> days</p></li></ol></p>
+    </statement>
+    <solution><p><ol label="a">
+                <li><p><m>N(t)=100 \cdot 8^{t/4}</m></p></li>
+                <li><p>A graph is below.</p></li>
+                <li><p> 12 days</p></li></ol></p>
+    </solution>
+    </webwork>
+    <conclusion>
+        <sidebyside width="40%" margins="0% 60%"><image source="images/fig-4-2-ex5ans"><description>GC graph</description></image></sidebyside>
+    </conclusion>
+</exercise>
+
+<exercise><title>QuickCheck 4</title>
+<statement><p><ol label="a">
+    <li>If two equivalent powers have the same nonzero base, <m>b \not= 1</m> or <m>-1</m>, then their <fillin characters="6"/> must be equal also.</li>
+	<li>An exponential equation is one in which the variable is part of <fillin characters="6"/>.</li>
+	<li> <m>(3^2)^{x+1}</m> simplifies to 3 raised to what power?</li>
+	<li>If a population doubles every 3 days, its growth factor is 2 raised to what power?</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>exponents</li>
+    <li>an exponent</li>
+    <li><m>2x+2</m></li>
+    <li><m>\dfrac{1}{3}</m></li></ol></p></answer>
+</exercise>
+</subsection>
+
+<subsection><title>Graphical Solution of Exponential Equations</title>
+
+<p>It is not always so easy to express both sides of the equation as powers of the same base. In the following sections, we will develop more general methods for finding exact solutions to exponential equations. But we can use a graphing utility to obtain approximate solutions.</p>
+
+<example xml:id="example-gc-exponential-equation"><idx>intersect</idx><statement><p>Use the graph of <m>y = 2^x</m> to find an approximate solution to the equation <m>2^x = 5</m> accurate to the nearest hundredth.</p></statement>
+
+<solution><p>We enter <m>Y_1 = 2</m> <c>^</c> X and use the standard graphing window (<c>ZOOM</c> 6) to obtain the graph shown in figure (a). We are looking for a point on this graph with <m>y</m>-coordinate <m>5</m>.</p>
+<p> Using the TRACE feature, we see that the <m>y</m>-coordinates are too small when <m>x \lt 2.1</m> and too large when <m>x \gt 2.4</m>. The solution we want lies somewhere between <m>x = 2.1</m> and <m>x = 2.4</m>, but this approximation is not accurate enough.</p>
+<sidebyside width="90%"><image source="images/fig-GC-exponential-equation"><description>two GC displays of exponential function</description></image></sidebyside>
+
+<p> To improve our approximation, we will use the <term>intersect</term> feature. Set <m>Y_2 = 5</m> and press <c>GRAPH</c>. The <m>x</m>-coordinate of the intersection point of the two graphs is the solution of the equation <m>2^x = 5</m> Activating the <term>intersect</term> command results in figure (b), and we see that, to the nearest hundredth, the solution is <m>2.32</m>.</p>
+
+<p>We can verify that our estimate is reasonable by substituting into the equation:
+	<me>2^{2.32}  \stackrel{?}{=} 5</me>
+We enter 2 <c>^</c> 2.32 <c>ENTER</c> to get <m>4.993322196</m>. This number is not equal to <m>5</m>, but it is close, so we believe that <m>x = 2.32</m> is a reasonable approximation to the solution of the equation <m>2^x = 5</m>.</p></solution></example>
+
+<exercise><title>Practice 5</title>
+    <webwork><pg-code>
+            $exact = log(285)/log(5);
+            $answer = Compute("$exact")->with(
+              tolType => 'absolute',
+              tolerance => .005,
+            );
+        </pg-code>
+    <statement><p>Use the graph of <m>y = 5^x</m> to find an approximate solution to <m>5^x = 285</m>, accurate to two decimal places.</p>
+            <p>Answer: <m>x\approx</m><var name="$answer" width="3"/> </p>
+    </statement>
+    <solution><p>The point on the graph where <m>y=285</m> has <m>x \approx 3.51</m></p>
+    </solution>
+    </webwork>
+</exercise>
+</subsection>
+
+
+<xi:include href="./section-7-2-exercises.xml" />                
+
+
+</section>
+<!-- </book>  </mathbook> -->

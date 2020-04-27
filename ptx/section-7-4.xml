@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="PropertiesofLogarithms"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Properties of Logarithms</title>
+
+<subsection><title>Logarithms are Exponents</title>
+
+<p>Because logarithms are actually exponents, they have several properties that can be derived from the laws of exponents. Here are the laws we will need at present.</p>
+
+	<assemblage><p><ol>
+		<li><p>To multiply two powers with the same base, add the exponents and leave the base unchanged.
+			<me>a^m \cdot a^n = a^{m+n}</me></p></li>
+		<li><p>To divide two powers with the same base, subtract the exponents and leave the base unchanged.
+			<me>\frac{a^m}{a^n} = a^{m-n}</me></p></li>
+		<li><p>To raise a power to a power, keep the same base and multiply the exponents.
+			<me>\left(a^m\right)^n = a^{mn}</me></p></li>
+	</ol></p></assemblage>
+
+	<p>Each of these laws corresponds to one of three properties of logarithms.</p>
+
+<assemblage><title>Properties of Logarithms</title>
+<p>If <m>x,~y,</m> and <m>b\gt 0,</m> and <m>b\ne 1</m>, then <ol label="1">
+	<li><m>\log_b {xy} = \log_b {x} + \log_b {y}</m></li>
+	<li><m>\log_b {\dfrac{x}{y}} = \log_b {x} - \log_b {y}</m></li>
+	<li><m>\log_b {x^k} = k\log_b {x} </m></li></ol>
+</p></assemblage>
+
+<p>Study the examples below, keeping in mind that a logarithm is an exponent.</p>
+
+<assemblage><p><ol>
+    <li><p>Property (1):
+        <md><mrow>\log_{2}{32} \amp=\log_{2}{(4 \cdot 8)} \amp\amp=\log_2 4 +\log_2 8 \amp \text{ because } 2^{\alert{5}}  \amp= 2^{\alert{2}} \cdot 2^{\alert{3}}</mrow>
+         	<mrow>\alert{5}      \amp\amp\amp = \alert{2} + \alert{3}        \amp 32                     \amp = 4 \cdot 8</mrow></md></p></li>
+    <li><p>Property (2):
+        <md><mrow>\log_{2}{8} \amp=\log_{2}{\frac{16}{2}} \amp\amp=\log_2{16}-\log_2 {2} \amp \text{ because } 2^{\alert{3}}  \amp= \frac{2^{\alert{4}}}{2^{\alert{1}}} </mrow>
+         	<mrow>\alert{3}      \amp\amp\amp = \alert{4} - \alert{1}        \amp 8                  \amp = \frac{16}{2}</mrow></md></p></li>
+    <li><p>Property (3):
+        <md><mrow>\log_{2}{64} \amp=\log_{2}{(4)^3} \amp\amp=3\log_2 4  \amp \text{ because }\left(2^{\alert{2}}\right)^{\alert{3}}  \amp= 2^{\alert{6}}</mrow>
+         	<mrow>\alert{6}      \amp\amp\amp = \alert{3}\cdot \alert{2}     \amp (4)^{\alert{3}}                    \amp = 64</mrow></md></p></li>
+</ol></p></assemblage>
+
+<exercise><title>QuickCheck 1</title>
+<webwork><pg-code>       
+            $logsum = RadioButtons(
+              ["\(\log (8+y)=\log 8+\log y\)",
+              "\(\log (8y)=\log 8+\log y\)",
+              "\(\log (8y)=\log 8 \cdot \log y\)",
+              "\(\log (\dfrac{8}{y})=\dfrac{\log 8}{\log y}\)"],
+              1, 
+            );            
+        </pg-code>
+    <statement><p>Which statement is true?</p>
+        <p><var name="$logsum" form="buttons"/></p>      
+    </statement>
+    <solution><p><m>\log (8y)=\log 8+\log y</m></p>
+    </solution>
+</webwork></exercise>
+</subsection>
+
+<subsection><title>Using the Properties of Logarithms</title>
+
+<p>Of course, these properties are useful not so much for computing logs but rather for simplifying expressions that contain variables. We will use them to solve exponential equations. But first, we will practice applying the properties. </p>
+
+<example xml:id="example-use-log-property"><statement><p>Write <m>~~\log_{b}\sqrt{{xy}}</m> as an expression in simpler logs.</p></statement>
+
+<solution><p>First, we write <m>\sqrt{xy}</m> using a fractional exponent:
+	<md><mrow>\log_{b}{xy} \amp = \log_{b}{(xy)^{1/2}} \amp \amp \blert{\text{Apply Property 3.}}</mrow>
+		<mrow> \amp = \frac{1}{2}\log_{b}{(xy)} \amp \amp \blert{\text{Apply Property 1 to the product}~xy.}</mrow>
+		<mrow> \amp = \frac{1}{2}(\log_{b}{x} + \log_{b}{y})</mrow></md>
+Thus, <m>~~\log_{b}\sqrt{xy} = \dfrac{1}{2}(\log_{b}{x} + \log_{b}{y})</m>.</p></solution></example>
+
+<exercise><title>Practice 1</title>
+    <webwork><pg-code>
+            Context()->variables->add(y=>"Real");
+            $x = Formula("x");
+            $y = Formula("y");
+            $a = Compute("-2");
+        </pg-code>
+    <statement><p>Write <m>\log_{b}\dfrac{x}{y^2}</m> as an expression in simpler logs.</p>
+            <p>Answer: <m>\log_b</m><var name="$x" width="1"/><m>+</m><var name="$a" width="1"/><m>\cdot\log_b</m><var name="$y" width="1"/> </p>
+    </statement>
+    <solution><p><m>\log_b x - 2\log_b y</m></p>
+    </solution>
+    </webwork>
+</exercise>
+
+<p>We can also use the properties of logarithms to combine sums and differences of logarithms into one logarithm.</p>
+
+<example xml:id="example-rewrite-as-single-log"><statement><p>Express <m>~~3(\log_b x - \log_b y)</m> as a single logarithm with a coefficient of <m>1</m>.</p></statement>
+
+<solution><p>We begin by applying Property (2) to combine the logs.
+	<md><mrow>3(\log_b x - \log_b y) \amp = 3 \log_{b}\left(\dfrac{x}{y}\right) \amp \amp \blert{\text{Apply Property 3.}}</mrow>
+	 	<mrow>\amp =\log_{b}\left(\dfrac{x}{y}\right)^3</mrow></md>
+Thus, <m>3(\log_b x - \log_b y) = \log_{b}\left(\dfrac{x}{y}\right)^3</m>.</p></solution></example>
+
+<warning><p>Be careful when using the properties of logarithms! Compare the statements below:<ol>
+	<li><p><m>\log_{b}{(2x)} = \log_{b}{2} + \log_{b}{x}~~~~    \text{ by Property 1,}</m></p>
+		<p>but</p>
+		<p><m>\log_{b}{(2 + x)} \ne \log_{b}{2} + \log_{b}{x}</m></p><p></p></li>
+	<li><p><m>\log_{b}{\left(\dfrac{x}{5}\right)}= \log_b x - \log_b 5~~~~   \text{ by Property 2,}</m></p>
+		<p>but</p>
+		<p><m>\log_{b}{\left(\dfrac{x}{5}\right)} \ne  \dfrac{\log_b x}{\log_b 5}</m></p></li>
+	</ol></p></warning>
+
+<exercise><title>Practice 2</title>
+    <webwork><pg-code>
+            $f = Formula("x**2 * (x+3)**4");
+        </pg-code>
+    <statement><p>Express <m>2\log_b x + 4\log_{b}{(x + 3)}</m> as a single logarithm with a coefficient of <m>1</m>.</p>
+            <p>Answer: <m>\log_b</m><var name="$f" width="12"/> </p>
+    </statement>
+       <solution><p><m>\log_b x^2(x+3)^4 </m></p>
+       </solution>
+    </webwork>
+</exercise>
+
+<exercise><title>QuickCheck 2</title>
+<statement><p>True or False.<ol label="a">
+    <li>The log of a product is equal to the sum of the logs of the factors.</li>
+	<li>The log of a quotient is the equal to the difference of the logs.</li>
+	<li>The log of a power is equal to the exponent times the log of the base.</li>
+	<li>The distributive law applies to the operation of taking a logarithm of a sum or difference.</li>
+</ol></p></statement>
+<answer><p><ol label="a">
+    <li>True</li>
+    <li>True</li>
+    <li>True</li>
+    <li>False</li></ol></p></answer>
+</exercise>
+</subsection>
+
+<subsection><title>Solving Logarithmic Equations</title>
+
+<p>A <term>logarithmic equation</term><idx>logarithmic equation</idx> is one in which the variable appears inside of a logarithm. For example,
+	<me>\log_4 x = 3</me>
+is a log equation.</p>
+
+<p>If there is only one log involved, we can use the conversion formula to write the equation in exponential form.</p>
+
+<example><statement><p>Solve <m>~\log_4{(2x-8)}=3</m>.</p></statement>
+		
+<solution><p>We use the conversion formula to write the equation in exponential form.
+	<md><mrow>2x-8 \amp = 4^3 \amp \amp \blert{\text{Evaluate the power.}}</mrow>
+		<mrow>2x-8 \amp = 64  \amp \amp \blert{\text{Solve for}~x.}</mrow>
+		<mrow> x \amp = 36</mrow></md>
+The solution is 36.</p></solution></example>
+    
+<exercise> <title>Practice 3</title>
+<statement><p>Solve <m>~\log_5{(5-3x)} = 3</m></p></statement>
+<answer><m>x=-40</m></answer>
+</exercise>
+
+<warning><p>We cannot take a logarithm of a negative number or zero. This is because the output of an exponential function is always positive.</p>
+<p> For example suppose that <m>\log_5{-25} = x</m>. Then <m>5^x = -25</m>. But this is impossible, because <m>5^x</m> cannot be negative. Thus, the log of a negative number (or zero) is undefined.</p>  
+<p>Because of this fact, extraneous solutions can arise when we solve logarithmic equations.</p></warning>
+
+<p>If the equation contains more than one log, we must first combine any expressions involving logs into a single logarithm.</p>
+
+<example><statement><p>Solve <m>~~\log_{10}{(x + 1)} + \log_{10}{(x - 2)}= 1</m>.</p></statement>
+
+<solution><p>We use Property (1) of logarithms to rewrite the left-hand side as a single logarithm:
+	<me>\log_{10}{(x + 1)(x - 2)} = 1</me>
+Once the left-hand side is expressed as a single logarithm, we can rewrite the equation in exponential form as
+	<me>(x + 1)(x - 2) = 10^1</me>
+Simplifying the right side gives us a quadratic equation to solve.
+	<md><mrow>x^2 - x - 2 \amp = 10 \amp \amp \blert{\text{Subtract 10 from both sides.}}</mrow>
+		<mrow>x^2 - x - 12 \amp = 0 \amp \amp \blert{\text{Factor the left side.}}</mrow>
+		<mrow>(x - 4)(x + 3) \amp= 0 \amp \amp \blert{\text{Apply the zero-factor principle.}}</mrow></md>
+We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation for extraneous solutions. The number <m>-3</m> is not a solution of the original equation, because neither <m>\log_{10}{(x + 1)}</m> nor <m>\log_{10}{(x - 2)}</m> is defined for <m>x = -3</m>. The apparent solution <m>x=-3</m> is extraneous, and the solution of the original equation is <m>4</m>.</p></solution></example>
+
+<exercise> <title>Practice 4</title>
+<statement><p>Solve <m>~\log_{10}{x} + \log_{10}{2}= 3</m></p>
+	<p>Hint: Rewrite the left side as a single logarithm.
+	Rewrite the equation in exponential form.
+	Solve for <m>x</m>.	 	
+	Check for extraneous solutions.</p>
+</statement>
+<answer><m>x=500</m></answer>
+</exercise>
+
+<exercise><title>QuickCheck 3</title>
+<statement><p><ol label="a">
+	<li>We cannot take a logarithm of <m><fillin characters="6"/></m>.</li>
+	<li>After solving a logarithmic equation, we must check for <m><fillin characters="6"/></m>.</li>
+	<li>If an equation contains more than one log, we must first combine them into <m><fillin characters="6"/></m>.</li>
+	<li>If there is only one log involved, we write the equation in <m><fillin characters="6"/></m>form.</li>
+</ol></p></statement>
+<answer><p><ol label="a">
+	<li>a negative number or zero</li>
+	<li>extraneous solutions</li>
+	<li>a single logarithm</li>
+	<li>exponential form</li></ol></p></answer>
+</exercise>
+</subsection>
+
+<subsection><title>Solving Exponential Equations</title>
+
+<p>By using Property (3), we can now solve exponential equations in which the base is not <m>10</m>. For example, to solve the equation
+	<me>5^x = 7</me>
+we could rewrite the equation in logarithmic form to obtain the exact solution
+	<me>x = \log_{5}{7}</me>
+However, we cannot evaluate <m>\log_{5}{7}</m>; there is no log base <m>5</m> button on the calculator. If we want a decimal approximation for the solution, we begin by taking the base <m>10</m> logarithm of both sides, even though the base of the power is not <m>10</m>. This gives us
+	<me>\log_{10}{(5^x)} = \log_{10}{7}</me>
+Then we use Property (3) to rewrite the left side as
+	<me>x \log_{10}{5} = \log_{10}{7}</me>
+ and divide both sides by <m>\log_{10}{5}</m> to get
+	<me>x = \frac{\log_{10}{7}}{\log_{10}{5}}</me>
+On your calculator, enter the sequence</p>
+<p><c>LOG</c> <m>7</m> <c>)</c> <c>÷</c> <c>LOG</c> <m>5</m> <c>)</c> <c>ENTER</c></p>
+<p>to find that <m>x \approx 1.2091</m>.</p>
+
+<note>Note how using Property (3) allows us to solve the equation above: The variable, <m>x</m>, is no longer in the exponent, and it is multiplied by a constant, <m>\log_{10}{5}</m>.</note>
+
+<warning><p>Do not confuse the expression <m>~\dfrac{\log_{10}{7}}{\log_{10}{5}}~</m> with <m>~\log_{10}{\left(\dfrac{7}{5}\right)}~</m>; they are not the same! 
+Although 
+	<me>\log_{10}{\left(\dfrac{7}{5}\right)}= \log_{10}{1.4} \approx 0.1416</me>
+We cannot simplify <m>~\dfrac{\log_{10}{7}}{\log_{10}{5}}~</m>; we must evaluate it as 
+	<me>(\log_{10}{7}) \div (\log_{10}{5}) \approx 1.2091 </me></p></warning>
+
+<example><statement><p>Solve <m>~~1640 = 80 \cdot 6^{0.03x}</m></p></statement>
+
+<solution><p>First we divide both sides by <m>80</m> to isolate the power.
+	<me>20.5 = 6^{0.03x}</me>
+Next, we take the base <m>10</m> logarithm of both sides of the equation and use Property (3) to get
+	<md><mrow>\log_{10}{20.5} \amp = \log_{10}{6^{0.03x}} \amp \amp \blert{\text{Apply Property 3.}}</mrow>
+		<mrow> \amp = 0.03x \log_{10}{6}</mrow></md>
+On the right side of the equation, <m>x</m> is multiplied by two constants, <m>0.03</m> and <m>\log_{10}{6}</m>. So, to solve for <m>x</m> we must divide both sides of the equation by <m>0.03 \log_{10}{6}</m>. We use a calculator to evaluate the answer:
+	<me>x = \frac{\log_{10}{20.5}}{0.03 \log_{10}{6}}\approx 56.19</me>
+(On your calculator, remember to enclose the denominator, <m>0.03 \log_{10}{6}</m>, in parentheses.)</p></solution></example>
+
+<warning><p>In the previous example, do not try to simplify 
+		<me>80 \cdot 6^{0.03x} \rightarrow 480^{0.03x}~~ \blert{\text{ Incorrect!}}</me>
+Remember that the order of operations tells us to compute the power <m>6^{0.03x}</m> before multiplying by <m>80</m>. To solve the equation, we must first isolate the power with the variable exponent.</p></warning>
+
+<exercise><title>Practice 5</title>
+    <webwork><pg-code>
+            Context()->flags->set(useBaseTenLog=>1); 
+            $answer = Compute("log(77/5)/(2.5*log(1.2))");
+        </pg-code>
+    <statement><p>Solve <m>5(1.2)^{2.5x} = 77</m></p>
+            <p><m>x=</m><var name="$answer" width="12"/> </p>
+    </statement>
+        <hint>
+            <p><m>\blert{\text{Divide both sides by 5.}}</m></p>
+            <p><m>\blert{\text{ the log of both sides.}}</m></p>
+            <p><m>\blert{\text{Apply Property (3) to simplify the left side.}}</m></p>
+            <p><m>\blert{\text{Solve for}~x.}</m></p>
+        </hint>
+    <solution><p><m>x=\dfrac{\log 15.4}{2.5\log 1.2}\approx 5.999 </m></p>
+    </solution>
+    </webwork>
+</exercise>
+
+<p>By using the properties of logarithms, we can now solve equations that arise in exponential growth and decay models, no matter what base the exponential function uses.</p>
+
+<example><statement><p>The population of Silicon City was 6500 in 1990 and has been tripling every 12 years. When will the population reach 75,000?</p></statement>
+
+<solution><p>The population of Silicon City grows according to the formula
+	<me>P(t) = 6500 \cdot 3^{t/12}</me>
+where <m>t</m> is the number of years after. We want to find the value of <m>t</m> for which <m>P(t) = 75,000</m>; that is, we want to solve the equation
+	<me>6500 \cdot 3^{t/12} = 75,000</me>
+To isolate the power, we divide both sides by 6500 to get
+	<me>3^{t/12} = \dfrac{150}{13}</me> 
+Now we can take the base 10 logarithm of both sides and solve for <m>t</m>.
+	<md><mrow>\log_{10}{(3^{t/12})} \amp = \log_{10}\left(\frac{150}{13}\right)
+	\amp\amp \blert{\text{Apply Property (3).}}</mrow>
+	<mrow>\frac{t}{12}\log_{10}{3} \amp= \log_{10}\left(\frac{150}{13}\right)
+	\amp\amp \blert{\text{Divide by }\log_{10}{3}\text{; multiply by 12.}}</mrow>
+	<mrow>t \amp = \frac{12 \left(\log_{10}{\frac{150}{13}}\right)}{\log_{10}{3}}</mrow></md>
+We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The population of Silicon City will reach 75,000 about 27 years after 1990, or in 2017.</p></solution>
+</example>
+
+<exercise><title>Practice 6</title>
+    <webwork><pg-code>
+            Context()->variables->add(V0 => ["Real",TeX=>"V_0"], t=>"Real");
+            $f = Formula("V0 *1.027**t");
+            $t = Compute("log(2)/log(1.027)")->with(
+              tolType => 'absolute',
+              tolerance => .51,
+            );
+        </pg-code>
+    <statement><p>The volume of traffic on U.S. highways is growing by 2.7% per year. (Source: <em>Time</em>, Jan. 25, 1999)<ol label="a">
+        <li><p>Write a formula for the volume, <m>V</m>, of traffic as a function of time, using <m>V_0</m> for the current volume.  [Note: Enter "V0" to get <m>V_0</m>.]</p>
+            <p><m>V=</m><var name="$f" width="12"/> </p></li>
+        <li><p>How long will it take the volume of traffic to double? <em>Hint:</em> Find the value of <m>t</m> that gives <m>V = 2V_0</m>.</p>
+            <p>Answer: about <var name="$t" width="2"/> years</p></li></ol></p>
+    </statement>
+    <solution><p><ol label="a" cols="2">
+            <li><p><m>V(t) = V_0(1.027)^t</m></p></li>
+            <li><p>about <m>26</m> years</p></li></ol></p>
+    </solution>
+    </webwork>
+</exercise>
+
+<exercise><title>QuickCheck 4</title>
+<statement><p>The first step for solving each equation below is <em>incorrect</em>. Replace it with the correct step.
+	<ol label="a" cols="2">
+	<li><p><m>6(5^{3t})=20</m></p>
+		<p><m>\log {(6(5^{3t}))}=\log {20}</m></p></li>
+	<li><p><m>t \log 8 = \log{53}</m></p>
+		<p><m>t = \log {\dfrac{53}{8}}</m></p></li>
+	<li><p><m>12(10)^{-0.06t} = 192</m></p>
+		<p><m>120^{-0.06t} = 192</m></p></li>
+	<li><p><m>\log x +\log {(x-2)} = 3</m></p>
+		<p><m>x + (x-2) = 10^3</m></p></li>
+</ol></p></statement>
+<answer><p><ol label="a" cols="2">
+	<li><m>5^{3t} = \dfrac{20}{6}</m></li>
+	<li><m>t = \dfrac{\log {53}}{\log 8}</m></li>
+	<li><m> 10^{-0.06t} = \dfrac{192}{12}</m></li>
+	<li><m>\log{(x(x-2))} = 3</m></li></ol></p></answer>
+</exercise>
+
+</subsection>
+
+<subsection><title>Solving Formulas</title>
+
+<p>We can also  solve formulas involving exponential or logarithmic expressions for one variable in terms of the others.
+</p>
+
+<example><statement><p>Solve <m>~~P = Cb^{kt}~~</m> for <m>t</m>. (<m>C</m> and <m>k \ne 0</m>.)</p></statement>
+
+<solution><p>First, we divide both sides by <m>C</m> to isolate the power.
+		<me>b^{kt} = \dfrac{P}{C}</me>
+Then we write the exponential equation in logarithmic form:
+		<md><mrow> kt \amp = \log_b {\dfrac{P}{C}} \amp\amp \blert{\text{Divide both sides by}~k.}</mrow>
+			<mrow>t  \amp = \dfrac{1}{k}\log_b {\dfrac{P}{C}}</mrow></md></p></solution></example>
+
+<exercise> <title>Practice 7</title>
+<statement><p>Solve <m>~N=N_0 \log_b{ks}</m> for <m>s</m>.</p>
+	<p>Hint: Divide both sides by <m>N_0</m>.
+	Rewrite in exponential form.
+	Solve for <m>s</m>.</p>	 	
+</statement>
+<answer><m>s=\dfrac{1}{k}b^{N/N_0}</m></answer>
+</exercise>
+
+</subsection>
+
+  
+<xi:include href="./section-7-4-exercises.xml" />                
+
+
+</section>
+<!-- </book>  </mathbook> -->
