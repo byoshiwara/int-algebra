@@ -145,6 +145,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
     
 <exercise><title>Practice 1</title>
   <webwork><pg-code>
+        $refreshCachedImages = 1;
         $fun=Formula("4-(x)**2");
         $fake=Formula("(2+x)**2");
         $fake2=Formula("-(2-x)**2");
