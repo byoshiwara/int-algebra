@@ -16,26 +16,17 @@
     <li>If the price of a parking permit increases by 12% again next year, what will the price be then?</li>
     <li>Did the parking permit increase by the same amount each year?  Why or why not?</li></ol></p></statement>
 <answer><p><ol label="a" cols="3">
-    <li><m>9</m></li>    
-    <li><m>\dfrac{1}{9}</m></li>
-    <li><m>9</m></li>
-    <li><m>\dfrac{1}{9}</m></li>
-    <li><m>-9</m></li>
-    <li><m>\dfrac{-1}{9}</m></li></ol></p></answer></exercise>
+    <li>$28</li>    
+    <li>#31.36</li>
+    <li>No. It increase by 12% of different amounts.</li></ol></p></answer></exercise>
 
 <exercise number="2"><statement><p><ol label="a">
     <li>The computer you want cost $1200 when it first came on the market, but after 3 months the price was reduced by 15%.  What was the price then?</li>
     <li>If the price falls by another 15% next month, what will the price be then?</li> 
     <li>Did the price fall by the same amount each month?  Why or why not?</li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p>The value of your stock portfolio fell 10% last year, but this year it increased by 10%.  How does the current value of your portfolio compare to what it was two years ago?</p></statement>
-<answer><p><ol label="a">
-    <li><m>40</m></li>
-    <li><m>\dfrac{5}{8}</m></li>
-    <li><m>\dfrac{5}{8}</m></li>
-    <li><m>\dfrac{1}{40}</m></li>
-    <li><m>40</m></li>
-    <li><m>\dfrac{8}{5}</m></li></ol></p></answer></exercise>
+<exercise number="3"><statement><p>The value of your stock portfolio fell 10% last year, but this year it increased by 10%. How does the current value of your portfolio compare to what it was two years ago?</p></statement>
+<answer><p>Decreased by 1%.</p></answer></exercise>
 
 <exercise number="4"><statement><p>You got a 5% raise in January, but then in March everyone took a pay cut of 5%.  How does your new salary compare to what it was last December?</p></statement></exercise>
 
@@ -43,18 +34,18 @@
 </introduction>
 
 <exercise number="5"><statement><m>768 = 12b^3</m></statement>
-<answer></answer></exercise>
+<answer>4</answer></exercise>
 
 <exercise number="6"><statement><m>1875 = 3b^4</m></statement>
 </exercise>
 
 <exercise number="7"><statement><m>14,929.92 = 5000b^6</m></statement>
-<answer></answer></exercise>
+<answer><m>\pm 1.2</m></answer></exercise>
 
 <exercise number="8"><statement><m>151,875 = 20,000b^5</m></statement></exercise>
    
 <exercise number="9"><statement><m>1253 = 260(1+r)^12</m></statement>
-<answer><m>1.25</m></answer></exercise>
+<answer><m>-2.14;~0.14</m></answer></exercise>
 
 <exercise number="10"><statement><m>56.27 = 78(1-r)^8</m></statement></exercise>
 </exercisegroup>
@@ -114,7 +105,7 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
                     </tabular></sidebyside></p></statement>
-<answer><m>0.2</m></answer></exercise>
+<answer>20%, 2%, 7.5%, 100%, 115%</answer></exercise>
 
 <exercise number="16"><statement><p>The table shows the decay factor for a number of different populations.  For each population, find the percent decay rate.</p>
     <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -144,121 +135,50 @@
 
 <subexercises><title>Applications</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, use the distributive law to write each product as a sum of power functions.</p></introduction>
+<exercisegroup><introduction><p>For Problems 17<ndash/>24, <ol label="a">
+    <li>Write a function that describes exponential growth or decay.</li>
+    <li>Use your calculator to graph the function.</li>
+    <li>Evaluate the function at the given values.</li></ol></p></introduction>
 
-<exercise number="17"><statement><p><m>x^{-1}(x^2 - 3x + 2)</m></p></statement>
-<answer><p><m>x - 3 + 2x^{-1}</m></p></answer></exercise>
-
-<exercise number="18"><statement><p><m>-3t^{-2}(t^2 - 2 - 4t^{-2})</m></p></statement></exercise>
-
-<exercise number="19"><statement><p><m>2u^{-3}(-2u^3 - u^2 + 3u)</m></p></statement>
-<answer><p><m>-4 - 2u^{-1} + 6u^{-2}</m></p></answer></exercise>
-
-<exercise number="20"><statement><p><m>\dfrac{-1}{2}z^{-3}(-2z^2+3z-4)</m></p></statement></exercise>
-</exercisegroup>
-
-<exercisegroup cols="2"><introduction><p>For Problems 21 and 22, factor as indicated, writing the second factor with positive exponents only.</p></introduction>
-
-<exercise number="21"><statement><p><m>4x^2 + 16x^{-2} = 4x^{-2}(~~ \text{?} ~~)</m></p></statement>
-<answer><p><m>4x^{-2}(x^4 + 4)</m></p></answer></exercise>
-
-<exercise number="22"><statement><p><m>3a^{-3} - 3a + a^3 = a^{-3} (~~ \text{?} ~~)</m></p></statement></exercise>
-</exercisegroup>
-</subexercises>
-
-<subexercises><title>Applications</title>
-
-<exercise number="23"><statement><p>Let <m>~g(x)=x^{-3}.~</m> Complete the tables.<ol label="a">
-        <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
-                <row><cell><m>x</m></cell>
-                    <cell><m>1</m></cell>
-                    <cell><m>2</m></cell>
-                    <cell><m>4.5</m></cell>
-                    <cell><m>6.2</m></cell>
-                    <cell><m>9.3</m></cell></row>
-                <row><cell><m>g(x)</m></cell>
-                    <cell><m>\hphantom{0000} </m></cell>
-                    <cell><m>\hphantom{0000} </m></cell>
-                    <cell><m>\hphantom{0000} </m></cell>
-                    <cell><m>\hphantom{0000} </m></cell>
-                    <cell><m>\hphantom{0000} </m></cell></row></tabular></sidebyside></li>
-        <li><p>What happens to the values of <m>g(x)</m> as the values of <m>x</m> increase? Explain why.</p></li>
-        <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
-                <row><cell><m>x</m></cell>
-                    <cell><m>1.5</m></cell>
-                    <cell><m>0.6</m></cell>
-                    <cell><m>0.1</m></cell>
-                    <cell><m>0.03</m></cell>
-                    <cell><m>0.002</m></cell></row>
-                <row><cell><m>g(x)</m></cell>
-                    <cell><m>\hphantom{0000} </m></cell>
-                    <cell><m>\hphantom{0000} </m></cell>
-                    <cell><m>\hphantom{0000} </m></cell>
-                    <cell><m>\hphantom{0000} </m></cell>
-                    <cell><m>\hphantom{0000} </m></cell></row></tabular></sidebyside></li>
-        <li><p>What happens to the values of <m>g(x)</m> as the values of <m>x</m> decrease toward <m>0</m>? Explain why.</p></li>
-    </ol></p></statement>
+<exercise number="17"><statement><p>Sales of Windsurfers have increased 12% per year since 2010. If Sunsails sold 1500 Windsurfers in 2010, how many did it sell in 2015?  How many should it expect to sell in 2022?</p></statement>
 <answer><p><ol label="a">
-    <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
-                <row><cell><m>x</m></cell>
-                    <cell><m>1</m></cell>
-                    <cell><m>2</m></cell>
-                    <cell><m>4.5</m></cell>
-                    <cell><m>6.2</m></cell>
-                    <cell><m>9.3</m></cell></row>
-                <row><cell><m>g(x)</m></cell>
-                    <cell><m>1</m></cell>
-                    <cell><m>0.125</m></cell>
-                    <cell><m>0.011</m></cell>
-                    <cell><m>0.0042</m></cell>
-                    <cell><m>0.0012 </m></cell></row></tabular></sidebyside></li>
-    <li><p>they decrease</p></li>
-    <li><p><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
-                <row><cell><m>x</m></cell>
-                    <cell><m>1.5</m></cell>
-                    <cell><m>0.6</m></cell>
-                    <cell><m>0.1</m></cell>
-                    <cell><m>0.03</m></cell>
-                    <cell><m>0.002</m></cell></row>
-                <row><cell><m>f(x)</m></cell>
-                    <cell><m>0.30</m></cell>
-                    <cell><m>4.63</m></cell>
-                    <cell><m>1000</m></cell>
-                    <cell><m>37,037</m></cell>
-                    <cell><m>125 \times 10^6</m></cell></row></tabular></sidebyside></p></li>
-    <li><p>they increase</p></li></ol></p></answer></exercise>
+    <li><m>S(t)=1200(1.12)^t</m></li>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>2644; 5844</li></ol></p></answer></exercise>
 
-<exercise number="24"><statement><p><ol>
-        <li><p>Use your calculator to graph each of the following functions on the window
-            <md><mrow>{\text{Xmin}} \amp = -5 \amp\amp {\text{Xmax}} = 5</mrow>
-                <mrow>{\text{Ymin}} \amp = -2 \amp\amp {\text{Ymax}} = 10</mrow></md> 
-        <ol cols="2">
-                <li><m>f(x)=x^2</m></li>
-                <li><m>f(x)=x^{-2} </m></li>
-                <li><m>f(x)=\dfrac{1}{x^2} </m></li>
-                <li><m>f(x)=\left(\dfrac{1}{x} \right)^2 </m></li></ol></p></li>
-        <li><p>Which functions have the same graph? Explain your results.</p></li></ol></p>
-</statement></exercise>
+<exercise number="18"><statement><p>Otto invests $600 in an account that pays 7.3% interest compounded annually.  How much is in Otto's account after 3 years?  After 6 years?</p></statement></exercise>
 
-<exercise number="25"><statement><p> When an automobile accelerates, the power, <m>P</m>, needed to overcome air resistance varies directly with a power of the speed, <m>v</m>.<ol>
-    <li><p>Use the data and the graph to find the scaling exponent and the constant of variation. Then write a formula for <m>P</m> as a power function of <m>v</m>.</p>
-            <sidebyside widths="60% 36%" valigns="middle middle" margins="0% 0%">
-            <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
-                <col right="major" halign="left"/><col/><col/><col/><col/>
-                <row><cell><m>v</m> (mph)</cell>
-                    <cell><m>10</m></cell>
-                    <cell><m>20</m></cell>
-                    <cell><m>30</m></cell>
-                    <cell><m>40</m></cell></row>
-                <row><cell><m>P</m> (watts)</cell>
-                    <cell><m>355</m></cell>
-                    <cell><m>2840</m></cell>
-                    <cell><m>9585</m></cell>
-                    <cell><m>22,720</m></cell></row>
-            </tabular>
-            <image source="images/fig-3-2-25"><description>power function</description></image></sidebyside></li>
-        <li><p>Find the speed that requires <m>50,000</m> watts of power.</p></li>
-        <li><p>If you increase your speed by <m>50\%</m>, by what factor does the power requirement increase?</p></li>
+<exercise number="19"><statement><p>Paul bought a house for $200,000 in 1983. For the next 20 years, housing prices rose an average of 5% per year. How much was the house worth in 1995?  In 2000?</p></statement>
+<answer><p><ol label="a">
+    <li><m>V(t)=200,000(1.05)^t</m></li>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>$359,171.27; $458,403.66</li></ol></p></answer></exercise>
+
+<exercise number="20"><statement><p>During a vigorous spraying program, the mosquito population was reduced to <m>\dfrac{3}{4}</m> of its previous size every week. If the mosquito population was originally estimated at 250,000, how many mosquitoes remained after 3 weeks of spraying?  After 8 weeks?</p></statement></exercise>
+
+<exercise number="21"><statement><p>Arch's motorboat cost $15,000 in 2000 and has depreciated by 11.5% every year. How much was the boat worth in 2009?  In 2010?</p></statement>
+<answer><p><ol label="a">
+    <li><m>V(t)=15,000(0.885)^t</m></li>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>$4995.52; $4421.04</li></ol></p></answer></exercise>
+
+<exercise number="22"><statement><p>Plutonium-238 is a radioactive element that decays over time into a less harmful element at a rate of 0.8% per year. A power plant has 50 pounds of plutonium-238 to dispose of. How much plutonium-238 will be left after 10 years?  After 100 years?</p></statement></exercise>
+</exercisegroup>
+
+<exercise number="23"><statement><p>Riverside County is the fastest growing county in California. In 2000, the 
+population was 1,545,387. <ol label="a">
+    <li>Write a formula for the population of Riverside County as a function of time. (You don't know the value of the growth factor <m>b</m> yet.)</li>
+    <li>In 2004, the population had grown to 1,871,950. Find the growth factor and the percent rate of growth.</li>
+    <li>According to this model, what was the population of Riverside County in 2010? </li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>P(t)=1,545,387 b^t</m></li>
+    <li><m>b=1.049;~ r=4.9%</m></li>
+    <li>3,167,157</li></ol></p></answer></exercise>
+
+<exercise number="24"><statement><p>In 2006, a new Ford Focus cost $15,574. The value of a Focus decreases exponentially over time. <ol label="a"> 
+    <li>Write a formula for the value of a Focus as a function of time. (You don't know the value of the decay factor  yet.)</li>
+    <li>A 2-year old Focus cost $11,788. Find the decay factor and the percent rate of depreciation.</li>
+    <li>According to this model, how much did a 4-year old Focus cost?</li>
     </ol></p></statement>
 <answer><p><ol cols="3">
     <li><m>P = 0.355v^3</m></li>
@@ -266,45 +186,189 @@
     <li><m>3.375</m></li></ol></p>
 </answer></exercise>
 
-<exercise number="26"><statement><p>Poiseuille's law for the flow of liquid through a tube can be used to describe blood flow through an artery. The rate of flow, <m>F</m>, in liters per minute is proportional to the fourth power of the radius, <m>r</m>, divided by the length, <m>L</m>, of the artery.<ol label="a">
-        <li><p>Write a formula for the rate of flow as a power function of radius.</p></li>
-        <li><p>If the radius and length of the artery are measured in centimeters, then the constant of variation, <m>k = 7.8\times 10^5</m>, is determined by blood pressure and viscosity. If a certain artery is <m>20</m> centimeters long, what should its radius be in order to allow a blood flow of <m>5</m> liters per minute?</p></li></ol></p>
-</statement></exercise>
+<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>28,<ol label="a">
+        <li><p>Each table describes exponential growth or decay. Find the growth or decay factor.</p></li>
+        <li><p>Complete the table. Round values to two decimal places if necessary.</p></li>
+    </ol></p></introduction>
 
-<exercise number="27"><statement><p>The f-stop setting on a camera regulates the size of the aperture and thus the amount of light entering the camera. The f-stop <m>f</m> is inversely proportional to the diameter, <m>d</m>, of the aperture.
-    <ol>
-        <li><p>Use the data and the graph to find the constant of proportionality and write <m>d</m> as a power function of <m>f</m>. Values of <m>d</m> have been rounded to one decimal place.</p>
-            <sidebyside widths="50% 40%" valigns="middle middle">
-            <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
-                <col right="major" halign="left"/><col/><col/><col/><col/><col/>
-                <row><cell><m>f</m></cell>
-                    <cell><m>2.8</m></cell>
-                    <cell><m>4</m></cell>
-                    <cell><m>5.6</m></cell>
-                    <cell><m>8</m></cell>
-                    <cell><m>11</m></cell></row>
-                <row><cell><m>d</m></cell>
-                    <cell><m>17.9</m></cell>
-                    <cell><m>12.5</m></cell>
-                    <cell><m>8.9</m></cell>
-                    <cell><m>6.3</m></cell>
-                    <cell><m>4.5</m></cell></row>
-        </tabular><image source="images/fig-3-2-28"><description>power function</description></image></sidebyside></li>
-        <li><p>Why are the f-stop settings labeled with the values given in the table?</p>
-        <hint><p>As you stop down the aperture from one f-value to the next, by what factor does <m>d</m> increase?</p></hint></li></ol></p></statement>
+<exercise number="25"><statement>
+    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <row>
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>Q</m></cell>
+            <cell><m>20</m></cell>
+            <cell><m>24</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
+            <cell><m>\hphantom{000}</m></cell></row>
+    </tabular></sidebyside></statement>
+<answer><p>The growth factor is <m>1.2</m>.</p>
+    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <row>
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>Q</m></cell>
+            <cell><m>20</m></cell>
+            <cell><m>24</m></cell>
+            <cell><m>28.8</m></cell>
+            <cell><m>34.56</m></cell>
+            <cell><m>41.47</m></cell></row>
+    </tabular></sidebyside></answer></exercise>
+
+<exercise number="26"><statement>
+    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <row>
+            <cell><m>w</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>N</m></cell>
+            <cell><m>120</m></cell>
+            <cell><m>96</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
+            <cell><m>\hphantom{000}</m></cell></row>
+    </tabular></sidebyside></statement>
+<answer><p>The decay factor is <m>0.8</m>.</p>
+    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <row>
+            <cell><m>w</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>N</m></cell>
+            <cell><m>120</m></cell>
+            <cell><m>96</m></cell>
+            <cell><m>76.8</m></cell>
+            <cell><m>61.44</m></cell>
+            <cell><m>49.15</m></cell></row>
+    </tabular></sidebyside></answer></exercise>
+
+<exercise number="27"><statement>
+    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <row>
+            <cell><m>t</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>C</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
+            <cell><m>6.4</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
+            <cell><m>\hphantom{000}</m></cell></row>
+    </tabular></sidebyside></statement>
+<answer><p>The decay factor is <m>0.8</m>.</p>
+    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <row>
+            <cell><m>t</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>C</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>6.4</m></cell>
+            <cell><m>5.12</m></cell>
+            <cell><m>4.10</m></cell></row>
+    </tabular></sidebyside></answer></exercise>
+
+<exercise number="28"><statement>
+    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <row>
+            <cell><m>n</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>B</m></cell>
+            <cell><m>200</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
+            <cell><m>266.2</m></cell>
+            <cell><m>\hphantom{000}</m></cell></row>
+    </tabular></sidebyside></statement>
+<answer><p>The growth factor is <m>1.1</m>.</p>
+    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <row>
+            <cell><m>n</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell></row>
+        <row>
+            <cell><m>B</m></cell>
+            <cell><m>200</m></cell>
+            <cell><m>220</m></cell>
+            <cell><m>242</m></cell>
+            <cell><m>266.2</m></cell>
+            <cell><m>292.82</m></cell></row>
+    </tabular></sidebyside></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>The graphs in Problems 29 and 30 represent exponential growth or decay.<ol>
+        <li><p>Find the initial value and the growth or decay factor.</p></li>
+        <li><p>Write a formula for the function.</p></li>
+    </ol></p></introduction>
+
+<exercise number="29"><statement><sidebyside width="70%">
+    <image source="images/fig-ex-4-1-55"><description>growth</description></image></sidebyside></statement>
+<answer><p><ol>
+    <li><p><m>P_0 = 4,~ b = 2^{1/3}</m></p></li>
+    <li><p><m>P(t) = 4\cdot 2^{t/3}</m></p></li>
+</ol></p></answer></exercise>
+
+<exercise number="30"><statement><sidebyside width="70%">
+    <image source="images/fig-ex-4-1-57"><description>decay</description></image></sidebyside></statement>
+<answer><p><ol>
+    <li><p>Initial value <m>80</m>, decay factor <m>\frac{1}{2}</m></p></li>
+    <li><p><m>f (x) = 80\cdot \left(\dfrac{1}{2} \right)^x </m></p></li>
+</ol></p></answer></exercise>
+</exercisegroup>
+
+<exercise number="31"><statement><p>The world’s population of tigers declined from >10,400 in 1980> to 6000 in 1998.
+    <ol label="a">
+    <li><p>If the population declined linearly, what was its annual rate of decrease?</p></li>
+    <li><p>If the population declined exponentially, what was its annual decay factor? What was its annual percent decrease?</p></li>
+    <li><p>Predict the number of tigers in 2010 under each assumption, linear or exponential decline.</p></li>
+    </ol></p></statement>
 <answer><p><ol label="a">
-    <li><m>d=50f^{-1}</m></li>
-    <li>The are of the aperture decreases by a factor of 0.5 at each <m>f</m>-stop.</li></ol></p>
-</answer></exercise>
+    <li><p>2440 tigers per decade</p></li>
+    <li><p>0.765; 23.5%</p></li>
+    <li><p>3080; 4656</m></p></li>
+</ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>The lifetime of a star is roughly inversely proportional to the cube of its mass. Our Sun, which has a mass of one solar mass, will last for approximately <m>10</m> billion years.<ol>
-        <li><p>Write a power function for the lifetime, <m>L</m>, of a star in terms of its mass, <m>m</m>.</p></li>
-        <li><p>Sketch a graph of the function using units of solar mass on the horizontal axis.</p></li>
-        <li><p>How long will a star that is <m>10</m> times as massive as the Sun last?</p></li>
-        <li><p>One solar mass is about <m>2\times 10^{30}</m> kilograms. Rewrite your formula for <m>L</m> with the units of mass in kilograms.</p></li>
-        <li><p>How long will a star that is half as massive as the Sun last?</p></li></ol></p>
-</statement></exercise>
-
+<exercise number="32"><statement><p>On January 10, the college infirmary treated 4 cases of flu. One week later, the total number of flu cases had grown to 6.<ol label="a">
+    <li>If the number of cases grew linearly, what was its weekly rate of growth?</li>
+    <li>If the number of cases grew exponentially, what was its weekly growth factor?  What was its weekly percent increase?</li>
+    <li>Predict the number of flu cases 6 weeks later under each assumption, linear or exponential growth.</li>
+    <li>Write a function for the number of flu cases under each assumption.  Graph both functions for 10 weeks from January 10.</li></ol></p></statement></exercise>
 
 </subexercises>
 </exercises>
