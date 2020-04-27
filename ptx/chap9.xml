@@ -34,6 +34,7 @@
 <xi:include href="./section-9-2.xml" /> <!--Distance and Midpoint Forms-->
 <xi:include href="./section-9-3.xml" />  <!--Conic Sections: Ellipses-->
 <xi:include href="./section-9-4.xml" />  <!--Conic Sections:Hyperbolas-->
+<xi:include href="./section-9-5.xml" />  <!--Nonlinear Systems-->
         
 
 </chapter> 
