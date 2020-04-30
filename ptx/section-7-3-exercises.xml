@@ -126,7 +126,7 @@
 </ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5-8, solve. Round your answers to hundredths.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, solve. Round your answers to hundredths.</p></introduction>
 
 <exercise number="5"><statement><p><m>10^{-3x}=5</m></p></statement>
 <answer><p><m>-0.23</m></p></answer></exercise>
@@ -167,14 +167,15 @@
     <li><m>x=\log_4{2.5} \approx 2.7</m></li>
     <li><m>x=\log_2{0.2} \approx -2.3</m></li></ol></p></answer></exercise>
 
-<exercisegroup cols="3"><introduction><p>For Problems 12-14, use a graph to approximate each logarithm to the nearest hundredth.  (Hint: Graph an appropriate function <m>y=b^x</m>.)</p></introduction>
+<exercisegroup cols="3"><introduction><p>For Problems 12<ndash/>14, use a graph to approximate each logarithm to the nearest hundredth.  (Hint: Graph an appropriate function <m>y=b^x</m>.)</p></introduction>
 
 <exercise number="12"><statement><p><m>\log_3 {67.9)</m></p></statement></exercise>
 
 <exercise number="13"><statement><p><m>\log_5{86.3}</m></p></statement>
 <answer><p><m>2.77</m></p></answer></exercise>
 
-<exercise number="14"><statement><p><m>log_{10}{50}</m></p></statement></exercise>
+<exercise number="14"><statement><p><m>\log_{10}{50}</m></p></statement></exercise>
+
 </exercisegroup>
 </subexercises>
 
@@ -189,7 +190,7 @@ Solve the problems 15 and 16 algebraically, then verify with your graph.</p></in
 
 <exercise number="15"><statement><p><ol Label="a">
     <li><p>The elevation of Mount Everest, the highest mountain in the world, is 29,028 feet. What is the atmospheric pressure at the top?</p>
-    <hint><p> 1> mile = 5280 feet</p></hint></li>
+    <hint><p> 1 mile = 5280 feet</p></hint></li>
     <li>The atmospheric pressure at the top of Mount McKinley, the highest peak in the United States, is 13.51 inches of mercury.  Estimate the elevation of Mount McKinley.</li></ol></p></statement>
 <answer><p><ol Label="a">
     <li>9.60 in</li>
