@@ -17,15 +17,15 @@
 	<li><p>The population of Egypt is growing according to the formula 
 		<me>P(t) = 74(1.02)^t</me> 
 	where <m>t</m> is in years and <m>P(t)</m> is in millions. We would like to know when the population will reach 148 million (twice 74 million), so we solve the equation
-		<md><mrow>74(1.02)^t \amp= 148\amp\amp \blert{\text{Divide both sides by }74.}</mrow>
-			<mrow>1.02^t \amp= 2\amp\amp \blert{\text{Take the log of both sides.}}</mrow>
-			<mrow>t \log 1.02 \amp= \log 2\amp\amp \blert{\text{Divide both sides by log 1.02.}}</mrow>
+		<md><mrow>74(1.02)^t \amp= 148\amp\amp \glert{\text{Divide both sides by }74.}</mrow>
+			<mrow>1.02^t \amp= 2\amp\amp \glert{\text{Take the log of both sides.}}</mrow>
+			<mrow>t \log 1.02 \amp= \log 2\amp\amp \glert{\text{Divide both sides by log 1.02.}}</mrow>
 			<mrow>t \amp= \frac{\log 2}{\log 1.02} \approx 35 \text{ years}</mrow></md>
 	It will take the population about 35 years to double.</p></li>
 	<li><p>Twice 148 million is 296 million, so we solve the equation
-		<md><mrow>148(1.02)^t \amp= 296\amp\amp \blert{\text{Divide both sides by }148.}</mrow>
-			<mrow>1.02^t \amp= 2\amp\amp \blert{\text{Take the log of both sides.}}</mrow>
-			<mrow>t \log 1.02 \amp= \log 2\amp\amp \blert{\text{Divide both sides by log 1.02.}}</mrow>
+		<md><mrow>148(1.02)^t \amp= 296\amp\amp \glert{\text{Divide both sides by }148.}</mrow>
+			<mrow>1.02^t \amp= 2\amp\amp \glert{\text{Take the log of both sides.}}</mrow>
+			<mrow>t \log 1.02 \amp= \log 2\amp\amp \glert{\text{Divide both sides by log 1.02.}}</mrow>
 			<mrow>t \amp= \frac{\log 2}{\log 1.02} \approx 35 \text{ years}</mrow></md>
 	It will take the population about 35 years to double again.</p></li>
 	<li><p>A graph of <m>P(t) = 74(1.02)^t</m> is shown below. Note that the population doubles every 35 years.</p>
@@ -127,9 +127,9 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 
 <solution><p><ol label="a">
 	<li>To find the half-life, we calculate the time elapsed when only half the original amount, or 100 mg, is left.
-		<md><mrow>200(0.73)^t \amp = 100\amp\amp \blert{\text{Divide both sides by 200.}}</mrow>
-			<mrow>0.73^t \amp = 0.5\amp\amp \blert{\text{Take the log of both sides.}}</mrow>
-			<mrow>t\log 0.73 \amp = \log 0.5\amp\amp \blert{\text{Divide both sides by log 0.73.}}</mrow>
+		<md><mrow>200(0.73)^t \amp = 100\amp\amp \glert{\text{Divide both sides by 200.}}</mrow>
+			<mrow>0.73^t \amp = 0.5\amp\amp \glert{\text{Take the log of both sides.}}</mrow>
+			<mrow>t\log 0.73 \amp = \log 0.5\amp\amp \glert{\text{Divide both sides by log 0.73.}}</mrow>
 			<mrow>t \amp= \frac{\log 0.5}{\log 0.73} = 2.2</mrow></md>
 	The half-life is 2.2> hours.</li>
 	<li>After 2.2 hours, 100 mg of ibuprofen is left in the body. After another 2.2 hours, half of that amount, or 50 mg, is left. Thus, 50 mg remain after 4.4 hours.</li>
@@ -234,18 +234,60 @@ Once again, you can check that this formula is equivalent to the decay function 
 </exercise>
 
 <exercise><title>QuickCheck 3</title>
+<webwork>
+    <pg-code>
+        $True = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            1
+        );
+        $False = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            2
+        );
+        
+    </pg-code>
+    <statement><p>True or False.
+    <ol label="a">
+        <li>
+            <p>
+                Every increasing exponential function has a constant doubling time. <var name="$True" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                If the doubling time of a population is 5 years, then its growth factor is given by <m>2^{1/5}</m>.  <var name="$True" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                The half-life of a substance is half the time it takes for all of the substance to decay.  <var name="$False" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                We can sketch the graph of an exponential decay function if we know its half-life and initial value.  <var name="$True" form="popup"/>
+            </p>
+        </li>
+    </ol></p></statement>
+    <solution><p><ol label="a">
+    <li>True</li>
+    <li>True</li>
+    <li>False</li>
+    <li>True</li></ol></p></solution>
+</webwork>
 <statement><p>True or False.<ol label="a">
-	<li>Every increasing exponential function has a constant doubling time.</li>
-	<li>If the doubling time of a population is 5 years, then its growth factor is given by <m>2^{t/5}</m>.</li>
-	<li>The half-life of a substance is half the time it takes for all of the substance to decay.</li>
-	<li>We can sketch the graph of an exponential decay function if we know its half-life and initial value.</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
 </ol></p></statement>
-<answer><p><ol label="a">
-	<li>True</li>
-	<li>True</li>
-	<li>False</li>
-	<li>True</li></ol></p></answer>
+<answer></answer>
 </exercise>
+
 </subsection>
 
 <xi:include href="./section-7-5-exercises.xml" />                

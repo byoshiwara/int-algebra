@@ -31,12 +31,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, graph the function.</p></introduction>
 
 <exercise number="5"><statement><p><m>f (t) = 6(1.2)^t</m></p></statement>
-<answer><sidebyside width="40%"><image source="images/fig-ans-chap4-rev-17"><description>growth</description></image></sidebyside></answer></exercise>
+<answer><sidebyside width="40%"><image source="images/fig-chap7-rev-5"><description>growth</description></image></sidebyside></answer></exercise>
 
 <exercise number="6"><statement><p><m>g(t) = 35(0.6)^{-t}</m></p></statement></exercise>
 
 <exercise number="7"><statement><p><m>P(x) = 2^x - 3</m></p></statement>
-<answer><sidebyside width="40%"><image source="images/fig-ans-chap4-rev-19"><description>growth</description></image></sidebyside></answer></exercise>
+<answer><sidebyside width="40%"><image source="images/fig-chap7-rev-7"><description>growth</description></image></sidebyside></answer></exercise>
 
 <exercise number="8"><statement><p><m>R(x) = 2^{x+3}</m></p></statement></exercise>
 </exercisegroup>
@@ -256,11 +256,11 @@ where <m>t</m> is the number of years since discs were introduced in 1980.<ol>
 
 <exercise number="65"><statement>
     <p>The graph describes a network of streams near Santa Fe, New Mexico. It shows the number of streams of a given order, which is a measure of their size. Use the graph to estimate the number of streams of orders 3, 4, 8, and 9. (Source: Leopold, Wolman, and Miller)</p>
-    <sidebyside widths="30%"><image source="images/fig-chap5-rev-65"><description>stream order on semi-log scale</description></image></sidebyside></statement>
+    <sidebyside widths="30%"><image source="images/fig-chap7-rev-65"><description>stream order on semi-log scale</description></image></sidebyside></statement>
 <answer><p>Order <m>3</m>: <m>17,000</m>; Order <m>4</m>: <m>5000</m>; Order <m>8</m>: <m>40</m>; Order <m>9</m>: <m>11</m></p></answer></exercise>
 
 <exercise number="66"><statement><p>Large animals use oxygen more efficiently when running than small animals do. The graph shows the amount of oxygen various animals use, per gram of their body weight, to run 1 kilometer. Estimate the body mass and oxygen use for a kangaroo rat, a dog, and a horse. (Source: Schmidt-Neilsen, 1972)</p>
-    <sidebyside width="70%"><image source="images/fig-chap5-rev-66"/></sidebyside>
+    <sidebyside width="70%"><image source="images/fig-chap7-rev-66"/></sidebyside>
 </statement></exercise>
 
 
