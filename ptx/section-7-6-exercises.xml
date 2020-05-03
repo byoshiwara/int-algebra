@@ -56,21 +56,21 @@
 
 <exercise number="5"><statement><p><ol>
     <li><p>The log scale is labeled with powers of 10. Finish labeling the tick marks in the figure with their corresponding decimal values.</p>
-        <sidebyside width="70%"><image source="images/fig-5-4-1"><description>log scale with exponents shown</description></image></sidebyside></li>
+        <sidebyside width="70%"><image source="images/fig-hw-7-6-5"><description>log scale with exponents shown</description></image></sidebyside></li>
     <li><p>The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of 10.</p>
-        <sidebyside width="80%"><image source="images/fig-5-4-1b"><description>log scale with exponents shown</description></image></sidebyside></li>
+        <sidebyside width="80%"><image source="images/fig-hw-7-6-5b"><description>log scale with exponents shown</description></image></sidebyside></li>
 </ol></p></statement>
 
 <answer><p><ol>
-    <li><sidebyside width="90%"><image source="images/fig-ans-5-4-1"><description>log scale</description></image></sidebyside></li>
-    <li><sidebyside width="90%"><image source="images/fig-ans-5-4-1b"><description>log scale</description></image></sidebyside></li>
+    <li><sidebyside width="90%"><image source="images/fig-hw-7-6-5ans"><description>log scale</description></image></sidebyside></li>
+    <li><sidebyside width="90%"><image source="images/fig-hw-7-6-5bans"><description>log scale</description></image></sidebyside></li>
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><ol>
     <li><p>The log scale is labeled with powers of 10. Finish labeling the tick marks in the figure with their corresponding decimal values.</p>
-        <sidebyside width="80%"><image source="images/fig-5-4-2"><description>log scale with exponents shown</description></image></sidebyside></li>
+        <sidebyside width="80%"><image source="images/fig-hw-7-6-6"><description>log scale with exponents shown</description></image></sidebyside></li>
     <li><p>The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of 10.</p>
-        <sidebyside width="80%"><image source="images/fig-5-4-2b"><description>log scale with exponents shown</description></image></sidebyside></li>
+        <sidebyside width="80%"><image source="images/fig-hw-7-6-6b"><description>log scale with exponents shown</description></image></sidebyside></li>
 </ol></p></statement></exercise>
 
 <exercise number="7"><statement><p>Plot the values on a log scale.</p>
@@ -97,11 +97,11 @@
     </tabular></sidebyside></statement></exercise>
 
 <exercise number="9"><statement><p>Estimate the decimal value of each point on the log scale.</p>
-    <sidebyside width="90%"><image source="images/fig-5-4-5"><description>logscale</description></image></sidebyside></statement>
+    <sidebyside width="90%"><image source="images/fig-hw-7-6-9"><description>logscale</description></image></sidebyside></statement>
 <answer><p><m>1.58</m>, <m>6.31</m>, <m>15.8</m>, <m>63.1</m></p></answer></exercise>
 
 <exercise number="10"><statement><p>Estimate the decimal value of each point on the log scale.</p>
-    <sidebyside width="90%"><image source="images/fig-5-4-6"><description>logscale</description></image></sidebyside></statement>
+    <sidebyside width="90%"><image source="images/fig-hw-7-6-10"><description>logscale</description></image></sidebyside></statement>
 </exercise>
 
 <exercisegroup><introduction><p>In Problems 11<ndash/>16, use the appropriate formulas for logarithmic models.</p></introduction>
@@ -126,15 +126,15 @@
 <subexercises><title>Applications</title>
 
 <exercise number="17"><statement><p>The log scale shows various temperatures in Kelvins. Estimate the temperatures of the events indicated.</p>
-    <sidebyside width="90%"><image source="images/fig-5-4-7"><description>logscale</description></image></sidebyside></statement>
+    <sidebyside width="90%"><image source="images/fig-hw-7-6-17"><description>logscale</description></image></sidebyside></statement>
 <answer><p><m>1</m>, <m>80</m>, <m>330</m>, <m>1600</m>, <m>7000</m>, <m>4\times 10^7</m></p></answer></exercise>
 
 <exercise number="18"><statement><p>The log scale shows the size of various objects, in meters. Estimate the sizes of the objects indicated.</p>
-<sidebyside width="90%"><image source="images/fig-5-4-8"><description>logscale</description></image></sidebyside></statement>
+<sidebyside width="90%"><image source="images/fig-hw-7-6-18"><description>logscale</description></image></sidebyside></statement>
 </exercise>
 
 <exercise number="19"><statement><p>Plot the values of <m>[H^+]</m> in the section "Acidity and the pH Scale" on a log scale. </p></statement>
-<answer><sidebyside><image source="images/fig-ans-5-4-9"><description>pH on log scale</description></image></sidebyside></answer>
+<answer><sidebyside><image source="images/fig-hw-7-6-19"><description>pH on log scale</description></image></sidebyside></answer>
 </exercise>
 
 <exercise number="20"><statement><p>Plot the values of sound intensity in the section "Decibels" on a log scale. </p></statement></exercise>
@@ -145,13 +145,18 @@
 <exercise number="22"><statement><p>The populations of two cities are separated by 2.8 units on a log scale. What is the ratio of their populations?</p></statement></exercise>
 
 <exercise number="23"><statement><p>The probability of discovering an oil field increases with its diameter, defined to be the square root of its area. Use the graph to estimate the diameter of the oil fields at the labeled points, and their probability of discovery. (Source: Deffeyes, 2001)</p>
-    <image source="images/fig-5-4-19"><description>probabilty of discovery vs diameter on log-log</description></image>
+    <sidebyside width="80%"><image source="images/fig-hw-7-6-23"><description>probabilty of discovery vs diameter on log-log</description></image></sidebyside>
 </statement>
 <answer><p>A: <m>a\approx 45</m>, <m>p \approx 7.4\%</m>; B: <m>a \approx 400</m>, <m>p \approx 15\%</m>; C: <m>a\approx 6000</m>, <m>p\approx 50\%</m>; D: <m>a \approx 13000</m>, <m>p \approx 45\%</m></p></answer></exercise>
 
-<exercise number="24"><statement><p>The <term>order</term> of a stream is a measure of its size. Use the graph to estimate the drainage area, in square miles, for streams of orders 1 through 4. (Source: Leopold, Wolman, and Miller)</p>
-    <image source="images/fig-5-4-20"><description>stream drainage vs order on semi-log</description></image>
-</statement></exercise>
+<exercise number="24">
+    <statement>
+        <sidebyside widths="60% 36%" margins="0% 0%" valigns="top top">
+            <p>The <term>order</term> of a stream is a measure of its size. Use the graph to estimate the drainage area, in square miles, for streams of orders 1 through 4. (Source: Leopold, Wolman, and Miller)</p>
+            <image source="images/fig-hw-7-6-24"><description>stream drainage vs order on semi-log</description></image>
+        </sidebyside>
+    </statement>
+</exercise>
 
 <exercise number="25"><statement><p>The pH of normal rain is 5.6. Some areas of Ontario have experienced acid rain with a pH of 4,5. How many times more acidic is acid rain than normal rain?</p></statement>
 <answer>12.6</answer></exercise>

@@ -143,7 +143,29 @@
 <exercise number="17"><statement><p>Sales of Windsurfers have increased 12% per year since 2010. If Sunsails sold 1500 Windsurfers in 2010, how many did it sell in 2015?  How many should it expect to sell in 2022?</p></statement>
 <answer><p><ol label="a">
     <li><m>S(t)=1200(1.12)^t</m></li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="40%" margins="0% 5%">
+        <image xml:id="fig-hw-7-1-17ans">
+        <description>Windsurfer alse sexponential growth</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5] 
+        \draw[cyan] (0,0) grid (12,12);
+        \draw[black,thick,->,>=stealth'] (0,0)--(12.6,0) node[above]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,12.6) node[left, yshift=1mm]{$S$};
+        \foreach \x in {2,4,...,12} {
+          \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(500*\x)] in {2,4,...,12} {
+          \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+        }
+        \draw[samples=65,domain={0:12},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {3*1.12^(\x)});
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+
+    </sidebyside></li>
     <li>2644; 5844</li></ol></p></answer></exercise>
 
 <exercise number="18"><statement><p>Otto invests $600 in an account that pays 7.3% interest compounded annually.  How much is in Otto's account after 3 years?  After 6 years?</p></statement></exercise>
@@ -151,7 +173,30 @@
 <exercise number="19"><statement><p>Paul bought a house for $200,000 in 1983. For the next 20 years, housing prices rose an average of 5% per year. How much was the house worth in 1995?  In 2000?</p></statement>
 <answer><p><ol label="a">
     <li><m>V(t)=200,000(1.05)^t</m></li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="40%" margins="0% 5%">
+        <image xml:id="fig-hw-7-1-19ans">
+            <description>house value</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.5] 
+            \draw[cyan] (0,0) grid (10,11);
+            \draw[black,thick,->,>=stealth'] (0,0)--(10.6,0) node[above]{$t$};
+            \draw[black,thick,->,>=stealth'] (0,0)--(0,11.6) node[left, yshift=1mm]{$V$};
+            \foreach \x [evaluate=\x as \xi using int(2*\x)] in {2,4,...,10} {
+            \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
+            }
+            \foreach \x [evaluate=\x as \xi using int(50*\x)] in {2,4,...,10} {
+            \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+            }
+            \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {4*1.05^(2*\x)});
+            \node[rotate=90,font=\bf] at (-2.5,5)  {Thousands of dollars};
+            \end{tikzpicture}]]>
+            </latex-image>
+        </image>
+
+    </sidebyside></li>
     <li>$359,171.27; $458,403.66</li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>During a vigorous spraying program, the mosquito population was reduced to <m>\dfrac{3}{4}</m> of its previous size every week. If the mosquito population was originally estimated at 250,000, how many mosquitoes remained after 3 weeks of spraying?  After 8 weeks?</p></statement></exercise>
@@ -159,7 +204,29 @@
 <exercise number="21"><statement><p>Arch's motorboat cost $15,000 in 2000 and has depreciated by 11.5% every year. How much was the boat worth in 2009?  In 2010?</p></statement>
 <answer><p><ol label="a">
     <li><m>V(t)=15,000(0.885)^t</m></li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="40%" margins="0% 5%">
+        <image xml:id="fig-hw-7-1-21ans">
+        <description>motorboat depreciation</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.5, yscale=.33] 
+        \draw[cyan] (0,0) grid (10,15);
+        \draw[black,thick,->,>=stealth'] (0,0)--(10.6,0) node[above]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,15.8) node[above]{$V$};
+        \foreach \x [evaluate=\x as \xi using int(1*\x)] in {2,4,...,10} {
+          \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(1*\x)] in {5,10,15} {
+          \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+        }
+        \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {15*0.885^(\x)});
+        \node[rotate=90,font=\bf] at (-2.,7.5)  {Thousands of dollars};
+        \end{tikzpicture}]]>
+        </latex-image>
+       </image>
+    </sidebyside></li>
     <li>$4995.52; $4421.04</li></ol></p></answer></exercise>
 
 <exercise number="22"><statement><p>Plutonium-238 is a radioactive element that decays over time into a less harmful element at a rate of 0.8% per year. A power plant has 50 pounds of plutonium-238 to dispose of. How much plutonium-238 will be left after 10 years?  After 100 years?</p></statement></exercise>
@@ -338,14 +405,14 @@ population was 1,545,387. <ol label="a">
     </ol></p></introduction>
 
 <exercise number="29"><statement><sidebyside width="70%">
-    <image source="images/fig-ex-4-1-55"><description>growth</description></image></sidebyside></statement>
+    <image source="images/fig-hw-7-1-29"><description>growth</description></image></sidebyside></statement>
 <answer><p><ol>
     <li><p><m>P_0 = 4,~ b = 2^{1/3}</m></p></li>
     <li><p><m>P(t) = 4\cdot 2^{t/3}</m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="30"><statement><sidebyside width="70%">
-    <image source="images/fig-ex-4-1-57"><description>decay</description></image></sidebyside></statement>
+    <image source="images/fig-hw-7-1-30"><description>decay</description></image></sidebyside></statement>
 <answer><p><ol>
     <li><p>Initial value <m>80</m>, decay factor <m>\frac{1}{2}</m></p></li>
     <li><p><m>f (x) = 80\cdot \left(\dfrac{1}{2} \right)^x </m></p></li>
@@ -361,7 +428,7 @@ population was 1,545,387. <ol label="a">
 <answer><p><ol label="a">
     <li><p>2440 tigers per decade</p></li>
     <li><p>0.765; 23.5%</p></li>
-    <li><p>3080; 4656</m></p></li>
+    <li><p>3080; 4656</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>On January 10, the college infirmary treated 4 cases of flu. One week later, the total number of flu cases had grown to 6.<ol label="a">

@@ -188,7 +188,7 @@
 <answer><p><ol>
     <li><p><m>16^w = 256</m></p></li>
     <li><m>b^{-2} = 9</m></li>
-    <li><m>10^{-2.3} = A</m></p></li>
+    <li><m>10^{-2.3} = A</m></li>
 </ol></p></answer></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 22-25, solve for the unknown value.</p></introduction>
@@ -306,7 +306,7 @@
 <answer><p><ol cols="3">
     <li><p><m>C(t) = 0.7(0.80)^t</m></p></li>
     <li><p>After 2.5 hours</p></li>
-    <li><sidebyside><image source="images/fig-ans-4-4-39.jpg"><description>decay</description></image></sidebyside></li>
+    <li><sidebyside><image source="images/fig-hw-7-4-43ans"><description>decay</description></image></sidebyside></li>
 </ol></p></answer></exercise>
 
 <exercise number="44"><statement><p>A small pond is tested for pollution and the concentration of toxic chemicals is found to be 80 parts per million. Clean water enters the pond from a stream, mixes with the polluted water, then leaves the pond so that the pollution level is reduced by 10% each month.<ol>
@@ -336,7 +336,7 @@
 
 <exercise number="48"><statement><p><m>w = pv^q</m>, for <m>q</m></p></statement></exercise>
 
-<exercise number="49"><statement><p><m>t = T \log (1+\dfrac{A}{k})</m>, for <m>A</m></p></statement>
+<exercise number="49"><statement><p><m>t = T \log \left(1+\dfrac{A}{k}\right)</m>, for <m>A</m></p></statement>
 <answer><p><m>A = k(10^{t/T}-1) </m></p></answer></exercise>
 
 <exercise number="50"><statement><p><m>\log R = \log R_0 +kt</m>, for <m>R</m></p></statement>
