@@ -56,7 +56,41 @@
                 <md><mrow>m_1m_2 = -1</mrow></md>
                 or if one of the lines is horizontal and one is vertical.
             </p></li>
-        </ol></p></assemblage></li>
+        </ol></p></assemblage>
+    </li>
+    <li>
+        <p>The distance between two points is the length of the segment joining them.</p>
+    </li>
+    <li><assemblage><title>Distance Formula</title>
+        <p>
+           The <term>distance</term> <m>d</m> between points <m>P_1(x_1, y_1)</m> and <m>P_2(x_2, y_2)</m> is 
+           <md><mrow>
+               d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
+           </mrow></md>
+        </p>
+    </assemblage></li>
+    <li>
+        <p>The midpoint of a segment is the point halfway between its endpoints, so that the distance from the midpoint to either endpoint is the same.</p>
+    </li>
+    <li><assemblage><title>Midpoint Formula</title>
+        <p>
+           The <term>midpoint</term> of the line segment joining the points <m>P_1(x_1, y_1)</m> and <m>P_2(x_2, y_2)</m> is the point <m>M(\overline{x},\overline{y})</m> where 
+           <md><mrow>
+               \overline{x}=\frac{x_1+x_2}{2} \quad\text{ and } \overline{y}=\frac{y_1+y_2}{2}
+           </mrow></md>
+        </p>
+    </assemblage></li>
+    <li>
+        <p>A circle is the set of all points in a plane that lie at a given distance, called the radius, from a fixed point called the center.</p>
+    </li>
+    <li><assemblage><title>Circle</title>
+        <p>
+           The equation for a circle of radius <m>r</m> centered at the point <m>(h, k)</m> is
+           <md><mrow>
+               (x-h)^2+(y-k)^2=r^2
+           </mrow></md>
+        </p>
+    </assemblage></li>
     <li><assemblage><title>Ellipse</title>
         <p>
            The standard form for an ellipse centered at <m>(h, k)</m> is 
