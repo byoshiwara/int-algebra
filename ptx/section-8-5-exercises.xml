@@ -104,10 +104,10 @@ Solution:
 <exercise number="26"><statement><p>Sam Scholarship and Reginald Privilege each travel the 360 miles to Fort Lauderdale on spring break, but Reginald drives his Porsche while Sam hitches a ride on a vegetable truck.  Reginald travels 20 miles per hour faster than Sam and arrives in 3 hours less time.  How fast did each travel?
 </p></statement></exercise>
 
-<exercise number="27"><statement><p>Walt and Irma use a tank of fuel oil for their furnace every 25 days during the winter.  Last winter it was so cold that they also lit their space heater 10 days after they filled the fuel oil tank.  If the space heater uses a tank of fuel oil every 40 days, how much longer will the fuel last with both heaters running?<</p></statement>
+<exercise number="27"><statement><p>Walt and Irma use a tank of fuel oil for their furnace every 25 days during the winter.  Last winter it was so cold that they also lit their space heater 10 days after they filled the fuel oil tank.  If the space heater uses a tank of fuel oil every 40 days, how much longer will the fuel last with both heaters running?</p></statement>
 <answer>24 days</answer></exercise>
 
-<exercise number="28"><statement>An underground spring fills a small pond in 12 days.  Evaporation from the surface of the pond can empty the pond in 28 days.  If the pond is completely dry, how long will it take to fill again?</p>
+<exercise number="28"><statement><p>An underground spring fills a small pond in 12 days.  Evaporation from the surface of the pond can empty the pond in 28 days.  If the pond is completely dry, how long will it take to fill again?</p>
 </statement></exercise>
 
 <exercise number="29"><statement><p>The cost, in thousands of dollars, for immunizing <m>p</m> percent of the residents of Emporia against a dangerous new disease is given by the function
@@ -118,7 +118,7 @@ Write and solve an equation to determine what percent of the population can be i
 <exercise number="30"><statement><p>A school od bluefin tuna average <m>36 </m> miles per hour on a <m>200</m>-mile trip in still water, but this time they encounter a current.<ol>
     <li><p>Express the tuna's travel time, <m>t</m>, as a function of the current speed, <m>v</m>, and graph the function in the window
         <md><mrow>{\text{Xmin}} \amp = 0 \amp\amp {\text{Xmax}} = 36</mrow>
-        <mrow>{\text{Ymin}} \amp = 0 \amp\amp {\text{Ymax}} =50</mrow></p></li>
+        <mrow>{\text{Ymin}} \amp = 0 \amp\amp {\text{Ymax}} =50</mrow></md></p></li>
     <li><p>Write and solve an equation to find the current speed if the school makes its trip in <m>8</m> hours. Label the corresponding point on your graph.</p></li>
 </ol></p></statement></exercise>
 

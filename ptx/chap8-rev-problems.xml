@@ -177,7 +177,7 @@
 <exercise number="34"><statement><m>\dfrac{1}{y^2+4y+4} + \dfrac{3}{y^2-4}</m></statement></exercise>
 
 <exercise number="35"><statement><p><m>\dfrac{2a+1}{a-3} - \dfrac{-2}{a^2-4a+3}</m></p></statement></exercise>
-<answer><m>\dfrac{2a^2-a+1}{(a-3)(a-1{})}
+<answer><m>\dfrac{2a^2-a+1}{(a-3)(a-1{})}</m></answer></exercise>
 
 <exercise number="36"><statement><p><m>a - \dfrac{1}{a^2+2a+1} + \dfrac{3}{a^2-1}</m></p></statement></exercise>
 </exercisegroup>
