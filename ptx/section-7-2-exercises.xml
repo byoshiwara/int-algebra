@@ -160,12 +160,13 @@
             <cell><m>\frac{1}{9} </m></cell>
             <cell><m>\frac{1}{27} </m></cell></row>
     </tabular></sidebyside>
-    <sidebyside width="30%"><image source="images/fig-ans-4-2-3"><description>graph</description></image></sidebyside>
+    <sidebyside width="30%"><image source="images/fig-hw-7-2-19ans"><description>two exponentials</description></image></sidebyside>
 </answer></exercise>
 
 <exercise number="20"><statement><p><ol label="a">
     <li><p><m>h(t)=4^{-t} </m></p></li>
     <li><p><m>q(t)=-4^t </m></p></li></ol></p></statement>
+<!-- 
 <answer>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/><col/><col/><col/>
         <row>
@@ -196,8 +197,9 @@
             <cell><m>-16</m></cell>
             <cell><m>-64</m></cell></row>
     </tabular></sidebyside>
-    <sidebyside width="30%"><image source="images/fig-ans-4-2-5"><description>graph</description></image></sidebyside>
-</answer></exercise>
+    <sidebyside width="30%"><image source="images/fig-hw-7-2-20ans"><description>graph</description></image></sidebyside>
+</answer> -->
+</exercise>
 </exercisegroup>
 
 <exercise number="21"><statement><p>Which of the following functions have identical graphs? Explain why.<ol label="a" cols="2">
@@ -227,11 +229,13 @@
     <li><p>Use your calculator to graph your function on the interval <m>0 \le t\le 90</m>.</p></li>
     <li><p>When should hospitals expect to be treating <m>106,496</m> cases? Use algebraic methods to find your answer, and verify it on your graph.</p></li>
     </ol></p></statement>
+    <!-- 
 <answer><p><ol label="a" cols="2">
     <li><p><m>N(t) = 26(2)^{t/6}</m></p></li>
-    <li><sidebyside width="90%"><image source="images/fig-ans-4-2-37.jpg"><description>GC growth</description></image></sidebyside></li>
+    <li><sidebyside width="90%"><image source="images/fig-hw-7-2-24ans.jpg"><description>GC growth</description></image></sidebyside></li>
     <li><p>72 days later</p></li>
-</ol></p></answer></exercise>
+</ol></p></answer> -->
+</exercise>
 
 <exercise number="25"><statement><p>A mobile home loses <m>20\%</m> of its value every <m>3</m> years.<ol label="a">
         <li><p>A certain mobile home costs <m>\$20,000</m>. Write a function for its value after <m>t</m> years.</p></li>
@@ -240,12 +244,12 @@
     </ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><p><m>V(t) = 20,000(0.8)^{t/3}</m></p></li>
-    <li><sidebyside width="90%"><image source="images/fig-ans-4-2-37.jpg"><description>GC growth</description></image></sidebyside></li>
+    <li><sidebyside width="90%"><image source="images/fig-hw-7-2-25ans.png"><description>GC decay</description></image></sidebyside></li>
     <li><p>6 years</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="26"><statement><p>Which of the following tables could describe exponential functions? Explain why or why not. If the function is exponential, find its growth or decay factor.<ol label="a" cols="4"> 
-    <li><sidebyside> 
+    <li><sidebyside width="70%" margins="0% 30%"> 
         <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col /><col halign="right"/>
             <row>
                 <cell><m>t</m></cell>
@@ -266,7 +270,7 @@
                 <cell><m>5</m></cell>
                 <cell><m>20</m></cell></row>
         </tabular></sidebyside></li>
-    <li><sidebyside>
+    <li><sidebyside width="50%" margins="0% 50%">
         <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col /><col halign="right"/>
             <row>
                 <cell><m>x</m></cell>
@@ -287,7 +291,7 @@
                 <cell><m>5</m></cell>
                 <cell><m>8</m></cell></row>
         </tabular></sidebyside></li>
-    <li><sidebyside>
+    <li><sidebyside width="70%" margins="0% 30%">
         <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col /><col halign="left"/>
             <row>
                 <cell><m>h</m></cell>
@@ -308,7 +312,7 @@
                 <cell><m>4</m></cell>
                 <cell><m>0.007</m></cell></row>
         </tabular></sidebyside></li>
-    <li><sidebyside>
+    <li><sidebyside width="75%" margins="0% 50%">
         <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col /><col halign="right"/>
             <row>
                 <cell><m>t</m></cell>
@@ -336,7 +340,7 @@
 </ol></p></answer></exercise>
     
 <exercise number="27"><statement><p>The frequency of a musical note depends on its pitch. The graph shows that the frequency increases exponentially. The function <m>F(p) = F_0b^p</m> gives the frequency as a function of the number of half-tones, <m>p</m>, above the starting point on the scale</p>
-    <sidebyside  width="31%"><image source="images/fig-4-2-26"><description>growth</description></image></sidebyside><p>
+    <sidebyside  width="31%"><image source="images/fig-hw-7-2-27"><description>growth</description></image></sidebyside><p>
     <ol label="a">
         <li><p>Read the value of <m>F_0</m> from the graph. (This is the frequency of the note A above middle C.)</p></li>
         <li><p>Find an approximation for the growth factor, <m>b</m>, by comparing two points on the graph. (Some of the points on the graph of <m>F(p)</m> are approximately <m>(1, 466)</m>, <m>(2, 494)</m>, <m>(3, 523)</m>, and <m>(4, 554)</m>.)</p></li>
@@ -350,7 +354,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>For several days after the Northridge earthquake on January 17, 1994, the area received a number of significant aftershocks. The red graph shows that the number of aftershocks decreased exponentially over time. The graph of the function <m>S(d) = S_0b^d</m>, shown in black, approximates the data. (Source: <pubtitle>Los Angeles Times</pubtitle>, June 27, 1995)</p>
-    <sidebyside width="36%"><image source="images/fig-4-2-25"><description>decay</description></image></sidebyside><p>
+    <sidebyside width="36%"><image source="images/fig-hw-7-2-28"><description>decay</description></image></sidebyside><p>
     <ol label="a">
         <li><p>Read the value of <m>S_0</m> from the graph.</p></li>
         <li><p>Find an approximation for the decay factor, <m>b</m>, by comparing two points on the graph. (Some of the points on the graph of <m>S(d)</m> are approximately <m>(1, 82)</m>, <m>(2, 45)</m>, <m>(3, 25)</m>, and <m>(4, 14)</m>.)</p></li>
@@ -429,7 +433,7 @@
             <cell><m>25</m></cell>
             <cell><m>32</m></cell></row>
     </tabular></sidebyside>
-    <sidebyside width="50%"><image source="images/fig-ans-4-2-51"><description>exponential growth and qudratic</description></image></sidebyside>
+    <sidebyside width="50%"><image source="images/fig-hw-7-2-29ans"><description>exponential growth and qudratic</description></image></sidebyside>
     <p><ol label="a">
     <li><p><m>Three</m></p></li>
     <li><p><m>x = -0.77,~2,~4</m></p></li>
