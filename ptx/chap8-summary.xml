@@ -42,11 +42,11 @@
     <li><assemblage><title>Cube of a Binomial</title>
         <p><ol label="1">
             <li><m>(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3</m></li>
-            <li xml:id="cube-of-x-minus-y"><m>(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3</m></li></ol></p></assemblage></li>
+            <li><m>(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3</m></li></ol></p></assemblage></li>
     <li><assemblage><title>Factoring the Sum or Difference of Two Cubes</title>
         <p><ol label="1">
-            <li xml:id="sum-of-cubes"><p><m>x^3 + y^3 = (x + y)(x^2 - xy + y^2)</m></p></li>
-            <li xml:id="difference-of-cubes"><p><m>x^3 - y^3 = (x - y)(x^2 + xy + y^2)</m></p></li></ol></p>
+            <li><p><m>x^3 + y^3 = (x + y)(x^2 - xy + y^2)</m></p></li>
+            <li><p><m>x^3 - y^3 = (x - y)(x^2 + xy + y^2)</m></p></li></ol></p>
         </assemblage></li>
     <li><assemblage><title>Fundamental Principle of Fractions</title>
         <p>We can multiply or divide the numerator and denominator of a fraction by the same nonzero factor, and the new fraction will be equivalent to the old one.
@@ -105,5 +105,3 @@
 <xi:include href="./chap8-rev-problems.xml" />  <!--exercises  -->
 
 </section>
-<!-- </appendix> -->
-<!-- </book>  </mathbook> -->

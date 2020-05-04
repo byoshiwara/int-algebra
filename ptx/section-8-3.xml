@@ -268,14 +268,14 @@ You can check that both 12 and 18 divide evenly into 36.</p>
     <li>Include each different factor in the LCD as many times as it occurs in any one of the given denominators.</li>
 </ol></p></assemblage>
 
-<example xml:id="example-pedal-aircraft"><statement><p>Find the LCD for the fractions <m>~\dfrac{2x}{x^2-1}~</m> and <m>~\dfrac{x+3}{x^2+x}~</m></p></statement>
+<example><statement><p>Find the LCD for the fractions <m>~\dfrac{2x}{x^2-1}~</m> and <m>~\dfrac{x+3}{x^2+x}~</m></p></statement>
 
 <solution><p>We factor the denominators of each of the given fractions.
     <me>x^2-1 = (x-1)(x+1)~~~~\text{and}~~~~x^2+x = x(x+1)</me>
  The factor <m>(x-1)</m> occurs once in the first denominator, the factor <m>x</m> occurs once in the second denominator, and the factor <m>(x+1)</m> occurs once in each denominator.  Therefore we include in our LCD one copy of each of these factors.  The LCD is  <m>x(x-1)(x+1)</m>.  </p>
 </solution></example>
 
-<warning><p>In Example 7, we do not include two factors of <m>(x+1)</m> in the LCD. We need only one factor of <m>(x+1)</m>, because <m>(x+1)</m> occurs only once in each denominator.  You can check that each original denominator divides evenly into our LCD, <m>x(x-1)(x+1)</m>.  </p></warning> 
+<warning><p>In the previous Example, we do not include two factors of <m>(x+1)</m> in the LCD. We need only one factor of <m>(x+1)</m>, because <m>(x+1)</m> occurs only once in each denominator.  You can check that each original denominator divides evenly into our LCD, <m>x(x-1)(x+1)</m>.  </p></warning> 
 
 <exercise><title>Practice 7</title>
 <statement><p>Find the LCD for the fractions <m>~\dfrac{1}{2x^3(x-1)^2}~</m> and <m>~\dfrac{3}{4x^2-4x}~</m></p></statement>
