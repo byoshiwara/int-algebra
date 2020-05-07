@@ -168,7 +168,7 @@
     <me>t=\dfrac{300}{10-v}</me>
 Use the graph of this equation shown in the figure to answer questions (a) and (b).</p>
 <!--<image source="images/hp-8-1-47.png"><description>graph</description></image>-->
-    <image xml:id="hp-8-1-47">
+    <image xml:id="fig-hw-row-upstream">
         <description>curve</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -252,7 +252,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><mdash/></cell></row>
         </tabular></sidebyside>
         <p>The travel time increases as the headwind speed increases.</p></li>
-    <li><sidebyside width="40%"><image source="images/fig-ans-7-4-1.jpg"><description>rational function</description></image></sidebyside></li>
+    <li><sidebyside width="40%"><image source="images/fig-GC-eiderduck-against-wind"><description>rational function</description></image></sidebyside></li>
     <li>37.5 mph</li>
     <li><m>t=0;~v=50</m>. If the wind speed is 50 mph, the ducks will not make progress.</li> 
 </ol></p></answer></exercise>
@@ -332,7 +332,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><m>13 </m></cell>
                 <cell><m>12 </m></cell></row>
         </tabular></sidebyside></li>
-    <li><sidebyside width="40%"><image source="images/fig-ans-7-4-5.jpg"><description>rational function</description></image></sidebyside></li>
+    <li><sidebyside width="40%"><image source="images/fig-GC-avg-calculator-cost"><description>rational function</description></image></sidebyside></li>
     <li><p><m>2000</m></p></li>
     <li><p><m>n\gt 5000</m></p></li>
     <li><p><m>C=8</m>; As <m>n</m> increases, the average cost per calculator approaches $<m>8</m>.</p></li>
@@ -397,9 +397,9 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><m>5018 </m></cell>
                 <cell><m>5130 </m></cell></row>
         </tabular></sidebyside></li>
-    <li><p>$4768.33</p><sidebyside width="40%"><image source="images/fig-ans-7-4-7.jpg"><description>rational function</description></image></sidebyside></li>
+    <li><p>$4768.33</p><sidebyside width="40%"><image source="images/fig-GC-computer-inventory-cost"><description>rational function</description></image></sidebyside></li>
     <li><p>22; 14></p></li>
-    <li><sidebyside width="40%"><image source="images/fig-ans-7-4-7e.jpg"><description>rational function with slant asymptote</description></image></sidebyside><p>The graph of <m>C</m> approaches the line as an asymptote.</p></li>
+    <li><sidebyside width="40%"><image source="images/fig-GC-computer-inventory-cost-asymptote"><description>rational function with slant asymptote</description></image></sidebyside><p>The graph of <m>C</m> approaches the line as an asymptote.</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="36"><statement><p>A train whistle sounds higher when the train is approaching you than when it is moving away from you. This phenomenon is known as the Doppler effect. If the actual pitch of the whistle is 440 hertz (this is the A note below middle C), then the note you hear will have the pitch
@@ -460,7 +460,7 @@ where the velocity, <m>v</m>, in meters per second is positive as the train appr
                 <cell><m>568.4 </m></cell>
                 <cell><m>629.66 </m></cell></row>
         </tabular></sidebyside></li>
-    <li><sidebyside width="35%"><image source="images/fig-ans-7-4-11.jpg"><description>rational function</description></image></sidebyside></li>
+    <li><sidebyside width="35%"><image source="images/fig-GC-doppler"><description>rational function</description></image></sidebyside></li>
     <li><p><m>-20</m> m/sec; <m>68</m> m/sec</p></li>
     <li><p><m>v \gt 12</m> m/sec</p></li>
     <li><p><m>v=332</m>; As <m>v</m> approaches 332 m per sec, the pitch increases without bound.</p></li>
