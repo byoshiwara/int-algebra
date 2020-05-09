@@ -9,20 +9,12 @@
     
 <subexercises><title>Skills Practice</title>
 
-
-<exercisegroup cols="2">
-    <introduction><p>
-        For Problems 1 and 2,
-        <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 1 and 2,<ol label="a">
             <li><p>Find the intercepts of the graph.</p></li>
-            <li><p>Graph the equation by the intercept method.</p></li>
-        </ol>
-    </p></introduction>
+            <li><p>Graph the equation by the intercept method.</p></li></ol></p></introduction>
 
-    <exercise number="1">
-        <statement><p><m>9x-12y=36</m></p></statement>
-        <answer><p>
-            <ol label="a">
+<exercise number="1"><statement><p><m>9x-12y=36</m></p></statement>
+<answer><p><ol label="a">
                 <li><p><m>(4,0) </m>, <m>(0,-3) </m></p></li>
                 <li><sidebyside width="90%" margins="0% 0%">
                     <image xml:id="fig-ex-ans-1-2-1">
@@ -49,67 +41,34 @@
                     \filldraw[red] (4,0) circle (0.15);
                     \filldraw[red] (0,-3) circle (0.15);
                     \end{tikzpicture}]]>
-                </latex-image></image>
-                </sidebyside></li>
-            </ol>
-        </p></answer>
-    </exercise>
+                </latex-image></image></sidebyside></li></ol></p></answer></exercise>
 
-    <exercise number="2">
-        <statement><p><m>\dfrac{x}{9}-\dfrac{y}{4}=1 </m></p></statement>
-     </exercise>
-
+<exercise number="2"><statement><p><m>\dfrac{x}{9}-\dfrac{y}{4}=1 </m></p></statement></exercise>
 </exercisegroup>
 
-
-<exercise number="3">
-    <statement><p>
-        The owner of a movie theater needs to bring in $1000 revenue at each screening in order to stay in business. He sells adults' tickets for $5 each and children's tickets at $2 each.
-        <ol label="a">
-            <li><p>How much revenue does he earn from selling <m>x</m> adults' tickets?</p></li>
-            <li><p>How much revenue does he earn from selling <m>y</m> children's tickets?</p></li>
-            <li><p>Write an equation in <m>x</m> and <m>y</m> for the number of tickets he must sell at each screening</p></li>
-        </ol>
-    </p></statement>
-    <answer><p>
-        <ol label="a">
+<exercise number="3"><statement><p>The owner of a movie theater needs to bring in $1000 revenue at each screening in order to stay in business. He sells adults' tickets for $5 each and children's tickets at $2 each.
+    <ol label="a">
+        <li><p>How much revenue does he earn from selling <m>x</m> adults' tickets?</p></li>
+        <li><p>How much revenue does he earn from selling <m>y</m> children's tickets?</p></li>
+        <li><p>Write an equation in <m>x</m> and <m>y</m> for the number of tickets he must sell at each screening</p></li></ol></p></statement>
+<answer><p><ol label="a">
             <li><p><m>5x</m></p></li>
             <li><p><m>2y</m></p></li>
-            <li><p>5x+2y=1000</p></li>
-        </ol>
-    </p></answer>
- </exercise>
+            <li><p>5x+2y=1000</p></li></ol></p></answer></exercise>
 
- <exercise>
-     <statement><p>
-         Solve for <m>y</m> in terms of <m>x</m>.
-         <ol label="a" cols="2">
+ <exercise><statement><p>Solve for <m>y</m> in terms of <m>x</m>.<ol label="a" cols="2">
              <li><p><m>80x-360y=6120</m></p></li>
-             <li><p><m>3x+\dfrac{3}{4}y =\dfrac{1}{2}</m></p></li>
-         </ol>
-     </p></statement>
- </exercise>
+             <li><p><m>3x+\dfrac{3}{4}y =\dfrac{1}{2}</m></p></li></ol></p></statement></exercise>
 
-
-
-<exercisegroup  cols="2">
-    <introduction><p>
-    For problems 5 and 6, 
-    <ol label="a">
+<exercisegroup  cols="2"><introduction><p>For problems 5 and 6, <ol label="a">
         <li><p>Find the intercepts of the graph.</p></li>
-        <li><p>Graph the equation by the intercept method.</p></li>
-    </ol>
-    </p></introduction>
+        <li><p>Graph the equation by the intercept method.</p></li></ol></p></introduction>
 
-    <exercise number="5">
-        <statement><p><m>-2.5x+4y=20</m></p></statement>
-        <answer><p>
-            <ol label="a">
-                <li><p><m>(-8,0) </m>, <m>(0,5) </m></p></li>
-                <li><sidebyside width="90%" margins="0% 0%">
-                    <image xml:id="fig-ex-ans-1-2-5">
-                    <description>line with positive intercepts</description>
-                    <latex-image>
+<exercise number="5"><statement><p><m>-2.5x+4y=20</m></p></statement>
+<answer><p><ol label="a">
+        <li><p><m>(-8,0) </m>, <m>(0,5) </m></p></li>
+        <li><sidebyside width="90%" margins="0% 0%">
+            <image xml:id="fig-ex-ans-1-2-5"><description>line with positive intercepts</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                       block/.style    = {draw, thick, rectangle, minimum height = 3em,
@@ -133,103 +92,70 @@
                     \filldraw[red] (-8,0) circle (0.15);
                     \filldraw[red] (0,5) circle (0.15);
                     \end{tikzpicture}]]>
-                    </latex-image></image>
-                    </sidebyside></li>
-                </ol>
-            </p></answer>
-        </exercise>
+                    </latex-image></image></sidebyside></li></ol></p></answer></exercise>
 
-    <exercise number="6">
-        <statement><p><m>0.8w - 2.6 = 1.4w + 0.3</m></p></statement>
-    </exercise>        
+<exercise number="6"><statement><p><m>0.8w - 2.6 = 1.4w + 0.3</m></p></statement></exercise>        
 </exercisegroup>
 
-<exercise number="7">
-    <statement><p>
-    Delbert must increase his daily potassium intake by 1800 mg. He decides to eat a combination of figs and bananas. One gram of fig contains 9 mg of potassium, and one gram of banana contains 4 mg of potassium.
-    <ol label="a">
+<exercise number="7"><statement><p>Delbert must increase his daily potassium intake by 1800 mg. He decides to eat a combination of figs and bananas. One gram of fig contains 9 mg of potassium, and one gram of banana contains 4 mg of potassium.<ol label="a">
         <li><p>How many mg of potassium are in <m>x</m> grams of figs?</p></li>
         <li><p>How many mg of potassium are in <m>y</m> grams of bananas?</p></li>
         <li><p>Write an equation for the number of grams of fig, <m>x</m>, and the number of grams of banana, <m>y</m>, that Delbert needs to eat daily.</p></li>
-        <li><p>Find the intercepts of the graph. What do the intercepts tell us about Delbert's diet?</p></li>
-    </ol>
-    </p></statement>
-    <answer><p>
-        <ol label="a">
+        <li><p>Find the intercepts of the graph. What do the intercepts tell us about Delbert's diet?</p></li></ol>
+</p></statement>
+<answer><p><ol label="a">
             <li><p><m>9x</m></p></li>
             <li><p><m>4y</m></p></li>
             <li><p><m>9x+4y=1800</m></p></li>
             <li><p><m>(200,0) </m> Delbert must eat 200g of figs daily if he eats no bananas.</p></li>
-            <li><p><m>(0,450) </m> Delbert must eat 450g of bananas daily if he eats no figs.</p></li>
-        </ol>
-    </p></answer>
+            <li><p><m>(0,450) </m> Delbert must eat 450g of bananas daily if he eats no figs.</p></li></ol></p></answer>
 </exercise>
 
-<exercise number="8">
-    <statement><p>
-    Five pounds of body fat is equivalent to approximately 16,000 calories. Carol can burn 600 calories per hour bicycling and 400 calories per hour swimming.
-    <ol label="a">
+<exercise number="8"><statement><p>Five pounds of body fat is equivalent to approximately 16,000 calories. Carol can burn 600 calories per hour bicycling and 400 calories per hour swimming.<ol label="a">
         <li><p>How many calories will Carol burn in <m>x</m> hours of cycling?</p></li>
         <li><p>How many calories will she burn in <m>y</m> hours of swimming?</p></li>
         <li><p>Write an equation that relates the number of hours, <m>x</m>, of cycling and <m>y</m>, of swimming Carol needs to perform in order to lose 5 pounds.</p></li>
         <li><p>Find the intercepts of the graph. What do the intercepts tell us about Carol's exercise program?</p></li>
-    </ol>
-    </p></statement>
-</exercise>        
-
-
+</ol></p></statement></exercise>       
 
 </subexercises>
 
-
-
 <subexercises><title>Applications</title>
 
-    <exercise number="13">
-        <statement><p>
-            A deep-sea diver is taking some readings at a depth of 400 feet. He begins rising at a rate of 20 feet per minute.
-            <ol label="a">
-                <li><p>Complete the table of values for the diver's altitude <m>h</m> after <m>t</m> minutes. (A depth of <m>400</m> feet is the same as an altitude of <m>-400</m> feet.)</p>
-                <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+<exercise number="13"><statement><p>A deep-sea diver is taking some readings at a depth of 400 feet. He begins rising at a rate of 20 feet per minute.<ol label="a">
+        <li><p>Complete the table of values for the diver's altitude <m>h</m> after <m>t</m> minutes. (A depth of <m>400</m> feet is the same as an altitude of <m>-400</m> feet.)</p>
+        <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <row>
                     <cell><m>t</m></cell>
                     <cell><m>\quad ~ 0 ~ \quad</m></cell>
                     <cell><m>\quad 5 \quad</m></cell>
                     <cell><m>\quad 10 \quad</m></cell>
                     <cell><m>\quad 15 \quad</m></cell>
-                    <cell><m>\quad 20 \quad</m></cell>
-                </row>
+                    <cell><m>\quad 20 \quad</m></cell></row>
                 <row> 
                     <cell><m>h</m></cell>
                     <cell></cell>
                     <cell></cell>
                     <cell></cell>
                     <cell></cell>
-                    <cell></cell>
-                </row>
-            </tabular></sidebyside>
-                </li>
-                <li><p>Write an equation for the diver's altitude, <m>h</m>, in terms of the number of minutes, <m>t</m>, elapsed.</p></li>
-                <li><sidebyside widths="35% 45%" margins="0% 0%"><stack>
-                    <p>Find the intercepts and sketch the graph.</p>
-                    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+                    <cell></cell></row>
+            </tabular></sidebyside></li>
+        <li><p>Write an equation for the diver's altitude, <m>h</m>, in terms of the number of minutes, <m>t</m>, elapsed.</p></li>
+        <li><sidebyside widths="35% 45%" margins="0% 0%"><stack>
+            <p>Find the intercepts and sketch the graph.</p>
+                <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                     <row>
                         <cell><m>\quad t \quad</m></cell>
-                        <cell><m>\quad h \quad</m></cell>
-                    </row>                        
+                        <cell><m>\quad h \quad</m></cell></row>                        
                     <row>
                         <cell><m>0</m></cell>
-                        <cell><m></m></cell>
-                    </row>                        
+                        <cell><m></m></cell></row>                        
                     <row>
                         <cell><m></m></cell>
-                        <cell><m>0</m></cell>
-                    </row>                        
+                        <cell><m>0</m></cell></row>                        
                     </tabular></stack>
                     
-                    <image xml:id="fig-ex-grid-1-2-13">
-                    <description>grid</description>
-                    <latex-image>
+                <image xml:id="fig-ex-grid-1-2-13"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                       block/.style    = {draw, thick, rectangle, minimum height = 3em,
@@ -249,23 +175,17 @@
                      \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
                     }
                     \end{tikzpicture}]]>
-                    </latex-image></image>
-                    </sidebyside>
-                </li>
-                <li><p>Explain what each intercept tells us about this problem.</p></li>
-            </ol>
-        </p></statement>
-        <answer>
-            <p><ol label="a">
-                <li><sidebyside margins="0% 50%"><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+                </latex-image></image></sidebyside></li>
+        <li><p>Explain what each intercept tells us about this problem.</p></li></ol></p></statement>    
+<answer><p><ol label="a">
+        <li><sidebyside margins="0% 50%"><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <row>
                     <cell><m>~ t ~</m></cell>
                     <cell><m>0</m></cell>
                     <cell><m>5</m></cell>
                     <cell><m>10</m></cell>
                     <cell><m>15</m></cell>
-                    <cell><m>20</m></cell>
-                </row>
+                    <cell><m>20</m></cell></row>
                 <row> 
                     <cell><m>~ h ~</m></cell>
                     <cell><m>-400</m></cell>
@@ -274,11 +194,9 @@
                     <cell><m>-100</m></cell>
                     <cell><m>0</m></cell></row>
                 </tabular></sidebyside></li>
-                <li><p><m>h=-44+20t </m></p></li>
-                <li><sidebyside width="40%" margins="0% 20%">
-                    <image xml:id="fig-ex-ans-1-2-13">
-                    <description>grid</description>
-                    <latex-image>
+        <li><p><m>h=-44+20t </m></p></li>
+        <li><sidebyside width="40%" margins="0% 20%"><image xml:id="fig-ex-ans-1-2-13"><description>grid</description>
+             <latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                       block/.style    = {draw, thick, rectangle, minimum height = 3em,
@@ -304,59 +222,39 @@
                     \filldraw[red] (3,-2) ellipse (0.06 and .09);
                     \filldraw[red] (4,0) ellipse (0.06 and .09);
                     \end{tikzpicture}]]>
-                    </latex-image></image>
-                </sidebyside></li>
-                <li><p>
-                    <m>(0,-400) </m>: The diver starts at a depth of 400 feet. <m>(20,0) </m>: The diver surfaces after 20 minutes.
-                </p></li>
-            </ol></p>
-            
-        </answer>
-    </exercise>
+            </latex-image></image></sidebyside></li>
+        <li><p><m>(0,-400) </m>: The diver starts at a depth of 400 feet. <m>(20,0) </m>: The diver surfaces after 20 minutes.</p></li></ol></p></answer></exercise>
 
-    <exercise number="14">
-        <statement><p>
-            In central Nebraska, each acre of corn requires 25 acre-inches of water per year, and each acre of winter wheat requires 18 acre-inches of water. (An acre-inch is the amount of water needed to cover one acre of land to a depth of one inch.) A farmer can count on 9000 acre-inches of water for the coming year. (Source: Institute of Agriculture and Natural Resources, University ofNebraska)
-            <ol label="a">
-                <li><p>Write an equation relating the number of acres of corn, <m>x</m>, and the number of acres of wheat, <m>y</m>, that the farmer can plant.</p></li>
-                <li><p>Complete the table.</p>
+<exercise number="14"><statement><p>In central Nebraska, each acre of corn requires 25 acre-inches of water per year, and each acre of winter wheat requires 18 acre-inches of water. (An acre-inch is the amount of water needed to cover one acre of land to a depth of one inch.) A farmer can count on 9000 acre-inches of water for the coming year. (Source: Institute of Agriculture and Natural Resources, University ofNebraska)<ol label="a">
+    <li><p>Write an equation relating the number of acres of corn, <m>x</m>, and the number of acres of wheat, <m>y</m>, that the farmer can plant.</p></li>
+    <li><p>Complete the table.</p>
                 <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <row>
                     <cell><m>~ x ~</m></cell>
                     <cell><m> ~ 50 ~ </m></cell>
                     <cell><m>100</m></cell>
                     <cell><m>150</m></cell>
-                    <cell><m>200</m></cell>
-                </row>
+                    <cell><m>200</m></cell></row>
                 <row> 
                     <cell><m>~ y ~</m></cell>
                     <cell></cell>
                     <cell></cell>
                     <cell></cell>
-                    <cell></cell>
-                </row>
-            </tabular></sidebyside>
-                </li>
-                <li><sidebyside widths="35% 45%" margins="0% 0%"><stack>
-                    <p>Find the intercepts of the graph.</p>
-                    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+                    <cell></cell></row>
+            </tabular></sidebyside></li>
+    <li><sidebyside widths="35% 45%" margins="0% 0%"><stack><p>Find the intercepts of the graph.</p>
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                     <row>
                         <cell><m>\quad x \quad</m></cell>
-                        <cell><m>\quad y \quad</m></cell>
-                    </row>                        
+                        <cell><m>\quad y \quad</m></cell></row>                        
                     <row>
                         <cell><m>0</m></cell>
-                        <cell><m></m></cell>
-                    </row>                        
+                        <cell><m></m></cell></row>                        
                     <row>
                         <cell><m></m></cell>
-                        <cell><m>0</m></cell>
-                    </row>                        
-                    </tabular></stack>
-                    
-                    <image xml:id="fig-1st-quad-grid">
-                    <description>grid</description>
-                    <latex-image>
+                        <cell><m>0</m></cell></row>                        
+                </tabular></stack>
+        <image xml:id="fig-1st-quad-grid"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                       block/.style    = {draw, thick, rectangle, minimum height = 3em,
@@ -370,16 +268,10 @@
                     \draw[black,thick,->,>=stealth'] (0,0)--(10.6,0) node[right]{$x$};
                     \draw[black,thick,->,>=stealth'] (0,0)--(0,10.6) node[above]{$y$};
 
-                    \end{tikzpicture}]]>
-                    </latex-image></image>
-                    </sidebyside>
-                </li>
-                <li><p>Use the intercepts to help you choose appropriate scales for the axes, and graph the equation.</p></li>
-                <li><p>What do the intercepts tell us about the problem?</p></li>
-                <li><p>What does the point <m>(288, 100)</m> mean in this context?</p></li>
-            </ol>
-        </p></statement>
-    </exercise>
+                    \end{tikzpicture}]]></latex-image></image></sidebyside></li>
+    <li><p>Use the intercepts to help you choose appropriate scales for the axes, and graph the equation.</p></li>
+    <li><p>What do the intercepts tell us about the problem?</p></li>
+     <li><p>What does the point <m>(288, 100)</m> mean in this context?</p></li></ol></p></statement></exercise>
 
 </subexercises>
 

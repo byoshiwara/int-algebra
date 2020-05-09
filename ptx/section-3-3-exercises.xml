@@ -6,9 +6,57 @@
 
 <exercises xml:id="section-3-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Set 3.3</title>
     
+<subexercises><title>Warm Up</title>
+
+<exercisegroup cols="2"><introduction><p>For problems 1 and 2, evaluate.</p></introduction>
+
+<exercise number="1"><statement><p><m>~2x^2-3x-1~</m>, for <m>~x=-2</m></p></statement>
+<answer><m>13</m></answer></exercise>
+
+<exercise number="2"><statement><p><m>~3+4x-3x^2~</m>, for <m>~x=-3</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For problems 3 and 4, which technique would you use to solve the equation, extracting roots or factoring? Then solve the equation.</p></introduction>
+
+<exercise number="3"><statement><p><ol label="a" cols="2">
+    <li><m>3x^2-15=0</m></li>
+    <li><m>3x^2-15x=0</m></li>
+    <li><m>(2x-3)^2=9</m></li>
+    <li><m>2x^2-3x=9</m></li></ol></p></statement></exercise>
+
+ <exercise number="4"><statement><p><ol label="a" cols="2">
+    <li><m>20x-2x^2</m></li>
+    <li><m>20=2x^2</m></li>
+    <li><m>4x^2=2+2x</m></li>
+    <li><m>4(x+2)^2-1=0</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>factoring; <m>0,10</m></li>
+    <li>extraction of roots; <m>\pm \sqrt{10}</m></li>
+    <li>factoring; <m>\dfrac{-1}{2}, 1</m></li>
+    <li>extraction of roots; <m>\dfrac{-5}{2}, \dfrac{-5}{2}</m></li></ol></p></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 5 and 6, factor the right side of the formula.</p></introduction>
+
+<exercise number="5"><statement><m>A=\dfrac{1}{2}bh + \dfrac{1}{2}h^2</m></statement></exercise>
+
+<exercise number="6"><statement><m>S=2 \pi R^2+2 \pi RH</m></statement>
+        <answer><m>2 \pi R(R+H)</m></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 7 and 8, solve the equation.</p></introduction>
+
+<exercise number="7"><statement><m>-9x=81x^2</m></statement></exercise>
+
+<exercise number="8"><statement><m>0=-140x-4x^2</m></statement>
+    <answer><m>0, -35</m></answer></exercise>
+</exercisegroup>
+
+</subexercises>
+
 <subexercises><title>Skills Practice</title>
 
-<exercise number="1"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol label="a" cols="3">
+<exercise number="9"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol label="a" cols="3">
         <li><m>y=x^2+k</m></li>
         <li><m>y=x^2+kx </m></li>
         <li><m>y=kx^2</m></li>
@@ -25,43 +73,7 @@
         <li>vi</li>
         <li>v</li></ol></p></answer></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 2 and 3, factor the right side of the formula.</p></introduction>
-
-<exercise number="2"><statement><m>A=\dfrac{1}{2}bh + \dfrac{1}{2}h^2</m></statement></exercise>
-
-<exercise number="3"><statement><m>S=2 \pi R^2+2 \pi RH</m></statement>
-        <answer><m>2 \pi R(R+H)</m></answer></exercise>
-</exercisegroup>
-
-<exercisegroup cols="2"><introduction><p>For Problems 4 and 5, solve the equation.</p></introduction>
-
-<exercise number="4"><statement><m>-9x=81x^2</m></statement></exercise>
-
-<exercise number="5"><statement><m>0=-140x-4x^2</m></statement>
-    <answer><m>0, -35</m></answer></exercise>
-</exercisegroup>
-
-<exercisegroup><introduction><p>For problems 6 and 7, which technique would you use to solve the equation, extracting roots or factoring? Then solve the equation.</p></introduction>
-
-<exercise number="6"><statement><p><ol label="a" cols="2">
-    <li><m>3x^2-15=0</m></li>
-    <li><m>3x^2-15x=0</m></li>
-    <li><m>(2x-3)^2=9</m></li>
-    <li><m>2x^2-3x=9</m></li></ol></p></statement></exercise>
-
- <exercise number="7"><statement><p><ol label="a" cols="2">
-    <li><m>20x-2x^2</m></li>
-    <li><m>20=2x^2</m></li>
-    <li><m>4x^2=2+2x</m></li>
-    <li><m>4(x+2)^2-1=0</m></li></ol></p></statement>
-<answer><p><ol label="a">
-    <li>factoring; <m>0,10</m></li>
-    <li>extraction of roots; <m>\pm \sqrt{10}</m></li>
-    <li>factoring; <m>\dfrac{-1}{2}, 1</m></li>
-    <li>extraction of roots; <m>\dfrac{-5}{2}, \dfrac{-5}{2}</m></li></ol></p></answer></exercise>
-</exercisegroup>
-
-<exercise number="8"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol label="a" cols="3">
+<exercise number="10"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol label="a" cols="3">
         <li><p><m>y=-kx</m></p></li>
         <li><p><m>y=-kx^2 </m></p></li>
         <li><p><m>y=k-x^2</m></p></li>
@@ -70,16 +82,30 @@
         <li><p><m>y=x^2-kx </m></p></li></ol></p><sidebyside width="90%"><image source="images/fig-hw-3-3-8" ><description>parabolas</description></image></sidebyside>
     </statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 9 and 10, find the <m>x</m>-intercepts and the vertex of the graph. Then sketch the graph by hand.</p></introduction> 
+<exercisegroup><introduction><p>For Problems 11 and 12: <ol label="a">
+    <li>Describe what each graph will look like compared to the basic parabola.</li>
+    <li>Sketch the graph by hand and label the coordinates of three points on the graph.</li></ol></p></introduction>
 
-<exercise number="9"><statement><p><ol label="a" cols="2">
-    <li><m>y=x^2-4x</m></li>
-    <li><m>y=x^2+2x</m></li></ol></p></statement>
-    <answer><p><ol label="a">
-        <li><p><m>(0,0), (4,0); (2,-4)</m></p>
-        <sidebyside width="40%" margins="0% 50%">
-            <image xml:id="fig-hw-3-3-9ans">
-                <description>parabola</description>
+<exercise number="11"><statement><p><ol label="a" cols="3">
+    <li><m>y=2x^2</m></li>
+    <li><m>y=\dfrac{1}{2}x^2</m></li>
+    <li><m>y=-x^2</m></li></ol></p></statement>
+<answer><ol label="a">
+    <li>Narrower</li>
+    <li>Wider</li>
+    <li>Opens downward</li></ol></p></answer></exercise>
+
+<exercise number="12"><statement><p><ol label="a" cols="3">
+    <li><m>y=x^2+2</m></li>
+    <li><m>y=x^2-9</m></li>
+    <li><m>y=100-x^2</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 13-16, find the <m>x</m>-intercepts and the vertex of the graph. Then sketch the graph by hand.</p></introduction> 
+
+<exercise number="13"><statement><p><m>y=x^2-4x</m></p></statement>
+<answer><p><m>(0,0), (4,0); (2,-4)</m></p>
+        <sidebyside width="40%" margins="0% 50%"><image xml:id="fig-hw-3-3-9ans"><description>parabola</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -96,74 +122,25 @@
                 }
                 \draw[samples=65,domain={-sqrt(14)+2:sqrt(14)+2},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2-4*\x });
                 \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside></li>
-        <li><p><m>(0,0), (-2,0); (-1,-1)</m></p>
-        <sidebyside width="40%" margins="0% 50%">
-            <image xml:id="fig-hw-3-3-9ansb">
-                <description>parabola</description>
-                <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} [scale=.35]
-                \draw[cyan] (-10,-10) grid (10,10);
-                \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
-                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
-                \foreach \x in  {-5, 5, -10, 10} {
-                 \draw[cyan, very thick] (\x,-10) --++(0,20);
-                 \draw[cyan, very thick] (-10,\x) --++(20,0);
-                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-                }
-                \draw[samples=65,domain={-sqrt(11)-1:sqrt(11)-1},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2+2*\x });
-                \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside></li></ol></p></answer>
-</exercise>
+            </latex-image></image></sidebyside></answer></exercise>
 
-<exercise number="10"><statement><p><ol label="a" cols="2">
-    <li><m>y=3x^2+6x</m></li>
-    <li><m>y=-2x^2+5x</m></li></ol></p></statement></exercise>      
+<exercise number="14"><statement><p><m>y=x^2+2x</m>
+
+<exercise number="15"><statement><m>y=3x^2+6x</m></statement>
+<answer></answer></exercise>  
+
+<exercise number="16"><statement><m>y=-2x^2+5x</m></statement></exercise>  
+
+<exercise number="17"><statement><m>y=40x-2x^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><m>y=144-12x^2</m></statement></exercise>
 </exercisegroup>
 </subexercises>
 
 <subexercises><title>Applications</title>
 
-<exercisegroup cols="2"><introduction><p>For problems 11-12, find the <m>x</m>-intercepts and the vertex of each graph.  Then sketch the graph.</p></introduction>
-
-<exercise number="11"><statement><m>y=225-x^2</m></statement>
-    <answer><p><m>(-15,0), (15,0); (0,255)</m></p>
-        <sidebyside width="35%" margins="0% 50%">
-            <image xml:id="fig-hw-3-3-11ans">
-                <description>parabola</description>
-                <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} [scale=.6]
-                \draw[cyan] (-5,-2) grid (5,10);
-                \draw[black,thick, ->, >=stealth'] (-5,0)--(5.6,0) node[right]{$x$};
-                \draw[black,thick, ->, >=stealth'] (0,-2)--(0,10.6) node[left, xshift=2]{$y$};
-                \foreach \x [evaluate=\x as \xi using int( 5* \x )] in  {-4,-2,2,4} {
-                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \foreach \x [evaluate=\x as \xi using int( 25* \x )] in  {-2,2,4, 6,8,10} {
-                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \draw[samples=65,domain={-sqrt(11):sqrt(11)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{-(\x)^2+9 });
-                \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-
-        </sidebyside></answer></exercise>
-
-<exercise number="12"><statement><m>y=40x-2x^2</m></statement></exercise>
-</exercisegroup>
-
-<exercise number="13"><statement><p>Commercial fishermen rely on a steady supply of fish in their area. To avoid overfishing, they adjust their harvest to the size of the population. The formula
+<exercise number="19"><statement><p>Commercial fishermen rely on a steady supply of fish in their area. To avoid overfishing, they adjust their harvest to the size of the population. The formula
     <me>R=0.4x-0.001x^2</me>
 gives the annual rate of growth, in tons per year, of a fish population of biomass <m>x</m> tons.
 <ol label="a">
@@ -171,9 +148,7 @@ gives the annual rate of growth, in tons per year, of a fish population of bioma
     <li>Find the <m>x</m>-intercepts of the graph. What do they tell us about the fish population?</li>
     <li><p>Sketch the graph for <m>0 \le x \le 5000</m>.</p>
      <sidebyside width="75%">
-        <image xml:id="fig-hw-3-3-13">
-            <description>grid</description>
-            <latex-image>
+        <image xml:id="fig-hw-3-3-13"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -188,17 +163,13 @@ gives the annual rate of growth, in tons per year, of a fish population of bioma
              \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
             }
             \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside></li>
+        </latex-image></image></sidebyside></li>
     <li>For what values of <m>x</m> does the fish population decrease rather than increase? Suggest a reason why the population might decrease.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>(2000, 400)</m></li>
     <li><m>(0,0), (4000,0)</m></li>
     <li><sidebyside width="65%" margins="0% 10%">
-        <image xml:id="fig-hw-3-3-13ans">
-            <description>parabola</description>
-            <latex-image>
+        <image xml:id="fig-hw-3-3-13ans"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -214,13 +185,11 @@ gives the annual rate of growth, in tons per year, of a fish population of bioma
             }
             \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick] plot ({\x},{-1/4*(\x-4)^2+4 });
             \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside></li>
+        </latex-image></image></sidebyside></li>
     <li><m>x \gt 4000</m></li></ol></p>
 </answer></exercise>
 
-<exercise number="14"><statement><p>After it lands on Earth, the distance the space shuttle travels is given by
+<exercise number="20"><statement><p>After it lands on Earth, the distance the space shuttle travels is given by
         <me> d=vT+\dfrac{v^2}{2a}</me>   
 where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the pilot's reaction time before the brakes are applied, and <m>a</m> is the shuttle's deceleration.
  <ol label="a">
@@ -230,9 +199,9 @@ where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the
     <li>The runway at Edwards Air Force base is 15,000 feet long. Graph your equation again in an appropriate (larger) window, and use it to estimate the answer to the question:  What is the maximum velocity the shuttle can have at touchdown and still stop on the runway?</li></ol></p>
 </statement></exercise>
 
-<exercisegroup><introduction><p>For problems 15-18, graph the set of equations in the standard window on your calculator.  Describe how the parameters <m>a,~b,~</m> and <m>c</m> in each equation transform the graph, compared to the basic parabola.</p></introduction>
+<exercisegroup><introduction><p>For problems 21-24, graph the set of equations in the standard window on your calculator.  Describe how the parameters <m>a,~b,~</m> and <m>c</m> in each equation transform the graph, compared to the basic parabola.</p></introduction>
 
-<exercise number="15"><statement><p><ol label="a" cols="2">  
+<exercise number="21"><statement><p><ol label="a" cols="2">  
     <li><m>y=x^2</m></li>
     <li><m>y=3x^2</m></li>
     <li><m>y=\dfrac{1}{4}x^2</m></li>
@@ -244,13 +213,13 @@ where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the
     <li>narrower and reflected about <m>y</m>-axis</li></ol></p>
 </answer></exercise>
 
-<exercise number="16"><statement><p><ol label="a" cols="2">  
+<exercise number="22"><statement><p><ol label="a" cols="2">  
     <li><m>y=x^2</m></li>
     <li><m>y=x^2+1</m></li>
     <li><m>y=x^2+3</m></li>
     <li><m>y=x^2-6</m></li></ol></p></statement></exercise>
 
-<exercise number="17"><statement><p><ol label="a" cols="2">  
+<exercise number="23"><statement><p><ol label="a" cols="2">  
     <li><m>y=x^2-4x</m></li>
     <li><m>y=x^2+4x</m></li>
     <li><m>y=4x-x^2</m></li>
@@ -262,13 +231,13 @@ where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the
     <li>reflection of (b) about <m>y</m>-axis</li></ol></p>
 </answer></exercise>
 
-<exercise number="18"><statement><p><ol label="a" cols="2">  
+<exercise number="24"><statement><p><ol label="a" cols="2">  
     <li><m>y=x^2-4x</m></li>
     <li><m>y=2x^2-8x</m></li>
     <li><m>y=\dfrac{1}{2}x^2-2x</m></li>
     <li><m>y=-x^2+4x</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-    </subexercises>
+</subexercises>
 
 </exercises>
