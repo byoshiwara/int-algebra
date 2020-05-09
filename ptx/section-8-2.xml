@@ -180,12 +180,43 @@ In Example 3b, we cannot cancel the 3's, because they are terms and not factors.
         <me>\dfrac{9x^2+3}{6x+3} \ne \dfrac{9x^2}{6x}</me></p></warning>
 
 <exercise><title>Practice 3</title>
-<statement><p>Explain why each calculation is incorrect.<ol label="a" cols="2">
-    <li><m>\dfrac{x-6}{x-9} \ne \dfrac{x-2}{x-3}</m></li>
-    <li><m>\dfrac{2x+5}{2} \ne x+5</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<webwork>
+    <pg-code>
+        $a = RadioButtons(
+            [ "3 is not a factor of numerator or denominator.", 
+            "More cancelling is required."
+            ],
+            0
+        );
+        $b = RadioButtons(
+            [ "2 is not a factor of the numerator.", 
+            "2 should be subtracted from 5."
+            ],
+            0
+        );
+    </pg-code>
+    <statement><p>
+        Explain why each calculation is incorrect.
+        <ol label="a">
+            <li><p>
+                <m>
+                    \dfrac{x-6}{x-9} \rightarrow \dfrac{x-2}{x-3}
+                </m>
+            </p><p><var name="$a" form="buttons"/>
+            </p></li>
+            <li><p>
+                <m>
+                    \dfrac{2x+5}{2} \rightarrow x+5                  
+                </m>
+            </p><p><var name="$b" form="buttons"/>
+            </p></li>
+        </ol>
+    </p></statement>
+    <solution><p><ol label="a">
     <li>3 is not a factor of numerator or denominator</li>
-    <li>2 is not a factor of the numerator</li></ol></p></answer></exercise>        
+    <li>2 is not a factor of the numerator</li></ol></p></solution>
+</webwork>
+</exercise>        
 
 <p>We summarize the procedure for reducing algebraic fractions as follows.</p>
 

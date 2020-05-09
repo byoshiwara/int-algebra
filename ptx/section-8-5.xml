@@ -273,7 +273,7 @@ in the window
     <md><mrow>\text{Xmin} \amp = -9.4 \amp\amp \text{Xmax} = 9.4</mrow>
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 10</mrow></md>
 to obtain the graph shown below.</p>
-        <sidebyside  width="35%"><image source="images/fig-GC-intersecting-rational-functions"/></sidebyside>
+        <sidebyside  width="35%"><image source="images/fig-GC-intersecting-rational-functions"/><description>intersecting rational functions</description></sidebyside>
 <p>The function <m>Y_1</m> gives the time it takes Rani to paddle 30 miles downstream, and <m>Y_2</m> gives the time it takes her to paddle <m>18</m> miles upstream. Both of these times depend on the speed of the current, <m>x</m>.</p> 
 
 <p>We are looking for a value of <m>x</m> that makes <m>Y_1</m> and <m>Y_2</m> equal. This occurs at the intersection point of the two graphs, <m>(3, 2)</m>. Thus, the speed of the current is <m>3</m> miles per hour, as we found in <xref ref="example-kayak-current" text="type-global"/>. The y-coordinate of the intersection point gives the time Rani paddled on each part of her trip: <m>2</m> hours each way.</p>

@@ -14,7 +14,7 @@
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>6, we review the operations on arithmetic fractions.</p></introduction>
 
 <exercise number="1"><statement><p><m>\dfrac{5}{8} \cdot \dfrac{3}{4} = \dfrac{15}{32}</m></p>
-    <p><m>\blert{\text{Multiply the numerators together; multiply the denominators together.}}</m></p>
+    <p><m>\glert{\text{Multiply the numerators together; multiply the denominators together.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{2}{5} \cdot \dfrac{2}{3}</m></li>
     <li><m>\dfrac{2}{w} \cdot \dfrac{z}{3}</m></li></ol></p></statement>
@@ -24,14 +24,14 @@
 </ol></p></answer></exercise>
 
 <exercise number="2"><statement><p><m>\dfrac{3}{4} \cdot \dfrac{5}{6} = \dfrac{\cancel{3}}{4} \cdot \dfrac{5}{2 \cdot \cancel{3}} = \dfrac{5}{8}</m></p>
-    <p><m>\blert{\text{Divide out common factors first, then multiply.}}</m></p>
+    <p><m>\glert{\text{Divide out common factors first, then multiply.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{5}{4} \cdot \dfrac{8}{9}</m></li>
     <li><m>\dfrac{5}{2a} \cdot \dfrac{4a}{9}</m></li></ol></p>
     </statement></exercise>
 
 <exercise number="3"><statement><p><m>\dfrac{3}{4} \cdot 6 = \dfrac{3}{4} \cdot \dfrac{6}{1} = \dfrac{3}{2 \cdot \cancel{2}} \cdot \dfrac{\cancel{2} \cdot 3}{1} = \dfrac{9}{2}</m></p>
-    <p><m>\blert{\text{Write 6 as}~\dfrac{6}{1}}</m></p>
+    <p><m>\glert{\text{Write 6 as}~\dfrac{6}{1}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{7}{3} \cdot 12</m></li>
     <li><m>\dfrac{7}{x} \cdot 4x</m></li></ol></p></statement>
@@ -42,14 +42,14 @@
 
 <exercise number="4"><statement><p><m>\dfrac{12}{5} \div \dfrac{8}{5} = \dfrac{12}{5} \cdot \dfrac{5}{8} = 
     \dfrac{\cancel{4} \cdot 3}{\cancel{5}} \cdot \dfrac{5\cancel{5}}{\cancel{4} \cdot 2} = \dfrac{3}{2}</m></p>
-    <p><m>\blert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
+    <p><m>\glert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{8}{3} \div \dfrac{2}{9}</m></li>
     <li><m>\dfrac{4a}{3b} \div \dfrac{2a}{3}</m></li></ol></p>
 </statement></exercise>
 
 <exercise number="5"><statement><p><m>\dfrac{3}{5} \div 6 = \dfrac{3}{5} \cdot \dfrac{1}{6} = \dfrac{\cancel{3}}{5} \cdot \dfrac{1}{\cancel{3} \cdot 2} = \dfrac{1}{15}</m></p>
-    <p><m>\blert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
+    <p><m>\glert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{2}{3} \div 4</m></li>
     <li><m>\dfrac{2}{3y} \div (4y)</m></li></ol></p></statement>
@@ -59,7 +59,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>\dfrac{5}{4} + \dfrac{3}{4} = \dfrac{5+3}{4} = \dfrac{8}{4} = 2</m></p>
-    <p><m>\blert{\text{Combine the numerators; keep the same denominator.}}</m></p>
+    <p><m>\glert{\text{Combine the numerators; keep the same denominator.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{13}{6} - \dfrac{5}{6}</m></li>
     <li><m>\dfrac{13k}{n} - \dfrac{5k}{n}</m></li></ol></p>
@@ -83,7 +83,7 @@
     <li><m>4a^2b\dfrac{2a+b}{6ab}</m></li>
     <li><m>15x^2y\dfrac{3}{35xy^2}</m></li></ol></p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 9-14, multiply.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>14, multiply.</p></introduction>
 
 <exercise number="9"><statement><m>\dfrac{3y}{4xy-6y^2} \cdot \dfrac{2x-3y}{12x}</m></statement>
 <answer><m>\dfrac{1}{8x}</m></answer></exercise>
@@ -103,7 +103,7 @@
 </exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 15-24, divide.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>24, divide.</p></introduction>
 
 <exercise number="15"><statement><m>\dfrac{12a^4}{21b^4} \div \dfrac{24ab^2}{27b^3}</m></statement>
 <answer><m>\dfrac{9a^3}{14b^3}</m></answer></exercise>
@@ -131,7 +131,7 @@
 <exercise number="24"><statement><m>(x^2+5x-4) \div \dfrac{x^2-1}{x^2}</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 25-28, add or subtract.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>28, add or subtract.</p></introduction>
 
 <exercise number="25"><statement><m>\dfrac{x-2y}{3x} + \dfrac{x+3y}{3x}</m></statement>
 <answer><m>\dfrac{2x+y}{3x}</m></answer></exercise>
@@ -144,7 +144,7 @@
 <exercise number="28"><statement><m>\dfrac{b+1}{b^2-2b+1} - \dfrac{5-3b}{b^2-2b+1}</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 29-36, find the lowest common denominator for the fractions, then add or subtract.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>36, find the lowest common denominator for the fractions, then add or subtract.</p></introduction>
 
 <exercise number="29"><statement><m>\dfrac{5}{2x} + \dfrac{3}{4x^2}</m></statement>
 <answer><m>\dfrac{10x+3}{4x^2}</m></answer></exercise>
@@ -182,7 +182,7 @@
 <exercise number="42"><statement><m>\dfrac{y-1}{y+1} - \dfrac{y-2}{2y-3}</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 43-46, find the lowest common denominator.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 43<ndash/>46, find the lowest common denominator.</p></introduction>
 
 <exercise number="43"><statement><m>\dfrac{5}{6(x+y)^2},~ \dfrac{4}{3xy^2}</m></statement>
 <answer><m>12xy^2(x+y)^2</m></answer></exercise>
@@ -199,7 +199,7 @@
 
 <subexercises><title>Applications</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 47-54, multiply.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>54, multiply.</p></introduction>
 
 <exercise number="47"><statement><m>\dfrac{4V}{D} \cdot \dfrac{LR}{DV}</m></statement>
 <answer><m>\dfrac{4LR}{D^2}</m></answer></exercise>
@@ -219,11 +219,11 @@
 <exercise number="53"><statement><m>\dfrac{-2}{t^2}\left(4t^3-\dfrac{t^2}{8}+\dfrac{3t}{2}\right)</m></statement>
 <answer><m>-8t +\dfrac{1}{4} - \dfrac{3}{t}</m></answer></exercise>
 
-<exercise number="54"><statement><m>\dfrac{4}{3}v\left(\dfrac2}{3}v-\dfrac{6}{v^2}-\dfrac{3}{v}\right)</m></statement>
+<exercise number="54"><statement><m>\dfrac{4}{3}v\left(\dfrac{2}{3}v-\dfrac{6}{v^2}-\dfrac{3}{v}\right)</m></statement>
 </exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>Write an algebraic expression for each phrase Problems 55-57, and simplify.</p>
+<exercisegroup><introduction><p>Write an algebraic expression for each phrase Problems 55<ndash/>57, and simplify.</p>
 </introduction>
 
 <exercise number="55"><statement><p><ol label="a">
@@ -256,7 +256,7 @@
     <li><m>\dfrac{1}{c} \div (\dfrac{1}{5} \div \dfrac{2}{5})</m></li>
     <li><m>(\dfrac{1}{c} \div \dfrac{1}{5}) \div \dfrac{2}{5}</m></li></ol></p></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 59-64, add or subtract.</p>
+<exercisegroup><introduction><p>For Problems 59<ndash/>64, add or subtract.</p>
 </introduction>
 
 <exercise number="59"><statement><m>\dfrac{-H}{RT} + \dfrac{S}{R}</m></statement>
@@ -275,7 +275,7 @@
 <exercise number="64"><statement><m>\dfrac{q}{r-a} - \dfrac{2q}{r} + \dfrac{q}{r+a}</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 65-68, write algebraic fractions in simplest.</p></introduction>
+<exercisegroup><introduction><p>For Problems 65<ndash/>68, write algebraic fractions in simplest.</p></introduction>
 
 <exercise number="65"><statement><p>The dimensions of a rectangular rug are <m>\dfrac{12}{x}</m> feet and <m>\dfrac{12}{x-2}</m> feet. <ol label="a">
     <li>Write and sinplify an expression for the area of the rug.</li>
