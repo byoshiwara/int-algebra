@@ -26,9 +26,11 @@
        
 </introduction>
 
-<!--  -->
-<!--     <xi:include href="./section-8-1.xml" />   Linear REgression  -->
-        
+<xi:include href="./section-8-1.xml" /> <!--Polynomial Functions -->
+<xi:include href="./section-8-2.xml" /> <!--Algebraic Fractions -->
+<xi:include href="./section-8-3.xml" /> <!--Operations on Algebraic Fractions -->
+<xi:include href="./section-8-4.xml" /> <!--More Operations on Fractions-->
+<xi:include href="./section-8-5.xml" /> <!--Equations with Fractions-->
+<xi:include href="./chap8-summary.xml" /> <!--Summary and Review<-->
 
-</chapter> 
-<!-- </book>  </mathbook> -->
+</chapter>

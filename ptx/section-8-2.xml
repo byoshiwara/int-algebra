@@ -30,8 +30,32 @@ where we have divided both numerator and denominator by 9. The new fraction has 
 </solution></example>
 
 <exercise><title>Practice 1</title>
-<statement><p>Reduce   <m>~\dfrac{-15ab^4}{25a^2b}</m></p></statement>
-<answer><m>\dfrac{-3b^3}{5a}</m></answer></exercise>
+<webwork>
+    <pg-code>
+        Context()->variables->are(a=>"Real", b=>"Real");
+        $answer = Compute("(-15*a*b^4)/(25*a^2*b)");
+        $num = Compute("-3b^3");
+        $den = Compute("5a");
+    </pg-code>
+    <statement><p>
+        Reduce   <m>\displaystyle\frac{-15ab^4}{25a^2b}</m>:</p>
+        <sidebyside><tabular>
+            <row>
+                <cell bottom="minor">
+                    <var name="$num" width="4"/>
+                </cell>
+            </row>
+            <row>
+                <cell>
+                    <var name="$den" width="4"/>
+                </cell>
+            </row>
+        </tabular></sidebyside>
+        <instruction>Enter numerator and denominator in separate boxes.</instruction>
+    </statement>
+    <solution><m>\dfrac{-3b^3}{5a}</m></solution>
+</webwork>
+</exercise>
 
 <warning><p>When we cancel common factors, we are <em>dividing</em>. Because division is the inverse or opposite operation for multiplication, we can cancel common <em>factors</em>, but <em>we cannot cancel common terms</em>.
 </p></warning>
@@ -43,24 +67,101 @@ where we have divided both numerator and denominator by 9. The new fraction has 
 <solution><p>We can cancel the 4's in part (a), because they are factors of numerator and denominator.  We cannot cancel the 4's in part (b), because they are terms.  You can verify that <m>\dfrac{12}{8} = \dfrac{3}{2}</m>, but <m>\dfrac{7}{6} \ne \dfrac{3}{2}</m>.</p></solution></example>
 
 <exercise><title>QuickCheck 1</title>
-<statement><p>Fill in the blanks.<ol label="a">
-    <li>An algebraic fraction is undefined when the <fillin characters="6"/> is <fillin characters="6"/>.</li>
-    <li>"Canceling" common factors uses the operation of <fillin characters="6"/>.</li>
-    <li>Terms are expressions that are <fillin characters="6"/> or <fillin characters="6"/>.</li>
-    <li>When we reduce a fraction, the new fraction is <fillin characters="6"/> to the old one.</li></ol></p></statement>
-<answer><p><ol label="a">
-    <li>denominator, zero</li>
-    <li>division</li>
-    <li>added, subtracted</li>
-    <li>equivalent</li></ol></p>
-</answer></exercise>
+<webwork>
+    <pg-code>
+        $undefined = PopUp(
+            [ "?", 
+            "denominator", 
+            "index",
+            "numerator",
+            "radicand"
+            ],
+            1
+        );
+        $undef2 = PopUp(
+            [ "?", 
+            "even", 
+            "negatove",
+            "positive",
+            "zero"
+            ],
+            4
+        );
+        $cancel = PopUp(
+            [ "?", 
+            "addition", 
+            "division",
+            "subtraction",
+            "squaring"
+            ],
+            2
+        );
+        $terms = PopUp(
+            [ "?", 
+            "added", 
+            "exponentiated",
+            "multiplied",
+            "reduced"
+            ],
+            1
+        );
+        $terms2 = PopUp(
+            [ "?", 
+            "divided", 
+            "expended",
+            "simplified",
+            "subtracted"
+            ],
+            4
+        );
+        $equiv = PopUp(
+            [ "?", 
+            "equivalent", 
+            "inverse",
+            "superior",
+            "unrelated"
+            ],
+            1
+        );
+    </pg-code>
+    <statement>
+        <p>Fill in the blanks.
+            <ol label="a">
+                <li>An algebraic fraction is undefined when the <var name="$undefined" form="popup"/> is <var name="$undef2" form="popup"/>.</li>
+                <li>"Canceling" common factors uses the operation of <var name="$cancel" form="popup"/>.</li>
+                <li>Terms are expressions that are <var name="$terms" form="popup"/> or <var name="$terms2" form="popup"/>.</li>
+                <li>When we reduce a fraction, the new fraction is <var name="$equiv" form="popup"/> to the old one.</li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>denominator, zero</li>
+        <li>division</li>
+        <li>added, subtracted</li>
+        <li>equivalent</li></ol></p>
+    </solution>
+</webwork>
+</exercise>
 
 <exercise><title>Practice 2</title>
-<statement><p>Which calculation is correct? Choose a value for <m>x</m> and use your calculator to verify your answer.
-<ol label="a" cols="2">
-    <li><m>\dfrac{5x}{8x} = \dfrac{5}{8}</m></li>
-    <li><m>\dfrac{x+5}{x+8} = \dfrac{5}{8}</m></li></ol></p></statement>
-<answer><p>(a)</p></answer></exercise>
+<webwork>
+    <pg-code>
+        $ans = RadioButtons(
+            [ "(a) \(\quad \displaystyle\frac{5x}{8x}=\frac{5}{8} \)$BR", 
+            "(b) \(\quad \displaystyle\frac{x+5}{x+8}=\frac{5}{8}  \)"
+            ],
+            0
+        );
+        
+    </pg-code>
+    <statement>
+        <p>Which calculation is correct? Choose a value for <m>x</m> and use your calculator to verify your answer.</p>
+        <p><var name="$ans" form="buttons"/> </p>
+    </statement>
+    <solution><p>(a)</p></solution>
+</webwork>
+</exercise>
+
 
 <p>If the numerator or denominator of the fraction contains more than one term, it is especially important to <em>factor before reducing</em>, so that numerator and denominator are written as products of factors, instead of sums of terms. </p>
 
@@ -79,12 +180,43 @@ In Example 3b, we cannot cancel the 3's, because they are terms and not factors.
         <me>\dfrac{9x^2+3}{6x+3} \ne \dfrac{9x^2}{6x}</me></p></warning>
 
 <exercise><title>Practice 3</title>
-<statement><p>Explain why each calculation is incorrect.<ol label="a" cols="2">
-    <li><m>\dfrac{x-6}{x-9} \ne \dfrac{x-2}{x-3}</m></li>
-    <li><m>\dfrac{2x+5}{2} \ne x+5</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<webwork>
+    <pg-code>
+        $a = RadioButtons(
+            [ "3 is not a factor of numerator or denominator.", 
+            "More cancelling is required."
+            ],
+            0
+        );
+        $b = RadioButtons(
+            [ "2 is not a factor of the numerator.", 
+            "2 should be subtracted from 5."
+            ],
+            0
+        );
+    </pg-code>
+    <statement><p>
+        Explain why each calculation is incorrect.
+        <ol label="a">
+            <li><p>
+                <m>
+                    \dfrac{x-6}{x-9} \rightarrow \dfrac{x-2}{x-3}
+                </m>
+            </p><p><var name="$a" form="buttons"/>
+            </p></li>
+            <li><p>
+                <m>
+                    \dfrac{2x+5}{2} \rightarrow x+5                  
+                </m>
+            </p><p><var name="$b" form="buttons"/>
+            </p></li>
+        </ol>
+    </p></statement>
+    <solution><p><ol label="a">
     <li>3 is not a factor of numerator or denominator</li>
-    <li>2 is not a factor of the numerator</li></ol></p></answer></exercise>        
+    <li>2 is not a factor of the numerator</li></ol></p></solution>
+</webwork>
+</exercise>        
 
 <p>We summarize the procedure for reducing algebraic fractions as follows.</p>
 
@@ -112,27 +244,99 @@ In Example 3b, we cannot cancel the 3's, because they are terms and not factors.
 </solution></example>
 
 <exercise><title>QuickCheck 2</title>
-<statement><p>Fill in the blanks.<ol label="a">
-    <li>If we want to cancel an expression from a fraction, we must be able to <fillin characters="6"/> it from numerator and denominator.</li>
-    <li>When we factor an expression, we write it as a <fillin characters="6"/>.</li>
-    <li>If a factor appears in both numerator and denominator, it is called a <fillin characters="6"/> factor.</li>
-    <li>If all the factors in the numerator or denominator cancel out, we replace it by <fillin characters="6"/>.</li>
-</ol></p></statement>
-<answer><p><ol label="a">
-    <li>factor</li>
-    <li>product</li>
-    <li>common</li>
-    <li>1</li></ol></p>
-</answer></exercise>
+<webwork>
+    <pg-code>
+        $cancel = PopUp(
+            [ "?", 
+            "exponentiate", 
+            "factor",
+            "invalidate",
+            "subtract"
+            ],
+            2
+        );
+        $factor = PopUp(
+            [ "?", 
+            "difference", 
+            "product",
+            "quotient",
+            "sum"
+            ],
+            2
+        );
+        $common = PopUp(
+            [ "?", 
+            "common", 
+            "fallacious",
+            "missing",
+            "zero"
+            ],
+            1
+        );
+        $one = Compute("1");
+    </pg-code>
+    <statement>
+        <p>Fill in the blanks.
+            <ol label="a">
+                <li>If we want to cancel an expression from a fraction, we must be able to <var name="$cancel" form="popup"/> it from numerator and denominator.</li>
+                <li>When we factor an expression, we write it as a <var name="$factor" form="popup"/>.</li>
+                <li>If a factor appears in both numerator and denominator, it is called a <var name="$common" form="popup"/> factor.</li>
+                <li>If all the factors in the numerator or denominator cancel out, we replace it by <var name="$one" width="2"/>.</li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a">
+        <li>factor</li>
+        <li>product</li>
+        <li>common</li>
+        <li>1</li></ol></p>
+    </solution>
+</webwork>
+</exercise>
 
 <exercise><title>Practice 4</title>
-<statement><p>Reduce each fraction. <ol label="a" cols="2">
-        <li><m>\dfrac{x^2-x-6}{x^2-9}</m></li>
-        <li><m>\dfrac{16t^2-4}{8t+4}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<webwork>
+    <pg-code>
+        $ans = RadioButtons(
+            [ "\(\quad \displaystyle\frac{x+6}{9} \)$BR", 
+            "\(\quad \displaystyle\frac{x+2}{x+3} \)$BR",
+            "\(\quad \displaystyle\frac{x-2}{x-3} \)"
+            ],
+            1
+        );
+        $ansb = RadioButtons(
+            [ "\(\quad 2t-1 \)$BR", 
+            "\(\quad \displaystyle\frac{t-2}{2} \)$BR",
+            "\(\quad3t^2 \)"
+            ],
+            0
+        );
+        
+    </pg-code>
+    <statement>
+        <p>Reduce each fraction. 
+            <ol label="a" cols="2">
+                <li>
+                    <p>
+                        <m>\dfrac{x^2-x-6}{x^2-9}</m>
+                    </p>
+                    <p><var name="$ans" form="buttons"/> </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\dfrac{16t^2-4}{8t+4}</m>
+                    </p>
+                    <p><var name="$ansb" form="buttons"/> </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p><ol label="a" cols="2">
         <li><m>\dfrac{x+2}{x+3}</m></li>
-        <li><m>2t-1</m></li></ol></p></answer>
+        <li><m>2t-1</m></li></ol></p></solution>
+</webwork>
 </exercise>
+
 
 <p>Keep in mind that the reduced form is equivalent to the original form of the fraction.  If we evaluate the original form and the reduced form at the same value of the variable, the results are equal.</p>
 
@@ -144,8 +348,20 @@ and
     <me>\dfrac{x+2}{x+3} = \dfrac{\alert{2}+2}{\alert{2}+3} = \dfrac{4}{5}</me></p></solution></example> 
 
 <exercise><title>Practice 5</title>
-<statement><p>If you evaluate <m>\dfrac{3x+12}{6x+24}</m> for <m>x=2</m> and for <m>x=-5</m>, what answer do you expect to get? (Recall Example 4a.)</p></statement>
-<answer><m>\dfrac{1}{2}</m></answer></exercise>
+<webwork>
+    <pg-code>
+        $answer = Compute("1/2");
+    </pg-code>
+    <statement>
+        <p>
+            If you evaluate <m>\dfrac{3x+12}{6x+24}</m> for <m>x=2</m> and for <m>x=-5</m>, what answer do you expect to get? (Recall the earlier Example with the same algebraic fraction in part a.)
+        </p>
+        <p><var name="$answer" width="3"/> </p>
+    </statement>
+    <solution><m>\dfrac{1}{2}</m></solution>
+</webwork>
+</exercise>
+
 
 </subsection>
 
@@ -173,16 +389,43 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 </example>
 
 <exercise><title>Practice 6</title>
-<statement><p>Reduce if possible. <ol label="a" cols="2">
-    <li><m>\dfrac{-x+1}{1-x}</m></li>
-    <li><m>\dfrac{1+x}{1-x}</m></li>
-    <li><m>\dfrac{2a-3b}{3b-2a}</m></li>
-    <li><m>\dfrac{2a-3b}{2b-3a}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<webwork>
+    <pg-code>
+        $a = Compute("1");
+        @choices = ("?", "cannot be reduced","cbr");
+        $popup = PopUp([@choices], $choices[0]);  # It doesn't matter which is used as the "correct answer".
+        Context($popup->context); 
+        $b = OneOf(@choices[1..2]);
+        $c = Compute("-1");
+    </pg-code>
+    <statement>
+        <p>Reduce if possible. 
+            <ol label="a" cols="2">
+                <li>
+                    <p>
+                        <m>\dfrac{-x+1}{1-x}</m>
+                        <var name="$a" width="5"/>
+                    </p>
+                </li>
+                <li><p>
+                    <m>\dfrac{1+x}{1-x}</m> <var name="$b" width="5"/>
+                </p></li>
+                <li><p>
+                    <m>\dfrac{2a-3b}{3b-2a}</m> <var name="$c" width="5"/>
+                </p></li>
+                <li><p>
+                    <m>\dfrac{2a-3b}{2b-3a}</m> <var name="$b" width="5"/>
+                </p></li>
+            </ol>
+        </p>
+        <instruction>Enter "cbr" if the fraction cannot be reduced</instruction>
+    </statement>
+    <solution><p><ol label="a" cols="2">
     <li>1</li>
     <li>cannot be reduced</li>
     <li><m>-1</m></li>
-    <li>cannot be reduced</li></ol></p></answer>
+    <li>cannot be reduced</li></ol></p></solution>
+</webwork>
 </exercise>
 </subsection>
 
@@ -236,52 +479,130 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
     <p>What about negative values for <m>x</m>? If we interpret a negative headwind as a tailwind, Francine's flying time should decrease for negative <m>x</m>-values. For example, if <m>x = -5</m>, there is a tailwind of 5 miles per hour, so Francine's effective speed is 02  miles per hour, and she can complete the flight in 3 hours. As the tailwind gets stronger (that is, as we move farther to the left in the <m>x</m>-direction), Francine's flying time continues to decrease, and the graph approaches the <m>x</m>-axis.</p></li></ol></p>
 </solution></example>
 
-<p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx>vertical asymptote</idx> for the graph. We first encountered asymptotes in <xref ref="basic-functions" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>
+<p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx>vertical asymptote</idx> for the graph. We first encountered asymptotes in <xref ref="SomeBasicGraphs" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>
 
 <exercise><title>Practice 7</title>
-<statement><p>EarthCare decides to sell T-shirts to raise money. The company makes an initial investment of $100 to pay for the design of the T-shirt and to set up the printing process. After that, the T-shirts cost $5 each for labor and materials.<ol label="a">
-        <li><p>Express the average cost, <m>C</m>, per T-shirt as a function of the number of T-shirts EarthCare produces.</p></li>
-        <li><p>Make a table of values for the function.</p></li>
-        <li><p>Graph the function and explain what it tells you about the cost of the T-shirts.</p></li>
-    </ol></p></statement>
-<answer><ol label="a">
-        <li><m>C=g(x) = \dfrac{100+5x}{x}</m></li>
-        <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>10</m></cell>
-                        <cell><m>20</m></cell></row>
-                    <row> 
-                        <cell><m>C</m></cell>
-                        <cell><m>105</m></cell>
-                        <cell><m>55</m></cell>
-                        <cell><m>30</m></cell>
-                        <cell><m>25</m></cell>
-                        <cell><m>15</m></cell>
-                        <cell><m>10</m></cell></row>
-                    </tabular></sidebyside></p></li>
-        <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
-            <p>As the number of T-shirts increases, the average cost per shirt decreases, but eventually levels off and approaches $5 per T-shirt.</p></li></ol></answer></exercise>
+<webwork>
+    <pg-code>
+        $cost = Formula("(100+5*x)/x");
+        @t = (1,2,4,5,10,20);
+        foreach my $i(0..5) {
+        $C[$i]= $cost->eval(x=>$t[$i]);
+        }
+    </pg-code>
+    <statement>
+        <p>
+            EarthCare decides to sell T-shirts to raise money. The company makes an initial investment of $100 to pay for the design of the T-shirt and to set up the printing process. After that, the T-shirts cost $5 each for labor and materials.
+            <ol label="a">
+                <li><p>
+                    Express the average cost, <m>C</m>, per T-shirt as a function of the number of T-shirts EarthCare produces.
+                    <p><m>C=</m><var name="$cost" width="10"/> </p>
+                </p></li>
+                <li>
+                    <p>Make a table of values for the function.</p>
+                    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                        <row bottom="minor">
+                            <cell><m>x</m></cell>
+                            <cell><m>1</m></cell>
+                            <cell><m>2</m></cell>
+                            <cell><m>4</m></cell>
+                            <cell><m>5</m></cell>
+                            <cell><m>10</m></cell>
+                            <cell><m>20</m></cell></row>
+                        <row> 
+                            <cell><m>C</m></cell>
+                            <cell><var name="$C[0]" width="3"/></cell>
+                            <cell><var name="$C[1]" width="2"/></cell>
+                            <cell><var name="$C[2]" width="2"/></cell>
+                            <cell><var name="$C[3]" width="2"/></cell>
+                            <cell><var name="$C[4]" width="2"/></cell>
+                            <cell><var name="$C[5]" width="2"/></cell></row>
+                        </tabular></sidebyside>
+                </li>
+                <li><p>Graph the function and explain what it tells you about the cost of the T-shirts.</p></li>
+            </ol>
+        </p>
+    </statement>
+    <solution><p>
+        <ol label="a">
+            <li><m>C=g(x) = \dfrac{100+5x}{x}</m></li>
+            <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>20</m></cell></row>
+                <row> 
+                    <cell><m>C</m></cell>
+                    <cell><m>105</m></cell>
+                    <cell><m>55</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>25</m></cell>
+                    <cell><m>15</m></cell>
+                    <cell><m>10</m></cell></row>
+                </tabular></sidebyside></li>
+            <li>
+                <p>A graph is below.</p>                
+                <p>As the number of T-shirts increases, the average cost per shirt decreases, but eventually levels off and approaches $5 per T-shirt.</p>
+            </li>
+        </ol></p>
+    </solution>
+</webwork>
+<conclusion>
+    <sidebyside width="40%" margins="0% 5%"><image source="images/fig-average-cost"><description>graph of average cost of production</description></image></sidebyside>
+</conclusion>
+</exercise>
 
 <p>In Exercise 7, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions.</p>
 
 <exercise><title>QuickCheck 3</title>
-<statement><p>True or False<ol label="a">
-    <li>A rational function is a quotient of polynomials.</li>
-    <li>A vertical asymptote occurs where a rational function is undefined.</li>
-    <li>A horizontal asymptote is a line that the graph approaches as <m>x</m> increases.</li>
-    <li>The algebraic fraction <m>\dfrac{60}{x-15}</m> is never equal to zero.</li>
-</ol></p></statement>
-<answer><p><ol label="a">
+<webwork>
+    <pg-code>
+        $True = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            1
+        );
+        $False = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            2
+        );        
+    </pg-code>
+    <statement><p>True or False.
+    <ol label="a">
+        <li>
+            <p>
+                A rational function is a quotient of polynomials. <var name="$True" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                A vertical asymptote occurs where a rational function is undefined.  <var name="$True" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>A horizontal asymptote is a line that the graph of a rational function approaches as <m>x</m> increases. <var name="$True" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                The algebraic fraction <m>\dfrac{60}{x-15}</m> is never equal to zero.  <var name="$True" form="popup"/>
+            </p>
+        </li>
+    </ol></p></statement>
+    <solution><p><ol label="a">
     <li>True</li>
     <li>True</li>
     <li>True</li>
-    <li>True</li></ol></p>
-</answer></exercise>
+    <li>True</li></ol></p></solution>
+</webwork>
+</exercise>
 
 </subsection>
 
@@ -289,4 +610,3 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
 
 
 </section>
-<!-- </book>  </mathbook> -->

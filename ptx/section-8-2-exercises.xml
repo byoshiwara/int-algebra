@@ -59,9 +59,10 @@
 <exercise number="8"><statement><p><ol label = "a">
     <li><m>\dfrac{-9y^3z}{42yz}</m></li>
     <li><m>\dfrac{8u^3v^2}{12v^2w}</m></li></ol></p></statement>
-<answer><p><ol label = "a">
+<!-- <answer><p><ol label = "a">
     <li><m>\dfrac{-3y^2}{14}</m></li>
-    <li><m>\dfrac{2u^3}{3w} </m></li></ol></p></answer></exercise>
+    <li><m>\dfrac{2u^3}{3w} </m></li></ol></p></answer> -->
+</exercise>
 </exercisegroup>
 </subexercises>
 
@@ -168,7 +169,7 @@
     <me>t=\dfrac{300}{10-v}</me>
 Use the graph of this equation shown in the figure to answer questions (a) and (b).</p>
 <!--<image source="images/hp-8-1-47.png"><description>graph</description></image>-->
-    <image xml:id="hp-8-1-47">
+    <image xml:id="fig-hw-row-upstream">
         <description>curve</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -231,7 +232,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     <li><p>Use the table to choose an appropriate window and graph your function <m>t(v)</m>. Label the scales on the axes.</p></li>
     <li>Estimate the wind speed if the travel time was 12 hours. Illustrate your result on the graph.</li> 
     <li>Give the equations of any horizontal or vertical asymptotes. What does the vertical asymptote tell us about the problem?</li></ol></p></statement>
-<answer><p><ol label="a">
+<!-- <answer><p><ol label="a">
     <li><p><m>t=\dfrac{150}{50-v} </m></p></li>
     <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
@@ -252,37 +253,101 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><mdash/></cell></row>
         </tabular></sidebyside>
         <p>The travel time increases as the headwind speed increases.</p></li>
-    <li><sidebyside width="40%"><image source="images/fig-ans-7-4-1.jpg"><description>rational function</description></image></sidebyside></li>
+    <li><sidebyside width="40%"><image source="images/fig-GC-eiderduck-against-wind"><description>rational function</description></image></sidebyside></li>
     <li>37.5 mph</li>
     <li><m>t=0;~v=50</m>. If the wind speed is 50 mph, the ducks will not make progress.</li> 
-</ol></p></answer></exercise>
+</ol></p></answer> -->
+</exercise>
 
-<exercise number="31"><statement><p>The cost, in thousands of dollars, for extracting <m>p</m> percent of a precious ore from a mine is given by the equation
-    <me>C(p)=\frac{360p}{100-p} </me><ol label="a">
-    <li><p>What input values make sense for <m>C</m>?</p></li>
-    <li><p>Complete the table showing the cost of extracting various percentages of the ore. (Note: do not convert percents to decimals.)</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
-            <row>
-                <cell><m>p</m></cell>
-                <cell><m>0</m></cell>
-                <cell><m>25</m></cell>
-                <cell><m>50</m></cell>
-                <cell><m>75</m></cell>
-                <cell><m>90</m></cell>
-                <cell><m>100</m></cell></row>
-            <row>
-                <cell><m>C</m></cell>
-                <cell><m>\hphantom{00}</m></cell>
-                <cell><m>\hphantom{00}</m></cell>
-                <cell><m> </m></cell>
-                <cell><m> </m></cell>
-                <cell><m> </m></cell>
-                <cell><m> </m></cell></row>
-        </tabular></sidebyside></li>
-    <li><p>Graph the function <m>C</m> in an appropriate window.  What percentage of the ore can be extracted if $540,000 can be spent on the extraction?</p></li>
-    <li><p>For what values of <m>p</m> is the total cost less than $1,440,000?</p></li>
-    <li><p>The graph has a vertical asymptote. What is it? What is its significance in the context of this problem?</p></li>
-</ol></p></statement></exercise>
+<exercise number="31">
+    <statement>
+        <p>The cost, in thousands of dollars, for extracting <m>p</m> percent of a precious ore from a mine is given by the equation
+        <me>C(p)=\frac{360p}{100-p} </me>
+        <ol label="a">
+            <li><p>What input values make sense for <m>C</m>?</p></li>
+            <li><p>Complete the table showing the cost of extracting various percentages of the ore. (Note: do not convert percents to decimals.)</p>
+                <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                    <row>
+                        <cell><m>p</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>50</m></cell>
+                        <cell><m>75</m></cell>
+                        <cell><m>90</m></cell>
+                        <cell><m>100</m></cell></row>
+                    <row>
+                        <cell><m>C</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m> </m></cell>
+                        <cell><m> </m></cell>
+                        <cell><m> </m></cell>
+                        <cell><m> </m></cell></row>
+                </tabular></sidebyside></li>
+            <li><p>Graph the function <m>C</m> in an appropriate window.  What percentage of the ore can be extracted if $540,000 can be spent on the extraction?</p></li>
+            <li><p>For what values of <m>p</m> is the total cost less than $1,440,000?</p></li>
+            <li><p>The graph has a vertical asymptote. What is it? What is its significance in the context of this problem?</p></li>
+        </ol></p>
+    </statement>
+    <answer>
+        <p><ol label="a">
+            <li><p><m>0\le p \lt 100</m></p></li>
+            <li>
+                <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                    <row>
+                        <cell><m>p</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>50</m></cell>
+                        <cell><m>75</m></cell>
+                        <cell><m>90</m></cell>
+                        <cell><m>100</m></cell></row>
+                    <row>
+                        <cell><m>C</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>120</m></cell>
+                        <cell><m>360</m></cell>
+                        <cell><m>1080</m></cell>
+                        <cell><m>3240</m></cell>
+                        <cell><m>-- </m></cell></row>
+                </tabular></sidebyside></li>
+            <li>
+                <sidebyside widths="45% 10%" margins="0% 40%" valigns="middle middle" >
+                    <image xml:id="fig-extraction-cost-of-ore">
+                        <description>curve</description>
+                        <latex-image>
+                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                        <![CDATA[\tikzset{%
+                        }
+                        \begin{tikzpicture} [scale=.30]
+                        \draw[lightgray] (0,0) grid  (20,30);
+                        \foreach \x  in {5,10,15,20} {
+                         \draw[gray,thick] (\x,0) --++(0,30);
+                         }
+                        \foreach \x  in {5,10,...,30} {
+                         \draw[gray,thick] (0,\x) --++(20,0);
+                         }
+                        \draw[black,thick, ->, >=stealth'] (0,0)--(20.9,0) node[right]{$x$};
+                        \draw[black,thick, ->, >=stealth'] (0,0)--(0,30.9) node[above]{$y$};
+                        \foreach \x [evaluate=\x as \xi using int(5*\x)] in {2,4,...,20} {
+                         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                         }
+                        \foreach \x [evaluate=\x as \xi using int(200*\x)]  in {5,10,...,30} {
+                         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                        }
+                        \draw[samples=65,domain={0:1000/53},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {9*\x/(100-5*\x))});
+                        \draw[very thick,dashed,blue](20,0)--(20,30);
+                        \end{tikzpicture}]]>
+                        </latex-image>
+                    </image>
+                    <p>60%</p>
+                </sidebyside>
+            </li>
+            <li><p><m>p\lt 80%</m></p></li>
+            <li><p><m>p=100</m>: The cost of extracting more ore grows without bound as the amount extracted approaches 100%.</p></li>
+        </ol></p>
+    </answer>
+</exercise>
 
 <exercise number="32"><statement><p>The total cost in dollars of producing <m>n</m> calculators is approximately <m>20,000+8n</m>.<ol label="a">
     <li><p>Express the cost per calculator, <m>C</m>, as a function of the number <m>n</m> of calculators produced.</p></li>
@@ -312,7 +377,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     <li><p>For what values of <m>n</m> is the cost less than $12 per calculator?</p></li>
     <li><p>Find the horizontal asymptote of the graph. What does it represent in this context?</p></li>
 </ol></p></statement>
-<answer><p><ol>
+<!-- <answer><p><ol>
     <li><p><m>C=8+\dfrac{20,000}{n} </m></p></li>
     <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
@@ -332,11 +397,12 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><m>13 </m></cell>
                 <cell><m>12 </m></cell></row>
         </tabular></sidebyside></li>
-    <li><sidebyside width="40%"><image source="images/fig-ans-7-4-5.jpg"><description>rational function</description></image></sidebyside></li>
+    <li><sidebyside width="40%"><image source="images/fig-GC-avg-calculator-cost"><description>rational function</description></image></sidebyside></li>
     <li><p><m>2000</m></p></li>
     <li><p><m>n\gt 5000</m></p></li>
     <li><p><m>C=8</m>; As <m>n</m> increases, the average cost per calculator approaches $<m>8</m>.</p></li>
-</ol></p></answer></exercise>
+</ol></p></answer> -->
+</exercise>
 
 <exercise number="33"><statement><p>The volume of a test tube is given by its height times the area of its cross-section. A test tube that holds 200 cubic centimeters is <m>2x-1</m> centimeters long.
 <ol label="a">
@@ -397,9 +463,9 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><m>5018 </m></cell>
                 <cell><m>5130 </m></cell></row>
         </tabular></sidebyside></li>
-    <li><p>$4768.33</p><sidebyside width="40%"><image source="images/fig-ans-7-4-7.jpg"><description>rational function</description></image></sidebyside></li>
+    <li><p>$4768.33</p><sidebyside width="40%"><image source="images/fig-GC-computer-inventory-cost"><description>rational function</description></image></sidebyside></li>
     <li><p>22; 14></p></li>
-    <li><sidebyside width="40%"><image source="images/fig-ans-7-4-7e.jpg"><description>rational function with slant asymptote</description></image></sidebyside><p>The graph of <m>C</m> approaches the line as an asymptote.</p></li>
+    <li><sidebyside width="40%"><image source="images/fig-GC-computer-inventory-cost-asymptote"><description>rational function with slant asymptote</description></image></sidebyside><p>The graph of <m>C</m> approaches the line as an asymptote.</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="36"><statement><p>A train whistle sounds higher when the train is approaching you than when it is moving away from you. This phenomenon is known as the Doppler effect. If the actual pitch of the whistle is 440 hertz (this is the A note below middle C), then the note you hear will have the pitch
@@ -435,7 +501,7 @@ where the velocity, <m>v</m>, in meters per second is positive as the train appr
     <li><p>For what velocities will the pitch you hear be greater than 456.5 hertz?</p></li>
     <li><p>The graph has a vertical asymptote (although it is not visible in the suggested window). Where is it and what is its significance in this context?</p></li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<!-- <answer><p><ol label="a">
      <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>v</m></cell>
@@ -460,11 +526,12 @@ where the velocity, <m>v</m>, in meters per second is positive as the train appr
                 <cell><m>568.4 </m></cell>
                 <cell><m>629.66 </m></cell></row>
         </tabular></sidebyside></li>
-    <li><sidebyside width="35%"><image source="images/fig-ans-7-4-11.jpg"><description>rational function</description></image></sidebyside></li>
+    <li><sidebyside width="35%"><image source="images/fig-GC-doppler"><description>rational function</description></image></sidebyside></li>
     <li><p><m>-20</m> m/sec; <m>68</m> m/sec</p></li>
     <li><p><m>v \gt 12</m> m/sec</p></li>
     <li><p><m>v=332</m>; As <m>v</m> approaches 332 m per sec, the pitch increases without bound.</p></li>
-</ol></p></answer></exercise>
+</ol></p></answer> -->
+</exercise>
 
 
 
