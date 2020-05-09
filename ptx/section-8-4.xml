@@ -10,7 +10,9 @@
 are complex fractions.  Like simple fractions, complex fractions represent quotients.  For the examples above,
     <me>\dfrac{\dfrac{2}{3}}{\dfrac{5}{6}} = \dfrac{2}{3} \div \dfrac{5}{6}</me>
 and
-    <me>\dfrac{x+\dfrac{3}{4}}{x-\dfrac{1}{2}} = (x+\dfrac{3}{4}) \div (x-\dfrac{1}{2})</me>
+    <md><mrow>
+        \dfrac{x+\dfrac{3}{4}}{x-\dfrac{1}{2}} = \left(x+\dfrac{3}{4}\right) \div \left(x-\dfrac{1}{2}\right)
+    </mrow></md>
 We can always simplify a complex fraction into a standard algebraic fraction.  One way to do this is to treat the fraction as a division.</p>
 
 <example><statement><p>Simplify  <m>~~\dfrac{\dfrac{2}{3}}{\dfrac{5}{6}}</m></p></statement>
@@ -20,8 +22,54 @@ We can always simplify a complex fraction into a standard algebraic fraction.  O
 </solution></example>
 
 <exercise><title>Practice 1</title>
-<statement><p>Simplify   <m>~~\dfrac{\dfrac{2x}{y^3}}{\dfrac{x}{3y}}</m></p></statement>
-<answer><m>\dfrac{6}{y^2}</m></answer></exercise>
+<webwork>
+    <pg-code>
+        Context()->variables->add(y=>"Real");
+        $num = Compute("6");
+        $den = Compute("y^2");
+        $multians = MultiAnswer($num, $den)->with(
+          singleResult => 0,
+          allowBlankAnswers => 1,
+          checker => sub {
+              my ( $correct, $student, $self ) = @_;
+              my ( $f1stu, $f2stu ) = @{$student};
+              my ( $f1, $f2 ) = @{$correct};
+         
+              if ( ( $f1==$f1stu &amp;  $f2==$f2stu) || 
+                   (-$f1==$f1stu &amp; -$f2==$f2stu) ) {
+                  return [1,1];
+              } elsif ( $f1==$f1stu || -$f1==$f1stu) {
+                  return [1,0];
+              } elsif ( $f2==$f2stu || -$f2==$f2stu ) {
+                  return [0,1];
+              } elsif ( $f1*$f2stu==$f1stu*$f2 ) {
+                  $self->setMessage(1,"Simplify your answer further");
+                  $self->setMessage(2,"Simplify your answer further");
+                  return [0,0];
+              } else {
+                  return [0,0];
+              }
+          }
+        );
+    </pg-code>
+    <statement><p>Simplify   <m>\quad\dfrac{\dfrac{2x}{y^3}}{\dfrac{x}{3y}}</m></p>
+        <sidebyside><tabular>
+            <row>
+                <cell bottom="minor">
+                    <var name="$multians" width="4"/>
+                </cell>
+            </row>
+            <row>
+                <cell>
+                    <var name="$multians" width="4"/>
+                </cell>
+            </row>
+        </tabular></sidebyside>
+        <instruction>Enter numerator and denominator in separate boxes.</instruction>
+    </statement>
+    <solution><m>\dfrac{6}{y^2}</m></solution>
+</webwork>
+</exercise>
 
 <p>If the numerator or denominator of the complex fraction contains more than one term, there is an easier way to simplify the fraction that takes advantage of the fundamental principle of fractions.</p>
 
@@ -45,8 +93,55 @@ Finally, we reduce the result to obtain
     <li>Reduce the resulting simple fraction, if possible.</li></ol></p></assemblage>
 
 <exercise><title>Practice 2</title>
-<statement><p>Simplify   <m>~~\dfrac{1+\dfrac{b}{a}}{1-\dfrac{bc}{ad}}</m></p></statement>
-<answer><m>\dfrac{ad+bd}{ad-bc}</m></answer></exercise>
+<webwork>
+    <pg-code>
+        Context()->variables->add(a=>"Real", b=>"Real", c=>"Real", d=>"Real");
+        $num = Compute("a*d+b*d");
+        $den = Compute("a*d-b*c");
+        $multians = MultiAnswer($num, $den)->with(
+          singleResult => 0,
+          allowBlankAnswers => 1,
+          checker => sub {
+              my ( $correct, $student, $self ) = @_;
+              my ( $f1stu, $f2stu ) = @{$student};
+              my ( $f1, $f2 ) = @{$correct};
+         
+              if ( ( $f1==$f1stu &amp;  $f2==$f2stu) || 
+                   (-$f1==$f1stu &amp; -$f2==$f2stu) ) {
+                  return [1,1];
+              } elsif ( $f1==$f1stu || -$f1==$f1stu) {
+                  return [1,0];
+              } elsif ( $f2==$f2stu || -$f2==$f2stu ) {
+                  return [0,1];
+              } elsif ( $f1*$f2stu==$f1stu*$f2 ) {
+                  $self->setMessage(1,"Simplify your answer further");
+                  $self->setMessage(2,"Simplify your answer further");
+                  return [0,0];
+              } else {
+                  return [0,0];
+              }
+          }
+        );
+    </pg-code>
+    <statement><p>Simplify <m>\quad \dfrac{1+\dfrac{b}{a}}{1-\dfrac{bc}{ad}}</m></p>
+        <sidebyside><tabular>
+            <row>
+                <cell bottom="minor">
+                    <var name="$multians" width="5"/>
+                </cell>
+            </row>
+            <row>
+                <cell>
+                    <var name="$multians" width="5"/>
+                </cell>
+            </row>
+        </tabular></sidebyside>
+        <instruction>Enter numerator and denominator in separate boxes.</instruction>
+    </statement>
+    <solution><m>\dfrac{ad+bd}{ad-bc}</m></solution>
+</webwork>
+</exercise>
+
 </subsection>
 
 <subsection><title>Negative Exponents</title>
@@ -59,11 +154,11 @@ Finally, we reduce the result to obtain
 
 <solution><p><ol label="a">
     <li><p>We write each power as a fraction, then simplify.
-        <md><mrow>x^{-1}-y^{-1} \amp = \dfrac{1}{x} - \dfrac{1}{y} \amp \amp \blert{\text{The LCD is}~xy.}</mrow>
+        <md><mrow>x^{-1}-y^{-1} \amp = \dfrac{1}{x} - \dfrac{1}{y} \amp \amp \glert{\text{The LCD is}~xy.}</mrow>
             <mrow>\amp = \dfrac{1}{x} \cdot \dfrac{y}{y}- \dfrac{1}{y} \cdot \dfrac{x}{x}</mrow>
             <mrow>\amp = \dfrac{y-x}{xy}</mrow></md></p></li>
     <li><p>We simplify the expression inside parentheses first.
-        <md><mrow>(x^{-2}+y^{-2})^{-1} \amp = (\dfrac{1}{x^2} + \dfrac{1}{y^2})^{-1} \amp \amp \blert{\text{Add fractions.}}</mrow>
+        <md><mrow>(x^{-2}+y^{-2})^{-1} \amp = (\dfrac{1}{x^2} + \dfrac{1}{y^2})^{-1} \amp \amp \glert{\text{Add fractions.}}</mrow>
             <mrow> \amp = (\dfrac{y^2+x^2}{x^2y^2})^{-1} = \dfrac{x^2y^2}{x^2+y^2}</mrow></md>
     For the last step, remember that a negative exponent indicates the reciprocal of its base.</p></li></ol></p>
 </solution></example>
@@ -79,21 +174,99 @@ Finally, we reduce the result to obtain
             <me>(a+b)^n \ne a^n + b^n</me></p></li></ol></p></warning>
 
 <exercise><title>Practice 3</title>
-<statement><p>Simplify   <m>~(1+x^{-1})^{-1}</m></p></statement>
-<answer><m>\dfrac{x}{x+1}</m></answer></exercise>
+<webwork>
+    <pg-code>
+        $num = Compute("x");
+        $den = Compute("x+1");
+        $multians = MultiAnswer($num, $den)->with(
+          singleResult => 0,
+          allowBlankAnswers => 1,
+          checker => sub {
+              my ( $correct, $student, $self ) = @_;
+              my ( $f1stu, $f2stu ) = @{$student};
+              my ( $f1, $f2 ) = @{$correct};
+         
+              if ( ( $f1==$f1stu &amp;  $f2==$f2stu) || 
+                   (-$f1==$f1stu &amp; -$f2==$f2stu) ) {
+                  return [1,1];
+              } elsif ( $f1==$f1stu || -$f1==$f1stu) {
+                  return [1,0];
+              } elsif ( $f2==$f2stu || -$f2==$f2stu ) {
+                  return [0,1];
+              } elsif ( $f1*$f2stu==$f1stu*$f2 ) {
+                  $self->setMessage(1,"Simplify your answer further");
+                  $self->setMessage(2,"Simplify your answer further");
+                  return [0,0];
+              } else {
+                  return [0,0];
+              }
+          }
+        );
+    </pg-code>
+    <statement><p>Simplify <m>\quad(1+x^{-1})^{-1}</m></p>
+        <sidebyside><tabular>
+            <row>
+                <cell bottom="minor">
+                    <var name="$multians" width="5"/>
+                </cell>
+            </row>
+            <row>
+                <cell>
+                    <var name="$multians" width="5"/>
+                </cell>
+            </row>
+        </tabular></sidebyside>
+        <instruction>Enter numerator and denominator in separate boxes.</instruction>
+    </statement>
+    <solution><m>\dfrac{x}{x+1}</m></solution>
+</webwork>
+</exercise>
 
 <exercise><title>QuickCheck 1</title>
-<statement><p>True or False<ol label="a">
-    <li><m>\dfrac{1+\dfrac{1}{x}}{1-\dfrac{1}{x^2}} = (1+\dfrac{1}{x}) \div (1-\dfrac{1}{x^2})</m></li>
-    <li><m>\dfrac{1+\dfrac{1}{x}}{1-\dfrac{1}{x^2}} = \dfrac{x+1}{x^2+1}</m></li>
-    <li><m>(a^{-1}+b^{-1})^{-2} = a^{-2} + b^{-2}</m></li>
-    <li><m>\dfrac{\dfrac{1}{a} - \dfrac{1}{b}}{\dfrac{1}{a} + \dfrac{1}{b}} = \dfrac{\dfrac{1}{a-b}}{\dfrac{1}{a+b}}</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<webwork>
+    <pg-code>
+        $True = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            1
+        );
+        $False = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            2
+        );        
+    </pg-code>
+    <statement><p>True or False.
+    <ol label="a">
+        <li>
+            <p>
+                <m>\dfrac{1+\dfrac{1}{x}}{1-\dfrac{1}{x^2}} = \left(1+\dfrac{1}{x}\right) \div \left(1-\dfrac{1}{x^2}\right)</m> <var name="$True" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>\dfrac{1+\dfrac{1}{x}}{1-\dfrac{1}{x^2}} = \dfrac{x+1}{x^2+1}</m>  <var name="$False" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p><m>\left(a^{-1}+b^{-1}\right)^{-2} = a^{-2} + b^{-2}</m> <var name="$False" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>\dfrac{\dfrac{1}{a} - \dfrac{1}{b}}{\dfrac{1}{a} + \dfrac{1}{b}} = \dfrac{\dfrac{1}{a-b}}{\dfrac{1}{a+b}}</m> <var name="$False" form="popup"/>
+            </p>
+        </li>
+    </ol></p></statement>
+    <solution><p><ol label="a">
     <li>True</li>
     <li>False</li>
     <li>False</li>
-    <li>False</li></ol></p>
-</answer></exercise>
+    <li>False</li></ol></p></solution>
+</webwork>
+</exercise>
 
 </subsection>
 
@@ -158,8 +331,28 @@ Thus, the average speed for the entire trip is
     <me>\text{Average speed} = \dfrac{\text{Total distance}}{\text{Total time}} = \dfrac{d_1+d_2}{\dfrac{d_1}{r_1} + \dfrac{d_2}{r_2}}</me></p>
 
 <exercise><title>Practice 4</title>
-<statement><p>Bruce drove for 24 miles in rush-hour traffic at an average speed of 20 miles per hour. Then he drove 126 miles on the highway at an average speed of 70 miles an hour. Use the formula above to find his average speed for the entire trip.</p></statement>
-<answer><p>50 mph</p></answer></exercise> 
+<webwork>
+    <pg-code>
+        $v = Compute("50");
+        $mph = PopUp(
+            [ "?", 
+            "miles", 
+            "hours",
+            "mph",
+            "hours/mile"],
+            3
+        );        
+    </pg-code>
+    <statement>
+        <p>
+            Bruce drove for 24 miles in rush-hour traffic at an average speed of 20 miles per hour. Then he drove 126 miles on the highway at an average speed of 70 miles an hour. Use the formula above to find his average speed for the entire trip.
+        </p>
+        <p><var name="$v" width="2"/><var name="$mph" form="popup"/>
+        </p>
+    </statement>
+    <solution><p>50 mph</p></solution>
+</webwork>
+</exercise> 
 </subsection>       
 
 <subsection><title>Polynomial Division</title>
