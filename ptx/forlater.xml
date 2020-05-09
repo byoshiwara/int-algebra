@@ -280,3 +280,163 @@ The only difference between the two solutions is the sign between the terms. For
     </statement>    
 </webwork></exercise>
 </subsection>
+
+From Section 2.1 Exercises:
+
+<exercise number="1"><statement><p><ol label="a">
+    <li><p>Sketch four different lines through the point <m>(2, 3)</m> with the following slopes:
+            <md><mrow>m=\frac{2}{5}, \quad m=\frac{-2}{5}, \quad m=\frac{5}{2}, \quad m=\frac{-5}{2}</mrow></md></p></li>
+    <li><p>What do you notice about these lines?</p></li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li><sidebyside width="45%" margins="0% 60%"><image xml:id="fig-ex-2-1-5ans"><description>four lines through (2,3)
+    </description><latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.4]
+                    \draw[cyan] (-6,-6) grid (6,6);
+                    \draw[black,thick,->,>=stealth'] (-6,0)--(6.6,0) node[right]{$x$};
+                    \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.6) node[above]{$y$};
+                    \draw[samples=2,domain={-6:6},smooth,variable=\x,red,very thick] plot (\x,{(3+2/5*(\x-2))}) node[right]{$m=\frac{2}{5}$};
+                    \draw[samples=2,domain={4/5:28/5},smooth,variable=\x,red,very thick] plot (\x,{(3-5/2*(\x-2))}) node[below]{$m=\frac{-5}{2}$};
+                    \draw[samples=2,domain={-11/2:6},smooth,variable=\x,blue,very thick] plot (\x,{(3-2/5*(\x-2))}) node[right]{$m=\frac{-2}{5}$};
+                    \draw[samples=2,domain={-8/5:16/5},smooth,variable=\x,blue,very thick] plot (\x,{(3+5/2*(\x-2))}) node[above]{$m=\frac{5}{2}$};
+                    \filldraw[black] (2,3) circle (.2);
+                    \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></li>
+    <li><p>The lines with slope <m>\dfrac{2}{5}</m> and <m>\dfrac{-5}{2}</m> are perpendicular to each other, and the lines with slope <m>\dfrac{-2}{5}</m> and <m>\dfrac{5}{2}</m> are perpendicular to each other.</p></li></ol></p>
+</answer></exercise>
+
+For Section 2.4 exercises:
+
+<exercise number="4">
+    <statement>
+        <p>
+            On a breezy day, Bonnie propelled her human-powered aircraft 100 meters in 15 seconds going into the wind and made the return trip in 10 seconds with the wind. What were the speed of the wind and Bonnie's speed in still air?
+            <ol label="a">
+                <li><p>Choose variables for the unknown quantities, and fill in the table.</p>
+                <sidebyside  margins="0$ 0%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
+                    <row>
+                        <cell></cell><cell>Rate</cell><cell>Time</cell><cell>Distance</cell></row>
+                    <row>
+                        <cell>Against the wind</cell><cell></cell><cell></cell><cell></cell></row>
+                    <row>
+                        <cell>With the wind</cell><cell></cell><cell></cell><cell></cell></row>
+                </tabular></sidebyside></li>
+                <li><p>Write one equation about Bonnie's initial flight.</p></li>
+                <li><p>Write a second equation about Bonnie's return trip.</p></li>
+            </ol>
+        </p>
+    </statement>
+</exercise>
+
+
+
+<exercise number="5">
+    <statement>
+        <p>
+            Acme Motor Company is opening a new plant to produce chassis for two of its models, a sports coupe and a wagon. Each sports coupe requires a riveter for 3 hours and a welder for 4 hours; each wagon requires a riveter for 4 hours and a welder for 5 hours. The plant has available 120 hours of riveting and 155 hours of welding per day. How many of each model of chassis can it produce in a day?
+            <ol label="a">
+                <li>
+                    <p>
+                        Choose variables for the unknown quantities, and fill in the table.
+                    </p>
+                    <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
+                        <row>
+                            <cell></cell><cell>Sports coupes</cell><cell>Wagons</cell><cell>Total</cell></row>
+                        <row>
+                            <cell>Hours of riveting</cell><cell></cell><cell></cell><cell></cell></row>
+                        <row>
+                            <cell>Hours of welding</cell><cell></cell><cell></cell><cell></cell></row>
+                    </tabular></sidebyside>
+                </li>
+                <li>
+                    <p>Write one equation about the hours of riveting.</p>
+                </li>
+                <li>
+                    <p>Write a second equation about the hours of welding.</p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <ol label="a">
+                <li>
+                   <sidebyside  margins="0% 30%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
+                        <row>
+                            <cell></cell><cell>Sports coupes</cell><cell>Wagons</cell><cell>Total</cell></row>
+                        <row>
+                            <cell>Hours of riveting</cell>
+                            <cell><m>3x</m></cell>
+                            <cell><m>4y</m></cell>
+                            <cell>120</cell>
+                        </row>
+                        <row>
+                            <cell>Hours of welding</cell>
+                            <cell><m>4x</m></cell>
+                            <cell><m>5y</m></cell>
+                            <cell>155</cell>
+                        </row>
+                    </tabular></sidebyside>
+                </li>
+                <li><p><m>3x+4y=120</m></p></li>
+                <li><p><m>4x+5y=155</m></p></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>
+
+
+Answer to Hmwk 3.3 #14:
+
+<p><m>(0,0), (-2,0); (-1,-1)</m></p>
+        <sidebyside width="40%" margins="0% 50%">
+            <image xml:id="fig-hw-3-3-9ansb">
+                <description>parabola</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.35]
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+                \foreach \x in  {-5, 5, -10, 10} {
+                 \draw[cyan, very thick] (\x,-10) --++(0,20);
+                 \draw[cyan, very thick] (-10,\x) --++(20,0);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[samples=65,domain={-sqrt(11)-1:sqrt(11)-1},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2+2*\x });
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside></p></answer>
+
+<exercise number="11"><statement><m>y=225-x^2</m></statement>
+    <answer><p><m>(-15,0), (15,0); (0,255)</m></p>
+        <sidebyside width="35%" margins="0% 50%">
+            <image xml:id="fig-hw-3-3-11ans">
+                <description>parabola</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.6]
+                \draw[cyan] (-5,-2) grid (5,10);
+                \draw[black,thick, ->, >=stealth'] (-5,0)--(5.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-2)--(0,10.6) node[left, xshift=2]{$y$};
+                \foreach \x [evaluate=\x as \xi using int( 5* \x )] in  {-4,-2,2,4} {
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \foreach \x [evaluate=\x as \xi using int( 25* \x )] in  {-2,2,4, 6,8,10} {
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[samples=65,domain={-sqrt(11):sqrt(11)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{-(\x)^2+9 });
+                \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+
+        </sidebyside></answer>

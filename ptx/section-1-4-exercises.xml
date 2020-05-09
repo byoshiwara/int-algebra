@@ -7,10 +7,8 @@
     
 <subexercises><title>Skills Practice</title>
 
-<exercise number="1">
-    <statement><p><ol label="a">
-        <li><p>
-            Compute the slope of each line.
+<exercise number="1"><statement><p><ol label="a">
+        <li><p>Compute the slope of each line.
             <sidebyside width="90%">
                 <image xml:id="fig-hw-1-4-1">
                 <description>two lines on grids</description>
@@ -43,21 +41,13 @@
                 \draw[red,thick] (18,10) -- (23,0);
                 \node[text width=.3cm] at (20.4,-2) {II};
                 \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-            </sidebyside>
-        </p></li>
+                </latex-image></image></sidebyside></p></li>
         <li><p>Illustrate the slope on each graph by drawing a vertical segment for <m>\Delta y</m> and a horizontal segment for <m>\Delta x</m>.</p></li>
         <li><p>For each graph, if <m>\Delta x=1</m>, what is the length of the vertical segment?</p></li>
     </ol></p></statement>
-    <answer><p>
-        <ol label="a">
-            <li><p>I: <m>m=25</m>; II: <m>m=\dfrac{-1}{10} </m></p></li>
-            <li>
-            <sidebyside width="65%" margins="0% 0%">
-                <image xml:id="fig-hw-1-4-1-ans">
-                <description>two lines on grids</description>
-                <latex-image>
+<answer><p><ol label="a">
+        <li><p>I: <m>m=25</m>; II: <m>m=\dfrac{-1}{10} </m></p></li>
+        <li><sidebyside width="65%" margins="0% 0%"><image xml:id="fig-hw-1-4-1-ans"><description>two lines on grids</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -90,45 +80,25 @@
                 \draw[blue, very thick, dashed, ->, >=stealth'](22,8)--(22,2) node[right, midway, xshift=2, fill=white, inner sep=1]{$\Delta y$};
                 \node[text width=.3cm] at (20.4,-2) {II};
                 \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-            </sidebyside>
-               </li>
-            <li><p>I: 25; II: 10</p></li>
-        </ol>
-    </p></answer>
-</exercise>
+                </latex-image></image></sidebyside></li>
+     <li><p>I: 25; II: 10</p></li></ol></p></answer></exercise>
 
-<exercise number="2">
-    <statement>
-        <p>
-            The population of Smallville grew from 7000 people in 1990 to 16,600 in 2002.
-             <ol label="a">
-                <li>
-                    <p>Use a rate of change to calculate the town's average rate of growth, in people per year. First, complete the table of values:</p>
-                    <sidebyside widths="50% 40%" margins="0% 0%">
-                    <stack>
-                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+<exercise number="2"><statement><p>The population of Smallville grew from 7000 people in 1990 to 16,600 in 2002.
+    <ol label="a">
+        <li><p>Use a rate of change to calculate the town's average rate of growth, in people per year. First, complete the table of values:</p>
+            <sidebyside widths="50% 40%" margins="0% 0%">
+            <stack><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
                               <cell><m>~t~</m></cell>
-                              <cell><m>~P~</m></cell>
-                            </row>
+                              <cell><m>~P~</m></cell></row>
                             <row>
                               <cell><m></m></cell>
-                              <cell><m></m></cell>
-                            </row>
+                              <cell><m></m></cell></row>
                         </tabular>
-                        <p>
-                            <md>
-                                <mrow>\amp\text{change in population}=\Delta P = </mrow>
-                                <mrow>\amp\text{time elapsed}=\Delta t = </mrow>
-                                <mrow>\amp\text{rate of growth}= \frac{\Delta P}{\Delta t} = </mrow>
-                            </md>
-                        </p>
-                    </stack>
-                    <image xml:id="fig-hw-1-4-2">
-                    <description>line</description>
-                    <latex-image>
+        <p><md><mrow>\amp\text{change in population}=\Delta P = </mrow>
+                <mrow>\amp\text{time elapsed}=\Delta t = </mrow>
+                <mrow>\amp\text{rate of growth}= \frac{\Delta P}{\Delta t} = </mrow></md></p></stack>
+    <image xml:id="fig-hw-1-4-2"><description>line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -149,85 +119,45 @@
                          \draw[red,thick] (0,3.5) -- (8,10);
                         \node[rotate=90] at (-1.3,5)  {Thousands};
                         \end{tikzpicture}]]>
-                    </latex-image>
-                    </image>
-                  </sidebyside>
-              </li>
-              <li>
-                  <p>Illustrate <m>\Delta P</m> and <m>\Delta t</m> by line segments on the graph. (Note that the <m>P</m>-axis is labeled in thousands.)</p>
-              </li>
-              <li>
-                  <p>How much did the town grow each year?</p>
-              </li>
-              <li>
-                  <p>Write a linear model for <m>P</m> in terms of <m>t</m>.</p>
-              </li>
-          </ol>  
-        </p>
-    </statement>
-</exercise>
+         </latex-image></image></sidebyside></li>
+    <li><p>Illustrate <m>\Delta P</m> and <m>\Delta t</m> by line segments on the graph. (Note that the <m>P</m>-axis is labeled in thousands.)</p></li>
+    <li><p>How much did the town grow each year?</p></li>
+    <li><p>Write a linear model for <m>P</m> in terms of <m>t</m>.</p></li></ol>  </p></statement></exercise>
 
-<exercise number="3">
-    <statement>
-        <p><ol label="a">
-            <li>
-                <p>Graph each line by the intercept method.</p>
-                <sidebyside widths="25% 25%" margins="10% 10%" valigns="bottom bottom">
-                    <stack>
-                        <p><md><mrow>9x+12y=36</mrow></md></p>
-                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+<exercise number="3"><statement><p><ol label="a">
+    <li><p>Graph each line by the intercept method.</p>
+        <sidebyside widths="25% 25%" margins="10% 10%" valigns="bottom bottom">
+        <stack><p><md><mrow>9x+12y=36</mrow></md></p>
+                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
                                 <cell><m>x</m></cell>
-                                <cell><m>y</m></cell>
-                            </row>
+                                <cell><m>y</m></cell></row>
                             <row>
                                 <cell><m>0</m></cell>
-                                <cell><m></m></cell>
-                            </row>
+                                <cell><m></m></cell></row>
                             <row>
                                 <cell><m></m></cell>
-                                <cell><m>0</m></cell>
-                            </row>
-                        </tabular>
-                    </stack>
-                    <stack>
-                        <p><md><mrow>\frac{x}{7}-\frac{y}{4}=1 </mrow></md></p>
-                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                                <cell><m>0</m></cell></row>
+                        </tabular></stack>
+        <stack><p><md><mrow>\frac{x}{7}-\frac{y}{4}=1 </mrow></md></p>
+                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
                                 <cell><m>x</m></cell>
-                                <cell><m>y</m></cell>
-                            </row>
+                                <cell><m>y</m></cell></row>
                             <row>
                                 <cell><m>0</m></cell>
-                                <cell><m></m></cell>
-                            </row>
+                                <cell><m></m></cell></row>
                             <row>
                                 <cell><m></m></cell>
-                                <cell><m>0</m></cell>
-                            </row>
-                        </tabular>
-                    </stack>
-                </sidebyside>
-            </li>
-            <li><p>
-                Use the intercepts to compute the slope of the line.
-            </p>
+                                <cell><m>0</m></cell></row>
+                        </tabular></stack></sidebyside></li>
+    <li><p>Use the intercepts to compute the slope of the line.</p>
             <sidebyside widths="25% 25%" margins="10% 10%" valigns="bottom bottom">
                 <p><md><mrow>m=\frac{\Delta y}{\Delta x}= </mrow></md></p>
-                <p><md><mrow>m=\frac{\Delta y}{\Delta x}= </mrow></md></p>
-            </sidebyside>
-            </li>
-            <li>
-                <p>Use the intercepts to illustrate the slope on each graph. Put arrows on <m>\Delta x</m> and <m>\Delta y</m> to indicate the direction of motion.</p>
-            </li>
-        </ol></p>
-    </statement>
-    <answer><p><ol label="a">
-        <li>
-            <sidebyside>
-                <image xml:id="fig-1-4-3-ans">
-                    <description>two lines on grids</description>
-                    <latex-image>
+                <p><md><mrow>m=\frac{\Delta y}{\Delta x}= </mrow></md></p></sidebyside></li>
+    <li><p>Use the intercepts to illustrate the slope on each graph. Put arrows on <m>\Delta x</m> and <m>\Delta y</m> to indicate the direction of motion.</p></li></ol></p></statement>
+<answer><p><ol label="a">
+        <li><sidebyside><image xml:id="fig-1-4-3-ans"><description>two lines on grids</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -260,28 +190,12 @@
                     \draw[blue, very thick, dashed, ->, >=stealth'](18.5,-2)--(18.5,0) node[right, midway, xshift=2, yshift=-4, fill=white, inner sep=1]{$\Delta y$};
                     \node[text width=.3cm] at (15.4,-6) {II};
                     \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-            </sidebyside>
-        </li>
-        <li>
-            <p>I; <m>m=\dfrac{-3}{4} </m>; II: <m>m=\frac{4}{7} </m></p>
-        </li>
-        <li>
-            <p>Graph is above.</p>
-        </li>
-    </ol></p></answer>
-</exercise>
+        </latex-image></image></sidebyside></li>
+     <li><p>I; <m>m=\dfrac{-3}{4} </m>; II: <m>m=\frac{4}{7} </m></p></li>
+    <li><p>Graph is above.</p></li></ol></p></answer></exercise>
 
-<exercise number="5">
-    <statement>
-        <p>
-            The graph shows the number of liters of emergency water <m>W</m> remaining in a southern California household <m>t</m> days after an earthquake.
-        </p>
-        <sidebyside width="40%">
-            <image xml:id="fig-hw-1-4-5">
-        <description>line with positive intercepts</description>
-        <latex-image>
+<exercise number="5"><statement><p>The graph shows the number of liters of emergency water <m>W</m> remaining in a southern California household <m>t</m> days after an earthquake.</p>
+    <sidebyside width="40%"><image xml:id="fig-hw-1-4-5"><description>line with positive intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -299,24 +213,16 @@
         \filldraw[red] (0,8) circle (.12cm);
         \filldraw[red] (8,0) circle (.12cm);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        </sidebyside>
-        <p><ol label="a">
+        </latex-image></image></sidebyside>
+    <p><ol label="a">
             <li><p>Choose two points and compute the slope, including units.</p></li>
             <li><p>Write the slope as a rate of change, including units.</p></li>
             <li><p>Illustrate the slope on the graph.</p></li>
-            <li><p>Write a linear model for <m>W</m> in terms of <m>t</m>.</p></li>
-        </ol></p>
-    </statement>
-    <answer><p><ol label="a">
-            <li><p><m>-6</m> liters/day</p></li>
-            <li><p>The water supply is decreasing at a rate of 6 liters per day.</p></li>
-            <li>
-                <sidebyside width="40%">
-                    <image xml:id="fig-hw-1-4-5-ans">
-                    <description>line with changes in W and t</description>
-                    <latex-image>
+            <li><p>Write a linear model for <m>W</m> in terms of <m>t</m>.</p></li></ol></p></statement>
+<answer><p><ol label="a">
+        <li><p><m>-6</m> liters/day</p></li>
+        <li><p>The water supply is decreasing at a rate of 6 liters per day.</p></li>
+        <li><sidebyside width="40%"><image xml:id="fig-hw-1-4-5-ans"><description>line with changes in W and t</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -336,237 +242,156 @@
                     \draw[blue, very thick, dashed, ->, >=stealth'](2,6)--(6,6) node[above, midway, yshift=2, fill=white, inner sep=1]{$\Delta t$};
                     \draw[blue, very thick, dashed, ->, >=stealth'](6,6)--(6,2) node[right, midway, xshift=2, yshift=-4, fill=white, inner sep=1]{$\Delta W$};
                     \end{tikzpicture}]]>
-                    </latex-image>
-                    </image>
-                </sidebyside>
-            </li>
-            <li><p><m>W=48-6t</m></p></li>
-        </ol></p>
-    </answer>
-</exercise>
+                </latex-image></image></sidebyside></li>
+        <li><p><m>W=48-6t</m></p></li></ol></p></answer></exercise>
 
-<exercise number="6">
-    <statement>
-        <p>
-            A line has slope <m>m=\dfrac{-4}{5} </m> . Use the equation <m>m=\dfrac{\Delta y}{\Delta x} </m> to find the horizontal or vertical change along the line.
-            <ol label="a">
+<exercise number="6"><statement><p>A line has slope <m>m=\dfrac{-4}{5} </m> . Use the equation <m>m=\dfrac{\Delta y}{\Delta x} </m> to find the horizontal or vertical change along the line.<ol label="a">
                 <li><p><m>\Delta x = -10</m></p></li>
                 <li><p><m>\Delta y = 2</m></p></li>
                 <li><p><m>\Delta x = 12</m></p></li>
-                <li><p><m>\Delta y = -6</m></p></li>
-            </ol>
-        </p>
-    </statement>
-</exercise>
+                <li><p><m>\Delta y = -6</m></p></li></ol></p></statement></exercise>
 
-<exercise number="7">
-    <statement>
-        Residential staircaises are usutally built with a slope of 70%, or <m>\dfrac{7}{10} </m>. If the vertical distance between stories is 10 feet, how much horizontal space does the staircase require?
-    </statement>
-    <answer>
-        <p>14.29 ft</p>
-    </answer>
-</exercise>
+<exercise number="7"><statement>Residential staircaises are usutally built with a slope of 70%, or <m>\dfrac{7}{10} </m>. If the vertical distance between stories is 10 feet, how much horizontal space does the staircase require?</statement>
+<answer><p>14.29 ft</p></answer></exercise>
 
-<exercise number="8">
-    <statement>
-        <p>
-            Which of the following tables represent variables that are related by a linear equation? (Hint: which relationships have constant slope?)
-            <ol label="a" cols="4">
-                <li>
-                    <sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+<exercise number="8"><statement><p>Which of the following tables represent variables that are related by a linear equation? (Hint: which relationships have constant slope?)<ol label="a" cols="4">
+    <li><sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                         <row>
                             <cell><m>x</m></cell>
-                            <cell><m>y</m></cell>
-                        </row>
+                            <cell><m>y</m></cell></row>
                         <row>
                             <cell><m>2</m></cell>
-                            <cell><m>12</m></cell>
-                        </row>
+                            <cell><m>12</m></cell></row>
                         <row>
                             <cell><m>3</m></cell>
-                            <cell><m>17</m></cell>
-                        </row>
+                            <cell><m>17</m></cell></row>
                         <row>
                             <cell><m>4</m></cell>
-                            <cell><m>22</m></cell>
-                        </row>
+                            <cell><m>22</m></cell></row>
                         <row>
                             <cell><m>5</m></cell>
-                            <cell><m>27</m></cell>
-                        </row>
+                            <cell><m>27</m></cell></row>
                         <row>
                             <cell><m>6</m></cell>
-                            <cell><m>32</m></cell>
-                        </row>
-                    </tabular></sidebyside>
-                </li>
-                <li>
-                    <sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                            <cell><m>32</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                         <row>
                             <cell><m>t</m></cell>
-                            <cell><m>P</m></cell>
-                        </row>
+                            <cell><m>P</m></cell></row>
                         <row>
                             <cell><m>2</m></cell>
-                            <cell><m>12</m></cell>
-                        </row>
+                            <cell><m>12</m></cell></row>
                         <row>
                             <cell><m>3</m></cell>
-                            <cell><m>9</m></cell>
-                        </row>
+                            <cell><m>9</m></cell></row>
                         <row>
                             <cell><m>4</m></cell>
-                            <cell><m>16</m></cell>
-                        </row>
+                            <cell><m>16</m></cell></row>
                         <row>
                             <cell><m>5</m></cell>
-                            <cell><m>25</m></cell>
-                        </row>
+                            <cell><m>25</m></cell></row>
                         <row>
                             <cell><m>6</m></cell>
-                            <cell><m>36</m></cell>
-                        </row>
-                    </tabular></sidebyside>
-                </li>
-                <li>
-                    <sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                            <cell><m>36</m></cell></row>
+                    </tabular></sidebyside></li>
+   <li><sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                         <row>
                             <cell><m>h</m></cell>
-                            <cell><m>w</m></cell>
-                        </row>
+                            <cell><m>w</m></cell></row>
                         <row>
                             <cell><m>-6</m></cell>
-                            <cell><m>20</m></cell>
-                        </row>
+                            <cell><m>20</m></cell></row>
                         <row>
                             <cell><m>-3</m></cell>
-                            <cell><m>18</m></cell>
-                        </row>
+                            <cell><m>18</m></cell></row>
                         <row>
                             <cell><m>0</m></cell>
-                            <cell><m>16</m></cell>
-                        </row>
+                            <cell><m>16</m></cell></row>
                         <row>
                             <cell><m>3</m></cell>
-                            <cell><m>14</m></cell>
-                        </row>
+                            <cell><m>14</m></cell></row>
                         <row>
                             <cell><m>6</m></cell>
-                            <cell><m>12</m></cell>
-                        </row>
-                    </tabular></sidebyside>
-                </li>
-                <li>
-                    <sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                            <cell><m>12</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                         <row>
                             <cell><m>t</m></cell>
-                            <cell><m>d</m></cell>
-                        </row>
+                            <cell><m>d</m></cell></row>
                         <row>
                             <cell><m>5</m></cell>
-                            <cell><m>0</m></cell>
-                        </row>
+                            <cell><m>0</m></cell></row>
                         <row>
                             <cell><m>10</m></cell>
-                            <cell><m>3</m></cell>
-                        </row>
+                            <cell><m>3</m></cell></row>
                         <row>
                             <cell><m>15</m></cell>
                             <cell><m>6</m></cell>
                         </row>
                         <row>
                             <cell><m>20</m></cell>
-                            <cell><m>12</m></cell>
-                        </row>
+                            <cell><m>12</m></cell></row>
                         <row>
                             <cell><m>25</m></cell>
-                            <cell><m>24</m></cell>
-                        </row>
-                    </tabular></sidebyside>
-                </li>
-            </ol>
-        </p>
-    </statement>
-</exercise>
-
+                            <cell><m>24</m></cell></row>
+                </tabular></sidebyside></li></ol></p></statement></exercise>
 </subexercises>
 
-
 <subexercises><title>Applications</title>
-<exercise number="9">
-    <statement>
-        <p>
-            Ariel, Beryl, and Carol are training for a kayaking race. The girls practice on a quiet stretch of river starting 200 yards from the dock. There are markers placed at 100-yard intervals along the shore, and their teammates are stationed at these markers to time their progress. Yesterday they recorded the following times, in seconds, for each girl:
-        </p>
+
+<exercise number="9"><statement><p>Ariel, Beryl, and Carol are training for a kayaking race. The girls practice on a quiet stretch of river starting 200 yards from the dock. There are markers placed at 100-yard intervals along the shore, and their teammates are stationed at these markers to time their progress. Yesterday they recorded the following times, in seconds, for each girl:</p>
         <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
             <row>
                 <cell></cell>
-                <cell colspan="3" >Time (seconds)</cell>
-            </row>
+                <cell colspan="3" >Time (seconds)</cell></row>
             <row>
                 <cell>Marker (yards)</cell>
                 <cell>Ariel</cell>
                 <cell>Beryl</cell>
-                <cell>Carol</cell>
-            </row>
+                <cell>Carol</cell></row>
             <row>
                 <cell>200</cell>
                 <cell>0</cell>
                 <cell>0</cell>
-                <cell>0</cell>
-            </row>
+                <cell>0</cell></row>
             <row>
                 <cell>300</cell>
                 <cell>20</cell>
                 <cell>25</cell>
-                <cell>15</cell>
-            </row>
+                <cell>15</cell></row>
             <row>
                 <cell>400</cell>
                 <cell>40</cell>
                 <cell>50</cell>
-                <cell>30</cell>
-            </row>
+                <cell>30</cell></row>
             <row>
                 <cell>500</cell>
                 <cell>60</cell>
                 <cell>75</cell>
-                <cell>45</cell>
-            </row>
-        </tabular></sidebyside>
-        <p><ol label="a">
-            <li>
-                <p>For each girl, make a graph showing time on the horizontal axis and distance from the dock on the vertical axis. Fill in a table and plot thepoints.</p>
-                <sidebyside widths="30% 56%" margins="0% 0%">
-                    <stack>
-                        <p>Ariel</p>
-                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                <cell>45</cell></row>
+        </tabular></sidebyside><p><ol label="a">
+    <li><p>For each girl, make a graph showing time on the horizontal axis and distance from the dock on the vertical axis. Fill in a table and plot thepoints.</p>
+        <sidebyside widths="30% 56%" margins="0% 0%">
+            <stack><p>Ariel</p>
+                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
                                 <cell><m>t</m></cell>
-                                <cell><m>d</m></cell>
-                            </row>
+                                <cell><m>d</m></cell></row>
                             <row>
                                 <cell><m>0</m></cell>
-                                <cell><m>200</m></cell>
-                            </row>
+                                <cell><m>200</m></cell></row>
                             <row>
                                 <cell><m>20</m></cell>
-                                <cell><m>300</m></cell>
-                            </row>
+                                <cell><m>300</m></cell></row>
                             <row>
                                 <cell><m>40</m></cell>
-                                <cell><m>400</m></cell>
-                            </row>
+                                <cell><m>400</m></cell></row>
                             <row>
                                 <cell><m>60</m></cell>
-                                <cell><m>500</m></cell>
-                            </row>
-                        </tabular>
-                    </stack>
-                    <image xml:id="fig-hw-1-4-9">
-                    <description>grid</description>
-                    <latex-image>
+                                <cell><m>500</m></cell></row>
+                        </tabular></stack>
+    <image xml:id="fig-hw-1-4-9"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -581,157 +406,95 @@
                       \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
                     }
                     \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-                </sidebyside>
-                <sidebyside widths="30% 56%" margins="0% 0%">
-                    <stack>
-                        <p>Beryl</p>
-                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+        </latex-image></image></sidebyside>
+        <sidebyside widths="30% 56%" margins="0% 0%">
+                <stack><p>Beryl</p>
+                    <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
                                 <cell><m>t</m></cell>
-                                <cell><m>d</m></cell>
-                            </row>
+                                <cell><m>d</m></cell></row>
                             <row>
                                 <cell><m>\hphantom{20}</m></cell>
-                                <cell><m>\hphantom{200}</m></cell>
-                            </row>
+                                <cell><m>\hphantom{200}</m></cell></row>
                             <row>
                                 <cell><m></m></cell>
-                                <cell><m></m></cell>
-                            </row>
+                                <cell><m></m></cell></row>
                             <row>
                                 <cell><m></m></cell>
-                                <cell><m></m></cell>
-                            </row>
+                                <cell><m></m></cell></row>
                             <row>
                                 <cell><m></m></cell>
-                                <cell><m></m></cell>
-                            </row>
-                        </tabular>
-                    </stack>
-                    <image source="images/fig-hw-1-4-9">
-                    <description>grid</description></image>
-                </sidebyside>
-                <sidebyside widths="30% 56%" margins="0% 0%">
-                    <stack>
-                        <p>Carol</p>
-                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                                <cell><m></m></cell></row>
+                        </tabular></stack>
+        <image source="images/fig-hw-1-4-9"><description>grid</description></image></sidebyside>
+        <sidebyside widths="30% 56%" margins="0% 0%">
+                <stack><p>Carol</p>
+                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
                                 <cell><m>t</m></cell>
-                                <cell><m>d</m></cell>
-                            </row>
+                                <cell><m>d</m></cell></row>
                             <row>
                                 <cell><m>\hphantom{20}</m></cell>
-                                <cell><m>\hphantom{200}</m></cell>
-                            </row>
+                                <cell><m>\hphantom{200}</m></cell></row>
                             <row>
                                 <cell><m></m></cell>
-                                <cell><m></m></cell>
-                            </row>
+                                <cell><m></m></cell></row>
                             <row>
                                 <cell><m></m></cell>
-                                <cell><m></m></cell>
-                            </row>
+                                <cell><m></m></cell></row>
                             <row>
                                 <cell><m></m></cell>
-                                <cell><m></m></cell>
-                            </row>
-                        </tabular>
-                    </stack>
-                    <image source="images/fig-hw-1-4-9">
-                    <description>grid</description></image>
-                </sidebyside>
-            </li>
-            <li>
-                <p>
-                    For each girl, choose two data points and compute her average speed, <m>\dfrac{\Delta d}{\Delta t} </m>. Don't forget the units!                    
-                </p>
+                                <cell><m></m></cell></row>
+                </tabular></stack>
+            <image source="images/fig-hw-1-4-9"><description>grid</description></image></sidebyside></li>
+        <li><p>For each girl, choose two data points and compute her average speed, <m>\dfrac{\Delta d}{\Delta t} </m>. Don't forget the units!                    </p>
                 <p>Ariel's speed<m>{}=\dfrac{\Delta d}{\Delta t}= </m></p>
                 <p>Beryl's speed<m>{}=\dfrac{\Delta d}{\Delta t}= </m></p>
                 <p>Carol's speed<m>{}=\dfrac{\Delta d}{\Delta t}= </m></p>
-                <p>
-                    Illustrate each girl's speed on her distance graph above.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Which girl has the fastest average speed?
-                </p>
-                <sidebyside width="56%">
-                    <image source="images/fig-hw-1-4-9">
-                    <description>grid</description></image>
-                </sidebyside>
-                <p>
-                    Plot all three graphs on the same grid above, and compare.  How can the different speeds be seen from the graphs?
-                </p>
-            </li>
-        </ol></p>
-    </statement>
-    <answer>
-        <p><ol label="a">
-            <li>
-                <sidebyside widths="45% 45%" margins="0% 0%">
-                    <stack>
-                        <p>Beryl</p>
-                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                <p>Illustrate each girl's speed on her distance graph above.</p></li>
+        <li><p> Which girl has the fastest average speed?</p>
+        <sidebyside width="56%"><image source="images/fig-hw-1-4-9"><description>grid</description></image></sidebyside>
+        <p>Plot all three graphs on the same grid above, and compare.  How can the different speeds be seen from the graphs?</p></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><sidebyside widths="45% 45%" margins="0% 0%">
+        <stack><p>Beryl</p>
+            <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
                                 <cell><m>t</m></cell>
-                                <cell><m>d</m></cell>
-                            </row>
+                                <cell><m>d</m></cell></row>
                             <row>
                                 <cell><m>0</m></cell>
-                                <cell><m>200</m></cell>
-                            </row>
+                                <cell><m>200</m></cell></row>
                             <row>
                                 <cell><m>25</m></cell>
-                                <cell><m>300</m></cell>
-                            </row>
+                                <cell><m>300</m></cell></row>
                             <row>
                                 <cell><m>50</m></cell>
-                                <cell><m>400</m></cell>
-                            </row>
+                                <cell><m>400</m></cell></row>
                             <row>
                                 <cell><m>75</m></cell>
-                                <cell><m>500</m></cell>
-                            </row>
-                        </tabular>
-                    </stack>
-                    <stack>
-                        <p>Carol</p>
-                        <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                                <cell><m>500</m></cell></row>
+                        </tabular></stack>
+            <stack><p>Carol</p>
+                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
                                 <cell><m>t</m></cell>
-                                <cell><m>d</m></cell>
-                            </row>
+                                <cell><m>d</m></cell></row>
                             <row>
                                 <cell><m>0</m></cell>
-                                <cell><m>200</m></cell>
-                            </row>
+                                <cell><m>200</m></cell></row>
                             <row>
                                 <cell><m>15</m></cell>
-                                <cell><m>300</m></cell>
-                            </row>
+                                <cell><m>300</m></cell></row>
                             <row>
                                 <cell><m>30</m></cell>
-                                <cell><m>400</m></cell>
-                            </row>
+                                <cell><m>400</m></cell></row>
                             <row>
                                 <cell><m>45</m></cell>
-                                <cell><m>500</m></cell>
-                            </row>
-                        </tabular>
-                    </stack>
-                </sidebyside>
-            </li>
-            <li>
-                <p>Ariel: 5 yd/sec; Beryl: 4 yd/sec; Carol: <m>6\frac{2}{3} </m> yd/sec</p>
-            </li>
-            <li>
-                <sidebyside width="60%">
-                    <image xml:id="fig-hw-1-4-9-ans">
-                    <description>grid</description>
-                    <latex-image>
+                                <cell><m>500</m></cell></row>
+                        </tabular></stack></sidebyside></li>
+    <li><p>Ariel: 5 yd/sec; Beryl: 4 yd/sec; Carol: <m>6\frac{2}{3} </m> yd/sec</p></li>
+     <li><sidebyside width="60%"><image xml:id="fig-hw-1-4-9-ans"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -749,53 +512,32 @@
                     \draw[blue,thick] (0,0) -- (8,3.2) node[right]{Beryl};
                     \draw[green!60!black,thick] (0,0) -- (8,16/3) node[right]{Carol};
                     \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-                </sidebyside>
-                <p>Carol: The speeds are given by the slopes of their graphs.</p>
-            </li>
-        </ol></p>
-    </answer>
-</exercise>
+                </latex-image></image></sidebyside>
+        <p>Carol: The speeds are given by the slopes of their graphs.</p></li></ol></p></answer></exercise>
 
-<exercise number="10">
-    <statement>
-        <p>
-            The table gives the radius and circumference of various circles, rounded to three decimal places.
-        </p>
+<exercise number="10"><statement><p>The table gives the radius and circumference of various circles, rounded to three decimal places.</p>
         <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center" >
             <row>
                 <cell><m>r</m></cell>
-                <cell><m>C</m></cell>
-            </row>
+                <cell><m>C</m></cell></row>
             <row>
                 <cell>4</cell>
-                <cell>25.133</cell>
-            </row>
+                <cell>25.133</cell></row>
             <row>
                 <cell>6</cell>
-                <cell>37.699</cell>
-            </row>
+                <cell>37.699</cell></row>
             <row>
                 <cell>10</cell>
-                <cell>62.832</cell>
-            </row>
+                <cell>62.832</cell></row>
             <row>
                 <cell>15</cell>
-                <cell>94.248</cell>
-            </row>
+                <cell>94.248</cell></row>
         </tabular></sidebyside>
         <p><ol label="a">
             <li><p>If we plot the data, will the points lie on a straight line? Why or why not?</p></li>
-            <li><p>What familiar number does the slope turn out to be? (Hint: Recall a formula from geometry.) What does the slope tell us about circles?</p></li>
-        </ol></p>
-    </statement>
-</exercise>
+            <li><p>What familiar number does the slope turn out to be? (Hint: Recall a formula from geometry.) What does the slope tell us about circles?</p></li></ol></p></statement></exercise>
 
-    <exercise number="11">
-        <statement>
-            <p>A spring is suspended from the ceiling. The table shows the length of the spring, in centimeters, as it is stretched by hanging various weights from it.
-            </p>
+<exercise number="11"><statement><p>A spring is suspended from the ceiling. The table shows the length of the spring, in centimeters, as it is stretched by hanging various weights from it.</p>
             <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <col  halign="left" />
                 <col  halign="center" />
@@ -827,58 +569,32 @@
             <p><ol label="a">
                 <li><p>If you plot the data, will the points lie on a straight line? Why or why not?</p></li>
                 <li><p>Interpret the slope as a rate of change. Include units in your answer</p></li>
-        </ol></p>
-    </statement>
-    <answer>
-        <p><ol label="a">
+        </ol></p></statement>
+<answer><p><ol label="a">
             <li><p>Yes, the slope is 0.12</p></li>
-            <li><p>0.12 cm/kg: The spring stretches an extra 0.12 cm for each additional 1 kg mass.</p></li>
-        </ol></p>
-    </answer>
-    </exercise>
+            <li><p>0.12 cm/kg: The spring stretches an extra 0.12 cm for each additional 1 kg mass.</p></li></ol></p>
+</answer></exercise>
 
-    <exercise number="12">
-        <statement>
-            <p>
-                Th e graph shows the rise in sea level attributed to the melting of land-based glaciers from 1960 to 2003.
-            </p>
-            <sidebyside width="85%">
-                <image source="images/fig-hw-1-4-12"><description>rise in sea level</description></image>
-            </sidebyside>
-            <p><ol>
-                <li>
-                    <p>The graph appears to be almost linear from 1992 to 2002. Read the graph to complete the table, then compute the slope of the graph over that time interval, including units. What does the slope mean in this situation?</p>
-                    <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+<exercise number="12"><statement><p>The graph shows the rise in sea level attributed to the melting of land-based glaciers from 1960 to 2003.</p>
+    <sidebyside width="85%"><image source="images/fig-hw-1-4-12"><description>rise in sea level</description></image>
+        </sidebyside><p><ol>
+        <li><p>The graph appears to be almost linear from 1992 to 2002. Read the graph to complete the table, then compute the slope of the graph over that time interval, including units. What does the slope mean in this situation?</p>
+            <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                         <row>
                             <cell>Year</cell>
-                            <cell>Sea level</cell>
-                        </row>
+                            <cell>Sea level</cell></row>
                         <row>
                             <cell>1992</cell>
-                            <cell><m></m></cell>
-                        </row>
+                            <cell><m></m></cell></row>
                         <row>
                             <cell>2002</cell>
-                            <cell><m></m></cell>
-                        </row>
-                    </tabular></sidebyside>
-                </li>
-                <li>
-                    <p>What was the total change in sea level from land-based glaciers over the time period from 1960 to 2003?</p>
-                </li>
-                <li>
-                    <p>Calculate the average rate of change of sea level from land-based glaciers from 1960 to 2003.</p>
-                </li>
-                <li>
-                    <p>From 1960 to 2003, the land-based glaciers decreased in thickness by about 8 meters (or 0.008 km). The total area of those glaciers is 785,000 square kilometers. Calculate the total volume of water released by melting. (Hint: <m>\text{Volume}= \text{area}\times \text{thickness} </m>)</p>
-                </li>
-                <li>
-                    <p>The surface area of the world’s oceans is 361.6 million square kilometers. When the meltwater from the land-based glaciers (that's the volume you calculated in part (d)) enters the oceans, how much will the sea level rise, in kilometers? Use the formula in part (d). Convert your answer to millimeters, and check your answer against your answer to part (b).</p>
-                </li>
-            </ol></p>
-        </statement>
-    </exercise>
-
+                            <cell><m></m></cell></row>
+                    </tabular></sidebyside></li>
+        <li><p>What was the total change in sea level from land-based glaciers over the time period from 1960 to 2003?</p>
+        </li>
+        <li><p>Calculate the average rate of change of sea level from land-based glaciers from 1960 to 2003.</p></li>
+        <li><p>From 1960 to 2003, the land-based glaciers decreased in thickness by about 8 meters (or 0.008 km). The total area of those glaciers is 785,000 square kilometers. Calculate the total volume of water released by melting. (Hint: <m>\text{Volume}= \text{area}\times \text{thickness} </m>)</p></li>
+        <li><p>The surface area of the world’s oceans is 361.6 million square kilometers. When the meltwater from the land-based glaciers (that's the volume you calculated in part (d)) enters the oceans, how much will the sea level rise, in kilometers? Use the formula in part (d). Convert your answer to millimeters, and check your answer against your answer to part (b).</p></li></ol></p></statement></exercise>
 
 </subexercises>
 

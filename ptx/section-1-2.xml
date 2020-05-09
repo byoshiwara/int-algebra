@@ -5,23 +5,15 @@
 
 <subsection><title>Intercepts of a Graph</title>
 
-
 <definition><title>Intercepts</title>
-    <p>
-        The points at which a graph crosses the axes are called the <term>intercepts</term><idx>intercept</idx> of the graph.
-    </p>
-</definition>
+    <p>The points at which a graph crosses the axes are called the <term>intercepts</term><idx>intercept</idx> of the graph.</p></definition>
 
 <sidebyside width="32%"><image source="images/fig-intercepts"><description>intercepts of a line</description></image></sidebyside>
 
-<p>
-    The <m>x</m>-intercept of the graph shown above is <m>(−3, 0)</m>, and its <m>y</m>-intercept is <m>(0, 4)</m>.
-</p>
+<p>The <m>x</m>-intercept of the graph shown above is <m>(−3, 0)</m>, and its <m>y</m>-intercept is <m>(0, 4)</m>.</p>
 
-<exercise>
-    <title>QuickCheck 1</title>
-<webwork>
-        <pg-code>
+<exercise><title>QuickCheck 1</title>
+<webwork><pg-code>
              $which1 = RadioButtons(
               ["The variables displayed on the axes",
               "Points where the graphs intersect",
@@ -31,19 +23,15 @@
             ); 
         </pg-code>
     
-    <statement><p>
-        What are the intercepts of a graph?</p>
+    <statement><p>What are the intercepts of a graph?</p>
         <p><var name="$which1" form="buttons"/> 
     </p></statement>
-    <solution>
-        <p>Points where the graph intersects the axes</p>
+    <solution><p>Points where the graph intersects the axes</p>
     </solution>
 </webwork>
 </exercise>
 
- <p>
-     The coordinates of the intercepts are easy to find.
- </p>
+ <p>The coordinates of the intercepts are easy to find.</p>
 
  <assemblage><title>Intercepts of a Graph</title>
  <p><ol label="1">
@@ -52,68 +40,46 @@
  </ol></p>
 </assemblage>
 
-<example>
-    <statement>
-        <p>In <xref ref="Leon-camper" text="type-global"/> of <xref ref="LinMod" text="type-global" />,  we graphed an equation, <m>g=20-\frac{1}{12}d </m>, for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles. Find the intercepts of the graph.</p>
-    </statement>
-    <solution><p> To find the <m>d</m>-intercept, we set <m>g = 0</m> and solve for <m>d</m>.</p>
-    <p><md>
-        <mrow>\alert{0} \amp = 20-\frac{1}{12}d \amp\amp\glert{\text{Add } \frac{1}{12}d \text{ to both sides.}} </mrow>
+<example><statement><p>In <xref ref="Leon-camper" text="type-global"/> of <xref ref="LinMod" text="type-global" />,  we graphed an equation, <m>g=20-\frac{1}{12}d </m>, for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles. Find the intercepts of the graph.</p></statement>
+    
+<solution><p> To find the <m>d</m>-intercept, we set <m>g = 0</m> and solve for <m>d</m>.</p>
+    <p><md><mrow>\alert{0} \amp = 20-\frac{1}{12}d \amp\amp\glert{\text{Add }\frac{1}{12}d \text{ to both sides.}} </mrow>
         <mrow>\frac{1}{12}d \amp = 20 \amp\amp\glert{\text{Multiply both sides by 12.}} </mrow>
-        <mrow>d \amp = 240 </mrow>
-    </md></p>
+        <mrow>d \amp = 240 </mrow></md></p>
     <p>The <m>d</m>-intercept is <m>(240, 0)</m>. To find the <m>g</m>-intercept, we set <m>d = 0</m> and solve for <m>g</m>.
     <md><mrow>g = 20 − \frac{1}{12}(\alert{0}) = 20</mrow></md>
-    The <m>g</m>-intercept is <m>(0, 20)</m>.
-    </p></solution>
-</example>
+    The <m>g</m>-intercept is <m>(0, 20)</m>.</p></solution></example>
 
-
-<exercise>
-    <title>Practice 1</title>
-    <webwork>
-            <pg-code>
+<exercise><title>Practice 1</title>
+    <webwork><pg-code>
                 Context("Point");
                 $x0=-6;
                 $y0=-9;
                 $xint = Point($x0,0);
                 $yint = Point(0,$y0);
             </pg-code>
-        
-        <statement>
-            <p>Find the intercepts of the graph of <m>y=-9-\dfrac{3}{2}x </m>. Enter each intercept as an ordered pair.</p>
+    <statement<p>Find the intercepts of the graph of <m>y=-9-\dfrac{3}{2}x </m>. Enter each intercept as an ordered pair.</p>
             <p>The <m>x</m>-intercept is <var name="$xint"  width="4"/>.  </p>
-             <p>The <m>y</m>-intercept is <var name="$yint"  width="4"/>. 
-            </p>
+             <p>The <m>y</m>-intercept is <var name="$yint"  width="4"/>. </p>
         </statement>
-        <solution>
-            <p>We find the <m>x</m>-intercept by setting <m>y=0</m> and solving for <m>x</m> to learn that <m>x=<var name="$x0"/></m>, so the <m>x</m>-intercept is <m><var name="$xint"/></m>.</p><p>We find the <m>y</m>-intercept by setting <m>x=0</m> and solving for <m>y</m> to learn that <m>y=<var name="$y0"/></m>, so the <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
-        </solution>
+    <solution<p>We find the <m>x</m>-intercept by setting <m>y=0</m> and solving for <m>x</m> to learn that <m>x=<var name="$x0"/></m>, so the <m>x</m>-intercept is <m><var name="$xint"/></m>.</p><p>We find the <m>y</m>-intercept by setting <m>x=0</m> and solving for <m>y</m> to learn that <m>y=<var name="$y0"/></m>, so the <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
+    </solution>
     </webwork>
 </exercise>
 
 </subsection>
 
 <subsection><title>Meaning of the Intercepts</title>
-<p>
-    The intercepts of a graph give us information about the situation it models.
-</p>
 
+<p>The intercepts of a graph give us information about the situation it models.</p>
 
-<example>
-    <statement>
-        <p>What do the intercepts of the graph in the Example above tell us about the problem situation?</p>
-    </statement>
-    <solution>
-        <p>
-            The <m>d</m>-intercept tells us that when <m>d = 240</m>, <m>g = 0</m>, or that when Leon has traveled 240 miles, he has 0 gallons of gasoline left; the fuel tank is empty. The <m>g</m>-intercept tells us that when <m>d = 0</m>, <m>g = 20</m>, or that when Leon has traveled 0 miles, he has 20 gallons of gasoline left. The fuel tank holds 20 gallons when full.
-        </p>
-    </solution>
-</example>
+<example><statement><p>What do the intercepts of the graph in the Example above tell us about the problem situation?</p>
+</statement>
+
+<solution><p>The <m>d</m>-intercept tells us that when <m>d = 240</m>, <m>g = 0</m>, or that when Leon has traveled 240 miles, he has 0 gallons of gasoline left; the fuel tank is empty. The <m>g</m>-intercept tells us that when <m>d = 0</m>, <m>g = 20</m>, or that when Leon has traveled 0 miles, he has 20 gallons of gasoline left. The fuel tank holds 20 gallons when full.</p></solution></example>
 
 <exercise><title>Practice 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         Context("Point");
         $x0= 528;
         $y0= 11;
@@ -142,79 +108,50 @@
             2
         );
     </pg-code>
-    <statement>
-        <p>The gas tank in Rosa's Toyota Prius holds 11 gallons, and she gets 48 miles to the gallon.</p>
+    <statement><p>The gas tank in Rosa's Toyota Prius holds 11 gallons, and she gets 48 miles to the gallon.</p>
         <p><ol label="a">
             <li><p>Write an equation for the amount of gasoline, <m>g</m>, left in the tank after Rosa has driven for <m>d</m> miles.</p>
             <p><m>g=</m><var name="$f" width="8"/> </p></li>
-            <li><p>
-                Find the intercepts of the graph.</p>
+            <li><p>Find the intercepts of the graph.</p>
                 <p>The <m>d</m>-intercept is <var name="$xint" width="5"/>.  </p>
-                 <p>The <m>g</m>-intercept is <var name="$yint" width="5"/>. 
-                </p>
+                 <p>The <m>g</m>-intercept is <var name="$yint" width="5"/>. </p>
                 <p> What do they tell us about the problem situation?</p>
                 <p>The <m>d</m>-intercept gives:</p>
                 <p><var name="$xi" form="buttons"/> </p>
                 <p>The <m>g</m>-intercept: gives</p> 
-                <p><var name="$yi" form="buttons"/></p></li>
-        </ol></p>
+                <p><var name="$yi" form="buttons"/></p></li></ol></p>
     </statement>
-    <hint>
-        <p>Rewrite the sentence with mathematical symbols:
-            <md><mrow>\small{(\text{gasoline left}) = (\text{gallons in full tank}) - (\text{mileage rate}) \times (\text{miles driven})}</mrow></md>
-        </p>
+    <hint><p>Rewrite the sentence with mathematical symbols:
+            <md><mrow>\small{(\text{gasoline left}) = (\text{gallons in full tank}) - (\text{mileage rate}) \times (\text{miles driven})}</mrow></md></p>
     </hint>
-    <solution>
-        <p><ol label="a">
+    <solution><p><ol label="a">
             <li><p><m>g = 11-\dfrac{1}{12}d </m></p></li>
-            <li> 
-                <p><m>(528,0)</m>: After Rosa drives 528 miles, the tank will be empty.</p>
-                <p><m>(0,11)</m>: The tank has 11 gallons before Rosa begins driving.</p>
-            </li>
-        </ol></p>
+            <li><p><m>(528,0)</m>: After Rosa drives 528 miles, the tank will be empty.</p>
+                <p><m>(0,11)</m>: The tank has 11 gallons before Rosa begins driving.</p></li></ol></p>
     </solution>
 </webwork>
 </exercise>
 
 </subsection>
 
-
-
 <subsection><title>General Form for a Linear Equation</title>
 
-<p>
-    The graphs of the equations we have seen so far are all portions of straight lines. For this reason such equations are called <term>linear equations</term>.
-</p>
-<p>
-    The order of the terms in the equation does not matter. For example, the equation in <xref ref="example-bicycle" text="type-global"/> of <xref ref="LinMod" text="type-global" />
-    <md>
-        <mrow>\amp C=5+3t \amp \amp \text{ can be written equivalently as } \amp -3t + C=5</mrow>
-    </md>
-    and the equation in <xref ref="Leon-camper" text="type-global"/> of that section,
-    <md>
-        <mrow>\amp g=20-\frac{1}{12}d \amp \amp \text{ can be written  as } \amp \frac{1}{12}d+g=20 </mrow>
-    </md>
-</p>
-<p>
-    This form of a linear equation, <m>Ax +By = C</m>, is called the <term>general form</term>.
-</p>
+<p>The graphs of the equations we have seen so far are all portions of straight lines. For this reason such equations are called <term>linear equations</term>.</p>
 
-
+<p>The order of the terms in the equation does not matter. For example, the equation in <xref ref="example-bicycle" text="type-global"/> of <xref ref="LinMod" text="type-global" />
+    <md><mrow>\amp C=5+3t \amp \amp \text{ can be written equivalently as } \amp -3t + C=5</mrow></md>
+and the equation in <xref ref="Leon-camper" text="type-global"/> of that section,
+    <md><mrow>\amp g=20-\frac{1}{12}d \amp \amp \text{ can be written  as } \amp \frac{1}{12}d+g=20 </mrow></md></p>
+<p>This form of a linear equation, <m>Ax +By = C</m>, is called the <term>general form</term>.</p>
 
 <definition><title>General Form for a Linear Equation</title>
-    <p>
-        The <term>general form</term><idx>general form</idx> for a linear equation is
+    <p>The <term>general form</term><idx>general form</idx> for a linear equation is
         <md><mrow>\blert{Ax+By=C} </mrow></md>
-        (where <m>A</m> and <m>B</m> cannot both be 0).
-    </p>
+    (where <m>A</m> and <m>B</m> cannot both be 0).</p>
 </definition>
 
-
-
-<exercise>
-    <title>QuickCheck 2</title>
-<webwork>
-        <pg-code>
+<exercise><title>QuickCheck 2</title>
+<webwork><pg-code>
              $which1 = RadioButtons(
               ["\(y=mx+b\)",
               "\(Ax+By=C\)",
@@ -224,42 +161,31 @@
             ); 
         </pg-code>
     
-    <statement><p>
-        What is the general form of a linear equation?</p>
+    <statement><p>What is the general form of a linear equation?</p>
         <p><var name="$which1" form="buttons"/> 
     </p></statement>
-    <solution>
-        <p><m>Ax+By=C</m></p>
+    <solution><p><m>Ax+By=C</m></p>
     </solution>
 </webwork>
 </exercise>
 
-<p>
-    Some linear models are easier to use when they are written in the general form.
-</p>
+<p>Some linear models are easier to use when they are written in the general form.</p>
 
-<example xml:id="example-advertising">
-    <statement>
-        <p>The manager at Albert's Appliances has $3000 to spend on advertising for the next fiscal quarter.  A 30-second spot on television costs $150 per broadcast, and a 30-second radio ad costs $50.</p>
-        <p><ol label="a">
-            <li><p>The manager decides to buy <m>x</m> television ads and <m>y</m> radio ads.  Write an equation relating <m>x</m> and <m>y</m>.
-            </p></li>
-            <li><p>Make a table of values showing several choices for <m>x</m> and <m>y</m>.
-            </p></li>
-            <li><p>Plot the points from your table, and graph the equation.
-            </p></li>
-        </ol></p></statement>    
-    <solution>
-        <p><ol label="a">
-            <li><p>Each television ad costs $150, so <m>x</m> ads will cost $<m>150x</m>.  Similarly, <m>y</m> radio ads will cost $<m>50y</m>.  The manager has $3000 to spend, so the sum of the costs must be $3000.  Thus, 
-            <md><mrow>150x+50y=3000</mrow></md>
-            </p></li>
-            <li><p>We choose some values of <m>x</m>, and solve the equation for the corresponding value of <m>y</m>.  For example, if <m>x=\alert{10}</m> then
+<example xml:id="example-advertising"><statement><p>The manager at Albert's Appliances has $3000 to spend on advertising for the next fiscal quarter.  A 30-second spot on television costs $150 per broadcast, and a 30-second radio ad costs $50.</p>
+    <p><ol label="a">
+        <li><p>The manager decides to buy <m>x</m> television ads and <m>y</m> radio ads.  Write an equation relating <m>x</m> and <m>y</m>.</p></li>
+        <li><p>Make a table of values showing several choices for <m>x</m> and <m>y</m>.</p></li>
+        <li><p>Plot the points from your table, and graph the equation.</p></li></ol></p></statement>    
+
+<solution><p><ol label="a">
+   <li><p>Each television ad costs $150, so <m>x</m> ads will cost $<m>150x</m>.  Similarly, <m>y</m> radio ads will cost $<m>50y</m>.  The manager has $3000 to spend, so the sum of the costs must be $3000.  Thus, 
+            <md><mrow>150x+50y=3000</mrow></md></p></li>
+    <li><p>We choose some values of <m>x</m>, and solve the equation for the corresponding value of <m>y</m>.  For example, if <m>x=\alert{10}</m> then
                 <md><mrow>150(\alert{10})+50y\amp=300</mrow>
                 <mrow>1500+50y\amp=3000</mrow>
                 <mrow>50y\amp=1500</mrow>
                 <mrow>y\amp=30</mrow></md>
-            If the manager buys 10 television ads, she can also buy 30 radio ads.  You can verify the other entries in the table.</p>
+    If the manager buys 10 television ads, she can also buy 30 radio ads.  You can verify the other entries in the table.</p>
             <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
                     <cell><m>x</m></cell>
@@ -274,33 +200,22 @@
                     <cell><m>24</m></cell>
                     <cell><m>18</m></cell></row>
             </tabular></sidebyside></li>
-            <li><sidebyside widths="50% 35%" margins="0% 2%"><p>We plot the points from the table. All the solutions lie on a straight line.</p>
+        <li><sidebyside widths="50% 35%" margins="0% 2%"><p>We plot the points from the table. All the solutions lie on a straight line.</p>
             <image source="images/fig-example-advertising"><description>grid</description></image></sidebyside></li>
-        </ol></p></solution>
-</example>
+        </ol></p></solution></example>
 
-
-<exercise xml:id="BreadbasketBakery">
-    <title>Practice 3</title>
-    <webwork>
-      <pg-code>
+<exercise xml:id="BreadbasketBakery"><title>Practice 3</title>
+    <webwork><pg-code>
     Context("ImplicitPlane");
     Context()->variables->add(y=>"Real");
-    $equation = ImplicitPlane("15x+4y=120");
-   
-      </pg-code>
-    
-    <statement>
-        <p>The manager at Breadbasket Bakery has $120 to spend on advertising. An ad in the local newspaper costs $15, and posters cost $4 each. She decides to buy <m>x</m> ads and <m>y</m> posters. Write an equation relating <m>x</m> and <m>y</m>.</p> 
-        <p>
-        <var name="$equation" width="15" />
-        </p>
+    $equation = ImplicitPlane("15x+4y=120"); 
+      </pg-code>    
+    <statement><p>The manager at Breadbasket Bakery has $120 to spend on advertising. An ad in the local newspaper costs $15, and posters cost $4 each. She decides to buy <m>x</m> ads and <m>y</m> posters. Write an equation relating <m>x</m> and <m>y</m>.</p> 
+        <p><var name="$equation" width="15" /></p>
     </statement>
-    <hint>
-        <p>Use the general form for a linear equation. What is the total amount of money the manager will spend?</p>
+    <hint><p>Use the general form for a linear equation. What is the total amount of money the manager will spend?</p>
     </hint>
-    <solution>
-      <p><m>15x+4y=120</m></p>
+    <solution><p><m>15x+4y=120</m></p>
     </solution>
   </webwork>
 </exercise>
@@ -309,23 +224,16 @@
 
 <subsection><title>Intercept Method of Graphing</title>
 
-<p>
-    Because we really need only two points to graph a linear equation, we might as well find the intercepts and use them to draw the graph.
-</p>
+<p>Because we really need only two points to graph a linear equation, we might as well find the intercepts and use them to draw the graph.</p>
 
 <assemblage><title>To Graph a Linear Equation by the Intercept Method</title>
 <p><ol label="a">
     <li><p>Find the horizontal and vertical intercepts.</p></li>
     <li><p>Plot the intercepts, and draw the line through the two points.</p></li>
-</ol></p>    
-</assemblage>
+</ol></p>    </assemblage>
 
-
-
-<exercise>
-    <title>QuickCheck 3</title>
-<webwork>
-        <pg-code>
+<exercise><title>QuickCheck 3</title>
+<webwork><pg-code>
              $which1 = RadioButtons(
               ["Make a table of values and plot the points.",
               "Extend the line until it crosses both axes.",
@@ -334,41 +242,30 @@
               3, 
             ); 
         </pg-code>
-    
-    <statement><p>
-        Describe the intercept method of graphing a linear equation.</p>
-        <p><var name="$which1" form="buttons"/> 
-    </p></statement>
-    <solution>
-        <p>Plot the intercepts (that is, the points where <m>x=0</m> and where <m>y=0</m>), then draw the line through them.</p>
+    <statement><p>Describe the intercept method of graphing a linear equation.</p>
+        <p><var name="$which1" form="buttons"/> </p></statement>
+    <solution><p>Plot the intercepts (that is, the points where <m>x=0</m> and where <m>y=0</m>), then draw the line through them.</p>
     </solution>
 </webwork>
 </exercise>
 
-<example>
-    <statement><p><ol label="a">
+<example><statement><p><ol label="a">
         <li><p>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of <m>150x + 50y = 3000</m>.</p></li>
         <li><p>Use the intercepts to graph the equation.</p></li>
         </ol></p></statement>
-    <solution>
-        <p><ol label="a">
-        <li><p>To find the <m>x</m>-intercept, we set <m>y = \alert{0}</m>.</p>
-        <p><md>
-            <mrow>150x-50(\alert{0})\amp =3000 \amp \amp \glert{\text{Simpify.}}</mrow>
+
+<solution><p><ol label="a">
+    <li><p>To find the <m>x</m>-intercept, we set <m>y = \alert{0}</m>.</p>
+        <p><md><mrow>150x-50(\alert{0})\amp =3000 \amp \amp \glert{\text{Simpify.}}</mrow>
             <mrow>150x\amp =3000 \amp \amp \glert{\text{Divide both sides by 150.}}</mrow>
-            <mrow>x\amp =20</mrow>
-        </md></p>
+            <mrow>x\amp =20</mrow></md></p>
         <p>The <m>x</m>-intercept is the point <m>(20, 0)</m>. To find the <m>y</m>-intercept, we set <m>x = \alert{0}</m>.</p>
-        <p><md>
-            <mrow>150(\alert{0})-50y\amp =3000 \amp \amp \glert{\text{Simpify.}}</mrow>
+        <p><md><mrow>150(\alert{0})-50y\amp =3000 \amp \amp \glert{\text{Simpify.}}</mrow>
             <mrow>506 \amp = 3000\amp\amp \glert{\text{Divide both sides by 50.}} </mrow>
-            <mrow> y\amp =60</mrow>
-        </md></p>
+            <mrow> y\amp =60</mrow></md></p>
         <p>The <m>y</m>-intercept is the point <m>(0, 60)</m>.</p></li>
-        <li><sidebyside widths="60% 25%" margins="0% 5%" valigns="middle middle"><p>We scale both axes in intervals of 10 and then plot the two intercepts, <m>(20, 0)</m> and <m>(0, 60)</m>. We draw the line through them, as shown.  </p>
-        <image xml:id="fig-example-1-2-4">
-        <description>line with positive intercepts</description>
-        <latex-image>
+    <li><sidebyside widths="60% 25%" margins="0% 5%" valigns="middle middle"><p>We scale both axes in intervals of 10 and then plot the two intercepts, <m>(20, 0)</m> and <m>(0, 60)</m>. We draw the line through them, as shown.  </p>
+        <image xml:id="fig-example-1-2-4"><description>line with positive intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
           block/.style    = {draw, thick, rectangle, minimum height = 3em,
@@ -391,41 +288,29 @@
         }
         \draw[samples=4,domain={-2/3}:{7/3)},smooth,variable=\x,red,very thick] plot (\x,{(6-3*\x)});
         \end{tikzpicture}]]>
-    </latex-image></image>
-        </sidebyside>
-        </li></ol></p>        
-    </solution>
-</example>
+    </latex-image></image></sidebyside></li></ol></p>        
+    </solution></example>
 
-
-<exercise>
-    <title>Practice 4</title>
-    <webwork>
-            <pg-code>
+<exercise><title>Practice 4</title>
+    <webwork><pg-code>
                 Context("Point");
                 $x0=8;
                 $y0=30;
                 $xint = Point($x0,0);
                 $yint = Point(0,$y0);
             </pg-code>        
-        <statement>
-            <p>Find the <m>x</m>- and <m>y</m>-intercepts of the equation in Practice 3 (<xref ref="BreadbasketBakery" text="type-global"/>), and use the intercepts to graph the equation. Enter each intercept as an ordered pair.</p>
-            <p>The <m>x</m>-intercept is <var name="$xint"  width="4"/>.  </p>
-             <p>The <m>y</m>-intercept is <var name="$yint"  width="4"/>. 
-            </p>
-        </statement>
-        <hint>
-            <p>Choose convenient scales for the <m>x</m>- and <m>y</m>-axes.</p>
+    <statement><p>Find the <m>x</m>- and <m>y</m>-intercepts of the equation in Practice 3 (<xref ref="BreadbasketBakery" text="type-global"/>), and use the intercepts to graph the equation. Enter each intercept as an ordered pair.</p>
+        <p>The <m>x</m>-intercept is <var name="$xint"  width="4"/>.  </p>
+        <p>The <m>y</m>-intercept is <var name="$yint"  width="4"/>. </p>
+    </statement>
+        <hint><p>Choose convenient scales for the <m>x</m>- and <m>y</m>-axes.</p>
         </hint>
-        <solution>
-            <p>We find the <m>x</m>-intercept by setting <m>y=0</m> and solving for <m>x</m> to learn that <m>x=<var name="$x0"/></m>, so the <m>x</m>-intercept is <m><var name="$xint"/></m>.</p><p>We find the <m>y</m>-intercept by setting <m>x=0</m> and solving for <m>y</m> to learn that <m>y=<var name="$y0"/></m>, so the <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
+    <solution><p>We find the <m>x</m>-intercept by setting <m>y=0</m> and solving for <m>x</m> to learn that <m>x=<var name="$x0"/></m>, so the <m>x</m>-intercept is <m><var name="$xint"/></m>.</p><p>We find the <m>y</m>-intercept by setting <m>x=0</m> and solving for <m>y</m> to learn that <m>y=<var name="$y0"/></m>, so the <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
             <p>A graph is below.</p>
-        </solution>
+    </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="30%" margins="0% 0%">
-                <image xml:id="fig-ex-ans-1-2-4">
-        <description>line with positive intercepts</description>
+        <sidebyside width="30%" margins="0% 0%"><image xml:id="fig-ex-ans-1-2-4"><description>line with positive intercepts</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -445,118 +330,67 @@
 
         \draw[red,very thick] (4,0) -- (0,3);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-
-        </sidebyside>
+    </latex-image></image></sidebyside>
     </conclusion>
 </exercise>
 
 </subsection>
 
-
 <subsection><title>Solving for <m>y</m> in Terms of <m>x</m></title>
 
-<p>
-    We have now seen two forms for linear equations: the general linear form,
+<p>We have now seen two forms for linear equations: the general linear form,
     <md><mrow>\blert{Ax + By = C}</mrow></md>
     and the form for a linear model,
     <md><mrow>\blert{y = (\text{starting value}) + (\text{rate}) \times t}</mrow></md>
-    It is sometimes useful to convert an equation from one form to the other.
-</p>
+    It is sometimes useful to convert an equation from one form to the other.</p>
 
-<example>
-    <statement>
-        <p><ol label="a">
+<example><statement><p><ol label="a">
             <li><p>Solve the equation <m>4x-3y=6</m> for <m>y</m> in terms of <m>x</m>.</p></li>
             <li><p>Write the equation <m>y=-9-\dfrac{3}{2}x</m> in general linear form.</p></li>
-        </ol></p>
-    </statement>
-    <solution>
-        <p><ol label="a">
-            <li><p>We first isolate the <m>y</m>-term on one side of the equation.
-            <md>
-                <mrow>4x-3y \amp = 6 \amp\amp \glert{\text{Subtract }4x\text{ from both sides.}} </mrow>
-                <mrow>-3y \amp = 6 -4x\amp\amp \glert{\text{Divide both sides by } {-3}.} </mrow>
-                <mrow>\frac{-3y}{-3} \amp = \frac{6-4x}{-3} \amp\amp \glert{\text{Simplify: divide each term by  }{-3}.} </mrow>
-                <mrow>y \amp -2 + \frac{4}{3}x </mrow>
-            </md>
-        </p></li>
-        <li><p>
-            Write the equation in the form <m>Ax+By=C</m>.
-            <md>
-                <mrow>y \amp = -9-\frac{3}{2}x\amp\amp \glert{\text{Add } \frac{3}{2}x \text{ to both sides.}} </mrow>
-                <mrow>\frac{3}{2}x+y \amp = -9 </mrow>
-            </md>
-            We can write the equation with integer coefficients by clearing the fractions. We multiply both sides of the equation by <m>\alert{2} </m>.
-            <md>
-                <mrow>\alert{2}\left(\frac{3}{2}x+y \right) \amp = -9(\alert{2}) </mrow>
-                <mrow>3x+2y \amp = -18</mrow>
-            </md>
-    </p></li>
-        </ol></p>
-    </solution>
-</example>
+        </ol></p></statement>
+    
+<solution><p><ol label="a">
+    <li><p>We first isolate the <m>y</m>-term on one side of the equation.
+        <md><mrow>4x-3y \amp = 6 \amp\amp \glert{\text{Subtract }4x\text{ from both sides.}} </mrow>
+            <mrow>-3y \amp = 6 -4x\amp\amp \glert{\text{Divide both sides by } {-3}.} </mrow>
+            <mrow>\frac{-3y}{-3} \amp = \frac{6-4x}{-3} \amp\amp \glert{\text{Simplify: divide each term by }{-3}.} </mrow>
+            <mrow>y \amp -2 + \frac{4}{3}x </mrow></md></p></li>
+    <li><p>Write the equation in the form <m>Ax+By=C</m>.
+            <md><mrow>y \amp = -9-\frac{3}{2}x\amp\amp \glert{\text{Add } \frac{3}{2}x \text{ to both sides.}} </mrow>
+                <mrow>\frac{3}{2}x+y \amp = -9 </mrow></md>
+        We can write the equation with integer coefficients by clearing the fractions. We multiply both sides of the equation by <m>\alert{2} </m>.
+            <md><mrow>\alert{2}\left(\frac{3}{2}x+y \right) \amp = -9(\alert{2}) </mrow>
+                <mrow>3x+2y \amp = -18</mrow></md></p></li></ol></p>
+</solution></example>
 
-
-<warning>
-    <p>
-        Do not confuse solving for <m>y</m> in terms of <m>x</m> with finding the <m>y</m>-intercept. Compare:
-        <ol label="a">
-            <li><p>In Example 5a, we solved <m>4x − 3y = 6</m> for <m>y</m> in terms of <m>x</m> to get
+<warning><p>Do not confuse solving for <m>y</m> in terms of <m>x</m> with finding the <m>y</m>-intercept. Compare:
+    <ol label="a">
+        <li><p>In Example 5a, we solved <m>4x − 3y = 6</m> for <m>y</m> in terms of <m>x</m> to get
             <md><mrow>y = -2 +\frac{4}{3}x .</mrow></md>
-            This is still an equation in two variables; it is just another (equivalent) form of the original equation.</p></li>
-            <li><p>To find the <m>y</m>-intercept of the same equation, we first set <m>x = 0</m>, then solve for <m>y</m>, as follows:
-            <md>
-                <mrow>4(0) − 3y \amp = 6</mrow>
-                <mrow>y = −2</mrow>
-            </md></p></li>
-        </ol>
-    </p>
-    This gives us a <term>particular point</term> on the graph, namely, <m>(0, −2)</m>; the point whose <m>x</m>-coordinate is 0.
-</warning>
+        This is still an equation in two variables; it is just another (equivalent) form of the original equation.</p></li>
+        <li><p>To find the <m>y</m>-intercept of the same equation, we first set <m>x = 0</m>, then solve for <m>y</m>, as follows:
+            <md><mrow>4(0) − 3y \amp = 6</mrow>
+                <mrow>y = −2</mrow></md></p></li></ol></p>
+    <p>This gives us a <term>particular point</term> on the graph, namely, <m>(0, −2)</m>; the point whose <m>x</m>-coordinate is 0.</p></warning>
 
-<exercise>
-    <title>Practice 5</title>
-    <webwork>
-      <pg-code>
+<exercise><title>Practice 5</title>
+    <webwork> <pg-code>
         $fun=Formula("-3x+60");
      
         Context("ImplicitPlane");
         Context()->variables->add(y=>"Real");
 
         $equation = ImplicitPlane("3x-20y=76");
-   
       </pg-code>    
-    <statement>
-        <p><ol label="a">
-          <li>
-            <p>
-             Solve the equation <m>150x + 50y = 3000</m> for <m>y</m> in terms of <m>x</m>.</p>
-              <p><m>y=</m><var name="$fun" width="15" />
-            </p>
-          </li>
-
-          <li>
-            <p>
-              Write the equation <m>y = 0.15x - 3.8</m> in general linear form with integer coefficients.
-             </p>
-              <p><var name="$equation" width="15" /></p>
-          </li>
-        </ol>
-      </p>
+    <statement><p><ol label="a">
+        <li><p>Solve the equation <m>150x + 50y = 3000</m> for <m>y</m> in terms of <m>x</m>.</p>
+              <p><m>y=</m><var name="$fun" width="15" /> </p></li>
+        <li><p>Write the equation <m>y = 0.15x - 3.8</m> in general linear form with integer coefficients.</p>
+              <p><var name="$equation" width="15" /></p></li></ol></p>
     </statement>
-    <solution>
-      <p>
-        <ol label="a.">
-            <li>
-            <p>
-              <m>y=-3x+60</m>
-            </p>
-            </li>
-            <li><p><m>-15x+100y=-380</m> or <m>3x-20y=76</m></p></li>        
-        </ol>
-      </p>
+    <solution><p><ol label="a">
+        <li><p><m>y=-3x+60</m></p></li>
+        <li><p><m>-15x+100y=-380</m> or <m>3x-20y=76</m></p></li></ol></p>
     </solution>
   </webwork>
 </exercise>
