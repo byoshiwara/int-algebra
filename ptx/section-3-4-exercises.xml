@@ -115,13 +115,8 @@
     <li>12 in by 16 in</li></ol></p>
 </answer></exercise>
 
-<exercise number="22"><statement><p>A box is made from a square piece of cardboard by cutting 2-inch squares from each corner and turning up the edges.</p>
-<sidebyside  width="60%"><image source="images/fig-hw-3-4-20"><description>box</description></image></sidebyside>
-<p><ol label="a">
-    <li>If the piece of cardboard is <m>x</m> inches square, write expressions for the length, width and height of the box. Then write an expression for the volume <m>V</m> of the box in terms of <m>x</m>.</li>
-    <li>Graph your expression for the volume on your calculator. What is the smallest value of <m>x</m> that makes sense for this problem?  Why?</li>
-    <li>Write and solve a quadratic equation to answer the question:  What size cardboard do you need to make a box with volume 50 cubic inches?</li></ol></p>
-</statement></exercise>
+<exercise number="22"><statement><p>The city park used 136 meters of fence to enclose its rectangular rock garden.  The diagonal path across the middle of the garden is 52 meters long.  What are the dimensions of the garden?</p></statement>
+</exercise>
 
 <exercise number="23"><statement><p>The sail pictured is a right triangle of base and height <m>x</m>. It has a colored stripe along the hypotenuse and a white triangle of base and height <m>y</m> in the lower corner.</p>
     <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
