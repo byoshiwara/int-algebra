@@ -440,3 +440,11 @@ Answer to Hmwk 3.3 #14:
             </image>
 
         </sidebyside></answer>
+
+<exercise number="9"><statement><p><ol label="a">
+    <li>Write an equation for a parabola whose vertex is the point <m>(5,10)</m>. (Many answers are possible.)</li>
+    <li>Find the value of <m>a</m> if the <m>x</m>-intercept of the parabola is <m>-5</m>.</li></ol></p>
+</statement>
+    <answer><p><ol label="a">
+    <li><m>y=a(x-5)^2-10</m></li>
+    <li><m>\dfrac{1}{5}</m></li></ol></p></answer></exercise>

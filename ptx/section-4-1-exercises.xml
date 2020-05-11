@@ -6,55 +6,21 @@
 
 <exercises xml:id="section-4-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Set 4.1</title>
     
-<subexercises><title>Skills Practice</title>
+<subexercises><title>Warm Up</title>
 
-<exercise number="1"><statement><p>The quadratic formula expresses the solutions of a quadratic equation in terms of its coefficients.  You must memorize the quadratic formula!<ol label="a">  
-    <li><p>  Sing the formula to the tune of "Pop Goes the Weasel" :</p>
+<exercisegroup><introduction><p>For Problems 1 and 2, simplify according to the order of operations.</p></introduction>
 
-          <p>  <m>x</m> equals negative <m>b</m></p>
-          <p>  Plus or minus square root</p>
-          <p>  <m>b^2</m> squared minus <m>4ac</m></p>
-          <p>  ALL over <m>2a</m></p></li>
+<exercise number="1"><statement><p><ol label="a" cols = "2">
+    <li><m>8-2\sqrt{36-16}</m></li>
+    <li><m>\dfrac{4+4\sqrt{4(16)}}{4}</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>8-2\sqrt{20}</m></li>
+    <li><m>9</m></li></ol></p></answer></exercise>
 
-    <li><p>  Write the quadratic formula in the box:
-            <assemblage><title>The Quadratic Formula</title>
-            <p>The solutions of the equation  <m>~ax^2+bx+c=0~</m> are
-                <me>x=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me>
-            </p></assemblage></p></li></ol></p></statement></exercise>
-
-<exercise number="2"><statement><p><ol label="a">
-    <li><p>Solve by the quadratic formula
-    <me>2x^2-1=5x</me>
-    <md><mrow>\amp\blert{\text{Write the equation in standard form.}}</mrow>
-        <mrow>\amp\blert{\text{Substitute }a=<fillin characters="4"/>,~b=<fillin characters="4"/>,~c=<fillin characters="4"/> \text{ into the quadratic formula.}}</mrow>
-        <mrow>\amp\blert{\text{Simplify.  (Start with the radical.)}}</mrow>
-        <mrow>\amp\blert{\text{Find decimal approximations for your answers.  Round to hundredths.}}</mrow></md></p></li>
-    <li><p>Graph <m>~y=2x^2-5x-1</m> in the window
-        <md><mrow>\text{Xmin}=-1~~~~\text{Ymin}=-5</mrow>
-            <mrow>\text{Xmax}=5~~~~~\text{Ymax}=5</mrow></md>
-        Sketch your graph on the grid.</p>
-        <sidebyside  width="40%">
-            <image xml:id="fig-hw-4-1-2">
-                <description>grid</description>
-                <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} [scale=.75]
-                \draw[cyan] (-1,-5) grid (5,5);
-                \draw[black,thick, ->, >=stealth'] (-1,0)--(5.5,0) node[right]{$x$};
-                \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5.6) node[above]{$y$};
-                \foreach \x in  {-1,1,2,...,5} {
-                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-                }
-                \foreach \x in  {-5,-4,...,-1,1,2,...,5} {
-                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-                }
-                \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside></li>
-    <li>How are your solutions from part (a) related to the graph?</li></ol></p></statement></exercise>
+ <exercise number="2"><statement><p><ol label="a" cols = "2">
+    <li><m>\dfrac{6+3\sqrt{36-4(3)}} {2(3)}</m></li>
+    <li><m>\dfrac{\sqrt{10^2+4(11)}-\sqrt{9+3(6)}} {12-\sqrt{1+5(16)}}</m></li></ol></p></statement></exercise>
+</exercisegroup>
 
 <exercise number="3"><statement><p><ol label="a">
     <li>Write the formulas for the area and perimeter of a rectangle.</li>
@@ -74,37 +40,127 @@
         <li> <m>w</m> in by <m>w-3</m> in</li>  
         <li> <m>w</m> cm by <m>160-2w</m> cm</li></ol></p></li></ol></p>
 </statement></exercise>
+</subexercises>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5-8, use the quadratic formula to solve. Round your answers to three decimal places.</p></introduction>
+<subexercises><title>Skills Practice</title>
 
-<exercise number="5"><statement><m>0=x^2-\dfrac{5}{3}x+\dfrac{1}{3}</m></statement>
+<exercisegroup cols="2"><introduction><p>For Problems 5-10, use the quadratic formula to solve. Round your answers to three decimal places.</p></introduction>
+
+<exercise number="5"><statement><m>0=x^2+x-1</m></statement>
+    <answer>0.618, -1.618</answer></exercise>
+
+<exercise number="6"><statement><m>3z^2=4z+1</m></statement></exercise>
+
+<exercise number="7"><statement><m>0=x^2-\dfrac{5}{3}x+\dfrac{1}{3}</m></statement>
     <answer>0.232, 1.434</answer></exercise>
 
-<exercise number="6"><statement><m>-5.2z^2+176z+1218=0</m></statement></exercise>
+<exercise number="8"><statement><m>-5.2z^2+176z+1218=0</m></statement></exercise>
 
-<exercise number="7"><statement><m>2x^2=7.5x-6.3</m></statement>
+<exercise number="9"><statement><m>2x^2=7.5x-6.3</m></statement>
 <answer>1.270, 2.480</answer></exercise>
 
-<exercise number="8"><statement><m>x=\dfrac{1}{2}x^2-\dfrac{3}{4}</m></statement></exercise>
+<exercise number="10"><statement><m>x=\dfrac{1}{2}x^2-\dfrac{3}{4}</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 9-12, use the quadratic formula to solve the equation for the indicated variable.</p></introduction>
+<exercise number="11"><statement><p><ol label="a">
+    <li>Graph <m>~y=6x^2-7x-3~</m> in the window
+        <md><mrow>\text{Xmin}=-2~~~~\text{Ymin}=-6</mrow>
+            <mrow>\text{Xmax}=3~~~~~\text{Ymax}=4</mrow></md></li>
+    <li>Estimate the <m>x</m>-intercepts of the graph.</li>
+    <li>Use the quadratic formula to solve the equation
+            <me>6x^2-7x-3=0</me>
+        How do the solutions compare to your estimates in part (b)?</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>Approximately <m>(1.5,0)</m> and <m>(-0.3,0)</m></li>
+    <li><m>\dfrac{3}{2}</m> and <m>\dfrac{-1}{3}</m>. These are the <m>x</m>-intercepts of the graph.</li></ol></p>
+</answer></exercise>
 
-<exercise number="9"><statement><m>h=4t-16t^2,~~</m> for <m>t</m></statement>
+<exercise number="12"><statement><p><ol label="a">
+    <li><p>Solve by the quadratic formula
+        <me>2x^2-1=5x</me>
+    Find decimal approximations for your answers. Round to hundredths.</p></li>
+    <li><p>Graph <m>~y=2x^2-5x-1~</m> in the window
+        <md><mrow>\text{Xmin}=-1~~~~\text{Ymin}=-5</mrow>
+            <mrow>\text{Xmax}=5~~~~~\text{Ymax}=5</mrow></md>
+        Sketch your graph on the grid.</p>
+        <sidebyside  width="40%"><image xml:id="fig-hw-4-1-2"><description>grid</description><latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.75]
+                \draw[cyan] (-1,-5) grid (5,5);
+                \draw[black,thick, ->, >=stealth'] (-1,0)--(5.5,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5.6) node[above]{$y$};
+                \foreach \x in  {-1,1,2,...,5} {
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x in  {-5,-4,...,-1,1,2,...,5} {
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \end{tikzpicture}]]>
+            </latex-image></image></sidebyside></li>
+    <li>How are your solutions from part (a) related to the graph?</li></ol></p></statement></exercise>
+
+<exercise number="13"><statement><p><ol label="a">
+    <li><p>Graph the three equations
+        <md><mrow>y \amp = x^2-6x+5</mrow>
+            <mrow>y \amp = x^2-6x+9</mrow>
+            <mrow>y \amp = x^2-6x+12</mrow></md>
+        in the window
+            <md><mrow>\text{Xmin}=-2~~~~\text{Ymin}=-5</mrow>
+                <mrow>\text{Xmax}=7.4~~~~~\text{Ymax}=15</mrow></md>
+        Use the Trace to locat the <m>x</m>-intercepts of each graph.</p></li>
+    <li><p>Use the quadratic formula to find the solutions of each equation.
+        <md><mrow>x^2-6x+5 \amp = 0</mrow>
+            <mrow>x^2-6x+9 \amp = 0</mrow>
+            <mrow>x^2-6x+12 \amp = 0</mrow></md>
+        How are your answers related to the graphs in part (a)?</p></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>(5,0)</m> and <m>(1,0)</m>; <m>(3,0)</m>; no <m>x</m>-intercepts</li>
+    <li>1 and 5; 3; <m>\dfrac{6 \pm i\sqrt{12}}{2}</m>. The real-valued solutions are the <m>x</m>-intercepts of the graph. If the solutions are complex, the graph has no <m>x</m>-intercepts.</li></ol></p></answer></exercise>
+
+<exercise number="14"><statement><p>Use the discriminant to determine the nature of the solutions of each equation. 
+<ol label="a" cols="2">
+    <li><m>3x^2+26=17x</m></li>
+    <li><m>4x^2+23x=19</m></li>
+    <li><m>16x^2-712x+7921=0</m></li>
+    <li><m>0.03x^2=0.05x-0.12</m></li></ol></p></statement></exercise>
+
+<exercise number="15"><statement><p>Here is one solution of a quadratic equation. Find the other solution, then write a quadratic equation in standard form that has those solutions. <ol label="a" cols="2">
+    <li><m>2+\sqrt{5}</m></li>
+    <li><m>4-3i</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>x^2-4x-1=0</m></li>
+    <li><m>x^2-8x+25=0</m></li></ol></p></answer></exercise>
+
+<exercise number="16"><statement><p><ol label="a">
+    <li>What is the sum of the two solutions of the quadratic equation <m>~ax^2 + bx + c = 0~</m>? (Hint: The two solutions are given by the quadratic formula.)</li>
+    <li>What is the product of the two solutions of the quadratic equation <m>~ax^2 + bx + c = 0~</m>? (Hint: Do not try to multiply the two solutions given by the quadratic formula! Think about the factored form of the equation.)</li>
+</ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 17-22, use the quadratic formula to solve the equation for the indicated variable.</p></introduction>
+
+<exercise number="17"><statement><m>h=4t-16t^2,~~</m> for <m>t</m></statement>
     <answer><m>\dfrac{-4 \pm \sqrt{16-64h}{32}</m></answer></exercise>
 
-<exercise number="10"><statement><m>A=\pi r^2 + \pi rs,~~</m> for <m>r</m></statement></exercise>  
+ <exercise number="18"><statement><m>A=2w^2+4lw,~~</m> for <m>w</m></statement></exercise> 
 
-<exercise number="11"><statement><m>s=vt-\dfrac{1}{2}at^2,~~</m> for <m>t</m></statement>
+<exercise number="19"><statement><m>s=vt-\dfrac{1}{2}at^2,~~</m> for <m>t</m></statement>
     <answer><m>\dfrac{v \pm \sqrt{v^2-2as}{a}</m></answer></exercise>
 
-<exercise number="12"><statement><m>3x^2+xy+y^2=2,~~</m> for <m>y</m></statement></exercise>    
+<exercise number="20"><statement><m>3x^2+xy+y^2=2,~~</m> for <m>y</m></statement></exercise> 
+
+<exercise number="21"><statement><m>S=\dfrac{n^2+n}{2},~~</m> for <m>n</m></statement>
+    <answer><m>\dfrac{-1 \pm \sqrt{1+8S}{2}</m></answer></exercise>
+
+<exercise number="22"><statement><m>A=\pi r^2 + \pi rs,~~</m> for <m>r</m></statement></exercise>
 </exercisegroup>
 </subexercises>
 
 <subexercises><title>Applications</title>
 
-<exercise number="13"><statement><p>A car traveling at <m>s</m> miles per hour on a wet road surface requires approximately <m>d</m> feet to stop, where <m>d</m> is given by the function
+<exercise number="23"><statement><p>A car traveling at <m>s</m> miles per hour on a wet road surface requires approximately <m>d</m> feet to stop, where <m>d</m> is given by the function
     <me>d = f(s) = \dfrac{s^2}{12}+\dfrac{s}{2} </me><ol label="a">
         <li><p>Make a table showing the stopping distance, <m>d</m>, for speeds of <m>10</m>, <m>20</m>, <m>\ldots</m>, <m>100</m> miles per hour. (Use the <term>Table</term> feature of your calculator.)</p></li>
         <li><p>Graph the function for <m>d</m> in terms of <m>s</m>. Use your table values to help you choose appropriate window settings.</p></li>
@@ -112,51 +168,45 @@
     </ol></p></statement>
 <answer><p>c.  31.77 mph</p></answer></exercise>
 
-<exercise number="14"><statement><sidebyside widths="70% 20%"><p>When you look down from a height, say a tall building or a mountain peak, your line of sight is tangent to the Earth at the horizon, as shown in the figure.</p>
-    <image source="images/fig-hw-4-1-14"><description>tangent to earth</description></image></sidebyside><p><ol>
-        <li><p>Suppose you are standing on top of the Petronas Tower in Kuala Lumpur, <m>1483</m> feet high. How far can you see on a clear day? (You will need to use the Pythagorean theorem and the fact that the radius of the Earth is <m>3960</m> miles. Don't forget to convert the height of the Petronas Tower to miles.)</p></li>
+<exercise number="24"><statement><p>A high diver jumps from the 10-meter springboard. His height in meters above the water <m>t</m> seconds after leaving the board is given by
+    <me>h=-4.9t^2+8t+10</me><ol label="a">
+    <li>Make a table of values showing the diver’s altitude at 0.25-second intervals after he jumps from the springboard. (Use the Table feature of your calculator.)</li>
+    <li>Graph the equation. Use your table of values to choose appropriate window settings.</li>
+    <li>How long is it before the diver passes the board on the way down?</li>
+    <li>How long is it before the diver hits the water?</li>
+    <li>Find points on your graph that correspond to your answers to parts (c) and (d).</li></ol></p></statement>
+</exercise>
+
+<exercise number="25"><statement><sidebyside widths="70% 20%"><p>When you look down from a height, say a tall building or a mountain peak, your line of sight is tangent to the Earth at the horizon, as shown in the figure.</p>
+    <image source="images/fig-hw-4-1-14"><description>tangent to earth</description></image></sidebyside><p>
+<ol label="a">
+    <li>The radius of the earth is 6370 kilometers. How far can you see from an airplane at an altitude of 10,000
+        meters? (You will need to use the Pythagorean theorem.)</li>
+    <li>How high would the airplane have to be in order for you to see a distance of 300 kilometers?</li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li>357 km</li>
+    <li>7100 m</li></ol></p></answer></exercise>
+
+<exercise number="26"><statement><p>Refer to the figure in Problem 25.<ol label="a">
+        <li><p>Suppose you are standing on top of the Petronas Tower in Kuala Lumpur, <m>1483</m> feet high. How far can you see on a clear day? (The radius of the Earth is <m>3960</m> miles. Don't forget to convert the height of the Petronas Tower to miles.)</p></li>
         <li><p>How tall a building should you stand on in order to see <m>100</m> miles?</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="15"><statement><p>The volume of a large aquarium at the zoo is 2160 cubic feet. The tank is 10 feet wide, and its length is 6 feet less than twice its height.<ol label="a">  
+<exercise number="27"><statement><p>The volume of a large aquarium at the zoo is 2160 cubic feet. The tank is 10 feet wide, and its length is 6 feet less than twice its height.<ol label="a">  
     <li>Sketch the aquarium, and label its dimensions in terms of a variable.</li>
     <li>Write an equation for the the variable.</li>
-    <li>Find the dimensions of the aquarium.</li></ol></p>
-</statement>
-    <answer><p>b.  <m>10h(2h-6)=2160~~~</m>c.  12 ft by 18 ft by 10ft</p></answer></exercise>
+    <li>Find the dimensions of the aquarium.</li></ol></p></statement>
+<answer><p>b.  <m>10h(2h-6)=2160~~~</m>c.  12 ft by 18 ft by 10ft</p></answer></exercise>
 
-<exercise number="16"><statement><p>You have 72 feet of rope to enclose a rectangular display area against one wall of an exhibit hall. The area enclosed depends upon the dimensions of the rectangle you make. Because the wall makes one side of the rectangle, the length of the rope accounts for only three sides, as shown below.</p>
+<exercise number="28"><statement><p>You have 72 feet of rope to enclose a rectangular display area against one wall of an exhibit hall. The area enclosed depends upon the dimensions of the rectangle you make. Because the wall makes one side of the rectangle, the length of the rope accounts for only three sides, as shown below.</p>
       <sidebyside width="40%"><image source="images/fig-hw-4-1-16"><description>figure</description></image></sidebyside>
 <p><ol label="a">                                     
-    <li>Let  stand for the height of a rectangle, and write an algebraic expression for the base of the rectangle.</li>  
+    <li>Let <m>h</m> stand for the height of a rectangle, and write an algebraic expression for the base of the rectangle.</li>  
     <li>Write an expression for the area of the rectangle.</li> 
     <li>If you would like to enclose 640 square feet of display space, what should the dimensions of the rectangle be? (There are two possible solutions.)</li>
     <li>What should the dimensions be if you would like to enclose exactly 600 square feet of space?</li></ol></p> 
 </statement></exercise>
-
-<exercisegroup cols="2"><introduction><p>For problems 17 and 18, use the discriminant to describe the solutions of the equation.</p></introduction>
-
-<exercise number="17"><statement><p><ol label="a">
-    <li><m>3x^2+26=17x</m></li>
-    <li><m>16x^2-712x+7921=0</m></li>
-    <li><m>65.2x=13.2x^2+41.7</m></li></ol></p></statement>
-<answer><p><ol lable="a">
-        <li>two complex solutions</li>
-        <li>one repeated real solution</li>
-        <li>two distinct real solutions</li></ol></p></answer></exercise>
-
-<exercise number="18"><statement><p><ol label="a">
-    <li><m>4x^2+23x=19</m></li>
-    <li><m>121x^2+1254x+3249=0</m></li>
-    <li><m>0.03x^2=0.05x-0.12</m></li></ol></p></statement></exercise>
-</exercisegroup>
-
-<exercise number="19"><statement><p>What is the sum of the two solutions of the quadratic equation <m>ax^2+bx+c=0</m>?</p></statement>
-<hint><p>The two solutions are given by the quadratic formula.</p></hint>
-<answer><p><m>\dfrac{-b}{a} </m></p></answer></exercise>
-
-<exercise number="20"><statement><p>What is the product of the two solutions of the quadratic equation <m>ax^2+bx+c=0</m>?</p></statement>
-<hint><p>Do <em>not</em> try to multiply the two solutions given by the quadratic formula! Think about the factored form of the equation</p></hint></exercise>
 
 </subexercises>
 
