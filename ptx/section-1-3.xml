@@ -453,8 +453,8 @@ To solve this inequality means finding all values of <m>x</m> that make the expr
 
 <example xml:id="example-graph-to-solve2"><statement><p>Here is a graph of the equation <m>y = 285 - 15x</m>. Use the graph to solve the inequality <me>285 - 15x \gt 150</me></p></statement>
 
-<solution> <sidebyside  widths="60% 35%" margins="0% 0%"><p>We look for points on the graph with <m>y</m>-coordinates greater than or equal to 150. These points are shown in color. Which <m>x</m>-values produced these points with <m>y</m>-values greater or equal to 150?</p>
-<p>We can read the <m>x</m>-coordinates by dropping straight down to the <m>x</m>-axis, as shown by the arows. For example, the <m>x</m>-value corresponding to <m>285-15x=150</m> is <m>x=9</m>. For larger values of <m>285-15x</m>, we must choose <m>x</m>-values less than 9. Thus the solutions are all values of <m>x</m> less than or equal to 9, as shown on the <m>x</m>-axis. </p>
+<solution> <sidebyside  widths="60% 35%" margins="0% 0%" valigns="middle middle"><stack><p>We look for points on the graph with <m>y</m>-coordinates greater than or equal to 150. These points are shown in color. Which <m>x</m>-values produced these points with <m>y</m>-values greater or equal to 150?</p>
+<p>We can read the <m>x</m>-coordinates by dropping straight down to the <m>x</m>-axis, as shown by the arows. For example, the <m>x</m>-value corresponding to <m>285-15x=150</m> is <m>x=9</m>. For larger values of <m>285-15x</m>, we must choose <m>x</m>-values less than 9. Thus the solutions are all values of <m>x</m> less than or equal to 9, as shown on the <m>x</m>-axis. </p></stack>
    <image source="images/fig-graph-to-solve-inequality"><description>linear inequality</description></image></sidebyside>
 </solution></example>
 
@@ -607,6 +607,7 @@ To solve this inequality means finding all values of <m>x</m> that make the expr
             <li><p>A graph is below.</p></li>
             <li><p><m>(-2.5,-122) </m></p></li>
             <li><p><m>\blert{-122} = 32(\alert{-2.5}) - 42</m></p></li>
+        </ol></p>
     </solution>
 </webwork>
 <conclusion>

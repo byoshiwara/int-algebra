@@ -459,7 +459,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
             <li><p>Choose two points on the graph and compute the slope, including units.</p></li>
             <li><p>Explain what the slope measures in this problem.</p></li>
             <li><p>Write a linear model for <m>a</m> in terms of <m>t</m>.</p></li></ol></p>
-        <image xml:id="fig-ski-lift"><description>altitude vs time</description>latex-image>
+        <image xml:id="fig-ski-lift"><description>altitude vs time</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }

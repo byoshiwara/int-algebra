@@ -26,7 +26,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercisegroup cols="3"><introduction><p>For Problems 5-16, simplify the complex fraction.</p></introduction>
+<exercisegroup cols="3"><introduction><p>For Problems 5<ndash/>16, simplify the complex fraction.</p></introduction>
 
 <exercise number="5"><statement><p><m>\dfrac{\dfrac{3x}{y}}{\dfrac{x}{2y^2}}</m></p></statement>
 <answer><m>6y</m></answer></exercise>
@@ -60,7 +60,7 @@
 <exercise number="16"><statement><m>\dfrac{\dfrac{x}{at}-V}{1-V\dfrac{x}{t}}</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 17-20, divide. Write your answer as the sum of a polynomial and an algebraic fraction.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, divide. Write your answer as the sum of a polynomial and an algebraic fraction.</p></introduction>
 
 <exercise number="17"><statement><m>\dfrac{6x^4-6x^2-4}{12x^2}</m></statement>
 <answer><m>\dfrac{1}{2}x^2\dfrac{1}{2}-\dfrac{1}{3x^2}</m></answer></exercise>
@@ -73,7 +73,7 @@
 <exercise number="20"><statement><m>\dfrac{15s^{10}-21s^5+6}{-3s^2}</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 21-24, use polynomial division to write the quotient as the sum of a polynomial and an algebraic fraction.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>24, use polynomial division to write the quotient as the sum of a polynomial and an algebraic fraction.</p></introduction>
 
 <exercise number="21"><statement><m>\dfrac{4y^2+12y+7}{2y+1} </m></statement>
 <answer><m>2y+5+\dfrac{2}{2y+1)}</m></answer></exercise>
@@ -90,8 +90,26 @@
 <subexercises><title>Applications</title>
 
 <exercise number="25"><statement><p><ol label="a">
-    <li><p>On the figure at right, locate the points  <m>P(\dfrac{a}{2},0),~Q(a,\dfrac{b}{2}),~R(\dfrac{a}{2},b),~</m> and <m>~S(0,\dfrac{b}{2})</m>. Connect the points with line segments in the order <m>PQRS</m> to form a four-sided figure.</p>  
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>
+        <sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
+            <p>On the figure at right, locate the points  <m>P\left(\dfrac{a}{2},0\right)</m>, <m>Q\left(a, \dfrac{b}{2}\right)</m>, <m>~R\left(\dfrac{a}{2},b\right)</m>, and <m>~S\left(0,\dfrac{b}{2}\right)</m>. Connect the points with line segments in the order <m>PQRS</m> to form a four-sided figure.</p>  
+    
+            <image xml:id="fig-rectangle-Q1">
+            <description>rectangle in first quadrant, one corner at origin</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} 
+            \draw[thick,->,>=stealth'] (0,0) -- (4,0) node[above]{$x$};
+            \draw[thick,->,>=stealth'] (0,0) -- (0,3) node[left]{$y$};
+            \draw[red,thick] (3,0)--(3,2)--(0,2);
+            \filldraw[red] (3,2) circle (.08) node[above right, text=black] {$(a,b)$};
+            \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside>
+    </li>
     <li>Compute the slopes of each side of the figure.</li></ol></p></statement>
 <answer><m>\overline{PQ}</m> and <m>overline{RS}: ~\dfrac{b}{a}</m>; <m>\overline{QR}</m> and <m>overline{SP}: ~\dfrac{b}{a}</m></answer></exercise>
 
@@ -119,18 +137,18 @@ where <m>f</m> stands for the focal length, <m>p</m> is the distance from the ob
     <li>Use your formula to answer the question stated in the problem.</li></ol></p>
 </statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 29-36, Write each expression as a single fraction in simplest form.
+<exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>36, Write each expression as a single fraction in simplest form.
 </p></introduction>
 
-<exercise number="29"><statement><m>(1-\dfrac{k}{n}) (1+ \dfrac{k}{n})</m></statement>
+<exercise number="29"><statement><m>\left((1-\dfrac{k}{n}\right) \left(1+ \dfrac{k}{n}\right)</m></statement>
 <answer><m>\dfrac{n^2-k^2}{n^2}</m></answer></exercise>
 
-<exercise number="30"><statement><m>m(\dfrac{v-V}{t})(\dfrac{v+V}{2})</m></statement></exercise>
+<exercise number="30"><statement><m>m\left(\dfrac{v-V}{t}\right)\left(\dfrac{v+V}{2}\right)</m></statement></exercise>
 
-<exercise number="31"><statement><m>\dfrac{2d}{c} \cdot \dfrac{1}{1-(\dfrac{u}{c})^2}</m></statement>
+<exercise number="31"><statement><m>\dfrac{2d}{c} \cdot \dfrac{1}{1-\left(\dfrac{u}{c}\right)^2}</m></statement>
 <answer><m>\dfrac{2cd}{c^2-u^2}</m></answer></exercise>
 
-<exercise number="32"><statement><m>\dfrac{1}{\dfrac{1}{n}(\dfrac{1}{n}-1)}</m></statement></exercise>
+<exercise number="32"><statement><m>\dfrac{1}{\dfrac{1}{n}\left(\dfrac{1}{n}-1\right)}</m></statement></exercise>
 
 <exercise number="33"><statement><m>\dfrac{\dfrac{L}{F}}{\dfrac{L}{F}-1} \cdot \dfrac{K}{N}</m></statement>
 <answer><m>\dfrac{KL}{N(L-F)}</m></answer></exercise>
@@ -143,7 +161,7 @@ where <m>f</m> stands for the focal length, <m>p</m> is the distance from the ob
 <exercise number="36"><statement><m>\dfrac{\dfrac{6}{h+2}-\dfrac{3}{h}}{\dfrac{4}{h}-\dfrac{3}{h+2}} </m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 37-42, write each expression as a single fraction in simplest form.
+<exercisegroup cols="2"><introduction><p>For Problems 37<ndash/>42, write each expression as a single fraction in simplest form.
 </p></introduction>
 
 <exercise number="37"><statement><m>x^{-2}+y^{-2}</m></statement>

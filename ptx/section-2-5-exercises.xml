@@ -104,7 +104,7 @@
 
 <exercise number="3"><statement><p><ol label="a">
     <li><p>Explain how the graph of the equation <m>x + y = 10,000</m> in Problem 1 is different from the graph of the inequality <m>x + y \gt 10,000</m> in Problem 2.</p></li>
-    <li><pDescribe the graph of the inequality <m>x + y\ge 10,000</m>.</p></li></ol></p></statement>
+    <li><p>Describe the graph of the inequality <m>x + y\ge 10,000</m>.</p></li></ol></p></statement>
 <answer><p><ol>
     <li><p>The graph of the equation is a line, and the graph of the inequality is a half-plane. The line is the boundary of the half-plane but is not included in the solution to the inequality.</p></li>
     <li><p>The graph of <m>x + y\ge 10,000</m> includes both the line <m>x + y=10,000</m> and the half-plane of the corresponding strict inequality.</p></li></ol></p></answer></exercise>
