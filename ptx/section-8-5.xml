@@ -180,21 +180,21 @@ The two towns are 80 kilometers apart.</p></solution>
         );        
         $lcd = PopUp(
             [ "?", 
-            "the LCD", 
-            "its reciprocal",
-            "zero"],
+            "LCD", 
+            "average",
+            "reciprocal"],
             1
         );        
         $ratios = PopUp(
             [ "?", 
-            "numerators", 
-            "denominators",
+            "equations", 
+            "factors",
             "ratios"],
             3
         );        
         $prop = PopUp(
             [ "?", 
-            "proper fractions", 
+            "reduced fractions", 
             "improper fractions",
             "proportions"],
             3
@@ -204,7 +204,7 @@ The two towns are 80 kilometers apart.</p></solution>
     <ol label="a">
         <li>
             <p>
-                To clear fractions from an equation, we multiply each term by <var name="$lcd" form="popup"/>.
+                To clear fractions from an equation, we multiply each term by the <var name="$lcd" form="popup"/> of all the fractions.
             </p>
         </li>
         <li>
@@ -223,7 +223,7 @@ The two towns are 80 kilometers apart.</p></solution>
         </li>
     </ol></p></statement>
     <solution><p><ol label="a">
-    <li>the LCD</li>
+    <li>LCD</li>
     <li>False</li>
     <li>ratios</li>
     <li>proportions</li></ol></p></solution>
@@ -273,14 +273,16 @@ you will find that the graphs never intersect, which means that there is no solu
             [ "?", 
             "the numerator equals zero", 
             "the denominator equals zero",
-            "we cross-multiply"],
+            "it includes decimals",
+            "there is a variable in the denominator"],
             2
         );        
         $extra = PopUp(
             [ "?", 
-            "extraneous solution", 
-            "improper fraction",
-            "an imaginary number"],
+            "an extraneous", 
+            "a double",
+            "a principal",
+            "a multiple"],
             1
         );        
         $zero = PopUp(
@@ -294,19 +296,19 @@ you will find that the graphs never intersect, which means that there is no solu
             [ "?", 
             "term", 
             "denominator",
-            "solution"],
+            "fraction only"],
             1
         );        
     </pg-code>
     <statement><p><ol label="a">
         <li>An algebraic fraction is undefined when <var name="$undef" form="popup"/>.</li>
-        <li>An apparent solution that does not satisfy the original equation is called an <var name="$extra" form="popup"/>.</li>
+        <li>An apparent solution that does not satisfy the original equation is called  <var name="$extra" form="popup"/> solution.</li>
         <li>We may introduce extraneous solutions if we multiply both sides of an equation by <var name="$zero" form="popup"/>.</li>
         <li>We must multiply each <var name="$term" form="popup"/> of the equation by the LCD.</li>
     </ol></p></statement>
     <solution><p><ol label="a">
         <li>the denominator equals zero</li>
-        <li>extraneous solution</li>
+        <li>an extraneous</li>
         <li>an expression containing the variable</li>
         <li>term</li></ol></p>
     </solution>
