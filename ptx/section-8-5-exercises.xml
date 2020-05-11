@@ -11,7 +11,7 @@
 
 <subexercises><title>Warm Up</title>
 
-<exercisegroup cols="3"><introduction><p>For Problems 1-8, solve.</p></introduction>
+<exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>8, solve.</p></introduction>
 
 <exercise number="1"><statement><p><m>\dfrac{6}{w+2}=4 </m></p></statement>
 <answer><p><m>\dfrac{-1}{2} </m></p></answer></exercise>
@@ -37,7 +37,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 9-16, solve.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>16, solve.</p></introduction>
 
 <exercise number="9"><statement><m>\dfrac{4}{x} - 3 = \dfrac{5}{2x+3}</m></statement>
 <answer><m>-2,~1</m></answer></exercise>
@@ -64,8 +64,8 @@
 <exercise number="17"><statement><p>What is wrong with the solution to the following addition problem:  
     <me>\text{Add} ~~~~\dfrac{3}{8}+\dfrac{1}{2}</me>
 Solution:  
-    <md><mrow> \alert{8} \cdot \dfrac{3}{8} + \alert{8} \cdot \dfrac{1}{2} \amp = 3+4 \amp \amp \blert{\text{Multiply by the LCD, 8.}}</mrow>
-        <mrow> \amp = 7  \amp \amp \blert{\text{The answer is 7.}}</mrow></md></p></statement>
+    <md><mrow> \alert{8} \cdot \dfrac{3}{8} + \alert{8} \cdot \dfrac{1}{2} \amp = 3+4 \amp \amp \glert{\text{Multiply by the LCD, 8.}}</mrow>
+        <mrow> \amp = 7  \amp \amp \glert{\text{The answer is 7.}}</mrow></md></p></statement>
 <answer>We don't multiply by the LCD in addition problems.</answer></exercise>
 
 <exercise number="18"><statement>Compare the methods in each calculation with fractions. Explain how the LCD is used in each operation.<ol label="a" cols="2">
@@ -75,7 +75,7 @@ Solution:
     <li><p>Simplify:  <m>~\dfrac{1+\dfrac{3}{x}}{3+\dfrac{1}{x+3}}</m></p></li></ol></statement>
 </exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 19-24, solve the formula for the specified variable.</p>
+<exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>24, solve the formula for the specified variable.</p>
 </introduction>
 
 <exercise number="19"><statement><m>S=\dfrac{a}{1-r},~~~~</m> for <m>r</m></statement>
@@ -173,7 +173,7 @@ burgers if he charges <m>x</m> dollars apiece for them.<ol label="a">
 <exercise number="37"><statement><p>The rectangle <m>ABCD</m> is divided into a square and a smaller rectangle, <m>CDEF</m>. The two rectangles <m>ABCD</m> and <m>CDEF</m> are similar (their corresponding sides are proportional.) A rectangle <m>ABCD</m> with this property is called a <term>golden rectangle</term><idx>golden rectangle</idx>, and the ratio of its length to its width is called the golden ratio.</p>
 <sidebyside widths="65% 25%" valigns="middle middle"><p>The golden ratio appears
 frequently in art and nature, and it is considered to give the most pleasing proportions to many figures. We will compute the golden ratio as follows.</p>
-<image source="images/fig-7-5-37"><description>golden rectangle</description></image></sidebyside><p><ol label="a">
+<image source="images/fig-golden-rectangle"><description>golden rectangle</description></image></sidebyside><p><ol label="a">
     <li><p>Let <m>AB = 1</m> and <m>AD = x</m>. What are the lengths of <m>AE</m>, <m>DE</m>, and <m>CD</m>?</p></li>
     <li><p>Write a proportion in terms of <m>x</m> for the similarity of rectangles <m>ABCD</m> and <m>CDEF</m>. Be careful to match up the corresponding sides.</p></li>
     <li><p>Solve your proportion for <m>x</m>. Find the golden ratio, <m>\dfrac{AD}{AB}=\dfrac{x}{1} </m>.</p></li>
@@ -184,18 +184,18 @@ frequently in art and nature, and it is considered to give the most pleasing pro
     <li><p><m>\dfrac{1+\sqrt{5}}{2} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="38"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p>The figure shows the graphs of two equations, <m>y = x</m> and <m>y=\dfrac{1}{x}+1 </m>.</p><image source="images/fig-7-5-38"><description>line and translated reciprocal</description></image></sidebyside> <p><ol label="a">
+<exercise number="38"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p>The figure shows the graphs of two equations, <m>y = x</m> and <m>y=\dfrac{1}{x}+1 </m>.</p><image source="images/fig-reciprocal-and-identity"><description>line and translated reciprocal</description></image></sidebyside> <p><ol label="a">
     <li><p>Find the <m>x</m>-coordinate of the intersection point of the two graphs.</p></li>
     <li><p>Compare your answer to the golden ratio you computed in Problem 37.</p></li>
 </ol></p></statement></exercise>
 
 <exercise number="39"><statement><p>Find the <m>\alert{\text{error}}</m> in the following "proof" that <m>1=0</m>:
     Start by letting  <m>x=1</m>.
-    <md><mrow>x \amp = 1  \amp \amp \blert{\text{Multiply both sides by}~x.}</mrow>
-        <mrow>x^2 \amp = x  \amp \amp \blert{\text{Subtract 1 from both sides.}}</mrow>
-        <mrow>x^2-1 \amp = x-1  \amp \amp \blert{\text{Factor the left side.}}</mrow>
-        <mrow>(x-1)(x+1) \amp = x-1  \amp \amp \blert{\text{Divide both sides by}~x-1.}</mrow>
-        <mrow>x+1 \amp = 1 \amp \amp \blert{\text{Subtract 1 from both sides.}}</mrow>
+    <md><mrow>x \amp = 1  \amp \amp \glert{\text{Multiply both sides by}~x.}</mrow>
+        <mrow>x^2 \amp = x  \amp \amp \glert{\text{Subtract 1 from both sides.}}</mrow>
+        <mrow>x^2-1 \amp = x-1  \amp \amp \glert{\text{Factor the left side.}}</mrow>
+        <mrow>(x-1)(x+1) \amp = x-1  \amp \amp \glert{\text{Divide both sides by}~x-1.}</mrow>
+        <mrow>x+1 \amp = 1 \amp \amp \glert{\text{Subtract 1 from both sides.}}</mrow>
         <mrow>x \amp = 0</mrow></md>
     Because <m>x=1</m> and <m>x=0</m>, we have "proved" that <m>1=0</m>.</p></statement>
 <answer><p>Because <m>x=1</m>, dividing by <m>x-1</m> in the fourth step is dividing by <m>0</m>.</p></answer></exercise>

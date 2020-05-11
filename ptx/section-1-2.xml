@@ -58,11 +58,11 @@
                 $xint = Point($x0,0);
                 $yint = Point(0,$y0);
             </pg-code>
-    <statement<p>Find the intercepts of the graph of <m>y=-9-\dfrac{3}{2}x </m>. Enter each intercept as an ordered pair.</p>
+    <statement><p>Find the intercepts of the graph of <m>y=-9-\dfrac{3}{2}x </m>. Enter each intercept as an ordered pair.</p>
             <p>The <m>x</m>-intercept is <var name="$xint"  width="4"/>.  </p>
              <p>The <m>y</m>-intercept is <var name="$yint"  width="4"/>. </p>
         </statement>
-    <solution<p>We find the <m>x</m>-intercept by setting <m>y=0</m> and solving for <m>x</m> to learn that <m>x=<var name="$x0"/></m>, so the <m>x</m>-intercept is <m><var name="$xint"/></m>.</p><p>We find the <m>y</m>-intercept by setting <m>x=0</m> and solving for <m>y</m> to learn that <m>y=<var name="$y0"/></m>, so the <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
+    <solution><p>We find the <m>x</m>-intercept by setting <m>y=0</m> and solving for <m>x</m> to learn that <m>x=<var name="$x0"/></m>, so the <m>x</m>-intercept is <m><var name="$xint"/></m>.</p><p>We find the <m>y</m>-intercept by setting <m>x=0</m> and solving for <m>y</m> to learn that <m>y=<var name="$y0"/></m>, so the <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
     </solution>
     </webwork>
 </exercise>

@@ -304,7 +304,7 @@ then the system is dependent and has infinitely many solutions.</p>
         );
     </pg-code>
     <statement><p>True or false.<ol label="a">
-            <li><pIf a system is dependent, it has no solutions. <var name="$TF" form="popup"/></p></li>
+            <li><p>If a system is dependent, it has no solutions. <var name="$TF" form="popup"/></p></li>
             <li><p>The equation <m>0x + 0y + 0z = 0</m> has no solution <var name="$TF" form="popup"/></p></li>
             <li><p>If a <m>3 \times 3</m> system is dependent, all three equations are the same.. <var name="$TF" form="popup"/></p></li>
             <li><p>Gaussian elimination will reveal whether a system is dependent or inconsistent. <var name="$True" form="popup"/></p></li></ol></p>
@@ -337,7 +337,7 @@ then the system is dependent and has infinitely many solutions.</p>
                 <mrow>\amp \text{the sum of the angles of a triangle is } 180\degree : \amp\amp x + y + z =180</mrow></md>
             </p></li>
     <li><title>Step 3:</title>
-        <p>We follow the steps for solving a <m>3\times 3</m> linear system.
+        <p>We follow the steps for solving a <m>3\times 3</m> linear system.</p>
                 <p>1.   We write the three equations in standard form.
                 <md alignment="alignat">
                     <mrow>x\amp {}-{}\amp 2y\amp \amp \amp =\amp -4\amp\hphantom{blank} \amp(1)</mrow>

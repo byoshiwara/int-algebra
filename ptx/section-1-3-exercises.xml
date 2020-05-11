@@ -57,7 +57,7 @@
                 \draw[white] (7/2,.1)--++(0,-.15) node[text=red,below]{$\frac{7}{2}$};
                 \filldraw[red] (7/2,0) circle (0.1);
                 \end{tikzpicture}]]>
-     </latex-image></image></sidebyside></solution></exercise>
+     </latex-image></image></sidebyside></answer></exercise>
 
 <exercise number="8"><statement><p><m>\dfrac{2x-3}{3}\le \dfrac{3x}{-2} </m></p></statement></exercise>
 </exercisegroup>

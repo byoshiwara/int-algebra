@@ -373,48 +373,129 @@ Thus, the average speed for the entire trip is
 Note that the quotient is the sum of a polynomial, <m>3x^2 - 2x</m>, and an algebraic fraction, <m>\dfrac{4}{3x}</m>.</p></solution></example>
 
 <exercise><title>Practice 5</title>
-<statement><p>Divide: <m>~\dfrac{6a^3+2a^2-a}{2a^2}</m></p></statement>
-<answer><m>3a + 1 - \dfrac{1}{2a}</m></answer></exercise>
+<webwork>
+    <pg-code>
+        Context()->variables->are(a=>"Real");
+        $poly = Formula("3a+1");
+        $frac = Formula("-1/(2a)");
+    </pg-code>
+    <statement><p>
+        Divide: <m>~\dfrac{6a^3+2a^2-a}{2a^2}=</m> <var name="$poly" width="6"/><m>{}+{}</m> <var name="$frac" width="6"/>
+    </p>
+    <instruction>Enter the appropriate polynomial in the first box, and enter the algebraic fraction in the second box.</instruction>
+    </statement>
+    <solution><m>3a + 1 - \dfrac{1}{2a}</m></solution>
+</webwork>
+</exercise>
 
 <p>If the denominator is not a monomial, we use a method similar to the long division algorithm used in arithmetic.</p>
 
 <example xml:id="example-long-division"><statement><p>Divide <m>~~\dfrac{2x^2+x-7}{x+3}</m> </p></statement>
 
-<solution><p>We first write the quotient as a division problem:</p>
-        <sidebyside width="25%"><image source="images/fig-long-division.jpg"><description>long division box</description></image></sidebyside>
-<p>and divide <m>2x^2</m> (the first term of the numerator) by <m>x</m> (the first term of the denominator) to obtain <m>2x</m>. (It may be helpful to write down the division: <m>\dfrac{2x^2}{2x}=x</m>.) We write <m>\alert{2x}</m> above the quotient bar as the first term of the quotient, as shown below.</p>
-<p>Next, we multiply <m>x+3</m> by <m>2x</m> to obtain <m>2x^2 + 6x</m>, and subtract this product from <m>2x^2 + x - 7</m>:</p>
-        <sidebyside width="25%"><image source="images/fig-long-division2.jpg"><description>long division box</description></image></sidebyside>   
-<p>Repeating the process, we divide <m>-5x</m> by <m>x</m> to obtain <m>-5</m>. We write <m>\alert{-5}</m> as the second term of the quotient. Then we multiply <m>x+3</m> by <m>-5</m> to obtain <m>-5x - 15</m>, and subtract:</p>
-        <sidebyside width="25%"><image source="images/fig-long-division3.jpg"><description>long division box</description></image></sidebyside>
-<p>Because the degree of the remainder, 8, is less than the degree of <m>x + 3</m>, the division is finished. The quotient is <m>2x - 5</m>, with a remainder of <m>8</m>. We write the remainder as a fraction to obtain
+<solution><p>We first write the quotient as a division problem:
+    <md><mrow>
+        \require{enclose}
+       x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex 
+    </mrow></md>
+   and divide <m>2x^2</m> (the first term of the numerator) by <m>x</m> (the first term of the denominator) to obtain <m>2x</m>. (It may be helpful to write down the division: <m>\dfrac{2x^2}{2x}=x</m>.) We write <m>\alert{2x}</m> above the quotient bar as the first term of the quotient, as shown below.</p>
+<p>Next, we multiply <m>x+3</m> by <m>2x</m> to obtain <m>2x^2 + 6x</m>, and subtract this product from <m>2x^2 + x - 7</m>:
+<md><mrow>
+    \require{enclose}
+\begin{array}[t]{rll}
+    \alert{2x} \hphantom{1+x-7}&amp;&amp;  \\[-3pt]
+   x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex &amp;&amp; \glert{\text{Multiply }2x \text{ by } x+3.}\\[-3pt]
+      \underline{-(2x^2+6x)\phantom{11}} &amp;&amp; \glert{\text{Subtract the result}.}\\[-3pt]
+      -5x-7 
+  \end{array}
+</mrow></md>
+Repeating the process, we divide <m>-5x</m> by <m>x</m> to obtain <m>-5</m>. We write <m>\alert{-5}</m> as the second term of the quotient. Then we multiply <m>x+3</m> by <m>-5</m> to obtain <m>-5x - 15</m>, and subtract:
+<md><mrow>
+    \require{enclose}
+\begin{array}[t]{rll}
+    2x\alert{-5} \hphantom{x-11}&amp;&amp;  \\[-3pt]
+   x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex \phantom{11}&amp;&amp; \\[-3pt]
+      \underline{-(2x^2+6x)\phantom{11}} \phantom{11}&amp;&amp; \\[-3pt]
+      -5x-7\phantom{11} &amp;&amp; \glert{\text{Multiply } {-5} \text{ by }x+3.} \\[-3pt]
+      \underline{-(-5x-15)} &amp;&amp;\glert{\text{Subtract the result}.} \\[-3pt]
+      8\phantom{11} 
+  \end{array}
+</mrow></md>
+Because the degree of the remainder, 8, is less than the degree of <m>x + 3</m>, the division is finished. The quotient is <m>2x - 5</m>, with a remainder of <m>8</m>. We write the remainder as a fraction to obtain
         <me>\dfrac{2x^2 + x - 7}{x + 3} = 2x - 5 + \dfrac{8}{x + 3}</me>
 </p></solution></example>
 
 <p>When using polynomial division, it helps to write the polynomials in descending powers of the variable. If the numerator is missing any terms, we can insert terms with zero coefficients so that like powers will be aligned. For example, to perform the division
     <me>\dfrac{3x - 1 + 4x^3}{2x-1}</me>
-we first write the numerator in descending powers as <m>4x^3 + 3x - 1</m>. We insert <m>0x^2</m> between <m>4x^3</m> and <m>3x</m> and set up the quotient as</p>
-    <sidebyside width="33%"><image source="images/fig-long-division4.jpg"><description>long division box</description></image></sidebyside>
-<p>We then proceed as in <xref ref="example-long-division" text="type-global"/>. You can check that the quotient is
-    <me>2x^2 + x + 2 + \dfrac{1}{2x-1}</me></p>
+we first write the numerator in descending powers as <m>4x^3 + 3x - 1</m>. We insert <m>0x^2</m> between <m>4x^3</m> and <m>3x</m> and set up the quotient as
+<md><mrow>
+    \require{enclose}
+   2x-1 \enclose{longdiv}{4x^3+0x^2+3x-1}\kern-.2ex
+</mrow></md>
+We then proceed as in <xref ref="example-long-division" text="type-global"/>. You can check that the quotient is
+  <md><mrow>2x^2 + x + 2 + \dfrac{1}{2x-1}</mrow></md>
+</p>
 
 <exercise><title>Practice 6</title>
-<statement><p>Divide: <m>~\dfrac{4+8y^2-3y^3}{3y+1}</m></p></statement>
-<answer><m>-y^2+3y-1+ \dfrac{5}{3y+1}</m></answer></exercise>
+<webwork>
+    <pg-code>
+        Context()->variables->are(y=>"Real");
+        $poly = Formula("-y^2+3y-1");
+        $frac = Formula("5/(3y+1)");
+    </pg-code>
+    <statement><p>
+        Divide: <m>\dfrac{4+8y^2-3y^3}{3y+1}=</m> <var name="$poly" width="8"/><m>{}+{}</m> <var name="$frac" width="6"/>
+    </p>
+    <instruction>Enter the appropriate polynomial in the first box, and enter the algebraic fraction in the second box.</instruction>
+    </statement>
+    <solution><m>-y^2+3y-1+ \dfrac{5}{3y+1}</m></solution>
+</webwork>
+</exercise>
 
 <exercise><title>QuickCheck 3</title>
-<statement><p>True or False<ol label="a">
-    <li>The shortcut for simplifying complex fractions applies the fundamental principle of fractions.</li>
-    <li>An improper algebraic fraction is one in which the denominator has higher degree than the numerator.</li>
-    <li>If the remainder is zero in polynomial division, the numerator of the quotient can be factored.</li>
-    <li>If the divisor in polynomial division is a binomial, we use a process like long division.</li>
-</ol></p></statement>
-<answer><p><ol label="a">
+<webwork>
+    <pg-code>
+        $True = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            1
+        );
+        $False = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            2
+        );        
+    </pg-code>
+    <statement><p>True or False.
+    <ol label="a">
+        <li>
+            <p>
+                The shortcut for simplifying complex fractions applies the fundamental principle of fractions. <var name="$True" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                An improper algebraic fraction is one in which the denominator has higher degree than the numerator.  <var name="$False" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>If the remainder is zero in polynomial division <m>\dfrac{p(x)}{q(x)} </m>, the numerator <m>p(x)</m> can be factored. <var name="$True" form="popup"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                If the divisor in polynomial division is a binomial, we use a process like long division.  <var name="$True" form="popup"/>
+            </p>
+        </li>
+    </ol></p></statement>
+    <solution><p><ol label="a">
     <li>True</li>
     <li>False</li>
     <li>True</li>
-    <li>True</li></ol></p>
-</answer></exercise>
+    <li>True</li></ol></p></solution>
+</webwork>
+</exercise>
 
 </subsection>
 

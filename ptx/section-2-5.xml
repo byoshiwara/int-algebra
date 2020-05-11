@@ -469,7 +469,7 @@ Its graph is then a region in the plane.</p>
 <subsection><title>Systems of Inequalities</title>
 
 <sidebyside valigns="middle middle" widths="60% 30%" margins="0% 0%">
-<pSome applications are best described by a system of two or more inequalities. The solutions to a system of inequalities include all points that are solutions to each inequality in the system. The graph of the system is the intersection of the shaded regions for each inequality in the system. For example, the figure at right shows the solutions of the system
+<p>Some applications are best described by a system of two or more inequalities. The solutions to a system of inequalities include all points that are solutions to each inequality in the system. The graph of the system is the intersection of the shaded regions for each inequality in the system. For example, the figure at right shows the solutions of the system
         <md><mrow>y \gt x \qquad\text{ and }\qquad y \gt 2</mrow></md></p>
     <image xml:id="fig-system-of-2-inequalities"><description>system of two inequalities</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
