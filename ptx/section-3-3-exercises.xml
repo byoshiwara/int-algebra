@@ -90,7 +90,7 @@
     <li><m>y=2x^2</m></li>
     <li><m>y=\dfrac{1}{2}x^2</m></li>
     <li><m>y=-x^2</m></li></ol></p></statement>
-<answer><ol label="a">
+<answer><p><ol label="a">
     <li>Narrower</li>
     <li>Wider</li>
     <li>Opens downward</li></ol></p></answer></exercise>
@@ -124,7 +124,7 @@
                 \end{tikzpicture}]]>
             </latex-image></image></sidebyside></answer></exercise>
 
-<exercise number="14"><statement><p><m>y=x^2+2x</m>
+<exercise number="14"><statement><p><m>y=x^2+2x</m></p></statement></exercise>
 
 <exercise number="15"><statement><m>y=3x^2+6x</m></statement>
 <answer></answer></exercise>  
