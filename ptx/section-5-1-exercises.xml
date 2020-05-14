@@ -6,7 +6,7 @@
 
 <exercises xml:id="section-5-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Set 5.1</title>
     
-<subexercises><title>Skills Practice</title>
+<subexercises><title>Warm Up</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-4, evaluate.</p></introduction>
 
@@ -33,6 +33,9 @@
 
 <exercise number="8"><statement><m>5\sqrt{8+x}=20</m></statement></exercise>
 </exercisegroup>
+</subexercises>
+
+<subexercises><title>Skills Practice</title>
 
 <exercise number="9"><statement><p><m>x=h(v)=2v^2-3v+1</m> <ol label="a">
     <li>Which variable is the input, and which is the output?</li>
@@ -334,20 +337,68 @@
                 <li><p><m>x</m> so that <m>h(x) = 10</m></p></li></ol></p>
 </statement></exercise> 
 
-<exercise number="17"><statement><p>The graph shows the revenue, <m>R</m>, a movie theater collects as a function of the price, <m>d</m>, it charges for a ticket.</p>
+<exercisegroup><introduction><p>For Problems 17<mdash/>24, use the graph of the function to answer the questions.</p></introduction>
+
+<exercise number="17"><statement><p>The graph shows <m>C=h(t)</m>, where <m>C</m> stands for the number of customers (in thousands) signed up for a new movie streaming service, measured in months after their advertising campaign at <m>t=0</m> in January.</p>
+        <sidebyside   width="36%"><image source="images/fig-ex-1-2-35"><description>increasing concave up graph</description></image></sidebyside><p><ol label="a">
+                <li><p>When did the service have <m>2000</m> customers? Write your answer with function notation.</p></li>
+                <li><p>How long did it take that number to double?</p></li>
+                <li><p>How long did it take for the number to double again?</p></li>
+                <li><p>How many customers signed up between March and April (months 2 and 3)?</p></li>
+            </ol></p></statement>
+    <answer><p>
+            <ol label="a">
+                <li><m>h(1)=2</m></li>
+                <li><p>1 month</p></li>
+                <li><p>1 month</p></li>
+                <li><p>4000</p></li>
+            </ol></p></answer></exercise>
+
+<exercise number="18"><statement><p>The graph shows <m>P</m> as a function of <m>t</m>. <m>P</m> is the number of houses in Cedar Grove who have had solar panels installed <m>t</m> years after 2000.</p>
+        <sidebyside  width="36%"><image source="images/fig-ex-1-2-36"><description>increasing concave down graph</description>
+        </image></sidebyside>     <ol label="a">
+            <li><p>When did 3500 houses have solar panels? Write your answer using function notation.</p></li>
+            <li><p>How many houses had solar panels in 2005? Write your answer using function notation.</p></li>
+            <li><p>The number of houses with solar panels in Cedar Grove seems to be leveling off at what number?</p></li>
+            <li><p>How many houses had solar panels installed between 2001 and 2004?</p></li></ol>
+        </statement></exercise>
+
+<exercise number="19"><statement><p>The graph shows the revenue, <m>R=f(d)</m>, a movie theater collects as a function of the price, <m>d</m>, it charges for a ticket.</p>
         <sidebyside  width="40%"><image source="images/fig-ex-1-2-37"><description>concave down graph</description>
         </image></sidebyside><ol label="a">
                 <li><p>Estimate the revenue if the theater charges $<m>12.00</m> for a ticket.</p></li>
                 <li><p>What should the theater charge for a ticket in order to collect $<m>1500</m> in revenue?</p></li>
+                <li>Write your answers to parts (a) and (b) using function notation.</li>
                 <li><p>For what values of <m>d</m> is <m>R \gt 1800</m>?</p></li></ol>
 </statement>
 <answer><p><ol label="a">
                 <li><p>Approximately $<m>1920</m></p></li>
                 <li><p>$<m>5</m> or $<m>15</m></p></li>
+                <li><m>f(12) \approx 1920;~~ f(5)=1500,~f(15)=1500</m></li>
                 <li><p><m>7\lt d\lt 13</m></p></li></ol></p>
 </answer></exercise>
 
-<exercise number="18"><statement><p>The graph shows the federal minimum wage, <m>M</m>, over the pasr five decades, adjusted for inflation to reflect its buying power in 2004 dollars. (Source: www.infoplease.com)</p>
+<exercise number="20"><statement><p>The graph shows <m>S=g(w)</m>. <m>S</m> represents the weekly sales of a best-selling book, in thousands of dollars, <m>w</m> weeks after it is released.</p>
+        <sidebyside  width="40%"><image source="images/fig-ex-1-2-38"><description>bell-shaped graph</description>
+        </image></sidebyside><ol label="a">
+                <li><p>In which weeks were sales over $<m>7000</m>?</p></li>
+                <li><p>In which week did sales fall below $<m>5000</m> on their way down?</p></li>
+                <li><p>For what values of <m>w</m> is <m>S\gt 3.4</m>?</p></li>
+            </ol></statement></exercise>
+
+<exercise number="21"><statement><p>The graph shows the U.S. unemployment rate, <m>U=F(t)</m>, where <m>t</m>, represents years. Give your answers to the questions below in function notation.(Source: U.S. Bureau of Labor Statistics)</p>
+        <sidebyside  width="60%"><image source="images/fig-ex-1-2-40"><description>unemployment rate</description>
+        </image></sidebyside><p><ol label="a">
+                <li><p>When did the unemployment rate reach its highest value, and what was its highest value?</p></li>
+                <li><p>When did the unemployment rate fall to its lowest value, and what was its lowest value?</p></li>
+                <li><p>Give two years in which the unemployment rate was <m>4.5\%</m>.</p></li>
+                </ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>F(1992) = 7.5%</m></li>
+    <li><m>F(2000) = 4%</m></li>
+    <li><m>F(1998+ = 4.5%,~ F(2001) = 4.5%</m></li></ol></p></answer></exercise>
+
+<exercise number="22"><statement><p>The graph shows the federal minimum wage, <m>M</m>, over the pasr five decades, adjusted for inflation to reflect its buying power in 2004 dollars. (Source: www.infoplease.com)</p>
     <sidebyside><image source="images/fig-ex-1-2-39"><description>unemployment rate</description></image></sidebyside><p>
         <ol label="a">
             <li>Is <m>M</m> a function of <m>t</m>?  Support your answer.</li>
@@ -355,8 +406,104 @@
             <li><p>Give two years in which the minimum wage was worth $8 in 2004 dollars. Does this fact mean that <m>M</m> is not a function of <m>t</m>?  Why or why not?</p></li></ol></p>
 </statement></exercise>
 
-<exercise number="19"><statement><p>The number of compact cars that a large dealership can sell at price <m>p</m> is given by   
-    <me>N( p) = \dfrac{12,000,000}{p}</me> <ol label="a">
+<exercise number="23"><statement><p>The bar graph shows the percent of Earth's surface that lies at various altitudes or depths below the surface of the oceans. (Depths are given as negative altitudes.) (Source: Open University)</p>
+        <sidebyside  width="70%"><image source="images/fig-ex-1-2-56"><description>bar graph</description></image></sidebyside>
+                <p><ol label="a">
+                    <li><p>Read the graph and complete the table.</p>
+                <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell>Altitude (km)</cell>
+                        <cell><line>Percent of</line><line>Earth's surface</line></cell></row>
+                    <row>
+                        <cell> <m>-7</m> to <m>-6</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>-6</m> to <m>-5</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>-5</m> to <m>-4</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>-4</m> to <m>-3</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>-3</m> to <m>-2</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>-2</m> to <m>-1</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>-1</m> to <m>0</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>0</m> to <m>1</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>1</m> to <m>2</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>2</m> to <m>3</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>3</m> to <m>4</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>4</m> to <m>5</m></cell>
+                        <cell><m></m></cell></row>
+        </tabular></sidebyside></li>
+        <li><p>What is the most common altitude? What is the second most common altitude?</p></li>
+        <li><p>Approximately what percent of the Earth's surface is below sea level?</p></li>
+        <li><p>The height of Mt. Everest is <m>8.85</m> kilometers. Can you think of a reason why it is not included in the graph?</p></li>
+    </ol></p></statement></exercise>
+
+<exercise number="24"><statement><p>Energy is necessary to raise the temperature of a substance, and it is also needed to melt a solid substance to a liquid. The table shows data from heating a solid sample of stearic acid. Heat was applied at a constant rate throughout the experiment.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Time (minutes)</cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1.5</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>8.5</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>9.5</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row> 
+                        <cell>Temperature (<m>\deg C</m>)</cell>
+                        <cell><m>19</m></cell>
+                        <cell><m>29</m></cell>
+                        <cell><m>40</m></cell>
+                        <cell><m>48</m></cell>
+                        <cell><m>53</m></cell>
+                        <cell><m>55</m></cell>
+                        <cell><m>55</m></cell>
+                        <cell><m>55</m></cell>
+                        <cell><m>55</m></cell>
+                        <cell><m>55</m></cell>
+                        <cell><m>55</m></cell>
+                        <cell><m>64</m></cell>
+                        <cell><m>70</m></cell>
+                        <cell><m>73</m></cell>
+                        <cell><m>74</m></cell></row>
+                    </tabular></sidebyside>
+    <p><ol label="a">
+        <li>Did the temperature rise at a constant rate? Describe the temperature as a function of time.</li>
+        <li><p>Graph the temperature as a function of time.</p>
+        <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <li>What is the melting point of stearic acid? How long did it take the sample to melt?</li></ol></p></statement>
+</exercise>
+</exercisegroup>
+
+<exercise number="25"><statement><p>The number of compact cars that a large dealership can sell at price <m>p</m> is given by   
+    <me>N(p) = \dfrac{12,000,000}{p}</me> <ol label="a">
         <li>Evaluate <m>N(6000)</m> and explain what it means.</li>
         <li>As <m>p</m> increases, does <m>N(p)</m> increase or decrease? Support your answer with calculations.</li>
         <li><p>Solve the equation <m>F(p)=400</m>, and explain what it means.</p></li></ol></p>
@@ -367,7 +514,7 @@
         <li>30,000.  At a price of $30,000, they will sell 400 cars.</li></ol></p>
 </answer></exercise>
 
-<exercise number="20"><statement><p>The distance, <m>d</m>, in miles that a person can see on a clear day from a height, <m>h</m>, in feet is given by 
+<exercise number="26"><statement><p>The distance, <m>d</m>, in miles that a person can see on a clear day from a height, <m>h</m>, in feet is given by 
         <me>d = G(h) = 1.22\sqrt{h}</me><ol label="a">
         <li><p>Evaluate <m>G(20,320)</m> and explain what it means.</p></li>
         <li><p>As <m>h</m> increases, does <m>d</m> increase or decrease?  Support your answer with calculations.</p></li>
