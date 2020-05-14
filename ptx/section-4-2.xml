@@ -84,15 +84,72 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
 <p>We set <m>x=0</m> to find the <m>y</m>-intercept, <m>(0,1)</m>. Now, the axis of symmetry of the parabola is the vertical line that passes through its vertex. That line is <m>x=-1.5</m>, so the <m>y</m>-intercept lies 1.5 units to the right of the axis. There must be another point on the parabola with the same <m>y</m>-coordinate as the intercept but 1.5 units to the left of the axis. This point is <m>(-3,1)</m>.</p>
 
 <p>By plotting the vertex, the <m>y</m>-intercept, and its symmetric point, we can make a quick sketch of the parabola, as shown below.</p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="40%">
+        <image xml:id="fig-xsqd-plus-3x-plus-1">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (-6,-3) grid (6,6);
+        \draw[black,thick, ->, >=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-3)--(0,6.6) node[above]{$y$};
+        \foreach \x in  {-5,5} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {5} {
+         \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-sqrt(29)/2-3/2:sqrt(29)/2-3/2},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2 +3* \x+1 });
+        \filldraw[red](-3/2,-5/4) circle (.12) node[below , yshift=-.2cm,fill=white, inner sep=1, text=black]{$(-1.5,-1.25)$};
+        \filldraw[red](0,1) circle (.12) node[right, xshift=.2cm,fill=white, inner sep=1, text=black]{$(0,1)$};
+        \filldraw[red](-3,1) circle (.12) node[left, xshift=-.2cm,fill=white, inner sep=1, text=black]{$(-3,1)$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 <p>If we need more accuracy in our graph, we can find and plot more points, including the <m>x</m>-intercepts.</p>
 </solution></example>
 
 <exercise><title>Practice 2</title>
-<statement><p>Find the vertex and sketch a graph of <m>y=x^2-5x+3</m></p></statement>
-<answer><p><m>(2.5,-3.25)</m></p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
-</answer></exercise>
+<webwork>
+    <pg-code>
+        Context("Point");
+        $answer = Point("(2.5,-3.25)");
+    </pg-code>
+    <statement>
+        <p>Find the vertex and sketch a graph of <m>y=x^2-5x+3</m></p>
+        <p>Vertex: <var name="$answer" width="8"/> </p>
+    </statement>
+    <solution><p><m>(2.5,-3.25)</m>; an graph is below.</p></solution>
+</webwork>
+<conclusion>
+    <sidebyside width="40%" margins="0% 0%">
+        <image xml:id="fig-xsqd-minus-5x-plus-3">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (-3,-5) grid (8,10);
+        \draw[black,thick, ->, >=stealth'] (-3,0)--(8.5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,10.6) node[above]{$y$};
+        \foreach \x in  {5} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-5,5,10} {
+         \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-sqrt(53)/2+5/2:sqrt(53)/2+5/2},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2 -5* \x+3 });
+        \filldraw[red](2.5,-3.25) circle (.12) node[below , yshift=-.2cm,fill=white, inner sep=1, text=black]{$(2.5,-3.25)$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
+</conclusion>
+</exercise>
 </subsection>
 
 <subsection><title>Maximum or Minimum Values</title>

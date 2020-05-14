@@ -47,14 +47,14 @@
 <exercise number= "5"><statement><p>
     <md><mrow>-2.3x+5.9y \amp = 38.7</mrow>
         <mrow>9.3x+7.4y \amp = -0.2</mrow></md></p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="80%"><image source="images/fig-system-decimal-coeffs"><description>graph</description></image></sidebyside>
 </statement>
 <answer><m>(-4,5)</m></answer></exercise>
 
 <exercise number= "6"><statement><p>
     <md><mrow>35s-17t \amp = 560</mrow>
         <mrow>24s+15t \amp = 2250</mrow></md></p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="80%"><image source="images/fig-system-large-integer-coeffs"><description>graph</description></image></sidebyside>
 </statement></exercise>
 </exercisegroup>
 
@@ -80,7 +80,7 @@
             <mrow> \amp -2.8x+3.7y=5.5</mrow></md></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 9-12,<ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>12,<ol label="a">
     <li><p>Graph the system by hand.</p></li>
     <li><p>Identify the system as dependent, inconsistent, or consistent and independent.</p></li></ol></p></introduction>
 
@@ -148,7 +148,7 @@
                         <cell></cell></row>
                     </tabular></sidebyside></li>
     <li><p>Graph both equations on the grid.</p>
-            <sidebyside width="55%"><image xml:id="fig-hw-2-2-9"><description>grid</description><latex-image>
+            <sidebyside width="50%"><image xml:id="fig-hw-2-2-9"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -206,7 +206,7 @@
                         <cell>980</cell>
                         <cell>1250</cell></row>
                 </tabular></sidebyside></li>
-     <li><sidebyside width="50%" margins="0% 0%"><image xml:id="fig-hw-2-2-9ans"><description>Cost for fitness clubs
+     <li><sidebyside width="45%" margins="0% 0%"><image xml:id="fig-hw-2-2-9ans"><description>Cost for fitness clubs
      </description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
@@ -396,12 +396,85 @@
                     </tabular></sidebyside>
 <p><ol label="a">
     <li>Which is growing more rapidly, the mean age or the median age?</li>
-    <li>Plot the data for median age versus the date, using 1990 as <m>t=0</m>. Draw a line through the data points.</li>
+    <li>
+        <p>
+            Plot the data for median age versus the date, using 1990 as <m>t=0</m>. Draw a line through the data points.
+        </p>
+        <sidebyside width="50%">
+            <image xml:id="fig-avg-US-women-age-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[cyan] (0,0) grid[xstep=2] (16,20);
+        \draw[black,thick,->,>=stealth'] (0,0)--++(16.8,0) node[right]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--++(0,20.8);
+        \foreach \x in {4,8,12,16} {
+          \draw[cyan,very thick] (\x,20)--++(0,-20) node[below,text=black ]{$\x$};
+          }
+        \foreach \x [evaluate=\x as \xi using int( 30+1/2* \x )]  in {4,8,...,20} {
+          \draw[cyan,very thick] (16,\x)--++(-16,0) node[left,text=black]{$\xi$};
+        }
+        \node[left] at (0,0) {30};
+        \node[font=\bf] at (8,-2) {Years after 1990};
+        \node[rotate=90,font=\bf] at (-2,10) {Median and mean age};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside>
+    </li>
     <li>What is the meaning of the slope of the line in part (b)?</li>
     <li>Plot the data for mean age versus date on the same grid. Draw a line that fits the data.</li>
     <li>Use your graph to estimate when the mean age and the median age were the same.</li>
     <li>If the median age of women in the United States is greater than the mean age, what does this tell you about the population of women?</li></ol></p></statement>
-<answer></answer>
+<answer>
+    <p><ol label="a">
+    <li>The median age</li>
+    <li>
+        <sidebyside width="50%" margins="0% 5%">
+            <image xml:id="fig-avg-US-women-age-plot">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[cyan] (0,0) grid[xstep=2] (16,20);
+        \draw[black,thick,->,>=stealth'] (0,0)--++(16.8,0) node[right]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--++(0,20.8);
+        \foreach \x in {4,8,12,16} {
+          \draw[cyan,very thick] (\x,20)--++(0,-20) node[below,text=black ]{$\x$};
+          }
+        \foreach \x [evaluate=\x as \xi using int( 30+1/2* \x )]  in {4,8,...,20} {
+          \draw[cyan,very thick] (16,\x)--++(-16,0) node[left,text=black]{$\xi$};
+        }
+        \node[left] at (0,0) {30};
+        \node[font=\bf] at (8,-2) {Years after 1990};
+        \node[rotate=90,font=\bf] at (-2,10) {Median and mean age};
+        \filldraw[red] (0,8) circle (.15);
+        \filldraw[red] (2,9.2) circle (.15);
+        \filldraw[red] (4,10.4) circle (.15);
+        \filldraw[red] (6,11.6) circle (.15);
+        \filldraw[red] (8,12.8) circle (.15);
+        \draw[red,thick] (0,8) -- (16,17.6);
+        \filldraw[blue] (0,13.2) circle (.15);
+        \filldraw[blue] (2,13.6) circle (.15);
+        \filldraw[blue] (4,14) circle (.15);
+        \filldraw[blue] (6,14.6) circle (.15);
+        \filldraw[blue] (8,15) circle (.15);
+        \draw[blue,thick] (0,13.16) -- (16,16.84);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside>
+    </li>
+    <li>0.3 years of age per year since 1990</li>
+    <li>See (b) above</li>
+    <li>Slightly less than 14 years since 1990</li>
+    <li>More than half the women are older than the mean age of women.</li></ol></p>
+</answer>
 </exercise>
 
 <exercise number="20"><statement><p>The table below gives data for the mean and median ages for men in the United States.  Repeat Exercise 19 for these data.</p>
@@ -429,6 +502,10 @@
                         <cell><m>34.5</m></cell>
                         <cell><m>34.9</m></cell></row>
                     </tabular></sidebyside>
+        <sidebyside width="50%">
+            <image source="images/fig-avg-US-women-age-grid">
+        <description>grid</description></image>
+        </sidebyside>
 </statement></exercise>
 
 </subexercises>

@@ -108,15 +108,47 @@
             <li><m>\pm \sqrt{6}</m></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p>Use the Pythagorean theorem to find the unknown side.<ol label="a" cols="2">
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="55%" margins="0% 45%">
+        <image xml:id="fig-x-6-10-rt-triangle">
+        <description>right triangle, legs x and 6, hypotenuse 10</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[blue] (8,0) rectangle +(-.8,.8);
+        \draw[black,thick] (0,0)--(8,0)--(8,6)--cycle;
+        \node at (4,-.6) {$x$};
+        \node at (8.8,3) {$6$};
+        \node at (3.8,3.8) {$10$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><sidebyside width="90%" margins="0% 5%">
+        <image xml:id="fig-12-35-z-rt-triangle">
+        <description>right triangle, legs 12 and 35, hypotenuse z</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.15]
+        \draw[blue] (0,0) rectangle +(2,-2);
+        \draw[black,thick] (0,0)--(35,0)--(0,-12)--cycle;
+        \node at (17.5,2) {$35$};
+        \node at (18,-8) {$z$};
+        \node at (-2.5,-6) {$12$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
 </ol></p></statement></exercise>
 
 </subexercises>
 
 <subexercises><title>Skills Practice</title>            
 
-<exercisegroup cols="2"><introduction><p>For problems 7-14, Solve by extracting roots. Give exact values for your answers.
+<exercisegroup cols="2"><introduction><p>For problems 7<ndash/>14, Solve by extracting roots. Give exact values for your answers.
 </p></introduction>
 
 <exercise number="7"><statement><p><m>3x^2-9=0</m></p></statement>
@@ -168,7 +200,7 @@
     <li><m>\dfrac{1}{2}(x+3)^2 = 8</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For problems 19-22, solve the formula for the specified variable.
+<exercisegroup cols="2"><introduction><p>For problems 19<ndash/>22, solve the formula for the specified variable.
 </p></introduction>
         
 <exercise number="19"><statement><p><m>F=\dfrac{mv^2}{r},~</m> for <m>v</m></p></statement>
@@ -179,7 +211,7 @@
 <exercise number="21"><statement><p><m>L=\dfrac{8}{\pi^2}T^2,~</m> for <m>T</m></p></statement>
     <answer><p><m>\pm pi \sqrt{\dfrac{L}{8}}</m></p></answer></exercise>
 
-<exercise number="22"><statement><p><m>s=4 \dfrac{1}{2}gt^2,~</m> for <m>t</m></p></statement></exercise>      
+<exercise number="22"><statement><p><m>s= \dfrac{1}{2}gt^2,~</m> for <m>t</m></p></statement></exercise>      
 </exercisegroup>
 </subexercises>
 
@@ -193,7 +225,7 @@
     TV screen is 28 inches, what is its height?</p></statement>
     <answer>21 in</answer></exercise>
 
-<exercise number="16"><statement><p>24 a 30-meter pine tree casts a shadow of 30 meters, how far is the tip of the shadow from the top of the tree? </p></statement></exercise>
+<exercise number="24"><statement><p>24 a 30-meter pine tree casts a shadow of 30 meters, how far is the tip of the shadow from the top of the tree? </p></statement></exercise>
 </exercisegroup>
 
 <exercise number="25"><statement><p>You plan to deposit your savings of $1600 in an account that compounds interest annually.<ol label="a">
@@ -236,8 +268,28 @@
 
 <exercise number="26"><statement><p>Two years ago Carol's living expenses were $1200 per month. This year the same items cost Carol $1400 per month. What was the annual inflation rate for the past two years?</p></statement></exercise>
 
-<exercise number="27"><statement><p>What size rectangle will fit inside a circle of radius 30 feet if the length of the rectangle must be three times its width?</p>
-<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></statement>
+<exercise number="27">
+    <statement>
+        <sidebyside widths="65% 28%" margins="0% 5 %" valigns="middle middle">
+            <p>What size rectangle will fit inside a circle of radius 30 feet if the length of the rectangle must be three times its width?</p>        
+            <image xml:id="fig-inscribed-rectangle">
+            <description>rectangle inscribed in circle radius 30</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.08  ]
+            \draw[red] (0,0) circle (30);
+            \draw[black,thick] (-9.5,-28.5) rectangle +(19,57);
+            \node at (0,-25.5) {$x$};
+            \node at (13,0) {$3x$};
+            \filldraw[blue] (0,0) circle (.8);
+            \draw[blue,thick] (0,0) -- (9.2,28.5) node[above left, midway] {30 ft};
+            \end{tikzpicture}]]>
+            </latex-image>
+        </image>
+        </sidebyside>
+    </statement>
 <answer><p>19 ft by 57 ft</p></answer></exercise>
 
 <exercise number="28"><statement><p>A storage box for sweaters is consturcted from a square sheet of cardboard measuring <m>x</m> inches on a side. The volume of the box, in cubic inches, is
@@ -277,11 +329,17 @@ If the box should have a volume of 1960 cubic inches, what size cardboard square
         <li><m>\dfrac{1}{4}</m></li>
         <li>1.96 cm</li></ol></answer></exercise>
 
-<exercise number="30"><statement><p>The area of a ring is given by the formula
-        <me>A = \pi R^2 - \pi r^2</me>
-where <m>R</m> is the radius of the outer circle, and <m>r</m> is the radius of the inner circle.</p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
-<p><ol label="a">
+<exercise number="30">
+    <statement>
+        <sidebyside widths="65% 25%" margins="0% 5%" valigns="middle middle">
+            <p>The area of a ring is given by the formula
+                <md><mrow>A = \pi R^2 - \pi r^2</mrow></md>
+                where <m>R</m> is the radius of the outer circle, and <m>r</m> is the radius of the inner circle.
+            </p>
+            <image source="images/fig-annulus"><description>graph</description>
+            </image>
+        </sidebyside>
+        <p><ol label="a">
     <li>Suppose the inner radius of the ring is kept fixed at <m>r=4</m> centimeters. but the radius of the outer circle, <m>R</m>, is allowed to vary.Find the area of the ring when the outer radius is 6 centimeters, 8 centimeters, and 12 centimeters.</li>
     <li><p>Graph the area equation, with <m>r=4</m>, in the window
         <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 14.1</mrow>
@@ -289,7 +347,8 @@ where <m>R</m> is the radius of the outer circle, and <m>r</m> is the radius of 
         Use the Trace to verify your answers to part (a).</p></li>
     <li>Trace along the curve to the point <m>(9.75, 248.38217)</m>. What do the coordinates of this point represent?</li>
     <li>Use your graph to estimate the outer radius of the ring when its area is 100 square centimeters.</li>
-    <li>Write and solve an equation to answer part(d)></li></ol></p></statement></exercise>
+    <li>Write and solve an equation to answer part(d).</li></ol></p></statement>
+</exercise>
 
 <exercisegroup><introduction><p>For Problems 31 and 32, solve for <m>x</m> in terms of <m>a</m>, <m>b</m>, and <m>c</m>.</p></introduction>
 

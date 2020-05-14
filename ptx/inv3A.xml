@@ -6,7 +6,7 @@
 <introduction><p>Suppose you drop a small object from a height and let it fall under the influence of gravity.
 Does it fall at the same speed throughout its descent? The diagram shows a sequence of photographs of a steel ball falling onto a table. The photographs were taken using a stroboscopic flash at intervals of 0.05 second, and a scale on the left side shows the height of the ball, in feet, at each interval.</p>
 
-	<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="90%"><image source="images/fig-inv-falling-object"><description>photos of falling object and grid</description></image></sidebyside>
 </introduction>
 
 <exercises>
@@ -14,7 +14,7 @@ Does it fall at the same speed throughout its descent? The diagram shows a seque
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                    	<cell><m>t</m></cell>
+                        <cell><m>t</m></cell>
                         <cell><m>0</m></cell>
                         <cell><m>0.05</m></cell>
                         <cell><m>0.10</m></cell>
@@ -35,7 +35,8 @@ Does it fall at the same speed throughout its descent? The diagram shows a seque
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
-                        <cell><m></m></cell>                        
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
                     </tabular></sidebyside></statement></exercise>
