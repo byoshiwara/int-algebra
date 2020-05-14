@@ -243,13 +243,36 @@ Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real
     <li><p><md><mrow>\sqrt{-3} \amp = \sqrt{-1}\sqrt{3}</mrow>
             <mrow> \amp = i \sqrt{3} </mrow></md></p></li></ol></p></statement></example>
 
-<exercise><title>Practice 3</title>
-<statement><p>Simplify. <ol label="a" cols="2">
-    <li><m>-\sqrt{-36}</m></li>
-    <li><m>(5i)^2</m></li></ol></p></statement>
-<answer><ol label="a" cols="2">
-    <li><m>-6i</m></li>
-    <li><m>-25</m></li></ol></answer></exercise>
+<exercise>
+    <title>Practice 3</title>
+    <webwork>
+         <pg-code>
+            Context("Complex")->functions->disable("sqrt");
+            Context()->functions->enable("sqrt");
+            Context()->{error}{msg}{"Can't take sqrt of -18"}
+              = "Your should not leave a negative number under the radical.";
+            Context()->{error}{msg}{"Can't take sqrt of -5"}
+              = "Your should not leave a negative number under the radical.";
+
+            $a = Compute("-6i");
+            $b = Compute("-25");
+            
+        </pg-code> 
+        <statement>
+            <p>Simplify.</p>
+            <p><ol label="a" cols="2">
+            <li><p><m>-\sqrt{-36}=</m><var name="$a" width="3"/> </p></li>
+            <li><p><m>(5i)^2=</m><var name="$b" width="3"/></p></li>
+        </ol></p>
+        </statement>
+        <solution>
+            <p><ol label="a" cols="2">
+                <li><p><m>-6i </m></p></li>
+                <li><p><m>-25 </m></p></li>
+            </ol></p>
+        </solution>
+    </webwork>
+</exercise>
 
 <p>The solutions of many quadratic equations involve imaginary numbers.</p>
  

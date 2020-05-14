@@ -118,8 +118,10 @@
 <exercise number="22"><statement><p>The city park used 136 meters of fence to enclose its rectangular rock garden.  The diagonal path across the middle of the garden is 52 meters long.  What are the dimensions of the garden?</p></statement>
 </exercise>
 
-<exercise number="23"><statement><p>The sail pictured is a right triangle of base and height <m>x</m>. It has a colored stripe along the hypotenuse and a white triangle of base and height <m>y</m> in the lower corner.</p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<exercise number="23"><statement>
+    <sidebyside widths="60% 30%" margins="0% 5%" valigns="top top">
+        <p>The sail pictured is a right triangle of base and height <m>x</m>. It has a colored stripe along the hypotenuse and a white triangle of base and height <m>y</m> in the lower corner.</p>
+    <image source="images/fig-triangular-sail"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Write an expression for the area of the colored stripe.</li>
     <li>Express the area of the stripe in factored form.</li>
@@ -130,16 +132,22 @@
     <li>18 sq ft</li></ol></p>
 </answer></exercise>
 
-<exercise number="24"><statement><p>An hors d’oeuvres tray has radius <m>x</m>, and the dip containerhas radius <m>y</m>.</p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<exercise number="24"><statement>
+    <sidebyside widths="60% 30%" margins="0% 5%" valigns="top top">
+    <p>An hors d’oeuvres tray has radius <m>x</m>, and the dip containerhas radius <m>y</m>.</p>
+    <image source="images/fig-hors-doeuvres-tray"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Write an expression for the area for the chips (the shaded region).</li>
     <li>Express the area in factored form.</li>
     <li>The tray has radius <m>8 \dfrac{1}{2}</m> inches and the space for the dip has radius <m>2 \dfrac{1}{2}</m> inches. Use your answer to part (b) to calculate mentally the area for the chips. Express your answer as a multiple of <m>\pi</m>.</li></ol></p></statement></exercise>
 
-<exercise number="25"><statement><p><ol label="a">
-    <li><p>Write an expression for the area of the square.</p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+<exercise number="25"><statement>
+    <p><ol label="a">
+    <li>
+        <sidebyside widths="60% 30%" margins="0% 5%" valigns="top top">
+            <p>Write an expression for the area of the square.</p>
+        <image source="images/fig-square-side-x-plus-y"><description>graph</description></image></sidebyside>
+    </li>
     <li>Express the area as a polynomial.</li>
     <li>Divide the square into four pieces whose areas are given by the terms of your answer to part (b).</li></ol></p></statement>
 <answer><p><ol label="a">
@@ -148,8 +156,12 @@
     <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="26"><statement><p><ol label="a">
-    <li><p>Write an expression for the area of the shaded region.</p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>
+        <sidebyside widths="60% 30%" margins="0% 5%" valigns="top top">
+            <p>Write an expression for the area of the shaded region.</p>
+            <image source="images/fig-square-removed-from-square"><description>graph</description></image>
+        </sidebyside>
+    </li>
     <li>Express the area in factored form.</li>
     <li>By making one cut in the shaded region, rearrange the pieces into a rectangle whose area is given by your answer to part (b).</li></ol></p></statement></exercise>
 
