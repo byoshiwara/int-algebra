@@ -8,7 +8,7 @@
     
 <subexercises><title>Warm Up</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1-4, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, <ol label="a">
     <li>Find the <m>x</m>-intercepts of the parabola.</li>
     <li>Decide whether the parabola opens up or down.</li></ol>
 </p></introduction>
@@ -47,21 +47,113 @@
 
 <exercise number="7"><statement><p><ol label="a">
     <li><p>Graph the equation <m>~y=x^2-2x-3~</m> on the grid.</p>
-        <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <sidebyside width="40%">
+            <image xml:id="fig-xsqd-minus-2x-minus-3-grid">
+                <description>grid</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.6]
+                \draw[cyan] (-5,-7) grid (5,12);
+                \draw[black,thick, ->, >=stealth'] (-5,0)--(5.5,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-7)--(0,12.6) node[above]{$y$};
+                \foreach \x in  {-4,-2,2,4} {
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x in  {-6,-4,2,4,6,8,10,12} {
+                 \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside></li>
     <li>Darken the portion of the <m>x</m>-axis for which <m>y \gt 0</m>.</li>
     <li>Solve the inequality <m>~x^2-2x-3\gt 0</m></li></ol></p></statement>
-<answer><p><m>x \gt 3</m> or <m>x \lt -1</m></p></answer></exercise>
+<answer>
+    <p><ol label="a">
+    <li><sidebyside width="40%">
+            <image xml:id="fig-xsqd-minus-2x-minus-3">
+                <description>grid</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.6]
+                \draw[cyan] (-5,-7) grid (5,12);
+                \draw[black,thick, ->, >=stealth'] (-5,0)--(5.5,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-7)--(0,12.6) node[above]{$y$};
+                \foreach \x in  {-4,-2,2,4} {
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x in  {-6,-4,2,4,6,8,10,12} {
+                 \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[samples=65,domain={-3:5},smooth,variable=\x,blue,very thick, <->, >=stealth'] plot ({\x},{(\x)^2 -2* \x -3});
+                \draw[red, very thick, ->, >=stealth'] (-1,0)--(-5,0);
+                \draw[red, very thick, ->, >=stealth'] (3,0)--(5.5,0);
+                \draw[red, fill=white] (-1,0) circle (.2);
+                \draw[red, fill=white] (3,0) circle (.2);
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside></li>
+    <li>See graph.</li>
+    <li><p><m>x \gt 3</m> or <m>x \lt -1</m></p></li></ol></p>
+    </answer></exercise>
 
 <exercise number="8"><statement><p><ol label="a">
     <li><p>Graph the equation <m>~y=x^2+2x-8~</m> on the grid.</p>
-        <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <sidebyside width="40%">
+            <image xml:id="fig-xsqd-plus-2x-minus-8-grid">
+                <description>grid</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.6]
+                \draw[cyan] (-5,-11) grid (5,8);
+                \draw[black,thick, ->, >=stealth'] (-5,0)--(5.5,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-11)--(0,8.6) node[above]{$y$};
+                \foreach \x in  {-2,4} {
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x in  {-10,-8,-6,-4,-2,2,4,6,8} {
+                 \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside></li>
     <li>Darken the portion of the <m>x</m>-axis for which <m>y \lt 0</m>.</li>
     <li>Solve the inequality <m>~x^2+2x-8\lt 0</m></li></ol></p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 9 and 10, use the graph to solve the equation and the inequality. </p></introduction>
 
 <exercise number="9"><statement>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="100%">
+        <image xml:id="fig-xsqd-minus-3x-minus-180">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (-6,-5) grid (6,3);
+        \draw[black,thick, ->, >=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,3.6) node[above]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {-4,2,4} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {-4,-2,2} {
+         \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain={-sqrt(1311/4)/5+3/10:sqrt(1311/4)/5+3/10}, smooth, variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{1/50*(5*\x-3/2)^2 - 711/200});
+        \node[right,text=red, fill=white, inner sep=1] at (1,-4) {$y=x^2-3x-180$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 <p><ol label="a">
     <li><m>x^2-3x-180 = 0</m></li>
     <li><m>x^2-3x-180 \gt 0</m></li></ol></p></statement>
@@ -70,7 +162,29 @@
     <li><m>x \lt -12</m> or <m>x \gt 15</m></li></ol></p></answer></exercise>
 
 <exercise number="10"><statement>
-<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="100%">
+        <image xml:id="fig-175-minus-18x-minus-xsq">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (-8,-5) grid (5,7);
+        \draw[black,thick, ->, >=stealth'] (-8,0)--(5.5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,7.6) node[above]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {-6,-4,2,4} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {-4,-2,2,6} {
+         \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain={-sqrt(506)/5-9/5:sqrt(506)/5-9/5}, smooth, variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{-1/50*(5*\x+9)^2 + 256/50});
+        \node[text=red, fill=white, inner sep=1] at (-5.2,5.5) {$y=175-18x-x^2$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 <p><ol label="a">
     <li><m>175-18x-x^2 = 0</m></li>
     <li><m>175-18x-x^2 \lt 0</m></li></ol></p></statement></exercise>
@@ -101,7 +215,7 @@ Then use the graph to solve the inequalities. Write your answers in interval not
     <li><m>16-x^2 \ge 7</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 13-16, solve the inequality. It may be helpful to sketch a rough graph.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>16, solve the inequality. It may be helpful to sketch a rough graph.</p></introduction>
 
 <exercise number="13"><statement><m>(x-3)(x+2) \gt 0</m></statement>
 <answer><m>x \lt -2</m> or <m>x \gt 3</m></answer></exercise>
@@ -114,7 +228,7 @@ Then use the graph to solve the inequalities. Write your answers in interval not
 <exercise number="16"><statement><m>t^2-36 \lt 0</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 17-24, solve the inequality algebraically. Write your answers in interval notation, and round to two decimal places if necessary.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>24, solve the inequality algebraically. Write your answers in interval notation, and round to two decimal places if necessary.</p></introduction>
 
 <exercise number="17"><statement><m>q^2+9q+18 \lt 0</m></statement>
 <answer><m>(-6,-3)</m></answer></exercise>
