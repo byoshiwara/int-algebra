@@ -6,7 +6,7 @@
 
 <exercises xml:id="section-5-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Set 5.4</title>
     
-<subexercises><title>Skills Practice</title>
+<subexercises><title>Warm Up</title>
 
 <exercise number="1"><statement><p>Solve<ol label="a" cols="2">
     <li><p><m>\dfrac{a}{a-2}=\dfrac{25}{30}</m></p></li>
@@ -64,6 +64,9 @@
                         <cell><m>\hphantom{\qquad}</m></cell></row>
                     </tabular></sidebyside></p></li></ol></p>
     </statement></exercise>
+</subexercises>
+
+<subexercises><title>Skills Practice</title>
 
 <exercisegroup><introduction><p>For Problems 3 and 4, <ol label="a">
     <li>Use the values in the table to find the constant of variation, <m>k</m>, and write <m>y</m> as a function of <m>x</m>.</li>

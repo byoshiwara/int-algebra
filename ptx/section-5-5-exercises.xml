@@ -6,24 +6,40 @@
 
 <exercises xml:id="section-5-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Set 5.5</title>
     
+<subexercises><title>Warm Up</title>
+
+<exercisegroup cols="2"><introduction><p>For Problems 1-4, choose variables and write an equation relating them. Which equations describe inverse variation?</p></introduction>
+
+<exercise number="1"><statement><p>Rachel spends one-third of her income on rent.</p></statement>
+<answer><p><m>R=\dfrac{1}{3}I</m>. Not inverse variation.</p></answer></exercise>
+
+<exercise number="2"><statement><p>There were two candidates in the election for mayor of Centerville, Smith and Jones. A total of 4800 votes were cast (no write-in votes).</p></statement></exercise>
+
+<exercise number="3"><statement><p>Water is leaking from a 2000-gallon tank at a rate of one cup per day. (There are 16 cups in a gallon.) The amount of water left in the tank is a function of the amount leaked out.</p></statement>
+<answer><m>W=32,000-d</m> Not inverse variation.</answer></exercise>
+
+<exercise number="4"><statement><p>Craig is planning to tile the floor of a 250-square foot room. He is deciding what size tile to use, and how many tiles he will need.</p></statement></exercise>
+</exercisegroup>
+</subexercises>
+
 <subexercises><title>Skills Practice</title>
 
-<exercise number="1"><statement><p>Which of these graphs could describe inverse variation?</p>
+<exercise number="5"><statement><p>Which of these graphs could describe inverse variation?</p>
     <sidebyside  width="90%"><image source="images/fig-hw-5-5-1"><description>graph</description></image></sidebyside>
 </statement>
 <answer>(c)</answer>
 </exercise>
 
-<exercise number="2"><statement><p>Which of these graphs could describe inverse variation?</p>
+<exercise number="6"><statement><p>Which of these graphs could describe inverse variation?</p>
     <sidebyside  width="90%"><image source="images/fig-hw-5-5-2"><description>graph</description></image></sidebyside>         
 </statement></exercise>
+<exercisegroup cols="2"><introduction><p>For Problems 7 and 8, <ol label="a">
 
-<exercisegroup cols="2"><introduction><p>For Problems 3 and 4, <ol label="a">
     <li>Use the values in the table to find the constant of variation, <m>k</m>, and write <m>y</m> as a function of <m>x</m>.</li>
     <li>Fill in the rest of the table with the correct values.</li>
     <li>What happens to <m>y</m> when you double the value of <m>x</m>?</li></ol></p></introduction>
 
-<exercise number="3"><statement><p><m>y</m> varies inversely with <m>x</m>.
+<exercise number="7"><statement><p><m>y</m> varies inversely with <m>x</m>.
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -60,7 +76,7 @@
                     </tabular></sidebyside></p></li>
     <li><m>y</m> is divided by 2</li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><m>y</m> varies inversely with the square of <m>x</m>.
+<exercise number="8"><statement><p><m>y</m> varies inversely with the square of <m>x</m>.
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -80,14 +96,14 @@
 </exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, decide whether<ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>12, decide whether<ol label="a">
     <li><m>y</m> varies inversely with <m>x</m></li>
     <li><m>y</m> varies inversely with <m>x^2</m></li>
     <li><m>y</m> does not vary inversely with a power of <m>x</m></li></ol></p>
 <p>Explain why your choice is correct. If your choice is (a) or (b), find the constant of variation, <m>k</m>.</p>
 </introduction>
 
-<exercise number="5"><statement><p>
+<exercise number="9"><statement><p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -104,7 +120,7 @@
                     </tabular></sidebyside></p></statement>
 <answer><p>(b), <m>k=72</m></p></answer></exercise>
 
-<exercise number="6"><statement><p>
+<exercise number="10"><statement><p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -120,7 +136,7 @@
                         <cell><m>10.0</m></cell></row>
                     </tabular></sidebyside></p></statement></exercise>
 
-<exercise number="7"><statement><p>
+<exercise number="11"><statement><p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -137,7 +153,7 @@
                     </tabular></sidebyside></p></statement>
 <answer><p>(c)</p></answer></exercise>
 
-<exercise number="8"><statement><p>
+<exercise number="12"><statement><p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -157,7 +173,7 @@
 
 <subexercises><title>Applications</title>
 
-<exercise number="9"><statement><p>The marketing department for a paper company is testing wrapping paper rolls in various dimensions to see which shape consumers prefer. All the rolls contain the same amount of wrapping paper.</p>
+<exercise number="13"><statement><p>The marketing department for a paper company is testing wrapping paper rolls in various dimensions to see which shape consumers prefer. All the rolls contain the same amount of wrapping paper.</p>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <col right="major" halign="left"/><col/><col/><col/>
         <row><cell><m>\text{Width (feet)} </m></cell>
@@ -201,7 +217,7 @@
 </ol></p></answer>
 </exercise>               
 
-<exercise number="10"><statement><p>The force of gravity on a <m>1</m>-kilogram mass is inversely proportional to the square of the object's distance from the center of the Earth. The table shows the force on the object, in newtons, at distances that are multiples of the Earth's radius.</p>
+<exercise number="14"><statement><p>The force of gravity on a <m>1</m>-kilogram mass is inversely proportional to the square of the object's distance from the center of the Earth. The table shows the force on the object, in newtons, at distances that are multiples of the Earth's radius.</p>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <col right="major" halign="left"/><col/><col/><col/>
         <row><cell><m>\text{Distance (Earth radii)} </m></cell>
@@ -223,7 +239,7 @@
         <li><p>Sketch a graph of the function by hand, and label the scales on the axes.</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="11"><statement><p>Computer monitors produce a magnetic field. The effect of the field, <m>B</m>, on the user varies inversely with his or her distance, <m>d</m>, from the screen. The field from a certain color monitor was measured at <m>22</m> milligauss <m>4</m> inches from the screen.<ol label="a">
+<exercise number="15"><statement><p>Computer monitors produce a magnetic field. The effect of the field, <m>B</m>, on the user varies inversely with his or her distance, <m>d</m>, from the screen. The field from a certain color monitor was measured at <m>22</m> milligauss <m>4</m> inches from the screen.<ol label="a">
         <li><p>Express the field strength as a function of distance from the screen. Complete the table and graph your function in a suitable window.</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
@@ -264,13 +280,13 @@
     <li><p>It is one half as strong.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p> Boyle's law says that the pressure on a gas is inversely proportional to the volume it occupies. For example, deep-sea divers who return to the surface too rapidly get "the bends" when nitrogen bubbles in the blood expand. Suppose a submarine at a depth of 100 meters, where the pressure is is 10.7 atmospheres, releases a bubble of volume 1.5 cubic centimeters. <ol label="a">
+<exercise number="16"><statement><p> Boyle's law says that the pressure on a gas is inversely proportional to the volume it occupies. For example, deep-sea divers who return to the surface too rapidly get "the bends" when nitrogen bubbles in the blood expand. Suppose a submarine at a depth of 100 meters, where the pressure is is 10.7 atmospheres, releases a bubble of volume 1.5 cubic centimeters. <ol label="a">
     <li>Find a formula for the volume of the bubble as a function of the pressure.</li>
     <li>What will the volume of the bubble be when it reaches the surface, where the pressure is 1 atmosphere?</li>
     <li>Graph your function.</li></ol></p></statement>
 </exercise>
 
-<exercise number="13"><statement><p>After the 2017 wildfires, California needs to replant 129,000,000 trees. The amount of time this will take is inversely proportional to the number of workers planting trees. On average, one worker can plant 2000 tree seedlings each day. <ol label="a">
+<exercise number="17"><statement><p>After the 2017 wildfires, California needs to replant 129,000,000 trees. The amount of time this will take is inversely proportional to the number of workers planting trees. On average, one worker can plant 2000 tree seedlings each day. <ol label="a">
     <li>How many days would it take 100 workers to plant the trees?</li>
     <li>Write a formula for the number of working days, <m>D</m>, it will take <m>n</m> workers to plant the trees.</li>
     <li>How many workers would be needed to plant the trees in 300 working days?</li></ol></p></statement>
@@ -280,11 +296,11 @@
     <li>215</li></ol></p></answer>
 </exercise>
 
-<exercisegroup><introduction><p>The functions described by a table or a graph in Problems 14<ndash/>17 are examples of inverse variation.<ol label="a"> 
+<exercisegroup><introduction><p>The functions described by a table or a graph in Problems 18<ndash/>21 are examples of inverse variation.<ol label="a"> 
     <li>Find a formula for the function, including the constant of variation, <m>k</m>.</li> 
     <li>Answer the question in the problem.</li></ol></p></introduction>
 
-<exercise number="14"><statement><sidebyside widths="50% 36%" valigns="middle middle"><p>If the price of mushrooms goes up, the amount consumers are willing to buy goes down. The graph shows the number of tons of shiitake mushrooms, <m>m</m>, sold in California each week as a function of their price, <m>p</m>. If the price of shiitake mushrooms rises to <m>\$10</m> per pound, how many tons will be sold?</p>
+<exercise number="18"><statement><sidebyside widths="50% 36%" valigns="middle middle"><p>If the price of mushrooms goes up, the amount consumers are willing to buy goes down. The graph shows the number of tons of shiitake mushrooms, <m>m</m>, sold in California each week as a function of their price, <m>p</m>. If the price of shiitake mushrooms rises to <m>\$10</m> per pound, how many tons will be sold?</p>
     <image source="images/fig-hw-5-5-14"  width="40%"><description>decreasing concave up</description></image></sidebyside>
 </statement>
 <answer><p><ol label="a" cols="2">
@@ -292,11 +308,11 @@
     <li><p><m>0.8</m> ton</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="15"><statement><sidebyside widths="50% 36%" valigns="middle middle"><p>When an adult plays with a small child on a seesaw, the adult must sit closer to the pivot point to balance the seesaw. The graph shows this distance, <m>d</m>, as a function of the adult's weight, <m>w</m>. How far from the pivot must Kareem sit if he weighs <m>280</m> pounds?</p>
+<exercise number="19"><statement><sidebyside widths="50% 36%" valigns="middle middle"><p>When an adult plays with a small child on a seesaw, the adult must sit closer to the pivot point to balance the seesaw. The graph shows this distance, <m>d</m>, as a function of the adult's weight, <m>w</m>. How far from the pivot must Kareem sit if he weighs <m>280</m> pounds?</p>
    <image source="images/fig-hw-5-5-15"  width="40%"><description>decreasing concave up</description></image></sidebyside>
 </statement></exercise>
 
-<exercise number="16"><statement><p>The thermocline is a layer of ocean water where the temperature changes rapidly. The table shows the temperature of the water as a function of depth in the thermocline. What is the ocean temperature at a depth of <m>500</m> meters?</p>
+<exercise number="20"><statement><p>The thermocline is a layer of ocean water where the temperature changes rapidly. The table shows the temperature of the water as a function of depth in the thermocline. What is the ocean temperature at a depth of <m>500</m> meters?</p>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row><cell>Depth (m)</cell>
             <cell>Temperature (<m>\degree</m>C)</cell></row>
@@ -312,7 +328,7 @@
     <li><p><m>8\degree</m>C</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="17"><statement><p>The shorter the length of a vibrating guitar string, the higher the frequency of the vibrations. The fifth string is <m>65</m> centimeters long and is tuned to A (with a frequency of <m>220</m> vibrations per second). The placement of the fret relative to the bridge changes the effective length of the guitar string. The table shows frequency as a function of effective length. How far from the bridge should the fret be placed for the note C (<m>256</m> vibrations per second)?</p>
+<exercise number="21"><statement><p>The shorter the length of a vibrating guitar string, the higher the frequency of the vibrations. The fifth string is <m>65</m> centimeters long and is tuned to A (with a frequency of <m>220</m> vibrations per second). The placement of the fret relative to the bridge changes the effective length of the guitar string. The table shows frequency as a function of effective length. How far from the bridge should the fret be placed for the note C (<m>256</m> vibrations per second)?</p>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row><cell>Length (cm)</cell>
             <cell>Frequency</cell></row>
@@ -327,7 +343,7 @@
     </tabular></sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercise number="18"><statement><p>The intensity of illumination, <m>I</m>, from a lamp varies inversely with the square of your distance, <m>d</m>, from the lamp.<ol label="a">
+<exercise number="22"><statement><p>The intensity of illumination, <m>I</m>, from a lamp varies inversely with the square of your distance, <m>d</m>, from the lamp.<ol label="a">
         <li><p>If you double your distance from a reading lamp, what happens to the illumination?</p></li>
         <li><p>If you triple the distance, what happens to the illumination?</p></li>
         <li><p>If you increase the distance by <m>25\%</m>, what happens to the illumination?</p></li>
