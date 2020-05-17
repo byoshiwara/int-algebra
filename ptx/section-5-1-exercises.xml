@@ -340,7 +340,7 @@
 <exercisegroup><introduction><p>For Problems 17<mdash/>24, use the graph of the function to answer the questions.</p></introduction>
 
 <exercise number="17"><statement><p>The graph shows <m>C=h(t)</m>, where <m>C</m> stands for the number of customers (in thousands) signed up for a new movie streaming service, measured in months after their advertising campaign at <m>t=0</m> in January.</p>
-        <sidebyside   width="36%"><image source="images/fig-ex-1-2-35"><description>increasing concave up graph</description></image></sidebyside><p><ol label="a">
+        <sidebyside   width="36%"><image source="images/fig-y-eq-2-to-x"><description>increasing concave up graph</description></image></sidebyside><p><ol label="a">
                 <li><p>When did the service have <m>2000</m> customers? Write your answer with function notation.</p></li>
                 <li><p>How long did it take that number to double?</p></li>
                 <li><p>How long did it take for the number to double again?</p></li>
@@ -355,7 +355,7 @@
             </ol></p></answer></exercise>
 
 <exercise number="18"><statement><p>The graph shows <m>P</m> as a function of <m>t</m>. <m>P</m> is the number of houses in Cedar Grove who have had solar panels installed <m>t</m> years after 2000.</p>
-        <sidebyside  width="36%"><image source="images/fig-ex-1-2-36"><description>increasing concave down graph</description>
+        <sidebyside  width="36%"><image source="images/fig-asymptote-y-eq-5000"><description>increasing concave down graph</description>
         </image></sidebyside>     <ol label="a">
             <li><p>When did 3500 houses have solar panels? Write your answer using function notation.</p></li>
             <li><p>How many houses had solar panels in 2005? Write your answer using function notation.</p></li>
@@ -364,7 +364,7 @@
         </statement></exercise>
 
 <exercise number="19"><statement><p>The graph shows the revenue, <m>R=f(d)</m>, a movie theater collects as a function of the price, <m>d</m>, it charges for a ticket.</p>
-        <sidebyside  width="40%"><image source="images/fig-ex-1-2-37"><description>concave down graph</description>
+        <sidebyside  width="40%"><image source="images/fig-y-eq-neg20-sq-x-minus-10-plus-2000"><description>concave down graph</description>
         </image></sidebyside><ol label="a">
                 <li><p>Estimate the revenue if the theater charges $<m>12.00</m> for a ticket.</p></li>
                 <li><p>What should the theater charge for a ticket in order to collect $<m>1500</m> in revenue?</p></li>
@@ -379,7 +379,7 @@
 </answer></exercise>
 
 <exercise number="20"><statement><p>The graph shows <m>S=g(w)</m>. <m>S</m> represents the weekly sales of a best-selling book, in thousands of dollars, <m>w</m> weeks after it is released.</p>
-        <sidebyside  width="40%"><image source="images/fig-ex-1-2-38"><description>bell-shaped graph</description>
+        <sidebyside  width="40%"><image source="images/fig-bell-curve"><description>bell-shaped graph</description>
         </image></sidebyside><ol label="a">
                 <li><p>In which weeks were sales over $<m>7000</m>?</p></li>
                 <li><p>In which week did sales fall below $<m>5000</m> on their way down?</p></li>
@@ -387,7 +387,7 @@
             </ol></statement></exercise>
 
 <exercise number="21"><statement><p>The graph shows the U.S. unemployment rate, <m>U=F(t)</m>, where <m>t</m>, represents years. Give your answers to the questions below in function notation.(Source: U.S. Bureau of Labor Statistics)</p>
-        <sidebyside  width="60%"><image source="images/fig-ex-1-2-40"><description>unemployment rate</description>
+        <sidebyside  width="60%"><image source="images/fig-unemployment"><description>unemployment rate</description>
         </image></sidebyside><p><ol label="a">
                 <li><p>When did the unemployment rate reach its highest value, and what was its highest value?</p></li>
                 <li><p>When did the unemployment rate fall to its lowest value, and what was its lowest value?</p></li>
@@ -399,7 +399,7 @@
     <li><m>F(1998+ = 4.5%,~ F(2001) = 4.5%</m></li></ol></p></answer></exercise>
 
 <exercise number="22"><statement><p>The graph shows the federal minimum wage, <m>M</m>, over the pasr five decades, adjusted for inflation to reflect its buying power in 2004 dollars. (Source: www.infoplease.com)</p>
-    <sidebyside><image source="images/fig-ex-1-2-39"><description>unemployment rate</description></image></sidebyside><p>
+    <sidebyside><image source="images/fig-min-wage"><description>minimum wage</description></image></sidebyside><p>
         <ol label="a">
             <li>Is <m>M</m> a function of <m>t</m>?  Support your answer.</li>
             <li><p>What is the largest function value on the graph?  Write your answer with function notation, and explain what it means in this problem.</p></li>
@@ -407,7 +407,7 @@
 </statement></exercise>
 
 <exercise number="23"><statement><p>The bar graph shows the percent of Earth's surface that lies at various altitudes or depths below the surface of the oceans. (Depths are given as negative altitudes.) (Source: Open University)</p>
-        <sidebyside  width="70%"><image source="images/fig-ex-1-2-56"><description>bar graph</description></image></sidebyside>
+        <sidebyside  width="70%"><image source="images/fig-earth-surface-bargraph"><description>bar graph</description></image></sidebyside>
                 <p><ol label="a">
                     <li><p>Read the graph and complete the table.</p>
                 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -497,7 +497,30 @@
     <p><ol label="a">
         <li>Did the temperature rise at a constant rate? Describe the temperature as a function of time.</li>
         <li><p>Graph the temperature as a function of time.</p>
-        <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <sidebyside width="45%">
+            <image xml:id="fig-grid-temp-of-heated-substance">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (0,0) grid (10,15);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(10.5,0);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,15.6);
+        \foreach \x in {5,10} {
+         \draw[black,thick] (\x,0.1) --++(0,-.2)  node[below]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in {2,4,...,14} {
+
+         \draw[black] (.1,\x) --++(-.20,0)  node[left]   {$\xi$};
+         }
+        \node[font=\bf] at (5,-1.5) {Time (min)};
+        \node[rotate=90,font=\bf] at (-1.8,7.5) {Temperature ($^\circ$C)};
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside></li>
         <li>What is the melting point of stearic acid? How long did it take the sample to melt?</li></ol></p></statement>
 </exercise>
 </exercisegroup>
