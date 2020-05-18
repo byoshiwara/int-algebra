@@ -220,77 +220,42 @@
 <exercise number="23"><statement><m>P(x)=0.7^x</m></statement>
 <answer><p><m>0.17; 5.95</m></p></answer></exercise>
 </exercisegroup>
-</subexercises>
 
-<subexercises><title>Applications</title>
+<exercise number="24"><statement><p>The graph of <m>f(x)=P_0 a^x</m> is shown in the figure.</p>
+    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<ol label="a">
+    <li>Read the value of <m>P_0</m> from the graph.</li>
+    <li>Make a short table of values for the function by reading values from the graph. Does your table confirm that the function is exponential?</li>
+    <li>Use your table to calculate the groth factor <m>a</m>.</li>
+    <li>Using your answers to parts (a) and (c), write a formula for <m>f(x)</m>.</li></ol></statement></exercise>
 
-<exercise number="24"><statement><p>Before the advent of antibiotics, an outbreak of cholera might spread through a city so that the number of cases doubled every <m>6</m> days.<ol label="a">
-    <li><p>Twenty-six cases were discovered on July 5. Write a function for the number of cases of cholera <m>t</m> days later.</p></li>
-    <li><p>Use your calculator to graph your function on the interval <m>0 \le t\le 90</m>.</p></li>
-    <li><p>When should hospitals expect to be treating <m>106,496</m> cases? Use algebraic methods to find your answer, and verify it on your graph.</p></li>
-    </ol></p></statement>
-    <!-- 
-<answer><p><ol label="a" cols="2">
-    <li><p><m>N(t) = 26(2)^{t/6}</m></p></li>
-    <li><sidebyside width="90%"><image source="images/fig-hw-7-2-24ans.jpg"><description>GC growth</description></image></sidebyside></li>
-    <li><p>72 days later</p></li>
-</ol></p></answer> -->
-</exercise>
+<exercise number="25"><statement><p>The graph of <m>g(x)=P_0 a^x</m> is shown in the figure.</p>
+    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<ol label="a">
+    <li>Read the value of <m>P_0</m> from the graph.</li>
+    <li>Make a short table of values for the function by reading values from the graph. Does your table confirm that the function is exponential?</li>
+    <li>Use your table to calculate the groth factor <m>a</m>.</li>
+    <li>Using your answers to parts (a) and (c), write a formula for <m>g(x)</m>.</li></ol></statement>
+<answer><p><ol label="a">
+    <li><m>P_0 = 800</m></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>800</m></cell>
+                        <cell><m>200</m></cell>
+                        <cell><m>50</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><m>a = \dfrac{1}{4}</m></li>
+    <li><m>g(x) = 800(\dfrac{1}{4})^x</m></li></ol></p></answer></exercise>
 
-<exercise number="25"><statement><p>A mobile home loses <m>20\%</m> of its value every <m>3</m> years.<ol label="a">
-        <li><p>A certain mobile home costs <m>\$20,000</m>. Write a function for its value after <m>t</m> years.</p></li>
-        <li><p>Use your calculator to graph your function on the interval <m>0 \le t\le 30</m>.</p></li>
-        <li><p>How long will it be before a <m>\$20,000</m> mobile home depreciates to <m>\$12,800</m>? Use algebraic methods to find your answer, and verify it on your graph.</p></li>
-    </ol></p></statement>
-<answer><p><ol label="a" cols="2">
-    <li><p><m>V(t) = 20,000(0.8)^{t/3}</m></p></li>
-    <li><sidebyside width="90%"><image source="images/fig-hw-7-2-25ans.png"><description>GC decay</description></image></sidebyside></li>
-    <li><p>6 years</p></li>
-</ol></p></answer></exercise>
+<exercisegroup cols="2"><introduction><p>For Problems 26 and 27, which tables could describe exponential functions? Explain why or why not. If the function is exponential, find its growth or decay factor.</p></introduction>
 
-<exercise number="26"><statement><p>Which of the following tables could describe exponential functions? Explain why or why not. If the function is exponential, find its growth or decay factor.<ol label="a" cols="4"> 
-    <li><sidebyside width="70%" margins="0% 30%"> 
-        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col /><col halign="right"/>
-            <row>
-                <cell><m>t</m></cell>
-                <cell halign="center"><m>y</m></cell></row>
-            <row>
-                <cell><m>1</m></cell>
-                <cell><m>100</m></cell></row>
-            <row>
-                <cell><m>2</m></cell>
-                <cell><m>50</m></cell></row>
-            <row>
-                <cell><m>3</m></cell>
-                <cell><m>33\frac{1}{3} </m></cell></row>
-            <row>
-                <cell><m>4</m></cell>
-                <cell><m>25</m></cell></row>
-            <row>
-                <cell><m>5</m></cell>
-                <cell><m>20</m></cell></row>
-        </tabular></sidebyside></li>
-    <li><sidebyside width="50%" margins="0% 50%">
-        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col /><col halign="right"/>
-            <row>
-                <cell><m>x</m></cell>
-                <cell halign="center"><m>P</m></cell></row>
-            <row>
-                <cell><m>1</m></cell>
-                <cell><m>\frac{1}{2} </m></cell></row>
-            <row>
-                <cell><m>2</m></cell>
-                <cell><m>1</m></cell></row>
-            <row>
-                <cell><m>3</m></cell>
-                <cell><m>2</m></cell></row>
-            <row>
-                <cell><m>4</m></cell>
-                <cell><m>4</m></cell></row>
-            <row>
-                <cell><m>5</m></cell>
-                <cell><m>8</m></cell></row>
-        </tabular></sidebyside></li>
+<exercise number="26"><statement><p><ol label="a" cols="2">
     <li><sidebyside width="70%" margins="0% 30%">
         <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col /><col halign="left"/>
             <row>
@@ -333,13 +298,85 @@
                 <cell><m>4</m></cell>
                 <cell><m>4</m></cell></row>
         </tabular></sidebyside></li>
-</ol></p></statement>
+</ol></p></statement></exercise>
+
+<exercise number="27"><statement><p><ol label="a" cols="2"> 
+    <li><sidebyside width="70%" margins="0% 30%"> 
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col /><col halign="right"/>
+            <row>
+                <cell><m>t</m></cell>
+                <cell halign="center"><m>y</m></cell></row>
+            <row>
+                <cell><m>1</m></cell>
+                <cell><m>100</m></cell></row>
+            <row>
+                <cell><m>2</m></cell>
+                <cell><m>50</m></cell></row>
+            <row>
+                <cell><m>3</m></cell>
+                <cell><m>33\frac{1}{3} </m></cell></row>
+            <row>
+                <cell><m>4</m></cell>
+                <cell><m>25</m></cell></row>
+            <row>
+                <cell><m>5</m></cell>
+                <cell><m>20</m></cell></row>
+        </tabular></sidebyside></li>
+    <li><sidebyside width="50%" margins="0% 50%">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col /><col halign="right"/>
+            <row>
+                <cell><m>x</m></cell>
+                <cell halign="center"><m>P</m></cell></row>
+            <row>
+                <cell><m>1</m></cell>
+                <cell><m>\frac{1}{2} </m></cell></row>
+            <row>
+                <cell><m>2</m></cell>
+                <cell><m>1</m></cell></row>
+            <row>
+                <cell><m>3</m></cell>
+                <cell><m>2</m></cell></row>
+            <row>
+                <cell><m>4</m></cell>
+                <cell><m>4</m></cell></row>
+            <row>
+                <cell><m>5</m></cell>
+                <cell><m>8</m></cell></row>
+        </tabular></sidebyside></li></ol></p></statement>
 <answer><p><ol label="a">
     <li><p>Power <m>y=100 x^{-1}</m></p></li>
     <li><p>Exponential <m>P=\frac{1}{4} \cdot 2^x</m></p></li>
 </ol></p></answer></exercise>
+</exercisegroup>
+
+</subexercises>
+
+<subexercises><title>Applications</title>
+
+<exercise number="28"><statement><p>A mobile home loses <m>20\%</m> of its value every <m>3</m> years.<ol label="a">
+        <li><p>A certain mobile home costs <m>\$20,000</m>. Write a function for its value after <m>t</m> years.</p></li>
+        <li><p>Use your calculator to graph your function on the interval <m>0 \le t\le 30</m>.</p></li>
+        <li><p>How long will it be before a <m>\$20,000</m> mobile home depreciates to <m>\$12,800</m>? Use algebraic methods to find your answer, and verify it on your graph.</p></li>
+    </ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><p><m>V(t) = 20,000(0.8)^{t/3}</m></p></li>
+    <li><sidebyside width="90%"><image source="images/fig-hw-7-2-25ans.png"><description>GC decay</description></image></sidebyside></li>
+    <li><p>6 years</p></li>
+</ol></p></answer></exercise>
+
+<exercise number="29"><statement><p>Before the advent of antibiotics, an outbreak of cholera might spread through a city so that the number of cases doubled every <m>6</m> days.<ol label="a">
+    <li><p>Twenty-six cases were discovered on July 5. Write a function for the number of cases of cholera <m>t</m> days later.</p></li>
+    <li><p>Use your calculator to graph your function on the interval <m>0 \le t\le 90</m>.</p></li>
+    <li><p>When should hospitals expect to be treating <m>106,496</m> cases? Use algebraic methods to find your answer, and verify it on your graph.</p></li>
+    </ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><p><m>N(t) = 26(2)^{t/6}</m></p></li>
+    <li><sidebyside width="90%"><image source="images/fig-hw-7-2-24ans.jpg"><description>GC growth</description></image></sidebyside></li>
+    <li><p>72 days later</p></li>
+</ol></p></answer> 
+</exercise>
     
-<exercise number="27"><statement><p>The frequency of a musical note depends on its pitch. The graph shows that the frequency increases exponentially. The function <m>F(p) = F_0b^p</m> gives the frequency as a function of the number of half-tones, <m>p</m>, above the starting point on the scale</p>
+<exercise number="30"><statement><p>The frequency of a musical note depends on its pitch. The graph shows that the frequency increases exponentially. The function <m>F(p) = F_0b^p</m> gives the frequency as a function of the number of half-tones, <m>p</m>, above the starting point on the scale</p>
     <sidebyside  width="31%"><image source="images/fig-hw-7-2-27"><description>growth</description></image></sidebyside><p>
     <ol label="a">
         <li><p>Read the value of <m>F_0</m> from the graph. (This is the frequency of the note A above middle C.)</p></li>
@@ -353,7 +390,7 @@
     <li><p><m>F(p) = 440(1.06)^p</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>For several days after the Northridge earthquake on January 17, 1994, the area received a number of significant aftershocks. The red graph shows that the number of aftershocks decreased exponentially over time. The graph of the function <m>S(d) = S_0b^d</m>, shown in black, approximates the data. (Source: <pubtitle>Los Angeles Times</pubtitle>, June 27, 1995)</p>
+<exercise number="31"><statement><p>For several days after the Northridge earthquake on January 17, 1994, the area received a number of significant aftershocks. The red graph shows that the number of aftershocks decreased exponentially over time. The graph of the function <m>S(d) = S_0b^d</m>, shown in black, approximates the data. (Source: <pubtitle>Los Angeles Times</pubtitle>, June 27, 1995)</p>
     <sidebyside width="36%"><image source="images/fig-hw-7-2-28"><description>decay</description></image></sidebyside><p>
     <ol label="a">
         <li><p>Read the value of <m>S_0</m> from the graph.</p></li>
@@ -366,14 +403,14 @@
     <li><p><m>S(d) = 150(0.55)^d</m></p></li>
 </ol></p></answer></exercise>
 
-<exercisegroup  cols="2"><introduction><p>For Problems 29 and 30, fill in the tables. Graph each pair of functions in the same window. Then answer the questions below.<ol label="a">
+<exercisegroup  cols="2"><introduction><p>For Problems 32 and 33, fill in the tables. Graph each pair of functions in the same window. Then answer the questions below.<ol label="a">
         <li><p>For how many values of <m>x</m> does <m>f (x) = g(x)</m>?</p></li>
         <li><p>Estimate the value(s) of <m>x</m> for which <m>f (x) = g(x)</m>.</p></li>
         <li><p>For what values of <m>x</m> is <m>f (x)\lt g(x)</m>?</p></li>
         <li><p>Which function grows more rapidly for large values of <m>x</m>?</p></li>
     </ol></p></introduction>
 
-<exercise number="29"><statement>
+<exercise number="32"><statement>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row><cell><m>x</m></cell>
             <cell><m>f(x)=x^2</m></cell>
@@ -441,7 +478,7 @@
     <li><p><m>g(x)</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="30"><statement>
+<exercise number="33"><statement>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row>
             <cell><m>x</m></cell>
@@ -481,6 +518,36 @@
             <cell></cell></row>
     </tabular></sidebyside></statement></exercise>
 </exercisegroup>
+
+<exercise number="34"><statement><p>Related species living in the same area often evolve in different sizes to minimize competition for food and habitat. Here are the masses of eight species of fruit pigeon found in New Guinea, ranked from smallest to largest. (Source: Burton, 1998)</p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Size rank</cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>8</m></cell></row>
+                    <row> 
+                        <cell>Mass (grams)</cell>
+                        <cell><m>49</m></cell>
+                        <cell><m>76</m></cell>
+                        <cell><m>123</m></cell>
+                        <cell><m>163</m></cell>
+                        <cell><m>245</m></cell>
+                        <cell><m>414</m></cell>
+                        <cell><m>592</m></cell>
+                        <cell><m>802</m></cell></row>
+                    </tabular></sidebyside>
+<p><ol label="a">
+    <li><p>Plot the masses of the pigeons against their order of increasing size. What kind of function might fit the data?</p>
+    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>Compute the ratios of the masses of successive sizes of fruit pigeons. Are the ratios approximately constant? What does this information tell you about your answer to part (a)?</li>
+    <li>Compute the average ratio to two decimal places. Using this ratio, estimate the mass of a hypothetical fruit pigeon of size rank zero.</li>
+    <li>Using your answers to part (c), write an exponential function that approximates the data. Graph this function on top of the data and evaluate the fit.</li></ol></p></statement></exercise>
 
 </subexercises>
 </exercises>

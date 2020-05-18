@@ -87,7 +87,7 @@
         </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 10<ndash/>12, simplify.</p></introduction>
+<exercisegroup><introduction><p>For Problems 10<ndash/>13, simplify.</p></introduction>
 
 <exercise number="10"><statement><p><ol label="a" cols="2">
         <li><p><m>-\sqrt{18s}\sqrt{2s^3} </m></p></li>
@@ -106,50 +106,63 @@
 <exercise number="12"><statement><p><ol label="a" cols="2">
         <li><p><m>\dfrac{\sqrt{45x^3y^3}}{\sqrt{5y}} </m></p></li>
         <li><p><m>\dfrac{\sqrt[3]{8b^7}}{\sqrt[3]{a^6b^2}} </m></p></li>
-    </ol></p></statement></exercise>
-</exercisegroup>
-
-<exercisegroup><introduction><p>For Problems 13 and 14, simplify and combine like terms.</p></introduction>
+    </ol></p></statement>
 
 <exercise number="13"><statement><p><ol label="a" cols="2">
-    <li><m>\sqrt{50x}+\sqrt{32x}</m></li>
-    <li><m>3\sqrt[3]{16}-\sqrt[3]{2}-2\sqrt[3]{54}</m></li></ol></p></statement>
-    <answer><p><ol label="a" cols="2">
-        <li><m>9\sqrt{2x} </m></li>
-        <li><m>-\sqrt[3]{2} </m></li></ol></p></answer></exercise>
+        <li><p><m>\dfrac{ab}{\sqrt[3]{a^2b}} </m></p></li>
+        <li><p><m>\dfrac{\sqrt{x^2y}}{\sqrt{xy}} </m></p></li>
+    </ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><p><m>\sqrt[3]{ab^2} </m></p></li>
+    <li><p><m>x\sqrt{xy} </m></p></li>
+    </ol></p></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 14-16, simplify and combine like terms.</p></introduction>
 
 <exercise number="14"><statement><p><ol label="a" cols="2">
+    <li><m>4\sqrt{3}+\sqrt{27}</m></li>
+    <li><m>\sqrt{50x}+\sqrt{32x}</m></li></ol></p></statement></exercise>
+
+<exercise number="15"><statement><p><ol label="a" cols="2">
+    <li><m>\sqrt[3]{81}+2\sqrt[3]{24}-3\sqrt[3]{3}</m></li>
+    <li><m>3\sqrt[3]{16}-\sqrt[3]{2}-2\sqrt[3]{54}</m></li></ol></p></statement>
+    <answer><p><ol label="a" cols="2">
+        <li><m>4\sqrt[3]{3} </m></li>
+        <li><m>-\sqrt[3]{2} </m></li></ol></p></answer></exercise>
+
+<exercise number="16"><statement><p><ol label="a" cols="2">
     <li><m>2v\sqrt{v}+3\sqrt{v^3}-\dfrac{v^2}{\sqrt{v}}</m></li>
     <li><m>12\sqrt[3]{w^2}-\sqrt[3]{w}\left(-2\sqrt[3]{w}\right)+\dfrac{8w}{\sqrt[3]{w}}</m></li></ol></p></statement>
 </exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 15<ndash/>18, multiply.</p></introduction>
+<exercisegroup><introduction><p>For Problems 17<ndash/>20, multiply.</p></introduction>
 
-<exercise number="15"><statement><p><ol label="a" cols="2">
+<exercise number="17"><statement><p><ol label="a" cols="2">
     <li><m>3\sqrt{2}\left(\sqrt{6}+\sqrt{10}\right)</m></li>
     <li><m>\sqrt{3k}\left(3\sqrt{k}-k\sqrt{6k}\right)</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>6\sqrt{3}+6\sqrt{5}</m></li>
     <li><m>3k\sqrt{3}-3k^2\sqrt{2}</m></li></ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol label="a" cols="2">
+<exercise number="18"><statement><p><ol label="a" cols="2">
     <li><m>\sqrt[3]{2}\left(\sqrt[3]{20}-2\sqrt[3]{12}\right)</m></li>
     <li><m>\sqrt[3]{3}\left(2\sqrt[3]{18}+\sqrt[3]{36}\right)</m></li></ol></p></statement></exercise>
 
-<exercise number="17"><statement><p><ol label="a" cols="2">
+<exercise number="19"><statement><p><ol label="a" cols="2">
     <li><m>(\sqrt{x}-3)(\sqrt{x}+3)</m></li>
     <li><m>\left(\sqrt{2}-\sqrt{3}\right)\left(\sqrt{2}+2\sqrt{3}\right)</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>x-9</m></li>
     <li><m>-4+\sqrt{6}</m></li></ol></p></answer></exercise>
 
-<exercise number="18"><statement><p><ol label="a" cols="2">
+<exercise number="20"><statement><p><ol label="a" cols="2">
     <li><m>\left(\sqrt{5}-\sqrt{2}\right)^2</m></li>
     <li><m>\left(\sqrt{a}-2\sqrt{b}\right)^2</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="19"><statement><p>Reduce if possible.<ol label="a" cols="3">
+<exercise number="21"><statement><p>Reduce if possible.<ol label="a" cols="3">
     <li><m>\dfrac{9-3\sqrt{5}}{3}</m></li>
     <li><m>\dfrac{-8+\sqrt{8}}{4}</m></li>
     <li><m>\dfrac{6a-\sqrt{18}}{6a}</m></li></ol></p></statement>
@@ -158,21 +171,13 @@
     <li><m>\dfrac{-4+\sqrt{2}}{2}</m></li>
     <li><m>\dfrac{2a-\sqrt{2}}{2a}</m></li></ol></p></answer></exercise>
 
-<exercise number="20"><statement><p>Write each expression as a single fraction in simplest form.<ol label="a" cols="3">
+<exercise number="22"><statement><p>Write each expression as a single fraction in simplest form.<ol label="a" cols="3">
     <li><m>\dfrac{5}{4}+\dfrac{3\sqrt{2}}{2}</m></li>
     <li><m>\dfrac{3}{2a}+\dfrac{\sqrt{3}}{6a}</m></li>
     <li><m>\dfrac{3\sqrt{3}}{2}+3</m></li></ol></p></statement>
 <answer></answer></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 21 and 22, verify by substitution that the number is a solution of the quadratic equation.</p></introduction>
-
-<exercise number="21"><statement><p><m>x^2+4x-1=0 \text{, }~-2+\sqrt{5}</m></p></statement>
-<answer><m>x^2+4x=(4-4\sqrt{5}+5)+(8+4\sqrt{5})=1</m> </answer></exercise>
-
-<exercise number="22"><statement><p><m>4x^2-20x+22=0 \text{, }~\dfrac{5-\sqrt{3}}{2}</m></p></statement></exercise>
-</exercisegroup>
-
-<exercisegroup><introduction><p>For Problems 23<ndash/>, rationalize the denominator.</p></introduction>
+<exercisegroup><introduction><p>For Problems 23<ndash/>26, rationalize the denominator.</p></introduction>
 
 <exercise number="23"><statement><p><ol label="a" cols="2">
     <li><m>\sqrt{\dfrac{7x}{18}}</m></li>
@@ -197,6 +202,30 @@
     <li><m>\dfrac{\sqrt{x}+\sqrt{y}}{\sqrt{x}-\sqrt{y}}</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
+</subexercises>
+
+<subexercises><title>Applications</title>
+
+<exercisegroup cols="2"><introduction><p>For Problems 27 and 28, verify by substitution that the number is a solution of the quadratic equation.</p></introduction>
+
+<exercise number="27"><statement><p><m>x^2+4x-1=0 \text{, }~-2+\sqrt{5}</m></p></statement>
+<answer><m>x^2+4x=(4-4\sqrt{5}+5)+(8+4\sqrt{5})=1</m> </answer></exercise>
+
+<exercise number="28"><statement><p><m>4x^2-20x+22=0 \text{, }~\dfrac{5-\sqrt{3}}{2}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="29"><statement><p><ol label="a">
+    <li><p>Write an expression for the height of an equilateral triangle of side <m>w</m>.</p>
+    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>Write an expression for the area of the triangle.</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>\dfrac{w\sqrt{3}}{2}</m></li>
+    <li><m>\dfrac{w^2\sqrt{3}}{4}</m></li></ol></p></answer></exercise>
+
+<exercise number="30"><statement><p><ol label="a">
+    <li><p>Write an expression in terms of <m>k</m> for the height of the pyramid shown below.</p>
+    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>Write an expression in terms of <m>k</m> for the volume of the pyramid.</li></ol></p></statement></exercise>
 </subexercises>
 
 </exercises>
