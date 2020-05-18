@@ -11,96 +11,62 @@
 
 <subexercises><title>Skills Warm Up</title>
 
-<exercise number="1"><statement><p><ol label="a">
-    <li><p>Powers:  Complete the table with powers of integers:</p>
-        <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~x^2~~</m></cell>
-                        <cell><m>~~x^3~~</m></cell>
-                        <cell><m>~~x^4~~</m></cell>
-                        <cell><m>~~x^5~~</m></cell></row>
-                    <row> 
-                        <cell><m>2</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>3</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>4</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>5</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>6</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>7</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>8</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>9</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>10</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>11</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    <row> 
-                        <cell><m>12</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell>
-                        <cell><m>~~~</m></cell></row>
-                    </tabular></sidebyside></p></li>    
-    <li><p>Radicals:  Use the table above to find each root without a calculator.<ol label="i" cols="3">
+<exercise number="1"><statement><p>Each radical below is equal to an integer. Use trial and error to find the root without a calculator.<ol label="a" cols="3"> 
         <li><m>\sqrt{169}</m></li>
         <li><m>\sqrt[3]{64}</m></li>
         <li><m>\sqrt[4]{81}</m></li>
         <li><m>\sqrt[5]{100,000}</m></li>
         <li><m>\sqrt[4]{1296}</m></li>
-        <li><m>\sqrt[3]{343}</m></li></ol></p></li></ol></p></statement>
-<answer><p>(b) <m>13;~4;~3;~10;~6;~7</m></p></answer></exercise> 
+        <li><m>\sqrt[3]{343}</m></li></ol></p></statement>
+<answer><p><m>13;~4;~3;~10;~6;~7</m></p></answer></exercise> 
 
-<exercise number="2"><statement><p><ol label="a">
-    <li><p>Fractional Exponents:  What does <m>a^{1/n}</m> mean?</p>
-        <p>A fractional exponent is another way of representing a root:
-            <me>a^{1/n} = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></li>
-    <li><p>Complete the table converting radicals to powers.</p>
+<exercise number="2"><statement><p>Evaluate each power without using a calculator.<ol label="a" cols="3">
+        <li><m>9^{1/2}</m></li>
+        <li><m>81^{1/4}</m></li>
+        <li><m>64^{1/6}</m></li>
+        <li><m>32^{0.2}</m></li>
+        <li><m>8^{-1/3}</m></li>
+        <li><m>64^{-0.5}</m></li></ol></p></statement></exercise>  
+
+<exercise number="3"><statement><p>Use a calculator to approximate each irrational number to the nearest thousandth:
+<ol label="a" cols="3">
+    <li><m>2^{1/2}</m></li>    
+    <li><m>\sqrt[3]{75}</m></li>
+    <li><m>\sqrt[4]{1.6}</m></li>
+    <li><m>365{-1/3}</m></li>
+    <li><m>0.006^{-0.2}</m></li>
+    <li><m>100^{0.25}</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>1.414</m></li>
+    <li><m>4.217</m></li>
+    <li><m>1.125</m></li>
+    <li><m>0.140</m></li>
+    <li><m>2.782</m></li>
+    <li><m>3.162</m></li></ol></p></answer></exercise>
+
+<exercise number="4"><statement><p>Use the definition of a root to simplify without using a calculator.<ol label="a" cols="2">
+        <li><m>(\sqrt[3]{125})^3=</m></li>
+        <li><m>(\sqrt[4]{2})^4=</m></li>
+        <li><m>(\sqrt[3]{7})^3=</m></li>
+        <li><p><m>\left(2\sqrt[3]{12} \right)^3 </m></p></li>
+        <li><p><m>\left(-a^3\sqrt[4]{a^2} \right)^4 </m></p></li>
+        <li><m>(-x^2\sqrt[3]{2x})^3=</m></li></ol></p></statement></exercise>
+</subexercises>
+
+<subexercises><title>Skills Practice</title>
+
+<exercise number="5"><statement><p>Evaluate each power, if possble.<ol label="a" cols="2">
+        <li><m>-81^{1/4}</m></li>
+        <li><m>(-81)^{1/4}</m></li>
+        <li><m>-27^{1/3}</m></li>
+        <li><m>(-27)^{1/3}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+        <li><m>-3</m></li>
+        <li><m>undefined</m></li>
+        <li><m>-3</m></li>
+        <li><m>-3</m></li></ol></p></answer></exercise>
+
+<exercise number="6"><statement><p>Complete the table converting radicals to powers.</p>
         <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Radical</cell>
@@ -132,66 +98,11 @@
                         <cell><m>~~~</m></cell>
                         <cell><m>~~~</m></cell>
                         <cell><m>~~~</m></cell></row>
-                    </tabular></sidebyside></p></li>   
-    <li><p>Evaluating powers: Find the value without a calculator.<ol label="i" cols="3">
-        <li><m>9^{1/2}</m></li>
-        <li><m>81^{1/4}</m></li>
-        <li><m>64^{1/6}</m></li>
-        <li><m>32^{0.2}</m></li>
-        <li><m>8^{-1/3}</m></li>
-        <li><m>64^{-0.5}</m></li></ol></p></li>
-    <li><p>Converting powers to radicals:  Write with radicals.<ol label="i" cols="3">
-        <li><m>3^{1/2}</m></li>
-        <li><m>4x^{1/3}</m></li>
-        <li><m>(4x)^{0.2}</m></li>
-        <li><m>6^{-1/3}</m></li>
-        <li><m>3(xy)^{-0.125}</m></li>
-        <li><m>(x-2)^{1/4}</m></li></ol></p></li>
-    <li><p>Converting radicals to powers:  Write with exponents.<ol label="i" cols="3">
-        <li><m>\sqrt{7}</m></li>
-        <li><m>\sqrt[3]{2x}</m></li>
-        <li><m>2\sqrt[5]{z}</m></li>
-        <li><m>\dfrac{-3}{\sqrt[4]{6}}</m></li>
-        <li><m>\sqrt[4]{x-3y}</m></li>
-        <li><m>\dfrac{-1}{\sqrt[3]{1+3b}}</m></li></ol></p></li></ol></p></statement></exercise>
+                    </tabular></sidebyside></p></statement></exercise>
 
-<exercise number="3"><statement><p>Use a calculator to approximate each irrational number to the nearest thousandth:
-<ol label="a" cols="3">
-    <li><m>2^{1/2}</m></li>    
-    <li><m>\sqrt[3]{75}</m></li>
-    <li><m>\sqrt[4]{1.6}</m></li>
-    <li><m>365{-1/3}</m></li>
-    <li><m>0.006^{-0.2}</m></li>
-    <li><m>100^{0.25}</m></li></ol></p></statement>
-<answer><p><ol label="a">
-    <li><m>1.414</m></li>
-    <li><m>4.217</m></li>
-    <li><m>1.125</m></li>
-    <li><m>0.140</m></li>
-    <li><m>2.782</m></li>
-    <li><m>3.162</m></li></ol></p></answer></exercise>
+<exercisegroup><introduction><p>For Problems 7 and 8, write each expression in radical form.</p></introduction>
 
-<exercise number="4"><statement><p>Properties of Roots<ol label="a">
-    <li><p>Roots and powers are opposite operations. Thus,<ol label="i" cols="2">
-        <li><m>(\sqrt{x})^2=</m></li>
-        <li><m>(\sqrt[3]{x})^3=</m></li></ol></p></li>    
-    <li><p>Simplify without using a calculator:<ol label="i" cols="2">
-        <li><m>(\sqrt[3]{125})^3=</m></li>
-        <li><m>(\sqrt[4]{2})^4=</m></li>
-        <li><m>(\sqrt[3]{7})^3=</m></li>
-        <li><m>(-x^2\sqrt[3]{2x})^3=</m></li></ol></p></li>
-    <li><p>Evaluate each power, if possble.<ol label="i" cols="2">
-        <li><m>-81^{1/4}</m></li>
-        <li><m>(-81)^{1/4}</m></li>
-        <li><m>-27^{1/3}</m></li>
-        <li><m>(-27)^{1/3}</m></li></ol></p></li></ol></p></statement></exercise>
-</subexercises>
-
-<subexercises><title>Skills Practice</title>
-
-<exercisegroup><introduction><p>For Problems 5 and 6, write each expression in radical form.</p></introduction>
-
-<exercise number="5"><statement><p><ol cols="3">
+<exercise number="7"><statement><p><ol cols="3">
     <li><p><m>7^{1/2} </m></p></li>
     <li><p><m>3x^{1/4} </m></p></li>
     <li><p><m>(3x)^{0.25} </m></p></li>
@@ -202,7 +113,7 @@
     <li><p><m>\sqrt[4]{3x}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="6"><statement><p><ol cols="3">
+<exercise number="8"><statement><p><ol cols="3">
     <li><p><m>8^{-1/4} </m></p></li>
     <li><p><m>y(5x)^{-0.5} </m></p></li>
     <li><p><m>(y+2)^{1/3} </m></p></li>
@@ -210,9 +121,9 @@
 </exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 7 and 8, write each expression in exponential form.</p></introduction>
+<exercisegroup><introduction><p>For Problems 9 and 10, write each expression in exponential form.</p></introduction>
 
-<exercise number="7"><statement><p><ol cols="3">
+<exercise number="9"><statement><p><ol cols="3">
     <li><p><m>\sqrt{5} </m></p></li>
     <li><p><m>\sqrt[3]{4y} </m></p></li>
     <li><p><m>5\sqrt[3]{x} </m></p></li>
@@ -223,7 +134,7 @@
     <li><p><m>5x^{1/3} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="8"><statement><p><ol cols="3">
+<exercise number="10"><statement><p><ol cols="3">
     <li><p><m>\dfrac{2} {\sqrt[5]{3} } </m></p></li>
     <li><p><m>\sqrt[3]{y+2x} </m></p></li>
     <li><p><m>\dfrac{-1} {\sqrt[4]{3a-2b} } </m></p></li>
@@ -231,63 +142,84 @@
 </exercise>
 </exercisegroup>
 
-<exercise number="9"><statement><p>Simplify.<ol cols="4">
-    <li><p><m>\left(\sqrt[4]{16} \right)^4 </m></p></li>
-    <li><p><m>\left(\sqrt[3]{6} \right)^3 </m></p></li>
-    <li><p><m>\left(2\sqrt[3]{12} \right)^3 </m></p></li>
-    <li><p><m>\left(-a^3\sqrt[4]{a^2} \right)^4 </m></p></li>
-</ol></p></statement>
-<answer><p><ol cols="4">
-    <li><p><m>16</m></p></li>
-    <li><p><m>6</m></p></li>
-    <li><p><m>96</m></p></li>
-    <li><p><m>-a^{14}</m></p></li>
-</ol></p></answer></exercise>
-
-<exercisegroup><introduction><p>For Problems 10-12, write the expression as a sum of terms of the form <m>kx^p</m>.</p></introduction>
-
-<exercise number="10"><statement><p><m>
-    \dfrac{\sqrt{x}}{4}-\dfrac{2}{\sqrt{x}}+\dfrac{x}{\sqrt{2}}</m></p></statement></exercise>
+<exercisegroup cols="2"><introduction><p>For Problems 11-14, write the expression as a sum of terms of the form <m>kx^p</m>.</p></introduction>
 
 <exercise number="11"><statement><p><m>
-    \dfrac{6-\sqrt[3]{x}}{2\sqrt[3]{x}}</m></p></statement>
-<answer><p><m>\displaystyle{3x^{-1/3}-\frac{1}{2}}</m></p></answer>
-</exercise>
+    \dfrac{\sqrt{x}}{4}-\dfrac{2}{\sqrt{x}}+\dfrac{x}{\sqrt{2}}</m></p></statement>
+<answer><m>\dfrac{1}{4}x^{1/2}-2x^{-1/2}+\dfrac{1}{\sqrt{2}}x</m></answer></exercise>
 
 <exercise number="12"><statement><p><m>
-    x^{-0.5}\left(x+x^{0.25}-x^{0.5} \right)</m></p></statement></exercise>
+    \dfrac{6-\sqrt[3]{x}}{2\sqrt[3]{x}}</m></p></statement></exercise>
+
+<exercise number="13"><statement><p><m>
+    x^{-0.5}\left(x+x^{0.25}-x^{0.5} \right)</m></p></statement>
+<answer><m>x^{0.5}+x^{-0.25}-1</m></answer></exercise>
+
+<exercise number="14"><statement><p><m>
+    \dfrac{\dfrac{1}{2}x^{-1}+2x^{-0.5}+x^{-0.25}}{2x^{0.5}}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 13-16, solve.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 15-20, solve.</p></introduction>
 
-<exercise number="13"><statement><p><m>6.5x^{1/3} + 3.8 = 33.05</m></p></statement>
+<exercise number="15"><statement><p><m>6.5x^{1/3} + 3.8 = 33.05</m></p></statement>
 <answer><p><m>x = 91.125</m></p></answer></exercise>
 
-<exercise number="14"><statement><p><m>4(x + 2)^{1/5} = 12</m></p></statement></exercise>
+<exercise number="16"><statement><p><m>4(x + 2)^{1/5} = 12</m></p></statement></exercise>
 
-<exercise number="15"><statement><p><m>(2x - 3)^{-1/4} = \dfrac{1}{2}</m></p></statement>
+<exercise number="17"><statement><p><m>(2x - 3)^{-1/4} = \dfrac{1}{2}</m></p></statement>
 <answer><p><m>x = \dfrac{19}{2} </m></p></answer></exercise>
 
-<exercise number="16"><statement><p><m>\sqrt[3]{x^2-3} = 3</m></p></statement></exercise>
+<exercise number="18"><statement><p><m>(5x-2)^{-1/3} = \dfrac{1}{4}</m></p></statement></exercise>
+
+<exercise number="19"><statement><p><m>\sqrt[3]{x^2-3} = 3</m></p></statement>
+<answer><p><m>x = \pm \sqrt{30} </m></p></answer></exercise>
+
+<exercise number="20"><statement><p><m>\sqrt[3]{2x^2-15} = 5</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup ><introduction><p>For Problems 17-20, solve for the indicated variable.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 21-26, solve for the indicated variable.</p></introduction>
 
-<exercise number="17"><statement><p><m>T = 2\pi\sqrt{\dfrac{L}{g}}~~~~</m>  for <m>L</m></p></statement>
+<exercise number="21"><statement><p><m>T = 2\pi\sqrt{\dfrac{L}{g}}~~~~</m>  for <m>L</m></p></statement>
 <answer><p><m>L=\dfrac{gT^2}{4\pi^2} </m></p></answer></exercise>
 
-<exercise number="18"><statement><p><m>r = \sqrt{t^2-s^2}~~~~</m>  for <m>s</m></p></statement></exercise>
+<exercise number="22"><statement><p><m>r = \sqrt{t^2-s^2}~~~~</m>  for <m>s</m></p></statement></exercise>
 
-<exercise number="19"><statement><p><m>d = \sqrt[3] {\dfrac{16Mr^2}{m}}~~~~</m> for <m>M</m></p></statement></exercise>
+<exercise number="23"><statement><p><m>d = \sqrt[3] {\dfrac{16Mr^2}{m}}~~~~</m> for <m>M</m></p></statement>
+<answer><m>M=\dfrac{d^3m}{16r^2}</m></answer></exercise>
 
-<exercise number="20"><statement><p><m>R = \sqrt[4] {\dfrac{8Lvf}{\pi p}}~~~~</m>  for <m>p</m></p></statement>
-<answer><p><m>p=\dfrac{8Lvf}{\pi R^4} </m></p></answer></exercise>
+<exercise number="24"><statement><p><m>R = \sqrt[4] {\dfrac{8Lvf}{\pi p}}~~~~</m>  for <m>p</m></p></statement></exercise>
+
+<exercise number="25"><statement><p><m>T = \sqrt[4] {\dfrac{E}{SA}}~~~~</m> for <m>A</m></p></statement>
+<answer><m>A=\dfrac{E}{ST^4}</m></answer></exercise>
+
+<exercise number="26"><statement><p><m>r = \sqrt[3] {\dfrac{3V}{4 \pi}}~~~~</m>  for <m>V</m></p></statement></exercise>
 </exercisegroup>
-</subexercises>
 
-<subexercises><title>Applications</title>
+<exercise number="27"><statement><p>Match each function with the description of its graph in the first quadrant.<ol label="I" cols="2">
+    <li><m>f(x)=x^2</m></li>
+    <li><m>g(x)=x^{-2}</m></li>
+    <li><m>h(x)=x^{1/2}</m></li>
+    <li><p><m>f (x) = x^{-1/2}</m></p></li></ol></p>
+<p><ol label="a">
+    <li>Increasing and concave up</li>
+    <li>Increasing and concave down</li>
+    <li>Decreasing and concave up</li>
+    <li><p>Decreasing and concave down</p></li></ol></p></statement>
+<answer><p><ol label="a" cols = "3">
+    <li>I</li>
+    <li>III</li>
+    <li>II</li>
+    <li>IV</li></ol></p></answer></exercise>
 
-<exercise number="21"><statement><p>Write each expression as a power function.<ol cols="3">
+<exercise number="28"><statement><p>Match each function with its graph.<ol label="a">
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+        <m>f(x)=x^2,~g(x)=x^3</m></li>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+        <m>f(x)=x^{1/2},~g(x)=x^{1/3}</m></li>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+        <m>f(x)=x^{-2},~g(x)=x^{-3}</m></li></ol></p></statement></exercise>
+
+<exercise number="29"><statement><p>Write each expression as a power function.<ol label="a" cols="3">
     <li><p><m>G(x)=3.7 \sqrt[3]{x} </m></p></li>
     <li><p><m>H(x)=\sqrt[4]{85x} </m></p></li>
     <li><p><m>F(t)=\dfrac{25}{\sqrt[5]{t}} </m></p></li>
@@ -296,36 +228,110 @@
     <li><p><m>G(x) = 3.7x^{1/3} </m></p></li>
     <li><p><m>H(x) = 85^{1/4}x^{1/4} </m></p></li>
     <li><p><m>F(t) = 25t^{-1/5} </m></p></li>
-</ol></p></answer>
-</exercise>
+</ol></p></answer></exercise>
 
-<exercise number="22"><statement><p>Match each function with the description of its graph in the first quadrant.
-    <ol label="I">
-        <li><p><m>f (x) = x^2</m></p></li>
-        <li><p><m>f (x) = x^{-2}</m></p></li>
-        <li><p><m>f (x) = x^{1/2}</m></p></li>
-        <li><p><m>f (x) = x^{-1/2}</m></p></li>
-    </ol>
-    <ol>
-        <li><p>Increasing and concave up</p></li>
-        <li><p>Increasing and concave down</p></li>
-        <li><p>Decreasing and concave up</p></li>
-        <li><p>Decreasing and concave down</p></li>
-    </ol></p></statement></exercise>
+<exercise number="30"><statement><p>Graph each set of functions in the given window. What do you observe?<ol label="a">
+    <li><p><m>y_1=\sqrt{x},~y_2=x^2,~y_3=x</m>
+            <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 4</mrow>
+                <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 4</mrow></md></p></li>
+    <li><p><m>y_1=\sqrt[3]{x},~y_2=x^3,~y_3=x</m>
+            <md><mrow>\text{Xmin} \amp = -4 \amp\amp \text{Xmax} = 4</mrow>
+                <mrow>\text{Ymin} \amp = -4 \amp\amp \text{Ymax} = 4</mrow></md></p></li></ol></p></statement></exercise>
+</subexercises>
 
-<exercise number="23"><statement><p>The period of a pendulum is the time it takes for the pendulum to complete one entire swing, from left to right and back again. The greater the length, <m>L</m>, of the pendulum, the longer its period, <m>T</m>. In fact, if <m>L</m> is measured in feet, then the period is given in seconds by
+<subexercises><title>Applications</title>
+
+<exercise number="31"><statement><p>When a ship moves through the water, it creates waves that impede its own progress. Because of this resistance, there is an upper limit to the speed at which a ship can travel, given in knots by
+    <me>v_{\text{max}} = 1.3 \sqrt{L}</me>
+where <m>L</m> is the length of the vessel in feet.   (Source: Gilner, 1972) <ol label="a">
+    <li><p>Complete the table of values for <m>v_{\text{max}}</m> as a function of <m>L</m>.</p>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>L</m> (feet)</cell>
+                        <cell><m>200</m></cell>
+                        <cell><m>400</m></cell>
+                        <cell><m>600</m></cell>
+                        <cell><m>800</m></cell>
+                        <cell><m>1000</m></cell></row>
+                    <row> 
+                        <cell><m>v_{\text{max}}</m> (knots)</cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></li>
+    <li> Graph maximum speed against vessel length.
+        <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>The world’s largest ship, the oil tanker Jahre Viking, is 1054 feet long. What is its top speed?</li>
+    <li>As a ship approaches its maximum speed, the power required increases sharply. Therefore, most merchant
+        ships are designed to cruise at speeds no higher than
+            <me>v_c = 0.8 \sqrt{L}</me>
+        Graph <m>v_c</m> on the same axes with <m>v_{\text{max}}</m>.</li>
+    <li>What is the cruising speed of the Jahre Viking? What percent of its maximum speed is that?</li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>L</m> (feet)</cell>
+                        <cell><m>200</m></cell>
+                        <cell><m>400</m></cell>
+                        <cell><m>600</m></cell>
+                        <cell><m>800</m></cell>
+                        <cell><m>1000</m></cell></row>
+                    <row> 
+                        <cell><m>v_{\text{max}</m> (knots)</cell>
+                        <cell><m>18.4</m></cell>
+                        <cell><m>26</m></cell>
+                        <cell><m>31.8</m></cell>
+                        <cell><m>36.8</m></cell>
+                        <cell><m>41.1</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>42.2 knots</li>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>26 knots, 62%</li></ol></p></answer></exercise>
+
+<exercise number="32"><statement><p>If you walk in the normal way, your speed, <m>v</m>, in meters per second, is limited by the length of your legs, <m>r</m>, according to the formula
+    <me>v \le \sqrt{gr}</me>
+where <m>g</m> is the acceleration due to gravity. (Source: Alexander, 1992)<ol label="a">
+    <li><p>Complete the table of values for <m>v</m> as a function of <m>r</m>. The constant, <m>g</m>, is approximately 10.</p>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>r</m> (meters)</cell>
+                        <cell><m>0.2</m></cell>
+                        <cell><m>0.4</m></cell>
+                        <cell><m>0.6</m></cell>
+                        <cell><m>0.8</m></cell>
+                        <cell><m>1.0</m></cell></row>
+                    <row> 
+                        <cell><m>v</m> (meters/sec)</cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>A typical adult man has legs about 0.9 meter long. How fast can he walk?</li>
+    <li>A typical four-year-old has legs 0.5 meter long. How fast can she walk?</li>
+    <li>Graph maximum walking speed against leg length.
+        <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>Race-walkers can walk as fast as 4.4 meters per second by rotating their hips so that the effective length of their legs is increased. What is that effective length?</li>
+    <li>On the moon the value of <m>g</m> is 1.6. How fast can a typical adult man walk on the moon?</li></ol></p>
+</statement></exercise>
+
+<exercise number="33"><statement><p>The period of a pendulum is the time it takes for the pendulum to complete one entire swing, from left to right and back again. The greater the length, <m>L</m>, of the pendulum, the longer its period, <m>T</m>. In fact, if <m>L</m> is measured in feet, then the period is given in seconds by
     <me>T=2\pi\sqrt{\frac{L}{32}} </me><ol>
         <li><p>Write the formula for <m>T</m> as a power function in the form <m>f (x) = kx^p</m>.</p></li>
         <li><p>The Foucault pendulum in the Convention Center in Portland, Oregon is 90 feet long. What is its period?</p></li>
-        <li><p>Choose a reasonable domain for the function <m>T = f (L)</m> and graph the function.</p></li></ol>
+        <li><p>Choose a suitable window and graph the function <m>T=f(L)</m>. Label the point corresponding to point (b) on the graph.</p></li></ol>
 </p></statement>
 <answer><p><ol cols="3">
     <li><p><m>T=\dfrac{2\pi}{\sqrt{32}}L^{1/2} </m></p></li>
     <li><p><m>10.54</m> sec</p></li>
-    <li><sidebyside width="90%"><image source="images/fig-ans-3-3-39"><description>square root</description></image></sidebyside></li></ol></p></answer>
-</exercise>
+    <li><sidebyside width="90%"><image source="images/fig-ans-3-3-39"><description>square root</description></image></sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="24"><statement><p>The rate, <m>r</m>, in feet per second, at which water flows from a fire hose varies directly with the square root of the water pressure, <m>P</m>, in psi (pounds per square inch). What is the rate of water flow at a typical water pressure of <m>60</m> psi?
+<exercise number="34"><statement><p>The rate, <m>r</m>, in feet per second, at which water flows from a fire hose varies directly with the square root of the water pressure, <m>P</m>, in psi (pounds per square inch). What is the rate of water flow at a typical water pressure of <m>60</m> psi?
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row><cell><m>P</m> (psi)</cell>
             <cell><m>10</m></cell>
@@ -343,7 +349,7 @@
     <li><p>Graph your function and verify your answer to part (b) on the graph.</p></li></ol></p></statement>
 </exercise>
 
-<exercise number="25"><statement><p>Thanks to improvements in technology, the annual electricity cost of running most major appliances has decreased steadily since <m>1970</m>. The average annual cost of running a refrigerator is given, in dollars, by the function
+<exercise number="35"><statement><p>Thanks to improvements in technology, the annual electricity cost of running most major appliances has decreased steadily since <m>1970</m>. The average annual cost of running a refrigerator is given, in dollars, by the function
     <me>C(t) = 148- 28 t^{1/3}</me>
 where <m>t</m> is the number of years since <m>1970</m>.<ol>
     <li><p>How much did it cost to run a refrigerator in <m>1980</m>? In <m>1990</m>?</p></li>
@@ -351,10 +357,9 @@ where <m>t</m> is the number of years since <m>1970</m>.<ol>
     <li><p>Graph the function <m>C(t)</m>. Do you think that the cost will continue to decline indefinitely according to the given function? Why or why not?</p></li></ol></p></statement>
 <answer><p><ol cols="3">
     <li><p>$87.68; $72.00</p></li>
-    <li><p>1989; 2013</p></li></ol></p></answer>
-</exercise>
+    <li><p>1989; 2013</p></li></ol></p></answer></exercise>
 
-<exercise number="26"><statement><p>A rough estimate for the radius of the nucleus of an atom is provided by the formula
+<exercise number="36"><statement><p>A rough estimate for the radius of the nucleus of an atom is provided by the formula
     <me>r=kA^{1/3}</me>
 where <m>A</m> is the mass number of the nucleus and <m>k\approx 1.3 \times 10^{-13}</m> centimeter.<ol>
     <li><p>Estimate the radius of the nucleus of an atom of iodine-127, which has mass number <m>127</m>. If the nucleus is roughly spherical, what is its volume?</p></li>
@@ -415,11 +420,18 @@ where <m>A</m> is the mass number of the nucleus and <m>k\approx 1.3 \times 10^{
             </row>
         </tabular>
     </sidebyside></li>
-    <li><sidebyside width="25%"><image source="images/fig-ans-3-3-43"><description>cube root</description></image></sidebyside></li>
-</ol></p></answer>
-</exercise>
+    <li><sidebyside width="25%"><image source="images/fig-ans-3-3-43"><description>cube root</description></image></sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="27"><statement><p><ol>
+<exercise number="37"><statement><p>When the Concorde lands at Heathrow airport in London, the width <m>w</m> of the sonic boom felt on the ground is given in kilometers by the following formula:
+    <me>w=4\left(\dfrac{Th}{m}\right)^{1/2}</me>
+where <m>T</m> stands for the temperature on the ground in kelvins, <m>h</m> is the altitude of the Concorde when it breaks the sound barrier, and <m>m</m> is the drop in temperature for each gain in altitude of 1 kilometer. Find the width of the sonic boom if the ground temperature is 293 kelvins, the altitude of the Concorde is 15 kilometers, and the temperature drop is 4 kelvin per kilometer of altitude.</p></statement>
+<answer>132.6 km</answer></exercise>
+
+<exercise number="38"><statement><p>The Stefan-Boltzmann law says that the temperature, <m>T</m>, of the Sun, in kelvins, can be computed from the formula
+    <me>sT^4 = \dfrac{L}{4 \pi R^2}</me>
+where <M>L=3.9 \times 10^{33}</M> is the total luminosity of the Sun, <m>R=9.96 \times 10^{10}</m> centimeters is the radius of the Sun, and <m>s=5.7 \times 10^{-5}</m> is a constant governing radiation. Calculate the temperature of the Sun.</p></statement></exercise>
+ 
+<exercise number="39"><statement><p><ol>
     <li><p>Graph the functions <m>~~f (x) = 4 \sqrt[3]{x - 9}~~</m> and <m>~~g(x) = 12~~</m> in the window
         <md><mrow>{\text{Xmin}} \amp = 0 \amp\amp {\text{Xmax}} = 47</mrow>
         <mrow>{\text{Ymin}} \amp = -8 \amp\amp {\text{Ymax}} = 16</mrow></md> </p></li>
@@ -429,18 +441,15 @@ where <m>A</m> is the mass number of the nucleus and <m>k\approx 1.3 \times 10^{
 <answer><p><ol cols="2">
     <li><sidebyside width="70%"><image source="images/fig-ans-3-3-59.jpg"><description>cube root</description></image></sidebyside></li>
     <li><p><m>x=36</m></p></li>
-</ol></p></answer>
-</exercise>
+</ol></p></answer></exercise>
 
-<exercise number="28"><statement><p><ol>
+<exercise number="40"><statement><p><ol>
     <li><p>Graph the functions <m>~~f (x) = 6+2 \sqrt[4]{12-x}~~</m> and <m>~~g(x) = 10~~</m> in the window
         <md><mrow>{\text{Xmin}} \amp = -27 \amp\amp {\text{Xmax}} = 20</mrow>
         <mrow>{\text{Ymin}} \amp = 4 \amp\amp {\text{Ymax}} = 12</mrow></md> </p></li>
     <li><p>Use the graph to solve the equation <m>6+2 \sqrt[4]{12-x}=10</m>.</p></li>
     <li><p>Solve the equation algebraically.</p></li>
-</ol></p></statement>
-</exercise>
-
+</ol></p></statement></exercise>
 
 </subexercises>
 </exercises>

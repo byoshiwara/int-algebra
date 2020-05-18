@@ -184,10 +184,8 @@ For the examples above, we find that the <m>y</m>-intercepts are
 
 <exercise><title>Practice 1</title>
 <introduction>
-    <sidebyside width="30%" >
-        <image xml:id="fig-two-mystery-exponential-decay">
-        <description>two exponential decay functions</description>
-        <latex-image>
+    <sidebyside width="30%" ><image xml:id="fig-two-mystery-exponential-decay">
+        <description>two exponential decay functions</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -204,12 +202,9 @@ For the examples above, we find that the <m>y</m>-intercepts are
         \draw[samples=65,domain={-3:5},smooth,variable=\x,blue,very thick, <->,>=stealth'] plot (\x, {0.8^(\x)});
         \node[text=blue, font=\bf] at (-2.5,2.3)  {II};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
+        </latex-image></image></sidebyside>
 </introduction>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $I = PopUp(
             [ "?", 
             "I", 
@@ -223,28 +218,18 @@ For the examples above, we find that the <m>y</m>-intercepts are
             2
         );
     </pg-code>
-    <statement><p><ol label="a">
-       <li>
-            <p>
-                Which of the graphs above is <m>p(x)=0.8^x</m> <var name="$II" form="popup"/>, and which is <m>q(x)=0.5^x~</m><var name="$I" form="popup"/>?  
-            </p>
-        </li>
-        <li>
-            <p>
-                Which graph decreases more steeply?<var name="$I" form="popup"/>
-            </p>
-        </li>
+<statement><p><ol label="a">
+       <li><p>Which of the graphs above is <m>p(x)=0.8^x</m> <var name="$II" form="popup"/>, and which is <m>q(x)=0.5^x~</m><var name="$I" form="popup"/>?  </p></li>
+        <li><p>Which graph decreases more steeply?<var name="$I" form="popup"/></p></li>
     </ol></p></statement>
     <solution><p><ol label="a">
         <li><p>Graph I is <m>q</m>, and graph II is <m>p</m>.</p></li>
         <li><p><m>q</m> decreases more sreeply</p></li></ol></p>
     </solution>
-</webwork> 
-</exercise>
+</webwork> </exercise>
 
 <exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $True = PopUp(
             [ "?", 
             "True", 
@@ -257,38 +242,20 @@ For the examples above, we find that the <m>y</m>-intercepts are
             "False"],
             2
         );
-        
     </pg-code>
-    <statement><p>True or False.
-    <ol label="a">
-        <li>
-            <p>
-                An exponential function <m>f(x)=b^x</m> is always positive. <var name="$True" form="popup"/>
-            </p>
+<statement><p>True or False.<ol label="a">
+    <li><p>An exponential function <m>f(x)=b^x</m> is always positive. <var name="$True" form="popup"/></p></li>
+    <li><p>The function <m>f(x)=ab^x</m> has a horizontal asymptote at <m>y=0</m>.  <var name="$True" form="popup"/></p>
         </li>
-        <li>
-            <p>
-                The function <m>f(x)=ab^x</m> has a horizontal asymptote at <m>y=0</m>.  <var name="$True" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                The value of <m>b</m> determines how rapidly the graph of <m>f(x)=ab^x</m> increases or decreases.  <var name="$True" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                The graph of <m>f(x)=ab^x</m> is decreasing if <m>b \lt 0</m>.  <var name="$False" form="popup"/>
-            </p>
-        </li>
+    <li><p>The value of <m>b</m> determines how rapidly the graph of <m>f(x)=ab^x</m> increases or decreases.  <var name="$True" form="popup"/></p></li>
+    <li><p>The graph of <m>f(x)=ab^x</m> is decreasing if <m>b \lt 0</m>.  <var name="$False" form="popup"/></p></li>
     </ol></p></statement>
     <solution><p><ol label="a">
     <li>True</li>
     <li>True</li>
     <li>True</li>
     <li>False</li></ol></p></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -299,8 +266,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 <warning><p>Exponential functions<idx>exponential functions</idx> are not the same as the power functions <idx>power functions</idx> we studied earlier. Although both involve expressions with exponents, it is the location of the variable that makes the difference. A power function, <m>h(x)=hx^p</m>, has a variable base and a constant exponent. An exponential function, <m>f(x)=ab^x</m>, has a constant base and a variable exponent.</p></warning>
 
 <assemblage><title>Power Functions vs Exponential Functions</title>
-<sidebyside>
-   <tabular>
+<sidebyside><tabular>
         <col halign="left" width="50%"/>
         <col halign="left" width="25%"/>
         <col halign="left" width="25%"/>
@@ -379,9 +345,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
             <cell><m>3</m></cell>
             <cell><m>54</m></cell></row>
     </tabular>
-    <image xml:id="fig-cubic-vs-exponential">
-        <description>cubic and exponential functions</description>
-        <latex-image>
+    <image xml:id="fig-cubic-vs-exponential"><description>cubic and exponential functions</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -398,22 +362,16 @@ For the examples above, we find that the <m>y</m>-intercepts are
         \draw[samples=65,domain={-4:ln(5)/ln(3)},smooth,variable=\x,red,very thick, <->,>=stealth'] plot (\x, {3^(\x)});
         \draw[samples=65,domain={-1.71:1.71},smooth,variable=\x,blue,very thick, <->,>=stealth'] plot (\x, {(\x)^3});
         \end{tikzpicture}]]>
-        </latex-image>
-    </image>
-</sidebyside>
-</statement>
+        </latex-image></image></sidebyside></statement>
 
-<solution>
-    <p>We can tell that <m>f</m> is an exponential function because its values increase by a factor of 3 for each unit increase in <m>x</m>. The base of the function is <m>b=3</m>. We also see from the table that <m>a=f(0)=2</m>, so <m>f(x)=2(3^x)</m>. Thus, <m>h</m> must be the power function, <m>(x)=kx^3</m>. To find <m>k</m>, we notice that <m>h(1)=k</m>, so <m>k=2</m>, and <m>h(x)=2x^3</m>.</p>
-    <p>As you would expect, the graphs of the two functions are also quite different. In particular, note that the power function passes through the origin, while the exponential function approaches the negative <m>x</m>-axis as a horizontal asymptote.</p>
-    <p> From the table, we see that <m>h(3) = f(3) = 54</m>, so the two graphs intersect at <m>x = 3</m>. (They also intersect at approximately <m>x = 2.48</m>.) However, if you compare the values of <m>h(x) = 2x^3</m> and <m>f(x) = 2(3^x)</m> for larger values of <m>x</m>, you will see that eventually the exponential function overtakes the power function.</p>
-</solution>
-</example>
+<solution><p>We can tell that <m>f</m> is an exponential function because its values increase by a factor of 3 for each unit increase in <m>x</m>. The base of the function is <m>b=3</m>. We also see from the table that <m>a=f(0)=2</m>, so <m>f(x)=2(3^x)</m>. Thus, <m>h</m> must be the power function, <m>(x)=kx^3</m>. To find <m>k</m>, we notice that <m>h(1)=k</m>, so <m>k=2</m>, and <m>h(x)=2x^3</m>.</p>
+    
+<p>As you would expect, the graphs of the two functions are also quite different. In particular, note that the power function passes through the origin, while the exponential function approaches the negative <m>x</m>-axis as a horizontal asymptote.</p>
+    
+<p> From the table, we see that <m>h(3) = f(3) = 54</m>, so the two graphs intersect at <m>x = 3</m>. (They also intersect at approximately <m>x = 2.48</m>.) However, if you compare the values of <m>h(x) = 2x^3</m> and <m>f(x) = 2(3^x)</m> for larger values of <m>x</m>, you will see that eventually the exponential function overtakes the power function.</p></solution></example>
 
-<sidebyside widths="55% 42%" margins="0% 0%">
-    <p>The relationship in <xref ref="example-power-vs-exponential" text="type-global"/> holds true for all increasing power and exponential functions: For large enough values of <m>x</m>, the exponential function will always be greater than the power function, regardless of the parameters in the functions. The figure at left  shows the graphs of <m>f(x) = x^6</m> and <m>g(x) = 1.8^x</m>. At first, <m>f (x) \gt g(x)</m>, but at around <m>x = 37</m>, <m>g(x)</m> overtakes <m>f (x)</m>, and <m>g(x) \gt f (x)</m> for all <m>x \gt 37</m>.</p>
-    <image source="images/fig-power-vs-exponential-3"><description>power function vs exponential from 0 to 50</description></image>
-</sidebyside>
+<sidebyside widths="55% 42%" margins="0% 0%"><p>The relationship in <xref ref="example-power-vs-exponential" text="type-global"/> holds true for all increasing power and exponential functions: For large enough values of <m>x</m>, the exponential function will always be greater than the power function, regardless of the parameters in the functions. The figure at left  shows the graphs of <m>f(x) = x^6</m> and <m>g(x) = 1.8^x</m>. At first, <m>f (x) \gt g(x)</m>, but at around <m>x = 37</m>, <m>g(x)</m> overtakes <m>f (x)</m>, and <m>g(x) \gt f (x)</m> for all <m>x \gt 37</m>.</p>
+    <image source="images/fig-power-vs-exponential-3"><description>power function vs exponential from 0 to 50</description></image></sidebyside>
 
 <exercise xml:id="exercise-identify-power-and-exponential-functions"><title>Practice 3</title>
     <webwork><pg-code>
@@ -461,12 +419,10 @@ For the examples above, we find that the <m>y</m>-intercepts are
     </statement>
     <solution> <p>Exponential:  (a) and (c); power: (b) and (d)</p>
      </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 3</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $True = PopUp(
             [ "?", 
             "True", 
@@ -479,38 +435,19 @@ For the examples above, we find that the <m>y</m>-intercepts are
             "False"],
             2
         );
-        
     </pg-code>
-    <statement><p>True or False.
-    <ol label="a">
-        <li>
-            <p>
-                A power function eventually grows more rapidly then an exponential function. <var name="$False" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                To find the base of an exponential function, we can divide any function value of an integer by the previous one.  <var name="$True" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                Power functions and exponential functions both pass through the origin.  <var name="$False" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                Exponential functions model growth or decline by a constant factor.  <var name="$True" form="popup"/>
-            </p>
-        </li>
+<statement><p>True or False.<ol label="a">
+    <li><p>A power function eventually grows more rapidly then an exponential function. <var name="$False" form="popup"/></p></li>
+    <li><p>To find the base of an exponential function, we can divide any function value of an integer by the previous one.  <var name="$True" form="popup"/></p></li>
+    <li><p>Power functions and exponential functions both pass through the origin.  <var name="$False" form="popup"/></p></li>
+    <li><p>Exponential functions model growth or decline by a constant factor.  <var name="$True" form="popup"/></p></li>
     </ol></p></statement>
-    <solution><p><ol label="a">
+<solution><p><ol label="a">
     <li>False</li>
     <li>True</li>
     <li>False</li>
     <li>True</li></ol></p></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -581,8 +518,7 @@ which is true if and only if <m>x = 4</m>.</p>
         </hint>
     <solution><p><m>x=5</m></p>
      </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -643,10 +579,10 @@ From this form see that the growth factor for this function is <m>2^{1/5}</m>, o
         </pg-code>
     <statement><p>During an advertising campaign in a large city, the makers of Chip-O's corn chips estimate that the number of people who have heard of Chip-O's increases by a factor of <m>8</m> every 4 days.</p>
     <p><ol label="a">
-            <li><p>If 100 people are given trial bags of Chip-O's to start the campaign, write a function, <m>N(t)</m>, for the number of people who have heard of Chip-O's after <m>t</m> days of advertising.</p>
+        <li><p>If 100 people are given trial bags of Chip-O's to start the campaign, write a function, <m>N(t)</m>, for the number of people who have heard of Chip-O's after <m>t</m> days of advertising.</p>
             <p><m>N(t)=</m><var name="$N" width="10"/> </p></li>
-            <li><p>Use your calculator to graph the function <m>N(t)</m> on the domain <m>0 \le t \le 15</m>.</p></li>
-            <li><p>How many days should the makers run the campaign in order for Chip-O's to be familiar to <m>51,200</m> people? Use algebraic methods to find your answer and verify on your graph.</p>
+        <li><p>Use your calculator to graph the function <m>N(t)</m> on the domain <m>0 \le t \le 15</m>.</p></li>
+        <li><p>How many days should the makers run the campaign in order for Chip-O's to be familiar to <m>51,200</m> people? Use algebraic methods to find your answer and verify on your graph.</p>
             <p>Answer: <var name="$answer" width="2"/> days</p></li></ol></p>
     </statement>
     <solution><p><ol label="a">
@@ -661,8 +597,7 @@ From this form see that the growth factor for this function is <m>2^{1/5}</m>, o
 </exercise>
 
 <exercise><title>QuickCheck 4</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $a = PopUp(
             [ "?", 
             "coefficients", 
@@ -679,37 +614,19 @@ From this form see that the growth factor for this function is <m>2^{1/5}</m>, o
         $c = Formula("2x+2");
         $d = Compute("1/3");
     </pg-code>
-    <statement>
-        <p><ol label="a">
-            <li>
-                <p>
-                    If two equivalent powers have the same nonzero base, <m>b \not= 1</m> or <m>-1</m>, then their <var name="$a" form="popup" /> must be equal also.
-                </p>
-            </li>
-            <li>
-                <p>
-                    An exponential equation is one in which the variable is part of  <var name="$b" form="popup" />.
-                </p>
-            </li>
-            <li>
-                <p>
-                    <m>(3^2)^{x+1}</m> simplifies to 3 raised to what power?  <var name="$c" width="5" />
-                </p>
-            </li>
-            <li>
-                <p>
-                    If a population doubles every 3 days, its growth factor is 2 raised to what power? <var name="$d" width="3" />
-                </p>
-            </li>
-        </ol></p>
-    </statement>
+<statement><p><ol label="a">
+    <li><p>If two equivalent powers have the same nonzero base, <m>b \not= 1</m> or <m>-1</m>, then their <var name="$a" form="popup" /> must be equal also.</p></li>
+    <li><p>An exponential equation is one in which the variable is part of  <var name="$b" form="popup" />.</p></li>
+    <li><p><m>(3^2)^{x+1}</m> simplifies to 3 raised to what power?  <var name="$c" width="5" /></p></li>
+    <li><p>If a population doubles every 3 days, its growth factor is 2 raised to what power? <var name="$d" width="3" />
+        </p></li></ol></p>
+</statement>
     <solution><p><ol label="a">
     <li>exponents</li>
     <li>an exponent</li>
     <li><m>2x+2</m></li>
     <li><m>\dfrac{1}{3}</m></li></ol></p></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
