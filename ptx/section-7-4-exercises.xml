@@ -331,16 +331,17 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 47-50, solve the formula for the specified variable.</p></introduction>
 
-<exercise number="47"><statement><p><m>A = A_0(10^{kt}-1)</m>, for <m>t</m></p></statement>
+<exercise number="47"><statement><p><m>N = N_0 a^{kt}</m>, for <m>k</m></p></statement>
+<answer><p><m>k=\dfrac{\log\left(\dfrac{N}{N_0}\right)}{t \log {a}} </m></p></answer></exercise>
+
+<exercise number="48"><statement><p><m>Q = Q_0 b^{t/2}</m>, for <m>t</m></p></statement></exercise>
+
+<exercise number="49"><statement><p><m>A = A_0(10^{kt}-1)</m>, for <m>t</m></p></statement>
 <answer><p><m>t=\dfrac{1}{k}\log\left(\dfrac{A}{A_0}+1\right) </m></p></answer></exercise>
 
-<exercise number="48"><statement><p><m>w = pv^q</m>, for <m>q</m></p></statement></exercise>
+<exercise number="50"><statement><p><m>w = pv^q</m>, for <m>q</m></p></statement></exercise>
 
-<exercise number="49"><statement><p><m>t = T \log \left(1+\dfrac{A}{k}\right)</m>, for <m>A</m></p></statement>
-<answer><p><m>A = k(10^{t/T}-1) </m></p></answer></exercise>
 
-<exercise number="50"><statement><p><m>\log R = \log R_0 +kt</m>, for <m>R</m></p></statement>
-<answer><p><m> </m></p></answer></exercise>
 </exercisegroup>
 
 </subexercises>
