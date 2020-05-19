@@ -81,8 +81,7 @@ Thus, <m>~~\log_{b}\sqrt{xy} = \dfrac{1}{2}(\log_{b}{x} + \log_{b}{y})</m>.</p><
     </statement>
     <solution><p><m>\log_b x - 2\log_b y</m></p>
     </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <p>We can also use the properties of logarithms to combine sums and differences of logarithms into one logarithm.</p>
 
@@ -111,8 +110,7 @@ Thus, <m>3(\log_b x - \log_b y) = \log_{b}\left(\dfrac{x}{y}\right)^3</m>.</p></
     </statement>
        <solution><p><m>\log_b x^2(x+3)^4 </m></p>
        </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 2</title>
 <webwork>
@@ -129,45 +127,22 @@ Thus, <m>3(\log_b x - \log_b y) = \log_{b}\left(\dfrac{x}{y}\right)^3</m>.</p></
             "False"],
             2
         );
-        
     </pg-code>
     <statement><p>True or False.
     <ol label="a">
-        <li>
-            <p>
-                The log of a product is equal to the sum of the logs of the factors. <var name="$True" form="popup"/>
-            </p>
+        <li><p>The log of a product is equal to the sum of the logs of the factors. <var name="$True" form="popup"/></p>
         </li>
-        <li>
-            <p>
-                The log of a quotient is the equal to the difference of the logs.  <var name="$True" form="popup"/>
-            </p>
+        <li><p>The log of a quotient is the equal to the difference of the logs. <var name="$True" form="popup"/></p></li>
+        <li><p>The log of a power is equal to the exponent times the log of the base. <var name="$True" form="popup"/></p>
         </li>
-        <li>
-            <p>
-                The log of a power is equal to the exponent times the log of the base.  <var name="$True" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                The distributive law applies to the operation of taking a logarithm of a sum or difference.  <var name="$False" form="popup"/>
-            </p>
-        </li>
+        <li><p>The distributive law applies to the operation of taking a logarithm of a sum or difference.  <var name="$False" form="popup"/></p></li>
     </ol></p></statement>
     <solution><p><ol label="a">
     <li>True</li>
     <li>True</li>
     <li>True</li>
     <li>False</li></ol></p></solution>
-</webwork>
-<statement><p>True or False.<ol label="a">
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ol></p></statement>
-<answer></answer>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -197,8 +172,7 @@ The solution is 36.</p></solution></example>
         <p><m>x=</m><var name="$a" width="5"/> </p>
     </statement>
     <solution><m>x=-40</m></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <warning><p>We cannot take a logarithm of a negative number or zero. This is because the output of an exponential function is always positive.</p>
 <p> For example suppose that <m>\log_5{-25} = x</m>. Then <m>5^x = -25</m>. But this is impossible, because <m>5^x</m> cannot be negative. Thus, the log of a negative number (or zero) is undefined.</p>  
@@ -219,8 +193,7 @@ Simplifying the right side gives us a quadratic equation to solve.
 We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation for extraneous solutions. The number <m>-3</m> is not a solution of the original equation, because neither <m>\log_{10}{(x + 1)}</m> nor <m>\log_{10}{(x - 2)}</m> is defined for <m>x = -3</m>. The apparent solution <m>x=-3</m> is extraneous, and the solution of the original equation is <m>4</m>.</p></solution></example>
 
 <exercise> <title>Practice 4</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $a = Compute("500");
     </pg-code>
     <statement>
@@ -234,12 +207,10 @@ We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation 
         <p>Check for extraneous solutions.</p>
     </hint>
     <solution><m>x=500</m></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 3</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $a = PopUp(
             [ "?", 
             "a negative number or zero", 
@@ -272,26 +243,18 @@ We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation 
         );
     </pg-code>
     <statement><p><ol label="a">
-        <li><p>
-            We cannot take a logarithm of <var name="$a" form="popup"/>.
+        <li><p>We cannot take a logarithm of <var name="$a" form="popup"/>.</p></li>
+        <li><p>After solving a logarithmic equation, we must check for  <var name="$b" form="popup"/>.</p></li>
+        <li><p>If an equation contains more than one log, we must first combine them into  <var name="$c" form="popup"/>.
         </p></li>
-        <li><p>
-            After solving a logarithmic equation, we must check for  <var name="$b" form="popup"/>.
-        </p></li>
-        <li><p>
-            If an equation contains more than one log, we must first combine them into  <var name="$c" form="popup"/>.
-        </p></li>
-        <li><p>
-            If there is only one log involved, we write the equation in  <var name="$d" form="popup"/> form.
-        </p></li>
+        <li><p>If there is only one log involved, we write the equation in  <var name="$d" form="popup"/> form.</p></li>
     </ol></p></statement>
     <solution><p><ol label="a">
     <li>a negative number or zero</li>
     <li>extraneous solutions</li>
     <li>a single logarithm</li>
     <li>exponential form</li></ol></p></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -350,8 +313,7 @@ Remember that the order of operations tells us to compute the power <m>6^{0.03x}
         </hint>
     <solution><p><m>x=\dfrac{\log 15.4}{2.5\log 1.2}\approx 5.999 </m></p>
     </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <p>By using the properties of logarithms, we can now solve equations that arise in exponential growth and decay models, no matter what base the exponential function uses.</p>
 
@@ -369,8 +331,7 @@ Now we can take the base 10 logarithm of both sides and solve for <m>t</m>.
 	<mrow>\frac{t}{12}\log_{10}{3} \amp= \log_{10}\left(\frac{150}{13}\right)
 	\amp\amp \glert{\text{Divide by }\log_{10}{3}\text{; multiply by 12.}}</mrow>
 	<mrow>t \amp = \frac{12 \left(\log_{10}{\frac{150}{13}}\right)}{\log_{10}{3}}</mrow></md>
-We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The population of Silicon City will reach 75,000 about 27 years after 1990, or in 2017.</p></solution>
-</example>
+We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The population of Silicon City will reach 75,000 about 27 years after 1990, or in 2017.</p></solution></example>
 
 <exercise><title>Practice 6</title>
     <webwork><pg-code>
@@ -391,12 +352,10 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
             <li><p><m>V(t) = V_0(1.027)^t</m></p></li>
             <li><p>about <m>26</m> years</p></li></ol></p>
     </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 4</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $a = RadioButtons(
             [ "\( 5^{3t} = \frac{20}{6}\)", 
             "\( 18t =\log_5 20\)", 
@@ -428,58 +387,34 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
             ],
             1
         );
-
     </pg-code>
-    <statement>
-        <p>
-            The first step for solving each equation below is <em>incorrect</em>. Replace it with the correct step.
-            <ol label="a">
-                <li><p>
-                    <m>\begin{aligned}[t]
-                        6(5^{3t})\amp=20 \\
-                        \color{gray}{(\log 6)(\log 5^{3t})}\amp=\color{gray}{\log {20}}\amp\amp \color{green}{\text{(Wrong!)}}
-                        \end{aligned}</m>
-                    </p>
+<statement>
+    <p>The first step for solving each equation below is <em>incorrect</em>. Replace it with the correct step.
+    <ol label="a">
+        <li><p><md><mrow>6(5^{3t})\amp=20</mrow>
+                 <mrow>\color{gray}{(\log 6)(\log 5^{3t})}\amp=\color{gray}{\log {20}}\amp\amp \color{green}{\text{(Wrong!)}}</mrow></md></p>
                     <p>Instead, the first step should be </p>
-                    <p><var name="$a" form="buttons"/>
-                </p></li>
-                <li><p>
-                    <m>\begin{aligned}[t]
-                        t \log 8\amp=\log{53} \\
-                        \color{gray}{t}\amp=\color{gray}{\log {\dfrac{53}{8}}}\amp\amp \color{green}{\text{(Wrong!)}}
-                        \end{aligned}</m>
-                    </p>
+                    <p><var name="$a" form="buttons"/></p></li>
+        <li><p><md><mrow>t \log 8\amp=\log{53}</mrow>
+                    <mrow>\color{gray}{t}\amp=\color{gray}{\log {\dfrac{53}{8}}}\amp\amp \color{green}{\text{(Wrong!)}}</mrow></md></p>
                     <p>Instead, the first step should be </p>
-                    <p><var name="$b" form="buttons"/>
-                </p></li>
-                <li><p>
-                    <m>\begin{aligned}[t]
-                        12(10)^{-0.06t}\amp=192 \\
-                        \color{gray}{120^{-0.06t}}\amp=\color{gray}{192}\amp\amp \color{green}{\text{(Wrong!)}}
-                        \end{aligned}</m>
-                    </p>
+                    <p><var name="$b" form="buttons"/></p></li>
+        <li><p><md><mrow>12(10)^{-0.06t}\amp=192</mrow>
+                    <mrow>\color{gray}{120^{-0.06t}}\amp=\color{gray}{192}\amp\amp \color{green}{\text{(Wrong!)}}</mrow></md></p>
                     <p>Instead, the first step should be </p>
-                    <p><var name="$c" form="buttons"/>
-                </p></li>
-                <li><p>
-                    <m>\begin{aligned}[t]
-                        \log x +\log {(x-2)}\amp=3 \\
-                        \color{gray}{x + (x-2)}\amp=\color{gray}{10^3}\amp\amp \color{green}{\text{(Wrong!)}}
-                        \end{aligned}</m>
-                    </p>
+                    <p><var name="$c" form="buttons"/></p></li>
+        <li><p><md><mrow>\log x +\log {(x-2)}\amp=3 </mrow>
+                    <mrow>\color{gray}{x + (x-2)}\amp=\color{gray}{10^3}\amp\amp \color{green}{\text{(Wrong!)}}</mrow>
+                </md></p>
                     <p>Instead, the first step should be </p>
-                    <p><var name="$d" form="buttons"/>
-                </p></li>
-            </ol>
-        </p>
+                    <p><var name="$d" form="buttons"/></p></li></ol></p>
     </statement>
     <solution><p><ol label="a" cols="2">
         <li><m>5^{3t} = \dfrac{20}{6}</m></li>
         <li><m>t = \dfrac{\log {53}}{\log 8}</m></li>
         <li><m> 10^{-0.06t} = \dfrac{192}{12}</m></li>
         <li><m>\log{(x(x-2))} = 3</m></li></ol></p></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -506,8 +441,7 @@ Then we write the exponential equation in logarithmic form:
 </exercise>
 
 <exercise> <title>Practice 7</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         Context()->variables->add(N0 => ['Real',TeX=>"N_0"]);
         Context()->variables->add(N =>"Real", k=>"Real", b=>"Real", N=>"Real");
         $f = Formula("1/k * b^(N/N0)");
@@ -523,8 +457,7 @@ Then we write the exponential equation in logarithmic form:
         <p>Solve for <m>s</m>.</p>
     </hint>
     <solution><m>s=\dfrac{1}{k}b^{N/N_0}</m></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 

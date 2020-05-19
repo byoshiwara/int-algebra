@@ -561,3 +561,11 @@ Answer to Hmwk 3.3 #14:
     <li><m>\sqrt[5]{x^4};~~\dfrac{1}{\sqrt[6]{b^5};~~\dfrac{1}{\sqrt[3]{p^2q^2};~~3\sqrt[5]{x^2};~~\dfrac{4}{\sqrt[3]{z^4};~~-2\sqrt[4]{xy^3}</m></li>
     <li><m>x^{2/3};~~2a^{1/5}b^{3/5};~~-4mp^{-7/6};~~(ab)^{2/3};~~8x^{-3/4};~~\dfrac{1}{3}RT^{-1/2}K^{-5/2}</m></li></ol>
 </p></answer></exercise>
+
+
+
+<exercise number="49"><statement><p><m>t = T \log \left(1+\dfrac{A}{k}\right)</m>, for <m>A</m></p></statement>
+<answer><p><m>A = k(10^{t/T}-1) </m></p></answer></exercise>
+
+<exercise number="50"><statement><p><m>\log R = \log R_0 +kt</m>, for <m>R</m></p></statement>
+<answer><p><m> </m></p></answer></exercise>

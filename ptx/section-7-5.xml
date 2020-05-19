@@ -3,6 +3,110 @@
 
 <section xml:id="ExponentialModels"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponential Models</title>
 
+<subsection><title>Fitting an Exponential Function through Two Points</title>
+
+<p>To write a formula for an exponential function, we need to know the initial value, <m>a</m>, and the growth or decay factor, <m>b</m>. We can find these two parameters if we know any two function values.</p>
+
+<example xml:id="example-fit-exponential"><statement><p>Find an exponential function that has the values <m>f(2) = 4.5</m> and <m>f(5) = 121.5</m>.</p></statement>
+
+<solution><p>We would like to find values of <m>a</m> and <m>b</m> so that the given function values satisfy <m>f(x) = ab^x</m> . By substituting the function values into the formula, we can write two equations.
+    <md><mrow>f(2) \amp= 4.5~~~ \text{ means }~~~x = 2, y = 4.5, \amp\amp\text{so }ab^2 = 4.5</mrow>
+        <mrow>f(5) \amp= 121.5~~~ \text{ means }~~~x = 5, y = 121.5, \amp\amp\text{so }ab^5 = 121.5</mrow></md>
+This is a system of equations in the two unknowns, <m>a</m> and <m>b</m>, but it is not a linear system. We can solve the system by the method of elimination, but instead of adding the equations, we will divide one of the equations by the other.
+    <md><mrow>\frac{ab^5}{ab^2}\amp= \frac{121.5}{4.5}</mrow>
+        <mrow>b^3 \amp = 27</mrow></md>
+Note that by dividing the two equations, we eliminated <m>a</m>, and we can now solve for <m>b</m>.
+    <md><mrow>b^3 \amp = 27 </mrow>
+        <mrow>b \amp = \sqrt[3]{27} = 3</mrow></md>
+Next we substitute <m>b = 3</m> into either of the two equations and solve for <m>a</m>.
+    <md><mrow>a(3)^2 \amp = 4.5 </mrow>
+        <mrow>a \amp= \frac{4.5}{9} </mrow>
+        <mrow>\amp = 0.5</mrow></md>
+Thus, <m>a = 0.5</m> and <m>b = 3</m>, and the function is <m>f(x) = 0.5(3^x)</m>.</p></solution></example>
+
+<warning><p>Knowing only two points on the graph of <m>f</m> is not enough to tell us what <em>kind</em> of function <m>f</m> is. Through the two points in <xref ref="example-fit-exponential" text="type-global"/>, we can also fit a linear function or a power function. </p>
+    <sidebyside widths="50% 35%"><p>You can check that the three functions below all satisfy <m>f(2) = 4.5</m> and <m>f(5) = 121.5</m>. The graphs of the functions are shown at right.
+    <md><mrow>L(x) \amp = -73.5 + 39x </mrow>
+        <mrow>P(x) \amp = 0.372x^{3.6} </mrow>
+        <mrow>E(x) \amp = 0.5(3^x ) </mrow></md></p>
+    <image source="images/fig-fit-3-functions"><description>three functions through the same two points</description></image></sidebyside>
+</warning>
+
+<p>However, if we already know that we are looking for an exponential function, we can follow the steps below to find its formula. This method is sometimes called the <term>ratio method</term><idx>ratio method</idx>. (Of course, if one of the known function values is the initial value, we can find <m>b</m> without resorting to the ratio method.)</p>
+
+<xi:include href="./assemblage-exponential-through-2-points.xml" />
+
+<exercise><title>Practice 1</title>
+    <webwork><pg-code>
+            $f = Formula("8* 2.5**x");
+        </pg-code>
+    <statement><p>Use the ratio method to find an exponential function whose graph includes the points <m>(1, 20)</m> and <m>(3, 125)</m>.</p>
+            <p><m>f(x)=</m><var name="$f" width="10"/> </p>
+    </statement>
+    <solution><p><m>f (x) = 8(2.5)^x</m></p>
+        </solution>
+</webwork></exercise>
+
+<exercise><title>QuickCheck 1</title>
+<webwork><pg-code>       
+            $syst = RadioButtons(
+              ["Calculate the slope.",
+              "Subtract one equation from the other.",
+              "Divide one equation by the other.",
+              "Take the log of both sides."],
+              2, 
+            );            
+        </pg-code>
+    <statement><p>You have written a system of equations to fit an exponential function through two points. What is the next step?</p>
+        <p><var name="$syst" form="buttons"/></p>      
+    </statement>
+    <solution><p>Divide one equation by the other.</p>
+    </solution>
+</webwork></exercise>
+
+<p>We can use the ratio method to find an exponential growth or decay model if we know two function values.</p>
+
+<example xml:id="example-cedi-inflation"><statement><p>The unit of currency in Ghana is the cedi, denoted by ¢. Beginning in 1986, the cedi underwent a period of exponential inflation. In 1993, one U.S. dollar was worth ¢720, and in 1996, the dollar was worth about ¢1620. Find a formula for the number of cedi to the dollar as a function of time since 1986. What was the annual inflation rate?</p></statement>
+
+<solution><p>We want to find a function <m>C(t) = ab^t</m> for the number of cedi to the dollar, where <m>t = 0</m> in 1986. We have two function values, <m>C(7) = 720</m>, and <m>C(10) = 1620</m>, and with these values we can write two equations.
+    <md><mrow>ab^7 \amp = 720 </mrow>
+        <mrow>ab^{10} \amp = 1620</mrow></md>
+We divide the second equation by the first to find
+    <md><mrow>\frac{ab^{10}}{ab^7} \amp= \frac{1620}{720} </mrow>
+        <mrow>b^3 \amp= 2.25</mrow></md>
+Now we can solve this last equation for <m>b</m> to get <m>b = \sqrt[3]{2.25}\approx 1.31</m>. Finally, we substitute <m>b = 1.31</m> into the first equation to find <m>a</m>.
+    <md><mrow>a(1.31)^7 \amp = 720 </mrow>
+        <mrow>a \amp = \frac{720}{1.317}</mrow>
+        <mrow>\amp = 108.75</mrow></md>
+Thus, <m>C(t) = 108.75(1.31)^t</m> , and the annual inflation rate was <m>31</m>%.</p></solution></example>
+
+<exercise><title>Practice 2</title>
+    <webwork><pg-code>
+            Context()->variables->add(m=>"Real");
+            $b = Compute("793/7480");
+            $a = Compute("7480/$b**5");
+            $N = Formula("$a*$b**m");
+            $one = $N->eval(m=>1);
+            $eight = $N->eval(m=>8)->with(
+              tolType => 'absolute',
+              tolerance => .51,
+            );
+        </pg-code>
+    <statement><p>The number of earthquakes that occur worldwide is a decreasing exponential function of their magnitude on the Richter scale. Between 2000 and 2005, there were 7480 earthquakes of magnitude 5 and 793 earthquakes of magnitude 6. (Source: National Earthquake Information Center, U.S. Geological Survey)</p>
+    <p><ol label="a">
+        <li><p>Find a formula for the number of earthquakes, <m>N(m)</m>, in terms of their magnitude.</p>
+                <p><m>N(m)=</m><var name="$N" width="20"/> </p>
+                <p>Do not use any commas: For example, instead of "10,000" enter simply "10000".</p></li>
+        <li><p>It is difficult to keep an accurate count of small earthquakes. Use your formula to estimate the number of magnitude 1 earthquakes that occurred between 2000 and 2005. <var name="$one" width="8"/> </p> 
+                <p>How many earthquakes of magnitude 8 occurred?  <var name="$eight" width="2"/> </p></li>
+    </ol></p></statement>
+    <solution><p><ol label="a">
+                <li><p><m>N(m) = 558,526,329(0.106)^m</m></p></li>
+                <li><p><m>59,212,751</m>; <m>~9</m></p></li>
+            </ol></p></solution>
+</webwork></exercise>
+</subsection>
+
 <subsection><title>Doubling Time</title><idx>doubling time</idx>
 
 <p>Instead of giving the rate of growth of a population, we can specify its rate of growth by giving the time it takes for the population to double.</p>
@@ -57,8 +161,7 @@
                 <li><p><m>22</m> years</p></li>
                 <li><p><m>P(0) = 26.9</m>; <m>P(22)\approx 53.8</m>, i.e.,  <m>P(22)\approx 2\cdot P(0)</m>; <m>P(44)\approx 107.6</m>, i.e.,  <m>P(44)\approx 2\cdot P(22)</m>; <m>P(66)\approx 215.1</m>, i.e.,  <m>P(66)\approx 2\cdot P(44)</m></p></li></ol></p>
     </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -248,45 +351,20 @@ Once again, you can check that this formula is equivalent to the decay function 
             "False"],
             2
         );
-        
     </pg-code>
-    <statement><p>True or False.
-    <ol label="a">
-        <li>
-            <p>
-                Every increasing exponential function has a constant doubling time. <var name="$True" form="popup"/>
-            </p>
+    <statement><p>True or False.<ol label="a">
+        <li><p>Every increasing exponential function has a constant doubling time. <var name="$True" form="popup"/></p>
         </li>
-        <li>
-            <p>
-                If the doubling time of a population is 5 years, then its growth factor is given by <m>2^{1/5}</m>.  <var name="$True" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                The half-life of a substance is half the time it takes for all of the substance to decay.  <var name="$False" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                We can sketch the graph of an exponential decay function if we know its half-life and initial value.  <var name="$True" form="popup"/>
-            </p>
-        </li>
+        <li><p>If the doubling time of a population is 5 years, then its growth factor is given by <m>2^{1/5}</m>.  <var name="$True" form="popup"/></p></li>
+        <li><p>The half-life of a substance is half the time it takes for all of the substance to decay.  <var name="$False" form="popup"/></p></li>
+        <li><p>We can sketch the graph of an exponential decay function if we know its half-life and initial value.  <var name="$True" form="popup"/></p></li>
     </ol></p></statement>
     <solution><p><ol label="a">
     <li>True</li>
     <li>True</li>
     <li>False</li>
     <li>True</li></ol></p></solution>
-</webwork>
-<statement><p>True or False.<ol label="a">
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ol></p></statement>
-<answer></answer>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
