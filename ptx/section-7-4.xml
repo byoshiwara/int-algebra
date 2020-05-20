@@ -146,118 +146,6 @@ Thus, <m>3(\log_b x - \log_b y) = \log_{b}\left(\dfrac{x}{y}\right)^3</m>.</p></
 
 </subsection>
 
-<subsection><title>Solving Logarithmic Equations</title>
-
-<p>A <term>logarithmic equation</term><idx>logarithmic equation</idx> is one in which the variable appears inside of a logarithm. For example,
-	<me>\log_4 x = 3</me>
-is a log equation.</p>
-
-<p>If there is only one log involved, we can use the conversion formula to write the equation in exponential form.</p>
-
-<example><statement><p>Solve <m>~\log_4{(2x-8)}=3</m>.</p></statement>
-		
-<solution><p>We use the conversion formula to write the equation in exponential form.
-	<md><mrow>2x-8 \amp = 4^3 \amp \amp \glert{\text{Evaluate the power.}}</mrow>
-		<mrow>2x-8 \amp = 64  \amp \amp \glert{\text{Solve for}~x.}</mrow>
-		<mrow> x \amp = 36</mrow></md>
-The solution is 36.</p></solution></example>
-    
-<exercise> <title>Practice 3</title>
-<webwork>
-    <pg-code>
-        $a = Compute("-40");
-    </pg-code>
-    <statement>
-        <p>Solve <m>~\log_5{(5-3x)} = 3</m></p>
-        <p><m>x=</m><var name="$a" width="5"/> </p>
-    </statement>
-    <solution><m>x=-40</m></solution>
-</webwork></exercise>
-
-<warning><p>We cannot take a logarithm of a negative number or zero. This is because the output of an exponential function is always positive.</p>
-<p> For example suppose that <m>\log_5{-25} = x</m>. Then <m>5^x = -25</m>. But this is impossible, because <m>5^x</m> cannot be negative. Thus, the log of a negative number (or zero) is undefined.</p>  
-<p>Because of this fact, extraneous solutions can arise when we solve logarithmic equations.</p></warning>
-
-<p>If the equation contains more than one log, we must first combine any expressions involving logs into a single logarithm.</p>
-
-<example><statement><p>Solve <m>~~\log_{10}{(x + 1)} + \log_{10}{(x - 2)}= 1</m>.</p></statement>
-
-<solution><p>We use Property (1) of logarithms to rewrite the left-hand side as a single logarithm:
-	<me>\log_{10}{(x + 1)(x - 2)} = 1</me>
-Once the left-hand side is expressed as a single logarithm, we can rewrite the equation in exponential form as
-	<me>(x + 1)(x - 2) = 10^1</me>
-Simplifying the right side gives us a quadratic equation to solve.
-	<md><mrow>x^2 - x - 2 \amp = 10 \amp \amp \glert{\text{Subtract 10 from both sides.}}</mrow>
-		<mrow>x^2 - x - 12 \amp = 0 \amp \amp \glert{\text{Factor the left side.}}</mrow>
-		<mrow>(x - 4)(x + 3) \amp= 0 \amp \amp \glert{\text{Apply the zero-factor principle.}}</mrow></md>
-We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation for extraneous solutions. The number <m>-3</m> is not a solution of the original equation, because neither <m>\log_{10}{(x + 1)}</m> nor <m>\log_{10}{(x - 2)}</m> is defined for <m>x = -3</m>. The apparent solution <m>x=-3</m> is extraneous, and the solution of the original equation is <m>4</m>.</p></solution></example>
-
-<exercise> <title>Practice 4</title>
-<webwork><pg-code>
-        $a = Compute("500");
-    </pg-code>
-    <statement>
-        <p>Solve <m>~\log_{10}{x} + \log_{10}{2}= 3</m></p>
-        <p><m>x=</m><var name="$a" width="4"/> </p>
-    </statement>
-    <hint>
-        <p>Hint: Rewrite the left side as a single logarithm.</p>
-        <p>Rewrite the equation in exponential form.</p>
-        <p>Solve for <m>x</m>.</p>   
-        <p>Check for extraneous solutions.</p>
-    </hint>
-    <solution><m>x=500</m></solution>
-</webwork></exercise>
-
-<exercise><title>QuickCheck 3</title>
-<webwork><pg-code>
-        $a = PopUp(
-            [ "?", 
-            "a negative number or zero", 
-            "a fraction",
-            "a variable expression"],
-            1
-        );
-        $b = PopUp(
-            [ "?", 
-            "extraneous solutions", 
-            "irrational numbers"
-            ],
-            1
-        );
-        $c = PopUp(
-            [ "?", 
-            "a common denominator", 
-            "a single logarithm"
-            ],
-            2
-        );
-        $d = PopUp(
-            [ "?", 
-            "standard", 
-            "general",
-            "exponential",
-            "point-slope"
-            ],
-            3
-        );
-    </pg-code>
-    <statement><p><ol label="a">
-        <li><p>We cannot take a logarithm of <var name="$a" form="popup"/>.</p></li>
-        <li><p>After solving a logarithmic equation, we must check for  <var name="$b" form="popup"/>.</p></li>
-        <li><p>If an equation contains more than one log, we must first combine them into  <var name="$c" form="popup"/>.
-        </p></li>
-        <li><p>If there is only one log involved, we write the equation in  <var name="$d" form="popup"/> form.</p></li>
-    </ol></p></statement>
-    <solution><p><ol label="a">
-    <li>a negative number or zero</li>
-    <li>extraneous solutions</li>
-    <li>a single logarithm</li>
-    <li>exponential form</li></ol></p></solution>
-</webwork></exercise>
-
-</subsection>
-
 <subsection><title>Solving Exponential Equations</title>
 
 <p>By using Property (3), we can now solve exponential equations in which the base is not <m>10</m>. For example, to solve the equation
@@ -297,7 +185,7 @@ On the right side of the equation, <m>x</m> is multiplied by two constants, <m>0
 		<me>80 \cdot 6^{0.03x} \rightarrow 480^{0.03x}~~ \blert{\text{ Incorrect!}}</me>
 Remember that the order of operations tells us to compute the power <m>6^{0.03x}</m> before multiplying by <m>80</m>. To solve the equation, we must first isolate the power with the variable exponent.</p></warning>
 
-<exercise><title>Practice 5</title>
+<exercise><title>Practice 4</title>
     <webwork><pg-code>
             Context()->flags->set(useBaseTenLog=>1); 
             $answer = Compute("log(77/5)/(2.5*log(1.2))");
@@ -333,7 +221,7 @@ Now we can take the base 10 logarithm of both sides and solve for <m>t</m>.
 	<mrow>t \amp = \frac{12 \left(\log_{10}{\frac{150}{13}}\right)}{\log_{10}{3}}</mrow></md>
 We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The population of Silicon City will reach 75,000 about 27 years after 1990, or in 2017.</p></solution></example>
 
-<exercise><title>Practice 6</title>
+<exercise><title>Practice 5</title>
     <webwork><pg-code>
             Context()->variables->add(V0 => ["Real",TeX=>"V_0"], t=>"Real");
             $f = Formula("V0 *1.027**t");
@@ -354,7 +242,7 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
     </solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 4</title>
+<exercise><title>QuickCheck 3</title>
 <webwork><pg-code>
         $a = RadioButtons(
             [ "\( 5^{3t} = \frac{20}{6}\)", 
@@ -431,16 +319,7 @@ Then we write the exponential equation in logarithmic form:
 		<md><mrow> kt \amp = \log_b {\dfrac{P}{C}} \amp\amp \glert{\text{Divide both sides by}~k.}</mrow>
 			<mrow>t  \amp = \dfrac{1}{k}\log_b {\dfrac{P}{C}}</mrow></md></p></solution></example>
 
-<exercise> <title>Practice 7</title>
-<statement><p>Solve <m>~N=N_0 \log_b{ks}</m> for <m>s</m>.</p>
-	<p>Hint: Divide both sides by <m>N_0</m>.
-	Rewrite in exponential form.
-	Solve for <m>s</m>.</p>	 	
-</statement>
-<answer><m>s=\dfrac{1}{k}b^{N/N_0}</m></answer>
-</exercise>
-
-<exercise> <title>Practice 7</title>
+<exercise> <title>Practice 6</title>
 <webwork><pg-code>
         Context()->variables->add(N0 => ['Real',TeX=>"N_0"]);
         Context()->variables->add(N =>"Real", k=>"Real", b=>"Real", N=>"Real");

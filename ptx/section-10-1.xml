@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="LogarithmicFunctions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithmic Functions</title>
+
+<introduction><p>In this section we study <term>logarithmic functions</term>. For example,
+	<me>f(x)=\log_2 {x}</me>
+is a logarithmic function. In order to understand logarithmic functions better, we first investigate how they are related to more familiar functions, the exponential functions.</p></introduction>
+
+<subsection><title>Inverse of a Function</title>
+
+<p>You know that raising to the <m>n</m>th power and taking <m>n</m>th roots are <em>inverse operations</em>.  For example, if we first cube a number and then take its cube root, we return to the original number.
+
+	<md><mrow>x \amp = \alert{5}~~~~~~\rightarrow~~~~~~x^3=125~~~~~~\rightarrow~~~~~~\sqrt[3]{x^3}=\sqrt[3]{125}=\alert{5}</mrow>
+		<mrow>\amp \blert{\text{Cube the number}}~~~~~~~~\blert{\text{Take the cube root}}~~~~~~~~\blert{\text{Original number}}</mrow></md>
+
+Now consider the functions that describe those operations:  The graphs of <m>f(x)=x^3</m> and <m>g(x)=\sqrt[3]{x}</m> are related in an interesting way, as shown below.</p>
+
+	<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+
+<p>If we place a mirror along the line <m>y=x</m>, each graph is the reflection of the other. We say that the graphs are "symmetric about the line <m>y=x</m>."</p>
+
+<p>The two functions <m>f(x)=x^3</m> and <m>g(x)=\sqrt[3]{x}</m> are called <term>inverse functions</term>. Look at the tables of values for the two functions.</p>
+	
+<sidebyside widths="45% 45%">
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>\dfrac{-1}{2}</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>\dfrac{1}{2}</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>-8</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>\dfrac{-1}{8}</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>\dfrac{1}{8}</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>8</m></cell></row></tabular>
+
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-8</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>\dfrac{-1}{8}</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>\dfrac{1}{8}</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>8</m></cell></row>
+                    <row>
+                    	<cell><m>g(x)</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>\dfrac{-1}{2}</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>\dfrac{1}{2}</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell></row></tabular></sidebyside>
+
+<p>By interchanging the rows in the table for <m>f(x)</m>, we get the table for <m>g(x)</m>. This makes sense when we recall that each function undoes the effect of the other.  In fact, we define the cube root function by
+	<me>y=\sqrt[3]{x}~~~~\text{if and only if}~~~~x=y^3</me></p>
+In other words, if we interchange the variables in the cubing function, <m>y=x^3</m>, to get <m>x=y^3</m>, we have an equivalent formula for the cube root function, <m>y=\sqrt[3]{x}</m>.
+</subsection> 
+
+<subsection><title>Inverse of an Exponential Function</title>
+
+<p>A similar rule relates the operations of raising a base <m>b</m> to a power and taking a base <m>b</m> logarithm.
+	<me>y = \log_b {x}~~~~\text{if and only if}~~~~x=b^y</me>
+So the function <m>g(x)=\log_b {x}</m> is the inverse function for <m>f(x)=b^x</m>. Each function undoes the effect of the other. For example, let <m>f(x)=2^x</m> and <m>g(x)=\log_2 {x}</m>. Start with <m>x=3</m>, apply <m>f</m>, and then apply <m>g</m> to the result.
+
+	<me>x = \alert{3}~~~~~~\rightarrow~~~~~~f(3)=2^3=8~~~~~~\rightarrow~~~~~~g(8)=\log_2{8} = \alert{3}</me>
+
+We return to the original number, 3.</p>
+
+<p>We can write these operations in one expression as
+	<me>\log_2(2^{\alert{3}}) = \alert{3}</me>
+(Remember the order of operations: do what's inside of parentheses first.) Because the log and the exponential are inverse functions, this identity holds for any value of <m>x</m> and any base <m>b \gt 0</m>.  That is
+	<me>\blert{\log_b(b^{x}) = x}</me>
+We can also apply the two functions i the opposite order, so that
+	<me>2^{\log_2{\alert{8}}} = \alert{8}</me>
+(This one is harder to see, but we compute the exponent <m>\log_2{8}</m> first.) And in general
+	<me>\blert{b^{\log_b{x}} = x}</me></p>
+
+<exercise ><title>Practice 1</title>
+<statement><p>Simplify each expression. <ol label="a" cols="2">
+	<li><m>\log_4 {4^6}</m></li>
+	<li><m>4^{\log_4 {64}}</m></li>
+	<li><m>\log_{10} {10^6}</m></li>
+	<li><m>10^{\log_{10} {1000}}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+	<li><m>6</m></li>
+	<li><m>64</m></li>
+	<li><m>6</m></li>
+	<li><m>1000</m></li></ol></p></answer></exercise>
+
+</subsection>
+
+<subsection><title>Graphs of Logarithmic Functions</title>
+
+<p>What does the graph of a log function look like? We can use exponential functions to help us.</p>
+
+<example><statement><p>Graph <m>g(x)=\log_2{x}</m></p></statement>
+
+<solution><p>We can make a table of values for <m>g(x)=\log_2{x}</m> by interchanging the columns in a table for <m>f(x)=2^x</m>.</p>
+	<sidebyside widths="40% 40%">
+		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>f(x)=2^x</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-2</m></cell>
+                        <cell bottom="minor"><m>\dfrac{1}{4}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>-1</m></cell>
+                        <cell bottom="minor"><m>\dfrac{1}{2}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>1</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>2</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>4</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>8</m></cell></row>
+                    </tabular> 
+
+		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>g(x)=\log_2{x}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>\dfrac{1}{4}</m></cell>
+                        <cell bottom="minor"><m>-2</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>\dfrac{1}{2}</m></cell>
+                        <cell bottom="minor"><m>-1</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>0</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>1</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>2</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>8</m></cell>
+                        <cell bottom="minor"><m>3</m></cell></row>
+                    </tabular></sidebyside> 
+
+<p>We plot the points for each function, connecting them with smooth curves, as shown below.  You can see that the two graphs are symmetric about the line <m>y=x</m>.</p>
+
+<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></solution></example>
+
+<p>The same technique works for graphing a log function with any base.</p>
+
+<exercise><title>Practice 2</title>
+<statement><p>Graph the function <m>f(x)=10^x</m> and its inverse function <m>g(x)=\log_{10}{x}</m> on the same axes.</p></statement>
+<answer><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></answer></exercise>
+
+<p>Did you notice that the graphs of the log functions do not have any points with negative <m>x</m>-coordinates? This is because an exponential function has no negative (or zero) output values, so a log function has no negative or zero input values. In other words,</p>
+
+<p>We cannot take the log of a negative number or zero.</p>
+
+<p>You can also see that while an exponential growth function increases very rapidly for positive input values, its inverse, the logarithmic function, grows extremely slowly. In addition, the logarithmic function has the following properties.</p>
+
+<assemblage><title>Properties of Log Functions</title>
+<p> For any base <m>b \gt 0, b \ne 1</m>: <ol label="1">
+	<li>The logarithmic function <m>y = \log_b x</m> is defined for positive <m>x</m> only.</li>
+	<li>The <m>x</m>-intercept of its graph is <m>(1,0)</m>.</li>
+	<li>The graph has a vertical asymptote at <m>x=0</m>.</li>
+	<li>The graphs of <m>y = \log_b x</m> and <m>y=b^x</m> are symmetric about the line <m>y=x</m>.</li></ol></p>
+</assemblage>
+
+<exercise><title>QuickCheck 1</title>
+<webwork><pg-code>       
+            $intlog = RadioButtons(
+              ["\((0,1)\)",
+              "\((1,0)\)",
+              "\((0,5)\)",
+              "There is none."],
+              3, 
+            );            
+        </pg-code>
+    <statement>
+        <p>What is the <m>y</m>-intercept of the graph of <m>y=\log_5 x</m> ?</p>
+        <p><var name="$intlog" form="buttons"/></p>      
+    </statement>
+    <solution>
+        <p>There is none.</p>
+    </solution>
+</webwork></exercise>
+</subsection>
+
+<subsection><title>Using Logarithmic Functions</title>
+
+<p>We can use the <c>LOG</c> key on a calculator to evaluate the function <m>f(x) = \log_{10}{x}</m>.</p>
+
+<example xml:id="example-GC-evaluate-logs"><statement><p>Let <m>f(x) = \log_{10}{x}</m>. Evaluate the following expressions.<ol label="a" cols="3">
+		<li><m>f(35)</m></li>
+		<li><m>f(-8)</m></li>
+		<li><m>2 f(16) + 1</m></li>
+	</ol></p></statement>
+<solution><p><ol label="a">
+	<li><m>f (35) = \log_{10}{35}\approx 1.544</m></li>
+	<li><m>f(-8)</m>, or <m>\log_{10}{(-8)}</m>, is undefined.</li>
+	<li><m>2 f(16) + 1 = 2(\log_{10}{16}) + 1 \approx 2(1.204) + 1 = 3.408</m></li>
+	</ol></p></solution></example>
+
+<exercise><title>Practice 3</title>
+<statement><p>Evaluate  <m>~H(t)=20 \log_{10}{\dfrac{t}{C_L}}~</m> for <m>t=2</m>, where <m>C_L=0.5</m>.</p></statement>
+<answer><m>20 \log_{10}{4} \approx 12.04</m></answer></exercise>
+
+<example><statement><p>Evaluate the expression <m>T=\dfrac{1}{k}{\log_{10}{\dfrac{M_f}{M_0}+1}}~</m> for <m>k=0.028, ~M_f=1832</m>, and <m>M_0=15.3</m>.</p></statement>
+
+<solution><p>Follow the order of operations and calculate
+	<md><mrow>T \amp =\dfrac{1}{0.028}{\log_{10}{\dfrac{1832}{15.3}+1}} = \dfrac{\log_{10}{120.739}}{0.028}</mrow>
+		<mrow> \amp \approx \dfrac{2.082}{0.028} \approx 74.35</mrow></md>
+A calculator keying sequence for the calculation is
+	<me> \boxed{\text{LOG}}~~1832~~\boxed{\div}~~15.3~~\boxed{+}~~1~~\boxed{)}~~\boxed{\div}~~0.028~~\boxed{\text{ENTER}}</me></p></solution></example>
+
+<exercise><title>Practice 4</title>
+    <webwork><pg-code>
+            Context()->flags->set(useBaseTenLog=>1);
+            Context()->variables->add(t=>"Real", Df=>"Real", D0=>"Real");
+            $f = Formula("log(2)*t/(3log(Df/D0))");
+            $t = Compute("7");
+            $D0 = Compute("1");
+            $Df = Compute("1.05");
+            $answer = $f->eval(t=>$t, Df=>$Df, D0=>$D0)->with(
+              tolType => 'absolute',
+              tolerance => .51,
+            );
+        </pg-code>
+    <statement><p>The formula <m>T = \dfrac{\log 2 \cdot t_i}{3 \log(D_f /D_0)}</m> is used by X-ray technicians to calculate the doubling time of a malignant tumor. <m>D_0</m> is the diameter of the tumor when first detected, <m>D_f</m> is its diameter at the next reading, and <m>t_i</m> is the time interval between readings, in days. Calculate the doubling time of the following tumor: its diameter when first detected was 1 cm, and 7 days later its diameter was 1.05 cm.</p>
+            <p><var name="$answer" width="2"/> days </p>
+    </statement>
+    <solution><p>33 days</p></solution>
+</webwork></exercise>
+</subsection>
+
+<subsection><title>Solving Logarithmic Equations</title>
+
+<p>A <term>logarithmic equation</term><idx>logarithmic equation</idx> is one in which the variable appears inside of a logarithm. For example,
+	<me>\log_4 x = 3</me>
+is a log equation.</p>
+
+<p>If there is only one log involved, we can use the conversion formula to write the equation in exponential form.</p>
+
+<example><statement><p>Solve <m>~\log_4{(2x-8)}=3</m>.</p></statement>
+		
+<solution><p>We use the conversion formula to write the equation in exponential form.
+	<md><mrow>2x-8 \amp = 4^3 \amp \amp \glert{\text{Evaluate the power.}}</mrow>
+		<mrow>2x-8 \amp = 64  \amp \amp \glert{\text{Solve for}~x.}</mrow>
+		<mrow> x \amp = 36</mrow></md>
+The solution is 36.</p></solution></example>
+    
+<exercise> <title>Practice 5</title>
+<webwork><pg-code>
+        $a = Compute("-40");
+    </pg-code>
+    <statement>
+        <p>Solve <m>~\log_5{(5-3x)} = 3</m></p>
+        <p><m>x=</m><var name="$a" width="5"/> </p>
+    </statement>
+    <solution><m>x=-40</m></solution>
+</webwork></exercise>
+
+<warning><p>Remember that we cannot take a logarithm of a negative number or zero, because the output of an exponential function is always positive.</p>
+<p> For example suppose that <m>\log_5{(-25)} = x</m>. Then <m>5^x = -25</m>. But this is impossible, because <m>5^x</m> cannot be negative. Thus, the log of a negative number (or zero) is undefined.</p>  
+<p>Because of this fact, extraneous solutions can arise when we solve logarithmic equations.</p></warning>
+
+<p>If the equation contains more than one log, we must first combine any expressions involving logs into a single logarithm.</p>
+
+<example><statement><p>Solve <m>~~\log_{10}{(x + 1)} + \log_{10}{(x - 2)}= 1</m>.</p></statement>
+
+<solution><p>We use Property (1) of logarithms to rewrite the left-hand side as a single logarithm:
+	<me>\log_{10}{(x + 1)(x - 2)} = 1</me>
+Once the left-hand side is expressed as a single logarithm, we can rewrite the equation in exponential form as
+	<me>(x + 1)(x - 2) = 10^1</me>
+Simplifying the right side gives us a quadratic equation to solve.
+	<md><mrow>x^2 - x - 2 \amp = 10 \amp \amp \glert{\text{Subtract 10 from both sides.}}</mrow>
+		<mrow>x^2 - x - 12 \amp = 0 \amp \amp \glert{\text{Factor the left side.}}</mrow>
+		<mrow>(x - 4)(x + 3) \amp= 0 \amp \amp \glert{\text{Apply the zero-factor principle.}}</mrow></md>
+We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation for extraneous solutions. The number <m>-3</m> is not a solution of the original equation, because neither <m>\log_{10}{(x + 1)}</m> nor <m>\log_{10}{(x - 2)}</m> is defined for <m>x = -3</m>. The apparent solution <m>x=-3</m> is extraneous, and the solution of the original equation is <m>4</m>.</p></solution></example>
+
+<exercise> <title>Practice 6</title>
+<webwork><pg-code>
+        $a = Compute("500");
+    </pg-code>
+    <statement>
+        <p>Solve <m>~\log_{10}{x} + \log_{10}{2}= 3</m></p>
+        <p><m>x=</m><var name="$a" width="4"/> </p>
+    </statement>
+    <hint>
+        <p>Hint: Rewrite the left side as a single logarithm.</p>
+        <p>Rewrite the equation in exponential form.</p>
+        <p>Solve for <m>x</m>.</p>   
+        <p>Check for extraneous solutions.</p>
+    </hint>
+    <solution><m>x=500</m></solution>
+</webwork></exercise>
+
+<exercise><title>QuickCheck 3</title>
+<webwork><pg-code>
+        $a = PopUp(
+            [ "?", 
+            "a negative number or zero", 
+            "a fraction",
+            "a variable expression"],
+            1
+        );
+        $b = PopUp(
+            [ "?", 
+            "extraneous solutions", 
+            "irrational numbers"
+            ],
+            1
+        );
+        $c = PopUp(
+            [ "?", 
+            "a common denominator", 
+            "a single logarithm"
+            ],
+            2
+        );
+        $d = PopUp(
+            [ "?", 
+            "standard", 
+            "general",
+            "exponential",
+            "point-slope"
+            ],
+            3
+        );
+    </pg-code>
+    <statement><p><ol label="a">
+        <li><p>We cannot take a logarithm of <var name="$a" form="popup"/>.</p></li>
+        <li><p>After solving a logarithmic equation, we must check for  <var name="$b" form="popup"/>.</p></li>
+        <li><p>If an equation contains more than one log, we must first combine them into  <var name="$c" form="popup"/>.
+        </p></li>
+        <li><p>If there is only one log involved, we write the equation in  <var name="$d" form="popup"/> form.</p></li>
+    </ol></p></statement>
+    <solution><p><ol label="a">
+    <li>a negative number or zero</li>
+    <li>extraneous solutions</li>
+    <li>a single logarithm</li>
+    <li>exponential form</li></ol></p></solution>
+</webwork></exercise>
+
+</subsection>
+
+
+
+<xi:include href="./section-10-1-exercises.xml" />                
+
+
+</section>
+<!-- </book>  </mathbook> -->
