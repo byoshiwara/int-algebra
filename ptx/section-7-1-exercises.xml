@@ -30,7 +30,7 @@
 
 <exercise number="4"><statement><p>You got a 5% raise in January, but then in March everyone took a pay cut of 5%.  How does your new salary compare to what it was last December?</p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5-10, solve. Round your answers to two places if necessary.</p>
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>10, solve. Round your answers to two places if necessary.</p>
 </introduction>
 
 <exercise number="5"><statement><m>768 = 12b^3</m></statement>
@@ -45,7 +45,7 @@
 <exercise number="8"><statement><m>151,875 = 20,000b^5</m></statement></exercise>
    
 <exercise number="9"><statement><m>1253 = 260(1+r)^{12}</m></statement>
-<answer><m>-2.14;~0.14</m></answer></exercise>
+<answer><m>-2.14</m>; <m>0.14</m></answer></exercise>
 
 <exercise number="10"><statement><m>56.27 = 78(1-r)^8</m></statement></exercise>
 </exercisegroup>
@@ -53,25 +53,25 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="11"><statement><p>The population of Summerville is currently <m>12</m> hundred people.<ol>
+<exercise number="11"><statement><p>The population of Summerville is currently <m>12</m> hundred people.<ol label="a">
     <li><p>Write a formula for the population if it grows at a constant rate of <m>1.5</m> hundred people per year. What is the population after <m>3</m> years?</p></li>
     <li><p>Write a formula for the population if it has a constant growth factor of <m>1.5</m> per year. What is the population after <m>3</m> years?   </p></li></ol>
 </p></statement>
-<answer><p><ol cols="2">
+<answer><p><ol label="a" cols="2">
     <li><p><m>P = 1200 + 150t</m>;  <m>1650</m></p></li>
     <li><p><m>P = 1200\cdot 1.5^t</m>;  <m>4050</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p>Delbert's sports car was worth  $<m>45,000</m> when he bought it.<ol>
+<exercise number="12"><statement><p>Delbert's sports car was worth  $<m>45,000</m> when he bought it.<ol label="a">
     <li><p>Write a formula for the value of the car if it depreciates at a constant rate of $<m>7000</m> per year. What is the value of the car after <m>4</m> years?</p></li>
     <li><p>Write a formula for the value of the car if it has a constant depreciation factor of <m>0.70</m> per year. What is the value of the car after <m>4</m> years?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="13"><statement><p>Francine's truck was worth $<m>18,000</m> when she bought it.<ol>
+<exercise number="13"><statement><p>Francine's truck was worth $<m>18,000</m> when she bought it.<ol label="a">
     <li><p>Write a formula for the value of the truck if it depreciates by $<m>2000</m> per year. What is the value of the truck after <m>5</m> years?</p></li>
     <li><p>Write a formula for the value of the truck if it depreciates by <m>20\%</m> per year. What is the value of the truck after <m>5</m> years?</p></li>
 </ol></p></statement>
-<answer><p><ol cols="2">
+<answer><p><ol label="a" cols="2">
     <li><p><m>V = 18,000 - 2000t</m>; $<m>8000</m></p></li>
     <li><p><m>V = 18,000\cdot 0.8^t</m>; $<m>5898.24</m></p></li>
 </ol></p></answer></exercise>
@@ -82,7 +82,7 @@
 </ol></p></statement></exercise>
 
 <exercise number="15"><statement><p>The table shows the growth factor for a number of different populations.  For each population, find the percent growth rate.</p>
-<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Population</cell>
                         <cell>A</cell>
@@ -104,11 +104,11 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></statement>
+                    </tabular></sidebyside></statement>
 <answer>20%, 2%, 7.5%, 100%, 115%</answer></exercise>
 
 <exercise number="16"><statement><p>The table shows the decay factor for a number of different populations.  For each population, find the percent decay rate.</p>
-    <p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Population</cell>
                         <cell>A</cell>
@@ -130,7 +130,7 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise>
+                    </tabular></sidebyside></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>The graphs in Problems 17 and 18 represent exponential growth or decay.<ol>
         <li><p>Find the initial value and the growth or decay factor.</p></li>
@@ -302,7 +302,7 @@
 
 <subexercises><title>Applications</title>
 
-<exercisegroup><introduction><p>For Problems 23<ndash/>26, <ol label="a">
+<exercisegroup><introduction><p>For Problems 23<ndash/>30, <ol label="a">
     <li>Complete the table of values.</li>
     <li>Write a function that describes exponential growth or decay.</li>
     <li>Use your calculator to graph the function.</li>
@@ -367,21 +367,23 @@
 
 <exercise number="24"><statement><p>Paul bought a house for $200,000 in 1983. For the next 20 years, housing prices rose an average of 5% per year. How much was the house worth in 1995?  In 2000?</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell>Years after 1983</cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>10</m></cell>
-                        <cell><m>15</m></cell>
-                        <cell><m>20</m></cell></row>
-                    <row> 
-                        <cell>Value of house</cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></statement>
+        <row bottom="minor">
+            <cell>Years after 1983</cell>
+            <cell><m>0</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>15</m></cell>
+            <cell><m>20</m></cell></row>
+        <row> 
+            <cell>Value of house</cell>
+            <cell><m></m></cell>
+            <cell><m></m></cell>
+            <cell><m></m></cell>
+            <cell><m></m></cell>
+            <cell><m></m></cell></row>
+        </tabular>
+    </sidebyside>
+</statement>
 <answer><p><ol label="a">
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -402,7 +404,6 @@
     <li><m>V(t)=200,000(1.05)^t</m></li>
     <li><sidebyside width="40%" margins="0% 5%">
         <image xml:id="fig-hw-7-1-19ans"><description>house value</description><latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
             \begin{tikzpicture} [scale=.5] 
@@ -419,9 +420,11 @@
             \node[rotate=90,font=\bf] at (-2.5,5)  {Thousands of dollars};
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside></li>
-    <li>$359,171.27; $458,403.66</li></ol></p></answer></exercise>
+    <li>$359,171.27; $458,403.66</li></ol></p>
+</answer>
+</exercise>
 
-<exercise number="25"><statement><p>A typical beehive contains 20000insects. The population can increase in size by a factor of 2.5 every 6 weeks. How many bees could there be after 4 weeks? After 20 weeks?</p>
+<exercise number="25"><statement><p>A typical beehive contains 20000 insects. The population can increase in size by a factor of 2.5 every 6 weeks. How many bees could there be after 4 weeks? After 20 weeks?</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Weeks</cell>
@@ -457,7 +460,7 @@
                         <cell><m>78,125</m></cell></row>
                     </tabular></sidebyside></li>
     <li><m>P(t)=2000(2.5)^{t/6}</m></li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="40%"><image source="images/fig-bee-population"><description>bee population</description></image></sidebyside></li>
 </ol></p></answer></exercise>
 
 <exercise number="26"><statement><p>Otto invests $600 in an account that pays 7.3% interest compounded annually.  How much is in Otto's account after 3 years?  After 6 years?</p>
@@ -513,7 +516,7 @@
                         <cell><m>79,102</m></cell></row>
                     </tabular></sidebyside></li>
     <li><m>P(t)=250,000(0.75)^{t/2}</m></li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="40%"><image source="images/fig-mosquito-population"><description>graph</description></image></sidebyside></li>
     <li>162,280; 68,504</li></ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>Scuba divers find that the water in Emerald Lake filters out 15% of the sunlight for each 4 feet they descend. How much sunlight penetrates to a depth of 20 feet? To a depth of 45 feet?</p>
@@ -592,21 +595,23 @@
 
 <exercise number="30"><statement><p>Plutonium-238 is a radioactive element that decays over time into a less harmful element at a rate of 0.8% per year. A power plant has 50 pounds of plutonium-238 to dispose of. How much plutonium-238 will be left after 10 years?  After 100 years?</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell>Years</cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>10</m></cell>
-                        <cell><m>20</m></cell>
-                        <cell><m>30</m></cell>
-                        <cell><m>40</m></cell></row>
-                    <row> 
-                        <cell>Pounds</cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></statement></exercise>
+        <row bottom="minor">
+            <cell>Years</cell>
+            <cell><m>0</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>20</m></cell>
+            <cell><m>30</m></cell>
+            <cell><m>40</m></cell></row>
+        <row> 
+            <cell>Pounds</cell>
+            <cell><m></m></cell>
+            <cell><m></m></cell>
+            <cell><m></m></cell>
+            <cell><m></m></cell>
+            <cell><m></m></cell></row>
+        </tabular>
+    </sidebyside>
+</statement></exercise>
 </exercisegroup>
 
 <exercise number="31"><statement><p>Riverside County is the fastest growing county in California. In 2000, the 
@@ -627,12 +632,12 @@ population was 1,545,387. <ol label="a">
 
 <exercise number="33"><statement><p>In the 1940s David Lack undertook a study of the European robin. He tagged 130 one-year-old robins and found that on average 35.6% of the birds survived each year. (Source: Burton, 1998.)<ol label="a">
     <li>According to the data, how many robins would have originally hatched to produce 130 one-year-olds?</li>
-    <li>Write a formula for the number of the original robinsstill alive after <m>t</m> years.</li>
+    <li>Write a formula for the number of the original robins still alive after <m>t</m> years.</li>
     <li>Graph your function on your calculator.</li>
     <li>One of the original robins actually survived for 9 years. How many robins does the model predict will survive for 9 years?</li></ol></p></statement>
 <answer><p><ol label="a">
     <li>365</li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="40%" margins="0% 5%"><image source="images/fig-surviving-robins"><description>exponential decay</description></image></sidebyside></li>
 
     <li><m>N(t)=365(0.356)^t</m></li>
     <li>0.03</li></ol></p></answer></exercise>
