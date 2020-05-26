@@ -199,7 +199,7 @@ Verify the solutions on a graph.</p></statement>
             <md><mrow>3x^2 − 6y^2 = 3</mrow>
                 <mrow>4x^2 + 6y^2 = 60</mrow></md>
 Adding these two equations, we have</p>
-    <image source="images/fig-example-9-5-4.png"><description>GC ellipse and hyperbola</description></image></sidebyside>
+    <image source="images/fig-gc-hyperbola-ellipse"><description>GC ellipse and hyperbola</description></image></sidebyside>
 <p>
             <md><mrow>7x^2 \amp= 63</mrow>
                 <mrow>x^2\amp=9</mrow></md>
