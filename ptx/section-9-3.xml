@@ -769,7 +769,7 @@
             </li>
             <li>
                 <p>
-                    Find the coordinates of the vertices and covertices.  Separate different points with a comma. 
+                    Find the coordinates of the vertices and covertices.  Separate different points with a comma. Use "sqrt(2)" to get <m>\sqrt{2}</m>.
                 </p>
                 <p>
                     vertices: <var name="$vertices" width="25"  evaluator="$my_evaluator"/> 
@@ -902,8 +902,8 @@
 <example>
     <statement>
         <p><ol label="a">
-            <li>Write the equation in standard form.
-                    <me>4x^2 + 9y^2 - 16x - 18y -11 = 0</me></li>
+            <li><p>Write the equation in standard form.
+                    <md><mrow>4x^2 + 9y^2 - 16x - 18y -11 = 0</mrow></md></p></li>
             <li>Graph the equation.</li>
         </ol></p>
     </statement>
