@@ -171,7 +171,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
 </exercise>
 
 <exercise><title>QuickCheck 1</title>
-<webwork>pg-code>
+<webwork><pg-code>
         $vertices = PopUp(
           ["?", "two foci", "center and radius","vertices and covertices", "slope and intercepts"],
          3, 
@@ -328,7 +328,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
 
 <example><statement><p><ol label="a">
     <li><p>Find the exact coordinates of any points with <m>y</m>-coordinate 2 on the ellipse <m>4x^2 + y^2 = 12</m>. Plot and label those points on the ellipse.</p></li>
-    <li><pSolve the equation <m>4x^2 + y^2 = 12</m> when <m>y = -4</m>. What do the solutions tell you about the graph of the ellipse?</p></li></ol></p></statement>
+    <li><p>Solve the equation <m>4x^2 + y^2 = 12</m> when <m>y = -4</m>. What do the solutions tell you about the graph of the ellipse?</p></li></ol></p></statement>
     
 <solution><p><ol label="a">
     <li><sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">

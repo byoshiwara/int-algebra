@@ -963,7 +963,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     <statement><p>True or false.<ol label="a">
         <li><p>The graph of a general quadratic is a hyperbola if the coefficients of both the <m>x^2</m>-term and the <m>y^2</m>-term are negative. <var name="$False" form="popup"/></p></li>
         <li><p>The slopes of the asymptotes of a hyperbola are <m>\pm\dfrac{b}{a} </m>. <var name="$True" form="popup"/></p></li>
-        <li><p>The asymptotes pass through the vertices of the hyperbola. <var name="$False" form="popup"/></p></li></p></li></ol></p>
+        <li><p>The asymptotes pass through the vertices of the hyperbola. <var name="$False" form="popup"/></p></li></ol></p>
     </statement>
     <solution><p><ol label="a">
             <li><p>False</p></li>
@@ -1053,7 +1053,7 @@ we can determine the nature of the graph from the coefficients of the quadratic 
         $b = Compute("2/3");
     </pg-code>
     <statement><p>Describe the graph of each equation without graphing.<ol label="a">
-        <li><p><m>x^2=9y^2-9</m>
+        <li><p><m>x^2=9y^2-9</m></p>
                 <p><var name="$hyperbola" form="popup"/> at the point <var name="$origin" width="5"/>; vertices: <var name="$vertices" width="12"/>; asymptotes <m>y=\pm</m><var name="$f" width="5"/></p></li>
         <li><p><m>x^2-y=2x+4</m></p>
                 <p><var name="$parabola" form="popup"/> at the point <var name="$v" width="5"/>, opening <var name="$up" form="popup"/></p></li>
