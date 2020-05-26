@@ -128,8 +128,6 @@
             <li><m>\log_b {\dfrac{x}{y}} = \log_b {x} - \log_b {y}</m></li>
             <li><m>\log_b {x^k} = k\log_b {x} </m></li></ol>
         </p></assemblage></li>
-    <li>To solve a logarithmic equation, we first combine any expressions involving logs into a single logarithm.  Then we use the conversion formula to write the equation in exponential form.</li>
-    <li>We cannot take a logarithm of a negative number or zero. Consequently, extraneous solutions can arise when we solve logarithmic equations.</li>
     <li><assemblage><title>Steps for Solving Exponential Equations</title>
         <p><ol label="1">
             <li>Isolate the power on one side of the equation.</li>
@@ -137,13 +135,6 @@
             <li>Apply the third property of logarithms to simplify.</li>
             <li>Use a calculator, if necessary, to evaluate the logarithm.</li>
             <li>Solve for the variable.</li></ol></p></assemblage></li> 
-    <li><assemblage><title>Doubling Time</title><idx>doubling time</idx>
-        <p>If <m>D</m> is the doubling time for an exponential function <m>P(t)</m>, then
-            <me>P(t) = P_0 2^{t/D}</me></p></assemblage></li>
-    <li><assemblage><title>Half-Life</title><idx>half-life</idx>
-        <p>If <m>H</m> is the half-life for an exponential function <m>Q(t)</m>, then
-            <me>Q(t)=Q_0 (0.5)^{t/H}</me></p></assemblage></li>
-    <li>As we move from left to right on a logarithmic scale, we multiply the value at the previous tick mark by 10.  Moving up by equal increments on a log scale does not add equal amounts to the values plotted; it multiplies the values by equal factors.</li>
     </ol></p>
 </subsection>
 
