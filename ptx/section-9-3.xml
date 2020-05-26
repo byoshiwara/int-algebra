@@ -207,10 +207,17 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
     <md><mrow>Ax^2+By^2=C</mrow></md>
 where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph are easier to identify if we first convert the equation to standard form.</p>
 
-<example><statement><p>Graph <m>4x^2 =y^2=12</m></p></statement>
-
-<solution><sidebyside widths="40% 58%" margins="0% 0%" valigns="middle middle">
-    <image xml:id="fig-example-9-3-2"><description>ellipse with vertical major axis</description><latex-image>
+<example>
+    <statement>
+        <p>
+            Graph <m>4x^2 +y^2=12</m>
+        </p>
+    </statement>
+    <solution>
+        <sidebyside widths="40% 58%" margins="0% 0%" valigns="middle middle">
+            <image xml:id="fig-example-9-3-2">
+            <description>ellipse with vertical major axis</description>
+            <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }

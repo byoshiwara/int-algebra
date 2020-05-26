@@ -53,10 +53,10 @@
 <exercisegroup cols="2"><introduction><p>For Problems 11 and 12, find a formula for the exponential function.</p>
 </introduction>
 
-<exercise number="11"><statement><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></statement>
+<exercise number="11"><statement><sidebyside width="85%"><image source="images/fig-3halves-times-3-to-x-over-5"><description>mystery exponential growth</description></image></sidebyside></statement>
 <answer><m>y=1.5(3){x/5}</m></answer></exercise>
 
-<exercise number="12"><statement><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></statement></exercise>
+<exercise number="12"><statement><sidebyside width="75%"><image source="images/fig-8fifths-times-5-to-neg-x-over-3"><description>mystery exponential decay</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 13 and 14,<ol label="a">
@@ -64,11 +64,11 @@
     <li>fit an exponential function to the points,</li>
     <li>graph both functions in the same window.</li></ol></p></introduction>
 
-<exercise number="13"><statement><m>(0,2,6),~(1,1.3)</m></statement>
+<exercise number="13"><statement><m>(0,2.6)</m>, <m>(1,1.3)</m></statement>
 <answer><p><ol label="a">
     <li><m>y=2.6-1.3x</m></li>
     <li><m>y=2.5(0,5)^x</m></li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
+    <li><sidebyside width="80%"><image source="images/fig-lin-and-exp-fit"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><m>(-2,0.75),~(4,6)</m></statement></exercise>
 </exercisegroup>
