@@ -143,11 +143,10 @@
     
 <subexercises><title>Skills Practice</title>
 
-<exercisegroup><introduction><p>For Problems 11-14, solve.</p></introduction>
+<exercisegroup><introduction><p>For Problems 11<ndash/>14, solve.</p></introduction>
 
-<exercise number="11"><statement><m>5-2(3x-4)=28-2x </m></statement>
-            <li><p><m>0.0048z-0.12=-0.08+0.0016z</m></p></li></ol></p></statement>
-<answer><m>\dfrac{-15}{4} </m></answer></exercise>
+<exercise number="11"><statement><p><m>5-2(3x-4)=28-2x </m></p></statement>
+<answer><p><m>\dfrac{-15}{4} </m></p></answer></exercise>
 
 <exercise number="11"><statement><m>0.0048z-0.12=-0.08+0.0016z</m></statement></exercise>
 
@@ -157,12 +156,12 @@
 <exercise number="14"><statement><p><m>0.12t + 0.08(t + 10,000) = 12,000</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 15-18, solve the inequality and graph the solutions on a number line.</p></introduction>
+<exercisegroup><introduction><p>For Problems 15<ndash/>18, solve the inequality and graph the solutions on a number line.</p></introduction>
             
 <exercise number="14"><statement><m>3x-2 \gt 1+2x</m></statement></exercise>
-<answer>
 
-<exercise number="15"><statement><m>\dfrac{-2x-6}{-3} \gt 2 </m></p></statement></exercise>
+
+<exercise number="15"><statement><p><m>\dfrac{-2x-6}{-3} \gt 2 </m></p></statement></exercise>
 
 <exercise number="17"><statement><p><m>\dfrac{-2x-3}{2}\le -5 </m></p></statement>
 <answer><sidebyside widths="20% 60%" margins="0% 10%" valigns="middle middle"><p>

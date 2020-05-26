@@ -228,7 +228,7 @@ and then press <c>ZOOM</c> <m>6</m>. If we trace along the graph to the intersec
                 <mrow>3x - 2y = 9</mrow></md></p></li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li>p>We use the calculator to graph both equations on the same axes. First, we rewrite the second equation in slope-intercept form by solving for <m>y</m>.
+    <li><p>We use the calculator to graph both equations on the same axes. First, we rewrite the second equation in slope-intercept form by solving for <m>y</m>.
                 <md><mrow>2x + 2y \amp = 3\amp\amp \glert{\text{Substract } 2x \text{ from both sides.}}</mrow>
                     <mrow>2y \amp = -2x + 3\amp\amp \glert{\text{Divide both sides by 2.}}</mrow>
                     <mrow>y \amp = -x + 1.5</mrow></md>
