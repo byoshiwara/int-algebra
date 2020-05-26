@@ -628,3 +628,248 @@ Answer to Hmwk 3.3 #14:
 <exercise number="26"><statement><p><m>\dfrac{\sqrt{36-x^2}}{1+x}=\dfrac{2\sqrt{5}}{5} </m> for <m>x=4</m></p></statement>
 </exercise>
 </exercisegroup>
+
+
+<sidebyside width="90%">
+                <image xml:id="fig-hw-1-4-1">
+                <description>two lines on grids</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.5]
+                \draw[cyan] (0,0) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
+                \foreach \x  [evaluate=\x as \xi using int(\x *5)] in {2,4,...,10} {
+                  \draw[black,thick] (\x,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \foreach \x  [evaluate=\x as \xi using int(\x *100)] in {2,4,...,10} {
+                  \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[red,thick] (0,0) -- (8,10);
+                \node[text width=.3cm] at (5.4,-2) {I};
+
+                \draw[cyan] (15,0) grid (25,10);
+                \draw[black,thick, ->, >=stealth'] (15,0)--(25.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (15,0)--(15,10.6) node[above]{$y$};
+                \foreach \x  [evaluate=\x as \xi using int(\x *20)] in {5,10} {
+                  \draw[black,thick] ({15+\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \foreach \x  [evaluate=\x as \xi using int(\x *1)] in {5,10} {
+                  \draw[black,thick] (15.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[red,thick] (18,10) -- (23,0);
+                \node[text width=.3cm] at (20.4,-2) {II};
+                \end{tikzpicture}]]>
+                </latex-image></image></sidebyside></p></li>
+
+<sidebyside width="65%" margins="0% 0%"><image xml:id="fig-hw-1-4-1-ans"><description>two lines on grids</description><latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.5]
+                \draw[cyan] (0,0) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
+                \foreach \x  [evaluate=\x as \xi using int(\x *5)] in {2,4,...,10} {
+                  \draw[black,thick] (\x,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \foreach \x  [evaluate=\x as \xi using int(\x *100)] in {2,4,...,10} {
+                  \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[red,thick] (0,0) -- (8,10);
+                \draw[blue, very thick, dashed, ->, >=stealth'](4,5)--(8,5) node[below, midway, yshift=-2, fill=white, inner sep=1]{$\Delta x$};
+                \draw[blue, very thick, dashed, ->, >=stealth'](8,5)--(8,10) node[right, midway, xshift=2, fill=white, inner sep=1]{$\Delta y$};
+                \node[text width=.3cm] at (5.4,-2) {I};
+
+                \draw[cyan] (15,0) grid (25,10);
+                \draw[black,thick, ->, >=stealth'] (15,0)--(25.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (15,0)--(15,10.6) node[above]{$y$};
+                \foreach \x  [evaluate=\x as \xi using int(\x *20)] in {5,10} {
+                  \draw[black,thick] ({15+\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \foreach \x  [evaluate=\x as \xi using int(\x *1)] in {5,10} {
+                  \draw[black,thick] (15.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[red,thick] (18,10) -- (23,0);
+                \draw[blue, very thick, dashed, ->, >=stealth'](19,8)--(22,8) node[above, midway, yshift=2, fill=white, inner sep=1]{$\Delta x$};
+                \draw[blue, very thick, dashed, ->, >=stealth'](22,8)--(22,2) node[right, midway, xshift=2, fill=white, inner sep=1]{$\Delta y$};
+                \node[text width=.3cm] at (20.4,-2) {II};
+                \end{tikzpicture}]]>
+                </latex-image></image></sidebyside>
+
+<exercise number="9"><statement><p>Ariel, Beryl, and Carol are training for a kayaking race. The girls practice on a quiet stretch of river starting 200 yards from the dock. There are markers placed at 100-yard intervals along the shore, and their teammates are stationed at these markers to time their progress. Yesterday they recorded the following times, in seconds, for each girl:</p>
+        <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+            <row>
+                <cell></cell>
+                <cell colspan="3" >Time (seconds)</cell></row>
+            <row>
+                <cell>Marker (yards)</cell>
+                <cell>Ariel</cell>
+                <cell>Beryl</cell>
+                <cell>Carol</cell></row>
+            <row>
+                <cell>200</cell>
+                <cell>0</cell>
+                <cell>0</cell>
+                <cell>0</cell></row>
+            <row>
+                <cell>300</cell>
+                <cell>20</cell>
+                <cell>25</cell>
+                <cell>15</cell></row>
+            <row>
+                <cell>400</cell>
+                <cell>40</cell>
+                <cell>50</cell>
+                <cell>30</cell></row>
+            <row>
+                <cell>500</cell>
+                <cell>60</cell>
+                <cell>75</cell>
+                <cell>45</cell></row>
+        </tabular></sidebyside><p><ol label="a">
+    <li><p>For each girl, make a graph showing time on the horizontal axis and distance from the dock on the vertical axis. Fill in a table and plot thepoints.</p>
+        <sidebyside widths="30% 56%" margins="0% 0%">
+            <stack><p>Ariel</p>
+                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                            <row>
+                                <cell><m>t</m></cell>
+                                <cell><m>d</m></cell></row>
+                            <row>
+                                <cell><m>0</m></cell>
+                                <cell><m>200</m></cell></row>
+                            <row>
+                                <cell><m>20</m></cell>
+                                <cell><m>300</m></cell></row>
+                            <row>
+                                <cell><m>40</m></cell>
+                                <cell><m>400</m></cell></row>
+                            <row>
+                                <cell><m>60</m></cell>
+                                <cell><m>500</m></cell></row>
+                        </tabular></stack>
+    <image xml:id="fig-hw-1-4-9"><description>grid</description><latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [xscale=.8, yscale=.64]
+                    \draw[cyan] (0,0) grid (8,6);
+                    \draw[black,thick, ->, >=stealth'] (0,0)--(8.5,0) node[right]{$t$};
+                    \draw[black,thick, ->, >=stealth'] (0,0)--(0,6.5) node[above]{$d$};
+                    \foreach \x [evaluate=\x as \xi using int(\x *10)] in {1,2,...,8} {
+                      \draw[black,thick] ({\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                    }
+                    \foreach \x [evaluate=\x as \xi using int(\x *100)] in {1,2,...,6}  {
+                      \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                    }
+                    \end{tikzpicture}]]>
+        </latex-image></image></sidebyside>
+        <sidebyside widths="30% 56%" margins="0% 0%">
+                <stack><p>Beryl</p>
+                    <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                            <row>
+                                <cell><m>t</m></cell>
+                                <cell><m>d</m></cell></row>
+                            <row>
+                                <cell><m>\hphantom{20}</m></cell>
+                                <cell><m>\hphantom{200}</m></cell></row>
+                            <row>
+                                <cell><m></m></cell>
+                                <cell><m></m></cell></row>
+                            <row>
+                                <cell><m></m></cell>
+                                <cell><m></m></cell></row>
+                            <row>
+                                <cell><m></m></cell>
+                                <cell><m></m></cell></row>
+                        </tabular></stack>
+        <image source="images/fig-hw-1-4-9"><description>grid</description></image></sidebyside>
+        <sidebyside widths="30% 56%" margins="0% 0%">
+                <stack><p>Carol</p>
+                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                            <row>
+                                <cell><m>t</m></cell>
+                                <cell><m>d</m></cell></row>
+                            <row>
+                                <cell><m>\hphantom{20}</m></cell>
+                                <cell><m>\hphantom{200}</m></cell></row>
+                            <row>
+                                <cell><m></m></cell>
+                                <cell><m></m></cell></row>
+                            <row>
+                                <cell><m></m></cell>
+                                <cell><m></m></cell></row>
+                            <row>
+                                <cell><m></m></cell>
+                                <cell><m></m></cell></row>
+                </tabular></stack>
+            <image source="images/fig-hw-1-4-9"><description>grid</description></image></sidebyside></li>
+        <li><p>For each girl, choose two data points and compute her average speed, <m>\dfrac{\Delta d}{\Delta t} </m>. Don't forget the units!                    </p>
+                <p>Ariel's speed<m>{}=\dfrac{\Delta d}{\Delta t}= </m></p>
+                <p>Beryl's speed<m>{}=\dfrac{\Delta d}{\Delta t}= </m></p>
+                <p>Carol's speed<m>{}=\dfrac{\Delta d}{\Delta t}= </m></p>
+                <p>Illustrate each girl's speed on her distance graph above.</p></li>
+        <li><p> Which girl has the fastest average speed?</p>
+        <sidebyside width="56%"><image source="images/fig-hw-1-4-9"><description>grid</description></image></sidebyside>
+        <p>Plot all three graphs on the same grid above, and compare.  How can the different speeds be seen from the graphs?</p></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><sidebyside widths="45% 45%" margins="0% 0%">
+        <stack><p>Beryl</p>
+            <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                            <row>
+                                <cell><m>t</m></cell>
+                                <cell><m>d</m></cell></row>
+                            <row>
+                                <cell><m>0</m></cell>
+                                <cell><m>200</m></cell></row>
+                            <row>
+                                <cell><m>25</m></cell>
+                                <cell><m>300</m></cell></row>
+                            <row>
+                                <cell><m>50</m></cell>
+                                <cell><m>400</m></cell></row>
+                            <row>
+                                <cell><m>75</m></cell>
+                                <cell><m>500</m></cell></row>
+                        </tabular></stack>
+            <stack><p>Carol</p>
+                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+                            <row>
+                                <cell><m>t</m></cell>
+                                <cell><m>d</m></cell></row>
+                            <row>
+                                <cell><m>0</m></cell>
+                                <cell><m>200</m></cell></row>
+                            <row>
+                                <cell><m>15</m></cell>
+                                <cell><m>300</m></cell></row>
+                            <row>
+                                <cell><m>30</m></cell>
+                                <cell><m>400</m></cell></row>
+                            <row>
+                                <cell><m>45</m></cell>
+                                <cell><m>500</m></cell></row>
+                        </tabular></stack></sidebyside></li>
+    <li><p>Ariel: 5 yd/sec; Beryl: 4 yd/sec; Carol: <m>6\frac{2}{3} </m> yd/sec</p></li>
+     <li><sidebyside width="60%"><image xml:id="fig-hw-1-4-9-ans"><description>grid</description><latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [xscale=.8, yscale=.64]
+                    \draw[cyan] (0,0) grid (8,6);
+                    \draw[black,thick, ->, >=stealth'] (0,0)--(8.5,0) node[right]{$t$};
+                    \draw[black,thick, ->, >=stealth'] (0,0)--(0,6.5) node[above]{$d$};
+                    \foreach \x [evaluate=\x as \xi using int(\x *10)] in {1,2,...,8} {
+                      \draw[black,thick] ({\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                    }
+                    \foreach \x [evaluate=\x as \xi using int(\x *100)] in {1,2,...,6}  {
+                      \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                    }
+                    \draw[red,thick] (0,0) -- (8,4) node[right]{Ariel};
+                    \draw[blue,thick] (0,0) -- (8,3.2) node[right]{Beryl};
+                    \draw[green!60!black,thick] (0,0) -- (8,16/3) node[right]{Carol};
+                    \end{tikzpicture}]]>
+                </latex-image></image></sidebyside>
+        <p>Carol: The speeds are given by the slopes of their graphs.</p></li></ol></p></answer></exercise>
