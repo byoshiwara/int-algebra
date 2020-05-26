@@ -144,14 +144,14 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 9 and 10, without using a calculator, estimate the log between two integers.</p></introduction>
 
-<exercise number="9"><statement><p><ol label="a" cols="2">
+<exercise number="9"><statement><p><ol label="a" >
     <li><p><m>x=\log_{10}{5678}</m></p></li>
     <li><p><m>y=\log_{10}{0.25}</m></p></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><p><m>3 \lt x \lt 4</m></p></li>
     <li><p><m>-1 \lt y \lt 0</m></p></li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><p><ol label="a" cols="2">
+<exercise number="10"><statement><p><ol label="a" >
     <li><p><m>\log_{10}{137,624}</m></p></li>
     <li><p><m>\log_{10}{0.009}</m></p></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -301,6 +301,88 @@ where <m>t</m> is measured in years since <m>1970</m>.<ol>
     <li><p><m>x^2-3x = 16</m></p></li></ol></p></statement>
 </exercise>
 </exercisegroup>
+
+<exercise number="33"><statement><p><ol label="a">
+    <li><p>Complete the table.</p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>x^2</m></cell>
+                        <cell bottom="minor"><m>\log_{10}{x}</m></cell>
+                        <cell bottom="minor"><m>\log_{10}{x^2}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>5</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>6</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>Do you notice a relationship between <m>\log_{10}{x}</m> and <m>\log_{10}{x^2}</m>? State the relationship as an equation.</li></ol></p></statement></exercise>
+
+<exercise number="34"><statement><p><ol label="a">
+    <li><p>Complete the table.</p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>\dfrac{1}{x}</m></cell>
+                        <cell bottom="minor"><m>\log_{10}{x}</m></cell>
+                        <cell bottom="minor"><m>\log_{10}{\dfrac{1}{x}}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>5</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>6</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>Do you notice a relationship between <m>\log_{10}{x}</m> and <m>\log_{10}{\dfrac{1}{x}}</m>? State the relationship as an equation.</li></ol></p></statement></exercise>
 
 </subexercises>
 </exercises>

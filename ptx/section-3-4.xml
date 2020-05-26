@@ -103,8 +103,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             <li>False</li>
             <li>False</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>Practice 1</title>
     <webwork><pg-code>
@@ -129,8 +128,8 @@ You can check that in the resulting trinomial, the constant term is equal to <em
     <solution><p><ol label="a" cols="2">
                 <li><p><m>x^2 - 18x + 81 = (x - 9)^2</m></p></li>
                 <li><p><m>x^2+9x+\dfrac{81}{4}=\left(x+\dfrac{9}{2}\right)^2 </m></p></li></ol></p>
-        </solution></webwork>
-</exercise>
+    </solution>
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Solving Quadratic Equations by Completing the Square</title>
@@ -158,8 +157,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
  
 <note>
     <sidebyside widths="35% 50%" valigns="middle middle">
-        <image xml:id="fig-parabola-with-symmetry-line">
-        <description>parabola with line of symmetry</description>
+        <image xml:id="fig-parabola-with-symmetry-line"><description>parabola with line of symmetry</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -179,10 +177,8 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         \filldraw[red] (-1,0) ellipse (.15 and .1);
         \filldraw[red] (7,0) ellipse (.15 and .1);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>    
-    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown in at left. The <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p>
-    </sidebyside>
+    </latex-image></image>    
+    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown in at left. The <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p></sidebyside>
 </note>
 
 <p>We can also solve <m>x^2 - 6x - 7 = 0</m> by factoring instead of completing the square. Of course, we get the same solutions by either method. In the next Example, we solve an equation that cannot be solved by factoring.</p> 
@@ -241,8 +237,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
     </statement>
     <solution><p>d, a, c, b</p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise xml:id="exercise-completing-the-square2"><title>Practice 2</title>
     <webwork><pg-code>
@@ -303,8 +298,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             <li><p><m>x=\dfrac{3}{2}\pm\sqrt{\frac{13}{4}} </m></p></li>
             <li><p><m>x\approx -0.30</m> or <m>x\approx 3.30</m></p></li>
         </ol></p></solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 </subsection>
 
 <subsection><title>The General Case</title>
@@ -377,9 +371,8 @@ You can check that <m>(2x - 3)^2</m> is not equal to <m>2x^2 - 6x + 9</m>. We ha
                     <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 20</mrow></md></p></li>
         </ol></p>        
     </statement>
-<solution><p><m>x=\dfrac{-13}{2} </m>, <m> x=\dfrac{-5}{2} </m></p></solution>
-    </webwork>
-</exercise>
+    <solution><p><m>x=\dfrac{-13}{2} </m>, <m> x=\dfrac{-5}{2} </m></p></solution>
+</webwork></exercise>
 
 <p>Here is a summary of the steps for solving quadratic equations by completing the square.</p>
 
@@ -393,9 +386,7 @@ You can check that <m>(2x - 3)^2</m> is not equal to <m>2x^2 - 6x + 9</m>. We ha
                 <li>Add the value obtained in (a) to both sides of the equation.</li></ol></p></li>
             <li><p>Write the left side of the equation as the square of a binomial. Simplify the right side.</p></li>
             <li><p>Use extraction of roots to finish the solution.</p></li>
-        </ol></p>
-</assemblage>
-
+        </ol></p></assemblage>
 </subsection>
 
 

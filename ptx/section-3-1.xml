@@ -14,8 +14,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
 
 
 <exercise><title>QuickCheck 1</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $which = new_checkbox_multiple_choice();
         $which -> qa (
         "A question can go here, but PTX ignores this",            
@@ -38,8 +37,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
     </p></statement>
     <solution><p>(A) and (D) are quadratic.</p>
     </solution>
-</webwork>
-</exercise> 
+</webwork></exercise> 
 
 <p>We would like to be able to solve quadratic equations, use them in applications, and graph quadratic equations in two variables. Let's begin by considering some simple examples.</p>
 </subsection>
@@ -71,9 +69,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
                     <cell><m>9</m></cell></row>
             </tabular>
     </stack>
-    <image xml:id="fig-standard-parab">
-    <description>standard parabola</description>
-    <latex-image>
+    <image xml:id="fig-standard-parab"><description>standard parabola</description><latex-image>
     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
     <![CDATA[\tikzset{%
     }
@@ -90,9 +86,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
     \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(\x)^2});
     \node at (0,-1.7) {$y=x^2$};
     \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+    </latex-image></image></sidebyside>
 
 <warning><p>Be careful when squaring negative numbers. To evaluate the square of a negative number on a calculator, we must enclose the number in parentheses.  For example,
     <me>(-3)^2=(-3)(-3)=9,~~~~\text{but}~~~~-3^2=-3 \cdot 3=-9</me></p></warning>
@@ -120,8 +114,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
                     <cell><m>0</m></cell>
                     <cell><m>5</m></cell></row>
             </tabular>
-            <image xml:id="fig-example-3-1-1"><description>parabola</description>
-            <latex-image>
+        <image xml:id="fig-example-3-1-1"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -137,10 +130,8 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
             }
             \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{(\x)^2-4});
             \end{tikzpicture}]]>
-            </latex-image>
-            </image></sidebyside>
-    </solution>
-</example>
+            </latex-image></image></sidebyside>
+</solution></example>
 
     
 <exercise><title>Practice 1</title>
@@ -212,12 +203,9 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
             }
             \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{4-(\x)^2});
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
+            </latex-image></image></sidebyside>
     </conclusion>
 </exercise> 
-
 </subsection>
 
 <subsection><title>Solving Quadratic Equations</title>
@@ -227,9 +215,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
 First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> from Example 1.</p>
 
 <sidebyside  width="40%">
-     <image xml:id="fig-solve-quadratic">
-        <description>parabola and y=5</description>
-        <latex-image>
+     <image xml:id="fig-solve-quadratic"><description>parabola and y=5</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -250,9 +236,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
         \filldraw[red] (-3,5) circle (.2);
         \filldraw[red] (3,5) circle (.2);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>    
+    </latex-image></image></sidebyside>    
 <p>We would like to find the <m>x</m>-values that make <m>y=5</m>. The horizontal line <m>y=5</m> intersects the graph at two points with <m>y</m>-coordinate 5, and their <m>x</m>-coordinates are the solutions of the equation. Thus, there are two solutions, namely <m>3</m> and <m>-3</m>.</p> 
 
 <p>Algebraically, we solve the equation as follows. <ul> 
@@ -270,10 +254,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
 graphically and algebraically.</p></statement> 
     
 <solution><p> The figure shows the graph of <m>~y=\dfrac{1}{2}x^2-7.</m> </p>
-        <sidebyside  width="40%">
-            <image xml:id="fig-solve-quadratic2">
-            <description>parabola and y=8</description>
-            <latex-image>
+    <sidebyside  width="40%"><image xml:id="fig-solve-quadratic2"><description>parabola and y=8</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -294,17 +275,14 @@ graphically and algebraically.</p></statement>
             \filldraw[red] ({-sqrt(30)},8) circle (.2);
             \filldraw[red] ({sqrt(30)},8) circle (.2);
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside> 
+            </latex-image></image></sidebyside> 
 <p>We would like to find the <m>x</m>-values that make <m>y=8</m>. The horizontal line <m>y=8</m> intersects the graph at two points with <m>x</m>-coordinates approximately <m>5.5</m> and <m>-5.5</m>. These are the solution of the equation.</p>  
 <p>Algebraically, we solve the equation as follows. <ul> 
         <li><p>First, we isolate the variable.  We add 7 to both sides, then multiply by 2, yielding <m>~x^2=30</m>.</p></li> 
         <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
             <md><mrow> x^2 \amp = 30  \amp \amp \glert{\text{Take square roots of both sides.}}</mrow>
                 <mrow> x \amp = \pm \sqrt{30} \amp \amp \glert{\text{Remember that every positive number}}</mrow>
-                <mrow>  \amp   \amp \amp \glert{\text{has two square roots.}}</mrow></md>
-        </p></li>
+                <mrow>  \amp   \amp \amp \glert{\text{has two square roots.}}</mrow></md></p></li>
         <li><p>We use a calculator to find that <m>\sqrt{30}</m> is approximately 5.477, or about 5.5, as we saw on the graph.</p></li></ul></p></solution>
 </example>
 
@@ -335,8 +313,7 @@ graphically and algebraically.</p></statement>
     </statement>
     <solution><p>Only the solutions to (a) are approximations.</p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <p>We can now solve quadratic equations of the form <m>~ax^2+c = 0~</m>, by isolating <m>x</m> on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called <term>extraction of roots</term>.</p>
 
@@ -363,8 +340,7 @@ graphically and algebraically.</p></statement>
         <hint><p>First isolate <m>x^2</m>. Then take the square root of both sides.</p></hint>
     <solution><p><m>\pm 4</m></p>
     </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <p>In the next Example, we compare the steps for <em>evaluating a quadratic expression</em> and for <em>solving a quadratic equation</em>.</p>
 
@@ -407,8 +383,7 @@ graphically and algebraically.</p></statement>
     <md><mrow>\alert{582} \amp = \pi r^2(\alert{10.5})  \amp \amp \glert{\text{Divide both sides by}~ 10.5 \pi.}</mrow>
         <mrow>17.643 \amp = r^2 \amp \amp \glert{\text{Take square roots.}}</mrow>
         <mrow>4.2 \amp = r</mrow></md>
- The radius of the can is 4.2 centimeters.</p></solution>
-</example>
+ The radius of the can is 4.2 centimeters.</p></solution></example>
 
 <exercise><title>Practice 3</title>
     <webwork><pg-code>
@@ -423,9 +398,7 @@ graphically and algebraically.</p></statement>
         <p>Answer: <var name="$s" width="4"/> meters</p>
         </statement>
         <solution><p>35.42 m</p></solution>
-    </webwork>
-</exercise>
-
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Solving Formulas</title>
@@ -438,8 +411,7 @@ graphically and algebraically.</p></statement>
         <md><mrow>3V \amp = \pi r^2h  \amp \amp \glert{\text{Divide both sides by } \pi h.}</mrow>
             <mrow>\frac{3V}{\pi h} \amp = r^2  \amp \amp \glert{\text{Take square roots.}}</mrow>
             <mrow>\pm \sqrt{\frac{3V}{\pi h}} \amp = r</mrow></md>
-Because the radius of a cone must be a positive number, we use only the positive square root: <m> \quad r = \sqrt{\dfrac{3V}{\pi h}}</m>.</p></solution>
-</example>
+Because the radius of a cone must be a positive number, we use only the positive square root: <m> \quad r = \sqrt{\dfrac{3V}{\pi h}}</m>.</p></solution></example>
 
 <exercise><title>Practice 4</title>
     <webwork><pg-code>
@@ -457,8 +429,7 @@ Because the radius of a cone must be a positive number, we use only the positive
         </hint>
     <solution><p><m>r=\sqrt{\dfrac{A}{\pi}}</m></p>
     </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 3</title>
     <webwork><pg-code>
@@ -491,9 +462,7 @@ Because the radius of a cone must be a positive number, we use only the positive
                 <li>I</li>
                 <li>I</li></ol></p>
         </solution>
-    </webwork>    
-</exercise>
-
+</webwork></exercise>
 </subsection>
 
 <subsection><title>More Extraction of Roots</title>
@@ -511,8 +480,7 @@ We start by isolating the squared expression, <m>~(x-p)^2</m>.</p>
 This gives us two equations for <m>x</m>,
     <md><mrow>x-2 \amp = 4~~~~\text{or}~~~~x-2=-4 \amp \amp \glert{\text{Solve each equation.}}</mrow>
         <mrow> x \amp = 6~~~~\text{or}~~~~x=-2</mrow></md>
-The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solutions satisfy the original equation.</p></solution>
-</example>
+The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solutions satisfy the original equation.</p></solution></example>
 
 <exercise><title>Practice 5</title>
     <webwork><pg-code>
@@ -537,8 +505,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
                 <li><p><m>x=\dfrac{-3\pm \sqrt{19}}{5} </m></p></li>
                 <li><p><m>x\approx -1.47</m> or <m>x\approx 0.27</m></p></li></ol></p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 4</title>
     <webwork><pg-code>
@@ -563,9 +530,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
                 <li>False</li>
                 <li>False</li></ol></p>
         </solution>
-    </webwork>
-</exercise>
-
+</webwork></exercise>
 </subsection>
 
 <subsection><title>An Application: Compound Interest</title>
@@ -589,8 +554,7 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
             <mrow>1.1\overline{6} \amp = (1+r)^2  \amp \amp \glert{\text{Take square roots.}}</mrow> 
             <mrow> \pm 1.0801 \amp \approx 1+r  \amp \amp \glert{\text{Subtract 1 from both sides.}}</mrow>
             <mrow>r \approx 0.0801 \amp \text{or}~~~~r \approx -2.0801</mrow></md>
-    Because the interest rate must be a positive number, we discard the negative solution. Carmella needs an account with interest rate <m>r \approx 0.0801</m>, or over 8%, in order to have an account balance of $3500 in two years.</p></li></ol></p></solution>
-</example>  
+    Because the interest rate must be a positive number, we discard the negative solution. Carmella needs an account with interest rate <m>r \approx 0.0801</m>, or over 8%, in order to have an account balance of $3500 in two years.</p></li></ol></p></solution></example>  
 
 <p>The formula for compound interest also applies to calculating the effects of inflation. For instance, if there is a steady inflation rate of 4% per year, then in two years the price of an item that costs $100 now will be
         <md><mrow>A \amp = P(1+r)^2</mrow>
@@ -609,9 +573,7 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
         <p>Answer: <var name="$r" width="3"/>%</p>
     </statement>
     <solution><p>2.96%</p></solution>
-    </webwork>
-</exercise>
-
+</webwork></exercise>
 
 </subsection>
 

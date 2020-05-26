@@ -57,13 +57,13 @@
 <exercise number="9"><statement><p>Bruce buys a 50-pound bag of rice and consumes about 0.4 pounds per week. Write an expression for the amount of rice, <m>R</m>, Bruce has left in terms of the number of weeks, <m>w</m>, since he bought the bag.</p></statement>
 <answer><p><m>R = 50- 0.4 w</m></p></answer></exercise>
 
-<exercise number="10"><statement><p>Delbert is offered a job as a salesman. He will be paid $1000 per month plus a 6% commission on his sales. Write an expression for Delbert's monthlyincome, <m>I</m>, in terms of his sales, <m>S</m>.
+<exercise number="10"><statement><p>Delbert is offered a job as a salesman. He will be paid $1000 per month plus a 6% commission on his sales. Write an expression for Delbert's monthly income, <m>I</m>, in terms of his sales, <m>S</m>.
 </p></statement></exercise>
  </subexercises>
 
 <subexercises><title>Applications</title>
 
-<exercise number="11"><statement><p>Frank plants a dozen corn seedlings, each 6 inches tall. With plenty of water and sunlight they will grow approximately 2 inches per day.   Complete the table of values for the height, <m>h</m>, of the seedlings after <m>t</m> days.</p>
+<exercise number="11"><statement><p>Frank plants a dozen corn seedlings, each 6 inches tall. With plenty of water and sunlight they will grow approximately 2 inches per day. Complete the table of values for the height, <m>h</m>, of the seedlings after <m>t</m> days.</p>
 <p><ol label="a">
     <li><p>Complete the table of values for the height, <m>h</m> of the seedlings after <m>t</m> days.</p>
                     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -146,6 +146,97 @@
      <li><p>Write and solve an inequality to verify your answer to part (e).</p></li>
 </ol></p></statement></exercise>
 
-    </subexercises>
+<exercise number="13"><statement><p>The boiling point of water changes with altitude. At sea level, water boils at <m>212\degree</m>F, and the boiling point diminishes by approximately <m>2\degree</m>F for each 1000-foot increase in altitude.<ol label="a">
+    <li><p>Write an equation for the boiling point, <m>B</m>, in terms of <m>a</m>, the altitude in thousands of feet.</p></li>
+    <li><p>Complete the table of values.</p>
+                    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                        <col halign="left"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                            <row bottom="minor">
+                                <cell>Altitude (1000 ft)</cell>
+                                <cell><m>0</m></cell>
+                                <cell><m>1</m></cell>
+                                <cell><m>2</m></cell>
+                                <cell><m>3</m></cell>
+                                <cell><m>4</m></cell>
+                                <cell><m>5</m></cell></row>
+                            <row>
+                                <cell>Boiling point (<m>\degree</m>F)</cell>
+                                <cell><m>\hphantom{0000}</m> </cell>
+                                <cell><m>\hphantom{0000}</m> </cell>
+                                <cell><m>\hphantom{0000}</m> </cell>
+                                <cell><m>\hphantom{0000}</m> </cell>
+                                <cell><m>\hphantom{0000}</m> </cell>
+                                <cell><m>\hphantom{0000}</m> </cell></row>
+                    </tabular></sidebyside></li>
+    <li><p>Graph the equation.</p>
+        <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><p>How much does the boiling point decrease when the altitude increases from 1000 to 3000 feet? Illustrate this amount on the graph.</p></li>
+    <li><p>At what altitudes is the boiling point less than <m>204\degree</m>F? Illustrate on the graph.</p></li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                        <col halign="left"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                        <col halign="center"/>
+                            <row bottom="minor">
+                                <cell>Altitude (1000 ft)</cell>
+                                <cell><m>0</m></cell>
+                                <cell><m>1</m></cell>
+                                <cell><m>2</m></cell>
+                                <cell><m>3</m></cell>
+                                <cell><m>4</m></cell>
+                                <cell><m>5</m></cell></row>
+                            <row>
+                                <cell>Boiling point (<m>\degree</m>F)</cell>
+                                <cell><m>212</m> </cell>
+                                <cell><m>210</m> </cell>
+                                <cell><m>208</m> </cell>
+                                <cell><m>206</m> </cell>
+                                <cell><m>204</m> </cell>
+                                <cell><m>202</m> </cell></row>
+                    </tabular></sidebyside></li>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><m>4\degree</m>F</li>
+    <li>Over 4000 feet</li></ol></p></answer></exercise>
+
+<exercise number="14"><statement><p>The taxi out of Dulles Airport charges a traveler with one suitcase an initial fee of $2.00, plus $1.50 for each mile traveled. Complete the table of values showing the charge, <m>C</m>, for a trip of <m>n</m> miles.</p>
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>n</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>25</m></cell></row>
+                    <row>
+                        <cell><m>C</m></cell>
+                        <cell><m>\hphantom{0000}</m> </cell>
+                        <cell><m>\hphantom{0000}</m> </cell>
+                        <cell><m>\hphantom{0000}</m> </cell>
+                        <cell><m>\hphantom{0000}</m> </cell>
+                        <cell><m>\hphantom{0000}</m> </cell>
+                        <cell><m>\hphantom{0000}</m> </cell></row>
+            </tabular></sidebyside><p>
+    <ol label="a">
+        <li><p>Write an equation for the charge, <m>C</m>, in terms of the number of miles traveled, <m>n</m>.</p></li>
+        <li><p>Graph the equation.</p>
+            <sidebyside  width="40%"><image source="images/fig-ex-1-1-2"><description>grid</description></image>
+            </sidebyside></li>
+        <li><p>What is the charge for a trip to Mount Vernon, 40 miles from the airport? Illustrate the answer on your graph.</p></li>
+        <li><p>If a ride to the National Institutes of Health (NIH) costs $39.50, how far is it from the airport to the NIH? Illustrate the answer on your graph.</p></li></ol></p>
+</statement></exercise>
+
+</subexercises>
 
 </exercises>
