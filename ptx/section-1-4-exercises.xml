@@ -4,161 +4,90 @@
 
 <exercises xml:id="section-1-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Problem Set 1.4</title>
-    
+
+<subexercises><title>Warm Up</title>
+
+<exercisegroup><introduction><p>Compute ratios to answer the questions in Problems 1<ndash/>4.</p></introduction>
+
+<exercise number="1"><statement><p>Carl runs 100 meters in 10 seconds. Anthony runs 200 meters in 19.6 seconds. Who has the faster average speed?</p></statement>
+<answer><p>Anthony</p></answer></exercise>
+
+<exercise number="2"><statement><p>On his 512-mile round trip to Las Vegas and back, Corey needed 16 gallons of gasoline. He used 13 gallons of gasoline on a 429-mile trip to Los Angeles. On which trip did he get better fuel economy?</p></statement></exercise>
+
+<exercise number="3"><statement><p>Grimy Gulch Pass rises 0.6 miles over a horizontal distance of 26 miles. Bob's driveway rises 12 feet over a horizontal distance of 150 feet. Which is steeper?</p></statement>
+<answer><p>Bob's driveway</p></answer></exercise>
+
+<exercise number="4"><statement><p>Which is steeper, the truck ramp for Acme Movers, which rises 4 feet over a horizontal distance of 9 feet, or a toy truck ramp, which rises 3 centimeters over a horizontal distance of 7 centimeters?</p></statement></exercise>
+</exercisegroup>  
+
+<exercisegroup cols="2"><introduction><p>In Problems 5-8, compute the slope of the line through the indicated points. On both axes, one square represents one unit.</p></introduction>
+
+    <exercise number="5"><statement>
+            <sidebyside  width="50%"><image source="images/fig-ex-1-4-5"><description>line on grid</description></image></sidebyside></statement>
+        <answer><p><m>-1</m></p></answer></exercise>
+
+    <exercise number="6"><statement>
+            <sidebyside  width="50%"><image source="images/fig-ex-1-4-6"><description>line on grid</description></image></sidebyside></statement></exercise>
+
+    <exercise number="7"><statement>
+            <sidebyside  width="50%"><image source="images/fig-ex-1-4-7"><description>line on grid</description></image></sidebyside></statement>
+        <answer><p><m>\dfrac{-2}{3}</m></p></answer></exercise>
+
+    <exercise number="8"><statement>
+            <sidebyside  width="50%"><image source="images/fig-ex-1-4-8"><description>line on grid</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+</subexercises>
+
 <subexercises><title>Skills Practice</title>
 
-<exercise number="1"><statement><p><ol label="a">
-        <li><p>Compute the slope of each line.
-            <sidebyside width="90%">
-                <image xml:id="fig-hw-1-4-1">
-                <description>two lines on grids</description>
-                <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} [scale=.5]
-                \draw[cyan] (0,0) grid (10,10);
-                \draw[black,thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$x$};
-                \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
-                \foreach \x  [evaluate=\x as \xi using int(\x *5)] in {2,4,...,10} {
-                  \draw[black,thick] (\x,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \foreach \x  [evaluate=\x as \xi using int(\x *100)] in {2,4,...,10} {
-                  \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \draw[red,thick] (0,0) -- (8,10);
-                \node[text width=.3cm] at (5.4,-2) {I};
-
-                \draw[cyan] (15,0) grid (25,10);
-                \draw[black,thick, ->, >=stealth'] (15,0)--(25.6,0) node[right]{$x$};
-                \draw[black,thick, ->, >=stealth'] (15,0)--(15,10.6) node[above]{$y$};
-                \foreach \x  [evaluate=\x as \xi using int(\x *20)] in {5,10} {
-                  \draw[black,thick] ({15+\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \foreach \x  [evaluate=\x as \xi using int(\x *1)] in {5,10} {
-                  \draw[black,thick] (15.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \draw[red,thick] (18,10) -- (23,0);
-                \node[text width=.3cm] at (20.4,-2) {II};
-                \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></p></li>
-        <li><p>Illustrate the slope on each graph by drawing a vertical segment for <m>\Delta y</m> and a horizontal segment for <m>\Delta x</m>.</p></li>
-        <li><p>For each graph, if <m>\Delta x=1</m>, what is the length of the vertical segment?</p></li>
+<exercise number="9"><statement><p><ol label="a">
+        <li><p>Compute the slope of the line.</p>
+            <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <li><p>Start at point <m>(0,2)</m> and move 4 units in the positive <m>x</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
+        <li><p>Start at point <m>(0,2)</m> and move <m>-6</m> units in the positive <m>x</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
+        <li><p>Suppose you start at any point on the line and move 18 units in the <m>x</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? Use the equation <m>m=\dfrac{\Delta y}{\Delta x}</m> to calculate your answer.</p></li>
     </ol></p></statement>
 <answer><p><ol label="a">
-        <li><p>I: <m>m=25</m>; II: <m>m=\dfrac{-1}{10} </m></p></li>
-        <li><sidebyside width="65%" margins="0% 0%"><image xml:id="fig-hw-1-4-1-ans"><description>two lines on grids</description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} [scale=.5]
-                \draw[cyan] (0,0) grid (10,10);
-                \draw[black,thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$x$};
-                \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
-                \foreach \x  [evaluate=\x as \xi using int(\x *5)] in {2,4,...,10} {
-                  \draw[black,thick] (\x,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \foreach \x  [evaluate=\x as \xi using int(\x *100)] in {2,4,...,10} {
-                  \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \draw[red,thick] (0,0) -- (8,10);
-                \draw[blue, very thick, dashed, ->, >=stealth'](4,5)--(8,5) node[below, midway, yshift=-2, fill=white, inner sep=1]{$\Delta x$};
-                \draw[blue, very thick, dashed, ->, >=stealth'](8,5)--(8,10) node[right, midway, xshift=2, fill=white, inner sep=1]{$\Delta y$};
-                \node[text width=.3cm] at (5.4,-2) {I};
+        <li><m>\dfrac{3}{2} </m></li>
+        <li><m>6,~ \dfrac{3}{2}</m></li>
+        <li><m>-9,~ \dfrac{3}{2}</m></li>
+        <li>27</li></ol></p></answer></exercise>
 
-                \draw[cyan] (15,0) grid (25,10);
-                \draw[black,thick, ->, >=stealth'] (15,0)--(25.6,0) node[right]{$x$};
-                \draw[black,thick, ->, >=stealth'] (15,0)--(15,10.6) node[above]{$y$};
-                \foreach \x  [evaluate=\x as \xi using int(\x *20)] in {5,10} {
-                  \draw[black,thick] ({15+\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \foreach \x  [evaluate=\x as \xi using int(\x *1)] in {5,10} {
-                  \draw[black,thick] (15.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-                }
-                \draw[red,thick] (18,10) -- (23,0);
-                \draw[blue, very thick, dashed, ->, >=stealth'](19,8)--(22,8) node[above, midway, yshift=2, fill=white, inner sep=1]{$\Delta x$};
-                \draw[blue, very thick, dashed, ->, >=stealth'](22,8)--(22,2) node[right, midway, xshift=2, fill=white, inner sep=1]{$\Delta y$};
-                \node[text width=.3cm] at (20.4,-2) {II};
-                \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li>
-     <li><p>I: 25; II: 10</p></li></ol></p></answer></exercise>
+<exercise number="10"><statement><p><ol label="a">
+        <li><p>Compute the slope of the line.</p>
+            <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <li><p>Start at point <m>(0,-6)</m> and move <m>-6</m> units in the <m>y</m>-direction (down). How many units must you move in the <m>x</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
+        <li><p>Start at point <m>(0,-6)</m> and move 9 units in the positive <m>y</m>-direction. How many units must you move in the <m>x</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
+        <li><p>Suppose you start at any point on the line and move 20 units in the <m>y</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? Use the equation <m>m=\dfrac{\Delta y}{\Delta x}</m> to calculate your answer.</p></li>
+    </ol></p></statement></exercise>
 
-<exercise number="2"><statement><p>The population of Smallville grew from 7000 people in 1990 to 16,600 in 2002.
-    <ol label="a">
-        <li><p>Use a rate of change to calculate the town's average rate of growth, in people per year. First, complete the table of values:</p>
-            <sidebyside widths="50% 40%" margins="0% 0%">
-            <stack><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
-                            <row>
-                              <cell><m>~t~</m></cell>
-                              <cell><m>~P~</m></cell></row>
-                            <row>
-                              <cell><m></m></cell>
-                              <cell><m></m></cell></row>
-                        </tabular>
-        <p><md><mrow>\amp\text{change in population}=\Delta P = </mrow>
-                <mrow>\amp\text{time elapsed}=\Delta t = </mrow>
-                <mrow>\amp\text{rate of growth}= \frac{\Delta P}{\Delta t} = </mrow></md></p></stack>
-    <image xml:id="fig-hw-1-4-2"><description>line</description><latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                    <![CDATA[\tikzset{%
-                    }
-                        \begin{tikzpicture} [scale=.7]
-                        \draw[cyan] (0,0) grid (8,10);
-                        \draw[black,thick, ->, >=stealth'] (0,0)--(8.6,0) node[right]{$t$};
-                        \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$P$};
-                        \foreach \x  [evaluate=\x as \xi using int(\x *2 +90)] in {0,1,...,4} {
-                          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-                        }
-                        \foreach \x  [evaluate=\x as \xi using int(\x *2)] in {1,2,...,10} {
-                          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-                        }
-                        \draw[black,thick] (5,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$00$};
-                        \draw[black,thick] (6,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$02$};
-                        \draw[black,thick] (7,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$04$};
-                        \draw[black,thick] (8,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$06$};
-                         \draw[red,thick] (0,3.5) -- (8,10);
-                        \node[rotate=90] at (-1.3,5)  {Thousands};
-                        \end{tikzpicture}]]>
-         </latex-image></image></sidebyside></li>
-    <li><p>Illustrate <m>\Delta P</m> and <m>\Delta t</m> by line segments on the graph. (Note that the <m>P</m>-axis is labeled in thousands.)</p></li>
-    <li><p>How much did the town grow each year?</p></li>
-    <li><p>Write a linear model for <m>P</m> in terms of <m>t</m>.</p></li></ol>  </p></statement></exercise>
+<exercisegroup cols="2"><introduction><p>For Problems 11-14, compute the slope of the line. Note the scales on the axes.</p></introduction>
 
-<exercise number="3"><statement><p><ol label="a">
-    <li><p>Graph each line by the intercept method.</p>
-        <sidebyside widths="25% 25%" margins="10% 10%" valigns="bottom bottom">
-        <stack><p><md><mrow>9x+12y=36</mrow></md></p>
-                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
-                            <row>
-                                <cell><m>x</m></cell>
-                                <cell><m>y</m></cell></row>
-                            <row>
-                                <cell><m>0</m></cell>
-                                <cell><m></m></cell></row>
-                            <row>
-                                <cell><m></m></cell>
-                                <cell><m>0</m></cell></row>
-                        </tabular></stack>
-        <stack><p><md><mrow>\frac{x}{7}-\frac{y}{4}=1 </mrow></md></p>
-                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
-                            <row>
-                                <cell><m>x</m></cell>
-                                <cell><m>y</m></cell></row>
-                            <row>
-                                <cell><m>0</m></cell>
-                                <cell><m></m></cell></row>
-                            <row>
-                                <cell><m></m></cell>
-                                <cell><m>0</m></cell></row>
-                        </tabular></stack></sidebyside></li>
-    <li><p>Use the intercepts to compute the slope of the line.</p>
-            <sidebyside widths="25% 25%" margins="10% 10%" valigns="bottom bottom">
-                <p><md><mrow>m=\frac{\Delta y}{\Delta x}= </mrow></md></p>
-                <p><md><mrow>m=\frac{\Delta y}{\Delta x}= </mrow></md></p></sidebyside></li>
-    <li><p>Use the intercepts to illustrate the slope on each graph. Put arrows on <m>\Delta x</m> and <m>\Delta y</m> to indicate the direction of motion.</p></li></ol></p></statement>
-<answer><p><ol label="a">
-        <li><sidebyside><image xml:id="fig-1-4-3-ans"><description>two lines on grids</description><latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+    <exercise number="11"><statement>
+        <sidebyside width="60%"><image source="images/fig-ex-1-4-23"><description>four lines</description></image></sidebyside></statement>
+        <answer><p><m>\dfrac{3}{4} </m></p></answer></exercise>
+
+    <exercise number="12"><statement>
+        <sidebyside width="60%"><image source="images/fig-ex-1-4-24"><description>four lines</description></image></sidebyside></statement></exercise>
+
+    <exercise number="13"><statement>
+        <sidebyside width="60%"><image source="images/fig-ex-1-4-25"><description>four lines</description></image></sidebyside></statement>
+        <answer><p><m>-4000</m></p></answer></exercise>
+
+    <exercise number="14"><statement>
+        <sidebyside width="60%"><image source="images/fig-ex-1-4-26"><description>four lines</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 15 and 16, <ol label="a">
+    <li>Graph the line by the intercept method.</li>
+    <li>Use the intercepts to compute the slope.</li>
+    <li><p>Use the intercepts to illustrate the slope on each graph. Put arrows on <m>\Delta x</m> and <m>\Delta y</m> to indicate the direction of motion.</p></li></ol></p></introduction>
+
+<exercise number="15"><statement><p><m>9x+12y=36</m></p></statement>
+<answer><p><ol label="a"><li>
+        <sidebyside><image xml:id="fig-1-4-3-ans"><description>9x+12y=36</description><latex-image>
+                     CDATA prevents certain LaTeX code from being interpreted as xml 
                     <![CDATA[\tikzset{%
                     }
                     \begin{tikzpicture} [scale=.7]
@@ -174,87 +103,25 @@
                     \draw[red,thick, <->, >=stealth'] (-42/9,5) -- (5,-9/4);
                     \draw[blue, very thick, dashed, ->, >=stealth'](0,1.5)--(2,1.5) node[above, midway, yshift=2, fill=white, inner sep=1]{$\Delta x$};
                     \draw[blue, very thick, dashed, ->, >=stealth'](2,1.5)--(2,0) node[right, midway, xshift=2, fill=white, inner sep=1]{$\Delta y$};
-                    \node[text width=.3cm] at (.4,-6) {I};
-
-                    \draw[cyan] (10,-5) grid (20,5);
-                    \draw[black,thick, ->, >=stealth'] (10,0)--(20.6,0) node[right]{$x$};
-                    \draw[black,thick, ->, >=stealth'] (15,-5)--(15,5.6) node[above]{$y$};
-                    \foreach \x [evaluate=\x as \xi using int(\x *2)] in {-4,-2,2,4} {
-                      \draw[black,thick] ({15+\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-                    }
-                    \foreach \x [evaluate=\x as \xi using int(\x *2)] in {-4,-2,2,4} {
-                      \draw[black,thick] (15.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-                    }
-                    \draw[red,thick, <->, >=stealth'] (10,-34/7) -- (20,6/7);
-                    \draw[blue, very thick, dashed, ->, >=stealth'](15,-2)--(18.5,-2) node[below, midway, yshift=-2, fill=white, inner sep=1]{$\Delta x$};
-                    \draw[blue, very thick, dashed, ->, >=stealth'](18.5,-2)--(18.5,0) node[right, midway, xshift=2, yshift=-4, fill=white, inner sep=1]{$\Delta y$};
-                    \node[text width=.3cm] at (15.4,-6) {II};
-                    \end{tikzpicture}]]>
+                 \end{tikzpicture}]]>
         </latex-image></image></sidebyside></li>
-     <li><p>I; <m>m=\dfrac{-3}{4} </m>; II: <m>m=\frac{4}{7} </m></p></li>
-    <li><p>Graph is above.</p></li></ol></p></answer></exercise>
+     <li><m>m=\dfrac{-3}{4} </m></li></ol></p></answer></exercise>
 
-<exercise number="5"><statement><p>The graph shows the number of liters of emergency water <m>W</m> remaining in a southern California household <m>t</m> days after an earthquake.</p>
-    <sidebyside width="40%"><image xml:id="fig-hw-1-4-5"><description>line with positive intercepts</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.6]
-        \draw[cyan] (0,0) grid (9,9);
-        \draw[black,thick, ->, >=stealth'] (0,0)--(9.5,0) node[right]{$t$};
-        \draw[black,thick, ->, >=stealth'] (0,0)--(0,9.5) node[above]{$W$};
-        \foreach \x in {2,4,6,8} {
-          \draw[black,thick] ({\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-        }
-        \foreach \x [evaluate=\x as \xi using int(\x *6)] in {2,4,6,8}  {
-          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-        }
-        \draw[red,thick] (0,8)--(8,0);
-        \filldraw[red] (0,8) circle (.12cm);
-        \filldraw[red] (8,0) circle (.12cm);
-        \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
-    <p><ol label="a">
-            <li><p>Choose two points and compute the slope, including units.</p></li>
-            <li><p>Write the slope as a rate of change, including units.</p></li>
-            <li><p>Illustrate the slope on the graph.</p></li>
-            <li><p>Write a linear model for <m>W</m> in terms of <m>t</m>.</p></li></ol></p></statement>
-<answer><p><ol label="a">
-        <li><p><m>-6</m> liters/day</p></li>
-        <li><p>The water supply is decreasing at a rate of 6 liters per day.</p></li>
-        <li><sidebyside width="40%"><image xml:id="fig-hw-1-4-5-ans"><description>line with changes in W and t</description><latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                    <![CDATA[\tikzset{%
-                    }
-                    \begin{tikzpicture} [scale=.6]
-                    \draw[cyan] (0,0) grid (9,9);
-                    \draw[black,thick, ->, >=stealth'] (0,0)--(9.5,0) node[right]{$t$};
-                    \draw[black,thick, ->, >=stealth'] (0,0)--(0,9.5) node[above]{$W$};
-                    \foreach \x in {2,4,6,8} {
-                      \draw[black,thick] ({\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-                    }
-                    \foreach \x [evaluate=\x as \xi using int(\x *6)] in {2,4,6,8}  {
-                      \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-                    }
-                    \draw[red,thick] (0,8)--(8,0);
-                    \filldraw[red] (0,8) circle (.12cm);
-                    \filldraw[red] (8,0) circle (.12cm);
-                    \draw[blue, very thick, dashed, ->, >=stealth'](2,6)--(6,6) node[above, midway, yshift=2, fill=white, inner sep=1]{$\Delta t$};
-                    \draw[blue, very thick, dashed, ->, >=stealth'](6,6)--(6,2) node[right, midway, xshift=2, yshift=-4, fill=white, inner sep=1]{$\Delta W$};
-                    \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li>
-        <li><p><m>W=48-6t</m></p></li></ol></p></answer></exercise>
+<exercise number="16"><statement><p><m>\dfrac{x}{7}-\dfrac{y}{4}=1 </m></p></statement></exercise>
+</exercisegroup>
 
-<exercise number="6"><statement><p>A line has slope <m>m=\dfrac{-4}{5} </m> . Use the equation <m>m=\dfrac{\Delta y}{\Delta x} </m> to find the horizontal or vertical change along the line.<ol label="a">
+<exercise number="17"><statement>Residential staircaises are usutally built with a slope of 70%, or <m>\dfrac{7}{10}</m>. If the vertical distance between stories is 10 feet, how much horizontal space does the staircase require?</statement>
+<answer><p>14.29 ft</p></answer></exercise>
+
+<exercise number="18"><statement><p>A line has slope <m>m=\dfrac{-4}{5} </m> . Use the equation <m>m=\dfrac{\Delta y}{\Delta x} </m> to find the horizontal or vertical change along the line.<ol label="a">
                 <li><p><m>\Delta x = -10</m></p></li>
                 <li><p><m>\Delta y = 2</m></p></li>
                 <li><p><m>\Delta x = 12</m></p></li>
                 <li><p><m>\Delta y = -6</m></p></li></ol></p></statement></exercise>
 
-<exercise number="7"><statement>Residential staircaises are usutally built with a slope of 70%, or <m>\dfrac{7}{10} </m>. If the vertical distance between stories is 10 feet, how much horizontal space does the staircase require?</statement>
-<answer><p>14.29 ft</p></answer></exercise>
+<exercisegroup cols="2"><introduction><p>For Problems 19 and 20, which tables represent variables that are related by a linear equation? (Hint: which relationships have constant slope?)</p></introduction>
 
-<exercise number="8"><statement><p>Which of the following tables represent variables that are related by a linear equation? (Hint: which relationships have constant slope?)<ol label="a" cols="4">
+<exercise number="19"><statement><p><ol label="a" cols="2">
     <li><sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                         <row>
                             <cell><m>x</m></cell>
@@ -294,7 +161,10 @@
                         <row>
                             <cell><m>6</m></cell>
                             <cell><m>36</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></sidebyside></li></ol></p></statement>
+<answer>(a)</answer></exercise>
+
+<exercise number="20"><statement><p><ol label="a" cols="2">
    <li><sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                         <row>
                             <cell><m>h</m></cell>
@@ -336,208 +206,133 @@
                             <cell><m>25</m></cell>
                             <cell><m>24</m></cell></row>
                 </tabular></sidebyside></li></ol></p></statement></exercise>
+</exercisegroup>
 </subexercises>
 
 <subexercises><title>Applications</title>
 
-<exercise number="9"><statement><p>Ariel, Beryl, and Carol are training for a kayaking race. The girls practice on a quiet stretch of river starting 200 yards from the dock. There are markers placed at 100-yard intervals along the shore, and their teammates are stationed at these markers to time their progress. Yesterday they recorded the following times, in seconds, for each girl:</p>
-        <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
-            <row>
-                <cell></cell>
-                <cell colspan="3" >Time (seconds)</cell></row>
-            <row>
-                <cell>Marker (yards)</cell>
-                <cell>Ariel</cell>
-                <cell>Beryl</cell>
-                <cell>Carol</cell></row>
-            <row>
-                <cell>200</cell>
-                <cell>0</cell>
-                <cell>0</cell>
-                <cell>0</cell></row>
-            <row>
-                <cell>300</cell>
-                <cell>20</cell>
-                <cell>25</cell>
-                <cell>15</cell></row>
-            <row>
-                <cell>400</cell>
-                <cell>40</cell>
-                <cell>50</cell>
-                <cell>30</cell></row>
-            <row>
-                <cell>500</cell>
-                <cell>60</cell>
-                <cell>75</cell>
-                <cell>45</cell></row>
-        </tabular></sidebyside><p><ol label="a">
-    <li><p>For each girl, make a graph showing time on the horizontal axis and distance from the dock on the vertical axis. Fill in a table and plot thepoints.</p>
-        <sidebyside widths="30% 56%" margins="0% 0%">
-            <stack><p>Ariel</p>
-                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+<exercise number="21"><statement><p>The population of Smallville grew from 7000 people in 1990 to 16,600 in 2002.
+    <ol label="a">
+        <li><p>Use a rate of change to calculate the town's average rate of growth, in people per year. First, complete the table of values:</p>
+            <sidebyside widths="50% 40%" margins="0% 0%">
+            <stack><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                             <row>
-                                <cell><m>t</m></cell>
-                                <cell><m>d</m></cell></row>
+                              <cell><m>~t~</m></cell>
+                              <cell><m>~P~</m></cell></row>
                             <row>
-                                <cell><m>0</m></cell>
-                                <cell><m>200</m></cell></row>
-                            <row>
-                                <cell><m>20</m></cell>
-                                <cell><m>300</m></cell></row>
-                            <row>
-                                <cell><m>40</m></cell>
-                                <cell><m>400</m></cell></row>
-                            <row>
-                                <cell><m>60</m></cell>
-                                <cell><m>500</m></cell></row>
-                        </tabular></stack>
-    <image xml:id="fig-hw-1-4-9"><description>grid</description><latex-image>
+                              <cell><m></m></cell>
+                              <cell><m></m></cell></row>
+                        </tabular>
+        <p><md><mrow>\amp\text{change in population}=\Delta P = </mrow>
+                <mrow>\amp\text{time elapsed}=\Delta t = </mrow>
+                <mrow>\amp\text{rate of growth}= \frac{\Delta P}{\Delta t} = </mrow></md></p></stack>
+    <image xml:id="fig-hw-1-4-2"><description>line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
-                    \begin{tikzpicture} [xscale=.8, yscale=.64]
-                    \draw[cyan] (0,0) grid (8,6);
-                    \draw[black,thick, ->, >=stealth'] (0,0)--(8.5,0) node[right]{$t$};
-                    \draw[black,thick, ->, >=stealth'] (0,0)--(0,6.5) node[above]{$d$};
-                    \foreach \x [evaluate=\x as \xi using int(\x *10)] in {1,2,...,8} {
-                      \draw[black,thick] ({\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-                    }
-                    \foreach \x [evaluate=\x as \xi using int(\x *100)] in {1,2,...,6}  {
-                      \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-                    }
-                    \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
-        <sidebyside widths="30% 56%" margins="0% 0%">
-                <stack><p>Beryl</p>
-                    <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
-                            <row>
-                                <cell><m>t</m></cell>
-                                <cell><m>d</m></cell></row>
-                            <row>
-                                <cell><m>\hphantom{20}</m></cell>
-                                <cell><m>\hphantom{200}</m></cell></row>
-                            <row>
-                                <cell><m></m></cell>
-                                <cell><m></m></cell></row>
-                            <row>
-                                <cell><m></m></cell>
-                                <cell><m></m></cell></row>
-                            <row>
-                                <cell><m></m></cell>
-                                <cell><m></m></cell></row>
-                        </tabular></stack>
-        <image source="images/fig-hw-1-4-9"><description>grid</description></image></sidebyside>
-        <sidebyside widths="30% 56%" margins="0% 0%">
-                <stack><p>Carol</p>
-                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
-                            <row>
-                                <cell><m>t</m></cell>
-                                <cell><m>d</m></cell></row>
-                            <row>
-                                <cell><m>\hphantom{20}</m></cell>
-                                <cell><m>\hphantom{200}</m></cell></row>
-                            <row>
-                                <cell><m></m></cell>
-                                <cell><m></m></cell></row>
-                            <row>
-                                <cell><m></m></cell>
-                                <cell><m></m></cell></row>
-                            <row>
-                                <cell><m></m></cell>
-                                <cell><m></m></cell></row>
-                </tabular></stack>
-            <image source="images/fig-hw-1-4-9"><description>grid</description></image></sidebyside></li>
-        <li><p>For each girl, choose two data points and compute her average speed, <m>\dfrac{\Delta d}{\Delta t} </m>. Don't forget the units!                    </p>
-                <p>Ariel's speed<m>{}=\dfrac{\Delta d}{\Delta t}= </m></p>
-                <p>Beryl's speed<m>{}=\dfrac{\Delta d}{\Delta t}= </m></p>
-                <p>Carol's speed<m>{}=\dfrac{\Delta d}{\Delta t}= </m></p>
-                <p>Illustrate each girl's speed on her distance graph above.</p></li>
-        <li><p> Which girl has the fastest average speed?</p>
-        <sidebyside width="56%"><image source="images/fig-hw-1-4-9"><description>grid</description></image></sidebyside>
-        <p>Plot all three graphs on the same grid above, and compare.  How can the different speeds be seen from the graphs?</p></li></ol></p></statement>
+                        \begin{tikzpicture} [scale=.7]
+                        \draw[cyan] (0,0) grid (8,10);
+                        \draw[black,thick, ->, >=stealth'] (0,0)--(8.6,0) node[right]{$t$};
+                        \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$P$};
+                        \foreach \x  [evaluate=\x as \xi using int(\x *2 +90)] in {0,1,...,4} {
+                          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                        }
+                        \foreach \x  [evaluate=\x as \xi using int(\x *2)] in {1,2,...,10} {
+                          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                        }
+                        \draw[black,thick] (5,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$00$};
+                        \draw[black,thick] (6,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$02$};
+                        \draw[black,thick] (7,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$04$};
+                        \draw[black,thick] (8,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$06$};
+                         \draw[red,thick] (0,3.5) -- (8,10);
+                        \node[rotate=90] at (-1.3,5)  {Thousands};
+                        \end{tikzpicture}]]>
+         </latex-image></image></sidebyside></li>
+    <li><p>Illustrate <m>\Delta P</m> and <m>\Delta t</m> by line segments on the graph. (Note that the <m>P</m>-axis is labeled in thousands.)</p></li>
+    <li><p>How much did the town grow each year?</p></li>
+    <li><p>Write a linear model for <m>P</m> in terms of <m>t</m>.</p></li></ol>  </p></statement>
 <answer><p><ol label="a">
-    <li><sidebyside widths="45% 45%" margins="0% 0%">
-        <stack><p>Beryl</p>
-            <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
-                            <row>
-                                <cell><m>t</m></cell>
-                                <cell><m>d</m></cell></row>
-                            <row>
-                                <cell><m>0</m></cell>
-                                <cell><m>200</m></cell></row>
-                            <row>
-                                <cell><m>25</m></cell>
-                                <cell><m>300</m></cell></row>
-                            <row>
-                                <cell><m>50</m></cell>
-                                <cell><m>400</m></cell></row>
-                            <row>
-                                <cell><m>75</m></cell>
-                                <cell><m>500</m></cell></row>
-                        </tabular></stack>
-            <stack><p>Carol</p>
-                <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
-                            <row>
-                                <cell><m>t</m></cell>
-                                <cell><m>d</m></cell></row>
-                            <row>
-                                <cell><m>0</m></cell>
-                                <cell><m>200</m></cell></row>
-                            <row>
-                                <cell><m>15</m></cell>
-                                <cell><m>300</m></cell></row>
-                            <row>
-                                <cell><m>30</m></cell>
-                                <cell><m>400</m></cell></row>
-                            <row>
-                                <cell><m>45</m></cell>
-                                <cell><m>500</m></cell></row>
-                        </tabular></stack></sidebyside></li>
-    <li><p>Ariel: 5 yd/sec; Beryl: 4 yd/sec; Carol: <m>6\frac{2}{3} </m> yd/sec</p></li>
-     <li><sidebyside width="60%"><image xml:id="fig-hw-1-4-9-ans"><description>grid</description><latex-image>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li>800</li>
+    <li><m>P=7000+800t</m></li></ol></p></answer></exercise>
+
+<exercise number="22"><statement><p>A traditional first experiment for chemistry students is to make 90 observations about a burning candle. Delbert records the height, <m>h</m>, of the candle in inches at various times <m>t</m> minutes after he lit it.</p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>30</m></cell>
+                        <cell><m>45</m></cell></row>
+                    <row> 
+                        <cell><m>h</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>11.5</m></cell>
+                        <cell><m>10.5</m></cell>
+                        <cell><m>9.75</m></cell></row>
+                    </tabular></sidebyside>
+<p><ol label="a">
+    <li>Choose appropriate scales for the axes and plot the data. Do the points lie on a straight line?</li>
+    <li>Compute the slope of the graph, including units, and explain what the slope tells us about the candle.</li>
+    <li>Write a linear model for <m>h</m> in terms of <m>t</m>.</li></ol></p></statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 23 and 24,<ol label="a">
+            <li><p>Choose two points and compute the slope, including units.</p></li>
+            <li><p>Write the slope as a rate of change, including units.</p></li>
+            <li><p>Illustrate the slope on the graph.</p></li>
+            <li><p>Write a linear model for the variables.</p></li></ol></p></introduction> 
+
+<exercise number="23"><statement><p>The graph shows the number of liters of emergency water <m>W</m> remaining in a southern California household <m>t</m> days after an earthquake.</p>
+    <sidebyside width="40%"><image xml:id="fig-hw-1-4-5"><description>line with positive intercepts</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (0,0) grid (9,9);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(9.5,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,9.5) node[above]{$W$};
+        \foreach \x in {2,4,6,8} {
+          \draw[black,thick] ({\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(\x *6)] in {2,4,6,8}  {
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red,thick] (0,8)--(8,0);
+        \filldraw[red] (0,8) circle (.12cm);
+        \filldraw[red] (8,0) circle (.12cm);
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></statement>
+<answer><p><ol label="a">
+        <li><p><m>-6</m> liters/day</p></li>
+        <li><p>The water supply is decreasing at a rate of 6 liters per day.</p></li>
+        <li><sidebyside width="40%"><image xml:id="fig-hw-1-4-5-ans"><description>line with changes in W and t</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
-                    \begin{tikzpicture} [xscale=.8, yscale=.64]
-                    \draw[cyan] (0,0) grid (8,6);
-                    \draw[black,thick, ->, >=stealth'] (0,0)--(8.5,0) node[right]{$t$};
-                    \draw[black,thick, ->, >=stealth'] (0,0)--(0,6.5) node[above]{$d$};
-                    \foreach \x [evaluate=\x as \xi using int(\x *10)] in {1,2,...,8} {
-                      \draw[black,thick] ({\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+                    \begin{tikzpicture} [scale=.6]
+                    \draw[cyan] (0,0) grid (9,9);
+                    \draw[black,thick, ->, >=stealth'] (0,0)--(9.5,0) node[right]{$t$};
+                    \draw[black,thick, ->, >=stealth'] (0,0)--(0,9.5) node[above]{$W$};
+                    \foreach \x in {2,4,6,8} {
+                      \draw[black,thick] ({\x},.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
                     }
-                    \foreach \x [evaluate=\x as \xi using int(\x *100)] in {1,2,...,6}  {
+                    \foreach \x [evaluate=\x as \xi using int(\x *6)] in {2,4,6,8}  {
                       \draw[black,thick] (.1,\x)--++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
                     }
-                    \draw[red,thick] (0,0) -- (8,4) node[right]{Ariel};
-                    \draw[blue,thick] (0,0) -- (8,3.2) node[right]{Beryl};
-                    \draw[green!60!black,thick] (0,0) -- (8,16/3) node[right]{Carol};
+                    \draw[red,thick] (0,8)--(8,0);
+                    \filldraw[red] (0,8) circle (.12cm);
+                    \filldraw[red] (8,0) circle (.12cm);
+                    \draw[blue, very thick, dashed, ->, >=stealth'](2,6)--(6,6) node[above, midway, yshift=2, fill=white, inner sep=1]{$\Delta t$};
+                    \draw[blue, very thick, dashed, ->, >=stealth'](6,6)--(6,2) node[right, midway, xshift=2, yshift=-4, fill=white, inner sep=1]{$\Delta W$};
                     \end{tikzpicture}]]>
-                </latex-image></image></sidebyside>
-        <p>Carol: The speeds are given by the slopes of their graphs.</p></li></ol></p></answer></exercise>
+                </latex-image></image></sidebyside></li>
+        <li><p><m>W=48-6t</m></p></li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><p>The table gives the radius and circumference of various circles, rounded to three decimal places.</p>
-        <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center" >
-            <row>
-                <cell><m>r</m></cell>
-                <cell><m>C</m></cell></row>
-            <row>
-                <cell>4</cell>
-                <cell>25.133</cell></row>
-            <row>
-                <cell>6</cell>
-                <cell>37.699</cell></row>
-            <row>
-                <cell>10</cell>
-                <cell>62.832</cell></row>
-            <row>
-                <cell>15</cell>
-                <cell>94.248</cell></row>
-        </tabular></sidebyside>
-        <p><ol label="a">
-            <li><p>If we plot the data, will the points lie on a straight line? Why or why not?</p></li>
-            <li><p>What familiar number does the slope turn out to be? (Hint: Recall a formula from geometry.) What does the slope tell us about circles?</p></li></ol></p></statement></exercise>
+<exercise number="24"><statement><p>The graph shows the amount of garbage, <m>G</m> (in tons), that has been deposited at a dump site <m>t</m> years after new regulations go into effect.</p>
+    <sidebyside width="35%"><image source="images/fig-ex-1-4-34"><description>tons of garbage vs time</description></image></sidebyside></statement></exercise>
+</exercisegroup>
 
-<exercise number="11"><statement><p>A spring is suspended from the ceiling. The table shows the length of the spring, in centimeters, as it is stretched by hanging various weights from it.</p>
+<exercise number="25"><statement><p>A spring is suspended from the ceiling. The table shows the length of the spring, in centimeters, as it is stretched by hanging various weights from it.</p>
             <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <col  halign="left" />
                 <col  halign="center" />
@@ -575,7 +370,54 @@
             <li><p>0.12 cm/kg: The spring stretches an extra 0.12 cm for each additional 1 kg mass.</p></li></ol></p>
 </answer></exercise>
 
-<exercise number="12"><statement><p>The graph shows the rise in sea level attributed to the melting of land-based glaciers from 1960 to 2003.</p>
+<exercise number="26"><statement><p>The table gives the radius and circumference of various circles, rounded to three decimal places.</p>
+        <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center" >
+            <row>
+                <cell><m>r</m></cell>
+                <cell><m>C</m></cell></row>
+            <row>
+                <cell>4</cell>
+                <cell>25.133</cell></row>
+            <row>
+                <cell>6</cell>
+                <cell>37.699</cell></row>
+            <row>
+                <cell>10</cell>
+                <cell>62.832</cell></row>
+            <row>
+                <cell>15</cell>
+                <cell>94.248</cell></row>
+        </tabular></sidebyside>
+        <p><ol label="a">
+            <li><p>If we plot the data, will the points lie on a straight line? Why or why not?</p></li>
+            <li><p>What familiar number does the slope turn out to be? (Hint: Recall a formula from geometry.) What does the slope tell us about circles?</p></li></ol></p></statement></exercise>
+
+<exercise number="27"><statement><p>Geologists calculate the speed of seismic waves by plotting the travel times for waves to reach seismometers at known distances from the epicenter. The speed of the wave can help them determine the nature of the material it passes through. The graph shows a travel time graph for P-waves from a shallow earthquake.</p>
+   <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside> 
+<p><ol label="a">    
+    <li>Why do you think the graph is plotted with distance as the independent variable?</li>
+    <li>Use the graph to calculate the speed of the wave.</li></ol></p></statement>
+<answer><ol label="a">
+    <li>The distances to the stations are known.</li>
+    <li>5.7 km/sec</li></ol></answer></exercise>
+
+<exercise number="28"><statement><p>Niagara Falls was discovered by Father Louis Hennepin in 1682. In 1952, much of the water of the Niagara River was diverted for hydroelectric power, but until that time erosion caused the Falls to recede upstream by <m>3</m> feet per year.<ol label="a">
+        <li><p>How far did the Falls recede from 1682 to 1952?</p></li>
+        <li><p>The Falls were formed about <m>12,000</m> years ago during the end of the last ice age. How far downstream from their current position were they then? (Give your answer in miles.)</p></li></ol></p>
+</statement></exercise>
+
+<exercise number="29"><statement><p>Naismith’s Rule is used by runners and walkers to estimate journey times in hilly terrain. In 1892 Naismith wrote in the Scottish Mountaineering Club Journal that a person “in fair condition should allow for easy expeditions an hour for every three miles on the map, with an additional hour for every 2000 feet of ascent.”
+(Source: Scarf, 1998.)<ol label="a">
+    <li>According to Naismith, 1 unit of ascent requires the same travel time as how many units of horizontall travel? 
+        (This is called Naismith’s number.) Round your answer to one decimal place.</li>
+    <li>A walk in the Brecon Beacons in Wales covers 3.75 kilometers horizontally and climbs 582 meters. What is the equivalent flat distance?</li>
+    <li>If you can walk at a pace of 15 minutes per kilometer over flat ground, how long will the walk in the Brecon Beacons take you?</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>7.9</li>
+    <li>8.35 km</li>
+    <li>2 hrs 5 min</li></ol></p></answer></exercise>
+
+<exercise number="30"><statement><p>The graph shows the rise in sea level attributed to the melting of land-based glaciers from 1960 to 2003.</p>
     <sidebyside width="85%"><image source="images/fig-hw-1-4-12"><description>rise in sea level</description></image>
         </sidebyside><p><ol>
         <li><p>The graph appears to be almost linear from 1992 to 2002. Read the graph to complete the table, then compute the slope of the graph over that time interval, including units. What does the slope mean in this situation?</p>
