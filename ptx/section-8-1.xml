@@ -23,10 +23,8 @@ where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constant
         <mrow>p(x) \amp = x^4 + x^2 + 1 \amp q(x) \amp= 2x^{10} - x^7 + 3x^6 + 5x^3 + 3x</mrow></md></p>
 
 <p>Each of the polynomials above is written in <term>descending powers</term><idx>descending powers</idx>, which means that the highest-degree term comes first, and the degrees of the terms decrease from largest to smallest. Sometimes it is useful to write a polynomial in <term>ascending powers</term><idx>ascending powers</idx>, so that the degrees of the terms increase. For example, the polynomial <m>f(x)</m> above would be written as
-    <me>
-        f(x) = -2 + x - 4x^2 + 6x^3
-    </me>
-    in ascending powers.</p>
+    <me>f(x) = -2 + x - 4x^2 + 6x^3</me>
+in ascending powers.</p>
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -66,8 +64,7 @@ where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constant
     </statement>
     <solution><p><m>y^3 - y + 6</m></p>
     </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <p>In Example 1a, we multiplied a polynomial of degree one by a polynomial of degree three, and the product was a polynomial of degree four. In Example 1b, the product of three first-degree polynomials is a third-degree polynomial.</p>
 
@@ -134,8 +131,7 @@ where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constant
      </statement>
      <solution><p><m>2</m></p>
     </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Special Products</title>
@@ -177,8 +173,7 @@ where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constant
     </statement>
     <solution><p><m>125 + 75x^2 + 15x^4 + x^6</m></p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 3</title>
 <webwork>
@@ -207,15 +202,11 @@ where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constant
         $six = Compute("6");
     </pg-code>
     <statement>
-        <p>Fill in the blanks.
-            <ol label="a">
-                <li><p>The coefficient of the highest power term of a polynomial is called the <var name="$lead" form="popup"/>.</p></li>
-                <li><p>The largest exponent in a polynomial is called the <var name="$degree" form="popup"/> of the polynomial.</p></li>
-                <li><p>If the degrees of the terms decrease from largest to smallest, the polynomial is written in <var name="$powers" form="popup"/>.</p></li>
-                <li><p>The degree of a product of two cubic polynomials is <var name="$six" width="2"/>.
-                </p></li>
-            </ol>
-        </p>
+        <p>Fill in the blanks.<ol label="a">
+            <li><p>The coefficient of the highest power term of a polynomial is called the <var name="$lead" form="popup"/>.</p></li>
+            <li><p>The largest exponent in a polynomial is called the <var name="$degree" form="popup"/> of the polynomial.</p></li>
+            <li><p>If the degrees of the terms decrease from largest to smallest, the polynomial is written in <var name="$powers" form="popup"/>.</p></li>
+            <li><p>The degree of a product of two cubic polynomials is <var name="$six" width="2"/>.</p></li></ol></p>
     </statement>
     <solution><p><ol label="a">
         <li>lead coefficient</li>
@@ -223,8 +214,7 @@ where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constant
         <li>descending powers</li>
         <li>6</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Factoring Cubics</title>
@@ -295,12 +285,10 @@ $multians = MultiAnswer($fac1,$fac2)->with(
      </statement>
      <solution><p><m>(5n - p)(25n^2 + 5np + p^2)</m></p>
       </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 4</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $True = PopUp(
             [ "?", 
             "True", 
@@ -313,37 +301,20 @@ $multians = MultiAnswer($fac1,$fac2)->with(
             "False"],
             2
         );
-        
     </pg-code>
-    <statement><p>True or False.
-    <ol label="a">
-        <li>
-            <p>
-                We cannot factor the sum of two squares. <var name="$True" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                We cannot factor the sum of two cubes.  <var name="$False" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p><m>(x+y)^3 = x^3 + y^3</m>  <var name="$False" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                To factor <m>a^3-b^3</m>, we must first identify <m>a</m> and <m>b</m>.  <var name="$True" form="popup"/>
-            </p>
-        </li>
-    </ol></p></statement>
+    <statement><p>True or False.<ol label="a">
+        <li><p>We cannot factor the sum of two squares. <var name="$True" form="popup"/></p></li>
+        <li><p>We cannot factor the sum of two cubes.  <var name="$False" form="popup"/></p></li>
+        <li><p><m>(x+y)^3 = x^3 + y^3</m>  <var name="$False" form="popup"/></p></li>
+        <li><p>To factor <m>a^3-b^3</m>, we must first identify <m>a</m> and <m>b</m>.  <var name="$True" form="popup"/>
+        </p></li></ol></p>
+    </statement>
     <solution><p><ol label="a">
     <li>True</li>
     <li>False</li>
     <li>False</li>
     <li>True</li></ol></p></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Modeling with Polynomials</title>
@@ -384,8 +355,7 @@ $multians = MultiAnswer($fac1,$fac2)->with(
                 <li><p><m>S(x) = x^2 + 20x + 48</m></p></li>
                 <li><p><m>V(x) = 3x^2 + 24x</m></p></li></ol></p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <p>Cubic polynomials are often used in economics to model cost functions. The cost of producing <m>x</m> items is an increasing function of <m>x</m>, but its rate of increase is usually not constant.</p>
 
@@ -447,8 +417,7 @@ $multians = MultiAnswer($fac1,$fac2)->with(
 </exercise>
 
 <exercise><title>QuickCheck 5</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $add = PopUp(
             [ "?", 
             "adding", 
@@ -495,9 +464,7 @@ $multians = MultiAnswer($fac1,$fac2)->with(
         <li>economy of scale</li>
         <li>cubic spline</li></ol>
     </solution>
-</webwork>
-</exercise>
-
+</webwork></exercise>
 </subsection>
 
 <xi:include href="./section-8-1-exercises.xml" />                

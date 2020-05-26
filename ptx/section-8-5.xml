@@ -6,10 +6,9 @@
 <introduction>
 <sidebyside widths="34% 64%" margins="0% 0%" valigns="middle middle">
     <image source="images/fig-solve-rational-equation"><description>graph of rational function for solving equation</description></image>
-    <p>In <xref ref="example-pedal-aircraft" text="type-global"/>, of Section 8.2, Francine planned a 60-mile training run on her cycle-plane. The time required for the training run, in terms of the windspeed, <m>x</m>, is given by:
+<p>In <xref ref="example-pedal-aircraft" text="type-global"/>, of Section 8.2, Francine planned a 60-mile training run on her cycle-plane. The time required for the training run, in terms of the windspeed, <m>x</m>, is given by:
     <me>t=f(x) = \dfrac{60}{15-x}</me>
-    If it takes Francine <m>9</m> hours to cover <m>60</m> miles, what is the speed of the wind? We can answer this question by reading values from the graph of <m>f</m>, as shown at left. When <m>t = 9</m>, the value of <m>x</m> is between <m>8</m> and <m>9</m>, so the windspeed is between <m>8</m> and <m>9</m> miles per hour.</p>
- </sidebyside>
+If it takes Francine <m>9</m> hours to cover <m>60</m> miles, what is the speed of the wind? We can answer this question by reading values from the graph of <m>f</m>, as shown at left. When <m>t = 9</m>, the value of <m>x</m> is between <m>8</m> and <m>9</m>, so the windspeed is between <m>8</m> and <m>9</m> miles per hour.</p></sidebyside>
 </introduction>
 
 <subsection><title>Solving Algebraically</title>
@@ -47,8 +46,7 @@ The windspeed was <m>8.\overline{3}</m>, or <m>8\frac{1}{3}</m> miles per hour.<
         </statement>
          <solution><p><m>x = -2, x = 4</m></p>
         </solution>
-   </webwork>
-</exercise>
+</webwork></exercise>
 
 <p>If the equation contains more than one fraction, we can clear all the denominators at once by multiplying both sides by the LCD of the fractions.</p>
 
@@ -68,8 +66,7 @@ We proceed as usual to complete the solution. First we use the distributive law 
  <warning><p>We must multiply each term of an equation by the LCD, whether or not the term is a fraction. In Example 2 we multiplied each term by the LCD including the 8.</p></warning>
 
 <exercise><title>Practice 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $r1 = Compute("4");
         $r2 = Compute("1");
         $answer = List("$r1, $r2");
@@ -79,14 +76,11 @@ We proceed as usual to complete the solution. First we use the distributive law 
          partialCredit => 1,
         ); 
    </pg-code>
-   <statement>
-        <p>Solve   <m>\quad\dfrac{1}{x-2}+\dfrac{2}{x} = 1</m></p>
+   <statement><p>Solve   <m>\quad\dfrac{1}{x-2}+\dfrac{2}{x} = 1</m></p>
         <p><m>x=</m><var name="$answer" width="6" evaluator="$my_evaluator"/> Enter solutions separated by a comma.</p>
     </statement>
     <solution><m>1</m>, <m>4</m></solution>
-</webwork>
-</exercise>
-
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Proportions</title>
@@ -100,9 +94,7 @@ To solve this proportion, we multiply both sides by the LCD, 30, to get
 
 <p>There is a short-cut we can use that avoids calculating an LCD. Observe that we can arrive at the equation <m>42=5x</m> by <em>cross-multiplying</em>:</p>
     <sidebyside width="15%"><!--<image source="images/fig-3-2-1.png"><description>graphic</description></image>-->
-    <image xml:id="fig-cross-multiply">
-        <description>cross-multiplying</description>
-        <latex-image>
+    <image xml:id="fig-cross-multiply"><description>cross-multiplying</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -121,9 +113,7 @@ To solve this proportion, we multiply both sides by the LCD, 30, to get
         \node[left] at (0,-.8) {$42\quad={}$};
         \node[right] at (0,-.8) {$5x$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+    </latex-image></image></sidebyside>
 <p>We then proceed as before to complete the solution.</p>
 
 <p>The cross-multiplying shortcut is a fundamental property of proportions.</p>
@@ -140,32 +130,23 @@ To solve this proportion, we multiply both sides by the LCD, 30, to get
 To solve the propotion, we cross-multiply.
     <md><mrow>\dfrac{3}{4}x \amp = 10 \cdot 6</mrow>
         <mrow>x \amp = \dfrac{60}{\dfrac{3}{4}} = 80</mrow></md>
-The two towns are 80 kilometers apart.</p></solution>
-</example>
+The two towns are 80 kilometers apart.</p></solution></example>
 
 <exercise><title>Practice 3</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         Context("Fraction");
         $a = Compute("666+ 2/3");
     </pg-code>
-    <statement>
-        <p>
-            On a scale model of Fantasy Valley, <m>1\dfrac{1}{2}</m> inches represents 50 yards. If the distance from the water slide to the bungee jump is 20 inches on the model, what is the distance between the two rides?
-        </p>
-        <p>
-            <var name="$a" width="7"/> yards
-        </p>
+    <statement><p> On a scale model of Fantasy Valley, <m>1\dfrac{1}{2}</m> inches represents 50 yards. If the distance from the water slide to the bungee jump is 20 inches on the model, what is the distance between the two rides?</p>
+        <p><var name="$a" width="7"/> yards</p>
     </statement>
     <solution><m>666\dfrac{2}{3}</m> yards</solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <warning><p>Do not try to use "cross-multiplying" on equations that are not proportions, or on any other operations involving fractions.  The shortcut works only on proportions.</p></warning>
 
 <exercise><title>QuickCheck 1</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $True = PopUp(
             [ "?", 
             "True", 
@@ -200,36 +181,18 @@ The two towns are 80 kilometers apart.</p></solution>
             3
         );        
     </pg-code>
-    <statement><p>
-    <ol label="a">
-        <li>
-            <p>
-                To clear fractions from an equation, we multiply each term by the <var name="$lcd" form="popup"/> of all the fractions.
-            </p>
-        </li>
-        <li>
-            <p>
-                True or False:  When clearing fraction from an equation, we do not multiply terms that are not fractions. <var name="$False" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>A proportion is a statement that two <var name="$ratios" form="popup"/> are equal. 
-            </p>
-        </li>
-        <li>
-            <p>
-               Cross-multiplying works only on  <var name="$prop" form="popup"/>.
-            </p>
-        </li>
+    <statement><p><ol label="a">
+        <li><p>To clear fractions from an equation, we multiply each term by the <var name="$lcd" form="popup"/> of all the fractions.</p></li>
+        <li><p>True or False:  When clearing fraction from an equation, we do not multiply terms that are not fractions. <var name="$False" form="popup"/></p></li>
+        <li><p>A proportion is a statement that two <var name="$ratios" form="popup"/> are equal. </p></li>
+        <li><p>Cross-multiplying works only on  <var name="$prop" form="popup"/>.</p></li>
     </ol></p></statement>
     <solution><p><ol label="a">
     <li>LCD</li>
     <li>False</li>
     <li>ratios</li>
     <li>proportions</li></ol></p></solution>
-</webwork>
-</exercise>
-
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Extraneous Solutions</title>
@@ -267,8 +230,7 @@ you will find that the graphs never intersect, which means that there is no solu
         <mrow>x \amp = \dfrac{-13}{5}</mrow></md></p></warning>
 
 <exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $undef = PopUp(
             [ "?", 
             "the numerator equals zero", 
@@ -312,26 +274,17 @@ you will find that the graphs never intersect, which means that there is no solu
         <li>an expression containing the variable</li>
         <li>term</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>Practice 4</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $answer = Compute("-1/2");
     </pg-code>
-    <statement>
-        <p>
-            Solve <m>\quad\dfrac{9}{x^2+x-2} + \dfrac{1}{x^2-x} = \dfrac{4}{x-1}</m>
-        </p>
-        <p>
-            <m>x=</m><var name="$answer" width="7"/>
-        </p>
+    <statement><p>Solve <m>\quad\dfrac{9}{x^2+x-2} + \dfrac{1}{x^2-x} = \dfrac{4}{x-1}</m></p>
+        <p><m>x=</m><var name="$answer" width="7"/></p>
     </statement>
     <solution><m>\dfrac{-1}{2}</m></solution>
-</webwork>
-</exercise> 
-
+</webwork></exercise> 
 </subsection>       
 
 <subsection><title>Solving Graphically</title>
@@ -347,15 +300,14 @@ you will find that the graphs never intersect, which means that there is no solu
                 <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 10</mrow></md>
     as shown in figure (a).</p>
         <sidebyside width="90%"><image source="images/fig-GC-intersection-of-rational-functions"><description>GC images of intersecting rational functions</description></image></sidebyside>
-    <p>It appears that the two graphs may intersect in the third quadrant, around <m>x = -3</m>. To investigate further, we change the window settings to
+<p>It appears that the two graphs may intersect in the third quadrant, around <m>x = -3</m>. To investigate further, we change the window settings to
             <md><mrow>\text{Xmin} \amp = -4.55 \amp\amp \text{Xmax} = -2.2</mrow>
                 <mrow>\text{Ymin} \amp = -1.3 \amp\amp \text{Ymax} = -0.3</mrow></md>
-    and obtain the close-up view shown in figure (b). In this window, we can see that the graphs intersect in two distinct points, and by using the Trace we find that their <m>x</m>-coordinates are <m>x = -3</m> and <m>x = -4</m>.
-    </p></solution></example>
+and obtain the close-up view shown in figure (b). In this window, we can see that the graphs intersect in two distinct points, and by using the Trace we find that their <m>x</m>-coordinates are <m>x = -3</m> and <m>x = -4</m>.
+</p></solution></example>
 
 <exercise><title>Practice 5</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $r1 = Compute("1");
         $r2 = Compute("4");
         $answer = List("$r1, $r2");
@@ -371,14 +323,8 @@ you will find that the graphs never intersect, which means that there is no solu
     <li><p>Graph the equation in the window
         <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 9.4</mrow>
             <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 3</mrow></md></p></li>
-    <li>
-        <p>
-            Use the graph to find out in which months the club had 200 active members.
-        </p>
-        <p>
-            Months: <var name="$answer" width="5"/> Enter month numbers separated by a comma.
-        </p>
-    </li>
+    <li><p>Use the graph to find out in which months the club had 200 active members.</p>
+        <p>Months: <var name="$answer" width="5"/> Enter month numbers separated by a comma.</p></li>
     <li>Verify your answer algebraically by solving an equation.</li></ol></p></statement>
     <answer><p><ol label="a">
     <li>A graph is below.</li>
@@ -439,8 +385,7 @@ to obtain the graph shown below.</p>
 <p>We are looking for a value of <m>x</m> that makes <m>Y_1</m> and <m>Y_2</m> equal. This occurs at the intersection point of the two graphs, <m>(3, 2)</m>. Thus, the speed of the current is <m>3</m> miles per hour, as we found in <xref ref="example-kayak-current" text="type-global"/>. The y-coordinate of the intersection point gives the time Rani paddled on each part of her trip: <m>2</m> hours each way.</p>
 
 <exercise><title>Practice 6</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $d = Compute("18");
         $downrate = Formula("x+3");
         $uprate = Formula("x-3");
@@ -450,12 +395,8 @@ to obtain the graph shown below.</p>
         $t = Compute("9/2");
         $ans = Compute("9");
     </pg-code>
-    <statement>
-        <p>
-            A cruise boat travels 18 miles downstream and back in <m>4\dfrac{1}{2}</m> hours. If the speed of the current is 3 miles per hour, what is the speed of the boat in still water? 
-            <ol label="a">
-                <li>
-                    <p>Let <m>x</m> represent the speed of the boat in still water, and fill in the table.</p>
+    <statement><p>A cruise boat travels 18 miles downstream and back in <m>4\dfrac{1}{2}</m> hours. If the speed of the current is 3 miles per hour, what is the speed of the boat in still water? <ol label="a">
+        <li><p>Let <m>x</m> represent the speed of the boat in still water, and fill in the table.</p>
                     <sidebyside><tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
                         <row>
                             <cell></cell>
@@ -473,27 +414,11 @@ to obtain the graph shown below.</p>
                             <cell><var name="$uprate" width="3"/></cell>
                             <cell><var name="$uptime" width="8"/></cell></row>
                     </tabular></sidebyside></li>
-                <li>
-                    <p>
-                        Write an equation to model the problem:
-                    </p>
-                    <p>
-                    <m>\text{Downstream time + Upstream time = Total trip time}</m>
-                    </p>
-                    <p>
-                        <var name="$times" width="20"/><m>=</m> <var name="$t" width="3"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Solve your equation, and answer the question in the problem.
-                    </p>
-                    <p>
-                        <m>x=</m><var name="$ans" width="3"/>: The speed of the boat in still water is <var name="$ans" width="2"/> mph.
-                    </p>
-                </li>
-            </ol>
-        </p>
+        <li><p>Write an equation to model the problem:</p>
+            <p><m>\text{Downstream time + Upstream time = Total trip time}</m></p>
+            <p><var name="$times" width="20"/><m>=</m> <var name="$t" width="3"/></p></li>
+        <li><p>Solve your equation, and answer the question in the problem.</p>
+            <p><m>x=</m><var name="$ans" width="3"/>: The speed of the boat in still water is <var name="$ans" width="2"/> mph.</p></li></ol></p>
     </statement>
     <solution><p><ol label="a">
     <li><sidebyside><tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
@@ -515,9 +440,7 @@ to obtain the graph shown below.</p>
         </tabular></sidebyside></li>
     <li><m>\dfrac{18}{x+3} + \dfrac{18}{x-3} = \dfrac{9}{2}</m></li>
     <li>9 mph</li></ol></p></solution>
-</webwork>
-</exercise>
-
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Formulas</title>
@@ -547,12 +470,10 @@ We cannot combine the two terms containing <m>v</m> because they are not like te
         </statement>
         <solution><p><m>a=\dfrac{bH}{2b-H}</m> </p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 3</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $True = PopUp(
             [ "?", 
             "True", 
@@ -566,38 +487,18 @@ We cannot combine the two terms containing <m>v</m> because they are not like te
             2
         );        
     </pg-code>
-    <statement><p>True or False.
-    <ol label="a">
-        <li>
-            <p>
-                To solve an equation graphically, we graph two functions, <m>y=</m> (each side of the equation.) <var name="$True" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                The solutions are the <m>y</m>-coordinates of the intersection points of the two graphs.  <var name="$False" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>To solve a formula that is linear in the desired variable, we must get all terms including that variable on one side of the equation. <var name="$True" form="popup"/>
-            </p>
-        </li>
-        <li>
-            <p>
-                If two or more terms on one side of the equation include the desired variable, we factor it out. <var name="$True" form="popup"/>
-            </p>
-        </li>
-    </ol></p></statement>
+    <statement><p>True or False.<ol label="a">
+        <li><p>To solve an equation graphically, we graph two functions, <m>y=</m> (each side of the equation.) <var name="$True" form="popup"/></p></li>
+        <li><p>The solutions are the <m>y</m>-coordinates of the intersection points of the two graphs.  <var name="$False" form="popup"/></p></li>
+        <li><p>To solve a formula that is linear in the desired variable, we must get all terms including that variable on one side of the equation. <var name="$True" form="popup"/></p></li>
+        <li><pIf two or more terms on one side of the equation include the desired variable, we factor it out. <var name="$True" form="popup"/></p></li></ol></p></statement>
     <solution><p><ol label="a">
     <li>True</li>
     <li>False</li>
     <li>True</li>
     <li>True</li></ol></p></solution>
-</webwork>
-</exercise>
-
+</webwork></exercise>
 </subsection>
-
 
 
 <xi:include href="./section-8-5-exercises.xml" />                

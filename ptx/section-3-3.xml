@@ -96,9 +96,7 @@
                 \draw[samples=65,domain={-3:3},smooth,variable=\x,blue,very thick] plot ({\x},{-1/4*(\x)^2}) node[right]{$y= -0.5x^2$};
                 \draw[samples=65,domain={-sqrt(5):sqrt(5)},smooth,variable=\x,red,very thick] plot ({\x},{-1*(\x)^2}) node[below]{$y=-2x^2$};
                 \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-    </sidebyside>
+            </latex-image></image></sidebyside>
 
 <p>We see that multiplying <m>x^2</m> by a negative constant reflects the graph about the <m>x</m>-axis. These parabolas open downward.</p>
 
@@ -143,8 +141,7 @@
 </example>
 
 <exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
          $TF = PopUp(
           ["?","True","False"],
           2, 
@@ -167,8 +164,7 @@
             <li><p>False</p></li>
             <li><p>False</p></li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>Practice 1</title>
     <introduction><sidebyside widths="25%">
@@ -206,7 +202,7 @@
                 <li><p>I</p></li>
                 <li><p>IV</p></li></ol></p>
         </solution>
-    </webwork></exercise>
+</webwork></exercise>
 </subsection>
 
 <subsection><title>The Graph of <m>y= x^2 + c</m></title>
@@ -216,9 +212,7 @@
         <mrow>y \amp = x^2+4</mrow>
         <mrow>y \amp = x^2-4</mrow></md></p>
     <sidebyside width="55%">
-        <image xml:id="fig-parabolas-vertical-shift">
-                <description>vertically shifted parabolas</description>
-                <latex-image>
+        <image xml:id="fig-parabolas-vertical-shift"><description>vertically shifted parabolas</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -236,9 +230,7 @@
                 \draw[samples=65,domain={-3:3},smooth,variable=\x,blue,very thick] plot ({\x},{(\x)^2 /2 -2}) node[right]{$y= x^2-4$};
                 \draw[samples=65,domain={-sqrt(6):sqrt(6)},smooth,variable=\x,red,very thick] plot ({\x},{(\x)^2 /2+2}) node[above]{$y=x^2+4$};
                 \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-    </sidebyside>
+            </latex-image></image></sidebyside>
 
 <p>The graph of <m>y=x^2+4</m> is shifted upward four units compared to the basic parabola, and the graph of <m>y=x^2-4</m> is shifted downward four units. Look at the table, which shows the <m>y</m>-values for the three graphs.</p>
 
@@ -278,6 +270,7 @@
 			<li><m>y = x^2 - 2</m></li>
 			<li><m>y = -x^2 + 4</m></li>
 		</ol></p></statement>
+
 <solution><p><ol label="a">
 	<li><p>The graph of <m>y = x^2 - 2</m> is shifted downward by two units, compared to the basic parabola. The vertex is the point <m>(0, -2)</m> and the <m>x</m>-intercepts are the solutions of the equation
 				<me>0 = x^2 - 2</me>
@@ -289,8 +282,7 @@
 		</ol></p></solution></example>
 
 <exercise><title>QuickCheck 3</title>
-    <webwork>
-        <pg-code>
+    <webwork><pg-code>
             $ans1 = PopUp(
               ["?","i", "ii","iii","iv"],
               2, 
@@ -325,8 +317,7 @@
                 <li>iv</li>
                 <li>i</li></ol></p>
         </solution>
-    </webwork>    
-</exercise>
+</webwork></exercise>
 
 <exercise><title>Practice 2</title>
     <introduction>
@@ -363,8 +354,8 @@
                 <li><p><m>y = x^2 - 5</m></p></li>
                 <li><p><m>x</m>-intercepts: <m>(-\sqrt{5},0),(\sqrt{5},0)</m>; <m>y</m>-intercept: <m>(0,-5)</m> </p></li>
             </ol></p>
-        </solution></webwork>
-</exercise>
+        </solution>
+</webwork></exercise>
 </subsection>
 
 <subsection><title>The Graph of <m>y = ax^2 + bx</m></title>
@@ -409,7 +400,7 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
         <solution>
             <p><m>x</m>-intercepts: <m>(0, 0)</m> and <m>(6, 0)</m>; vertex: <m>(3, 9)</m></p>
         </solution>
-    </webwork></exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 4</title>
 <webwork><pg-code>
@@ -436,9 +427,7 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
             <li><p>False</p></li>
             <li><p>False</p></li></ol></p>
     </solution>
-</webwork>
-</exercise>
-
+</webwork></exercise>
 </subsection>
 
 <subsection><title>A formula for the Vertex</title>
@@ -487,9 +476,7 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 <exercise><title>QuickCheck 5</title>
 <introduction>
     <sidebyside widths="24% 24% 24% 24%" margins="0% 0%">
-        <image xml:id="fig-CP-3-3-4-I">
-            <description>parabola</description>
-            <latex-image>
+        <image xml:id="fig-CP-3-3-4-I"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -506,11 +493,8 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
             \draw[samples=65,domain={-sqrt(7)-1:sqrt(7)-1},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{-(\x)^2 -2*\x});
             \node at (-1,-7){\textbf{I}};
             \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        <image xml:id="fig-CP-3-3-4-II">
-            <description>parabola</description>
-            <latex-image>
+        </latex-image></image>
+        <image xml:id="fig-CP-3-3-4-II"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -527,11 +511,8 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
             \draw[samples=65,domain={-sqrt(7)-1:sqrt(7)-1},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2 +2*\x});
             \node at (-1,-5){\textbf{II}};
             \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        <image xml:id="fig-CP-3-3-4-III">
-            <description>parabola</description>
-            <latex-image>
+        </latex-image></image>
+        <image xml:id="fig-CP-3-3-4-III"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -548,11 +529,8 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
             \draw[samples=65,domain={-sqrt(3):sqrt(3)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{-2*(\x)^2 });
             \node at (0,-7){\textbf{III}};
             \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        <image xml:id="fig-CP-3-3-4-IV">
-            <description>parabola</description>
-            <latex-image>
+        </latex-image></image>
+        <image xml:id="fig-CP-3-3-4-IV"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -569,12 +547,8 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
             \draw[samples=65,domain={-sqrt(8):sqrt(8)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2-2 });
             \node at (0,-5){\textbf{IV}};
             \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>    
-</introduction>
-<webwork>
-    <pg-code>
+        </latex-image></image></sidebyside></introduction>
+<webwork><pg-code>
             $a = PopUp(
               ["?","i", "II","III","IV"],
               4, 
@@ -606,8 +580,7 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
         <li>II</li>
         <li>III</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>Practice 4</title>
     <webwork><pg-code>
@@ -627,9 +600,7 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
     </statement>
         <solution><p><m>(0,0)</m>,<m>(1.8,0)</m>, <m>(0.9,2.916)</m></p>
         </solution>
-    </webwork>
- </exercise>
-
+</webwork></exercise>
 </subsection>
 
 

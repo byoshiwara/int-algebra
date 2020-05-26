@@ -66,6 +66,16 @@ Now consider the functions that describe those operations:  The graphs of <m>f(x
 <p>By interchanging the rows in the table for <m>f(x)</m>, we get the table for <m>g(x)</m>. This makes sense when we recall that each function undoes the effect of the other.  In fact, we define the cube root function by
 	<me>y=\sqrt[3]{x}~~~~\text{if and only if}~~~~x=y^3</me></p>
 In other words, if we interchange the variables in the cubing function, <m>y=x^3</m>, to get <m>x=y^3</m>, we have an equivalent formula for the cube root function, <m>y=\sqrt[3]{x}</m>.
+
+<exercise><title>Quickcheck 1</title>
+<statement><p>Simplify each expression without a calculator.<ol label="a" cols="3">
+	<li><m>\sqrt[3]{17^3}</m></li>
+	<li><m>(\sqrt{213})^2</m></li>
+	<li><m>(\sqrt[4]{b})^4</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="3">
+	<li><m>17</m></li>
+	<li><m>213</m></li>
+	<li><m>b</m></li></ol></p></answer></exercise>
 </subsection> 
 
 <subsection><title>Inverse of an Exponential Function</title>
@@ -82,9 +92,9 @@ We return to the original number, 3.</p>
 	<me>\log_2(2^{\alert{3}}) = \alert{3}</me>
 (Remember the order of operations: do what's inside of parentheses first.) Because the log and the exponential are inverse functions, this identity holds for any value of <m>x</m> and any base <m>b \gt 0</m>.  That is
 	<me>\blert{\log_b(b^{x}) = x}</me>
-We can also apply the two functions i the opposite order, so that
+We can also apply the two functions in the opposite order, so that
 	<me>2^{\log_2{\alert{8}}} = \alert{8}</me>
-(This one is harder to see, but we compute the exponent <m>\log_2{8}</m> first.) And in general
+(This one is harder to see, but we compute the exponent, <m>\log_2{8}</m>, first.) And in general
 	<me>\blert{b^{\log_b{x}} = x}</me></p>
 
 <exercise ><title>Practice 1</title>
@@ -167,6 +177,14 @@ We can also apply the two functions i the opposite order, so that
 <statement><p>Graph the function <m>f(x)=10^x</m> and its inverse function <m>g(x)=\log_{10}{x}</m> on the same axes.</p></statement>
 <answer><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></answer></exercise>
 
+<exercise><title>QuickCheck 2</title>
+<statement><p>Using a calculator, how could you estimate the value of <m>\log_5 {378}</m> ?<ol label="a">
+	<li>Find multiples of 5.</li>
+	<li>Find the fifth root of 378.</li>
+	<li>Find powers of 5.</li>
+	<li>Divide 378 by 5.</li></ol></p></statement>
+<answer><p>(c)</p></answer></exercise>
+
 <p>Did you notice that the graphs of the log functions do not have any points with negative <m>x</m>-coordinates? This is because an exponential function has no negative (or zero) output values, so a log function has no negative or zero input values. In other words,</p>
 
 <p>We cannot take the log of a negative number or zero.</p>
@@ -181,7 +199,7 @@ We can also apply the two functions i the opposite order, so that
 	<li>The graphs of <m>y = \log_b x</m> and <m>y=b^x</m> are symmetric about the line <m>y=x</m>.</li></ol></p>
 </assemblage>
 
-<exercise><title>QuickCheck 1</title>
+<exercise><title>QuickCheck 3</title>
 <webwork><pg-code>       
             $intlog = RadioButtons(
               ["\((0,1)\)",
@@ -246,6 +264,55 @@ A calculator keying sequence for the calculation is
     </statement>
     <solution><p>33 days</p></solution>
 </webwork></exercise>
+
+<p>Logarithmic functions are useful for modeling increasing functions that slow down as the input increases.</p>
+
+<example><statement><p>In 1900, the average life expectancy at birth in the U.S. was 47.3 years. Since then, life expectancy has increased according to the formula
+	<me>L(x)=18.53+28.92 \log {x}</me>
+where <m>x</m> is the number of years after 1900. <ol label="a">
+	<li>Graph the life expectancy function for the years 1900 to 2010.</li>
+	<li>The life expectancy in 1950 was 68.2 years. What does the function <m>L(x)</m> predict for life expectancy in 1950?</li>
+	<li>How much did life expectancy increase between 1920 and 1930?  How much did it increase between 1990 and 2000?</li>
+</ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+	<li>67.7 years</li>
+	<li>5 years, 1.4 years</li></ol></p></solution></example>
+
+<exercise><title>Practice 5</title>
+<statement><p>The CDC (Centers for Disease Control and Prevention) provides Growth Charts for the average height and weight of children from age 2 to 20. The average height of girl children is given in centimeters by
+	<me>H(t) = 49.29+91.3 \log {t}</me>
+where <m>t</m> is in years.<ol label="a">
+	<li>Graph the height function for <m>2 \le t \le 20</m>.</li>
+	<li><p>Use the height function to complete the table.</p>
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>20</m></cell></row>
+                    <row> 
+                        <cell><m>H(t)</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>How much is a girl's height expected to increase between the ages of 5 and 10? Between the ages of 15 and 20?</li>
+</ol></p></statement></exercise>
+
+<exercise><title>QuickCheck 4</title>
+<statement><p>Which function grows more slowly for large values of <m>x</m> ?<ol label="a">
+	<li><m>f(x)=2x</m></li>
+	<li><m>f(x)=\log_2{x}</m></li>
+	<li><m>f(x)=\sqrt{x}</m></li>
+	<li><m>f(x)=\dfrac{x}{2}</m></li></ol></p></statement>
+<answer><p>(b)</p></answer></exercise>
+
 </subsection>
 
 <subsection><title>Solving Logarithmic Equations</title>
@@ -264,7 +331,7 @@ is a log equation.</p>
 		<mrow> x \amp = 36</mrow></md>
 The solution is 36.</p></solution></example>
     
-<exercise> <title>Practice 5</title>
+<exercise> <title>Practice 6</title>
 <webwork><pg-code>
         $a = Compute("-40");
     </pg-code>
@@ -293,7 +360,7 @@ Simplifying the right side gives us a quadratic equation to solve.
 		<mrow>(x - 4)(x + 3) \amp= 0 \amp \amp \glert{\text{Apply the zero-factor principle.}}</mrow></md>
 We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation for extraneous solutions. The number <m>-3</m> is not a solution of the original equation, because neither <m>\log_{10}{(x + 1)}</m> nor <m>\log_{10}{(x - 2)}</m> is defined for <m>x = -3</m>. The apparent solution <m>x=-3</m> is extraneous, and the solution of the original equation is <m>4</m>.</p></solution></example>
 
-<exercise> <title>Practice 6</title>
+<exercise> <title>Practice 7</title>
 <webwork><pg-code>
         $a = Compute("500");
     </pg-code>
@@ -310,7 +377,7 @@ We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation 
     <solution><m>x=500</m></solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise><title>QuickCheck 5</title>
 <webwork><pg-code>
         $a = PopUp(
             [ "?", 

@@ -180,91 +180,66 @@
 </ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="21"><statement><p>Convert each logarithmic equation to exponential form.<ol label="a" cols="3">
-    <li><m>\log_{16} 256 = w</m></li>
-    <li><m>\log_b 9 = -2</m></li>
-    <li><m>\log_{10} A = -2.3</m></li>
-    </ol></p></statement>
-<answer><p><ol>
-    <li><p><m>16^w = 256</m></p></li>
-    <li><m>b^{-2} = 9</m></li>
-    <li><m>10^{-2.3} = A</m></li>
-</ol></p></answer></exercise>
+<exercisegroup cols="2"><introduction><p>For Problems 21-24, solve for the unknown value.</p></introduction>
 
-<exercisegroup cols="2"><introduction><p>For Problems 22-25, solve for the unknown value.</p></introduction>
+<exercise number="21"><statement><m>\log_5 y = -2</m></statement>
+<answer><m>y = \dfrac{1}{25}</m></answer></exercise>
 
 <exercise number="22"><statement><m>\log_b 625 = 4</m></statement></exercise>
 
-<exercise number="23"><statement><m>\log_5 y = -2</m></statement>
-<answer><m>y = \dfrac{1}{25}</m></answer></exercise>
+<exercise number="23"><statement><m>\log_b 10 = \dfrac{1}{2}</m></statement>
+<answer><m>b = 100</m></answer></exercise>
 
-<exercise number="24"><statement><m>\log_b 10 = \dfrac{1}{2}</m></statement>
-</exercise>
-
-<exercise number="25"><statement><m>\log_5 (9-4x) = 3</m></statement>
-<answer><m>b = -29</m></answer></exercise>
+<exercise number="24"><statement><m>\log_5 (9-4x) = 3</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 26-31, use base 10 logarithms to solve. Round your answers to hundredths.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 25-30, use base 10 logarithms to solve. Round your answers to hundredths.</p></introduction>
 
-<exercise number="26"><statement><p><m>2^x=7 </m></p></statement></exercise>
+<exercise number="25"><statement><p><m>2^x=7 </m></p></statement>
+<answer><p><m>2.81</m></p></answer></exercise>
 
-<exercise number="27"><statement><p><m>4^{x^2}=15 </m></p></statement>
-<answer><p><m>\pm 1.40</m></p></answer></exercise>
+<exercise number="26"><statement><p><m>4^{x^2}=15 </m></p></statement></exercise>
 
-<exercise number="28"><statement><p><m>4.26^{-x}=10.3 </m></p></statement></exercise>
+<exercise number="27"><statement><p><m>4.26^{-x}=10.3 </m></p></statement>
+<answer><p><m>-1.61</m></p></answer></exercise>
 
-<exercise number="29"><statement><p><m>25\cdot 3^{2.1x}=47 </m></p></statement>
-<answer><p><m>0.2736</m></p></answer></exercise>
+<exercise number="28"><statement><p><m>25\cdot 3^{2.1x}=47 </m></p></statement></exercise>
 
-<exercise number="30"><statement><p><m>3600=20\cdot 8^{-0.2x} </m></p></statement></exercise>
+<exercise number="29"><statement><p><m>3600=20\cdot 8^{-0.2x} </m></p></statement>
+<answer><p><m>-12.49</m></p></answer></exercise>
 
-<exercise number="31"><statement><p><m>3^{2x-3} = 4529 </m></p></statement>
-<answer><p><m>5.33</m></p></answer></exercise>
+<exercise number="30"><statement><p><m>3^{2x-3} = 4529 </m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 32-35, solve the logarithmic equation.</p></introduction>
-
-<exercise number="32"><statement><p><m>\log_{10} x + \log_{10}(x + 21) = 2</m></p></statement></exercise>
-
-<exercise number="33"><statement><p><m>\log_{8} (x+5) - \log_{8}2 = 1</m></p></statement>
-<answer><p><m>x=11</m></p></answer></exercise>
-
-<exercise number="34"><statement><p><m>\log_{10} (x+2) + \log_{10}(x-1) = 1</m></p></statement></exercise>
-
-<exercise number="35"><statement><p><m>\log_{3} (x-2) - \log_{3}(x+1) = 3</m></p></statement>
-<answer><p>No solution</p></answer></exercise>
-</exercisegroup>
-
-<exercisegroup><introduction><p>For Problems 36 and 37, use the three logs below to find the value of each expression.
+<exercisegroup><introduction><p>For Problems 31 and 32, use the three logs below to find the value of each expression.
     <me>\log_b 2 = 0.6931, ~~\log_b 3 = 1.0986, ~~\log_b 5 = 1.6094</me>
     (<em>Hint</em>: For example, <m>\log_b 15 = \log_b 3 + \log_b 5</m>.)</p></introduction>
 
-<exercise number="36"><statement><p><ol cols="2">
+<exercise number="31"><statement><p><ol cols="2">
     <li><p><m>\log_b 6</m></p></li>
     <li><p><m>\log_b\dfrac{2}{5} </m></p></li>
-</ol></p></statement></exercise>
-
-<exercise number="37"><statement><p><ol cols="2">
-    <li><p><m>\log_b 75</m></p></li>
-    <li><p><m>\log_b \sqrt{50} </m></p></li>
 </ol></p></statement>
 <answer><p><ol cols="2">
-    <li><p><m>4.3175</m></p></li>
-    <li><p><m>1.9560</m></p></li>
+    <li><p><m>1.7918</m></p></li>
+    <li><p><m>-0.9163</m></p></li>
 </ol></p></answer></exercise>
+
+<exercise number="32"><statement><p><ol cols="2">
+    <li><p><m>\log_b 75</m></p></li>
+    <li><p><m>\log_b \sqrt{50} </m></p></li>
+</ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>In Problems 38-40, which expressions are equivalent?</p></introduction>
+<exercisegroup><introduction><p>In Problems 33-35, which expressions are equivalent?</p></introduction>
 
-<exercise number="38"><statement><p><ol cols="2">
+<exercise number="33"><statement><p><ol cols="2">
     <li><m>\log\left(\dfrac{x}{4} \right)</m></li>
     <li><m>\dfrac{\log x}{\log 4}</m></li>
     <li><m>\log(x-4)</m></li>
     <li><m>\log x - \log 4 </m></li>
 </ol></p></statement></exercise>
 
-<exercise number="39"><statement><p><ol cols="2">
+<exercise number="34"><statement><p><ol cols="2">
     <li><m>\log(x+2)</m></li>
     <li><m> \log x+\log 2</m></li>
     <li><m>\log(2x)</m></li>
@@ -272,7 +247,7 @@
 </ol></p></statement>
 <answer><p>(b) and (c)</p></answer></exercise>
 
-<exercise number="40"><statement><p><ol cols="2">
+<exercise number="35"><statement><p><ol cols="2">
     <li><m>\log x^3</m></li>
     <li><m>(\log 3)(\log x)</m></li>
     <li><m>3\log x</m></li>
@@ -280,11 +255,15 @@
 </ol></p></statement></exercise>
 </exercisegroup>
 
+<exercise number="36"><statement><p><ol label="a">
+    <li>Explain why <m>~\log {\dfrac{1}{x}}~</m> is the same as <m>~-\log {x}</m>.</li>
+    <li>Explain why <m>~\log {x^2}~</m> is the same as <m>~2 \log {x}</m>.</li></ol></p></statement></exercise>
+
 </subexercises>
 
 <subexercises><title>Applications</title>
 
-<exercise number="41"><statement><p>If hamburger is allowed to thaw at <m>50\degree</m>F, Salmonella bacteria grows at a rate of 9% per hour.<ol>
+<exercise number="37"><statement><p>If hamburger is allowed to thaw at <m>50\degree</m>F, Salmonella bacteria grows at a rate of 9% per hour.<ol>
     <li><p>Write a formula for the amount of Salmonella present after <m>t</m> hours, if the initial amount is <m>S_0</m>.</p></li>
     <li><p>Health officials advise that the amount of Salmonella initially present in hamburger should not be allowed to increase by more than 50%. How long can hamburger be safely left to thaw at <m>50\degree</m>F?</p></li>
     </ol></p></statement>
@@ -293,12 +272,12 @@
     <li><p><m>4.7</m> hours</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="42"><statement><p>Starting in 1998, the demand for electricity in Ireland grew at a rate of 5.8% per year. In 1998, 20,500 gigawatts were used. (Source: Electricity Supply Board of Ireland)<ol>
+<exercise number="38"><statement><p>Starting in 1998, the demand for electricity in Ireland grew at a rate of 5.8% per year. In 1998, 20,500 gigawatts were used. (Source: Electricity Supply Board of Ireland)<ol>
         <li><p>Write a formula for electricity demand in Ireland as a function of time.</p></li>
         <li><p>If demand continues to grow at the same rate, when would it reach 30,000 gigawatts?</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="43"><statement><p>The concentration of a certain drug injected into the bloodstream decreases by 20% each hour as the drug is eliminated from the body. The initial dose creates a concentration of 0.7 milligrams per milliliter.<ol>
+<exercise number="39"><statement><p>The concentration of a certain drug injected into the bloodstream decreases by 20% each hour as the drug is eliminated from the body. The initial dose creates a concentration of 0.7 milligrams per milliliter.<ol>
         <li><p>Write a function for the concentration of the drug as a function of time.</p></li>
         <li><p>The minimum effective concentration of the drug is 0.4 milligrams per milliliter. When should the second dose be administered?</p></li>
         <li><p>Graph the function, and label the point on the graph that illustrates your answer to part (b).</p></li>
@@ -309,13 +288,13 @@
     <li><sidebyside><image source="images/fig-hw-7-4-43ans"><description>decay</description></image></sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="44"><statement><p>A small pond is tested for pollution and the concentration of toxic chemicals is found to be 80 parts per million. Clean water enters the pond from a stream, mixes with the polluted water, then leaves the pond so that the pollution level is reduced by 10% each month.<ol>
+<exercise number="40"><statement><p>A small pond is tested for pollution and the concentration of toxic chemicals is found to be 80 parts per million. Clean water enters the pond from a stream, mixes with the polluted water, then leaves the pond so that the pollution level is reduced by 10% each month.<ol>
     <li><p>Write a function for the concentration of toxic chemicals as a function of time.</p></li>
     <li><p>How long will it be before the concentration of toxic chemicals reaches a safe level of 25 parts per million?</p></li>
     <li><p>Graph the function, and label the point on the graph that illustrates your answer to part (b).</p></li></ol>
 </p></statement></exercise>
 
-<exercise number="45"><statement><p>Sodium-24 is a radioactive isotope that is used in diagnosing circulatory disease. It decays into stable isotopes of sodium at a rate of 4.73% per hour.<ol>
+<exercise number="41"><statement><p>Sodium-24 is a radioactive isotope that is used in diagnosing circulatory disease. It decays into stable isotopes of sodium at a rate of 4.73% per hour.<ol>
         <li><p>Technicians inject a quantity of sodium-24 into a patient's bloodstream. Write a formula for the amount of sodium-24 present in the bloodstream as a function of time.</p></li>
         <li><p>How long will it take for 75% of the isotope to decay?</p></li>
     </ol></p></statement>
@@ -324,22 +303,22 @@
     <li><p>28.61 hours</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="46"><statement><p>The population of Afghanistan is growing at 2.6% per year.<ol>
+<exercise number="42"><statement><p>The population of Afghanistan is growing at 2.6% per year.<ol>
         <li><p>Write a formula for the population of Afghanistan as a function of time.</p></li>
         <li><p>In 2005, the population of Afghanistan was 29.9 million. At the given rate of growth, how long would it take the population to reach 40 million?</p></li>
     </ol></p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 47-50, solve the formula for the specified variable.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 43-46, solve the formula for the specified variable.</p></introduction>
 
-<exercise number="47"><statement><p><m>N = N_0 a^{kt}</m>, for <m>k</m></p></statement>
+<exercise number="43"><statement><p><m>N = N_0 a^{kt}</m>, for <m>k</m></p></statement>
 <answer><p><m>k=\dfrac{\log\left(\dfrac{N}{N_0}\right)}{t \log {a}} </m></p></answer></exercise>
 
-<exercise number="48"><statement><p><m>Q = Q_0 b^{t/2}</m>, for <m>t</m></p></statement></exercise>
+<exercise number="44"><statement><p><m>Q = Q_0 b^{t/2}</m>, for <m>t</m></p></statement></exercise>
 
-<exercise number="49"><statement><p><m>A = A_0(10^{kt}-1)</m>, for <m>t</m></p></statement>
+<exercise number="45"><statement><p><m>A = A_0(10^{kt}-1)</m>, for <m>t</m></p></statement>
 <answer><p><m>t=\dfrac{1}{k}\log\left(\dfrac{A}{A_0}+1\right) </m></p></answer></exercise>
 
-<exercise number="50"><statement><p><m>w = pv^q</m>, for <m>q</m></p></statement></exercise>
+<exercise number="46"><statement><p><m>w = pv^q</m>, for <m>q</m></p></statement></exercise>
 
 
 </exercisegroup>
