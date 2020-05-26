@@ -65,7 +65,7 @@
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
-                \begin{tikzpicture} [scale=.4] 
+                \begin{tikzpicture} [xscale=.4, yscale=.35] 
                 \draw[cyan] (0,0) grid (10,26);
                 \draw[black,thick,->,>=stealth'] (0,0)--(10.8,0) node[right]{$t$};
                 \draw[black,thick,->,>=stealth'] (0,0)--(0,26.8) node[left]{$P$};
@@ -97,7 +97,7 @@
 
 <p>One milliliter of culture contains about 1 million <em>Drosophila</em> cells, and the population doubles every 24 hours. The table shows the population, <m>P(t)</m>, of <em>Drosophila</em> cells, in millions, as a function of time in days.</p>
 
-<sidebyside widths="30% 45%" valigns="middle middle">
+<sidebyside widths="30% 40%" valigns="middle middle">
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
         <row>
             <cell bottom="minor"><m>t</m></cell>
@@ -128,7 +128,7 @@
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [xscale=.7, yscale=.5] 
+        \begin{tikzpicture} [xscale=.7, yscale=.45] 
         \draw[cyan] (0,0) grid (8,16);
         \draw[black,thick,->,>=stealth'] (0,0)--(8.8,0) node[above]{$t$};
         \draw[black,thick,->,>=stealth'] (0,0)--(0,16.8) node[left, yshift=1mm]{$P$};
@@ -264,9 +264,9 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
 <exercise ><title>Practice 1</title>
 <webwork><pg-code>
         Context()->variables->add(t=>"Real");
-        $f = Formula("20*1.26^t");
-        foreach my $i (0..4) {
-          $p[$i] = $f->eval(t=>$i)->with(
+        $f = Formula("20*2^(t/3)");
+        foreach my $i (0..5) {
+          $p[$i] = $f->eval(t=>($i*3))->with(
               tolType => 'absolute',
               tolerance => .51,
             );
@@ -279,47 +279,71 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
     <statement><p>A colony of rabbits started with 20 rabbits and doubles every 3 months.
         <ol label="a"> 
             <li><p>Complete the table for the number of rabbits <m>P(t)</m> after <m>t</m> months, and graph the function.</p>
-                <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                         <row bottom="minor">
                             <cell><m>t</m></cell>
-                            <cell><m>0</m></cell>
-                            <cell><m>3</m></cell>
-                            <cell><m>6</m></cell>
-                            <cell><m>9</m></cell>
-                            <cell><m>12</m></cell>
-                            <cell><m>15</m></cell></row>
-                        <row> 
                             <cell><m>P(t)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>0</m></cell>
                             <cell><var name="$p[0]" width="3"/></cell>
+                        </row>
+                        <row>
+                            <cell><m>3</m></cell>
                             <cell><var name="$p[1]" width="3"/></cell>
+                        </row>
+                        <row>
+                            <cell><m>6</m></cell>
                             <cell><var name="$p[2]" width="3"/></cell>
+                        </row>
+                        <row>
+                           <cell><m>9</m></cell>
                             <cell><var name="$p[3]" width="3"/></cell>
+                        </row>
+                        <row>
+                            <cell><m>12</m></cell>
                             <cell><var name="$p[4]" width="3"/></cell>
-                            <cell><var name="$p[5]" width="3"/></cell></row>
+                        </row>
+                        <row>
+                            <cell><m>15</m></cell>
+                            <cell><var name="$p[5]" width="3"/></cell>
+                        </row>
                     </tabular></sidebyside></li>       
             <li><p>Write a formula for the function <m>P(t)</m>. Note that the population is multiplied by 2 every 3 momnths. If you know the value of <m>t</m>, how do you find the corresponding exponent in <m>P(t)</m>?</p>
                     <p><m>P(t)=</m><var name="$f" width="8"/> </p></li>
             <li><p>How many rabbits will there be after 1 year? <var name="$month" width="4"/></p></li>
         </ol></p></statement>
 <solution><p><ol label="a">
-        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-            <row bottom="minor">
-                <cell><m>t</m></cell>
-                <cell><m>0</m></cell>
-                <cell><m>3</m></cell>
-                <cell><m>6</m></cell>
-                <cell><m>9</m></cell>
-                <cell><m>12</m></cell>
-                <cell><m>15</m></cell></row>
-            <row> 
-                <cell><m>P(t)</m></cell>
-                <cell><m>20</m></cell>
-                <cell><m>40</m></cell>
-                <cell><m>80</m></cell>
-                <cell><m>160</m></cell>
-                <cell><m>320</m></cell>
-                <cell><m>640</m></cell></row>
-            </tabular></sidebyside>
+        <li>                <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                        <row bottom="minor">
+                            <cell><m>t</m></cell>
+                            <cell><m>P(t)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>0</m></cell>
+                            <cell><var name="$p[0]"/></cell>
+                        </row>
+                        <row>
+                            <cell><m>3</m></cell>
+                            <cell><var name="$p[1]"/></cell>
+                        </row>
+                        <row>
+                            <cell><m>6</m></cell>
+                            <cell><var name="$p[2]"/></cell>
+                        </row>
+                        <row>
+                           <cell><m>9</m></cell>
+                            <cell><var name="$p[3]"/></cell>
+                        </row>
+                        <row>
+                            <cell><m>12</m></cell>
+                            <cell><var name="$p[4]"/></cell>
+                        </row>
+                        <row>
+                            <cell><m>15</m></cell>
+                            <cell><var name="$p[5]"/></cell>
+                        </row>
+                    </tabular></sidebyside>
             <p>A graph is below.</p></li>
         <li><p><m>P(t)=20(3)^{t/3}</m></p></li>
         <li>320 rabbits (after 12 months)</li></ol></p></solution>
@@ -340,7 +364,7 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
         \foreach \x [evaluate=\x as \xi using int(10*\x)] in {1,2,...,8} {
           \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
         }
-        \draw[samples=65,domain={0:ln(4)/ln(1.26)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {2*1.26^(\x)});
+        \draw[samples=65,domain={0:6)}, smooth, variable=\x,red, very thick, ->,>=stealth'] plot (\x, {2*2^(\x/3)});
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
 </conclusion></exercise>

@@ -222,19 +222,19 @@
 </exercisegroup>
 
 <exercise number="24"><statement><p>The graph of <m>f(x)=P_0 a^x</m> is shown in the figure.</p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="30%"><image source="images/fig-mystery-exp-growth"><description>graph</description></image></sidebyside>
 <ol label="a">
     <li>Read the value of <m>P_0</m> from the graph.</li>
     <li>Make a short table of values for the function by reading values from the graph. Does your table confirm that the function is exponential?</li>
-    <li>Use your table to calculate the groth factor <m>a</m>.</li>
+    <li>Use your table to calculate the growth factor <m>a</m>.</li>
     <li>Using your answers to parts (a) and (c), write a formula for <m>f(x)</m>.</li></ol></statement></exercise>
 
 <exercise number="25"><statement><p>The graph of <m>g(x)=P_0 a^x</m> is shown in the figure.</p>
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="30%"><image source="images/fig-mystery-exp-decay"><description>graph</description></image></sidebyside>
 <ol label="a">
     <li>Read the value of <m>P_0</m> from the graph.</li>
     <li>Make a short table of values for the function by reading values from the graph. Does your table confirm that the function is exponential?</li>
-    <li>Use your table to calculate the groth factor <m>a</m>.</li>
+    <li>Use your table to calculate the decay factor <m>a</m>.</li>
     <li>Using your answers to parts (a) and (c), write a formula for <m>g(x)</m>.</li></ol></statement>
 <answer><p><ol label="a">
     <li><m>P_0 = 800</m></li>

@@ -491,7 +491,7 @@ We cannot combine the two terms containing <m>v</m> because they are not like te
         <li><p>To solve an equation graphically, we graph two functions, <m>y=</m> (each side of the equation.) <var name="$True" form="popup"/></p></li>
         <li><p>The solutions are the <m>y</m>-coordinates of the intersection points of the two graphs.  <var name="$False" form="popup"/></p></li>
         <li><p>To solve a formula that is linear in the desired variable, we must get all terms including that variable on one side of the equation. <var name="$True" form="popup"/></p></li>
-        <li><pIf two or more terms on one side of the equation include the desired variable, we factor it out. <var name="$True" form="popup"/></p></li></ol></p></statement>
+        <li><p>If two or more terms on one side of the equation include the desired variable, we factor it out. <var name="$True" form="popup"/></p></li></ol></p></statement>
     <solution><p><ol label="a">
     <li>True</li>
     <li>False</li>
