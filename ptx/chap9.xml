@@ -1,32 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chap9"  xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Equations and Graphs</title>
-    <introduction>
+<chapter xml:id="chap9"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations and Graphs</title>
+    
+<introduction><p>In ancient Athens, around 430 BCE, one quarter of the city's residents perished in a plague. The people of Athens consulted the oracle at Delos, so the story goes, to find a cure for the plague. The oracle replied that they should construct a new cubical altar to the gods, and its volume should be double the volume of the existing cubical altar. Now, if the original altar had a side of length <m>x</m>, you can work out that the new altar should have side length <m>\sqrt[3]{2} x</m>, so that the new volume is <m>2x^3</m>.</p>
 
-        <sidebyside width="60%" margins="0% 40%"><image source="images/shutterstock_67170118.jpg"><description>squirrel</description></image></sidebyside>
-        <sidebyside width="60%" margins="0% 40%"><image source="images/squirrel.jpg"><description>squirrel</description></image></sidebyside>
+<p>But the ancient Greeks could not use algebra to solve the problem -- it hadn't been invented yet. Instead, they used geometrical methods. The Delian problem of doubling the cube remained unsolved for many years. But sometime around 350 BCE, a mathematician named Menaechmus, who was the tutor to Alexander the Great, solved the problem, and in so doing invented the <term>conic sections</term>.</p>
 
-    <p>
-        <term>Linear programming</term><idx>linear programming</idx> is an application of linear systems developed in the 1940s to solve complex optimization problems during wartime operations. Today linear programming is used for scheduling and allocation of resources, in shipping and telecommunications networks, and in the selection of stocks and bonds for portfolios. In 1980, the computer scientist Laszlo Lovasz said that "If one would take statistics about which  mathematical problem is using up most of the computer time in the world, ... the answer would probably be linear programming."
-    </p>
-    <p>
-        George Dantzig (1914-2005) invented the simplex method for solving linear programming problems in 1947. His first application of the method was to determine an adequate diet of least cost. This problem involved nine equations in 77 unknowns, and took 120 days to solve using the desk calculators available at the time. In this chapter we use a graphing technique to solve problems in two unknowns. For example, the diet of the Columbian ground squirrel consists of two foods: grass and forb, a type of flowering weed. Small animals spend most of their time foraging for food, but must also be alert for predators. Which foraging strategy favors survival: should the squirrel try to satisfy its dietary requirements in minimum time, thus minimizing its exposure to predators and the elements, or should it try to maximize its intake of nutrients?
-    </p>
-    <p>
-        Using linear programming, Gary Belovsky of Notre Dame University identified the optimal amounts of forb and grass for each foraging strategy. We can compare those solutions to the squirrel's actual diet to see which strategy the squirrel favors.
-    </p>
-    <sidebyside>
-    <image source="images/fig-minimize-time-eating">
-      <description>
-        feasible set with different times
-      </description>
-    </image>
-    <image source="images/fig-maximize-energy">
-      <description>
-        feasible set with different energy consumed
-      </description>
-    </image>
-    </sidebyside>
+<p>A "section" is a slice, and the conic sections are the curves formed by slicing a cone by a plane. Depending on the angle of the slice, we get four different curves, as shown below.</p>
+
+    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+
+<p>We have already met the parabola, which is described by the quadratic equation <m>y=ax^2+bx+c</m>. It turns out that the other conic sections are also described by quadratic equations. These curves have many interesting properties as abstract objects, but as often happens with mathematical discoveries, they are also useful in applications. Conic sections appear in art and architecture, in medicine, science, and engineering.</p>
+
+    <sidebyside width="40%"><image source="images/fireworks.png"><description>fireworks</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/operahouse.png"><description>operahouse</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/ellipsestadium.png"><description>ellipsestadium</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/sundial.png"><description>sundial</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/fountain.png"><description>fountain</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/orbits.png"><description>orbits</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/headlight.png"><description>headlight</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/mollweide.png"><description>mollweide</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/Decca.png"><description>Decca</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/telescope.png"><description>telescope</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/whispering.png"><description>whispering</description></image></sidebyside>
+    <sidebyside width="40%"><image source="images/sonicboom.png"><description>sonicboom</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/navigation.png"><description>navigation</description></image></sidebyside>
+
+    <sidebyside width="40%"><image source="images/lithotripsy.png"><description>lithotripsy</description></image></sidebyside>
+
+<investigation><title>Global Positioning</title>
+
+<p>The Global Positioning System (GPS) is used by hikers, pilots, surveyors, automobiles to determine their location (latitude, longitude, and elevation) anywhere on the surface of the earth. The system depends on a collection of satellites in orbit around the earth. Each GPS satellite transmits its own position and the current time at regular intervals.</p>
+
+<p>A person with a GPS receiver on earth can calculate his or her distance from the satellite by comparing the time of transmission with the time when it receives the signal. Of course, there are many points at the same distance from the satellite—in fact, the set of all points at a certain distance <m>r</m> from the satellite lie on a sphere centered at the satellite. That is why there are several satellites: You calculate your position by finding the intersection
+point of several such spheres centered on different satellites.</p></introduction>
+
+<p>We will consider a simplified, two-dimensional model of a GPS system in which the satellites and the receiver all lie in the <m>xy</m>-plane instead of in three-dimensional space.  </p>
+
+<p>In this model we’ll need data from two GPS satellites. The satellites are orbiting along a circle of radius 100 meters centered at the origin. You have a receiver inside that circle and would like to know the coordinates of your position within the circle.</p> 
+
+    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    
+<p>To make the computations simpler, we will also assume that the satellite transmissions travel at 5 meters per second.</p>
+<p><ol label="1">
+
+<li>><p>A signal from Satellite A arrives 18 seconds after it was transmitted. How far are you from Satellite A?</p></li>
+
+<li><p>The signal says that Satellite A was located at <m>(100, 0)</m> at the time of transmission. Use a compass to sketch a graph showing your possible positions relative to Satellite A.</p> </li>
+
+<li><p>Find an equation for the graph you sketched in part (2).</p></li>
+
+<li><p>A signal from Satellite B arrives 8.4 seconds after it was transmitted. How far are you from Satellite B?</p></li>
+
+<li><p>The signal says that Satellite B was located at <m>(28, 96)</m> at the time of transmission. Use a compass to sketch a graph showing your possible positions relative to Satellite B.</p></li>
+
+<li><p>Find an equation for the graph you sketched in part (5).</p></li>
+
+<li><p>Your position must lie at the intersection point, <m>P</m>, of your two graphs. Estimate the coordinates of your position from the graph. (Remember that you are within the orbits of the satellites.)</p></li>
+
+<li><p>Later in this chapter you will learn how to find the coordinates of <m>P</m> algebraically by solving a system of equations. Verify that the ordered pairs <m>(28, 54)</m> and <m>(68.32, 84.24)</m> both satisfy the equations you wrote in part (3) and part (6). What are the coordinates of <m>P</m>?</p></li>
+</ol></p></investigation>
        
 </introduction>
 

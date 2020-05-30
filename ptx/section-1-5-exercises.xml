@@ -5,7 +5,7 @@
 <exercises xml:id="section-1-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Problem Set 1.5</title>
     
-<subexercises><title>Skills Practice</title>
+<subexercises><title>Warm Up</title>
 
 <exercisegroup cols="2"><introduction>
      <p>For Problems 1 and 2,  complete the table of values and graph the line, then answer the questions below.</p>
@@ -30,8 +30,10 @@
             </tabular></sidebyside>
 </statement>
 <answer><p><ol label="a">
-                <li><p>8</p></li>
-                <li><p>decreases by 2 units</p></li></ol></p></answer></exercise>
+        <li><p>8</p></li>
+        <li><p>decreases by 2 units</p></li>
+        <li>The constant term is the <m>y</m>-intercept and the coefficient of <m>x</m> is the slope.</li></ol></p>
+</answer></exercise>
 
 <exercise number="2"><statement><p><m>y=2+\dfrac{1}{2}x </m></p>
             <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -56,26 +58,17 @@
         <sidebyside widths="50% 50%">
                     <p>Line 1:</p>
                     <p>Line 2:</p></sidebyside></li>
-    <li><p>Look at the table for each line. How much does <m>y</m> increase or decrease for each 1-unit increase in <m>x</m>?</p>
+    <li><p>Look at the table for each line. How much does <m>y</m> increase or decrease for each 1-unit increase in <m>x</m>? What is this value called?</p>
         <sidebyside widths="50% 50%">
                     <p>Line 1:</p>
                     <p>Line 2:</p></sidebyside></li>
     <li><p>Compare your answers to parts (a) and (b) with the equation for each line. What do you observe?</p></li>
-        </ol></p></conclusion>
+    </ol></p></conclusion>
 </exercisegroup>
 
-<exercise number="3"><statement><p>Write each equation in slope-intercept form. State the slope and the <m>y</m>-intercept of each equation.<ol label="a" cols="3">
-            <li><p><m>3x+2y=1</m></p></li>
-            <li><p><m>2x- \dfrac{3}{2}y=3</m></p></li>
-            <li><p><m>4.2-0.3y=6.6</m></p></li></ol></p>
-</statement>
-<answer><p><ol label="a">
-    <li><p><m>y=\dfrac{-3}{2}x+\dfrac{1}{2}</m>; <m>m=\dfrac{-3}{2} </m>; <m>b=\dfrac{1}{2} </m></p></li>
-    <li><p><m>y=\dfrac{4}{3}x-2</m>; <m>m=\dfrac{4}{3} </m>; <m>b=-2 </m></p></li>
-    <li><p><m>y=14x-22</m>; <m>m=14 </m>; <m>b=-22 </m></p></li></ol></p></answer></exercise>
+<exercisegroup><introduction><p>For Problems 3 and 4, calculate the net change in coordinate from <m>P</m> to <m>Q</m>.</p></introduction>
 
-<exercise number="4"><statement><p>For each graph, calculate the net change in coordinate from <m>P</m> to <m>Q</m>.
-<ol label="a" cols="2">
+<exercise number="3"><statement><p><ol label="a" cols="2">
     <li><sidebyside width="60%" valign="middle"><image xml:id="fig-hw-1-5-4a"><description>vertical line segment</description><latex-image>
                         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%
@@ -89,6 +82,25 @@
                         \node[text width=1cm] at (1.5,-3.9){$\Delta h=$};
                         \end{tikzpicture}]]>
             </latex-image></image></sidebyside></li>
+    
+    <li><sidebyside width="60%" valign="middle"><image xml:id="fig-hw-1-5-4c"><description>horizontal line segment</description><latex-image>
+                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                        <![CDATA[\tikzset{%
+                        }
+                        \begin{tikzpicture} [scale=1]
+                        \draw[black,thick, ->, >=stealth'] (-2.1,0)--(2,0) node[above]{$r$};
+                        \draw[black,thick, ->, >=stealth'] (0,-.5)--(0,3.4) node[left]{$T$};
+                        \filldraw[red] (1.3,1.4) circle (.08) node[above, yshift=2] {$P(30,18)$};
+                        \filldraw[red] (-1.3,1.4) circle (.08) node[above, yshift=2, xshift=2] {$Q(-27,18)$};
+                        \draw[red,thick] (1.3,1.4) -- (-1.3,1.4);
+                        \node[text width=1cm] at (0,-1.1){$\Delta r=$};
+                        \end{tikzpicture}]]>
+            </latex-image></image></sidebyside></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>\Delta h = 22</m></li>
+    <li><m>\Delta r = -57</m></li></ol></p></answer></exercise>
+
+<exercise number="4"><statement><p><ol label="a" cols="2">
     <li><sidebyside width="60%" valign="middle"><image xml:id="fig-hw-1-5-4b"><description>vertical line segment</description><latex-image>
                         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%
@@ -102,27 +114,80 @@
                         \node[text width=1cm] at (1.5,-.9){$\Delta T=$};
                         \end{tikzpicture}]]>
             </latex-image></image></sidebyside></li>
-    <li><sidebyside width="60%" valign="middle"><image xml:id="fig-hw-1-5-4c"><description>horizontal line segment</description><latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                        <![CDATA[\tikzset{%
-                        }
-                        \begin{tikzpicture} [scale=1]
-                        \draw[black,thick, ->, >=stealth'] (-2.1,0)--(2,0) node[above]{$r$};
-                        \draw[black,thick, ->, >=stealth'] (0,-.5)--(0,3.4) node[left]{$T$};
-                        \filldraw[red] (1.3,1.4) circle (.08) node[above, yshift=2] {$P(30,18)$};
-                        \filldraw[red] (-1.3,1.4) circle (.08) node[above, yshift=2, xshift=2] {$Q(-27,18)$};
-                        \draw[red,thick] (1.3,1.4) -- (-1.3,1.4);
-                        \node[text width=1cm] at (0,-1.1){$\Delta r=$};
-                        \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></li></ol></p></statement></exercise>
+    <li></li>
+</ol></p></statement></exercise>
+</exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 5 and 6,
-            <ol label="a">
+</subexercises>
+
+<subexercises><title>Skills Practice</title>
+
+<exercisegroup cols="2"><introduction><p>For Problems 5-8,<ol label="a">
+    <li>Write the equation in slope-intercept form.</li>
+    <li>State the slope and the <m>y</m>-intercept of its graph.</li></ol></p></introduction>
+
+<exercise number="5"><statement><m>3x+2y=1</m></statement>
+<answer><p><ol label="a">
+    <li><m>y=\dfrac{-3}{2}x+\dfrac{1}{2}</m></li>
+    <li><m>m=\dfrac{-3}{2}; ~b=\dfrac{1}{2} </m></li></ol></p></answer></exercise>
+
+<exercise number="6"><statement><m>2x- \dfrac{3}{2}y=3</m></statement></exercise>
+
+<exercise number="7"><statement><m>4.2-0.3y=6.6</m></statement>
+<answer><p><ol label="a">
+    <li><m>y=14x-22</m></li>
+    <li><m>m=14; ~b=-22 </m></li></ol></p></answer></exercise>
+
+<exercise number="8"><statement><m>5x-4y=0</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 9 and 10,<ol label="a">
+    <li>Sketch the graph of the line with the given slope and <m>y</m>-intercept.</li>
+    <li>Write an equation for the line.</li>
+    <li>Find the <m>x</m>-intercept of the line.</li></ol></p></introduction>
+
+<exercise number="9"><statement><p><m>m=\dfrac{-5}{3}</m> and <m>b=-6</m></p></statement>
+<answer><p><ol label="a">
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><m>y=\dfrac{-5}{3}x-6</m></li>
+    <li><m>x=\dfrac{-18}{5}</m></li></ol></p></answer></exercise>
+
+<exercise number="10"><statement><p><m>m=\dfrac{3}{4}</m> and <m>b=-2</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>In Problems 11 and 12, choose the correct graph for each equation. The scales on both axes are the same.</p></introduction>
+
+    <exercise number="11"><statement><p>   <ol label="a" cols="2">
+                    <li><p><m>y = \dfrac{3}{4}x + 2</m></p></li>
+                    <li><p><m>y = \dfrac{-3}{4}x + 2</m></p></li>
+                    <li><p><m> y = \dfrac{3}{4}x - 2 </m></p></li>
+                    <li><p><m>y =\dfrac{-3}{4}x - 2</m></p></li>
+                </ol></p>
+        <sidebyside  width="70%"><image source="images/fig-ex-1-5-53"><description>four lines</description></image>
+            </sidebyside></statement>
+        <answer><p><ol label="a" cols="4">
+                <li><p>II</p></li>
+                <li><p>III</p></li>
+                <li><p>I</p></li>
+                <li><p>IV</p></li>
+            </ol></p></answer></exercise>
+
+    <exercise number="12"><statement><p>  <ol label="a" cols="2">
+                    <li><p><m>m\lt 0</m>, <m>b\gt 0</m></p></li>
+                    <li><p><m>m\gt 1</m>, <m>b\lt 0</m></p></li>
+                    <li><p><m>0\lt m\lt 1</m>, <m>b\lt 0</m></p></li>
+                    <li><p><m>m\lt -1</m>, <m>b\lt 0 </m></p></li>
+                </ol></p>
+        <sidebyside width="70%"><image source="images/fig-ex-1-5-54"><description>four lines</description></image>
+            </sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 13 and 14,<ol label="a">
                 <li><p>Graph the line that passes through the given point and has the given slope.</p></li>
                 <li><p>Write an equation for the line in point-slope form.</p></li>
                 <li><p>Put your equation from part (b) into slope-intercept form.</p></li></ol></p></introduction>
 
-<exercise number="5"><statement><p><m>(2,-5) </m>; <m>m=-3</m></p></statement>
+<exercise number="13"><statement><p><m>(2,-5) </m>; <m>m=-3</m></p></statement>
 <answer><p><ol label="a">
     <li><sidebyside width="35%" margins="0% 0%"><image xml:id="fig-hw-1-5-5ans"><description>line through (2,-5) with slope -3</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -142,47 +207,137 @@
     <li><p><m>y+5 = -3(x-2) </m></p></li>
     <li><p><m>y=-3x+1</m></p></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><p><m>(2,-1) </m>; <m>m=\dfrac{5}{3} </m></p></statement></exercise>
+<exercise number="14"><statement><p><m>(2,-1) </m>; <m>m=\dfrac{5}{3} </m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 7 and 8,<ol label="a">
-    <li><p>Write an equation in point-slope form for the line that passes through the given point and has the given slope.</p></li>
-    <li><p>Put your equation from part (a) into slope-intercept form.</p></li>
-    <li><p>Use your graphing utility to graph the line.</p></li></ol></p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 15 and 16, find an equation for the line that goes through the given points. Put your equation into slope-intercept form.</p></introduction>
 
-<exercise number="7"><statement><p><m>(-6.4,-3.5) </m>; <m>m=-0.25 </m></p></statement>
-<answer><p><ol label="a">
-    <li><p><m>y+3.5 = -0.25(x+6.4) </m></p></li>
-    <li><p><m>y=-0.25x -5.1</m></p></li></ol></p></answer></exercise>
-
-<exercise number="8"><statement><p><m>(80,-250) </m>; <m>m=2.4 </m></p></statement></exercise>
-</exercisegroup>
-
-<exercisegroup cols="2"><introduction><p>For Problems 9 and 10,  find an equation for the line that goes through the given points. Put your equation into slope-intercept form.</p></introduction>
-
-<exercise number="9"><statement><p><m>(-16,-24) </m>, <m>(8,72) </m></p></statement>
+<exercise number="15"><statement><p><m>(-16,-24) </m>, <m>(8,72) </m></p></statement>
 <answer><p><m>y=4x+40 </m></p></answer></exercise>
 
-<exercise number="10"><statement><p><m>(-5, 65) </m>, <m>(20,-145) </m></p></statement></exercise>
+<exercise number="16"><statement><p><m>(-5, 65) </m>, <m>(20,-145) </m></p></statement></exercise>
 </exercisegroup>
+
+<exercisegroup><introduction><p>In Problems 17 and 18, choose the correct graph for each equation. The scales on both axes are the same.</p></introduction>
+
+<exercise number="17"><statement><p>      <ol label="a" cols="2">
+                    <li><p><m>y = 1 + 2(x+3) </m></p></li>
+                    <li><p><m>y = -1 + 2(x-3)</m></p></li>
+                    <li><p><m> y = -1 + 2(x+3) </m></p></li>
+                    <li><p><m>y = 1 + 2(x-3) </m></p></li>
+                </ol></p>
+        <sidebyside  width="70%"><image source="images/fig-ex-1-5-55"><description>four lines</description></image>
+            </sidebyside></statement>
+        <answer><p><ol label="a" cols="4">
+                <li><p>III</p></li>
+                <li><p>IV</p></li>
+                <li><p>II</p></li>
+                <li><p>I</p></li>
+            </ol></p></answer></exercise>
+
+    <exercise number="18"><statement><p>     <ol label="a" cols="2">
+                    <li><p><m>y = 2 - \dfrac{2}{3}(x - 3) </m></p></li>
+                    <li><p><m>y = 2 - \dfrac{3}{2}(x + 3) </m></p></li>
+                    <li><p><m> y = 2 + \dfrac{3}{2}(x - 3) </m></p></li>
+                    <li><p><m>y = 2 + \dfrac{2}{3}(x + 3) </m></p></li>
+                </ol></p>
+        <sidebyside width="70%"><image source="images/fig-ex-1-5-56"><description>four lines</description></image>
+            </sidebyside></statement></exercise>
+</exercisegroup>
+
 </subexercises>
 
 <subexercises><title>Applications</title>
 
-<exercise number="11"><statement><p>The formula <m>F = \dfrac{9}{5} C + 32</m> converts the temperature in degrees Celsius to degrees Fahrenheit.<ol label="a">
-    <li><p>Calculate the Fahrenheit temperature when it is <m>10\degree</m> Celsius.</p></li>
-    <li><p>Calculate the Celsius temperature when it is <m>4\degree</m> Fahrenheit.</p></li>
-    <li><p>State the slope, including units, and explain its meaning for this problem.</p></li>
-    <li><p>Find the intercepts and explain their meanings for this problem.</p></li>
-    <li><p>Choose appropriate WINDOW settings and graph the equation
-            <md><mrow>y=\frac{9}{5}x+32</mrow></md></p></li></ol></p></statement>
-<answer><p><ol label="a">
-    <li><p><m>50 ~ \degree\text{F}</m> </p></li>
-    <li><p><m>-20 ~ \degree\text{C}</m> </p></li>
-    <li><p><m>\dfrac{9}{5} ~~\degree\text{F}/ \degree\text{C}</m>: Each <m>1\degree</m> change in Celsius temperature corresponds to a <m>\frac{9}{5}\degree </m> change in Fahrenheit temperature.</p></li>
-    <li><p><m>(0,32)</m>: <m>0\degree</m> Celsius is <m>32\degree</m> Fahrenheit; <m>(-17\frac{7}{9},0) </m>: <m>-17\frac{7}{9}\degree</m> Fahrenheit is <m>0\degree</m> Celsius</p></li></ol></p></answer></exercise>
+<exercisegroup><introduction><p>In Problems 19 and 20, <ol label="a">
+        <li><p>Find a formula for the function whose graph is shown.</p></li>
+        <li><p>Say what the slope and the vertical intercept tell us about the problem.</p></li>
+    </ol></p><p></p></introduction>
 
-<exercise number="12"><statement><p>European shoe sizes are scaled differently than American shoe sizes. The table shows the European equivalents for various American shoe sizes.</p>
+<exercise number="19"><statement><p>The graph shows the amount of money, <m>M</m> (in dollars), in Tammy’s bank account <m>w</m> weeks after she loses all sources of income.</p>
+        <sidebyside  width="70%"><image source="images/fig-ex-1-5-25"><description>dollars vs time</description></image>
+            </sidebyside></statement>
+        <answer><p><ol label="a">
+                <li><p><m>M = 7000 - 400w</m> </p></li>
+                <li><p>The slope tells us that Tammy's bank account is diminishing at a rate of $400 per week, the vertical intercept that she had $7000 (when she lost all sources of income).</p></li>
+            </ol></p></answer></exercise>
+
+<exercise number="20"><statement><p>The graph shows the distance, <m>d</m> (in meters), traveled by a train <m>t</m> seconds after it passes an observer.</p>
+        <sidebyside width="70%"><image source="images/fig-ex-1-5-22"><description>distance vs time</description></image>
+            </sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercise number="21"><statement><p>The boiling point of water changes with altitude and is approximated by the formula
+            <me>B = 212 - 0.0018h</me>
+where <m>B</m> is in degrees and <m>h</m> is in feet. State the slope and vertical intercept of the graph, including units, and explain their meaning in this context.</p></statement>
+<answer><p><m>m = -0.0018</m> degree/foot, so the boiling point drops with altitude at a rate of 0.0018 degree per foot. <m>b = 212</m>, so the boiling point is <m>212\degree</m> at sea level (where the elevation <m>h = 0</m>).</p>
+</answer></exercise>
+
+<exercise number="22"><statement><p> The height of a woman in centimeters is related to the length of her femur (in centimeters) by the formula 
+    <me>H = 2.47x + 54.10</me> 
+State the slope and the vertical intercept of the graph, including units, and explain their meaning in this context.</p></statement></exercise>
+
+<exercisegroup><introduction><p>In Problems 23<ndash/>26, we find a linear model from two data points.<ol label="a">
+        <li><p>Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?)</p></li>
+        <li><p>Find a linear equation relating the variables.</p></li>
+        <li><p>State the slope of the line, including units, and explain its meaning in the context of the problem.</p></li></ol></p></introduction>
+
+<exercise number="23"><statement><p>Flying lessons cost $645 for an 8-hour course and $1425 for a 20-hour course. Both prices include a fixed insurance fee.<ol label="a">
+    <li><p>Write an equation for the cost, <m>C</m>, of flying lessons in terms of the length, <m>h</m>, of the course in hours. <em>Hint</em>: Find two points <m>(h, C)</m> given in the problem. Find the equation of the line through those points.</p></li>
+    <li><p>Explain the meaning of the slope and the vertical intercept.</p></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+            <li><sidebyside width="50%" margins="0% 50%"><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+                        <row>
+                            <cell><m>h</m></cell>
+                            <cell><m>8</m></cell>
+                            <cell><m>20</m></cell></row>
+                        <row>
+                            <cell><m>C</m></cell>
+                            <cell><m>645</m></cell>
+                            <cell><m>1425</m></cell></row>
+                    </tabular></sidebyside></li>
+                <li><p><m>C=125+65h </m></p></li>
+                <li><p><m>m =65 </m>, the lesson rate is 65 dollars per hour</p></li>
+            </ol></p></answer></exercise>
+
+<exercise number="24"><statement><p>On an international flight, a passenger may check two bags each weighing <m>70</m> kilograms, or <m>154</m> pounds, and one carry-on bag weighing <m>50</m> kilograms, or <m>110</m> pounds. Express the weight, <m>p</m>, of a bag in pounds in terms of its weight, <m>k</m>, in kilograms.</p></statement></exercise>
+
+<exercise number="25"><statement><p>A radio station in Detroit, Michigan, reports the high and low temperatures in the Detroit/Windsor area as <m>59\degree</m>F and <m>23\degree</m>F, respectively. A station in Windsor, Ontario, reports the same temperatures as <m>15\degree</m>C and <m>-5\degree</m>C. Express the Fahrenheit temperature, <m>F</m>, in terms of the Celsius temperature, <m>C</m>.</p></statement>
+    <answer><p><ol label="a" cols="2">
+            <li><sidebyside width="50%" margins="0% 50%"><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+                        <row>
+                            <cell><m>C</m></cell>
+                            <cell><m>15</m></cell>
+                            <cell><m>-5</m></cell></row>
+                        <row>
+                            <cell><m>F</m></cell>
+                            <cell><m>59</m></cell>
+                            <cell><m>23</m></cell></row>
+                    </tabular></sidebyside></li>
+                <li><p><m>F=32+\dfrac{9}{5}C </m></p></li>
+                <li><p><m>m =\dfrac{9}{5} </m>, so an increase of <m>1\degree</m>C is equivalent to an increase of <m>\dfrac{9}{5}\degree</m>F.</p></li>
+            </ol></p></answer></exercise>
+
+<exercise number="26"><statement><p>Ms. Randolph bought a used car in 2010. In 2012, the car was worth $9000, and in 2015 it was valued at $4500. Express the value, <m>V</m>, of Ms. Randolph's car in terms of the number of years, <m>t</m>, she has owned it.</p></statement></exercise>
+</exercisegroup>
+
+<exercise number="27"><statement><p>If the temperature on the ground is <m>70\degree</m> Fahrenheit, the formula 
+    <me>T = 70 - \dfrac{3}{820}h</me> 
+gives the temperature at an altitude of <m>h</m> feet.<ol label="a">
+    <li><p>What is the temperature at an altitude of <m>4100</m> feet?</p></li>
+    <li><p>At what altitude is the temperature <m>34\degree</m> Fahrenheit?</p></li>
+    <li><p>Choose appropriate <c>WINDOW</c> settings and graph the equation <m>y = 70-\dfrac{3}{820}x</m>.</p></li>
+    <li><p>Find the slope and explain its meaning for this problem.</p></li>
+    <li><p>Find the intercepts and explain their meanings for this problem.</p></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><p><m>55\degree</m>F</p></li>
+    <li><p>9840 ft</p></li>
+    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><p><m>m=\dfrac{-3}{820}</m>. The temperature decreases 3 degrees for each increase in altitude of 820 feet.</p></li>
+    <li><p><m>(19,133 \frac{1}{3}, 0)</m>. At an altitude of <m>19,133 \frac{1}{3}</m> feet, the temperature is <m>0\degree</m>F. <m>(0,70)</m>. At an altitude of 0 feet, the temperature isF. <m>70\degree</m>F.</p></li></ol></p>
+</answer></exercise>
+
+<exercise number="28"><statement><p>European shoe sizes are scaled differently than American shoe sizes. The table shows the European equivalents for various American shoe sizes.</p>
         <sidebyside><tabular top="minor" bottom="minor" right="minor" left="minor">
             <col halign="left"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/>
             <row>
@@ -220,7 +375,7 @@
     <li><p>Calculate the slope of your line. Estimate the <m>y</m>-intercept from the graph.</p></li>
     <li><p>Find an equation that gives the European shoe size, <m>E</m>, in terms of the American shoe size, <m>A</m>.</p></li></ol></p></statement></exercise>
 
-<exercise number="13"><statement><p>The table shows the amount of ammonium chloride salt, in grams, that can be dissolved in 100 grams of water at different temperatures.</p>
+<exercise number="29"><statement><p>The table shows the amount of ammonium chloride salt, in grams, that can be dissolved in 100 grams of water at different temperatures.</p>
         <sidebyside><tabular top="minor" bottom="minor" right="minor" left="minor">
             <col halign="left"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/>
             <row>
@@ -294,48 +449,32 @@
     <li><p><m>y= \dfrac{1}{2}x + 28 </m></p></li>
     <li><p><m>36\degree\text{C}</m></p></li></ol></p></answer></exercise>
 
-<exercise number="14"><statement><p>Flying lessons cost $645 for an 8-hour course and $1425 for a 20-hour course. Both prices include a fixed insurance fee.<ol label="a">
-    <li><p>Write an equation for the cost, <m>C</m>, of flying lessons in terms of the length, <m>h</m>, of the course in hours. <em>Hint</em>: Find two points <m>(h, C)</m> given in the problem. Find the equation of the line through those points.</p></li>
-    <li><p>Explain the meaning of the slope and the vertical intercept.</p></li></ol></p></statement></exercise>
-
-<exercise number="15"><statement><p>Here is part of a typical income tax schedule: A single taxpayer owes $1500 plus 20% of the amount of their income over $13,000.<ol label="a">
-    <li><p>Complete the table of values for the tax, <m>T</m>, on various incomes, <m>I</m>.</p>
-            <sidebyside><tabular top="minor" bottom="minor" right="minor" left="minor" halign="center">
-                        <row>
-                            <cell><m>I</m></cell>
-                            <cell>15,000</cell>
-                            <cell>20,000</cell>
-                            <cell>22,000</cell></row>
-                        <row>
-                            <cell><m>T</m></cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell></row>
-                    </tabular></sidebyside></li>
-    <li><p>Let <m>I</m> represent income and write an expression for "the amount of income over $13,000." Use your expression to write a linear equation in point-slope form for the tax, <m>T</m>.</p></li>
-    <li><p>Write the equation in slope-intercept form. Does the vertical intercept have a meaning in this situation? Which form of the equation is more useful, the slope-intercept form or the point-slope form?</p></li></ol></p>
-</statement>
-<answer><p><ol label="a">
-    <li><sidebyside width="40%" margins="0% 0%"><tabular top="minor" bottom="minor" right="minor" left="minor" halign="center">
-                <row>
-                    <cell><m>I</m></cell>
-                    <cell>15,000</cell>
-                    <cell>20,000</cell>
-                    <cell>22,000</cell></row>
-                <row>
-                    <cell><m>T</m></cell>
-                    <cell>1900</cell>
-                    <cell>2900</cell>
-                    <cell>3300</cell></row>
-            </tabular></sidebyside></li>
-    <li><p><m>T=1500+0.20(I-13,000)</m></p></li>
-    <li><p><m>T=0.20I-1,100</m></p></li></ol></p></answer></exercise>
-
-<exercise number="16"><statement><p>Compare the graphs of <m>y = 2x + 2</m> and <m>y = 2</m>.<ol label="a">
-    <li><p>What can you say about the graph of any equation <m>y = mx + b</m> if <m>b = 0</m>?</p></li>
-    <li><p>Explain why you cannot use the intercept method to graph the equation <m>y = mx</m>. What should you do instead?</p></li>
-    <li><p>What can you say about the graph of any equation <m>y = mx + b</m> if <m>m = 0</m>?</p></li>
-    <li><p> What is the slope of any horizontal line?</p></li></ol></p></statement></exercise>
+<exercise number="30"><statement><p>A spring is suspended from the ceiling. The table shows the length of the spring in centimeters as it is stretched by hanging various weights from it.</p>
+                <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell>Weight, kg</cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>22</m></cell></row>
+                    <row>
+                        <cell>Length, cm</cell>
+                        <cell><m>25.76</m></cell>
+                        <cell><m>25.88</m></cell>
+                        <cell><m>26.36</m></cell>
+                        <cell><m>26.6</m></cell>
+                        <cell><m>26.84</m></cell>
+                        <cell><m>27.2</m></cell>
+                        <cell><m>28.04</m></cell></row>
+                </tabular></sidebyside>
+                <p><ol label="a">
+                    <li><p>Plot the data on graph paper and draw a straight line through the points. Estimate the <m>y</m>-intercept of your graph.</p></li>
+                    <li><p>Find an equation for the line.</p></li>
+                    <li><p>If the spring is stretched to <m>27.56</m> cm, how heavy is the attached weight?</p></li>
+                </ol></p></statement></exercise>
 
 </subexercises>
 

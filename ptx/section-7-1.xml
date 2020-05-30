@@ -5,86 +5,6 @@
 
 <subsection><title>Introduction</title>
 
-<investigation xml:id="investigation-population-growth"><title>Population Growth</title>
-
-<statement><p>In a laboratory experiment, researchers establish a colony of <m>100</m> bacteria and monitor its growth. The colony triples in population every day.</p>    
-    <sidebyside widths="50% 40%" margins="0% 0%"><p>
-    <ol label="1">
-        <li><p>Fill in the table showing the population <m>P(t)</m> of bacteria <m>t</m> days later.</p></li>
-        <li><p>Plot the data points from the table and connect them with a smooth curve.</p></li>
-        <li><p>Write a function that gives the population of the colony at any time <m>t</m>, in days.
-        <em>Hint:</em> Express the values you calculated in part (1) using powers of <m>3</m>. Do you see a connection between the value of <m>t</m> and the exponent on <m>3</m>?</p></li>
-        <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate domain and range.) The graph should resemble your hand-drawn graph from part (2).</p></li>
-        <li><p>Evaluate your function to find the number of bacteria present after <m>8</m> days. How many bacteria are present after <m>36</m> hours?</p></li>
-    </ol></p>
-        <stack>
-            <tabular halign="center" right="minor" left="minor" bottom="minor">
-                <col top="minor" />
-                <col top="minor" />
-                <col top="none" />
-                <col halign="left"/>
-                        
-                <row bottom="minor">
-                    <cell><m>~t~</m></cell>
-                    <cell><m>P(t)</m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"></cell></row>
-                <row> 
-                    <cell><m>~0~</m></cell>
-                    <cell><m>100</m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(0)=100}</m></cell></row>
-                <row> 
-                    <cell><m>~1~</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(1)=100\cdot 3=}</m></cell></row>
-                <row> 
-                    <cell><m>~2~</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(2)=[100\cdot 3]\cdot 3=}</m></cell></row>
-                <row> 
-                    <cell><m>~3~</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(3)=}</m></cell></row>
-                <row> 
-                    <cell><m>~4~</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(4)=}</m></cell></row>
-                <row> 
-                    <cell><m>~5~</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(5)=}</m></cell></row>
-            </tabular><p></p>
-        <image xml:id="fig-grid-for-bacteria-population"><description>grid for graph of bacteria population</description>
-                <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} [xscale=.4, yscale=.35] 
-                \draw[cyan] (0,0) grid (10,26);
-                \draw[black,thick,->,>=stealth'] (0,0)--(10.8,0) node[right]{$t$};
-                \draw[black,thick,->,>=stealth'] (0,0)--(0,26.8) node[left]{$P$};
-                \foreach \x [evaluate=\x as \xi using int(\x/2)] in {2,4,6,8,10} {
-                  \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
-                }
-                \foreach \x [evaluate=\x as \xi using int(1000*\x)] in {5} {
-                  \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
-                }
-                \draw[black,thick] (.15,10)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$10,000$};
-                \draw[black,thick] (.15,15)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$15,000$};
-                \draw[black,thick] (.15,20)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$20,000$};
-                \draw[black,thick] (.15,25)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$25,000$};
-                \node[text=white] at (12,0) {0};
-                \end{tikzpicture}]]>
-                </latex-image></image></stack></sidebyside>
-    </statement>
-</investigation>
-
 <p>The function in <xref ref="investigation-population-growth" text="type-global"/> describes <term>exponential growth</term>. During each time interval of a fixed length, the population is multiplied by a certain constant amount. In this case, the bacteria population grows by a factor of <m>3</m> every day.</p>
 <sidebyside width="60%"><image source="images/fig-table-bacteria-population"><description>table of bacteria population</description></image></sidebyside>
 
@@ -144,7 +64,7 @@
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
 
-<p>The function  describes <term>exponential growth</term><idx>exponential growth</idx>.  During each time interval of a fixed length the population is <em>multiplied</em> by a certain constant amount, in this case by 2. Because the population grew by a factor of 2 every day, we say that 2 is the <term>growth factor</term><idx>growth factor</idx> for the function. Functions that describe exponential growth can be expressed in a standard form.</p>
+<p>Because the fruit fly population grows by a factor of 2 every day, the function <m>P(t)</m> describes exponential growth. Functions that describe exponential growth can be expressed in a standard form.</p>
 
 <assemblage><title>Exponential Growth</title>
 <p>The function
@@ -511,58 +431,6 @@ whose graphs are shown below.</p>
 <p>In the examples above, exponential growth was modeled by increasing functions of the form
     <me>P(t) = P_0 b^t</me>
  where the growth factor, <m>b</m>, is a number greater than 1. If we multiply the function value by a number smaller than 1, the function values will decrease. Thus, if <m>0 \lt b \lt 1</m>, then <m>P(t) = P_0b^t</m> is a <em>decreasing</em> function. In this case, we say that the function describes <term>exponential decay</term>, and the constant <m>b</m> is called the <term>decay factor</term><idx>decay factor</idx>.</p>
-
- <investigation xml:id="investigation-exponential-decay"><title>Exponential Decay</title>
-
- <statement><p>A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals), the population declined to approximately 0.90 of its earlier figure.</p>
-    <sidebyside><tabular halign="center" right="minor" left="minor" bottom="minor"><col top="minor" /><col top="minor" /><col top="none"/><col halign="left"/>                      
-                <row bottom="minor">
-                    <cell><m>t</m></cell>
-                    <cell><m>P(t)</m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"></cell></row>
-                <row> 
-                    <cell><m>0</m></cell>
-                    <cell><m>5000</m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(0)=5000}</m></cell></row>
-                <row> 
-                    <cell><m>10</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(10)=5000\cdot 0.90=}</m></cell></row>
-                <row> 
-                    <cell><m>20</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(20)=[5000\cdot 0.90]\cdot 0.90=}</m></cell></row>
-                <row> 
-                    <cell><m>30</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(3)=}</m></cell></row>
-                <row> 
-                    <cell><m>40</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(4)=}</m></cell></row>
-                <row> 
-                    <cell><m>50</m></cell>
-                    <cell><m></m></cell>
-                    <cell right="none" bottom="none"></cell>
-                    <cell right="none" bottom="none"><m>\blert{P(5)=}</m></cell></row>
-            </tabular></sidebyside>
-        <sidebyside widths="62% 32%" valigns="middle middle"><p>
-    <ol label="1"> 
-        <li><p>Fill in the table showing the population <m>P(t)</m> of the town <m>t</m> years after 1940.</p></li>
-        <li><p>Plot the data points and connect them with a smooth curve. </p></li>
-        <li><p>Write a function that gives the population of the town at any time <m>t</m> in years after 1940.
-            <hint><p>Express the values you calculated in part (1) using powers of <m>0.90</m>. Do you see a connection between the value of <m>t</m> and the exponent on <m>0.90</m>?</p></hint></p></li>
-        <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate domain and range.) The graph should resemble your hand-drawn graph from part (2).</p></li>
-        <li>Evaluate your function to find the population of the town in 1995. What was the population in 2000?</li>
-    </ol></p>      
-        <image source="images/fig-grid-for-population-decay"><description>grid </description></image></sidebyside>
-</statement></investigation>
 
 <example><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined by a factor of 0.942 each year.<ol label="a">
     <li>In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of <m>t</m>, the number of years after 1944.</li>

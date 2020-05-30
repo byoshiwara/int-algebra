@@ -873,3 +873,87 @@ Answer to Hmwk 3.3 #14:
                     \end{tikzpicture}]]>
                 </latex-image></image></sidebyside>
         <p>Carol: The speeds are given by the slopes of their graphs.</p></li></ol></p></answer></exercise>
+
+
+<exercisegroup cols="2"><introduction><p>For Problems 7 and 8,<ol label="a">
+    <li><p>Write an equation in point-slope form for the line that passes through the given point and has the given slope.</p></li>
+    <li><p>Put your equation from part (a) into slope-intercept form.</p></li>
+    <li><p>Use your graphing utility to graph the line.</p></li></ol></p></introduction>
+
+<exercise number="7"><statement><p><m>(-6.4,-3.5) </m>; <m>m=-0.25 </m></p></statement>
+<answer><p><ol label="a">
+    <li><p><m>y+3.5 = -0.25(x+6.4) </m></p></li>
+    <li><p><m>y=-0.25x -5.1</m></p></li></ol></p></answer></exercise>
+
+<exercise number="8"><statement><p><m>(80,-250) </m>; <m>m=2.4 </m></p></statement></exercise>
+</exercisegroup>
+
+
+<exercise number="16"><statement><p>Compare the graphs of <m>y = 2x + 2</m> and <m>y = 2</m>.<ol label="a">
+    <li><p>What can you say about the graph of any equation <m>y = mx + b</m> if <m>b = 0</m>?</p></li>
+    <li><p>Explain why you cannot use the intercept method to graph the equation <m>y = mx</m>. What should you do instead?</p></li>
+    <li><p>What can you say about the graph of any equation <m>y = mx + b</m> if <m>m = 0</m>?</p></li>
+    <li><p> What is the slope of any horizontal line?</p></li></ol></p></statement></exercise>
+
+<exercise number="15"><statement><p>Here is part of a typical income tax schedule: A single taxpayer owes $1500 plus 20% of the amount of their income over $13,000.<ol label="a">
+    <li><p>Complete the table of values for the tax, <m>T</m>, on various incomes, <m>I</m>.</p>
+            <sidebyside><tabular top="minor" bottom="minor" right="minor" left="minor" halign="center">
+                        <row>
+                            <cell><m>I</m></cell>
+                            <cell>15,000</cell>
+                            <cell>20,000</cell>
+                            <cell>22,000</cell></row>
+                        <row>
+                            <cell><m>T</m></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell></row>
+                    </tabular></sidebyside></li>
+    <li><p>Let <m>I</m> represent income and write an expression for "the amount of income over $13,000." Use your expression to write a linear equation in point-slope form for the tax, <m>T</m>.</p></li>
+    <li><p>Write the equation in slope-intercept form. Does the vertical intercept have a meaning in this situation? Which form of the equation is more useful, the slope-intercept form or the point-slope form?</p></li></ol></p>
+</statement>
+<answer><p><ol label="a">
+    <li><sidebyside width="40%" margins="0% 0%"><tabular top="minor" bottom="minor" right="minor" left="minor" halign="center">
+                <row>
+                    <cell><m>I</m></cell>
+                    <cell>15,000</cell>
+                    <cell>20,000</cell>
+                    <cell>22,000</cell></row>
+                <row>
+                    <cell><m>T</m></cell>
+                    <cell>1900</cell>
+                    <cell>2900</cell>
+                    <cell>3300</cell></row>
+            </tabular></sidebyside></li>
+    <li><p><m>T=1500+0.20(I-13,000)</m></p></li>
+    <li><p><m>T=0.20I-1,100</m></p></li></ol></p></answer></exercise>
+
+
+<sidebyside width="60%" margins="0% 40%"><image source="images/shutterstock_67170118.jpg"><description>squirrel</description></image></sidebyside>
+        <sidebyside width="60%" margins="0% 40%"><image source="images/squirrel.jpg"><description>squirrel</description></image></sidebyside>
+
+    <p>
+        <term>Linear programming</term><idx>linear programming</idx> is an application of linear systems developed in the 1940s to solve complex optimization problems during wartime operations. Today linear programming is used for scheduling and allocation of resources, in shipping and telecommunications networks, and in the selection of stocks and bonds for portfolios. In 1980, the computer scientist Laszlo Lovasz said that "If one would take statistics about which  mathematical problem is using up most of the computer time in the world, ... the answer would probably be linear programming."
+    </p>
+    <p>
+        George Dantzig (1914-2005) invented the simplex method for solving linear programming problems in 1947. His first application of the method was to determine an adequate diet of least cost. This problem involved nine equations in 77 unknowns, and took 120 days to solve using the desk calculators available at the time. In this chapter we use a graphing technique to solve problems in two unknowns. For example, the diet of the Columbian ground squirrel consists of two foods: grass and forb, a type of flowering weed. Small animals spend most of their time foraging for food, but must also be alert for predators. Which foraging strategy favors survival: should the squirrel try to satisfy its dietary requirements in minimum time, thus minimizing its exposure to predators and the elements, or should it try to maximize its intake of nutrients?
+    </p>
+    <p>
+        Using linear programming, Gary Belovsky of Notre Dame University identified the optimal amounts of forb and grass for each foraging strategy. We can compare those solutions to the squirrel's actual diet to see which strategy the squirrel favors.
+    </p>
+    <sidebyside>
+    <image source="images/fig-minimize-time-eating">
+      <description>
+        feasible set with different times
+      </description>
+    </image>
+    <image source="images/fig-maximize-energy">
+      <description>
+        feasible set with different energy consumed
+      </description>
+    </image>
+    </sidebyside>
+
+
+
+    
