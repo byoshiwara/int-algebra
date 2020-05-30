@@ -1,62 +1,209 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chap3"  xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Quadratic Models</title>
-    <introduction>
+<chapter xml:id="chap3"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Quadratic Models</title>
+    
+<introduction>
     <sidebyside width="60%" margins="0% 40%"><image source="images/shutterstock_106917041.jpg"><description>ball on inclined plane</description></image></sidebyside>
-    <p>
-        The models we have explored so far are linear models; their graphs are straight lines. In this chapter, we investigate problems where the graph may change from increeasing to decreasing, or vice versa. The simplest sort of function that models this behavior is a quadratic function, one that involves the square of the variable.
-    </p>
-    <p>
-        Around 1600, Galileo began to study the motion of falling objects. He used a ball rolling down an inclined plane or ramp to slow down the motion, but he had no accurate way to measure time; clocks had not been invented yet. So he used water running into a jar to mark equal time intervals.
-    </p>
-    <sidebyside widths="66% 20%" margins="0% 0%"  valigns="middle middle">>
-        <image source="images/fig-inclined-plane"><description>position of rolling ball marked on incline plane</description></image>
-        <image source="images/fig-inclined-plane-graph"><description>graph of ball rolling down inclined plane</description></image>
-    </sidebyside>
+    
+<p>The models we have explored so far are linear models; their graphs are straight lines. In this chapter, we investigate problems where the graph may change from increeasing to decreasing, or vice versa. The simplest sort of function that models this behavior is a quadratic function, one that involves the square of the variable.</p>
+    
+<p>Around 1600, Galileo began to study the motion of falling objects. He used a ball rolling down an inclined plane or ramp to slow down the motion, but he had no accurate way to measure time; clocks had not been invented yet. So he used water running into a jar to mark equal time intervals.</p>
+    
+    <sidebyside widths="66% 20%" margins="0% 0%"  valigns="middle middle"><image source="images/fig-inclined-plane"><description>position of rolling ball marked on incline plane</description></image>
+        
+    <image source="images/fig-inclined-plane-graph"><description>graph of ball rolling down inclined plane</description></image></sidebyside>
 
-    <sidebyside widths="65% 30%" margins="0% 0%" valigns="middle middle">
-        <p>
-            After many trials, Galileo found that the ball traveled 1 unit of distance down the plane in the first time interval, 3 units in the second time interval, 5 units in the third time interval, and so on, as shown in the figure, with the distances increasing through odd units of distance as time went on. 
-        </p>
+<sidebyside widths="65% 30%" margins="0% 0%" valigns="middle middle">
+<p>After many trials, Galileo found that the ball traveled 1 unit of distance down the plane in the first time interval, 3 units in the second time interval, 5 units in the third time interval, and so on, as shown in the figure, with the distances increasing through odd units of distance as time went on. </p>
 
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
             <row bottom="major">
                 <cell>Time</cell>
                 <cell><line>Distance</line><line>traveled</line></cell>
-                <cell><line>Total</line><line>distance</line></cell>
-            </row>
+                <cell><line>Total</line><line>distance</line></cell></row>
             <row>
                 <cell><m>1</m></cell>
                 <cell><m>1</m></cell>
-                <cell><m>1</m></cell>
-            </row>
+                <cell><m>1</m></cell></row>
             <row>
                 <cell><m>2</m></cell>
                 <cell><m>3</m></cell>
-                <cell><m>5</m></cell>
-            </row>
+                <cell><m>5</m></cell></row>
             <row>
                 <cell><m>3</m></cell>
                 <cell><m>5</m></cell>
-                <cell><m>9</m></cell>
-            </row>
+                <cell><m>9</m></cell></row>
             <row>
                 <cell><m>4</m></cell>
                 <cell><m>7</m></cell>
-                <cell><m>16</m></cell>
-            </row>
+                <cell><m>16</m></cell></row>
             <row>
                 <cell><m>5</m></cell>
                 <cell><m>9</m></cell>
-                <cell><m>25</m></cell>
-            </row>
-        </tabular>
-    </sidebyside>
+                <cell><m>25</m></cell></row>
+        </tabular></sidebyside>
 
-    <p>
-        The total distance traveled by the ball can be modeled by the equation, <m>d = kt^2</m>, where <m>k</m> is a constant. Galileo found that this relationship holds no matter how steep he made the ramp. If we plot the height of the ball (rather than the distance traveled) as a function of time, we obtain a portion of the graph of a quadratic function.
-    </p>
-    </introduction>
+<p>The total distance traveled by the ball can be modeled by the equation, <m>d = kt^2</m>, where <m>k</m> is a constant. Galileo found that this relationship holds no matter how steep he made the ramp. If we plot the height of the ball (rather than the distance traveled) as a function of time, we obtain a portion of the graph of a quadratic function.</p>
+    
+<investigation><title>Investigation 3A: Falling</title>
+
+<p>Suppose you drop a small object from a height and let it fall under the influence of gravity.
+Does it fall at the same speed throughout its descent? The diagram shows a sequence of photographs of a steel ball falling onto a table. The photographs were taken using a stroboscopic flash at intervals of 0.05 second, and a scale on the left side shows the height of the ball, in feet, at each interval.</p>
+
+    <sidebyside width="90%"><image source="images/fig-inv-falling-object"><description>photos of falling object and grid</description></image></sidebyside>
+
+<p><ol label="1">
+<li><p>Complete the table showing the height of the ball at each 0.05-second interval. Measure the height at the bottom of the ball in each image. The first photo was taken at time <m>t=0</m>.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>0.05</m></cell>
+                        <cell><m>0.10</m></cell>
+                        <cell><m>0.15</m></cell>
+                        <cell><m>0.20</m></cell>
+                        <cell><m>0.25</m></cell>
+                        <cell><m>0.30</m></cell>
+                        <cell><m>0.35</m></cell>
+                        <cell><m>0.40</m></cell>
+                        <cell><m>0.45</m></cell>
+                        <cell><m>0.50</m></cell></row>
+                    <row> 
+                        <cell><m>h</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></li>
+
+<li><p>Plot the points in the table. Connect the points with a smooth curve to sketch a graph of height versus elapsed time. Is the graph linear?</p></li>
+
+<li><p>Use your graph to estimate the time elapsed when the ball is 3.5 feet high, and when it is 1 foot high.</p></li>
+
+<li><p>What was the change in the ball’s height during the first quarter second, from <m>t=0</m> to <m>t=0.25</m> ? What was the change in the ball’s height from <m>t=0.25</m> to <m>t=0.50</m> ?</p></li>
+
+<li><p>Add to your graph a line segment connecting the points at <m>t=0</m> and <m>t=0.25</m>, and a second line segment connecting the points at <m>t=0.25</m> and <m>t=0.50</m>. Compute the slope of each line segment.</p></li>
+
+<li><p>What do the slopes in part (5) represent in terms of the problem?</p></li>
+
+<li><p>Use your answers to part (4) to verify algebraically that the graph is not linear.</p></li>
+</ol></p></investigation>
+
+<investigation><title>Investigation 3B: Perimeter and Area</title>
+
+<p><sidebyside widths="65% 25%" margins="0% 0%" valigns="middle middle">
+Do all rectangles with the same perimeter, say 36 inches, have the same area? Two different rectangles with perimeter 36 inches are shown. The first rectangle has base 10 inches and height 8 inches, and its area is 80 square inches. The second rectangle has base 12 inches and height 6 inches. Its area is 72 square inches.</p>
+    <image source="images/fig-two-rectangles-perimeter-36"><description>graph</description></image></sidebyside></p>
+
+<p><ol label="1">
+<li><p>The table shows the bases of various rectangles, in inches. Each rectangle has a perimeter of 36 inches. Fill in the height and the area of each rectangle. (To find the height of the rectangle, reason as follows: The base plus the height makes up half of the rectangle’s perimeter.)</p>
+
+<sidebyside widths="30% 65%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor">Base</cell>
+                        <cell bottom="minor">Height</cell>
+                        <cell bottom="minor">Area</cell></row>
+                    <row>
+                        <cell bottom="minor"><m>10</m></cell>
+                        <cell bottom="minor"><m>8</m></cell>
+                        <cell bottom="minor"><m>80</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>12</m></cell>
+                        <cell bottom="minor"><m>6</m></cell>
+                        <cell bottom="minor"><m>72</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>14</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>5</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>17</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>19</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>11</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>16</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row> 
+                    <row>
+                        <cell bottom="minor"><m>15</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>6</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>8</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                
+                    <row><cell bottom="minor"><m>13</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>7</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                 </tabular>
+    <image source="images/fig-grid-area-vs-perimeter"><description>grid</description></image></sidebyside></li>
+
+<li><p>What happens to the area of the rectangle when we change its base? On the grid above, plot the points with coordinates (Base, Area). (For this graph we will not use the heights of the rectangles.) The first two points, <m>(10, 80)</m> and <m>(12, 72)</m>, are shown. Connect your data points with a smooth curve.</p></li>
+
+<li><p>What are the coordinates of the highest point on your graph?</p></li>
+
+<li><p>Each point on your graph represents a particular rectangle with perimeter 36 inches. The first coordinate of the point gives the base of the rectangle, and the second coordinate gives the area of the rectangle. What is the largest area you found among rectangles with perimeter 36 inches? What is the base for that
+rectangle? What is its height?</p></li>
+
+<li><p>Describe the rectangle that corresponds to the point <m>(13, 65)</m>.</p></li>
+
+<li><p>Find two points on your graph with vertical coordinate 80.</p></li>
+
+<li><p>If the rectangle has area 80 square inches, what is its base? Why are there two different answers here? Describe the rectangle corresponding to each answer.</p></li>
+
+<li><p>Now we’ll write an algebraic expression for the area of the rectangle in terms of its base. Let <m>x</m> represent the base of the rectangle. First, express the height of the rectangle in terms of <m>x</m>. (Hint: If the perimeter of the rectangle is 36 inches, what is the sum of the base and the height?) Now write an expression for the area of the rectangle in terms of <m>x</m>.</p></li>
+
+<li><p>Use your formula from part (8) to compute the area of the rectangle when the base is 5 inches. Does your answer agree with the values in your table and the point on your graph?</p></li>
+
+<li><p>Use your formula to compute the area of the rectangle when <m>x=0</m> and when <m>x=18</m>. Describe the “rectangles” that correspond to these data points.</p></li>
+
+<li><p>Continue your graph to include the points corresponding to <m>x=0</m> and to <m>x=18</m>.</p></li>
+</ol></p></investigation>
+
+</introduction>
     
     <xi:include href="./section-3-1.xml" /> <!--Extraction of roots -->
     <xi:include href="./section-3-2.xml" /> <!--Intercepts,... -->
