@@ -120,7 +120,7 @@
 			<li><m>h(x) = e^x + 2</m></li>
 		</ol></p></statement>
 
-<solution><sidebyside width="30%"><image source="images/fig-translate-exponential"><description>translations of the exponential</description></image></sidebyside>
+<solution><sidebyside width="35%"><image source="images/fig-translate-exponential"><description>translations of the exponential</description></image></sidebyside>
 <p> The graph of <m>g</m> is shifted <m>2</m> units to the left of <m>y = e^x</m>. The graph of <m>h</m> is shifted <m>2</m> units up from <m>y = e^x</m>. The graphs are shown above.</p></solution></example>
 </subsection>
 
@@ -354,14 +354,14 @@ In general, natural logs obey the same conversion formulas that work for logs to
 <solution><p>First, we divide each side by <m>20</m> to obtain
 		<me>7 = e^{0.4x}</me>
 	Then we convert the equation to logarithmic form.
-		<md><mrow>0.4x \amp = \ln 7 \amp\amp \blert{\text{Divide both sides by 0.4.}}</mrow>
+		<md><mrow>0.4x \amp = \ln 7 \amp\amp \glert{\text{Divide both sides by 0.4.}}</mrow>
 		    <mrow>x \amp= \frac{\ln 7}{0.4}</mrow></md>
 	Rounded to four decimal places, <m>x \approx 4.8648</m>.</p></solution></example>
 
 <note><p>We can also solve the equation in <xref ref="example-solve-natural-exponential" text="type-global"/>,
 	<me>7 = e^{0.4x}</me>
 by taking the natural logarithm of both sides. This gives us
-	<md><mrow>\ln 7 \amp = \ln e^{0.4x}\amp\amp \blert{\text{Simplify the right side.}}</mrow>
+	<md><mrow>\ln 7 \amp = \ln e^{0.4x}\amp\amp \glert{\text{Simplify the right side.}}</mrow>
 	   <mrow>\ln 7 \amp = 0.4x</mrow></md>
 because <m>\ln{e^a} = a</m> for any number <m>a</m>. We then proceed with the solution as before.</p></note>
 
@@ -383,9 +383,9 @@ because <m>\ln{e^a} = a</m> for any number <m>a</m>. We then proceed with the so
 <solution><p>We multiply both sides of the equation by the denominator, <m>1 + be^{-kt}</m>, to get
 		<me>P(1 + be^{-kt} ) = a</me>
 Then we isolate the power, <m>e^{-kt}</m>, as follows:
-		<md><mrow>1 + be^{-kt} \amp = \frac{a}{P}\amp\amp \blert{\text{Subtract 1 from both sides.}}</mrow>
-		    <mrow>be^{-kt} \amp = \frac{a}{P}- 1 \amp\amp \blert{\text{Rewrite the right side. }}</mrow>
-		  <mrow>be^{-kt} \amp = \frac{a - P}{P}\amp\amp \blert{\text{Divide both sides by }b.}</mrow>
+		<md><mrow>1 + be^{-kt} \amp = \frac{a}{P}\amp\amp \glert{\text{Subtract 1 from both sides.}}</mrow>
+		    <mrow>be^{-kt} \amp = \frac{a}{P}- 1 \amp\amp \glert{\text{Rewrite the right side. }}</mrow>
+		  <mrow>be^{-kt} \amp = \frac{a - P}{P}\amp\amp \glert{\text{Divide both sides by }b.}</mrow>
 		  <mrow>e^{-kt} \amp= \frac{a - P}{bP}</mrow></md>
 	Next, we take the natural logarithm of both sides to get
 		<me>\ln {e^{-kt}} = \ln{\frac{a - P}{bP}}</me>
@@ -506,8 +506,8 @@ Thus, for negative values of <m>k</m>, the function <m>P(t) = P_0 e^{kt}</m> des
 <example xml:id="example-write-decay-with-e"><statement><p>Express the decay law <m>N(t) = 60 (0.8)^t</m> in the form <m>N(t) = N_0 e^{kt}</m>.</p></statement>
 
 <solution><p>For this decay law, <m>N_0 = 60</m> and <m>b = 0.8</m>. We would like to find a value for <m>k</m> so that <m>e^k = b = 0.8</m>, that is, we must solve the equation
-		<md><mrow>e^k \amp = 0.8\amp\amp \blert{\text{Take natural log of both sides.}}</mrow>
-		  <mrow>\ln e^k\amp = \ln 0.8\amp\amp \blert{\text{Simplify.}}</mrow>
+		<md><mrow>e^k \amp = 0.8\amp\amp \glert{\text{Take natural log of both sides.}}</mrow>
+		  <mrow>\ln e^k\amp = \ln 0.8\amp\amp \glert{\text{Simplify.}}</mrow>
 		  <mrow>k\amp = \ln 0.8 \approx -0.2231</mrow></md>
 Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
 		<me>N(t) \approx 60e^{-0.2231t}</me></p></solution></example>
@@ -607,7 +607,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="35%"><image source="images/fig-in-ex-ans-5-3-8.jpg"><description>decay</description></image></sidebyside>
+        <sidebyside width="35%"><image source="images/fig-krypton-91-decay"><description>decay</description></image></sidebyside>
     </conclusion>
 </exercise>
 </subsection>
@@ -663,9 +663,9 @@ where <m>P</m> is the principal invested.</p>
 			     <mrow>\amp \approx 500(2.2255) = 1112.77</mrow></md>
 		The account will be worth $<m>1112.77</m> after <m>10</m> years.</li>
 		<li>We substitute <m>1000</m> for <m>A(t)</m> and solve the equation.
-			<md><mrow>1000 \amp= 500 e^{0.08t}\amp\amp \blert{\text{Divide both sides by 500.}}</mrow>
-			     <mrow>2 \amp = e^{0.08t}\amp\amp \blert{\text{Take natural log of both sides.}}</mrow>
-			     <mrow>\ln 2 \amp= \ln e^{0.08t} = 0.08t\amp\amp \blert{\text{Divide both sides by 0.08.}}</mrow>
+			<md><mrow>1000 \amp= 500 e^{0.08t}\amp\amp \glert{\text{Divide both sides by 500.}}</mrow>
+			     <mrow>2 \amp = e^{0.08t}\amp\amp \glert{\text{Take natural log of both sides.}}</mrow>
+			     <mrow>\ln 2 \amp= \ln e^{0.08t} = 0.08t\amp\amp \glert{\text{Divide both sides by 0.08.}}</mrow>
 			     <mrow>t \amp= \frac{\ln 2}{0.08}\approx 8.6643</mrow></md>
 		The account will be worth $<m>1000</m> after approximately <m>8.7</m> years.</li>
 	</ol></p></solution></example>
