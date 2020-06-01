@@ -168,7 +168,7 @@ where <m>t</m> is the time in seconds.<ol>
 <answer><p>Order 3: 17,000; Order 4: 5000; Order 8: 40; Order 9: 11</p></answer></exercise>
 
 <exercise number="42"><statement><p>Large animals use oxygen more efficiently when running than small animals do. The graph shows the amount of oxygen various animals use, per gram of their body weight, to run 1 kilometer. Estimate the body mass and oxygen use for a kangaroo rat, a dog, and a horse. (Source: Schmidt-Neilsen, 1972)</p>
-    <sidebyside width="70%"><image source="images/fig-chap5-rev-66"/></sidebyside>
+    <sidebyside width="70%"><image source="images/fig-O2-efficiency-log-log"/></sidebyside>
 </statement></exercise>
 
 <exercise number="43"><statement><p>The loudest sound created in a lboratory registered at 210 decibels.  The energy from such a sound is sufficient to bore holes in solid material.  Find the intensity of a 210-decibel sound.</p></statement></exercise>

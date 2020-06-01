@@ -20,23 +20,28 @@
         $which = new_checkbox_multiple_choice();
         $which -> qa (
         "A question can go here, but PTX ignores this",            
-        "\( 3x+2x^2=1\)$BR",           
-        "\( v^2 =6v\)$BR",
+        "\( x=-3\)$BR",           
+        "\( x=1\)$BR",
         );
         $which -> extra(
-        "\( 4z^2 -2z^3+2=0\)$BR",
-        "\( 36y-16=0\)$BR",
+        "\( x=2\)$BR",
+        "\( x=3\)$BR",
         );
         $which -> makeLast( 
-        "\( 3x+2x^2=1\)$BR",
-        "\( 4z^2 -2z^3+2=0\)$BR",
-        "\( 36y-16=0\)$BR",
-        "\( v^2 =6v\)$BR"
+        "\( x=2\)$BR",
+        "\( x=-3\)$BR",
+        "\( x=3\)$BR",
+        "\( x=1\)$BR"
         );
     </pg-code>    
-<statement><p>Which of the following equations are quadratic?</p>
-        <p><var name="$which" form="checkboxes"/> </p></statement>
-<solution><p>(A) and (D) are quadratic.</p>
+    <statement>
+        <p>
+            Which of the following values are solutions of the equation
+            <me>-2x^3+x^2+16x=15\text{?}</me>
+        </p>
+        <p><var name="$which" form="checkboxes"/> </p>
+    </statement>
+    <solution><p>(B) and (D) are quadratic. </p>
     </solution>
 </webwork></exercise>
 
@@ -511,8 +516,22 @@ First, let's review how to solve an equation for <m>y</m> in terms of <m>x</m>.<
 Note that the equation now has the form of the linear models we saw in the last section.</p></solution></example>
 
 <exercise><title> Practice 7</title>
-<statement><p>Solve for <m>y</m> in terms of <m>x</m>:  <m>~~10y-15x=6</m></p></statement>
-<answer><m>y = 1.5x + 0.6</m></answer></exercise>
+<webwork>
+    <pg-code>
+
+        $f = Compute("3/2 *x + 3/5");
+    </pg-code>
+    <statement>
+        <p>
+            Solve for <m>y</m> in terms of <m>x</m>:  <m>\quad 10y-15x=6</m>
+        </p>
+        <p>
+            <m>y=</m><var name="$f" width="10"/>
+        </p>
+    </statement>
+    <solution><m>y = 1.5x + 0.6</m></solution>
+</webwork>
+</exercise>
 
  <p>Now we are ready to graph an equation with technology. On most calculators, we follow three steps.</p>
 

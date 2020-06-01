@@ -74,7 +74,7 @@
 
 <p>The data shown are modeled by the exponential function <m>N(t) = 2200(1.356)^t</m>, where <m>t</m> is the number of years since <m>1970</m>.</p>
 
-<investigation><title>Investigation 7A: Population Growth</title>
+<investigation xml:id="investigation-population-growth"><title>Investigation 7A: Population Growth</title>
 
 <p>In a laboratory experiment, researchers establish a colony of <m>100</m> bacteria and monitor its growth. The colony triples in population every day. </p>
 <sidebyside widths="50% 40%" margins="0% 0%">
@@ -199,7 +199,7 @@
                     <cell right="none" bottom="none"></cell>
                     <cell right="none" bottom="none"><m>\blert{P(5)=}</m></cell></row>
             </tabular></sidebyside>
-        <sidebyside widths="62% 32%" valigns="middle middle"><p>
+        <sidebyside widths="62% 32%" valigns="middle middle">
     
 <p><ol label="1"> 
     <li><p>Fill in the table showing the population <m>P(t)</m> of the town <m>t</m> years after 1940.</p></li>
@@ -223,7 +223,7 @@
 <xi:include href="./section-7-3.xml" /> <!-- Logarithms  -->
 <xi:include href="./section-7-4.xml" /> <!-- Propertie of Logarithms -->
 <xi:include href="./section-7-5.xml" /> <!-- Exponential Models  -->
-<xi:include href="./section-7-6.xml" /> <!-- Logarithmic Scales  -->
+<!--<xi:include href="./section-7-6.xml" />  Logarithmic Scales moved to 10.2 -->
     <xi:include href="./chap7-summary.xml" /> <!--Summary and Review-->
         
 

@@ -231,7 +231,23 @@ where <m>k=0.0002</m>, <m>C=6000</m>, and <m>x</m> is the current population.<ol
     <me>N=0.0002x(2000-x)</me>
 if the bears are not hunted. The number of bears killed each year by hunters is related to the bear population by the equation <m>~K=0.2x</m>. (Note that in this model, hunting limits are adjusted to the size of the bear population.)<ol label="a">
     <li><p>Graph <m>N</m> and <m>K</m> on the same axes for <m>~0 \le x \le 2000</m>.</p>
-        <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <sidebyside width="80%"><image xml:id="fig-hw-bear-rate-grid">
+                    <description>grid</description><latex-image>
+                            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                            <![CDATA[\tikzset{%
+                            }
+                            \begin{tikzpicture} [scale=1] 
+                            \draw[lightgray] (0,0) grid (10,5);
+                            \draw[black,thick,->,>=stealth'] (0,0)--(10.4,0) node[above]{$x$};
+                            \draw[black,thick,->,>=stealth'] (0,0)--(0,5.4) node[left]{$y$};
+                            \foreach \x [evaluate=\x as \xi using int(200*\x)] in {5,10} {
+                              \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
+                              }
+                            \foreach \x [evaluate=\x as \xi using int(50*\x)] in {2,4} {
+                              \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+                            }
+                            \end{tikzpicture}]]>
+                            </latex-image></image></sidebyside></li>
     <li>When the bear population is 1200, which is greater, <m>N</m> or <m>K</m>? Will the population increas or decrease in the next year? Bu how many bears?</li>
     <li>When the bear population is 900, which is greater, <m>N</m> or <m>K</m>? Will the population increas or decrease in the next year? Bu how many bears?</li>
     <li>What sizes of bear population will remain stable after hunting?</li>

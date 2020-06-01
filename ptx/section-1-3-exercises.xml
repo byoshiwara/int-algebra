@@ -141,18 +141,18 @@
 </introduction>
     
 <exercise number="13"><statement>
-    <sidebyside  width="80%"><image source="images/fig-ex-1-1-33"><description>graph of line</description></image> </sidebyside></statement>
+    <sidebyside  width="80%"><image source="images/fig-2x-plus-3y-eq2400"><description>graph of line</description></image> </sidebyside></statement>
 <answer><p><m>-2x + 3y = 2400</m></p></answer></exercise>
 
 <exercise number="14"><statement>
-    <sidebyside  width="80%"><image source="images/fig-ex-1-1-34"><description>graph of line</description></image> </sidebyside></statement></exercise>
+    <sidebyside  width="80%"><image source="images/fig-3x-minus-5y-eq375"><description>graph of line</description></image> </sidebyside></statement></exercise>
 
 <exercise number="15"><statement>
-    <sidebyside  width="80%"><image source="images/fig-ex-1-1-35"><description>graph of line</description></image> </sidebyside></statement>
+    <sidebyside  width="80%"><image source="images/fig-3x-plus-400y-eq240"><description>graph of line</description></image> </sidebyside></statement>
 <answer><p><m>3x + 400y = 240</m></p></answer></exercise>
 
 <exercise number="16"><statement>
-    <sidebyside  width="80%"><image source="images/fig-ex-1-1-36"><description>graph of line</description></image> </sidebyside></statement></exercise>
+    <sidebyside  width="80%"><image source="images/fig-25x-plus-5y-eq-neg2"><description>graph of line</description></image> </sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17-20, write the equation in two standard forms:<ol label="a">
@@ -357,7 +357,7 @@
 <answer><p><ol label = "a">
     <li><p>$<m>2.40x,</m> $<m>3.20y</m></p></li>
     <li><p><m>2.40x + 3.20y = 19,200</m></p></li>
-    <li><sidebyside  width="40%" margins="0% 60%"><image source="images/fig-ans-1-1-25"><description>line</description></image></sidebyside></li>
+    <li><sidebyside  width="40%" margins="0% 60%"><image source="images/fig-unleaded-or-regular"><description>line</description></image></sidebyside></li>
     <li><p>The <m>y</m>-intercept, 6000 gallons, is the amount of premium that the gas station owner can buy if he buys no regular. The <m>x</m>-intercept, 8000 gallons, is the amount of regular he can buy if he buys no premium.</p></li></ol></p></answer></exercise>
 
 <exercise number="26"><statement><p>Leslie plans to invest some money in two CD accounts. The first account pays 3.6% interest per year, and the second account pays 2.8% interest per year. Leslie would like to earn $500 per year on her investment.</p><ol label="a">

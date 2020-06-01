@@ -288,10 +288,27 @@
 <exercise number="26"><statement><p><m>(x-1)^2+(y-3)^2=16</m></p></statement></exercise>
 
 <exercise number="27"><statement><p><m>x^2+(y+4)^2=12</m></p></statement>
-<answer></answer></exercise>
+<answer><sidebyside width="80%" margins="0% 10%"><image xml:id="fig-circle-sqrt12-at-0-neg4">
+        <description>circle center at (0,-4) radius sqrt12</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[cyan] (-5,-9) grid (5,1);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(5.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-9)--(0,1.6) node[above]{$y$};
+        \foreach \x in  {-5,5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         }
+        \foreach \x in  {-5} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, thick] (0,-4) circle ({sqrt(12)});
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 28-31, write the equation in standard form. State the center and radius of the circle</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 28<ndash/>31, write the equation in standard form. State the center and radius of the circle</p></introduction>
 
 <exercise number="28"><statement><p><m>x^2+y^2+2x-4y-6=0</m></p></statement></exercise>
 
@@ -304,7 +321,7 @@
 <answer><p><m>x^2+(y-5)^2=27 </m>; center: <m>(0,5) </m>; radius: <m>\sqrt{27} </m></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 32-35, write an equation for the circle with the given properties.</p>
+<exercisegroup><introduction><p>For Problems 32<ndash/>35, write an equation for the circle with the given properties.</p>
 </introduction>
 
 <exercise number="32"><statement><p>Center at <m>(-2,5) </m>, radius <m>2\sqrt{3} </m>.</p></statement></exercise>

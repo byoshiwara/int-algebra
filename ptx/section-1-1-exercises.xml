@@ -175,7 +175,28 @@
                                 <cell><m>\hphantom{0000}</m> </cell></row>
                     </tabular></sidebyside></li>
     <li><p>Graph the equation.</p>
-        <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+        <sidebyside width="50%"><image xml:id="fig-hw-boiling-point-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=1.1, yscale=.4] 
+        \draw[lightgray] (0,0) grid (5,15);
+        \draw[black,thick,->,>=stealth'] (0,0)--(5.4,0) node[right]{$a$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,15.9) node[above]{$B$};
+        \foreach \x  in {1,2,...,5} {
+          \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+          }
+        \foreach \x [evaluate=\x as \xi using int(200+\x)] in {0,5,10,15} {
+          \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+        }
+        \node at (2.5,-2.5) {Altitude in thousands of ft};
+        \node[rotate=90] at (-1.2,7.5) {Boiling point ($^\circ$F)};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
     <li><p>How much does the boiling point decrease when the altitude increases from 1000 to 3000 feet? Illustrate this amount on the graph.</p></li>
     <li><p>At what altitudes is the boiling point less than <m>204\degree</m>F? Illustrate on the graph.</p></li></ol></p>
 </statement>
@@ -205,9 +226,39 @@
                                 <cell><m>204</m> </cell>
                                 <cell><m>202</m> </cell></row>
                     </tabular></sidebyside></li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="50%" margins="0% 0%"><image xml:id="fig-hw-boiling-point">
+        <description>boiling point</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=1.1, yscale=.4] 
+        \draw[lightgray] (0,0) grid (5,15);
+        \draw[black,thick,->,>=stealth'] (0,0)--(5.4,0) node[right]{$a$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,15.9) node[above]{$B$};
+        \foreach \x  in {1,2,...,5} {
+          \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+          }
+        \foreach \x [evaluate=\x as \xi using int(200+\x)] in {0,5,10,15} {
+          \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+        }
+        \node at (2.5,-2.5) {Altitude in thousands of ft};
+        \node[rotate=90] at (-1.2,7.5) {Boiling point ($^\circ$F)};
+        \draw[red,thick,->,>=stealth'] (0,12)--(5,2);
+        \node[text=blue,left,xshift=-1, scale=.9] at (0,4) {$204$}; 
+        \node[text=blue,left,xshift=-1, fill=white, inner sep=2] at (3.8,2) {(e)}; 
+        \draw[blue,ultra thick, dashed,->,>=stealth'] (0,4)--(4,4)--(4,0);
+        \draw [green!80!black,decorate,decoration={brace,amplitude=5pt}] (3.1,10) -- ++(0,-4) node [right,midway,xshift=5pt, fill=white, inner sep=1] {(d) $4^\circ$};
+        \draw[green!80!black, ultra thick,dashed](1.1,10)--(3,10);
+        \draw[magenta!80!black, ultra thick, ->, >=stealth'] (4,4)--(5,2);
+        \draw[magenta!80!black, ultra thick, ->, >=stealth'] (4,0)--(5,0);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
     <li><m>4\degree</m>F</li>
-    <li>Over 4000 feet</li></ol></p></answer></exercise>
+    <li>Over 4000 feet</li></ol></p></answer>
+</exercise>
 
 <exercise number="14"><statement><p>The taxi out of Dulles Airport charges a traveler with one suitcase an initial fee of $2.00, plus $1.50 for each mile traveled. Complete the table of values showing the charge, <m>C</m>, for a trip of <m>n</m> miles.</p>
             <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">

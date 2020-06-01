@@ -98,9 +98,10 @@ Does it fall at the same speed throughout its descent? The diagram shows a seque
 
 <investigation><title>Investigation 3B: Perimeter and Area</title>
 
-<p><sidebyside widths="65% 25%" margins="0% 0%" valigns="middle middle">
-Do all rectangles with the same perimeter, say 36 inches, have the same area? Two different rectangles with perimeter 36 inches are shown. The first rectangle has base 10 inches and height 8 inches, and its area is 80 square inches. The second rectangle has base 12 inches and height 6 inches. Its area is 72 square inches.</p>
-    <image source="images/fig-two-rectangles-perimeter-36"><description>graph</description></image></sidebyside></p>
+<sidebyside widths="65% 25%" margins="0% 0%" valigns="middle middle">
+<p>
+    Do all rectangles with the same perimeter, say 36 inches, have the same area? Two different rectangles with perimeter 36 inches are shown. The first rectangle has base 10 inches and height 8 inches, and its area is 80 square inches. The second rectangle has base 12 inches and height 6 inches. Its area is 72 square inches.</p>
+    <image source="images/fig-two-rectangles-perimeter-36"><description>graph</description></image></sidebyside>
 
 <p><ol label="1">
 <li><p>The table shows the bases of various rectangles, in inches. Each rectangle has a perimeter of 36 inches. Fill in the height and the area of each rectangle. (To find the height of the rectangle, reason as follows: The base plus the height makes up half of the rectangle’s perimeter.)</p>
