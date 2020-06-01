@@ -315,8 +315,8 @@
 
 <subexercises><title>Applications</title>
 
-<exercise number="29"><statement><p>The arch of a bridge forms the top half of an ellipse witha horizontal major axis.  The arch is 7 feet high and 20 feet wide.</p>
-<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<exercise number="29"><statement><p>The arch of a bridge forms the top half of an ellipse with a horizontal major axis.  The arch is 7 feet high and 20 feet wide.</p>
+<sidebyside width="40%"><image source="images/fig-bridge"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Find an equation for the ellipse.</li>
     <li>How high is the arch at a distance of 8 feet from the peak?</li></ol></p></statement>
@@ -325,13 +325,13 @@
     <li>4.2 ft</li></ol></p></answer></exercise>
 
 <exercise number="30"><statement><p>A doorway is topped by a semi-elliptical arch. The doorway is 230 centimeters high at its highest point and 200 centimeters figh at its lowest point. It is 80 centimeters wide.</p>
-<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<sidebyside width="40%"><image source="images/fig-doorway"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Find an equation for the ellipse.</li>
     <li>How high is the doorway 8 centimeters from the left side?</li></ol></p></statement></exercise>
 
 <exercise number="31"><statement><p>The wing of a World War II British Spitfire is an ellipse whose major axis is 48 feet. The minor axis is 16 feet, but part of the ellipse is cut off parallel to the major axis. This cur=t edge is 46 feet long.</p>
-<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<sidebyside width="40%"><image source="images/fig-spitfire"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Find an equation for the ellipse.</li>
     <li>How wide is the wing at its center? Round your answer to two decimal places.</li></ol></p></statement>
@@ -340,7 +340,7 @@
     <li>10.29 ft</li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>The edge of a sailboat's keel is elliptical in shape, with a major axis 0f 360 centimeters. The minor axis is 100 centimeters, but part of the ellipse has been cut off parallel to the major axis. This cut edge is 330 centimeters long.</p>
-<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+<sidebyside width="40%"><image source="images/fig-keel"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Find an equation for the ellipse.</li>
     <li>What is the width of the keel at its widest point? Round your answer to two decimal places.</li></ol></p>

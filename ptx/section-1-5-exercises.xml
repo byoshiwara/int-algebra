@@ -29,7 +29,43 @@
                     <cell><m></m></cell></row>
             </tabular></sidebyside>
 </statement>
-<answer><p><ol label="a">
+<answer>
+    <sidebyside width="50%" margins="0% 50%"><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+    <row>
+        <cell><m>x</m></cell>
+        <cell><m>-1</m></cell>
+        <cell><m>~0~</m></cell>
+        <cell><m>~2~</m></cell>
+        <cell><m>~3~</m></cell>
+        <cell><m>~4~</m></cell></row>
+    <row>
+        <cell><m>y</m></cell>
+        <cell><m>10</m></cell>
+        <cell><m>8</m></cell>
+        <cell><m>4</m></cell>
+        <cell><m>2</m></cell>
+        <cell><m>0</m></cell></row>
+    </tabular></sidebyside>
+    <sidebyside width="80%" margins="0% 5%"><image xml:id="fig-y-eq-8-minus-2x">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(10.8,0) node[left]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,10.8) node[above]{$y$};
+        \foreach \x in  {-5,5, -10,10} {
+         \draw[black,thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1] {$\x$};
+         \draw[black,thick] (.1,\x) --++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1] {$\x$};
+        }
+        \draw[red,thick,<->,>=stealth'] (-1,10) -- (9,-10);
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+</sidebyside>
+    <p><ol label="a">
         <li><p>8</p></li>
         <li><p>decreases by 2 units</p></li>
         <li>The constant term is the <m>y</m>-intercept and the coefficient of <m>x</m> is the slope.</li></ol></p>
@@ -69,52 +105,68 @@
 <exercisegroup><introduction><p>For Problems 3 and 4, calculate the net change in coordinate from <m>P</m> to <m>Q</m>.</p></introduction>
 
 <exercise number="3"><statement><p><ol label="a" cols="2">
-    <li><sidebyside width="60%" valign="middle"><image xml:id="fig-hw-1-5-4a"><description>vertical line segment</description><latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                        <![CDATA[\tikzset{%
-                        }
-                        \begin{tikzpicture} [scale=1]
-                        \draw[black,thick, ->, >=stealth'] (-1,0)--(3.1,0) node[above]{$t$};
-                        \draw[black,thick, ->, >=stealth'] (0,-3.5)--(0,.6) node[left]{$h$};
-                        \filldraw[red] (0,-.7) circle (.08) node[right, xshift=2] {$Q(0,-7)$};
-                        \filldraw[red] (0,-2.9) circle (.08) node[right, xshift=2] {$P(0,-29)$};
-                        \draw[red,thick] (0,-.7) -- (0,-2.9);
-                        \node[text width=1cm] at (1.5,-3.9){$\Delta h=$};
-                        \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></li>
+    <li><sidebyside width="70%" margins="0% 5%"><image xml:id="fig-hw-1-5-4a"><description>vertical line segment</description>
+        <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=1]
+            \draw[black,thick, ->, >=stealth'] (-1,0)--(3.1,0) node[above]{$t$};
+            \draw[black,thick, ->, >=stealth'] (0,-3.5)--(0,.6) node[left]{$h$};
+            \filldraw[red] (0,-.7) circle (.08) node[right, xshift=2] {$Q(0,-7)$};
+            \filldraw[red] (0,-2.9) circle (.08) node[right, xshift=2] {$P(0,-29)$};
+            \draw[red,thick] (0,-.7) -- (0,-2.9);
+            \node[text width=1cm] at (1.5,-3.9){$\Delta h=$};
+            \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></li>
     
-    <li><sidebyside width="60%" valign="middle"><image xml:id="fig-hw-1-5-4c"><description>horizontal line segment</description><latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                        <![CDATA[\tikzset{%
-                        }
-                        \begin{tikzpicture} [scale=1]
-                        \draw[black,thick, ->, >=stealth'] (-2.1,0)--(2,0) node[above]{$r$};
-                        \draw[black,thick, ->, >=stealth'] (0,-.5)--(0,3.4) node[left]{$T$};
-                        \filldraw[red] (1.3,1.4) circle (.08) node[above, yshift=2] {$P(30,18)$};
-                        \filldraw[red] (-1.3,1.4) circle (.08) node[above, yshift=2, xshift=2] {$Q(-27,18)$};
-                        \draw[red,thick] (1.3,1.4) -- (-1.3,1.4);
-                        \node[text width=1cm] at (0,-1.1){$\Delta r=$};
-                        \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></li></ol></p></statement>
+    <li><sidebyside width="70%" margins="0% 5%"><image xml:id="fig-hw-1-5-4c"><description>horizontal line segment</description>
+        <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=1]
+            \draw[black,thick, ->, >=stealth'] (-2.1,0)--(2,0) node[above]{$r$};
+            \draw[black,thick, ->, >=stealth'] (0,-.5)--(0,3.4) node[left]{$T$};
+            \filldraw[red] (1.3,1.4) circle (.08) node[above, yshift=2] {$P(30,18)$};
+            \filldraw[red] (-1.3,1.4) circle (.08) node[above, yshift=2, xshift=2] {$Q(-27,18)$};
+            \draw[red,thick] (1.3,1.4) -- (-1.3,1.4);
+            \node[text width=1cm] at (0,-1.1){$\Delta r=$};
+            \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>\Delta h = 22</m></li>
     <li><m>\Delta r = -57</m></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement><p><ol label="a" cols="2">
-    <li><sidebyside width="60%" valign="middle"><image xml:id="fig-hw-1-5-4b"><description>vertical line segment</description><latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                        <![CDATA[\tikzset{%
-                        }
-                        \begin{tikzpicture} [scale=1]
-                        \draw[black,thick, ->, >=stealth'] (-.6,0)--(3.4,0) node[above]{$S$};
-                        \draw[black,thick, ->, >=stealth'] (0,-.5)--(0,3.7) node[left]{$T$};
-                        \filldraw[red] (1.3,2.5) circle (.08) node[right, xshift=2] {$P(13,25)$};
-                        \filldraw[red] (1.3,.5) circle (.08) node[right, xshift=2] {$Q(13,5)$};
-                        \draw[red,thick] (1.3,2.5) -- (1.3,.5);
-                        \node[text width=1cm] at (1.5,-.9){$\Delta T=$};
-                        \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></li>
-    <li></li>
+    <li><sidebyside width="70%" margins="0% 5%"><image xml:id="fig-hw-1-5-4b"><description>vertical line segment</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1]
+        \draw[black,thick, ->, >=stealth'] (-.6,0)--(3.4,0) node[above]{$S$};
+        \draw[black,thick, ->, >=stealth'] (0,-.5)--(0,3.7) node[left]{$T$};
+        \filldraw[red] (1.3,2.5) circle (.08) node[right, xshift=2] {$P(13,25)$};
+        \filldraw[red] (1.3,.5) circle (.08) node[right, xshift=2] {$Q(13,5)$};
+        \draw[red,thick] (1.3,2.5) -- (1.3,.5);
+        \node[text width=1cm] at (1.5,-.9){$\Delta T=$};
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></li>
+    <li><sidebyside width="90%" margins="0% 5%"><image xml:id="fig-hw-1-5-4d"><description>horizontal line segment</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1]
+        \draw[black,thick, ->, >=stealth'] (-3.8,0)--(.5,0) node[right]{$q$};
+        \draw[black,thick, ->, >=stealth'] (0,-2.1)--(0,1.7) node[left]{$n$};
+        \filldraw[red] (-1.,-.9) circle (.08) node[above, yshift=2] {$Q(-2,-1)$};
+        \filldraw[red] (-3.3,-.9) circle (.08) node[above, yshift=2, xshift=2] {$P(-7,-1)$};
+        \draw[red,thick] (-3.3,-.9) -- (-1.,-.9);
+        \node[text width=1cm] at (-1.,-2.6){$\Delta q=$};
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
@@ -122,7 +174,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5-8,<ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8,<ol label="a">
     <li>Write the equation in slope-intercept form.</li>
     <li>State the slope and the <m>y</m>-intercept of its graph.</li></ol></p></introduction>
 
@@ -255,7 +307,7 @@
     </ol></p><p></p></introduction>
 
 <exercise number="19"><statement><p>The graph shows the amount of money, <m>M</m> (in dollars), in Tammy’s bank account <m>w</m> weeks after she loses all sources of income.</p>
-        <sidebyside  width="70%"><image source="images/fig-ex-1-5-25"><description>dollars vs time</description></image>
+        <sidebyside  width="70%"><image source="images/fig-money-in-account"><description>dollars vs time</description></image>
             </sidebyside></statement>
         <answer><p><ol label="a">
                 <li><p><m>M = 7000 - 400w</m> </p></li>
@@ -263,7 +315,7 @@
             </ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>The graph shows the distance, <m>d</m> (in meters), traveled by a train <m>t</m> seconds after it passes an observer.</p>
-        <sidebyside width="70%"><image source="images/fig-ex-1-5-22"><description>distance vs time</description></image>
+        <sidebyside width="70%"><image source="images/fig-train-distance"><description>distance vs time</description></image>
             </sidebyside></statement></exercise>
 </exercisegroup>
 
@@ -355,7 +407,7 @@ gives the temperature at an altitude of <m>h</m> feet.<ol label="a">
         </tabular></sidebyside>
     <p><ol label="a">
     <li><p>Use the grid below to plot the data and draw a line through the data points.</p>
-            <sidebyside width="45%"><image xml:id="fig-hw-1-5-12"><description>grid</description><latex-image>
+            <sidebyside width="45%"><image xml:id="fig-shoe-size-grid"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -366,11 +418,12 @@ gives the temperature at an altitude of <m>h</m> feet.<ol label="a">
             \node[rotate=90,font=\bf] at (-1.5,5)  {European Shoe Size};
             \node[font=\bf] at (5,-1.5) {American Shoe Size};
 
-            \foreach \x [evaluate=\x as \xi using int(\x *5)] in  {1,2,...,10} {
+            \foreach \x in {1,2,...,10} 
              \draw[black,thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1] {$\x$};
+            \foreach \x [evaluate=\x as \xi using int(30+\x *2)] in  {0,1,2,...,10} {
              \draw[black,thick] (.1,\x) --++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1] {$\xi$};
             }
-                    \end{tikzpicture}]]>
+            \end{tikzpicture}]]>
             </latex-image></image></sidebyside></li>
     <li><p>Calculate the slope of your line. Estimate the <m>y</m>-intercept from the graph.</p></li>
     <li><p>Find an equation that gives the European shoe size, <m>E</m>, in terms of the American shoe size, <m>A</m>.</p></li></ol></p></statement></exercise>
@@ -399,13 +452,13 @@ gives the temperature at an altitude of <m>h</m> feet.<ol label="a">
         </tabular></sidebyside>
     <p><ol label="a">
     <li><p>Use the grid below to plot the data and draw a straight line through the points. Estimate the <m>y</m>-intercept of your graph.</p>
-                <sidebyside width="50%"><image xml:id="fig-hw-1-5-13"><description>grid</description><latex-image>
+                <sidebyside width="50%"><image xml:id="fig-dissolve-salt-grid"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
                     \begin{tikzpicture} [xscale=.6, yscale=.5]
                     \draw[cyan] (0,0) grid (12,20);
-                    \draw[black,thick, ->, >=stealth'] (0,0)--(12.5,0);
+                    \draw[black,thick] (0,0)--(12,0);
                     \draw[black,thick, ->, >=stealth'] (0,0.8)--(0,20.5);
                     \draw[black,thick] (0,.8)--(-.2,.7)--(.2,.5)--(-.2,.3)--(0,.2);
                     \node[rotate=90,font=\bf] at (-1.6,10)  {Grams of salt};
@@ -424,13 +477,13 @@ gives the temperature at an altitude of <m>h</m> feet.<ol label="a">
     <li><p>At what temperature will 46 grams of salt dissolve?</p></li></ol></p></statement>
 <answer><p><ol label="a">
     <li><p><m>(0,28) </m></p>
-            <sidebyside width="50%"><image xml:id="fig-hw-1-5-13ans"><description>grid</description><latex-image>
+            <sidebyside width="50%" margins="0% 0%"><image xml:id="fig-dissolve-salt"><description>salt dissolved</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
                 \begin{tikzpicture} [xscale=.6, yscale=.5]
                 \draw[cyan] (0,0) grid (12,20);
-                \draw[black,thick, ->, >=stealth'] (0,0)--(12.5,0);
+                \draw[black,thick] (0,0)--(12,0);
                 \draw[black,thick, ->, >=stealth'] (0,0.8)--(0,20.5);
                 \draw[black,thick] (0,.8)--(-.2,.7)--(.2,.5)--(-.2,.3)--(0,.2);
                 \node[rotate=90,font=\bf] at (-1.6,10)  {Grams of salt};
@@ -471,7 +524,26 @@ gives the temperature at an altitude of <m>h</m> feet.<ol label="a">
                         <cell><m>28.04</m></cell></row>
                 </tabular></sidebyside>
                 <p><ol label="a">
-                    <li><p>Plot the data on graph paper and draw a straight line through the points. Estimate the <m>y</m>-intercept of your graph.</p></li>
+                    <li><p>Plot the data on graph paper and draw a straight line through the points. Estimate the <m>y</m>-intercept of your graph.</p>
+                    <sidebyside width="50%"><image xml:id="fig-spring-stretch"><description>grid</description><latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.6]
+                    \draw[cyan] (0,0) grid (12,10);
+                    \draw[black,thick] (0,0)--(12,0);
+                    \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.9) node[left]{$y$};;
+                    \node[rotate=90,font=\bf] at (-1.5,5)  {Length (cm)};
+                    \node[font=\bf] at (5,-1.5) {Weight (kg)};
+
+                    \foreach \x [evaluate=\x as \xi using int(2*\x)] in {5,10} 
+                     \draw[black,thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1] {$\xi$};
+                    \foreach \x [evaluate=\x as \xi using int(25+\x /2)] in  {0,2,...,10} {
+                     \draw[black,thick] (.1,\x) --++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1] {$\xi$};
+                    }
+                    \end{tikzpicture}]]>
+                    </latex-image></image></sidebyside>
+                    </li>
                     <li><p>Find an equation for the line.</p></li>
                     <li><p>If the spring is stretched to <m>27.56</m> cm, how heavy is the attached weight?</p></li>
                 </ol></p></statement></exercise>
