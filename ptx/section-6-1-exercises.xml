@@ -11,41 +11,41 @@
 
 <subexercises><title>Warm Up</title>
 
-<exercisegroup><introduction><p>For Problems 1 and 2, simplify if possible.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1 and 2, simplify if possible.</p></introduction>
 
-<exercise number="1"><statement><p><ol label="a" cols="2">
+<exercise number="1"><statement><p><ol label="a">
     <li><m>4z^2-6z^2</m></li>
     <li><m>4z^2(-6z^2)</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>-2z^2</m></li>
     <li><m>-24z^4</m></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol label="a" cols="2">
+<exercise number="2"><statement><p><ol label="a">
     <li><m>4p^2+3p^3</m></li>
     <li><m>4p^2(3p^3)</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 3-6, use the laws of exponents to simplilfy.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 3-6, use the laws of exponents to simplilfy.</p></introduction>
 
-<exercise number="3"><statement><p><ol label="a" cols="2">
+<exercise number="3"><statement><p><ol label="a">
     <li><m>-4x(3xy)(xy^3)</m></li>
     <li><m>\dfrac{2a^3b}{8a^4b^5}</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>-12x^3y^4</m></li>
     <li><m>\dfrac{1}{4ab^4}</m></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol label="a" cols="2">
+<exercise number="4"><statement><p><ol label="a">
     <li><m>-5x^2(2xy)(5x^2)</m></li>
     <li><m>\dfrac{8a^2b}{12a^5b^3}</m></li></ol></p></statement></exercise>
 
-<exercise number="5"><statement><p><ol label="a" cols="2">
+<exercise number="5"><statement><p><ol label="a">
     <li><m>(2x^3y)^2(xy^3)4</m></li>
     <li><m>\dfrac{(xy)^2(-x^2y)^3}{(x^2y^2)^2}</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>4x^{10}y^{14}</m></li>
     <li><m>x^4y</m></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><p><ol label="a" cols="2">
+<exercise number="6"><statement><p><ol label="a" >
     <li><m>(3xy^2)^3(2x^2y^2)^2</m></li>
     <li><m>\dfrac{(-x)^2(x^2)^4}{(x^2)^3}</m></li></ol></p></statement></exercise>
 </exercisegroup>

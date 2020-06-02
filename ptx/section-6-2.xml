@@ -762,7 +762,7 @@ where the length of the skid marks, <m>d</m>, is given in feet.<ol label="a">
     <sidebyside  width="50%"><image source="images/fig-velocity-vs-braking-distance" ><description>velocity vs braking distance</description></image></sidebyside></li>
 </ol></p></solution></example>
 
-<note><p>Thus, we can solve an equation where one side is an <m>n</m>th root of <m>x</m> by raising both sides of the equation to the <m>n</m>th power. We must be careful when raising both sides of an equation to an even power, since extraneous solutions may be introduced. However, because most applications of power functions deal with positive domains only, they do not usually involve extraneous solutions.</p></note>
+<note><p>Thus, we can solve an equation where one side is an <m>n</m>th root of <m>x</m> by raising both sides of the equation to the <m>n</m>th power. We must be careful when raising both sides of an equation to an even power, since extraneous solutions may be introduced. However, because most applications of power functions deal with positive numbers only, they do not usually involve extraneous solutions.</p></note>
 
 <exercise><title>QuickCheck 5</title>
 <webwork>

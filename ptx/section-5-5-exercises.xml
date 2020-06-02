@@ -8,7 +8,7 @@
     
 <subexercises><title>Warm Up</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1-4, choose variables and write an equation relating them. Which equations describe inverse variation?</p></introduction>
+<exercisegroup><introduction><p>For Problems 1-4, choose variables and write an equation relating them. Which equations describe inverse variation?</p></introduction>
 
 <exercise number="1"><statement><p>Rachel spends one-third of her income on rent.</p></statement>
 <answer><p><m>R=\dfrac{1}{3}I</m>. Not inverse variation.</p></answer></exercise>
