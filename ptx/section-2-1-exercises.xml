@@ -248,7 +248,7 @@
             </ol></p></answer></exercise>
 
 <exercise number="14"><statement><p>The scatterplot shows the weights in pounds and the heights in inches of a team of distance runners.</p>
-    <sidebyside width="40%"><image source="images/fig-scatterplot-runner-wt-vs-ht"><description>graph</description></image></sidebyside>
+    <sidebyside width="35%"><image source="images/fig-scatterplot-runner-wt-vs-ht"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Use a straightedge to draw a line that fits the data.</li>
     <li>Use your line to predivt the weight of a 65-inch tall runner and the weight of a 71-inch tall runner.</li>
