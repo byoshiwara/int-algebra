@@ -8,27 +8,27 @@
     
 <subexercises><title>Warm Up</title>
 
-<exercisegroup><introduction><p>For Problems 1-4, write each product as a polynomial in simplest form.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1-4, write each product as a polynomial in simplest form.</p></introduction>
 
-<exercise number="1"><statement><p><ol label="a" cols="2">
+<exercise number="1"><statement><p><ol label="a">
     <li><m>(b+6)(2b-3)</m></li>
     <li><m>(3z-8)(4z-1)</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>2b^2+9b-18</m></li>
     <li><m>12z^2-35z+8</m></li></ol></p></answer></exercise>
 
-<exercise number="1"><statement><p><ol label="a" cols="2">
+<exercise number="2"><statement><p><ol label="a">
     <li><m>(4z-3)^2</m></li>
     <li><m>(2d+8)^2</m></li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol label="a" cols="2">
+<exercise number="3"><statement><p><ol label="a">
     <li><m>3p(2p-5)(p-3)</m></li>
     <li><m>2v(v+4)(3v-4)</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>6p^3-33p^2+45p</m></li>
     <li><m>6v^3+16v^2-32v</m></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol label="a" cols="2">
+<exercise number="4"><statement><p><ol label="a">
     <li><m>-50(1+r)^2</m></li>
     <li><m>12(1-t))^2</m></li></ol></p></statement></exercise>
 </exercisegroup>

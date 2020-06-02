@@ -189,7 +189,7 @@
     <li><m>y=100-x^2</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 13<ndash/>16, find the <m>x</m>-intercepts and the vertex of the graph. Then sketch the graph by hand.</p></introduction> 
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>16, find the <m>x</m>-intercepts and the vertex of the graph. Then sketch the graph by hand.</p></introduction> 
 
 <exercise number="13"><statement><p><m>y=x^2-4x</m></p></statement>
 <answer><p><m>(0,0), (4,0); (2,-4)</m></p>

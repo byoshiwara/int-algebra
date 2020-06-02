@@ -11,7 +11,7 @@
 <subsection><title>Cube Roots</title>   
 
 <p>You are familiar with square roots.  Every non-negative number has two square roots, defined as follows.
-    <me>~s~~~\text{is a square root of}~~~n~~~\text{if}~~~    s^2=n</me>
+    <me>\blert{~s~~~\text{is a square root of}~~~n~~~\text{if}~~~    s^2=n}</me>
 There are several other kinds of roots, one of which is called the <term>cube root</term>.  We define the cube root as follows.</p>
 
 <assemblage><title>Cube Root</title>

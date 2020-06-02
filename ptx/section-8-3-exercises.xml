@@ -256,7 +256,7 @@
     <li><m>\dfrac{1}{c} \div (\dfrac{1}{5} \div \dfrac{2}{5})</m></li>
     <li><m>(\dfrac{1}{c} \div \dfrac{1}{5}) \div \dfrac{2}{5}</m></li></ol></p></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 59<ndash/>64, add or subtract.</p>
+<exercisegroup cols="2"><introduction><p>For Problems 59<ndash/>64, add or subtract.</p>
 </introduction>
 
 <exercise number="59"><statement><m>\dfrac{-H}{RT} + \dfrac{S}{R}</m></statement>
