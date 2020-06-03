@@ -268,7 +268,27 @@ A one-hour bike ride costs $8.</p>
 
 <exercise><title>Practice 3</title>
     <introduction>
-        <sidebyside width="40%"><image source="images/fig-ex-ans-1-1-3"><description>gas mileage</description></image></sidebyside>
+        <sidebyside width="40%"><image xml:id="fig-Leon-mileage-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.8, yscale=.45]
+        \draw[lightgray] (0,0) grid (6,12);
+        \draw[black,thick,->,>=stealth'] (0,0)--(6.4,0) node[right]{$d$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,12.3) node[left]{$g$};
+        \foreach \x [evaluate=\x as \xi using int( 50* \x )]  in {1,2,...,6} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below]{$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int( 2* \x )]  in {2,4,...,10} {
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left]{$\xi$};
+        }
+        \draw[red,very thick] (0,10)--(24/5,0);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
     </introduction>
     <webwork>
         <pg-code>
@@ -281,16 +301,38 @@ A one-hour bike ride costs $8.</p>
             );            
         </pg-code>
         <statement>
-            <p>Leon forgot to reset his odometer after his last fill-up, but he thinks he has driven at least 150 miles. How much gas does he have left? <var name="$gas" form="buttons"/></p> 
+            <p>Leon forgot to reset his odometer after his last fill-up, but he thinks he has driven at least 150 miles. How much gas does he have left?</p> 
+            <p><var name="$gas" form="buttons"/></p> 
             <p>Show this on the graph.</p>
         </statement>
-        <hint> <p>Locate 150 miles on the <m>d</m>-axis. What part of the axis represents "at least" 150 miles? Find the points on the graph with <m>d</m>-coordinates at least 150. What are the <m>g</m>-coordinates of those points?</p>
+        <hint> <p>Locate 150 miles on the \(d\)-axis. What part of the axis represents "at least" 150 miles? Find the points on the graph with \(d\)-coordinates at least 150. What are the \(g\)-coordinates of those points?</p>
         </hint>
         <solution><p>At most 7.5 gallon</p>
         </solution>
     </webwork>    
     <conclusion>
-        <sidebyside width="30%" margins="0% 70%"><image source="images/fig-ex-1-1-3"><description>cost of bike rental</description></image></sidebyside>
+        <sidebyside width="35%" margins="0% 70%"><image xml:id="fig-Leon-mileage">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.8, yscale=.45]
+        \draw[lightgray] (0,0) grid (6,12);
+        \draw[black,thick,->,>=stealth'] (0,0)--(6.4,0) node[right]{$d$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,12.3) node[left]{$g$};
+        \foreach \x [evaluate=\x as \xi using int( 50* \x )]  in {1,2,4,5,6} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below]{$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int( 2* \x )]  in {2,6,8,10} {
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left]{$\xi$};
+        }
+        \draw[red,very thick] (0,10)--(24/5,0);
+        \draw[blue,very thick,->,>=stealth'] (3,0) -- (3,15/4) -- (0,15/4) node[left]{$7.5$};
+        \node[below,text=blue] at (3,-.1) {$150$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image></sidebyside>
     </conclusion>
 </exercise>
 </subsection>
