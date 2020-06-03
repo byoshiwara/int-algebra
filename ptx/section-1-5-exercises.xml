@@ -105,7 +105,7 @@
 <exercisegroup><introduction><p>For Problems 3 and 4, calculate the net change in coordinate from <m>P</m> to <m>Q</m>.</p></introduction>
 
 <exercise number="3"><statement><p><ol label="a" cols="2">
-    <li><sidebyside width="70%" margins="0% 5%"><image xml:id="fig-hw-1-5-4a"><description>vertical line segment</description>
+    <li><sidebyside width="60%" margins="0% 5%"><image xml:id="fig-hw-1-5-4a"><description>vertical line segment</description>
         <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -120,7 +120,7 @@
             \end{tikzpicture}]]>
         </latex-image></image></sidebyside></li>
     
-    <li><sidebyside width="70%" margins="0% 5%"><image xml:id="fig-hw-1-5-4c"><description>horizontal line segment</description>
+    <li><sidebyside width="60%" margins="0% 5%"><image xml:id="fig-hw-1-5-4c"><description>horizontal line segment</description>
         <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -139,7 +139,7 @@
     <li><m>\Delta r = -57</m></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement><p><ol label="a" cols="2">
-    <li><sidebyside width="70%" margins="0% 5%"><image xml:id="fig-hw-1-5-4b"><description>vertical line segment</description>
+    <li><sidebyside width="60%" margins="0% 5%"><image xml:id="fig-hw-1-5-4b"><description>vertical line segment</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -153,7 +153,7 @@
         \node[text width=1cm] at (1.5,-.9){$\Delta T=$};
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></li>
-    <li><sidebyside width="90%" margins="0% 5%"><image xml:id="fig-hw-1-5-4d"><description>horizontal line segment</description>
+    <li><sidebyside width="75%" margins="0% 5%"><image xml:id="fig-hw-1-5-4d"><description>horizontal line segment</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -307,7 +307,7 @@
     </ol></p><p></p></introduction>
 
 <exercise number="19"><statement><p>The graph shows the amount of money, <m>M</m> (in dollars), in Tammy’s bank account <m>w</m> weeks after she loses all sources of income.</p>
-        <sidebyside  width="70%"><image source="images/fig-money-in-account"><description>dollars vs time</description></image>
+        <sidebyside  width="40%"><image source="images/fig-money-in-account"><description>dollars vs time</description></image>
             </sidebyside></statement>
         <answer><p><ol label="a">
                 <li><p><m>M = 7000 - 400w</m> </p></li>
@@ -315,7 +315,7 @@
             </ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>The graph shows the distance, <m>d</m> (in meters), traveled by a train <m>t</m> seconds after it passes an observer.</p>
-        <sidebyside width="70%"><image source="images/fig-train-distance"><description>distance vs time</description></image>
+        <sidebyside width="40%"><image source="images/fig-train-distance"><description>distance vs time</description></image>
             </sidebyside></statement></exercise>
 </exercisegroup>
 

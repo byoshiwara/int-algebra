@@ -11,8 +11,7 @@
 <p>We can use a model to analyze data, identify trends, and predict the effects of change. The first step in creating a model is to describe relationships between the variables involved.</p>
 
 <exercise><title>QuickCheck 1</title>
-<webwork>
-    <pg-code>       
+<webwork><pg-code>       
             $step1 = RadioButtons(
               ["Solve the equation.",
               "Analyze data, identify trends, and predict the effects of change.",
@@ -21,12 +20,10 @@
               2, 
             );            
         </pg-code>
-    <statement>
-        <p>What is the first step in creating a mathematical model?</p>
+    <statement><p>What is the first step in creating a mathematical model?</p>
         <p><var name="$step1" form="buttons"/></p>      
     </statement>
-    <solution>
-        <p>Describe the relationships between the variables involved.</p>
+    <solution><p>Describe the relationships between the variables involved.</p>
     </solution>
 </webwork></exercise>
 
@@ -41,10 +38,8 @@
         <li>A graph is a visual display of the data. It is easier to spot trends and describe the overall behavior of the variables from a graph.</li>
         <li>An algebraic equation is a compact summary of the model. It can be used to analyze the model and to make predictions.</li> </ol></p>
 
-
 <exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>       
+<webwork><pg-code>       
             $threeways = RadioButtons(
               ["By inputs, outputs, or evaluation",
               "By tables, equations, or graphs",
@@ -53,12 +48,10 @@
               1, 
             );            
         </pg-code>
-    <statement>
-        <p>Name three ways to represent a relationship between variables.</p>
+    <statement><p>Name three ways to represent a relationship between variables.</p>
         <p><var name="$threeways" form="buttons"/></p>      
     </statement>
-    <solution>
-        <p>By tables, equations, or graphs</p>
+    <solution><p>By tables, equations, or graphs</p>
     </solution>
 </webwork></exercise>
 
@@ -112,8 +105,7 @@ A one-hour bike ride costs $8.</p>
 </example>
 
 <exercise><title>Practice 1</title>
-    <webwork>
-        <pg-code>
+    <webwork><pg-code>
             $subscription=Compute("7");
             $rate = Compute("2.50");
         </pg-code>
@@ -121,12 +113,10 @@ A one-hour bike ride costs $8.</p>
         <p><md><mrow>\text{Cost}\amp = (\text{subscription fee})+(\text{hourly rate})\cdot(\text{number of hours}) </mrow>
             </md></p>
         <p><m>C=</m><var name="$subscription" width="2"/><m>+</m> <var name="$rate" width="3"/> <m>\cdot ~ t</m></p>
-        </statement>
-        <hint><p>Fill in the correct numbers.</p>
-        </hint>
-        <solution><p><m>C=7+2.50t </m></p></solution>
-    </webwork>    
-</exercise>
+    </statement>
+        <hint><p>Fill in the correct numbers.</p></hint>
+    <solution><p><m>C=7+2.50t </m></p></solution>
+</webwork></exercise>
     
 </subsection>
 
@@ -135,7 +125,7 @@ A one-hour bike ride costs $8.</p>
 <p>The equation we wrote in the first Example is an example of a <term>linear model</term>, which describes a variable that increases or decreases at a constant rate.</p>    
 
 <definition><title>Linear Model</title>
-    <p>A <term>linearl model</term><idx>linear model</idx> describes a variable that increases or decreases at a constant rate. It has the form
+    <p>A <term>linear model</term><idx>linear model</idx> describes a variable that increases or decreases at a constant rate. It has the form
         <md><mrow>\blert{y=(\text{starting value})+(\text{rate})\times t }</mrow></md></p>
 </definition>
 

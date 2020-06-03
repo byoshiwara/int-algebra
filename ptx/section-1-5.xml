@@ -121,7 +121,7 @@
 <p>Slope measures the change in one variable with respect to unit changes in another.To calculate the <term>net change</term> between two points on a number line, we can subtract their coordinates.
     <md><mrow>\blert{\text{net change} = \text{final value} - \text{starting value}}</mrow></md></p>
 
-<p>For example, if you walk from <m>3^\text{rd}</m> street to <m>8^\text{th}</m> street, your distance, <m>s</m>, from the center of town has increased by 5 blocks, or
+<p>For example, if you walk from 3^{rd} street to 8^{th} street, your distance, <m>s</m>, from the center of town has increased by 5 blocks, or
     <md><mrow>\Delta s = 8 - 3 = 5 </mrow></md>
  If the temperature <m>T</m> drops from <m>28\degree</m> to <m>22\degree</m>, it has decreased by <m>6\degree</m>, or 
     <md><mrow>\Delta T = 22-28 = -6</mrow></md></p>
@@ -293,8 +293,8 @@
                 <p>(in the years 1991 to 2001).</p></li></ol></p>
     </statement>
     <solution><p><ol label="a">
-        <li><p>Because <m>t=0</m> corresponds to 1990, we have the two points (1,64.6) and (11,28.7). The line joining those two points corresponds to the line with equation <m>y = <var name="$func"/> </m></p> </li>
-        <li><p>We use the two points (1,64.6) and (11,28.7) to compute the slope:  <m>-3.59</m> burglaries per 1000 households per year. From 1991 to 2001, the burglary rate declined by 3.59 burglaries per 1000 households every year.</p></li>
+        <li><p>Because <m>t=0</m> corresponds to 1990, we have the two points <m>(1,64.6)</m> and <m>(11,28.7)</m>. The line joining those two points corresponds to the line with equation <m>y = <var name="$func"/> </m></p> </li>
+        <li><p>We use the two points <m>(1,64.6)</m> and <m>(11,28.7)</m> to compute the slope:  <m>-3.59</m> burglaries per 1000 households per year. From 1991 to 2001, the burglary rate declined by 3.59 burglaries per 1000 households every year.</p></li>
         </ol></p></solution>
     </webwork></exercise>
 </subsection>
@@ -323,11 +323,11 @@
 <p>There is only one line that passes through a given point and has a given slope. So, if we know the slope of a particular line and one point on the line, we can find its equation. Remember that the equation is really just a formula that gives the <m>y</m>-coordinate of any point on the line in terms of its <m>x</m>-coordinate. To find the equation, we can use the coordinate formula for slope.</p>
 
 <example><statement><p><ol label="a">
-    <li><p>Graph the line that passes through the point <m>(1, -4)</m> and has  <m>\text{slope}=\dfrac{-3}{4} </m>.</p></li>
+    <li><p>Graph the line that passes through the point <m>(1,-4)</m> and has  <m>\text{slope}=\dfrac{-3}{4} </m>.</p></li>
     <li><p>Find an equation for the line in part (a).</p></li></ol></p></statement>
     
 <solution><p><ol label="a">
-    <li><sidebyside widths="58% 40%">
+    <li><sidebyside widths="55% 40%">
     <p>We first plot the given point, <m>(1,-4)</m>, and then use the slope to find another point on the line. The slope is <m>m=\dfrac{-3}{4}=\dfrac{\Delta y}{\Delta x} </m>, so starting from <m>(1,-4)</m> we move down 3 units and then 4 units to the right. This brings us to the point <m>(5,-7)</m>. We draw the line through these two points. </p>
         <image source="images/fig-point-slope"><description>point slope</description></image></sidebyside></li>
     <li><p>To find an equation for the line, we start with the slope formula,
