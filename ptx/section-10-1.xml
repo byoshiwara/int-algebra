@@ -471,7 +471,7 @@ A calculator keying sequence for the calculation is
 
 <p>Logarithmic functions are useful for modeling increasing functions that slow down as the input increases.</p>
 
-<example><statement><p>In 1900, the average life expectancy at birth in the U.S. was 47.3 years. Since then, life expectancy has increased according to the formula
+<example xml:id="example-life-expectancy"><statement><p>In 1900, the average life expectancy at birth in the U.S. was 47.3 years. Since then, life expectancy has increased according to the formula
     <me>L(x)=18.53+28.92 \log {x}</me>
 where <m>x</m> is the number of years after 1900. <ol label="a">
     <li>Graph the life expectancy function for the years 1900 to 2010.</li>

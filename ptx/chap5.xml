@@ -21,70 +21,94 @@
 
 <li><p>Check your results against the table below. Subtract the total number of infected residents from 5000 to find the number of healthy residents at the beginning of the second day. Then fill in the rest of the table for 10 days. (Round off decimal results to the nearest whole number.)</p>
  
-<sidebyside widths="40% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
-                    <row>
-                        <cell bottom="minor">Day</cell>
-                        <cell bottom="minor">Number healthy</cell>
-                        <cell bottom="minor">New patients</cell>
-                        <cell bottom="minor">Total infected</cell></row>
-                    <row>
-                        <cell bottom="minor"><m>0</m></cell>
-                        <cell bottom="minor"><m>5000</m></cell>
-                        <cell bottom="minor"><m>40</m></cell>
-                        <cell bottom="minor"><m>40</m></cell></row>
-                    <row> 
-                        <cell bottom="minor"><m>1</m></cell>
-                        <cell bottom="minor"><m>4960</m></cell>
-                        <cell bottom="minor"><m>1240</m></cell>
-                        <cell bottom="minor"><m>1280</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>2</m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>3</m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>4</m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>5</m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>6</m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>7</m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>8</m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>9</m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>10</m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell>
-                        <cell bottom="minor"><m></m></cell></row>  
-                    </tabular>
+<sidebyside widths="45% 45%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+    <row>
+        <cell bottom="minor">Day</cell>
+        <cell bottom="minor"><line>Number</line><line>healthy</line></cell>
+        <cell bottom="minor"><line>New</line><line>patients</line></cell>
+        <cell bottom="minor"><line>Total</line><line>infected</line></cell></row>
+    <row>
+        <cell bottom="minor"><m>0</m></cell>
+        <cell bottom="minor"><m>5000</m></cell>
+        <cell bottom="minor"><m>40</m></cell>
+        <cell bottom="minor"><m>40</m></cell></row>
+    <row> 
+        <cell bottom="minor"><m>1</m></cell>
+        <cell bottom="minor"><m>4960</m></cell>
+        <cell bottom="minor"><m>1240</m></cell>
+        <cell bottom="minor"><m>1280</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>2</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>3</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>4</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>5</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>6</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>7</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>8</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>9</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>10</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>  
+    </tabular>
 
-    <image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <image xml:id="fig-epidemiology">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[cyan] (0,0) grid (15,25);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(15.8,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,25.8) node[above]{$I$};
+        \foreach \x in {5,10,15} {
+         \draw[black,thick] (\x,0.1) --++(0,-.2)  node[below]   {$\x$};
+         \draw[cyan,ultra thick] (\x,0)--++(0,25);
+        }
+        \foreach \x [evaluate=\x as \xi using int(200*\x)] in {5,10,...,25} {
+
+         \draw[black] (.1,\x) --++(-.20,0)  node[left]   {$\xi$};
+         \draw[cyan,ultra thick] (0,\x)--++(15,0);
+         }
+        \node[font=\bf] at (7.5,-2.3) {Time (days)};
+        \node[rotate=90,font=\bf] at (-3.2,12.5) {Number of infected people};
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside></li>
 
 <li><p>Use the last column of the table to plot the total number of infected residents, <m>I</m>, against time, <m>t</m>, on the grid. Connect your data points with a smooth curve.</p></li>
 
@@ -99,7 +123,7 @@
 
 
 </introduction>
-<!--  -->
+
      <xi:include href="./section-5-1.xml" />  <!-- Functions -->
      <xi:include href="./section-5-2.xml" />  <!--Graphs of Functions-->
      <xi:include href="./section-5-3.xml" />  <!--Graphs of Functions-->
@@ -107,7 +131,5 @@
      <xi:include href="./section-5-5.xml" />  <!--Inverse Variation-->
      <xi:include href="./section-5-6.xml" />  <!--Functions as Models-->
      <xi:include href="./chap5-summary.xml" /> <!--Summary & Review-->
-        
 
 </chapter> 
-<!-- </book>  </mathbook> -->

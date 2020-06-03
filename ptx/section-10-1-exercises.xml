@@ -116,30 +116,30 @@
 	<li>Compute <m>2^{\log_2{Q}}</m></li></ol></p></statement></exercise>
 
 <exercise number="21"><statement><p>Each figure shows a portion of the graph of one of the following functions. Match each function with its graph.</p>
-	<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="70%"><image source="images/fig-6-curves"><description>six curves</description></image></sidebyside>
 <p><ol label="a">
-	<li><m>f(x)=2^x</m></li>
-	<li><m>f(x)=x^2</m></li>
-	<li><m>f(x)=\dfrac{2}{x}</m></li>
-	<li><m>f(x)=\sqrt{x}</m></li>
-	<li><m>f(x)=\log_2{x}</m></li>
-	<li><m>f(x)=(\dfrac{1}{2})^x</m></li></ol></p></statement>
+    <li><m>f(x)=2^x</m></li>
+    <li><m>f(x)=x^2</m></li>
+    <li><m>f(x)=\dfrac{2}{x}</m></li>
+    <li><m>f(x)=\sqrt{x}</m></li>
+    <li><m>f(x)=\log_2{x}</m></li>
+    <li><m>f(x)=(\dfrac{1}{2})^x</m></li></ol></p></statement>
 <answer><p><ol label="a">
-	<li>IV</li>
-	<li>V</li>
-	<li>I</li>
-	<li>II</li>
-	<li>III</li>
-	<li>VI</li></ol></p></answer></exercise>
+    <li>IV</li>
+    <li>V</li>
+    <li>I</li>
+    <li>II</li>
+    <li>III</li>
+    <li>VI</li></ol></p></answer></exercise>
 
 <exercise number="22"><statement><p>Choose the graph for each function described below.<ol label="a">
-	<li>The area, <m>A</m>, of a pentagon is a quadratic function of the length <m>l</m>, of its side.</li>
-	<li>The strength, <m>F</m>, of a hurricane varies inversely with its speed, <m>s</m>.</li>
-	<li>The price of food has increased 3% every year for a decade.</li>
-	<li>The magnitude, <m>M</m>, of a star is a logarithmic function of its brightness, <m>I</m>.</li>
-	<li>The speed of the train increased at a constant rate.</li>
-	<li>if you don't practice a foreign language, you lose <m>\dfrac{1}{8}</m> of the words in your working vocabulary each year.</li></ol></p>
-	<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></statement></exercise>
+    <li>The area, <m>A</m>, of a pentagon is a quadratic function of the length <m>l</m>, of its side.</li>
+    <li>The strength, <m>F</m>, of a hurricane varies inversely with its speed, <m>s</m>.</li>
+    <li>The price of food has increased 3% every year for a decade.</li>
+    <li>The magnitude, <m>M</m>, of a star is a logarithmic function of its brightness, <m>I</m>.</li>
+    <li>The speed of the train increased at a constant rate.</li>
+    <li>if you don't practice a foreign language, you lose <m>\dfrac{1}{8}</m> of the words in your working vocabulary each year.</li></ol></p>
+    <sidebyside width="70%"><image source="images/fig-six-curves"><description>six curves</description></image></sidebyside></statement></exercise>
 
 <exercise number="23"><statement><p><ol label="a">
 	<li>How large must <m>x</m> be before the graph of <m>y=\log_{10}{x}</m> reaches a height of 4?</li>
@@ -237,7 +237,7 @@ Both streams are <m>1.2</m> feet deep at the locations mentioned. (Source: Leopo
     <li><p>The average velocity of the entire stream can be closely approximated as follows: Measure the velocity at 20% of the total depth of the stream from the surface and at 80% of the total depth, then average these two values. Find the average velocity for the Hoback River and for Pole Creek.</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="31"><statement><p>In Example ?? of this section, we considered a formula for the average life expectancy in the U.S. as a function of years after 1900,
+<exercise number="31"><statement><p>In <xref ref="example-life-expectancy" text="type-global"/> of this section, we considered a formula for the average life expectancy in the U.S. as a function of years after 1900,
 	<me>L(x)=18.53+28.92 \log {x}</me>
 According to the formula, in what year was the life expectancy 70 years?</p></statement>
 <answer>1962</answer></exercise>
