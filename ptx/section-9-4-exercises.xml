@@ -440,7 +440,7 @@
 <subexercises><title>Applications</title>
 
 <exercisegroup><introduction><p>Problems 29<ndash/>32 deal with the cooling tower at an electricity generating facility. The shape of the tower, called a hyperboloid, is obtained by rotating a portion of the hyperbola <m>~\dfrac{x^2}{100^2}-\dfrac{y^2}{150^2}=1</m> around the <m>y</m>-axis.</p>
-<sidebyside width="40%"><image source="images/fig-hyperbola-tower"><description>graph</description></image></sidebyside>
+<sidebyside width="70%"><image source="images/fig-hyperbola-tower"><description>graph</description></image></sidebyside>
 </introduction>
 
 <exercise number="29"><statement><p>The base of the cooling tower is 360 feet below the center of the hyperbola. What is the diamter of the base?</p></statement>
