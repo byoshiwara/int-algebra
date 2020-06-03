@@ -518,7 +518,7 @@ Note that the equation now has the form of the linear models we saw in the last 
         $f = Compute("3/2 *x + 3/5");
     </pg-code>
 <statement><p>Solve for <m>y</m> in terms of <m>x</m>:  <m>\quad 10y-15x=6</m></p>
-        <p>m>y=</m><var name="$f" width="10"/></p>
+        <p><m>y=</m><var name="$f" width="10"/></p>
 </statement>
 <solution><m>y = 1.5x + 0.6</m></solution>
 </webwork></exercise>
