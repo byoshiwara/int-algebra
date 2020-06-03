@@ -104,7 +104,7 @@ then it must be true that either <m>~x-6=0~</m> or <m>~x+2=0.~</m> This is how w
 <solution><p>We can factor the expression <m>x^2-4x-12</m>, and write the equation as
     <me>(x-6)(x+2) = 0</me>
 Now it is in the form <m>~ab=0~</m>, with <m>~a=x-6~</m> and <m>~b=x+2~</m>, so the ZFP tells us that either <m>~x-6=0~</m> or <m>~x+2=0~</m>. We solve each of these equations.
-    <md><mrow>x-6 = 0~~~~\amp \text{or}~~~~x+2 = 0 \amp \amp \glert{\text{Solve each equation.}}</mrow>
+    <md><mrow>x-6 = 0~~~~\amp \text{or}~~~~x+2 = 0 \amp \amp \blert{\text{Solve each equation.}}</mrow>
         <mrow>x=6~~~~ \amp \text{or}~~~~x=-2</mrow></md>
 Once again we see that a quadratic equation has two solutions. You can check that both of these values satisfy the original equation.</p></solution></example>
 
@@ -179,12 +179,12 @@ So we can always solve a quadratic equation to find the <m>x</m>-intercepts of a
 <example><statement><p>Solve <m>~3x(x+1)=2x+2</m></p></statement>
     
 <solution><p>First, we write the equation in standard form. 
-    <md><mrow>3x(x+1) \amp = 2x+2  \amp \amp \glert{\text{Apply the distributive law to the left side.}}</mrow>
-        <mrow>3x^2+3x \amp = 2x+2  \amp \amp \glert{\text{Subtract}~2x+2~\text{from both sides.}}</mrow>
+    <md><mrow>3x(x+1) \amp = 2x+2  \amp \amp \blert{\text{Apply the distributive law to the left side.}}</mrow>
+        <mrow>3x^2+3x \amp = 2x+2  \amp \amp \blert{\text{Subtract}~2x+2~\text{from both sides.}}</mrow>
         <mrow>3x^2+x-2 \amp = 0</mrow></md>
 Now we factor the left side to obtain
-    <md><mrow>(3x-2)(x+1) \amp = 0  \amp \amp \glert{\text{Apply the zero-factor principle.}}</mrow>
-        <mrow>3x-2=0~~\text{or} ~~x+1 \amp =0  \amp \amp \glert{\text{Solve each equation.}}</mrow>
+    <md><mrow>(3x-2)(x+1) \amp = 0  \amp \amp \blert{\text{Apply the zero-factor principle.}}</mrow>
+        <mrow>3x-2=0~~\text{or} ~~x+1 \amp =0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
         <mrow>x=\dfrac{2}{3}~~\text{or} ~~x \amp = -1</mrow></md>
 The solutions are <m>\dfrac{2}{3}</m> and <m>-1</m>.</p></solution></example>
 
@@ -247,11 +247,11 @@ it is <em>incorrect</em> to set each factor equal to 15! (There are many ways th
  When will the baseball reach a height of 64 feet?</p></statement>
     
 <solution><p>We substitute <m>\alert{64}</m> for <m>h</m> in the formula, and solve for <m>t</m>. 
-    <me>\alert{64} = -16t^2+64t+4  ~~~~~ \glert{\text{Write the equation in standard form.}}</me>
-    <md><mrow>16t^2-64t+60 \amp 0  \amp \amp \glert{\text{Factor 4 from the left side.}}</mrow>
-        <mrow>4(4t^2-16t+15) \amp = 0  \amp \amp \glert{\text{Factor the quadratic expression.}}</mrow>
-        <mrow>4(2t-3)(2t-50) \amp = 0  \amp \amp \glert{\text{Set each variable factor equal to zero.}}</mrow>
-        <mrow>2t-3=0~~\text{or} ~~2t-5 \amp =0  \amp \amp \glert{\text{Solve each equation.}}</mrow>
+    <me>\alert{64} = -16t^2+64t+4  ~~~~~ \blert{\text{Write the equation in standard form.}}</me>
+    <md><mrow>16t^2-64t+60 \amp 0  \amp \amp \blert{\text{Factor 4 from the left side.}}</mrow>
+        <mrow>4(4t^2-16t+15) \amp = 0  \amp \amp \blert{\text{Factor the quadratic expression.}}</mrow>
+        <mrow>4(2t-3)(2t-50) \amp = 0  \amp \amp \blert{\text{Set each variable factor equal to zero.}}</mrow>
+        <mrow>2t-3=0~~\text{or} ~~2t-5 \amp =0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
         <mrow>t=\dfrac{3}{2}~~\text{or} ~~t \amp = \dfrac{5}{2}</mrow></md>
 There are two solutions.  At <m>t=\dfrac{3}{2}</m> seconds, the ball reaches a height of 64 feet on the way up, and at <m>t=\dfrac{5}{2}</m> seconds, the ball is 64 feet high on its way down.</p></solution>
 </example>
@@ -357,11 +357,11 @@ as shown below.</p>
 We apply the Pythagorean theorem to write an equation:
     <me>w^2+(w+3)^2=15^2</me>
 To solve this equation, we begin by simplifying the left side
-        <md><mrow>w^2+w^2+6w+9 \amp = 225 \amp \amp \glert{\text{Write the equation in standard form.}}</mrow>
-            <mrow>2w^2+6w-216 \amp = 0  \amp \amp \glert{\text{Factor 2 from the left side.}}</mrow>
-            <mrow>2(w^2+3w-108) \amp = 0 \amp \amp \glert{\text{Factor the quadratic expression.}}</mrow>
-            <mrow>2(w-9)(w+12) \amp = 0  \amp \amp \glert{\text{Set each factor equal to zero.}}</mrow>
-            <mrow>w-9=0 ~~~ \text{or} ~~~ w+12 \amp = 0 \amp \amp \glert{\text{Solve each equation.}}</mrow>
+        <md><mrow>w^2+w^2+6w+9 \amp = 225 \amp \amp \blert{\text{Write the equation in standard form.}}</mrow>
+            <mrow>2w^2+6w-216 \amp = 0  \amp \amp \blert{\text{Factor 2 from the left side.}}</mrow>
+            <mrow>2(w^2+3w-108) \amp = 0 \amp \amp \blert{\text{Factor the quadratic expression.}}</mrow>
+            <mrow>2(w-9)(w+12) \amp = 0  \amp \amp \blert{\text{Set each factor equal to zero.}}</mrow>
+            <mrow>w-9=0 ~~~ \text{or} ~~~ w+12 \amp = 0 \amp \amp \blert{\text{Solve each equation.}}</mrow>
             <mrow> w = 9 ~~~ ~~~ \text{or} ~~~ w \amp = -12</mrow></md>
     Because the width of the screen cannot be a negative number, the width is 9 inches, and thelength is <m>~w+3=12~</m> inches.</p></solution></example>
 
@@ -407,7 +407,7 @@ From here, you can see that the solutions are indeed <m>\dfrac{1}{2}</m> and <m>
 <p>A quadratic equation in one variable always has two solutions. In some cases, the solutions may be equal. For example, the equation
         <me>x^2-2x+1=0</me>
 can be solved by factoring as follows:
-    <md><mrow>(x-1)(x-1) \amp = 0  \amp \amp \glert{\text{Apply the zero-factor principle.}}</mrow>
+    <md><mrow>(x-1)(x-1) \amp = 0  \amp \amp \blert{\text{Apply the zero-factor principle.}}</mrow>
         <mrow>x-1=0~~~~\text{or}~~~~x-1 \amp = 0</mrow></md>
 Both of these equations have solution <m>x=1</m>.  We say that 1 is a solution of <term>multiplicity two</term>, meaning that it occurs twice as a solution of the quadratic equation.</p>
 

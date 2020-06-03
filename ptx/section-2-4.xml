@@ -9,9 +9,9 @@
     <me>x + 2y - 3z = -4</me>
 is an <term>ordered triple</term><idx>ordered triple</idx> of numbers that satisfies the equation. For example, <m>(0, -2, 0)</m> and <m>(-1, 0, 1)</m> are solutions to the equation above, but <m>(1, 1, 1)</m> is not. You can verify this by substituting the coordinates into the equation to see if a true statement results.
     <md alignment="alignat">
-        <mrow>\amp\text{For }(0,-2, 0):{}\amp \alert{0}   {}+{}\amp 2(\alert{-2}) \amp{}-{}\amp 3(\alert{0}) \amp = -4{}\amp\hphantom{blank} \glert{\text{True}}\amp</mrow>
-        <mrow>\amp\text{For }(-1, 0, 1):{}\amp \alert{-1} {}+{}\amp 2(\alert{0})  \amp{}-{}\amp 3(\alert{1}) \amp = -4{}\amp\hphantom{blank} \glert{\text{True}}\amp</mrow>
-        <mrow>\amp\text{For }(1, 1, 1):{}\amp \alert{1}   {}+{}\amp 2(\alert{1})  \amp{}-{}\amp 3(\alert{1}) \amp = -4{}\amp\hphantom{blank} \glert{\text{Not true}}\amp </mrow></md>
+        <mrow>\amp\text{For }(0,-2, 0):{}\amp \alert{0}   {}+{}\amp 2(\alert{-2}) \amp{}-{}\amp 3(\alert{0}) \amp = -4{}\amp\hphantom{blank} \blert{\text{True}}\amp</mrow>
+        <mrow>\amp\text{For }(-1, 0, 1):{}\amp \alert{-1} {}+{}\amp 2(\alert{0})  \amp{}-{}\amp 3(\alert{1}) \amp = -4{}\amp\hphantom{blank} \blert{\text{True}}\amp</mrow>
+        <mrow>\amp\text{For }(1, 1, 1):{}\amp \alert{1}   {}+{}\amp 2(\alert{1})  \amp{}-{}\amp 3(\alert{1}) \amp = -4{}\amp\hphantom{blank} \blert{\text{Not true}}\amp </mrow></md>
     A linear equation in three variables has infinitely many solutions.</p>
 
 <sidebyside  widths="45% 50%" margins="0% 0%" valigns="middle middle">

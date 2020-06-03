@@ -104,9 +104,9 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
         <me>\text{BMI} = 54(1.625^{-2})= 54(\dfrac{1}{1.625^2})= 20.45</me></p></li>
     <li><p><m>\text{BMI} = wh^{-2} = \dfrac{w}{h^2}</m>, so BMI varies inversely with the square of height. That is, for a fixed weight, BMI decreases as height increases.</p></li>
     <li><p>To find the height that gives a BMI of <m>25</m>, we solve the equation <m>25 = 319h^{-2}</m>. Note that the variable <m>h</m> appears in the denominator of a fraction, so we begin by clearing the denominator—in this case we multiply both sides of the equation by <m>h^2</m>.
-        <md><mrow>25 \amp = \frac{319}{h^2} \amp\amp \glert{\text{Multiply both sides by }h^2.}</mrow>
-            <mrow>25h^2 \amp = 319 \amp\amp \glert{\text{Divide both sides by }25.}</mrow>
-            <mrow>h^2 \amp = 12.76 \amp\amp \glert{\text{Extract square roots.}}</mrow> 
+        <md><mrow>25 \amp = \frac{319}{h^2} \amp\amp \blert{\text{Multiply both sides by }h^2.}</mrow>
+            <mrow>25h^2 \amp = 319 \amp\amp \blert{\text{Divide both sides by }25.}</mrow>
+            <mrow>h^2 \amp = 12.76 \amp\amp \blert{\text{Extract square roots.}}</mrow> 
             <mrow>h \amp\approx 3.57</mrow></md>
     To have a BMI under <m>25</m>, Yarbrough would have to be over <m>3.57</m> meters, or <m>11</m> feet <m>8</m> inches tall. (In fact, he is <m>6</m> feet <m>8</m> inches tall.)</p></li>
 </ol></p></solution></example>
@@ -127,9 +127,9 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
             <p><m>x=</m><var name="$a" width="12"/> </p>
             <instruction>Enter "root(n,x)" for  <m>\sqrt[n]{x} </m>.</instruction>
     </statement>
-        <hint><p><m>\glert{\text{Rewrite without a negative exponent.}}</m></p>
-            <p><m>\glert{\text{Clear the fraction.}}</m></p>
-            <p><m>\glert{\text{Isolate the variable.}}</m></p></hint>
+        <hint><p><m>\blert{\text{Rewrite without a negative exponent.}}</m></p>
+            <p><m>\blert{\text{Clear the fraction.}}</m></p>
+            <p><m>\blert{\text{Isolate the variable.}}</m></p></hint>
     <solution><p><m>x=\sqrt[3]{\dfrac{2}{15}}\approx 0.51 </m></p>
         </solution>
     </webwork>
@@ -237,7 +237,7 @@ Their graphs are shown below. Note that the domains of power functions with nega
     <li>If we use <m>k</m> for the constant of proportionality, then <m>I=\dfrac{k}{d^2}</m>.  Rewriting this equation with a negative exponent gives <m>I=kd^{-2}</m>.</li>
     <li><p>We substitute <m>T=9147</m> and <m>d=0.387</m> to obtain
         <md><mrow>9147 \amp = k(0.387)^{-2}</mrow>
-            <mrow>9147 \amp = \dfrac{k}{(0.387)^2} \amp \amp \glert{\text{Multiply both sides by}~0.387^2.}</mrow> 
+            <mrow>9147 \amp = \dfrac{k}{(0.387)^2} \amp \amp \blert{\text{Multiply both sides by}~0.387^2.}</mrow> 
             <mrow>1369.9 \amp = k</mrow></md>
      Thus, <m>I=f(d)=1370d^{-2}</m>.</p></li>
     <li>We evaluate the function for several values of <m>d</m>, and use a calculator to obtain the graph shown.
@@ -268,9 +268,9 @@ Their graphs are shown below. Note that the domains of power functions with nega
         <me>I=1370(1)^{-2} = 1370</me>
     Earth receives 1370 watts/m<m>^2</m> of solar radiation.</li>
     <li><p>We substitute <m>I=\alert{50.63}</m> into the formula, and solve for <m>d</m>.
-        <md><mrow>\alert{50.63} \amp = 1370d^{-2} = \dfrac{1370}{d^2} \amp \amp \glert{\text{Multiply both sides by}~d^2.}</mrow>
-            <mrow>50.63d^2 \amp = 1370   \amp \amp \glert{\text{Divide both sides by 50.63.}}</mrow>
-            <mrow>d^2 \amp = \dfrac{1370}{50.63} = 27.059   \amp \amp \glert{\text{Extract roots.}}</mrow>
+        <md><mrow>\alert{50.63} \amp = 1370d^{-2} = \dfrac{1370}{d^2} \amp \amp \blert{\text{Multiply both sides by}~d^2.}</mrow>
+            <mrow>50.63d^2 \amp = 1370   \amp \amp \blert{\text{Divide both sides by 50.63.}}</mrow>
+            <mrow>d^2 \amp = \dfrac{1370}{50.63} = 27.059   \amp \amp \blert{\text{Extract roots.}}</mrow>
             <mrow>d = \amp 5.202</mrow></md>
     Jupiter is 5.202 AU from the sun, or about 484 million miles.</p></li></ol></p></solution>
 </example>
@@ -319,11 +319,11 @@ which is consistent with our previous version of the rule,
 
 <example xml:id="example-laws-of-exponents"><p>
     <md><mrow>\text{a}\amp. ~x^3\cdot x^{-5} = x^{3-5} = x^{-2} 
-    \amp\amp     \glert{\text{Apply the first law: Add exponents.}} </mrow>
+    \amp\amp     \blert{\text{Apply the first law: Add exponents.}} </mrow>
         <mrow>\text{b}\amp. ~\frac{8x^{-2}}{4x^{-6}}= \frac{8}{4}x^{-2-(-6)} = 2x^4
-    \amp\amp     \glert{\text{Apply the second law: Subtract exponents.}} </mrow>
+    \amp\amp     \blert{\text{Apply the second law: Subtract exponents.}} </mrow>
         <mrow>\text{c}\amp. ~\left(5x^{-3}\right)^{-2}= 5^{-2}(x^{-3})^{-2}=\frac{x^6}{25}
-    \amp\amp     \glert{\text{Apply laws IV and III.}}</mrow></md>
+    \amp\amp     \blert{\text{Apply laws IV and III.}}</mrow></md>
 </p> </example>
 
 <p>You can check that each of the calculations in <xref ref="example-laws-of-exponents" text="type-global"/> is shorter when we use negative exponents instead of converting the expressions into algebraic fractions.</p>
@@ -411,8 +411,8 @@ but <em>we cannot add or subtract terms with different exponents</em>. Thus, for
     <li><m>0.00032</m></li></ol></p></statement>
     
 <solution><p><ol label="a">
-    <li><p><md><mrow>478,000 \amp = 4.78000 \times 10^5 \amp \amp \glert{\text{Move the decimal 5 places to the left.}}</mrow>         <mrow>\amp = 4.78 \times 10^5</mrow></md></p></li>
-    <li><p><md><mrow>0.00032 \amp = 00003.2 \times 10^{-4} \amp \amp \glert{\text{Move the decimal 4 places to the right.}}</mrow></md></p></li></ol></p></solution>
+    <li><p><md><mrow>478,000 \amp = 4.78000 \times 10^5 \amp \amp \blert{\text{Move the decimal 5 places to the left.}}</mrow>         <mrow>\amp = 4.78 \times 10^5</mrow></md></p></li>
+    <li><p><md><mrow>0.00032 \amp = 00003.2 \times 10^{-4} \amp \amp \blert{\text{Move the decimal 4 places to the right.}}</mrow></md></p></li></ol></p></solution>
 </example>
 
 <exercise><title>Practice 5</title>

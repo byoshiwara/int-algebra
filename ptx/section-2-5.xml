@@ -147,8 +147,8 @@ then we shade the half-plane <em>below</em> the line.</p>
 <example><statement><p>Graph <m>4x - 3y \ge 12</m></p></statement>
     
 <solution><p>We solve the inequality for <m>y</m>.
-            <md><mrow>4x - 3y \amp\ge 12 \amp \amp \glert{\text{Subtract}~ 4x~ \text{from both sides.}}</mrow>
-                <mrow>-3y\amp\ge -4x + 12 \amp \amp \glert{\text{Divide both sides by}~ -3.}</mrow>
+            <md><mrow>4x - 3y \amp\ge 12 \amp \amp \blert{\text{Subtract}~ 4x~ \text{from both sides.}}</mrow>
+                <mrow>-3y\amp\ge -4x + 12 \amp \amp \blert{\text{Divide both sides by}~ -3.}</mrow>
                 <mrow>y\amp\le \frac{4}{3}x-4</mrow></md></p>
         <sidebyside widths="70% 28%" margins="0% 0%" valigns="middle middle">
     <p>We graph the corresponding line

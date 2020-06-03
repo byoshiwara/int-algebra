@@ -41,8 +41,8 @@
 <example><statement><p>In <xref ref="Leon-camper" text="type-global"/> of <xref ref="LinMod" text="type-global" />,  we graphed an equation, <m>g=20-\frac{1}{12}d </m>, for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles. Find the intercepts of the graph.</p></statement>
     
 <solution><p> To find the <m>d</m>-intercept, we set <m>g = 0</m> and solve for <m>d</m>.</p>
-    <p><md><mrow>\alert{0} \amp = 20-\frac{1}{12}d \amp\amp\glert{\text{Add }\frac{1}{12}d \text{ to both sides.}} </mrow>
-        <mrow>\frac{1}{12}d \amp = 20 \amp\amp\glert{\text{Multiply both sides by 12.}} </mrow>
+    <p><md><mrow>\alert{0} \amp = 20-\frac{1}{12}d \amp\amp\blert{\text{Add }\frac{1}{12}d \text{ to both sides.}} </mrow>
+        <mrow>\frac{1}{12}d \amp = 20 \amp\amp\blert{\text{Multiply both sides by 12.}} </mrow>
         <mrow>d \amp = 240 </mrow></md></p>
 <p>The <m>d</m>-intercept is <m>(240, 0)</m>. To find the <m>g</m>-intercept, we set <m>d = 0</m> and solve for <m>g</m>.
     <md><mrow>g = 20 − \frac{1}{12}(\alert{0}) = 20</mrow></md>
@@ -250,12 +250,12 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
 
 <solution><p><ol label="a">
     <li><p>To find the <m>x</m>-intercept, we set <m>y = \alert{0}</m>.</p>
-        <p><md><mrow>150x-50(\alert{0})\amp =3000 \amp \amp \glert{\text{Simpify.}}</mrow>
-            <mrow>150x\amp =3000 \amp \amp \glert{\text{Divide both sides by 150.}}</mrow>
+        <p><md><mrow>150x-50(\alert{0})\amp =3000 \amp \amp \blert{\text{Simpify.}}</mrow>
+            <mrow>150x\amp =3000 \amp \amp \blert{\text{Divide both sides by 150.}}</mrow>
             <mrow>x\amp =20</mrow></md></p>
     <p>The <m>x</m>-intercept is the point <m>(20,0)</m>. To find the <m>y</m>-intercept, we set <m>x=\alert{0}</m>.</p>
-    <p><md><mrow>150(\alert{0})-50y\amp =3000 \amp \amp \glert{\text{Simpify.}}</mrow>
-            <mrow>506 \amp = 3000\amp\amp \glert{\text{Divide both sides by 50.}} </mrow>
+    <p><md><mrow>150(\alert{0})-50y\amp =3000 \amp \amp \blert{\text{Simpify.}}</mrow>
+            <mrow>506 \amp = 3000\amp\amp \blert{\text{Divide both sides by 50.}} </mrow>
             <mrow> y\amp =60</mrow></md></p>
         <p>The <m>y</m>-intercept is the point <m>(0, 60)</m>.</p></li>
     <li><sidebyside widths="60% 20%" margins="0% 5%" valigns="middle middle"><p>We scale both axes in intervals of 10 and then plot the two intercepts, <m>(20, 0)</m> and <m>(0, 60)</m>. We draw the line through them, as shown.  </p>
@@ -346,12 +346,12 @@ It is sometimes useful to convert an equation from one form to the other.</p>
     
 <solution><p><ol label="a">
     <li><p>We would like to solve for <m>y</m> in terms of <m>x</m>. We first isolate the <m>y</m>-term on one side of the equation.
-        <md><mrow>4x-3y \amp = 6 \amp\amp \glert{\text{Subtract }4x\text{ from both sides.}} </mrow>
-            <mrow>-3y \amp = 6 -4x\amp\amp \glert{\text{Divide both sides by } {-3}.} </mrow>
-            <mrow>\frac{-3y}{-3} \amp = \frac{6-4x}{-3} \amp\amp \glert{\text{Simplify: divide each term by }{-3}.} </mrow>
+        <md><mrow>4x-3y \amp = 6 \amp\amp \blert{\text{Subtract }4x\text{ from both sides.}} </mrow>
+            <mrow>-3y \amp = 6 -4x\amp\amp \blert{\text{Divide both sides by } {-3}.} </mrow>
+            <mrow>\frac{-3y}{-3} \amp = \frac{6-4x}{-3} \amp\amp \blert{\text{Simplify: divide each term by }{-3}.} </mrow>
             <mrow>y \amp -2 + \frac{4}{3}x </mrow></md></p></li>
     <li><p>Write the equation in the form <m>Ax+By=C</m>.
-            <md><mrow>y \amp = -9-\frac{3}{2}x\amp\amp \glert{\text{Add } \frac{3}{2}x \text{ to both sides.}} </mrow>
+            <md><mrow>y \amp = -9-\frac{3}{2}x\amp\amp \blert{\text{Add } \frac{3}{2}x \text{ to both sides.}} </mrow>
                 <mrow>\frac{3}{2}x+y \amp = -9 </mrow></md>
         We can write the equation with integer coefficients by clearing the fractions. We multiply both sides of the equation by <m>\alert{2} </m>.
             <md><mrow>\alert{2}\left(\frac{3}{2}x+y \right) \amp = -9(\alert{2}) </mrow>

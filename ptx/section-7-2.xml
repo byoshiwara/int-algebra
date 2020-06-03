@@ -471,14 +471,14 @@ which is true if and only if <m>x = 4</m>.</p>
 
 <solution><p><ol label="a">
 	<li>Using the fact that <m>9 = 3^2</m>, we write each side of the equation as a power of <m>3</m>:
-		<md><mrow>3^{x-2} \amp = \left(3^2\right)^3 \amp \amp \glert{\text{Simplify the right side.}}</mrow>
+		<md><mrow>3^{x-2} \amp = \left(3^2\right)^3 \amp \amp \blert{\text{Simplify the right side.}}</mrow>
 			<mrow>3^{x-2} \amp = 3^6</mrow></md> 
 	Now we equate the exponents to obtain
 		<md><mrow>x - 2 \amp = 6</mrow></md>
 	The solution is <m>x=8</m>.</li>
 	<li>We write each factor as a power of <m>3</m>.
 		<md><mrow>
-            3^3 \cdot 3^{-2x} \amp= \left(3^2\right)^{x+1}\amp\amp\glert{27=3^3~\text{and}~9=3^2.}
+            3^3 \cdot 3^{-2x} \amp= \left(3^2\right)^{x+1}\amp\amp\blert{27=3^3~\text{and}~9=3^2.}
         </mrow></md>
 	We use the laws of exponents to simplify each side:
 		<me>3^{3-2x} = 3^{2x+2}</me>
@@ -562,8 +562,8 @@ which is true if and only if <m>x = 4</m>.</p>
     Notice that the original population is multiplied by another factor of 2 every 5 days. We must divide <m>t</m> by 5 to see how many times the population doubles. The formula for <m>P</m> is thus
 		<me>P(t) = 10 \cdot 2^{t/5}</me></p></li>
 	<li>We set <m>P = \alert{10,240}</m> and solve for <m>t</m>:
-		<md><mrow>\alert{10,240} \amp = 10\cdot 2^{t/5}\amp\amp \glert{\text{Divide both sides by 10.}}</mrow>
-			<mrow>1024 \amp = 2^{t/5} \amp\amp \glert{\text {Write 1024 as a power of 2.}}</mrow>
+		<md><mrow>\alert{10,240} \amp = 10\cdot 2^{t/5}\amp\amp \blert{\text{Divide both sides by 10.}}</mrow>
+			<mrow>1024 \amp = 2^{t/5} \amp\amp \blert{\text {Write 1024 as a power of 2.}}</mrow>
 			<mrow>2^{10} \amp = 2^{t/5}</mrow></md>
 	We equate the exponents to get <m>10 = \dfrac{t}{5}</m>, or <m>t = 50</m>. The population will grow to <m>10,240</m> fleas in <m>50</m> days.</li></ol></p></solution></example>
 

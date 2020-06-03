@@ -64,8 +64,8 @@
         \node[blue,rotate={atan(-1/4)}, fill=white, inner sep=1] at (7.8,2.5) {$3t+6r=48$};
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
-<p><md><mrow>3(\alert{4})+ 6(\alert{6}) \amp \stackrel{?}{=} 48\amp\amp \glert{\text{True}} </mrow>
-        <mrow>5(\alert{4})+ 2(\alert{6}) \amp \stackrel{?}{=} 32\amp\amp \glert{\text{True}} </mrow></md>
+<p><md><mrow>3(\alert{4})+ 6(\alert{6}) \amp \stackrel{?}{=} 48\amp\amp \blert{\text{True}} </mrow>
+        <mrow>5(\alert{4})+ 2(\alert{6}) \amp \stackrel{?}{=} 32\amp\amp \blert{\text{True}} </mrow></md>
 Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces.</p>
 
 <exercise><title>QuickCheck 2</title>
@@ -117,8 +117,8 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
 </example>
 
 <p>The values we obtain from a calculator may be only approximations, so it is a good idea to check the solution algebraically. In the example above, we find that both equations are true when we substitute <m>x = \alert{-2}</m> and <m>y=\blert{-3}</m>.
-    <md><mrow>\blert{-3}\amp = 1.7(\alert{-2})+0.4\amp\amp \glert{\text{True}}</mrow>
-        <mrow>\blert{-3}\amp = 4.2(\alert{-2})+5.2\amp\amp \glert{\text{True}}</mrow></md></p>
+    <md><mrow>\blert{-3}\amp = 1.7(\alert{-2})+0.4\amp\amp \blert{\text{True}}</mrow>
+        <mrow>\blert{-3}\amp = 4.2(\alert{-2})+5.2\amp\amp \blert{\text{True}}</mrow></md></p>
 
 <exercise><title>Practice 1</title>
     <webwork><pg-code>
@@ -159,8 +159,8 @@ and then press <c>ZOOM</c> <m>6</m>. If we trace along the graph to the intersec
 </example>
 
 <p> We can substitute these values into the original system to check that they satisfy both equations.
-        <md><mrow>3(\alert{4.36}) - 2.8(\alert{-2.85}) \amp = 21.06 \amp\amp \glert{\text{True}}</mrow>
-            <mrow>2(\alert{4.36}) + 1.2(\alert{-2.85}) \amp = 5.3 \amp\amp \glert{\text{True}}</mrow></md></p>
+        <md><mrow>3(\alert{4.36}) - 2.8(\alert{-2.85}) \amp = 21.06 \amp\amp \blert{\text{True}}</mrow>
+            <mrow>2(\alert{4.36}) + 1.2(\alert{-2.85}) \amp = 5.3 \amp\amp \blert{\text{True}}</mrow></md></p>
 
 <exercise><title>Practice 2</title>
     <webwork><pg-code>
@@ -229,8 +229,8 @@ and then press <c>ZOOM</c> <m>6</m>. If we trace along the graph to the intersec
 
 <solution><p><ol label="a">
     <li><p>We use the calculator to graph both equations on the same axes. First, we rewrite the second equation in slope-intercept form by solving for <m>y</m>.
-                <md><mrow>2x + 2y \amp = 3\amp\amp \glert{\text{Substract } 2x \text{ from both sides.}}</mrow>
-                    <mrow>2y \amp = -2x + 3\amp\amp \glert{\text{Divide both sides by 2.}}</mrow>
+                <md><mrow>2x + 2y \amp = 3\amp\amp \blert{\text{Substract } 2x \text{ from both sides.}}</mrow>
+                    <mrow>2y \amp = -2x + 3\amp\amp \blert{\text{Divide both sides by 2.}}</mrow>
                     <mrow>y \amp = -x + 1.5</mrow></md>
     We enter the equations as
                 <md><mrow>Y_1 \amp= -X + 5</mrow>
@@ -238,12 +238,12 @@ and then press <c>ZOOM</c> <m>6</m>. If we trace along the graph to the intersec
     You should see that the lines do not intersect within the viewing window; they appear to be parallel. If we look again at the equations of the lines, we recognize that both have slope <m>-1</m> but different <m>y</m>-intercepts, so they are parallel. Because parallel lines never meet, there is no solution to the system.</p></li>
     <li><p>This time we will graph by hand. We begin by writing each equation in slope-intercept form.</p>
             <sidebyside widths="60% 30%" margins="0% 0%" valigns="middle middle">
-        <p><md><mrow>x \amp = \frac{2}{3}y + 3\amp\amp \glert{\text{Subtract 3.}}  </mrow>
-                        <mrow>x -3\amp = \frac{2}{3}y \amp\amp \glert{\text{Multiply by }   \frac{3}{2}.}</mrow>
+        <p><md><mrow>x \amp = \frac{2}{3}y + 3\amp\amp \blert{\text{Subtract 3.}}  </mrow>
+                        <mrow>x -3\amp = \frac{2}{3}y \amp\amp \blert{\text{Multiply by }   \frac{3}{2}.}</mrow>
                         <mrow>\frac{3}{2}x-\frac{9}{2}\amp = y</mrow></md>
         For the second equation,
-            <md><mrow>3x - 2y \amp = 9  \amp\amp \glert{\text{Subtract }    3x.}</mrow>
-                <mrow>-2y \amp = -3x + 9  \amp\amp \glert{\text{Divide by } -2.}</mrow>
+            <md><mrow>3x - 2y \amp = 9  \amp\amp \blert{\text{Subtract }    3x.}</mrow>
+                <mrow>-2y \amp = -3x + 9  \amp\amp \blert{\text{Divide by } -2.}</mrow>
                 <mrow>y \amp = \frac{3}{2}x - \frac{9}{2}</mrow></md></p>
             <image source="images/fig-coincident-lines"  width="25%"><description>one line with two equations</description></image></sidebyside>
     <p>The two equations are actually different forms of the same equation. They are equivalent, so they share the same line as a graph. Every point on the first line is also a point on the second line, and hence a solution of the system. The system has infinitely many solutions.</p></li></ol></p></solution></example>

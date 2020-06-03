@@ -91,10 +91,10 @@
                 <mrow>2y \amp = 19-3x</mrow></md></p></statement>
     
 <solution><p>First, we rewrite each equation in the form <m>Ax + By = C</m>.
-    <md><mrow>5x\amp= 2y+21\amp\amp\glert{\text{Subtract }2y}
-        \amp 2y\amp=19-3x \amp\amp\glert{\text{Add }3x \text{ to}}</mrow>
-        <mrow>\underline{\hphantom{5x}-2y}\amp= \underline{{-2y}\hphantom{21} }\amp\amp\glert{\text{from both sides.}}
-        \amp \underline{\hphantom{3x}{+3x}}\amp=\underline{{+3x}\hphantom{3x}} \amp\amp\glert{\text{both sides.}}</mrow>
+    <md><mrow>5x\amp= 2y+21\amp\amp\blert{\text{Subtract }2y}
+        \amp 2y\amp=19-3x \amp\amp\blert{\text{Add }3x \text{ to}}</mrow>
+        <mrow>\underline{\hphantom{5x}-2y}\amp= \underline{{-2y}\hphantom{21} }\amp\amp\blert{\text{from both sides.}}
+        \amp \underline{\hphantom{3x}{+3x}}\amp=\underline{{+3x}\hphantom{3x}} \amp\amp\blert{\text{both sides.}}</mrow>
         <mrow>5x-2y\amp= 21\amp\amp
                     \amp 3x+2y\amp=19</mrow></md>
 We add the equations together by adding the left side of the first equation to the left side of the second equation, and then adding the two right sides together, as follows:
@@ -102,8 +102,8 @@ We add the equations together by adding the left side of the first equation to t
                 <mrow>\underline{3x+2y}\amp =\underline{19\vphantom{2y}}</mrow>
                 <mrow>8x\hphantom{{}+2y} \amp = 40</mrow></md>
 Note that the <m>y</m>-terms canceled, or were <term>eliminated</term>. Solving the new equation, <m>8x = 40</m>, we find that <m>x = 5</m>. We are not finished yet, because we must still find the value of <m>y</m>. We can substitute our value for <m>x</m> into either of the original equations, and solve for <m>y</m>. We'll use the second equation, <m>3x+2y=19</m>:
-            <md><mrow>3(\alert{5})+2y \amp = 19 \amp\amp \glert{\text{Subtract 15 from both sides.}}</mrow>
-                <mrow>2y \amp = 4 \amp\amp \glert{\text{Divide by 2.}}</mrow>
+            <md><mrow>3(\alert{5})+2y \amp = 19 \amp\amp \blert{\text{Subtract 15 from both sides.}}</mrow>
+                <mrow>2y \amp = 4 \amp\amp \blert{\text{Divide by 2.}}</mrow>
                 <mrow>y \amp = 2     </mrow></md>
 Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 

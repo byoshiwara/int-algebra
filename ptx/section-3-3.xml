@@ -438,9 +438,9 @@ First, find the <m>x</m>-intercepts of the graph by setting <m>y</m> equal to ze
 
 <image source="images/fig-parabola-vertex"><description>parabola with vertex and line of symmetry</description></image></sidebyside>
 
-<p><md><mrow>0 \amp= ax^2 + bx \amp\amp \glert{\text{Factor.}} </mrow>
-	   <mrow>\amp= x(ax + b) \amp\amp \glert{\text{Set each factor equal to zero.}} </mrow>
-	   <mrow>x \amp=0 ~~~\text{or}~~~ ax + b = 0 \amp\amp \glert{\text{Solve for}~x.} </mrow>
+<p><md><mrow>0 \amp= ax^2 + bx \amp\amp \blert{\text{Factor.}} </mrow>
+	   <mrow>\amp= x(ax + b) \amp\amp \blert{\text{Set each factor equal to zero.}} </mrow>
+	   <mrow>x \amp=0 ~~~\text{or}~~~ ax + b = 0 \amp\amp \blert{\text{Solve for}~x.} </mrow>
 	   <mrow>x \amp=0 ~~~\text{or}~~~  x =\frac{-b}{a}</mrow></md>
 The <m>x</m>-intercepts are the points <m>(0, 0)</m> and <m>(\dfrac{-b}{a}, 0)</m>.</p>
 
@@ -465,9 +465,9 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 			<me>y_v=-1.8(\alert{-4.5})^2 - 16.2(\alert{-4.5}) = 36.45</me>
 		The vertex is <m>(-4.5, 36.45)</m>.</li>
 	<li>To find the <m>x</m>-intercepts of the graph, set <m>y = 0</m> and solve.
-			<md><mrow>-1.8x^2 - 16.2x \amp= 0\amp\amp \glert{\text{Factor.}}</mrow>
-				<mrow>-x(1.8x + 16.2) \amp= 0\amp\amp \glert{\text{Set each factor equal to zero.}}</mrow>
-				<mrow>-x =0 \hphantom{blank} 1.8x + 16.2 \amp = 0\amp\amp \glert{\text{Solve each equation.}}</mrow>
+			<md><mrow>-1.8x^2 - 16.2x \amp= 0\amp\amp \blert{\text{Factor.}}</mrow>
+				<mrow>-x(1.8x + 16.2) \amp= 0\amp\amp \blert{\text{Set each factor equal to zero.}}</mrow>
+				<mrow>-x =0 \hphantom{blank} 1.8x + 16.2 \amp = 0\amp\amp \blert{\text{Solve each equation.}}</mrow>
 				<mrow>x = 0 \hphantom{blankblankblan} x  \amp= -9</mrow></md>
 		The <m>x</m>-intercepts of the graph are <m>(0, 0)</m> and <m>(-9, 0)</m>. The graph is shown below.</li>
 	</ol></p>

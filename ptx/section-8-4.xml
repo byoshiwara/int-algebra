@@ -137,11 +137,11 @@ Finally, we reduce the result to obtain
 
 <solution><p><ol label="a">
     <li><p>We write each power as a fraction, then simplify.
-        <md><mrow>x^{-1}-y^{-1} \amp = \dfrac{1}{x} - \dfrac{1}{y} \amp \amp \glert{\text{The LCD is}~xy.}</mrow>
+        <md><mrow>x^{-1}-y^{-1} \amp = \dfrac{1}{x} - \dfrac{1}{y} \amp \amp \blert{\text{The LCD is}~xy.}</mrow>
             <mrow>\amp = \dfrac{1}{x} \cdot \dfrac{y}{y}- \dfrac{1}{y} \cdot \dfrac{x}{x}</mrow>
             <mrow>\amp = \dfrac{y-x}{xy}</mrow></md></p></li>
     <li><p>We simplify the expression inside parentheses first.
-        <md><mrow>(x^{-2}+y^{-2})^{-1} \amp = (\dfrac{1}{x^2} + \dfrac{1}{y^2})^{-1} \amp \amp \glert{\text{Add fractions.}}</mrow>
+        <md><mrow>(x^{-2}+y^{-2})^{-1} \amp = (\dfrac{1}{x^2} + \dfrac{1}{y^2})^{-1} \amp \amp \blert{\text{Add fractions.}}</mrow>
             <mrow> \amp = (\dfrac{y^2+x^2}{x^2y^2})^{-1} = \dfrac{x^2y^2}{x^2+y^2}</mrow></md>
     For the last step, remember that a negative exponent indicates the reciprocal of its base.</p></li></ol></p>
 </solution></example>
@@ -348,8 +348,8 @@ Note that the quotient is the sum of a polynomial, <m>3x^2 - 2x</m>, and an alge
     \require{enclose}
 \begin{array}[t]{rll}
     \alert{2x} \hphantom{1+x-7}&amp;&amp;  \\[-3pt]
-   x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex &amp;&amp; \glert{\text{Multiply }2x \text{ by } x+3.}\\[-3pt]
-      \underline{-(2x^2+6x)\phantom{11}} &amp;&amp; \glert{\text{Subtract the result}.}\\[-3pt]
+   x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex &amp;&amp; \blert{\text{Multiply }2x \text{ by } x+3.}\\[-3pt]
+      \underline{-(2x^2+6x)\phantom{11}} &amp;&amp; \blert{\text{Subtract the result}.}\\[-3pt]
       -5x-7 
   \end{array}
 </mrow></md>
@@ -360,8 +360,8 @@ Repeating the process, we divide <m>-5x</m> by <m>x</m> to obtain <m>-5</m>. We 
     2x\alert{-5} \hphantom{x-11}&amp;&amp;  \\[-3pt]
    x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex \phantom{11}&amp;&amp; \\[-3pt]
       \underline{-(2x^2+6x)\phantom{11}} \phantom{11}&amp;&amp; \\[-3pt]
-      -5x-7\phantom{11} &amp;&amp; \glert{\text{Multiply } {-5} \text{ by }x+3.} \\[-3pt]
-      \underline{-(-5x-15)} &amp;&amp;\glert{\text{Subtract the result}.} \\[-3pt]
+      -5x-7\phantom{11} &amp;&amp; \blert{\text{Multiply } {-5} \text{ by }x+3.} \\[-3pt]
+      \underline{-(-5x-15)} &amp;&amp;\blert{\text{Subtract the result}.} \\[-3pt]
       8\phantom{11} 
   \end{array}
 </mrow></md>
