@@ -7,7 +7,7 @@
 
 <p>A "section" is a slice, and the conic sections are the curves formed by slicing a cone by a plane. Depending on the angle of the slice, we get four different curves, as shown below.</p>
 
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="40%"><image source="images/conics"><description>graph</description></image></sidebyside>
 
 <p>We have already met the parabola, which is described by the quadratic equation <m>y=ax^2+bx+c</m>. It turns out that the other conic sections are also described by quadratic equations. These curves have many interesting properties as abstract objects, but as often happens with mathematical discoveries, they are also useful in applications. Conic sections appear in art and architecture, in medicine, science, and engineering.</p>
 
@@ -32,7 +32,25 @@ point of several such spheres centered on different satellites.</p>
 
 <p>In this model we’ll need data from two GPS satellites. The satellites are orbiting along a circle of radius 100 meters centered at the origin. You have a receiver inside that circle and would like to know the coordinates of your position within the circle.</p> 
 
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+    <sidebyside width="100%"><image xml:id="fig-gps-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[cyan] (-12,-12) grid (20,15);
+        \draw[black,thick,->,>=stealth'] (-12,0)--(20.8,0) node[right] {$x$};
+        \draw[black,thick,->,>=stealth'] (0,-12)--(0,15.8) node[above] {$y$};
+        \foreach \x [evaluate=\x as \xi using int(10*\x)]  in  {-10,-5,5,10,15} {
+         \draw[black, thick] (\x,0.14) --++(0,-.28) node[below, yshift=-2, fill=white, inner sep=1] {$\xi$};
+         \draw[black, thick] (0.14,\x) --++(-.28,0) node[left, xshift=-2, fill=white, inner sep=1] {$\xi$};
+        }
+        \draw[red!80!black,ultra thick] (0,0) circle (10 );
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
     
 <p>To make the computations simpler, we will also assume that the satellite transmissions travel at 5 meters per second.</p>
 <p><ol label="1">

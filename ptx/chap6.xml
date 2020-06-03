@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chap6"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Powers and Roots</title>
     
-<introduction>
-    <sidebyside width="60%" margins="0% 40%"><image source="images/shutterstock_157411100.jpg"><description>elephant and mouse</description></image></sidebyside>
-        
+<introduction>       
     <sidebyside width="60%" margins="0% 40%"><image source="images/fig-mouse-to-elephant.png"><description>mouse to elephant: Bob Elsdale/Getty Images</description></image></sidebyside>
         
 <p>We next turn our attention to a large and useful family of functions, called powerfunctions. Here is an example of a <term>power function</term> with fractional exponents.</p>
