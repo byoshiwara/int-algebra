@@ -7,7 +7,7 @@
 
 <p>A "section" is a slice, and the conic sections are the curves formed by slicing a cone by a plane. Depending on the angle of the slice, we get four different curves, as shown below.</p>
 
-    <sidebyside width="40%"><image source="images/conics"><description>graph</description></image></sidebyside>
+    <sidebyside width="75%"><image source="images/conics"><description>graph</description></image></sidebyside>
 
 <p>We have already met the parabola, which is described by the quadratic equation <m>y=ax^2+bx+c</m>. It turns out that the other conic sections are also described by quadratic equations. These curves have many interesting properties as abstract objects, but as often happens with mathematical discoveries, they are also useful in applications. Conic sections appear in art and architecture, in medicine, science, and engineering.</p>
 
