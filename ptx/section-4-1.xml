@@ -390,7 +390,28 @@ For example, consider the three functions graphed below.</p>
 </ul></p>
 
 <p>A closer look at the quadratic formula reveals useful information about the solutions of quadratic equations. The sign of the number under the radical determines how many solutions the equation has. For the three equations above, we calculate as follows:</p>
-    <sidebyside><image source="images/fig-three-cases-x-intercepts"><description>discriminant for the three cases</description></image></sidebyside>
+
+<p><md alignment="alignat">
+    <mrow>
+        \amp y=x^2-4x+3 \amp \amp y=x^2-4x+4 \amp\amp y=x^2-4+6
+    </mrow>
+    <mrow>
+        \amp~~\blert{ \text{two } x\text{-intercepts}} \amp \amp ~~\blert{~\text{one } x\text{-intercept}} \amp\amp ~\blert{~\text{no } x\text{-intercepts}} 
+    </mrow>
+    <mrow>
+        \small{x} \amp \small{=\frac{4\pm\sqrt{(-4)^2-4(1)(3)}}{2}}\quad\amp 
+        \small{x} \amp \small{=\frac{4\pm\sqrt{(-4)^2-4(1)(4)}}{2}}\quad\amp  
+        \small{x}\amp \small{=\frac{4\pm\sqrt{(-4)^2-4(1)(6)}}{2}}
+    </mrow>
+    <mrow>
+        \amp =\frac{4\pm\sqrt{\alert{4}}}{2}\amp 
+        \amp =\frac{4\pm\sqrt{\alert{0}}}{2}\amp  
+        \amp =\frac{4\pm\sqrt{\alert{-12}}}{2}
+    </mrow>
+    <mrow>
+        \amp~~\blert{ \text{two solutions}}  \amp \amp ~\blert{~\text{one repeated solution}} \amp\amp ~~\blert{~\text{no solutions}} 
+    </mrow>
+</md></p>
 
 <p>From the examples above, we see that the solutions of a quadratic equation always occur in <term>conjugate pairs</term>,
     <me>\dfrac{-b}{2a}+\dfrac{\sqrt{b^2-4ac}}{2a}~~~\text{and}~~~\dfrac{-b}{2a}-\dfrac{\sqrt{b^2-4ac}}{2a}</me>
