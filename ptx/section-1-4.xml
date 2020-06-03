@@ -5,13 +5,13 @@
 
 <subsection><title>Glacier Melt</title>
 
-<p>Glaciers around the world are retreating at accelerating rates, and many lower-latitude mountain glaciers may disappear entirely within decades. The meltwaterfrom these smaller glaciers contributed as much as 40% to the total rise in sea level over the 1990s.</p>
+<p>Glaciers around the world are retreating at accelerating rates, and many lower-latitude mountain glaciers may disappear entirely within decades. The meltwater from these smaller glaciers contributed as much as 40% to the total rise in sea level over the 1990s.</p>
 
 <p>By measuring the change in ice and snow height at fixed points and multiplying by the surface area of the glacier, scientists calculate the total volume of water lost from land-based glaciers. Dividing this volume by the surface area of the world's oceans gives the resulting change in sea level.</p>
 
 <p>The graphs below show the change in thickness of the land-based glaciers overthe past 5 years, and the rise in sea level attributed to their melting.</p>
 
-<sidebyside>
+<sidebyside width="80%">
     <image source="images/glacier-graphs"><description>graphs of change in glacier thickness and resulting rise in sea level</description></image>
 </sidebyside>
 </subsection>
@@ -33,8 +33,7 @@
     </p></statement>
 <solution><p>rate</p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <p>In the example below, notice that each rate has units of the form  <m>\dfrac{\text{something}}{\text{something else}} </m>, which we read as "something per something else."</p>
 
@@ -61,8 +60,7 @@
     </statement>
     <solution><p>6.8 miles per hour</p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <definition><title>Rate of Change</title>
 
@@ -71,7 +69,7 @@
 
 <example><statement><p>Gregor is driving across Montana. At 1 pm his trip odometer reads 189 miles, and at 4 pm it reads 360 miles. Calculate Gregor's average speed as a rate of change.</p></statement>
     
-<solution><p>We have two variables<mdash/>time, <m>t</m>, and distance, <m>d</m><mdash/>and the following data points:</p>
+<solution><p>We have two variables: time, <m>t</m>, and distance, <m>d</m>, and the following data points:</p>
     <sidebyside><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
             <row>
                 <cell><m> ~ t ~ </m></cell>
@@ -220,17 +218,17 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     <me>\Delta x~ \text{ is}~ 
             \begin{cases}
             \text{positive if }x\text{ increases} \amp \text{(we move to the right)}\\
-            \text{negative if }x\text{ idereases} \amp \text{(we move to the left)}
+            \text{negative if }x\text{ decreases} \amp \text{(we move to the left)}
             \end{cases}</me>
     <me>\Delta y~ \text{ is}~ 
             \begin{cases}
             \text{positive if }y\text{ increases} \amp \text{(we move up)}\\
-            \text{negative if }y\text{ dereases} \amp \text{(we move down)}\hphantom{to left}
+            \text{negative if }y\text{ decreases} \amp \text{(we move down)}\hphantom{to left}
             \end{cases}</me></p>
 
 <p>How does slope measure the steepness of a line? Study the three examples below:</p>
 
-<sidebyside widths="32% 32% 32%" margins="0% 0%">
+<sidebyside widths="25% 25% 25%" margins="10% 10%">
     <stack>
          <image xml:id="fig-measure-slope-A"><description>line A</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -376,7 +374,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
                     \draw [black,decorate,decoration={brace,amplitude=7pt}] (8,4.8) -- (4,4.8) node [black, below,midway, yshift=-9, fill=white, inner sep=1] {$\Delta x$};
                     \end{tikzpicture}]]>
             </latex-image></image></sidebyside></li>
-        <li><p>The slope is 5, which means that <m>y</m> increases 25 units for eahc 1-unit increase in <m>x</m>. So, if <m>\Delta x=1</m>, then <m>\Delta y=25</m>.</p></li></ol></p></solution></example>
+        <li><p>The slope is 25, which means that <m>y</m> increases 25 units for each 1-unit increase in <m>x</m>. So, if <m>\Delta x=1</m>, then <m>\Delta y=25</m>.</p></li></ol></p></solution></example>
 
 <exercise><title>Practice 3</title>
 <introduction><sidebyside width="40%">
@@ -485,7 +483,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     <li><p>The slope gives the rate of change of altitude with respect to time. The skier rises at a rate of 150 feet per minute.</p></li>
     <li><p>A linear model has the form
             <md><mrow>y = (\text{starting value}) + (\text{rate}) \times t </mrow></md>
-    From the graph, we see that at <m>t = 0</m> the skier's altitude was <m>a = 100</m>, and we calculated the rate of change of altitude as 150 feet per minute. Substitutingthese values into the formula, we find
+    From the graph, we see that at <m>t = 0</m> the skier's altitude was <m>a = 100</m>, and we calculated the rate of change of altitude as 150 feet per minute. Substituting these values into the formula, we find
                 <md><mrow>a = 100 + 150t</mrow></md></p></li></ol></p></solution></example>
 
 <assemblage><title>Slope as a Rate of Change</title>
@@ -496,7 +494,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 </assemblage>
 
 <exercise><title>Practice 4</title>
-    <introduction><sidebyside width="40%">
+    <introduction><sidebyside width="35%">
         <image xml:id="fig-ex-1-4-4"><description>linear graph of garbage deposited</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -610,7 +608,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 <example><statement><p>A wheelchair ramp can have a slope of no more than 24%, or 0.24. What horizontal distance is needed if the ramp must climb an elevation of 4 feet?</p></statement>
     
 <solution><sidebyside widths="55% 43%" margins="0% 0%" valigns="middle middle">
-    <p>We first draw a sketch of the wheelchair ramp and label <m>\Delta x</m> and <m>\Delta y</m>. We are given that <m>\Delta y=4</m> feet, and we are looking for <m>\Delta x</m>. We substitute theknown values into the slope formula, and solve fo <m>\Delta x</m>.</p>
+    <p>We first draw a sketch of the wheelchair ramp and label <m>\Delta x</m> and <m>\Delta y</m>. We are given that <m>\Delta y=4</m> feet, and we are looking for <m>\Delta x</m>. We substitute the known values into the slope formula, and solve for <m>\Delta x</m>.</p>
         <image xml:id="fig-wheelchair-ramp"><description>ramp</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%

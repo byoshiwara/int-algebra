@@ -261,7 +261,7 @@
     
 <subexercises><title>Skills Practice</title>
 
-<exercisegroup><introduction><p>For Problems 11<ndash/>14, solve.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>14, solve.</p></introduction>
 
 <exercise number="11"><statement><p><m>5-2(3x-4)=28-2x </m></p></statement>
 <answer><p><m>\dfrac{-15}{4} </m></p></answer></exercise>
@@ -377,7 +377,7 @@
     <li>Solve the inequality in part (b) algebraically.</li></ol></p></statement></exercise>
 
 <exercise number="27"><statement><p>The figure shows the graph of <m>y = -2.4x + 2.32</m>. Use the graph to solve:</p>
-    <sidebyside width="35%"><image source="images/fig-ex-1-3-15"><description>y = -2.4x + 2.32</description></image></sidebyside><p><ol label="a">
+    <sidebyside width="35%"><image source="images/fig-ex-1-3-15"><description>y = -2.4x + 2.32</description></image></sidebyside><p><ol label="a" cols="2">
                 <li><p><m>1.6 = -2.4x + 2.32</m></p></li>
                 <li><p><m>-2.4x + 2.32 = 0.4</m></p></li>
                 <li><p><m>-2.4x + 2.32\ge 1.6</m></p></li>
@@ -389,7 +389,7 @@
                 <li><p><m>x \ge 0.8</m></p></li></ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>The figure shows the graph of <m>y = 1.4x - 0.64</m>.  Use the graph to solve:</p>
-    <sidebyside  width="30%"><image source="images/fig-ex-1-3-14"><description>y = 1.4x - 0.64</description></image></sidebyside><p><ol label="a">
+    <sidebyside  width="30%"><image source="images/fig-ex-1-3-14"><description>y = 1.4x - 0.64</description></image></sidebyside><p><ol label="a" cols="2">
                 <li><p><m>1.4x - 0.64 = 0.2</m></p></li>
                 <li><p><m>-1.2 = 1.4x - 0.64</m></p></li>
                 <li><p><m>1.4x - 0.64\gt 0.2</m></p></li>
@@ -505,17 +505,12 @@
          \draw[black, thick] (.05,\y) --++(-.1,0)  node[left]   {$\yi$};
         }
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        </sidebyside>
-    </li>
+        </latex-image></image></sidebyside></li>
     <li>What is Kieran's blood pressure after 3.5 minutes?  Label this point on the graph.</li>
     <li>Kieran's blood pressure should not exceed 165 mm Hg. When will this level be reached? Label this point on the graph.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>p=120+5t</m></li>
-    <li><sidebyside width="50%">
-            <image xml:id="fig-blood-pressure">
-        <description>increasing blood pressure</description>
+    <li><sidebyside width="40%"><image xml:id="fig-blood-pressure"><description>increasing blood pressure</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -537,22 +532,14 @@
         \draw[red, very thick, ->, >=stealth'] (0,2) -- (10,8);
         \filldraw[red] (7.5,6.5) circle (.12) node[below right, yshift=-3,fill=white, inner sep=1] {(d)};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        </sidebyside></li>
+        </latex-image></image></sidebyside></li>
     <li>141</li>
     <li>7.5 min</li></ol></p></answer></exercise>
 
 <exercise number="34"><statement><p>When Francine is at rest, her cardiac output is 5 liters per minute. The output increases by 3 liters per minute for each minute she spends on a cycling machine with increasing intensity.<ol label="a">
     <li>Find a formula for Francine's cardiac output, <m>c</m>, in terms of time, <m>t</m>.</li>
-    <li>
-        <p>
-            Graph the equation for <m>p</m> for <m>0 \le t \le 10</m>.
-        </p>
-        <sidebyside width="50%">
-            <image xml:id="fig-cardiac-output-grid">
-        <description>grid</description>
-        <latex-image>
+    <li><p>Graph the equation for <m>p</m> for <m>0 \le t \le 10</m>.</p>
+        <sidebyside width="40%"><image xml:id="fig-cardiac-output-grid"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -569,10 +556,7 @@
          \draw[black, thick] (.2,\y) --++(-.4,0)  node[left]   {$\y$};
         }
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        </sidebyside>
-    </li>
+        </latex-image></image></sidebyside></li>
     <li>What will Francine's cardiac output be after 6 minutes? Label this point on the graph.</li>
     <li>When will Francine's cardiac output exceed 14.5 liters per minute? Label this point on the graph.</li></ol></p>
 </statement></exercise>

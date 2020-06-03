@@ -312,7 +312,7 @@
             <li><p>Write a linear model for the variables.</p></li></ol></p></introduction> 
 
 <exercise number="23"><statement><p>The graph shows the number of liters of emergency water <m>W</m> remaining in a southern California household <m>t</m> days after an earthquake.</p>
-    <sidebyside width="40%"><image xml:id="fig-water-remaining"><description>line with positive intercepts</description><latex-image>
+    <sidebyside width="35%"><image xml:id="fig-water-remaining"><description>line with positive intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -334,7 +334,7 @@
 <answer><p><ol label="a">
         <li><p><m>-6</m> liters/day</p></li>
         <li><p>The water supply is decreasing at a rate of 6 liters per day.</p></li>
-        <li><sidebyside width="40%" margins="0% 0%"><image xml:id="fig-water-remaining-ans"><description>line with changes in W and t</description><latex-image>
+        <li><sidebyside width="35%" margins="0% 0%"><image xml:id="fig-water-remaining-ans"><description>line with changes in W and t</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -454,9 +454,9 @@
     <li>The distances to the stations are known.</li>
     <li>5.7 km/sec</li></ol></answer></exercise>
 
-<exercise number="28"><statement><p>Niagara Falls was discovered by Father Louis Hennepin in 1682. In 1952, much of the water of the Niagara River was diverted for hydroelectric power, but until that time erosion caused the Falls to recede upstream by <m>3</m> feet per year.<ol label="a">
+<exercise number="28"><statement><p>Niagara Falls was discovered by Father Louis Hennepin in 1682. In 1952, much of the water of the Niagara River was diverted for hydroelectric power, but until that time erosion caused the Falls to recede upstream by 3 feet per year.<ol label="a">
         <li><p>How far did the Falls recede from 1682 to 1952?</p></li>
-        <li><p>The Falls were formed about <m>12,000</m> years ago during the end of the last ice age. How far downstream from their current position were they then? (Give your answer in miles.)</p></li></ol></p>
+        <li><p>The Falls were formed about 12,000 years ago during the end of the last ice age. How far downstream from their current position were they then? (Give your answer in miles.)</p></li></ol></p>
 </statement></exercise>
 
 <exercise number="29"><statement><p>Naismith’s Rule is used by runners and walkers to estimate journey times in hilly terrain. In 1892 Naismith wrote in the Scottish Mountaineering Club Journal that a person “in fair condition should allow for easy expeditions an hour for every three miles on the map, with an additional hour for every 2000 feet of ascent.”

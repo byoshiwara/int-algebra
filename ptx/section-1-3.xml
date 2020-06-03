@@ -28,8 +28,7 @@
     </p></statement>
     <solution><p>Points where the graph intersects the axes</p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
  <p>The coordinates of the intercepts are easy to find.</p>
 
@@ -37,8 +36,7 @@
  <p><ol label="1">
      <li><p>To find the <m>x</m>-intercept, we set <m>y = 0</m> and solve for <m>x</m>.</p></li>
      <li><p>To find the <m>y</m>-intercept, we set <m>x = 0</m> and solve for <m>y</m>.</p></li>
- </ol></p>
-</assemblage>
+ </ol></p></assemblage>
 
 <example><statement><p>In <xref ref="Leon-camper" text="type-global"/> of <xref ref="LinMod" text="type-global" />,  we graphed an equation, <m>g=20-\frac{1}{12}d </m>, for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles. Find the intercepts of the graph.</p></statement>
     
@@ -46,9 +44,9 @@
     <p><md><mrow>\alert{0} \amp = 20-\frac{1}{12}d \amp\amp\glert{\text{Add }\frac{1}{12}d \text{ to both sides.}} </mrow>
         <mrow>\frac{1}{12}d \amp = 20 \amp\amp\glert{\text{Multiply both sides by 12.}} </mrow>
         <mrow>d \amp = 240 </mrow></md></p>
-    <p>The <m>d</m>-intercept is <m>(240, 0)</m>. To find the <m>g</m>-intercept, we set <m>d = 0</m> and solve for <m>g</m>.
+<p>The <m>d</m>-intercept is <m>(240, 0)</m>. To find the <m>g</m>-intercept, we set <m>d = 0</m> and solve for <m>g</m>.
     <md><mrow>g = 20 − \frac{1}{12}(\alert{0}) = 20</mrow></md>
-    The <m>g</m>-intercept is <m>(0, 20)</m>.</p></solution></example>
+The <m>g</m>-intercept is <m>(0, 20)</m>.</p></solution></example>
 
 <exercise><title>Practice 1</title>
     <webwork><pg-code>
@@ -61,11 +59,11 @@
     <statement><p>Find the intercepts of the graph of <m>y=-9-\dfrac{3}{2}x </m>. Enter each intercept as an ordered pair.</p>
             <p>The <m>x</m>-intercept is <var name="$xint"  width="4"/>.  </p>
              <p>The <m>y</m>-intercept is <var name="$yint"  width="4"/>. </p>
-        </statement>
-    <solution><p>We find the <m>x</m>-intercept by setting <m>y=0</m> and solving for <m>x</m> to learn that <m>x=<var name="$x0"/></m>, so the <m>x</m>-intercept is <m><var name="$xint"/></m>.</p><p>We find the <m>y</m>-intercept by setting <m>x=0</m> and solving for <m>y</m> to learn that <m>y=<var name="$y0"/></m>, so the <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
+    </statement>
+    <solution><p>The <m>x</m>-intercept is <m><var name="$xint"/></m>.</p>
+    <p>The <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
     </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -76,7 +74,8 @@
 <example><statement><p>What do the intercepts of the graph in the Example above tell us about the problem situation?</p>
 </statement>
 
-<solution><p>The <m>d</m>-intercept tells us that when <m>d = 240</m>, <m>g = 0</m>, or that when Leon has traveled 240 miles, he has 0 gallons of gasoline left; the fuel tank is empty. The <m>g</m>-intercept tells us that when <m>d = 0</m>, <m>g = 20</m>, or that when Leon has traveled 0 miles, he has 20 gallons of gasoline left. The fuel tank holds 20 gallons when full.</p></solution></example>
+<solution><p>The <m>d</m>-intercept tells us that when <m>d = 240</m>, <m>g = 0</m>, or that when Leon has traveled 240 miles, he has 0 gallons of gasoline left; the fuel tank is empty.</p>
+<p> The <m>g</m>-intercept tells us that when <m>d = 0</m>, <m>g = 20</m>, or that when Leon has traveled 0 miles, he has 20 gallons of gasoline left. The fuel tank holds 20 gallons when full.</p></solution></example>
 
 <exercise><title>Practice 2</title>
 <webwork><pg-code>
@@ -109,10 +108,10 @@
         );
     </pg-code>
     <statement><p>The gas tank in Rosa's Toyota Prius holds 11 gallons, and she gets 48 miles to the gallon.</p>
-        <p><ol label="a">
-            <li><p>Write an equation for the amount of gasoline, <m>g</m>, left in the tank after Rosa has driven for <m>d</m> miles.</p>
-            <p><m>g=</m><var name="$f" width="8"/> </p></li>
-            <li><p>Find the intercepts of the graph.</p>
+    <p><ol label="a">
+        <li><p>Write an equation for the amount of gasoline, <m>g</m>, left in the tank after Rosa has driven for <m>d</m> miles.</p>
+        <p><m>g=</m><var name="$f" width="8"/> </p></li>
+        <li><p>Find the intercepts of the graph.</p>
                 <p>The <m>d</m>-intercept is <var name="$xint" width="5"/>.  </p>
                  <p>The <m>g</m>-intercept is <var name="$yint" width="5"/>. </p>
                 <p> What do they tell us about the problem situation?</p>
@@ -129,8 +128,7 @@
             <li><p><m>(528,0)</m>: After Rosa drives 528 miles, the tank will be empty.</p>
                 <p><m>(0,11)</m>: The tank has 11 gallons before Rosa begins driving.</p></li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -160,14 +158,12 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
               1, 
             ); 
         </pg-code>
-    
     <statement><p>What is the general form of a linear equation?</p>
         <p><var name="$which1" form="buttons"/> 
     </p></statement>
     <solution><p><m>Ax+By=C</m></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <p>Some linear models are easier to use when they are written in the general form.</p>
 
@@ -200,7 +196,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
                     <cell><m>24</m></cell>
                     <cell><m>18</m></cell></row>
             </tabular></sidebyside></li>
-        <li><sidebyside widths="50% 35%" margins="0% 2%"><p>We plot the points from the table. All the solutions lie on a straight line.</p>
+    <li><sidebyside widths="50% 35%" margins="0% 2%"><p>We plot the points from the table. All the solutions lie on a straight line.</p>
             <image source="images/fig-example-advertising"><description>grid</description></image></sidebyside></li>
         </ol></p></solution></example>
 
@@ -217,8 +213,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
     </hint>
     <solution><p><m>15x+4y=120</m></p>
     </solution>
-  </webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -246,8 +241,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
         <p><var name="$which1" form="buttons"/> </p></statement>
     <solution><p>Plot the intercepts (that is, the points where <m>x=0</m> and where <m>y=0</m>), then draw the line through them.</p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <example><statement><p><ol label="a">
         <li><p>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of <m>150x + 50y = 3000</m>.</p></li>
@@ -259,12 +253,12 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
         <p><md><mrow>150x-50(\alert{0})\amp =3000 \amp \amp \glert{\text{Simpify.}}</mrow>
             <mrow>150x\amp =3000 \amp \amp \glert{\text{Divide both sides by 150.}}</mrow>
             <mrow>x\amp =20</mrow></md></p>
-        <p>The <m>x</m>-intercept is the point <m>(20, 0)</m>. To find the <m>y</m>-intercept, we set <m>x = \alert{0}</m>.</p>
-        <p><md><mrow>150(\alert{0})-50y\amp =3000 \amp \amp \glert{\text{Simpify.}}</mrow>
+    <p>The <m>x</m>-intercept is the point <m>(20,0)</m>. To find the <m>y</m>-intercept, we set <m>x=\alert{0}</m>.</p>
+    <p><md><mrow>150(\alert{0})-50y\amp =3000 \amp \amp \glert{\text{Simpify.}}</mrow>
             <mrow>506 \amp = 3000\amp\amp \glert{\text{Divide both sides by 50.}} </mrow>
             <mrow> y\amp =60</mrow></md></p>
         <p>The <m>y</m>-intercept is the point <m>(0, 60)</m>.</p></li>
-    <li><sidebyside widths="60% 25%" margins="0% 5%" valigns="middle middle"><p>We scale both axes in intervals of 10 and then plot the two intercepts, <m>(20, 0)</m> and <m>(0, 60)</m>. We draw the line through them, as shown.  </p>
+    <li><sidebyside widths="60% 20%" margins="0% 5%" valigns="middle middle"><p>We scale both axes in intervals of 10 and then plot the two intercepts, <m>(20, 0)</m> and <m>(0, 60)</m>. We draw the line through them, as shown.  </p>
         <image xml:id="fig-example-1-2-4"><description>line with positive intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -305,10 +299,11 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
     </statement>
         <hint><p>Choose convenient scales for the <m>x</m>- and <m>y</m>-axes.</p>
         </hint>
-    <solution><p>We find the <m>x</m>-intercept by setting <m>y=0</m> and solving for <m>x</m> to learn that <m>x=<var name="$x0"/></m>, so the <m>x</m>-intercept is <m><var name="$xint"/></m>.</p><p>We find the <m>y</m>-intercept by setting <m>x=0</m> and solving for <m>y</m> to learn that <m>y=<var name="$y0"/></m>, so the <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
+    <solution><p>The <m>x</m>-intercept is <m><var name="$xint"/></m>.</p>
+        <p>The <m>y</m>-intercept is <m><var name="$yint"/></m>.</p>
             <p>A graph is below.</p>
     </solution>
-    </webwork>
+</webwork>
     <conclusion>
         <sidebyside width="30%" margins="0% 0%"><image xml:id="fig-ex-ans-1-2-4"><description>line with positive intercepts</description>
         <latex-image>

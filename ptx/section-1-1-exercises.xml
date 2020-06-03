@@ -85,7 +85,7 @@
     <li><p>Write an equation for the height, <m>h</m>, of the seedlings in terms of the number of days, <m>t</m>, since they were planted.</p></li>
     <li><p>Graph the equation on the grid. Label the axes with the correct variables.</p>
          <p>To answer questions (d) and (e), read the graph. Show your work on the graph:
-                <sidebyside width="36%"><image source="images/fig-hw-1-1-11"><description>grid</description></image></sidebyside></p></li>
+                <sidebyside width="30%"><image source="images/fig-hw-1-1-11"><description>grid</description></image></sidebyside></p></li>
      <li><p>How tall is the corn after 3 weeks?</p></li>
      <li><p> When will the corn grow to 6 feet tall? (How many inches is 6 feet?)</p></li>
       <li><p>Use algebra to find the answers for parts (d) and (e) above.</p></li>
@@ -139,7 +139,7 @@
                     </tabular></sidebyside></li>
     <li><p>Write an equation that expresses the amount of oil, <m>A</m>, in terms of the number of weeks, <m>w</m>, since October 31.</p></li>
     <li><p>Graph the equation.</p>
-        <sidebyside  width="40%"><image source="images/fig-ex-1-1-12"><description>graph of gallons vs weeks</description>
+        <sidebyside  width="50%"><image source="images/fig-ex-1-1-12"><description>graph of gallons vs weeks</description>
                     </image></sidebyside></li>
      <li><p>How much did the amount of fuel oil in the tank decrease between the third week and the eighth week? Illustrate this amount on the graph.</p></li>
      <li><p>During which weeks will the tank contain more than 175 gallons of fuel oil? Illustrate on the graph.</p></li>
