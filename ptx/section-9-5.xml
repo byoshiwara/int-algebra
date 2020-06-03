@@ -28,9 +28,9 @@ on your calculator to obtain the graph shown below. You can verify that the two 
             <md><mrow>y\amp =0.15x^2 + 0.75x + 180</mrow>
                 <mrow>y \amp= 15x</mrow></md>
 We equate the two expressions for <m>y</m> and solve for <m>x</m>:
-            <md><mrow>0.15x^2 + 0.75x + 180 \amp= 15x\amp\amp \glert{\text{Subtract }15x \text{ from both sides.}}</mrow>
-                <mrow>0.15x^2 - 14.25x + 180 \amp= 0\amp\amp \glert{\text{Use the quadratic formula.}}</mrow></md>
-            <md><mrow>x \amp= \frac{14.25 \pm\sqrt{14.25^2 - 4(0.15)(180)}}{2(-0.05)}\amp\amp \glert{\text{Simplify.}}</mrow>
+            <md><mrow>0.15x^2 + 0.75x + 180 \amp= 15x\amp\amp \blert{\text{Subtract }15x \text{ from both sides.}}</mrow>
+                <mrow>0.15x^2 - 14.25x + 180 \amp= 0\amp\amp \blert{\text{Use the quadratic formula.}}</mrow></md>
+            <md><mrow>x \amp= \frac{14.25 \pm\sqrt{14.25^2 - 4(0.15)(180)}}{2(-0.05)}\amp\amp \blert{\text{Simplify.}}</mrow>
                 <mrow>\amp= \frac{14.25 \pm 9.75}{0.3}</mrow></md>
 The solutions are 15 and 80, as we found from the graph.</p></solution></example>
 
@@ -157,9 +157,9 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
                 \end{tikzpicture}]]>
                 </latex-image></image></sidebyside>
     <p>This equation has only one variable, <m>x</m>, and we solve it by first clearing fractions. We multiply both sides by <m>x^2</m>, and then subtract <m>5x^2</m> to obtain
-            <md><mrow>x^4-5x^2+4\amp=0 \amp\amp \glert{\text{Factor the left side.}}</mrow>
-                <mrow>(x^2-1)(x^2-4)\amp=0 \amp\amp \glert{\text{Apply the zero-facor principle.}}</mrow>
-                <mrow>x^2-1=0\quad\text{ or }\quad x^2\amp-4=0\amp\amp \glert{\text{Solve each equation.}}</mrow>
+            <md><mrow>x^4-5x^2+4\amp=0 \amp\amp \blert{\text{Factor the left side.}}</mrow>
+                <mrow>(x^2-1)(x^2-4)\amp=0 \amp\amp \blert{\text{Apply the zero-facor principle.}}</mrow>
+                <mrow>x^2-1=0\quad\text{ or }\quad x^2\amp-4=0\amp\amp \blert{\text{Solve each equation.}}</mrow>
                 <mrow>x=1, \quad x=-1,\quad x=2\amp, \quad \text{ or }\quad x=-2</mrow></md>
     Finally, substitute each of these values into <m>y=\dfrac{2}{x} </m> to find the <m>y</m>-components of each solution. The intersection points of the two graphs are <m>(1,2)</m>, <m>(-1,-2)</m>, <m>(2,1)</m>, and <m>(-2,-1)</m>. The graph of the system is shown above.</p></solution></example>
 
@@ -261,10 +261,10 @@ Solving for <m>x</m>, we have
                 \end{tikzpicture}]]>
                 </latex-image></image></sidebyside>
 <p>Next, we substitute <m>\alert{y + 4}</m> for <m>x</m> into either of the original equations. We use the first equation to find
-        <md><mrow>(\alert{y+4})^2-4(\alert{y+4})+y^2+2y\amp= 20 \amp\amp \glert{\text{Remove parentheses.}}</mrow>
-            <mrow>(y^2+8y+16)-16+y^2+2y\amp=20 \amp\amp \glert{\text{Collect like terms.}}</mrow>
-            <mrow>2y^2+6y-20\amp=0 \amp\amp \glert{\text{Divide both sides by 2.}}</mrow>
-            <mrow>y^2+3y-10\amp= 0 \amp\amp \glert{\text{Factor the left side.}}</mrow>
+        <md><mrow>(\alert{y+4})^2-4(\alert{y+4})+y^2+2y\amp= 20 \amp\amp \blert{\text{Remove parentheses.}}</mrow>
+            <mrow>(y^2+8y+16)-16+y^2+2y\amp=20 \amp\amp \blert{\text{Collect like terms.}}</mrow>
+            <mrow>2y^2+6y-20\amp=0 \amp\amp \blert{\text{Divide both sides by 2.}}</mrow>
+            <mrow>y^2+3y-10\amp= 0 \amp\amp \blert{\text{Factor the left side.}}</mrow>
             <mrow>(y+5)(y-2)\amp= 0</mrow></md>
 Thus, <m>y = -5</m> or <m>y = 2</m>. From the equation <m>x = y + 4</m>, we find that when <m>y = -5</m>, <m>x =-1</m>, and when <m>y = 2</m>, <m>x = 6</m>. Thus the two circles intersect at <m>(-1, -5)</m> and <m>(6, 2)</m>, as shown in the figure above.</p></solution></example>
 

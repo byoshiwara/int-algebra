@@ -69,10 +69,10 @@ Next, we eliminate <m>b</m> from Equations (4) and (5): we add <m>-3</m> times E
             <cell><m></m></cell></row>
     </tabular></sidebyside>
 <p>or <m>a = 1</m>. We substitute <m>1</m> for <m>a</m> in Equation (4) to find
-        <md><mrow>8(\alert{1}) + 2b \amp= 2 \amp\amp \glert{\text{Solve for }b.}</mrow>
+        <md><mrow>8(\alert{1}) + 2b \amp= 2 \amp\amp \blert{\text{Solve for }b.}</mrow>
             <mrow>b \amp= -3</mrow></md>
 Finally, we substitute <m>-3</m> for <m>b</m> and <m>1</m> for <m>a</m> in Equation (1) to find
-        <md><mrow>\alert{1} + (\alert{-3}) + c\amp = 3\amp\amp \glert{\text{Solve for }c.}</mrow>
+        <md><mrow>\alert{1} + (\alert{-3}) + c\amp = 3\amp\amp \blert{\text{Solve for }c.}</mrow>
             <mrow>c \amp = 5</mrow></md>
 Thus, the equation of the parabola is
     <me>y = x^2 - 3x + 5</me>

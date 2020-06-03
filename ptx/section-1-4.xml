@@ -582,8 +582,8 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \filldraw[red] (6,5) circle (0.2);
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
-<p><md><mrow>m \amp=\frac{\Delta y}{\Delta x} \amp\amp\glert{\text{Substitute the known values.}} </mrow>
-       <mrow>\frac{2}{3} \amp= \frac{\Delta y}{9} \amp\amp \glert{\text{Solve for }\Delta y.} </mrow>
+<p><md><mrow>m \amp=\frac{\Delta y}{\Delta x} \amp\amp\blert{\text{Substitute the known values.}} </mrow>
+       <mrow>\frac{2}{3} \amp= \frac{\Delta y}{9} \amp\amp \blert{\text{Solve for }\Delta y.} </mrow>
        <mrow>\Delta y \amp = 9 \left(\frac{2}{3} \right)=6</mrow></md></p>
 <p>You can use the graph to check this result for yourself; try starting at the point <m>(-6,-3) </m>.</p>
 <p>The fact that lines have constant slope has two important consequences. First because <m>m</m> is constant for a given line, we can use the formula <m>m=\dfrac{\Delta y}{\Delta x} </m>to find <m>\Delta y</m> when we know <m>\Delta x </m>, or to find<m>\Delta x </m> when we know <m>\Delta y </m>.</p>
@@ -623,8 +623,8 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
             \draw[darkgray, <-, >=stealth'] (0,-.5) --++(-4.6,0);
             \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
-    <p><md><mrow>0.24 \amp = \frac{4}{\Delta x} \amp\amp \glert{\text{Multiply both sides by }\Delta x.}</mrow>
-            <mrow>0.24 \Delta x \amp = 4 \amp\amp \glert{\text{Divide both sides by }0.24.}</mrow>
+    <p><md><mrow>0.24 \amp = \frac{4}{\Delta x} \amp\amp \blert{\text{Multiply both sides by }\Delta x.}</mrow>
+            <mrow>0.24 \Delta x \amp = 4 \amp\amp \blert{\text{Divide both sides by }0.24.}</mrow>
             <mrow>\Delta x\amp = \frac{4}{0.24}=16.\overline{6}</mrow></md>
     The wheelchair ramp must have a horizontal length of <m>16\frac{2}{3} </m> feet, or 16 feet 8 inches.</p>
 </solution></example>

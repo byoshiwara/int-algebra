@@ -364,9 +364,9 @@ so the lines are perpendicular.</p></solution></example>
             </latex-image></image></sidebyside>
 <p>Now we use the point-slope formula with <m>m =\dfrac{-1}{2}</m> and <m>(x_1, y_1) = (1, 4)</m>.
             <md><mrow> y-y_1 \amp=m(x-x_1) </mrow>
-                <mrow>y-4 \amp=\frac{-1}{2}(x-1) \amp\amp\glert{\text{Apply the distributive law.}}</mrow>
-                <mrow> y-4 \amp=\frac{-1}{2}x+\frac{1}{2} \amp\amp\glert{\text{Add 4 to both sides.}}</mrow>
-                <mrow>y \amp= \frac{-1}{2}x+\frac{9}{2} \amp\amp\glert{\frac{1}{2}+4=\frac{1}{2}+\frac{8}{2}=\frac{9}{2} }
+                <mrow>y-4 \amp=\frac{-1}{2}(x-1) \amp\amp\blert{\text{Apply the distributive law.}}</mrow>
+                <mrow> y-4 \amp=\frac{-1}{2}x+\frac{1}{2} \amp\amp\blert{\text{Add 4 to both sides.}}</mrow>
+                <mrow>y \amp= \frac{-1}{2}x+\frac{9}{2} \amp\amp\blert{\frac{1}{2}+4=\frac{1}{2}+\frac{8}{2}=\frac{9}{2} }
                 </mrow></md>
 The given line and the perpendicular line are shown in the figure on the above.</p></solution></example>
 

@@ -753,10 +753,10 @@ where the length of the skid marks, <m>d</m>, is given in feet.<ol label="a">
             <mrow>\amp = (1920)^{1/2} \approx 43.8178046</mrow></md>
         The car was traveling at approximately <m>44</m> miles per hour.</p></li>
     <li><p>We would like to find the value of <m>d</m> when the value of <m>v</m> is known. We substitute <m>v = \alert{80}</m> into the formula and solve the equation
-        <me>\alert{80} = (24d)^{1/2} ~~ \glert{\text{ Solve for }d.}</me>
+        <me>\alert{80} = (24d)^{1/2} ~~ \blert{\text{ Solve for }d.}</me>
     Because <m>d</m> appears to the power <m>\frac{1}{2}</m>, we first square both sides of the equation to get
-        <md><mrow>80^2 \amp = \left((24d)^{1/2}\right)^2 \amp\amp \glert{\text{Square both sides.}}</mrow>
-            <mrow>6400 \amp = 24d \amp\amp \glert{\text{Divide by }24.}</mrow>
+        <md><mrow>80^2 \amp = \left((24d)^{1/2}\right)^2 \amp\amp \blert{\text{Square both sides.}}</mrow>
+            <mrow>6400 \amp = 24d \amp\amp \blert{\text{Divide by }24.}</mrow>
             <mrow>266.\overline{6} \amp = d</mrow></md>
     You can check that this value for <m>d</m> works in the original equation. Thus, the car will skid approximately <m>267</m> feet. A graph of the function <m>v = (24d)^{1/2}</m> is shown below, along with the points corresponding to the values in parts (a) and (b).</p>
     <sidebyside  width="50%"><image source="images/fig-velocity-vs-braking-distance" ><description>velocity vs braking distance</description></image></sidebyside></li>

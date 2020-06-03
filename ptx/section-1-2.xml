@@ -48,10 +48,10 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
 <example><statement><p>Solve the equation <m>~~3(2x-5)-4x=2x-(6-3x) </m></p></statement>
 
 <solution><p>We begin by simplifying each side of the equation.
-        <md><mrow>3(2x-5)-4x\amp  =2x-(6-3x)\amp\amp\glert{\text{Apply the distrubutive law. }} </mrow>
-            <mrow>6x-15-4x\amp  =2x-6+3x\amp\amp\glert{\text{Combine like terms. }} </mrow>
-            <mrow>2x-15\amp  =5x-6\amp\amp\glert{\text{Add } {-5x+15} \text{ to both sides} } </mrow>
-            <mrow>-3x \amp = 9 \amp\amp \glert{\text{Divide both sides by }{-3.}} </mrow>
+        <md><mrow>3(2x-5)-4x\amp  =2x-(6-3x)\amp\amp\blert{\text{Apply the distrubutive law. }} </mrow>
+            <mrow>6x-15-4x\amp  =2x-6+3x\amp\amp\blert{\text{Combine like terms. }} </mrow>
+            <mrow>2x-15\amp  =5x-6\amp\amp\blert{\text{Add } {-5x+15} \text{ to both sides} } </mrow>
+            <mrow>-3x \amp = 9 \amp\amp \blert{\text{Divide both sides by }{-3.}} </mrow>
             <mrow>x\amp = -3</mrow></md>
 The solution is <m>-3</m>. You can check that substituting <m>x=-3</m> into the original equation produces a true statement.</p></solution></example>
 
@@ -97,7 +97,7 @@ The solution is <m>-3</m>. You can check that substituting <m>x=-3</m> into the 
 <solution><p>We begin by isolating the term containing the variable, just as we do when solving a linear equation. We subtract 5 from both sides to obtain  
         <md><mrow>-2x \lt -3</mrow></md>
 Then we divide both sides by <m>−2</m> to find
-        <md><mrow>x\gt \frac{-3}{-2}\amp =\frac{3}{2}\amp\amp\glert{\text{Reverse the direction of the inequality.}} </mrow></md>
+        <md><mrow>x\gt \frac{-3}{-2}\amp =\frac{3}{2}\amp\amp\blert{\text{Reverse the direction of the inequality.}} </mrow></md>
 Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequality. We write the solutions as <m>x \gt \frac{3}{2}</m>. Because we cannot list all of these solutions, we often illustrate them as a graph on a <term>number line</term>, as shown below.</p>
         <sidebyside width="70%"><image xml:id="fig-example-1-3-2"><description>number line for inequality</description>
         <latex-image>
@@ -378,7 +378,7 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
     <image source="images/fig-graph-to-solve"><description>function graph</description></image></sidebyside> 
     <p>You can verify the solution algebraically by substituting <m>x = \alert{9}</m> into the equation:</p> 
     <p>Does <m>150 = 285 - 15(\alert{9})</m>? </p><p>
-        <me>285 - 15(\alert{9}) = 285 - 135 = 150 ~~~~~~\glert{\text{Yes}}</me>
+        <me>285 - 15(\alert{9}) = 285 - 135 = 150 ~~~~~~\blert{\text{Yes}}</me>
 </p></solution></example>
 
 <note><p>The relationship between an equation and its graph is an important one. For the previous example, make sure you understand that the following three statement sare equivalent.<ol label="1">
@@ -537,9 +537,9 @@ Note that the equation now has the form of the linear models we saw in the last 
 <example><statement><p>Use a graphing utility to graph the equation <m>3x + 2y = 16</m>.</p></statement>
     
 <solution><p>First, we solve the equation for <m>y</m> in terms of <m>x</m>.
-            <md><mrow>3x+2y \amp = 16\amp\amp\glert{\text{Subtract } 3x \text{ from both sides.}} </mrow>
-                <mrow>2y\amp = -3x+16 \amp\amp\glert{\text{Divide both sides by 2.}} </mrow>
-                <mrow>y\amp = \frac{-3x}{2}+\frac{16}{2}\amp\amp \glert{\text{Simplify.}} </mrow>
+            <md><mrow>3x+2y \amp = 16\amp\amp\blert{\text{Subtract } 3x \text{ from both sides.}} </mrow>
+                <mrow>2y\amp = -3x+16 \amp\amp\blert{\text{Divide both sides by 2.}} </mrow>
+                <mrow>y\amp = \frac{-3x}{2}+\frac{16}{2}\amp\amp \blert{\text{Simplify.}} </mrow>
                 <mrow>y\amp= -1.5x+8</mrow></md></p>
     <sidebyside widths="60% 30%" margins="0% 5%"><p>
  Now press <c>Y=</c> and enter <m>-1.5x+8</m> after <m>Y_1=</m>. (Use the negation key, <c>(-)</c>, to enter <m>-1.5x</m>; do not use the subtraction key.) We choose the standard graphing window by pressing <c>ZOOM</c> 6. The graph is shown at right.</p>

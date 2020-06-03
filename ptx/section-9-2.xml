@@ -56,7 +56,7 @@
         <mrow>b\amp=\abs{6-(-2)}=8</mrow></md>
     The segment we want is the hypotenuse of the right triangle, so we apply the Pythagorean theorem.
     <md><mrow>c^2 \amp= a^2+b^2</mrow>
-        <mrow>\amp= 4^2+8^2=80\amp\amp \glert{\text{Take square roots.}}</mrow>
+        <mrow>\amp= 4^2+8^2=80\amp\amp \blert{\text{Take square roots.}}</mrow>
         <mrow>c\amp=\sqrt{80}\approx 8.9</mrow></md></p>
 </subsection>
 
