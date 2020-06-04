@@ -131,15 +131,25 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
                         <mrow>y \amp =1.2x - 6.4</mrow></md>
             by graphing. Use the window
                     <md><mrow>\text{Xmin} \amp = -9.4 \amp\amp \text{Xmax} = 9.4</mrow>
-                        <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 10</mrow></md></p></li></ol></p>
+                        <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 10</mrow></md></p></li>
+        <li>
+            Verify algebraically that your solution satisfies both equations
+        </li></ol></p>
             <p>Answer: <var name="$a" width="6"/> </p>
         <instructions>
                 Enter the solution as an ordered pair.
         </instructions>
     </statement>
-    <solution><p><m>(7, 2)</m></p>
-    </solution>
-</webwork></exercise>
+    <solution><p><ol>
+        <li><p><m>(7, 2)</m></p></li>
+        <li><p>
+            <md><mrow>{{2}}\amp= -0.7(7)+ 6.9\amp\amp \text{Yes!}</mrow>
+                <mrow>{{2}}\amp =1.2({7})-6.4\amp\amp \text{Yes!}</mrow></md>
+        </p></li>
+    </ol></p></solution>
+</webwork>
+</exercise>
+
 </subsection>
 
 <subsection><title>The Intersect Feature</title>

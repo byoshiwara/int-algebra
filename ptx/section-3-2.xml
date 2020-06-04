@@ -401,8 +401,33 @@ From here, you can see that the solutions are indeed <m>\dfrac{1}{2}</m> and <m>
 </example>
 
 <exercise><title>Practice 6</title>
-<statement><p>Find a quadratic equation with integer coefficients whose solutions are <m>\dfrac{2}{3}</m> and <m>-5</m>.</p></statement>
-<answer><m>3x^2+13x-10=0</m></answer></exercise>
+<webwork>
+    <pg-code>
+        Context()->operators->undefine("/");
+        $f = Compute("3x^2+13x-10");
+        $my_evaluator = $f -> cmp(checker=>
+        sub {
+            my ( $correct, $student, $self ) = @_;
+            my $context = Context()->copy;
+            $context->flags->set(no_parameters=>0);
+            $context->variables->add('C0'=>'Parameter');
+            my $c0 = Formula($context,'C0');
+            $student = Formula($context,$student);
+            $correct = Formula($context,"$c0 *(3*x^2+13*x-10)");
+            return $correct == $student;
+        });
+    </pg-code>
+    <statement>
+        <p>
+            Find a quadratic equation with integer coefficients whose solutions are <m>\dfrac{2}{3}</m> and <m>-5</m>.
+        </p>
+        <p>
+            <var name="$f" width="12" evaluator="$my_evaluator"/><m>=0 </m>
+        </p>
+    </statement>
+    <solution><m>3x^2+13x-10=0</m></solution>
+</webwork>
+</exercise>
 
 <p>A quadratic equation in one variable always has two solutions. In some cases, the solutions may be equal. For example, the equation
         <me>x^2-2x+1=0</me>

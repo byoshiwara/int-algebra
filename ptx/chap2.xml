@@ -54,7 +54,26 @@
 
 <li><p>Graph both your equations on the grid.</p>
 
-    <sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <sidebyside width="50%"><image xml:id="fig-water-level-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (0,0) grid (12,10);
+        \draw[black,thick,->,>=stealth'] (0,0)--(12.5,0) node[right]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,10.5);
+        \foreach \x  in {5,10} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below]{\x};
+        }
+        \foreach \x [evaluate=\x as \xi using int( 5* \x )]  in {2,4,...,10} {
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left]{\xi};
+        }
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+</sidebyside></li>
 
 <li><p>When will the water level in the two locks be 10 feet apart?</p></li>
 

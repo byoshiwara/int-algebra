@@ -226,9 +226,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
             \text{negative if }y\text{ decreases} \amp \text{(we move down)}\hphantom{to left}
             \end{cases}</me></p>
 
-<p>How does slope measure the steepness of a line? Study the three examples below:</p>
+<p>How does slope measure the steepness of a line? Study the three examples below and notice that for each 1 unit increase in <m>x</m>:</p>
 
-<sidebyside widths="25% 25% 25%" margins="10% 10%">
+<sidebyside widths="30% 30% 30%" margins="0% 0%">
     <stack>
          <image xml:id="fig-measure-slope-A"><description>line A</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -252,7 +252,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \node[text width=.3cm] at (2.5,-1.8){\large A};
         \end{tikzpicture}]]>
     </latex-image></image>
-    <p>For each 1 unit increase in <m>x</m>:</p>
+    
     <p><m>y</m> increases by 2 units
     <md><mrow>m=\frac{\Delta y}{\Delta x}=\frac{2}{1}=2 </mrow></md></p>
     </stack>
@@ -280,7 +280,6 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \node[text width=.3cm] at (2.5,-1.8){\large B};
         \end{tikzpicture}]]>
     </latex-image></image>
-    <p><m>\vphantom{\LARGE\frac{1}{2}}</m></p>
     <p><m>y</m> increases by <m>\frac{3}{2}</m> units
     <md><mrow>m=\frac{\Delta y}{\Delta x}=\frac{3}{2} </mrow></md></p>
     </stack>
@@ -307,10 +306,10 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \node[text width=.3cm] at (2.5,-1.8){\large C};
         \end{tikzpicture}]]>
     </latex-image></image>
-    <p><m>\vphantom{\LARGE\frac{1}{2}}</m></p>
     <p><m>y</m> decreases by 2 units
     <md><mrow>m=\frac{\Delta y}{\Delta x}=\frac{-2}{1}=-2 </mrow></md></p>
-    </stack></sidebyside>
+    </stack>
+</sidebyside>
 
 <p>From the examples on the previous page, we can make the following observations:</p>
 
