@@ -16,7 +16,8 @@
 because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 16 = 4</m>.</p>
 
 <exercise><title>QuickCheck 1</title>
-<webwork><pg-code>
+<webwork>
+    <pg-code>
         $which = new_checkbox_multiple_choice();
         $which -> qa (
         "A question can go here, but PTX ignores this",            
@@ -36,12 +37,13 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
     </pg-code>    
     <statement>
         <p>Which of the following values are solutions of the equation
-            <me>-2x^3+x^2+16x=15\text{?}</me></p>
+            <md><mrow>-2x^3+x^2+16x=15\text{?}</mrow></md></p>
         <p><var name="$which" form="checkboxes"/> </p>
     </statement>
-    <solution><p>(B) and (D) are quadratic. </p>
+    <solution><p>(B) and (D)</p>
     </solution>
-</webwork></exercise>
+</webwork>
+</exercise>
 
 <p>A <term>linear equation</term>, such as the models we studied in the last section, has at most one solution. We find the solution by transforming the equation into a simpler <term>equivalent equation</term> whose solution is obvious.</p>
 
@@ -262,7 +264,8 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
 <p>You might think it would be difficult to find <em>all</em> the solutions of an equation, but for a linear equation <m>Ax + By = C</m>, we can at least illustrate the solutions: all the solutions lie on a straight line. (Later on we can prove that this is true.)</p>
 
 <exercise><title>QuickCheck 4</title>
-    <webwork><pg-code>
+    <webwork>
+        <pg-code>
             $true = PopUp(
               ["?","True","False"],
               1, # index of correct answer; could also just be the correct answer
@@ -278,7 +281,16 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
         <li><p>The graph of an equation in two variables is a picture of its solutions.  <var name="$true" form="popup"/></p></li>
          <li><p>If a point lies on the graph of an equation, it is a solution of the equation.  <var name="$true" form="popup"/></p></li></ol></p>
     </statement>
-</webwork></exercise>
+    <solution>
+        <p><ol label="a">
+            <li>True</li>
+            <li>True</li>
+            <li>True</li>
+            <li>True</li>
+        </ol></p>
+    </solution>
+</webwork>
+</exercise>
 
 <example><statement><sidebyside widths="50% 40%" margins="0% 0%"><p>The figure shows a graph of the equation <m>~Ax + By = C</m>. Which of the following equations are true? <ol label="a">
                <li><p><m>24B=C</m></p></li>
@@ -633,17 +645,7 @@ Note that the equation now has the form of the linear models we saw in the last 
     </solution>
 </webwork>
 <conclusion>
-    <sidebyside width="30%" margins="0% 0%"><image xml:id="fig-ex-ans-1-3-8"><description>line</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [yscale=.03]
-        \draw[cyan] (-4.7,-250) grid[xstep=1, ystep=25] (4.7,50);
-        \draw[black,thick] (-4.7,0)--(4.7,0);
-        \draw[black,thick] (0,-250)--(0,50);
-        \draw[samples=2,domain=-4.7:23/8,smooth,variable=\x,red, thick] plot ({\x},{32*\x -42});
-        \end{tikzpicture}]]>
-    </latex-image></image></sidebyside>
+    <sidebyside width="40%" margins="0% 0%"><image source="images/fig-GC-ex-1-2-9ans.png"><description>GC line</description></image></sidebyside>
 </conclusion>
 </exercise>
 

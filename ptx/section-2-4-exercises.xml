@@ -75,40 +75,65 @@
 <exercisegroup cols="2"><introduction><p>For Problems 5 and 6, use back-substitution to solve the system.</p></introduction>
 
 <exercise number="5"><statement><p>
-            <md><mrow>2x\amp{}+{}\amp 3y\amp{}-{}\amp z\amp{}={}-7</mrow>
-                <mrow>\amp \amp y\amp{}-{}\amp 2z\amp{}={}-6</mrow>
-                 <mrow>\amp \amp \amp \amp 5z\amp{}={}15</mrow></md></p></statement>
-<answer><p><m>(-2,0,3) </m></p></answer></exercise>
+    <m>\begin{alignedat}[t]{5}
+        2x\amp{}+{}\amp 3y\amp{}-{}\amp z\amp{}={}-7\\
+        \amp \amp y\amp{}-{}\amp 2z\amp{}={}-6\\
+        \amp \amp \amp \amp 5z\amp{}={}15
+        \end{alignedat}
+    </m></p></statement>
+    <answer><p><m>(-2,0,3) </m></p></answer>
+</exercise>
 
 <exercise number="6"><statement><p>
-            <md><mrow>2x + z\amp = 5</mrow>
-                <mrow>3y + 2z \amp =6</mrow>
-                <mrow>5x \amp = 20</mrow></md></p></statement></exercise>
+    <m>\begin{aligned}[t]
+        2x + z\amp = 5\\
+        3y + 2z \amp =6\\
+        5x \amp = 20
+        \end{aligned}
+    </m>
+</p></statement></exercise>
+
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 7-12, use Gaussian reduction to solve the system.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>12, use Gaussian reduction to solve the system.</p></introduction>
 
 <exercise number="7"><statement><p>
-             <md><mrow>x\amp{}+{}\amp y\amp{}+{}\amp z\amp{}={}0</mrow>
-                <mrow>2x \amp{}-{} \amp 2y\amp{}+{}\amp z\amp{}={}8</mrow>
-                <mrow>3x \amp{}+{} \amp 2y\amp {}+{}\amp z\amp{}={}2</mrow></md></p></statement>
+    <m>\begin{alignedat}[t]{5}
+        x\amp{}+{}\amp y\amp{}+{}\amp z\amp{}={}0\\
+        2x \amp{}-{} \amp 2y\amp{}+{}\amp z\amp{}={}8\\
+        3x \amp{}+{} \amp 2y\amp {}+{}\amp z\amp{}={}2
+        \end{alignedat}
+    </m>
+</p></statement>
 <answer><p><m>(2,-2,0) </m></p></answer></exercise>
 
 <exercise number="8"><statement><p>
-             <md><mrow>x\amp{}-{}\amp 2y\amp{}+{}\amp 4z\amp{}={}-3</mrow>
-                <mrow>3x \amp{}+{} \amp y\amp{}-{}\amp 2z\amp{}={}12</mrow>
-                <mrow>2x \amp{}+{} \amp y\amp {}-{}\amp z\amp{}={}11</mrow></md></p></statement></exercise>
+    <m>\begin{alignedat}[t]{5}
+        x\amp{}-{}\amp 2y\amp{}+{}\amp 4z\amp{}={}-3\\
+        3x \amp{}+{} \amp y\amp{}-{}\amp 2z\amp{}={}12\\
+        2x \amp{}+{} \amp y\amp {}-{}\amp z\amp{}={}11
+        \end{alignedat}
+    </m>
+</p></statement></exercise>
 
 <exercise number="9"><statement><p>
-             <md><mrow>3x\amp{}-{}\amp 4y\amp{}+{}\amp 2z\amp{}={}20</mrow>
-                <mrow>4x \amp{}+{} \amp 3y\amp{}-{}\amp 3z\amp{}={}-4</mrow>
-                <mrow>2x \amp{}-{} \amp 5y\amp {}+{}\amp 5z\amp{}={}24</mrow></md></p></statement>
+    <m>\begin{alignedat}[t]{5}
+        3x\amp{}-{}\amp 4y\amp{}+{}\amp 2z\amp{}={}20\\
+        4x \amp{}+{} \amp 3y\amp{}-{}\amp 3z\amp{}={}-4\\
+        2x \amp{}-{} \amp 5y\amp {}+{}\amp 5z\amp{}={}24
+        \end{alignedat}
+    </m>
+</p></statement>
 <answer><p><m>(2,-3,1) </m></p></answer></exercise>
 
 <exercise number="10"> <statement><p>
-             <md><mrow>4x + z\amp = 3</mrow>
-                <mrow>2x - y \amp =2</mrow>
-                <mrow>3y+2z \amp = 0</mrow></md></p></statement></exercise>
+    <m>\begin{aligned}[t]
+        4x + z\amp = 3\\
+        2x - y \amp =2\\
+        3y+2z \amp = 0
+        \end{aligned}
+    </m>
+</p></statement></exercise>
 
 <exercise number="11"><statement><p><m>
                     \begin{alignedat}[t]{5}
