@@ -403,7 +403,9 @@ From here, you can see that the solutions are indeed <m>\dfrac{1}{2}</m> and <m>
 <exercise><title>Practice 6</title>
 <webwork>
     <pg-code>
+        Context("LimitedPolynomial");
         Context()->operators->undefine("/");
+        Parser::Number::NoDecimals(Context());
         $f = Compute("3x^2+13x-10");
         $my_evaluator = $f -> cmp(checker=>
         sub {
@@ -413,7 +415,7 @@ From here, you can see that the solutions are indeed <m>\dfrac{1}{2}</m> and <m>
             $context->variables->add('C0'=>'Parameter');
             my $c0 = Formula($context,'C0');
             $student = Formula($context,$student);
-            $correct = Formula($context,"$c0 *(3*x^2+13*x-10)");
+            $correct = Formula($context,"3*x^2*$c0+13*x*$c0-10*$c0");
             return $correct == $student;
         });
     </pg-code>

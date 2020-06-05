@@ -872,7 +872,7 @@
         }
         \begin{tikzpicture} [scale=1 ]
         \draw[cyan] (-3/2,0) grid[step=1/2] (7/2,11/2);
-        \draw[black,thick, ->, >=stealth'] (-1/2,0)--(4,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (-3/2,0)--(4,0) node[right]{$x$};
         \draw[black,thick, ->, >=stealth'] (0,0)--(0,6) node[above]{$y$};
         \foreach \x in  {-1,1,2,3} {
          \draw[cyan, very thick] (\x,0) --++(0,11/2);
@@ -893,7 +893,8 @@
     <li><m>g(x) \lt 3</m></li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>x \lt 2</m></li>
-    <li><m>x \gt \dfrac{-2}{3}</m></li></ol></p></answer></exercise>
+    <li><m>x \gt \dfrac{-2}{3}</m></li></ol></p></answer>
+</exercise>
 
 <exercise number="32"><statement><p>The figure shows a graph of <m>H(z) = 4\sqrt[3]{z-4}+6</m>.</p> 
     <sidebyside width="40%"><image xml:id="ffig-4cube-rt-z-minus4-plus6">
