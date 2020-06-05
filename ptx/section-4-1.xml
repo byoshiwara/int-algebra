@@ -63,22 +63,13 @@ Using a calculator, we find that the solutions are approximately <m>1.7</m> and 
             <p>Solutions: <m>x=</m><var name="$answer" width="25" evaluator="$my_evaluator"/></p>
             <instructions><p>List all the values that are solutions. Enter "sqrt(2)" to get <m>\sqrt{2}</m>, and use a comma to separate different solutions.</p></instructions>
         </statement>
-        <hint>
-            <p>
-                Write the equation in standard form.
-            </p>
-            <p>
-                Substitute <m>a = 1</m>, <m>b = -3</m>, <m>c = -1</m> into the quadratic formula.
-            </p>
-            <p>
-                Simplify.
-            </p>
+        <hint><p>Write the equation in standard form.</p>
+            <p>Substitute <m>a = 1</m>, <m>b = -3</m>, <m>c = -1</m> into the quadratic formula.</p>
+            <p>Simplify.</p>
         </hint>
-        <solution>
-            <p><m>x=\dfrac{3\pm \sqrt{13}}{2} </m></p>
+        <solution><p><m>x=\dfrac{3\pm \sqrt{13}}{2} </m></p>
         </solution>
-    </webwork>
-</exercise>
+    </webwork></exercise>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -90,10 +81,8 @@ Using a calculator, we find that the solutions are approximately <m>1.7</m> and 
         <li>Quadratic formula</li></ol>
 Factoring and extraction of roots are relatively fast and simple, but they do not work on all quadratic equations. The quadratic formula will work on any quadratic equation.</p>
 
-
 <exercise><title>QuickCheck 2</title>
-    <webwork>
-        <pg-code>
+    <webwork><pg-code>
             $a = PopUp(
               ["?","I", "II","III","IV"],
               2, 
@@ -111,43 +100,29 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
               3, 
             );            
         </pg-code>
-        <statement>
-            <p>
-                Match each equation with the most efficient method of solution.
-                <ol label="a">
-                    <li><p>
-                        <m>6(x-4)^2=120 </m> <var name="$a" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        <m>x^2-9x+20=0</m> <var name="$b" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        <m>1.4x^2-6.2x+2.5=0</m> <var name="$c" form="popup"/>
-                    </p></li>
-                    <li><p>
-                        <m>x^2-20x=44</m> <var name="$d" form="popup"/>
-                    </p></li>
-                </ol>
-            </p>
-            <p>
-                <ol label="I">
+<statement><p>Match each equation with the most efficient method of solution.
+    <ol label="a">
+        <li><p><m>6(x-4)^2=120 </m> <var name="$a" form="popup"/></p></li>
+        <li><p><m>x^2-9x+20=0</m> <var name="$b" form="popup"/></p></li>
+        <li><p><m>1.4x^2-6.2x+2.5=0</m> <var name="$c" form="popup"/></p></li>
+        <li><p><m>x^2-20x=44</m> <var name="$d" form="popup"/></p></li>
+    </ol></p>
+    <p><ol label="I">
                     <li>Factoring</li>
                     <li>Extraction of roots</li>
                     <li>Completing the square </li>
                     <li>Quadratic formula</li>
-                </ol>
-            </p>
-        </statement>
-        <solution>
+                </ol></p>
+</statement>
+<solution>
             <p><ol label="a">
                 <li>II</li>
                 <li>I</li>
                 <li>IV</li>
                 <li>III</li>
             </ol></p>
-        </solution>
-    </webwork>    
-</exercise>
+</solution>
+</webwork>    </exercise>
 
 <example xml:id="example-fencing-areas"><statement><p>The owners of a day-care center plan to enclose a divided play area against the back wall of their building, as shown below. They have <m>300</m> feet of picket fence and would like the total area of the playground to be <m>6000</m> square feet. Can they enclose the playground with the fence they have, and if so, what should the dimensions of the playground be?</p>
     <sidebyside  width="30%"><image source="images/fig-fencing-areas" ><description>two fenced rectangles against wall</description></image> </sidebyside></statement>
@@ -168,8 +143,7 @@ When we evalute this last expression, we get two different positive values, <m>x
 </solution></example>
 
 <exercise><title>Practice 2</title>
-    <webwork>
-         <pg-code>
+    <webwork><pg-code>
             $a = Compute("(4+sqrt(12))/2")->with(
               tolType => 'absolute',
               tolerance => .0051,
@@ -188,31 +162,18 @@ When we evalute this last expression, we get two different positive values, <m>x
               tolerance => .0051,
             );             
         </pg-code> 
-        <statement>
-            <p>The height of a baseball is given by the equation
+<statement><p>The height of a baseball is given by the equation
                 <md><mrow>h=-16t^2+64t+4</mrow></md>
-                where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places, and separate the values with a comma.
-            </p>
-            <p>
-                <m>t=</m><var name="$answer" width="15"  evaluator="$my_evaluator"/> sec.
-            </p>
-        </statement>
-        <hint>
-            <p>
-                Set <m>h=20</m>, then write the equation in standard form.
-            </p>
-            <p>
-                Divide each term by <m>-16</m>.
-            </p>
-            <p>
-                Use the quadratic formula to solve.
-            </p>
-        </hint>
-        <solution>
-            <p>0.27 sec, 3.73 sec</p>
+    where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places, and separate the values with a comma.</p>
+    <p><m>t=</m><var name="$answer" width="15"  evaluator="$my_evaluator"/> sec.</p>
+</statement>
+    <hint><p>Set <m>h=20</m>, then write the equation in standard form.</p>
+            <p>Divide each term by <m>-16</m>.</p>
+            <p>Use the quadratic formula to solve.</p>
+    </hint>
+<solution><p>0.27 sec, 3.73 sec</p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
      
 </subsection>
 
@@ -221,7 +182,7 @@ When we evalute this last expression, we get two different positive values, <m>x
 <p>Not all quadratic equations have solutions that are real numbers.  For example, when we try to solve the equation <m>~x^2+4=0,~</m>, we find
     <md><mrow>x^2 \amp =-4</mrow>
         <mrow>x \amp = \pm \sqrt{-4}</mrow></md>
-Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real numbers, they occur frequently in mathematics and its applications.  Mathematicians in the sixteenth century gave them the name <term>imaginary numbers</term>, which reflected the mistrust with which they were viewed at the time.  Today, however, such numbers are well understood and are used routinely by scientists and engineers.</p>
+Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real numbers, they occur frequently in mathematics and its applications.  Mathematicians in the sixteenth century gave them the name <term>imaginary numbers</term>, which reflected the mistrust with which they were viewed at the time. Today, however, such numbers are well understood and are used routinely by scientists and engineers.</p>
 
 <p>To help us work with imaginary numbers, we define a new number, <m>i</m>, the <term>imaginary unit</term>, whose square is <m>-1</m>. </p>
  
@@ -243,10 +204,8 @@ Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real
     <li><p><md><mrow>\sqrt{-3} \amp = \sqrt{-1}\sqrt{3}</mrow>
             <mrow> \amp = i \sqrt{3} </mrow></md></p></li></ol></p></statement></example>
 
-<exercise>
-    <title>Practice 3</title>
-    <webwork>
-         <pg-code>
+<exercise><title>Practice 3</title>
+<webwork><pg-code>
             Context("Complex")->functions->disable("sqrt");
             Context()->functions->enable("sqrt");
             Context()->{error}{msg}{"Can't take sqrt of -18"}
@@ -256,55 +215,31 @@ Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real
 
             $a = Compute("-6i");
             $b = Compute("-25");
-            
         </pg-code> 
-        <statement>
-            <p>Simplify.</p>
+<statement><p>Simplify.</p>
             <p><ol label="a" cols="2">
             <li><p><m>-\sqrt{-36}=</m><var name="$a" width="3"/> </p></li>
-            <li><p><m>(5i)^2=</m><var name="$b" width="3"/></p></li>
-        </ol></p>
-        </statement>
-        <solution>
-            <p><ol label="a" cols="2">
+            <li><p><m>(5i)^2=</m><var name="$b" width="3"/></p></li></ol></p>
+</statement>
+<solution><p><ol label="a" cols="2">
                 <li><p><m>-6i </m></p></li>
-                <li><p><m>-25 </m></p></li>
-            </ol></p>
+                <li><p><m>-25 </m></p></li></ol></p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <p>The solutions of many quadratic equations involve imaginary numbers.</p>
  
-<example>
-    <statement>
-        <p>
-            Solve <m>~~2x^2-x+2 = 0</m>.
-        </p>
-    </statement>
-    <solution>
-        <p>
-            For this equation, <m>a=\alert{2}</m>, <m>b=\alert{-1}</m>, and <m>c=\alert{2}</m>. We substitute these values into the quadratic formula to obtain
-            <md>
-                <mrow>
-                    x=\frac{ -(\alert{-1}) \pm \sqrt{ (\alert{-1})^2 - 4(\alert{2}) (\alert{2})} } { 2(\alert{2}) } = \frac{1 \pm \sqrt{-15} } {4}
-                </mrow>
-            </md>
-            We write the solutions as 
-            <md>
-                <mrow>
-                    \frac{1 \pm i\sqrt{15}}{4} \qquad \text{or} \qquad \frac{1}{4} \pm \frac{\sqrt{15}}{4}
-                </mrow>
-            </md> 
-            Because the solutions are not real numbers, the graph of 
-            <md><mrow>
-                y=2x^2-x+2
-            </mrow></md>
-            has no <m>x</m>-intercepts, as shown below.</p>
-            <sidebyside  width="30%">
-                <image xml:id="fig-example-complex-roots">
-                    <description>parabola no x-intercepts</description>
-                    <latex-image>
+<example><statement><p>Solve <m>~~2x^2-x+2 = 0</m>.</p></statement>
+    
+<solution><p>For this equation, <m>a=\alert{2}</m>, <m>b=\alert{-1}</m>, and <m>c=\alert{2}</m>. We substitute these values into the quadratic formula to obtain
+        <md><mrow>x=\frac{ -(\alert{-1}) \pm \sqrt{ (\alert{-1})^2 - 4(\alert{2}) (\alert{2})} } { 2(\alert{2}) } = \frac{1 \pm \sqrt{-15} } {4}</mrow></md>
+ We write the solutions as 
+        <md><mrow>\frac{1 \pm i\sqrt{15}}{4} \qquad \text{or} \qquad \frac{1}{4} \pm \frac{\sqrt{15}}{4}i</mrow></md> 
+Because the solutions are not real numbers, the graph of 
+            <md><mrow>y=2x^2-x+2</mrow></md>
+has no <m>x</m>-intercepts, as shown below.</p>
+    <sidebyside  width="30%"><image xml:id="fig-example-complex-roots"><description>parabola no x-intercepts</description>
+                <latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -320,17 +255,12 @@ Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real
                     }
                     \draw[samples=65,domain={-3/2:2},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(2*(\x)^2 - \x +2)/2 });
                     \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-            </sidebyside>
-    </solution>
-</example>
+                </latex-image></image></sidebyside></solution></example>
 
-The sum of a real number and an imaginary number is called a <term>complex number</term>.  
+<p>The sum of a real number and an imaginary number is called a <term>complex number</term>.</p>  
 
 <exercise><title>Practice 4</title>
-    <webwork>
-         <pg-code>
+<webwork><pg-code>
             Context("Complex")->functions->disable("sqrt");
             Context()->functions->enable("sqrt");
             Context()->{error}{msg}{"Can't take sqrt of -18"}
@@ -347,71 +277,52 @@ The sum of a real number and an imaginary number is called a <term>complex numbe
              partialCredit => 1,
             ); 
             
-        </pg-code> 
-        <statement>
-            <p>
-                Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers, separated with a comma.
-            </p>
-            <p>
-                <m>x=</m><var name="$answer" width="15"/> 
-            </p>
-        </statement>
-        <solution>
-            <p><m>\dfrac{-1}{2} \pm \dfrac{3}{2}i</m></p>
-        </solution>
-    </webwork>
-</exercise>
+    </pg-code> 
+<statement><p>Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers, separated with a comma.</p>
+    <p><m>x=</m><var name="$answer" width="15"/> </p>
+    </statement>
+<solution><p><m>\dfrac{-1}{2} \pm \dfrac{3}{2}i</m></p>
+    </solution>
+</webwork></exercise>
+
 </subsection>
 
 <subsection><title>Number of <m>x</m>-Intercepts</title>
 
 <p>The graph of the quadratic function 
     <me>f(x) = ax^2 + bx + c</me> 
-    may have two, one, or no <m>x</m>-intercepts, according to the number of distinct real-valued solutions of the equation <m>ax^2 + bx + c = 0</m>.
+may have two, one, or no <m>x</m>-intercepts, according to the number of distinct real-valued solutions of the equation <m>ax^2 + bx + c = 0</m>.
 For example, consider the three functions graphed below.</p>
-<sidebyside width="40%"><image source="images/fig-parabola-x-intercepts"><description>parabolas with zero, one, or two x-intercepts</description></image> </sidebyside>
+    <sidebyside width="40%"><image source="images/fig-parabola-x-intercepts"><description>parabolas with zero, one, or two x-intercepts</description></image> </sidebyside>
 
 <p><ul>
     <li><p>The graph of 
-    <me>y = x^2 - 4x + 3</me> 
+        <me>y = x^2 - 4x + 3</me> 
     has two <m>x</m>-intercepts, because the equation
-    <me>x^2 - 4x + 3 = 0</me>
+        <me>x^2 - 4x + 3 = 0</me>
     has two real-valued solutions, <m>x = 1</m> and <m>x = 3</m>. </p></li> 
     <li><p>The graph of
-    <me>y = x^2 - 4x + 4</me>
+        <me>y = x^2 - 4x + 4</me>
     has only one <m>x</m>-intercept, because the equation
-    <me>x^2 - 4x + 4 = 0</me>
+        <me>x^2 - 4x + 4 = 0</me>
     has only one (repeated) real-valued solution, <m>x = 2</m>.</p></li>
     <li><p> The graph of 
-    <me>y = x^2 - 4x + 6</me> 
+        <me>y = x^2 - 4x + 6</me> 
     has no <m>x</m>-intercepts, because the equation 
-    <me>x^2 - 4x + 6 = 0</me> 
-    has no real-valued solutions.</p></li>
-</ul></p>
+        <me>x^2 - 4x + 6 = 0</me> 
+    has no real-valued solutions.</p></li></ul></p>
 
 <p>A closer look at the quadratic formula reveals useful information about the solutions of quadratic equations. The sign of the number under the radical determines how many solutions the equation has. For the three equations above, we calculate as follows:</p>
 
-<p><md alignment="alignat">
-    <mrow>
-        \amp y=x^2-4x+3 \amp \amp y=x^2-4x+4 \amp\amp y=x^2-4+6
-    </mrow>
-    <mrow>
-        \amp~~\blert{ \text{two } x\text{-intercepts}} \amp \amp ~~\blert{~\text{one } x\text{-intercept}} \amp\amp ~\blert{~\text{no } x\text{-intercepts}} 
-    </mrow>
-    <mrow>
-        \small{x} \amp \small{=\frac{4\pm\sqrt{(-4)^2-4(1)(3)}}{2}}\quad\amp 
+<p><md alignment="alignat"><mrow>\amp y=x^2-4x+3 \amp \amp y=x^2-4x+4 \amp\amp y=x^2-4+6</mrow>
+    <mrow>\amp~~\blert{ \text{two } x\text{-intercepts}} \amp \amp ~~\blert{~\text{one } x\text{-intercept}} \amp\amp ~\blert{~\text{no } x\text{-intercepts}} </mrow>
+    <mrow>\small{x} \amp \small{=\frac{4\pm\sqrt{(-4)^2-4(1)(3)}}{2}}\quad\amp 
         \small{x} \amp \small{=\frac{4\pm\sqrt{(-4)^2-4(1)(4)}}{2}}\quad\amp  
-        \small{x}\amp \small{=\frac{4\pm\sqrt{(-4)^2-4(1)(6)}}{2}}
-    </mrow>
-    <mrow>
-        \amp =\frac{4\pm\sqrt{\alert{4}}}{2}\amp 
+        \small{x}\amp \small{=\frac{4\pm\sqrt{(-4)^2-4(1)(6)}}{2}}</mrow>
+    <mrow>\amp =\frac{4\pm\sqrt{\alert{4}}}{2}\amp 
         \amp =\frac{4\pm\sqrt{\alert{0}}}{2}\amp  
-        \amp =\frac{4\pm\sqrt{\alert{-12}}}{2}
-    </mrow>
-    <mrow>
-        \amp~~\blert{ \text{two solutions}}  \amp \amp ~\blert{~\text{one repeated solution}} \amp\amp ~~\blert{~\text{no solutions}} 
-    </mrow>
-</md></p>
+        \amp =\frac{4\pm\sqrt{\alert{-12}}}{2}</mrow>
+    <mrow>\amp~~\blert{ \text{two solutions}}  \amp \amp ~\blert{~\text{one repeated solution}} \amp\amp ~~\blert{~\text{no solutions}} </mrow></md></p>
 
 <p>From the examples above, we see that the solutions of a quadratic equation always occur in <term>conjugate pairs</term>,
     <me>\dfrac{-b}{2a}+\dfrac{\sqrt{b^2-4ac}}{2a}~~~\text{and}~~~\dfrac{-b}{2a}-\dfrac{\sqrt{b^2-4ac}}{2a}</me>
@@ -421,27 +332,24 @@ For example, consider the three functions graphed below.</p>
 
 <assemblage><title>The Discriminant</title>
 <p>The <term>discriminant</term> of a quadratic equation is
-        <me>D=b^2-4ac</me>  <ol label="1">      
+        <me>\blert{D=b^2-4ac}</me>  <ol label="1">      
     <li>If <m>D \gt 0</m>,  there are two unequal solutions.</li>
     <li>If  <m>D = 0</m>,  there is one solution of multiplicity two.</li>
     <li>If<m>D \lt 0</m>,  there are two complex conjugate solutions.</li></ol></p></assemblage>
 
-
-<example xml:id="example-discriminant"><statement><p>Use the discriminant to determine the nature of the solutions of each equation. Can the equation be solved by factoring?<ol label="a" cols="3">
-    <li><m>x^2 - x - 3 = 0</m></li>
-    <li><m>2x^2 + x + 1 = 0</m></li>
-    <li><m>x^2 - 6x + 9 = 0</m></li>
+<example xml:id="example-discriminant"><statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph has. <ol label="a" cols="3">
+    <li><m>y = x^2 - x - 3 </m></li>
+    <li><m>y = 2x^2 + x + 1</m></li>
+    <li><m>y = x^2 - 6x + 9</m></li>
     </ol></p></statement>
 
-<solution><p>We set  and compute the discriminant for the resulting equation.<ol label="a">
+<solution><p>We set <m>y=0</m> and compute the discriminant for the resulting equation.<ol label="a">
     <li><p><m>D = b^2 - 4ac = (-1)^2 - 4(1)(-3) = 13 \gt 0</m>. The equation has two real, unequal solutions, and the graph has two <m>x</m>-intercepts.</p></li>
     <li><p><m>D = b^2 - 4ac = 1^2 - 4(2)(1) = -7 \lt 0</m>.</p><p>The equation has no real solutions, so the graph has no <m>x</m>-intercepts.</p></li>
-    <li><p><m>D = b^2 - 4ac = (-6)^2 - 4(1)(9) = 0</m>.</p><p> The equation has one real solution of multiplicity two, and the graph has a single <m>x</m>-intercept.</p></li></ol></p></solution>
-</example> 
+    <li><p><m>D = b^2 - 4ac = (-6)^2 - 4(1)(9) = 0</m>.</p><p> The equation has one real solution of multiplicity two, and the graph has a single <m>x</m>-intercept.</p></li></ol></p></solution></example> 
 
 <exercise><title>QuickCheck 3</title>
-<webwork>
-    <pg-code>       
+<webwork><pg-code>       
         $True = PopUp(
           ["?","True", "False"],
           1, 
@@ -451,37 +359,21 @@ For example, consider the three functions graphed below.</p>
           2, 
         );
     </pg-code>
-    <statement>
-        <p>
-            True or False. 
-            <ol label="a">
-                <li><p>
-                    The discriminant is part of the quadratic formula. <var name="$True" form="popup"/>
-                </p></li>
-                <li><p>
-                    We use the discriminant to calculate the solutions of a quadratic equation. <var name="$TF" form="popup"/>
-                </p></li>
-                <li><p>
-                    If the discriminant is negative, both <m>x</m>-intercepts of the graph are negative. <var name="$TF" form="popup"/>
-                </p></li>
-                <li><p>
-                    If a quadratic equation won't factor, its graph has no <m>x</m>-intercepts. <var name="$TF" form="popup"/>
-                </p></li>
-            </ol>
-        </p>
-    </statement>
-    <solution><p>
-        <ol label="a">
+<statement><p>True or False. <ol label="a">
+    <li><p>The discriminant is part of the quadratic formula. <var name="$True" form="popup"/></p></li>
+    <li><p>We use the discriminant to calculate the solutions of a quadratic equation. <var name="$TF" form="popup"/>
+        </p></li>
+    <li><p>If the discriminant is negative, both <m>x</m>-intercepts of the graph are negative. <var name="$TF" form="popup"/></p></li>
+    <li><p>If a quadratic equation won't factor, its graph has no <m>x</m>-intercepts. <var name="$TF" form="popup"/>
+        </p></li></ol></p>
+</statement>
+    <solution><p><ol label="a">
             <li>True</li>
             <li>False</li>
             <li>False</li>
-            <li>False</li>
-        </ol>
-        </p>
+            <li>False</li></ol></p>
     </solution>
-</webwork>
-</exercise>
-
+</webwork></exercise>
 
 <exercise xml:id="exercise-discriminant">
     <title>Practice 5</title>
@@ -492,17 +384,14 @@ For example, consider the three functions graphed below.</p>
             $countb = PopUp(
             ["?","None","1", "2", "Other"],
             "1", );
-            
         </pg-code>
-        <statement>
-            <p>Use the discriminant to discover how many <m>x</m>-intercepts the graph of each function has.</p>
+<statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph of each equation has.</p>
             <p><ol label="a" cols="2">
             <li><p><m>y = x^2 + 5x + 7</m> <var name="$counta" form="popup"/></p></li>
-            <li><p><m>y = -\dfrac{1}{2}x^2 + 4x - 8</m> <var name="$countb" form="popup"/></p></li>
-            </ol></p>
-        </statement>
-    </webwork>
-</exercise> 
+            <li><p><m>y = -\dfrac{1}{2}x^2 + 4x - 8</m> <var name="$countb" form="popup"/></p></li></ol></p>
+    </statement>
+</webwork></exercise> 
+
 </subsection>
 
 <subsection><title>Solving Formulas</title>
@@ -513,7 +402,7 @@ For example, consider the three functions graphed below.</p>
 
 <solution><p>We first write the equation in standard form as a quadratic equation in the variable <m>x</m>.
         <me>x^2 - yx + (y - 2) = 0</me>
-Expressions in <m>y</m> are treated as constants with respect to <m>x</m>, so that <m>a = \alert{1}</m>, <m>b = \alert{-y}</m>, and <m>c = \alert{y - 2}</m>. Substitute these expressions into the quadratic formula.
+Expressions in <m>y</m> are treated as constants with respect to <m>x</m>, so that <m>a = \alert{1}</m>, <m>b = \alert{-y}</m>, and <m>c = \alert{y - 2}</m>. We substitute these expressions into the quadratic formula.
         <md><mrow>x \amp=\frac{-(\alert{-y}) \pm\sqrt{(\alert{-y})^2 - 4(\alert{1})(\alert{y - 2})}}{2(\alert{1})}</mrow>
             <mrow>\amp = \frac{y \pm\sqrt{y^2 - 4y + 8}}{2}</mrow></md>
 </p></solution></example>
@@ -524,18 +413,15 @@ Expressions in <m>y</m> are treated as constants with respect to <m>x</m>, so th
             Context()->variables->add(k=>"Real");
             $answer=Formula("(-k+sqrt(8-7k**2))/4, (-k-sqrt(8-7k**2))/4");
         </pg-code>
-        <statement>
-            <p>Solve <m>2x^2 + kx + k^2 = 1</m> for <m>x</m> in terms of <m>k</m>.</p>
+    <statement><p>Solve <m>2x^2 + kx + k^2 = 1</m> for <m>x</m> in terms of <m>k</m>.</p>
             <p>Solutions: <m>x=</m><var name="$answer" width="35"/></p>
             <instructions><p>Use a comma to separate different solutions.</p></instructions>
-        </statement>
-        <solution>
-            <p><m>x=\dfrac{-k\pm\sqrt{8-7k^2}}{4} </m></p>
+    </statement>
+    <solution><p><m>x=\dfrac{-k\pm\sqrt{8-7k^2}}{4} </m></p>
         </solution>
-    </webwork>
-</exercise>
-</subsection>
+</webwork></exercise>
 
+</subsection>
 
 
 <xi:include href="./section-4-1-exercises.xml" /> <!-- exercises  -->

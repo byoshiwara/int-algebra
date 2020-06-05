@@ -248,7 +248,7 @@
     <li><sidebyside  width="50%"><image source="images/fig-ans-3-1-1"><description>direct variation</description></image></sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="10"><statement><p>At constant acceleration from rest, the distance traveled by a race car is proportional to the square of the time elapsed. The highest recorded road-tested acceleration is <m>0</m> to <m>60</m> miles per hour in <m>3.07</m> seconds, which produces the following data.</p>
+<exercise number="10"><statement><p>At constant acceleration from rest, the distance traveled by a race car is proportional to the square of the time elapsed. The highest recorded road-tested acceleration is 0 to 60 miles per hour in 3.07 seconds, which produces the following data.</p>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <col right="major" halign="left"/><col/><col/><col/>
         <row><cell><m>\text{Time (seconds)} </m></cell>
@@ -270,7 +270,7 @@
         <li><p>Sketch a graph of the function by hand, and label the scales on the axes.</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="11"><statement><p>The weight of an object on the Moon varies directly with its weight on Earth. A person who weighs <m>150</m> pounds on Earth would weigh only <m>24.75</m> pounds on the Moon.<ol label="a">
+<exercise number="11"><statement><p>The weight of an object on the Moon varies directly with its weight on Earth. A person who weighs 150 pounds on Earth would weigh only 24.75 pounds on the Moon.<ol label="a">
     <li><p>Find a function that gives the weight <m>m</m> of an object on the Moon in terms of its weight <m>w</m> on Earth. Complete the table and graph your function in a suitable window.</p>
         <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>w</m></cell>
@@ -284,8 +284,8 @@
                     <cell><m>\hphantom{0000}</m></cell>
                     <cell><m>\hphantom{0000}</m></cell></row>
             </tabular></sidebyside></li>
-        <li><p>How much would a person weigh on the Moon if she weighs <m>120</m> pounds on Earth?</p></li>
-        <li><p>A piece of rock weighs <m>50</m> pounds on the Moon. How much will it weigh back on Earth?</p></li>
+        <li><p>How much would a person weigh on the Moon if she weighs 120 pounds on Earth?</p></li>
+        <li><p>A piece of rock weighs 50 pounds on the Moon. How much will it weigh back on Earth?</p></li>
         <li><p>If you double the weight of an object on Earth, what will happen to its weight on the Moon?</p></li>
     </ol></p></statement>
 <answer><p><ol label="a">
@@ -302,12 +302,12 @@
                     <cell><m>\alert{33}</m></cell>
                     <cell><m>\alert{66}</m></cell></row>
             </tabular></sidebyside></li>
-    <li><p><m>19.8</m> lb</p></li>
-    <li><p><m>303.03</m> lb</p></li>
+    <li><p>19.8 lb</p></li>
+    <li><p>303.03 lb</p></li>
     <li><p>It will double.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p>The length of a rectangle is <m>10</m> inches, and its width is <m>8</m> inches. Suppose we increase the length of the rectangle while holding the width constant.<ol label="a">
+<exercise number="12"><statement><p>The length of a rectangle is 10 inches, and its width is 8 inches. Suppose we increase the length of the rectangle while holding the width constant.<ol label="a">
         <li><p>Fill in the table.</p>
         <sidebyside><tabular bottom="minor" top="minor" left="minor" right="minor" halign="center">
             <row><cell>Length</cell>
@@ -337,7 +337,7 @@
     <li><p>Write a formula for the area of the rectangle in terms of its length.</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="13"><statement><p>Hubble's law says that distant galaxies are receding from us at a rate that varies directly with their distance. (The speeds of the galaxies are measured using a phenomenon called redshifting.) A galaxy in the constellation Ursa Major is <m>980</m> million light-years away and is receding at a speed of <m>15,000</m> kilometers per second.
+<exercise number="13"><statement><p>Hubble's law says that distant galaxies are receding from us at a rate that varies directly with their distance. (The speeds of the galaxies are measured using a phenomenon called redshifting.) A galaxy in the constellation Ursa Major is 980 million light-years away and is receding at a speed of 15,000 kilometers per second.
     <ol label="a">
         <li><p>Find a function that gives the speed, <m>v</m>, of a galaxy in terms of its distance, <m>d</m>, from Earth. Complete the table and graph your function in a suitable window. (Distances are given in millions of light-years.)</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
@@ -352,8 +352,8 @@
                     <cell><m>\hphantom{0000}</m></cell>
                     <cell><m>\hphantom{0000}</m></cell></row>
             </tabular></sidebyside></li>
-        <li><p>How far away is a galaxy in the constellation Hydra that is receding at <m>61,000</m> kilometers per second?</p></li>
-        <li><p>A galaxy in Leo is <m>1240</m> million light-years away. How fast is it receding from us?</p></li>
+        <li><p>How far away is a galaxy in the constellation Hydra that is receding at 61,000 kilometers per second?</p></li>
+        <li><p>A galaxy in Leo is 1240 million light-years away. How fast is it receding from us?</p></li>
     </ol></p></statement>
 <answer><p><ol label="a">
     <li><m>v=15.306 d</m></li>
@@ -361,7 +361,7 @@
     <li>18,979 km/sec</li></ol></p></answer>
 </exercise>
 
-<exercise number="14"><statement><p>The length, <m>L</m>, of a pendulum varies directly with the square of its period, <m>T</m>, the time required for the pendulum to make one complete swing back and forth. The pendulum on a grandfather clock is <m>3.25</m> feet long and has a period of <m>2</m> seconds.<ol label="a">
+<exercise number="14"><statement><p>The length, <m>L</m>, of a pendulum varies directly with the square of its period, <m>T</m>, the time required for the pendulum to make one complete swing back and forth. The pendulum on a grandfather clock is 3.25 feet long and has a period of 2 seconds.<ol label="a">
         <li><p>Express <m>L</m> as a function of <m>T</m>. Complete the table and graph your function in a suitable window.</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>T</m></cell>
@@ -375,12 +375,12 @@
                     <cell><m>\hphantom{0000} </m></cell>
                     <cell><m>\hphantom{0000} </m></cell></row>
             </tabular></sidebyside></li>
-        <li><p>How long is the Foucault pendulum in the Pantheon in Paris, which has a period of <m>17</m> seconds?</p></li>
-        <li><p>A hypnotist uses a gold pendant as a pendulum to mesmerize his clients. If the chain on the pendant is <m>9</m> inches long, what is the period of its swing?</p></li>
+        <li><p>How long is the Foucault pendulum in the Pantheon in Paris, which has a period of 17 seconds?</p></li>
+        <li><p>A hypnotist uses a gold pendant as a pendulum to mesmerize his clients. If the chain on the pendant is 9 inches long, what is the period of its swing?</p></li>
         <li><p>In order to double the period of a pendulum, how must you vary its length?</p></li>
     </ol></p></statement></exercise>
 
- <exercise number="15"><statement><p>The amount of power, <m>P</m>, generated by a windmill varies directly with the cube of the wind speed, <m>w</m>. A windmill on Oahu, Hawaii, produces <m>7300</m> kilowatts of power when the wind speed is <m>32</m> miles per hour.<ol label="a">
+ <exercise number="15"><statement><p>The amount of power, <m>P</m>, generated by a windmill varies directly with the cube of the wind speed, <m>w</m>. A windmill on Oahu, Hawaii, produces 7300 kilowatts of power when the wind speed is 32 miles per hour.<ol label="a">
         <li><p>Express the power as a function of wind speed. Complete the table and graph your function in a suitable window.</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>w</m></cell>
@@ -394,8 +394,8 @@
                     <cell><m>\hphantom{0000} </m></cell>
                     <cell><m>\hphantom{0000} </m></cell></row>
             </tabular></sidebyside></li>
-        <li><p>How much power would the windmill produce in a light breeze of <m>15</m> miles per hour?</p></li>
-        <li><p>What wind speed is needed to produce <m>10,000</m> kilowatts of power?</p></li>
+        <li><p>How much power would the windmill produce in a light breeze of 15 miles per hour?</p></li>
+        <li><p>What wind speed is needed to produce 10,000 kilowatts of power?</p></li>
         <li><p>If the wind speed doubles, what  happens to the amount of power generated?</p></li>
     </ol></p></statement>
 <answer><p><ol label="a">
@@ -412,27 +412,27 @@
                 <cell><m>\alert{14,259} </m></cell>
                 <cell><m>\alert{114,074} </m></cell></row>
         </tabular></sidebyside></li>
-   <li><p><m>752</m> kilowatts</p></li>
-    <li><p><m>33.54</m> mph</p></li>
-    <li><p>It is multiplied by <m>8</m>.</p></li>
+   <li><p>752 kilowatts</p></li>
+    <li><p>33.54 mph</p></li>
+    <li><p>It is multiplied by 8.</p></li>
 </ol></p></answer></exercise>
 
 <exercisegroup><introduction><p>The functions described by a table or a graph in Problems 16-19 are examples of direct variation.<ol label="a"> 
     <li>Find an algebraic formula for the function, including the constant of variation, <m>k</m>.</li> 
     <li>Answer the question in the problem.</li></ol></p></introduction>
 
-<exercise number="16"><statement><sidebyside widths="50% 27%" valigns="middle middle"><p>A wide pipe can handle a greater water flow than a narrow pipe. The graph shows the water flow through a pipe, <m>w</m>, as a function of its radius, <m>r</m>. How great is the water flow through a pipe of radius of <m>10</m> inches?</p>
+<exercise number="16"><statement><sidebyside widths="50% 27%" valigns="middle middle"><p>A wide pipe can handle a greater water flow than a narrow pipe. The graph shows the water flow through a pipe, <m>w</m>, as a function of its radius, <m>r</m>. How great is the water flow through a pipe of radius of 10 inches?</p>
     <image source="images/fig-hw-5-4-16"><description>increasing concave up</description></image></sidebyside></statement>
 </exercise>
 
-<exercise number="17"><statement><sidebyside widths="50% 27%" valigns="middle middle"><p>The faster a car moves, the more difficult it is to stop. The graph shows the distance, <m>d</m>, required to stop a car as a function of its velocity, <m>v</m>, before the brakes were applied. What distance is needed to stop a car moving at <m>100</m> kilometers per hour?</p>
+<exercise number="17"><statement><sidebyside widths="50% 27%" valigns="middle middle"><p>The faster a car moves, the more difficult it is to stop. The graph shows the distance, <m>d</m>, required to stop a car as a function of its velocity, <m>v</m>, before the brakes were applied. What distance is needed to stop a car moving at 100 kilometers per hour?</p>
     <image source="images/fig-hw-5-4-17"><description>increasing concave up</description></image></sidebyside></statement>
 <answer><p><ol label="a" cols="2">
     <li><p><m>d = 0.005v^2</m></p></li>
-    <li><p><m>50</m> m</p></li>
+    <li><p>50 m</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><p>The maximum height attained by a cannonball depends on the speed at which it was shot. The table shows maximum height as a function of initial speed. What height is attained by a cannonball whose initial upward speed was <m>100</m> feet per second?</p>
+<exercise number="18"><statement><p>The maximum height attained by a cannonball depends on the speed at which it was shot. The table shows maximum height as a function of initial speed. What height is attained by a cannonball whose initial upward speed was 100 feet per second?</p>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row><cell>Speed (ft/sec)</cell>
             <cell>Height (ft)</cell></row>
@@ -446,7 +446,7 @@
             <cell><m>612.5</m></cell></row>
     </tabular></sidebyside></statement></exercise>
 
-<exercise number="19"><statement><p>The strength of a cylindrical rod depends on its diameter. The greater the diameter of the rod, the more weight it can support before collapsing. The table shows the maximum weight supported by a rod as a function of its diameter. How much weight can a <m>1.2</m>-centimeter rod support before collapsing?</p>
+<exercise number="19"><statement><p>The strength of a cylindrical rod depends on its diameter. The greater the diameter of the rod, the more weight it can support before collapsing. The table shows the maximum weight supported by a rod as a function of its diameter. How much weight can a 1.2-centimeter rod support before collapsing?</p>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row><cell>Diameter (cm)</cell>
             <cell>Weight (newtons)</cell></row>
@@ -461,19 +461,19 @@
     </tabular></sidebyside></statement>
 <answer><p><ol label="a" cols="2">
     <li><p><m>W = 600d^2 </m></p></li>
-    <li><p><m>864</m> newtons</p></li>
+    <li><p>864 newtons</p></li>
 </ol></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="20"><statement><p>The wind resistance, <m>W</m>, experienced by a vehicle on the freeway varies directly with the square of its speed, <m>v</m>.<ol label="a">
         <li><p>If you double your speed, what happens to the wind resistance?</p></li>
         <li><p>If you drive one-third as fast, what happens to the wind resistance?</p></li>
-        <li><p>If you decrease your speed by <m>10\%</m>, what happens to the wind resistance?</p></li>
+        <li><p>If you decrease your speed by 10%, what happens to the wind resistance?</p></li>
     </ol></p></statement>
 <answer><p><ol label="a">
     <li><p>Wind resistance quadruples.</p></li>
     <li><p>It is one-ninth as great.</p></li>
-    <li><p>It is decreased by <m>19\%</m> because it is <m>81\%</m> of the original.</p></li>
+    <li><p>It is decreased by 19% because it is 81% of the original.</p></li>
 </ol></p></answer></exercise>
 
 </subexercises>

@@ -6,17 +6,17 @@
 
 <subsection><title>Inverse Variation</title><idx>inverse variation</idx>
 
-<p>How long does it take to travel a distance of <m>600</m> miles? The answer depends on your average speed. If you are on a bicycle trip, your average speed might be <m>15</m> miles per hour. In that case, your traveling time will be
+<p>How long does it take to travel a distance of 600 miles? The answer depends on your average speed. If you are on a bicycle trip, your average speed might be 15 miles per hour. In that case, your traveling time will be
     <me>T = \frac{D}{R}= \frac{600}{15}= 40 \text{ hours}</me>
-(Of course, you will have to add time for rest stops; the <m>40</m> hours are just your travel time.) </p>
+(Of course, you will have to add time for rest stops; the 40 hours are just your travel time.) </p>
 
-<p>If you are driving your car, you might average <m>50</m> miles per hour. Your travel time is then
+<p>If you are driving your car, you might average 50 miles per hour. Your travel time is then
     <me>T = \frac{D}{R}= \frac{600}{50}= 12 \text{ hours}</me></p>
 
-<p>If you take a commercial air flight, the plane’s speed might be <m>400</m> miles per hour, and the flight time would be
+<p>If you take a commercial air flight, the plane’s speed might be 400 miles per hour, and the flight time would be
     <me>T = \frac{D}{R}= \frac{600}{400}= 1.5 \text{ hours}</me></p>
 
-<p>You can see that for higher average speeds, the travel time is shorter. In other words, the time needed for a <m>600</m>-mile journey is a decreasing function of average speed. In fact, a formula for the function is
+<p>You can see that for higher average speeds, the travel time is shorter. In other words, the time needed for a 600-mile journey is a decreasing function of average speed. In fact, a formula for the function is
     <me>T = f (R) = \frac{600}{R}</me></p>
 
 <p>This function is an example of <term>inverse variation</term><idx>inverse variation</idx>. A table of values and a graph of the function are shown below.</p>
@@ -106,7 +106,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>If we know that two variables vary inversely and we can find one pair of corresponding values for the variables, we can determine <m>k</m>, the constant of variation.</p>
 
-<example><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of <m>12</m> ohms draws <m>10</m> amps of current.<ol label="a">
+<example><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of 12 ohms draws 10 amps of current.<ol label="a">
         <li><p>Write a formula that gives current as a function of the resistance.</p></li>
         <li><p> Complete the table and graph your function in a suitable window.</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
@@ -123,8 +123,8 @@ where <m>k</m> is a positive constant.</p></assemblage>
                     <cell><m>\hphantom{0000} </m></cell>
                     <cell><m>\hphantom{0000} </m></cell></row>
             </tabular></sidebyside></li>
-        <li><p>How much current is drawn by a light bulb with a resistance of <m>533.3</m> ohms?</p></li>
-        <li><p>What is the resistance of a toaster that draws <m>12.5</m> amps of current?</p></li>
+        <li><p>How much current is drawn by a light bulb with a resistance of 533.3 ohms?</p></li>
+        <li><p>What is the resistance of a toaster that draws 12.5 amps of current?</p></li>
     </ol></p></statement>
 <solution><p><ol label="a">
     <li>Because <m>I</m> varies inversely with <m>R</m>, we know that <m>I=\dfrac{k}{R}</m>. To find the constant <m>k</m>, we substitute <m>\alert{10}</m> for <m>I</m> and <m>\alert{12}</m> for <m>R</m>.
@@ -237,11 +237,11 @@ where <m>k</m> is a positive constant.</p></assemblage>
             <li><p>Express the cost per person, <m>C</m>, as a function of the number of people, <m>p</m>, who contribute.</p>
             <p><var name="$multians" width="2"/><m>=</m><var name="$multians" width="10"/> </p></li>
             <li><p>Sketch the function on the domain <m>0 \le p \le 20</m>.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="20% 20%" margins="15% 15%">
                 <image pg-name="$gr[1]"/>
                 <image pg-name="$gr[2]"/>
             </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="20% 20%" margins="15% 15%">
                 <image pg-name="$gr[3]"/>
                 <image pg-name="$gr[0]"/>
             </sidebyside>
@@ -249,7 +249,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
             <p><var name="$mc" form="buttons"/> </p></li></ol></p>
     </statement>
     <solution><p><ol label="a.">
-          <li><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+          <li><sidebyside widths="20%"><image pg-name="$gr[0]"/></sidebyside>
             <p>A graph is also shown below.</p></li>
           <li><p><m>x=-9</m> or <m>x=2</m></p></li></ol></p>
     </solution>
@@ -272,9 +272,9 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>We may also say that <m>y</m> is <term>inversely proportional</term><idx>inversely proportional</idx> to <m>x^n</m>.</p>
 
-<example xml:id="example-EMR-vs-distance"><statement><p>The intensity of electromagnetic radiation, such as light or radio waves, varies inversely with the square of the distance from its source. Radio station KPCC broadcasts a signal that is measured at <m>0.016</m> watt per square meter by a receiver <m>1</m> kilometer away.<ol label="a">
+<example xml:id="example-EMR-vs-distance"><statement><p>The intensity of electromagnetic radiation, such as light or radio waves, varies inversely with the square of the distance from its source. Radio station KPCC broadcasts a signal that is measured at 0.016 watt per square meter by a receiver 1 kilometer away.<ol label="a">
         <li>Write a formula that gives signal strength as a function of distance.</li>
-        <li>If you live <m>5</m> kilometers from the station, what is the strength of the signal you will receive?</li>
+        <li>If you live 5 kilometers from the station, what is the strength of the signal you will receive?</li>
         <li><p>Graph your function in the window
             <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 6</mrow>
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 0.02</mrow></md></p></li>
@@ -287,11 +287,9 @@ where <m>k</m> is a positive constant.</p></assemblage>
         Thus, <m>I = \dfrac{0.016}{d^2}</m>.</p></li>
     <li><p>Now we can substitute <m>\alert{5}</m> for <m>d</m> and solve for <m>I</m>.
         <me>I = \frac{0.016}{\alert{5}^2}= 0.00064</me>
-    At a distance of <m>5</m> kilometers from the station, the signal strength is <m>0.00064</m> watt per square meter.</p></li>
+    At a distance of 5 kilometers from the station, the signal strength is 0.00064 watt per square meter.</p></li>
     <li><p>The graph is shown below.</p>
-        <sidebyside  width="40%">
-            <image xml:id="fig-example-5-5-2">
-                <description>inverse-square</description>
+        <sidebyside  width="30%"><image xml:id="fig-example-5-5-2"><description>inverse-square</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -311,10 +309,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 \filldraw[red] (1,8) circle (.1) node[right, xshift=4, fill=white, inner sep=2] {$(1,0.016)$};
                 \node[black,fill=white, inner sep=2] at (4,6) {$I=\Large \frac{0.016}{d^2}$};
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside></li>
-    </ol></p>
+                </latex-image></image></sidebyside></li></ol></p>
 </solution></example>
 
 <p>To summarize, an inverse variation is an example of a decreasing function, but not every decreasing function describes an inverse variation.</p> 

@@ -53,32 +53,32 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="11"><statement><p>The population of Summerville is currently <m>12</m> hundred people.<ol label="a">
-    <li><p>Write a formula for the population if it grows at a constant rate of <m>1.5</m> hundred people per year. What is the population after <m>3</m> years?</p></li>
-    <li><p>Write a formula for the population if it has a constant growth factor of <m>1.5</m> per year. What is the population after <m>3</m> years?   </p></li></ol>
+<exercise number="11"><statement><p>The population of Summerville is currently 12 hundred people.<ol label="a">
+    <li><p>Write a formula for the population if it grows at a constant rate of 1.5 hundred people per year. What is the population after 3 years?</p></li>
+    <li><p>Write a formula for the population if it has a constant growth factor of 1.5 per year. What is the population after 3 years?   </p></li></ol>
 </p></statement>
 <answer><p><ol label="a" cols="2">
-    <li><p><m>P = 1200 + 150t</m>;  <m>1650</m></p></li>
-    <li><p><m>P = 1200\cdot 1.5^t</m>;  <m>4050</m></p></li>
+    <li><p><m>P = 1200 + 150t</m>;  1650</p></li>
+    <li><p><m>P = 1200\cdot 1.5^t</m>;  4050</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p>Delbert's sports car was worth  $<m>45,000</m> when he bought it.<ol label="a">
-    <li><p>Write a formula for the value of the car if it depreciates at a constant rate of $<m>7000</m> per year. What is the value of the car after <m>4</m> years?</p></li>
-    <li><p>Write a formula for the value of the car if it has a constant depreciation factor of <m>0.70</m> per year. What is the value of the car after <m>4</m> years?</p></li>
+<exercise number="12"><statement><p>Delbert's sports car was worth  $45,000 when he bought it.<ol label="a">
+    <li><p>Write a formula for the value of the car if it depreciates at a constant rate of $7000 per year. What is the value of the car after 4 years?</p></li>
+    <li><p>Write a formula for the value of the car if it has a constant depreciation factor of 0.70 per year. What is the value of the car after 4 years?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="13"><statement><p>Francine's truck was worth $<m>18,000</m> when she bought it.<ol label="a">
-    <li><p>Write a formula for the value of the truck if it depreciates by $<m>2000</m> per year. What is the value of the truck after <m>5</m> years?</p></li>
-    <li><p>Write a formula for the value of the truck if it depreciates by <m>20\%</m> per year. What is the value of the truck after <m>5</m> years?</p></li>
+<exercise number="13"><statement><p>Francine's truck was worth $18,000 when she bought it.<ol label="a">
+    <li><p>Write a formula for the value of the truck if it depreciates by $2000 per year. What is the value of the truck after 5 years?</p></li>
+    <li><p>Write a formula for the value of the truck if it depreciates by 20% per year. What is the value of the truck after 5 years?</p></li>
 </ol></p></statement>
 <answer><p><ol label="a" cols="2">
-    <li><p><m>V = 18,000 - 2000t</m>; $<m>8000</m></p></li>
-    <li><p><m>V = 18,000\cdot 0.8^t</m>; $<m>5898.24</m></p></li>
+    <li><p><m>V = 18,000 - 2000t</m>; $8000</p></li>
+    <li><p><m>V = 18,000\cdot 0.8^t</m>; $5898.24</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p>The population of Lakeview is currently <m>150,000</m> people.<ol>
-    <li><p>Write a formula for the population if it grows by <m>6000</m> people per year. What is the population after <m>2</m> years?</p></li>
-    <li><p>Write a formula for the population if grows by <m>6\%</m> per year. What is the population after <m>2</m> years?</p></li>
+<exercise number="14"><statement><p>The population of Lakeview is currently 150,000 people.<ol>
+    <li><p>Write a formula for the population if it grows by 6000 people per year. What is the population after 2 years?</p></li>
+    <li><p>Write a formula for the population if grows by 6% per year. What is the population after 2 years?</p></li>
 </ol></p></statement></exercise>
 
 <exercise number="15"><statement><p>The table shows the growth factor for a number of different populations.  For each population, find the percent growth rate.</p>

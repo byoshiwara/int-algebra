@@ -10,12 +10,12 @@
 
 <subsection><title>Negative Exponents</title>
 
-<sidebyside widths="50% 30%" valigns="middle middle"><p>Study the list of powers of <m>2</m> shown in Table a and observe the pattern as we move up the list from bottom to top. Each time the exponent increases by 1 we multiply by another factor of <m>2</m>. We can continue up the list as far as we like.</p>
+<sidebyside widths="50% 30%" valigns="middle middle"><p>Study the list of powers of 2 shown in Table (a) and observe the pattern as we move up the list from bottom to top. Each time the exponent increases by 1 we multiply by another factor of 2. We can continue up the list as far as we like.</p>
 <stack><image source="images/fig-table-positive-exponents"/>
     <p><m>\hphantom{000000000000}</m>a.</p></stack></sidebyside>
 
-<sidebyside widths="50% 30%" valigns="middle middle"><stack><p>If we move back down the list, we divide by <m>2</m> at each step, until we get to the bottom of the list, <m>2^{1} = 2</m>.</p><p> What if we continue the list in the same way, dividing by <m>2</m> each time we decrease the exponent? The results are shown in Table b.</p>
-<p>As we continue to divide by <m>2</m>, we generate fractions whose denominators are powers of <m>2</m>. In particular,
+<sidebyside widths="50% 30%" valigns="middle middle"><stack><p>If we move back down the list, we divide by 2 at each step, until we get to the bottom of the list, <m>2^{1} = 2</m>.</p><p> What if we continue the list in the same way, dividing by 2 each time we decrease the exponent? The results are shown in Table (b).</p>
+<p>As we continue to divide by 2, we generate fractions whose denominators are powers of 2. In particular,
 </p></stack>
     <stack><image source="images/fig-table-integer-exponents"><description>table of integer exponents</description></image>
     <p><m>\hphantom{000000000000}</m>b.</p></stack>
@@ -93,22 +93,22 @@
 
 <example xml:id="example-BMI-index"><statement><p>The body mass index, or BMI, is one measure of a person’s physical fitness. Your body mass index is defined by
     <me>\text{BMI} = wh^{-2}</me>
-where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters. The World Health Organization classifies a person as obese if his or her BMI is <m>25</m> or higher.<ol label="a">
-    <li><p>Calculate the BMI for a woman who is <m>1.625</m> meters (<m>64</m> inches) tall and weighs <m>54</m> kilograms (<m>120</m> pounds).</p></li>
+where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters. The World Health Organization classifies a person as obese if his or her BMI is 25 or higher.<ol label="a">
+    <li><p>Calculate the BMI for a woman who is 1.625 meters (64 inches) tall and weighs 54 kilograms (120 pounds).</p></li>
     <li><p>For a fixed weight, how does BMI vary with height?</p></li>
-    <li><p>The world’s heaviest athlete is the amateur sumo wrestler Emanuel Yarbrough, who weighs <m>319</m> kg (<m>704</m> pounds). What height would Yarbrough have to be to have a BMI under <m>25</m>?</p></li>
+    <li><p>The world’s heaviest athlete is the amateur sumo wrestler Emanuel Yarbrough, who weighs 319 kg (704 pounds). What height would Yarbrough have to be to have a BMI under 25?</p></li>
 </ol></p></statement>
 
 <solution><p><ol label="a">
     <li><p>We evaluate the formula to find
         <me>\text{BMI} = 54(1.625^{-2})= 54(\dfrac{1}{1.625^2})= 20.45</me></p></li>
     <li><p><m>\text{BMI} = wh^{-2} = \dfrac{w}{h^2}</m>, so BMI varies inversely with the square of height. That is, for a fixed weight, BMI decreases as height increases.</p></li>
-    <li><p>To find the height that gives a BMI of <m>25</m>, we solve the equation <m>25 = 319h^{-2}</m>. Note that the variable <m>h</m> appears in the denominator of a fraction, so we begin by clearing the denominator—in this case we multiply both sides of the equation by <m>h^2</m>.
+    <li><p>To find the height that gives a BMI of 25, we solve the equation <m>25 = 319h^{-2}</m>. Note that the variable <m>h</m> appears in the denominator of a fraction, so we begin by clearing the denominator—in this case we multiply both sides of the equation by <m>h^2</m>.
         <md><mrow>25 \amp = \frac{319}{h^2} \amp\amp \glert{\text{Multiply both sides by }h^2.}</mrow>
             <mrow>25h^2 \amp = 319 \amp\amp \glert{\text{Divide both sides by }25.}</mrow>
             <mrow>h^2 \amp = 12.76 \amp\amp \glert{\text{Extract square roots.}}</mrow> 
             <mrow>h \amp\approx 3.57</mrow></md>
-    To have a BMI under <m>25</m>, Yarbrough would have to be over <m>3.57</m> meters, or <m>11</m> feet <m>8</m> inches tall. (In fact, he is <m>6</m> feet <m>8</m> inches tall.)</p></li>
+    To have a BMI under 25, Yarbrough would have to be over 3.75 meters, or 11 feet 8 inches tall. (In fact, he is 6 feet 8 inches tall.)</p></li>
 </ol></p></solution></example>
 
 <exercise><title>Practice 2</title>
@@ -132,8 +132,7 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
             <p><m>\glert{\text{Isolate the variable.}}</m></p></hint>
     <solution><p><m>x=\sqrt[3]{\dfrac{2}{15}}\approx 0.51 </m></p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -153,7 +152,7 @@ In addition, the basic functions
     <me>f (x) = \frac{1}{x} ~~\text{ and }~~ g(x) = \frac{1}{x^2}</me>
 which we studied in <xref ref="chap5" text="type-global"/> can be written as
     <me>f (x) = x^{-1} ~~\text{ and }~~ g(x) = x^{-2} </me>
-Their graphs are shown below. Note that the domains of power functions with negative exponents do not include zero.</p>
+Their graphs are shown below. Note that power functions with negative exponents are undefined at zero.</p>
     <sidebyside width="50%"><image source="images/fig-basic-reciprocal-functions"  ><description>graphs of the two basic reciprocal functions</description></image></sidebyside>
 
 <example xml:id="example-identify-power-functions"><statement><p>Which of the following are power functions?<ol label="a" cols="3">
@@ -241,9 +240,7 @@ Their graphs are shown below. Note that the domains of power functions with nega
             <mrow>1369.9 \amp = k</mrow></md>
      Thus, <m>I=f(d)=1370d^{-2}</m>.</p></li>
     <li>We evaluate the function for several values of <m>d</m>, and use a calculator to obtain the graph shown.
-        <sidebyside  width="40%">
-            <image xml:id="fig-example-6-1-4">
-        <description>triangle</description>
+        <sidebyside  width="35%"><image xml:id="fig-example-6-1-4"><description>triangle</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -261,9 +258,7 @@ Their graphs are shown below. Note that the domains of power functions with nega
         \draw[samples=65,domain={sqrt(.137):6},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {1.37/(\x)^2});
         \node[above, text=red, fill=white, inner sep=2] at (3,6) {$I=1370d^{-2}$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        </sidebyside></li>
+        </latex-image></image></sidebyside></li>
     <li>We substitute <m>d=1</m> into the formula to obtain
         <me>I=1370(1)^{-2} = 1370</me>
     Earth receives 1370 watts/m<m>^2</m> of solar radiation.</li>
@@ -290,15 +285,14 @@ Their graphs are shown below. Note that the domains of power functions with nega
             <p>About <var name="$d" width="2"/> km </p></statement>
     <solution><p>About 9 km</p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
 <subsection><title>Working with Negative Exponents</title>
 
 <p>The laws of exponents apply to all integer exponents, positive negative, and zero.  When we allow negative exponents, we only need one version of the rule for computing quotients of powers, namely
-    <me>\dfrac{a^m}{a^n} = a{m-n}~~~~~~(a \not=0)</me>
+    <me>\dfrac{a^m}{a^n} = a^{m-n}~~~~~~(a \not=0)</me>
 For example, by applying this new version of the law we find
     <me>\dfrac{x^2}{x^5} = x^{2-5} = x^{-3}</me>
 which is consistent with our previous version of the rule,
@@ -449,8 +443,8 @@ This is how the calculator displays the number <m>1.524157875 \times 10^{16}</m>
 <p>To enter a number in scientific form, we use the key labeled <m>\boxed{\text{EE}}</m>. For example, to enter <m>3.26 \times 10^{-18}</m> we enter the keying sequence
     <me>3.26~~ \boxed{\text{EE}} ~~ \boxed{(-)} ~~ 18</me></p>
 
-<example><statement><p>In 2019, the average American ate 98.6 kilograms of meat.  It takes about 16 kilograms of grain to produce one kilogram of meat, and advanced farming techniques can produce about 6000 kilograms of grain on each hectare of arable land.  (A hectare is 10,000 square meters, or just under two and a half acres.)  Now, the total land area of the Earth is about 13 billion hectares, but only about 11% of that land is arable. Is it possible for each of the 7.8 billion people on Earth to eat as much meat as Americans do?
-</p></statement>
+<example><statement><p>In 2019, the average American ate 98.6 kilograms of meat.  It takes about 16 kilograms of grain to produce one kilogram of meat, and advanced farming techniques can produce about 6000 kilograms of grain on each hectare of arable land.  (A hectare is 10,000 square meters, or just under two and a half acres.)</p>  
+<p>Now, the total land area of the Earth is about 13 billion hectares, but only about 11% of that land is arable. Is it possible for each of the 7.8 billion people on Earth to eat as much meat as Americans do?</p></statement>
 
 <solution><p>First we'll compute the amount of meat necessary to feed every person on earth 110 kilograms per year.  In scientific notation, the population of Earth is <m>7.8 \times 10^9</m> people. 
     <me>(7.8 \times 10^9 \text{ people}) \times (98.6 \text{ kg/person}) = 7.69 \times 10^{11} \text{ kg meat}</me>

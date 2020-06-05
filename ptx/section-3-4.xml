@@ -150,10 +150,10 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             <mrow>x \amp =7 \amp\text{or}\amp\amp x \amp= -1</mrow></md>
     The solutions are <m>7</m> and <m>-1</m>.</p>
 
-<p>In Step 3, you can check that this equation is equivalent to the original one; if you expand the left side and collect like terms, you will return to the original equation:
+<note><p>In Step 3, you can check that this equation is equivalent to the original one; if you expand the left side and collect like terms, you will return to the original equation:
     <md><mrow>(x-3)^2 \amp = 16 \amp \amp \glert{\text{Expand the square.}}</mrow>
         <mrow>x^2-6x+9 \amp = 16 \amp \amp \glert{\text{Subtract 16 fron both sides.}}</mrow>
-        <mrow>x^2-6c-7 \amp = 0</mrow></md></p>
+        <mrow>x^2-6x-7 \amp = 0</mrow></md></p></note>
  
 <note>
     <sidebyside widths="35% 50%" valigns="middle middle">
@@ -178,7 +178,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         \filldraw[red] (7,0) ellipse (.15 and .1);
         \end{tikzpicture}]]>
     </latex-image></image>    
-    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown in at left. The <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p></sidebyside>
+    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown in at left. Notice that the <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p></sidebyside>
 </note>
 
 <p>We can also solve <m>x^2 - 6x - 7 = 0</m> by factoring instead of completing the square. Of course, we get the same solutions by either method. In the next Example, we solve an equation that cannot be solved by factoring.</p> 

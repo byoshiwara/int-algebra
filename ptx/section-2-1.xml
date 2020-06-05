@@ -6,7 +6,7 @@
 <subsection><title>Shrinking Rain Forest</title>
 
 <sidebyside widths="68% 30%" margins="0% 0%" valigns="middle middle">
-<stack><p>The Amazon Basin in South America contains over half of the planet's rain forest. The Amazon rain forest is home to the largest collection of plant and animal species in the world, including more than one-third of all living species. During the 1960s, colonists began cutting down the rain forest to clear land for agriculture. The construction of the Trans-Amazonian Highway in thee arly 1970s opened large forest areas to development by settlers and commercial interests, increasing the rate of deforestation.</p>
+<stack><p>The Amazon Basin in South America contains over half of the planet's rain forest. The Amazon rain forest is home to the largest collection of plant and animal species in the world, including more than one-third of all living species. During the 1960s, colonists began cutting down the rain forest to clear land for agriculture. The construction of the Trans-Amazonian Highway in the early 1970s opened large forest areas to development by settlers and commercial interests, increasing the rate of deforestation.</p>
         
 <p>Environmentalists are concerned about the loss of biodiversity which will result from destruction of the forest, and about the release of the carbon contained within the vegetation, which could accelerate global warming.</p>
         
@@ -74,10 +74,11 @@
             <cell>2005</cell>
             <cell>3413</cell></row>
         <row>
-            <cell>2006</cell></row>
+            <cell>2006</cell>
+            <cell>3400</cell></row>
     </tabular></sidebyside>
 
-<sidebyside width="95%">
+<sidebyside width="90%">
     <image source="images/fig-rain-forest"><description>plot of shrinking rain forest</description></image></sidebyside>
 
 <p>Although the data points do not all lie exactly on a straight line, they are very close. One question we might ask is: If deforestation continues at the same rate, when will the Amazon rain forest disappear completely? In this section we learn to find a linear model that approximates a data set.</p>
@@ -113,21 +114,25 @@
                 <cell>4.25</cell>
                 <cell>5.15</cell></row>
         </tabular></sidebyside>
-    <sidebyside widths="40% 50%" margins="0% 0%" valigns="top middle"><p><ol label="a">
-        <li><p>Let <m>t</m> represent the number of years after 1960, and plot the data. Is the data linear?</p></li>
+    <sidebyside widths="50% 45%" margins="0% 0%" valigns="top middle"><p><ol label="a">
+        <li><p>Let <m>t</m> represent the number of years after 1960, and plot the data. Are the data linear?</p></li>
         <li><p>Draw a line that "fits" the data.</p></li></ol></p>
             <image source="images/fig-example-2-1-1"><description>scatterplot of minimum wage</description></image>
         </sidebyside>
 </statement>
 
 <solution><p><ol label="a">
-    <li><p>The graph shown is called a <term>scatterplot</term>. The data are not strictly linear, because the slope is not constant: from 1960 to 1965, the minimum wage increased at an average rate of <m>\dfrac{1.25-1.00}{5}=0.05</m> dollars per year, and from 1970 to 1975, the minimum wage increased at a rate of <m>\dfrac{2.10-1.60}{5}=0.10</m> dollars per year. However, the data points do appear to lie close to an imaginary line.</p></li>
+    <li><p>The graph shown is called a <term>scatterplot</term>. The data are not strictly linear, because the slope is not constant: from 1960 to 1965, the minimum wage increased at an average rate of 
+        <me>\dfrac{1.25-1.00}{5}=0.05 \text{dollars per year}</me> 
+    and from 1970 to 1975, the minimum wage increased at a rate of 
+    <me>\dfrac{2.10-1.60}{5}=0.10 \text{dollars per year}</me> 
+    However, the data points do appear to lie close to an imaginary line.</p></li>
     <li><sidebyside widths="45% 51%" margins="0% 0%" valigns="top middle">
     <p>We would like to draw a line that comes as close as possible to all the data points, even though it may not pass precisely through any of them. In particular, we try to adjust the line so that we have the same number of points above the line and below the line. One possible solution is shown in the figure at right.</p>
         <image source="images/fig-example-2-1-1ans"><description>scatterplot of minimum wage</description></image>
 </sidebyside></li></ol></p></solution></example>
 
-<p>A line that fits the data in a scatterplot is called a <term>regression line</term>. Drawing aregression line by eye is a subjective process. In the Activities Workbook we'll use acalculator to compute a particular regression line called the <term>least-squares regression line</term>, which is widely used in statistics and modeling.</p>
+<p>A line that fits the data in a scatterplot is called a <term>regression line</term>. Drawing a regression line by eye is a subjective process. In the Activities Workbook we'll use a calculator to compute a particular regression line called the <term>least-squares regression line</term>, which is widely used in statistics and modeling.</p>
 
 <p>We can still find an equation for a line of best fit using the point-slope formula. We choose two points on the line whose coordinates we can estimate fairly accurately. Note that these two points need not be any of the original data points.</p>
 
@@ -155,7 +160,7 @@
         $m = (3.35-1.25)/(25-5);
         $equation = ImplicitPlane("y = 1.25 + $m *(x-5)");   
         </pg-code>
-    <statement><p>The regression line in the Example above appears to pass through the points (5, 1.25) and (25, 3.35). Use those points to find an equation for the regression line.</p>
+    <statement><p>The regression line in the Example above appears to pass through the points <m>(5, 1.25)</m> and <m>(25, 3.35)</m>. Use those points to find an equation for the regression line.</p>
             <p><var name="$equation" width="12"/> </p>
     </statement>
     <solution><p><m>y = 0.105x+0.725</m></p>
@@ -196,7 +201,7 @@
     <li><p>Make a scatterplot of the data, and draw a regression line</p></li>
     <li><p>Read values from your line for the number of cups of cocoa that will be sold when the temperature is <m>8\degree\text{C}</m> and when the temperature is <m>16\degree\text{C}</m>.</p></li>
     <li><p>Find an equation for the regression line.</p></li>
-    <li><p>Use your equation to predict the number of cups of cocoa that will be sold when the temperature is <m>9\degree\text{C}</m>, and when the temperature is <m>24\degree\text{C}</m></p></li></ol></p></statement>
+    <li><p>Use your equation to predict the number of cups of cocoa that will be sold when the temperature is <m>9\degree\text{C}</m>, and when the temperature is <m>24\degree\text{C}.</m></p></li></ol></p></statement>
     
 <solution><p><ol label="a">
     <li><p>The scatterplot and a regression line are shown in the figure.</p>

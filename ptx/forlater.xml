@@ -954,6 +954,32 @@ Answer to Hmwk 3.3 #14:
     </image>
     </sidebyside>
 
-
+<example><statement><p>It cost a bicycle company $9000 to make 50 touring bikes in its first month of operation and $15,000 to make 125 bikes during its second month.<ol label="a">
+    <li><p>Find a linear equation for the company's monthly production cost, <m>C</m>, in terms of the number of bikes made, <m>x</m>.</p></li>
+    <li><p>State the slope and vertical intercept of your line, including units. What do they tell you about the problem?
+</p></li></ol></p></statement>
+    
+<solution><p><ol label="a">
+   <li><p>We first find two data points, <m>(x, C)</m>, from the information given.</p>
+        <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+                    <row>
+                        <cell><m>x</m></cell>
+                        <cell><m>C</m></cell></row>
+                    <row>
+                        <cell><m>50</m></cell>
+                        <cell><m>9000</m></cell></row>
+                    <row>
+                        <cell><m>125</m></cell>
+                        <cell><m>15,000</m></cell></row>
+            </tabular></sidebyside>
+        <p>Step 1:Compute the slope of the line.
+                    <md><mrow>m=\frac{C_2-C_1}{x_2-x_1}= \frac{15,000-9000}{125-5} = 80</mrow></md></p>
+        <p>Step 2: Apply the point-sope formula, using <m>(50,9000) </m> for <m>(x_1,y_1) </m>
+                    <md><mrow>C\amp=C_1 +m(x-x_1)</mrow>
+                        <mrow>\amp=9000 +80(x-50)</mrow>
+                        <mrow>\amp=9000 +80x-4000</mrow></md></p>
+                <p>The equation is <m>C=5000+80x</m></p></li>
+    <li><p>The slope is 80 dollars per bike, and it tells us the cost of producing each bike. The vertical intercept is 5000, and it tells us that the bicycle company's fixed costs (before production begins) are $5000.</p></li>
+</ol></p></solution></example>
 
     

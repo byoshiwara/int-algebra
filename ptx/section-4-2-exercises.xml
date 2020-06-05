@@ -32,7 +32,7 @@
                         <cell><m></m></cell></row>
                     </tabular></sidebyside></li>  
     <li>Graph the equation.
-        <sidebyside  width="42%"><image xml:id="fig-hw-4-2-1"><description>grid</description><latex-image>
+        <sidebyside  width="35%"><image xml:id="fig-hw-4-2-1"><description>grid</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }

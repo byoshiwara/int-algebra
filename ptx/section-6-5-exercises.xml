@@ -26,7 +26,7 @@
 
 <exercise number="3"><statement><p><ol label="a">
     <li><p>Complete the table of values and graph <m>y=\sqrt{x-4}</m>.</p>
-    <sidebyside widths="45% 55%" valigns="middle middle">
+    <sidebyside widths="45% 50%" valigns="middle middle">
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -90,12 +90,12 @@
         }
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside></li>
-    <li><m>13</m></li>
+    <li>13</li>
 </ol></p></answer></exercise>
 
 <exercise number="4"><statement><p><ol label="a">
     <li><p>Complete the table of values and graph <m>y=4-\sqrt{x+3}</m>.</p>
-    <p><sidebyside widths="45% 50%" valigns="middle middle">
+    <p><sidebyside widths="45% 45%" valigns="middle middle">
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -139,7 +139,7 @@
 
 <exercise number="5"><statement><p><ol label="a">
     <li><p>Complete the table of values and graph <m>y=4-\sqrt[3]{x}</m>.</p>
-    <sidebyside widths="45% 55%" valigns="middle middle">
+    <sidebyside widths="45% 45%" valigns="middle middle">
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -232,7 +232,7 @@
 
 <exercise number="6"><statement><p><ol label="a">
     <li><p>Complete the table of values and graph <m>y=3+\sqrt[3]{x-3}</m>.</p>
-    <sidebyside widths="45% 55%" valigns="middle middle">
+    <sidebyside widths="45% 45%" valigns="middle middle">
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>

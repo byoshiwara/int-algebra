@@ -75,10 +75,7 @@
     <md><mrow>y \amp = x^2</mrow>
         <mrow>y \amp = -2x^2</mrow>
         <mrow>y \amp = -0.5x^2</mrow></md></p>
-    <sidebyside width="50%">
-        <image xml:id="fig-parabolas-down">
-                <description>parabolas</description>
-                <latex-image>
+    <sidebyside width="40%"><image xml:id="fig-parabolas-down"><description>parabolas</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -211,7 +208,7 @@
      <md><mrow>y \amp = x^2</mrow>
         <mrow>y \amp = x^2+4</mrow>
         <mrow>y \amp = x^2-4</mrow></md></p>
-    <sidebyside width="55%">
+    <sidebyside width="45%">
         <image xml:id="fig-parabolas-vertical-shift"><description>vertically shifted parabolas</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -430,9 +427,9 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
 </webwork></exercise>
 </subsection>
 
-<subsection><title>A formula for the Vertex</title>
+<subsection><title>A Formula for the Vertex</title>
 
-<sidebyside widths="55% 40%"  valigns="middle middle"><p>We can find a formula for the vertex of any parabola of the form
+<sidebyside widths="55% 35%"  valigns="middle middle"><p>We can find a formula for the vertex of any parabola of the form
 	<me>y = ax^2 + bx</me>
 First, find the <m>x</m>-intercepts of the graph by setting <m>y</m> equal to zero and solving for <m>x</m>.</p>
 

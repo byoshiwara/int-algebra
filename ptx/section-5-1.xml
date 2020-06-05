@@ -146,35 +146,35 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             <cell>2004</cell>
             <cell>$904,000</cell></row>
         </tabular></sidebyside></li>
-        <li><p>The table below gives the cost of sending printed material by first-class mail in 2016. </p>
+        <li><p>The table below gives the cost of sending a letter by first-class mail in 2020. </p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell>Weight in ounces <m>(w)</m></cell>
             <cell>Postage <m>(P)</m></cell></row>
         <row>
             <cell><m>0 \lt w \le 1 </m></cell>
-            <cell>$0.47</cell></row>
+            <cell>$0.50</cell></row>
         <row> 
             <cell><m>1 \lt w \le 2 </m></cell>
-            <cell>$0.68</cell></row>
+            <cell>$0.65</cell></row>
         <row> 
             <cell><m>2 \lt w \le 3 </m></cell>
-            <cell>$0.89</cell></row>
+            <cell>$0.80</cell></row>
         <row> 
             <cell><m>3 \lt w \le 4 </m></cell>
-            <cell>$1.10</cell></row>
+            <cell>$0.95</cell></row>
         <row> 
             <cell><m>4 \lt w \le 5 </m></cell>
-            <cell>$1.31</cell></row>
+            <cell>$1.10</cell></row>
         <row> 
             <cell><m>5 \lt w \le 6 </m></cell>
-            <cell>$1.52</cell></row>
+            <cell>$1.25</cell></row>
         <row> 
             <cell><m>6 \lt w \le 7 </m></cell>
-            <cell>$1.73</cell></row>
+            <cell>$1.40</cell></row>
     </tabular></sidebyside>
 
-    <p>If we know the weight of the article being shipped, we can find the postage from the table. For instance, a catalog weighing 4.5 ounces would require $1.31 in postage. In this example, <m>w</m> is the input variable and <m>p</m> is the output variable. We say that <m>p</m> <em>is a function of</em> <m>w</m>.</p></li>
+    <p>If we know the weight of the article being mailed, we can find the postage from the table. For instance, a catalog weighing 4.5 ounces would require $1.10 in postage. In this example, <m>w</m> is the input variable and <m>p</m> is the output variable. We say that <m>p</m> <em>is a function of</em> <m>w</m>.</p></li>
 
     <li><p>The table below records the age and cholesterol count for 20 patients tested in a hospital survey.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -249,7 +249,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
     <p>According to these data, cholesterol count is <em>not</em> a function of age, because several patients who are the same age have different cholesterol levels. For example, three different patients are 51 years old but have cholesterol counts of 227, 209, and 216, respectively. Thus, we cannot determine a <em>unique</em> value of the output variable (cholesterol count) from the value of the input variable (age). Other factors besides age must influence a person’s cholesterol count.</p></li>
     </ol></p></statement></example>
 
-<note><p>Note that several differnt inputs for a function can have the same output.  For example, the inputs 4.5 and 4.25 in part (b) of the Example above have output $1.31. However, a single input cannot have more than one output, as illustrated in part (c) of the Example.</p></note>
+<note><p>Note that several differnt inputs for a function can have the same output.  For example, the inputs 4.5 and 4.25 in part (b) of the Example above have output $1.10. However, a single input cannot have more than one output, as illustrated in part (c) of the Example.</p></note>
 
 <exercise><title>Practice 2</title>
 <introduction><p>Decide whether each table describes <m>y</m> as a function of <m>x</m>. Explain your choice.</p></introduction>
@@ -547,8 +547,7 @@ We see that</p>
 </assemblage>
 
 <exercise><title>QuickCheck 4</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $True = PopUp(
           ["?","True", "False"],
           1, 
@@ -558,35 +557,22 @@ We see that</p>
           2, 
         );
     </pg-code>
-    <statement>
-        <p>
-            True or False.
-            <ol label="a">
-                <li><p>
-                    The notation <m>f(t)</m> indicates the product of  <m>f</m> and <m>t</m>. <var name="$False" form="popup"/>
-                </p></li>
-                <li><p>
-                    If <m>y=f(x)</m>, then <m>f(x)</m> gives the value of the input variable. <var name="$False" form="popup"/>
-                </p></li>
-                <li><p>
-                    If <m>Q</m> is a function of <m>M</m>, we may write <m>M=f(Q)</m>. <var name="$False" form="popup"/>
-                </p></li>
-                <li><p>
-                    In the equation <m>d=g(n)</m>, the letters <m>d</m>, <m>g</m>, and <m>n</m> are variables. <var name="$False" form="popup"/>
-                </p></li>
-            </ol>
-        </p>
+<statement><p>True or False.<ol label="a">
+    <li><p>The notation <m>f(t)</m> indicates the product of  <m>f</m> and <m>t</m>. <var name="$False" form="popup"/>
+            </p></li>
+    <li><p> If <m>y=f(x)</m>, then <m>f(x)</m> gives the value of the input variable. <var name="$False" form="popup"/>
+            </p></li>
+    <li><p>If <m>Q</m> is a function of <m>M</m>, we may write <m>M=f(Q)</m>. <var name="$False" form="popup"/>
+            </p></li>
+    <li><p>In the equation <m>d=g(n)</m>, the letters <m>d</m>, <m>g</m>, and <m>n</m> are variables. <var name="$False" form="popup"/></p></li></ol></p>
     </statement>
-    <solution>
-        <p><ol label="a">
+    <solution><p><ol label="a">
             <li>False</li>
             <li>False</li>
             <li>False</li>
-            <li>False</li>
-        </ol></p>
+            <li>False</li></ol></p>
     </solution>
-</webwork>    
-</exercise>
+</webwork>    </exercise>
 
 <exercise><title>Practice 5</title>
     <introduction><p>Let <m>F</m> be the name of the function defined by the graph in <xref ref="example-sun-hours" text="type-global"/>, the number of hours of daylight in Peoria <m>t</m> days after January 1.</p></introduction>
@@ -610,8 +596,7 @@ We see that</p>
             <li><p><m>H = F(t)</m></p></li>
             <li><p>The sun is above the horizon in Peoria for 9.7 hours on January 16.</p></li></ol></p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 5</title>
 <webwork><pg-code>       
@@ -644,25 +629,25 @@ We see that</p>
             <row>
                 <cell>when <m>w=1</m>,</cell>
                 <cell></cell>
-                <cell><m>p=0.47</m></cell>
+                <cell><m>p=0.50</m></cell>
                 <cell> so </cell>
-                <cell><m>g(1)=0.47</m></cell></row>
+                <cell><m>g(1)=0.50</m></cell></row>
             <row>
                 <cell>when <m>w=3</m>,</cell>
                 <cell></cell>
-                <cell><m>p=0.89</m></cell>
+                <cell><m>p=0.80</m></cell>
                 <cell> so </cell>
-                <cell><m>g(3)=0.89</m></cell></row>
+                <cell><m>g(3)=0.80</m></cell></row>
             <row>
                 <cell>when <m>w=6.75</m>,</cell>
                 <cell></cell>
-                <cell><m>p=1.73</m></cell>
+                <cell><m>p=1.40</m></cell>
                 <cell> so </cell>
-                <cell><m>g(6.75)=1.73</m></cell></row>
+                <cell><m>g(6.75)=1.40</m></cell></row>
      </tabular></sidebyside>
-     <p>Thus, a letter weighing 1 ounce costs $0.47 to mail, a letter weighing 3 ounces costs $0.89, and a letter weighing 6.75 ounces costs $1.73.</p></solution></example>
+     <p>Thus, a letter weighing 1 ounce costs $0.50 to mail, a letter weighing 3 ounces costs $0.80, and a letter weighing 6.75 ounces costs $1.40.</p></solution></example>
 
-<p>We can also find the input (or inputs) corresponding to a given output. For example, if <m>p=g(w)</m> is the postage function, we solve the equation <m>g(w)=0.68</m> by finding all input values, <m>w</m>, that correspond to the output $0.68. According to the table in Example 2b, any value of <m>w</m> greater than 1 but less than or equal to 2 is a solution.</p>
+<p>We can also find the input (or inputs) corresponding to a given output. For example, if <m>p=g(w)</m> is the postage function, we solve the equation <m>g(w)=0.65</m> by finding all input values, <m>w</m>, that correspond to the output $0.65. According to the table in Example 2b, any value of <m>w</m> greater than 1 but less than or equal to 2 is a solution.</p>
 
 <exercise><title>Practice 6</title>
     <webwork><pg-code>
@@ -710,8 +695,7 @@ We see that</p>
             <li><p><m> f (25) = 146 </m>,  <m> f(50) = 127 </m></p></li>
             <li><p><m> a = 40 </m></p></li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 6</title>
 <webwork><pg-code>       
@@ -732,10 +716,10 @@ We see that</p>
     </solution>
 </webwork></exercise>
 
-<p>If a function is described by an equation, we simply substitute the given input value into the equation to find the corresponding output, or function value.</p>
+<p>To evaluate a function described by an equation, we simply substitute the given input value into the equation to find the corresponding output, or function value.</p>
 
 <example xml:id="example-evaluate-function"><statement>
-    <p>The function <m>H</m> is defined by <m>H=f(s) = \dfrac{\sqrt{s+3}}{s}</m>. Evaluate the function at the following values.<ol label = "a">
+    <p>The function <m>H</m> is defined by <m>~H=f(s) = \dfrac{\sqrt{s+3}}{s}.~~</m> Evaluate the function at the following values.<ol label = "a" cols="2">
         <li><p><m>s=6</m></p></li>
         <li><p><m>s=-1</m></p></li></ol></p>
     </statement>

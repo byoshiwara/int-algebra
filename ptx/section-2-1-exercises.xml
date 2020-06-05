@@ -193,7 +193,7 @@
     <image source="images/fig-manatee-deaths"><description>scatterplot with regression line</description></image></sidebyside>
 <p>An equation for the regression line is  <m>y=4.7+2.6t</m></p><ol label="a">
     <li>Use the regression equation to estimate the number of manatees killed by watercraft in 1998.</li>
-    <li>What does the slope of the regression lilne mean in this situation?</li>
+    <li>What does the slope of the regression line mean in this situation?</li>
     <li>Which data point might be considered an outlier?</li></ol></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>In Problems 7 and 8, the regression lines can be improved by adjusting either <m>m</m> or <m>b</m>. Draw a line that fits the data points more closely.</p></introduction>
@@ -232,31 +232,31 @@
         <sidebyside width="40%"><image source="images/fig-age-vs-100m-time"><description>scatterplot</description></image></sidebyside>
         <p><ol label="a">
             <li><p>What was the hundred-meter time for the 25-year-old drill sergeant?</p></li>
-            <li><p>How old was the drill sergeant whose hundred-meter time was <m>12.6</m> seconds?</p></li>
+            <li><p>How old was the drill sergeant whose hundred-meter time was 12.6 seconds?</p></li>
             <li><p>Use a straightedge to draw a line of best fit through the data points.</p></li>
-            <li><p>Use your line of best fit to predict the hundred-meter time of a <m>28</m>-year-old drill sergeant.</p></li>
+            <li><p>Use your line of best fit to predict the hundred-meter time of a 28-year-old drill sergeant.</p></li>
             <li><p>Choose two points on your regression line and find its equation.</p></li>
             <li><p>Use the equation to predict the hundred-meter time of a 40-year-old drill sergeant and a 12 year-old drill sergeant. Are these predictions reasonable?</p></li>
             </ol></p></statement>
 <answer><p><ol label="a">
-                <li><p><m>12</m> seconds</p></li>
-                <li><p><m>39</m></p></li>
+                <li><p>12 seconds</p></li>
+                <li><p>39</p></li>
                 <li><sidebyside width="40%" margins="0% 60%"><image source="images/fig-ans-1-6-11"><description>scatterplot with regression line</description></image></sidebyside></li>
-                <li><p><m>11.6</m> seconds</p></li>
+                <li><p>11.6 seconds</p></li>
                 <li><p><m>y = 8.5 + 0.1x</m></p></li>
-                <li><p><m>12.7</m> seconds; <m>10.18</m> seconds; The prediction for the 40-year-old is reasonable, but not the prediction for the 12-year-old.</p></li>
+                <li><p>12.7 seconds; 10.18 seconds; The prediction for the 40-year-old is reasonable, but not the prediction for the 12-year-old.</p></li>
             </ol></p></answer></exercise>
 
 <exercise number="14"><statement><p>The scatterplot shows the weights in pounds and the heights in inches of a team of distance runners.</p>
     <sidebyside width="35%"><image source="images/fig-scatterplot-runner-wt-vs-ht"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Use a straightedge to draw a line that fits the data.</li>
-    <li>Use your line to predivt the weight of a 65-inch tall runner and the weight of a 71-inch tall runner.</li>
+    <li>Use your line to predict the weight of a 65-inch tall runner and the weight of a 71-inch tall runner.</li>
     <li>Use your answers from part (b) to approximate the equation of your regression line.</li>
     <li>Use your answer from part(c) to predict the weight of a runner who is 68 inches tall.</li></ol></p>
 </statement></exercise>
 
-<exercise number="15"><statement><p>The scatterplot shows the best tiems for variou women running the 400 meters and the 100 meters.</p>
+<exercise number="15"><statement><p>The scatterplot shows the best times for various women running the 400 meters and the 100 meters.</p>
     <sidebyside width="40%"><image source="images/fig-time-400m-vs-100m"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Use a straightedge to draw a line that fits the data.</li>
@@ -388,7 +388,7 @@
                     <cell><m>6.2</m></cell></row>
             </tabular></sidebyside>
     <p><ol label="a">
-        <li><p>Let <m>t</m> represent the number of years after 1950 and plot the data. Scale the <m>t</m>-axis from 0 to 50 by 5's, and the <m>C</m> axis from 0 to 7 by 0.5's. </p></li>
+        <li><p>Let <m>t</m> represent the number of years after 1950 and plot the data. Scale the <m>t</m>-axis from 0 to 50 by 5's, and the <m>C</m>-axis from 0 to 7 by 0.5's. </p></li>
         <li><p>Draw a line of best fit for the data points.</p></li>
         <li><p>Find an equation for your regression line.</p></li>
         <li><p>Estimate the amount of carbon released in 1992.</p></li></ol></p></statement>
@@ -400,7 +400,7 @@
         </answer> -->
 </exercise>
 
-<exercise number="19"><statement><p>Male birds with the largest repertoire of songs are the first to acquire mates in the spring. The table shows the number of different songs sung by severalsedge warblers, and the days on which they acquired their mates, where day 1 is April 20. (Source: Krebs and Davies, 1993)</p>
+<exercise number="19"><statement><p>Male birds with the largest repertoire of songs are the first to acquire mates in the spring. The table shows the number of different songs sung by several sedge warblers, and the days on which they acquired their mates, where day 1 is April 20. (Source: Krebs and Davies, 1993)</p>
         <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <col halign="left"/>
         <col halign="center"/>
@@ -441,7 +441,9 @@
             </tabular></sidebyside>
     <p><ol label="a">
         <li><p>Plot the data points on graph paper, scale the <m>x</m>-axis from 0 to 65 by 5’s, and the <m>y</m>-axis from 0 to 60 by 5’s.</p></li>
-        <li><p>The least-squares regression line is <m>y = -0.85x + 53</m>. Graph this line on the same grid with the data. (Make a short table of values and plot the points.)</p></li>
+        <li><p>The least-squares regression line is 
+            <me>y = -0.85x + 53</me> 
+        Graph this line on the same grid with the data. (Make a short table of values and plot the points.)</p></li>
         <li><p>What does the slope of the regression line tell us about sedge warblers?</p></li>
         <li><p>Use extrapolation to estimate when a sedge warbler that knows 10 songs can expect to find a mate.</p></li>
         <li><p>What do the intercepts of the regression line represent? Do these values make sense for this situation?
@@ -477,10 +479,10 @@
     <li><p>The graph is above.</p></li>
     <li><p>The slope tells us that the time it takes for a bird to attract a mate decreases by 0.85 days for every additional song it learns.</p></li>
     <li><p>44.5 days</p></li>
-    <li><p>The <m>C</m>-intercept tells us that a warbler with a repretoire of 53  songs wouold acquire a mate immediately. The <m>B</m>-intercept tells  us that a warbler with no songs would take 62 days to find a mate. These values make sense in context.</p></li>
+    <li><p>The <m>C</m>-intercept tells us that a warbler with a repretoire of 53 songs would acquire a mate immediately. The <m>B</m>-intercept tells us that a warbler with no songs would take 62 days to find a mate. These values make sense in context.</p></li>
     </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p>One measure of a person's physical fitness is the body mass index, or BMI. Your body mass index is the ratio of your weight in kilograms to the square ofyour height in meters. The points on the scatterplot show the BMI of Miss America from 1921 to 1991.</p>
+<exercise number="20"><statement><p>One measure of a person's physical fitness is the body mass index, or BMI. Your body mass index is the ratio of your weight in kilograms to the square of your height in meters. The points on the scatterplot show the BMI of Miss America from 1921 to 1991.</p>
     <sidebyside width="80%"><image source="images/fig-BMI"><description>Miss America BMI</description></image>
     </sidebyside><p><ol label="a">
     <li><p>Use a straightedge to draw a line of best fit on the scatterplot above.</p></li>

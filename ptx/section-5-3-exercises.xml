@@ -100,7 +100,7 @@
 <exercisegroup cols="2"><introduction><p> For Problems 11<ndash/>16, sketch the graph of the function by hand, paying attention to the shape of the graph. Carefully plot at least three “guide points” to ensure accuracy. If possible, plot the points with x-coordinates <m>-1, ~0,</m> and <m>1</m>.</p></introduction>
 
 <exercise number="11"><statement><m>f(x)=x^3</m>
-    <sidebyside width="80%">
+    <sidebyside width="70%">
         <image xml:id="fig-x-cubed-grid">
         <description>grid</description>
         <latex-image>
@@ -152,7 +152,7 @@
 </answer></exercise>
 
 <exercise number="12"><statement><m>f(x)=\abs{x}</m>
-    <sidebyside width="80%">
+    <sidebyside width="70%">
         <image xml:id="fig-abs-x-grid">
         <description>grid</description>
         <latex-image>
@@ -177,7 +177,7 @@
 
 <exercise number="13"><statement>
     <p><m>f(x)=\sqrt{x}</m></p>
-    <sidebyside width="90%">
+    <sidebyside width="80%">
         <image xml:id="fig-sqrt-x-grid">
         <description>grid</description>
         <latex-image>
@@ -253,7 +253,7 @@
 
 <exercise number="15"><statement>
     <p><m>f(x)=\dfrac{1}{x}</m></p>
-    <sidebyside width="80%">
+    <sidebyside width="70%">
         <image xml:id="fig-reciprocal-x-grid">
         <description>grid</description>
         <latex-image>
@@ -301,7 +301,7 @@
 
 <exercise number="16"><statement>
     <p><m>f(x)=\dfrac{1}{x^2}</m></p>
-    <sidebyside width="80%"><image source="images/fig-reciprocal-x-grid"><description>graph</description></image></sidebyside>
+    <sidebyside width="70%"><image source="images/fig-reciprocal-x-grid"><description>graph</description></image></sidebyside>
 </statement></exercise>
 </exercisegroup>
 
@@ -411,7 +411,7 @@
 </exercisegroup>
 
 <exercise number="27"><statement><p>Match each graph with its equation.</p>
-    <sidebyside widths="30% 27% 27%" margins="0% 0%" valigns="middle middle middle"><image xml:id="fig-hw-5-3-21a">
+    <sidebyside widths="22% 20% 20%" margins="15% 15%" valigns="middle middle middle"><image xml:id="fig-hw-5-3-21a">
             <description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -468,7 +468,7 @@
             \end{tikzpicture}]]>
             </latex-image></image>
     </sidebyside>
-    <sidebyside widths="25% 27% 27%" margins="0% 0%" valigns="middle middle middle">
+    <sidebyside widths="20% 20% 20%" margins="15% 15%" valigns="middle middle middle">
         <image xml:id="fig-hw-5-3-21d"><description>square root</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -542,7 +542,7 @@
     <li>iii</li></ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>Match each graph with its equation.</p>
-    <sidebyside widths="28% 22% 28%" margins="0% 0%" valigns="middle middle middle">
+    <sidebyside widths="22% 16% 20%" margins="15% 15%" valigns="middle middle middle">
         <image xml:id="fig-hw-5-3-22a"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -600,7 +600,7 @@
             \end{tikzpicture}]]>
             </latex-image></image>
     </sidebyside>
-    <sidebyside widths="25% 25% 26%" margins="0% 0%" valigns="middle middle middle">
+    <sidebyside widths="20% 20% 20%" margins="15% 15%" valigns="middle middle middle">
         <image xml:id="fig-hw-5-3-22d"><description>square root</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -669,7 +669,7 @@
 <exercisegroup><introduction><p>For Problems 29 and 30, each graph is a variation of one of the eight basic graphs.  Identify the basic graph for each.</p></introduction>
 
 <exercise number="29"><statement><p><ol label="a" cols="2">
-    <li><sidebyside width="100%"><image xml:id="fig-translated-sqrt">
+    <li><sidebyside width="80%"><image xml:id="fig-translated-sqrt">
         <description>translated square root</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -684,7 +684,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-translated-cube-rt">
+    <li><sidebyside width="80%"><image xml:id="fig-translated-cube-rt">
         <description>translated square root</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -699,7 +699,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-translated-abs">
+    <li><sidebyside width="80%"><image xml:id="fig-translated-abs">
         <description>translated absolute value</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -714,7 +714,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-reflected-reciprocal">
+    <li><sidebyside width="80%"><image xml:id="fig-reflected-reciprocal">
         <description>reflected reciprocal</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -730,7 +730,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-transformed-cubic">
+    <li><sidebyside width="80%"><image xml:id="fig-transformed-cubic">
         <description>transformed cubic</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -745,7 +745,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-transformed-inv-sq">
+    <li><sidebyside width="80%"><image xml:id="fig-transformed-inv-sq">
         <description>transformed inverse-square</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -765,7 +765,7 @@
 <answer></answer></exercise>
 
 <exercise number="30"><statement><p><ol label="a" cols="2">
-    <li><sidebyside width="100%"><image xml:id="fig-transformed-cube-rt">
+    <li><sidebyside width="80%"><image xml:id="fig-transformed-cube-rt">
         <description>transformed cube root</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -780,7 +780,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-transformed-abs">
+    <li><sidebyside width="80%"><image xml:id="fig-transformed-abs">
         <description>transformed absolute value</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -795,7 +795,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-transformed-reciprocal">
+    <li><sidebyside width="80%"><image xml:id="fig-transformed-reciprocal">
         <description>transformed reciprocal</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -812,7 +812,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-transformed-sqrt">
+    <li><sidebyside width="80%"><image xml:id="fig-transformed-sqrt">
         <description>transformed square root</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -827,7 +827,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-transfd-inv-sq">
+    <li><sidebyside width="80%"><image xml:id="fig-transfd-inv-sq">
         <description>transformed inverse-square</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -843,7 +843,7 @@
         </latex-image>
         </image>
     </sidebyside></li>
-    <li><sidebyside width="100%"><image xml:id="fig-transformed-cube">
+    <li><sidebyside width="80%"><image xml:id="fig-transformed-cube">
         <description>transformed inverse-cube</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -864,7 +864,7 @@
 <exercisegroup><introduction><p>For Problems 31 and 32, use the graph to estimate the solutions to the inequalities.</p></introduction>
 
 <exercise number="31"><statement><p>The figure shows a graph of <m>g(x) = \dfrac{4}{x+2}</m>.</p> 
-    <sidebyside width="40%"><image xml:id="fig-y-eq-4-over-x-plus-2">
+    <sidebyside width="30%"><image xml:id="fig-y-eq-4-over-x-plus-2">
         <description>translated reciprocal</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -896,7 +896,7 @@
     <li><m>x \gt \dfrac{-2}{3}</m></li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>The figure shows a graph of <m>H(z) = 4\sqrt[3]{z-4}+6</m>.</p> 
-    <sidebyside width="40%"><image xml:id="ffig-4cube-rt-z-minus4-plus6">
+    <sidebyside width="35%"><image xml:id="ffig-4cube-rt-z-minus4-plus6">
         <description>translated reciprocal</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

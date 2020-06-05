@@ -425,7 +425,7 @@ at most one point.</p></assemblage>
 
 <exercise xml:id="exercise-graph-to-solve-quadratic"><title>Practice 5</title>
     <introduction>
-        <sidebyside width="35%"><image source="images/fig-graph-to-solve-quadratic"><description>graph of parabola</description></image></sidebyside>
+        <sidebyside width="30%"><image source="images/fig-graph-to-solve-quadratic"><description>graph of parabola</description></image></sidebyside>
     </introduction>
     <webwork><pg-code>
             $answer=List("-8,4");
@@ -479,7 +479,7 @@ at most one point.</p></assemblage>
 
 <exercise><title>Practice 6</title>
     <introduction>
-        <sidebyside width="35%"><image source="images/fig-graph-to-solve-quadratic"><description>graph of cubic</description></image></sidebyside>
+        <sidebyside width="30%"><image source="images/fig-graph-to-solve-quadratic"><description>graph of cubic</description></image></sidebyside>
     </introduction>
     <webwork><pg-code>
             Context("Inequalities")->variables->add(n=>"Real");

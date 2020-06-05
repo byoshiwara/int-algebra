@@ -247,7 +247,7 @@
 
 <exercise number="19"><statement><p>According to the theory of relativity, the mass of an object traveling at velocity <m>v</m> is given by the function
     <me>m=\dfrac{M}{\sqrt{1-\dfrac{v^2}{c^2}}} </me>
-where <m>M</m> is the mass of the object at rest and <m>c</m> is the speed of light. Find the mass of a man traveling at a velocity of <m>0.7c</m> if his rest mass is <m>80</m> kilograms.</p></statement>
+where <m>M</m> is the mass of the object at rest and <m>c</m> is the speed of light. Find the mass of a man traveling at a velocity of <m>0.7c</m> if his rest mass is 80 kilograms.</p></statement>
 <answer><p>112 kg</p></answer>
 </exercise>
 
