@@ -84,12 +84,33 @@
                     </tabular></sidebyside></li>
     <li><p>Write an equation for the height, <m>h</m>, of the seedlings in terms of the number of days, <m>t</m>, since they were planted.</p></li>
     <li><p>Graph the equation on the grid. Label the axes with the correct variables.</p>
-         <p>To answer questions (d) and (e), read the graph. Show your work on the graph:
-                <sidebyside width="30%"><image source="images/fig-hw-1-1-11"><description>grid</description></image></sidebyside></p></li>
-     <li><p>How tall is the corn after 3 weeks?</p></li>
-     <li><p> When will the corn grow to 6 feet tall? (How many inches is 6 feet?)</p></li>
-      <li><p>Use algebra to find the answers for parts (d) and (e) above.</p></li>
-      <li><p>Frank also sets out some tomato plants. The height of the plants ininches after <m>t</m> days is:
+         <p>To answer questions (d) and (e), read the graph. Show your work on the graph:</p>
+        <sidebyside width="30%"><image xml:id="fig-seedling-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (0,0) grid (8,20);
+        \draw[black,thick,->,>=stealth'] (0,0)--(8.6,0);
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,20.6);
+
+        \foreach \x [evaluate=\x as \xi using int( 5* \x )]  in {0,2,...,8} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\xi};
+        }
+
+        \foreach \x [evaluate=\x as \xi using int( 4* \x )]  in {3,6,...,18} {
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\xi};
+        }
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
+    <li><p>How tall is the corn after 3 weeks?</p></li>
+    <li><p> When will the corn grow to 6 feet tall? (How many inches is 6 feet?)</p></li>
+    <li><p>Use algebra to find the answers for parts (d) and (e) above.</p></li>
+    <li><p>Frank also sets out some tomato plants. The height of the plants ininches after <m>t</m> days is:
                     <md><mrow>h = 14 + 1.5t</mrow></md>
            What do the constants in this equation tell us about the tomato plants?</p></li>
 </ol></p></statement>
@@ -111,7 +132,33 @@
                             <cell>46</cell></row>
                     </tabular></sidebyside></li>
         <li><p><m>h=6+2t</m></p></li>
-        <li><sidebyside width="36%" margins="0% 60%"><image source="images/fig-hw-1-1-11-ans"><description>graph of corn height</description></image></sidebyside></li>
+        <li><sidebyside width="30%" margins="0% 60%"><image xml:id="fig-seedling">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (0,0) grid (8,20);
+        \draw[black,thick,->,>=stealth'] (0,0)--(8.8,0) node[above, xshift=-5]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,20.8) node[left, yshift=-5]{$h$};
+        \foreach \x [evaluate=\x as \xi using int( 5* \x )]  in {0,2,...,8} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\xi};
+        }
+        \foreach \x [evaluate=\x as \xi using int( 4* \x )]  in {3,6,...,18} {
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\xi};
+        }
+        \draw[red,thick](0,1.5)--(37/5,20);
+        \draw[green!80!black, ultra thick,  dashed, ->, >=stealth'] (0,18)--(33/5,18);
+        \draw[green!80!black, ultra thick,  dashed, ->, >=stealth'] (33/5,18) -- (33/5,0);
+        \node[text=green!80!black,fill=white, inner sep=1] at (7.2,2) {(e)};
+        \draw[blue, very thick,  dashed, ->, >=stealth'] (21/5,0)--(21/5,12);
+        \draw[blue, very thick,  dashed, ->, >=stealth'] (21/5,12) -- (0,12);
+        \node[blue,,fill=white, inner sep=1] at (1.2,12.5) {(d)};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
         <li><p>48 in</p></li>
          <li><p>33 days</p></li>
         <li><p><m>h=6+2(21)</m>; <m>72=6+2t</m></p></li>

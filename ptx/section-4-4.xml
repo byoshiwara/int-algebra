@@ -114,15 +114,45 @@ on the same screen. Use <c>WINDOW</c> settings to match the graph in <xref ref="
     
 <example xml:id="example-quadratic-inequality"><statement><p>Use a graph to solve <m>x^2 - 2x - 3 \ge 12</m></p></statement>
 
-<solution><p>We first write the inequality with zero on one side: 
+<solution>
+    <p>We first write the inequality with zero on one side: 
     <me>x^2 - 2x - 15 \ge 0</me>. 
-We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have <m>y</m>-coordinates greater than or equal to zero. A graph of the equation is shown below.</p>
+    We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have <m>y</m>-coordinates greater than or equal to zero. A graph of the equation is shown below.</p>
     <sidebyside widths="60% 35%" valigns="middle middle" margins="0%">
-<p>You can check that the <m>x</m>-intercepts of the graph are <m>-3</m> and <m>5</m>. The points shown in blue on the graph lie above the <m>x</m>-axis and have <m>y \ge 0</m>, so the <m>x</m>-coordinates of these points are the solutions of the inequality.</p>  
-    <image source="images/fig-quadratic-inequality"><description>parabola dividing the x-axis into three regions</description></image></sidebyside>
-<p>Note that the solutions lie in two intervals, less than <m>-3</m> or greater than <m>5</m>. Thus, the solution is <m>x \le -3</m> or <m>x \ge 5</m>.</p></solution></example>
+        <p>You can check that the <m>x</m>-intercepts of the graph are <m>-3</m> and <m>5</m>. The points shown in blue on the graph lie above the <m>x</m>-axis and have <m>y \ge 0</m>, so the <m>x</m>-coordinates of these points are the solutions of the inequality.</p>  
+        <image xml:id="fig-quadratic-inequality">
+            <description>parabola dividing the x-axis into three regions</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.32]
+            \draw[lightgray] (-7,-9) grid (9,8);
+            \draw[black,thick, ->, >=stealth'] (-7,0)--(9.9,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-9)--(0,8.8) node[above]{$y$};
+            \foreach \x in  {-5,4,8} {
+             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-8,-4,4,8} {
+             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+            }
+            \draw[samples=65,domain={-sqrt(32)+1:1+sqrt(32)},smooth,variable=\x,red,thick, <->, >=stealth'] plot ({\x},{((\x)^2-  2*\x-15)/2) });
+            \draw[samples=65,domain={-sqrt(32)+1:-3},smooth,variable=\x,blue,ultra thick, <-, >=stealth'] plot ({\x},{((\x)^2-  2*\x-15)/2) });
+            \draw[samples=65,domain={5:sqrt(32)+1},smooth,variable=\x,blue,ultra thick, ->, >=stealth'] plot ({\x},{((\x)^2-  2*\x-15)/2) });
+            \filldraw[blue] (-3,0) circle (.25);
+            \filldraw[blue] (5,0) circle (.25);
+            \draw[blue, ultra thick, ->, >=stealth'] (-3,0) -- (-7,0);
+            \draw[blue, ultra thick, ->, >=stealth'] (5,0) -- (9,0);
+            \end{tikzpicture}]]>
+            </latex-image>
+        </image>
+    </sidebyside>
+    <p>
+        Note that the solutions lie in two intervals, less than <m>-3</m> or greater than <m>5</m>. Thus, the solution is <m>x \le -3</m> or <m>x \ge 5</m>.
+    </p>
+</solution></example>
 
-<warning><p>In Example 2, the solution of the inequality <m>~x^2 - 2x - 15 \ge 0~</m> is the set of values
+<warning><p>In <xref ref="example-quadratic-inequality" text="type-global"/> above, the solution of the inequality <m>~x^2 - 2x - 15 \ge 0~</m> is the set of values
     <me>x \le -3~~ \text{or}  ~~x \ge 5</me>
 This set is another type of compound inequality, and its graph consists of two pieces. Therefore, we cannot write the solution as a single inequality. For instance, it would be <em>incorrect</em> to describe the solution set as <m>~-3 \ge x \ge 5~</m>, because this notation implies that <m>-3 \ge 5</m>.  We must write the solution as two parts: <m>x \le -3</m> or <m>x \ge 5</m>.</p></warning>
 
@@ -179,7 +209,7 @@ This set is another type of compound inequality, and its graph consists of two p
 
 <subsection><title>Interval Notation</title>
 
-<p>The solution set in Example 1, namely <m>4.26 \lt t \lt 11.74</m>, is called an interval.  An <term>interval</term> is a set that consists of all the real numbers between two numbers <m>a</m> and <m>b</m>. An interval may include one or both of its endpoints.</p>
+<p>The solution set in <xref ref="example-fireworks" text="type-global"/>, namely <m>4.26 \lt t \lt 11.74</m>, is called an interval.  An <term>interval</term> is a set that consists of all the real numbers between two numbers <m>a</m> and <m>b</m>. An interval may include one or both of its endpoints.</p>
 
 <assemblage><title>Interval Notation</title>
 <p><ol label="1">
@@ -187,9 +217,9 @@ This set is another type of compound inequality, and its graph consists of two p
     <li>The <term>open interval</term> <m>(a,b)</m> is the set <m>a \lt x \lt b</m>.</li>
     <li>Intervals may also be <term>half-open</term> or <term>half-closed</term>.</li>
     <li>The <term>infinite interval</term> <m>[a,\infty)</m> is the set <m>x \ge a</m>.</li>
-    <li>The <term>infinite interval</term> <m>9-\infty,a]</m> is the set <m>x \le a</m>.</li></ol></p></assemblage>
+    <li>The <term>infinite interval</term> <m>(-\infty,a]</m> is the set <m>x \le a</m>.</li></ol></p></assemblage>
 
-<p>The symbol <m>\infty</m>, infinity, does not represent a specific real number; it indicates that the interval continues forever along the real line. A set consisting of two or more intervals is called the <term>union</term> of the intervals. For example, the solution to Example 2 is denoted in interval notation by <m>(-\infty,-3)\cup (5, \infty)</m>.</p>
+<p>The symbol <m>\infty</m>, infinity, does not represent a specific real number; it indicates that the interval continues forever along the real line. A set consisting of two or more intervals is called the <term>union</term> of the intervals. For example, the solution to <xref ref="example-quadratic-inequality" text="type-global"/> is denoted in interval notation by <m>(-\infty,-3)\cup (5, \infty)</m>.</p>
 <p>Many solutions of inequalities are intervals or unions of intervals.</p>
 
 <example><statement><p>Write the solution sets with interval notation, and graph the solution set on a number line.  
@@ -288,9 +318,9 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
     <li><p>We subtract <m>20</m> from both sides of the inequality so that we have <m>0</m> on the right side.
                 <me>16 + 6x - x^2\le 0</me></p></li>
     <li><p>Consider the equation <m>y = 16 + 6x - x^2</m>. To locate the <m>x</m>-intercepts, we set <m>y = 0</m> and solve for <m>x</m>.
-        <md><mrow>16 + 6x - x^2 \amp= 0 \amp\amp \glert{\text{Multiply each term by }-1.}</mrow>
-            <mrow>x^2 - 6x - 16 \amp = 0 \amp\amp \glert{\text{Factor the left side.}}</mrow>
-            <mrow>(x - 8)(x + 2)\amp= 0\amp\amp \glert{\text{Apply the zero-factor principle.}}</mrow>
+        <md><mrow>16 + 6x - x^2 \amp= 0 \amp\amp \blert{\text{Multiply each term by }-1.}</mrow>
+            <mrow>x^2 - 6x - 16 \amp = 0 \amp\amp \blert{\text{Factor the left side.}}</mrow>
+            <mrow>(x - 8)(x + 2)\amp= 0\amp\amp \blert{\text{Apply the zero-factor principle.}}</mrow>
             <mrow>x - 8 = 0 ~~~\text{ or }~~~x + 2 \amp= 0</mrow>
             <mrow>x = 8  ~~~\text{ or }~~~ x \amp= -2</mrow></md>
     The <m>x</m>-intercepts are <m>x = -2</m> and <m>x = 8</m>.</p></li>

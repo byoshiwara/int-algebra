@@ -64,8 +64,8 @@
 <example xml:id="example-use-log-property"><statement><p>Write <m>~~\log_{b}\sqrt{{xy}}</m> as an expression in simpler logs.</p></statement>
 
 <solution><p>First, we write <m>\sqrt{xy}</m> using a fractional exponent:
-	<md><mrow>\log_{b}{xy} \amp = \log_{b}{(xy)^{1/2}} \amp \amp \glert{\text{Apply Property 3.}}</mrow>
-		<mrow> \amp = \frac{1}{2}\log_{b}{(xy)} \amp \amp \glert{\text{Apply Property 1 to the product}~xy.}</mrow>
+	<md><mrow>\log_{b}{xy} \amp = \log_{b}{(xy)^{1/2}} \amp \amp \blert{\text{Apply Property 3.}}</mrow>
+		<mrow> \amp = \frac{1}{2}\log_{b}{(xy)} \amp \amp \blert{\text{Apply Property 1 to the product}~xy.}</mrow>
 		<mrow> \amp = \frac{1}{2}(\log_{b}{x} + \log_{b}{y})</mrow></md>
 Thus, <m>~~\log_{b}\sqrt{xy} = \dfrac{1}{2}(\log_{b}{x} + \log_{b}{y})</m>.</p></solution></example>
 
@@ -88,7 +88,7 @@ Thus, <m>~~\log_{b}\sqrt{xy} = \dfrac{1}{2}(\log_{b}{x} + \log_{b}{y})</m>.</p><
 <example xml:id="example-rewrite-as-single-log"><statement><p>Express <m>~~3(\log_b x - \log_b y)</m> as a single logarithm with a coefficient of <m>1</m>.</p></statement>
 
 <solution><p>We begin by applying Property (2) to combine the logs.
-	<md><mrow>3(\log_b x - \log_b y) \amp = 3 \log_{b}\left(\dfrac{x}{y}\right) \amp \amp \glert{\text{Apply Property 3.}}</mrow>
+	<md><mrow>3(\log_b x - \log_b y) \amp = 3 \log_{b}\left(\dfrac{x}{y}\right) \amp \amp \blert{\text{Apply Property 3.}}</mrow>
 	 	<mrow>\amp =\log_{b}\left(\dfrac{x}{y}\right)^3</mrow></md>
 Thus, <m>3(\log_b x - \log_b y) = \log_{b}\left(\dfrac{x}{y}\right)^3</m>.</p></solution></example>
 
@@ -175,7 +175,7 @@ We cannot simplify <m>~\dfrac{\log_{10}{7}}{\log_{10}{5}}~</m>; we must evaluate
 <solution><p>First we divide both sides by <m>80</m> to isolate the power.
 	<me>20.5 = 6^{0.03x}</me>
 Next, we take the base <m>10</m> logarithm of both sides of the equation and use Property (3) to get
-	<md><mrow>\log_{10}{20.5} \amp = \log_{10}{6^{0.03x}} \amp \amp \glert{\text{Apply Property 3.}}</mrow>
+	<md><mrow>\log_{10}{20.5} \amp = \log_{10}{6^{0.03x}} \amp \amp \blert{\text{Apply Property 3.}}</mrow>
 		<mrow> \amp = 0.03x \log_{10}{6}</mrow></md>
 On the right side of the equation, <m>x</m> is multiplied by two constants, <m>0.03</m> and <m>\log_{10}{6}</m>. So, to solve for <m>x</m> we must divide both sides of the equation by <m>0.03 \log_{10}{6}</m>. We use a calculator to evaluate the answer:
 	<me>x = \frac{\log_{10}{20.5}}{0.03 \log_{10}{6}}\approx 56.19</me>
@@ -215,9 +215,9 @@ To isolate the power, we divide both sides by 6500 to get
 	<me>3^{t/12} = \dfrac{150}{13}</me> 
 Now we can take the base 10 logarithm of both sides and solve for <m>t</m>.
 	<md><mrow>\log_{10}{(3^{t/12})} \amp = \log_{10}\left(\frac{150}{13}\right)
-	\amp\amp \glert{\text{Apply Property (3).}}</mrow>
+	\amp\amp \blert{\text{Apply Property (3).}}</mrow>
 	<mrow>\frac{t}{12}\log_{10}{3} \amp= \log_{10}\left(\frac{150}{13}\right)
-	\amp\amp \glert{\text{Divide by }\log_{10}{3}\text{; multiply by 12.}}</mrow>
+	\amp\amp \blert{\text{Divide by }\log_{10}{3}\text{; multiply by 12.}}</mrow>
 	<mrow>t \amp = \frac{12 \left(\log_{10}{\frac{150}{13}}\right)}{\log_{10}{3}}</mrow></md>
 We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The population of Silicon City will reach 75,000 about 27 years after 1990, or in 2017.</p></solution></example>
 
@@ -316,7 +316,7 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
 <solution><p>First, we divide both sides by <m>C</m> to isolate the power.
 		<me>b^{kt} = \dfrac{P}{C}</me>
 Then we write the exponential equation in logarithmic form:
-		<md><mrow> kt \amp = \log_b {\dfrac{P}{C}} \amp\amp \glert{\text{Divide both sides by}~k.}</mrow>
+		<md><mrow> kt \amp = \log_b {\dfrac{P}{C}} \amp\amp \blert{\text{Divide both sides by}~k.}</mrow>
 			<mrow>t  \amp = \dfrac{1}{k}\log_b {\dfrac{P}{C}}</mrow></md></p></solution></example>
 
 <exercise> <title>Practice 6</title>

@@ -128,7 +128,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
     </ol></p></statement>
 <solution><p><ol label="a">
     <li>Because <m>I</m> varies inversely with <m>R</m>, we know that <m>I=\dfrac{k}{R}</m>. To find the constant <m>k</m>, we substitute <m>\alert{10}</m> for <m>I</m> and <m>\alert{12}</m> for <m>R</m>.
-            <md><mrow>\alert{10} \amp =\dfrac{k}{\alert{12}} \amp \amp \glert{\text{Solve for}~k.}</mrow>
+            <md><mrow>\alert{10} \amp =\dfrac{k}{\alert{12}} \amp \amp \blert{\text{Solve for}~k.}</mrow>
                 <mrow>k \amp = 10 \cdot 12 = 120</mrow></md>
     So the formula is <m>I=\dfrac{120}{R}</m>.</li>
     <li><p>We use the formula to complete the table.
@@ -173,7 +173,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
         <me>I=\dfrac{120}{\alert{533.3}} = 0.225</me>
         The light bulb draws 0.225 amps of current.</li>
      <li>We substitute <m>\alert{12.5}</m> for <m>I</m> in the formula and solve for <m>R</m>.
-            <md><mrow>\alert{12.5} \amp =\dfrac{120}{R} \amp \amp \glert{\text{Solve for}~R.}</mrow>
+            <md><mrow>\alert{12.5} \amp =\dfrac{120}{R} \amp \amp \blert{\text{Solve for}~R.}</mrow>
                 <mrow>R \amp = \dfrac{120}{12.5} = 9.6</mrow></md>
         The toaster has a resistance of 9.6 ohms.</li></ol>
 </p></solution></example>

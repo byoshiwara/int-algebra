@@ -469,15 +469,15 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
         </latex-image></image></sidebyside></li>   
     <li><p>We set <m>y=\alert{0}</m> and solve the resulting equation to find the <m>x</m>-intercepts.
             <md><mrow>
-                     \dfrac{(x+2)^2}{16} + \dfrac{(\alert{0}-1)^2}{5} \amp = 1 \amp\amp \glert{\text{Subtract}~ \dfrac{1}{5}~ \text{from both sides.}}</mrow>
-                <mrow>\dfrac{(x+2)^2}{16} \amp = \dfrac{4}{5} \amp\amp \glert{\text{Multiply both sides by 16.}}</mrow>
-                <mrow>(x+2)^2 \amp = \dfrac{64}{5} \amp\amp \glert{\text{Extract roots.}}</mrow>
+                     \dfrac{(x+2)^2}{16} + \dfrac{(\alert{0}-1)^2}{5} \amp = 1 \amp\amp \blert{\text{Subtract}~ \dfrac{1}{5}~ \text{from both sides.}}</mrow>
+                <mrow>\dfrac{(x+2)^2}{16} \amp = \dfrac{4}{5} \amp\amp \blert{\text{Multiply both sides by 16.}}</mrow>
+                <mrow>(x+2)^2 \amp = \dfrac{64}{5} \amp\amp \blert{\text{Extract roots.}}</mrow>
                 <mrow>x+2 \amp = \pm \sqrt{\dfrac{64}{5}}</mrow>
                 <mrow>x \amp = -2 \pm \dfrac{8\sqrt{5}}{5}</mrow></md></p>
     <p>The <m>x</m>-intercepts are <m>\left(-2 \pm \dfrac{8\sqrt{5}}{5}, 0\right)</m> or approximately <m>(1.6,0)</m> and <m>(-5.6,0)</m>. We set <m>x=\alert{0}</m> to find the <m>y</m>-intercepts.
-        <md><mrow>\dfrac{(\alert{0}+2)^2}{16} + \dfrac{(y-1)^2}{5} \amp = 1 \amp\amp \glert{\text{Subtract}~ \dfrac{1}{4}~ \text{from both sides.}}</mrow>
-            <mrow>\dfrac{(y-1)^2}{5} \amp = \dfrac{3}{4} \amp\amp \glert{\text{Multiply both sides by 5.}}</mrow>
-            <mrow>(y-1)^2 \amp = \dfrac{15}{4} \amp\amp \glert{\text{Extract roots.}}</mrow>
+        <md><mrow>\dfrac{(\alert{0}+2)^2}{16} + \dfrac{(y-1)^2}{5} \amp = 1 \amp\amp \blert{\text{Subtract}~ \dfrac{1}{4}~ \text{from both sides.}}</mrow>
+            <mrow>\dfrac{(y-1)^2}{5} \amp = \dfrac{3}{4} \amp\amp \blert{\text{Multiply both sides by 5.}}</mrow>
+            <mrow>(y-1)^2 \amp = \dfrac{15}{4} \amp\amp \blert{\text{Extract roots.}}</mrow>
             <mrow>y-1 \amp = \pm \sqrt{\dfrac{15}{4}}</mrow>
             <mrow>y \amp = 1 \pm \dfrac{\sqrt{15}}{2}</mrow></md></p>
     <p>The <m>y</m>-intercepts are <m>\left(0, 1 \pm \dfrac{\sqrt{15}}{4}\right)</m> or approximately <m>(0, 2.9)</m> and <m>(0, -0.9)</m></p></li></ol></p>
@@ -677,7 +677,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
                 </mrow></md>
                 We write each term on the left side as a perfect square to get
                 <md>
-                    <mrow> 4(x-2)^2 + 9(y-1)^2 \amp= 36 \amp\amp \glert{\text{Divide both sides by 36.}} </mrow>
+                    <mrow> 4(x-2)^2 + 9(y-1)^2 \amp= 36 \amp\amp \blert{\text{Divide both sides by 36.}} </mrow>
                     <mrow>\frac{(x-2)^2}{9} + \frac{(y-1)^2}{4} = 1</mrow>
                 </md>
                 </p></li>
@@ -788,8 +788,8 @@ The equation of the ellipse has the form
 The equation of the ellipse has  <m>h=3</m>, <m>k=-1</m>, <m>a=2</m>, <m>b=4</m>. Thus the equation is
             <md><mrow>\frac{(x-3)^2}{4} + \frac{(y+1)^2}{16} = 1</mrow></md>
 If we clear this equation of fractions and expand the powers, we obtain the general form
-            <md><mrow>4(x-3)^2 + (y+1)^2 \amp = 16 \amp\amp\glert{\text{Square each binomial.}} </mrow>
-                <mrow>4(x^2-6x+9) +(y^2+2y+1) \amp = 16\amp\amp\glert{\text{Apply the distributive law..}} </mrow>
+            <md><mrow>4(x-3)^2 + (y+1)^2 \amp = 16 \amp\amp\blert{\text{Square each binomial.}} </mrow>
+                <mrow>4(x^2-6x+9) +(y^2+2y+1) \amp = 16\amp\amp\blert{\text{Apply the distributive law..}} </mrow>
                 <mrow>4x^2-24x+36+y^2+2y+1 \amp = 16</mrow>
                 <mrow>4x^2+y^2-24x+2y+21 \amp = 0</mrow></md></p></solution></example>
 

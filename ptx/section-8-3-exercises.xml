@@ -14,7 +14,7 @@
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>6, we review the operations on arithmetic fractions.</p></introduction>
 
 <exercise number="1"><statement><p><m>\dfrac{5}{8} \cdot \dfrac{3}{4} = \dfrac{15}{32}</m></p>
-    <p><m>\glert{\text{Multiply the numerators together; multiply the denominators together.}}</m></p>
+    <p><m>\blert{\text{Multiply the numerators together; multiply the denominators together.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{2}{5} \cdot \dfrac{2}{3}</m></li>
     <li><m>\dfrac{2}{w} \cdot \dfrac{z}{3}</m></li></ol></p></statement>
@@ -24,14 +24,14 @@
 </ol></p></answer></exercise>
 
 <exercise number="2"><statement><p><m>\dfrac{3}{4} \cdot \dfrac{5}{6} = \dfrac{\cancel{3}}{4} \cdot \dfrac{5}{2 \cdot \cancel{3}} = \dfrac{5}{8}</m></p>
-    <p><m>\glert{\text{Divide out common factors first, then multiply.}}</m></p>
+    <p><m>\blert{\text{Divide out common factors first, then multiply.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{5}{4} \cdot \dfrac{8}{9}</m></li>
     <li><m>\dfrac{5}{2a} \cdot \dfrac{4a}{9}</m></li></ol></p>
     </statement></exercise>
 
 <exercise number="3"><statement><p><m>\dfrac{3}{4} \cdot 6 = \dfrac{3}{4} \cdot \dfrac{6}{1} = \dfrac{3}{2 \cdot \cancel{2}} \cdot \dfrac{\cancel{2} \cdot 3}{1} = \dfrac{9}{2}</m></p>
-    <p><m>\glert{\text{Write 6 as}~\dfrac{6}{1}}</m></p>
+    <p><m>\blert{\text{Write 6 as}~\dfrac{6}{1}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{7}{3} \cdot 12</m></li>
     <li><m>\dfrac{7}{x} \cdot 4x</m></li></ol></p></statement>
@@ -42,14 +42,14 @@
 
 <exercise number="4"><statement><p><m>\dfrac{12}{5} \div \dfrac{8}{5} = \dfrac{12}{5} \cdot \dfrac{5}{8} = 
     \dfrac{\cancel{4} \cdot 3}{\cancel{5}} \cdot \dfrac{5\cancel{5}}{\cancel{4} \cdot 2} = \dfrac{3}{2}</m></p>
-    <p><m>\glert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
+    <p><m>\blert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{8}{3} \div \dfrac{2}{9}</m></li>
     <li><m>\dfrac{4a}{3b} \div \dfrac{2a}{3}</m></li></ol></p>
 </statement></exercise>
 
 <exercise number="5"><statement><p><m>\dfrac{3}{5} \div 6 = \dfrac{3}{5} \cdot \dfrac{1}{6} = \dfrac{\cancel{3}}{5} \cdot \dfrac{1}{\cancel{3} \cdot 2} = \dfrac{1}{15}</m></p>
-    <p><m>\glert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
+    <p><m>\blert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{2}{3} \div 4</m></li>
     <li><m>\dfrac{2}{3y} \div (4y)</m></li></ol></p></statement>
@@ -59,7 +59,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>\dfrac{5}{4} + \dfrac{3}{4} = \dfrac{5+3}{4} = \dfrac{8}{4} = 2</m></p>
-    <p><m>\glert{\text{Combine the numerators; keep the same denominator.}}</m></p>
+    <p><m>\blert{\text{Combine the numerators; keep the same denominator.}}</m></p>
 <p><ol label="a" cols="2">
     <li><m>\dfrac{13}{6} - \dfrac{5}{6}</m></li>
     <li><m>\dfrac{13k}{n} - \dfrac{5k}{n}</m></li></ol></p>

@@ -98,8 +98,8 @@ We express this rule in symbols as follows.</p>
 <solution><p>First, we change the operation to multiplication by taking the reciprocal of the divisor.
     <me>\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a} = \dfrac{a-2}{6a^2} \cdot \dfrac{4a^2-2a}{4-a^2}</me>
 Now we follow the rules for multiplication:  First, we factor each numerator and denominator.
-    <md><mrow>\amp = \dfrac{a-2}{3 \cdot 2 \cdot a \cdot a} \cdot \dfrac{2a(2a-1)}{(2-a)(2+a)} \amp \amp \glert{\text{Divide out common factors.}}</mrow>
-        <mrow>\amp = \dfrac{-1 \cancel{(2-a)}}{3 \cdot \cancel{2} \cdot \cancel{a} \cdot a} \cdot \dfrac{\cancel{2}a(2a-1)}{\cancel{(2-a)}(2+a)} \amp \amp \glert{\text{Note}~a-2 = -1(2-a).}</mrow>
+    <md><mrow>\amp = \dfrac{a-2}{3 \cdot 2 \cdot a \cdot a} \cdot \dfrac{2a(2a-1)}{(2-a)(2+a)} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
+        <mrow>\amp = \dfrac{-1 \cancel{(2-a)}}{3 \cdot \cancel{2} \cdot \cancel{a} \cdot a} \cdot \dfrac{\cancel{2}a(2a-1)}{\cancel{(2-a)}(2+a)} \amp \amp \blert{\text{Note}~a-2 = -1(2-a).}</mrow>
         <mrow> \amp = \dfrac{-1(2a-1)}{3a(2+a)} = \dfrac{1-2a)}{3a(2+a)}</mrow></md></p></solution></example>
 
 <note><p>When working with algebraic fractions, we often leave the denominators in factored form. This makes it easier to add and subtract fractions, and to check whether they can be reducecd.</p></note>
@@ -217,7 +217,7 @@ The same holds true for all algebraic fractions.</p>
     <li><p>Because these are like fractions, we add their numerators and keep the same denominator.
         <me>\dfrac{2x}{9z^2}+\dfrac{5x}{9z^2} = \dfrac{2x+5x}{9z^2} = \dfrac{7x}{9z^2}</me></p></li>
     <li><p> We combine the numerators over a single denominator.
-        <md><mrow>\dfrac{2x-5}{x+2}+\dfrac{x+4}{x+2} \amp = \dfrac{(2x-5)+(x+4)}{x+2} \amp \amp \glert{\text{Add like terms in the numerator.}}</mrow>
+        <md><mrow>\dfrac{2x-5}{x+2}+\dfrac{x+4}{x+2} \amp = \dfrac{(2x-5)+(x+4)}{x+2} \amp \amp \blert{\text{Add like terms in the numerator.}}</mrow>
             <mrow> \amp = \dfrac{3x-1}{x+2}</mrow></md></p></li></ol></p>
 </solution></example>
 
@@ -276,8 +276,8 @@ The same holds true for all algebraic fractions.</p>
 <example><statement><p>Subtract: <m>~\dfrac{x-3}{x-1}-\dfrac{3x-5}{x-1}</m></p></statement>
     
   <solution><p>We combine the numerators over a single denominator.  We use parentheses around <m>3x-5</m> to show that the subtraction applies to the entire numerator.
-            <md><mrow>\dfrac{x-3}{x-1}-\dfrac{3x-5}{x-1} \amp = \dfrac{(x-3)-(3x-5)}{x-1} \amp \amp \glert{\stackrel{{\Large\text{Remove parentheses; }}}{\text{distribute negative sign.}}}</mrow>
-                <mrow>\amp = \dfrac{x-3-3x+5}{x-1} \amp \amp \glert{\stackrel{{\Large\text{Combine like terms}}} {\text{in the numerator.}}}</mrow>
+            <md><mrow>\dfrac{x-3}{x-1}-\dfrac{3x-5}{x-1} \amp = \dfrac{(x-3)-(3x-5)}{x-1} \amp \amp \blert{\stackrel{{\Large\text{Remove parentheses; }}}{\text{distribute negative sign.}}}</mrow>
+                <mrow>\amp = \dfrac{x-3-3x+5}{x-1} \amp \amp \blert{\stackrel{{\Large\text{Combine like terms}}} {\text{in the numerator.}}}</mrow>
                 <mrow>\amp = \dfrac{-2x+2}{x-1}</mrow></md>
   We should always check to see whether the fraction can be reduced.  Factor the numerator to find
             <md><mrow>\dfrac{-2x+2}{x-1} = \dfrac{-2\cancel{(x-1)}}{\cancel{x-1}} = -2</mrow></md></p>
@@ -425,8 +425,8 @@ We add or subtract algebraic fractions with the same three steps.</p>
         <md><mrow>\dfrac{x+2}{6} \amp = \dfrac{(x+2) \cdot \alert{5}}{6 \cdot \alert{5}} = \dfrac{5x+10}{30}</mrow>
             <mrow>\dfrac{x-1}{15} \amp = \dfrac{(x-1) \cdot \alert{2}}{15 \cdot \alert{2}} = \dfrac{2x-2}{30}</mrow></md></p>
     <p>Step 3: We subtract the resulting like fractions to obtain
-        <md><mrow>\dfrac{x+2}{6}-\dfrac{x-1}{15} \amp = \dfrac{5x+10}{30} - \dfrac{2x-2}{30}  \amp \amp \glert{\text{Combine the numerators.}}</mrow>
-            <mrow>\amp = \dfrac{(5x+10) - (2x-2)}{30} \amp \amp \glert{\text{Simplify the numerator.}}</mrow>
+        <md><mrow>\dfrac{x+2}{6}-\dfrac{x-1}{15} \amp = \dfrac{5x+10}{30} - \dfrac{2x-2}{30}  \amp \amp \blert{\text{Combine the numerators.}}</mrow>
+            <mrow>\amp = \dfrac{(5x+10) - (2x-2)}{30} \amp \amp \blert{\text{Simplify the numerator.}}</mrow>
             <mrow>\amp = \dfrac{5x+10-2x+2}{30} = \dfrac{3x+12}{30}</mrow></md></p>
     <p>Step 4: Finally, we reduce the fraction.
             <me>\dfrac{3x+12}{30} = \dfrac{\cancel{3}(x+4)}{\cancel{3} \cdot 10} = \dfrac{x+4}{10}</me></p>
@@ -524,7 +524,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
     <md><mrow>\dfrac{6}{x} \amp = \dfrac{6\alert{(x-2)}}{x\alert{(x-2)}} = \dfrac{6x-12}{x(x-2)}</mrow>
         <mrow>\dfrac{x}{x-2} \amp = \dfrac{x\alert{(x)}}{(x-2)\alert{(x)}} = \dfrac{x^2}{x(x-2)}</mrow></md></p>
 <p>Step 3: We combine the resulting like fractions.
-    <md><mrow>\dfrac{6}{x} + \dfrac{x}{x-2} \amp = \dfrac{6x-12}{x(x-2)} + \dfrac{x^2}{x(x-2)} \amp \amp \glert{\text{Combine the numerators.}}</mrow>
+    <md><mrow>\dfrac{6}{x} + \dfrac{x}{x-2} \amp = \dfrac{6x-12}{x(x-2)} + \dfrac{x^2}{x(x-2)} \amp \amp \blert{\text{Combine the numerators.}}</mrow>
         <mrow>\amp = \dfrac{x^2+6x-12}{x-2}</mrow></md></p>
 <p>Step 4: The numerator of this fraction cannot be factored, so the sum cannot be reduced.</p></solution></example>
 
@@ -572,8 +572,8 @@ We add or subtract algebraic fractions with the same three steps.</p>
 <p>If the denominators contain any common factors, the LCD is not simply their product.  For example, the LCD for 
     <me>\dfrac{5}{12}+\dfrac{7}{18}</me>
 is not <m>12(18) = 216</m>.  It is true that 216 is a multiple of both 12 and 18, but it is not the smallest one! We can find a smaller common denominator by factoring each denominator.
-    <md><mrow>12 \amp = 2 \cdot 2 \cdot 3 \amp \amp \glert{\text{This denominator has the most factors of 2.}}</mrow> 
-        <mrow>18 \amp = 2 \cdot 3 \cdot 3 \amp \amp \glert{\text{This denominator has the most factors of 3.}}</mrow></md>
+    <md><mrow>12 \amp = 2 \cdot 2 \cdot 3 \amp \amp \blert{\text{This denominator has the most factors of 2.}}</mrow> 
+        <mrow>18 \amp = 2 \cdot 3 \cdot 3 \amp \amp \blert{\text{This denominator has the most factors of 3.}}</mrow></md>
 To find a number that both 12 and 18 divide into evenly, we need only enough factors to cover each of them.  In this case two 2'sand two 3'sare sufficient, so the LCD is
     <me>\text{LCD} = 2 \cdot 2 \cdot 3 \cdot 3 = 36</me>
 You can check that both 12 and 18 divide evenly into 36.</p>

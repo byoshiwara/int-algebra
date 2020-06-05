@@ -331,9 +331,9 @@
                     <md><mrow>m=\frac{y + 4}{x-1}</mrow></md></p>
     <p>This is an equation for the line, but if we want to solve for <m>y</m>, we first multiply both sides by <m>x − 1</m>.
             <md><mrow>\alert{(x-1)}\frac{-3}{4}\amp = \frac{y+4}{x-1}\alert{(x-1)} </mrow>
-                <mrow>\frac{-3}{4}(x-1)\amp = y+4 \amp\amp \glert{\text{Apply the distributive law.}} </mrow>
-                <mrow>\frac{-3}{4}x +\frac{3}{4} \amp = y+4 \amp\amp \glert{\text{Subtract 4 from both sides.}} </mrow>
-                <mrow>\frac{-3}{4}x -\frac{13}{4} \amp = y \amp\amp \glert{\frac{3}{4}-4=\frac{3}{4}-\frac{16}{4}=\frac{-13}{4}} </mrow></md></p></li></ol></p>
+                <mrow>\frac{-3}{4}(x-1)\amp = y+4 \amp\amp \blert{\text{Apply the distributive law.}} </mrow>
+                <mrow>\frac{-3}{4}x +\frac{3}{4} \amp = y+4 \amp\amp \blert{\text{Subtract 4 from both sides.}} </mrow>
+                <mrow>\frac{-3}{4}x -\frac{13}{4} \amp = y \amp\amp \blert{\frac{3}{4}-4=\frac{3}{4}-\frac{16}{4}=\frac{-13}{4}} </mrow></md></p></li></ol></p>
 </solution></example>
 
 <p>When we use the slope formula to find the equation of a line, we substitute a variable point <m>(x, y)</m> for the second point. This version of the formula,
@@ -445,8 +445,8 @@ is called the <term>point-slope form</term><idx>point-slope form</idx> for a lin
 </p>
 <p><ol label="1">
     <li><p>The <term>slope-intercept form</term>, <m>y = mx + b</m>, is just a special case of the <term>point-slope formula</term>. If the given point <m>(x_1, y_1)</m> happens to be the <m>y</m>-intercept <m>(0, b)</m>, then the point-slope formula reduces to the familiar form:
-        <md><mrow>y\amp =y_1+m(x-x_1) \amp\amp\glert{\text{Substitute } b \text{ for } y_1 \text{ and 0 for } x_1.}</mrow>
-            <mrow>y\amp = b + m(x-0) \amp\amp \glert{\text{Simplify.}}</mrow>
+        <md><mrow>y\amp =y_1+m(x-x_1) \amp\amp\blert{\text{Substitute } b \text{ for } y_1 \text{ and 0 for } x_1.}</mrow>
+            <mrow>y\amp = b + m(x-0) \amp\amp \blert{\text{Simplify.}}</mrow>
             <mrow>y\amp = mx + b</mrow></md>
     We can use the (shorter) slope-intercept form if we are lucky enough to know the <m>y</m>-intercept of the line.</p>
     </li>

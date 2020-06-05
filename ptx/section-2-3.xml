@@ -77,9 +77,25 @@
             <p>The solution to the system is <var name="$solution" width="6"/> (Give the solution as an ordered pair.)</p>
             </li></ul></p>
     </statement>
-    <solution><p><m><var name="$solution"/></m></p>
+    <solution><p>Follow the suggested steps to solve the system by substitution:
+                <md><mrow>3y-2x\amp=3</mrow>
+                    <mrow>x-2y\amp=-2</mrow></md>
+        <ul>
+        <li><p>Step 1</p>
+            <p><m>x=<var name="$xeq" /></m> </p></li>
+        <li><p>Step 2</p>
+            <p><m>3y -2 \large(<var name="$xeq"/>{\large)} =3</m> 
+        </p></li>
+        <li><p>Step 3</p>
+            <p><m>y=<var name="$y"/></m> </p></li>
+        <li><p>Step 4</p>
+            <p><m>x=<var name="$x"/></m> </p>
+            <p>The solution to the system is <m><var name="$solution"/></m></p>
+            </li>
+        </ul></p>
     </solution>
-    </webwork></exercise>
+    </webwork>
+</exercise>
 </subsection>
    
 <subsection><title>Elimination Method</title>
@@ -91,10 +107,10 @@
                 <mrow>2y \amp = 19-3x</mrow></md></p></statement>
     
 <solution><p>First, we rewrite each equation in the form <m>Ax + By = C</m>.
-    <md><mrow>5x\amp= 2y+21\amp\amp\glert{\text{Subtract }2y}
-        \amp 2y\amp=19-3x \amp\amp\glert{\text{Add }3x \text{ to}}</mrow>
-        <mrow>\underline{\hphantom{5x}-2y}\amp= \underline{{-2y}\hphantom{21} }\amp\amp\glert{\text{from both sides.}}
-        \amp \underline{\hphantom{3x}{+3x}}\amp=\underline{{+3x}\hphantom{3x}} \amp\amp\glert{\text{both sides.}}</mrow>
+    <md><mrow>5x\amp= 2y+21\amp\amp\blert{\text{Subtract }2y}
+        \amp 2y\amp=19-3x \amp\amp\blert{\text{Add }3x \text{ to}}</mrow>
+        <mrow>\underline{\hphantom{5x}-2y}\amp= \underline{{-2y}\hphantom{21} }\amp\amp\blert{\text{from both sides.}}
+        \amp \underline{\hphantom{3x}{+3x}}\amp=\underline{{+3x}\hphantom{3x}} \amp\amp\blert{\text{both sides.}}</mrow>
         <mrow>5x-2y\amp= 21\amp\amp
                     \amp 3x+2y\amp=19</mrow></md>
 We add the equations together by adding the left side of the first equation to the left side of the second equation, and then adding the two right sides together, as follows:
@@ -102,8 +118,8 @@ We add the equations together by adding the left side of the first equation to t
                 <mrow>\underline{3x+2y}\amp =\underline{19\vphantom{2y}}</mrow>
                 <mrow>8x\hphantom{{}+2y} \amp = 40</mrow></md>
 Note that the <m>y</m>-terms canceled, or were <term>eliminated</term>. Solving the new equation, <m>8x = 40</m>, we find that <m>x = 5</m>. We are not finished yet, because we must still find the value of <m>y</m>. We can substitute our value for <m>x</m> into either of the original equations, and solve for <m>y</m>. We'll use the second equation, <m>3x+2y=19</m>:
-            <md><mrow>3(\alert{5})+2y \amp = 19 \amp\amp \glert{\text{Subtract 15 from both sides.}}</mrow>
-                <mrow>2y \amp = 4 \amp\amp \glert{\text{Divide by 2.}}</mrow>
+            <md><mrow>3(\alert{5})+2y \amp = 19 \amp\amp \blert{\text{Subtract 15 from both sides.}}</mrow>
+                <mrow>2y \amp = 4 \amp\amp \blert{\text{Divide by 2.}}</mrow>
                 <mrow>y \amp = 2     </mrow></md>
 Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 
@@ -160,9 +176,21 @@ Be careful to multiply each term by <m>-3</m>, not just the <m>y</m>-term. We ca
                 <p>Check that your solution satisfies both original equations.</p>
                 <p>The solution to the system is <var name="$solution" width="6"/> (Give the solution as an ordered pair.)</p> </li></ul></p>
         </statement>
-        <solution><p><m><var name="$solution"/></m></p>
+        <solution><p><ul>
+            <li><p>Step 1</p>
+                <p><m><var name="$lhs"/>=<var name="$rhs" width="3"/></m></p></li>
+            <li><p>Step 2</p>
+                <p><m>x=<var name="$x"/></m></p></li>
+            <li><p>Step 3</p>
+                <p><m>y=<var name="$y"/></m></p></li>
+            <li><p>Step 4</p>
+                <p><md><mrow>4(<var name="$x"/>)+3(<var name="$y"/>) \amp = 7</mrow>
+                    <mrow>-9(<var name="$x"/>)-3(<var name="$y"/>) \amp = 3</mrow></md></p>
+                <p>The solution to the system is <m><var name="$solution"/></m></p> </li>
+            </ul></p>
         </solution>
-    </webwork></exercise>
+    </webwork>
+</exercise>
 
 <exercise><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -247,9 +275,31 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
             <p>The solution to the system is <var name="$solution" width="6"/> (Give the solution as an ordered pair.)</p>
             </li></ul></p>
         </statement>
-        <solution><p><m><var name="$solution"/></m></p>
+        <solution><p>
+            <md><mrow><var name="$lhs0"/> = <var name="$rhs0"/></mrow>
+                    <mrow><var name="$lhs1"/>= <var name="$rhs1"/></mrow></md>
+            <ul>
+        <li><p>Step 1
+            <md>
+                <mrow>3x-2y \amp= 13</mrow>
+                <mrow>7x+3y \amp= 15</mrow>
+            </md>
+        </p></li>
+        <li><p>Step 2
+            <md>
+                <mrow>9x-6y \amp= 39</mrow>
+                <mrow>14x+6y \amp= 30</mrow>
+            </md>
+        </p></li>
+        <li><p>Step 3</p>
+            <p><m>x=<var name="$x"/></m></p></li>
+        <li><p>Step 4</p>
+            <p><m>y=<var name="$y"/></m></p>
+            <p>The solution to the system is <m><var name="$solution"/></m>.</p>
+        </li></ul></p>
         </solution>
-    </webwork></exercise>
+    </webwork>
+</exercise>
 
 <p>Which method should you choose to solve a particular system? Both methods work on any linear system, but the substitution method is easier if one of the variables in one of the equations has coefficient <m>1</m> or <m>-1</m>.</p>
 </subsection>
