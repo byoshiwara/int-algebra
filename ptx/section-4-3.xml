@@ -143,7 +143,30 @@ The parabola and the three points are shown below.</p>
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="25%" margins="0% 70%"><image source="images/fig-ex-4-3-1ans"><description>parabola</description></image></sidebyside>
+        <sidebyside width="25%" margins="0% 70%"><image xml:id="fig-parabola-through-3points">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.64, yscale=.48]
+        \draw[cyan] (0,0) grid (5,10);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(5.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {5} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {5,10} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \filldraw[red] (0,8) ellipse (.15 and .2);
+        \filldraw[red] (1.5,9.5) ellipse (.15 and .2);
+        \filldraw[red] (2.5,5.5) ellipse (.15 and .2);
+        \draw[samples=65,domain={0:1+sqrt(5)},smooth,variable=\x,red,very thick, -] plot ({\x},{(-(10*\x)^2/5+40*(\x)+80) /10});
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside>
     </conclusion>
 </exercise>
 </subsection>
@@ -208,6 +231,7 @@ The graph of this function, along with the data points, is shown at right.</p></
         <p>
             The data below show Americans' annual per capita consumption of chicken for several years since 1985.
         </p>
+        <sidebyside>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
             <row bottom="minor">
                 <cell>Year</cell>
@@ -224,7 +248,7 @@ The graph of this function, along with the data points, is shown at right.</p></
                 <cell><m>60.8</m></cell>
                 <cell><m>63.6</m></cell>
             </row>
-        </tabular>        
+        </tabular></sidebyside>     
         <ol label="a">
             <li><p>
                 Use the values for 1987 through 1989 to fit a quadratic equation to the data, <m>~C=at^2+bt+c,~</m> where <m>t</m> is measured in years since 1985.
@@ -400,7 +424,7 @@ From either the graph of the regression equation or from the table (see figure b
         <sidebyside><image source="images/fig-GC-bad-quadratic-fit"><description>GC screens of graph and tables for quadratic fit</description></image></sidebyside>
 <p>If we scroll down the table, we find that this equation predicts a height of approximately <m>4.08</m> feet at time <m>40</m> minutes. (See figure (c).) This is a preposterous estimate! The position of the minute hand at <m>40</m> minutes after noon should be the same as it was exactly one hour earlier (at 20 minutes before noon), when it was <m>7.50</m> feet.</p></solution></example>
 
-<warning><p>Using the wrong type of function to fit the data is a common error in making predictions. In Example 4, we know that the minute hand of a clock repeats its position every <m>60</m> minutes. The graph of the height of its tip oscillates up and down, repeating the same pattern over and over. We cannot describe such a graph using either a linear or a quadratic function.</p>
+<warning><p>Using the wrong type of function to fit the data is a common error in making predictions. In the Example above, we know that the minute hand of a clock repeats its position every <m>60</m> minutes. The graph of the height of its tip oscillates up and down, repeating the same pattern over and over. We cannot describe such a graph using either a linear or a quadratic function.</p>
 
 <sidebyside widths="45% 48%" valigns="middle middle">
 <image source="images/fig-quadratic-fit-of-periodic"><description>parabola fit on part of a periodic wave</description></image> 

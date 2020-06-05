@@ -425,7 +425,7 @@
 </conclusion>
 </exercise>
 
-<p>Example 4 illustrates an application of the function <m>f(x)=\sqrt{x}</m>.</p>
+<p>The next Example illustrates an application of the function <m>f(x)=\sqrt{x}</m>.</p>
 
 <example xml:id="example-sound"><statement><p>The speed of sound is a function of the temperature of the air in kelvins. (The temperature, <m>T</m>, in kelvins is given by <m>T = C + 273</m>, where <m>C</m> is the temperature in degrees Celsius.) The table shows the speed of sound, <m>s</m>, in meters per second, at various temperatures, <m>T</m>.</p>
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">

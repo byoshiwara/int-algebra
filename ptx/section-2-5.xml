@@ -515,35 +515,109 @@ Its graph is then a region in the plane.</p>
         <p>Laura can choose any combination of broccoli and zucchini represented by points in the shaded region. For example, the point <m>(3, 1)</m> is a solution to the system of inequalities, so Laura could choose to eat <m>3</m> servings of broccoli and <m>1</m> serving of zucchini.</p></li></ul></p></solution></example>
 
 <exercise><title>Practice 5</title>
-    <statement><p>Use the following steps to graph the solutions of the system
+<webwork>
+    <pg-code>
+        $refreshCachedImages = 1;
+       foreach my $i (0..3) {
+        $gr[$i] = init_graph(-4,-4,9,9, axes=>[0,0], grid=>[13,13], size=>[240,240]);
+        $gr[$i]->new_color("lightblue", 214,230,244); # RGB
+        $gr[$i]->new_color("darkblue",  100,100,255);
+        $gr[$i]->new_color("lightred",  245,234,229); # light red-purple
+        $gr[$i]->new_color("darkred",   159, 64, 16); # red-brown
+        $gr[$i]->new_color("lightgreen",156,215,151); 
+        $gr[$i]->new_color("darkgreen",   0, 86, 34);
+        $light = "lightgreen";
+        $dark = "darkgreen";
+        $pink = "lightred";
+
+        $gr[$i]->moveTo(-4,-2);
+        $gr[$i]->arrowTo(9,20/3,'red',2);
+        $gr[$i]->arrowTo(-4,-2,'red',2,);
+
+        $gr[$i]->moveTo(9,8);
+        $gr[$i]->arrowTo(-3,-4,'white',1);
+        $gr[$i]->arrowTo(9,8,'blue',2,'dashed');
+        $gr[$i]->arrowTo(-3,-4,'blue',2,'dashed');
+        $gr[$i] -> lb('reset');
+        $gr[$i] -> lb(new Label (-0.8,5,5,'black','center','middle'));
+        $gr[$i] -> lb(new Label (-0.8,-5,-5,'black','center','middle'));
+        $gr[$i] -> lb(new Label (5,-0.8,5,'black','center','middle'));
+        $gr[$i] -> lb(new Label (-5,-0.8,-5,'black','center','middle'));
+        }
+
+        $gr[0] -> lb(new Label (-3.,8,"(A)",'black','center','middle'));
+        $gr[0]->fillRegion([-1.1,5.1,$light]);
+        $gr[1] -> lb(new Label (-3.,8,"(B)",'black','center','middle'));
+        $gr[1]->fillRegion([-3.1,-3.1,$light]);
+        $gr[2] -> lb(new Label (-3.,8,"(C)",'black','center','middle'));
+        $gr[2]->fillRegion([3.1,-3.1,$light]);
+        $gr[3] -> lb(new Label (-3.,8,"(D)",'black','center','middle'));
+        $gr[3]->fillRegion([8.1,6.2,$light]);
+
+        $mc = RadioButtons(
+            [ "(A)", "(B)", "(C)","(D)"],
+            1
+        );
+    </pg-code>
+    <statement>
+        <p>Use the following steps to graph the solutions of the system
             <md>
                 <mrow>3y-2x \amp\le 2</mrow>
                 <mrow>y \amp\gt x-1</mrow>
-            </md><ol label="1">
-            <li><p>Graph the boundary line <m>3y-2x = 2</m>.</p></li>
-            <li><p>Lightly shade the solutions of the inequality <m>3y-2x \le 2</m>.</p></li>
-            <li><p>Graph the boundary line <m>y=x-1</m>.</p></li>
-            <li><p>Lightly shade the solutions of <m>y \gt x-1</m>.</p></li>
-            <li><p>Shade the intersection of the two solutions sets.</p></li></ol></p></statement>   
-<answer><sidebyside width="33%" margins="0% 5%"><image xml:id="fig-ex-2-5-5ans"><description>system of inequalities
+            </md>
+            <ol label="1">
+                <li><p>Graph the boundary line <m>3y-2x = 2</m>.</p></li>
+                <li><p>Lightly shade the solutions of the inequality <m>3y-2x \le 2</m>.</p></li>
+                <li><p>Graph the boundary line <m>y=x-1</m>.</p></li>
+                <li><p>Lightly shade the solutions of <m>y \gt x-1</m>.</p></li>
+                <li><p>Shade the intersection of the two solutions sets.</p></li>
+            </ol>
+        </p>
+       <sidebyside widths="35% 35%" margins="5% 5%">
+            <image pg-name="$gr[0]"/>
+            <image pg-name="$gr[1]"/>
+        </sidebyside>
+        <sidebyside widths="35% 35%" margins="5% 5%">
+            <image pg-name="$gr[2]"/>
+            <image pg-name="$gr[3]"/>
+        </sidebyside>
+        <p>
+            Which of the above is the best match for the solution to the system of inequalities?
+        </p>
+        <p><var name="$mc" form="buttons"/> </p>
+    </statement>
+    <solution>
+        <sidebyside widths="40%">
+                <image pg-name="$gr[1]"/>
+            </sidebyside>
+        <p>
+          A graph is also shown below.
+        </p>
+    </solution>
+</webwork>  
+<conclusion><sidebyside width="36%" margins="0% 5%"><image xml:id="fig-ex-2-5-5ans"><description>system of inequalities
     </description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} [scale=.6] 
-                \draw[lightgray] (-4,-4) grid (7,7);
-                \draw[black,thick,->,>=stealth'] (-4,0)--(7.6,0) node[above]{$x$};
-                \draw[black,thick,->,>=stealth'] (0,-4)--(0,7.6) node[left]{$y$};
-                \foreach \x  in {5} {
-                  \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
-                  \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
-                }
-                \filldraw[magenta!50!white, opacity=.2] (-4,-2)--(7,16/3)--(7,-4)--(-4,-4)--cycle;
-                \draw[red,thick,<->, >=stealth'] (-4,-2)--(7,16/3) node[below right, xshift=1cm, midway,fill=magenta!10!white, inner sep=2] {$3y-2x \le 2$};
-                \filldraw[blue!50!white, opacity=.2] (-3,-4)--(7,6)--(7,7)--(-4,7)--(-4,-4)--cycle;
-                \draw[blue,thick,<->, >=stealth', dashed] (-3,-4)--(7,6) node[above left, xshift=-1.5cm,yshift=1.5cm, midway,fill=blue!10!white, inner sep=2] {$y > x-1$};
-                \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></answer></exercise>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.6] 
+            \draw[lightgray] (-4,-4) grid (9,9);
+            \draw[black,thick,->,>=stealth'] (-4,0)--(7.6,0) node[above]{$x$};
+            \draw[black,thick,->,>=stealth'] (0,-4)--(0,7.6) node[left]{$y$};
+            \foreach \x  in {5} {
+              \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+              \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
+            }
+            \filldraw[magenta!50!white, opacity=.2] (-4,-2)--(9,20/3)--(9,-4)--(-4,-4)--cycle;
+            \draw[red,thick,<->, >=stealth'] (-4,-2)--(9,20/3) node[below right, xshift=1cm, midway,fill=magenta!10!white, inner sep=2] {$3y-2x \le 2$};
+            \filldraw[blue!50!white, opacity=.2] (-3,-4)--(9,8)--(9,9)--(-4,9)--(-4,-4)--cycle;
+            \draw[blue,thick,<->, >=stealth', dashed] (-3,-4)--(9,8) node[above left, xshift=-1.5cm,yshift=1.5cm, midway,fill=blue!10!white, inner sep=2] {$y > x-1$};
+            \end{tikzpicture}]]>
+            </latex-image>
+            </image>
+        </sidebyside>
+    </conclusion>
+</exercise>
 
 <p>To describe the solutions of a system of inequalities, it is useful to locate the <term>vertices</term><idx>vertices</idx>, or corner points, of the boundary.</p>
 
