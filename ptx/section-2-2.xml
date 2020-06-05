@@ -44,7 +44,7 @@
 
 <subsection><title>Solving Systems by Graphing</title>
 
-<sidebyside widths="62% 35%" margins="0% 0%" valigns="middle middle">
+<sidebyside widths="60% 40%" margins="0% 0%" valigns="middle middle">
 <p>Every point on the graph of an equation represents a solution to that equation. A solution to both equations must be a point that lies on both graphs. Therefore, a solution to the system is a point where the two graphs intersect. The figure at right shows a graph of the system about robins and thrushes. The two lines appear to intersect at the point <m>(4, 6)</m>, so we expect that the values <m>t = \alert{4}</m> and <m>r = \alert{6}</m> are the solution to the system. We can check by verifying that these values satisfy both equations in the system.</p>
     <image xml:id="fig-robins-thrushes"><description>two lines in first quadrant</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -350,7 +350,7 @@ and then press <c>ZOOM</c> <m>6</m>. If we trace along the graph to the intersec
 
 <p>A business venture calculates its <term>profit</term> by subtracting its <term>costs</term> from its <term>revenue</term>, the amount of money it takes in from sales.
     <md><mrow>\blert{\text{Profit} = \text{Revenue} -\text{Cost}}</mrow></md>
-Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs,the cost of labor and materials to produce its product. Revenue is the product ofthe selling price per item times the number of items sold. If the company’s revenueexactly equals its costs (so that their profit is zero), we say that the business venturewill <term>break even</term><idx>break even</idx>.</p>
+Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs,the cost of labor and materials to produce its product. Revenue is the product ofthe selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>.</p>
 
 <exercise><title>Practice 4</title>
 <webwork><pg-code>

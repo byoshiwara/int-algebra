@@ -216,8 +216,7 @@
 
 <exercise number="29"><statement><p><ol label="a">
     <li><p>Write an expression for the height of an equilateral triangle of side <m>w</m>.</p>
-    <sidebyside width="25%"><image xml:id="fig-equilateral-triangle-side-w">
-        <description>triangle</description>
+    <sidebyside width="20%"><image xml:id="fig-equilateral-triangle-side-w"><description>triangle</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -228,9 +227,7 @@
         \draw[blue] (1.25,0) -- ++(0,.25)--++(-0.25,0);
         \node at (1.8,0.9) {$w$};
         \end{tikzpicture}]]>
-        </latex-image>
-    </image>
-</sidebyside></li>
+        </latex-image></image></sidebyside></li>
     <li>Write an expression for the area of the triangle.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>\dfrac{w\sqrt{3}}{2}</m></li>
@@ -238,7 +235,7 @@
 
 <exercise number="30"><statement><p><ol label="a">
     <li><p>Write an expression in terms of <m>k</m> for the height of the pyramid shown below.</p>
-    <sidebyside width="25%"><image source="images/fig-pyramid-sq-base-k"><description>pyramid with square base of side k and lateral edge 2k</description></image></sidebyside></li>
+    <sidebyside width="20%"><image source="images/fig-pyramid-sq-base-k"><description>pyramid with square base of side k and lateral edge 2k</description></image></sidebyside></li>
     <li>Write an expression in terms of <m>k</m> for the volume of the pyramid.</li></ol></p></statement></exercise>
 </subexercises>
 

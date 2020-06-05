@@ -47,9 +47,7 @@
 
 <exercise number="7"><statement><p><ol label="a">
     <li><p>Graph the equation <m>~y=x^2-2x-3~</m> on the grid.</p>
-        <sidebyside width="40%">
-            <image xml:id="fig-xsqd-minus-2x-minus-3-grid">
-                <description>grid</description>
+        <sidebyside width="30%"><image xml:id="fig-xsqd-minus-2x-minus-3-grid"><description>grid</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -65,16 +63,11 @@
                  \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
                 }
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside></li>
+                </latex-image></image></sidebyside></li>
     <li>Darken the portion of the <m>x</m>-axis for which <m>y \gt 0</m>.</li>
     <li>Solve the inequality <m>~x^2-2x-3\gt 0</m></li></ol></p></statement>
-<answer>
-    <p><ol label="a">
-    <li><sidebyside width="40%">
-            <image xml:id="fig-xsqd-minus-2x-minus-3">
-                <description>grid</description>
+<answer><p><ol label="a">
+    <li><sidebyside width="30%"><image xml:id="fig-xsqd-minus-2x-minus-3"><description>grid</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -95,18 +88,14 @@
                 \draw[red, fill=white] (-1,0) circle (.2);
                 \draw[red, fill=white] (3,0) circle (.2);
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside></li>
+                </latex-image></image></sidebyside></li>
     <li>See graph.</li>
     <li><p><m>x \gt 3</m> or <m>x \lt -1</m></p></li></ol></p>
     </answer></exercise>
 
 <exercise number="8"><statement><p><ol label="a">
     <li><p>Graph the equation <m>~y=x^2+2x-8~</m> on the grid.</p>
-        <sidebyside width="40%">
-            <image xml:id="fig-xsqd-plus-2x-minus-8-grid">
-                <description>grid</description>
+        <sidebyside width="30%"><image xml:id="fig-xsqd-plus-2x-minus-8-grid"><description>grid</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -122,16 +111,14 @@
                  \draw[black] (.3,\x) --++(-.6,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
                 }
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside></li>
+                </latex-image></image></sidebyside></li>
     <li>Darken the portion of the <m>x</m>-axis for which <m>y \lt 0</m>.</li>
     <li>Solve the inequality <m>~x^2+2x-8\lt 0</m></li></ol></p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 9 and 10, use the graph to solve the equation and the inequality. </p></introduction>
 
 <exercise number="9"><statement>
-    <sidebyside width="100%">
+    <sidebyside width="90%">
         <image xml:id="fig-xsqd-minus-3x-minus-180">
         <description>parabola</description>
         <latex-image>
@@ -162,7 +149,7 @@
     <li><m>x \lt -12</m> or <m>x \gt 15</m></li></ol></p></answer></exercise>
 
 <exercise number="10"><statement>
-    <sidebyside width="100%">
+    <sidebyside width="90%">
         <image xml:id="fig-175-minus-18x-minus-xsq">
         <description>parabola</description>
         <latex-image>
@@ -266,10 +253,10 @@ Then use the graph to solve the inequalities. Write your answers in interval not
 
 <subexercises><title>Applications</title>
 
-<exercise number="27"><statement><p>The <m>x</m>-intercepts of <m>~y=2x^2+bx+c</m> are <m>-4.2</m> and <m>2.6</m>. What are the solutions of <m>~2x^2+bx+c \gt 0</m>?</p></statement>
+<exercise number="27"><statement><p>The <m>x</m>-intercepts of the graph of <m>~y=2x^2+bx+c~</m> are <m>-4.2</m> and <m>2.6</m>. What are the solutions of the inequality <m>~2x^2+bx+c \gt 0</m>?</p></statement>
     <answer><m>(-\infty, -4.2) \cup (2.6, \infty)</m></answer></exercise>
 
-<exercise number="28"><statement><p>The <m>x</m>-intercepts of <m>~y=-x^2+bx+c</m> are <m>-2 \pm \sqrt{17}.</m> Which of the following are solutions of <m>~-x^2+bx+c \ge 0</m>? <ol label="a" cols="2">
+<exercise number="28"><statement><p>The <m>x</m>-intercepts of the graph of <m>~y=-x^2+bx+c~</m> are <m>-2 \pm \sqrt{17}.</m> Which of the following are solutions of the inequality <m>~-x^2+bx+c \ge 0</m>? <ol label="a" cols="2">
     <li><m>2</m></li>
     <li><m>-6</m></li>
     <li><m>\sqrt{17}</m></li>

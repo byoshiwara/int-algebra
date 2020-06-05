@@ -6,9 +6,9 @@
 
 <subsection><title>Finding the Vertex</title>
 
-<p>In Section 3.3 we saw that the vertex of the graph of <m>~y=ax^2+bx~</m>has -coordinate given by
+<p>In Section 3.3 we saw that the vertex of the graph of <m>~y=ax^2+bx~</m>has <m>x</m>-coordinate given by
     <me>x_v=\dfrac{-b}{2a}</me>
-Now we'll see that the same formula holds for any parabola.  Use your calculator t<m>x</m>o graph the two parabolas
+Now we'll see that the same formula holds for any parabola.  Use your calculator to graph the two parabolas
     <md><mrow>y \amp = 2x^2+8x</mrow>
         <mrow>y \amp = 2x^2+8x+6</mrow></md> 
  in the window  
@@ -84,9 +84,7 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
 <p>We set <m>x=0</m> to find the <m>y</m>-intercept, <m>(0,1)</m>. Now, the axis of symmetry of the parabola is the vertical line that passes through its vertex. That line is <m>x=-1.5</m>, so the <m>y</m>-intercept lies 1.5 units to the right of the axis. There must be another point on the parabola with the same <m>y</m>-coordinate as the intercept but 1.5 units to the left of the axis. This point is <m>(-3,1)</m>.</p>
 
 <p>By plotting the vertex, the <m>y</m>-intercept, and its symmetric point, we can make a quick sketch of the parabola, as shown below.</p>
-    <sidebyside width="40%">
-        <image xml:id="fig-xsqd-plus-3x-plus-1">
-        <description>parabola</description>
+    <sidebyside width="40%"><image xml:id="fig-xsqd-plus-3x-plus-1"><description>parabola</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -106,15 +104,12 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
         \filldraw[red](0,1) circle (.12) node[right, xshift=.2cm,fill=white, inner sep=1, text=black]{$(0,1)$};
         \filldraw[red](-3,1) circle (.12) node[left, xshift=-.2cm,fill=white, inner sep=1, text=black]{$(-3,1)$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
+        </latex-image></image></sidebyside>
 <p>If we need more accuracy in our graph, we can find and plot more points, including the <m>x</m>-intercepts.</p>
 </solution></example>
 
 <exercise><title>Practice 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         Context("Point");
         $answer = Point("(2.5,-3.25)");
     </pg-code>
@@ -125,9 +120,7 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
     <solution><p><m>(2.5,-3.25)</m>; an graph is below.</p></solution>
 </webwork>
 <conclusion>
-    <sidebyside width="40%" margins="0% 0%">
-        <image xml:id="fig-xsqd-minus-5x-plus-3">
-        <description>parabola</description>
+    <sidebyside width="35%" margins="0% 0%"><image xml:id="fig-xsqd-minus-5x-plus-3"><description>parabola</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -145,19 +138,18 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
         \draw[samples=65,domain={-sqrt(53)/2+5/2:sqrt(53)/2+5/2},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2 -5* \x+3 });
         \filldraw[red](2.5,-3.25) circle (.12) node[below , yshift=-.2cm,fill=white, inner sep=1, text=black]{$(2.5,-3.25)$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
+        </latex-image></image></sidebyside>
 </conclusion>
 </exercise>
+
 </subsection>
 
 <subsection><title>Maximum or Minimum Values</title>
 
-<p>Many quadratic models arise as the product of two variables, one of which increases while the other decreases. For example, in the Activities for Section 3.2 we looked at the areas of different rectangles with the same perimeter. The area of a rectangle is the product of its length and its width, or <m>A=lw</m>.  If we require that the rectangle have a certain perimeter, then as we increase its length, we must also decrease its width.</p>  
+<p>Many quadratic models arise as the product of two variables, one of which increases while the other decreases. For example, in the Investigation for Chapter 3 we looked at the areas of different rectangles with the same perimeter. The area of a rectangle is the product of its length and its width, or <m>A=lw</m>.  If we require that the rectangle have a certain perimeter, then as we increase its length, we must also decrease its width.</p>  
     
 <p>Another example is the formula for the revenue from sales of an item:
-    <me>\text{Revenue} = \text{(price of one item)} \times \text{(number of items sold)}</me>
+    <me>\blert{\text{Revenue} = \text{(price of one item)} \times \text{(number of items sold)}}</me>
 Usually, when the price of an item increases, the number of items sold decreases.</p>
 
 <p>Finding the maximum or minimum value for a variable expression is a common problem in applications. For example, if you own a company that manufactures blue jeans, you might like to know how much to charge for your jeans in order to maximize your revenue. As you increase the price of the jeans, your revenue may increase for a while. But if you charge too much for the jeans, consumers will not buy as many pairs, and your revenue may actually start to decrease. Is there some optimum price you should charge for a pair of jeans in order to achieve the greatest revenue?</p>
@@ -178,7 +170,7 @@ Usually, when the price of an item increases, the number of items sold decreases
         <li><p>As you can see from the graph, the maximum value of <m>R</m> occurs at the vertex of the parabola. Thus,
                 <md><mrow>x_v\amp=\frac{-b}{2a}=\frac{-600}{2(-15)}=20</mrow>
                     <mrow>y_v\amp=600(\alert{20}) - 15(\alert{20})^2 = 6000</mrow></md>
-        The revenue takes on its maximum value when <m>x = 20</m>, and the maximum value is <m>R = 6000</m>. This means that Late Nite Blues should charge $<m>20</m> for a pair of jeans in order to maximize revenue at $<m>6000</m> a week.</p></li></ol></p>
+        The revenue takes on its maximum value when <m>x = 20</m>, and the maximum value is <m>R = 6000</m>. This means that Late Nite Blues should charge $20 for a pair of jeans in order to maximize revenue at $6000 a week.</p></li></ol></p>
     </solution></example>
 
 <note><p>If the equation relating two variables is quadratic, then the maximum or minimum value is easy to find: It is the value at the vertex. If the parabola opens downward, as in <xref ref="example-maximum-revenue" text="type-global"/>, there is a maximum value at the vertex. If the parabola opens upward, there is a minimum value at the vertex.</p></note>
@@ -238,8 +230,8 @@ and its graph is shown below.</p>
     with vertex labeled</description></image></sidebyside>
 
 <p>Notice that the coordinates of the vertex, <m>(3,-8)</m>, are apparent in the original equation; we don’t need to do any computation to find the vertex.
-        <md><mrow>y = 2(x - \amp \alert{3})^2 ~ \amp\alert{- 8}</mrow>
-            <mrow>\amp \alert{x_v} \amp \alert{y_v}</mrow></md>
+        <md><mrow>y = 2(x - \amp \alert{3})^2 ~~ \alert{- 8}</mrow>
+            <mrow>\amp \alert{x_v} ~~~~~~~~\alert{y_v}</mrow></md>
 This equation is an example of the <term>vertex form</term><idx>vertex form</idx> for a quadratic function.</p>
 
 <assemblage><title>Vertex Form for a Quadratic Equation</title>

@@ -210,7 +210,7 @@ Eliminating <m>b</m> from Equations (4) and (5) gives us
 <sidebyside widths="65% 25%"><stack><p> We substitute this value into Equation (4) to find <m>b = -0.5</m>, then substitute both values into Equation (1) to find <m>c = 16.2</m>.</p> 
 <p>Thus, our quadratic model is
         <me>C = 0.006v^2 - 0.5v + 16.2</me> 
-The graph of this function, along with the data points, is shown at right.</p></stack>
+The graph of this equation, along with the data points, is shown at right.</p></stack>
     <image source="images/fig-parabola-fitting-scatterplot"><description>parabola fitting nonlinear scatterplot</description></image></sidebyside>
 </solution></example>
 
@@ -246,7 +246,7 @@ The graph of this function, along with the data points, is shown at right.</p></
                 <cell><m>55.5</m></cell>
                 <cell><m>57.4</m></cell>
                 <cell><m>60.8</m></cell>
-                <cell><m>63.6</m></cell>
+               <cell><m>63.6</m></cell>
             </row>
         </tabular></sidebyside>     
         <ol label="a">
@@ -281,8 +281,7 @@ The graph of this function, along with the data points, is shown at right.</p></
 </exercise>
 
 <exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $TF = PopUp(
           ["?","True", "False"],
           1, 
@@ -292,26 +291,19 @@ The graph of this function, along with the data points, is shown at right.</p></
           2, 
         );
     </pg-code>
-    <statement>
-        <p>True or False  
-            <ol label="a">
-                <li>We can plot the data points to see what type of curve is appropriate as a model.  <var name="$TF" form="popup"/> </li>
-                <li>We write a system of equations in which the <m>y</m>-coordinates of the data points are the unknown values.  <var name="$False" form="popup"/></li>
-                <li>A good regression equation will pass through all of the data points.  <var name="$False" form="popup"/></li>
-                <li>According to the model in Example 2, higher speeds always result in higher driving costs.  <var name="$False" form="popup"/></li>
-            </ol>
-        </p>
-    </statement>
-    <solution>
-        <p><ol label="a">
+<statement><p>True or False  <ol label="a">
+    <li>We can plot the data points to see what type of curve is appropriate as a model.  <var name="$TF" form="popup"/> </li>
+    <li>We write a system of equations in which the <m>y</m>-coordinates of the data points are the unknown values.  <var name="$False" form="popup"/></li>
+    <li>A good regression equation will pass through all of the data points.  <var name="$False" form="popup"/></li>
+    <li>According to the model in Example 2, higher speeds always result in higher driving costs.  <var name="$False" form="popup"/></li></ol></p>
+</statement>
+<solution><p><ol label="a">
             <li>True</li>
             <li>False</li>
             <li>False</li>
-            <li>False</li>
-        </ol></p>
+            <li>False</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -378,6 +370,7 @@ The graph of this function, along with the data points, is shown at right.</p></
         <sidebyside width="40%" margins="0% 60$"><image source="images/fig-ex-4-3-5."><description>parabola fit to points</description></image></sidebyside>
     </conclusion>
 </exercise>
+
 </subsection>
 
 <subsection><title>Choosing an Appropriate Model</title>
@@ -388,7 +381,7 @@ The graph of this function, along with the data points, is shown at right.</p></
 <p>In <xref ref="example-quadratic-fit" text="type-global"/>, suppose Major Motors had collected only the first three data points and fit a line through them, as shown at left. This regression line gives poor predictions for the cost of driving at 60 or 70 miles per hour.</p>
 </sidebyside>
 
-<example><statement><p>Delbert records the height of the tip of the minute hand on the classroom’s clock at different times. The data are shown in the table, where time is measured in minutes since noon. (A negative time indicates a number of minutes before noon.) Find a quadratic regression equation for the data and use it to predict the height of the minute hand's tip at <m>40</m> minutes past noon. Do you believe this prediction is valid?</p>
+<example><statement><p>Delbert records the height of the tip of the minute hand on the classroom’s clock at different times. The data are shown in the table, where time is measured in minutes since noon. (A negative time indicates a number of minutes before noon.) Find a quadratic regression equation for the data and use it to predict the height of the minute hand's tip at 40 minutes past noon. Do you believe this prediction is valid?</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
             <row bottom="minor">
                 <cell><line>Time</line><line>(minutes)</line></cell>
@@ -422,7 +415,7 @@ The graph of this function, along with the data points, is shown at right.</p></
         <me>y = -0.00297x^2 + 0x + 8.834</me>
 From either the graph of the regression equation or from the table (see figure below), we can see that the fit is not perfect, although the curve certainly fits the data better than any straight line could.</p>
         <sidebyside><image source="images/fig-GC-bad-quadratic-fit"><description>GC screens of graph and tables for quadratic fit</description></image></sidebyside>
-<p>If we scroll down the table, we find that this equation predicts a height of approximately <m>4.08</m> feet at time <m>40</m> minutes. (See figure (c).) This is a preposterous estimate! The position of the minute hand at <m>40</m> minutes after noon should be the same as it was exactly one hour earlier (at 20 minutes before noon), when it was <m>7.50</m> feet.</p></solution></example>
+<p>If we scroll down the table, we find that this equation predicts a height of approximately 4.08 feet at time 40 minutes. (See figure (c).) This is a preposterous estimate! The position of the minute hand at 40 minutes after noon should be the same as it was exactly one hour earlier (at 20 minutes before noon), when it was 7.50 feet.</p></solution></example>
 
 <warning><p>Using the wrong type of function to fit the data is a common error in making predictions. In the Example above, we know that the minute hand of a clock repeats its position every <m>60</m> minutes. The graph of the height of its tip oscillates up and down, repeating the same pattern over and over. We cannot describe such a graph using either a linear or a quadratic function.</p>
 
@@ -434,8 +427,7 @@ From either the graph of the regression equation or from the table (see figure b
 <p>Even though your calculator can always compute a regression equation,that equation is not necessarily appropriate for your data. Choosing a reasonable type of regression equation for a particular data set requires knowledge of different kinds of models and the physical or natural laws that govern the situation at hand.</p></warning>
 
 <exercise><title>QuickCheck 3</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $TF = PopUp(
           ["?","True", "False"],
           1, 
@@ -445,26 +437,20 @@ From either the graph of the regression equation or from the table (see figure b
           2, 
         );
     </pg-code>
-    <statement>
-        <p>True or False  
-            <ol label="a">
-                <li>Your calculator can choose the correct type of regression equation for a data set.  <var name="$False" form="popup"/> </li>
-                <li>It is only necessary to use the first and last data points to compute a regression equation.  <var name="$False" form="popup"/></li>
-                <li>A regression equation may fit some of the data but still be a poor model.  <var name="$TF" form="popup"/></li>
-                <li>A good regression equation should fit all the data points exactly.  <var name="$False" form="popup"/></li>
-            </ol>
-        </p>
+<statement><p>True or False  <ol label="a">
+    <li>Your calculator can choose the correct type of regression equation for a data set.  <var name="$False" form="popup"/> </li>
+    <li>It is only necessary to use the first and last data points to compute a regression equation.  <var name="$False" form="popup"/></li>
+    <li>A regression equation may fit some of the data but still be a poor model.  <var name="$TF" form="popup"/></li>
+    <li>A good regression equation should fit all the data points exactly.  <var name="$False" form="popup"/></li>
+        </ol></p>
     </statement>
-    <solution>
-        <p><ol label="a">
+    <solution><p><ol label="a">
             <li>False</li>
             <li>False</li>
             <li>True</li>
-            <li>False</li>
-        </ol></p>
+            <li>False</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>Practice 4</title>
     <webwork><pg-code>
@@ -478,7 +464,7 @@ From either the graph of the regression equation or from the table (see figure b
               tolerance => .01,
             );            
         </pg-code>
-    <statement><p>A speeding motorist slams on the brakes when she sees an accident directly ahead of her. The distance she has traveled <m>t</m> seconds after braking is shown in the table.</p>
+<statement><p>A speeding motorist slams on the brakes when she sees an accident directly ahead of her. The distance she has traveled <m>t</m> seconds after braking is shown in the table.</p>
             <sidebyside><tabular  top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row>
                     <cell>Time (seconds)</cell>
@@ -506,7 +492,7 @@ From either the graph of the regression equation or from the table (see figure b
     <solution>
         <p><ol label="a">
             <li><p>A graph is below. </p><p><m>y = -15x^2 + 110x - 0.07</m></p></li>
-            <li><p><m>(3.67, 201)</m>: The car came to a stop in <m>3.67</m> seconds, after sliding <m>201</m> feet.</p></li></ol></p>
+            <li><p><m>(3.67, 201)</m>: The car came to a stop in 3.67 seconds, after sliding 201 feet.</p></li></ol></p>
     </solution>
     </webwork>
     <conclusion>

@@ -178,7 +178,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         \filldraw[red] (7,0) ellipse (.15 and .1);
         \end{tikzpicture}]]>
     </latex-image></image>    
-    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown in at left. The <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p></sidebyside>
+    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown in at left. Notice that the <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p></sidebyside>
 </note>
 
 <p>We can also solve <m>x^2 - 6x - 7 = 0</m> by factoring instead of completing the square. Of course, we get the same solutions by either method. In the next Example, we solve an equation that cannot be solved by factoring.</p> 

@@ -76,35 +76,13 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
           2, 
         );
      </pg-code>
-    <statement>
-        <p>
-            Fill in the blanks.
-            <ol label="a">
-                <li>
-                    <p>
-                        Inverse variation can be expressed as a power function by using a <var name="$a" form="popup"/> exponent.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The number <m>n</m> in the expression <m>\sqrt[n]{b}</m> is called the <var name="$b" form="popup"/> of the radical.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        We use <var name="$c" form="popup"/> exponents to denote radicals.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        State the law of exponents that shows that <m>a^{1/2}</m> is a square root of <m>a</m>.
-                    </p>
-                    <p>
-                        <var name="$d" form="buttons"/>
-                    </p>
-                </li>
-            </ol>
-        </p>
+    <statement><p>Fill in the blanks.<ol label="a">
+        <li><p>Inverse variation can be expressed as a power function by using a <var name="$a" form="popup"/> exponent.
+             </p></li>
+        <li><p>The number <m>n</m> in the expression <m>\sqrt[n]{b}</m> is called the <var name="$b" form="popup"/> of the radical.</p></li>
+        <li><p>We use <var name="$c" form="popup"/> exponents to denote radicals.</p></li>
+        <li><p>State the law of exponents that shows that <m>a^{1/2}</m> is a square root of <m>a</m>.</p>
+            <p><var name="$d" form="buttons"/></p></li></ol></p>
     </statement>
     <solution><p><ol label="a">
         <li>negative</li>
@@ -112,8 +90,7 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
         <li>fractional</li>
         <li><m>(a^m)^n = a^{mn}</m></li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <p>In general, any nonnegative number raised to the <m>1/2</m> power is equal to the positive square root of the number, or
     <me>a^{1/2} =\sqrt{a}</me></p>
@@ -157,7 +134,7 @@ Thus, we make the following definition for fractional exponents.</p>
 
 <assemblage><title>Exponential Notation for Radicals</title>
     <p>For any integer <m>n \ge 2</m> and for <m>a \ge 0</m>,
-    <me>a^{1/n} = \sqrt[n]{a}</me>
+    <me>\blert{a^{1/n} = \sqrt[n]{a}}</me>
 </p></assemblage>
 
 <example xml:id="example-exponential-notation2"><statement><p><ol label="a" cols="2">
@@ -252,8 +229,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 </exercise>
 
 <exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $True = PopUp(
           ["?","True", "False"],
           1, 
@@ -263,55 +239,35 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
           2, 
         );
     </pg-code>
-    <statement>
-        <p>
-            True or false.
-            <ol label="a">
-                <li>
-                    <p>The exponent <m>\dfrac{1}{n}</m> tells us to take a reciprocal. <var name="$False" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The exponent 0.2 denotes a fifth root. <var name="$True" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        A power with a negative exponent is not a real number. <var name="$False" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The expressions <m>x^{-3}</m> and <m>x^{1/3}</m> are the same. <var name="$False" form="popup"/>
-                    </p>
-                </li>
-            </ol>
+<statement><p>True or false.<ol label="a">
+    <li><p>The exponent <m>\dfrac{1}{n}</m> tells us to take a reciprocal. <var name="$False" form="popup"/></p></li>
+    <li><p>The exponent 0.2 denotes a fifth root. <var name="$True" form="popup"/></p></li>
+    <li><p>A power with a negative exponent is not a real number. <var name="$False" form="popup"/></p></li>
+    <li><p>The expressions <m>x^{-3}</m> and <m>x^{1/3}</m> are the same. <var name="$False" form="popup"/></p></li></ol>
         </p>
-    </statement>
+</statement>
     <solution><p><ol label="a">
         <li>False</li>
         <li>True</li>
         <li>False</li>
         <li>False</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
 <subsection><title>Irrational Numbers</title>
 
-<p>What about <m>n</m>th roots such as <m>\sqrt{23}</m> and <m>5^{1/3}</m> that cannot be evaluated easily? These are examples of <term>irrational numbers</term><idx>irrational numbers</idx>. An irrational number is one that cannot be expresses as a quotient of two integers.</p>
+<p>What about <m>n</m>th roots such as <m>\sqrt{23}</m> and <m>5^{1/3}</m> that cannot be evaluated easily? These are examples of <term>irrational numbers</term><idx>irrational numbers</idx>. An irrational number is one that cannot be expressed as a quotient of two integers.</p>
 
 <p>It is not possible to write down an exact decimal equivalent for an irrational number, but we can find an approximation to as many decimal places as we like. We can use a calculator to obtain decimal approximations for irrational numbers. For example, you can verify that
-    <me>\sqrt{23} \approx 4.796 ~ \text{ and } ~ 5^{1/3}\approx 1.710</me></p>
+    <me>\sqrt{23} \approx 4.796 ~~~~~ \text{ and } ~~~~~ 5^{1/3}\approx 1.710</me></p>
 
 <warning><p>The following keying sequence for evaluating the irrational number <m>7^{1/5}</m> is incorrect:</p>
     <p> 7 <c>^</c> 1  <c>÷</c> 5  <c>ENTER</c></p>
 <p>You can check that this sequence calculates <m>\dfrac{7^1}{5}</m>, instead of <m>7^{1/5}</m>. Recall that according to the order of operations, powers are computed before multiplications or divisions. We must enclose the exponent <m>1/5</m> in parentheses and enter</p>
     <p>7 <c>^</c> ( 1 <c>÷</c> 5 ) <c>ENTER</c>   </p>
-<p>Or, because <m>\frac{1}{5}= 0.2</m>, we can enter</p>
+<p>Or, because <m>\dfrac{1}{5}= 0.2</m>, we can enter</p>
     <p>7 <c>^</c> 0.2 <c>ENTER</c></p></warning>  
 </subsection>
 
@@ -400,40 +356,21 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
           2, 
         );
     </pg-code>
-    <statement>
-        <p>
-            True or false.
-            <ol label="a">
-                <li>
-                    <p>All expressions of the form <m>x^{1/n}</m> represent irrational numbers. <var name="$False" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        When we enter an exponent <m>1/n</m> into a calculator, we must enclose it in parentheses. <var name="$True" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        In the expression <m>16x^{1/4}</m>, the exponent does not apply to 16. <var name="$True" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        You can use your calculator to find a decimal equivalent for an irrational number. <var name="$False" form="popup"/>
-                    </p>
-                </li>
-            </ol>
-        </p>
-    </statement>
+<statement><p>True or false.<ol label="a">
+    <li><p>All expressions of the form <m>x^{1/n}</m> represent irrational numbers. <var name="$False" form="popup"/>
+        </p></li>
+    <li><p>When we enter an exponent <m>1/n</m> into a calculator, we must enclose it in parentheses. <var name="$True" form="popup"/></p></li>
+    <li><p>In the expression <m>16x^{1/4}</m>, the exponent does not apply to 16. <var name="$True" form="popup"/>
+        </p></li>
+    <li><p>You can use your calculator to find a decimal equivalent for an irrational number. <var name="$False" form="popup"/></p></li></ol></p>
+</statement>
     <solution><p><ol label="a">
         <li>False</li>
         <li>True</li>
         <li>True</li>
         <li>False</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -441,7 +378,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 
 <p>We know that raising to powers and taking roots are inverse operations, that is, each operation undoes the effects of the other. This relationship is especially easy to see when the root is denoted by a fractional exponent. For example, to solve the equation 
     <me>x^5 = 250</me>
-we would take the fourth root of each side. But instead of using radical notation, we can raise both sides of the equation to the power <m>\dfrac{1}{5}</m>:
+we would take the fifth root of each side. But instead of using radical notation, we can raise both sides of the equation to the power <m>\dfrac{1}{5}</m>:
         <md><mrow>\left(x^5\right)^{1/5} \amp= 250^{1/5}</mrow>
             <mrow>x \amp \approx 3.017</mrow></md>
 The third law of exponents tells us that <m>\left(x^a\right)^b = x^{ab}</m>, so 
@@ -450,7 +387,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
 
 <example xml:id="example-star-luminosity"><statement><p>For astronomers, the mass of a star is its most important property, but it is also the most difficult to measure directly. For many stars, their luminosity, or brightness, varies roughly as the fourth power of the mass.<ol label="a">
     <li>Our Sun has luminosity <m>4 \times 10^{26}</m> watts and mass <m>2 \times 10^{30}</m> kilograms. Because the numbers involved are so large, astronomers often use these solar constants as units of measure: The luminosity of the Sun is <m>1</m> solar luminosity, and its mass is <m>1</m> solar mass. Write a power function for the luminosity, <m>L</m>, of a star in terms of its mass, <m>M</m>, using units of solar mass and solar luminosity.</li>
-    <li>The star Sirius is <m>23</m> times brighter than the Sun, so its luminosity is <m>23</m> solar luminosities. Estimate the mass of Sirius in units of solar mass.</li></ol></p>
+    <li>The star Sirius is 23 times brighter than the Sun, so its luminosity is 23 solar luminosities. Estimate the mass of Sirius in units of solar mass.</li></ol></p>
 </statement>
 
 <solution><p><ol label="a">
@@ -464,12 +401,11 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
     To solve the equation for <m>M</m>, we raise both sides to the <m>\dfrac{1}{4}</m> power.
         <md><mrow>(23)^{1/4} \amp = \left(M^4\right)^{1/4}</mrow>
             <mrow>2.1899 \amp = M</mrow></md>
-    The mass of Sirius is about <m>2.2</m> solar masses, or about <m>2.2</m> times the mass of the Sun.</li></ol></p>
+    The mass of Sirius is about 2.2 solar masses, or about 2.2 times the mass of the Sun.</li></ol></p>
 </solution></example>
 
 <exercise><title>QuickCheck 4</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $a = RadioButtons(
           ["Divide both sides of the equation by 8.", 
           "Add \(-8\) to each side of the equation.", 
@@ -486,32 +422,17 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
           2, 
         );
     </pg-code>
-    <statement>
-        <p><ol label="a">
-            <li>
-                <p>
-                    How do we solve the equation <m>x^8=32</m>?
-                </p>
-                <p>
-                    <var name="$a" form="buttons"/>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Which law of exponents justifies this strategy?
-                </p>
-                <p>
-                    <var name="$b" form="buttons"/>
-                </p>
-            </li>
-        </ol></p>
-    </statement>
+<statement><p><ol label="a">
+    <li><p>How do we solve the equation <m>x^8=32</m>?</p>
+        <p><var name="$a" form="buttons"/></p></li>
+    <li><p>Which law of exponents justifies this strategy?</p>
+        <p><var name="$b" form="buttons"/></p></li></ol></p>
+</statement>
     <solution><p><ol label="a">
         <li>Raise each side to the power <m>1/8</m>.</li>
         <li><m>\left(x^a\right)^b = x^{ab}</m></li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -582,9 +503,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
                         <cell><m>9.2</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li>We plot the points from the table and draw a smooth curve to obtain the graph shown.
-        <sidebyside  width="45%">
-            <image xml:id="fig-example-diamond">
-                <description>diameter vs carats</description>
+        <sidebyside  width="45%"><image xml:id="fig-example-diamond"><description>diameter vs carats</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -602,10 +521,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
                 \draw[samples=65,domain={0:3.8},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {6.4*(\x)^(1/3)});
                 \node[above, text=red, fill=white, inner sep=2] at (2.3,3) {$D=6.4 w^{1/3}$};
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-
-        </sidebyside></li>
+                </latex-image></image></sidebyside></li>
     <li>We evaluate the function for <m>w=45.52</m> to obtain
         <me>D=6.4(45.52)^{1/3} = 22.85</me>
      According to our formula, the Hope Diamond is about 22.85 millimeters in diameter.</li></ol></p>
@@ -728,6 +644,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
         <sidebyside width="20%" margins="0% 80%"><image source="images/fig-ex-6-2-8ans"><description>power function</description></image></sidebyside>
     </conclusion>
 </exercise>
+
 </subsection>
 
 <subsection><title>Solving Radical Equations</title>
@@ -743,22 +660,22 @@ Then we raise both sides of the equation to the reciprocal of <m>\dfrac{1}{3}</m
 <example xml:id="example-car-brakes"><statement><p>When a car brakes suddenly, its speed can be estimated from the length of the skid marks it leaves on the pavement. A formula for the car’s speed, in miles per hour, is 
     <me>v = f(d) = (24d)^{1/2}</me> 
 where the length of the skid marks, <m>d</m>, is given in feet.<ol label="a">
-    <li>If a car leaves skid marks <m>80</m> feet long, how fast was the car traveling when the driver applied the brakes?</li>
-    <li>How far will a car skid if its driver applies the brakes while traveling <m>80</m> miles per hour?</li></ol></p>
+    <li>If a car leaves skid marks 80 feet long, how fast was the car traveling when the driver applied the brakes?</li>
+    <li>How far will a car skid if its driver applies the brakes while traveling 80 miles per hour?</li></ol></p>
 </statement>
 
 <solution><p><ol label="a">
     <li><p>To find the velocity of the car, we evaluate the function for <m>d = \alert{80}</m>.
         <md><mrow>v\amp= (24 \cdot \alert{80})^{1/2}</mrow>
             <mrow>\amp = (1920)^{1/2} \approx 43.8178046</mrow></md>
-        The car was traveling at approximately <m>44</m> miles per hour.</p></li>
+        The car was traveling at approximately 44 miles per hour.</p></li>
     <li><p>We would like to find the value of <m>d</m> when the value of <m>v</m> is known. We substitute <m>v = \alert{80}</m> into the formula and solve the equation
         <me>\alert{80} = (24d)^{1/2} ~~ \blert{\text{ Solve for }d.}</me>
     Because <m>d</m> appears to the power <m>\frac{1}{2}</m>, we first square both sides of the equation to get
         <md><mrow>80^2 \amp = \left((24d)^{1/2}\right)^2 \amp\amp \blert{\text{Square both sides.}}</mrow>
             <mrow>6400 \amp = 24d \amp\amp \blert{\text{Divide by }24.}</mrow>
             <mrow>266.\overline{6} \amp = d</mrow></md>
-    You can check that this value for <m>d</m> works in the original equation. Thus, the car will skid approximately <m>267</m> feet. A graph of the function <m>v = (24d)^{1/2}</m> is shown below, along with the points corresponding to the values in parts (a) and (b).</p>
+    You can check that this value for <m>d</m> works in the original equation. Thus, the car will skid approximately 267 feet. A graph of the function <m>v = (24d)^{1/2}</m> is shown below, along with the points corresponding to the values in parts (a) and (b).</p>
     <sidebyside  width="50%"><image source="images/fig-velocity-vs-braking-distance" ><description>velocity vs braking distance</description></image></sidebyside></li>
 </ol></p></solution></example>
 

@@ -94,8 +94,8 @@
                     <mrow>\amp 12s+4t=24</mrow></md></p></statement></exercise>
 
 <exercise number="11"><statement><p>
-                <md><mrow>-3x \amp 4y+12</mrow>
-                    <mrow>\dfrac{1}{2}x + 2 \amp \dfrac{-2}{3}y</mrow></md></p></statement>
+                <md><mrow>-3x \amp = 4y+12</mrow>
+                    <mrow>\dfrac{1}{2}x + 2 \amp = \dfrac{-2}{3}y</mrow></md></p></statement>
 <answer><p>Dependent</p></answer></exercise>
 
 <exercise number="12"><statement><p>
@@ -477,7 +477,7 @@
 </answer>
 </exercise>
 
-<exercise number="20"><statement><p>The table below gives data for the mean and median ages for men in the United States.  Repeat Exercise 19 for these data.</p>
+<exercise number="20"><statement><p>The table below gives data for the mean and median ages for men in the United States.  Repeat Problem 19 for these data.</p>
     
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">

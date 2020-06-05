@@ -247,7 +247,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
             <mrow>\amp \amp \amp \blert{\text{has two square roots.}}</mrow></md></p></li></ul>
     The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.</p>  
 
-<note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions.</p></note>
+<note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions. (Well, except those equivalent to <m>x^2=0</m>.)</p></note>
 
 <example><statement><p>Solve the equation
         <md><mrow>\frac{1}{2}x^2-7=8</mrow></md>
@@ -276,7 +276,7 @@ graphically and algebraically.</p></statement>
             \filldraw[red] ({sqrt(30)},8) circle (.2);
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside> 
-<p>We would like to find the <m>x</m>-values that make <m>y=8</m>. The horizontal line <m>y=8</m> intersects the graph at two points with <m>x</m>-coordinates approximately <m>5.5</m> and <m>-5.5</m>. These are the solution of the equation.</p>  
+<p>We would like to find the <m>x</m>-values that make <m>y=8</m>. The horizontal line <m>y=8</m> intersects the graph at two points with <m>x</m>-coordinates approximately <m>5.5</m> and <m>-5.5</m>. These are the solutions of the equation.</p>  
 <p>Algebraically, we solve the equation as follows. <ul> 
         <li><p>First, we isolate the variable.  We add 7 to both sides, then multiply by 2, yielding <m>~x^2=30</m>.</p></li> 
         <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
@@ -365,7 +365,7 @@ graphically and algebraically.</p></statement>
         <me>t=\pm \sqrt{1.25} \approx \pm 1.118</me>
     Only the positive solution makes sense here, so the cat has approximately 1.12 seconds to be in position for landing.</p></li></ol></p>
 <p>A graph of the cat's height after <m>t</m> seconds is shown below. The points corresponding to parts (a) and (b) are labeled.</p>
-    <sidebyside  width="40%"><image source="images/fig-cat-falling"><description>graph </description></image></sidebyside>
+    <sidebyside  width="30%"><image source="images/fig-cat-falling"><description>graph </description></image></sidebyside>
 </solution></example>
 </subsection>
 

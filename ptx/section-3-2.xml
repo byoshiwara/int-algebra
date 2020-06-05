@@ -147,7 +147,7 @@ are the solutions of the equation
     <me>0=ax^2+bx+c</me>
 So we can always solve a quadratic equation to find the <m>x</m>-intercepts of a parabola (if there are any).</p>
 
-<p>And we can use this relationship the other way round, too: If we know the <m>x</m>-intercepts of the graph of <m>~y=ax^2+bx+c,~</m>, we also know the solutions of the equation <m>ax^2+bx+c=0</m>.</p>
+<p>And we can use this relationship the other way round, too: If we know the <m>x</m>-intercepts of the graph of <m>~y=ax^2+bx+c,~</m> we also know the solutions of the equation <m>ax^2+bx+c=0</m>.</p>
 
 <exercise><title>Practice 2</title>
     <webwork><pg-code>

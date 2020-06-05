@@ -123,7 +123,7 @@
 <exercise number="14"><statement><m>c^{-2/3}\left(\dfrac{2}{3}c^2 \right) </m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 15<ndash/>20, solve. Round your answers to the nearest thousandth if necessary.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>20, solve. Round your answers to the nearest thousandth if necessary.</p></introduction>
 
 <exercise number="15"><statement><p><m>x^{2/3} - 1 = 15</m></p></statement>
 <answer><p><m>x = 64</m></p></answer></exercise>
@@ -208,7 +208,7 @@
                         <cell><m>~~~</m></cell>
                         <cell><m>~~~</m></cell></row>
                     </tabular></sidebyside></p>
-    <sidebyside  width="50%"><image xml:id="fig-hw-6-3-31"><description>grid</description><latex-image>
+    <sidebyside  width="40%"><image xml:id="fig-hw-6-3-31"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -254,7 +254,7 @@
                         <cell><m>11.2</m></cell>
                         <cell><m>14.7</m></cell></row>
                     </tabular></sidebyside></p>
-    <sidebyside  width="50%"><image xml:id="fig-hw-6-3-31ans"><description>power functions</description><latex-image>
+    <sidebyside  width="40%"><image xml:id="fig-hw-6-3-31ans"><description>power functions</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -301,7 +301,7 @@
                         <cell><m>~~~</m></cell>
                         <cell><m>~~~</m></cell></row>
                     </tabular></sidebyside></p>
-    <sidebyside  width="50%"><image xml:id="fig-hw-6-3-32"><description>grid</description><latex-image>
+    <sidebyside  width="40%"><image xml:id="fig-hw-6-3-32"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -322,10 +322,9 @@
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 4</mrow></md></p></li></ol></p></statement>
 <answer></answer></exercise>
 
-<exercisegroup><introduction><p>For Problems 33 and 34, solve the equations, and locate the corresponding points on the graphs in Problems 31 and 32.
-</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 33 and 34, solve the equations, and locate the corresponding points on the graphs in Problems 31 and 32.</p></introduction>
 
-<exercise number="33"><statement><p><ol label="a" cols="2">
+<exercise number="33"><statement><p><ol label="a">
     <li><p><m>x^{4/3}=4 </m></p></li>
     <li><p><m>x^{3/2}=6</m></p></li>
 </ol></p></statement>
@@ -334,7 +333,7 @@
     <li><p><m>3.30</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="34"><statement><p><ol label="a" cols="2">
+<exercise number="34"><statement><p><ol label="a">
     <li><p><m>x^{3/4}=4 </m></p></li>
     <li><p><m>x^{2/3}=6</m></p></li>
 </ol></p></statement></exercise>
@@ -423,8 +422,8 @@ where <m>S</m> is the number of species on an island of area <m>A</m> square kil
                     <cell><m>\hphantom{000000} </m></cell></row>
             </tabular></sidebyside></li>
     <li><p>Graph the function on your calculator for  <m>0\lt A\le 10,000</m>.</p></li>
-    <li><p>How many species of birds would you expect to find on Manus Island, with an area of <m>2100</m> square kilometers? On Lavongai, which bird's area is <m>1140</m> square kilometers?</p></li>
-    <li><p>How large must an island be in order to support <m>200</m> different species of bird?</p></li></ol></p>
+    <li><p>How many species of birds would you expect to find on Manus Island, with an area of 2100 square kilometers? On Lavongai, which bird's area is 1140 square kilometers?</p></li>
+    <li><p>How large must an island be in order to support 200 different species of bird?</p></li></ol></p>
 </statement>
 <answer><p><ol cols="2">
     <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
@@ -442,15 +441,15 @@ where <m>S</m> is the number of species on an island of area <m>A</m> square kil
                     <cell><m>115 </m></cell></row>
             </tabular></sidebyside></li>
     <li><sidebyside width="80%"><image source="images/fig-hw-6-3-35ans"><description>power function</description></image></sidebyside></li>
-    <li><p><m>81</m>, <m>71</m></p></li>
-    <li><p><m>126,000</m> sq km</p></li></ol></p>
+    <li><p>81, 71</p></li>
+    <li><p>126,000 sq km</p></li></ol></p>
 </answer></exercise>
 
 <exercise number="38"><statement><p>The climate of a region has a great influence on the types of animals that can survive there. Extreme temperatures create difficult living conditions, so the diversity of wildlife decreases as the annual temperature range increases. Along the west coast of North America, the number of species of mammals, <m>M</m>, is approximately related to the temperature range, <m>R</m>, (in degrees Celsius) by the function 
     <me>M = f(R) = 433.8R^{-0.742}</me> (Source: Chapman and Reiss, 1992)<ol>
     <li><p>Graph the function for temperature ranges up to <m>30\degree</m>C.</p></li>
     <li><p>How many species would you expect to find in a region where the temperature range is <m>10\degree </m>C? Label the corresponding point on your graph.</p></li>
-    <li><p>If <m>50</m> different species are found in a certain region, what temperature range would you expect the region to experience? Label the corresponding point on your graph.</p></li>
+    <li><p>If 50 different species are found in a certain region, what temperature range would you expect the region to experience? Label the corresponding point on your graph.</p></li>
     <li><p>Evaluate the function to find <m>f(9)</m>, <m>f(10)</m>, <m>f(19)</m>, and <m>f(20)</m>. What do these values represent? Calculate the change in the number of species as the temperature range increases from <m>9\degree</m>C to <m>10\degree</m>C and from <m>19\degree</m>C to <m>20\degree</m>C. Which <m>1\degree</m> increase results in a greater decrease in diversity? Explain your answer in terms of slopes on your graph.</p></li></ol></p>
 </statement></exercise>
 
@@ -471,9 +470,9 @@ where <m>S</m> is the number of species on an island of area <m>A</m> square kil
         <row><cell>Heart rate</cell>
             <cell><m>-0.25</m></cell></row>
     </tabular></sidebyside><p><ol label="a">
-    <li><p>The average body mass of a dolphin is about <m>140</m> kilograms, twice the body mass of an average human male.
+    <li><p>The average body mass of a dolphin is about 140 kilograms, twice the body mass of an average human male.
     Using the allometric equation above, calculate the ratio of the brain mass of a dolphin to that of a human.</p></li>
-    <li><p>A good-sized brown bear weighs about <m>280</m> kilograms, twice the weight of a dolphin. Calculate the ratio of the brain mass of a brown bear to that of a dolphin.</p></li>
+    <li><p>A good-sized brown bear weighs about 280 kilograms, twice the weight of a dolphin. Calculate the ratio of the brain mass of a brown bear to that of a dolphin.</p></li>
     <li><p>Use a ratio to compare the heartbeat frequencies of a dolphin and a human, and those of a brown bear and a dolphin. </p></li></ol></p></statement>
 <answer><p><ol label="a">
     <li>1.62</li>

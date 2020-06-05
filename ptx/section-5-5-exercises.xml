@@ -239,7 +239,7 @@
         <li><p>Sketch a graph of the function by hand, and label the scales on the axes.</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="15"><statement><p>Computer monitors produce a magnetic field. The effect of the field, <m>B</m>, on the user varies inversely with his or her distance, <m>d</m>, from the screen. The field from a certain color monitor was measured at <m>22</m> milligauss <m>4</m> inches from the screen.<ol label="a">
+<exercise number="15"><statement><p>Computer monitors produce a magnetic field. The effect of the field, <m>B</m>, on the user varies inversely with his or her distance, <m>d</m>, from the screen. The field from a certain color monitor was measured at 22 milligauss 4> inches from the screen.<ol label="a">
         <li><p>Express the field strength as a function of distance from the screen. Complete the table and graph your function in a suitable window.</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
@@ -255,8 +255,8 @@
                     <cell><m>\hphantom{0000} </m></cell>
                     <cell><m>\hphantom{0000} </m></cell></row>
             </tabular></sidebyside></li>
-        <li><p>What is the field strength <m>10</m> inches from the screen?</p></li>
-        <li><p>An elevated risk of cancer can result from exposure to field strengths of <m>4.3</m> milligauss. How far from the screen should the computer user sit to keep the field level below <m>4.3</m> milligauss?</p></li>
+        <li><p>What is the field strength 10 inches from the screen?</p></li>
+        <li><p>An elevated risk of cancer can result from exposure to field strengths of 4.3 milligauss. How far from the screen should the computer user sit to keep the field level below 4.3 milligauss?</p></li>
         <li><p>If you double your distance from the screen, how does the field strength change?</p></li>
     </ol></p></statement>
 <answer><p><ol label="a">
@@ -300,19 +300,19 @@
     <li>Find a formula for the function, including the constant of variation, <m>k</m>.</li> 
     <li>Answer the question in the problem.</li></ol></p></introduction>
 
-<exercise number="18"><statement><sidebyside widths="50% 36%" valigns="middle middle"><p>If the price of mushrooms goes up, the amount consumers are willing to buy goes down. The graph shows the number of tons of shiitake mushrooms, <m>m</m>, sold in California each week as a function of their price, <m>p</m>. If the price of shiitake mushrooms rises to <m>\$10</m> per pound, how many tons will be sold?</p>
+<exercise number="18"><statement><sidebyside widths="50% 36%" valigns="middle middle"><p>If the price of mushrooms goes up, the amount consumers are willing to buy goes down. The graph shows the number of tons of shiitake mushrooms, <m>m</m>, sold in California each week as a function of their price, <m>p</m>. If the price of shiitake mushrooms rises to $10 per pound, how many tons will be sold?</p>
     <image source="images/fig-hw-5-5-14"  width="40%"><description>decreasing concave up</description></image></sidebyside>
 </statement>
 <answer><p><ol label="a" cols="2">
     <li><p><m>m =\dfrac{8}{p} </m></p></li>
-    <li><p><m>0.8</m> ton</p></li>
+    <li><p>0.8 ton</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="19"><statement><sidebyside widths="50% 36%" valigns="middle middle"><p>When an adult plays with a small child on a seesaw, the adult must sit closer to the pivot point to balance the seesaw. The graph shows this distance, <m>d</m>, as a function of the adult's weight, <m>w</m>. How far from the pivot must Kareem sit if he weighs <m>280</m> pounds?</p>
+<exercise number="19"><statement><sidebyside widths="50% 36%" valigns="middle middle"><p>When an adult plays with a small child on a seesaw, the adult must sit closer to the pivot point to balance the seesaw. The graph shows this distance, <m>d</m>, as a function of the adult's weight, <m>w</m>. How far from the pivot must Kareem sit if he weighs 280 pounds?</p>
    <image source="images/fig-hw-5-5-15"  width="40%"><description>decreasing concave up</description></image></sidebyside>
 </statement></exercise>
 
-<exercise number="20"><statement><p>The thermocline is a layer of ocean water where the temperature changes rapidly. The table shows the temperature of the water as a function of depth in the thermocline. What is the ocean temperature at a depth of <m>500</m> meters?</p>
+<exercise number="20"><statement><p>The thermocline is a layer of ocean water where the temperature changes rapidly. The table shows the temperature of the water as a function of depth in the thermocline. What is the ocean temperature at a depth of 500 meters?</p>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row><cell>Depth (m)</cell>
             <cell>Temperature (<m>\degree</m>C)</cell></row>
@@ -328,7 +328,7 @@
     <li><p><m>8\degree</m>C</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="21"><statement><p>The shorter the length of a vibrating guitar string, the higher the frequency of the vibrations. The fifth string is <m>65</m> centimeters long and is tuned to A (with a frequency of <m>220</m> vibrations per second). The placement of the fret relative to the bridge changes the effective length of the guitar string. The table shows frequency as a function of effective length. How far from the bridge should the fret be placed for the note C (<m>256</m> vibrations per second)?</p>
+<exercise number="21"><statement><p>The shorter the length of a vibrating guitar string, the higher the frequency of the vibrations. The fifth string is 65 centimeters long and is tuned to A (with a frequency of 220 vibrations per second). The placement of the fret relative to the bridge changes the effective length of the guitar string. The table shows frequency as a function of effective length. How far from the bridge should the fret be placed for the note C (256 vibrations per second)?</p>
     <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row><cell>Length (cm)</cell>
             <cell>Frequency</cell></row>
@@ -346,12 +346,12 @@
 <exercise number="22"><statement><p>The intensity of illumination, <m>I</m>, from a lamp varies inversely with the square of your distance, <m>d</m>, from the lamp.<ol label="a">
         <li><p>If you double your distance from a reading lamp, what happens to the illumination?</p></li>
         <li><p>If you triple the distance, what happens to the illumination?</p></li>
-        <li><p>If you increase the distance by <m>25\%</m>, what happens to the illumination?</p></li>
+        <li><p>If you increase the distance by 25%, what happens to the illumination?</p></li>
     </ol></p></statement>
 <answer><p><ol label="a">
     <li><p>It is one-fourth the original illumination.</p></li>
     <li><p>It is one-ninth the illumination.</p></li>
-    <li><p>It is <m>64\%</m> of the illumination.</p></li>
+    <li><p>It is 64% of the illumination.</p></li>
 </ol></p></answer></exercise>
 
 </subexercises>

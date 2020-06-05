@@ -116,17 +116,10 @@
                 \filldraw[red] (1,1) circle (.1) node[below right, xshift=2, fill=white, inner sep=2] {$(1,2)$};
                 \filldraw[red] (2,4) circle (.1) node[below right, xshift=2, fill=white, inner sep=2] {$(2,8)$};
                 \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-            </sidebyside></li>
-        </ol>
-    </p></li>
-    <li><p>
-        <ol label="a">
+                </latex-image></image></sidebyside></li></ol></p></li>
+    <li><p><ol label="a">
             <li>Wider</li>
-            <li><sidebyside>
-                 <image xml:id="fig-y-eq-half-x-sq">
-                <description>graph y=2x-squared</description>
+            <li><sidebyside><image xml:id="fig-y-eq-half-x-sq"><description>graph y=2x-squared</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -146,17 +139,10 @@
                 \filldraw[red] (1,1/2) circle (.1) node[below right, xshift=2, fill=white, inner sep=1] {$(1,\frac{1}{2} )$};
                 \filldraw[red] (2,2) circle (.1) node[ right, xshift=.2cm, fill=white, inner sep=2] {$(2,2)$};
                 \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-            </sidebyside></li>
-        </ol>
-    </p></li>
-    <li><p>
-        <ol label="a">
+                </latex-image></image></sidebyside></li></ol></p></li>
+    <li><p><ol label="a">
             <li>Opens downward</li>
-            <li><sidebyside>
-                 <image xml:id="fig-y-eq-neg-x-sq">
-                <description>graph y=neg x-squared</description>
+            <li><sidebyside><image xml:id="fig-y-eq-neg-x-sq"><description>graph y=neg x-squared</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -176,11 +162,7 @@
                 \filldraw[red] (1,-1) circle (.1) node[ right, xshift=.15cm, fill=white, inner sep=1] {$(1,-1 )$};
                 \filldraw[red] (2,-4) circle (.1) node[ right, xshift=.2cm, fill=white, inner sep=2] {$(2,-4)$};
                 \end{tikzpicture}]]>
-                </latex-image>
-                </image>
-            </sidebyside></li>
-        </ol>
-    </p></li>
+                </latex-image></image></sidebyside></li></ol></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="12"><statement><p><ol label="i" cols="3">
@@ -234,18 +216,14 @@
             }
             \draw[samples=65,domain={-sqrt(13/3)-1:sqrt(13/3)-1},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{3*(\x)^2+6*\x });
             \end{tikzpicture}]]>
-            </latex-image></image>
-        </sidebyside>
-    </answer>
-</exercise>  
+            </latex-image></image></sidebyside></answer></exercise>  
 
 <exercise number="16"><statement><m>y=-2x^2+5x</m></statement></exercise>  
 
 <exercise number="17"><statement><m>y=40x-2x^2</m></statement>
     <answer><p><m>(0,0), (20,0); (10,200)</m></p>
         <sidebyside width="40%" margins="0% 50%"><image xml:id="fig-y-eq-40x-minus-2-xsq">
-            <description>parabola</description>
-            <latex-image>
+            <description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -261,13 +239,11 @@
             }
             \draw[samples=65,domain={0:20},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{-1/5*(\x)^2+\x *4 });
             \end{tikzpicture}]]>
-            </latex-image></image>
-        </sidebyside>
-    </answer>
-</exercise>
+            </latex-image></image></sidebyside></answer></exercise>
 
 <exercise number="18"><statement><m>y=144-12x^2</m></statement></exercise>
 </exercisegroup>
+
 </subexercises>
 
 <subexercises><title>Applications</title>
@@ -279,7 +255,7 @@ gives the annual rate of growth, in tons per year, of a fish population of bioma
     <li>Find the vertex of the graph. What does it tell us about the fish population?</li>
     <li>Find the <m>x</m>-intercepts of the graph. What do they tell us about the fish population?</li>
     <li><p>Sketch the graph for <m>0 \le x \le 5000</m>.</p>
-     <sidebyside width="75%">
+     <sidebyside width="60%">
         <image xml:id="fig-hw-3-3-13"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -331,9 +307,9 @@ where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the
     <li>The runway at Edwards Air Force base is 15,000 feet long. Graph your equation again in an appropriate (larger) window, and use it to estimate the answer to the question:  What is the maximum velocity the shuttle can have at touchdown and still stop on the runway?</li></ol></p>
 </statement></exercise>
 
-<exercisegroup><introduction><p>For problems 21<ndash/>24, graph the set of equations in the standard window on your calculator.  Describe how the parameters <m>a,~b,~</m> and <m>c</m> in each equation transform the graph, compared to the basic parabola.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For problems 21<ndash/>24, graph the set of equations in the standard window on your calculator.  Describe how the parameters <m>a,~b,~</m> and <m>c</m> in each equation transform the graph, compared to the basic parabola.</p></introduction>
 
-<exercise number="21"><statement><p><ol label="a" cols="2">  
+<exercise number="21"><statement><p><ol label="a">  
     <li><m>y=x^2</m></li>
     <li><m>y=3x^2</m></li>
     <li><m>y=\dfrac{1}{4}x^2</m></li>
@@ -345,13 +321,13 @@ where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the
     <li>narrower and reflected about <m>y</m>-axis</li></ol></p>
 </answer></exercise>
 
-<exercise number="22"><statement><p><ol label="a" cols="2">  
+<exercise number="22"><statement><p><ol label="a">  
     <li><m>y=x^2</m></li>
     <li><m>y=x^2+1</m></li>
     <li><m>y=x^2+3</m></li>
     <li><m>y=x^2-6</m></li></ol></p></statement></exercise>
 
-<exercise number="23"><statement><p><ol label="a" cols="2">  
+<exercise number="23"><statement><p><ol label="a">  
     <li><m>y=x^2-4x</m></li>
     <li><m>y=x^2+4x</m></li>
     <li><m>y=4x-x^2</m></li>
@@ -363,7 +339,7 @@ where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the
     <li>reflection of (b) about <m>y</m>-axis</li></ol></p>
 </answer></exercise>
 
-<exercise number="24"><statement><p><ol label="a" cols="2">  
+<exercise number="24"><statement><p><ol label="a">  
     <li><m>y=x^2-4x</m></li>
     <li><m>y=2x^2-8x</m></li>
     <li><m>y=\dfrac{1}{2}x^2-2x</m></li>

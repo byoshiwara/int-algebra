@@ -73,11 +73,11 @@
                 );
       </pg-code>
     <statement><p>Erin walks from her home to a convenience store, where she buys some cat food, and then walks back home. Sketch a possible graph of her distance from home as a function of time.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="20% 20%" margins="15% 15%">
                 <image pg-name="$gr[1]"/>
                 <image pg-name="$gr[0]"/>
             </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="20% 20%" margins="15% 15%">
                 <image pg-name="$gr[3]"/>
                 <image pg-name="$gr[2]"/>
             </sidebyside>
@@ -85,7 +85,7 @@
             <p><var name="$mc" form="buttons"/> </p>
     </statement>
     <solution>
-        <sidebyside widths="40%">
+        <sidebyside widths="20%">
                 <image pg-name="$gr[0]"/>
         </sidebyside>
         <p>A graph is also shown below.</p>
@@ -371,56 +371,25 @@
           5, 
         );
    </pg-code>
-    <statement>
-        <p>
-            Choose one of the eight basic functions to model each situation, and sketch a possible graph.
-            <ol label="a">
-                <li>
-                    <p>
-                        The contractor for a new hotel is estimating the cost of the marble tile for a circular lobby. The cost, <m>C</m>, is a function of the square of the diameter, <m>D</m>, of the lobby.
-                    </p>
-                    <p>
-                        Basic function: <var name="$a" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Investors are deciding whether to support a windmill farm. The wind speed, <m>v</m>, needed to generate a given amount of power is a function of the cube root of the power, <m>P</m>.
-                    </p>
-                    <p>
-                        Basic function: <var name="$b" form="popup"/>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The frequency, <m>F</m>, of the note produced by a violin string is a function of the reciprocal of the length, <m>L</m>, of the string.
-                    </p>
-                    <p>
-                        Basic function: <var name="$c" form="popup"/>
-                    </p>
-                </li>
-            </ol>
-        </p>
-    </statement>
-    <solution>
-        <p><ol label="a">
-            <li>
-                <p><m>C=kD^2</m>; a graph is below.</p>
-            </li>
-            <li>
-                <p><m>v=k\sqrt[3]{P}</m>; a graph is below.</p>
-            </li>
-            <li>
-                <p><m>F=\dfrac{k}{L}</m>; a graph is below.</p>
-            </li>
-        </ol></p>
+<statement><p>Choose one of the eight basic functions to model each situation, and sketch a possible graph.<ol label="a">
+    <li><p>The contractor for a new hotel is estimating the cost of the marble tile for a circular lobby. The cost, <m>C</m>, is a function of the square of the diameter, <m>D</m>, of the lobby.</p>
+        <p>Basic function: <var name="$a" form="popup"/></p></li>
+    <li><p>Investors are deciding whether to support a windmill farm. The wind speed, <m>v</m>, needed to generate a given amount of power is a function of the cube root of the power, <m>P</m>.</p>
+        <p>Basic function: <var name="$b" form="popup"/></p></li>
+    <li><p>The frequency, <m>F</m>, of the note produced by a violin string is a function of the reciprocal of the length, <m>L</m>, of the string.</p>
+        <p>Basic function: <var name="$c" form="popup"/></p></li></ol></p>
+</statement>
+<solution><p><ol label="a">
+    <li><p><m>C=kD^2</m>; a graph is below.</p></li>
+    <li><p><m>v=k\sqrt[3]{P}</m>; a graph is below.</p></li>
+    <li><p><m>F=\dfrac{k}{L}</m>; a graph is below.</p></li></ol></p>
     </solution>
 </webwork>
 <conclusion>
     <p><ol label="a">
-        <li><sidebyside  width="35%" margins="0% 5%"><image source="images/fig-quadratic-model"><description>graph</description></image></sidebyside></li>
-        <li><sidebyside  width="35%" margins="0% 5%"><image source="images/fig-cube-root-model"><description>graph</description></image></sidebyside></li>
-        <li><sidebyside  width="35%" margins="0% 5%"><image source="images/fig-inverse-model"><description>graph</description></image></sidebyside></li>
+        <li><sidebyside  width="25%" margins="5% 5%"><image source="images/fig-quadratic-model"><description>graph</description></image></sidebyside></li>
+        <li><sidebyside  width="25%" margins="5% 5%"><image source="images/fig-cube-root-model"><description>graph</description></image></sidebyside></li>
+        <li><sidebyside  width="25%" margins="5% 5%"><image source="images/fig-inverse-model"><description>graph</description></image></sidebyside></li>
     </ol></p>
 </conclusion>
 </exercise>
@@ -448,7 +417,7 @@
     </tabular></sidebyside><p><ol label="a">
         <li>Plot the data to obtain a graph. Which of the basic functions does your graph most resemble?</li>
         <li>Find a value of <m>k</m> so that <m>s = kf(T)</m> fits the data.</li>
-        <li>On a summer night when the temperature is <m>20\degree</m> Celsius, you see a flash of lightning, and <m>6</m> seconds later you hear the thunderclap. Use your function to estimate your distance from the thunderstorm.</li>
+        <li>On a summer night when the temperature is <m>20\degree</m> Celsius, you see a flash of lightning, and 6 seconds later you hear the thunderclap. Use your function to estimate your distance from the thunderstorm.</li>
     </ol></p></statement>
 
 <solution><p><ol label="a">
@@ -466,7 +435,7 @@
     <p>The lightning and the thunderclap occur simultaneously, and the speed of light is so fast (about 30,000,000 meters per second) that we see the lightning flash as it occurs. So if the sound of the thunderclap takes <m>6</m> seconds after the flash to reach us, we can use our calculated speed of sound to find our distance from the storm. 
             <md><mrow>\text{distance} \amp= \text{speed} \times \text{time}</mrow>
                 <mrow>\amp = (343.4\text{ m/sec}) (6 \text{ sec}) = 2060.4 \text{ meters}</mrow></md>
-    The thunderstorm is <m>2060</m> meters, or about <m>1.3</m> miles, away.</p></li></ol></p>
+    The thunderstorm is 2060 meters, or about 1.3 miles, away.</p></li></ol></p>
 </solution></example>
 
 <exercise><title>Practice 4</title>

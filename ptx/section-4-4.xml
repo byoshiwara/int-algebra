@@ -8,7 +8,7 @@
 
 <p>The easiest way to solve a quadratic inequality is with a graph.</p>
 
-<example xml:id="example-fireworks"><statement><p>The Chamber of Commerce in River City plans to put on a Fourth of July fireworks display. City regulations require that fireworks at public gatherings explode higher than <m>800</m> feet above the ground. The mayor particularly wants to include the Freedom Starburst model, which is launched from the ground. Its height after t seconds is given by
+<example xml:id="example-fireworks"><statement><p>The Chamber of Commerce in River City plans to put on a Fourth of July fireworks display. City regulations require that fireworks at public gatherings explode higher than 800 feet above the ground. The mayor particularly wants to include the Freedom Starburst model, which is launched from the ground. Its height after t seconds is given by
         <me>h = 256t - 16t^2</me>
 When should the Starburst explode in order to satisfy the safety regulation?</p></statement>
 
@@ -18,11 +18,11 @@ When should the Starburst explode in order to satisfy the safety regulation?</p>
         <me>256t - 16t^2 \gt 800</me>
 Points on the graph with <m>h \gt 800</m> are shown in color, and the <m>t</m>-coordinates of those points are marked on the horizontal axis. If the Freedom Starburst explodes at any of these times, it will satisfy the safety regulation.</p> 
          
-<p>From the graph, the safe time interval runs from approximately <m>4.25</m> seconds to <m>11.75</m> seconds after launch. The solution of the inequality is the set of all <m>t</m>-values greater than <m>4.25</m> but less than <m>11.75</m>.</p></solution></example>
+<p>From the graph, the safe time interval runs from approximately 4.25 seconds to 11.75 seconds after launch. The solution of the inequality is the set of all <m>t</m>-values greater than 4.25 but less than 11.75.</p></solution></example>
 
 <note><p>The solution set in <xref ref="example-fireworks" text="type-global"/> is called a <term>compound inequality</term><idx>compound inequality</idx>, because it involves more than one inequality symbol. We write this inequality as
     <me>4.25 \lt t \lt 11.75</me>
-and read "<m>t</m> greater than <m>4.25</m> but less than <m>11.75</m>."</p></note>
+and read "<m>t</m> greater than 4.25 but less than 11.75."</p></note>
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -71,7 +71,7 @@ on the same screen. Use <c>WINDOW</c> settings to match the graph in <xref ref="
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside widths="50%" margins="0% 10%">
+        <sidebyside widths="40%" margins="0% 10%">
          <image xml:id="fig-ex-4-4-1ans">
                 <description>parabola for quadratic inequality</description>
                 <latex-image>
@@ -201,7 +201,7 @@ This set is another type of compound inequality, and its graph consists of two p
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="25%" margins="0% 75%"><image source="images/fig-ex-4-4-2ans" ><description>parabola for quadratic inequality</description></image></sidebyside>
+        <sidebyside width="20%" margins="0% 75%"><image source="images/fig-ex-4-4-2ans" ><description>parabola for quadratic inequality</description></image></sidebyside>
     </conclusion>
 </exercise>
 
@@ -241,8 +241,7 @@ This set is another type of compound inequality, and its graph consists of two p
     </ol></p></solution></example>
 
 <exercise><title>Practice 3</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         Context("Interval");
             Context()->{error}{msg}{"Unexpected character '&lt;'"}
               = "Your answer should not contain inequality symbols. Give your answer in interval notation.";
@@ -253,32 +252,18 @@ This set is another type of compound inequality, and its graph consists of two p
         $I1 = Interval([-3,5]);
         $I2 = Union("(-infinity,-2] U [8,infinity)");
     </pg-code>
-    <statement>
-        <p>
-            Write the solutions to Practice 1 and Practice 2 in interval notation.
-        </p>
+    <statement><p>Write the solutions to Practice 1 and Practice 2 in interval notation.</p>
     <instruction>When using interval notation, use "inf" for <m>\infty</m> and use "U" (an upper case letter u) for the union symbol <m>\cup</m>.</instruction>
-        <p>
-            Practice 1 answer: <var name="$I1" width="5"/>
-        </p>
-        <p>
-            Practice 1 answer: <var name="$I2" width="15"/>
-        </p>
+        <p>Practice 1 answer: <var name="$I1" width="5"/></p>
+        <p>Practice 1 answer: <var name="$I2" width="15"/></p>
     </statement>
-    <solution>
-        <p>
-             Practice 1: <m> [-3,5]</m>
-        </p>
-        <p>
-             Practice 2: <m>(-\infty,-2]\cup [8,\infty)</m>
-        </p>
+    <solution><p>Practice 1: <m> [-3,5]</m></p>
+        <p>Practice 2: <m>(-\infty,-2]\cup [8,\infty)</m></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 3</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
          $True = PopUp(
           ["?","True", "False"],
           1, 
@@ -288,26 +273,19 @@ This set is another type of compound inequality, and its graph consists of two p
           2, 
         );
    </pg-code>
-    <statement>
-        <p>True or False  
-            <ol label="a">
-                <li>An open interval includes only the numbers between its endpoints. <var name="$True" form="popup" /></li>
-                <li>Infinite intervals include the number <m>\infty</m>. <var name="$TF"  form="popup" /></li>
-                <li>The union of two intervals includes all numbers that lie in both intervals. <var name="$True"  form="popup" /></li>
-                <li>An interval must be either closed or open. <var name="$TF"  form="popup" />
-                </li>
-            </ol>
-        </p>
+<statement><p>True or False  <ol label="a">
+    <li>An open interval includes only the numbers between its endpoints. <var name="$True" form="popup" /></li>
+    <li>Infinite intervals include the number <m>\infty</m>. <var name="$TF"  form="popup" /></li>
+    <li>The union of two intervals includes all numbers that lie in both intervals. <var name="$True" form="popup" /></li>
+    <li>An interval must be either closed or open. <var name="$TF"  form="popup" /></li></ol></p>
     </statement>
-    <solution>
-        <p><ol label="a">
+    <solution><p><ol label="a">
     <li>True</li>
     <li>False</li>
     <li>True</li>
     <li>False</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
 </subsection>
 
@@ -369,8 +347,7 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
             <li><p>Decide which intervals on the <m>x</m>-axis give the correct sign for <m>y</m>.</p></li>
         </ol></p></hint>
     <solution><p><m>-\sqrt{20} \lt x \lt \sqrt{20} </m></p></solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 4</title>
 <webwork><pg-code>       
@@ -382,12 +359,10 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
               3, 
             );            
         </pg-code>
-    <statement>
-        <p>Which is the correct solution for <m>x^2 \gt 16</m>?</p>
+    <statement><p>Which is the correct solution for <m>x^2 \gt 16</m>?</p>
         <p><var name="$nosol" form="buttons"/></p>      
     </statement>
-    <solution>
-        <p><m>x \lt -4</m> or <m>x \gt 4</m></p>
+    <solution><p><m>x \lt -4</m> or <m>x \gt 4</m></p>
     </solution>
 </webwork></exercise>
 </subsection>
@@ -398,7 +373,7 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
 
 <example><statement><p>TrailGear, Inc. manufactures camping equipment. The company finds that the profit from producing and selling <m>x</m> alpine parkas per month is given, in dollars, by
         <me>P = -0.8x^2 + 320x - 25,200</me>
-How many parkas should the company produce and sell each month if it must keep the profits above $<m>2000</m>?</p></statement>
+How many parkas should the company produce and sell each month if it must keep the profits above $2000?</p></statement>
 
 <solution><p><ol label="1">
         <li><p>We would like to solve the inequality
@@ -413,11 +388,11 @@ How many parkas should the company produce and sell each month if it must keep t
                 <md><mrow>x \amp=\frac{-(\alert{320})\pm\sqrt{(\alert{320})^2 - 4(-0.8)(\alert{-27,200})}} {2(\alert{-0.8})}</mrow>
                     <mrow>\amp=\frac{-320\pm\sqrt{102,400 - 87,040}}{-1.6}</mrow>
                     <mrow>\amp=\frac{-320\pm\sqrt{15,360}}{-1.6}</mrow></md>
-            To two decimal places, the solutions to the equation are <m>122.54</m> and <m>277.46</m>.</p></li>
+            To two decimal places, the solutions to the equation are 122.54 and 277.46.</p></li>
             <li><p>The graph of the function is a parabola that opens downward, because the coefficient of <m>x^2</m> is negative. </p>
                 <sidebyside  width="40%"><image source="images/fig-quadratic-inequality3"><description>graph of parabola opening down</description></image></sidebyside></li>
-            <li><p>The graph lies above the <m>x</m>-axis, and hence <m>y \gt 0</m>, for <m>x</m>-values between the two <m>x</m>-intercepts, that is, for <m>122.54 \lt x \lt 277.46</m>. Because we cannot produce a fraction of a parka, we restrict the interval to the closest whole number <m>x</m>-values included, namely <m>123</m> and <m>277</m>.</p>
-            <p>Thus, TrailGear can produce as few as <m>123</m> parkas or as many as <m>277</m> parkas per month to keep its profit above $<m>2000</m>.</p></li>
+            <li><p>The graph lies above the <m>x</m>-axis, and hence <m>y \gt 0</m>, for <m>x</m>-values between the two <m>x</m>-intercepts, that is, for <m>122.54 \lt x \lt 277.46</m>. Because we cannot produce a fraction of a parka, we restrict the interval to the closest whole number <m>x</m>-values included, namely 123 and 277.</p>
+            <p>Thus, TrailGear can produce as few as 123 parkas or as many as 277 parkas per month to keep its profit above $2000.</p></li>
         </ol></p></solution></example>
 
 <exercise><title>Practice 5</title>

@@ -122,7 +122,7 @@
     <li>What does the model predict for the number of eggs produced when 39 hens are confined in the henhouse?</li>
 </ol></p></statement></exercise>
 
-<exercise number="17"><statement><p>Find a quadratic formula for the number of diagonals that can be drawn in a polygon of <m>n</m> sides. Some data are provided.</p>
+<exercise number="17"><statement><p>Find a quadratic model for the number of diagonals that can be drawn in a polygon of <m>n</m> sides. Some data are provided.</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -140,7 +140,7 @@
                     </tabular></sidebyside></statement>
 <answer><m>D=\dfrac{1}{2}n^2 - \dfrac{3}{2}n</m></answer></exercise>
 
-<exercise number="18"><statement><p>You are driving at a speed of 60 miles per hour when you step on the brakes. Find a quadratic formula for the distance in feet that your car travels in <m>t</m> seconds after braking. Some data are provided.</p>
+<exercise number="18"><statement><p>You are driving at a speed of 60 miles per hour when you step on the brakes. Find a quadratic model for the distance in feet that your car travels in <m>t</m> seconds after braking. Some data are provided.</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -161,17 +161,17 @@
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Year</cell>
-                        <cell><m>'94</m></cell>
-                        <cell><m>'95</m></cell>
-                        <cell><m>'96</m></cell>
-                        <cell><m>'97</m></cell>
-                        <cell><m>'98</m></cell>
-                        <cell><m>'99</m></cell>
-                        <cell><m>'00</m></cell>
-                        <cell><m>'01</m></cell>
-                        <cell><m>'02</m></cell>
-                        <cell><m>'03</m></cell>
-                        <cell><m>'04</m></cell></row>
+                        <cell><m>94</m></cell>
+                        <cell><m>95</m></cell>
+                        <cell><m>96</m></cell>
+                        <cell><m>97</m></cell>
+                        <cell><m>98</m></cell>
+                        <cell><m>99</m></cell>
+                        <cell><m>00</m></cell>
+                        <cell><m>01</m></cell>
+                        <cell><m>02</m></cell>
+                        <cell><m>03</m></cell>
+                        <cell><m>04</m></cell></row>
                     <row> 
                         <cell>Deaths</cell>
                         <cell><m>0</m></cell>
@@ -225,7 +225,7 @@
 </statement></exercise>
 
 <exercise number="21"><statement><p>Some comets move about the sun in parabolic orbits. In 1973 the comet Kohoutek passed within 0.14 AU (astronomical units), or 21 million kilometers of the sun. Imagine a coordinate system superimposed on a diagram of the comet's orbit, with the sun at the origin, as shown below. The units on each axis are measured in AU.</p>
-    <sidebyside  width="27%"><image source="images/fig-comet-parabola"><description>graph</description></image></sidebyside>  
+    <sidebyside  width="20%"><image source="images/fig-comet-parabola"><description>graph</description></image></sidebyside>  
 <p><ol label="a">
     <li>The comet's closest approach to the sun (called perihelion) occurred at the vertex of the parabola. What were the comet's coordinates at perihelion?  </li> 
     <li>When the comet was first discovered, its coordinates were <m>(1.68,-4.9)</m>. Find an equation for comet Kohoutek's orbit in vertex form.</li></ol></p>

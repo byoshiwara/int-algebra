@@ -51,7 +51,7 @@
 <subexercises><title>Skills Practice</title>
 
 <exercise number="7"><statement><p>The graph defines a function, <m>h</m>, that shows the height, <m>s</m>, in meters, of a duck <m>t</m> seconds after it is flushed out of the bushes.
-    <sidebyside  width="36%">
+    <sidebyside  width="25%">
         <image xml:id="fig-hw-5-6-7">
         <description>curve</description>
         <latex-image>
@@ -259,9 +259,9 @@
 </answer></exercise>
 
 <exercise number="22"><statement><p>The length of a rectangle as a function of its width, if its
-area is <m>24</m> square feet</p></statement></exercise>
+area is 24 square feet</p></statement></exercise>
 
-<exercise number="23"><statement><p>The time it takes you to travel <m>600</m> miles, as a function of your average speed</p></statement>
+<exercise number="23"><statement><p>The time it takes you to travel 600 miles, as a function of your average speed</p></statement>
 <answer><p><m>y =\dfrac{1}{x} </m> stretched or compressed vertically</p>
 <sidebyside width="20%"><image source="images/fig-hw-5-6-19ans"><description>reciprocal</description></image></sidebyside>
 </answer></exercise>

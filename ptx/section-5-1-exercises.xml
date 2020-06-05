@@ -341,7 +341,7 @@
 
 <exercise number="17"><statement><p>The graph shows <m>C=h(t)</m>, where <m>C</m> stands for the number of customers (in thousands) signed up for a new movie streaming service, measured in months after their advertising campaign at <m>t=0</m> in January.</p>
         <sidebyside   width="36%"><image source="images/fig-y-eq-2-to-x"><description>increasing concave up graph</description></image></sidebyside><p><ol label="a">
-                <li><p>When did the service have <m>2000</m> customers? Write your answer with function notation.</p></li>
+                <li><p>When did the service have 2000 customers? Write your answer with function notation.</p></li>
                 <li><p>How long did it take that number to double?</p></li>
                 <li><p>How long did it take for the number to double again?</p></li>
                 <li><p>How many customers signed up between March and April (months 2 and 3)?</p></li>
@@ -366,14 +366,14 @@
 <exercise number="19"><statement><p>The graph shows the revenue, <m>R=f(d)</m>, a movie theater collects as a function of the price, <m>d</m>, it charges for a ticket.</p>
         <sidebyside  width="40%"><image source="images/fig-y-eq-neg20-sq-x-minus-10-plus-2000"><description>concave down graph</description>
         </image></sidebyside><ol label="a">
-                <li><p>Estimate the revenue if the theater charges $<m>12.00</m> for a ticket.</p></li>
-                <li><p>What should the theater charge for a ticket in order to collect $<m>1500</m> in revenue?</p></li>
+                <li><p>Estimate the revenue if the theater charges $12.00 for a ticket.</p></li>
+                <li><p>What should the theater charge for a ticket in order to collect $1500 in revenue?</p></li>
                 <li>Write your answers to parts (a) and (b) using function notation.</li>
                 <li><p>For what values of <m>d</m> is <m>R \gt 1800</m>?</p></li></ol>
 </statement>
 <answer><p><ol label="a">
-                <li><p>Approximately $<m>1920</m></p></li>
-                <li><p>$<m>5</m> or $<m>15</m></p></li>
+                <li><p>Approximately $1920</p></li>
+                <li><p>$5 or $15</p></li>
                 <li><m>f(12) \approx 1920;~~ f(5)=1500,~f(15)=1500</m></li>
                 <li><p><m>7\lt d\lt 13</m></p></li></ol></p>
 </answer></exercise>
@@ -381,8 +381,8 @@
 <exercise number="20"><statement><p>The graph shows <m>S=g(w)</m>. <m>S</m> represents the weekly sales of a best-selling book, in thousands of dollars, <m>w</m> weeks after it is released.</p>
         <sidebyside  width="40%"><image source="images/fig-bell-curve"><description>bell-shaped graph</description>
         </image></sidebyside><ol label="a">
-                <li><p>In which weeks were sales over $<m>7000</m>?</p></li>
-                <li><p>In which week did sales fall below $<m>5000</m> on their way down?</p></li>
+                <li><p>In which weeks were sales over $7000?</p></li>
+                <li><p>In which week did sales fall below $5000 on their way down?</p></li>
                 <li><p>For what values of <m>w</m> is <m>S\gt 3.4</m>?</p></li>
             </ol></statement></exercise>
 
@@ -391,7 +391,7 @@
         </image></sidebyside><p><ol label="a">
                 <li><p>When did the unemployment rate reach its highest value, and what was its highest value?</p></li>
                 <li><p>When did the unemployment rate fall to its lowest value, and what was its lowest value?</p></li>
-                <li><p>Give two years in which the unemployment rate was <m>4.5\%</m>.</p></li>
+                <li><p>Give two years in which the unemployment rate was 4.5%.</p></li>
                 </ol></p></statement>
 <answer><p><ol label="a">
     <li><m>F(1992) = 7.5%</m></li>
@@ -453,7 +453,7 @@
         </tabular></sidebyside></li>
         <li><p>What is the most common altitude? What is the second most common altitude?</p></li>
         <li><p>Approximately what percent of the Earth's surface is below sea level?</p></li>
-        <li><p>The height of Mt. Everest is <m>8.85</m> kilometers. Can you think of a reason why it is not included in the graph?</p></li>
+        <li><p>The height of Mt. Everest is 8.85 kilometers. Can you think of a reason why it is not included in the graph?</p></li>
     </ol></p></statement></exercise>
 
 <exercise number="24"><statement><p>Energy is necessary to raise the temperature of a substance, and it is also needed to melt a solid substance to a liquid. The table shows data from heating a solid sample of stearic acid. Heat was applied at a constant rate throughout the experiment.</p>

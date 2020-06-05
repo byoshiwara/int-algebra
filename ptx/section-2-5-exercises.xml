@@ -115,7 +115,7 @@
     <li><p>Use the slope-intercept method to graph the line.</p>
             <p><m>b=</m></p>
             <p><m>m=\dfrac{\Delta y}{\Delta x}= </m></p></li>
-    <li><p>Use a test point to locate the solutions of the inequality. We can use any point for a test point, as long as it does not lie on the line! We'll use <m>(1, -4)</m>. Plot this point on your graph. Use algebra to decide whether <m>(1, -4)</m> is a solution of the inequality <m>3x - y \le -2.</m>.</p></li>
+    <li><p>Use a test point to locate the solutions of the inequality. We can use any point for a test point, as long as it does not lie on the line! We'll use <m>(1, -4)</m>. Plot this point on your graph. Use algebra to decide whether <m>(1, -4)</m> is a solution of the inequality <m>3x - y \le -2.</m></p></li>
     <li><p>Which side of the line includes all the solutions of the inequality? Shade that side of the line.</p></li>
     <li><p>Can you suggest an easier test point instead of <m>(1, -4)</m>?</p></li></ol></p></statement></exercise> 
 </subexercises>

@@ -72,7 +72,7 @@
 <exercise number="12"><statement><m>3x^2+x=4</m></statement></exercise>      
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For problems 13-16, choose the best method, then solve the equation</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 13-16, choose the best method, then solve the equation</p></introduction>
 
 <exercise number="13"><statement><m>x^2-3x=40</m></statement>
     <answer><p><m>-5,8</m></p></answer></exercise>
@@ -88,7 +88,7 @@
 
 <subexercises><title>Applications</title>
 
-<exercisegroup cols="2"><introduction><p>For problems 17-20, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 17-20, <ol label="a">
     <li>Use completing the square to find the <m>x</m>-intercepts of the graph.</li>
     <li>Find the vertex of the graph</li></ol></p></introduction>
 
@@ -119,7 +119,7 @@
 </exercise>
 
 <exercise number="23"><statement>
-    <sidebyside widths="60% 30%" margins="0% 5%" valigns="top top">
+    <sidebyside widths="60% 25%" margins="0% 5%" valigns="top top">
         <p>The sail pictured is a right triangle of base and height <m>x</m>. It has a colored stripe along the hypotenuse and a white triangle of base and height <m>y</m> in the lower corner.</p>
     <image source="images/fig-triangular-sail"><description>graph</description></image></sidebyside>
 <p><ol label="a">
@@ -133,8 +133,8 @@
 </answer></exercise>
 
 <exercise number="24"><statement>
-    <sidebyside widths="60% 30%" margins="0% 5%" valigns="top top">
-    <p>An hors d’oeuvres tray has radius <m>x</m>, and the dip containerhas radius <m>y</m>.</p>
+    <sidebyside widths="60% 20%" margins="0% 15%" valigns="top top">
+    <p>An hors d’oeuvres tray has radius <m>x</m>, and the dip container has radius <m>y</m>.</p>
     <image source="images/fig-hors-doeuvres-tray"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Write an expression for the area for the chips (the shaded region).</li>
@@ -143,11 +143,9 @@
 
 <exercise number="25"><statement>
     <p><ol label="a">
-    <li>
-        <sidebyside widths="60% 30%" margins="0% 5%" valigns="top top">
+    <li><sidebyside widths="60% 20%" margins="0% 15%" valigns="top top">
             <p>Write an expression for the area of the square.</p>
-        <image source="images/fig-square-side-x-plus-y"><description>graph</description></image></sidebyside>
-    </li>
+        <image source="images/fig-square-side-x-plus-y"><description>graph</description></image></sidebyside></li>
     <li>Express the area as a polynomial.</li>
     <li>Divide the square into four pieces whose areas are given by the terms of your answer to part (b).</li></ol></p></statement>
 <answer><p><ol label="a">
@@ -156,16 +154,14 @@
     <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="26"><statement><p><ol label="a">
-    <li>
-        <sidebyside widths="60% 30%" margins="0% 5%" valigns="top top">
+    <li><sidebyside widths="60% 20%" margins="0% 15%" valigns="top top">
             <p>Write an expression for the area of the shaded region.</p>
             <image source="images/fig-square-removed-from-square"><description>graph</description></image>
-        </sidebyside>
-    </li>
+        </sidebyside></li>
     <li>Express the area in factored form.</li>
     <li>By making one cut in the shaded region, rearrange the pieces into a rectangle whose area is given by your answer to part (b).</li></ol></p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For problems 27-30, solve by completing the square.  Your answers will involve <m>a,~b,~</m> or <m>c~</m> (or a combination of these).</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 27-30, solve by completing the square.  Your answers will involve <m>a,~b,~</m> or <m>c~</m> (or a combination of these).</p></introduction>
 
 <exercise number="27"><statement><m>x^2+2x+c=0</m></statement>
     <answer><p><m>-1 \pm \sqrt{1-c}</m></p></answer></exercise>
@@ -178,7 +174,7 @@
 <exercise number="30"><statement><m>ax^2-4x+9=0</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For problems 31-36, solve the formula for the indicated variable.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 31-36, solve the formula for the indicated variable.</p></introduction>
 
 <exercise number="31"><statement><m>V=\pi (r-3)^2h,~\text{for}~r</m></statement>
     <answer><p><m>\pm \sqrt{\dfrac{V}{2w} - s^2}</m></p></answer></exercise>
