@@ -66,7 +66,7 @@ in ascending powers.</p>
     </solution>
 </webwork></exercise>
 
-<p>In Example 1a, we multiplied a polynomial of degree one by a polynomial of degree three, and the product was a polynomial of degree four. In Example 1b, the product of three first-degree polynomials is a third-degree polynomial.</p>
+<p>In part (a) of the <xref ref="example-polynomial-product" text="custom" >Example</xref> above, we multiplied a polynomial of degree one by a polynomial of degree three, and the product was a polynomial of degree four. In the <xref ref="example-polynomial-product" text="custom" >Example</xref> part (b), the product of three first-degree polynomials is a third-degree polynomial.</p>
 
 <assemblage><title>Degree of a Product</title>   
 <p>The degree of a product of non-zero polynomials is the sum of the degrees of the factors.  That is:</p> 

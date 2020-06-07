@@ -61,17 +61,17 @@
 
 <p>Each time we use a calculator to approximate a radical, we lose accuracy, and in the course of a long calculation, the error accumulates. To avoid this problem, we simplify radicals by factoring out any perfect powers from the radicand.</p>  
 
-<example><statement><p>Simplify  <m>~\sqrt[3]{108}</m></p></statement>
+<example xml:id="example-simplify-cube-root"><statement><p>Simplify  <m>~\sqrt[3]{108}</m></p></statement>
 
 <solution><p>We look for perfect cubes that divide evenly into <m>108</m>. The easiest way to do this is to try the perfect cubes in order: 
 <me>1, ~8, ~27, ~64, ~125, \ldots</me> 
 and so on, until we find one that is a factor. For this example, we find that <m>108 = 27 \cdot  4</m>. Applying the Product Rule, we write
     <md><mrow>\sqrt[3]{108} \amp =\sqrt[3]{27}\sqrt[3]{4} \amp \amp \blert{\text{Simplify:}~\sqrt[3]{27}=3.}</mrow>
-    	<mrow>\amp = 3 \sqrt[3]{4} </mrow></md>
+        <mrow>\amp = 3 \sqrt[3]{4} </mrow></md>
 This expression is considered simpler than the original radical because the new radicand, <m>4</m>, is smaller than the original, <m>108</m>.</p></solution></example>
 
-<warning><p>Finding a decimal approximation for a radical is not the same as simplifying the radical. In Example 1, we can use a calculator to find	
-	<me>\sqrt[3]{108} \approx 4.762</me>
+<warning><p>Finding a decimal approximation for a radical is not the same as simplifying the radical. In the <xref ref="example-simplify-cube-root" text="custom">Example</xref> above, we can use a calculator to find 
+    <me>\sqrt[3]{108} \approx 4.762</me>
 but <m>4.762</m>  is not the <em>exact</em> value for <m>\sqrt[3]{108}</m>.</p>
 <p>In long calculations, too much error may be introduced by approximating each radical.  However, <m>3 \sqrt[3]{4}</m> is equal to <m>\sqrt[3]{108}</m>, so their values are exactly the same. We can replace one expression by the other without losing accuracy.</p></warning>
 
@@ -354,7 +354,7 @@ These rules tell us that for products and quotients, the radicands do not have t
 
 <p>For products involving binomials, we apply the distributive law.</p>
 
-<example><statement><p>Expand each product.<ol label="a" cols="2">
+<example xml:id="example-distribute-radicals"><statement><p>Expand each product.<ol label="a" cols="2">
     <li><p><m>\sqrt{3} \left(\sqrt{2x}+\sqrt{6} \right)</m></p></li>
     <li><p><m>\left(\sqrt{x}-\sqrt{y} \right)\left(\sqrt{x}+\sqrt{y} \right)</m></p></li></ol></p></statement>
 
@@ -373,7 +373,7 @@ These rules tell us that for products and quotients, the radicands do not have t
                 <mrow>\amp = x-y</mrow></md></p></li></ol></p></solution>
 </example>
 
-<note><p>In Example 7a, observe that
+<note><p>In part (a) of the <xref ref="example-distribute-radicals" text="custom">Example</xref>  above, observe that
 	<me>2\sqrt{3} \cdot 5\sqrt{6} = 2 \cdot 5 \cdot \sqrt{3}\cdot \sqrt{6} = 10\sqrt{18}</me>
 We multiply together any expressions outside the radical, and apply the product rule to expressions under the radical.</p></note>
 

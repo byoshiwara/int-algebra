@@ -148,7 +148,7 @@ where we have divided both numerator and denominator by 9. The new fraction has 
 
 <p>If the numerator or denominator of the fraction contains more than one term, it is especially important to <em>factor before reducing</em>, so that numerator and denominator are written as products of factors, instead of sums of terms. </p>
 
-<example><statement><p>Reduce each fraction. <ol label="a" cols="2">
+<example xml:id="example-reduce"><statement><p>Reduce each fraction. <ol label="a" cols="2">
         <li><m>\dfrac{4x+2}{4}</m></li>
         <li><m>\dfrac{9x^2+3}{6x+3}</m></li></ol></p></statement>
 
@@ -157,10 +157,12 @@ where we have divided both numerator and denominator by 9. The new fraction has 
     <li><m>\dfrac{9x^2+3}{6x+3} = \dfrac{\cancel{3}(3x^2+1)}{\cancel{3}(2x+1)} = \dfrac{3x^2+1}{2x+1}</m></li></ol></p>
 </solution></example>
 
-<warning><p>We cannot cancel the 4's in Example 3a, because 4 is not a factor of the entire numerator.  Thus,
+<warning><p>We cannot cancel the 4's in part (a) of the <xref ref="example-reduce" text="custom" >Example</xref> above, because 4 is not a factor of the entire numerator.  Thus,
         <me>\dfrac{4x+2}{4} \ne x+2</me>
-In Example 3b, we cannot cancel the 3's, because they are terms and not factors.  Thus,
-        <me>\dfrac{9x^2+3}{6x+3} \ne \dfrac{9x^2}{6x}</me></p></warning>
+In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we cannot cancel the 3's, because they are terms and not factors.  Thus,
+        <me>\dfrac{9x^2+3}{6x+3} \ne \dfrac{9x^2}{6x}</me>
+    </p>
+</warning>
 
 <exercise><title>Practice 3</title>
 <webwork><pg-code>
@@ -404,7 +406,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
 
 <p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx>vertical asymptote</idx> for the graph. We first encountered asymptotes in <xref ref="SomeBasicGraphs" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>
 
-<exercise><title>Practice 7</title>
+<exercise xml:id="average-tshirt-cost"><title>Practice 7</title>
 <webwork><pg-code>
         $cost = Formula("(100+5*x)/x");
         @t = (1,2,4,5,10,20);
@@ -461,11 +463,32 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
     </solution>
 </webwork>
 <conclusion>
-    <sidebyside width="40%" margins="0% 5%"><image source="images/fig-average-cost"><description>graph of average cost of production</description></image></sidebyside>
+    <sidebyside width="45%" margins="0% 5%"><image xml:id="fig-average-cost">
+        <description>graph of average cost of production</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[lightgray] (0,0) grid  (10,8);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(10.7,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,8.6) node[above]{$C$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in {2,4,...,10} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below]   {$\xi$};
+         }
+        \foreach \x [evaluate=\x as \xi using int(5*\x)]  in {2,4,6,8} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left]   {$\xi$};
+        }
+        \draw[samples=65,domain={4/7:10},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {(4+1*\x)/\x)});
+        \draw[ultra thick,dashed,blue](0,1)--(10,1);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 </conclusion>
 </exercise>
 
-<p>In Exercise 7, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions.</p>
+<p>In <xref ref="average-tshirt-cost" text="custom" >Practice 7</xref>, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions.</p>
 
 <exercise><title>QuickCheck 3</title>
 <webwork><pg-code>
