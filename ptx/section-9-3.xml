@@ -50,7 +50,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
         }
         \begin{tikzpicture} [scale=.7]
         \draw[black,thick, ->, >=stealth'] (-5,0)--(5,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5) node[above]{$y$};
+        \draw[black,thick, ->, >=stealth'] (0,-4.3)--(0,5) node[above]{$y$};
         \draw[red, thick] (0,0) ellipse (3 and 2);
         \draw[green, very thick] (0,-2) -- (0,2);
         \draw[blue, ultra thick](-3,0)--(3,0);
@@ -63,8 +63,8 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
         \draw [blue!70!black, decorate, decoration={brace,amplitude=10pt}] (3,0)--(-3,0);
         \draw [blue!70!black,->, >=stealth'] (-1.6,-2.6) to [out=20,in=240] (-.1,-.65);
         \node[text=blue!70!black] at (-3.2,-2.6){Major axis};
-        \node at (2.8,-3.7) {\Large${\frac{x^2}{a^2}+\frac{y^2}{b^2}={} }$\normalsize 1};
-        \node at (2.8, -4.8) {$a > b$};
+        \node at (3.2,-3.7) {\Large${\frac{x^2}{a^2}+\frac{y^2}{b^2}={} }$\normalsize 1};
+        \node at (0, -4.7) {$a > b$};
         \draw [green!70!black, decorate, decoration={brace,amplitude=10pt}] (0,2)--(0,-2);
         \draw [green!70!black,<-, >=stealth'] (.65,0.1) to [out=40,in=200] (1.5,2.2) node[right]{Minor axis};
         \end{tikzpicture}]]>
@@ -75,7 +75,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
         }
         \begin{tikzpicture} [scale=.7]
         \draw[black,thick, ->, >=stealth'] (-5,0)--(5,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5) node[above]{$y$};
+        \draw[black,thick, ->, >=stealth'] (0,-4.3)--(0,5) node[above]{$y$};
         \draw[red, thick] (0,0) ellipse (2 and 3);
         \draw[blue, ultra thick] (0,-3) -- (0,3);
         \draw[green, ultra thick](-2,0)--(2,0);
@@ -89,7 +89,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
         \draw [green!70!black,->, >=stealth'] (-1.8,-2) to [out=20,in=240] (-.1,-.65);
         \node[text=green!50!black] at (-3.35,-2){Minor axis};
         \node at (3.7,-1.7) {\Large${\frac{x^2}{a^2}+\frac{y^2}{b^2}={} }$\normalsize 1};
-        \node at (3.7, -2.8) {$a < b$};
+        \node at (0, -4.7) {$a < b$};
         \draw [blue!80!black, decorate, decoration={brace,amplitude=10pt}] (0,3)--(0,-3);
         \draw [blue!80!black,<-, >=stealth'] (.65,0.1) to [out=40,in=200] (1.5,3.2) node[right]{Major axis};
         \end{tikzpicture}]]>
