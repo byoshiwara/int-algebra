@@ -155,16 +155,16 @@ where <m>L</m> is the luminosity of the star, measured in solar units. Calculate
 <exercise number="26"><statement><p>The populations of two cities are separated by 2.8 units on a log scale. What is the ratio of their populations?</p></statement></exercise>
 
 <exercise number="27"><statement><p>The probability of discovering an oil field increases with its diameter, defined to be the square root of its area. Use the graph to estimate the diameter of the oil fields at the labeled points, and their probability of discovery. (Source: Deffeyes, 2001)</p>
-    <sidebyside width="80%"><image source="images/fig-hw-7-6-23"><description>probabilty of discovery vs diameter on log-log</description></image></sidebyside>
+    <sidebyside width="70%"><image source="images/fig-hw-7-6-23"><description>probabilty of discovery vs diameter on log-log</description></image></sidebyside>
 </statement>
 <answer><p>A: <m>a\approx 45</m>, <m>p \approx 7.4\%</m>; B: <m>a \approx 400</m>, <m>p \approx 15\%</m>; C: <m>a\approx 6000</m>, <m>p\approx 50\%</m>; D: <m>a \approx 13000</m>, <m>p \approx 45\%</m></p></answer></exercise>
 
 <exercise number="28"><statement>
-    <sidebyside widths="60% 36%" margins="0% 0%" valigns="top top">
+    <sidebyside widths="60% 30%" margins="0% 0%" valigns="top top">
 <p>The <term>order</term> of a stream is a measure of its size. Use the graph to estimate the drainage area, in square miles, for streams of orders 1 through 4. (Source: Leopold, Wolman, and Miller)</p>
     <image source="images/fig-hw-7-6-24"><description>stream drainage vs order on semi-log</description></image></sidebyside></statement></exercise>
 
-<exercise number="29"><statement><p>The pH of normal rain is 5.6. Some areas of Ontario have experienced acid rain with a pH of 4,5. How many times more acidic is acid rain than normal rain?</p></statement>
+<exercise number="29"><statement><p>The pH of normal rain is 5.6. Some areas of Ontario have experienced acid rain with a pH of 4.5. How many times more acidic is acid rain than normal rain?</p></statement>
 <answer>12.6</answer></exercise>
 
 <exercise number="30"><statement><p>The pH of normal hair is about 5, the average pH of shampoo is 8, and 4 for conditioner. Compare the acidity of normal hair, shampoo, and conditioner.</p></statement></exercise>

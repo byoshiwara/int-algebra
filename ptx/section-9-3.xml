@@ -15,8 +15,8 @@ where <m>A</m>, <m>B</m>, and <m>C</m> cannot all be zero (because in that cas
 
 <subsection><title>Circles and Ellipses</title>
 
-<p>The circle is the most familiar of the conic sections. Recall that the standard equation for a circle of radius, <m>r</m>, centered at the point <m>(h, k)</m> is:
-    <md><mrow>(x -h)^2 + (y- k)^2 = r^2</mrow></md>
+<p>The circle is the most familiar of the conic sections. Recall that the standard equation for a circle of radius, <m>r</m>, centered at the point <m>(h,k)</m> is:
+    <md><mrow>(x-h)^2 + (y-k)^2 = r^2</mrow></md>
 and a circle whose center is the origin has equation
     <md><mrow>x^2 + y^2 = r^2</mrow></md>
 If we divide through by <m>r^2</m>, we can also write this equation in the form
@@ -35,7 +35,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
 
 <assemblage><title>Central Ellipse</title>
 <p>The equation of an <term>ellipse</term> centered at the origin is
-    <md><mrow>\frac{x^2}{a^2}+\frac{y^2}{b^2}=1</mrow></md></p>
+    <md><mrow>\blert{\frac{x^2}{a^2}+\frac{y^2}{b^2}=1}</mrow></md></p>
 </assemblage>
 
 <p>By setting <m>y</m> equal to zero in the equation above, we find that the <m>x</m>-intercepts of this ellipse are <m>a</m> and <m>-a</m>; by setting <m>x</m> equal to zero, we find that the <m>y</m>-intercepts are <m>b</m> and <m>-b</m>.
@@ -95,14 +95,14 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<p>If <m>a \lt b</m>, the major axis is vertical and has length <m>2b</m>. In this case the endpoint sof the major axis are the <m>y</m>-intercepts of the ellipse. (See Figure above right.) The minor axis is horizontal and has length <m>2a</m>.</p>
+<p>If <m>a \lt b</m>, the major axis is vertical and has length <m>2b</m>. In this case the endpoints of the major axis are the <m>y</m>-intercepts of the ellipse. (See Figure above right.) The minor axis is horizontal and has length <m>2a</m>.</p>
 
 <p>The standard form of the equation for an ellipse gives us enough information to sketch its graph</p>
 
 <example><statement><p>Graph <m>\dfrac{x^2}{8}+\dfrac{y^2}{25}=1 </m></p></statement>
     
 <solution><p>The graph is an ellipse with major axis on the <m>y</m>-axis. Because <m>a^2 = 8</m> and <m>b^2 = 25</m>, the vertices are located at <m>(0, 5)</m> and <m>(0, -5)</m>, and the covertices lie  <m>\sqrt{8} </m>  units to the right and left of the center, or approximately at <m>(2.8, 0)</m> and <m>(-2.8, 0)</m>. To sketch the ellipse, we first locate the vertices and covertices. Then we draw a smooth curve through the points. The graph of <m>\dfrac{x^2}{8}+\dfrac{y^2}{25}=1 </m> is shown below.</p>
-    <sidebyside width="50%"><image xml:id="fig-example-9-3-1">
+    <sidebyside width="40%"><image xml:id="fig-example-9-3-1">
         <description>ellipse with vertical major axis</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -331,7 +331,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
     <li><p>Solve the equation <m>4x^2 + y^2 = 12</m> when <m>y = -4</m>. What do the solutions tell you about the graph of the ellipse?</p></li></ol></p></statement>
     
 <solution><p><ol label="a">
-    <li><sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
+    <li><sidebyside widths="60% 30%" margins="0% 0%" valigns="middle middle">
         <p>We substitute <m>y = \alert{2}</m> into the equation and solve for <m>x</m>.
                 <md><mrow>4x^2+(\alert{2})^2\amp = 12</mrow>
                     <mrow>4x^2\amp = 8</mrow>
@@ -389,12 +389,12 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
 
 <assemblage><title>Ellipse</title>
     <p>The standard equation for an ellipse centered at <m>(h,k)</m> is
-        <md><mrow>\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1</mrow></md></p>
+        <md><mrow>\blert{\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1}</mrow></md></p>
 </assemblage>
 
 <p>The horizontal axis of the ellipse has length <m>2a</m>, and the vertical axis has length <m>2b</m>, the same as for central ellipses. When <m>a \gt b</m>, the major axis is horizontal and the ellipse is short and wide. When <m>a \lt b</m>, the major axis is vertical and the ellipse is tall and narrow, as shown below.</p>
 
-<sidebyside widths="47% 47%" margins="0% 0%">
+<sidebyside widths="40% 40%" margins="8% 8%">
     <image xml:id="fig-ellipse-wide-translated"><description>ellipse with horizontal major axis</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -445,7 +445,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
 <solution><p><ol label="a">
     <li><p>The graph is an ellipse with center at <m>(-2,1)</m>.  We have <m>a=4</m> and <m>b=\sqrt{5}</m>,  and the major axis is parallel to the <m>x</m>-axis because <m>a \gt b</m>. We plot the vertices four units to the left and right of the center, a <m>(-6,1)</m> and <m>(2,1)</m>. The covertices lie <m>\sqrt{5}</m> units above and below the center, at approximately <m>(-2, 3.2)</m> and <m>(-2, -1.2)</m>. The graph is shown below.</p>
 
-   <sidebyside width="60%"><image xml:id="fig-example-9-3-4"><description>translated ellipse</description><latex-image>
+   <sidebyside width="45%"><image xml:id="fig-example-9-3-4"><description>translated ellipse</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -549,25 +549,14 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
                     <image pg-name="$gr[3]"/>
                 </sidebyside>
                 <p>Which of the above is the best match for the graph)?</p>
-                <p><var name="$mc" form="buttons"/> </p>
-            </li>
-            <li>
-                <p>
-                    Find the coordinates of the vertices and covertices.  Separate different points with a comma. Use "sqrt(2)" to get <m>\sqrt{2}</m>.
-                </p>
-                <p>
-                    vertices: <var name="$vertices" width="25"  evaluator="$my_evaluator"/> 
-                </p>
-                <p>
-                    covertices: <var name="$covertices" width="25"  evaluator="$my_evaluator2"/> 
-                </p>
-            </li>
+                <p><var name="$mc" form="buttons"/> </p></li>
+        <li><p>Find the coordinates of the vertices and covertices.  Separate different points with a comma. Use "sqrt(2)" to get <m>\sqrt{2}</m>.</p>
+            <p>vertices: <var name="$vertices" width="25"  evaluator="$my_evaluator"/> </p>
+            <p>covertices: <var name="$covertices" width="25"  evaluator="$my_evaluator2"/> </p></li>
         </ol></p>
      </statement>
     <solution><p><ol label="a">
-            <li><sidebyside widths="40%">
-                        <image pg-name="$gr[0]"/>
-                    </sidebyside>
+            <li><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
                 <p>A graph is also shown below.</p></li>
             <li><p>vertices: <m>(5-\sqrt{15}, -3)</m>, <m>(5+\sqrt{15}, -3)</m></p>
                 <p>covertices: <m>(5, -3+\sqrt{8})</m>, <m>(5, -3-\sqrt{8})</m></p></li></ol></p>
@@ -656,36 +645,23 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
 
 <p>Second-degree equations in which the coefficients of <m>x^2</m> and <m>y^2</m> have the same sign can be written in one of the standard forms for an ellipse by completing the square. The equation can be graphed easily from the standard form.</p>
 
-<example>
-    <statement>
-        <p><ol label="a">
-            <li><p>Write the equation in standard form.
-                    <md><mrow>4x^2 + 9y^2 - 16x - 18y -11 = 0</mrow></md></p></li>
-            <li>Graph the equation.</li>
-        </ol></p>
-    </statement>
-    <solution>
-        <p><ol label="a">
-            <li><p>
-                We first prepare to complete the square in both <m>x</m> and <m>y</m>. Begin by factoring out the coefficients of <m>x^2</m> and <m>y^2</m>.
-                <md>
-                    <mrow>\alert{4}(x^2-4x \underline{\hphantom{0000}}) + \alert{9}(y^2 - 2y \underline{\hphantom{0000}}) = 11</mrow>
-                </md>
-                We complete the square in <m>x</m> by adding <m>\alert{4}</m> to <m>x^2-4x</m>, and adding <m>4 \cdot \alert{4}</m>, or <m>\blert{16}</m>, to the right side of the equation. We  complete the square in <m>y</m> by adding <m>\alert{1}</m> to <m>y^2-2y</m>, and  <m>9 \cdot \alert{1}</m>, or <m>\blert{9}</m>, to the right side.
-                <md><mrow>
-                    4(x^2-4x+\alert{4}) + 9(y^2 - 2y + \alert{1}) = 11 + \blert{16} + \blert{9}
-                </mrow></md>
-                We write each term on the left side as a perfect square to get
-                <md>
-                    <mrow> 4(x-2)^2 + 9(y-1)^2 \amp= 36 \amp\amp \blert{\text{Divide both sides by 36.}} </mrow>
-                    <mrow>\frac{(x-2)^2}{9} + \frac{(y-1)^2}{4} = 1</mrow>
-                </md>
-                </p></li>
-                <li><p>
-                    The graph is an ellipse with center at <m>(2, 1),~a^2=9</m>, and <m>b^2=4</m>  The vertices lie 3 units to the right and left of the center at <m>(5,1)</m> and <m>(-1,1)</m>; the covertices lie 2 units above and below the center at <m>(2,3)</m> and <m>(2,-1)</m>.  The graph is shown below.
-                </p>
+<example><statement><p><ol label="a">
+    <li><p>Write the equation in standard form.
+            <md><mrow>4x^2 + 9y^2 - 16x - 18y -11 = 0</mrow></md></p></li>
+    <li>Graph the equation.</li></ol></p>
+</statement>
+
+<solution><p><ol label="a">
+    <li><p>We first prepare to complete the square in both <m>x</m> and <m>y</m>. Begin by factoring out the coefficients of <m>x^2</m> and <m>y^2</m>.
+        <md><mrow>\alert{4}(x^2-4x \underline{\hphantom{0000}}) + \alert{9}(y^2 - 2y \underline{\hphantom{0000}}) = 11</mrow></md>
+        We complete the square in <m>x</m> by adding <m>\alert{4}</m> to <m>x^2-4x</m>, and adding <m>4 \cdot \alert{4}</m>, or <m>\blert{16}</m>, to the right side of the equation. We  complete the square in <m>y</m> by adding <m>\alert{1}</m> to <m>y^2-2y</m>, and  <m>9 \cdot \alert{1}</m>, or <m>\blert{9}</m>, to the right side.
+            <md><mrow>4(x^2-4x+\alert{4}) + 9(y^2 - 2y + \alert{1}) = 11 + \blert{16} + \blert{9}</mrow></md>
+        We write each term on the left side as a perfect square to get
+                <md><mrow> 4(x-2)^2 + 9(y-1)^2 \amp= 36 \amp\amp \blert{\text{Divide both sides by 36.}} </mrow>
+                    <mrow>\frac{(x-2)^2}{9} + \frac{(y-1)^2}{4} = 1</mrow></md></p></li>
+        <li><p>The graph is an ellipse with center at <m>(2, 1),~a^2=9</m>, and <m>b^2=4</m>  The vertices lie 3 units to the right and left of the center at <m>(5,1)</m> and <m>(-1,1)</m>; the covertices lie 2 units above and below the center at <m>(2,3)</m> and <m>(2,-1)</m>. The graph is shown below.</p>
     
-        <sidebyside width="50%"><image xml:id="fig-example-9-3-5"><description>translated ellipse</description>
+        <sidebyside width="45%"><image xml:id="fig-example-9-3-5"><description>translated ellipse</description>
                     <latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
@@ -755,7 +731,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
     
 <example><statement><p>Find the equation of the ellipse with vertices at <m>(3,3)</m> and <m>(3,-5)</m> and covertices at <m>(1,-1)</m> and <m>(5,-1)</m>.</p></statement>
     
-<solution><sidebyside widths="63% 35%" margins="0% 0%" valigns="middle middle">
+<solution><sidebyside widths="63% 30%" margins="0% 0%" valigns="middle middle">
     <p>You may find it helpful to plot the given points to help you visualize the ellipse. The center of the ellipse is the midpoint of the major (or minor) axis.
             <md><mrow>h \amp = \overline{x} = \dfrac{1+5}{2} = 3</mrow>
                 <mrow>k \amp = \overline{y} = \dfrac{3-5}{2} = -1</mrow></md>  </p>

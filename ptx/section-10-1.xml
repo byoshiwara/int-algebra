@@ -16,7 +16,7 @@ is a logarithmic function. In order to understand logarithmic functions better, 
 
 Now consider the functions that describe those operations:  The graphs of <m>f(x)=x^3</m> and <m>g(x)=\sqrt[3]{x}</m> are related in an interesting way, as shown below.</p>
 
-	<sidebyside width="40%"><image xml:id="fig-cube-cuberoot">
+	<sidebyside width="35%"><image xml:id="fig-cube-cuberoot">
         <description>cube root and cube funcions</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -230,7 +230,7 @@ We can also apply the two functions in the opposite order, so that
 
 <p>We plot the points for each function, connecting them with smooth curves, as shown below.  You can see that the two graphs are symmetric about the line <m>y=x</m>.</p>
 
-<sidebyside width="45%"><image xml:id="fig-2-to-x-and-log2">
+<sidebyside width="40%"><image xml:id="fig-2-to-x-and-log2">
         <description>2 to x and log base 2</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -296,10 +296,7 @@ We can also apply the two functions in the opposite order, so that
             2
         );
       </pg-code>     
-    <statement>
-        <p>
-            Graph the function <m>f(x)=10^x</m> and its inverse function <m>g(x)=\log_{10}{x}</m> on the same axes.
-        </p>
+<statement><p>Graph the function <m>f(x)=10^x</m> and its inverse function <m>g(x)=\log_{10}{x}</m> on the same axes.</p>
        <sidebyside widths="35% 35%" margins="5% 5%">
             <image pg-name="$gr[2]"/>
             <image pg-name="$gr[1]"/>
@@ -308,22 +305,18 @@ We can also apply the two functions in the opposite order, so that
             <image pg-name="$gr[0]"/>
             <image pg-name="$gr[3]"/>
         </sidebyside>
-        <p>
-            Which of the above is the best match for the graph?
-        </p>
+        <p>Which of the above is the best match for the graph?</p>
         <p><var name="$mc" form="buttons"/> </p>
-    </statement>
+</statement>
     <solution>
         <sidebyside widths="40%">
                 <image pg-name="$gr[0]"/>
             </sidebyside>
-        <p>
-          A graph is also shown below.
-        </p>
+        <p>A graph is also shown below.</p>
     </solution>
 </webwork>
     <conclusion>
-        <sidebyside width="40%" margins="0% 0%">
+        <sidebyside width="30%" margins="0% 0%">
             <image xml:id="fig-10-to-x-and-log10">
             <description>10 to x and common log</description>
             <latex-image>
@@ -344,9 +337,7 @@ We can also apply the two functions in the opposite order, so that
             \node[text=red, fill=white, inner sep=2] at (10,3) {$g(x)=\log_{10}{x}$};
             \node[text=blue, fill=white, inner sep=2] at (5,11.2) {$f(x)=10^x$};
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
+            </latex-image></image></sidebyside>
     </conclusion>
 </exercise>
 
@@ -427,25 +418,19 @@ We can also apply the two functions in the opposite order, so that
         parserFunction("LOG(x,y)" => "log(y)/log(x)");
         $a = Compute("log(4)");        
     </pg-code>
-    <statement>
-        <p>
-            Evaluate  <m>~H(t)=20 \log_{10}{\dfrac{t}{C_L}}~</m> for <m>t=2</m>, where <m>C_L=0.5</m>.
-        </p>
-        <p>
-            Answer: <var name="$a" width="8"/>
-        </p>
+<statement><p>Evaluate  <m>~H(t)=20 \log_{10}{\dfrac{t}{C_L}}~</m> for <m>t=2</m>, where <m>C_L=0.5</m>.</p>
+        <p>Answer: <var name="$a" width="8"/></p>
         <instruction>
             For this WeBWorK problem, if you want <m> \log_{10} t </m>, you should enter "log(t)".
         </instruction>
     </statement>
     <solution><m>20 \log_{10}{4} \approx 12.04</m></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
-<example><statement><p>Evaluate the expression <m>T=\dfrac{1}{k}{\log_{10}{\dfrac{M_f}{M_0}+1}}~</m> for <m>k=0.028, ~M_f=1832</m>, and <m>M_0=15.3</m>.</p></statement>
+<example><statement><p>Evaluate the expression <m>~~T=\dfrac{1}{k}\log_{10}{\left(\dfrac{M_f}{M_0}+1\right)}~</m> for <m>k=0.028, ~M_f=1832</m>, and <m>M_0=15.3</m>.</p></statement>
 
 <solution><p>Follow the order of operations and calculate
-	<md><mrow>T \amp =\dfrac{1}{0.028}{\log_{10}{\dfrac{1832}{15.3}+1}} = \dfrac{\log_{10}{120.739}}{0.028}</mrow>
+	<md><mrow>T \amp =\dfrac{1}{0.028}\log_{10}{\left(\dfrac{1832}{15.3}+1\right)} = \dfrac{\log_{10}{120.739}}{0.028}</mrow>
 		<mrow> \amp \approx \dfrac{2.082}{0.028} \approx 74.35</mrow></md>
 A calculator keying sequence for the calculation is
 	<me> \boxed{\text{LOG}}~~1832~~\boxed{\div}~~15.3~~\boxed{+}~~1~~\boxed{)}~~\boxed{\div}~~0.028~~\boxed{\text{ENTER}}</me></p></solution></example>
@@ -472,7 +457,7 @@ A calculator keying sequence for the calculation is
 <p>Logarithmic functions are useful for modeling increasing functions that slow down as the input increases.</p>
 
 <example xml:id="example-life-expectancy"><statement><p>In 1900, the average life expectancy at birth in the U.S. was 47.3 years. Since then, life expectancy has increased according to the formula
-    <me>L(x)=18.53+28.92 \log {x}</me>
+    <me>L(x)=18.53 + 28.92 \log {x}</me>
 where <m>x</m> is the number of years after 1900. <ol label="a">
     <li>Graph the life expectancy function for the years 1900 to 2010.</li>
     <li>The life expectancy in 1950 was 68.2 years. What does the function <m>L(x)</m> predict for life expectancy in 1950?</li>
@@ -480,7 +465,28 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
 </ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><sidebyside width="50%" margins="0% 0%"><image xml:id="fig-life-expectancy">
+    <li><p>We can make a table of values and plot points to obtain the graph below.</p>
+
+    <sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>40</m></cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>80</m></cell>
+                        <cell><m>100</m></cell></row>
+                    <row> 
+                        <cell><m>L(x)</m></cell>
+                        <cell><m>47.3</m></cell>
+                        <cell><m>56.2</m></cell>
+                        <cell><m>64.9</m></cell>
+                        <cell><m>70.0</m></cell>
+                        <cell><m>73.6</m></cell>
+                        <cell><m>76.4</m></cell></row>
+                    </tabular>
+
+        <image xml:id="fig-life-expectancy">
         <description>average life expectancy</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -498,11 +504,11 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
         \node[font=\bf] at (6,-1.4) {Years after 1900};
         \node[rotate=90,font=\bf] at (-1.7,5) {Average Life Expectancy};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside></li>
-    <li>67.7 years</li>
-    <li>5 years, 1.4 years</li></ol></p>
+        </latex-image></image></sidebyside></li>
+    <li><p>We substitute <m>x=50</m> into the function to find
+        <me>L(50) = 18.53 + 28.92 \log {50} \approx 67.7</me>
+        The function predicts a life expectancy of 67.7 years in 1950.</p></li>
+    <li>Between 1920 and 1930, life expectancy increased from 56.2 to 61.2, or 5 years. Between 1990 and 2000 it increased from 75.0 to 76.4, or 1.4 years.</li></ol></p>
 </solution></example>
 
 <exercise><title>Practice 5</title>

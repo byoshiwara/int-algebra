@@ -74,8 +74,8 @@
 <exercise number="10"><statement><p>A small lake in a state park has become polluted by runoff from a factory upstream. The cost for removing <m>p</m> percent of the pollution from the lake is given, in thousands of dollars, by
     <me>C=\frac{25p}{100-p} </me><ol label="a">
         <li><p>Use your calculator to graph the function <m>C</m> on a suitable domain.</p></li>
-        <li><p>How much will it cost to remove <m>40\%</m> of the pollution?</p></li>
-        <li><p>How much of the pollution can be removed for <m>\$100,000</m>?</p></li>
+        <li><p>How much will it cost to remove 40% of the pollution?</p></li>
+        <li><p>How much of the pollution can be removed for $100,000 ?</p></li>
         <li><p>What happens to the cost as the amount of pollution to be removed increases? How much will it cost to remove all the pollution?</p></li>
     </ol></p></statement></exercise>
 
@@ -97,7 +97,7 @@
     <li><p>8 mph</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p>Pam lives on the banks of the Cedar River and makes frequent trips in her outboard motorboat. The boat travels at <m>20</m> miles per hour in still water.<ol label="a">
+<exercise number="12"><statement><p>Pam lives on the banks of the Cedar River and makes frequent trips in her outboard motorboat. The boat travels at 20 miles per hour in still water.<ol label="a">
         <li><p>Express the time it takes Pam to travel 8 miles upstream to the gas station as a function of the speed of the current.</p></li>
         <li><p>Express the time it takes Pam to travel 12 miles downstream to Marie's house as a function of the speed of the current.</p></li>
         <li><p>Graph the two functions in the window
@@ -209,7 +209,7 @@
 <exercise number="44"><statement><p><m>\dfrac{3x}{x+1} - \dfrac{2}{x^2+x} = \dfrac{4}{x}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>48, solve the equation by using base 10 logarithms.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>48, solve for the indicated variable.</p></introduction>
 
 <exercise number="45"><statement><p><m>V=C\left(1-\dfrac{t}{n} \right) </m>, for <m>n</m></p></statement>
 <answer><p><m>n=\dfrac{Ct}{C-V} </m></p></answer>

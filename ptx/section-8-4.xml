@@ -138,7 +138,7 @@ Finally, we reduce the result to obtain
 <solution><p><ol label="a">
     <li><p>We write each power as a fraction, then simplify.
         <md><mrow>x^{-1}-y^{-1} \amp = \dfrac{1}{x} - \dfrac{1}{y} \amp \amp \blert{\text{The LCD is}~xy.}</mrow>
-            <mrow>\amp = \dfrac{1}{x} \cdot \dfrac{y}{y}- \dfrac{1}{y} \cdot \dfrac{x}{x}</mrow>
+            <mrow>\amp = \dfrac{1}{x} \cdot \blert{\dfrac{y}{y}}- \dfrac{1}{y} \cdot \blert{\dfrac{x}{x}} \amp \amp \blert{\text{Build to the LCD.}}</mrow>
             <mrow>\amp = \dfrac{y-x}{xy}</mrow></md></p></li>
     <li><p>We simplify the expression inside parentheses first.
         <md><mrow>(x^{-2}+y^{-2})^{-1} \amp = (\dfrac{1}{x^2} + \dfrac{1}{y^2})^{-1} \amp \amp \blert{\text{Add fractions.}}</mrow>
@@ -309,7 +309,7 @@ Thus, the average speed for the entire trip is
 
 <p>Consider three improper fractions: <m>\dfrac{8}{6},~ \dfrac{8}{4},</m> and <m>\dfrac{8}{3}</m>.  Can these fractions be simplified? <ul>
     <li>We can reduce the first fraction: <m>~\dfrac{8}{6} = \dfrac{4}{3}</m></li>  
-    <li>The second fractrion reduces to a whole number:  <m>`\dfrac{8}{4}  = \dfrac{2}{1} = 2</m></li> 
+    <li>The second fractrion reduces to a whole number:  <m>~\dfrac{8}{4}  = \dfrac{2}{1} = 2</m></li> 
     <li>The third fraction does not reduce, but by dividing the denominator into the numerator, we can write it as a whole number plus a proper fraction:  <m>~\dfrac{8}{3} = 2\dfrac{2}{3}</m></li></ul></p>    
 
 <p>An algebraic fractrion is "improper" if the degree of the numerator is greater than the degree of the denominator.  If it cannot be reduced, we can simplify the expression by treating it as a division of polynomials.  The quotient will be the sum of a polynomial and a simpler algebraic fraction.</p>

@@ -48,9 +48,9 @@
         </solution>
 </webwork></exercise>
 
-<p>Because <m>e</m> is a number between <m>2</m> and <m>3</m>, the graph of <m>f(x) = e^x</m> lies between the graphs of <m>y = 2^x</m> and <m>y = 3^x</m>. Compare the tables of values and the graphs of the three functions below. You can verify the table and graphs on your caclulator.</p>
+<p>Because <m>e</m> is a number between 2 and 3, the graph of <m>f(x) = e^x</m> lies between the graphs of <m>y = 2^x</m> and <m>y = 3^x</m>. Compare the tables of values and the graphs of the three functions below. You can verify the table and graphs on your caclulator.</p>
 
-<sidebyside widths="50% 30%" valigns="middle middle">
+<sidebyside widths="50% 30%" margins="0% 10%" valigns="middle middle">
 <tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
 	<row bottom="major">
 		<cell><m>x</m></cell>
@@ -130,7 +130,7 @@
 
 <assemblage><title>The Natural Logarithm</title><idx>natural logarithm</idx>
 	<p>The natural logarithm is the logarithm base <m>e</m>.
-		<me>\ln x = \log_{e}{x}, ~~~~ x\gt 0</me></p>
+		<me>\blert{\ln x = \log_{e}{x}, ~~~~ x\gt 0}</me></p>
 </assemblage>
 
 <p>The natural logarithm of <m>x</m> is the exponent to which <m>e</m> must be raised to produce <m>x</m>. For example, the natural logarithm of <m>10</m>, or <m>\ln 10</m>, is the solution of the equation
@@ -140,7 +140,7 @@ You can verify on your calculator that
 In general, natural logs obey the same conversion formulas that work for logs to other bases.</p>
 
 <assemblage><title>Conversion Formulas for Natural Logs</title>
-<p><me>y= \ln x~~~~~~\text{if and only if}~~~~~~e^y=x</me></p></assemblage>
+<p><me>\blert{y= \ln x~~~~~~\text{if and only if}~~~~~~e^y=x}</me></p></assemblage>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
@@ -333,7 +333,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
             $button = RadioButtons(
               ["8 is larger than 6.5.",
               "\(k\) is a constant.",
-              "There is a button for log base  on the calculator, but not a button for log base 8.",
+              "There is a button for log base \(e\) on the calculator, but not a button for log base 8.",
               "Because \(e\) is an irrational number."],
               2, 
             );            
@@ -349,7 +349,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 
 <p>To solve more complicated exponential equations, we isolate the power on one side of the equation before converting to logarithmic form.</p>
 
-<example xml:id="example-solve-natural-exponential"><statement><p>Solve <m>140 = 20 e^{0.4x}</m>.</p></statement>
+<example xml:id="example-solve-natural-exponential"><statement><p>Solve <m>140 = 20 e^{0.4x}</m></p></statement>
 
 <solution><p>First, we divide each side by <m>20</m> to obtain
 		<me>7 = e^{0.4x}</me>
@@ -383,8 +383,9 @@ because <m>\ln{e^a} = a</m> for any number <m>a</m>. We then proceed with the so
 <solution><p>We multiply both sides of the equation by the denominator, <m>1 + be^{-kt}</m>, to get
 		<me>P(1 + be^{-kt} ) = a</me>
 Then we isolate the power, <m>e^{-kt}</m>, as follows:
-		<md><mrow>1 + be^{-kt} \amp = \frac{a}{P}\amp\amp \blert{\text{Subtract 1 from both sides.}}</mrow>
-		    <mrow>be^{-kt} \amp = \frac{a}{P}- 1 \amp\amp \blert{\text{Rewrite the right side. }}</mrow>
+		<md><mrow>P(1 + be^{-kt} ) \amp = a \amp \amp \blert{\text{Divide both sides by }P.}</mrow>
+            <mrow>1 + be^{-kt} \amp = \frac{a}{P}\amp\amp \blert{\text{Subtract 1 from both sides.}}</mrow>
+		    <mrow>be^{-kt} \amp = \frac{a}{P}- 1 \amp\amp \blert{\text{Rewrite the right side as one fraction.}}</mrow>
 		  <mrow>be^{-kt} \amp = \frac{a - P}{P}\amp\amp \blert{\text{Divide both sides by }b.}</mrow>
 		  <mrow>e^{-kt} \amp= \frac{a - P}{bP}</mrow></md>
 	Next, we take the natural logarithm of both sides to get
@@ -435,7 +436,7 @@ By graphing both functions on your calculator, you can verify that <me>P(t) = 10
 
 <example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year.
 <ol label="a">
-	<li>What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was <m>768,000</m> in 1990, write a formula for the population <m>t</m> years later.</li>
+	<li>What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population <m>t</m> years later.</li>
 	<li>Write a growth formula for Clark County using base <m>e</m>.</li>
 		</ol></p></statement>
 <solution><p><ol label="a">
@@ -621,14 +622,14 @@ where <m>P</m> is the principal invested.</p>
 <example xml:id="example-continuous-compounding"><statement><p>Suppose you invest $500 in an account that pays 8% interest compounded continuously. You leave the money in the account without making any additional deposits or withdrawals.
 	<ol label="a">
 		<li>Write a formula that gives the value of your account <m>A(t)</m> after <m>t</m> years.</li>
-		<li>Make a table of values showing <m>A(t)</m> for the first <m>5</m> years.</li>
+		<li>Make a table of values showing <m>A(t)</m> for the first 5 years.</li>
 		<li>Graph the function <m>A(t)</m>.</li>
-		<li>How much will the account be worth after <m>10</m> years?</li>
-		<li>How long will it be before the account is worth $<m>1000</m>?</li>
+		<li>How much will the account be worth after 10 years?</li>
+		<li>How long will it be before the account is worth $1000?</li>
 	</ol></p></statement>
 
 <solution><p><ol label="a">
-		<li>We substitute <m>500</m> for <m>P</m>, and <m>0.08</m> for <m>r</m> to find
+		<li>We substitute 500 for <m>P</m>, and 0.08 for <m>r</m> to find
 			<me>A(t) = 500e^{0.08t}</me></li>
 		<li><p>We evaluate the formula for <m>A(t)</m> to obtain a table.</p>
 			<sidebyside widths="30% 40%" valigns="middle middle">
@@ -661,13 +662,13 @@ where <m>P</m> is the principal invested.</p>
 			<md><mrow>A(10) \amp= 500 e^{0.08(10)}</mrow>
 			     <mrow>\amp = 500 e^{0.8}</mrow>
 			     <mrow>\amp \approx 500(2.2255) = 1112.77</mrow></md>
-		The account will be worth $<m>1112.77</m> after <m>10</m> years.</li>
-		<li>We substitute <m>1000</m> for <m>A(t)</m> and solve the equation.
+		The account will be worth $1112.77 after 10 years.</li>
+		<li>We substitute 1000 for <m>A(t)</m> and solve the equation.
 			<md><mrow>1000 \amp= 500 e^{0.08t}\amp\amp \blert{\text{Divide both sides by 500.}}</mrow>
 			     <mrow>2 \amp = e^{0.08t}\amp\amp \blert{\text{Take natural log of both sides.}}</mrow>
 			     <mrow>\ln 2 \amp= \ln e^{0.08t} = 0.08t\amp\amp \blert{\text{Divide both sides by 0.08.}}</mrow>
 			     <mrow>t \amp= \frac{\ln 2}{0.08}\approx 8.6643</mrow></md>
-		The account will be worth $<m>1000</m> after approximately <m>8.7</m> years.</li>
+		The account will be worth $1000 after approximately 8.7 years.</li>
 	</ol></p></solution></example>
 
 <exercise><title>Practice 9</title>

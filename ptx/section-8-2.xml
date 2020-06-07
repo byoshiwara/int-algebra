@@ -5,7 +5,7 @@
 
 <subsection><title>Introduction</title>
 
-<p>An <term>algebraic fraction</term> (or <em>rational expression</em>, as they are someitmes called, is a fraction in which both numerator and denominator are fractions.  Here are some examples of algebraic fractions:
+<p>An <term>algebraic fraction</term> (or <em>rational expression</em>, as they are someitmes called,) is a fraction in which both numerator and denominator are fractions.  Here are some examples of algebraic fractions:
     <me>\dfrac{3}{x},~~~~~~\dfrac{a^2+1}{a-2},~~~~~~\text{and}~~~~~~\dfrac{z-1}{2z+3}</me>
 We can evaluate algebraic fractions just as we evaluate any other algebraic expression.</p>
 
@@ -21,7 +21,7 @@ where we have divided both numerator and denominator by 9. The new fraction has 
 
 <assemblage><title>Fundamental Principle of Fractions</title>
 <p>We can multiply or divide the numerator and denominator of a fraction by the same nonzero factor, and the new fraction will be equivalent to the old one.
-    <me>\dfrac{a \cdot c}{b \cdot c} = \dfrac{a}{b}~~~~~~\text{if}~~~~~~b,c \ne 0</me></p></assemblage>
+    <me>\blert{\dfrac{a \cdot c}{b \cdot c} = \dfrac{a}{b}}~~~~~~\text{if}~~~~~~b,c \ne 0</me></p></assemblage>
 
 <example><statement><p>Reduce  <m>~\dfrac{8x^3y}{6x^2y^3}</m></p></statement>
 
@@ -201,7 +201,7 @@ In Example 3b, we cannot cancel the 3's, because they are terms and not factors.
         <li><m>\dfrac{27x^3-1}{9x^2-1}</m></li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><p>We firstfactor the numerator and denominator completely.  
+    <li><p>We first factor the numerator and denominator completely.  
         <me>\dfrac{3x+12}{6x+24} = \dfrac{3(x+4)}{2 \cdot 3(x+4)}</me>
     Then we divide numerator and denominator by the common factors 3 and <m>(x+4)</m>. We must cancel the entire expression <m>(x+4)</m> from numerator and denominator (we cannot cancel the <m>x</m>'s or the 4's separately!).
         <me>\dfrac{3(x+4)}{2 \cdot 3(x+4)} = \dfrac{\cancel{3}\cancel{(x+4)}}{2 \cdot \cancel{3}\cancel{(x+4)}}= \dfrac{1}{2}</me>
@@ -399,7 +399,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
     <sidebyside   width="45%"><image source="images/fig-graph-time-against-headwind"><description>graph showing time to complete trip vs speed of headwind</description></image></sidebyside>
             
     <p>The graph is increasing, as indicated by the table of values. In fact, as the speed of the wind gets close to 15 miles per hour, Francine's flying time becomes extremely large. In theory, if the wind speed were exactly 15 miles per hour, Francine would never complete her flight. On the graph, the time becomes infinite at <m>x = 15</m>.</p>
-    <p>What about negative values for <m>x</m>? If we interpret a negative headwind as a tailwind, Francine's flying time should decrease for negative <m>x</m>-values. For example, if <m>x = -5</m>, there is a tailwind of 5 miles per hour, so Francine's effective speed is 02  miles per hour, and she can complete the flight in 3 hours. As the tailwind gets stronger (that is, as we move farther to the left in the <m>x</m>-direction), Francine's flying time continues to decrease, and the graph approaches the <m>x</m>-axis.</p></li></ol></p>
+    <p>What about negative values for <m>x</m>? If we interpret a negative headwind as a tailwind, Francine's flying time should decrease for negative <m>x</m>-values. For example, if <m>x = -5</m>, there is a tailwind of 5 miles per hour, so Francine's effective speed is 20  miles per hour, and she can complete the flight in 3 hours. As the tailwind gets stronger (that is, as we move farther to the left in the <m>x</m>-direction), Francine's flying time continues to decrease, and the graph approaches the <m>x</m>-axis.</p></li></ol></p>
 </solution></example>
 
 <p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx>vertical asymptote</idx> for the graph. We first encountered asymptotes in <xref ref="SomeBasicGraphs" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>

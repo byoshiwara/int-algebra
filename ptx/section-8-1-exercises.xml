@@ -160,7 +160,7 @@
     <li><m>w^3+w^2-6w</m></li>
     <li><m>5w^2+w-12</m></li></ol></p></answer></exercise>
 
-<exercise number="24"><statement><p>A paper company plans to make boxes without tops from sheets of cardboard <m>12</m> inches wide and <m>16</m> inches long. The company will cut out four squares of side <m>x</m> inches from the corners of the sheet and fold up the edges as shown in the figure.</p>
+<exercise number="24"><statement><p>A paper company plans to make boxes without tops from sheets of cardboard 12 inches wide and 16 inches long. The company will cut out four squares of side <m>x</m> inches from the corners of the sheet and fold up the edges as shown in the figure.</p>
     <sidebyside width="50%"><image source="images/fig-box-12-16"><description>box</description></image></sidebyside>
 <p><ol label="a">
     <li><p>Write expressions in terms of <m>x</m> for the length, width, and height of the resulting box.</p></li>
@@ -175,7 +175,7 @@
 
 <exercise number="25"><statement><sidebyside widths="65% 20%"><p><ol>
     <li><p>A grain silo is built in the shape of a cylinder with a hemisphere on top (see the figure). Write an expression for the volume of the silo in terms of the radius and height of the cylindrical portion of the silo.</p></li>
-    <li><p>If the total height of the silo is five times its radius, write a polynomial function <m>V(r )</m> in one variable for its volume.</p></li></ol></p>
+    <li><p>If the total height of the silo is five times its radius, write a polynomial function <m>V(r)</m> in one variable for its volume.</p></li></ol></p>
 <image source="images/fig-grain-silo"><description>grain silo</description></image></sidebyside></statement>
 <answer><p><ol>
     <li><p><m>\dfrac{2}{3}\pi r^3+\pi r^2h </m></p></li>
@@ -251,6 +251,13 @@ where <m>t</m> is the number of hours since the high tide. The approximation is 
 <exercise number="32"><statement><p>Find the indicated term in each product. (Do not compute the entire product!)<ol label="a">
     <li><m>(4 + 2x - x^2)(2 - 3x + 2x^2)</m>; <m>x^2</m></li>
     <li><m>(3x + x^3 - 7x^5)(1 + 4x - 3x^2)</m>; <m>x^3</m></li></ol></p></statement></exercise>
+
+<exercise number="33"><statement><p>Verify the formula for factoring the sum of two cubes:
+    <me>(x + y)(x^2 - xy + y^2) \amp= x^3 + y^3</me></p></statement></exercise>
+        
+<exercise number="34"><statement><p>Verify the formula for factoring the difference of two cubes:
+    <me>(x - y)(x^2 + xy + y^2) \amp= x^3 - y^3</me></p></statement></exercise>
+
 
 </subexercises>
 </exercises>

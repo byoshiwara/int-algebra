@@ -53,10 +53,10 @@
 <exercisegroup cols="2"><introduction><p>For Problems 11 and 12, find a formula for the exponential function.</p>
 </introduction>
 
-<exercise number="11"><statement><sidebyside width="85%"><image source="images/fig-3halves-times-3-to-x-over-5"><description>mystery exponential growth</description></image></sidebyside></statement>
+<exercise number="11"><statement><sidebyside width="75%"><image source="images/fig-3halves-times-3-to-x-over-5"><description>mystery exponential growth</description></image></sidebyside></statement>
 <answer><m>y=1.5(3){x/5}</m></answer></exercise>
 
-<exercise number="12"><statement><sidebyside width="75%"><image source="images/fig-8fifths-times-5-to-neg-x-over-3"><description>mystery exponential decay</description></image></sidebyside></statement></exercise>
+<exercise number="12"><statement><sidebyside width="65%"><image source="images/fig-8fifths-times-5-to-neg-x-over-3"><description>mystery exponential decay</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 13 and 14,<ol label="a">
@@ -91,7 +91,7 @@
 <exercise number="18"><statement><p>The doubling time of a certain financial investment is 8 years. You invest an amount <m>M_0</m>.</p></statement></exercise>
 </exercisegroup>
 
-<exercise number="19"><statement><p>In 1798, the English political economist Thomas R. Malthus claimed that human populations, unchecked by environmental or social constraints, double every <m>25</m> years, regardless of the initial population size.<ol label="a">
+<exercise number="19"><statement><p>In 1798, the English political economist Thomas R. Malthus claimed that human populations, unchecked by environmental or social constraints, double every 25 years, regardless of the initial population size.<ol label="a">
         <li><p>Write a growth law for human populations under these conditions.</p></li>
         <li><p>What is the growth rate in unconstrained conditions?</p></li>
     </ol></p></statement>
