@@ -180,7 +180,7 @@
 
 <exercise number="31"><statement><p><ol label="a">
     <li><p>Complete the table of values, then graph both functions on the grid, along with the graph of <m>y=x</m>.
-            <me>f(x) = x^{4/3},~~~~~~g(x)=x^{3/2}</me>
+            <me>f(x) = x^{4/3},\quad g(x)=x^{3/2}</me>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -208,7 +208,7 @@
                         <cell><m>~~~</m></cell>
                         <cell><m>~~~</m></cell></row>
                     </tabular></sidebyside></p>
-    <sidebyside  width="40%"><image xml:id="fig-hw-6-3-31"><description>grid</description><latex-image>
+    <sidebyside  width="45%"><image xml:id="fig-hw-6-3-31"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -216,10 +216,10 @@
             \draw[cyan] (0,0) grid (6,10);
             \draw[black,thick, ->, >=stealth'] (0,0)--(6.5,0) node[right]{$x$};
             \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
-            \foreach \x  in {0,1,2,...,6} {
+            \foreach \x  in {0,2,4,6} {
              \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
              }
-            \foreach \x in {1,2,...,10} {
+            \foreach \x in {5,10} {
              \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
             }
             \end{tikzpicture}]]>
@@ -262,10 +262,10 @@
             \draw[cyan] (0,0) grid (6,10);
             \draw[black,thick, ->, >=stealth'] (0,0)--(6.5,0) node[right]{$x$};
             \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
-            \foreach \x  in {0,1,2,...,6} {
+            \foreach \x  in {0,2,4,6} {
              \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
              }
-            \foreach \x in {1,2,...,10} {
+            \foreach \x in {5,10} {
              \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
             }
             \draw[samples=65,domain={0:10^(3/4)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {(\x)^(4/3)}) node[above, xshift=.5cm]{$y=x^{4/3}$};
@@ -276,7 +276,7 @@
 
 <exercise number="32"><statement><p><ol label="a">
     <li><p>Complete the table of values, then graph both functions on the grid, along with the graph of <m>y=x</m>.
-            <me>f(x) = x^{3/4},~~~~~~g(x)=x^{2/3}</me>
+            <me>f(x) = x^{3/4}, \quad g(x)=x^{2/3}</me>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -301,18 +301,18 @@
                         <cell><m>~~~</m></cell>
                         <cell><m>~~~</m></cell></row>
                     </tabular></sidebyside></p>
-    <sidebyside  width="40%"><image xml:id="fig-hw-6-3-32"><description>grid</description><latex-image>
+    <sidebyside  width="45%"><image xml:id="fig-hw-6-3-32"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
-            \begin{tikzpicture} [yscale=.6]
-            \draw[cyan] (0,0) grid (6,10);
-            \draw[black,thick, ->, >=stealth'] (0,0)--(6.5,0) node[right]{$x$};
-            \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
-            \foreach \x  in {0,1,2,...,6} {
+            \begin{tikzpicture} [xscale=.75]
+            \draw[cyan] (0,0) grid (10,6);
+            \draw[black,thick, ->, >=stealth'] (0,0)--(10.5,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,0)--(0,6.6) node[above]{$y$};
+            \foreach \x  in {0,2,...,10} {
              \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
              }
-            \foreach \x in {1,2,...,10} {
+            \foreach \x in {2,4,6} {
              \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
             }
             \end{tikzpicture}]]>
@@ -320,7 +320,7 @@
     <li><p>Check your work by graphing the functions in the suggested window, and compare the graphs.
             <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 10</mrow>
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 4</mrow></md></p></li></ol></p></statement>
-<answer></answer></exercise>
+</exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 33 and 34, solve the equations, and locate the corresponding points on the graphs in Problems 31 and 32.</p></introduction>
 

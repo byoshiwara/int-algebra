@@ -280,7 +280,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
             <li><m>\sqrt[4]{2y} = (2y)^{1/4} \text{ or } (2y)^{0.25}</m></li>
         </ol></p></example>
 
-<warning><p>In Example 5b, the parentheses around <m>(2y)</m> must not be omitted. The expression <m>2y^{1/4}</m> means <m>2 \sqrt[4]{y}</m>.</p></warning>
+<warning><p>In part(b) of the Example above, the parentheses around <m>(2y)</m> must not be omitted. The expression <m>2y^{1/4}</m> means <m>2 \sqrt[4]{y}</m>.</p></warning>
 
 <p>Remember that a negative exponent denotes a reciprocal.</p>
 
@@ -527,7 +527,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
      According to our formula, the Hope Diamond is about 22.85 millimeters in diameter.</li></ol></p>
 </solution></example>
 
-<p>Of course, power functions can be expressed using any of the notations we have discussed. For example, the function in Example 8 can be written as
+<p>Of course, power functions can be expressed using any of the notations we have discussed. For example, the function in the Example above can be written as
     <me>f(w) = 6.4w^{1/3}~~~ \text{ or }~~~ f(w)= 6.4w^{0.3\overline{3}}~~~ \text{ or} ~~~ f(w)=6.4 \sqrt[3]{w}</me></p>
 
 <exercise><title>Practice 8</title>
