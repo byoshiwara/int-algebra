@@ -17,61 +17,63 @@
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=1.2]
+        \begin{tikzpicture} [scale=0.8]
+        \pgfkeys{/pgf/declare function={asinh(\x) = ln(\x + sqrt(\x^2+1));}}
         \draw[black,thick, ->, >=stealth'] (-4.5,0)--(4.5,0) node[right]{$x$};
         \draw[black,thick, ->, >=stealth'] (0,-4.5)--(0,4.5) node[above]{$y$};
-        \def\a{1};
+        \def\a{1.5};
         \def\b{1};
-        \draw[samples=65,domain={-2:2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {cosh(\x)}, {sinh(\x)});
-        \draw[samples=65,domain={-2:2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {-cosh(\x)}, {sinh(\x)});
+        \def\c{sqrt((\a)^2+(\b)^2)};
+        \draw[samples=65,domain={-asinh(4.5/\a):asinh(4.5/\a)},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\a*cosh(\x)}, {\b*sinh(\x)});
+        \draw[samples=65,domain={-asinh(4.5/\a):asinh(4.5/\a)},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {-\a*cosh(\x)}, {\b*sinh(\x)});
         \draw[blue,very thick] ({-\a},0)--(\a,0);
-        \draw [blue, decorate, decoration={brace,amplitude=8}] ({\b},0)--({-\b},0);
-        \node[align=center] at (-1,-2.5){Transverse\\axis};
-        \draw [blue,->, >=stealth'] (-.9,-2.) to [out=90,in=235] (-.3,-.2);
-        \filldraw[red] (\a,0) circle (.05) node[above left, text=red]  {$(a,0)$};
-        \filldraw[red] (-\a,0) circle (.05) node[left, xshift=-1.cm,  yshift=-1.cm, text=red]  {$(-a,0)$};
-        \draw [red,->, >=stealth'] (-1.8,-.8) to [out=10,in=205] (-1.1,-.1);
-        \filldraw[green!80!black] (0,\b) circle (.05) node[right, text=green!30!black]{$(0,b)$};
-        \filldraw[green!80!black] (0,{-\b}) circle (.05) node[right, text=green!30!black]{$(0,-b)$};
-        \filldraw[gray] (0,0) circle (.05);
-        \filldraw[black] ({-sqrt(2)},0) circle (.05) node[above] {$F_2$};
-        \filldraw[black] ({sqrt(2)},0) circle (.05) node[above] {$F_1$};
+        \filldraw[green!80!black] (0,\b) circle (.07) node[above right, text=green!30!black]{$(0,b)$};
+        \filldraw[green!80!black] (0,{-\b}) circle (.07) node[below right, text=green!30!black]{$(0,-b)$};
+        \filldraw[black] ({-\c},0) circle (.08) node[above left] {$F_2$};
+        \filldraw[black] ({\c},0) circle (.08) node[above right] {$F_1$};
+        \draw [green!70!black,very thick] (0,{-\b})--(0,\b);
         \draw [green!70!black, decorate, decoration={brace,amplitude=8}] (0,{-\b})--(0,\b);
-        \node[align=center] at (-1,2.5){Conjugate\\axis};
-        \draw [green!80!black,->, >=stealth'] (-1,2.1) to [out=270,in=125] (-.3,.2);
+        \filldraw[red] (\a,0) circle (.08) node[above left, text=red]  {$(a,0)$};
+        \filldraw[red] (-\a,0) circle (.08) node[below left, xshift=-3,  yshift=-1, text=red]  {$(-a,0)$};
+        \node[align=center] at (-1.4,2.7){Conjugate\\axis};
+        \draw [green!80!black,->, >=stealth'] (-1.4,2.1) to [out=270,in=125] (-.3,.2);
         \draw[blue,very thick] ({-\a},0)--(\a,0);
-        \draw [blue, decorate, decoration={brace,amplitude=8}] ({\b},0)--({-\b},0);
-        \node[align=center] at (-1,-2.5){Transverse\\axis};
-        \draw [blue,->, >=stealth'] (-.9,-2.) to [out=90,in=235] (-.3,-.2);
-        \node at (1.8,-3.7) {\Large${\frac{x^2}{a^2}-\frac{y^2}{b^2}={} }$\normalsize 1};
+        \draw [blue, decorate, decoration={brace,amplitude=8}] ({\a},0)--({-\a},0);
+        \node[align=center] at (-1.3,-2.7){Transverse\\axis};
+        \draw [blue,->, >=stealth'] (-1.2,-2.1) to [out=90,in=235] (-.3,-.2);
+        \filldraw[red] (\a,0) circle (.1) node[above left, text=red]  {$(a,0)$};
+        \filldraw[red] (-\a,0) circle (.1) node[below left, xshift=-3,  yshift=-1, text=red]  {$(-a,0)$};
+        \node at (1.8,-3.7) {$\displaystyle{\frac{x^2}{a^2}-\frac{y^2}{b^2}={1} }$};
         \end{tikzpicture}]]>
     </latex-image></image>
     <image xml:id="fig-hyperbola-up-down"><description>hyperbola with vertical transverse axis</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=1.2]
+        \begin{tikzpicture} [scale=0.8]
+        \pgfkeys{/pgf/declare function={asinh(\x) = ln(\x + sqrt(\x^2+1));}}
         \draw[black,thick, ->, >=stealth'] (-4.5,0)--(4.5,0) node[right]{$x$};
         \draw[black,thick, ->, >=stealth'] (0,-4.5)--(0,4.5) node[above]{$y$};
+        \def\b{1.5};
         \def\a{1};
-        \def\b{1};
-        \draw[samples=65,domain={-2:2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {sinh(\x)}, {cosh(\x)});
-        \draw[samples=65,domain={-2:2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {sinh(\x)}, {-cosh(\x)});
+        \def\c{sqrt((\a)^2+(\b)^2)};
+        \draw[samples=65,domain={-asinh(4.5/\b):asinh(4.5/\b)},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\a*sinh(\x)}, {\b*cosh(\x)});
+        \draw[samples=65,domain={-asinh(4.5/\b):asinh(4.5/\b)},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\a*sinh(\x)}, {-\b*cosh(\x)});
         \draw[blue,very thick] (0,{-\b})--(0,\b);
         \draw [blue, decorate, decoration={brace,amplitude=8}] (0,{-\b})--(0,{\b});
         \node[align=center] at (-2.5,1.5){Transverse\\axis};
         \draw [blue,->, >=stealth'] (-2,1.2) to [out=350,in=115] (-.3,.2);
-        \filldraw[green!80!black] (\a,0) circle (.05) node[above ] {$(a,0)$};
-        \filldraw[green!80!black] (-\a,0) circle (.05) node[above]  {$(-a,0)$};
+        \filldraw[green!80!black] (\a,0) circle (.08) node[above right] {$(a,0)$};
+        \filldraw[green!80!black] (-\a,0) circle (.08) node[above left]  {$(-a,0)$};
         \draw[green!80!black,very thick] ({-\a},0)--(\a,0);
-        \draw [green!80!black, decorate, decoration={brace,amplitude=8}] ({\b},0)--({-\b},0);
-        \node[align=center] at (2.8,-.9){Conjugate\\axis};
-        \draw [green!80!black,->, >=stealth'] (1.9,-.5) to [out=150,in=335] (.3,-.2);
-        \filldraw[red] (0,\b) circle (.05) node[below right, text=red]  {$(0,b)$};
-        \filldraw[red] (0,-\b) circle (.05) node[above right]  {$(0,-b)$};
-        \filldraw[black] (0,{-sqrt(2)}) circle (.05) node[right] {$F_2$};
-        \filldraw[black] (0,{sqrt(2)}) circle (.05) node[right] {$F_1$};
-        \node at (-3.2,-1.2) {\Large${\frac{y^2}{b^2} - \frac{x^2}{a^2}={} }$\normalsize 1};
+        \draw [green!80!black, decorate, decoration={brace,amplitude=8}] ({\a},0)--({-\a},0);
+        \node[align=center] at (3.2,-1.1){Conjugate\\axis};
+        \draw [green!80!black,->, >=stealth'] (1.9,-.6) to [out=170,in=335] (.3,-.3);
+        \filldraw[red] (0,\b) circle (.1) node[below right, text=red]  {$(0,b)$};
+        \filldraw[red] (0,-\b) circle (.1) node[above right]  {$(0,-b)$};
+        \filldraw[black] (0,{-\c}) circle (.08) node[below right] {$F_2$};
+        \filldraw[black] (0,{\c}) circle (.08) node[above right] {$F_1$};
+        \node at (-3.2,-1.2) {$\displaystyle{\frac{y^2}{b^2} - \frac{x^2}{a^2}=1 }$};
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
