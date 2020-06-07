@@ -75,7 +75,7 @@
     <md><mrow>P(t)=1 \cdot 2^t</mrow></md>
 so <m>P_0 = 1</m> and <m>b=2</m>.  You can see that the graph of the function is not linear. In fact, the population grows slowly at first, but eventually grows faster and faster.</p>
 
-<example><statement><p>In 1985, there were about 1.2 million cell phone users world-wide. Since that time, the number has grown by a factor of 1.5 each year.<ol label="a">
+<example xml:id="example-cellphone"><statement><p>In 1985, there were about 1.2 million cell phone users world-wide. Since that time, the number has grown by a factor of 1.5 each year.<ol label="a">
     <li>Make a table of values and graph the function.</li>
     <li>Write a formula for the number, <m>C(t)</m>, of cell phone users <m>t</m> years after 1985.</li>
     <li>How many cell phone users does the formula predict for the year 2000?</li></ol></p></statement>
@@ -141,7 +141,7 @@ so <m>P_0 = 1</m> and <m>b=2</m>.  You can see that the graph of the function is
 
 <p>In the examples above, you can see that the graphs of the functions are not linear. In each case, the function grows slowly at first, but eventually grows faster and faster.</p>
 
-<warning><p>Be careful when evaluating exponential growth functions.  In Example 1c, note that 
+<warning><p>Be careful when evaluating exponential growth functions.  In part (c) of the previous <xref ref="example-cellphone" text="custom">Example</xref>, note that 
     <md><mrow>1.2\blert{(1.5)^{15}} = 1.2 \times \blert{437.89} = 525.47~~~~~~~\blert{\text{Compute the power first.}}</mrow></md>              
 According to the order of operations, we compute the power <m>1.5^{15}</m> first, and then multiply the result by 1.2.</p></warning>
 
@@ -964,7 +964,27 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
     </solution>
 </webwork>
     <conclusion>
-         <sidebyside width="30%" margins="0% 70%"><image source="images/fig-in-ex-ans-4-1-4"><description>exponential decay</description></image></sidebyside>
+         <sidebyside width="35%" margins="0% 10%"><image xml:id="fig-butterfly">
+        <description>exponential decay</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5] 
+        \draw[cyan] (0,0) grid (10,8);
+        \draw[black,thick,->,>=stealth'] (0,0)--(10.6,0) node[above]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,8.6) node[above]{$B(t)$};
+        \foreach \x in {2,4,...,10} {
+          \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(500*\x)] in {2,4,...,8} {
+          \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+        }
+        \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {7.2*0.82^(2*\x)});
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+</sidebyside>
     </conclusion>
 </exercise>
 

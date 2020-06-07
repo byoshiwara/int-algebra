@@ -135,7 +135,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
     </solution>
 </webwork></exercise>
 
-<p>How does the value of <m>b</m> affect the graph? For increasing functions, the larger the value of the base, <m>b</m>, the faster the function grows. In Example 1, we compare two exponential functions with different bases. </p>
+<p>How does the value of <m>b</m> affect the graph? For increasing functions, the larger the value of the base, <m>b</m>, the faster the function grows. In the <xref ref="example-two-exponential-growth" text="custom">Example</xref> below, we compare two exponential functions with different bases. </p>
 
 <example xml:id="example-two-exponential-growth"><statement><p>Compare the graphs of <m>f (x) = 3^x</m> and <m>g(x) = 4^x</m>.</p></statement>
 
@@ -170,7 +170,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
             <cell><m>9</m></cell>
             <cell><m>16</m></cell></row>
     </tabular>
-	<image source="images/fig-two-exponential-growth"><description>two exponential growth functions</description></image>
+    <image source="images/fig-two-exponential-growth"><description>two exponential growth functions</description></image>
 </sidebyside></solution></example>
 
 <!-- 

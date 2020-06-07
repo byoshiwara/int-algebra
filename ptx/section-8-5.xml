@@ -50,7 +50,7 @@ The windspeed was <m>8.\overline{3}</m>, or <m>8\frac{1}{3}</m> miles per hour.<
 
 <p>If the equation contains more than one fraction, we can clear all the denominators at once by multiplying both sides by the LCD of the fractions.</p>
 
-<example><statement><p>Solve  <m>~~\dfrac{3}{4} = 8- \dfrac{2x+11}{x-5}</m></p></statement>
+<example xml:id="example-clear-fractions"><statement><p>Solve  <m>~~\dfrac{3}{4} = 8- \dfrac{2x+11}{x-5}</m></p></statement>
 
 <solution><p>The LCD for the two fractions in the equation is <m>\blert{4(x-5)}</m>. We multiply both sides of the equation by the LCD.
     <md><mrow>\blert{4(x-5)}\left(\dfrac{3}{4}\right)  \amp = \left(8- \dfrac{2x+11}{x-5}\right) \cdot \blert{4(x-5)} \amp \amp  \blert{\stackrel{{\Large\text{Apply the}}} {\text{distributive law.}}}</mrow>
@@ -63,7 +63,7 @@ We proceed as usual to complete the solution. First we use the distributive law 
         <mrow>x \amp = 9</mrow></md>
 </p></solution></example>
 
- <warning><p>We must multiply each term of an equation by the LCD, whether or not the term is a fraction. In Example 2 we multiplied each term by the LCD including the 8.</p></warning>
+ <warning><p>We must multiply each term of an equation by the LCD, whether or not the term is a fraction. In the previous <xref ref="example-clear-fractions" text="custom" >Example</xref> we multiplied each term by the LCD including the 8.</p></warning>
 
 <exercise><title>Practice 2</title>
 <webwork><pg-code>
@@ -210,7 +210,7 @@ you will find that the graphs never intersect, which means that there is no solu
 
 <p> An apparent solution that does not satisfy the original equation is called an <term>extraneous solution</term><idx>extraneous solution</idx>. Whenever we multiply an equation by an expression containing the variable, we should check that the solution obtained does not cause oany of the fractions to be undefined.</p>
 
-<example><statement><p>Solve the equation  <m>~\dfrac{6}{x}+1=\dfrac{1}{x+2}</m>.</p></statement>
+<example xml:id="example-clear-fractions2"><statement><p>Solve the equation  <m>~\dfrac{6}{x}+1=\dfrac{1}{x+2}</m>.</p></statement>
 
 <solution><p>We multiply both sides by the LCD, <m>x(x + 2)</m>. Notice that we multiply <em>each term</em> on the left side by the LCD, to get
                 <me>\alert{x(x + 2)}\left(\frac{6}{x}+1\right)=\alert{x(x + 2)}\frac{1}{x+2}</me>
@@ -223,7 +223,7 @@ you will find that the graphs never intersect, which means that there is no solu
                 <me>(x + 3)(x + 4) = 0</me>
     so the solutions are <m>x = -3</m> and <m>x = -4</m>. Neither of these values causes either denominator to equal zero, so they are not extraneous solutions.</p></solution></example>
 
-<warning><p>The following "solution" for Example 4 is incorrect.  Do you see why?
+<warning><p>The following "solution" for the previous <xref ref="example-clear-fractions2" text="custom" >Example</xref> is incorrect.  Do you see why?
     <md><mrow>\alert{x(x + 2)}\frac{6}{x}+1 \amp =\alert{x(x + 2)}\frac{1}{x+2}</mrow>
         <mrow>6x+12+1 \amp = x</mrow>
         <mrow>5x \amp = -13</mrow>
@@ -326,9 +326,9 @@ and obtain the close-up view shown in figure (b). In this window, we can see tha
     <li><p>Use the graph to find out in which months the club had 200 active members.</p>
         <p>Months: <var name="$answer" width="5"/> Enter month numbers separated by a comma.</p></li>
     <li>Verify your answer algebraically by solving an equation.</li></ol></p></statement>
-    <answer><p><ol label="a">
+    <solution><p><ol label="a">
     <li>A graph is below.</li>
-    <li>1, 4</li></ol></p></answer>
+    <li>1, 4</li></ol></p></solution>
 </webwork>
 <conclusion>
     <sidebyside width="40%"><image source="images/fig-GC-healt-club-membership"><description>graph</description></image></sidebyside>

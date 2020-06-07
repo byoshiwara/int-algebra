@@ -264,7 +264,7 @@ So <m>\log_{2}{26}</m> must be between <m>4</m> and <m>5</m>. We can use trial a
 
 <p>From the table we see that <m>26</m> is between <m>2^{4.7}</m> and <m>2^{4.8}</m>, and is closer to <m>2^{4.7}</m>. To the nearest tenth, <m>\log_{2}{26} \approx 4.7</m>.</p>
 
-<p>Trial and error can be a time-consuming process. In Example 4, we illustrate a graphical method for estimating the value of a logarithm.</p>
+<p>Trial and error can be a time-consuming process. In the <xref ref="example-approximate-log" text="custom" >Example</xref> below, we illustrate a graphical method for estimating the value of a logarithm.</p>
 
 <example xml:id="example-approximate-log"><statement>
 <p>Approximate <m>\log_{3}{7}</m> to the nearest hundredth.</p></statement>

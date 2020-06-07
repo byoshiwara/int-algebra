@@ -273,7 +273,7 @@ The same holds true for all algebraic fractions.</p>
 
 <p>We must be careful when subtracting algebraic fractions: A subtraction sign in front of a fraction applies to the <em>entire</em> numerator.</p>
 
-<example><statement><p>Subtract: <m>~\dfrac{x-3}{x-1}-\dfrac{3x-5}{x-1}</m></p></statement>
+<example xml:id="example-subtract-linear-fractionals"><statement><p>Subtract: <m>~\dfrac{x-3}{x-1}-\dfrac{3x-5}{x-1}</m></p></statement>
     
   <solution><p>We combine the numerators over a single denominator.  We use parentheses around <m>3x-5</m> to show that the subtraction applies to the entire numerator.
             <md><mrow>\dfrac{x-3}{x-1}-\dfrac{3x-5}{x-1} \amp = \dfrac{(x-3)-(3x-5)}{x-1} \amp \amp \blert{\stackrel{{\Large\text{Remove parentheses; }}}{\text{distribute negative sign.}}}</mrow>
@@ -283,7 +283,7 @@ The same holds true for all algebraic fractions.</p>
             <md><mrow>\dfrac{-2x+2}{x-1} = \dfrac{-2\cancel{(x-1)}}{\cancel{x-1}} = -2</mrow></md></p>
 </solution></example>
 
-<warning><p>In Example 4, the subtraction symbol in the numerator <m>(x-3)-(3x-5)</m> applies to <em>both</em> terms of <m>(3x-5)</m>.  That is why
+<warning><p>In the <xref ref="example-subtract-linear-fractionals" text="custom" >Example</xref> above, the subtraction symbol in the numerator <m>(x-3)-(3x-5)</m> applies to <em>both</em> terms of <m>(3x-5)</m>.  That is why
     <me>(x-3)-(3x-5) = x-3-3x+5</me></p></warning>
 
 <exercise><title>QuickCheck 2</title>
