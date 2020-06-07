@@ -148,11 +148,11 @@ Thus, <m>3(\log_b x - \log_b y) = \log_{b}\left(\dfrac{x}{y}\right)^3</m>.</p></
 
 <subsection><title>Solving Exponential Equations</title>
 
-<p>By using Property (3), we can now solve exponential equations in which the base is not <m>10</m>. For example, to solve the equation
+<p>By using Property (3), we can now solve exponential equations in which the base is not 10. For example, to solve the equation
 	<me>5^x = 7</me>
 we could rewrite the equation in logarithmic form to obtain the exact solution
 	<me>x = \log_{5}{7}</me>
-However, we cannot evaluate <m>\log_{5}{7}</m>; there is no log base <m>5</m> button on the calculator. If we want a decimal approximation for the solution, we begin by taking the base <m>10</m> logarithm of both sides, even though the base of the power is not <m>10</m>. This gives us
+However, we cannot evaluate <m>\log_{5}{7}</m>; there is no log base 5 button on the calculator. If we want a decimal approximation for the solution, we begin by taking the base 10 logarithm of both sides, even though the base of the power is not 10. This gives us
 	<me>\log_{10}{(5^x)} = \log_{10}{7}</me>
 Then we use Property (3) to rewrite the left side as
 	<me>x \log_{10}{5} = \log_{10}{7}</me>
@@ -172,18 +172,18 @@ We cannot simplify <m>~\dfrac{\log_{10}{7}}{\log_{10}{5}}~</m>; we must evaluate
 
 <example><statement><p>Solve <m>~~1640 = 80 \cdot 6^{0.03x}</m></p></statement>
 
-<solution><p>First we divide both sides by <m>80</m> to isolate the power.
+<solution><p>First we divide both sides by 80 to isolate the power.
 	<me>20.5 = 6^{0.03x}</me>
-Next, we take the base <m>10</m> logarithm of both sides of the equation and use Property (3) to get
+Next, we take the base 10 logarithm of both sides of the equation and use Property (3) to get
 	<md><mrow>\log_{10}{20.5} \amp = \log_{10}{6^{0.03x}} \amp \amp \blert{\text{Apply Property 3.}}</mrow>
 		<mrow> \amp = 0.03x \log_{10}{6}</mrow></md>
-On the right side of the equation, <m>x</m> is multiplied by two constants, <m>0.03</m> and <m>\log_{10}{6}</m>. So, to solve for <m>x</m> we must divide both sides of the equation by <m>0.03 \log_{10}{6}</m>. We use a calculator to evaluate the answer:
+On the right side of the equation, <m>x</m> is multiplied by two constants, 0.03 and <m>\log_{10}{6}</m>. So, to solve for <m>x</m> we must divide both sides of the equation by <m>0.03 \log_{10}{6}</m>. We use a calculator to evaluate the answer:
 	<me>x = \frac{\log_{10}{20.5}}{0.03 \log_{10}{6}}\approx 56.19</me>
 (On your calculator, remember to enclose the denominator, <m>0.03 \log_{10}{6}</m>, in parentheses.)</p></solution></example>
 
 <warning><p>In the previous example, do not try to simplify 
 		<me>80 \cdot 6^{0.03x} \rightarrow 480^{0.03x}~~ \blert{\text{ Incorrect!}}</me>
-Remember that the order of operations tells us to compute the power <m>6^{0.03x}</m> before multiplying by <m>80</m>. To solve the equation, we must first isolate the power with the variable exponent.</p></warning>
+Remember that the order of operations tells us to compute the power <m>6^{0.03x}</m> before multiplying by 80. To solve the equation, we must first isolate the power with the variable exponent.</p></warning>
 
 <exercise><title>Practice 4</title>
     <webwork><pg-code>
@@ -238,7 +238,7 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
     </statement>
     <solution><p><ol label="a" cols="2">
             <li><p><m>V(t) = V_0(1.027)^t</m></p></li>
-            <li><p>about <m>26</m> years</p></li></ol></p>
+            <li><p>about 26 years</p></li></ol></p>
     </solution>
 </webwork></exercise>
 

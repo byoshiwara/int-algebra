@@ -157,7 +157,7 @@
 <exercise number="15"><statement><p>Find the perimeter of the triangle with vertices <m>(-1,5)</m>, <m>(8,-7)</m>, <m>(4,1)</m>. (Hint: The length of a side is the distance between its endpoints.)</p></statement>
 <answer><m>15+\sqrt{80}+\sqrt{41} \approx 30.3</m></answer></exercise>
 
-<exercise number="16"><statement><p>Show that the points <m>(-2,1)</m>, <m>(0,-1) </m>, and <m>(\sqrt{3}-1, \sqrt{3}) </m>  are the vertices of an equilateral triangle. (Use the distance formula to show that the lengths of the three sides are equal.)</p></statement></exercise>
+<exercise number="16"><statement><p>Show that the points <m>(-2,1)</m>, <m>(0,-1) </m>, and <m>(\sqrt{3}-1, \sqrt{3}) </m>  are the vertices of an equilateral triangle. (Hint: Use the distance formula to show that the lengths of the three sides are equal.)</p></statement></exercise>
 
 <exercise number="17"><statement><p>The points <m>(1,6)</m>, <m>(5,2)</m>, <m>(-2,3)</m>, and <m>(2,-1)</m> are the vertices of a quadrilateral. Show that its diagonals are of equal length.</p></statement>
 <answer><m>\sqrt{50} \approx 7.1</m></answer></exercise>
@@ -171,7 +171,7 @@
 
 <exercise number="20"><statement><p>Brie took off from Oldfield Airport in a small plane and is now 253 miles east and 124 miles north of the airport. She knows that Preston Airport is 187 miles east and 201 miles south of Oldfield Airport. Which airport is closer to Brie’s present location?<ol label="a">
     <li><p>Use the diagram and the Pythagorean theorem to find the distance from Brie's position to Oldfield Airport.</p>
-        <sidebyside widths="48% 48%" margins="0% 0%"><image xml:id="fig-hw-9-2-18a">
+        <sidebyside widths="38% 38%" margins="8% 8%"><image xml:id="fig-hw-9-2-18a">
                 <description>Brie to Oldfield</description><latex-image>
                         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%
@@ -215,7 +215,7 @@
 
 <exercise number="21"><statement><p>Suppose that Brie flies from her present position at (253, 124) towards Preston Airport at <m>(187,-201)</m>.<ol label="a">
     <li><p>What are her coordinates when she is halfway to Preston?</p>
-        <sidebyside width="48%"><image xml:id="fig-hw-9-2-19">
+        <sidebyside width="38%"><image xml:id="fig-hw-9-2-19">
                     <description>Brie halfway to Preston</description><latex-image>
                         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%

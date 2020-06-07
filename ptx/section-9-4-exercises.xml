@@ -124,7 +124,7 @@
     <li><p>Find the equation for the hyperbola.</p></li>
     <li><p>Use your equation to complete the table.</p></li></ol></p></introduction>
 
-<exercise number="9"><statement><sidebyside width="100%"><image xml:id="fig-hw-9-4-11">
+<exercise number="9"><statement><sidebyside width="90%"><image xml:id="fig-hw-9-4-11">
         <description>hyperbola opening left and right</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -181,7 +181,7 @@
                 <cell><m>-3</m></cell></row>
         </tabular></sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><sidebyside width="100%"><image xml:id="fig-hw-9-4-10">
+<exercise number="10"><statement><sidebyside width="90%"><image xml:id="fig-hw-9-4-10">
         <description>hyperbola opening up and down</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -440,7 +440,7 @@
 <subexercises><title>Applications</title>
 
 <exercisegroup><introduction><p>Problems 29<ndash/>32 deal with the cooling tower at an electricity generating facility. The shape of the tower, called a hyperboloid, is obtained by rotating a portion of the hyperbola <m>~\dfrac{x^2}{100^2}-\dfrac{y^2}{150^2}=1</m> around the <m>y</m>-axis.</p>
-<sidebyside width="70%"><image source="images/fig-hyperbola-tower"><description>graph</description></image></sidebyside>
+<sidebyside width="80%"><image source="images/fig-hyperbola-tower"><description>graph</description></image></sidebyside>
 </introduction>
 
 <exercise number="29"><statement><p>The base of the cooling tower is 360 feet below the center of the hyperbola. What is the diamter of the base?</p></statement>

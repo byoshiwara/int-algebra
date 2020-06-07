@@ -67,7 +67,7 @@ So, we solve an exponential equation by computing a logarithm. We make the follo
 
 <p>The conversion equations allow us to convert from logarithmic to exponential form, or vice versa. You should memorize the conversion equations, because we will use them frequently. </p>
 
-<p>As special cases of the equivalence in (1), we can compute the following useful logarithms.</p>
+<p>As special cases of the equivalence above, we can compute the following useful logarithms.</p>
 <p>For any base <m>b \gt 0, b\ne 1</m>,</p>
 
 <assemblage><title>Some Useful Logarithms</title>
@@ -217,9 +217,9 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 
 <p>Now let's consider computing logarithms that are not obvious by inspection. Suppose we would like to solve the equation
 	<me>2^x = 26</me>
-The solution of this equation is <m>x = \log_{2}{26}</m>, but can we find a decimal approximation for this value? There is no integer power of <m>2</m> that equals <m>26</m>, because
+The solution of this equation is <m>x = \log_{2}{26}</m>, but can we find a decimal approximation for this value? There is no integer power of 2 that equals 26, because
 	<me>2^4  = 16~~~~~ \text{and }~~~~ 2^5  = 32</me>
-So <m>\log_{2}{26}</m> must be between <m>4</m> and <m>5</m>. We can use trial and error to find the value of <m>\log_{2}{26}</m> to the nearest tenth. Use your calculator to make a table of values for <m>y = 2^x</m>, starting with <m>x = 4</m> and using increments of <m>0.1</m>.</p>
+So <m>\log_{2}{26}</m> must be between 4 and 5. We can use trial and error to find the value of <m>\log_{2}{26}</m> to the nearest tenth. Use your calculator to make a table of values for <m>y = 2^x</m>, starting with <m>x = 4</m> and using increments of 0.1.</p>
 
 <sidebyside>   <tabular halign="center" right="minor" left="minor" bottom="minor"><col top="minor" /><col top="minor" /><col top="none"/>
         <col top="minor"/><col top="minor"/>
@@ -262,7 +262,7 @@ So <m>\log_{2}{26}</m> must be between <m>4</m> and <m>5</m>. We can use trial a
             <cell><m>2^{4.9}=29.857</m></cell></row>
      </tabular></sidebyside>
 
-<p>From the table we see that <m>26</m> is between <m>2^{4.7}</m> and <m>2^{4.8}</m>, and is closer to <m>2^{4.7}</m>. To the nearest tenth, <m>\log_{2}{26} \approx 4.7</m>.</p>
+<p>From the table we see that 26 is between <m>2^{4.7}</m> and <m>2^{4.8}</m>, and is closer to <m>2^{4.7}</m>. To the nearest tenth, <m>\log_{2}{26} \approx 4.7</m>.</p>
 
 <p>Trial and error can be a time-consuming process. In the <xref ref="example-approximate-log" text="custom" >Example</xref> below, we illustrate a graphical method for estimating the value of a logarithm.</p>
 
@@ -306,9 +306,9 @@ To the nearest hundredth, <m>\log_{3}{7} \approx 1.77</m>.</p>
 
 <subsection><title>Base 10 Logarithms</title>
 
-<p>Some logarithms are used so frequently in applications that their values are programmed into scientific and graphing calculators. These are the base <m>10</m> logarithms, such as 
+<p>Some logarithms are used so frequently in applications that their values are programmed into scientific and graphing calculators. These are the base 10 logarithms, such as 
 	<me>\log_{10}{1000} = 3 ~~~\text{ and }~~~ \log_{10}{0.01} = -2</me>
-Base <m>10</m> logarithms are called <term>common logarithms</term><idx>common logarithms</idx>, and the subscript <m>10</m> is often omitted, so that <m>\log x</m> is understood to mean <m>\log_{10}{x}</m>.</p>
+Base 10 logarithms are called <term>common logarithms</term><idx>common logarithms</idx>, and the subscript 10 is often omitted, so that <m>\log x</m> is understood to mean <m>\log_{10}{x}</m>.</p>
 
 <exercise><title>QuickCheck 4</title>
 <webwork><pg-code>       
@@ -327,9 +327,9 @@ Base <m>10</m> logarithms are called <term>common logarithms</term><idx>common l
     </solution>
 </webwork></exercise>
 
-<p>To evaluate a base <m>10</m> logarithm, we use the <c>LOG</c> key on a calculator. Many logarithms are irrational numbers, and the calculator gives as many digits as its display allows. We can then round off to the desired accuracy.</p>
+<p>To evaluate a base 10 logarithm, we use the <c>LOG</c> key on a calculator. Many logarithms are irrational numbers, and the calculator gives as many digits as its display allows. We can then round off to the desired accuracy.</p>
 
-<example xml:id="example-calculator-log"><statement><p>Approximate the following logarithms to <m>2</m> decimal places.
+<example xml:id="example-calculator-log"><statement><p>Approximate the following logarithms to 2 decimal places.
 <ol label="a" cols="2">
 			<li><p><m>\log{6.5}</m></p></li>
 			<li><p><m>\log{256}</m></p></li>
@@ -351,11 +351,11 @@ Base <m>10</m> logarithms are called <term>common logarithms</term><idx>common l
 	<li><p>The keying sequence <c>LOG</c> <m>256</m> <c>)</c> <c>ENTER</c> yields <m>2.408239965</m>, so <m>\log {256} \approx 2.41</m>.</p></li>
 	</ol></p></solution></example>
 
-<note><p>We can check the approximations found in <xref ref="example-calculator-log" text="type-global"/> with our conversion equations. Remember that a logarithm is an exponent, and in this example the base is <m>10</m>. We find that
+<note><p>We can check the approximations found in <xref ref="example-calculator-log" text="type-global"/> with our conversion equations. Remember that a logarithm is an exponent, and in this example the base is 10. We find that
 	<md><mrow>\amp\amp 10^{0.81} \amp\approx 6.45654229</mrow>
 		<mrow>\text{and} \amp\amp 10^{2.41} \amp\approx 257.0395783</mrow></md>
-so our approximations are reasonable, although you can see that rounding a logarithm to <m>2</m> decimal places does lose some accuracy.</p>
-<p> For this reason, <em>rounding logarithms to <m>4</m> decimal places is customary.</em></p></note>
+so our approximations are reasonable, although you can see that rounding a logarithm to 2 decimal places does lose some accuracy.</p>
+<p> For this reason, <em>rounding logarithms to 4 decimal places is customary.</em></p></note>
 
 <exercise><title>Practice 4</title>
 <webwork><pg-code>
@@ -406,12 +406,12 @@ so our approximations are reasonable, although you can see that rounding a logar
 
 <subsection><title>Solving Exponential Equations</title>
 
-<p>We can now solve any exponential equation with base <m>10</m>.</p>
+<p>We can now solve any exponential equation with base 10.</p>
 
 <example xml:id="example-solve-exponential"><statement><p>Solve the equation <m>~~38 = 95 - 15 \cdot 10^{0.4x}</m></p>
 </statement>
 
-<solution><p>First, we isolate the power of <m>10</m>: We subtract <m>95</m> from both sides of the equation and divide by <m>-15</m> to obtain
+<solution><p>First, we isolate the power of 10: We subtract 95 from both sides of the equation and divide by <m>-15</m> to obtain
 	<md><mrow>-57 \amp = -15 \cdot 10^{0.4x} \amp\amp \blert{\text{Divide by }-15.}</mrow>
 		<mrow>3.8 \amp = 10^{0.4x}</mrow></md>
 Next, we convert the equation to logarithmic form as
@@ -484,7 +484,7 @@ We can evaluate this expression on the calculator by entering</p>
 	</ol>
 To answer the first question, we evaluate the function <m>P(t)</m> at the appropriate value. To answer the second question, we must solve an exponential equation, and this usually involves logarithms.</p>
 
-<example xml:id="example-tractor-depreciates"><statement><p>The value of a large tractor originally worth $<m>30,000</m> depreciates exponentially according to the formula 
+<example xml:id="example-tractor-depreciates"><statement><p>The value of a large tractor originally worth $30,000 depreciates exponentially according to the formula 
     <me>V(t) = 30,000(10)^{-0.04t}</me> 
 where <m>t</m> is in years. When will the tractor be worth half its original value?</p></statement>
 
@@ -561,12 +561,11 @@ To evaluate this expression, we key in</p>
     <solution><p><ol label="a">
                 <li><p>25.85%</p></li>
                 <li><p><m>t\approx 10.4</m> (year 2004)</p></li>
-                <li><p>No, the percent of homes with computers cannot exceed <m>100\%</m>.</p></li></ol></p>
+                <li><p>No, the percent of homes with computers cannot exceed 100%.</p></li></ol></p>
     </solution>
 </webwork></exercise>
 
-<p>At this stage, it seems we will only be able to solve exponential equations in which the base is <m>10</m>. However, we will see in future sections how the properties of logarithms enable us to solve exponential equations with any base.
-</p>
+<p>At this stage, it seems we will only be able to solve exponential equations in which the base is 10. However, we will see in future sections how the properties of logarithms enable us to solve exponential equations with any base.</p>
 </subsection>
  
 <xi:include href="./section-7-3-exercises.xml" />                

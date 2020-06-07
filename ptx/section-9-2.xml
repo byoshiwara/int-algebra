@@ -7,7 +7,7 @@
 <subsection><title>Distance in a Coordinate Plane</title>   
                    
 <p>Figure (a) shows a line segment joining the two points <m>(-2, 7)</m> and <m>(6, 3)</m>. What isthe distance between the two points?</p>
-<sidebyside widths="42% 42%" margins="5% 5%">
+<sidebyside widths="38% 38%" margins="5% 5%">
     <image xml:id="fig-line-segment-in-coordinate-plane"><description>line segment in coordinate plane</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -296,7 +296,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
 <solution><p><ol label="a">
     <li><p>The graph of <m>(x-2)^2+(y+3)^2=16</m> is a circle with radius 4 and center at <m>(2,-3)</m>. To sketch the graph, we first locate the center of the circle. (The center is not part of the graph of the circle.) From the center, we move a distance of 4 units (the radius of the circle) in each of four directions:  up, down, left, and right. This locates four points that lie on the circle: <m>(2,1)</m>, <m>(2,-7)</m>, <m>(-2,-3)</m>, and <m>(6,-3)</m>.  We sketch the circle through these four points.</p> 
 
-    <image source="images/fig-circles2"><description>circles</description></image></li>
+    <sidebyside width="80%"><image source="images/fig-circles2"><description>circles</description></image></sidebyside></li>
 
     <li><p>The graph of <m>x^2+(y-4)^2=7</m> is a circle with radius <m>\sqrt{7}</m> and center at <m>(0,4)</m>.  From the center, we move approximately <m>\sqrt{7}</m>, or 2.6 units in each of the four coordinate directions to obtain the points <m>(0,6.6)</m>, <m>(0,1.4)</m>, <m>(-2.6,4)</m>, and <m>(2.6,4)</m>. We sketch the circle through these four points.</p></li>
 </ol></p></solution></example>
@@ -358,7 +358,7 @@ in standard form, and graph the equation.</p></statement>
         <md><mrow>(x^2+8x+<fillin characters="6"/>)+(y^2-2y+<fillin characters="6"/>)=-6</mrow></md>
 We complete the square in <m>x</m> by adding 16 to each side of the equation, and complete the square in <m>y</m> by adding 1 to each side, to get
             <md><mrow>(x^2+8x+\alert{16})+(y^2-2y+\alert{1})=-6+\alert{16}+\alert{1}</mrow></md></p>
-        <sidebyside widths="55% 40%" margins="0% 0%" aligns="middle middle">
+        <sidebyside widths="55% 32%" margins="0% 5%" aligns="middle middle">
 <p>from which we obtain the standard form,
             <md><mrow>(x+4)^2+(y-1)^2=11</mrow></md>
 Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}</m>, or approximately 3.3.  The graph is shown at right.</p>
@@ -447,7 +447,7 @@ Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}
 <example><statement><p>Find an equation for the circle whose diameter has endpoints <m>(7,5)</m> and <m>(1,-1)</m>.</p>
 </statement> 
 
-<solution><sidebyside widths="60% 35%">
+<solution><sidebyside widths="60% 32%" valigns="middle middle">
 <p>The center of the circle is the midpoint of its diameter.  We use the midpoint formula to find the center:
             <md><mrow>h=\overline{x}=\dfrac{7+1}{2}=4</mrow>
                 <mrow>k=\overline{y}=\dfrac{5-1}{2}=2</mrow></md>

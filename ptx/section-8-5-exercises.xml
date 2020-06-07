@@ -115,17 +115,17 @@ Solution:
 Write and solve an equation to determine what percent of the population can be immunized for $168,000.</p></statement>
 <answer><p><m>168=\dfrac{72p}{100-p}</m>; <m>p=70\%</m></p></answer></exercise>
 
-<exercise number="30"><statement><p>A school od bluefin tuna average <m>36 </m> miles per hour on a <m>200</m>-mile trip in still water, but this time they encounter a current.<ol>
+<exercise number="30"><statement><p>A school od bluefin tuna average 36 miles per hour on a 200-mile trip in still water, but this time they encounter a current.<ol>
     <li><p>Express the tuna's travel time, <m>t</m>, as a function of the current speed, <m>v</m>, and graph the function in the window
         <md><mrow>{\text{Xmin}} \amp = 0 \amp\amp {\text{Xmax}} = 36</mrow>
         <mrow>{\text{Ymin}} \amp = 0 \amp\amp {\text{Ymax}} =50</mrow></md></p></li>
-    <li><p>Write and solve an equation to find the current speed if the school makes its trip in <m>8</m> hours. Label the corresponding point on your graph.</p></li>
+    <li><p>Write and solve an equation to find the current speed if the school makes its trip in 8 hours. Label the corresponding point on your graph.</p></li>
 </ol></p></statement></exercise>
 
 <exercise number="31"><statement><p>During the baseball season so far this year, Pete got hits 44 times out of 164 times at bat.<ol label="a">
     <li>What is Pete's batting average so far? (Batting average is the fraction of at-bats that resulted in hits.)</li>
     <li>If Pete gets hits on every one of his next <m>x</m> at-bats, write an expression for his new batting average.</li>
-    <li>How many consecutive hits does Pete need to raise his batting average to <m>0.350</m>?</li></ol>
+    <li>How many consecutive hits does Pete need to raise his batting average to 0.350 ?</li></ol>
 </p></statement>
 <answer><p><ol label="a">
     <li>0.268</li>

@@ -209,7 +209,7 @@
         </p></li></ol></p></statement></exercise>
 
 <exercise number="21"><statement><p>The center of a circle is the point <m>C(2, 4)</m>, and <m>P(-1, 6)</m> is a point on the circle. Find the equation of the line tangent to the circle at the point <m>P</m>. (Hint: Recallt hat the tangent line to a circle is perpendicular to the radius at the point of tangency.)</p>
-        <sidebyside width="45%"><image xml:id="fig-hw-9-1-17">
+        <sidebyside width="35%"><image xml:id="fig-hw-9-1-17">
             <description>circle and tangent line</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%

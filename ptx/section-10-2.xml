@@ -32,7 +32,7 @@
 <p>On the other hand, we can plot the mass of the cat if we set tick marks at intervals of 1 kg, but the axis will have to be extremely long to include even the wolf. We cannot show the masses of all these animals on the same scale</p>
 <sidebyside  width="75%"><image source="images/fig-numline-mammal-mass2"><description>number line with masses of mammals</description></image></sidebyside>
 
-<p>To get around this problem, we can plot the log of the mass, instead of the mass itself. The table below shows the base 10 log of each animal's mass, rounded to <m>2</m> decimal places.</p>
+<p>To get around this problem, we can plot the log of the mass, instead of the mass itself. The table below shows the base 10 log of each animal's mass, rounded to 2 decimal places.</p>
 
 	<sidebyside  ><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">

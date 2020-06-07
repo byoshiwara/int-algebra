@@ -339,7 +339,7 @@
     <li><m>\dfrac{x^2}{24^2}+\dfrac{y^2}{8^2} = 1</m></li>
     <li>10.29 ft</li></ol></p></answer></exercise>
 
-<exercise number="32"><statement><p>The edge of a sailboat's keel is elliptical in shape, with a major axis 0f 360 centimeters. The minor axis is 100 centimeters, but part of the ellipse has been cut off parallel to the major axis. This cut edge is 330 centimeters long.</p>
+<exercise number="32"><statement><p>The edge of a sailboat's keel (the bottom of the boat, underwater) is elliptical in shape, with a major axis of 360 centimeters. The minor axis is 100 centimeters, but the top of the ellipse has been cut off parallel to the major axis. This cut edge is 330 centimeters long.</p>
 <sidebyside width="50%"><image xml:id="fig-keel">
         <description>elliptical keel on sailboat</description>
         <latex-image>

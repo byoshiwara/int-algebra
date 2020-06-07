@@ -8,7 +8,7 @@
     <image source="images/fig-solve-rational-equation"><description>graph of rational function for solving equation</description></image>
 <p>In <xref ref="example-pedal-aircraft" text="type-global"/>, of Section 8.2, Francine planned a 60-mile training run on her cycle-plane. The time required for the training run, in terms of the windspeed, <m>x</m>, is given by:
     <me>t=f(x) = \dfrac{60}{15-x}</me>
-If it takes Francine <m>9</m> hours to cover <m>60</m> miles, what is the speed of the wind? We can answer this question by reading values from the graph of <m>f</m>, as shown at left. When <m>t = 9</m>, the value of <m>x</m> is between <m>8</m> and <m>9</m>, so the windspeed is between <m>8</m> and <m>9</m> miles per hour.</p></sidebyside>
+If it takes Francine 9 hours to cover 60 miles, what is the speed of the wind? We can answer this question by reading values from the graph of <m>f</m>, as shown at left. When <m>t = 9</m>, the value of <m>x</m> is between 8 and 9, so the windspeed is between 8 and 9 miles per hour.</p></sidebyside>
 </introduction>
 
 <subsection><title>Solving Algebraically</title>
@@ -197,7 +197,7 @@ The two towns are 80 kilometers apart.</p></solution></example>
 
 <subsection><title>Extraneous Solutions</title>
 
-<p>An algebraic fractions is undefined for any values of <m>x</m> that make its denominator equal zero. These values are not in the domain of the function, and they therefore cannot be solutions to equations involving the fraction. Consider the equation
+<p>An algebraic fractions is undefined for any values of <m>x</m> that make its denominator equal zero. These values cannot be solutions to equations involving the fraction. Consider the equation
     <me>\dfrac{x}{x-3}=\frac{3}{x-3}+2</me>
 When we multiply both sides by the LCD, <m>x - 3</m>, we obtain
     <md><mrow>\alert{(x - 3)}\frac{x}{x-3} \amp =\alert{(x - 3)}\frac{3}{x-3}+\alert{(x - 3)}\cdot 2</mrow>
@@ -371,7 +371,7 @@ Solving this equation, we find
         <md><mrow>360 - 30x \amp = 216 + 18x</mrow>
             <mrow>144 \amp = 48x</mrow>
             <mrow>3 \amp = x</mrow></md>
-The speed of the current is <m>3</m> miles per hour.</p></solution></example>
+The speed of the current is 3 miles per hour.</p></solution></example>
 
 <p>We can solve the equation in <xref ref="example-kayak-current" text="type-global"/> graphically by considering two functions, one for each side of the equation. Graph the two functions
     <me>Y_1=\frac{30}{12+x} \hphantom{space}\text{and}\hphantom{space}Y_2=\frac{30}{12-x}</me>
@@ -380,9 +380,9 @@ in the window
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 10</mrow></md>
 to obtain the graph shown below.</p>
         <sidebyside  width="35%"><image source="images/fig-GC-intersecting-rational-functions"/><description>intersecting rational functions</description></sidebyside>
-<p>The function <m>Y_1</m> gives the time it takes Rani to paddle 30 miles downstream, and <m>Y_2</m> gives the time it takes her to paddle <m>18</m> miles upstream. Both of these times depend on the speed of the current, <m>x</m>.</p> 
+<p>The function <m>Y_1</m> gives the time it takes Rani to paddle 30 miles downstream, and <m>Y_2</m> gives the time it takes her to paddle 18 miles upstream. Both of these times depend on the speed of the current, <m>x</m>.</p> 
 
-<p>We are looking for a value of <m>x</m> that makes <m>Y_1</m> and <m>Y_2</m> equal. This occurs at the intersection point of the two graphs, <m>(3, 2)</m>. Thus, the speed of the current is <m>3</m> miles per hour, as we found in <xref ref="example-kayak-current" text="type-global"/>. The y-coordinate of the intersection point gives the time Rani paddled on each part of her trip: <m>2</m> hours each way.</p>
+<p>We are looking for a value of <m>x</m> that makes <m>Y_1</m> and <m>Y_2</m> equal. This occurs at the intersection point of the two graphs, <m>(3, 2)</m>. Thus, the speed of the current is 3 miles per hour, as we found in <xref ref="example-kayak-current" text="type-global"/>. The y-coordinate of the intersection point gives the time Rani paddled on each part of her trip: 2 hours each way.</p>
 
 <exercise><title>Practice 6</title>
 <webwork><pg-code>

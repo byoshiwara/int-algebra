@@ -143,7 +143,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 <p>Then we plot the points for each function and connect them with smooth curves. Note that <m>a=1</m> for both functions, so their graphs have the same <m>y</m>-intercept, <m>(0,1)</m>.</p> 
 <p>For positive <m>x</m>-values, <m>g(x)</m> is always larger than <m>f(x)</m>, and is increasing more rapidly. In the figure, we can see that <m>g(x) = 4^x</m> climbs more rapidly than <m>f(x) = 3^x</m>. However, for negative <m>x</m>-values, <m>g(x)</m> is smaller than <m>f(x)</m>.</p>
 
-<sidebyside widths="40% 30%" valigns="middle middle" margins="0% 20%">
+<sidebyside widths="40% 27%" valigns="middle middle" margins="0% 20%">
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -290,8 +290,8 @@ For the examples above, we find that the <m>y</m>-intercepts are
 
 <p>These two families of functions have very different properties, as well.</p>
 
-<example xml:id="example-power-vs-exponential"><statement><p>Which of the functions shown below is exponential, and which is a cubic power function?</p>
-<sidebyside widths="25% 25% 40%" margins="0% 0%">
+<example xml:id="example-power-vs-exponential"><statement><p>Which of the functions shown below is exponential, and which is a cubic power function? Find an equation for each.</p>
+<sidebyside widths="25% 25% 30%" margins="0% 0%">
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -322,16 +322,16 @@ For the examples above, we find that the <m>y</m>-intercepts are
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
-            <cell><m>f(x))</m></cell></row>
+            <cell><m>f(x)</m></cell></row>
         <row>
             <cell><m>-3</m></cell>
-            <cell><m>\dfrac{2}{27}</m></cell></row>
+            <cell><m>\frac{2}{27}</m></cell></row>
         <row>
             <cell><m>-2</m></cell>
-            <cell><m>\dfrac{1}{4}</m></cell></row>
+            <cell><m>\frac{1}{4}</m></cell></row>
         <row>
             <cell><m>-1</m></cell>
-            <cell><m>\dfrac{2}{3}</m></cell></row>
+            <cell><m>\frac{2}{3}</m></cell></row>
         <row>
             <cell><m>0</m></cell>
             <cell><m>2</m></cell></row>
@@ -364,13 +364,15 @@ For the examples above, we find that the <m>y</m>-intercepts are
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
 
-<solution><p>We can tell that <m>f</m> is an exponential function because its values increase by a factor of 3 for each unit increase in <m>x</m>. The base of the function is <m>b=3</m>. We also see from the table that <m>a=f(0)=2</m>, so <m>f(x)=2(3^x)</m>. Thus, <m>h</m> must be the power function, <m>(x)=kx^3</m>. To find <m>k</m>, we notice that <m>h(1)=k</m>, so <m>k=2</m>, and <m>h(x)=2x^3</m>.</p>
+<solution><p>We can tell that <m>f</m> is the exponential function because its values increase by a factor of 3 for each unit increase in <m>x</m>. The base of the function is <m>b=3</m>. We also see from the table that <m>a=f(0)=2</m>, so <m>f(x)=2(3^x)</m>. Thus, <m>h</m> must be the power function, <m>h(x)=kx^3</m>. To find <m>k</m>, we notice that <m>h(1)=k</m>, so <m>k=2</m>, and <m>h(x)=2x^3</m>.</p></solution></example>
     
-<p>As you would expect, the graphs of the two functions are also quite different. In particular, note that the power function passes through the origin, while the exponential function approaches the negative <m>x</m>-axis as a horizontal asymptote.</p>
+<note><p>As you can see from the figure, the graphs of the two functions in the previous Example are also quite different. In particular, note that the power function passes through the origin, while the exponential function approaches the negative <m>x</m>-axis as a horizontal asymptote.</p>
     
-<p> From the table, we see that <m>h(3) = f(3) = 54</m>, so the two graphs intersect at <m>x = 3</m>. (They also intersect at approximately <m>x = 2.48</m>.) However, if you compare the values of <m>h(x) = 2x^3</m> and <m>f(x) = 2(3^x)</m> for larger values of <m>x</m>, you will see that eventually the exponential function overtakes the power function.</p></solution></example>
+<p> From the table, we see that <m>h(3) = f(3) = 54</m>, so the two graphs intersect at <m>x = 3</m>. (They also intersect at approximately <m>x = 2.48</m>.) However, if you compare the values of <m>h(x) = 2x^3</m> and <m>f(x) = 2(3^x)</m> for larger values of <m>x</m>, you will see that eventually the exponential function overtakes the power function.</p></note>
 
-<sidebyside widths="55% 42%" margins="0% 0%"><p>The relationship in <xref ref="example-power-vs-exponential" text="type-global"/> holds true for all increasing power and exponential functions: For large enough values of <m>x</m>, the exponential function will always be greater than the power function, regardless of the parameters in the functions. The figure at left  shows the graphs of <m>f(x) = x^6</m> and <m>g(x) = 1.8^x</m>. At first, <m>f (x) \gt g(x)</m>, but at around <m>x = 37</m>, <m>g(x)</m> overtakes <m>f (x)</m>, and <m>g(x) \gt f (x)</m> for all <m>x \gt 37</m>.</p>
+<p></p>
+
+<sidebyside widths="62% 37%" margins="0% 0%"><p>The relationship in <xref ref="example-power-vs-exponential" text="type-global"/> holds true for all increasing power and exponential functions: For large enough values of <m>x</m>, the exponential function will always be greater than the power function, regardless of the parameters in the functions. The figure at left shows the graphs of <m>f(x) = x^6</m> and <m>g(x) = 1.8^x</m>. At first, <m>f(x) \gt g(x)</m>, but at around <m>x = 37</m>, <m>g(x)</m> overtakes <m>f(x)</m>, and <m>g(x) \gt f(x)</m> for all <m>x \gt 37</m>.</p>
     <image source="images/fig-power-vs-exponential-3"><description>power function vs exponential from 0 to 50</description></image></sidebyside>
 
 <exercise xml:id="exercise-identify-power-and-exponential-functions"><title>Practice 3</title>
@@ -461,7 +463,7 @@ is exponential. </p>
 which is true if and only if <m>x = 4</m>.</p> 
 <p>In general, if two equivalent powers have the same base, then their exponents must be equal also, as long as the base is not <m>0</m> or <m>\pm 1</m>.</p>
 
-<p>If possible, we can use the laws of exponents can be used to express both sides of an equation as single powers of a common base.</p>
+<p>In the next Example, we use the laws of exponents to express both sides of the equation as single powers of a common base.</p>
 
 <example xml:id="example-exponential-equations"><statement><p>Solve the following equations.
 	<ol label="a" cols="2">
@@ -525,12 +527,12 @@ which is true if and only if <m>x = 4</m>.</p>
 
 <p>Exponential equations arise frequently in the study of exponential growth.</p>
 
-<example xml:id="example-flea-population"><statement><p>During the summer a population of fleas doubles in number every <m>5</m> days. <ol label="a">
+<example xml:id="example-flea-population"><statement><p>During the summer a population of fleas doubles in number every 5 days. <ol label="a">
 	<li>If a population starts with 10 fleas, write a formula for the number of fleas present after <m>t</m> days.</li>
 	<li>How long will it be before there are 10,240 fleas?</li></ol></p></statement>
 
 <solution><p><ol label="a">
-	<li><p>We let <m>P</m> represent the number of fleas present after <m>t</m> days. The original population of <m>10</m> doubles not every day, but every <m>5</m> days. A table of values for <m>P</m> would look like this.
+	<li><p>We let <m>P</m> represent the number of fleas present after <m>t</m> days. The original population of 10 fleas doubles not every day, but every 5 days. A table of values for <m>P</m> would look like this.
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
@@ -565,7 +567,7 @@ which is true if and only if <m>x = 4</m>.</p>
 		<md><mrow>\alert{10,240} \amp = 10\cdot 2^{t/5}\amp\amp \blert{\text{Divide both sides by 10.}}</mrow>
 			<mrow>1024 \amp = 2^{t/5} \amp\amp \blert{\text {Write 1024 as a power of 2.}}</mrow>
 			<mrow>2^{10} \amp = 2^{t/5}</mrow></md>
-	We equate the exponents to get <m>10 = \dfrac{t}{5}</m>, or <m>t = 50</m>. The population will grow to <m>10,240</m> fleas in <m>50</m> days.</li></ol></p></solution></example>
+	We equate the exponents to get <m>10 = \dfrac{t}{5}</m>, or <m>t = 50</m>. The population will grow to 10,240 fleas in 50 days.</li></ol></p></solution></example>
 
 <p>In Example 4a, we can also use the laws of exponents to write the formula as 
 	<me>P(t)=10 \cdot (2^{1/5})^t</me> 
@@ -577,12 +579,12 @@ From this form see that the growth factor for this function is <m>2^{1/5}</m>, o
             $N = Formula("100 * 8**(t/4)");
             $answer = Compute("12");
         </pg-code>
-    <statement><p>During an advertising campaign in a large city, the makers of Chip-O's corn chips estimate that the number of people who have heard of Chip-O's increases by a factor of <m>8</m> every 4 days.</p>
+    <statement><p>During an advertising campaign in a large city, the makers of Chip-O's corn chips estimate that the number of people who have heard of Chip-O's increases by a factor of 8 every 4 days.</p>
     <p><ol label="a">
         <li><p>If 100 people are given trial bags of Chip-O's to start the campaign, write a function, <m>N(t)</m>, for the number of people who have heard of Chip-O's after <m>t</m> days of advertising.</p>
             <p><m>N(t)=</m><var name="$N" width="10"/> </p></li>
         <li><p>Use your calculator to graph the function <m>N(t)</m> on the domain <m>0 \le t \le 15</m>.</p></li>
-        <li><p>How many days should the makers run the campaign in order for Chip-O's to be familiar to <m>51,200</m> people? Use algebraic methods to find your answer and verify on your graph.</p>
+        <li><p>How many days should the makers run the campaign in order for Chip-O's to be familiar to 51,200 people? Use algebraic methods to find your answer and verify on your graph.</p>
             <p>Answer: <var name="$answer" width="2"/> days</p></li></ol></p>
     </statement>
     <solution><p><ol label="a">
