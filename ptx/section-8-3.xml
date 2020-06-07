@@ -9,7 +9,7 @@
 
 <assemblage><title>Product of Fractions</title>
 <p>If <m>b \ne 0</m> and <m>d \ne 0</m>, then
-    <me>\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}</me></p></assemblage>
+    <me>\blert{\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}}</me></p></assemblage>
 
 <p>If a common factor occurs in a numerator and a denominator of either fraction, we can divide it out either before or after multiplying. For example,
     <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{\cancel{3} \cdot \cancel{a}}{4} \cdot \dfrac{5}{\cancel{3} \cdot 2 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me>
@@ -89,7 +89,7 @@ We express this rule in symbols as follows.</p>
 
 <assemblage><title>Quotient of Fractions</title>
 <p>If <m>b, c, d \ne 0</m>, then
-    <me>\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}</me></p></assemblage>
+    <me>\blert{\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}}</me></p></assemblage>
 
 <p>Thus, to divide two algebraic fractions, we take the reciprocal of the divisor and then follow the rules for multiplying algebraic fractions.</p>
 
@@ -100,7 +100,7 @@ We express this rule in symbols as follows.</p>
 Now we follow the rules for multiplication:  First, we factor each numerator and denominator.
     <md><mrow>\amp = \dfrac{a-2}{3 \cdot 2 \cdot a \cdot a} \cdot \dfrac{2a(2a-1)}{(2-a)(2+a)} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
         <mrow>\amp = \dfrac{-1 \cancel{(2-a)}}{3 \cdot \cancel{2} \cdot \cancel{a} \cdot a} \cdot \dfrac{\cancel{2}a(2a-1)}{\cancel{(2-a)}(2+a)} \amp \amp \blert{\text{Note}~a-2 = -1(2-a).}</mrow>
-        <mrow> \amp = \dfrac{-1(2a-1)}{3a(2+a)} = \dfrac{1-2a)}{3a(2+a)}</mrow></md></p></solution></example>
+        <mrow> \amp = \dfrac{-1(2a-1)}{3a(2+a)} = \dfrac{1-2a}{3a(2+a)}</mrow></md></p></solution></example>
 
 <note><p>When working with algebraic fractions, we often leave the denominators in factored form. This makes it easier to add and subtract fractions, and to check whether they can be reducecd.</p></note>
 
@@ -175,7 +175,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
           }
         );
     </pg-code>
-    <statement><p>Divide: <m>~\dfrac{x^2-4y^2}{4y^2} \div \dfrac{x^2-3xy+2y^2}{3xy}</m>:</p>
+    <statement><p>Divide: <m>~\dfrac{x^2-4y^2}{4y^2} \div \dfrac{x^2-3xy+2y^2}{3xy}</m></p>
         <sidebyside><tabular>
             <row><cell bottom="minor">
                     <var name="$multians" width="8"/></cell></row>
@@ -206,8 +206,8 @@ The same holds true for all algebraic fractions.</p>
 
 <assemblage><title>Sum or Difference of Like Fractions</title>
  <p>If <m>c \ne 0</m>, then
-    <md><mrow>\dfrac{a}{c}+\dfrac{b}{c} \amp = \dfrac{a+b}{c}</mrow>
-        <mrow>\dfrac{a}{c}-\dfrac{b}{c} \amp = \dfrac{a-b}{c}</mrow></md></p></assemblage>
+    <md><mrow>\blert{\dfrac{a}{c}+\dfrac{b}{c}} \amp = \blert{\dfrac{a+b}{c}}</mrow>
+        <mrow>\blert{\dfrac{a}{c}-\dfrac{b}{c}} \amp = \blert{\dfrac{a-b}{c}}</mrow></md></p></assemblage>
 
 <example><statement><p>Add. <ol label="a" cols="2">
         <li><m>\dfrac{2x}{9z^2}+\dfrac{5x}{9z^2}</m></li>
@@ -721,7 +721,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
     <li><p>The round-trip flying time from Dallas to Phoenix and back is
         <me>F(r) = \dfrac{800}{r-30} +\dfrac{800}{r+30}</me>
     The LCD for these fractions is <m>(r-30)(r+30)</m>.  Thus,
-        <md><mrow>\dfrac{800}{r-30} +\dfrac{800}{r+30} \amp = \dfrac{800\alert{r+30)}}{(r-30)\alert{r+30)}} +\dfrac{800\alert{r-30)}}{(r+30)\alert{r-30)}}</mrow>
+        <md><mrow>\dfrac{800}{r-30} +\dfrac{800}{r+30} \amp = \dfrac{800\alert{(r+30)}}{(r-30)\alert{(r+30)}} +\dfrac{800\alert{(r-30)}}{(r+30)\alert{(r-30)}}</mrow>
             <mrow>\amp = \dfrac{(800r+24,000)+(800r-24,000)}{(r+30)(r-30)}</mrow>
             <mrow> \amp = \dfrac{1600r}{r^2-900}</mrow></md></p></li></ol></p></solution></example>
 

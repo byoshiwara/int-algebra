@@ -83,7 +83,7 @@
 <exercise number="23"><statement><m>\dfrac{4z^2+5z+8z^4+3}{2z+1}</m></statement>
 <answer><m>4z^3-2z^2+3z+1+\dfrac{2}{2z+1}</m></answer></exercise>
 
-<exercise number="24"><statement><m>\dfrac{x^4-1}{x^2}</m></statement></exercise>
+<exercise number="24"><statement><m>\dfrac{x^4-1}{x^2-2}</m></statement></exercise>
 </exercisegroup>
 </subexercises>
 
@@ -120,7 +120,7 @@
 
 <exercise number="27"><statement><p>The focal length of a lens is given by the formula
     <me>\dfrac{1}{f}=\dfrac{1}{p}+\dfrac{1}{q} </me> 
-where <m>f</m> stands for the focal length, <m>p</m> is the distance from the object viewed to the lens, and <m>q</m> is the distance from the image to the lens. Suppose you estimate that the distance from your cat (the object viewed) to your camera lens is <m>60</m> inches greater than the distance from the lens to the film inside the camera, where the image forms.<ol label="a">
+where <m>f</m> stands for the focal length, <m>p</m> is the distance from the object viewed to the lens, and <m>q</m> is the distance from the image to the lens. Suppose you estimate that the distance from your cat (the object viewed) to your camera lens is 60 inches greater than the distance from the lens to the film inside the camera, where the image forms.<ol label="a">
         <li><p>Express <m>1/f</m> as a single fraction in terms of <m>q</m>.</p></li>
         <li><p>Write and simplify an expression for <m>f</m> as a function of <m>q</m>.</p></li>
     </ol></p></statement>

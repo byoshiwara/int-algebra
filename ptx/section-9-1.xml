@@ -12,7 +12,7 @@ What happens if <m>A = 0</m>? For example, what does the graph of
 look like? This equation tells us that every point on the line must have <m>y</m>-coordinate 3, but it puts no restrictions on the <m>x</m>-coordinates. For example,
     <md><mrow>(−1, 3), \quad (2, 3),\quad \text{ and } \quad (4, 3)</mrow></md>
 are all solutions of the equation. These points lie on a horizontal line, as shown below left.</p>
-<sidebyside widths="37% 37%" >
+<sidebyside widths="32% 32%" >
     <image xml:id="fig-horizontal-line"><description>horizontal line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -50,7 +50,7 @@ are all solutions of the equation. These points lie on a horizontal line, as sho
     <md><mrow>x + 0y = -2, \quad \text{ or }\quad x = -2</mrow></md>
 This equation tells us that any point with <m>x</m>-coordinate <m>-2</m> lies on the graph. For example, <m>(-2, 3)</m> and <m>(-2, -1)</m> are solutions. All the solutions lie on the vertical line shown above right.</p>
 
-<p>Note that the horizontal line <m>y = 3</m> has <m>y</m>-intercept <m>(0, 3)</m> but no <m>x</m>-intercept, and the vertical line <m>x = -2</m> has x-intercept <m>(-2, 0)</m> but no <m>y</m>-intercept.</p>
+<p>Note that the horizontal line <m>y = 3</m> has <m>y</m>-intercept <m>(0, 3)</m> but no <m>x</m>-intercept, and the vertical line <m>x = -2</m> has <m>x</m>-intercept <m>(-2, 0)</m> but no <m>y</m>-intercept.</p>
 
 <assemblage><title>Horizontal and Vertical Lines</title>
 <p><ol label="1">
@@ -61,7 +61,7 @@ This equation tells us that any point with <m>x</m>-coordinate <m>-2</m> lies on
 </assemblage>
 
 <example><statement><p><ol label="a" cols="2">
-        <li><sidebyside width="80%" margins="0% 5%">
+        <li><sidebyside width="60%" margins="5% 5%">
             <image xml:id="fig-example-9-1-1a"><description>horizontal line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -79,7 +79,7 @@ This equation tells us that any point with <m>x</m>-coordinate <m>-2</m> lies on
         \draw[red,very thick,<->,>=stealth'] (-3,-2)--++(5,0);
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></li>
-    <li><sidebyside width="90%" margins="0% 5%">
+    <li><sidebyside width="70%" margins="5% 5%">
             <image xml:id="fig-example-9-1-1b"><description>horizontal line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -169,7 +169,7 @@ which is undefined. The slope of any vertical line is undefined because the expr
 
 <subsection><title>Parallel and Perpendicular Lines</title>
 
-<sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle">
+<sidebyside widths="55% 30%" margins="0% 0%" valigns="middle middle">
     <p>Lines that lie in the same plane but never intersect are called <term>parallel</term><idx>parallel</idx> lines. They have the same "steepness" or inclination, so it is easy to understand that parallel lines have the same slope. Youcan verify that the parallel lines in the figure at right both have slope <m>m = 2</m></p>
     <image xml:id="fig-parallel-lines"><description>parallel lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -188,7 +188,7 @@ which is undefined. The slope of any vertical line is undefined because the expr
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<sidebyside widths="40% 58%" margins="0% 0%" valigns="middle middle">
+<sidebyside widths="35% 58%" margins="0% 0%" valigns="middle middle">
     <image xml:id="fig-perpendicular-lines"><description>perpendicular lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -288,10 +288,10 @@ so the lines are perpendicular.</p></solution></example>
 
 <example><statement><p>Show that the triangle with vertices <m>A (0, 8)</m>, <m>B (6, 2)</m>, and <m>C (-4, 4)</m> is a right triangle.</p></statement>
     
-<solution><p>We will show that two of the sides of the right triangle are perpendicular. The line segment <m>\overline{AB}</m> has slope</p>
-        <sidebyside widths="50% 45%" margins="0% 0%" valigns="middle middle">
-            <p><md><mrow>m_1=\frac{2-8}{6-0}=\frac{-6}{6}=-1</mrow></md>
-        and the segment <m>\overline{AC} ~ </m> has slope
+<solution><p>We will show that two of the sides of the right triangle are perpendicular. The line segment <m>\overline{AB}</m> has slope
+            <md><mrow>m_1=\frac{2-8}{6-0}=\frac{-6}{6}=-1</mrow></md></p>
+        <sidebyside widths="50% 35%" margins="0% 10%" valigns="middle middle">
+        <p>and the segment <m>\overline{AC} ~ </m> has slope
                 <md><mrow>m_2=\frac{4-8}{-4-0}=\frac{-4}{-4}=1</mrow></md>
         Because
                 <md><mrow>m_1 m_2 = (-1)(1)=-1</mrow></md></p>
@@ -312,7 +312,7 @@ so the lines are perpendicular.</p></solution></example>
                 \draw[red,very thick] (0,8) node[anchor=south west]{$A$} -- (6,2) node[anchor=south west]{$B$} -- (-4,4) node[anchor=south east]{$C$} -- cycle;
                 \end{tikzpicture}]]>
             </latex-image></image></sidebyside>
-<p>he sides <m>\overline{AB}</m> and <m>\overline{AC}</m> perpendicular, and therefore the triangle is a right triangle.
+<p>The sides <m>\overline{AB}</m> and <m>\overline{AC}</m> perpendicular, and therefore the triangle is a right triangle.
 </p></solution></example>
 
 <exercise><title>Practice 3</title>
@@ -339,7 +339,7 @@ so the lines are perpendicular.</p></solution></example>
 
 <example><statement><p>Find an equation for the line that passes through the point <m>(1, 4)</m> and is perpendicular to the line <m>4x -2y = 6</m>.</p></statement>
 
-<solution><sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle">
+<solution><sidebyside widths="52% 30%" margins="0% 10%" valigns="middle middle">
 <p>First we find the slope of the desired line,then use the point-slope formula to write its equation. The line we want is perpendicular to the given line, so its slope is the negative reciprocal of <m>m_1 = 2</m>, the slope of the given line. Thus
                 <md><mrow>m_2=\frac{-1}{m_1}=\frac{-1}{2}</mrow></md></p>
         <image xml:id="fig-example-9-1-4"><description>line perpendicular to given line</description><latex-image>

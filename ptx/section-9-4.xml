@@ -79,23 +79,23 @@
 
 <assemblage><title>Central Hyperbola</title>
     <p>The equation of a hyperbola with center at the origin is
-        <md><mrow>\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1 \qquad
-                \text{ or } \qquad \frac{y^2}{b^2} -\frac{x^2}{a^2}  = 1</mrow> </md></p>
+        <md><mrow>\blert{\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1} \qquad
+                \text{ or } \qquad \blert{\frac{y^2}{b^2} -\frac{x^2}{a^2}  = 1}</mrow> </md></p>
 </assemblage>
 
-<p>In the first case, the two branches of the hyperbola open left and right, so the graph has <m>x</m>-intercepts at <m>a</m> and <m>-a</m> but no <m>y</m>-intercepts. (See figure above left.) The segment joining the <m>x</m>-intercepts is the <term>transverse axis</term><idx>transverse axis</idx>, and its length is <m>2a</m>. The segment of length <m>2b</m> is called the <term>conjugate axis</term><idx>conjugate axis</idx> The endpoints of the transverse axis are the vertices of the hyperbola.</p>
+<p>In the first case, the two branches of the hyperbola open left and right, so the graph has <m>x</m>-intercepts at <m>a</m> and <m>-a</m> but no <m>y</m>-intercepts. (See figure above left.) The segment joining the <m>x</m>-intercepts is the <term>transverse axis</term><idx>transverse axis</idx>, and its length is <m>2a</m>. The endpoints of the transverse axis are the vertices of the hyperbola. The segment of length <m>2b</m> is called the <term>conjugate axis.</term><idx>conjugate axis</idx> </p>
 
 <p>In the second case, the graph has <m>y</m>-intercepts at <m>b</m> and <m>-b</m> but no <m>x</m>-intercepts<mdash/>the two branches open up and down. (See figure above right.) Here the <m>y</m>-intercepts are the vertices, so the transverse axis is vertical and has length <m>2b</m>. The conjugate axis has length <m>2a</m>.</p>
 </introduction>  
 
 <subsection><title>Asymptotes of Hyperbolas</title>
 
-<p>The branches of the hyperbola approach two straight lines that intersect at its center.  These lines are <term>asymptotes</term><idx>asymptote</idx> of the graph, and they are useful as guidelines for sketching the hyperbola.  We first sketch a rectangle (called the <term>central rectangle</term><idx>central rectangle</idx>) whose sides are parallel to the axes and whose dimensions are <m>2a</m> and <m>2b</m>. Thesasymptotes are the diagonals of this rectangle.</p>
+<p>The branches of the hyperbola approach two straight lines that intersect at its center.  These lines are <term>asymptotes</term><idx>asymptote</idx> of the graph, and they are useful as guidelines for sketching the hyperbola.  We first sketch a rectangle (called the <term>central rectangle</term><idx>central rectangle</idx>) whose sides are parallel to the axes and whose dimensions are <m>2a</m> and <m>2b</m>. The asymptotes are the diagonals of this rectangle.</p>
 
 <example><statement><p>Graph <m> \dfrac{y^2}{9} - \dfrac{x^2}{4} = 1</m></p></statement>
 
 <solution><p>The graph is a hyperbola with center at the origin. The <m>y^2</m>-term is positive, so the branches of the hyperbola open upward and downward. Because <m>a^2=4</m> and <m>b^2=9</m>, we have <m>a=2</m> and <m>b=3</m>, and the vertices are <m>(0,3)</m> and <m>(0,-3)</m>. There are no <m>x</m>-intercepts.</p>
-        <sidebyside widths="48% 48%" margins="0% 0%" valigns="middle middle">
+        <sidebyside widths="50% 40%" margins="0% 5%" valigns="middle middle">
     <p>We construct the central rectangle with dimensions <m>2a=4</m> and <m>2b=6</m>, as shown in the figure. Then we draw the asymptotes through the diagonals of the rectangle. The asymptotes have slopes <m>\pm \dfrac{3}{2}</m>. Finally, we sketch the branches of the hyperbola through the vertices and approaching the asymptotes.</p>
         <image xml:id="fig-example-9-4-1"><description>hyperbola opening up and down</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -228,38 +228,22 @@
     </conclusion>
 </exercise>
 
-<p>
-    The equation of a central hyperbola may be written as
-    <md><mrow>
-        Ax^2 + By^2 = C
-    </mrow></md>
-    where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>.  As with ellipses, it is best to rewrite the equation in standard form in order to graph it.</p>
+<p>The equation of a central hyperbola may be written as
+    <md><mrow>Ax^2 + By^2 = C</mrow></md>
+where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>.  As with ellipses, it is best to rewrite the equation in standard form in order to graph it.</p>
 
-<example>
-    <statement>
-        <p>
-            Write the equation <m>4y^2-x^2=16</m> in standard form and describe the important features of its graph.
-        </p>
-    </statement>
-    <solution>
-        <sidebyside widths="53% 45%" margins="0% 0%" valigns="middle middle">            
-        <p>
-            We first divide each side by 16 to obtain
-            <md><mrow>
-                \frac{y^2}{4} - \dfrac{x^2}{16} = 1\quad\text{ or } \quad \frac{y^2}{2^2} - \dfrac{x^2}{4^2} = 1
-            </mrow></md>
-            The graph is a central hyperbola with <m>y</m>-intercepts <m>2</m> and <m>-2</m>, as shown in the figure. The slopes of the asymptotes are given by
-            <md><mrow>
-                \pm \frac{b}{a}=\pm \frac{2}{4}=\pm \frac{1}{2}
-            </mrow></md>
-            so the equations of the asymptotes are 
-            <md><mrow>
-                y= \dfrac{1}{2} x\quad \text{ and } y= \frac{-1}{2} x
-            </mrow></md>
-The graph is a central hyperbola with <m>y</m>-intercepts <m>2</m> and <m>-2</m>, as shown in the figure. The slopes of the asymptotes are given by
-            <md><mrow>\pm \frac{b}{a}=\pm \frac{2}{4}=\pm \frac{1}{2}</mrow></md>
-so the equations of the asymptotes are 
-            <md><mrow> y= \dfrac{1}{2} x\quad \text{ and } y= \frac{-1}{2} x</mrow></md></p>
+<example><statement><p>Write the equation <m>4y^2-x^2=16</m> in standard form and describe the important features of its graph.</p></statement>
+    
+<solution>            
+    <p>We first divide each side by 16 to obtain
+        <md><mrow>\frac{y^2}{4} - \dfrac{x^2}{16} = 1\quad\text{ or } \quad \frac{y^2}{2^2} - \dfrac{x^2}{4^2} = 1
+            </mrow></md></p>
+    <sidebyside widths="53% 40%" margins="0% 5%" valigns="middle middle">
+    <p>The graph is a central hyperbola with <m>y</m>-intercepts <m>2</m> and <m>-2</m>, as shown in the figure. The slopes of the asymptotes are given by
+        <md><mrow>\pm \frac{b}{a}=\pm \frac{2}{4}=\pm \frac{1}{2}</mrow></md>
+    so the equations of the asymptotes are 
+        <md><mrow>y= \dfrac{1}{2} x\quad \text{ and } y= \frac{-1}{2} x</mrow></md></p>
+
     <image xml:id="fig-example-9-4-2"><description>hyperbola opening up and down</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -358,7 +342,7 @@ so the equations of the asymptotes are
     
 <example><statement><p>Find the exact coordinates of any points with <m>x</m>-coordinate <m>x=2</m> on the hyperbola with equation <m>4x^2-y^2=16</m>. Plot and label those points on the hyperbola.</p></statement>
 
-<solution><sidebyside widths="53% 45%" margins="0% 0%" valigns="middle middle">
+<solution><sidebyside widths="53% 40%" margins="0% 5%" valigns="middle middle">
     <p>We substitute  in the given equation.
                 <md><mrow>4y^2 - (2)^2 \amp = 16</mrow>
                     <mrow>4y^2 \amp = 20</mrow>
@@ -493,13 +477,13 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <assemblage><title>Hyperbolas</title>
     <p>The equation for a hyperbola centered at <m>(h,k)</m> has one of the two standard forms:
-        <md><mrow>\frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1</mrow>
-            <mrow>\frac{(y-k)^2}{b^2} - \frac{(x-h)^2}{a^2} = 1</mrow></md></p>
+        <md><mrow>\blert{\frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1}</mrow>
+            <mrow>\blert{\frac{(y-k)^2}{b^2} - \frac{(x-h)^2}{a^2} = 1}</mrow></md></p>
 </assemblage>
 
 <p>The first equation describes a hyperbola whose transverse axis is parallel to the <m>x</m>-axis, so that the branches open left and right, and the second equation describes a hyperbola whose transverse axis is parallel to the <m>y</m>-axis, so that the branches open up and down, as shown below.</p>
 
-<sidebyside widths="40% 40%" margins="5% 5%">
+<sidebyside widths="37% 37%" margins="5% 5%">
     <image xml:id="fig-hyperbola-left-right-translated"><description>hyperbola-left-and-right-translated</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -978,9 +962,9 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <p>We have considered graphs of second-degree equations in two variables,
     <md><mrow>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</mrow></md>
-for which <m>B</m>, the coefficient of the <m>xy</m>-term, is zero. These graphs are conic sections with axes parallel to one or both of the coordinate axes. If <m>B</m> does not equal zero, the axes of the conic section are rotated with respect to the coordinate axes. Thegraphing of such equations is taken up in more advanced courses in analytic geometry.</p> 
+for which <m>B</m>, the coefficient of the <m>xy</m>-term, is zero. These graphs are conic sections with axes parallel to one or both of the coordinate axes. If <m>B</m> does not equal zero, the axes of the conic section are rotated with respect to the coordinate axes. The graphing of such equations is taken up in more advanced courses in analytic geometry.</p> 
 
-<p>The graph of a second-degree equation can also be a point, a line, a pair of lines,or no graph at all, depending on the values of the coefficients <m>A</m> through <m>F</m>. Such graphs are called <term>degenerate conics</term><idx>degenerate conics</idx>.</p> 
+<p>The graph of a second-degree equation can also be a point, a line, a pair of lines, or no graph at all, depending on the values of the coefficients <m>A</m> through <m>F</m>. Such graphs are called <term>degenerate conics</term><idx>degenerate conics</idx>.</p> 
 
 <p>Given an equation of the form
     <md><mrow>Ax^2 + Cy^2 + Dx + Ey + F = 0</mrow></md>

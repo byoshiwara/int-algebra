@@ -117,14 +117,14 @@
 
 <exercise number="21"><statement><p>Each figure shows a portion of the graph of one of the following functions. Match each function with its graph.</p>
     <sidebyside width="70%"><image source="images/fig-6-curves"><description>six curves</description></image></sidebyside>
-<p><ol label="a">
+<p><ol label="a" cols="3">
     <li><m>f(x)=2^x</m></li>
     <li><m>f(x)=x^2</m></li>
     <li><m>f(x)=\dfrac{2}{x}</m></li>
     <li><m>f(x)=\sqrt{x}</m></li>
     <li><m>f(x)=\log_2{x}</m></li>
     <li><m>f(x)=(\dfrac{1}{2})^x</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol label="a" cols="3">
     <li>IV</li>
     <li>V</li>
     <li>I</li>

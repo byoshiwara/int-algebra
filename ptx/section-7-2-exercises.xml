@@ -222,7 +222,7 @@
 </exercisegroup>
 
 <exercise number="24"><statement><p>The graph of <m>f(x)=P_0 a^x</m> is shown in the figure.</p>
-    <sidebyside width="30%"><image source="images/fig-mystery-exp-growth"><description>graph</description></image></sidebyside>
+    <sidebyside width="25%"><image source="images/fig-mystery-exp-growth"><description>graph</description></image></sidebyside>
 <ol label="a">
     <li>Read the value of <m>P_0</m> from the graph.</li>
     <li>Make a short table of values for the function by reading values from the graph. Does your table confirm that the function is exponential?</li>
@@ -230,7 +230,7 @@
     <li>Using your answers to parts (a) and (c), write a formula for <m>f(x)</m>.</li></ol></statement></exercise>
 
 <exercise number="25"><statement><p>The graph of <m>g(x)=P_0 a^x</m> is shown in the figure.</p>
-    <sidebyside width="30%"><image source="images/fig-mystery-exp-decay"><description>graph</description></image></sidebyside>
+    <sidebyside width="25%"><image source="images/fig-mystery-exp-decay"><description>graph</description></image></sidebyside>
 <ol label="a">
     <li>Read the value of <m>P_0</m> from the graph.</li>
     <li>Make a short table of values for the function by reading values from the graph. Does your table confirm that the function is exponential?</li>
@@ -353,10 +353,10 @@
 
 <subexercises><title>Applications</title>
 
-<exercise number="28"><statement><p>A mobile home loses <m>20\%</m> of its value every <m>3</m> years.<ol label="a">
-        <li><p>A certain mobile home costs <m>\$20,000</m>. Write a function for its value after <m>t</m> years.</p></li>
+<exercise number="28"><statement><p>A mobile home loses 20% of its value every 3 years.<ol label="a">
+        <li><p>A certain mobile home costs $20,000. Write a function for its value after <m>t</m> years.</p></li>
         <li><p>Use your calculator to graph your function on the interval <m>0 \le t\le 30</m>.</p></li>
-        <li><p>How long will it be before a <m>\$20,000</m> mobile home depreciates to <m>\$12,800</m>? Use algebraic methods to find your answer, and verify it on your graph.</p></li>
+        <li><p>How long will it be before a $20,000 mobile home depreciates to $12,800? Use algebraic methods to find your answer, and verify it on your graph.</p></li>
     </ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><p><m>V(t) = 20,000(0.8)^{t/3}</m></p></li>
@@ -364,10 +364,10 @@
     <li><p>6 years</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="29"><statement><p>Before the advent of antibiotics, an outbreak of cholera might spread through a city so that the number of cases doubled every <m>6</m> days.<ol label="a">
+<exercise number="29"><statement><p>Before the advent of antibiotics, an outbreak of cholera might spread through a city so that the number of cases doubled every 6 days.<ol label="a">
     <li><p>Twenty-six cases were discovered on July 5. Write a function for the number of cases of cholera <m>t</m> days later.</p></li>
     <li><p>Use your calculator to graph your function on the interval <m>0 \le t\le 90</m>.</p></li>
-    <li><p>When should hospitals expect to be treating <m>106,496</m> cases? Use algebraic methods to find your answer, and verify it on your graph.</p></li>
+    <li><p>When should hospitals expect to be treating 106,496 cases? Use algebraic methods to find your answer, and verify it on your graph.</p></li>
     </ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><p><m>N(t) = 26(2)^{t/6}</m></p></li>
@@ -382,7 +382,7 @@
         <li><p>Read the value of <m>F_0</m> from the graph. (This is the frequency of the note A above middle C.)</p></li>
         <li><p>Find an approximation for the growth factor, <m>b</m>, by comparing two points on the graph. (Some of the points on the graph of <m>F(p)</m> are approximately <m>(1, 466)</m>, <m>(2, 494)</m>, <m>(3, 523)</m>, and <m>(4, 554)</m>.)</p></li>
         <li><p>Using your answers to (a) and (b), write a formula for <m>F(p)</m>.</p></li>
-        <li><p>The frequency doubles when you raise a note by one octave, which is equivalent to <m>12</m> half-tones. Use this information to find an exact value for <m>b</m>.</p></li>
+        <li><p>The frequency doubles when you raise a note by one octave, which is equivalent to 12 half-tones. Use this information to find an exact value for <m>b</m>.</p></li>
     </ol></p></statement>
 <answer><p><ol label="a" cols="3">
     <li><p><m>F_0=400</m></p></li>
