@@ -23,6 +23,8 @@
         }
         \draw[red, thick] (-2,7)--(6,3);
         \node at (2.5,-7) {Figure a};
+        \filldraw[blue] (-2,7) circle (.2) node[above left, yshift=3, fill=white, inner sep=1, text=black] {$(-2,7)$};
+        \filldraw[blue] (6,3) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(6,3)$};
         \end{tikzpicture}]]>
         </latex-image></image>
     <image xml:id="fig-line-segment-hypotenuse"><description>line segment as hypotenuse</description><latex-image>

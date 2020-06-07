@@ -60,7 +60,8 @@ This equation tells us that any point with <m>x</m>-coordinate <m>-2</m> lies on
             <md><mrow>\blert{x=a}</mrow></md></p></li></ol></p>
 </assemblage>
 
-<example><statement><p><ol label="a" cols="2">
+<example xml:id="example-horizontal-and-vertical-lines"><statement><p>Give the equation of each line.
+    <ol label="a" cols="2">
         <li><sidebyside width="60%" margins="5% 5%">
             <image xml:id="fig-example-9-1-1a"><description>horizontal line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -104,7 +105,7 @@ This equation tells us that any point with <m>x</m>-coordinate <m>-2</m> lies on
     <li><p>This is a vertical line with <m>x</m>-intercept <m>(3,0)</m>, so its equation is <m>x=3</m>.</p></li>
     </ol></p></solution></example>
 
-<p>Now let's compute the slopes of the two lines in Example 1. Choose two points on the graph of <m>y=-2</m>, say <m>(-5, -2)</m> and <m>(4, -2)</m>. Use these points to compute the slope.
+<p>Now let's compute the slopes of the two lines in the previous <xref ref="example-horizontal-and-vertical-lines" text="custom" >Example</xref>. Choose two points on the graph of <m>y=-2</m>, say <m>(-5, -2)</m> and <m>(4, -2)</m>. Use these points to compute the slope.
     <md><mrow>m=\frac{y_2-y_1}{x_2-x_1}= \frac{-2-(-2)}{4-(-5)}=\frac{0}{9}=0</mrow></md>
 The slope of the horizontal line <m>y = -2</m> is zero. In fact, the slope of any horizontal line is zero, because the <m>y</m>-coordinates of all the points on the line are equal. Thus
     <md><mrow>m=\frac{y_2-y_1}{x_2-x_1}=\frac{0}{x_2-x_1}=0</mrow></md></p>
