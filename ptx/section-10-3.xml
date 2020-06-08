@@ -116,11 +116,34 @@
 </webwork></exercise>
 
 <example xml:id="example-translate-exponential"><statement><p>Graph each function. How does each graph differ from the graph of <m>y = e^x</m>?<ol label="a" cols="2">
-			<li><m>g(x) = e^{x+2}</m></li>
-			<li><m>h(x) = e^x + 2</m></li>
-		</ol></p></statement>
+            <li><m>g(x) = e^{x+2}</m></li>
+            <li><m>h(x) = e^x + 2</m></li>
+        </ol></p></statement>
 
-<solution><sidebyside width="35%"><image source="images/fig-translate-exponential"><description>translations of the exponential</description></image></sidebyside>
+<solution><sidebyside width="40%"><image xml:id="fig-translate-exponential">
+        <description>translates of exponential</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.65, yscale=.45]
+        \draw[lightgray] (-4,-1) grid (3,10);
+        \draw[black,thick, ->, >=stealth'] (-4,0)--(3.6,0) node[right] {$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-1)--(0,10.6) node[above] {$y$};
+        \foreach \x  in  {-2,2} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-1, fill=white,inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {2,6,10} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white,inner sep=2]   {$\x$};
+        }
+        \draw[samples=65,domain={-4:ln(10)},smooth,variable=\x,red, thick, <->, >=stealth'] plot ({(\x)},{e^(\x)}) node[below right, xshift=3, fill=white, inner sep=2] {$y=e^x$};
+        \draw[samples=65,domain={-4:ln(10)-2},smooth,variable=\x,blue, thick, <->, >=stealth'] plot ({(\x)},{e^(\x+2)}) node[below left, xshift=-5, yshift=-7, fill=white, inner sep=2] {$y=e^{x+2}$};
+        \draw[samples=65,domain={-4:ln(8)},smooth,variable=\x,green!60!black, thick, <->, >=stealth'] plot ({(\x)},{e^(\x)+2});
+        \node[text=green!50!black,fill=white, inner sep=2] at (-2.9,2.8) {$y=e^x+2$};
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+</sidebyside>
 <p> The graph of <m>g</m> is shifted <m>2</m> units to the left of <m>y = e^x</m>. The graph of <m>h</m> is shifted <m>2</m> units up from <m>y = e^x</m>. The graphs are shown above.</p></solution></example>
 </subsection>
 

@@ -54,15 +54,101 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="5"><statement><p><ol>
+<exercise number="5"><statement><p><ol label="a">
     <li><p>The log scale is labeled with powers of 10. Finish labeling the tick marks in the figure with their corresponding decimal values.</p>
-        <sidebyside width="70%"><image source="images/fig-hw-7-6-5"><description>log scale with exponents shown</description></image></sidebyside></li>
+        <sidebyside width="90%"><image xml:id="fig-log-scale">
+        <description>log scale with exponents shown</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.25]
+        \draw[black,thick, ->, >=stealth'] (-.3,0)--(10.6,0);
+        \foreach \x in  {1,2,...,9} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below]   {$10^{1.\x}$};
+        }
+        \draw[black] (0,.1) --++(0,-.2)  node[below]   {$10^{1}$};
+        \draw[black] (10,.1) --++(0,-.2)  node[below]   {$10^{2}$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside>
+    </li>
     <li><p>The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of 10.</p>
-        <sidebyside width="80%"><image source="images/fig-hw-7-6-5b"><description>log scale with exponents shown</description></image></sidebyside></li>
+        <sidebyside width="90%"><image xml:id="fig-log-scale2">
+        <description>log scale with exponents shown</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.25]
+        \draw[black,thick, ->, >=stealth'] (-.3,0)--(10.6,0);
+        \foreach \x [evaluate=\x as \xi using int(10*(\x+1)] in  {0,1,2,...,9} {
+         \draw[black] ({10*log10(\x+1)},-.1) --++(0,.2)  node[above]   {$\xi$};
+        }
+        \draw[black] (0,.1) --++(0,-.2)  node[below]   {$10^{1}$};
+        \draw[black] (10,.1) --++(0,-.2)  node[below]   {$10^{2}$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside>
+    </li>
 </ol></p></statement>
-<answer><p><ol>
-    <li><sidebyside width="90%"><image source="images/fig-hw-7-6-5ans"><description>log scale</description></image></sidebyside></li>
-    <li><sidebyside width="90%"><image source="images/fig-hw-7-6-5bans"><description>log scale</description></image></sidebyside></li>
+<answer><p><ol label="a">
+    <li><sidebyside width="90%" margins="0% 0%"><image xml:id="fig-log-scale-ans">
+        <description>log scale with exponents shown</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.25]
+        \draw[black,thick, ->, >=stealth'] (-.3,0)--(10.6,0);
+        \foreach \x in  {1,2,...,9} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below]   {$10^{1.\x}$};
+        }
+        \draw[black] (0,.1) --++(0,-.2)  node[below]   {$10^{1}$};
+        \draw[black] (10,.1) --++(0,-.2)  node[below]   {$10^{2}$};
+        \node[above] at (0,.1) {$10$};
+        \node[rotate=90,above ] at (1.2,.6) {$12.59$};
+        \node[rotate=90,above ] at (2.2,.6) {$15.85$};
+        \node[rotate=90,above ] at (3.2,.6) {$19.95$};
+        \node[rotate=90,above ] at (4.2,.6) {$25.12$};
+        \node[rotate=90,above ] at (5.2,.6) {$31.81$};
+        \node[rotate=90,above ] at (6.2,.6) {$39.85$};
+        \node[rotate=90,above ] at (7.2,.6) {$50.12$};
+        \node[rotate=90,above ] at (8.2,.6) {$63.10$};
+        \node[rotate=90,above ] at (9.2,.6) {$79.43$};
+        \node[above] at (10,.1) {$100$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside></li>
+    <li><sidebyside width="90%" margins="0% 0%"><image xml:id="fig-log-scale2ans">
+        <description>log scale with exponents shown</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.25]
+        \draw[black,thick, ->, >=stealth'] (-.3,0)--(10.6,0);
+        \foreach \x [evaluate=\x as \xi using int(10*(\x+1)] in  {0,1,2,...,9} {
+         \draw[black] ({10*log10((\x+1)},-.1) --++(0,.2)  node[above]   {$\xi$};
+        }
+        \draw[black] (0,.1) --++(0,-.2)  node[below]   {$10^{1}$};
+        \node[rotate=90,below ] at ({10*log10(2)-.2},-.6) {$10^{1.30}$};
+        \node[rotate=90,below ] at ({10*log10(3)-.2},-.6) {$10^{1.48}$};
+        \node[rotate=90,below ] at ({10*log10(4)-.2},-.6) {$10^{1.60}$};
+        \node[rotate=90,below ] at ({10*log10(5)-.2},-.6) {$10^{1.70}$};
+        \node[rotate=90,below ] at ({10*log10(6)-.2},-.6) {$10^{1.78}$};
+        \node[rotate=90,below ] at ({10*log10(7)-.2},-.6) {$10^{1.85}$};
+        \node[rotate=90,below ] at ({10*log10(8)-.2},-.6) {$10^{1.90}$};
+        \node[rotate=90,below ] at ({10*log10(9)-.2},-.6) {$10^{1.95}$};
+        \draw[black] (10,.1) --++(0,-.2)  node[below]   {$10^{2}$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside>
+    </li>
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><ol>
@@ -138,11 +224,11 @@
 <exercise number="21"><statement><p>The magnitude of a star is a measure of its brightness. It is given by the formula
     <me>m = 4.83 - 2.5 \log L</me>
 where <m>L</m> is the luminosity of the star, measured in solar units. Calculate the magnitude of the stars whose luminosities are given in the figure.</p>
-    <sidebyside width="80%"><image source="images/fig-5-4-11"><description>star magnitudes on log scale</description></image></sidebyside></statement>
+    <sidebyside width="80%"><image source="images/fig-star-magnitude"><description>star magnitudes on log scale</description></image></sidebyside></statement>
 <answer><p>Proxima Centauri: <m>15.5</m>; Barnard: <m>13.2</m>; Sirius: <m>1.4</m>; Vega: <m>0.6</m>; Arcturus: <m>-0.4</m>; Antares: <m>-4.7</m>; Betelgeuse: <m>-7.2</m></p></answer></exercise>
 
 <exercise number="22"><statement><p>Estimate the wavelength, in meters, of the types of electromagnetic radiation shown in the figure.</p>
-    <sidebyside width="70%"><image source="images/fig-5-4-12"><description>radiation wavelength on log scale</description></image></sidebyside></statement></exercise>
+    <sidebyside width="70%"><image source="images/fig-radiation-wavelength"><description>radiation wavelength on log scale</description></image></sidebyside></statement></exercise>
 
 <exercise number="23"><statement><p>Plot the values of <m>[H^+]</m> in the section "Acidity and the pH Scale" on a log scale. </p></statement>
 <answer><sidebyside><image source="images/fig-hw-7-6-19"><description>pH on log scale</description></image></sidebyside></answer></exercise>
