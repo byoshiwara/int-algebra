@@ -272,24 +272,25 @@ We can also apply the two functions in the opposite order, so that
         $dom[3] =-6;
 
        foreach my $i (0..3) {
-        $gr[$i] = init_graph(-6,-6,6,6, axes=>[0,0], grid=>[16,16], size=>[300,300]);
-        add_functions($gr[$i], "$Func for x in &lt;-6,6> " .
+        $gr[$i] = init_graph(-4,-4,4,4, axes=>[0,0], grid=>[8,8], size=>[300,300]);
+        add_functions($gr[$i], "$Func for x in &lt;-4,4> " .
             "using color:red and weight:2");
-        add_functions($gr[$i], "$g[$i] for x in &lt;$dom[$i],6> " .
+        add_functions($gr[$i], "$g[$i] for x in &lt;$dom[$i],4> " .
             "using color:blue and weight:2");
         }
+        ($gr[0]->fn)[0]->steps(200);
 
        foreach my $i (0..3) {
        $gr[$i] -> lb('reset');
-        $gr[$i] -> lb(new Label (-0.5,5,5,'black','center','middle'));
-        $gr[$i] -> lb(new Label (-0.5,-5,-5,'black','center','middle'));
-        $gr[$i] -> lb(new Label (5,-0.5,5,'black','center','middle'));
-        $gr[$i] -> lb(new Label (-5,-0.5,-5,'black','center','middle'));
+        $gr[$i] -> lb(new Label (-0.3,3,3,'black','center','middle'));
+        $gr[$i] -> lb(new Label (-0.3,-3,-3,'black','center','middle'));
+        $gr[$i] -> lb(new Label (3,-0.3,3,'black','center','middle'));
+        $gr[$i] -> lb(new Label (-3,-0.3,-3,'black','center','middle'));
         }
-        $gr[0] -> lb(new Label (-5,5,"(C)",'black','center','middle'));
-        $gr[1] -> lb(new Label (-5,5,"(B)",'black','center','middle'));
-        $gr[2] -> lb(new Label (-5,5,"(A)",'black','center','middle'));
-        $gr[3] -> lb(new Label (-5,5,"(D)",'black','center','middle'));
+        $gr[0] -> lb(new Label (-3.3,3.3,"(C)",'black','center','middle'));
+        $gr[1] -> lb(new Label (-3.3,3.3,"(B)",'black','center','middle'));
+        $gr[2] -> lb(new Label (-3.3,3.3,"(A)",'black','center','middle'));
+        $gr[3] -> lb(new Label (-3.3,3.3,"(D)",'black','center','middle'));
 
         $mc = RadioButtons(
             [ "(A)", "(B)", "(C)","(D)"],
@@ -592,6 +593,30 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
         </p>
     </solution>
 </webwork>
+<conclusion><sidebyside width="45%" margins="0% 5%">
+    <image xml:id="child-height">
+        <description>curve</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (2,4) grid (20,20);
+        \draw[black,thick] (1,4)--(20,4);
+        \draw[black,thick] (2,4)--(2,20);
+        \foreach \x [evaluate=\x as \xi using int(1*\x)] in {2,4,...,20} {
+         \draw[black] (\x,4.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in {4,6,...,20} {
+         \draw[black] (2.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain={2:20},smooth,variable=\x,red, very thick] plot (\x,{(49.29+91.3 * ln(\x)/ln(10))/10 });
+        \node[font=\bf] at (11,1.5) {Age in Years};
+        \node[rotate=90,font=\bf] at (-1.6,12) {Height (cm)};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+</sidebyside></conclusion>
 </exercise>
 
 <exercise><title>QuickCheck 4</title>
@@ -609,7 +634,7 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
         <p>Which function grows more slowly for large values of <m>x</m> ?</p>
         <p><var name="$slow" form="buttons"/> </p>
     </statement>
-    <solution><p><var name="$slow"/> </p></solution>
+    <solution><p><m>f(x)=\log_2{x}</m></p></solution>
 </webwork>
 </exercise>
 
