@@ -4,13 +4,13 @@
 <section xml:id="Falling"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Investigation 3A: Falling</title>
 
 <introduction><p>Suppose you drop a small object from a height and let it fall under the influence of gravity.
-Does it fall at the same speed throughout its descent? The diagram shows a sequence of photographs of a steel ball falling onto a table. The photographs were taken using a stroboscopic flash at intervals of 0.05 second, and a scale on the left side shows the height of the ball, in feet, at each interval.</p>
+Does it fall at the same speed throughout its descent? The diagram below left shows a sequence of photographs of a steel ball falling onto a table. The photographs were taken using a stroboscopic flash at intervals of 0.05 second, and a scale on the left side shows the height of the ball, in feet, at each interval.</p>
 
-    <sidebyside width="90%"><image source="images/fig-inv-falling-object"><description>photos of falling object and grid</description></image></sidebyside>
+    <sidebyside width="75%"><image source="images/fig-inv-falling-object"><description>photos of falling object and grid</description></image></sidebyside>
 </introduction>
 
 <exercises>
-<exercise number="1"><statement><p>Complete the table showing the height of the ball at each 0.05-second interval. Measure the height at the bottom of the ball in each image. The first photo was taken at time <m>t=0</m>.</p>
+<exercise number="1"><statement><p>Complete the table showing the height of the ball at each 0.05-second interval. (Estimate the height at the bottom of the ball in each image.) The first photo was taken at time <m>t=0</m>.</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -41,7 +41,7 @@ Does it fall at the same speed throughout its descent? The diagram shows a seque
                         <cell><m></m></cell></row>
                     </tabular></sidebyside></statement></exercise>
 
-<exercise number="2"><statement><p>Plot the points in the table. Connect the points with a smooth curve to sketch a graph of height versus elapsed time. Is the graph linear?</p></statement></exercise>
+<exercise number="2"><statement><p>Plot the points in the table on the grid above. Connect the points with a smooth curve to sketch a graph of height versus elapsed time. Is the graph linear?</p></statement></exercise>
 
 <exercise number="3"><statement><p>Use your graph to estimate the time elapsed when the ball is 3.5 feet high, and when it is 1 foot high.</p></statement></exercise>
 

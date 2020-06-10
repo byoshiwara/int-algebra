@@ -199,8 +199,7 @@
                             <cell><m>3</m></cell></row>
                         <row>
                             <cell><m>15</m></cell>
-                            <cell><m>6</m></cell>
-                        </row>
+                            <cell><m>6</m></cell></row>
                         <row>
                             <cell><m>20</m></cell>
                             <cell><m>12</m></cell></row>
@@ -216,7 +215,7 @@
 <exercise number="21"><statement><p>The population of Smallville grew from 7000 people in 1990 to 16,600 in 2002.
     <ol label="a">
         <li><p>Use a rate of change to calculate the town's average rate of growth, in people per year. First, complete the table of values:</p>
-            <sidebyside widths="50% 45%" margins="0% 0%">
+            <sidebyside widths="50% 40%" margins="0% 0%">
             <stack><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                 <row>
                   <cell><m>~t~</m></cell>

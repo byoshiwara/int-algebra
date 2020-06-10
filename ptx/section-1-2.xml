@@ -292,7 +292,7 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
 </webwork>
 </exercise>
 
-<example><statement><sidebyside widths="50% 40%" margins="0% 0%"><p>The figure shows a graph of the equation <m>~Ax + By = C</m>. Which of the following equations are true? <ol label="a">
+<example><statement><sidebyside widths="50% 30%" margins="0% 10%"><p>The figure shows a graph of the equation <m>~Ax + By = C</m>. Which of the following equations are true? <ol label="a">
                <li><p><m>24B=C</m></p></li>
                <li><p><m>Ap+Bq=C</m></p></li>
                <li><p><m>Ag+Bh=C</m></p></li></ol></p>

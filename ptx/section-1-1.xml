@@ -201,8 +201,7 @@ A one-hour bike ride costs $8.</p>
     </ul></p>
 
 <exercise><title>QuickCheck 4</title>
-<webwork>
-        <pg-code>
+<webwork><pg-code>
              $which1 = PopUp(
               ["?","solving","evaluating"],
               2, 
@@ -212,12 +211,10 @@ A one-hour bike ride costs $8.</p>
               1, 
             );
         </pg-code>
-    
     <statement><p>
         Consider the expression <m>C = 5 + 3t</m>. Finding a value of <m>C</m> when we know <m>t</m> is called <var name="$which1" form="popup"/> the expression. Finding a value of <m>t</m> when we know <m>C</m> is called <var name="$which2" form="popup"/> the equation.
     </p></statement>
-    <solution>
-        <p>evaluating; solving</p>
+    <solution><p>evaluating; solving</p>
     </solution>
 </webwork>
 </exercise>
@@ -245,15 +242,13 @@ A one-hour bike ride costs $8.</p>
                         <cell>0</cell>
                         <cell>48</cell>
                         <cell>96</cell>
-                        <cell>144</cell>
-                    </row>
+                        <cell>144</cell></row>
                     <row>
                         <cell><m>g</m> (gallons)</cell>
                         <cell>20</cell>
                         <cell>16</cell>
                         <cell>12</cell>
-                        <cell>8</cell>
-                    </row>
+                        <cell>8</cell></row>
             </tabular></sidebyside></li>
     <li><p>We scale the values of <m>d</m> along the horizontal axis, and the values of <m>g</m> along the vertical axis. Then we plot the points from the table and connect with a line, as shown in the figure below.</p></li>
     <li><p>If Leon has less than 5 gallons of gasoline left, then <m>g\lt 5</m>, as shown on the <m>g</m>-axis. Using our model from part (a), we solve the inequality.
@@ -268,7 +263,7 @@ A one-hour bike ride costs $8.</p>
 
 <exercise><title>Practice 3</title>
     <introduction>
-        <sidebyside width="40%"><image xml:id="fig-Leon-mileage-grid">
+        <sidebyside width="35%"><image xml:id="fig-Leon-mileage-grid">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
