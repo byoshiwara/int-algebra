@@ -13,7 +13,7 @@ But this technique will not work on quadratic equations that also include a line
     <me>h=-16t^2+64t+4</me>
 The graph of this equation is shown below.</p>
 
-<sidebyside  width="40%">
+<sidebyside  width="35%">
     <image xml:id="fig-baseball-popup"><description>baseball popup</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -264,7 +264,7 @@ in the window
 Notice that when <m>y=0</m>, <m>x=1</m> or <m>x=3</m>. These two points are the <m>x</m>-intercepts of the graph. Now on the same window graph
     <me>y_2=4(x^2-4x+3)</me>
 as shown below.</p>
-    <sidebyside  width="40%"><image source="images/fig-GC-scaled-parabola"><description>graph </description></image></sidebyside>
+    <sidebyside  width="35%"><image source="images/fig-GC-scaled-parabola"><description>graph </description></image></sidebyside>
 <p>This graph has the same <m>x</m>-values when <m>y=0</m>. The factor of 4 makes the graph "skinnier," but does not change the location of the <m>x</m>-intercepts.</p></warning>
 
 <exercise><title>Practice 4</title>
