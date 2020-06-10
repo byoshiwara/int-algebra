@@ -204,7 +204,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         <sidebyside  width="25%"><image source="images/fig-parabola-with-symmetry-line2" ><description>parabola showing x-intercepts and line of symmetry</description></image></sidebyside></li>
 </ol></p></solution></example>
 
-<exercise><title>QuickCheck 2</title>
+<exercise><title>QuickCheck 3</title>
 <webwork><pg-code>
          $one = PopUp(
           ["?","a","b", "c", "d"],

@@ -305,7 +305,7 @@ and then press <c>ZOOM</c> <m>6</m>. If we trace along the graph to the intersec
     </statement>
         <solution><p><ol label="a" cols="2">
                 <li><p>A graph is below.</p></li>
-                <li><p>Inconsistent: The graph consists of parallel lines.</p></li></ol></p>
+                <li><p>Inconsistent: The graph is two parallel lines.</p></li></ol></p>
         </solution>
 </webwork>
     <conclusion>

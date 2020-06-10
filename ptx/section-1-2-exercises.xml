@@ -174,7 +174,7 @@
 
 <exercise number="9"><statement><p><ol label="a">
     <li><p>What interval does each grid line represent on the horizontal axis? On the vertical axis?</p>
-        <sidebyside width="40%"><image xml:id="fig-50-by-3000-grid">
+        <sidebyside width="35%"><image xml:id="fig-50-by-3000-grid">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -481,13 +481,8 @@
 
 <exercise number="33"><statement><p>Kieran's resting blood pressure, in mm Hg, is 120, and it rises by 6 mm for each minute he jogs on a treadmill programmed to increase the level of intensity at a steady rate.<ol label="a">
     <li>Find a formula for Kieran's blood pressure, <m>p</m>, in terms of time, <m>t</m>.</li>
-    <li>
-        <p>
-            Graph the equation for <m>p</m> for <m>0 \le t \le 10</m>.
-        </p>
-        <sidebyside width="50%">
-            <image xml:id="fig-blood-pressure-grid">
-        <description>grid</description>
+    <li><p>Graph the equation for <m>p</m> for <m>0 \le t \le 10</m>.</p>
+        <sidebyside width="40%"><image xml:id="fig-blood-pressure-grid"><description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -510,7 +505,7 @@
     <li>Kieran's blood pressure should not exceed 165 mm Hg. When will this level be reached? Label this point on the graph.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>p=120+5t</m></li>
-    <li><sidebyside width="40%"><image xml:id="fig-blood-pressure"><description>increasing blood pressure</description>
+    <li><sidebyside width="35%"><image xml:id="fig-blood-pressure"><description>increasing blood pressure</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
