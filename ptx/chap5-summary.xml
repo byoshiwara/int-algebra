@@ -51,7 +51,7 @@
             <mrow>f(x)=\sqrt{x}~~~~~f(x)=\sqrt[3]{x}~~~~~~f(x)=\dfrac{1}{x}~~~~~~f(x)=\dfrac{1}{x^2}</mrow></md></p></li>
     <li>Two variables are <term>directly proportional</term> if the ratios of their corresponding values are always equal.</li>
     <li><assemblage><title>Direct Variation</title>
-        <p><m>y</m> varies directly with <m>x</m> if
+        <p><m>y</m> <term>varies directly</term> with <m>x</m> if
             <me>y = kx</me>
         where <m>k</m> is a positive constant called the <term>constant of variation</term>.</p></assemblage></li>
     <li>Direct variation defines a linear function of the form
@@ -59,12 +59,12 @@
         The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope of the graph.</li>
     <li>Direct variation has the following <term>scaling</term> property: increasing <m>x</m> by any factor causes <m>y</m> to increase by the same factor.  </li>
     <li><assemblage><title>Direct Variation with a Power</title><p></p>
-        <p><m>y</m> <term>varies directly</term>with a power of <m>x</m> if
+        <p><m>y</m> <term>varies directly</term> with a power of <m>x</m> if
             <me>y = kx^n</me>
         where <m>k</m> and <m>n</m> are positive constants.</p></assemblage></li>
     <li>If the ratio <m>\dfrac{y}{x^n}</m> is constant, then <m>y</m> varies directly with <m>x^n</m>.</li>
     <li><assemblage><title>Inverse Variation</title>
-        <p><m>y</m> <term>varies inversely</term>with <m>x</m> if
+        <p><m>y</m> <term>varies inversely</term> with <m>x</m> if
             <me>y = \dfrac{k}{x}\text{, }x \ne 0</me>
         where <m>k</m> is a positive constant.</p></assemblage></li>
     <li><assemblage><title>Inverse Variation with a Power</title>

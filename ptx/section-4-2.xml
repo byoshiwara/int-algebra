@@ -14,7 +14,7 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
  in the window  
     <md><mrow>\text{Xmin}=-6~~~~\text{Ymin}=-6</mrow>
         <mrow>\text{Xmax}=4~~~~~\text{Ymax}=10</mrow></md></p>
-<sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
+<sidebyside widths="60% 30%" margins="0% 0%" valigns="middle middle">
      <p>The graphs are shown at right.  Now compare the two graphs.  You should notice that:
         <ul>
             <li>The second graph is identical to the first, except shifted upward by 6 units.</li>
@@ -45,10 +45,10 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
     <p>For the graph of  <m>~~y=ax^2+bx+c=0,~~</m> the <m>x</m>-coordinate of the vertex is 
         <me>\blert{x_v=\dfrac{-b}{2a}}</me></p></assemblage>
 
-<example xml:id="example-parabola-vertex2"><statement><p>Find the vertex of the graph of <m>f(x) = -2x^2 + x + 1</m>.</p>
+<example xml:id="example-parabola-vertex2"><statement><p>Find the vertex of the graph of <m>y = -2x^2 + x + 1</m>.</p>
 </statement>
 
-<solution><p>For this function, <m>a = -2</m>, <m>b = 1</m>, and <m>c = 1</m>. The <m>x</m>-coordinate of the vertex is given by
+<solution><p>For this equation, <m>a = -2</m>, <m>b = 1</m>, and <m>c = 1</m>. The <m>x</m>-coordinate of the vertex is given by
         <me>x_v =\frac{-b}{2a}=\frac{-1}{2(-2)}=\frac{1}{4}</me>
 To find the <m>y</m>-coordinate of the vertex, we substitute <m>x = \alert{\dfrac{1}{4}}</m> into the equation. We can do this by hand to find
         <md><mrow>y_v\amp= -2\left(\alert{\frac{1}{4}}\right)^2+ \alert{\frac{1}{4}}+1</mrow>
@@ -65,7 +65,7 @@ and press <m>~\boxed{\text{ENTER}}.~</m> The calculator returns the <m>y</m>-val
             ["?","maximum","minimum"],
             2, );
         </pg-code>
-    <statement><p>Find the vertex of the graph of <m>f(x) = 3x^2 - 6x + 4</m>.</p>
+    <statement><p>Find the vertex of the graph of <m>y = 3x^2 - 6x + 4</m>.</p>
             <p><var name="$answer" width="5"/> </p>
             <p>Decide whether the vertex is a maximum point or a minimum point of the graph.<var name="$maxmin" form="popup"/> </p>
         </statement>

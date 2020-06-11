@@ -289,10 +289,10 @@ has no <m>x</m>-intercepts, as shown below.</p>
 
 <subsection><title>Number of <m>x</m>-Intercepts</title>
 
-<p>The graph of the quadratic function 
-    <me>f(x) = ax^2 + bx + c</me> 
+<p>The graph of the quadratic equation 
+    <me>y = ax^2 + bx + c</me> 
 may have two, one, or no <m>x</m>-intercepts, according to the number of distinct real-valued solutions of the equation <m>ax^2 + bx + c = 0</m>.
-For example, consider the three functions graphed below.</p>
+For example, consider the three equations graphed below.</p>
     <sidebyside width="40%"><image source="images/fig-parabola-x-intercepts"><description>parabolas with zero, one, or two x-intercepts</description></image> </sidebyside>
 
 <p><ul>

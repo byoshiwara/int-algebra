@@ -118,7 +118,7 @@ on the same screen. Use <c>WINDOW</c> settings to match the graph in <xref ref="
     <p>We first write the inequality with zero on one side: 
     <me>x^2 - 2x - 15 \ge 0</me>. 
     We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have <m>y</m>-coordinates greater than or equal to zero. A graph of the equation is shown below.</p>
-    <sidebyside widths="60% 35%" valigns="middle middle" margins="0%">
+    <sidebyside widths="60% 30%" valigns="middle middle" margins="0%">
         <p>You can check that the <m>x</m>-intercepts of the graph are <m>-3</m> and <m>5</m>. The points shown in blue on the graph lie above the <m>x</m>-axis and have <m>y \ge 0</m>, so the <m>x</m>-coordinates of these points are the solutions of the inequality.</p>  
         <image xml:id="fig-quadratic-inequality">
             <description>parabola dividing the x-axis into three regions</description>
@@ -209,7 +209,7 @@ This set is another type of compound inequality, and its graph consists of two p
 
 <subsection><title>Interval Notation</title>
 
-<p>The solution set in <xref ref="example-fireworks" text="type-global"/>, namely <m>4.26 \lt t \lt 11.74</m>, is called an interval.  An <term>interval</term> is a set that consists of all the real numbers between two numbers <m>a</m> and <m>b</m>. An interval may include one or both of its endpoints.</p>
+<p>The solution set in <xref ref="example-fireworks" text="type-global"/>, namely <m>~4.26 \lt t \lt 11.74,~</m> is called an interval.  An <term>interval</term> is a set that consists of all the real numbers between two numbers <m>a</m> and <m>b</m>. An interval may include one or both of its endpoints.</p>
 
 <assemblage><title>Interval Notation</title>
 <p><ol label="1">
@@ -312,10 +312,10 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
     <li>Make a rough sketch of the graph, using the sign of <m>a</m> to determine whether the parabola opens upward or downward.</li>
     <li>Decide which intervals on the <m>x</m>-axis give the correct sign for <m>y</m>.</li></ol></p></assemblage>
 
-<example xml:id="example-quadratic-inequality2"><statement><p>Solve the inequality <m>36 + 6x - x^2\le 20</m> algebraically.</p></statement>
+<example xml:id="example-quadratic-inequality2"><statement><p>Solve the inequality <m>~36 + 6x - x^2\le 20~</m> algebraically.</p></statement>
 
 <solution><p><ol label="1">
-    <li><p>We subtract <m>20</m> from both sides of the inequality so that we have <m>0</m> on the right side.
+    <li><p>We subtract 20 from both sides of the inequality so that we have 0 on the right side.
                 <me>16 + 6x - x^2\le 0</me></p></li>
     <li><p>Consider the equation <m>y = 16 + 6x - x^2</m>. To locate the <m>x</m>-intercepts, we set <m>y = 0</m> and solve for <m>x</m>.
         <md><mrow>16 + 6x - x^2 \amp= 0 \amp\amp \blert{\text{Multiply each term by }-1.}</mrow>
@@ -326,7 +326,7 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
     The <m>x</m>-intercepts are <m>x = -2</m> and <m>x = 8</m>.</p></li>
     <li><p>Make a rough sketch of the graph of <m>y = 16 + 6x - x^2</m>, as shown below. Because <m>a = -1 \lt 0</m>, the graph is a parabola that opens downward.</p>
         <sidebyside width="30%"><image source="images/fig-quadratic-inequality2" ><description>parabola opening down dividing x-axis into 3 parts</description></image></sidebyside></li>
-    <li><p>We are interested in points on the graph for which <m>y\le 0</m>. The points with negative <m>y</m>-coordinates (that is, points below the <m>x</m>-axis) lie outside the <m>x</m>-intercepts of the graph, so the solution of the inequality is <m>x\le -2</m> or <m>x\ge 8</m>. Or, using interval notation, the solution is <m>(-\infty,-2] \cup  [8,\infty)</m>.</p></li>
+    <li><p>We are interested in points on the graph for which <m>y\le 0</m>. The points with negative <m>y</m>-coordinates (that is, points below the <m>x</m>-axis) lie outside the <m>x</m>-intercepts of the graph, so the solution of the inequality is <m>~x\le -2~</m> or <m>~x\ge 8~</m>. Or, using interval notation, the solution is <m>~(-\infty,-2] \cup  [8,\infty)</m>.</p></li>
     </ol></p></solution></example>
 
 <warning><p>Many people think that the inequality signs in the solution should point in the same direction as the sign in the original problem, and hence would incorrectly write the solution to <xref ref="example-quadratic-inequality2" text="type-global"/> as <m>x \le -2</m> or <m>x \le 8</m>. However, you can see from the graph that this is incorrect. Remember that the graph of a quadratic equation is a parabola, not a straight line!</p></warning>
@@ -380,7 +380,7 @@ How many parkas should the company produce and sell each month if it must keep t
                     <me>-0.8x^2 + 320x - 25,200\gt 2000</me>
             or, subtracting <m>2000</m> from both sides,
                     <me>-0.8x^2 + 320x - 27,200 \gt 0</me></p></li>
-        <li><p>Consider the function
+        <li><p>Consider the equation
                     <me>y = -0.8x^2 + 320x - 27,200</me>
             We locate the <m>x</m>-intercepts of the graph by setting <m>y = 0</m> and solving for <m>x</m>. We will use the quadratic formula to solve the equation
                     <me>-0.8x^2 + 320x - 27,200 = 0</me>
@@ -389,7 +389,7 @@ How many parkas should the company produce and sell each month if it must keep t
                     <mrow>\amp=\frac{-320\pm\sqrt{102,400 - 87,040}}{-1.6}</mrow>
                     <mrow>\amp=\frac{-320\pm\sqrt{15,360}}{-1.6}</mrow></md>
             To two decimal places, the solutions to the equation are 122.54 and 277.46.</p></li>
-            <li><p>The graph of the function is a parabola that opens downward, because the coefficient of <m>x^2</m> is negative. </p>
+            <li><p>The graph of the equation is a parabola that opens downward, because the coefficient of <m>x^2</m> is negative. </p>
                 <sidebyside  width="40%"><image source="images/fig-quadratic-inequality3"><description>graph of parabola opening down</description></image></sidebyside></li>
             <li><p>The graph lies above the <m>x</m>-axis, and hence <m>y \gt 0</m>, for <m>x</m>-values between the two <m>x</m>-intercepts, that is, for <m>122.54 \lt x \lt 277.46</m>. Because we cannot produce a fraction of a parka, we restrict the interval to the closest whole number <m>x</m>-values included, namely 123 and 277.</p>
             <p>Thus, TrailGear can produce as few as 123 parkas or as many as 277 parkas per month to keep its profit above $2000.</p></li>
