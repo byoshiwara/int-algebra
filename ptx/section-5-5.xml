@@ -20,7 +20,7 @@
     <me>T = f (R) = \frac{600}{R}</me></p>
 
 <p>This function is an example of <term>inverse variation</term><idx>inverse variation</idx>. A table of values and a graph of the function are shown below.</p>
-<sidebyside widths="50% 30%">
+<sidebyside widths="50% 30%" margins="5% 10%">
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>R</m></cell>
@@ -82,8 +82,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
     </tabular></sidebyside>
 
 <exercise><title>QuickCheck 1</title>
-<webwork>
-     <pg-code>       
+<webwork><pg-code>       
             $invvar = RadioButtons(
               ["Check whether \(xy\) is a constant.",
               "Check whether the function is decreasing.",
@@ -92,12 +91,10 @@ where <m>k</m> is a positive constant.</p></assemblage>
               0, 
             );            
         </pg-code> 
-    <statement>
-        <p>How can you test whether a table for <m>y=f(x)</m> represents inverse variation?</p>
+    <statement><p>How can you test whether a table for <m>y=f(x)</m> represents inverse variation?</p>
         <p><var name="$invvar" form="buttons"/></p>      
     </statement>
-    <solution>
-        <p>Check whether <m>xy</m> is a constant.</p>
+    <solution><p>Check whether <m>xy</m> is a constant.</p>
     </solution>
 </webwork></exercise>
 </subsection>
@@ -147,9 +144,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                     <cell><m>6</m></cell></row>
             </tabular></sidebyside>
         A graph of <m>I</m> as a function of <m>R</m> is shown below.</p>
-        <sidebyside  width="50%">
-            <image xml:id="fig-example-5-5-1">
-                <description>current vs resistance</description>
+        <sidebyside  width="40%"><image xml:id="fig-example-5-5-1"><description>current vs resistance</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%

@@ -45,7 +45,7 @@ In other words, we can compute <m>x^{3/2}</m> by first taking the square root of
 <p>A fractional exponent represents a power and a root. The denominator of the exponent is the root, and the numerator of the exponent is the power. We will define fractional powers only when the base is a positive number.</p>
 
 <assemblage><title>Rational Exponents</title>
-<p><me>a^{m/n} = (a^{1/n})^m = (a^m)^{1/n},~~~~a \gt 0\text,~~ n \ne 0</me></p>
+<p><me>\blert{a^{m/n} = (a^{1/n})^m = (a^m)^{1/n},~~~~a \gt 0\text,~~ n \ne 0}</me></p>
 </assemblage>
 
 <p>To compute <m>a^{m/n}</m>, we can compute the <m>n</m>th root first, or the <m>m</m>th power, whichever is easier. For example,
