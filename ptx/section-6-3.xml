@@ -61,13 +61,19 @@ or
     </ol></p></statement></example>
 
 <note><p>You can verify all the calculations in <xref ref="example-rational-exponent" text="type-global"/> on your calculator. For example, to evaluate <m>81^{3/4}</m>, key in</p>
-    <p>81 <c>^</c> ( 3 <c>÷</c> 4 ) <c>ENTER</c></p>
+    <p>81 <kbd name="circumflex"/> ( 3 <kbd name="obelus"/> 4 ) <kbd>ENTER</kbd></p>
 <p>or simply</p>
-    <p>81 <c>^</c> 0.75 <c>ENTER</c></p></note>
+    <p>81 <kbd name="circumflex"/> 0.75 <kbd>ENTER</kbd></p></note>
 
-<warning><p>When computing <m>81^{3/4}</m> on a calculator, do not forget the parentheses around the exponent, <m>\dfrac{3}{4}</m>. The keying sequence
-    <me> 81~~ \boxed{\wedge}~~ 3~~ \boxed{\div}~~ 4~~ \boxed{\text{ENTER}}</me>
-gives us the value of <m>\dfrac{81^3}{4}</m>, or <m>132,860.25</m>. The parentheses tell the calculator to include all of the quotient <m>3 \div 4</m> in the exponent, not just the 3.</p></warning>  
+<warning>
+    <p>
+        When computing <m>81^{3/4}</m> on a calculator, do not forget the parentheses around the exponent, <m>\dfrac{3}{4}</m>. The keying sequence
+    </p>
+    <p>
+        <m>\qquad\qquad 81</m> <kbd name="circumflex"/> <m>3</m> <kbd name="obelus"/> <kbd>ENTER</kbd>
+        gives us the value of <m>\dfrac{81^3}{4}</m>, or <m>132,860.25</m>. The parentheses tell the calculator to include all of the quotient <m>3 \div 4</m> in the exponent, not just the 3.
+    </p>
+</warning> 
 
 <exercise><title>Practice 1</title>
     <webwork><pg-code>

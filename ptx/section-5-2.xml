@@ -268,7 +268,7 @@
 
 <p>We can also use a graphing utility to obtain a table and graph for the function in <xref ref="example-graph-square-root" text="type-global"/>. We graph a function just as we graphed an equation. For this function, we enter 
     <me>Y_1 = \sqrt{\,}(X+4)</me>
-and press <c>ZOOM</c> <m>6</m> for the standard window. Your calculator does not use the <m>f(x)</m> notation for graphs, so we will continue to use <m>Y_1,~ Y_2,</m> etc. for the output variable.  Don't forget to enclose <m>x+4</m> in parentheses, because it appears under a radical.  The graph is shown below.</p>
+and press <kbd>ZOOM</kbd> <m>6</m> for the standard window. Your calculator does not use the <m>f(x)</m> notation for graphs, so we will continue to use <m>Y_1,~ Y_2,</m> etc. for the output variable.  Don't forget to enclose <m>x+4</m> in parentheses, because it appears under a radical.  The graph is shown below.</p>
 
 <sidebyside  width="30%"><image source="images/fig-GC-sq-root"><description>GC square root graph</description></image></sidebyside>
 </technology>

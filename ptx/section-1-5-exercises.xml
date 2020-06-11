@@ -364,7 +364,7 @@ State the slope and the vertical intercept of the graph, including units, and ex
 gives the temperature at an altitude of <m>h</m> feet.<ol label="a">
     <li><p>What is the temperature at an altitude of 4100 feet?</p></li>
     <li><p>At what altitude is the temperature <m>34\degree</m> Fahrenheit?</p></li>
-    <li><p>Choose appropriate <c>WINDOW</c> settings and graph the equation <m>y = 70-\dfrac{3}{820}x</m>.</p></li>
+    <li><p>Choose appropriate <kbd>WINDOW</kbd> settings and graph the equation <m>y = 70-\dfrac{3}{820}x</m>.</p></li>
     <li><p>Find the slope and explain its meaning for this problem.</p></li>
     <li><p>Find the intercepts and explain their meanings for this problem.</p></li></ol></p></statement>
 <answer><p><ol label="a">

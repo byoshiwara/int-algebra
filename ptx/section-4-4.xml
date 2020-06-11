@@ -48,7 +48,7 @@ and read "<m>t</m> greater than 4.25 but less than 11.75."</p></note>
 <p>You can use your graphing calculator to solve the problem in <xref ref="example-fireworks" text="type-global"/>. Graph the two functions
         <md><mrow>Y_1 \amp= 256X - 16X^2</mrow>
             <mrow>Y_2 \amp= 800</mrow></md>
-on the same screen. Use <c>WINDOW</c> settings to match the graph in <xref ref="example-fireworks" text="type-global"/>.</p> 
+on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref ref="example-fireworks" text="type-global"/>.</p> 
     <sidebyside  width="35%"><image source="images/fig-GC-fireworks" ><description>GCgraph of fireworks height</description></image> </sidebyside>
 <p>Then use the intersect feature to find the points where the two graphs intersect, at about <m>x=4.26</m> and <m>x=11.74</m>. Both these points <m>y</m>-coordinate <m>800</m>, and between the points the parabola is above the line, so <m>h \gt 800</m> when <m>4.26 \lt t \lt 11.74</m>.</p>  </technology>
 

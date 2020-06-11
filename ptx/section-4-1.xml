@@ -260,30 +260,37 @@ has no <m>x</m>-intercepts, as shown below.</p>
 <p>The sum of a real number and an imaginary number is called a <term>complex number</term>.</p>  
 
 <exercise><title>Practice 4</title>
-<webwork><pg-code>
-            Context("Complex")->functions->disable("sqrt");
-            Context()->functions->enable("sqrt");
-            Context()->{error}{msg}{"Can't take sqrt of -18"}
-              = "Your should not leave a negative number under the radical.";
-            Context()->{error}{msg}{"Can't take sqrt of -5"}
-              = "Your should not leave a negative number under the radical.";
+<webwork>
+    <pg-code>
+        Context("Complex")->functions->disable("sqrt");
+        Context()->functions->enable("sqrt");
+        Context()->{error}{msg}{"Can't take sqrt of -18"}
+          = "Your should not leave a negative number under the radical.";
+        Context()->{error}{msg}{"Can't take sqrt of -5"}
+          = "Your should not leave a negative number under the radical.";
 
-            $a = Compute("-1/2+3/2 i");
-            $b = Compute("-1/2-3/2 i");
-            $answer = List("$a,$b");
-            $my_evaluator = $answer -> cmp(
-             showHints=>1,
-             showLengthHints => 1,
-             partialCredit => 1,
-            ); 
-            
+        $a = Compute("-1/2+3/2 i");
+        $b = Compute("-1/2-3/2 i");
+        $answer = List("$a,$b");
+        $my_evaluator = $answer -> cmp(
+         showHints=>1,
+         showLengthHints => 1,
+         partialCredit => 1,
+        );            
     </pg-code> 
-<statement><p>Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers, separated with a comma.</p>
-    <p><m>x=</m><var name="$answer" width="15"/> </p>
-    </statement>
-<solution><p><m>\dfrac{-1}{2} \pm \dfrac{3}{2}i</m></p>
+    <statement>
+        <p>
+            Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers, separated with a comma.
+        </p>
+        <p><m>x=</m><var name="$answer" width="15"/> </p>
+        </statement>
+    <solution>
+        <p>
+            <m>\dfrac{-1}{2} + \dfrac{3}{2}i</m>, <m>\dfrac{-1}{2} - \dfrac{3}{2}i</m>
+        </p>
     </solution>
-</webwork></exercise>
+</webwork>
+</exercise>
 
 </subsection>
 
