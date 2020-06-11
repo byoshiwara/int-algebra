@@ -14,7 +14,7 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
  in the window  
     <md><mrow>\text{Xmin}=-6~~~~\text{Ymin}=-6</mrow>
         <mrow>\text{Xmax}=4~~~~~\text{Ymax}=10</mrow></md></p>
-<sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
+<sidebyside widths="60% 30%" margins="0% 0%" valigns="middle middle">
      <p>The graphs are shown at right.  Now compare the two graphs.  You should notice that:
         <ul>
             <li>The second graph is identical to the first, except shifted upward by 6 units.</li>
@@ -73,6 +73,7 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
     </solution>
 </example>
 
+
 <exercise><title>Practice 1</title>
     <webwork><pg-code>
             Context("Point");
@@ -81,7 +82,7 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
             ["?","maximum","minimum"],
             2, );
         </pg-code>
-    <statement><p>Find the vertex of the graph of <m>f(x) = 3x^2 - 6x + 4</m>.</p>
+    <statement><p>Find the vertex of the graph of <m>y = 3x^2 - 6x + 4</m>.</p>
             <p><var name="$answer" width="5"/> </p>
             <p>Decide whether the vertex is a maximum point or a minimum point of the graph.<var name="$maxmin" form="popup"/> </p>
         </statement>

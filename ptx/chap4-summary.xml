@@ -43,7 +43,7 @@
             <me>x_v=\dfrac{-b}{2a}</me> 
         To find the -coordinate of the vertex, we substitute <m>x_v</m> into the formula for the parabola.</li>
     <li>Quadratic models may arise as the product of two variables.</li>
-    <li>The maximum or minimum of a quadratic function occurs at the vertex.</li>
+    <li>The maximum or minimum of a quadratic equation occurs at the vertex of its graph.</li>
     <li><assemblage><title>Vertex Form for a Quadratic Equation</title>
         <p>A quadratic equation <m>~y=ax^2+bx+c,~a \not=0,~</m> can be written in the vertex form 
             <me>\blert{y=a(x-x_v)^2+y_v}</me>
@@ -72,7 +72,7 @@
     </li>
 	<li><assemblage><title>To graph a quadratic equation <m>~y=ax^2+bx+c</m></title>
         <p><ol label="1">
-            <li>Determine whether the parabola opens upward (if <m>a \gt 0</m>)  or downward (if <m>a \lt 0</m>).</li>
+            <li>Determine whether the parabola opens upward (if <m>a \gt 0</m>) or downward (if <m>a \lt 0</m>).</li>
             <li><p>Locate the vertex of the parabola.<ol label="a">
                 <li>The <m>x</m>-coordinate of the vertex is <m>x_v=\dfrac{-b}{2a}</m>.</li>
                 <li>Find the <m>y</m>-coordinate of the vertex by substituting <m>x_v</m> into the equation of the  parabola.</li></ol></p></li>

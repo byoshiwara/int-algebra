@@ -10,7 +10,7 @@
 <p>Recall that <m>s</m> is a square root of <m>b</m> if <m>s^2 = b</m>, and <m>s</m> is a cube root of <m>b</m> if <m>s^3 = b</m>. In a similar way, we can define the fourth, fifth, or sixth root of a number. For instance, the fourth root of <m>b</m> is a number <m>s</m> whose fourth power is <m>b</m>.</p>
 
 <assemblage><title><m>n</m>th Roots</title>
-<p><m>s</m> is called an <term> <m>n</m>th root of <m>b</m></term> if <m>s^n = b</m>.
+<p><m>s</m> is called an <term> <m>n</m>th root of <m>b</m></term> if <m>\blert{s^n = b}</m>.
 </p></assemblage>
 
 <p>We use the symbol <m>\sqrt[n]{b}</m> to denote the <m>n</m>th root of <m>b</m>. An expression of the form <m>\sqrt[n]{b}</m> is called a <term>radical</term><idx>radical</idx>, <m>b</m> is called the <term>radicand</term><idx>radicand</idx>, and <m>n</m> is called the <term>index of the radical</term><idx>index of the radical</idx>. </p>

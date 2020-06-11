@@ -370,7 +370,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
     <answer><m>(-\infty,-\sqrt{3}) \cup (\sqrt{3},\infty)</m></answer></exercise>
 </exercisegroup>
 
-<exercise number="33"><statement><p>The Sub Station sells <m>220-\dfrac{1}{4}p</m> submarine sandwiches at lunchtime if it sells them at <m>p</m> cents each.  <ol label="a">
+<exercise number="33"><statement><p>The Sub Station sells <m>~220-\dfrac{1}{4}p~</m> submarine sandwiches at lunchtime if it sells them at <m>p</m> cents each.  <ol label="a">
     <li>Write a formula for the Sub Station's daily revenue in terms of <m>p</m>.</li>
     <li>What range of prices can the Sub Station charge if it wants to keep its daily revenue from subs over $480?</li>
 </ol></p></statement>
@@ -379,7 +379,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
     <li><m>400 \lt p \lt 480</m></li></ol></p>
 </answer></exercise>
 
-<exercise number="34"><statement><p>When it charges <m>p</m> dollars for an electric screwdriver, Handy Hardware will sell <m>30-\dfrac{1}{2}p</m> screwdrivers per month.  <ol label="a">
+<exercise number="34"><statement><p>When it charges <m>p</m> dollars for an electric screwdriver, Handy Hardware will sell <m>~30-\dfrac{1}{2}p~</m> screwdrivers per month.  <ol label="a">
     <li>Write a formula in terms of <m>p</m> for Handy Hardware's monthly revenue from screwdrivers.</li>
     <li>How much should Handy charge per screwdriver if it wants the monthly revenue from the screwdrivers to be over $400?</li></ol></p></statement>
     <answer><p><ol label="a">

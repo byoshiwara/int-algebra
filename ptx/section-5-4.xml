@@ -105,7 +105,7 @@ which we recognize as the equation of a line through the origin.</p>
 <p>In general, we make the following definition.</p>
 
 <assemblage><title>Direct Variation</title><idx>direct variation</idx>
-<p><m>y</m> varies directly with <m>x</m> if
+<p><m>y</m> <term>varies directly</term> with <m>x</m> if
     <me>y = kx</me>
     where <m>k</m> is a positive constant called the <term>constant of variation</term><idx>constant of variation</idx>.
 </p></assemblage>
@@ -220,7 +220,7 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
     and
        <me>T(12) = 400 + 30(12) = 760</me>
     Tuition for <m>12</m> units is not double the tuition for <m>6</m> units. The graph of <m>T(u)</m> in figure (a) does not pass through the origin.</p>
-    <sidebyside width="100%"><image source="images/fig-GC-graphs-of-two-linear-functions"><description>calculator graphs of two linear functions</description></image></sidebyside></li>
+    <sidebyside width="80%"><image source="images/fig-GC-graphs-of-two-linear-functions"><description>calculator graphs of two linear functions</description></image></sidebyside></li>
     <li><p>Let <m>S</m> represent Imogen’s sales, and let <m>C(S)</m> represent her commission. Then 
         <me>C(S) = 0.15S</me>
     Thus, <m>C(S)</m> is a linear function of <m>S</m> with a <m>C</m>-intercept of zero, so Imogen's earnings do vary directly with her sales. </p></li>
@@ -238,10 +238,8 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
             "(b): If we increase \(x\), we also increase \(y\). $BR",
             "None of the above");      
         </pg-code>
-        <statement>
-            <p>Which tables could represent direct variation? Explain why. (Hint: What happens to <m>y</m> if you multiply <m>x</m> by a constant?)<ol label="a">
-                <li>
-                    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <statement><p>Which tables could represent direct variation? Explain why. (Hint: What happens to <m>y</m> if you multiply <m>x</m> by a constant?)<ol label="a">
+            <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>1</m></cell>
@@ -276,15 +274,12 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
                         <cell><m>7</m></cell>
                         <cell><m>8.5</m></cell>
                         <cell><m>10</m></cell></row>
-                </tabular></sidebyside></li>
-            </ol></p>
+                </tabular></sidebyside></li></ol></p>
             <p><var name="$explain" form="checkboxes"/> </p>
         </statement>
-        <solution>
-            <p>(a): If we multiply <m>x</m> by <m>c</m>, <m>y</m> is also multiplied by <m>c</m>.</p>
+        <solution><p>(a): If we multiply <m>x</m> by <m>c</m>, <m>y</m> is also multiplied by <m>c</m>.</p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 </subsection>
 
 <subsection><title>Finding a Formula for Direct Variation</title>
@@ -332,24 +327,20 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
               }
             );            
         </pg-code>
-        <statement>
-            <p>The volume of a bag of rice, in cups, is directly proportional to the weight of the bag. A 2-pound bag contains 3.5 cups of rice.<ol label="a">
+    <statement><p>The volume of a bag of rice, in cups, is directly proportional to the weight of the bag. A 2-pound bag contains 3.5 cups of rice.<ol label="a">
                 <li><p>Express the volume, <m>V</m>, of a bag of rice as a function of its weight, <m>w</m>.</p>
                 <p><var name="$multians" width="2"/><m>=</m><var name="$multians" width="5"/> </p></li>
                 <li><p>How many cups of rice are in a <m>15</m>-pound bag?</p>
                 <p><var name="$V" width="4"/> </p></li></ol></p>
         </statement>
-        <solution>
-            <p><ol label="a" cols="2">
+        <solution><p><ol label="a" cols="2">
                 <li><p><m><var name="$f1"/>=<var name="$f2"/> </m></p></li>
                 <li><p><m>26.25</m></p></li></ol></p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <exercise><title>QuickCheck 3</title>
-<webwork>
-     <pg-code>       
+<webwork><pg-code>       
             $exdir = RadioButtons(
               ["Double the value of \(x\).",
               "Find the \(y\)-intercept of the graph.",
@@ -405,23 +396,19 @@ The original interest is increased by a factor of <fillin characters="6"/>.</p><
                   );
               }
             );            
-            
+           
         </pg-code>
-        <statement>
-            <p>The volume of a sphere varies directly with the <em>cube</em> of its radius. A balloon of radius 5 centimeters has volume <m>\dfrac{500\pi}{3}</m> cubic centimeters, or about 524 cubic centimeters. Find a formula for the volume, <m>V</m>, of a sphere as a function of its radius, <m>r</m>.</p>
+    <statement><p>The volume of a sphere varies directly with the <em>cube</em> of its radius. A balloon of radius 5 centimeters has volume <m>\dfrac{500\pi}{3}</m> cubic centimeters, or about 524 cubic centimeters. Find a formula for the volume, <m>V</m>, of a sphere as a function of its radius, <m>r</m>.</p>
             <p><var name="$multians" width="2"/><m>=</m><var name="$multians" width="10"/> </p>
-            <instruction>
-                Use "pi" for <m>\pi</m>.
+            <instruction>Use "pi" for <m>\pi</m>.
             </instruction>
-        </statement>
-        <solution>
-            <p><m>V=\dfrac{4}{3}\pi r^3</m></p>
+    </statement>
+        <solution><p><m>V=\dfrac{4}{3}\pi r^3</m></p>
         </solution>
-    </webwork>
-</exercise>
+</webwork></exercise>
 
 <p>In any example of direct variation, as the input variable increases through positive values, the output variable increases also. Thus, a direct variation is an increasing function, as we can see when we consider the graphs of some typical direct variations shown below.</p>
-<sidebyside width="80%"><image source="images/fig-vary-with-power"><description>graphs of three variation with power</description></image></sidebyside>
+<sidebyside width="65%"><image source="images/fig-vary-with-power"><description>graphs of three variation with power</description></image></sidebyside>
 
 <warning><p>The graph of a direct variation always passes through the origin, so when the input is zero, the output is also zero. Thus, the functions <m>~y = 3x + 2~</m> and <m>~y = 0.4x^2 - 2.3~</m>, for example, are not direct variation, even though they are increasing functions for positive <m>x</m>.</p></warning>
 

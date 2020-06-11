@@ -160,10 +160,10 @@
 
 <subexercises><title>Applications</title>
 
-<exercise number="23"><statement><p>A car traveling at <m>s</m> miles per hour on a wet road surface requires approximately <m>d</m> feet to stop, where <m>d</m> is given by the function
-    <me>d = f(s) = \dfrac{s^2}{12}+\dfrac{s}{2} </me><ol label="a">
+<exercise number="23"><statement><p>A car traveling at <m>s</m> miles per hour on a wet road surface requires approximately <m>d</m> feet to stop, where <m>d</m> is given by the equation
+    <me>d = \dfrac{s^2}{12}+\dfrac{s}{2} </me><ol label="a">
         <li><p>Make a table showing the stopping distance, <m>d</m>, for speeds of 10, 10, <m>\ldots</m>, 100 miles per hour. (Use the <term>Table</term> feature of your calculator.)</p></li>
-        <li><p>Graph the function for <m>d</m> in terms of <m>s</m>. Use your table values to help you choose appropriate window settings.</p></li>
+        <li><p>Graph the equation for <m>d</m> in terms of <m>s</m>. Use your table values to help you choose appropriate window settings.</p></li>
         <li><p>Insurance investigators at the scene of an accident find skid marks 100 feet long leading up to the point of impact. Write and solve an equation to discover how fast the car was traveling when it put on the brakes. Verify your answer on your graph.</p></li>
     </ol></p></statement>
 <answer><p>c.  31.77 mph</p></answer></exercise>

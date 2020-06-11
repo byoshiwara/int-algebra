@@ -12,7 +12,7 @@
 
 <exercise number="1"><statement>
     <p><m>f(x)=3x-4</m></p>
-    <sidebyside width="100%"><image xml:id="fig-10by10grid-f-x">
+    <sidebyside width="90%"><image xml:id="fig-10by10grid-f-x">
         <description>10 by 10 grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -33,7 +33,7 @@
     </image></sidebyside>
 </statement>
 <answer>
-    <sidebyside width="100%"><image xml:id="fig-y-eq-3x-4">
+    <sidebyside width="90%"><image xml:id="fig-y-eq-3x-4">
         <description>y = 3x-4</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -60,7 +60,7 @@
 
 <exercise number="2"><statement>
     <p><m>F(t)=\dfrac{-3}{4}t + 60</m></p>
-    <sidebyside width="100%"><image xml:id="fig-10by10grid-F-t">
+    <sidebyside width="90%"><image xml:id="fig-10by10grid-F-t">
         <description>10 by 10 grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -83,7 +83,7 @@
 
 <exercise number="3"><statement>
     <p><m>p(t)=3-t^2</m></p>
-    <sidebyside width="100%"><image xml:id="fig-10by10grid-p-t">
+    <sidebyside width="90%"><image xml:id="fig-10by10grid-p-t">
         <description>10 by 10 grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -347,7 +347,7 @@
 </statement></exercise>
 
 <exercise number="19"><statement><p>The figure shows the graph of <m> g(x) = \dfrac{12}{2 + x^2}</m>. Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers in interval notation.</p>
-    <sidebyside width="35%"><image source="images/fig-hw-5-2-11"><description>bell-like curve</description></image></sidebyside><p>
+    <sidebyside width="30%"><image source="images/fig-hw-5-2-11"><description>bell-like curve</description></image></sidebyside><p>
             <ol label="a" cols="2">
                 <li><m>\dfrac{12}{2 + x^2} = 4</m></li>
                 <li><m>\dfrac{12}{2 + x^2} \gt 4</m></li>

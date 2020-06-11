@@ -14,7 +14,7 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
 </statement></exercise>
 
 <exercise number="2"><statement><p>What happens to <m>A</m> as we increase <m>n</m>, the number of compounding periods per year? Fill in the table showing the amount in the account for different values of <m>n</m>.</p>
-			<sidebyside widths="40% 41%" margins="7%">
+			<sidebyside widths="40% 50%" margins="5%">
 				<tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/>
 					<row>
 						<cell halign="center"><m>n</m></cell>

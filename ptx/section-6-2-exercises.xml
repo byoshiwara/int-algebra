@@ -309,8 +309,8 @@ where <m>L</m> is the length of the vessel in feet.   (Source: Gilner, 1972) <ol
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
                     </tabular></sidebyside></li>
-    <li> Graph maximum speed against vessel length.
-        <sidebyside width="44%"><image xml:id="fig-ship-speed-grid">
+    <li><p> Graph maximum speed against vessel length.</p>
+        <sidebyside width="40%"><image xml:id="fig-ship-speed-grid">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -354,7 +354,7 @@ where <m>L</m> is the length of the vessel in feet.   (Source: Gilner, 1972) <ol
                         <cell><m>36.8</m></cell>
                         <cell><m>41.1</m></cell></row>
                     </tabular></sidebyside></p></li>
-    <li><sidebyside width="44%" margins="0% 0%"><image xml:id="fig-ship-speed">
+    <li><sidebyside width="38%" margins="0% 0%"><image xml:id="fig-ship-speed">
         <description>maximum velocity</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -422,8 +422,8 @@ where <m>g</m> is the acceleration due to gravity. (Source: Alexander, 1992)<ol 
                     </tabular></sidebyside></li>
     <li>A typical adult man has legs about 0.9 meter long. How fast can he walk?</li>
     <li>A typical four-year-old has legs 0.5 meter long. How fast can she walk?</li>
-    <li>Graph maximum walking speed against leg length.
-        <sidebyside width="44%"><image xml:id="fig-walk-speed-grid">
+    <li><p>Graph maximum walking speed against leg length.</p>
+        <sidebyside width="38%"><image xml:id="fig-walk-speed-grid">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
