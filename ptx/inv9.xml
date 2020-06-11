@@ -14,7 +14,7 @@ point of several such spheres centered on different satellites.</p></introductio
 
 <exercisegroup><introduction><p>In this model we’ll need data from two GPS satellites. The satellites are orbiting along a circle of radius 100 meters centered at the origin. You have a receiver inside that circle and would like to know the coordinates of your position within the circle.</p> 
 
-	<sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
+	<sidebyside width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside>
 	
 <p>To make the computations simpler, we will also assume that the satellite transmissions travel at 5 meters per second.</p>
 </introduction>
