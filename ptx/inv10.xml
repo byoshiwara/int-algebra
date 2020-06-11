@@ -60,7 +60,7 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
 
 <exercise number="6"><statement><p>As <m>n</m> increases, the values of <m>A</m> approach a limiting value. Although <m>A</m> continues to increase, it does so by smaller and smaller increments and will never exceed $1083.29. When the number of compounding periods increases without bound, we call the limiting result <term>continuous compounding</term><idx>continuous compounding</idx>.</p></statement></exercise>
 
-<exercise number="7"><statement><p>Is there an easier way to compute <m>A</m> under continues compounding? Yes! Compute <m>1000e^{0.08}</m> on your calculator. (Press <c>2nd</c>  <c>LN</c> to enter <m>e^x</m>.) Compare the value to your answer in part (5) for the limiting value. The number <m>e</m> is called the <term>natural base</term><idx>natural base</idx>. We'll compute its value shortly.</p></statement></exercise>
+<exercise number="7"><statement><p>Is there an easier way to compute <m>A</m> under continues compounding? Yes! Compute <m>1000e^{0.08}</m> on your calculator. (Press <kbd>2nd</kbd>  <kbd>LN</kbd> to enter <m>e^x</m>.) Compare the value to your answer in part (5) for the limiting value. The number <m>e</m> is called the <term>natural base</term><idx>natural base</idx>. We'll compute its value shortly.</p></statement></exercise>
 
 <exercise number="8"><statement><p>Repeat your calculations for two other interest rates, 15% and (an extremely unrealistic) 100%, again for an investment of $1000 for 1 year. In each case, compare the limiting value of <m>A</m>, and compare to the value of <m>1000e^r</m>.
 			<ol label="a" cols="2"><li><sidebyside>

@@ -17,7 +17,7 @@ The Pizza Connection charges $15 per pizza, so the revenue from selling <m>x</m>
     
 <solution><p>To break even means to make zero profit. Because
             <md><mrow>\blert{\text{Profit} = \text{Revenue} - \text{Cost}}</mrow></md>
-the break-even points occur when revenue equals cost. In mathematical terms, we would like to find any values of <m>x</m> for which <m>R = C</m>. If we graph the revenue and cost functions on the same axes, these values correspond to points where the two graphs intersect. Use the <c>WINDOW</c> settings
+the break-even points occur when revenue equals cost. In mathematical terms, we would like to find any values of <m>x</m> for which <m>R = C</m>. If we graph the revenue and cost functions on the same axes, these values correspond to points where the two graphs intersect. Use the <kbd>WINDOW</kbd> settings
             <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 94</mrow>
                 <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 1400</mrow></md>
 on your calculator to obtain the graph shown below. You can verify that the two intersection points are <m>(15, 225)</m> and <m>(80, 1200)</m>.</p>

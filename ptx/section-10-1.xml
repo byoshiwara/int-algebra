@@ -399,7 +399,7 @@ We can also apply the two functions in the opposite order, so that
 
 <subsection><title>Using Logarithmic Functions</title>
 
-<p>We can use the <c>LOG</c> key on a calculator to evaluate the function <m>f(x) = \log_{10}{x}</m>.</p>
+<p>We can use the <kbd>LOG</kbd> key on a calculator to evaluate the function <m>f(x) = \log_{10}{x}</m>.</p>
 
 <example xml:id="example-GC-evaluate-logs"><statement><p>Let <m>f(x) = \log_{10}{x}</m>. Evaluate the following expressions.<ol label="a" cols="3">
 		<li><m>f(35)</m></li>
@@ -428,13 +428,26 @@ We can also apply the two functions in the opposite order, so that
     <solution><m>20 \log_{10}{4} \approx 12.04</m></solution>
 </webwork></exercise>
 
-<example><statement><p>Evaluate the expression <m>~~T=\dfrac{1}{k}\log_{10}{\left(\dfrac{M_f}{M_0}+1\right)}~</m> for <m>k=0.028, ~M_f=1832</m>, and <m>M_0=15.3</m>.</p></statement>
-
-<solution><p>Follow the order of operations and calculate
-	<md><mrow>T \amp =\dfrac{1}{0.028}\log_{10}{\left(\dfrac{1832}{15.3}+1\right)} = \dfrac{\log_{10}{120.739}}{0.028}</mrow>
-		<mrow> \amp \approx \dfrac{2.082}{0.028} \approx 74.35</mrow></md>
-A calculator keying sequence for the calculation is
-	<me> \boxed{\text{LOG}}~~1832~~\boxed{\div}~~15.3~~\boxed{+}~~1~~\boxed{)}~~\boxed{\div}~~0.028~~\boxed{\text{ENTER}}</me></p></solution></example>
+<example>
+    <statement>
+        <p>
+            Evaluate the expression <m>~~T=\dfrac{1}{k}\log_{10}{\left(\dfrac{M_f}{M_0}+1\right)}~</m> for <m>k=0.028, ~M_f=1832</m>, and <m>M_0=15.3</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Follow the order of operations and calculate
+            <md>
+                <mrow>T \amp =\dfrac{1}{0.028}\log_{10}{\left(\dfrac{1832}{15.3}+1\right)} = \dfrac{\log_{10}{120.739}}{0.028}</mrow>
+                <mrow> \amp \approx \dfrac{2.082}{0.028} \approx 74.35</mrow>
+            </md>
+            A calculator keying sequence for the calculation is
+        </p>
+        <p>
+            <m>\qquad\qquad</m><kbd>LOG</kbd> <m>1832</m> <kbd name="obelus"/> <m>15.3</m> <kbd>+</kbd> <m>1</m> <kbd>)</kbd> <kbd name="obelus"/> <m>0.028</m> <kbd>ENTER</kbd>
+        </p>
+    </solution>
+</example>
 
 <exercise><title>Practice 4</title>
     <webwork><pg-code>
