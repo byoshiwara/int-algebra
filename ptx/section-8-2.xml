@@ -463,7 +463,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
     </solution>
 </webwork>
 <conclusion>
-    <sidebyside width="45%" margins="0% 5%"><image xml:id="fig-average-cost">
+    <sidebyside width="35%" margins="0% 5%"><image xml:id="fig-average-cost">
         <description>graph of average cost of production</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

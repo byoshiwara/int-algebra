@@ -8,7 +8,7 @@
 is a line (as long as <m>A</m> and <m>B</m> are not both 0). A second-degree equation in two variables has the general form
         <md><mrow>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</mrow></md>
 where <m>A</m>, <m>B</m>, and <m>C</m> cannot all be zero (because in that case the equation would not be second degree). The graphs of such equations are curves called <term>conic sections</term><idx>conic section</idx> because they are formed by the intersection of a plane and a cone, as illustrated below. Except for a few special cases called <em>degenerate conics</em>, the conic sections fall into four categories called <term>circles</term>, <term>ellipses</term>, <term>hyperbolas</term>, and <term>parabolas</term>.</p>
-    <sidebyside width="90%"><image source="images/conics"><description>conics</description></image></sidebyside>
+    <sidebyside width="80%"><image source="images/conics"><description>conics</description></image></sidebyside>
     
 <p>Conic sections whose centers (or vertices, in the case of parabolas) are located at the origin are called <term>central conics</term><idx>central conic</idx>.</p>
 </introduction>

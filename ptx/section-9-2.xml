@@ -111,7 +111,7 @@ Taking the (positive) square root of each side of this equation gives us the <te
                 <mrow>\amp = \sqrt{(4-2)^2+\left[3-(-1)\right]^2}</mrow>
                 <mrow>\amp = \sqrt{4+16} =\sqrt{20} \approx 4.47 </mrow></md></p></solution></example>
 
-<p>It doesn't matter which point we call <m>P_1</m>  and which is <m>P_2</m>. We obtain the same answer in the <xref ref="example-distance-betw-points" text="custom">Example</xref> if we switch the two points and use <m>(4,3)</m> for <m>P_1</m> and <m>(2,-1)</m> for <m>P_2</m>:
+<p>It doesn't matter which point we call <m>P_1</m>  and which is <m>P_2</m>. We obtain the same answer in the previous <xref ref="example-distance-betw-points" text="custom">Example</xref> if we switch the two points and use <m>(4,3)</m> for <m>P_1</m> and <m>(2,-1)</m> for <m>P_2</m>:
     <md><mrow>d \amp = \sqrt{(2-4)^2+[(-1)-3]^2}</mrow>
         <mrow>\amp = \sqrt{4+16} =\sqrt{20}</mrow></md></p>
 
@@ -163,8 +163,8 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
 
 <subsection><title>Finding the Midpoint</title>
 
-<p>The <term>midpoint</term><idx>midpoint</idx> of a segment is the point halfway between its endpoints, so that the distance from the midpoint to either endpoint is the same. The <m>x</m>-coordinate of the midpoint is halfway between the <m>x</m>-coordinates of the endpoints, and likewise for the <m>y</m>-coordinate. For the points <m>(-2, 7)</m> and <m>(6, 3)</m> shown below, the <m>x</m>-coordinate of the midpoint is <m>2</m>, which is halfway between <m>-2</m> and <m>6</m>. The <m>y</m>-coordinate is halfway between <m>7</m> and <m>3</m>, or <m>5</m>. Thus, the midpoint is <m>(2, 5)</m></p>
-<sidebyside width="50%"><image xml:id="fig-line-segment-midpoint"><description>line segment</description><latex-image>
+<p>The <term>midpoint</term><idx>midpoint</idx> of a segment is the point halfway between its endpoints, so that the distance from the midpoint to either endpoint is the same. The <m>x</m>-coordinate of the midpoint is halfway between the <m>x</m>-coordinates of the endpoints, and likewise for the <m>y</m>-coordinate. For the points <m>(-2, 7)</m> and <m>(6, 3)</m> shown below, the <m>x</m>-coordinate of the midpoint is <m>2</m>, which is halfway between <m>-2</m> and <m>6</m>. The <m>y</m>-coordinate is halfway between <m>7</m> and <m>3</m>, or <m>5</m>. Thus, the midpoint is <m>(2, 5)</m>.</p>
+<sidebyside width="40%"><image xml:id="fig-line-segment-midpoint"><description>line segment</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -246,7 +246,7 @@ The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m
 
 <p>A <term>circle</term><idx>circle</idx> is the set of all points in a plane that lie at a given distance, called the <term>radius</term><idx>radius</idx>, from a fixed point called the <term>center</term><idx>center</idx>. We can use the distance formula to find an equation for a circle. First consider the circle in Figure (a), whose center is the origin, <m>(0,0)</m>.</p> 
 
-<sidebyside width="90%">
+<sidebyside width="80%">
     <image source="images/fig-circles"><description>circles</description></image></sidebyside>
 
 <p>The distance from the origin to any point <m>P(x,y)</m> on the circle is <m>r</m>. Therefore, 
