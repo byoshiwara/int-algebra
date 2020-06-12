@@ -344,29 +344,49 @@ graphically and algebraically.</p></statement>
 
 <p>In the next Example, we compare the steps for <em>evaluating a quadratic expression</em> and for <em>solving a quadratic equation</em>.</p>
 
-<example><statement><p>A cat falls off a tree branch 20 feet above the ground. Its height <m>t</m> seconds later is given by <m>h=20-16t^2</m>.<ol label="a">   
-    <li>What is the height of the cat 0.5 second later?</li>
-    <li>How long does the cat have to get in position to land on its feet before it reaches the ground?</li></ol></p>
-</statement>
-
-<solution><p><ol label="a">
-    <li><p>We evaluate the formula for <m>t=0.5</m>. We substitute <m>\alert{0.5}</m> for <m>t</m> into the formula, and simplify. 
-        <md><mrow>h \amp= 20-16(\alert{0.5})^2 \amp \amp \blert{\text{Compute the power.}}</mrow>
-            <mrow> \amp = 20-16(0.25)  \amp \amp \blert{\text{Multiply, then subtract.}}</mrow>
-            <mrow> \amp = 20-4=16</mrow></md>
-    The cat is 16 feet above the ground after 0.5 second. You can also use your calculator to simplify the expression for <m>h</m> by entering
-        <me> 20~~\boxed{-}~~16~~\boxed{\times}~~0.5~~\boxed{x^2}~~\boxed{\text{ENTER}}</me></p></li>
-    <li><p>We would like to find the value of <m>t</m> when the cat's height, <m>h</m>, is zero. We substitute <m>h=\alert{0}</m> into the equation to obtain 
-        <me> \alert{0} = 20-16t^2</me>      
-    To solve this equation we use extraction of roots. We first isolate <m>t^2</m> on one side of the equation.
-        <md><mrow>16t^2 \amp =20 \amp \amp \blert{\text{Divide by 16.}}</mrow>
-            <mrow>t^2 \amp = \dfrac{20}{16} = 1.25</mrow></md>
-    Next, we take the square root of both sides of the equation to find 
-        <me>t=\pm \sqrt{1.25} \approx \pm 1.118</me>
-    Only the positive solution makes sense here, so the cat has approximately 1.12 seconds to be in position for landing.</p></li></ol></p>
-<p>A graph of the cat's height after <m>t</m> seconds is shown below. The points corresponding to parts (a) and (b) are labeled.</p>
-    <sidebyside  width="30%"><image source="images/fig-cat-falling"><description>graph </description></image></sidebyside>
-</solution></example>
+<example>
+    <statement>
+        <p>
+            A cat falls off a tree branch 20 feet above the ground. Its height <m>t</m> seconds later is given by <m>h=20-16t^2</m>.
+            <ol label="a">   
+                <li>What is the height of the cat 0.5 second later?</li>
+                <li>How long does the cat have to get in position to land on its feet before it reaches the ground?</li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <ol label="a">
+                <li>
+                    <p>
+                        We evaluate the formula for <m>t=0.5</m>. We substitute <m>\alert{0.5}</m> for <m>t</m> into the formula, and simplify. 
+                        <md><mrow>h \amp= 20-16(\alert{0.5})^2 \amp \amp \blert{\text{Compute the power.}}</mrow>
+                        <mrow> \amp = 20-16(0.25)  \amp \amp \blert{\text{Multiply, then subtract.}}</mrow>
+                        <mrow> \amp = 20-4=16</mrow></md>
+                        The cat is 16 feet above the ground after 0.5 second. You can also use your calculator to simplify the expression for <m>h</m> by entering
+                    </p>
+                    <p>
+                        <m>\qquad\qquad 20</m> <kbd name="minus"/> <m>16</m> <kbd name="times"/> <m>0.5</m> <kbd name="squared"/> <kbd>ENTER</kbd>
+                    </p>
+                </li>
+                        <li><p>We would like to find the value of <m>t</m> when the cat's height, <m>h</m>, is zero. We substitute <m>h=\alert{0}</m> into the equation to obtain 
+                            <me> \alert{0} = 20-16t^2</me>      
+                        To solve this equation we use extraction of roots. We first isolate <m>t^2</m> on one side of the equation.
+                            <md><mrow>16t^2 \amp =20 \amp \amp \blert{\text{Divide by 16.}}</mrow>
+                                <mrow>t^2 \amp = \dfrac{20}{16} = 1.25</mrow></md>
+                        Next, we take the square root of both sides of the equation to find 
+                            <me>t=\pm \sqrt{1.25} \approx \pm 1.118</me>
+                        Only the positive solution makes sense here, so the cat has approximately 1.12 seconds to be in position for landing.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            A graph of the cat's height after <m>t</m> seconds is shown below. The points corresponding to parts (a) and (b) are labeled.
+        </p>
+        <sidebyside  width="30%"><image source="images/fig-cat-falling"><description>graph </description></image></sidebyside>
+    </solution>
+</example>
 </subsection>
 
 <subsection><title>Geometric Formulas</title>

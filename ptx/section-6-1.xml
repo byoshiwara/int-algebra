@@ -432,14 +432,23 @@ but <em>we cannot add or subtract terms with different exponents</em>. Thus, for
 </webwork>
 </exercise>
 
-<p>Your calculator displays numbers in scientific notation if they are too large or too small to fit in the display screen.  Try squaring the number <m>123,456,789</m> on your calculator.  Enter
-    <me>123456789~~\boxed{x^2}</me>
-and the calculator will display the result as
+<p>
+    Your calculator displays numbers in scientific notation if they are too large or too small to fit in the display screen.  Try squaring the number <m>123,456,789</m> on your calculator.  Enter
+</p>
+<p>
+    <m>\qquad\qquad 123456789</m> <kbd name="squared"/>
+</p>
+<p>
+    and the calculator will display the result as
     <me>1.524157875~~\text{E}~~16</me>
-This is how the calculator displays the number <m>1.524157875 \times 10^{16}</m>. Notice that the power <m>10^{16}</m> is displayed as E 16.</p>
+    This is how the calculator displays the number <m>1.524157875 \times 10^{16}</m>. Notice that the power <m>10^{16}</m> is displayed as E 16.</p>
 
-<p>To enter a number in scientific form, we use the key labeled <m>\boxed{\text{EE}}</m>. For example, to enter <m>3.26 \times 10^{-18}</m> we enter the keying sequence
-    <me>3.26~~ \boxed{\text{EE}} ~~ \boxed{(-)} ~~ 18</me></p>
+<p>
+    To enter a number in scientific form, we use the key labeled <kbd>EE</kbd>, possibly accessed by pressing <kbd>2nd</kbd> <kbd>,</kbd>. For example, to enter <m>3.26 \times 10^{-18}</m> we enter the keying sequence
+</p>
+<p>
+    <m>\qquad\qquad 3.26</m> <kbd>EE</kbd> <kbd>(-)</kbd> <m>18</m>
+</p>
 
 <example><statement><p>In 2019, the average American ate 98.6 kilograms of meat.  It takes about 16 kilograms of grain to produce one kilogram of meat, and advanced farming techniques can produce about 6000 kilograms of grain on each hectare of arable land.  (A hectare is 10,000 square meters, or just under two and a half acres.)</p>  
 <p>Now, the total land area of the Earth is about 13 billion hectares, but only about 11% of that land is arable. Is it possible for each of the 7.8 billion people on Earth to eat as much meat as Americans do?</p></statement>
