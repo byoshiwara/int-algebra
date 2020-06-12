@@ -387,20 +387,12 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
             1
         );
     </pg-code>
-    <statement>
-        <p>
-            Solve the equation <m>4y^2 - x^2 = 16</m> when <m>y = 1</m>.
-        </p>
-        <p>
-            <m>x=</m><var name="$answer" width="8"/>
-        </p>
+    <statement><p>
+            Solve the equation <m>4y^2 - x^2 = 16</m> when <m>y = 1</m>.</p>
+        <p><m>x=</m><var name="$answer" width="8"/></p>
         <instruction>Separate different values with a comma, or enter DNE if there are no real solutions.</instruction>
-        <p>
-             What does this tell you about the graph of the hyperbola?
-        </p>
-        <p>
-            <var name="$mc" form="buttons"/>
-        </p>
+        <p>What does this tell you about the graph of the hyperbola?</p>
+        <p><var name="$mc" form="buttons"/></p>
     </statement>
     <solution><p>There are no real solutions when <m>y = 1</m>, so there are no points on the graph with <m>y</m>-coordinate 1.</p>
     </solution>
