@@ -93,67 +93,89 @@ Francis Sears, Mechanics, Heat, and Sound</p>
 
 <li><p>Two high school students, April Leonardo and Tolu Noah, decided to see for themselves how the pressure inside a balloon changes as the balloon expands. Using a column of water to measure pressure, they collected the following data while blowing up a balloon. Graph their data on the grid below.</p>
  
-<sidebyside widths="40% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
-                    <row>
-                        <cell bottom="minor">Diameter (cm)</cell>
-                        <cell bottom="minor">Pressure (cm H_2O)</cell></row>
-                    <row>
-                        <cell bottom="minor"><m>5.7</m></cell>
-                        <cell bottom="minor"><m>60.6</m></cell></row>
-                    <row> 
-                        <cell bottom="minor"><m>7.3</m></cell>
-                        <cell bottom="minor"><m>57.2</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>8.2</m></cell>
-                        <cell bottom="minor"><m>47.9</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>10.7</m></cell>
-                        <cell bottom="minor"><m>38.1</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>12</m></cell>
-                        <cell bottom="minor"><m>37.1</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>14.6</m></cell>
-                        <cell bottom="minor"><m>31.9</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>17.5</m></cell>
-                        <cell bottom="minor"><m>28.1</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>20.5</m></cell>
-                        <cell bottom="minor"><m>26.4</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>23.5</m></cell>
-                        <cell bottom="minor"><m>28</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>25.2</m></cell>
-                        <cell bottom="minor"><m>31.4</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>26.1</m></cell>
-                        <cell bottom="minor"><m>34</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>27.5</m></cell>
-                        <cell bottom="minor"><m>37.2</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>28.4</m></cell>
-                        <cell bottom="minor"><m>37.9</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>29</m></cell>
-                        <cell bottom="minor"><m>40.7</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>30</m></cell>
-                        <cell bottom="minor"><m>43.3</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>30.6</m></cell>
-                        <cell bottom="minor"><m>46.6</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>31.3</m></cell>
-                        <cell bottom="minor"><m>50</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>32.2</m></cell>
-                        <cell bottom="minor"><m>61.9</m></cell></row>    
-                    </tabular>
-
-    <image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+<sidebyside widths="30% 65%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+    <row>
+        <cell bottom="minor"><line>Diameter</line><line>(cm)</line></cell>
+        <cell bottom="minor"><line>Pressure</line><line>(cm <m>\text{H}_2</m>O)</line></cell></row>
+    <row>
+        <cell bottom="minor"><m>5.7</m></cell>
+        <cell bottom="minor"><m>60.6</m></cell></row>
+    <row> 
+        <cell bottom="minor"><m>7.3</m></cell>
+        <cell bottom="minor"><m>57.2</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>8.2</m></cell>
+        <cell bottom="minor"><m>47.9</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>10.7</m></cell>
+        <cell bottom="minor"><m>38.1</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>12</m></cell>
+        <cell bottom="minor"><m>37.1</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>14.6</m></cell>
+        <cell bottom="minor"><m>31.9</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>17.5</m></cell>
+        <cell bottom="minor"><m>28.1</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>20.5</m></cell>
+        <cell bottom="minor"><m>26.4</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>23.5</m></cell>
+        <cell bottom="minor"><m>28</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>25.2</m></cell>
+        <cell bottom="minor"><m>31.4</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>26.1</m></cell>
+        <cell bottom="minor"><m>34</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>27.5</m></cell>
+        <cell bottom="minor"><m>37.2</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>28.4</m></cell>
+        <cell bottom="minor"><m>37.9</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>29</m></cell>
+        <cell bottom="minor"><m>40.7</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>30</m></cell>
+        <cell bottom="minor"><m>43.3</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>30.6</m></cell>
+        <cell bottom="minor"><m>46.6</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>31.3</m></cell>
+        <cell bottom="minor"><m>50</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>32.2</m></cell>
+        <cell bottom="minor"><m>61.9</m></cell></row>    
+    </tabular>
+    <image xml:id="fig-balloon-pressure-vs-diameter-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (0,0) grid (20,16);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(21.6,0);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,17);
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in {5,10,15,20} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+         \draw[gray,thick] (\x,0) --++(0,16);
+         }
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in {4,8,12,16} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+         \draw[gray,thick] (0,\x) --++(20,0);
+        }
+        \node[font=\bf] at (10,-2) {Diameter (cm)};
+        \node[rotate=90,font=\bf] at (-2,8) {Pressure (cm)};        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
+</li>
 
 <li><p>Describe the graph of April and Tolu’s data. Does the graph confirm the predictions of the physics books?</p></li>
 
