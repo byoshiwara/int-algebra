@@ -9,7 +9,7 @@
 
 <assemblage><title>Exponential Function</title>
 <p>An <term>exponential function</term> has the form
-	<me>f(x) = ab^x,~~~~ \text{ where } ~~~b \gt 0 ~~~\text{ and } ~~~b \ne 1 \text{, } ~~~a \ne 0</me>
+	<me>\blert{f(x) = ab^x},~~~~ \text{ where } ~~~b \gt 0 ~~~\text{ and } ~~~b \ne 1 \text{, } ~~~a \ne 0</me>
 </p></assemblage>
 
 <p>Some examples of exponential functions are
