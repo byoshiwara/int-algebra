@@ -68,7 +68,7 @@
 
 <assemblage><title>Exponential Growth</title>
 <p>The function
-    <md><mrow>P(t)=P_0 b^t</mrow></md> 
+    <md><mrow>\blert{P(t)=P_0 b^t}</mrow></md> 
     describes <term>exponential growth</term><idx>exponential growth</idx>, where <m>P_0=P(0)</m> is the <term>initial value</term><idx>initial value</idx> of the function and <m>b</m> is the <term>growth factor</term><idx>growth factor</idx>.</p></assemblage>
 
 <p>For the <em>Drosophila</em> cell population, we have
@@ -605,7 +605,7 @@ whose graphs are shown below.</p>
         <mrow>\text{In 2002,}~~P(2) \amp = 4200 + \blert{0.05(4200)} = 4410 \amp\amp \blert{\text{Add 5% of}~P(1).}</mrow></md>
 and so on. Now here is the important observation about percent increase:</p>  
 
-<p><me>\text{Adding 5% of the old population is the same as multiplying the old population by 1.05.}</me>
+<p><me>\glert{\text{Adding 5% of the old population is the same as multiplying the old population by 1.05.}}</me>
 
     <md><mrow>4000 + 0.05(4000) \amp = 4000(1+0.05) = 4000(1.05) \amp \amp \blert{\text{Factor out 4000.}}</mrow>
         <mrow>4200 + 0.05(4200) \amp = 4200(1+0.05) = 4200(1.05) \amp \amp \blert{\text{Factor out 4000.}}</mrow></md>
@@ -613,7 +613,7 @@ and so on. Now here is the important observation about percent increase:</p>
 
 <p>Thus, we can find the current population by multiplying the old population by 1.05. In other words,</p>
 
- <p><me>\text{Growing by 5% is the same as growing by a factor of 1.05.}</me></p>  
+ <p><me>\glert{\text{Growing by 5% is the same as growing by a factor of 1.05.}}</me></p>  
 
 <p>A formula for the population of Lakeview <m>t</m> years after 2000 is
     <me>P(t) = 4000(1.05)^t</me> 
@@ -1025,7 +1025,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
 
 <assemblage><title>Exponential Growth and Decay</title><idx>exponential growth and decay</idx>
 <p>The function
-    <md><mrow>P(t) = P_0 b^t</mrow></md>
+    <md><mrow>\blert{P(t) = P_0 b^t}</mrow></md>
 models exponential growth and decay.</p>
 <p><ul>
     <li><m>P_0 =P(0)</m> is the <term>initial value</term><idx>initial value</idx> of <m>P</m>;</li>

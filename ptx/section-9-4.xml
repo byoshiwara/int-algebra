@@ -12,7 +12,7 @@
     <p>A <term>hyperbola</term><idx>hyperbola</idx> is the set of points in the plane, the difference of whose distances from two fixed points (the <term>foci</term><idx>focus</idx>) is a constant.</p>
 </definition>
 
-<sidebyside widths="48% 48%" margins="0% 0%"><image xml:id="fig-hyperbola-left-right">
+<sidebyside widths="40% 40%" margins="5% 5%"><image xml:id="fig-hyperbola-left-right">
         <description>hyperbola with horizontal transverse axis</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -389,7 +389,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     </pg-code>
     <statement>
         <p>
-            Solve the equation <m>4y^2 − x^2 = 16</m> when <m>y = 1</m>.
+            Solve the equation <m>4y^2 - x^2 = 16</m> when <m>y = 1</m>.
         </p>
         <p>
             <m>x=</m><var name="$answer" width="8"/>
@@ -402,7 +402,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
             <var name="$mc" form="buttons"/>
         </p>
     </statement>
-    <solution><p>There are no real solutions when <m>y = 1</m>, so there are no points on the graph with <m>y</m>-coordinate 1.</p>
+    <solution><p>There are no real solutions when <m>y = 1</m>, so there are no points on the graph with <m>y</m>-coordinate 1.</p>
     </solution>
 </webwork></exercise>
 </subsection>
@@ -1075,9 +1075,9 @@ we can determine the nature of the graph from the coefficients of the quadratic 
     </pg-code>
     <statement><p><ol label="a">
         <li><p>A <var name="$a" form="popup"/> conic can be a point, a line, a pair of lines, or no graph at all.</p></li>
-        <li><p>The coefficients <m>D</m>, <m>E</m>, and <m>F</m> determine the <var name="$b" form="popup"/> of the conic.</p></li>
-        <li><p>The graph is a <var name="$c" form="popup"/> if one of <m>A</m> or <m>C</m> is zero.</p></li>
-        <li><p>If <m>A = C</m> (and <m>B=0</m>), the graph is a <var name="$d" form="popup"/> .</p></li></ol></p>
+        <li><p>The coefficients <m>D</m>, <m>E</m>, and <m>F</m> determine the <var name="$b" form="popup"/> of the conic.</p></li>
+        <li><p>The graph is a <var name="$c" form="popup"/> if one of <m>A</m> or <m>C</m> is zero.</p></li>
+        <li><p>If <m>A = C</m> (and <m>B=0</m>), the graph is a <var name="$d" form="popup"/>.</p></li></ol></p>
     </statement>
 </webwork></exercise>    
 </subsection>

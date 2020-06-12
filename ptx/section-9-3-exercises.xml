@@ -339,7 +339,7 @@
     <li><m>\dfrac{x^2}{24^2}+\dfrac{y^2}{8^2} = 1</m></li>
     <li>10.29 ft</li></ol></p></answer></exercise>
 
-<exercise number="32"><statement><p>The edge of a sailboat's keel (the bottom of the boat, underwater) is elliptical in shape, with a major axis of 360 centimeters. The minor axis is 100 centimeters, but the top of the ellipse has been cut off parallel to the major axis. This cut edge is 330 centimeters long.</p>
+<exercise number="32"><statement><p>The centerline of a sailboat from bow to stern along the bottom (its keel) is elliptical in shape, with a major axis of 360 centimeters.  The minor axis of the ellipse is 100 centimeters, but the deck of the sailboat (the top of the ellipse) has been cut off parallel to the major axis.  The deck of the sailboat is 330 centimeters long.</p>
 <sidebyside width="50%"><image xml:id="fig-keel">
         <description>elliptical keel on sailboat</description>
         <latex-image>
@@ -380,7 +380,7 @@
 </sidebyside>
 <p><ol label="a">
     <li>Find an equation for the ellipse.</li>
-    <li>What is the width of the keel at its widest point? Round your answer to two decimal places.</li></ol></p>
+    <li>What is the maximum distance from the deck to the bottom of the keel? Round your answer to two decimal places.</li></ol></p>
 </statement></exercise>
 
 </subexercises>

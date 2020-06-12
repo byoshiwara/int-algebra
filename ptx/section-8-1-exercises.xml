@@ -173,7 +173,7 @@
     <li><p>Use your graph to find the value of <m>x</m> that will yield a box with maximum possible volume. What is the maximum possible volume?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="25"><statement><sidebyside widths="65% 20%"><p><ol>
+<exercise number="25"><statement><sidebyside widths="65% 15%" valigns="middle middle"><p><ol>
     <li><p>A grain silo is built in the shape of a cylinder with a hemisphere on top (see the figure). Write an expression for the volume of the silo in terms of the radius and height of the cylindrical portion of the silo.</p></li>
     <li><p>If the total height of the silo is five times its radius, write a polynomial function <m>V(r)</m> in one variable for its volume.</p></li></ol></p>
 <image source="images/fig-grain-silo"><description>grain silo</description></image></sidebyside></statement>
@@ -253,10 +253,10 @@ where <m>t</m> is the number of hours since the high tide. The approximation is 
     <li><m>(3x + x^3 - 7x^5)(1 + 4x - 3x^2)</m>; <m>x^3</m></li></ol></p></statement></exercise>
 
 <exercise number="33"><statement><p>Verify the formula for factoring the sum of two cubes:
-    <me>(x + y)(x^2 - xy + y^2) \amp= x^3 + y^3</me></p></statement></exercise>
+    <me>(x + y)(x^2 - xy + y^2) = x^3 + y^3</me></p></statement></exercise>
         
 <exercise number="34"><statement><p>Verify the formula for factoring the difference of two cubes:
-    <me>(x - y)(x^2 + xy + y^2) \amp= x^3 - y^3</me></p></statement></exercise>
+    <me>(x - y)(x^2 + xy + y^2) = x^3 - y^3</me></p></statement></exercise>
 
 
 </subexercises>
