@@ -120,7 +120,7 @@
             <li><m>h(x) = e^x + 2</m></li>
         </ol></p></statement>
 
-<solution><sidebyside width="40%"><image xml:id="fig-translate-exponential">
+<solution><sidebyside width="35%"><image xml:id="fig-translate-exponential">
         <description>translates of exponential</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

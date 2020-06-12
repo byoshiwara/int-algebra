@@ -148,18 +148,10 @@ We can also apply the two functions in the opposite order, so that
         $d = Formula("1000");
     </pg-code>
     <statement><p>Simplify each expression. <ol label="a">
-        <li><p>
-            <m>\log_4 {4^6}=</m><var name="$a" width="3"/>
-        </p></li>
-        <li><p>
-            <m>4^{\log_4 {64}}=</m><var name="$b" width="3"/>
-        </p></li>
-        <li><p>
-            <m>\log_{10} {10^6}=</m><var name="$c" width="3"/>
-        </p></li>
-        <li><p>
-            <m>10^{\log_{10} {1000}}=</m><var name="$d" width="3"/>
-        </p></li></ol></p>
+        <li><p><m>\log_4 {4^6}=</m><var name="$a" width="3"/></p></li>
+        <li><p><m>4^{\log_4 {64}}=</m><var name="$b" width="3"/></p></li>
+        <li><p><m>\log_{10} {10^6}=</m><var name="$c" width="3"/></p></li>
+        <li><p><m>10^{\log_{10} {1000}}=</m><var name="$d" width="3"/></p></li></ol></p>
     </statement>
     <solution><p><ol label="a">
         <li><m>6</m></li>
@@ -298,11 +290,11 @@ We can also apply the two functions in the opposite order, so that
         );
       </pg-code>     
 <statement><p>Graph the function <m>f(x)=10^x</m> and its inverse function <m>g(x)=\log_{10}{x}</m> on the same axes.</p>
-       <sidebyside widths="35% 35%" margins="5% 5%">
+       <sidebyside widths="30% 30%" margins="5% 5%">
             <image pg-name="$gr[2]"/>
             <image pg-name="$gr[1]"/>
         </sidebyside>
-        <sidebyside widths="35% 35%" margins="5% 5%">
+        <sidebyside widths="30% 30%" margins="5% 5%">
             <image pg-name="$gr[0]"/>
             <image pg-name="$gr[3]"/>
         </sidebyside>
@@ -310,7 +302,7 @@ We can also apply the two functions in the opposite order, so that
         <p><var name="$mc" form="buttons"/> </p>
 </statement>
     <solution>
-        <sidebyside widths="40%">
+        <sidebyside widths="30%">
                 <image pg-name="$gr[0]"/>
             </sidebyside>
         <p>A graph is also shown below.</p>
