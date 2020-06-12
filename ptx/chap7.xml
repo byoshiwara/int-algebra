@@ -76,22 +76,8 @@
 <investigation xml:id="investigation-population-growth"><title>Investigation 7A: Population Growth</title>
 
 <p>In a laboratory experiment, researchers establish a colony of <m>100</m> bacteria and monitor its growth. The colony triples in population every day. </p>
-<sidebyside widths="50% 40%" margins="0% 0%">
-    
-<p><ol label="1">
-    <li><p>Fill in the table showing the population <m>P(t)</m> of bacteria <m>t</m> days later.</p></li>
-
-    <li><p>Plot the data points from the table and connect them with a smooth curve.</p></li>
-
-    <li><p>Write a function that gives the population of the colony at any time <m>t</m>, in days.
-        <em>Hint:</em> Express the values you calculated in part (1) using powers of <m>3</m>. Do you see a connection between the value of <m>t</m> and the exponent on <m>3</m>?</p></li>
-
-    <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).</p></li>
-
-    <li><p>Evaluate your function to find the number of bacteria present after 8 days. How many bacteria are present after 36 hours?</p></li>       
-    </ol></p>
-    <stack>
-        <tabular halign="center" right="minor" left="minor" bottom="minor">
+<sidebyside>
+    <tabular halign="center" right="minor" left="minor" bottom="minor">
             <col top="minor" />
             <col top="minor" />
             <col top="none" />
@@ -133,6 +119,20 @@
                 <cell right="none" bottom="none"></cell>
                 <cell right="none" bottom="none"><m>\blert{P(5)=}</m></cell></row>
         </tabular>
+</sidebyside>
+<sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle">
+    <p><ol label="1">
+    <li><p>Fill in the table showing the population <m>P(t)</m> of bacteria <m>t</m> days later.</p></li>
+
+    <li><p>Plot the data points from the table and connect them with a smooth curve.</p></li>
+
+    <li><p>Write a function that gives the population of the colony at any time <m>t</m>, in days.
+        <em>Hint:</em> Express the values you calculated in part (1) using powers of <m>3</m>. Do you see a connection between the value of <m>t</m> and the exponent on <m>3</m>?</p></li>
+
+    <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).</p></li>
+
+    <li><p>Evaluate your function to find the number of bacteria present after 8 days. How many bacteria are present after 36 hours?</p></li>       
+    </ol></p>
         <image xml:id="fig-grid-for-bacteria-population"><description>grid for graph of bacteria population</description>
             <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -155,7 +155,7 @@
             \node[text=white] at (12,0) {0};
             \end{tikzpicture}]]>
             </latex-image></image>
-        </stack>  </sidebyside>
+        </sidebyside>
 </investigation>
 
 <investigation><title>Investigation 7B: Exponential Decay</title>

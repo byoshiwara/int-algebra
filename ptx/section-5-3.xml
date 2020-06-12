@@ -174,7 +174,7 @@ Simplifying radicals occupies the same position in the order of operations as co
         $False = PopUp(
           ["?","True", "False"],
           2, 
-        ;
+        );
     </pg-code>
     <statement><p>True or False: <m>\left| {a+b} \right| = \left|{a}\right| + \left|{b}\right|</m> <var name="$False" form="popup"/></p>
         <instruction>
@@ -183,7 +183,8 @@ Simplifying radicals occupies the same position in the order of operations as co
     </statement>
     <solution><p>False</p>
     </solution>
-</webwork></exercise>
+</webwork>
+</exercise>
 
 </subsection>
 
