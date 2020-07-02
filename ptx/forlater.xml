@@ -982,4 +982,52 @@ Answer to Hmwk 3.3 #14:
     <li><p>The slope is 80 dollars per bike, and it tells us the cost of producing each bike. The vertical intercept is 5000, and it tells us that the bicycle company's fixed costs (before production begins) are $5000.</p></li>
 </ol></p></solution></example>
 
-    
+    <sidebyside><tabular top="minor" halign="center"  right="minor" left="minor" bottom="minor">
+        <col right="major" /><col/><col/><col/><col/><col/>
+        
+        <row>
+            <cell right="minor"></cell>
+            <cell colspan="8" halign="center"><m>y</m>-values</cell></row>
+        <row bottom="major"> 
+            <cell right="minor" bottom="minor"><m>x</m>-values</cell>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>5</m></cell></row>
+        <row> 
+            <cell><m>1</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>15</m></cell>
+            <cell><m>20</m></cell>
+            <cell><m>25</m></cell>
+            <cell><m>12</m></cell></row>
+        <row> 
+            <cell><m>2</m></cell>
+            <cell><m>22</m></cell>
+            <cell><m>16</m></cell>
+            <cell><m>10</m></cell>
+            <cell><m>3</m></cell>
+            <cell><m>-3</m></cell></row>
+        <row> 
+            <cell><m>3</m></cell>
+            <cell><m>16</m></cell>
+            <cell><m>9</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>-5</m></cell>
+            <cell><m>-11</m></cell></row>
+        <row> 
+            <cell><m>4</m></cell>
+            <cell><m>12</m></cell>
+            <cell><m>4</m></cell>
+            <cell><m>-3</m></cell>
+            <cell><m>-10</m></cell>
+            <cell><m>-17</m></cell></row>
+        <row> 
+            <cell><m>5</m></cell>
+            <cell><m>8</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>-7</m></cell>
+            <cell><m>-15</m></cell>
+            <cell><m>-22</m></cell></row>
+    </tabular></sidebyside>

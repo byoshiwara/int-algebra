@@ -251,10 +251,10 @@
 </exercisegroup>
 
 <exercise number="58"><statement><p>Simplify. <ol label="a" cols="2">
-    <li><m>(\dfrac{1}{c} \cdot \dfrac{1}{5}) \div \dfrac{2}{5}</m></li>
-    <li><m>\dfrac{1}{c} \cdot (\dfrac{1}{5} \div \dfrac{2}{5})</m></li>
-    <li><m>\dfrac{1}{c} \div (\dfrac{1}{5} \div \dfrac{2}{5})</m></li>
-    <li><m>(\dfrac{1}{c} \div \dfrac{1}{5}) \div \dfrac{2}{5}</m></li></ol></p></statement></exercise>
+    <li><m>\left(\dfrac{1}{c} \cdot \dfrac{1}{5}\right) \div \dfrac{2}{5}</m></li>
+    <li><m>\dfrac{1}{c} \cdot \left(\dfrac{1}{5} \div \dfrac{2}{5}\right)</m></li>
+    <li><m>\dfrac{1}{c} \div \left(\dfrac{1}{5} \div \dfrac{2}{5}\right)</m></li>
+    <li><m>\left(\dfrac{1}{c} \div \dfrac{1}{5}\right) \div \dfrac{2}{5}</m></li></ol></p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 59<ndash/>64, add or subtract.</p>
 </introduction>
@@ -264,7 +264,7 @@
 
 <exercise number="60"><statement><m>\dfrac{q}{4 \pi r} + \dfrac{qa}{2 \pi r^2}</m></statement></exercise>
 
-<exercise number="61"><statement><m>\dfrac{1}{LC} - (\dfrac{R}{2L})^2</m></statement>
+<exercise number="61"><statement><m>\dfrac{1}{LC} - \left(\dfrac{R}{2L}\right)^2</m></statement>
 <answer><m>\dfrac{4L-R^2C}{4L^2C}</m></answer></exercise>
 
 <exercise number="62"><statement><m>\dfrac{L}{c-V} + \dfrac{L}{c+v}</m></statement></exercise>

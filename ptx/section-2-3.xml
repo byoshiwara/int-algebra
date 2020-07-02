@@ -140,7 +140,7 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
     </solution>
 </webwork></exercise>
 
-<p>In the previous Example, the elimination method worked because the coefficients of <m>y</m> in the two equations were opposites, <m>2</m> and <m>-2</m>. This caused the <m>y</m>-terms to cancel out when we added the two equations together. What if the coefficients of neither <m>x</m> nor <m>y</m> are opposites? Then we must multiply one or both of the equations in thes ystem by a suitable constant. Consider the system
+<p>In the previous Example, the elimination method worked because the coefficients of <m>y</m> in the two equations were opposites, <m>2</m> and <m>-2</m>. This caused the <m>y</m>-terms to cancel out when we added the two equations together. What if the coefficients of neither <m>x</m> nor <m>y</m> are opposites? Then we must multiply one or both of the equations in the system by a suitable constant. Consider the system
    <md><mrow>4x+3y\amp = 7</mrow>
        <mrow>3x+y\amp =-1</mrow></md>
 We can eliminate the <m>y</m>-terms if we multiply each term of the second equation by <m>\alert{-3}</m>, so that the coefficients of <m>y</m> will be opposites:
@@ -336,7 +336,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
                     <md><mrow>6x-2y\amp =\hphantom{1}8</mrow>
                         <mrow>\underline{-6x+2y}\amp = \underline{\hphantom{1}2\vphantom{y}} </mrow>
                         <mrow>0x+0y\amp =10</mrow></md></p></sidebyside>
-        <p>Both variables are eliminated, and we are left with the false statement <m>0 = 10</m>. There are no values of <m>x</m> or <m>y</m> that will make this equation true, so thes system has no solutions. The graph shows that the system is inconsistent.</p></li>
+        <p>Both variables are eliminated, and we are left with the false statement <m>0 = 10</m>. There are no values of <m>x</m> or <m>y</m> that will make this equation true, so the system has no solutions. The graph shows that the system is inconsistent.</p></li>
     <li><sidebyside widths="40% 55%" margins="0% 0%" valigns="middle middle"><image xml:id="fig-example-2-3-4b">
                     <description>parallel lines</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

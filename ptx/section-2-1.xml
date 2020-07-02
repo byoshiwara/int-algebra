@@ -123,9 +123,9 @@
 
 <solution><p><ol label="a">
     <li><p>The graph shown is called a <term>scatterplot</term>. The data are not strictly linear, because the slope is not constant: from 1960 to 1965, the minimum wage increased at an average rate of 
-        <me>\dfrac{1.25-1.00}{5}=0.05 \text{dollars per year}</me> 
+        <me>\dfrac{1.25-1.00}{5}=0.05~ \text{dollars per year}</me> 
     and from 1970 to 1975, the minimum wage increased at a rate of 
-    <me>\dfrac{2.10-1.60}{5}=0.10 \text{dollars per year}</me> 
+    <me>\dfrac{2.10-1.60}{5}=0.10~ \text{dollars per year}</me> 
     However, the data points do appear to lie close to an imaginary line.</p></li>
     <li><sidebyside widths="45% 51%" margins="0% 0%" valigns="top middle">
     <p>We would like to draw a line that comes as close as possible to all the data points, even though it may not pass precisely through any of them. In particular, we try to adjust the line so that we have the same number of points above the line and below the line. One possible solution is shown in the figure at right.</p>

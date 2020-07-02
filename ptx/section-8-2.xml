@@ -5,7 +5,7 @@
 
 <subsection><title>Introduction</title>
 
-<p>An <term>algebraic fraction</term> (or <em>rational expression</em>, as they are someitmes called,) is a fraction in which both numerator and denominator are fractions.  Here are some examples of algebraic fractions:
+<p>An <term>algebraic fraction</term> (or <em>rational expression</em>, as they are someitmes called,) is a fraction in which both numerator and denominator are polynomials.  Here are some examples of algebraic fractions:
     <me>\dfrac{3}{x},~~~~~~\dfrac{a^2+1}{a-2},~~~~~~\text{and}~~~~~~\dfrac{z-1}{2z+3}</me>
 We can evaluate algebraic fractions just as we evaluate any other algebraic expression.</p>
 
@@ -55,7 +55,9 @@ where we have divided both numerator and denominator by 9. The new fraction has 
         <li><m>\dfrac{12}{8} = \dfrac{4 \cdot 3}{4 \cdot 2} \rightarrow \dfrac{3}{2}</m></li>
         <li><m>\dfrac{7}{6} = \dfrac{4 + 3}{4 + 2} \rightarrow \dfrac{3}{2}</m></li></ol></p></statement>
 
-<solution><p>We can cancel the 4's in part (a), because they are factors of numerator and denominator.  We cannot cancel the 4's in part (b), because they are terms.  You can verify that <m>\dfrac{12}{8} = \dfrac{3}{2}</m>, but <m>\dfrac{7}{6} \ne \dfrac{3}{2}</m>.</p></solution></example>
+<solution><p>We can cancel the 4's in part (a), because they are factors of numerator and denominator.</p>
+<p> We cannot cancel the 4's in part (b), because they are terms.</p>
+<p> You can verify that <m>\dfrac{12}{8} = \dfrac{3}{2}</m>, but <m>\dfrac{7}{6} \ne \dfrac{3}{2}</m>.</p></solution></example>
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>

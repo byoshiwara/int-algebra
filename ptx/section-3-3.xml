@@ -71,11 +71,11 @@
 
 <p>For each <m>x</m>-value, the points on the graph of <m>y=3x^2</m> are higher than the points on the basic parabola, while the points on the graph of <m>y=0.1x^2</m> are lower. Multiplying by a positive constant greater than 1 stretches the graph vertically, and multiplying by a positive constant less than 1 squashes the graph vertically.</p>
 
-<p>What about negative values for <m>a</m>?  Consider the graphs of
+<sidebyside widths="45% 40%" nargins="0% 10%"><p>What about negative values for <m>a</m>?  Consider the graphs of
     <md><mrow>y \amp = x^2</mrow>
         <mrow>y \amp = -2x^2</mrow>
         <mrow>y \amp = -0.5x^2</mrow></md></p>
-    <sidebyside width="40%"><image xml:id="fig-parabolas-down"><description>parabolas</description><latex-image>
+    <image xml:id="fig-parabolas-down"><description>parabolas</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -113,7 +113,7 @@
 <solution><p>Both equations have the form <m>y = ax^2</m>. The graph of <m>y = 2x^2</m> opens upward because <m>a = 2 \gt 0</m>, and the graph of <m>y = -\dfrac{1}{2}x^2</m> opens downward because <m>a = -\dfrac{1}{2}\lt 0</m>.</p> 
 <p>To make a reasonable sketch by hand, it is enough to plot a few <em>guidepoints</em>; the points with <m>x</m>-coordinates <m>1</m> and <m>-1</m> are easy to compute.</p>
 	
-	<sidebyside widths="27% 55%" valigns="middle middle">
+	<sidebyside widths="30% 50%" valigns="middle middle">
 		<image source="images/fig-parabolas-vertically-scaled"><description>two vertically scaled parabolas</description></image> 
 		<stack>
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -204,11 +204,11 @@
 
 <subsection><title>The Graph of <m>y= x^2 + c</m></title>
 
-<p>Next, we consider the effect of the constant term, <m>c</m>, on the graph. Compare the graphs of 
+<sidebyside widths="50% 40%" margins="0% 10%"><p>Next, we consider the effect of the constant term, <m>c</m>, on the graph. Compare the graphs of 
      <md><mrow>y \amp = x^2</mrow>
         <mrow>y \amp = x^2+4</mrow>
         <mrow>y \amp = x^2-4</mrow></md></p>
-    <sidebyside width="45%">
+    
         <image xml:id="fig-parabolas-vertical-shift"><description>vertically shifted parabolas</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
