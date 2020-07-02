@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="BezierCurves"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Investigation 8: Bézier Curves</title>
+<section xml:id="BezierCurves"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Bézier Curves</title>
 
 <introduction><p>A Bézier curve is actually a sequence of short curves pieced together. Each piece has two endpoints and (for nonlinear curves) at least one control point. The control points do not lie on the curve itself, but they determine its shape. Two polynomials define the curve, one for the <m>x</m>-coordinate and one for the <m>y</m>-coordinate.</p>
 </introduction>

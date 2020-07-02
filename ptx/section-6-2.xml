@@ -280,7 +280,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
             <li><m>\sqrt[4]{2y} = (2y)^{1/4} \text{ or } (2y)^{0.25}</m></li>
         </ol></p></example>
 
-<warning><p>In part(b) of the Example above, the parentheses around <m>(2y)</m> must not be omitted. The expression <m>2y^{1/4}</m> means <m>2 \sqrt[4]{y}</m>.</p></warning>
+<warning><p>In part (b) of the Example above, the parentheses around <m>(2y)</m> must not be omitted. The expression <m>2y^{1/4}</m> means <m>2 \sqrt[4]{y}</m>.</p></warning>
 
 <p>Remember that a negative exponent denotes a reciprocal.</p>
 
@@ -474,7 +474,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
 
 <solution><p><ol label="a">
     <li>We substitute <m>w=\alert{0.25}</m> and <m>D=\alert{4.05}</m> into the equation and solve for <m>k</m>. 
-        <md><mrow>\alert{4.05} \a,p = k(\alert{0.25})^{1/3}</mrow>
+        <md><mrow>\alert{4.05} \amp = k(\alert{0.25})^{1/3}</mrow>
             <mrow>k \amp = \dfrac{4.05}{0.25^{1/3}} = 6.429</mrow></md>
     Rounded to tenths, <m>k=6.4</m>, and <m>D=6.4w^{1/3}</m>.</li>
     <li><p>We evaluate the function for each of the weights given in the table. The diameters are rounded to tenths of a millimeter. 

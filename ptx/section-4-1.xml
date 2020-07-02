@@ -14,7 +14,7 @@ and obtain a formula for the solutions of any quadratic equation.  Here is the r
     <p>The solutions of the equation <m>~~ax^2+bx+c=0,~~(a \not= 0)~~</m> are 
         <me>\blert{x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}}</me></p></assemblage>
 
-<note><p>The formula gives us the solutions of a particular quadratic equation in terms of its coefficients, <m>a,~b,~</m> and <m>c</m>.  We know that there should be two solutions, and the symbol <m>~\blert{\pm}~</m> is used to combine the two expressions
+<note><p>The formula gives us the solutions of a particular quadratic equation in terms of its coefficients, <m>a,~b,</m> and <m>c</m>.  We know that there should be two solutions, and the symbol <m>~\blert{\pm}~</m> is used to combine the two expressions
     <me>x=\dfrac{-b +\sqrt{b^2-4ac}}{2a}~~~\text{and}~~~x=\dfrac{-b - \sqrt{b^2-4ac}}{2a}</me>
 into a single formula.</p></note>
 
@@ -260,8 +260,7 @@ has no <m>x</m>-intercepts, as shown below.</p>
 <p>The sum of a real number and an imaginary number is called a <term>complex number</term>.</p>  
 
 <exercise><title>Practice 4</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         Context("Complex")->functions->disable("sqrt");
         Context()->functions->enable("sqrt");
         Context()->{error}{msg}{"Can't take sqrt of -18"}
@@ -278,17 +277,10 @@ has no <m>x</m>-intercepts, as shown below.</p>
          partialCredit => 1,
         );            
     </pg-code> 
-    <statement>
-        <p>
-            Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers, separated with a comma.
-        </p>
+<statement><p>Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers, separated with a comma.</p>
         <p><m>x=</m><var name="$answer" width="15"/> </p>
         </statement>
-    <solution>
-        <p>
-            <m>\dfrac{-1}{2} + \dfrac{3}{2}i</m>, <m>\dfrac{-1}{2} - \dfrac{3}{2}i</m>
-        </p>
-    </solution>
+<solution><p><m>\dfrac{-1}{2} + \dfrac{3}{2}i</m>, <m>\dfrac{-1}{2} - \dfrac{3}{2}i</m></p></solution>
 </webwork>
 </exercise>
 
@@ -296,11 +288,11 @@ has no <m>x</m>-intercepts, as shown below.</p>
 
 <subsection><title>Number of <m>x</m>-Intercepts</title>
 
-<p>The graph of the quadratic equation 
+<sidebyside widths="50% 35%"><p>The graph of the quadratic equation 
     <me>y = ax^2 + bx + c</me> 
 may have two, one, or no <m>x</m>-intercepts, according to the number of distinct real-valued solutions of the equation <m>ax^2 + bx + c = 0</m>.
-For example, consider the three equations graphed below.</p>
-    <sidebyside width="40%"><image source="images/fig-parabola-x-intercepts"><description>parabolas with zero, one, or two x-intercepts</description></image> </sidebyside>
+For example, consider the three graphs shown at right.</p>
+    <image source="images/fig-parabola-x-intercepts"><description>parabolas with zero, one, or two x-intercepts</description></image> </sidebyside>
 
 <p><ul>
     <li><p>The graph of 
@@ -331,8 +323,8 @@ For example, consider the three equations graphed below.</p>
         \amp =\frac{4\pm\sqrt{\alert{-12}}}{2}</mrow>
     <mrow>\amp~~\blert{ \text{two solutions}}  \amp \amp ~\blert{~\text{one repeated solution}} \amp\amp ~~\blert{~\text{no solutions}} </mrow></md></p>
 
-<p>From the examples above, we see that the solutions of a quadratic equation always occur in <term>conjugate pairs</term>,
-    <me>\dfrac{-b}{2a}+\dfrac{\sqrt{b^2-4ac}}{2a}~~~\text{and}~~~\dfrac{-b}{2a}-\dfrac{\sqrt{b^2-4ac}}{2a}</me>
+<p>From these examples, we see that the solutions of a quadratic equation always occur in <term>conjugate pairs</term>,
+    <me>\dfrac{-b}{2a}+\dfrac{\sqrt{b^2-4ac}}{2a}~~~~~~\text{and}~~~~~~\dfrac{-b}{2a}-\dfrac{\sqrt{b^2-4ac}}{2a}</me>
  For example, if we know that one solution of a particular quadratic equation is <m>3+\sqrt{2}</m>, the other solution must be <m>3-\sqrt{2}</m>. If one solution is <m>5-3i</m>, the other solution must be <m>5+3i</m>.</p>
 
 <p>The expression <m>~b^2-4ac~</m>, which appears under the radical in the quadratic formula, is called the <term>discriminant</term>, <m>D</m>, of the equation.  The value of the discriminant determines the nature of the solutions of the equation.  In particular, if the discriminant is negative, the equation has no real-valued solutions; the solutions are complex numbers.</p>
@@ -342,7 +334,7 @@ For example, consider the three equations graphed below.</p>
         <me>\blert{D=b^2-4ac}</me>  <ol label="1">      
     <li>If <m>D \gt 0</m>,  there are two unequal solutions.</li>
     <li>If  <m>D = 0</m>,  there is one solution of multiplicity two.</li>
-    <li>If<m>D \lt 0</m>,  there are two complex conjugate solutions.</li></ol></p></assemblage>
+    <li>If <m>D \lt 0</m>,  there are two complex conjugate solutions.</li></ol></p></assemblage>
 
 <example xml:id="example-discriminant"><statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph has. <ol label="a" cols="3">
     <li><m>y = x^2 - x - 3 </m></li>

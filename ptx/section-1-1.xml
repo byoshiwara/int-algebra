@@ -69,7 +69,7 @@
         <md><mrow>\text{Cost}\amp=(\$5\text{ insurance fee})+(\$3\text{ per hour})\times(\alert{\text{one hour}})</mrow>
             <mrow>C\amp=5+3(\alert{1})=8</mrow></md>
 A one-hour bike ride costs $8.</p>
-<p>We calculate the cost for the other values of <m>t</m>. and record the results in a table as shown below.</p>
+<p>We calculate the cost for the other values of <m>t</m> and record the results in a table as shown below.</p>
             <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <col/><col/><col bottom="none" top="none" /><col />
                 <row>
@@ -225,7 +225,7 @@ A one-hour bike ride costs $8.</p>
     <p><ol label="a">
         <li><p>Write an equation for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles.</p></li>
         <li><p>Make a table of values for the equation.</p></li>
-        <li><p>Graph the equation,</p></li>
+        <li><p>Graph the equation.</p></li>
         <li><p>If Leon has less than 5 gallons of gas left, how many miles has he driven since his last fill-up? Illustrate on the graph.</p></li>
         </ol></p></statement>
     
@@ -259,7 +259,7 @@ A one-hour bike ride costs $8.</p>
      <sidebyside  width="40%"><image source="images/fig-example-1-1-3"><description>gas mileage</description></image></sidebyside>
 </solution></example>
 
-<p>In part (d) of the previous Example we used an <term>inequality</term> to answer the question. We use inequalities to model English phrases such as "less than," "more than," "at least," and "at most."</p>
+<note><p>In part (d) of the previous Example we used an <term>inequality</term> to answer the question. We use inequalities to model English phrases such as "less than," "more than," "at least," and "at most."</p></note>
 
 <exercise><title>Practice 3</title>
     <introduction>

@@ -171,7 +171,7 @@ which is undefined. The slope of any vertical line is undefined because the expr
 <subsection><title>Parallel and Perpendicular Lines</title>
 
 <sidebyside widths="55% 30%" margins="0% 0%" valigns="middle middle">
-    <p>Lines that lie in the same plane but never intersect are called <term>parallel</term><idx>parallel</idx> lines. They have the same "steepness" or inclination, so it is easy to understand that parallel lines have the same slope. Youcan verify that the parallel lines in the figure at right both have slope <m>m = 2</m></p>
+    <p>Lines that lie in the same plane but never intersect are called <term>parallel</term><idx>parallel</idx> lines. They have the same "steepness" or inclination, so it is easy to understand that parallel lines have the same slope. Youcan verify that the parallel lines in the figure at right both have slope <m>m = 2.</m></p>
     <image xml:id="fig-parallel-lines"><description>parallel lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -229,7 +229,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
 
 <example><statement><p>Decide whether the lines
             <md><mrow> 2x + 3y = 6 \qquad \text{ and } \qquad 3x − 2y = 6</mrow></md>
-are parallel, perpendicular, or neither</p></statement>
+are parallel, perpendicular, or neither.</p></statement>
 
 <solution><p>We could graph the lines, but we can't be sure from a graph if the line sare exactly parallel or exactly perpendicular. A more accurate way to settle the question is to find the slope of each line. To do this we write each equation in slope-intercept form; that is, we solve for <m>y</m>.
             <md><mrow> 2x + 3y \amp = 6 \qquad\qquad \amp  3x − 2y\amp = 6</mrow>
@@ -341,7 +341,7 @@ so the lines are perpendicular.</p></solution></example>
 <example><statement><p>Find an equation for the line that passes through the point <m>(1, 4)</m> and is perpendicular to the line <m>4x -2y = 6</m>.</p></statement>
 
 <solution><sidebyside widths="52% 30%" margins="0% 10%" valigns="middle middle">
-<p>First we find the slope of the desired line,then use the point-slope formula to write its equation. The line we want is perpendicular to the given line, so its slope is the negative reciprocal of <m>m_1 = 2</m>, the slope of the given line. Thus
+<p>First we find the slope of the desired line, then use the point-slope formula to write its equation. The line we want is perpendicular to the given line, so its slope is the negative reciprocal of <m>m_1 = 2</m>, the slope of the given line. Thus
                 <md><mrow>m_2=\frac{-1}{m_1}=\frac{-1}{2}</mrow></md></p>
         <image xml:id="fig-example-9-1-4"><description>line perpendicular to given line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

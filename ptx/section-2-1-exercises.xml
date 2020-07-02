@@ -132,12 +132,12 @@
 <answer><p>a: III; b: IV;  c: II; d: I</p></answer></exercise>
 
 <exercisegroup><introduction><p>In Problems 3 and 4, find a linear model from two data points as follows:<ol label="a">
-        <li><p>Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?</p></li>
-        <li><p>Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?</p></li>
+        <li><p>Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?)</p></li>
+        <li><p>Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?)</p></li>
         <li><p>State the slope of the line, including units, and explain its meaning in the context of the problem.
         </p></li></ol></p></introduction>
 
-<exercise number="3"><statement><p>On an international flight a passenger may check two bags each weighing 70 kilograms, or 154 pounds, and one carry-on bag weighing 50 kilograms, or 110 pounds. Express the weight, <m>p</m>, of a bag in pounds in terms of its weight,<m>i</m>, in kilograms.</p></statement>
+<exercise number="3"><statement><p>On an international flight a passenger may check two bags each weighing 70 kilograms, or 154 pounds, and one carry-on bag weighing 50 kilograms, or 110 pounds. Express the weight, <m>p</m>, of a bag in pounds in terms of its weight, <m>i</m>, in kilograms.</p></statement>
 <answer><p><ol label="a" cols="2">
     <li><sidebyside width="50%" margins="0% 50%"><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                     <row>
@@ -248,7 +248,7 @@
             </ol></p></answer></exercise>
 
 <exercise number="14"><statement><p>The scatterplot shows the weights in pounds and the heights in inches of a team of distance runners.</p>
-    <sidebyside width="35%"><image source="images/fig-scatterplot-runner-wt-vs-ht"><description>graph</description></image></sidebyside>
+    <sidebyside width="32%"><image source="images/fig-scatterplot-runner-wt-vs-ht"><description>graph</description></image></sidebyside>
 <p><ol label="a">
     <li>Use a straightedge to draw a line that fits the data.</li>
     <li>Use your line to predict the weight of a 65-inch tall runner and the weight of a 71-inch tall runner.</li>

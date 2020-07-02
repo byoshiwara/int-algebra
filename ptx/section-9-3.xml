@@ -97,11 +97,12 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
 
 <p>If <m>a \lt b</m>, the major axis is vertical and has length <m>2b</m>. In this case the endpoints of the major axis are the <m>y</m>-intercepts of the ellipse. (See Figure above right.) The minor axis is horizontal and has length <m>2a</m>.</p>
 
-<p>The standard form of the equation for an ellipse gives us enough information to sketch its graph</p>
+<p>The standard form of the equation for an ellipse gives us enough information to sketch its graph.</p>
 
 <example><statement><p>Graph <m>\dfrac{x^2}{8}+\dfrac{y^2}{25}=1 </m></p></statement>
     
-<solution><p>The graph is an ellipse with major axis on the <m>y</m>-axis. Because <m>a^2 = 8</m> and <m>b^2 = 25</m>, the vertices are located at <m>(0, 5)</m> and <m>(0, -5)</m>, and the covertices lie  <m>\sqrt{8} </m>  units to the right and left of the center, or approximately at <m>(2.8, 0)</m> and <m>(-2.8, 0)</m>. To sketch the ellipse, we first locate the vertices and covertices. Then we draw a smooth curve through the points. The graph of <m>\dfrac{x^2}{8}+\dfrac{y^2}{25}=1 </m> is shown below.</p>
+<solution><p>The graph is an ellipse with major axis on the <m>y</m>-axis. Because <m>a^2 = 8</m> and <m>b^2 = 25</m>, the vertices are located at <m>(0, 5)</m> and <m>(0, -5)</m>, and the covertices lie  <m>\sqrt{8} </m>  units to the right and left of the center, or approximately at <m>(2.8, 0)</m> and <m>(-2.8, 0)</m>.</p>
+<p> To sketch the ellipse, we first locate the vertices and covertices. Then we draw a smooth curve through the points. The graph of <m>\dfrac{x^2}{8}+\dfrac{y^2}{25}=1 </m> is shown below.</p>
     <sidebyside width="40%"><image xml:id="fig-example-9-3-1">
         <description>ellipse with vertical major axis</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -207,17 +208,14 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
     <md><mrow>Ax^2+By^2=C</mrow></md>
 where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph are easier to identify if we first convert the equation to standard form.</p>
 
-<example>
-    <statement>
-        <p>
-            Graph <m>4x^2 +y^2=12</m>
-        </p>
-    </statement>
-    <solution>
-        <sidebyside widths="40% 58%" margins="0% 0%" valigns="middle middle">
-            <image xml:id="fig-example-9-3-2">
-            <description>ellipse with vertical major axis</description>
-            <latex-image>
+<example><statement><p> Graph <m>4x^2 +y^2=12</m></p></statement>
+    
+<solution><sidebyside widths="58% 40%" margins="0% 0%" valigns="middle middle">
+    <p>First we convert the equation to standard form: we divide through by the constant term, 12, to obtain
+                 <md><mrow>\frac{x^2}{3}+\frac{y^2}{12}=1</mrow></md>
+        Because <m>a^2=3</m> and <m>b^2=12</m>, the vertices are <m>(0,\pm 2\sqrt{3}) </m> and the covertices are <m>(\pm \sqrt{3},0) </m>. We plot points at about <m>(0, \pm 3.5)</m> and <m>(\pm 1.7, 0)</m>, then draw an ellipse through the points, as shown at right.</p>
+    <image xml:id="fig-example-9-3-2">
+            <description>ellipse with vertical major axis</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -237,9 +235,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
             \node[fill=white, inner sep=2] at (-2.9,3.6) {$4x^2+y^2=12$};
             \end{tikzpicture}]]>
             </latex-image></image>
-    <p>First we convert the equation to standard form: we divide through by the constant term, 12, to obtain
-                 <md><mrow>\frac{x^2}{3}+\frac{y^2}{12}=1</mrow></md>
-        Because <m>a^2=3</m> and <m>b^2=12</m>, the vertices are <m>(0,\pm 2\sqrt{3}) </m> and the covertices are <m>(\pm \sqrt{3},0) </m>. We plot points at about <m>(0, \pm 3.5)</m> and <m>(\pm 1.7, 0)</m>, then draw an ellipse through the points, as shown at left.</p></sidebyside>
+    </sidebyside>
 </solution></example>
 
 <exercise><title>Practice 2</title>
@@ -331,7 +327,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
     <li><p>Solve the equation <m>4x^2 + y^2 = 12</m> when <m>y = -4</m>. What do the solutions tell you about the graph of the ellipse?</p></li></ol></p></statement>
     
 <solution><p><ol label="a">
-    <li><sidebyside widths="60% 30%" margins="0% 0%" valigns="middle middle">
+    <li><sidebyside widths="60% 34%" margins="0% 0%" valigns="middle middle">
         <p>We substitute <m>y = \alert{2}</m> into the equation and solve for <m>x</m>.
                 <md><mrow>4x^2+(\alert{2})^2\amp = 12</mrow>
                     <mrow>4x^2\amp = 8</mrow>
@@ -445,7 +441,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
 <solution><p><ol label="a">
     <li><p>The graph is an ellipse with center at <m>(-2,1)</m>.  We have <m>a=4</m> and <m>b=\sqrt{5}</m>,  and the major axis is parallel to the <m>x</m>-axis because <m>a \gt b</m>. We plot the vertices four units to the left and right of the center, a <m>(-6,1)</m> and <m>(2,1)</m>. The covertices lie <m>\sqrt{5}</m> units above and below the center, at approximately <m>(-2, 3.2)</m> and <m>(-2, -1.2)</m>. The graph is shown below.</p>
 
-   <sidebyside width="45%"><image xml:id="fig-example-9-3-4"><description>translated ellipse</description><latex-image>
+   <sidebyside width="50%"><image xml:id="fig-example-9-3-4"><description>translated ellipse</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -731,7 +727,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
     
 <example><statement><p>Find the equation of the ellipse with vertices at <m>(3,3)</m> and <m>(3,-5)</m> and covertices at <m>(1,-1)</m> and <m>(5,-1)</m>.</p></statement>
     
-<solution><sidebyside widths="63% 30%" margins="0% 0%" valigns="middle middle">
+<solution><sidebyside widths="63% 35%" margins="0% 0%" valigns="middle middle">
     <p>You may find it helpful to plot the given points to help you visualize the ellipse. The center of the ellipse is the midpoint of the major (or minor) axis.
             <md><mrow>h \amp = \overline{x} = \dfrac{1+5}{2} = 3</mrow>
                 <mrow>k \amp = \overline{y} = \dfrac{3-5}{2} = -1</mrow></md>  </p>

@@ -225,10 +225,10 @@ Their graphs are shown below. Note that power functions with negative exponents 
 
 <example><statement><p>The intensity of the radiation from our Sun varies inversely with distance.<ol label="a">  
     <li>Use a negative exponent to write a formula for the intensity <m>I</m> as a function of <m>d,~I=f(d)</m>.</li>
-    <li>The planet Mercury is 0.387 AU (Astronomical Units) distant from the Sun, and the intensity of radiation at its surface is 9147 watts per square meter.  Find the constant of proportionality in the formula for <m>I</m>.</li>
+    <li>The planet Mercury is 0.387 AU (Astronomical Units) distant from the Sun, and the intensity of radiation at its surface is 9147 watts per square meter. Find the constant of proportionality in the formula for <m>I</m>.</li>
     <li>Graph  <m>I=f(d)</m>.</li>
-    <li>Earth is 1 AU from the sun.  What is the intensity of the Sun's radiation at the surface of the Earth?</li>
-    <li>The surface of Jupiter receives 50.63 watts per square meter of the Suns' radiation. How far is Jupiter from the Sun?</li></ol></p></statement>
+    <li>Earth is 1 AU from the Sun.  What is the intensity of the Sun's radiation at the surface of the Earth?</li>
+    <li>The surface of Jupiter receives 50.63 watts per square meter of the Sun's radiation. How far is Jupiter from the Sun?</li></ol></p></statement>
 
 <solution><p><ol label="a">
     <li>If we use <m>k</m> for the constant of proportionality, then <m>I=\dfrac{k}{d^2}</m>.  Rewriting this equation with a negative exponent gives <m>I=kd^{-2}</m>.</li>
@@ -265,7 +265,7 @@ Their graphs are shown below. Note that power functions with negative exponents 
             <mrow>50.63d^2 \amp = 1370   \amp \amp \blert{\text{Divide both sides by 50.63.}}</mrow>
             <mrow>d^2 \amp = \dfrac{1370}{50.63} = 27.059   \amp \amp \blert{\text{Extract roots.}}</mrow>
             <mrow>d = \amp 5.202</mrow></md>
-    Jupiter is 5.202 AU from the sun, or about 484 million miles.</p></li></ol></p></solution>
+    Jupiter is 5.202 AU from the Sun, or about 484 million miles.</p></li></ol></p></solution>
 </example>
 
 <p>The function <m>I = \dfrac{k}{d^2}</m> is an example of an <term>inverse square law</term><idx>inverse square law</idx>, because <m>I</m> varies inversely with the square of <m>d</m>. Such laws are fairly common in physics and its applications, because gravitational and other forces behave in this way. Here is another example of an inverse square law.</p>

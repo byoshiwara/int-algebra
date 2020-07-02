@@ -14,7 +14,7 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
  in the window  
     <md><mrow>\text{Xmin}=-6~~~~\text{Ymin}=-6</mrow>
         <mrow>\text{Xmax}=4~~~~~\text{Ymax}=10</mrow></md></p>
-<sidebyside widths="60% 30%" margins="0% 0%" valigns="middle middle">
+<sidebyside widths="60% 25%" margins="0% 5%" valigns="middle middle">
      <p>The graphs are shown at right.  Now compare the two graphs.  You should notice that:
         <ul>
             <li>The second graph is identical to the first, except shifted upward by 6 units.</li>
@@ -45,34 +45,17 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
     <p>For the graph of  <m>~~y=ax^2+bx+c=0,~~</m> the <m>x</m>-coordinate of the vertex is 
         <me>\blert{x_v=\dfrac{-b}{2a}}</me></p></assemblage>
 
-<example xml:id="example-parabola-vertex2">
-    <statement>
-        <p>
-            Find the vertex of the graph of <m>f(x) = -2x^2 + x + 1</m>.
-        </p>
-    </statement>
-    <solution>
-        <p>
-            For this function, <m>a = -2</m>, <m>b = 1</m>, and <m>c = 1</m>. The <m>x</m>-coordinate of the vertex is given by
-            <me>x_v =\frac{-b}{2a}=\frac{-1}{2(-2)}=\frac{1}{4}</me>
-            To find the <m>y</m>-coordinate of the vertex, we substitute <m>x = \alert{\dfrac{1}{4}}</m> into the equation. We can do this by hand to find
-            <md>
-                <mrow>y_v\amp= -2\left(\alert{\frac{1}{4}}\right)^2+ \alert{\frac{1}{4}}+1
-                </mrow>
-                <mrow>\amp= -2\left(\frac{1}{16}\right)+ \frac{4}{16}+\frac{16}{16}=\frac{18}{16}=\frac{9}{8}
-                </mrow>
-            </md>
-            So the coordinates of the vertex are <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</m>. Alternatively, we can use the calculator to evaluate <m>-2x^2 + x + 1</m> for <m>x = 0.25</m>. We enter
-        </p>
-        <p>
-            <m>\qquad\qquad</m> <kbd>(-)</kbd> <m>2</m> <kbd name="times"/> <m>0.25</m> <kbd name="squared"/> <kbd name="plus"/> <m>0.25</m> <kbd name="plus"/> <m>1</m>
-        </p>
-        <p>
-            and press <kbd>ENTER</kbd>. The calculator returns the <m>y</m>-value <m>1.125</m>. Thus, the vertex is the point <m>(0.25, 1.125)</m>, which is the decimal equivalent of <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</m>.
-        </p>
-    </solution>
-</example>
+<example xml:id="example-parabola-vertex2"><statement><p> Find the vertex of the graph of <m>f(x) = -2x^2 + x + 1</m>.</p>
+</statement>
 
+<solution><p>For this equation, <m>a = -2</m>, <m>b = 1</m>, and <m>c = 1</m>. The <m>x</m>-coordinate of the vertex is given by
+            <me>x_v =\frac{-b}{2a}=\frac{-1}{2(-2)}=\frac{1}{4}</me>
+To find the <m>y</m>-coordinate of the vertex, we substitute <m>x = \alert{\dfrac{1}{4}}</m> into the equation. We can do this by hand to find
+        <md><mrow>y_v \amp= -2\left(\alert{\frac{1}{4}}\right)^2+ \alert{\frac{1}{4}}+1</mrow>
+            <mrow>\amp= -2\left(\frac{1}{16}\right)+ \frac{4}{16}+\frac{16}{16}=\frac{18}{16}=\frac{9}{8}</mrow></md>
+So the coordinates of the vertex are <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</m>. Alternatively, we can use the calculator to evaluate <m>-2x^2 + x + 1</m> for <m>x = 0.25</m>. We enter</p>
+<p><m>\qquad\qquad</m> <kbd>(-)</kbd> <m>2</m> <kbd name="times"/> <m>0.25</m> <kbd name="squared"/> <kbd name="plus"/> <m>0.25</m> <kbd name="plus"/> <m>1</m></p>
+<p>and press <kbd>ENTER</kbd>. The calculator returns the <m>y</m>-value <m>1.125</m>. Thus, the vertex is the point <m>(0.25, 1.125)</m>, which is the decimal equivalent of <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</m>.</p></solution></example>
 
 <exercise><title>Practice 1</title>
     <webwork><pg-code>
@@ -82,12 +65,11 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
             ["?","maximum","minimum"],
             2, );
         </pg-code>
-    <statement><p>Find the vertex of the graph of <m>y = 3x^2 - 6x + 4</m>.</p>
+<statement><p>Find the vertex of the graph of <m>y = 3x^2 - 6x + 4</m>.</p>
             <p><var name="$answer" width="5"/> </p>
-            <p>Decide whether the vertex is a maximum point or a minimum point of the graph.<var name="$maxmin" form="popup"/> </p>
+    <p>Decide whether the vertex is a maximum point or a minimum point of the graph.<var name="$maxmin" form="popup"/> </p>
         </statement>
-        <solution><p><m>(1, 1)</m>, minimum</p>
-        </solution>
+<solution><p><m>(1, 1)</m>, minimum</p></solution>
 </webwork></exercise>
 
 <p>Once we know the vertex of a parabola, we can make a quick sketch of the graph.</p>
@@ -95,8 +77,8 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
 <example><statement><p>Sketch a graph of <m>~y=x^2+3x+1</m></p></statement>
 
 <solution><p>The vertex of the graph is given by
-    <md><mrow>x_v = \dfrac{-b}{2a} = \dfrac{-3}{2(1)} = -1.5</mrow>
-        <mrow>y_v = (-1.5)^2+3(-1.5)+1 =-1.25</mrow></md>
+    <md><mrow>x_v \amp = \dfrac{-b}{2a} = \dfrac{-3}{2(1)} = -1.5</mrow>
+        <mrow>y_v \amp = (-1.5)^2+3(-1.5)+1 =-1.25</mrow></md>
 The vertex is the point <m>(-1.5,-1.25)</m>.</p>
 <p>We set <m>x=0</m> to find the <m>y</m>-intercept, <m>(0,1)</m>. Now, the axis of symmetry of the parabola is the vertical line that passes through its vertex. That line is <m>x=-1.5</m>, so the <m>y</m>-intercept lies 1.5 units to the right of the axis. There must be another point on the parabola with the same <m>y</m>-coordinate as the intercept but 1.5 units to the left of the axis. This point is <m>(-3,1)</m>.</p>
 
@@ -238,12 +220,12 @@ Usually, when the price of an item increases, the number of items sold decreases
     <me>y = 2(x - 3)^2 - 8</me>
 By expanding the squared expression and collecting like terms, we can rewrite the equation in standard form as
         <md><mrow>y \amp= 2(x^2 - 6x + 9) - 8</mrow>
-            <mrow>y \amp = 2x^2 - 12x + 10</mrow></md>
-The vertex of this parabola is
+            <mrow>y \amp = 2x^2 - 12x + 10</mrow></md></p>
+<sidebyside  widths="50% 30%" margins="0% 10%"><p>The vertex of this parabola is
         <md><mrow>x_v \amp= \frac{-(-12)}{2(2)}=3</mrow>
             <mrow>y_v \amp = 2(3)^2 - 12(3) + 10=-8</mrow></md>
-and its graph is shown below.</p>
-    <sidebyside  width="35%"><image source="images/fig-vertex-form"><description>parabola
+and its graph is shown at right.</p>
+    <image source="images/fig-vertex-form"><description>parabola
     with vertex labeled</description></image></sidebyside>
 
 <p>Notice that the coordinates of the vertex, <m>(3,-8)</m>, are apparent in the original equation; we don’t need to do any computation to find the vertex.
@@ -309,7 +291,7 @@ which confirms that when <m>x = 4</m>, <m>y = 6</m>. Next, notice that if <m>x</
 <solution><p>We factor the lead coefficient, <m>3</m>, from the variable terms, leaving a space to complete the square.
         <me>y = 3(x^2 - 2x <fillin characters="6" /> ) - 1</me>
 Next, we complete the square inside parentheses. Take half the coefficient of <m>x</m> and square the result: 
-<me>p = \frac{1}{2}(-2) = -1,~~\text{and}~~ p^2 = (-1)^2 = 1</me>. 
+<me>p = \frac{1}{2}(-2) = -1,~~\text{and}~~ p^2 = (-1)^2 = 1</me> 
 We must add <m>1</m> to complete the square. However, we are really adding <m>3(1)</m> to the right side of the equation, so we must also subtract <m>3</m> to compensate:
         <me>y = 3(x^2 - 2x \alert{{}+{}1}) - 1\,\alert{-\,3}</me>
 The expression inside parentheses is now a perfect square, and the vertex form is

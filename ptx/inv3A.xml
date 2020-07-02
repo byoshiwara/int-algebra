@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Falling"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Investigation 3A: Falling</title>
+<section xml:id="Falling"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Falling</title>
 
 <introduction><p>Suppose you drop a small object from a height and let it fall under the influence of gravity.
 Does it fall at the same speed throughout its descent? The diagram below left shows a sequence of photographs of a steel ball falling onto a table. The photographs were taken using a stroboscopic flash at intervals of 0.05 second, and a scale on the left side shows the height of the ball, in feet, at each interval.</p>

@@ -90,8 +90,7 @@
 <subexercises><title>Applications</title>
 
 <exercise number="25"><statement><p><ol label="a">
-    <li>
-        <sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
+    <li><sidebyside widths="65% 30%" margins="0% 0%" valigns="middle middle">
             <p>On the figure at right, locate the points  <m>P\left(\dfrac{a}{2},0\right)</m>, <m>Q\left(a, \dfrac{b}{2}\right)</m>, <m>~R\left(\dfrac{a}{2},b\right)</m>, and <m>~S\left(0,\dfrac{b}{2}\right)</m>. Connect the points with line segments in the order <m>PQRS</m> to form a four-sided figure.</p>  
     
             <image xml:id="fig-rectangle-Q1">
@@ -106,10 +105,7 @@
             \draw[red,thick] (3,0)--(3,2)--(0,2);
             \filldraw[red] (3,2) circle (.08) node[above right, text=black] {$(a,b)$};
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </li>
+            </latex-image></image></sidebyside></li>
     <li>Compute the slopes of each side of the figure.</li></ol></p></statement>
 <answer><m>\overline{PQ}</m> and <m>overline{RS}: ~\dfrac{b}{a}</m>; <m>\overline{QR}</m> and <m>overline{SP}: ~\dfrac{b}{a}</m></answer></exercise>
 
@@ -140,7 +136,7 @@ where <m>f</m> stands for the focal length, <m>p</m> is the distance from the ob
 <exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>36, Write each expression as a single fraction in simplest form.
 </p></introduction>
 
-<exercise number="29"><statement><m>\left((1-\dfrac{k}{n}\right) \left(1+ \dfrac{k}{n}\right)</m></statement>
+<exercise number="29"><statement><m>\left(1-\dfrac{k}{n}\right) \left(1+ \dfrac{k}{n}\right)</m></statement>
 <answer><m>\dfrac{n^2-k^2}{n^2}</m></answer></exercise>
 
 <exercise number="30"><statement><m>m\left(\dfrac{v-V}{t}\right)\left(\dfrac{v+V}{2}\right)</m></statement></exercise>
@@ -153,7 +149,7 @@ where <m>f</m> stands for the focal length, <m>p</m> is the distance from the ob
 <exercise number="33"><statement><m>\dfrac{\dfrac{L}{F}}{\dfrac{L}{F}-1} \cdot \dfrac{K}{N}</m></statement>
 <answer><m>\dfrac{KL}{N(L-F)}</m></answer></exercise>
 
-<exercise number="34"><statement><m>b(\dfrac{a-b}{a+b}) +b</m></statement></exercise>
+<exercise number="34"><statement><m>b\left(\dfrac{a-b}{a+b}\right) +b</m></statement></exercise>
 
 <exercise number="35"><statement><m>\dfrac{1-\dfrac{2h}{m}}{m-\dfrac{4h^2}{m}} </m></statement>
 <answer><m>\dfrac{1}{m+2h}</m></answer></exercise>

@@ -386,7 +386,7 @@
                 <li><p>For what values of <m>w</m> is <m>S\gt 3.4</m>?</p></li>
             </ol></statement></exercise>
 
-<exercise number="21"><statement><p>The graph shows the U.S. unemployment rate, <m>U=F(t)</m>, where <m>t</m>, represents years. Give your answers to the questions below in function notation.(Source: U.S. Bureau of Labor Statistics)</p>
+<exercise number="21"><statement><p>The graph shows the U.S. unemployment rate, <m>U=F(t)</m>, where <m>t</m>, represents years. Give your answers to the questions below in function notation. (Source: U.S. Bureau of Labor Statistics)</p>
         <sidebyside  width="60%"><image source="images/fig-unemployment"><description>unemployment rate</description>
         </image></sidebyside><p><ol label="a">
                 <li><p>When did the unemployment rate reach its highest value, and what was its highest value?</p></li>

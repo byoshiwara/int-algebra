@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Interest"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Investigation 10: Interest Compounded Continuously</title>
+<section xml:id="Interest"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Interest Compounded Continuously</title>
 
 <introduction><p>We learned in <xref ref="PropertiesofLogarithms" text="type-global"/> that the amount, <m>A</m> (principal plus interest), accumulated in an account with interest compounded <m>n</m> times annually is
 	<me>A=P\left(1+\dfrac{r}{n} \right)^{nt} </me>

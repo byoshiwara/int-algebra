@@ -229,12 +229,12 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 	</ol></p></statement>
 
 <solution><p><ol label="a">
-	<li>To find the half-life, we calculate the time elapsed when only half the original amount, or 100 mg, is left.
+	<li><p>To find the half-life, we calculate the time elapsed when only half the original amount, or 100 mg, is left.
 		<md><mrow>200(0.73)^t \amp = 100\amp\amp \blert{\text{Divide both sides by 200.}}</mrow>
 			<mrow>0.73^t \amp = 0.5\amp\amp \blert{\text{Take the log of both sides.}}</mrow>
 			<mrow>t\log 0.73 \amp = \log 0.5\amp\amp \blert{\text{Divide both sides by log 0.73.}}</mrow>
 			<mrow>t \amp= \frac{\log 0.5}{\log 0.73} = 2.2</mrow></md>
-	The half-life is 2.2> hours.</li>
+	The half-life is 2.2 hours.</p></li>
 	<li>After 2.2 hours, 100 mg of ibuprofen is left in the body. After another 2.2 hours, half of that amount, or 50 mg, is left. Thus, 50 mg remain after 4.4 hours.</li>
 	<li><p>We locate multiples of 2.2 hours on the horizontal axis. After each interval of 2.2 hours, the amount of ibuprofen is reduced to half its previous value. The graph is shown below.</p>
 	<sidebyside widths="35% 40%" valigns="middle middle">

@@ -141,8 +141,8 @@ Finally, we reduce the result to obtain
             <mrow>\amp = \dfrac{1}{x} \cdot \blert{\dfrac{y}{y}}- \dfrac{1}{y} \cdot \blert{\dfrac{x}{x}} \amp \amp \blert{\text{Build to the LCD.}}</mrow>
             <mrow>\amp = \dfrac{y-x}{xy}</mrow></md></p></li>
     <li><p>We simplify the expression inside parentheses first.
-        <md><mrow>(x^{-2}+y^{-2})^{-1} \amp = (\dfrac{1}{x^2} + \dfrac{1}{y^2})^{-1} \amp \amp \blert{\text{Add fractions.}}</mrow>
-            <mrow> \amp = (\dfrac{y^2+x^2}{x^2y^2})^{-1} = \dfrac{x^2y^2}{x^2+y^2}</mrow></md>
+        <md><mrow>\left(x^{-2}+y^{-2}\right)^{-1} \amp = \left(\dfrac{1}{x^2} + \dfrac{1}{y^2}\right)^{-1} \amp \amp \blert{\text{Add fractions.}}</mrow>
+            <mrow> \amp = \left(\dfrac{y^2+x^2}{x^2y^2}\right)^{-1} = \dfrac{x^2y^2}{x^2+y^2}</mrow></md>
     For the last step, remember that a negative exponent indicates the reciprocal of its base.</p></li></ol></p>
 </solution></example>
 

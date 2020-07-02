@@ -249,7 +249,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
     <p>According to these data, cholesterol count is <em>not</em> a function of age, because several patients who are the same age have different cholesterol levels. For example, three different patients are 51 years old but have cholesterol counts of 227, 209, and 216, respectively. Thus, we cannot determine a <em>unique</em> value of the output variable (cholesterol count) from the value of the input variable (age). Other factors besides age must influence a person’s cholesterol count.</p></li>
     </ol></p></statement></example>
 
-<note><p>Note that several differnt inputs for a function can have the same output.  For example, the inputs 4.5 and 4.25 in part (b) of the Example above have output $1.10. However, a single input cannot have more than one output, as illustrated in part (c) of the Example.</p></note>
+<note><p>Note that several different inputs for a function can have the same output.  For example, the inputs 4.5 and 4.25 in part (b) of the Example above have output $1.10. However, a single input cannot have more than one output, as illustrated in part (c) of the Example.</p></note>
 
 <exercise><title>Practice 2</title>
 <introduction><p>Decide whether each table describes <m>y</m> as a function of <m>x</m>. Explain your choice.</p></introduction>
