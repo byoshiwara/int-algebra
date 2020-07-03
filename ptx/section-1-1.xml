@@ -256,7 +256,35 @@ A one-hour bike ride costs $8.</p>
                     <mrow>-\frac{1}{12}d \amp \lt -15 </mrow>
                     <mrow>d \amp\gt 180 </mrow></md>
     Leon has driven at least 180 miles. The solution is shown on the graph below.</p></li></ol></p>
-     <sidebyside  width="40%"><image source="images/fig-example-1-1-3"><description>gas mileage</description></image></sidebyside>
+     <sidebyside  width="40%"><image xml:id="fig-Leon-gas-miles">
+        <description>gas mileage</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.8, yscale=.45]
+        \draw[lightgray] (0,0) grid (6,12);
+        \draw[black,thick,->,>=stealth'] (0,0)--(6.4,0) node[right]{$d$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,12.3) node[left]{$g$};
+        \foreach \x [evaluate=\x as \xi using int( 50* \x )]  in {1,2,5,6} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below]{$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int( 2* \x )]  in {4,6,...,10} {
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left]{$\xi$};
+        }
+        \draw[red,very thick] (0,10)--(24/5,0);
+        \draw[red,line width=1mm] (18/5,5/2)--(24/5,0);
+        \draw[cyan,very thick, dashed, ->] (0,5/2) --(1.8,5/2);
+        \draw[cyan,very thick, dashed, ->] (1.8,5/2) --(3.5,5/2);
+        \draw[cyan,very thick, dashed, ->] (18/5,5/2) -- (18/5,0.2);
+        \draw[line width=1mm, ->, >=stealth'] (18/5,0)--(6.4,0);
+        \draw[cyan, fill=white] (0,5/2) ellipse (.10125 and .2) node[left, xshift=-1.5, text=blue]{$5$};
+        \draw[cyan, fill=white] (18/5,5/2) ellipse (.10125 and .2);
+        \draw[cyan, fill=white] (18/5,0) ellipse (.10125 and .2) node[below, yshift=-1.5, text=blue]{$180$};
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+</sidebyside>
 </solution></example>
 
 <note><p>In part (d) of the previous Example we used an <term>inequality</term> to answer the question. We use inequalities to model English phrases such as "less than," "more than," "at least," and "at most."</p></note>
@@ -323,8 +351,15 @@ A one-hour bike ride costs $8.</p>
           \draw[black,thick] (.1,\x)--++(-.2,0) node[left]{$\xi$};
         }
         \draw[red,very thick] (0,10)--(24/5,0);
-        \draw[blue,very thick,->,>=stealth'] (3,0) -- (3,15/4) -- (0,15/4) node[left]{$7.5$};
-        \node[below,text=blue] at (3,-.1) {$150$};
+        \draw[red,line width=1mm] (24/5,0)--(3,3.6);
+        \draw[cyan,ultra thick, dashed,->] (3,0) -- (3,1.75);
+        \draw[cyan,ultra thick, dashed,->] (3,1.75) -- (3,3.5);
+        \draw[cyan,ultra thick, dashed,->] (3,15/4) -- (1.5,15/4);
+        \draw[cyan,ultra thick, dashed,->] (1.5,15/4) -- (0.15,15/4);
+        \draw[line width=1mm] (0,15/4)--(0,0);
+        \filldraw[cyan] (0,3.75) ellipse (.10125 and .2) node[left, xshift=-1.5, text=blue]{$7.5$};
+        \filldraw[cyan] (3,15/4) ellipse (.10125 and .2);
+        \filldraw[cyan] (3,0) ellipse (.10125 and .2) node[below, yshift=-1.5, text=blue]{$150$};
         \end{tikzpicture}]]>
         </latex-image>
         </image></sidebyside>
