@@ -357,7 +357,7 @@
                 </latex-image></image></sidebyside></li>
         <li><p><m>W=48-6t</m></p></li></ol></p></answer></exercise>
 
-<exercise number="24"><statement><p>The graph shows the number of barrels of oil, <m>B</m>, that jave been pumped at a drill site after a new drill is installed.</p>
+<exercise number="24"><statement><p>The graph shows the number of barrels of oil, <m>B</m>, that have been pumped at a drill site after a new drill is installed.</p>
     <sidebyside width="36%"><image xml:id="fig-barrels-oil">
         <description>increasing graph</description>
         <latex-image>
