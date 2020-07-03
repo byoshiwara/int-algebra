@@ -71,10 +71,8 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside widths="40%" margins="0% 10%">
-         <image xml:id="fig-ex-4-4-1ans">
-                <description>parabola for quadratic inequality</description>
-                <latex-image>
+        <sidebyside widths="40%" margins="0% 10%"><image xml:id="fig-ex-4-4-1ans">
+                <description>parabola for quadratic inequality</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -99,10 +97,7 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
                 \end{tikzpicture}
                 \newline        
                 \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </conclusion>
+            </latex-image></image></sidebyside></conclusion>
 </exercise>
 
 </subsection>
@@ -114,14 +109,12 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
     
 <example xml:id="example-quadratic-inequality"><statement><p>Use a graph to solve <m>x^2 - 2x - 3 \ge 12</m></p></statement>
 
-<solution>
-    <p>We first write the inequality with zero on one side: 
+<solution><p>We first write the inequality with zero on one side: 
     <me>x^2 - 2x - 15 \ge 0</me>. 
-    We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have <m>y</m>-coordinates greater than or equal to zero. A graph of the equation is shown below.</p>
+We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have <m>y</m>-coordinates greater than or equal to zero. A graph of the equation is shown below.</p>
     <sidebyside widths="60% 30%" valigns="middle middle" margins="0%">
-        <p>You can check that the <m>x</m>-intercepts of the graph are <m>-3</m> and <m>5</m>. The points shown in blue on the graph lie above the <m>x</m>-axis and have <m>y \ge 0</m>, so the <m>x</m>-coordinates of these points are the solutions of the inequality.</p>  
-        <image xml:id="fig-quadratic-inequality">
-            <description>parabola dividing the x-axis into three regions</description>
+<p>You can check that the <m>x</m>-intercepts of the graph are <m>-3</m> and <m>5</m>. The points shown in blue on the graph lie above the <m>x</m>-axis and have <m>y \ge 0</m>, so the <m>x</m>-coordinates of these points are the solutions of the inequality.</p>  
+    <image xml:id="fig-quadratic-inequality"><description>parabola dividing the x-axis into three regions</description>
             <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -144,13 +137,8 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
             \draw[blue, ultra thick, ->, >=stealth'] (-3,0) -- (-7,0);
             \draw[blue, ultra thick, ->, >=stealth'] (5,0) -- (9,0);
             \end{tikzpicture}]]>
-            </latex-image>
-        </image>
-    </sidebyside>
-    <p>
-        Note that the solutions lie in two intervals, less than <m>-3</m> or greater than <m>5</m>. Thus, the solution is <m>x \le -3</m> or <m>x \ge 5</m>.
-    </p>
-</solution></example>
+            </latex-image></image></sidebyside>
+<p> Note that the solutions lie in two intervals, less than <m>-3</m> or greater than <m>5</m>. Thus, the solution is <m>x \le -3</m> or <m>x \ge 5</m>.</p></solution></example>
 
 <warning><p>In <xref ref="example-quadratic-inequality" text="type-global"/> above, the solution of the inequality <m>~x^2 - 2x - 15 \ge 0~</m> is the set of values
     <me>x \le -3~~ \text{or}  ~~x \ge 5</me>

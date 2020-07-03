@@ -312,22 +312,18 @@ where <m>k</m> is a positive constant.</p></assemblage>
 <assemblage><title>Test for Inverse Variation</title>
     <p>If the product <m>~yx^n~</m> is constant and <m>n</m> is positive, then <m>y</m> varies inversely with <m>x^n</m>.</p></assemblage>
 
-<p>The graphs of some typical inverse variations are shown below. They are variations of the basic graphs you studied in Section 5.3, but restricted to positive <m>x</m>-values only.</p>
+<p>The graphs of some typical inverse variations are shown below. They are versions of the basic graphs you studied in Section 5.3, but restricted to positive <m>x</m>-values only.</p>
 
 <sidebyside width="50%"><image source="images/fig-inverse-variation-with-power"><description>inverse variation</description></image></sidebyside>
 
 <exercise><title>QuickCheck 2</title>
-<webwork>
-    <pg-code>
+<webwork><pg-code>
         $Yes = PopUp(
           ["?","Yes", "No"],
           1, 
         );
     </pg-code>
-    <statement>
-        <p>
-            Use the table to decide whether <m>H</m> could vary inversely with <m>m^2</m>.
-        </p>
+<statement><p>Use the table to decide whether <m>H</m> could vary inversely with <m>m^2</m>.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
             <row bottom="minor">
                 <cell><m>m</m></cell>
@@ -341,11 +337,8 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 <cell><m>15</m></cell>
                 <cell><m>9.6</m></cell>
                 <cell><m>3.75</m></cell></row>
-            </tabular>
-        </sidebyside>
-        <p>
-            <var name="$Yes" form="popup"/>
-        </p>
+            </tabular></sidebyside>
+        <p><var name="$Yes" form="popup"/></p>
     </statement>
     <solution>
         <p>Yes, the product <m>Hm^2</m> is the constant 0.6</p>

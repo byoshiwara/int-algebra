@@ -63,7 +63,7 @@ The coefficient of the linear term, <m>2p</m>, is twice the constant in the bino
 to produce a perfect square trinomial? Compare the expression to the formula above:
     <md><mrow>x^2 + \alert{2p}x + p^2 \amp = (x + p)^2 </mrow>
         <mrow>x^2 - \alert{16}x + ~\text{?}~ \amp = (x + ~\text{?}~)^2 </mrow></md>
-We see that <m>2p = -16</m> so 
+We see that <m>~2p = -16~</m>, so 
     <me>p = \frac{1}{2}(-16) = \alert{-8}~~~\text{and}~~~ p^2 = (-8)^2 = \alert{64}</me> 
 We substitute these values for <m>p^2</m> and <m>p</m> into the equation to find
     <me>x^2 - 16x + \alert{64} = (x \alert{-8})^2</me>
@@ -156,7 +156,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         <mrow>x^2-6c-7 \amp = 0</mrow></md></p>
  
 <note>
-    <sidebyside widths="35% 50%" valigns="middle middle">
+    <sidebyside widths="30% 50%" valigns="middle middle">
         <image xml:id="fig-parabola-with-symmetry-line"><description>parabola with line of symmetry</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -178,7 +178,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         \filldraw[red] (7,0) ellipse (.15 and .1);
         \end{tikzpicture}]]>
     </latex-image></image>    
-    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown in at left. Notice that the <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p></sidebyside>
+    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown at left. Notice that the <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p></sidebyside>
 </note>
 
 <p>We can also solve <m>x^2 - 6x - 7 = 0</m> by factoring instead of completing the square. Of course, we get the same solutions by either method. In the next Example, we solve an equation that cannot be solved by factoring.</p> 

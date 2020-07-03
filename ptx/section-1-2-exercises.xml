@@ -274,7 +274,7 @@
 <exercise number="14"><statement><p><m>0.12t + 0.08(t + 10,000) = 12,000</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 15<ndash/>18, solve the inequality and graph the solutions on a number line.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>18, solve the inequality and graph the solutions on a number line.</p></introduction>
             
 <exercise number="14"><statement><m>3x-2 \gt 1+2x</m></statement></exercise>
 
@@ -347,7 +347,7 @@
         </ol></p></answer></exercise>
 
 <exercise nuber="26"><statement><p>The figure shows a graph of <m>y = 0.24x-3.44</m>.
-    <sidebyside width="50%"><image xml:id="fig-y-eq-pt24x-minus3pt44">
+    <sidebyside width="40%"><image xml:id="fig-y-eq-pt24x-minus3pt44">
         <description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

@@ -18,7 +18,7 @@
 
 <subsection><title>Rate of Change</title>
 
-<assemblage>
+<assemblage><title>Rate</title>
     <p>A <term>rate</term> is a type of ratio that compares two quantities with different units.</p>
 </assemblage>
 
@@ -133,9 +133,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     </solution>
 </webwork></exercise>
 
-<sidebyside widths="58% 38%" margins="0% 0%" valigns="top top">
-    <stack><p>How do we see the rate of change on a graph? Let's consider the example above. The graph shows Gregor's distance, <m>d</m>, at time <m>t</m>. We plot the two data points, <m>(1, 189)</m> and <m>(4, 360)</m>, and draw a straight line joining them. We can illustrate <m>\Delta d</m> and <m>\Delta t</m> by vertical and horizontal line segments, as shown on the graph.</p>
-    <p>The rate of change of distance with respect to time, or speed, is the ratio of <m>\Delta d</m> to <m>\Delta t</m>. It measures how much <m>d</m> changes for each unit increase in <m>t</m>, or how far Gregor travels in each hour. This quantity, the ratio <m>\dfrac{\Delta d}{\Delta t} </m>, is the slope of the line.</p></stack>
+<sidebyside widths="58% 38%" margins="0% 0%" valigns="middle middle">
+    <p>How do we see the rate of change on a graph? Let's consider the example above. The graph shows Gregor's distance, <m>d</m>, at time <m>t</m>. We plot the two data points, <m>(1, 189)</m> and <m>(4, 360)</m>, and draw a straight line joining them. We can illustrate <m>\Delta d</m> and <m>\Delta t</m> by vertical and horizontal line segments, as shown on the graph.</p>
+    
     <image xml:id="fig-example-1-4-2"><description>delta d and delta t on line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -162,6 +162,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \draw [black,decorate,decoration={brace,amplitude=7pt}] (4,3.58) -- (1,3.58) node [black, below,midway, yshift=-7] {$\Delta t$};
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
+<p>The rate of change of distance with respect to time, or speed, is the ratio of <m>\Delta d</m> to <m>\Delta t</m>. It measures how much <m>d</m> changes for each unit increase in <m>t</m>, or how far Gregor travels in each hour. This quantity, the ratio <m>\dfrac{\Delta d}{\Delta t} </m>, is the slope of the line.</p>
 
 <exercise><title>QuickCheck 3</title>
 <webwork><pg-code>       
@@ -311,9 +312,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     </stack>
 </sidebyside>
 
-<p>From the examples on the previous page, we can make the following observations:</p>
+<p>From these examples, we can make the following observations:</p>
 
-<assemblage><p><ol labe="a">
+<assemblage><title>Slope and Steepness</title><p><ol labe="a">
     <li><p>For positive slopes, the larger the value of <m>m</m>, the more the <m>y</m>-value increases for each unit increase in <m>x</m>, and the more we climb up as our location changes from left to right. (So graph A is steeper than graph B.)</p></li>
     <li><p>If <m>y</m> decreases as we move from left to right, then <m>\Delta y</m> is negative when <m>\Delta x</m> is positive, so their ratio (the slope) is negative. (See graph C.)</p></li></ol></p>
 </assemblage>
@@ -348,7 +349,8 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 <solution><p><ol label="a">
         <li><p>The points <m>(20,500)</m> and <m>(40,1000) </m> lie on the graph. As we move from the first point to the second point, <m>x</m> increases by 20 units, so <m>\Delta x=20</m>, and <m>y</m> increases by 500 units, so <m>\Delta y = 500</m>. Thus
             <md> <mrow>\frac{\Delta y}{\Delta x}=\frac{500}{20}=25 </mrow></md> </p></li>
-        <li><sidebyside><p>The segments are shown in the graph.</p>
+        <li><p>The segments are shown in the graph below.</p></sidebyside>
+        <li><sidebyside><p>The slope is 25, which means that <m>y</m> increases 25 units for each 1-unit increase in <m>x</m>. So, if <m>\Delta x=1</m>, then <m>\Delta y=25</m>.</p>
             <image xml:id="fig-example-1-4-3-ans"><description>line with different scales on axes</description>
             <latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -373,7 +375,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
                     \draw [black,decorate,decoration={brace,amplitude=7pt}] (8,4.8) -- (4,4.8) node [black, below,midway, yshift=-9, fill=white, inner sep=1] {$\Delta x$};
                     \end{tikzpicture}]]>
             </latex-image></image></sidebyside></li>
-        <li><p>The slope is 25, which means that <m>y</m> increases 25 units for each 1-unit increase in <m>x</m>. So, if <m>\Delta x=1</m>, then <m>\Delta y=25</m>.</p></li></ol></p></solution></example>
+        </ol></p></solution></example>
 
 <exercise><title>Practice 3</title>
 <introduction><sidebyside width="40%">
@@ -551,7 +553,8 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <subsection><title>Lines Have Constant Slope</title>
 
-<assemblage><p>The slope of a line is constant: no matter which two points you pick to computethe slope, you will always get the same value.</p></assemblage>
+<assemblage><title>Lines Have Constant Slope</title>
+    <p>The slope of a line is constant: no matter which two points you pick to compute the slope, you will always get the same value.</p></assemblage>
 
 <sidebyside widths="50% 45%" margins="0% 0%" valigns="middle middle">
     <stack><p>For the line shown in the figure, try computing the slope using the points <m>P</m> and <m>Q</m>, and then using the points <m>G</m> and <m>H</m>. In each case, you should find that the slope is <m>\frac{3}{2} </m>.</p>
@@ -585,7 +588,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
        <mrow>\frac{2}{3} \amp= \frac{\Delta y}{9} \amp\amp \blert{\text{Solve for }\Delta y.} </mrow>
        <mrow>\Delta y \amp = 9 \left(\frac{2}{3} \right)=6</mrow></md></p>
 <p>You can use the graph to check this result for yourself; try starting at the point <m>(-6,-3) </m>.</p>
-<p>The fact that lines have constant slope has two important consequences. First because <m>m</m> is constant for a given line, we can use the formula <m>m=\dfrac{\Delta y}{\Delta x} </m>to find <m>\Delta y</m> when we know <m>\Delta x </m>, or to find<m>\Delta x </m> when we know <m>\Delta y </m>.</p>
+<p>The fact that lines have constant slope has two important consequences. First because <m>m</m> is constant for a given line, we can use the formula <m>m=\dfrac{\Delta y}{\Delta x} </m>to find <m>\Delta y</m> when we know <m>\Delta x </m>, or to find <m>\Delta x </m> when we know <m>\Delta y </m>.</p>
 
 <exercise><title>QuickCheck 5</title>
 <webwork><pg-code>       

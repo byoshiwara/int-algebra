@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="PopulationGrowth"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Investigation 7: Population Growth</title>
+<section xml:id="PopulationGrowth"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Population Growth</title>
 
 <introduction><p>In a laboratory experiment, researchers establish a colony of <m>100</m> bacteria and monitor its growth. The colony triples in population every day.</p>    
 

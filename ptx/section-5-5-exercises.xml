@@ -239,7 +239,7 @@
         <li><p>Sketch a graph of the function by hand, and label the scales on the axes.</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="15"><statement><p>Computer monitors produce a magnetic field. The effect of the field, <m>B</m>, on the user varies inversely with his or her distance, <m>d</m>, from the screen. The field from a certain color monitor was measured at 22 milligauss 4> inches from the screen.<ol label="a">
+<exercise number="15"><statement><p>Computer monitors produce a magnetic field. The effect of the field, <m>B</m>, on the user varies inversely with his or her distance, <m>d</m>, from the screen. The field from a certain color monitor was measured at 22 milligauss 4 inches from the screen.<ol label="a">
         <li><p>Express the field strength as a function of distance from the screen. Complete the table and graph your function in a suitable window.</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>

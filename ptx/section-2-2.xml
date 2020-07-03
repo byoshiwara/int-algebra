@@ -44,7 +44,7 @@
 
 <subsection><title>Solving Systems by Graphing</title>
 
-<sidebyside widths="60% 40%" margins="0% 0%" valigns="middle middle">
+<sidebyside widths="57% 38%" margins="0% 0%" valigns="middle middle">
 <p>Every point on the graph of an equation represents a solution to that equation. A solution to both equations must be a point that lies on both graphs. Therefore, a solution to the system is a point where the two graphs intersect. The figure at right shows a graph of the system about robins and thrushes. The two lines appear to intersect at the point <m>(4, 6)</m>, so we expect that the values <m>t = \alert{4}</m> and <m>r = \alert{6}</m> are the solution to the system. We can check by verifying that these values satisfy both equations in the system.</p>
     <image xml:id="fig-robins-thrushes"><description>two lines in first quadrant</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -111,7 +111,7 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
                    <cell><m>\text{Ymax}=10</m></cell></row>
         </tabular></sidebyside>
 <p>and enter the two equations. We can see in the figure that the two lines intersect in the third quadrant. We use the <kbd>TRACE</kbd> key to find the coordinates of the intersection point, <m>(-2,-3)</m>. The solution to the system is <m>x=-2</m>, <m>y=-3</m>.</p>
-        <sidebyside  width="35%">
+        <sidebyside  width="38%">
             <image source="images/fig-GC-2x2-system"><description>GC display of 2 lines intersecting in 3rd quadrant</description></image>
         </sidebyside></solution>
 </example>

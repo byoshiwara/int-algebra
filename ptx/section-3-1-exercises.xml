@@ -268,13 +268,9 @@
 
 <exercise number="26"><statement><p>Two years ago Carol's living expenses were $1200 per month. This year the same items cost Carol $1400 per month. What was the annual inflation rate for the past two years?</p></statement></exercise>
 
-<exercise number="27">
-    <statement>
-        <sidebyside widths="65% 20%" margins="0% 5 %" valigns="middle middle">
-            <p>What size rectangle will fit inside a circle of radius 30 feet if the length of the rectangle must be three times its width?</p>        
-            <image xml:id="fig-inscribed-rectangle">
-            <description>rectangle inscribed in circle radius 30</description>
-            <latex-image>
+<exercise number="27"><statement><sidebyside widths="65% 20%" margins="0% 5 %" valigns="middle middle">
+<p>What size rectangle will fit inside a circle of radius 30 feet if the length of the rectangle must be three times its width?</p>        
+    <image xml:id="fig-inscribed-rectangle"><description>rectangle inscribed in circle radius 30</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -286,10 +282,7 @@
             \filldraw[blue] (0,0) circle (.8);
             \draw[blue,thick] (0,0) -- (9.2,28.5) node[above left, midway] {30 ft};
             \end{tikzpicture}]]>
-            </latex-image>
-        </image>
-        </sidebyside>
-    </statement>
+            </latex-image></image></sidebyside></statement>
 <answer><p>19 ft by 57 ft</p></answer></exercise>
 
 <exercise number="28"><statement><p>A storage box for sweaters is consturcted from a square sheet of cardboard measuring <m>x</m> inches on a side. The volume of the box, in cubic inches, is
@@ -329,18 +322,12 @@ If the box should have a volume of 1960 cubic inches, what size cardboard square
         <li><m>\dfrac{1}{4}</m></li>
         <li>1.96 cm</li></ol></answer></exercise>
 
-<exercise number="30">
-    <statement>
-        <sidebyside widths="65% 25%" margins="0% 5%" valigns="middle middle">
-            <p>The area of a ring is given by the formula
-                <md><mrow>A = \pi R^2 - \pi r^2</mrow></md>
-                where <m>R</m> is the radius of the outer circle, and <m>r</m> is the radius of the inner circle.
-            </p>
-            <image source="images/fig-annulus"><description>graph</description>
-            </image>
-        </sidebyside>
-        <p><ol label="a">
-    <li>Suppose the inner radius of the ring is kept fixed at <m>r=4</m> centimeters. but the radius of the outer circle, <m>R</m>, is allowed to vary.Find the area of the ring when the outer radius is 6 centimeters, 8 centimeters, and 12 centimeters.</li>
+<exercise number="30"><statement><sidebyside widths="65% 25%" margins="0% 5%" valigns="middle middle">
+<p>The area of a ring is given by the formula
+        <md><mrow>A = \pi R^2 - \pi r^2</mrow></md>
+ where <m>R</m> is the radius of the outer circle, and <m>r</m> is the radius of the inner circle.</p>
+        <image source="images/fig-annulus"><description>graph</description></image></sidebyside><p><ol label="a">
+    <li>Suppose the inner radius of the ring is kept fixed at <m>r=4</m> centimeters, but the radius of the outer circle, <m>R</m>, is allowed to vary. Find the area of the ring when the outer radius is 6 centimeters, 8 centimeters, and 12 centimeters.</li>
     <li><p>Graph the area equation, with <m>r=4</m>, in the window
         <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 14.1</mrow>
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 400</mrow></md>

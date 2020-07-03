@@ -40,7 +40,7 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
             <md><mrow>-2x^3+x^2+16x=15\text{?}</mrow></md></p>
         <p><var name="$which" form="checkboxes"/> </p>
     </statement>
-    <solution><p>(B) and (D)</p>
+    <solution><p><m>x=-3</m> and <m>x=1</m></p>
     </solution>
 </webwork>
 </exercise>
