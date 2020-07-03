@@ -290,7 +290,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
                 <image pg-name="$gr[2]"/>
                 <image pg-name="$gr[3]"/>
             </sidebyside>
-            <p>Which of the above is the best match for the graph)?</p>
+            <p>Which of the above is the best match for the graph?</p>
             <p><var name="$mc" form="buttons"/> </p>
      </statement>
     <solution><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
@@ -544,7 +544,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
                     <image pg-name="$gr[0]"/>
                     <image pg-name="$gr[3]"/>
                 </sidebyside>
-                <p>Which of the above is the best match for the graph)?</p>
+                <p>Which of the above is the best match for the graph?</p>
                 <p><var name="$mc" form="buttons"/> </p></li>
         <li><p>Find the coordinates of the vertices and covertices.  Separate different points with a comma. Use "sqrt(2)" to get <m>\sqrt{2}</m>.</p>
             <p>vertices: <var name="$vertices" width="25"  evaluator="$my_evaluator"/> </p>
