@@ -349,9 +349,8 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 <solution><p><ol label="a">
         <li><p>The points <m>(20,500)</m> and <m>(40,1000) </m> lie on the graph. As we move from the first point to the second point, <m>x</m> increases by 20 units, so <m>\Delta x=20</m>, and <m>y</m> increases by 500 units, so <m>\Delta y = 500</m>. Thus
             <md> <mrow>\frac{\Delta y}{\Delta x}=\frac{500}{20}=25 </mrow></md> </p></li>
-        <li><p>The segments are shown in the graph below.</p></sidebyside>
-        <li><sidebyside><p>The slope is 25, which means that <m>y</m> increases 25 units for each 1-unit increase in <m>x</m>. So, if <m>\Delta x=1</m>, then <m>\Delta y=25</m>.</p>
-            <image xml:id="fig-example-1-4-3-ans"><description>line with different scales on axes</description>
+        <li><p>The segments are shown in the graph below.</p>
+        <sidebyside width="45%"><image xml:id="fig-example-1-4-3-ans"><description>line with different scales on axes</description>
             <latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
@@ -374,7 +373,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
                     \draw [black,decorate,decoration={brace,amplitude=7pt}] (8.2,10) -- (8.2,5) node [black, right,midway, xshift=8, fill=white, inner sep=1] {$\Delta y$};
                     \draw [black,decorate,decoration={brace,amplitude=7pt}] (8,4.8) -- (4,4.8) node [black, below,midway, yshift=-9, fill=white, inner sep=1] {$\Delta x$};
                     \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></li>
+            </latex-image></image></sidebyside>
+        </li>
+        <li><p>The slope is 25, which means that <m>y</m> increases 25 units for each 1-unit increase in <m>x</m>. So, if <m>\Delta x=1</m>, then <m>\Delta y=25</m>.</p></li>
         </ol></p></solution></example>
 
 <exercise><title>Practice 3</title>
@@ -496,14 +497,14 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise><title>Practice 4</title>
     <introduction><sidebyside width="35%">
-        <image xml:id="fig-ex-1-4-4"><description>linear graph of garbage deposited</description><latex-image>
+        <image xml:id="fig-garbage-deposited"><description>linear graph of garbage deposited</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
             \begin{tikzpicture} [scale=.6]
             \draw[cyan] (0,0) grid  (9,10);
             \draw[black,thick, ->, >=stealth'] (0,0)--(9.5,0) node[right]{$t$};
-            \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.5) node[above]{$a$};
+            \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.5) node[above]{$G$};
             \foreach \x  [evaluate=\x as \xi using int(\x *2.5)]in {2,4,6,8} {
               \draw[black,thick] (\x,.1)--++(0,-.2) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
             }

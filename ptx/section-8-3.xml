@@ -197,7 +197,7 @@ are like fractions, while
 are unlike fractions.  We can add or subtract like fractions for the same reason that we can add like terms.  Just as
     <me>3x+4x=7x</me>
 we can think of the sum  <m>~\dfrac{3}{5}+\dfrac{4}{5}~</m> as
-    <me>3(\dfrac{1}{5})+4(\dfrac{1}{5})=7(\dfrac{1}{5})</me>
+    <me>3\left(\dfrac{1}{5}\right)+4\left(\dfrac{1}{5}\right) =7\left(\dfrac{1}{5}\right)</me>
 or <m>\dfrac{7}{5}</m>. The denominators of the terms must be the same because they tell us what kind of quantity we are adding.  We can add two quantities if they are the same kind.</p>
 
 <p>When we add like fractions, we add their numerators and keep their denominators the same.  For example,

@@ -623,7 +623,7 @@ We see that</p>
 <p>Finding the value of the output variable that corresponds to a particular value of the input variable is called <term>evaluating the function</term><idx>evaluating the function</idx>.</p>
 
 <example xml:id="example-postage2"><statement>
-    <p>Let <m>g</m> be the name of the postage function defined by the table in <xref ref="example-functions" text="type-global"/> b. Find <m>g(1)</m>, <m>g(3)</m>, and <m>g(6.75</m>).</p></statement>
+    <p>Let <m>g</m> be the name of the postage function defined by the table in <xref ref="example-table-functions" text="type-global"/> b. Find <m>g(1)</m>, <m>g(3)</m>, and <m>g(6.75</m>).</p></statement>
 <solution><p>According to the table,</p>
     <sidebyside><tabular>
             <row>
