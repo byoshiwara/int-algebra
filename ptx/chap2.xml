@@ -11,7 +11,7 @@
         <sidebyside width="80%"><image source="images/BirthRateVsFemaleLiteracy"><description>Plot of birth rate vs female literacy</description></image></sidebyside>
 
 
-<investigation><title>Investigation 2: Water Level</title>
+<investigation><title>Water Level</title>
  
 <p>When sailing upstream in a canal or a river that has rapids, ships must sometimes negotiate locks to raise them to a higher water level. Suppose your ship is in one of the lower locks, at an elevation of 20 feet. The next lock is at an elevation of 50 feet. Water begins to flow from the higher lock to the lower one, raising your level by 1 foot per minute, and simultaneously lowering the water level in the next lock by 1.5 feet per minute. <ol label="1">
 
