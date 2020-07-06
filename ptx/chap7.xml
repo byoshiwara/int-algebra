@@ -73,7 +73,7 @@
 
 <p>The data shown are modeled by the exponential function <m>N(t) = 2200(1.356)^t</m>, where <m>t</m> is the number of years since <m>1970</m>.</p>
 
-<investigation xml:id="investigation-population-growth"><title>Investigation 7A: Population Growth</title>
+<investigation xml:id="investigation-population-growth"><title>Population Growth</title>
 
 <p>In a laboratory experiment, researchers establish a colony of <m>100</m> bacteria and monitor its growth. The colony triples in population every day. </p>
 <sidebyside>
@@ -158,7 +158,7 @@
         </sidebyside>
 </investigation>
 
-<investigation><title>Investigation 7B: Exponential Decay</title>
+<investigation><title>Exponential Decay</title>
 
  <p>A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals), the population declined to approximately 0.90 of its earlier figure.</p>
     <sidebyside><tabular halign="center" right="minor" left="minor" bottom="minor"><col top="minor" /><col top="minor" /><col top="none"/><col halign="left"/>                      

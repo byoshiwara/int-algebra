@@ -47,7 +47,7 @@
 
 <p>The total distance traveled by the ball can be modeled by the equation, <m>d = kt^2</m>, where <m>k</m> is a constant. Galileo found that this relationship holds no matter how steep he made the ramp. If we plot the height of the ball (rather than the distance traveled) as a function of time, we obtain a portion of the graph of a quadratic function.</p>
     
-<investigation><title>Investigation 3A: Falling</title>
+<investigation><title>Falling</title>
 
 <p>Suppose you drop a small object from a height and let it fall under the influence of gravity.
 Does it fall at the same speed throughout its descent? The diagram shows a sequence of photographs of a steel ball falling onto a table. The photographs were taken using a stroboscopic flash at intervals of 0.05 second, and a scale on the left side shows the height of the ball, in feet, at each interval.</p>
@@ -99,7 +99,7 @@ Does it fall at the same speed throughout its descent? The diagram shows a seque
 <li><p>Use your answers to part (4) to verify algebraically that the graph is not linear.</p></li>
 </ol></p></investigation>
 
-<investigation><title>Investigation 3B: Perimeter and Area</title>
+<investigation><title>Perimeter and Area</title>
 
 <sidebyside widths="65% 25%" margins="0% 0%" valigns="middle middle">
 <p>

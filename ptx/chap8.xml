@@ -15,7 +15,7 @@
     <sidebyside width="50%"><image source="images/Letter-a"><description>design of the letter a</description>
     </image></sidebyside>
 
-<investigation><title>Investigation 8: Bézier Curves</title>
+<investigation><title>Bézier Curves</title>
 
 <p>A Bézier curve is actually a sequence of short curves pieced together. Each piece has two endpoints and (for nonlinear curves) at least one control point. The control points do not lie on the curve itself, but they determine its shape. Two polynomials define the curve, one for the <m>x</m>-coordinate and one for the <m>y</m>-coordinate.</p>
 
