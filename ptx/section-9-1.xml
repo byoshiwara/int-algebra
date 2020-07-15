@@ -171,7 +171,7 @@ which is undefined. The slope of any vertical line is undefined because the expr
 <subsection><title>Parallel and Perpendicular Lines</title>
 
 <sidebyside widths="55% 30%" margins="0% 0%" valigns="middle middle">
-    <p>Lines that lie in the same plane but never intersect are called <term>parallel</term><idx>parallel</idx> lines. They have the same "steepness" or inclination, so it is easy to understand that parallel lines have the same slope. Youcan verify that the parallel lines in the figure at right both have slope <m>m = 2.</m></p>
+    <p>Lines that lie in the same plane but never intersect are called <term>parallel</term><idx>parallel</idx> lines. They have the same "steepness" or inclination, so it is easy to understand that parallel lines have the same slope. You can verify that the parallel lines in the figure at right both have slope <m>m = 2.</m></p>
     <image xml:id="fig-parallel-lines"><description>parallel lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -289,7 +289,7 @@ so the lines are perpendicular.</p></solution></example>
 
 <example><statement><p>Show that the triangle with vertices <m>A (0, 8)</m>, <m>B (6, 2)</m>, and <m>C (-4, 4)</m> is a right triangle.</p></statement>
     
-<solution><p>We will show that two of the sides of the right triangle are perpendicular. The line segment <m>\overline{AB}</m> has slope
+<solution><p>We will show that two of the sides of the right triangle are perpendicular. The line segment <m>~\overline{AB}~</m> has slope
             <md><mrow>m_1=\frac{2-8}{6-0}=\frac{-6}{6}=-1</mrow></md></p>
         <sidebyside widths="50% 35%" margins="0% 10%" valigns="middle middle">
         <p>and the segment <m>\overline{AC} ~ </m> has slope
@@ -403,6 +403,8 @@ The given line and the perpendicular line are shown in the figure on the above.<
     </pg-code>
     <statement><p>Find an equation for the altitude of the triangle shown above . (The altitude of a triangle is perpendicular to its base.) Find the slope of the base.</p>
     <p><m>m_1=</m> <var name="$m1" width="5"/></p>
+    <p>Find the slope of the altitude.</p>
+    <p><m>m_2=</m> <var name="$m2" width="5"/></p>
     <p>Use the point-slope formula. Use <m>m_2</m> for the slope, and the vertex of the triangle for <m>(x_1, y_1)</m>. 
             <md><mrow>y- y_1 = m (x- x_1)</mrow></md>
         Write your answer in slope-intercept form.</p>

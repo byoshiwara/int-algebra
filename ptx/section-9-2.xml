@@ -118,7 +118,7 @@ Taking the (positive) square root of each side of this equation gives us the <te
 
 <warning><p>We cannot simplify <m>\sqrt{4+16} </m> as <m>\sqrt{4}+\sqrt{16} </m>. Remember that <m>\sqrt{a^2+b^2}\ne a+b </m>. You can easily see this by observing that
         <md><mrow>\sqrt{3^2+4^2}=\sqrt{9+16}=\sqrt{5}</mrow></md>
-so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For the same reason, we cannot simplify the distance formula to <m>(x-x_1)+(y-y_1)</m>.</p></warning>
+so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For the same reason, we cannot simplify the distance formula to <m>(x_2-x_1)+(y_2-y_1)</m>.</p></warning>
 
 <exercise><title>Practice 1</title>
 <webwork><pg-code>
@@ -152,8 +152,8 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
          \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \draw[red, thick] (-5,3)--(3,-9) node[midway, right, xshift=3, yshift=5, fill=white, inner sep=1] {$d$};
-        \draw[blue,ultra thick, dashed] (-5,3)--(-5,-9) node[left, midway, xshift=-2, fill=white, inner sep=1]{$8$};
-        \draw[blue,ultra thick, dashed] (-5,-9)--(3,-9) node[below, midway, yshift=-2, fill=white, inner sep=1]{$12$};
+        \draw[blue,ultra thick, dashed] (-5,3)--(-5,-9) node[left, midway, xshift=-2, fill=white, inner sep=1]{$12$};
+        \draw[blue,ultra thick, dashed] (-5,-9)--(3,-9) node[below, midway, yshift=-2, fill=white, inner sep=1]{$8$};
         \filldraw[blue] (-5,3) circle (.2) node[above left, yshift=3, fill=white, inner sep=1, text=black] {$(-5,3)$};
         \filldraw[blue] (3,-9) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(3,-9)$};
         \node[fill=white, inner sep=1,text=red] at (0.5,1.5) {$8^2+12^2=d^2$};
@@ -260,7 +260,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
 <p>Now consider the circle in Figure (b), whose center is the point <m>(h,k)</m>.  Every point <m>P(x,y)</m> on the circle lies a distance <m>r</m> from <m>(h,k)</m>, so the equation of the circle is given by the following formula.</p>
 
 <assemblage><title>Standard Form for a Circle</title>
-    <p>The equation for a <term>circle</term> of radius <m>r</m> centered at the point <m>(k,k)</m> is
+    <p>The equation for a <term>circle</term> of radius <m>r</m> centered at the point <m>(h,k)</m> is
         <md><mrow>\blert{(x-h)^2+(y-k)^2=r^2}</mrow></md></p>
 </assemblage>
 
