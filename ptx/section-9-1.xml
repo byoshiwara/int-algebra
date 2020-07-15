@@ -410,7 +410,7 @@ The given line and the perpendicular line are shown in the figure on the above.<
         Write your answer in slope-intercept form.</p>
     <p><m>y=</m><var name="$f" width="8"/></p>
     </statement>
-    <solution><p><m>m_1=\dfrac{2}{5}</m>; <m>y=\dfrac{-5}{2}x+\dfrac{17}{2} </m></p>
+    <solution><p><m>m_1=\dfrac{2}{5}</m>; <m>m_2=\dfrac{-5}{2}</m>; <m>y=\dfrac{-5}{2}x+\dfrac{17}{2} </m></p>
     </solution>
 </webwork></exercise>
 </subsection>
