@@ -28,7 +28,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
 <p>Recall that a circle is the set of all points in a plane that lie at a fixed distance from its center. An ellipse also has a geometric definition.</p>
 
 <definition><title>Ellipse</title>
-    <p>An <term>ellipse</term><idx>ellipse</idx> is the set of points in the plane, the sum of whose distances fro mtwo fixed points (the <term>foci</term><idx>focus</idx>) is a constant.</p>
+    <p>An <term>ellipse</term><idx>ellipse</idx> is the set of points in the plane, the sum of whose distances from two fixed points (the <term>foci</term><idx>focus</idx>) is a constant.</p>
 </definition>
 
 <p>Using the distance formula and the definition above, we can show that the equation of an ellipse centered at the origin has the following standard form.</p>
