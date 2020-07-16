@@ -204,7 +204,7 @@
 <exercise number="20"><statement><p><ol label="a">
     <li><p>Sketch the triangle with vertices <m>A(-5, 12)</m>, <m>B(4,-2)</m>, and <m>C(-1,6)</m>.</p></li>
     <li><p>Find the slope of the side <m>\overline{AC}.</m></p></li>
-    <li><p>Find the slope of the altitude from point <m>B</m> to side <m>\overline{AC}.</m></p></li>
+    <li><p>Find the slope of the altitude from point <m>B</m> to side <m>\overline{AC}.</m></p></li>
     <li><p>Find an equation for the line that includes the altitude from point <m>B</m> to the side <m>\overline{AC} </m>.
         </p></li></ol></p></statement></exercise>
 
