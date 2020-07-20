@@ -80,7 +80,7 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
     </conclusion>
 </exercise>
 
-<p>What about a system of two quadratic equations <m>~y = ax^2 + bx + c~</m>?  You can sketch some possible systems to convince yourself that two such graphs can intersect in one point, two points, or no points at all.</p>
+<p>What about a system of two quadratic equations <m>~y = ax^2 + bx + c~</m>?  You can sketch some possible systems to convince yourself that two such graphs can intersect in one point, two points, or no points at all.</p>
 
 <example><statement><p>Solve the system
             <md><mrow>y \amp= (x + 1.1)^2</mrow>
@@ -88,13 +88,13 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
     
 <solution><p>We graph these two equations in the standard window and use the <term>intersect</term> feature to locate one of the solutions, as shown in the figure.</p>
     <sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle">
- <p>You can check that the point <m>(0.9, 4)</m> is an exact solution to the system by substituting <m>x = 0.9</m> and <m>y = 4</m> into each equation of the system. We find the other solution by moving the bug close to the other intersection point and using the <term>intersect</term> feature again. You can verify that the other solution is the point <m>(-2.1, 1).</m></p>
+ <p>You can check that the point <m>(0.9, 4)</m> is an exact solution to the system by substituting <m>x = 0.9</m> and <m>y = 4</m> into each equation of the system. We find the other solution by moving the bug close to the other intersection point and using the <term>intersect</term> feature again. You can verify that the other solution is the point <m>(-2.1, 1).</m></p>
     <image source="images/fig-GC-quadratic-system2" ><description>GC graph showing quadratic system</description></image>
         </sidebyside>
 <p>To solve the system algebraically, we equate the two expressions for <m>y</m>.
-            <md><mrow>(x + 1.1)^2 = 7.825 − 2x − 2.5x^2</mrow></md>
-After expanding the left side and collecting like terms, we arrive at a quadratic equation, which we can solve with the quadratic formula, and find two values for <m>x</m>, namely <m>x = 0.9</m> and <m>x = -2.1</m>. To find the <m>y</m>-value for each of these intersection points, we substitute the <m>x</m>-coordinate into either of the two original equations. For example, for <m>x = 0.9</m>, 
-            <md><mrow>y = (0.9 + 1.1)^2 = 2^2 = 4</mrow></md></p></solution></example>
+            <md><mrow>(x + 1.1)^2 = 7.825 − 2x − 2.5x^2</mrow></md>
+After expanding the left side and collecting like terms, we arrive at a quadratic equation, which we can solve with the quadratic formula, and find two values for <m>x</m>, namely <m>x = 0.9</m> and <m>x = -2.1</m>. To find the <m>y</m>-value for each of these intersection points, we substitute the <m>x</m>-coordinate into either of the two original equations. For example, for <m>x = 0.9</m>, 
+            <md><mrow>y = (0.9 + 1.1)^2 = 2^2 = 4</mrow></md></p></solution></example>
 
 <exercise><title>Practice 2</title>
     <webwork><pg-code>
@@ -134,7 +134,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
                 <mrow>xy\amp=2</mrow></md></p></statement>
 
 <solution><sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
-<p>We will use substitution to solve the system. We solve the easier of the two equations(the second equation) for <m>y</m> to obtain <m>y =\dfrac{2}{x}</m>. Then we substitute <m>\dfrac{2}{x} </m> for <m>y</m> in the first equation to find
+<p>We will use substitution to solve the system. We solve the easier of the two equations(the second equation) for <m>y</m> to obtain <m>y =\dfrac{2}{x}</m>. Then we substitute <m>\dfrac{2}{x} </m> for <m>y</m> in the first equation to find
             <md><mrow>x^2+\left(\frac{2}{x} \right)^2=5 \quad\text{ or }\quad x^2+\frac{4}{x^2} =5  </mrow></md></p>
         <image xml:id="fig-example-9-5-3"><description>circle and hyperbola</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -157,7 +157,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
                 \filldraw[black] (-2,-1) circle (.15);
                 \end{tikzpicture}]]>
                 </latex-image></image></sidebyside>
-    <p>This equation has only one variable, <m>x</m>, and we solve it by first clearing fractions. We multiply both sides by <m>x^2</m>, and then subtract <m>5x^2</m> to obtain
+    <p>This equation has only one variable, <m>x</m>, and we solve it by first clearing fractions. We multiply both sides by <m>x^2</m>, and then subtract <m>5x^2</m> to obtain
             <md><mrow>x^4-5x^2+4\amp=0 \amp\amp \blert{\text{Factor the left side.}}</mrow>
                 <mrow>(x^2-1)(x^2-4)\amp=0 \amp\amp \blert{\text{Apply the zero-facor principle.}}</mrow>
                 <mrow>x^2-1=0\quad\text{ or }\quad x^2\amp-4=0\amp\amp \blert{\text{Solve each equation.}}</mrow>
@@ -187,7 +187,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
 <subsection><title>Solving Systems by Elimination</title>
 
 <p>We used substitution in the previous Example to solve the system. If both equations are ofthe form 
-    <md><mrow>ax^2 + by^2 = c</mrow></md>
+    <md><mrow>ax^2 + by^2 = c</mrow></md>
 elimination of variables is more efficient.</p>
 
 <example><statement><p>Find the solutions to the following system of equations.
@@ -197,14 +197,14 @@ Verify the solutions on a graph.</p></statement>
 
 <solution><sidebyside widths="60% 38%" margins="0% 0%" valigns="middle middle">
 <p> We multiply the first equation by 3 and the second by 60 to obtain
-            <md><mrow>3x^2 − 6y^2 = 3</mrow>
-                <mrow>4x^2 + 6y^2 = 60</mrow></md>
+            <md><mrow>3x^2 − 6y^2 = 3</mrow>
+                <mrow>4x^2 + 6y^2 = 60</mrow></md>
 Adding these two equations, we have</p>
     <image source="images/fig-gc-hyperbola-ellipse"><description>GC ellipse and hyperbola</description></image></sidebyside>
 <p>
-            <md><mrow>7x^2 \amp= 63</mrow>
+            <md><mrow>7x^2 \amp= 63</mrow>
                 <mrow>x^2\amp=9</mrow></md>
-so <m>x = \pm 3</m>. We substitute these values for <m>x</m> into either equation and solve for <m>y</m> to find the solutions <m>(3, 2)</m>, <m>(3, -2)</m>, <m>(-3, 2)</m> and <m>(-3, -2)</m>.</p>
+so <m>x = \pm 3</m>. We substitute these values for <m>x</m> into either equation and solve for <m>y</m> to find the solutions <m>(3, 2)</m>, <m>(3, -2)</m>, <m>(-3, 2)</m> and <m>(-3, -2)</m>.</p>
 
 <p>The two original equations describe a hyperbola and an ellipse. We can obtain graphs on the calculator by solving each equation for <m>y</m> to get
     <md><mrow>y=\pm\sqrt{\frac{x^2-1}{2}} \quad\text{ and }\quad y=\pm\sqrt{10\left(1-\frac{x^2}{15} \right)}</mrow></md>
@@ -238,9 +238,9 @@ Using the window <m>[-7.05,7.05] \times [-4.65,4.65]</m>, we obtain the graph sh
 
 <solution> <sidebyside widths="60% 38%" margins="0% 0%" valigns="middle middle">
 <p>We subtract the second equation from the first equation to obtain
-                <md><mrow>8x - 8y = 32</mrow></md>
-Solving for <m>x</m>, we have
-                <md><mrow>x = y + 4</mrow></md></p>
+                <md><mrow>8x - 8y = 32</mrow></md>
+Solving for <m>x</m>, we have
+                <md><mrow>x = y + 4</mrow></md></p>
     <image xml:id="fig-example-9-5-4"><description>two circles</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -261,13 +261,13 @@ Solving for <m>x</m>, we have
                 \filldraw[black] (3,1) circle (.15);
                 \end{tikzpicture}]]>
                 </latex-image></image></sidebyside>
-<p>Next, we substitute <m>\alert{y + 4}</m> for <m>x</m> into either of the original equations. We use the first equation to find
+<p>Next, we substitute <m>\alert{y + 4}</m> for <m>x</m> into either of the original equations. We use the first equation to find
         <md><mrow>(\alert{y+4})^2-4(\alert{y+4})+y^2+2y\amp= 20 \amp\amp \blert{\text{Remove parentheses.}}</mrow>
             <mrow>(y^2+8y+16)-16+y^2+2y\amp=20 \amp\amp \blert{\text{Collect like terms.}}</mrow>
             <mrow>2y^2+6y-20\amp=0 \amp\amp \blert{\text{Divide both sides by 2.}}</mrow>
             <mrow>y^2+3y-10\amp= 0 \amp\amp \blert{\text{Factor the left side.}}</mrow>
             <mrow>(y+5)(y-2)\amp= 0</mrow></md>
-Thus, <m>y = -5</m> or <m>y = 2</m>. From the equation <m>x = y + 4</m>, we find that when <m>y = -5</m>, <m>x =-1</m>, and when <m>y = 2</m>, <m>x = 6</m>. Thus the two circles intersect at <m>(-1, -5)</m> and <m>(6, 2)</m>, as shown in the figure above.</p></solution></example>
+Thus, <m>y = -5</m> or <m>y = 2</m>. From the equation <m>x = y + 4</m>, we find that when <m>y = -5</m>, <m>x =-1</m>, and when <m>y = 2</m>, <m>x = 6</m>. Thus the two circles intersect at <m>(-1, -5)</m> and <m>(6, 2)</m>, as shown in the figure above.</p></solution></example>
 
 <exercise><title>Practice 5</title>
     <webwork><pg-code>

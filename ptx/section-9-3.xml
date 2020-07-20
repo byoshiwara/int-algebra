@@ -4,10 +4,10 @@
 <section xml:id="Ellipses"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Conic Sections: Ellipses</title>
 
 <introduction><p>The graph of any first-degree equation in two variables,
-        <md><mrow>Ax + By = C</mrow></md>
-is a line (as long as <m>A</m> and <m>B</m> are not both 0). A second-degree equation in two variables has the general form
-        <md><mrow>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</mrow></md>
-where <m>A</m>, <m>B</m>, and <m>C</m> cannot all be zero (because in that case the equation would not be second degree). The graphs of such equations are curves called <term>conic sections</term><idx>conic section</idx> because they are formed by the intersection of a plane and a cone, as illustrated below. Except for a few special cases called <em>degenerate conics</em>, the conic sections fall into four categories called <term>circles</term>, <term>ellipses</term>, <term>hyperbolas</term>, and <term>parabolas</term>.</p>
+        <md><mrow>Ax + By = C</mrow></md>
+is a line (as long as <m>A</m> and <m>B</m> are not both 0). A second-degree equation in two variables has the general form
+        <md><mrow>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</mrow></md>
+where <m>A</m>, <m>B</m>, and <m>C</m> cannot all be zero (because in that case the equation would not be second degree). The graphs of such equations are curves called <term>conic sections</term><idx>conic section</idx> because they are formed by the intersection of a plane and a cone, as illustrated below. Except for a few special cases called <em>degenerate conics</em>, the conic sections fall into four categories called <term>circles</term>, <term>ellipses</term>, <term>hyperbolas</term>, and <term>parabolas</term>.</p>
     <sidebyside width="80%"><image source="images/conics"><description>conics</description></image></sidebyside>
     
 <p>Conic sections whose centers (or vertices, in the case of parabolas) are located at the origin are called <term>central conics</term><idx>central conic</idx>.</p>
@@ -15,10 +15,10 @@ where <m>A</m>, <m>B</m>, and <m>C</m> cannot all be zero (because in that cas
 
 <subsection><title>Circles and Ellipses</title>
 
-<p>The circle is the most familiar of the conic sections. Recall that the standard equation for a circle of radius, <m>r</m>, centered at the point <m>(h,k)</m> is:
-    <md><mrow>(x-h)^2 + (y-k)^2 = r^2</mrow></md>
+<p>The circle is the most familiar of the conic sections. Recall that the standard equation for a circle of radius, <m>r</m>, centered at the point <m>(h,k)</m> is:
+    <md><mrow>(x-h)^2 + (y-k)^2 = r^2</mrow></md>
 and a circle whose center is the origin has equation
-    <md><mrow>x^2 + y^2 = r^2</mrow></md>
+    <md><mrow>x^2 + y^2 = r^2</mrow></md>
 If we divide through by <m>r^2</m>, we can also write this equation in the form
     <md><mrow>\frac{x^2}{r^2}+\frac{y^2}{r^2}=1</mrow></md>
 Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <m>r^2</m>. You can check that the <m>x</m>- and <m>y</m>-intercepts of this circle are <m>(0, \pm r)</m> and <m>(\pm r, 0)</m>.</p>
@@ -38,10 +38,10 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
     <md><mrow>\blert{\frac{x^2}{a^2}+\frac{y^2}{b^2}=1}</mrow></md></p>
 </assemblage>
 
-<p>By setting <m>y</m> equal to zero in the equation above, we find that the <m>x</m>-intercepts of this ellipse are <m>a</m> and <m>-a</m>; by setting <m>x</m> equal to zero, we find that the <m>y</m>-intercepts are <m>b</m> and <m>-b</m>.
+<p>By setting <m>y</m> equal to zero in the equation above, we find that the <m>x</m>-intercepts of this ellipse are <m>a</m> and <m>-a</m>; by setting <m>x</m> equal to zero, we find that the <m>y</m>-intercepts are <m>b</m> and <m>-b</m>.
 </p>
 
-<p> The line segment that passes through the foci (labeled <m>F_1</m> and <m>F_2</m> on the graphs below) and ends on the ellipse is called the <term>major axis</term><idx>major axis</idx>. If <m>a \gt b</m>, the major axis is horizontal, as shown in the Figure below left. The <m>x</m>-intercepts are the endpoints of the major axis, so its length is <m>2a</m>. The vertical segment with length <m>2b</m> is called the <term>minor axis</term><idx>minor axis</idx>. The endpoints of the major axis are the <term>vertices</term><idx>vertex</idx> of the ellipse and the endpoints of the minor axis are the <term>covertices</term><idx>covertex</idx>.</p>
+<p> The line segment that passes through the foci (labeled <m>F_1</m> and <m>F_2</m> on the graphs below) and ends on the ellipse is called the <term>major axis</term><idx>major axis</idx>. If <m>a \gt b</m>, the major axis is horizontal, as shown in the Figure below left. The <m>x</m>-intercepts are the endpoints of the major axis, so its length is <m>2a</m>. The vertical segment with length <m>2b</m> is called the <term>minor axis</term><idx>minor axis</idx>. The endpoints of the major axis are the <term>vertices</term><idx>vertex</idx> of the ellipse and the endpoints of the minor axis are the <term>covertices</term><idx>covertex</idx>.</p>
 
 <sidebyside widths="47% 47%" margins="0% 0%"><image xml:id="fig-ellipse-wide">
         <description>ellipse with horizontal major axis</description><latex-image>
@@ -95,13 +95,13 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<p>If <m>a \lt b</m>, the major axis is vertical and has length <m>2b</m>. In this case the endpoints of the major axis are the <m>y</m>-intercepts of the ellipse. (See Figure above right.) The minor axis is horizontal and has length <m>2a</m>.</p>
+<p>If <m>a \lt b</m>, the major axis is vertical and has length <m>2b</m>. In this case the endpoints of the major axis are the <m>y</m>-intercepts of the ellipse. (See Figure above right.) The minor axis is horizontal and has length <m>2a</m>.</p>
 
 <p>The standard form of the equation for an ellipse gives us enough information to sketch its graph.</p>
 
 <example><statement><p>Graph <m>\dfrac{x^2}{8}+\dfrac{y^2}{25}=1 </m></p></statement>
     
-<solution><p>The graph is an ellipse with major axis on the <m>y</m>-axis. Because <m>a^2 = 8</m> and <m>b^2 = 25</m>, the vertices are located at <m>(0, 5)</m> and <m>(0, -5)</m>, and the covertices lie  <m>\sqrt{8} </m>  units to the right and left of the center, or approximately at <m>(2.8, 0)</m> and <m>(-2.8, 0)</m>.</p>
+<solution><p>The graph is an ellipse with major axis on the <m>y</m>-axis. Because <m>a^2 = 8</m> and <m>b^2 = 25</m>, the vertices are located at <m>(0, 5)</m> and <m>(0, -5)</m>, and the covertices lie  <m>\sqrt{8} </m>  units to the right and left of the center, or approximately at <m>(2.8, 0)</m> and <m>(-2.8, 0)</m>.</p>
 <p> To sketch the ellipse, we first locate the vertices and covertices. Then we draw a smooth curve through the points. The graph of <m>\dfrac{x^2}{8}+\dfrac{y^2}{25}=1 </m> is shown below.</p>
     <sidebyside width="40%"><image xml:id="fig-example-9-3-1">
         <description>ellipse with vertical major axis</description><latex-image>
@@ -206,7 +206,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
 
 <p>The equation of any central ellipse may be written as
     <md><mrow>Ax^2+By^2=C</mrow></md>
-where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph are easier to identify if we first convert the equation to standard form.</p>
+where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph are easier to identify if we first convert the equation to standard form.</p>
 
 <example><statement><p> Graph <m>4x^2 +y^2=12</m></p></statement>
     
@@ -323,12 +323,12 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
 <p>We can find coordinates of other points on an ellipse by substituting a value for one variable and solving for the other variable.</p>
 
 <example><statement><p><ol label="a">
-    <li><p>Find the exact coordinates of any points with <m>y</m>-coordinate 2 on the ellipse <m>4x^2 + y^2 = 12</m>. Plot and label those points on the ellipse.</p></li>
-    <li><p>Solve the equation <m>4x^2 + y^2 = 12</m> when <m>y = -4</m>. What do the solutions tell you about the graph of the ellipse?</p></li></ol></p></statement>
+    <li><p>Find the exact coordinates of any points with <m>y</m>-coordinate 2 on the ellipse <m>4x^2 + y^2 = 12</m>. Plot and label those points on the ellipse.</p></li>
+    <li><p>Solve the equation <m>4x^2 + y^2 = 12</m> when <m>y = -4</m>. What do the solutions tell you about the graph of the ellipse?</p></li></ol></p></statement>
     
 <solution><p><ol label="a">
     <li><sidebyside widths="60% 34%" margins="0% 0%" valigns="middle middle">
-        <p>We substitute <m>y = \alert{2}</m> into the equation and solve for <m>x</m>.
+        <p>We substitute <m>y = \alert{2}</m> into the equation and solve for <m>x</m>.
                 <md><mrow>4x^2+(\alert{2})^2\amp = 12</mrow>
                     <mrow>4x^2\amp = 8</mrow>
                     <mrow>x^2\amp = 2</mrow>
@@ -352,7 +352,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
                         \end{tikzpicture}]]>
                     </latex-image></image></sidebyside>
         <p>There are two points with <m>y=2</m>, namely <m>\left(\sqrt{2},2\right) </m> and <m>\left(-\sqrt{2},2\right) </m></p></li>
-    <li><p> We substitute <m>y = \alert{-4}</m> into the equation and solve for <m>x</m>.
+    <li><p> We substitute <m>y = \alert{-4}</m> into the equation and solve for <m>x</m>.
                 <md><mrow>4x^2+(\alert{-4})^2\amp = 12</mrow>
                     <mrow>4x^2\amp = -4</mrow>
                     <mrow>x^2\amp = -1</mrow></md>
@@ -381,7 +381,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
 
 <subsection><title>Translated Ellipses</title>
 
-<p>An ellipse whose center is at the point <m>(h, k)</m> instead of the origin is said to be shifted or <term>translated</term> to that location.</p>
+<p>An ellipse whose center is at the point <m>(h, k)</m> instead of the origin is said to be shifted or <term>translated</term> to that location.</p>
 
 <assemblage><title>Ellipse</title>
     <p>The standard equation for an ellipse centered at <m>(h,k)</m> is
@@ -622,9 +622,9 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph
         $axis = Formula("2b");
     </pg-code>
     <statement><p><ol label="a">
-        <li><p>To write the equation <m>Ax^2 + By^2 = C</m> in the standard form for ellipses, we divide through by <var name="$C" width="2"/></p></li>
+        <li><p>To write the equation <m>Ax^2 + By^2 = C</m> in the standard form for ellipses, we divide through by <var name="$C" width="2"/></p></li>
         <li><p>The <m>x</m>-coordinates of all points on a central ellipse <m>\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1 </m> lie between <var name="$multians" width="2"/> and <var name="$multians" width="2"/></p></li>
-        <li><p>In the standard form for an ellipse, <m>(h, k)</m> are the coordinates of the <var name="$center" form="popup"/> of the ellipse.</p></li>
+        <li><p>In the standard form for an ellipse, <m>(h, k)</m> are the coordinates of the <var name="$center" form="popup"/> of the ellipse.</p></li>
         <li><p>The vertical axis of an ellipse <m>\dfrac{(x-h)^2}{a^2}+\dfrac{(y-k)^2}{b^2}=1 </m> has length <var name="$axis" width="2"/>.</p></li></ol></p>
     </statement>
     <solution><p><ol label="a">

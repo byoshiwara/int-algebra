@@ -130,9 +130,9 @@
                 <li><p><m>2y=5</m>; <m>\qquad 5y=-2</m></p></li></ol></p></statement></exercise>
 
 <exercise number="13"><statement><p><ol label="a">
-    <li><p>Use your calculator to graph the equations <m>y = 3x + 8</m> and <m>y = 3.1x + 6</m> together in the standard window. Do you think the lines are parallel?</p></li>
-    <li><p>Find the slope of each line in part (a). Are the lines parallel?</p></li>
-    <li><p>Find the <m>y</m>-value for each equation when <m>x = 20</m>. What do your answers tell you about the two lines?</p></li></ol></p></statement>
+    <li><p>Use your calculator to graph the equations <m>y = 3x + 8</m> and <m>y = 3.1x + 6</m> together in the standard window. Do you think the lines are parallel?</p></li>
+    <li><p>Find the slope of each line in part (a). Are the lines parallel?</p></li>
+    <li><p>Find the <m>y</m>-value for each equation when <m>x = 20</m>. What do your answers tell you about the two lines?</p></li></ol></p></statement>
 <answer><p><ol label="a">
             <li><p>No</p></li>
             <li><p>3 and 3.1; no</p></li>
@@ -148,21 +148,21 @@
 <subexercises><title>Applications</title>
 
 <exercise number="15"><statement><p><ol label="a">
-    <li><p>Sketch the triangle with vertices <m>P(-1, 3)</m>, <m>Q(-3, 8)</m>, and <m> R(4, 5)</m>.</p></li>
-    <li><p>Show that the triangle is a right triangle. (Hint: Find the slope of each side of the triangle.)</p></li>
+    <li><p>Sketch the triangle with vertices <m>P(-1, 3)</m>, <m>Q(-3, 8)</m>, and <m> R(4, 5)</m>.</p></li>
+    <li><p>Show that the triangle is a right triangle. (Hint: Find the slope of each side of the triangle.)</p></li>
     </ol></p></statement>
 <answer><p>b. <m>m_{PQ}=\dfrac{-5}{2} </m>; <m>m_{PR}=\dfrac{2}{5} </m></p></answer></exercise>
 
 <exercise number="16"><statement><p><ol label="a">
-    <li><p>Sketch the quadrilateral with vertices <m>P(2,4)</m>, <m>Q(3, 8)</m>, and <m> R(5,1)</m>, and <m>S(4,-3)</m>.
+    <li><p>Sketch the quadrilateral with vertices <m>P(2,4)</m>, <m>Q(3, 8)</m>, and <m> R(5,1)</m>, and <m>S(4,-3)</m>.
         </p></li>
-    <li><p>Show that the quadrilateral is a parallelogram. (Hint: What should be true about the slopes of the opposite sides of the parallelogram?)</p></li></ol></p></statement></exercise>
+    <li><p>Show that the quadrilateral is a parallelogram. (Hint: What should be true about the slopes of the opposite sides of the parallelogram?)</p></li></ol></p></statement></exercise>
 
 <exercise number="17"><statement><p><ol label="a">
-    <li><p>Put the equation <m>~2y- 3x = 5~</m> into slope-intercept form, and graph the equation.</p></li>
+    <li><p>Put the equation <m>~2y- 3x = 5~</m> into slope-intercept form, and graph the equation.</p></li>
     <li><p>What is the slope of any line that is parallel to <m>2y -3x = 5</m>?</p></li>
     <li><p>On your graph for part (a), sketch by hand a line that is parallel to <m>2y - 3x = 5</m> and passes through the point <m>(-3, 2)</m>.</p></li>
-    <li><p>Use the point-slope formula to write an equation for the line that is parallel to the graph of <m>2y - 3x = 5</m> and passes through the point <m>(-3, 2)</m>.</p></li></ol></p></statement>
+    <li><p>Use the point-slope formula to write an equation for the line that is parallel to the graph of <m>2y - 3x = 5</m> and passes through the point <m>(-3, 2)</m>.</p></li></ol></p></statement>
 <answer><p><ol label="a">
     <li><p><m>y=\dfrac{3}{2}x+\dfrac{5}{2}</m>; the graph is below.</p></li>
     <li><p><m>\dfrac{3}{2}</m></p></li>
@@ -188,12 +188,12 @@
     <li><p><m>y=\dfrac{3}{2}x+\dfrac{7}{2}</m></p></li></ol></p></answer></exercise>
 
 <exercise number="18"><statement><p><ol label="a">
-    <li><p>Put the equation <m>~2y- 3x = 5~</m> into slope-intercept form, and graph the equation.</p></li>
+    <li><p>Put the equation <m>~2y- 3x = 5~</m> into slope-intercept form, and graph the equation.</p></li>
     <li><p>What is the slope of any line that is perpendicular to <m>2y -3x = 5</m>?</p></li>
     <li><p>On your graph for part (a), sketch by hand a line that is perpendicular to <m>2y - 3x = 5</m> and passes through the point <m>(1,4)</m>.</p></li>
-    <li><p>Use the point-slope formula to write an equation for the line that is perpendicular to the graph of <m>2y - 3x = 5</m> and passes through the point <m>(1,4)</m>.</p></li></ol></p></statement></exercise>
+    <li><p>Use the point-slope formula to write an equation for the line that is perpendicular to the graph of <m>2y - 3x = 5</m> and passes through the point <m>(1,4)</m>.</p></li></ol></p></statement></exercise>
 
-<exercise number="19"><statement><p>Two of the vertices of rectangle <m>~ABCD~</m> are <m>A(-5, 2)</m> and <m>B(-2, -4)</m>.
+<exercise number="19"><statement><p>Two of the vertices of rectangle <m>~ABCD~</m> are <m>A(-5, 2)</m> and <m>B(-2, -4)</m>.
     <ol label="a">
     <li><p>Find an equation for the line that includes side <m>\overline{AB}.</m></p></li>
     <li><p>Find an equation for the line that includes side <m>\overline{BC}.</m></p></li></ol></p></statement>
@@ -202,13 +202,13 @@
     <li><p><m>y=\dfrac{1}{2}x-3</m></p></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p><ol label="a">
-    <li><p>Sketch the triangle with vertices <m>A(-5, 12)</m>, <m>B(4,-2)</m>, and <m>C(-1,6)</m>.</p></li>
+    <li><p>Sketch the triangle with vertices <m>A(-5, 12)</m>, <m>B(4,-2)</m>, and <m>C(-1,6)</m>.</p></li>
     <li><p>Find the slope of the side <m>\overline{AC}.</m></p></li>
     <li><p>Find the slope of the altitude from point <m>B</m> to side <m>\overline{AC}.</m></p></li>
     <li><p>Find an equation for the line that includes the altitude from point <m>B</m> to the side <m>\overline{AC} </m>.
         </p></li></ol></p></statement></exercise>
 
-<exercise number="21"><statement><p>The center of a circle is the point <m>C(2, 4)</m>, and <m>P(-1, 6)</m> is a point on the circle. Find the equation of the line tangent to the circle at the point <m>P</m>. (Hint: Recall that the tangent line to a circle is perpendicular to the radius at the point of tangency.)</p>
+<exercise number="21"><statement><p>The center of a circle is the point <m>C(2, 4)</m>, and <m>P(-1, 6)</m> is a point on the circle. Find the equation of the line tangent to the circle at the point <m>P</m>. (Hint: Recall that the tangent line to a circle is perpendicular to the radius at the point of tangency.)</p>
         <sidebyside width="35%"><image xml:id="fig-hw-9-1-17">
             <description>circle and tangent line</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

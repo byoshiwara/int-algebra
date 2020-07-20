@@ -177,7 +177,7 @@
 
 <exercisegroup><introduction><p>Problems 25 and 26 deal with wildlife management and sustainable yield.</p></introduction>
 
-<exercise number="25"><statement><p>The annual increase, <m>I</m>, in the deer population in a national park is given by 
+<exercise number="25"><statement><p>The annual increase, <m>I</m>, in the deer population in a national park is given by 
             <md><mrow>I=kCx-kx^2</mrow></md>
 where <m>k=0.0002</m>, <m>C=6000</m>, and <m>x</m> is the current population.<ol label="a">
     <li><p>Suppose hunters are allowed to kill 1000 deer per year. Sketch the graph of <m>H = 1000</m> on the same axes with a graph of <m>I</m>.</p>

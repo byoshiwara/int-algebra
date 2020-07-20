@@ -41,7 +41,7 @@
         <li><p>
             Linear models have equations of the form:
             <md><mrow>
-                y = (\blert{\text{starting value}}) + (\blert{\text{rate of change}}) \cdot x
+                y = (\blert{\text{starting value}}) + (\blert{\text{rate of change}}) \cdot x
             </mrow></md>
         </p></li>
         <li><p>

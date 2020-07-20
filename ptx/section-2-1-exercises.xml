@@ -160,8 +160,8 @@
 <subexercises><title>Skills Practice</title>
 
 <exercise number="5"><statement><p><ol label="a">
-    <li><p>Find the slope, the <m>C</m>-intercept, and the <m>T</m>-intercept for the regression line in <xref ref="example-cocoa" text="type-global" />.</p></li>
-    <li><p>Explain the meaning of the slope and the intercepts for this situation.</p></li></ol></p>
+    <li><p>Find the slope, the <m>C</m>-intercept, and the <m>T</m>-intercept for the regression line in <xref ref="example-cocoa" text="type-global" />.</p></li>
+    <li><p>Explain the meaning of the slope and the intercepts for this situation.</p></li></ol></p>
 </statement>
 <answer><p>The slope is <m>-2.5</m>, which indicates that the snack bar sells 2.5 fewer cups of cocoa for each <m>1\degree\text{C}</m> increase in temperature. The <m>C</m>-intercept of 52 indicates that 52 cups of cocoa would be sold at a temperature of <m>0\degree\text{C}</m>. The <m>T</m>-intercept of 20.8 indicates that no cocoa will be sold at a temperature of <m>20.8\degree\text{C}</m>.</p></answer></exercise>
 
@@ -318,7 +318,7 @@
                 <li><p>Predict the minimum wage in 2025.</p></li>
             </ol></p></statement></exercise>
 
-<exercise number="17"><statement><p>With Americans' increased use of faxes, pagers, and cell phones, new area codes are being created at a steady rate. The table shows the number of areacodes in the US each year. (Source: USA Today, NeuStar, Inc.)</p>
+<exercise number="17"><statement><p>With Americans' increased use of faxes, pagers, and cell phones, new area codes are being created at a steady rate. The table shows the number of areacodes in the US each year. (Source: USA Today, NeuStar, Inc.)</p>
     <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor"><col halign="left"/><col/><col/><col/><col/><col/><col/><col/>
                 <row bottom="minor">
                     <cell>Year</cell>

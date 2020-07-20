@@ -284,9 +284,9 @@ The only difference between the two solutions is the sign between the terms. For
 From Section 2.1 Exercises:
 
 <exercise number="1"><statement><p><ol label="a">
-    <li><p>Sketch four different lines through the point <m>(2, 3)</m> with the following slopes:
+    <li><p>Sketch four different lines through the point <m>(2, 3)</m> with the following slopes:
             <md><mrow>m=\frac{2}{5}, \quad m=\frac{-2}{5}, \quad m=\frac{5}{2}, \quad m=\frac{-5}{2}</mrow></md></p></li>
-    <li><p>What do you notice about these lines?</p></li></ol></p>
+    <li><p>What do you notice about these lines?</p></li></ol></p>
 </statement>
 <answer><p><ol label="a">
     <li><sidebyside width="45%" margins="0% 60%"><image xml:id="fig-ex-2-1-5ans"><description>four lines through (2,3)
