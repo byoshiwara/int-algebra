@@ -35,7 +35,7 @@
 <exercise number="3"><statement><p>Solve <m>~~0.4(30-x)+0.8x=0.65(30) </m></p></statement>
 <answer><p>18.75</p></answer></exercise>
 
-<exercise number="4"><statement><p>Write each equation in the form <m>ax + by = c</m>, where <m>a</m>, <m>b</m>, and <m>c</m>, are integers.<ol label="a" cols="2">
+<exercise number="4"><statement><p>Write each equation in the form <m>ax + by = c</m>, where <m>a</m>, <m>b</m>, and <m>c</m>, are integers.<ol label="a" cols="2">
         <li><p><m>4y=6x-300</m></p></li>
         <li><p><m>24-\dfrac{2}{3}y=\dfrac{3}{4}x</m></p></li></ol></p></statement></exercise>
 </subexercises>
@@ -362,10 +362,10 @@
     <li><p><m>x=30</m>; <m>S=45</m></p></li></ol></p></answer></exercise>
 
 <exercise number="18"><statement><p><ol label="a">
-    <li><p>Explain how you can tell, without graphing, that the system has no solution.
+    <li><p>Explain how you can tell, without graphing, that the system has no solution.
                     <md><mrow>3x=y+3</mrow>
                         <mrow>6x-2y=12</mrow></md></p></li>
-    <li><p>Explain how you can tell, without graphing, that the system has infinitely many solutions.
+    <li><p>Explain how you can tell, without graphing, that the system has infinitely many solutions.
                     <md><mrow>-x+2y=4</mrow>
                         <mrow>3x=6y-12</mrow></md></p></li></ol></p></statement></exercise>
 

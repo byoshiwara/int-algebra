@@ -40,12 +40,12 @@
 
 <example><statement><p>In <xref ref="Leon-camper" text="type-global"/> of <xref ref="LinMod" text="type-global" />,  we graphed an equation, <m>g=20-\frac{1}{12}d </m>, for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles. Find the intercepts of the graph.</p></statement>
     
-<solution><p> To find the <m>d</m>-intercept, we set <m>g = 0</m> and solve for <m>d</m>.</p>
+<solution><p> To find the <m>d</m>-intercept, we set <m>g = 0</m> and solve for <m>d</m>.</p>
     <p><md><mrow>\alert{0} \amp = 20-\frac{1}{12}d \amp\amp\blert{\text{Add }\frac{1}{12}d \text{ to both sides.}} </mrow>
         <mrow>\frac{1}{12}d \amp = 20 \amp\amp\blert{\text{Multiply both sides by 12.}} </mrow>
         <mrow>d \amp = 240 </mrow></md></p>
 <p>The <m>d</m>-intercept is <m>(240, 0)</m>. To find the <m>g</m>-intercept, we set <m>d = 0</m> and solve for <m>g</m>.
-    <md><mrow>g = 20 − \frac{1}{12}(\alert{0}) = 20</mrow></md>
+    <md><mrow>g = 20 − \frac{1}{12}(\alert{0}) = 20</mrow></md>
 The <m>g</m>-intercept is <m>(0, 20)</m>.</p></solution></example>
 
 <exercise><title>Practice 1</title>
@@ -74,7 +74,7 @@ The <m>g</m>-intercept is <m>(0, 20)</m>.</p></solution></example>
 <example><statement><p>What do the intercepts of the graph in the Example above tell us about the problem situation?</p>
 </statement>
 
-<solution><p>The <m>d</m>-intercept tells us that when <m>d = 240</m>, <m>g = 0</m>, or that when Leon has traveled 240 miles, he has 0 gallons of gasoline left; the fuel tank is empty.</p>
+<solution><p>The <m>d</m>-intercept tells us that when <m>d = 240</m>, <m>g = 0</m>, or that when Leon has traveled 240 miles, he has 0 gallons of gasoline left; the fuel tank is empty.</p>
 <p> The <m>g</m>-intercept tells us that when <m>d = 0</m>, <m>g = 20</m>, or that when Leon has traveled 0 miles, he has 20 gallons of gasoline left. The fuel tank holds 20 gallons when full.</p></solution></example>
 
 <exercise><title>Practice 2</title>
@@ -334,7 +334,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
 <subsection><title>Two Forms for Linear Equations</title>
 
 <p>We have now seen two forms for linear equations: the general linear form,
-    <md><mrow>\blert{Ax + By = C}</mrow></md>
+    <md><mrow>\blert{Ax + By = C}</mrow></md>
 and the form for a linear model,
     <md><mrow>\blert{y = (\text{starting value}) + (\text{rate}) \times t}</mrow></md>
 It is sometimes useful to convert an equation from one form to the other.</p>

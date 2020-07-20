@@ -329,7 +329,7 @@
                     <md><mrow> m=\frac{y_2 -y_1}{x_2 - x_1}</mrow></md>
     We substitute <m>\dfrac{-3}{4} </m> for the slope, <m>m</m>, and <m>(1,-4)</m> for <m>(x_1,y_1)</m>. For the second point, <m>(x_2,y_2)</m>, we substitute the variable point <m>(x,y) </m> to obtain
                     <md><mrow>m=\frac{y + 4}{x-1}</mrow></md></p>
-    <p>This is an equation for the line, but if we want to solve for <m>y</m>, we first multiply both sides by <m>x − 1</m>.
+    <p>This is an equation for the line, but if we want to solve for <m>y</m>, we first multiply both sides by <m>x − 1</m>.
             <md><mrow>\alert{(x-1)}\frac{-3}{4}\amp = \frac{y+4}{x-1}\alert{(x-1)} </mrow>
                 <mrow>\frac{-3}{4}(x-1)\amp = y+4 \amp\amp \blert{\text{Apply the distributive law.}} </mrow>
                 <mrow>\frac{-3}{4}x +\frac{3}{4} \amp = y+4 \amp\amp \blert{\text{Subtract 4 from both sides.}} </mrow>

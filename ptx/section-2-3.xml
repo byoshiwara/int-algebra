@@ -211,7 +211,7 @@ Be careful to multiply each term by <m>-3</m>, not just the <m>y</m>-term. We ca
            <md><mrow>5x-2y \amp = 22</mrow>
                <mrow>2x - 5y \amp =13</mrow></md> </p></statement>
 
-<solution><p>This time we choose to eliminate the <m>x</m>-terms. We must arrange things so that the coefficients of the <m>x</m>-terms are opposites, so we look for the smallest integer that both 2 and 5 divide into evenly. (This number is called the <term>lowest common multiple</term>, or <term>LCM</term>, of 2 and 5.) The LCM of 2 and 5 is 10. We want one of the coefficients of <m>x</m> to be <m>10</m>, and the other to be <m>-10</m>.</p>
+<solution><p>This time we choose to eliminate the <m>x</m>-terms. We must arrange things so that the coefficients of the <m>x</m>-terms are opposites, so we look for the smallest integer that both 2 and 5 divide into evenly. (This number is called the <term>lowest common multiple</term>, or <term>LCM</term>, of 2 and 5.) The LCM of 2 and 5 is 10. We want one of the coefficients of <m>x</m> to be <m>10</m>, and the other to be <m>-10</m>.</p>
 <p>To achieve this, we multiply the first equation by <m>2</m> and the second equation by <m>-5</m>.
             <md><mrow>\alert{2}(5x-2y\amp=22)\amp\amp \rightarrow\amp 10x - 4y \amp=44 </mrow>
                 <mrow>\alert{-5}(2x-5y\amp=13)\amp\amp \rightarrow\amp -10x +25y \amp=-65 </mrow></md>

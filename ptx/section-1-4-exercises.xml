@@ -42,7 +42,7 @@
 <subexercises><title>Skills Practice</title>
 
 <exercise number="9"><statement><p><ol label="a">
-        <li><p>Compute the slope of the line.</p>
+        <li><p>Compute the slope of the line.</p>
             <sidebyside width="40%"><image source="images/fig-hw-line-slope-3halves"><description>graph</description></image></sidebyside></li>
         <li><p>Start at point <m>(0,2)</m> and move 4 units in the positive <m>x</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
         <li><p>Start at point <m>(0,2)</m> and move <m>-6</m> units in the positive <m>x</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
@@ -55,7 +55,7 @@
         <li>27</li></ol></p></answer></exercise>
 
 <exercise number="10"><statement><p><ol label="a">
-        <li><p>Compute the slope of the line.</p>
+        <li><p>Compute the slope of the line.</p>
             <sidebyside width="40%"><image source="images/fig-hw-line-slope-neg3fourths"><description>graph</description></image></sidebyside></li>
         <li><p>Start at point <m>(0,-6)</m> and move <m>-6</m> units in the <m>y</m>-direction (down). How many units must you move in the <m>x</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
         <li><p>Start at point <m>(0,-6)</m> and move 9 units in the positive <m>y</m>-direction. How many units must you move in the <m>x</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>

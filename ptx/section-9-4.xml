@@ -85,14 +85,14 @@
                 \text{ or } \qquad \blert{\frac{y^2}{b^2} -\frac{x^2}{a^2}  = 1}</mrow> </md></p>
 </assemblage>
 
-<p>In the first case, the two branches of the hyperbola open left and right, so the graph has <m>x</m>-intercepts at <m>a</m> and <m>-a</m> but no <m>y</m>-intercepts. (See figure above left.) The segment joining the <m>x</m>-intercepts is the <term>transverse axis</term><idx>transverse axis</idx>, and its length is <m>2a</m>. The endpoints of the transverse axis are the vertices of the hyperbola. The segment of length <m>2b</m> is called the <term>conjugate axis.</term><idx>conjugate axis</idx> </p>
+<p>In the first case, the two branches of the hyperbola open left and right, so the graph has <m>x</m>-intercepts at <m>a</m> and <m>-a</m> but no <m>y</m>-intercepts. (See figure above left.) The segment joining the <m>x</m>-intercepts is the <term>transverse axis</term><idx>transverse axis</idx>, and its length is <m>2a</m>. The endpoints of the transverse axis are the vertices of the hyperbola. The segment of length <m>2b</m> is called the <term>conjugate axis.</term><idx>conjugate axis</idx> </p>
 
 <p>In the second case, the graph has <m>y</m>-intercepts at <m>b</m> and <m>-b</m> but no <m>x</m>-intercepts<mdash/>the two branches open up and down. (See figure above right.) Here the <m>y</m>-intercepts are the vertices, so the transverse axis is vertical and has length <m>2b</m>. The conjugate axis has length <m>2a</m>.</p>
 </introduction>  
 
 <subsection><title>Asymptotes of Hyperbolas</title>
 
-<p>The branches of the hyperbola approach two straight lines that intersect at its center.  These lines are <term>asymptotes</term><idx>asymptote</idx> of the graph, and they are useful as guidelines for sketching the hyperbola.  We first sketch a rectangle (called the <term>central rectangle</term><idx>central rectangle</idx>) whose sides are parallel to the axes and whose dimensions are <m>2a</m> and <m>2b</m>. The asymptotes are the diagonals of this rectangle.</p>
+<p>The branches of the hyperbola approach two straight lines that intersect at its center.  These lines are <term>asymptotes</term><idx>asymptote</idx> of the graph, and they are useful as guidelines for sketching the hyperbola.  We first sketch a rectangle (called the <term>central rectangle</term><idx>central rectangle</idx>) whose sides are parallel to the axes and whose dimensions are <m>2a</m> and <m>2b</m>. The asymptotes are the diagonals of this rectangle.</p>
 
 <example><statement><p>Graph <m> \dfrac{y^2}{9} - \dfrac{x^2}{4} = 1</m></p></statement>
 
@@ -401,7 +401,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <subsection><title>The Central Conics</title>
 
-<p>The fourth conic section, after circles, ellipses, and hyperbolas, is the parabola. We have already encountered parabolas in our study of quadratic functions. In particular, the graph of <m>y = ax^2</m> has its vertex at the origin and opens up or down, depending on the sign of <m>a</m>. The graph of <m>x = ay^2</m> is a parabola that opens to the left or right. There is also a geometric definition of a parabola, but we will not discuss that here.</p>
+<p>The fourth conic section, after circles, ellipses, and hyperbolas, is the parabola. We have already encountered parabolas in our study of quadratic functions. In particular, the graph of <m>y = ax^2</m> has its vertex at the origin and opens up or down, depending on the sign of <m>a</m>. The graph of <m>x = ay^2</m> is a parabola that opens to the left or right. There is also a geometric definition of a parabola, but we will not discuss that here.</p>
 
 <sidebyside><image source="images/conics-summary"><description>table summarizing conics</description></image></sidebyside>
 
@@ -956,12 +956,12 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <p>We have considered graphs of second-degree equations in two variables,
     <md><mrow>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</mrow></md>
-for which <m>B</m>, the coefficient of the <m>xy</m>-term, is zero. These graphs are conic sections with axes parallel to one or both of the coordinate axes. If <m>B</m> does not equal zero, the axes of the conic section are rotated with respect to the coordinate axes. The graphing of such equations is taken up in more advanced courses in analytic geometry.</p> 
+for which <m>B</m>, the coefficient of the <m>xy</m>-term, is zero. These graphs are conic sections with axes parallel to one or both of the coordinate axes. If <m>B</m> does not equal zero, the axes of the conic section are rotated with respect to the coordinate axes. The graphing of such equations is taken up in more advanced courses in analytic geometry.</p> 
 
-<p>The graph of a second-degree equation can also be a point, a line, a pair of lines, or no graph at all, depending on the values of the coefficients <m>A</m> through <m>F</m>. Such graphs are called <term>degenerate conics</term><idx>degenerate conics</idx>.</p> 
+<p>The graph of a second-degree equation can also be a point, a line, a pair of lines, or no graph at all, depending on the values of the coefficients <m>A</m> through <m>F</m>. Such graphs are called <term>degenerate conics</term><idx>degenerate conics</idx>.</p> 
 
 <p>Given an equation of the form
-    <md><mrow>Ax^2 + Cy^2 + Dx + Ey + F = 0</mrow></md>
+    <md><mrow>Ax^2 + Cy^2 + Dx + Ey + F = 0</mrow></md>
 we can determine the nature of the graph from the coefficients of the quadratic terms. If the graph is not a degenerate conic, the following criteria apply.</p>
 
 <assemblage><title>Conic Sections</title>

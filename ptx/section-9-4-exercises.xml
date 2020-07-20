@@ -224,8 +224,8 @@
 </exercisegroup>
 
 <exercise number="11"><statement><p><ol label="a">
-    <li><p>Graph <m>x^2 - y^2 = 4</m>, <m>x^2 - y^2 = 1</m>, and <m>x^2 - y^2 = 0</m> on the same set of axes. What do you observe?</p></li>
-    <li><p>Graph <m>4x^2 - y^2 = 16</m>, <m>4x^2 - y^2 =4</m>, and <m>4x^2 - y^2 =0</m> on the same set of axes. What do you observe?</p></li></ol></p></statement>
+    <li><p>Graph <m>x^2 - y^2 = 4</m>, <m>x^2 - y^2 = 1</m>, and <m>x^2 - y^2 = 0</m> on the same set of axes. What do you observe?</p></li>
+    <li><p>Graph <m>4x^2 - y^2 = 16</m>, <m>4x^2 - y^2 =4</m>, and <m>4x^2 - y^2 =0</m> on the same set of axes. What do you observe?</p></li></ol></p></statement>
 <answer><p><ol label="a">
     <li><sidebyside width="45%" margins="0% 5%"><image xml:id="fig-hw-9-4-13ansa">
                 <description>hyperbolas opening left and right</description><latex-image>
@@ -297,8 +297,8 @@
                     </latex-image></image></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="12"><statement><p><ol label="a">
-    <li><p>Graph <m>x^2 - y^2 = 0</m>. (Hint: Factor the left side of the equation and use the zero-factor principle to write two equations, then graph them.) Describe your graph.</p></li>
-    <li><p>Graph <m>4x^2 - y^2 = 0</m>. Describe your graph.</p></li></ol></p></statement></exercise>
+    <li><p>Graph <m>x^2 - y^2 = 0</m>. (Hint: Factor the left side of the equation and use the zero-factor principle to write two equations, then graph them.) Describe your graph.</p></li>
+    <li><p>Graph <m>4x^2 - y^2 = 0</m>. Describe your graph.</p></li></ol></p></statement></exercise>
 
 <exercisegroup><introduction><p>For problems 13<ndash/>18:<ol label="a">
         <li><p>Graph the hyperbola.</p></li>
@@ -406,10 +406,10 @@
 <exercisegroup><introduction><p>For Problems 19<ndash/>22, write an equation for the hyperbola with the properties given.
 </p></introduction>
 
-<exercise number="19"><statement><p>Center at <m>(6,-2)</m>, <m>a = 1</m>, <m>b = 4</m>, opening left and right </p></statement>
+<exercise number="19"><statement><p>Center at <m>(6,-2)</m>, <m>a = 1</m>, <m>b = 4</m>, opening left and right </p></statement>
 <answer><p><m>16x^2-y^2-192x-4y+556=0</m></p></answer></exercise>
 
-<exercise number="20"><statement><p>Center at <m>(-1, 5)</m>, <m>a = 6</m>, <m>b = 8</m>, opening up and down</p>
+<exercise number="20"><statement><p>Center at <m>(-1, 5)</m>, <m>a = 6</m>, <m>b = 8</m>, opening up and down</p>
 </statement></exercise>
 
 <exercise number="21"><statement><p>One vertex at <m>(1, -2)</m>, one end of the vertical conjugate axis at <m>(-5, 1)</m></p></statement>
