@@ -263,7 +263,7 @@ Solving for <m>x</m>, we have
                 </latex-image></image></sidebyside>
 <p>Next, we substitute <m>\alert{y + 4}</m> for <m>x</m> into either of the original equations. We use the first equation to find
         <md><mrow>(\alert{y+4})^2-4(\alert{y+4})+y^2+2y\amp= 20 \amp\amp \blert{\text{Remove parentheses.}}</mrow>
-            <mrow>(y^2+8y+16)-16+y^2+2y\amp=20 \amp\amp \blert{\text{Collect like terms.}}</mrow>
+            <mrow>(y^2+8y+16)-4y-16+y^2+2y\amp=20 \amp\amp \blert{\text{Collect like terms.}}</mrow>
             <mrow>2y^2+6y-20\amp=0 \amp\amp \blert{\text{Divide both sides by 2.}}</mrow>
             <mrow>y^2+3y-10\amp= 0 \amp\amp \blert{\text{Factor the left side.}}</mrow>
             <mrow>(y+5)(y-2)\amp= 0</mrow></md>

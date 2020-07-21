@@ -46,7 +46,7 @@
 
 <exercise number="6">
     <statement><p>
-        One leg of the triangle <m>PQR</m> has vertices <m>P(-8, -1)</m> and <m>Q(-2, -5)</m>. Find an equation for the line that includes the leg <m>\overline{QR} </m>.
+        One leg of the right triangle <m>PQR</m> has vertices <m>P(-8, -1)</m> and <m>Q(-2, -5)</m>. Find an equation for the line that includes the leg <m>\overline{QR} </m>.
     </p></statement>
     <answer><p><m>y=\dfrac{3}{2}x-2 </m></p></answer>
 </exercise>
