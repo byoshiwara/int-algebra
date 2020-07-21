@@ -272,7 +272,7 @@ where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>.  As
 <webwork><pg-code>
         Context(Point)->flags->set( reduceConstants => 0, reduceConstantFunctions => 0,  );
         Context()->variables->add(y=>"Real");
-        $f = Formula("x^2/(5/2)^2 + y^2/5^2");
+        $f = Formula("x^2/(5/2)^2 - y^2/5^2");
         $vertices = Formula("(-5/2,0), (5/2,0)");
         $my_evaluator = $vertices -> cmp(
          showHints=>1,
@@ -404,6 +404,122 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 <p>The fourth conic section, after circles, ellipses, and hyperbolas, is the parabola. We have already encountered parabolas in our study of quadratic functions. In particular, the graph of <m>y = ax^2</m> has its vertex at the origin and opens up or down, depending on the sign of <m>a</m>. The graph of <m>x = ay^2</m> is a parabola that opens to the left or right. There is also a geometric definition of a parabola, but we will not discuss that here.</p>
 
 <sidebyside><image source="images/conics-summary"><description>table summarizing conics</description></image></sidebyside>
+<!-- Here is a tabular in a figure version of the image:
+<figure><caption>Central Conics</caption>
+    <tabular top="major" right="minor" left="minor" bottom="minor">
+        <col halign="left"/><col halign="center"/><col halign="center"/>
+        <row>
+            <cell>Description of conic</cell>
+            <cell>Standard form of equation</cell>
+            <cell>Graph</cell>
+        </row>
+        <row>
+            <cell>circle</cell>
+            <cell><m>x^2+y^2=r^2 </m></cell>
+            <cell><image source="images/circle"><description>Circle</description></image></cell>
+        </row>
+        <row>
+            <cell>
+                <line>ellipse</line>
+                <line><m>\phantom{H}</m></line>
+                <line>(a) major axis on <m>x</m> axis</line>
+                <line>("wide and short")</line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line>(b) major axis on <m>y</m>-axis</line>
+                <line>("tall and narow")</line>
+            </cell>
+            <cell>
+                <line><m>\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>(a \gt b)</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>(a \lt b)</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+            </cell>
+            <cell><image source="images/ellipses"><description>ellipses</description></image></cell>
+        </row>
+        <row>
+            <cell>
+                <line>hyperbola</line>
+                <line><m>\phantom{H}</m></line>
+                <line>(a) transverse axis on <m>x</m> axis</line>
+                <line>(opens left and right)</line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line>(b) transvese axis on <m>y</m>-axis</line>
+                <line>(opens up and down)</line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+            </cell>
+            <cell>
+                <line><m>\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1</m></line>
+               <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\dfrac{y^2}{b^2}-\dfrac{x^2}{a^2}=1</m></line>
+            </cell>
+            <cell><image source="images/hyperbolas"><description>hyperbolas</description></image></cell>
+        </row>
+        <row>
+            <cell>
+                <line>parabola</line>
+                <line><m>\phantom{H}</m></line>
+                <line>(a) opens up</line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line>(b) opens down</line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line>(c) opens right</line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line>(b) opens left</line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+           </cell>
+            <cell>
+                <line><m>y=ax^2</m></line>
+                <line><m>(a\gt 0)</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>y=ax^2</m></line>
+                <line><m>(a\lt 0)</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>x=ay^2</m></line>
+                <line><m>(a\gt 0)</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>\phantom{H}</m></line>
+                <line><m>x=ay^2</m></line>
+                <line><m>(a\lt 0)</m></line>
+            </cell>
+            <cell><image source="images/parabolas"><description>parabolas</description></image></cell>
+        </row>        
+    </tabular>
+</figure> -->
 
 <example><statement><p>Write each equation in standard form and describe its graph.</p>
     <p><ol label="a" cols="2">
@@ -415,7 +531,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
             <md><mrow>x^2-6y^2=8\qquad \text{ or }\qquad \frac{x^2}{\left( \sqrt{8} \right)^2} - \frac{y^2}{\left( \frac{2}{\sqrt{3}} \right)^2}=1</mrow></md>
     The graph is a hyperbola that opens left and right.</p></li>
     <li><p>The equation <m>x^2=\dfrac{4-y^2}{2}</m> is equivalent to
-            <md><mrow>x^2+y^2=4\qquad \text{ or }\qquad \frac{x^2}{\left( \sqrt{2} \right)^2} + \frac{y^2}{2^2}=1</mrow></md>
+            <md><mrow>2x^2+y^2=4\qquad \text{ or }\qquad \frac{x^2}{\left( \sqrt{2} \right)^2} + \frac{y^2}{2^2}=1</mrow></md>
     The graph is an ellipse with major axis on the <m>y</m>-axis because <m>2\gt\sqrt{2} </m>.</p></li></ol></p>
 </solution></example>
 
