@@ -10,7 +10,7 @@
 
 <subsection><title>The Natural Exponential Function</title>
 
-<p>The <term>natural exponential function</term><idx>natural exponential function</idx> is the function <m>f(x) = e^x</m>. Values for <m>e^x</m> can be obtained with a calculator using the kbd<m>\boxed{e^x}</m> key ( <kbd>2nd</kbd> <kbd>LN</kbd> on most calculators). For example, you can evaluate <m>e^1</m> by pressing</p>
+<p>The <term>natural exponential function</term><idx>natural exponential function</idx> is the function <m>f(x) = e^x</m>. Values for <m>e^x</m> can be obtained with a calculator using the <m>\boxed{e^x}</m> key ( <kbd>2nd</kbd> <kbd>LN</kbd> on most calculators). For example, you can evaluate <m>e^1</m> by pressing</p>
     <p><m>\qquad\qquad</m><kbd>2nd</kbd> <kbd>LN</kbd> <m>1</m></p>
 <p>to confirm the value of <m>e</m> given above.</p>
 
@@ -258,9 +258,9 @@ In general, natural logs obey the same conversion formulas that work for logs to
 
 <assemblage><title>Properties of Natural Logarithms</title>
 <p>If <m>x, y \gt 0</m>, then <ol label="1">
-    <li><m>\ln(xy) = \ln x + ln y</m></li>
+    <li><m>\ln(xy) = \ln x + \ln y</m></li>
     <li><m>\ln {\dfrac{x}{y}} = \ln x - \ln y</m></li>
-    <li><m>\ln {x^n} = m \ln x</m></li></ol></p>
+    <li><m>\ln {x^n} = n \ln x</m></li></ol></p>
 <p>If <m>x \le 0</m>, <m>\ln x</m> is undefined.</p></assemblage>
 
 <p>And because the functions <m>y=e^x</m> and <m>y= \ln x</m> are inverse functions, the following properties are also true.</p>
@@ -381,7 +381,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 		    <mrow>x \amp= \frac{\ln 7}{0.4}</mrow></md>
 	Rounded to four decimal places, <m>x \approx 4.8648</m>.</p></solution></example>
 
-<note><p>We can also solve the equation in <xref ref="example-solve-natural-exponential" text="type-global"/>,
+<note><p>We can also solve the equation in the Example above,
 	<me>7 = e^{0.4x}</me>
 by taking the natural logarithm of both sides. This gives us
 	<md><mrow>\ln 7 \amp = \ln e^{0.4x}\amp\amp \blert{\text{Simplify the right side.}}</mrow>
@@ -455,7 +455,7 @@ We can express this function in the form <m>P(t) = 100 \cdot \alert{e^{kt}}</m> 
 	<me>3 = e^k ~ \text{ or } ~ k = \ln 3 \approx 1.0986</me>
 Thus, the growth law for the colony of bacteria can be written
 	<me>P(t) \approx 100 \cdot e^{1.0986t}</me>
-By graphing both functions on your calculator, you can verify that <me>P(t) = 100 \cdot 3t~~~\text{and}~~~P(t) = 100 \cdot e^{1.0986t}</me> are just two ways of writing the same function.</p>
+By graphing both functions on your calculator, you can verify that <me>P(t) = 100 \cdot 3^t~~~\text{and}~~~P(t) = 100 \cdot e^{1.0986t}</me> are just two ways of writing the same function.</p>
 
 <example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year.
 <ol label="a">
