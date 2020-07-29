@@ -2,7 +2,9 @@
 
 
 <backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Answers to Selected Exercises and Homework Problems</title>
+    <title>Appendices</title>
+    <xi:include href="./appendix-c.xml" />   <!-- Using a Geogebra Calculator App -->
+
     <solutions divisional=" solution answer" project="answer">
     </solutions>
 </backmatter>

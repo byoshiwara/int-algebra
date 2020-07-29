@@ -125,7 +125,7 @@ When we plot 2.48 for the horse, we are really plotting the power of 10 that giv
             }
             Context()->operators->undefine("^","**");
         </pg-code>
-    <statement><p>Complete the table by estimating the logarithm of each point plotted on the log scale above. Then give a decimal value for each point.</p>
+    <statement><p>Complete the table by estimating the logarithm of each point plotted on the log scale above. Then use a calculator to give a decimal value for each point.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row>
             <cell><m>\log x</m></cell>
