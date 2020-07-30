@@ -126,7 +126,7 @@ Simplifying radicals occupies the same position in the order of operations as co
         <p><var name="$absneg" form="buttons"/></p>      
     </statement>
     <solution>
-        <p><m> x </m> must be zero or negative.</p>
+        <p><m> x </m> must be zero or negative if <m> \left| x \right| =-x </m>.</p>
     </solution>
 </webwork></exercise>
 

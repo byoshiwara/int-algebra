@@ -270,7 +270,7 @@ has no <m>x</m>-intercepts, as shown below.</p>
 
         $a = Compute("-1/2+3/2 i");
         $b = Compute("-1/2-3/2 i");
-        $answer = List("$a,$b");
+        $answer = Compute("-1/2+3/2 i,-1/2-3/2 i");
         $my_evaluator = $answer -> cmp(
          showHints=>1,
          showLengthHints => 1,
@@ -389,6 +389,12 @@ For example, consider the three graphs shown at right.</p>
             <li><p><m>y = x^2 + 5x + 7</m> <var name="$counta" form="popup"/></p></li>
             <li><p><m>y = -\dfrac{1}{2}x^2 + 4x - 8</m> <var name="$countb" form="popup"/></p></li></ol></p>
     </statement>
+        <solution>
+            <p><ol label="a" cols="2">
+            <li><p>None: the discriminant is negative.</p></li>
+            <li><p>One: the discriminant is 0.</p></li>
+            </ol></p>
+        </solution>
 </webwork></exercise> 
 
 </subsection>

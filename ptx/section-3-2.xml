@@ -153,7 +153,7 @@ So we can always solve a quadratic equation to find the <m>x</m>-intercepts of a
     <webwork><pg-code>
             $r1 = Compute("3");
             $r2 = Compute("-3/2");
-            $answer = List("$r1, $r2");
+            $answer = Compute("3, -3/2");
             $my_evaluator = $answer -> cmp(
              showHints=>1,
              showLengthHints => 1,

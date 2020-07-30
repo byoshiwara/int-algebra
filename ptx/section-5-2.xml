@@ -331,7 +331,7 @@ and press <kbd>ZOOM</kbd> <m>6</m> for the standard window. Your calculator does
             <p>The graph is shown below.</p>
         </solution>                
     </webwork>
-    <conclusion><sidebyside width="25%" margins="0% 75%"><image source="images/fig-ex-5-2-3ans"><description>cubic</description></image></sidebyside></conclusion>
+    <conclusion><p><m>f(x)=x^3-2</m></p><sidebyside width="25%" margins="0% 75%"><image source="images/fig-ex-5-2-3ans"><description>cubic</description></image></sidebyside></conclusion>
 </exercise>
 
 </subsection>
@@ -363,10 +363,10 @@ at most one point.</p></assemblage>
 <exercise><title>QuickCheck 4</title>
 <webwork><pg-code>       
             $ver = RadioButtons(
-              ["If the graph is a vertical line.",
-              "If the graph is increasing.",
-              "If the graph is decreasing.",
-              "If the graph is a function."],
+              ["A) If the graph is a vertical line.",
+              "B) If the graph is increasing.",
+              "C) If the graph is decreasing.",
+              "D) If the graph is a function."],
               3, 
             );            
         </pg-code>
@@ -375,7 +375,7 @@ at most one point.</p></assemblage>
         <p><var name="$ver" form="buttons"/></p>      
     </statement>
     <solution>
-        <p>If the graph is a function.</p>
+        <p>The vertical line test tells us if the graph is a function.</p>
     </solution>
 </webwork></exercise>
 
@@ -514,7 +514,10 @@ The cost of producing 500 backpacks is $13,000.</p></solution>
     <webwork> 
         <pg-code>
             $meaning = RadioButtons(
-                ["the volume (in cm) of a sphere whose radius is 10 cu. cm","the radius (in cm) of a sphere whose volume is 10 cm","the volume (in sq. cm) of a sphere whose radius is 10 cm","the volume (in cu. cm) of a sphere whose radius is 10 cm"],
+                ["A) the volume (in cm) of a sphere whose radius is 10 cu. cm",
+                "B) the radius (in cm) of a sphere whose volume is 10 cm",
+                "C) the volume (in sq. cm) of a sphere whose radius is 10 cm",
+                "D) the volume (in cu. cm) of a sphere whose radius is 10 cm"],
               3, # index of correct answer; could also just be the correct answer
             );
             Context("Fraction")->variables->add(r=>'Real');

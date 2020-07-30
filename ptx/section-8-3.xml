@@ -633,7 +633,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
 
 <warning><p>Do not reduce the built-up fractions in Step 3 -- you will just get back to the original problem.  When adding fractions, we have to make the fractions "harder" before we can combine them.  Don't reduce until the last step of the problem.</p></warning>
 
-<exercise><title>QuickCheck 3</title>
+<exercise><title>QuickCheck 4</title>
 <webwork><pg-code>
         $True = PopUp(
             [ "?", 

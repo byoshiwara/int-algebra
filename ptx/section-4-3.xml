@@ -389,6 +389,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
     </solution>
     </webwork>
     <conclusion>
+        <p>Graph for part (a):</p>
         <sidebyside width="40%" margins="0% 60$"><image source="images/fig-ex-4-3-5."><description>parabola fit to points</description></image></sidebyside>
     </conclusion>
 </exercise>
@@ -518,6 +519,7 @@ From either the graph of the regression equation or from the table (see figure b
     </solution>
     </webwork>
     <conclusion>
+        <p>Graph for part (a):</p>
         <sidebyside width="40%" margins="0% 50%"><image source="images/fig-ex-4-3-4ans"><description>parabola fit to points</description></image></sidebyside>
     </conclusion>
 </exercise>

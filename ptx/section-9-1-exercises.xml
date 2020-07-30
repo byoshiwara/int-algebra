@@ -233,7 +233,7 @@
             </latex-image></image></sidebyside></statement>
 <answer><p><m>y=\dfrac{3}{2}x+\dfrac{15}{2}</m></p></answer></exercise>
 
-<exercise number="22"><statement><p>Show that the line passing through the points <m>A(0,-3)</m> and <m>B(3,\dfrac{1}{2})</m> also passes through the point <m>C(-6,-10)</m>.</p></statement></exercise>
+<exercise number="22"><statement><p>Show that the line passing through the points <m>A(0,-3)</m> and <m>B\left(3,\dfrac{1}{2}\right)</m> also passes through the point <m>C(-6,-10)</m>.</p></statement></exercise>
 
 </subexercises>
 

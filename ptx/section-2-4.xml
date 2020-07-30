@@ -29,9 +29,9 @@ is an <term>ordered triple</term><idx>ordered triple</idx> of numbers that satis
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
         $solution = RadioButtons(
-          ["ordered pair that satisfies the equation.",
-          "ordered triple that satisfies the equation",
-          "arbitrary number that satisfies the equation"],
+          ["A) ordered pair that satisfies the equation.",
+          "B) ordered triple that satisfies the equation",
+          "C) arbitrary number that satisfies the equation"],
           1, 
         );                       
          $graph = PopUp(
@@ -109,7 +109,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
             <p>Give the solution as an ordered triple.</p>
         </instructions>
     </statement>
-    <solution><p><m><var name="$triple"/> </m></p>
+    <solution><p><m><var name="$triple"/> </m> satisfies all three equations.</p>
     </solution>
   </webwork>
 </exercise>
@@ -123,21 +123,23 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
 <webwork><pg-code>       
         $method = PopUp(
           ["?",
-          "completing the square",
-          "Gaussian reduction",
-          "induction method"],
+          "completing the square.",
+          "Gaussian reduction.",
+          "induction method."],
           2, 
         );                       
          $case = PopUp(
-          ["?","back-substitution", "negative reciprocals", "linear regression", "point-slope"],
+          ["?","back-substitution.", "negative reciprocals.", "linear regression.", "point-slope."],
           1, 
         );
          $work = RadioButtons(
-          ["when one equation involves exactly one variable, and a second equation involves that same variable and just one other variable","with more equations than unknowns", "having only two unknowns"],
+          ["A) when one equation involves exactly one variable, and a second equation involves that same variable and just one other variable.",
+          "B) with more equations than unknowns.", 
+          "C) having only two unknowns."],
           0, 
         );
          $reduce = PopUp(
-          ["?","guess-and-check", " linear combinations", "the discriminant"],
+          ["?","guess-and-check.", " linear combinations.", "the discriminant."],
           2, 
         );
     </pg-code> 

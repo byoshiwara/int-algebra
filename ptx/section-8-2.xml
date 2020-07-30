@@ -145,7 +145,7 @@ where we have divided both numerator and denominator by 9. The new fraction has 
         <p>Which calculation is correct? Choose a value for <m>x</m> and use your calculator to verify your answer.</p>
         <p><var name="$ans" form="buttons"/> </p>
     </statement>
-    <solution><p>(a)</p></solution>
+    <solution><p>(a) <m>~\dfrac{5x}{8x}=\dfrac{5}{8}</m></p></solution>
 </webwork></exercise>
 
 <p>If the numerator or denominator of the fraction contains more than one term, it is especially important to <em>factor before reducing</em>, so that numerator and denominator are written as products of factors, instead of sums of terms. </p>
@@ -169,14 +169,14 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
 <exercise><title>Practice 3</title>
 <webwork><pg-code>
         $a = RadioButtons(
-            [ "3 is not a factor of numerator or denominator.", 
-            "More cancelling is required."
+            [ "A) 3 is not a factor of numerator or denominator.", 
+            "B) More cancelling is required."
             ],
             0
         );
         $b = RadioButtons(
-            [ "2 is not a factor of the numerator.", 
-            "2 should be subtracted from 5."
+            [ "A) 2 is not a factor of the numerator.", 
+            "B) 2 should be subtracted from 5."
             ],
             0
         );
@@ -465,6 +465,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
     </solution>
 </webwork>
 <conclusion>
+    <p>Graph for part (c):</p>
     <sidebyside width="35%" margins="0% 5%"><image xml:id="fig-average-cost">
         <description>graph of average cost of production</description>
         <latex-image>

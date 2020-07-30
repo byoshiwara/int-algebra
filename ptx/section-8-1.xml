@@ -29,17 +29,17 @@ in ascending powers.</p>
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
             $lead = RadioButtons(
-              ["The first coefficient",
-              "The constant term",
-              "The largest coefficient",
-              "The coefficient of the highest power"],
+              ["A) The first coefficient",
+              "B) The constant term",
+              "C) The largest coefficient",
+              "D) The coefficient of the highest power"],
               3, 
             );            
         </pg-code>
     <statement><p>What is the lead coefficient of a polynomial?</p>
         <p><var name="$lead" form="buttons"/></p>      
     </statement>
-    <solution><p>The coefficient of the highest power</p>
+    <solution><p>The coefficient of the highest power, that is, the coefficient of the largest degree</p>
     </solution>
 </webwork></exercise>
 </subsection>
@@ -85,7 +85,8 @@ in ascending powers.</p>
     <statement><p>What is the linear term of the product <m>(x-3)(x+5)</m> ?</p>
         <p><var name="$linterm" form="buttons"/></p>      
     </statement>
-    <solution><p><m>2x</m></p>
+    <solution>
+        <p><m>2x</m> is the linear term of <m>x^2+2x-15</m>.</p>
     </solution>
 </webwork></exercise>
 
@@ -122,16 +123,24 @@ in ascending powers.</p>
     <p>The sum of the third-degree terms of the product is <m>34x^3</m>, with coefficient 34.</p></li>
     </ol></p></solution></example>
 
-<exercise><title>Practice 2</title>
-    <webwork><pg-code>
+<exercise>
+  <title>Practice 2</title>
+    <webwork>
+         <pg-code>
             $a = Compute("2");
-        </pg-code>
-     <statement><p>Find the coefficient of the fourth-degree term of the product of <m>f(x) = 2x^6 + 2x^4 - x^3 + 5x^2 + 1</m> and <m>g(x) = x^5 - 3x^4 + 2x^3 + x^2 - 4x - 2</m>.</p>
+        </pg-code> 
+        <statement>
+            <p>Find the coefficient of the fourth-degree term of the product of <m>f(x) = 2x^6 + 2x^4 - x^3 + 5x^2 + 1</m> and <m>g(x) = x^5 - 3x^4 + 2x^3 + x^2 - 4x - 2</m>.</p>
             <p>Answer: <var name="$a" width="2"/> </p>
-     </statement>
-     <solution><p>2</p>
-    </solution>
-</webwork></exercise>
+        </statement>
+        <solution>
+            <p><m>2</m> is the coefficient of the <m>x^4</m> term in the product.</p>
+            <p>To compute the fourth-degree term in the product, we multiply a term of <m>f(x)</m> of degree 4, 3, 2, or 0 by a term of <m>g(x)</m> of degree 0, 1, 2, or 4 respectively. We add those four products of terms:
+            <me>\left(2x^4\cdot (-2)\right) + \left( (-x^3)(-4x)\right) + \left(5x^2\cdot x^2\right) + \left(1\cdot (-3x^4)\right)</me>
+            So the fourth-degree term in the product is <m>2x^4</m>, and the coefficient is <m>2</m>.</p>
+        </solution>
+    </webwork>
+</exercise>
 </subsection>
 
 <subsection><title>Special Products</title>
@@ -336,26 +345,33 @@ $multians = MultiAnswer($fac1,$fac2)->with(
                 <me>S(18) = 2(18)^2 + 32(18) = 1224 \text{ square inches}</me></p></li>
 </ol></p></solution></example>
 
-<exercise><title>Practice 5</title>
+<exercise>
+    <title>Practice 5</title>
     <introduction>
         <sidebyside width="50%"><image source="images/fig-reflecting-pool" ><description>rectangular hole 3 ft deep, x feet wide, x+8 ft long</description></image></sidebyside>
     </introduction>
-    <webwork><pg-code>
+    <webwork>
+         <pg-code>
             $s = Formula("x^2+20x+48");
             $v = Formula("3x^2+24x");
-        </pg-code>
-    <statement><p>An empty reflecting pool is 3 feet deep. It is 8 feet longer than it is wide, as illustrated above.</p>
-    <p><ol label="a">
-        <li><p>Write a polynomial function <m>S(x)</m> that gives the surface area of the empty pool.</p>
+        </pg-code> 
+        <statement>
+            <p>An empty reflecting pool is <m>3</m> feet deep. It is <m>8</m> feet longer than it is wide, as illustrated above.</p>
+            <p><ol label="a">
+                <li><p>Write a polynomial function <m>S(x)</m> that gives the surface area of the empty pool.</p>
                 <p><m>S(x)=</m><var name="$s" width="20"/> </p></li>
-        <li><p>Write a polynomial function <m>V(x)</m> for the volume of the pool.</p>
-                <p><m>V(x)=</m><var name="$v" width="20"/> </p></li></ol></p>
-    </statement>
-    <solution><p><ol cols="2" label="a">
-                <li><p><m>S(x) = x^2 + 20x + 48</m></p></li>
-                <li><p><m>V(x) = 3x^2 + 24x</m></p></li></ol></p>
+                <li><p>Write a polynomial function <m>V(x)</m> for the volume of the pool.</p>
+                <p><m>V(x)=</m><var name="$v" width="20"/> </p></li>
+            </ol></p>
+        </statement>
+        <solution>
+            <p><ol cols="2" label="a">
+                <li><p>We add the area of the bottom to the areas of each of the sides of the pool: <m>S(x) = x^2 + 20x + 48</m></p></li>
+                <li><p>We multiply depth, length, and width: <m>V(x) = 3x^2 + 24x</m></p></li>
+            </ol></p>
         </solution>
-</webwork></exercise>
+    </webwork>
+</exercise>
 
 <p>Cubic polynomials are often used in economics to model cost functions. The cost of producing <m>x</m> items is an increasing function of <m>x</m>, but its rate of increase is usually not constant.</p>
 
@@ -412,6 +428,7 @@ $multians = MultiAnswer($fac1,$fac2)->with(
     </solution>
     </webwork>
     <conclusion>
+        <p>Graph for part (b)</p>
         <sidebyside width="40%" margins="0% 50%"><image source="images/fig-ex-8-1-6ans"><description>cubic</description></image></sidebyside>
     </conclusion>
 </exercise>

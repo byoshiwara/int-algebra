@@ -45,7 +45,7 @@
               ["\(\log (8+y)=\log 8+\log y\)",
               "\(\log (8y)=\log 8+\log y\)",
               "\(\log (8y)=\log 8 \cdot \log y\)",
-              "\(\log (\dfrac{8}{y})=\dfrac{\log 8}{\log y}\)"],
+              "\(\log \left(\dfrac{8}{y}\right)=\dfrac{\log 8}{\log y}\)"],
               1, 
             );            
         </pg-code>
@@ -108,7 +108,7 @@ Thus, <m>3(\log_b x - \log_b y) = \log_{b}\left(\dfrac{x}{y}\right)^3</m>.</p></
     <statement><p>Express <m>2\log_b x + 4\log_{b}{(x + 3)}</m> as a single logarithm with a coefficient of <m>1</m>.</p>
             <p>Answer: <m>\log_b</m><var name="$f" width="12"/> </p>
     </statement>
-       <solution><p><m>\log_b x^2(x+3)^4 </m></p>
+       <solution><p><m>2\log_b x + 4\log_{b}{(x + 3)}=\log_b x^2(x+3)^4 </m></p>
        </solution>
 </webwork></exercise>
 
@@ -185,7 +185,7 @@ On the right side of the equation, <m>x</m> is multiplied by two constants, 0.03
 		<me>80 \cdot 6^{0.03x} \rightarrow 480^{0.03x}~~ \blert{\text{ Incorrect!}}</me>
 Remember that the order of operations tells us to compute the power <m>6^{0.03x}</m> before multiplying by 80. To solve the equation, we must first isolate the power with the variable exponent.</p></warning>
 
-<exercise><title>Practice 4</title>
+<exercise><title>Practice 3</title>
     <webwork><pg-code>
             Context()->flags->set(useBaseTenLog=>1); 
             $answer = Compute("log(77/5)/(2.5*log(1.2))");
@@ -221,7 +221,7 @@ Now we can take the base 10 logarithm of both sides and solve for <m>t</m>.
 	<mrow>t \amp = \frac{12 \left(\log_{10}{\frac{150}{13}}\right)}{\log_{10}{3}}</mrow></md>
 We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The population of Silicon City will reach 75,000 about 27 years after 1990, or in 2017.</p></solution></example>
 
-<exercise><title>Practice 5</title>
+<exercise><title>Practice 4</title>
     <webwork><pg-code>
             Context()->variables->add(V0 => ["Real",TeX=>"V_0"], t=>"Real");
             $f = Formula("V0 *1.027**t");
@@ -319,7 +319,7 @@ Then we write the exponential equation in logarithmic form:
 		<md><mrow> kt \amp = \log_b {\dfrac{P}{C}} \amp\amp \blert{\text{Divide both sides by}~k.}</mrow>
 			<mrow>t  \amp = \dfrac{1}{k}\log_b {\dfrac{P}{C}}</mrow></md></p></solution></example>
 
-<exercise> <title>Practice 6</title>
+<exercise> <title>Practice 5</title>
 <webwork><pg-code>
         Context()->variables->add(N0 => ['Real',TeX=>"N_0"]);
         Context()->variables->add(N =>"Real", k=>"Real", b=>"Real", N=>"Real");

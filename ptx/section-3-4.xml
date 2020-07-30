@@ -54,7 +54,7 @@ The coefficient of the linear term, <m>2p</m>, is twice the constant in the bino
     <statement><p>What is the linear term of <m>(x+6)^2</m> ?</p>
         <p><var name="$lint" form="buttons"/></p>      
     </statement>
-    <solution><p><m>12x</m></p>
+    <solution><p><m>12x</m> is the linear term of <m>x^2+12x+36</m>.</p>
     </solution>
 </webwork></exercise>
 

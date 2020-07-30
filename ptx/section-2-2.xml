@@ -36,7 +36,7 @@
             <mrow>4x+5y \amp = 10</mrow></md></p>
         <p><var name="$pick" form="buttons"/></p>      
     </statement>
-    <solution><p><m>(5,-2)</m></p>
+    <solution><p><m>(5,-2)</m> satiesfies both equations.</p>
     </solution>
 </webwork></exercise>
 
@@ -186,7 +186,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
                 Enter the solution as an ordered pair.
             </instructions>
     </statement>
-    <solution><p><m>(40,-50)</m></p>
+    <solution><p><m>(40,-50)</m> is the intersection of the two lines.</p>
     </solution>
 </webwork></exercise>
 
@@ -309,6 +309,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
         </solution>
 </webwork>
     <conclusion>
+        <p>Graph for part (a):</p>
         <sidebyside width="30%"><image source="images/fig-ex-2-2-3ans"><description>parallel lines</description></image></sidebyside>
     </conclusion>
 </exercise>

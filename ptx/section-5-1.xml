@@ -61,10 +61,10 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <webwork>
      <pg-code>       
             $twoout = RadioButtons(
-              ["There cannot be two output values for a single input value.",
-              "We can display the variables as ordered pairs.",
-              "The variables are related by a formula.",
-              "The values of the input and output variables must be different."],
+              ["A) There cannot be two output values for a single input value.",
+              "B) We can display the variables as ordered pairs.",
+              "C) The variables are related by a formula.",
+              "D) The values of the input and output variables must be different."],
               0, 
             );            
         </pg-code> 
@@ -89,7 +89,10 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
               2, # index of correct answer; could also just be the correct answer
             );
             $WHYgrade = RadioButtons(
-              ["Each value of \( x \) has exactly one value of \( y \) associated with it.","Two students with the same grade English can have different grades in algebra.","Two students with the same grade math will also have the same grade in English.","Two students with the same grade math can have different grades in English."],
+              ["A) Each value of \( x \) has exactly one value of \( y \) associated with it.",
+              "B) Two students with the same grade English can have different grades in algebra.",
+              "C) Two students with the same grade math will also have the same grade in English.",
+              "D) Two students with the same grade math can have different grades in English."],
               1, # index of correct answer; could also just be the correct answer
             );
              $YNcalories = PopUp(
@@ -97,7 +100,9 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
               1, # index of correct answer; could also just be the correct answer
             );
             $WHYcalories = RadioButtons(
-              ["The number of calories is proportional to the number of fluid ounces.","Two servings with the same calories will have different fluid ounces.","Two servings with the same flid ounces will have different calories."],
+              ["A) The number of calories is proportional to the number of fluid ounces.",
+              "B) Two servings with the same calories will have different fluid ounces.",
+              "C) Two servings with the same flid ounces will have different calories."],
               0, # index of correct answer; could also just be the correct answer
             );
         </pg-code>
@@ -333,10 +338,10 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
             $table = RadioButtons(
-              ["The output values are all the same.",
-              "The input values are not evely spaced.",
-              "Two different input values have the same output value.",
-              "Two different output values have the same input value."],
+              ["A) The output values are all the same.",
+              "B) The input values are not evely spaced.",
+              "C) Two different input values have the same output value.",
+              "D) Two different output values have the same input value."],
               3, 
             );            
         </pg-code>
@@ -463,10 +468,10 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <exercise><title>QuickCheck 3</title>
 <webwork><pg-code>       
             $threeways = RadioButtons(
-              ["By inputs, outputs, or evaluation",
-              "By tables, equations, or graphs",
-              "By the intercepts, the slope, or the vertex",
-              "By numbers, letters, or diagrams"],
+              ["A) By inputs, outputs, or evaluation",
+              "B) By tables, equations, or graphs",
+              "C) By the intercepts, the slope, or the vertex",
+              "D) By numbers, letters, or diagrams"],
               1, 
             );            
         </pg-code>
@@ -582,7 +587,9 @@ We see that</p>
               1, # index of correct answer; could also just be the correct answer
             );
             $meaning = RadioButtons(
-              ["The sun is 9.7 degrees above the horizon in Peoria on January 15.", "The sun is above the horizon in Peoria for 15 hours on January 10.","The sun is above the horizon in Peoria for 9.7 hours on January 16."],
+              ["A) The sun is 9.7 degrees above the horizon in Peoria on January 15.", 
+              "B) The sun is above the horizon in Peoria for 15 hours on January 10.",
+              "C) The sun is above the horizon in Peoria for 9.7 hours on January 16."],
               2, # index of correct answer; could also just be the correct answer
             );               
             </pg-code>
