@@ -154,10 +154,10 @@
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
             $which = RadioButtons(
-              ["The slope cannot be zero.",
-              "The two points cannot be the same.",
-              "The denominator of a fraction cannot be zero.",
-              "The denominator must equal 1."],
+              ["A) The slope cannot be zero.",
+              "B) The two points cannot be the same.",
+              "C) The denominator of a fraction cannot be zero.",
+              "D) The denominator must equal 1."],
               2, 
             );            
         </pg-code>

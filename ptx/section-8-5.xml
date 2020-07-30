@@ -331,7 +331,8 @@ and obtain the close-up view shown in figure (b). In this window, we can see tha
     <li>1, 4</li></ol></p></solution>
 </webwork>
 <conclusion>
-    <sidebyside width="40%"><image source="images/fig-GC-healt-club-membership"><description>graph</description></image></sidebyside>
+    <p>Graph for (a):</p>
+    <sidebyside width="40%" margins="0% 5%"><image source="images/fig-GC-healt-club-membership"><description>graph</description></image></sidebyside>
 </conclusion>
 </exercise>
 </subsection>

@@ -631,6 +631,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
         </solution>
     </webwork>
     <conclusion>
+        <p>Graph for part (b)</p>
         <sidebyside width="35%"><image source="images/fig-krypton-91-decay"><description>decay</description></image></sidebyside>
     </conclusion>
 </exercise>

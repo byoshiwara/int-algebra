@@ -71,6 +71,7 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
         </solution>
     </webwork>
     <conclusion>
+        <p><m>y = x^2 - 2x - 9</m>:</p>
         <sidebyside widths="40%" margins="0% 10%"><image xml:id="fig-ex-4-4-1ans">
                 <description>parabola for quadratic inequality</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -189,6 +190,7 @@ This set is another type of compound inequality, and its graph consists of two p
         </solution>
     </webwork>
     <conclusion>
+        <p><m>y = 16 + 6x - x^2</m>.</p>
         <sidebyside width="20%" margins="0% 75%"><image source="images/fig-ex-4-4-2ans" ><description>parabola for quadratic inequality</description></image></sidebyside>
     </conclusion>
 </exercise>
@@ -404,13 +406,13 @@ How many parkas should the company produce and sell each month if it must keep t
     </webwork>
 </exercise>
 
-<exercise><title>QuickCheck 4</title>
+<exercise><title>QuickCheck 5</title>
     <webwork><pg-code>       
             $nosol = RadioButtons(
-              ["Panic",
-              "Use the <m>y</m>-intercept instead",
-              "Use the quadratic formula",
-              "Go on to the next problem"],
+              ["A) Panic",
+              "B) Use the <m>y</m>-intercept instead",
+              "C) Use the quadratic formula",
+              "D) Go on to the next problem"],
               2, 
             );            
         </pg-code>

@@ -139,10 +139,10 @@
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
         $explain = RadioButtons(
-          ["Choose two data points and use the point-slope formula.",
-          "Use the point-slope formula with the first and last data points.",
-          "The regression line must pass through two data points, and we use the point-slope formula for those points.",
-          "Choose two points on the regression line and use the point-slope formula."],
+          ["A) Choose two data points and use the point-slope formula.",
+          "B) Use the point-slope formula with the first and last data points.",
+          "C) The regression line must pass through two data points, and we use the point-slope formula for those points.",
+          "D) Choose two points on the regression line and use the point-slope formula."],
           3, 
         );            
         </pg-code>
@@ -330,17 +330,17 @@
             $min=Compute("2.04");
             $m = Compute("-0.05");
             $units = RadioButtons(
-              ["biths per woman",
-              "births per woman per percentage point",
-              "literacy per percentage point",
-              "women per birth"],
+              ["A) biths per woman",
+              "B) births per woman per percentage point",
+              "C) literacy per percentage point",
+              "D) women per birth"],
               1, 
             );            
             $explain = RadioButtons(
-              ["0.05 births per woman for each percentage point increase in the female literacy rate.",
-              "0.05 births per year among literate women.",
-              "0.05 births per country for each percentage point increase in the female literacy rate.",
-              "<m>-0.05</m> births per women."],
+              ["A) 0.05 births per woman for each percentage point increase in the female literacy rate.",
+              "B) 0.05 births per year among literate women.",
+              "C) 0.05 births per country for each percentage point increase in the female literacy rate.",
+              "D) <m>-0.05</m> births per women."],
               0, 
             );            
         </pg-code>

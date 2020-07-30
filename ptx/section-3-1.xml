@@ -488,7 +488,12 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
     <webwork><pg-code>
             $x0 = Compute("(-3 + sqrt(19))/5");
             $x1 = Formula("(-3 - sqrt(19))/5");
-            $exact = List("$x0,$x1");
+            $exact = Compute("(-3 + sqrt(19))/5,(-3 - sqrt(19))/5");
+            $my_evaluator = $exact -> cmp(
+             showHints=>1,
+             showLengthHints => 1,
+             partialCredit => 1,
+            ); 
             $approx = List("$x0,$x1")->with(
               tolType => 'absolute',
               tolerance => .0051,
@@ -497,7 +502,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
 <statement><p>Solve <m>2(5x + 3)^2 = 38</m> by extracting roots.</p>
     <p><ol label="a">
         <li><p>Give your answers as exact values, separating the solutions with a comma.</p>
-            <p><var name="$exact" width="25"/> </p>
+            <p><var name="$exact" width="25" evaluator="$my_evaluator"/> </p>
             <p>Note: Enter "sqrt(2)" to get <m>\sqrt{2}</m>, and take care to use parentheses appropriately. </p>
             <p>Use the "Preview My Answers" button to see if you have entered valid syntax.</p></li>
         <li><p>Find approximations for the solutions to two decimal places, separating the solutions with a comma.</p>

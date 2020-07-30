@@ -50,10 +50,10 @@ Thus, <m>a = 0.5</m> and <m>b = 3</m>, and the function is <m>f(x) = 0.5(3^x)</m
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
             $syst = RadioButtons(
-              ["Calculate the slope.",
-              "Subtract one equation from the other.",
-              "Divide one equation by the other.",
-              "Take the log of both sides."],
+              ["A) Calculate the slope.",
+              "B) Subtract one equation from the other.",
+              "C) Divide one equation by the other.",
+              "D) Take the log of both sides."],
               2, 
             );            
         </pg-code>
@@ -138,7 +138,7 @@ Thus, <m>C(t) = 108.75(1.31)^t</m> , and the annual inflation rate was 31%.</p><
 
 <p>In the <xref ref="example-doubling-time" text="custom" >Example</xref> above, notice that the calculations in parts (a) and (b) are identical after the first step, and give the same result, 35 years.  In fact, we can start at any time, and it will take the population 35 years to double.  We say that 35 years is the <term>doubling time</term> for this population.  Every increasing exponential function has a constant doubling time.  In fact, if a function has a constant doubling time, it must be exponential.</p>
 
-<exercise><title>Practice 1</title>
+<exercise><title>Practice 3</title>
     <webwork><pg-code>
             Context()->variables->add(t=>"Real");
             $f = Formula("26.9*1.032**t");
@@ -163,13 +163,13 @@ Thus, <m>C(t) = 108.75(1.31)^t</m> , and the annual inflation rate was 31%.</p><
     </solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 1</title>
+<exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
             $dubt = RadioButtons(
-              ["The doubling time of a population depends on its initial value.",
-              "An increasing exponential function has a constant doubling time.",
-              "The doubling time is twice the percent growth rate.",
-              "The doubling time is half the percent growth rate."],
+              ["A) The doubling time of a population depends on its initial value.",
+              "B) An increasing exponential function has a constant doubling time.",
+              "C) The doubling time is twice the percent growth rate.",
+              "D) The doubling time is half the percent growth rate."],
               1, 
             );            
         </pg-code>
@@ -202,7 +202,7 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 	<li>We write <m>2^{t/115.87}</m> in the form <m>\left(2^{1/115.87}\right)^t</m> to see that the growth factor is <m>b = 2^{1/115.87}</m>, or 1.006. For exponential growth, <m>b = 1 + r</m>, so <m>r = 0.006</m>, or 0.6%.</li>
 	</ol></p></solution></example>
 
-<exercise><title>Practice 2</title>
+<exercise><title>Practice 4</title>
     <webwork><pg-code>
             $r = Compute("100*(2**(1/36.8)-1)")->with(
               tolType => 'absolute',
@@ -258,7 +258,7 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 </ol></p></solution></example>
 
 <exercise>
-	<title>Practice 3</title>
+	<title>Practice 5</title>
     <webwork><pg-code>
             Context()->variables->add(A0 => ["Real",TeX=>"A_0"], t=>"Real");
             $f = Formula("A0 * 0.85**t");
@@ -280,13 +280,13 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
     </webwork>
 </exercise>
 
-<exercise><title>QuickCheck 2</title>
+<exercise><title>QuickCheck 3</title>
 <webwork><pg-code>       
             $ddt = RadioButtons(
-              ["30 pounds of DDT dissolve in one year.",
-              "100 pounds of DDT dissolve in 30 years.",
-              "After 30 years, 100 pounds of DDT is reduced to 25 pounds.",
-              "Each half-pound of DDT takes 15 years to dissolve."],
+              ["A) 30 pounds of DDT dissolve in one year.",
+              "B) 100 pounds of DDT dissolve in 30 years.",
+              "C) After 30 years, 100 pounds of DDT is reduced to 25 pounds.",
+              "D) Each half-pound of DDT takes 15 years to dissolve."],
               2, 
             );            
         </pg-code>
@@ -321,7 +321,7 @@ Once again, you can check that this formula is equivalent to the decay function 
 		Thus, <m>1 - r = 0.8768</m>, so <m>r = 0.1232</m>, or 12.32%.</li></ol></p>
 </solution></example>
 
-<exercise><title>Practice 4</title>
+<exercise><title>Practice 6</title>
     <webwork><pg-code>
             $r = Compute("100*(1-(1/2**(1/30)))")->with(
               tolType => 'absolute',
@@ -336,7 +336,7 @@ Once again, you can check that this formula is equivalent to the decay function 
     </webwork>
 </exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise><title>QuickCheck 4</title>
 <webwork>
     <pg-code>
         $True = PopUp(

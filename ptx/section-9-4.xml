@@ -202,9 +202,11 @@
      </statement>
     <solution>
         <sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+        <p>Another graph is below.</p>
     </solution>
 </webwork>
     <conclusion>
+        <p><m>\dfrac{x^2}{9} - \dfrac{y^2}{16} = 1</m>:</p>
         <sidebyside width="40%" margins="0% 65%">
             <image xml:id="fig-ex-9-4-1ans"><description>hyperbola opening left and right</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -817,6 +819,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     </solution>
 </webwork>
 <conclusion>
+    <p><m>\dfrac{y^2}{9} - \dfrac{(x+4)^2}{12} = 1</m>:</p>
     <sidebyside width="40%" margins="0% 10%"><image xml:id="fig-ex-9-4-5ans">
             <description>translated hyperbola opening up and down</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -1012,6 +1015,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     </solution>
 </webwork>
 <conclusion>
+    <p><m>4x^2 - 6y^2 + 16x-12y-14=0</m>:</p>
     <sidebyside width="40%" margins="0% 10%">
         <image xml:id="fig-ex-9-4-6ans">
             <description>translated hyperbola opening left and right</description>
@@ -1187,6 +1191,12 @@ we can determine the nature of the graph from the coefficients of the quadratic 
         <li><p>The graph is a <var name="$c" form="popup"/> if one of <m>A</m> or <m>C</m> is zero.</p></li>
         <li><p>If <m>A = C</m> (and <m>B=0</m>), the graph is a <var name="$d" form="popup"/>.</p></li></ol></p>
     </statement>
+    <solution><p><ol label="a">
+        <li><p>A <var name="$a" /> conic can be a point, a line, a pair of lines, or no graph at all.</p></li>
+        <li><p>The coefficients <m>D</m>, <m>E</m>, and <m>F</m> determine the <var name="$b"/> of the conic.</p></li>
+        <li><p>The graph is a <var name="$c"/> if one of <m>A</m> or <m>C</m> is zero.</p></li>
+        <li><p>If <m>A = C</m> (and <m>B=0</m>), the graph is a <var name="$d"/>.</p></li></ol></p>        
+    </solution>
 </webwork></exercise>    
 </subsection>
 

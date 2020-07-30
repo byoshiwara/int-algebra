@@ -40,7 +40,7 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
             <md><mrow>-2x^3+x^2+16x=15\text{?}</mrow></md></p>
         <p><var name="$which" form="checkboxes"/> </p>
     </statement>
-    <solution><p><m>x=-3</m> and <m>x=1</m></p>
+    <solution><p><m>x=-3</m> and <m>x=1</m> both satisfy the equation.</p>
     </solution>
 </webwork>
 </exercise>
@@ -574,6 +574,7 @@ Note that the equation now has the form of the linear models we saw in the last 
     </solution>
 </webwork>
 <conclusion>
+    <p>Graph for part (b):</p>
     <sidebyside width="40%" margins="0% 0%"><image xml:id="fig-ex-ans-1-3-7"><description>triangle</description>
     <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -645,6 +646,7 @@ Note that the equation now has the form of the linear models we saw in the last 
     </solution>
 </webwork>
 <conclusion>
+    <p>Graph for part (a):</p>
     <sidebyside width="40%" margins="0% 0%"><image source="images/fig-GC-ex-1-2-9ans.png"><description>GC line</description></image></sidebyside>
 </conclusion>
 </exercise>

@@ -116,9 +116,10 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
         <p>Find the vertex and sketch a graph of <m>y=x^2-5x+3</m></p>
         <p>Vertex: <var name="$answer" width="8"/> </p>
     </statement>
-    <solution><p><m>(2.5,-3.25)</m>; an graph is below.</p></solution>
+    <solution><p><m>(2.5,-3.25)</m>; a graph is below.</p></solution>
 </webwork>
 <conclusion>
+    <p><m>y=x^2-5x+3</m></p>:
     <sidebyside width="35%" margins="0% 0%"><image xml:id="fig-xsqd-minus-5x-plus-3"><description>parabola</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -262,7 +263,7 @@ which confirms that when <m>x = 4</m>, <m>y = 6</m>. Next, notice that if <m>x</
     <statement><p>Which of the following is the vertex form for a parabola with vertex <m>(-2,3)</m>?</p>
         <p><var name="$lint" form="buttons"/></p>      
     </statement>
-    <solution><p><m>12xy=4(x+2)^2+3</m></p>
+    <solution><p><m>y=4(x+2)^2+3</m></p>
     </solution>
 </webwork></exercise>
 
@@ -362,7 +363,7 @@ The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
     <statement><p>Why do we need to know a second point besides the vertex to find the equation of a parabola?</p>
         <p><var name="$lint" form="buttons"/></p>      
     </statement>
-    <solution><p>To find the value of <m>a</m>.</p>
+    <solution><p>To find the value of <m>a</m> for the vertex form <m>y=a(x-x_v )^2 + y_v</m>.</p>
     </solution>
 </webwork></exercise>
 

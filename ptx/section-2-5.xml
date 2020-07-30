@@ -101,7 +101,7 @@
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="30%"><image source="images/fig-ex-2-5-1"><description>linear inequality in two variables</description></image></sidebyside>
+        <sidebyside width="30%" margins="0% 50%"><image source="images/fig-ex-2-5-1"><description>linear inequality in two variables</description></image></sidebyside>
     </conclusion>
 </exercise>
 

@@ -151,15 +151,15 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
         $P0 = Compute("800");
         $P1 = Compute("848");
         $c = RadioButtons(
-            [ "The population grew by 1.06 each year.", 
-            "The population grew by a factor of 1.06 each year.", 
-            "The population began at 1.06."
+            [ "A) The population grew by 1.06 each year.", 
+            "B) The population grew by a factor of 1.06 each year.", 
+            "C) The population began at 1.06."
             ],
             1
         );
         $d = RadioButtons(
-            [ "Multiply 800 by 1.06", 
-            "Raise 1.06 to the 5th power"
+            [ "A) Multiply 800 by 1.06", 
+            "B) Raise 1.06 to the 5th power"
             ],
             1
         );
@@ -254,6 +254,7 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
         <li>320 rabbits (after 12 months)</li></ol></p></solution>
 </webwork>
 <conclusion>
+    <p>Graph for part (a):</p>
     <sidebyside width="30%" margins="0% 0%"><image xml:id="fig-ex-7-1-1ans"><description>rabbit population</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -530,6 +531,7 @@ whose graphs are shown below.</p>
     </solution>
 </webwork>
 <conclusion>
+    <p>Graph for part (c):</p>
     <sidebyside width="35%" margins="0% 5%">
         <image xml:id="fig-ex-7-1-2"><description>exponential decay</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -805,6 +807,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
     </ol></p></solution>
 </webwork>
 <conclusion>
+    <p>Graph for part (c):</p>
     <sidebyside width="35%" margins="10% 10%">
         <image xml:id="fig-ex-7-1-3ans"><description>population Tombstone, AZ</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -964,6 +967,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
     </solution>
 </webwork>
     <conclusion>
+        <p>Graph for part (c):</p>
          <sidebyside width="35%" margins="0% 10%"><image xml:id="fig-butterfly">
         <description>exponential decay</description>
         <latex-image>

@@ -15,10 +15,10 @@
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>
              $which1 = RadioButtons(
-              ["The variables displayed on the axes",
-              "Points where the graphs intersect",
-              "The highest and lowest points",
-              "Points where the graph intersects the axes"],
+              ["A) The variables displayed on the axes",
+              "B) Points where the graphs intersect",
+              "C) The highest and lowest points",
+              "D) Points where the graph intersects the axes"],
               3, 
             ); 
         </pg-code>
@@ -91,18 +91,18 @@ The <m>g</m>-intercept is <m>(0, 20)</m>.</p></solution></example>
         $f = Formula("11- (1/48) d");
 
         $xi = RadioButtons(
-            ["miles Rosa can drive before the tank is empty",
-            "miles to the next gas stop",
-            "gallons of gasoline before Rosa begins driving",
-            "gallons of gasoline per mile of driving",
+            ["A) miles Rosa can drive before the tank is empty",
+            "B) miles to the next gas stop",
+            "C) gallons of gasoline before Rosa begins driving",
+            "D) gallons of gasoline per mile of driving",
             ],
             0
         );
         $yi = RadioButtons(
-            ["miles Rosa can drive before the tank is empty",
-            "miles to the next gas stop",
-            "gallons of gasoline before Rosa begins driving",
-            "gallons of gasoline per mile of driving",
+            ["A) miles Rosa can drive before the tank is empty",
+            "B) miles to the next gas stop",
+            "C) gallons of gasoline before Rosa begins driving",
+            "D) gallons of gasoline per mile of driving",
             ],
             2
         );
@@ -161,7 +161,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
     <statement><p>What is the general form of a linear equation?</p>
         <p><var name="$which1" form="buttons"/> 
     </p></statement>
-    <solution><p><m>Ax+By=C</m></p>
+    <solution><p>The general form of a linear equation is <m>Ax+By=C</m>.</p>
     </solution>
 </webwork></exercise>
 
@@ -293,7 +293,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
                 $xint = Point($x0,0);
                 $yint = Point(0,$y0);
             </pg-code>        
-    <statement><p>Find the <m>x</m>- and <m>y</m>-intercepts of the equation in Practice 3 (<xref ref="BreadbasketBakery" text="type-global"/>), and use the intercepts to graph the equation. Enter each intercept as an ordered pair.</p>
+    <statement><p>Find the <m>x</m>- and <m>y</m>-intercepts of the equation in Practice 3 (about Breadbasket Bakery), and use the intercepts to graph the equation. Enter each intercept as an ordered pair.</p>
         <p>The <m>x</m>-intercept is <var name="$xint"  width="4"/>.  </p>
         <p>The <m>y</m>-intercept is <var name="$yint"  width="4"/>. </p>
     </statement>
@@ -305,6 +305,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
     </solution>
 </webwork>
     <conclusion>
+        <p>Graph for Breadbasket Bakery:</p>
         <sidebyside width="30%" margins="0% 0%"><image xml:id="fig-ex-ans-1-2-4"><description>line with positive intercepts</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

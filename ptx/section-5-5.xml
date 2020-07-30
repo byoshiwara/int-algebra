@@ -250,7 +250,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
     </solution>
   </webwork>
     <conclusion>
-        <sidebyside width="30%"><image source="images/fig-ex-5-4-1ans"><description>reciprocal</description></image></sidebyside>
+        <sidebyside width="30%" margins="0% 50%"><image source="images/fig-ex-5-4-1ans"><description>reciprocal</description></image></sidebyside>
     </conclusion>
 </exercise>
 
@@ -341,7 +341,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
         <p><var name="$Yes" form="popup"/></p>
     </statement>
     <solution>
-        <p>Yes, the product <m>Hm^2</m> is the constant 0.6</p>
+        <p>Yes, the product <m>Hm^2</m> is the constant 0.6 for all pairs <m>(m,H)</m> in the table.</p>
     </solution>
 </webwork>
 </exercise>

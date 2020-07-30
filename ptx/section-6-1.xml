@@ -407,7 +407,7 @@ but <em>we cannot add or subtract terms with different exponents</em>. Thus, for
     <li><p><md><mrow>0.00032 \amp = 00003.2 \times 10^{-4} \amp \amp \blert{\text{Move the decimal 4 places to the right.}}</mrow></md></p></li></ol></p></solution>
 </example>
 
-<exercise><title>Practice 5</title>
+<exercise><title>Practice 6</title>
 <webwork>
     <pg-code>
         Context("ScientificNotation");
@@ -422,7 +422,7 @@ but <em>we cannot add or subtract terms with different exponents</em>. Thus, for
        <li><p><m>0.063=</m><var name="$a" width="8"/></p></li>
         <li><p><m>1480=</m><var name="$b" width="8"/></p></li></ol></p>
     <instruction>
-            Enter "10^-1" to get <m>10^{-1}</m>, and you may use either "*" or a lower case "x" for multiplication.
+            Enter "10^-1" to get <m>10^{-1}</m>, and you may use either "*" or a lower case "x" for multiplication. Do not use parentheses for this problem.
         </instruction>
     </statement>
     <solution><p><ol label="a" cols="2">

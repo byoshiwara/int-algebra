@@ -391,7 +391,7 @@ We then proceed as in <xref ref="example-long-division" text="type-global"/>. Yo
     <solution><m>-y^2+3y-1+ \dfrac{5}{3y+1}</m></solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise><title>QuickCheck 2</title>
 <webwork><pg-code>
         $True = PopUp(
             [ "?", 

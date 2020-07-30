@@ -83,7 +83,7 @@ So, we solve an exponential equation by computing a logarithm. We make the follo
 		<li><p><m>\log_{3}{3^4} = 4</m></p></li>
 	</ol></p></statement></example>
 
-<exercise><title>QuickCheck 2</title>
+<exercise><title>QuickCheck 1</title>
 <webwork><pg-code>
         Context()->functions->undefine("ln","log10","log");
         Context()->variables->add(w=>"Real",p=>"Real");
@@ -135,7 +135,7 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 		<li><p>The base is <m>M</m> and the exponent is <m>v</m>. Thus, <m>\log_{M}{3K} = v</m>.</p></li>
 	</ol></p></solution></example>
     
-<exercise> <title>Practice 3</title>
+<exercise> <title>Practice 2</title>
     <webwork><pg-code>
             Context(Fraction);
             $ya = Compute("-1/3");
@@ -310,7 +310,7 @@ To the nearest hundredth, <m>\log_{3}{7} \approx 1.77</m>.</p>
 	<me>\log_{10}{1000} = 3 ~~~\text{ and }~~~ \log_{10}{0.01} = -2</me>
 Base 10 logarithms are called <term>common logarithms</term><idx>common logarithms</idx>, and the subscript 10 is often omitted, so that <m>\log x</m> is understood to mean <m>\log_{10}{x}</m>.</p>
 
-<exercise><title>QuickCheck 4</title>
+<exercise><title>QuickCheck 3</title>
 <webwork><pg-code>       
             $findex = RadioButtons(
               ["\(x=25\)",
@@ -371,7 +371,7 @@ so our approximations are reasonable, although you can see that rounding a logar
     <li><m>5.9274</m></li></ol></p></solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise><title>QuickCheck 4</title>
 <webwork><pg-code>
         $True = PopUp(
             [ "?", 
@@ -436,7 +436,7 @@ We can evaluate this expression on the calculator by entering</p>
 	<li>Solve for the variable.</li></ol></p>
 </assemblage>
 
-<exercise><title>QuickCheck 4</title>
+<exercise><title>QuickCheck 5</title>
 <webwork><pg-code>       
             $stepone = RadioButtons(
               ["Multiply 5 times 10.",
@@ -454,7 +454,7 @@ We can evaluate this expression on the calculator by entering</p>
         <p>Divide both sides by 5.</p>
     </solution></webwork></exercise>
 
-<exercise><title>Practice 4</title>
+<exercise><title>Practice 5</title>
 <webwork><pg-code>
         Context()->flags->set(useBaseTenLog=>1); 
         $a = Compute("log(220-20)")->with(
@@ -499,7 +499,7 @@ To evaluate this expression, we key in</p>
 <p>to find <m>t \approx 7.525749892</m>. The tractor will be worth $15,000 in approximately <m>7\frac{1}{2}</m> years.</p>
 </solution></example>
 
-<exercise><title>QuickCheck 4</title>
+<exercise><title>QuickCheck 6</title>
 <webwork><pg-code>
         $True = PopUp(
             [ "?", 
@@ -529,7 +529,7 @@ To evaluate this expression, we key in</p>
     <li>True</li></ol></p></solution>
 </webwork></exercise>
 
-<exercise><title>Practice 7</title>
+<exercise><title>Practice 6</title>
     <webwork><pg-code>
             Context()->variables->add(t=>"Real");
             Context()->flags->set(useBaseTenLog=>1); 

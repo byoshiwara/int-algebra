@@ -13,10 +13,10 @@
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
             $step1 = RadioButtons(
-              ["Solve the equation.",
-              "Analyze data, identify trends, and predict the effects of change.",
-              "Describe the relationships between the variables involved.",
-              "Make a table of values."],
+              ["A) Solve the equation.",
+              "B) Analyze data, identify trends, and predict the effects of change.",
+              "C) Describe the relationships between the variables involved.",
+              "D) Make a table of values."],
               2, 
             );            
         </pg-code>
@@ -41,10 +41,10 @@
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
             $threeways = RadioButtons(
-              ["By inputs, outputs, or evaluation",
-              "By tables, equations, or graphs",
-              "By the intercepts, the slope, or the vertex",
-              "By numbers, letters, or diagrams"],
+              ["A) By inputs, outputs, or evaluation",
+              "B) By tables, equations, or graphs",
+              "C) By the intercepts, the slope, or the vertex",
+              "D) By numbers, letters, or diagrams"],
               1, 
             );            
         </pg-code>
@@ -133,10 +133,10 @@ A one-hour bike ride costs $8.</p>
 <webwork>
     <pg-code>       
             $which = RadioButtons(
-              ["Increasing variables",
-              "Variables that change at a constant rate",
-              "Variables that describe time",
-              "Variables that can be graphed"],
+              ["A) Increasing variables",
+              "B) Variables that change at a constant rate",
+              "C) Variables that describe time",
+              "D) Variables that can be graphed"],
               1, 
             );            
         </pg-code>

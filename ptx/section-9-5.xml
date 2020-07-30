@@ -57,6 +57,7 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
         </solution>
     </webwork>
     <conclusion>
+        <p>Graph of system:</p>
         <sidebyside widths="35%" margins="0% 60%"><image xml:id="fig-ex-9-5-1ans">
                 <description>parabola and line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -120,6 +121,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
     </solution>
     </webwork>
     <conclusion>
+        <p>Graph of system:</p>
         <sidebyside widths="35%" margins="0% 60%"><image source="images/fig-ex-9-5-2ans"><description>two parabolas</description></image></sidebyside>
     </conclusion>
 </exercise>

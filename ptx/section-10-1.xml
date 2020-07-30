@@ -309,6 +309,7 @@ We can also apply the two functions in the opposite order, so that
     </solution>
 </webwork>
     <conclusion>
+        <p><m>f(x)=10^x</m> and its inverse function <m>g(x)=\log_{10}{x}</m>:</p>
         <sidebyside width="30%" margins="0% 0%">
             <image xml:id="fig-10-to-x-and-log10">
             <description>10 to x and common log</description>
@@ -386,7 +387,7 @@ We can also apply the two functions in the opposite order, so that
         <p><var name="$intlog" form="buttons"/></p>      
     </statement>
     <solution>
-        <p>There is none.</p>
+        <p>There is none: <m>\log_5 x</m> not defined for <m>x=0</m> (nor for negative values of <m>x</m>).</p>
     </solution>
 </webwork></exercise>
 </subsection>
@@ -600,7 +601,7 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
         </p>
     </solution>
 </webwork>
-<conclusion><sidebyside width="45%" margins="0% 5%">
+<conclusion><p>Graph for part (a):</p><sidebyside width="45%" margins="0% 5%">
     <image xml:id="child-height">
         <description>curve</description>
         <latex-image>

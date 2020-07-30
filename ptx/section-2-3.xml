@@ -136,7 +136,7 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
     <statement><p>In order to use the elimination method, in what form should you write the equations?</p>
         <p><var name="$explain" form="buttons"/></p>      
     </statement>
-    <solution><p>General linear form</p>
+    <solution><p>The general linear form is usually the most convenient form when using the elimination method to solve a system.</p>
     </solution>
 </webwork></exercise>
 
@@ -228,10 +228,10 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
 <exercise><title>QuickCheck 4</title>
 <webwork><pg-code>       
         $explain = RadioButtons(
-          ["The divisor",
-          "The quotient",
-          "The lowest common multiple",
-          "The lowest common factor"],
+          ["A) The divisor",
+          "B) The quotient",
+          "C) The lowest common multiple",
+          "D) The lowest common factor"],
           2, 
         );            
         </pg-code>
