@@ -125,7 +125,7 @@
 <p><ol label="a">
     <li>Write an expression for the area of the colored stripe.</li>
     <li>Express the area of the stripe in factored form.</li>
-    <li>The sail is <m>7 \dfrac{1}{2}</m> feet high and the white stripe is <m>4 \dfrac{1}{2}</m> feet high. Use your answer to part (b) to calculate mentally the area of the stripe.</li></ol></p></statement>
+    <li>The sail is <m>7 \dfrac{1}{2}</m> feet high and the white triangle is <m>4 \dfrac{1}{2}</m> feet high. Use your answer to part (b) to calculate mentally the area of the stripe.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>A = \dfrac{1}{2}(x^2-y^2)</m></li>
     <li><m>A = \dfrac{1}{2}(x-y)(x+y)</m></li>

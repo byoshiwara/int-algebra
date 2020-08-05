@@ -338,7 +338,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
     <md><mrow>\blert{Ax + By = C}</mrow></md>
 and the form for a linear model,
     <md><mrow>\blert{y = (\text{starting value}) + (\text{rate}) \times t}</mrow></md>
-It is sometimes useful to convert an equation from one form to the other.</p>
+Sometimes it is useful to convert an equation from one form to the other.</p>
 
 <example><statement><p><ol label="a">
             <li><p>Write the equation <m>4x-3y=6</m> in the form for a linear model.</p></li>

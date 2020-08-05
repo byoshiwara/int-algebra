@@ -247,7 +247,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
             <mrow>\amp \amp \amp \blert{\text{has two square roots.}}</mrow></md></p></li></ul>
     The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.</p>  
 
-<note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions. (Well, except those equivalent to <m>x^2=0</m>.)</p></note>
+<note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions, which may be equal. The solutions may also be complex numbers, which we'll study in Chapter 4.</p></note>
 
 <example><statement><p>Solve the equation
         <md><mrow>\frac{1}{2}x^2-7=8</mrow></md>

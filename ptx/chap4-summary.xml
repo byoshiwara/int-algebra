@@ -35,7 +35,7 @@
     <li><assemblage><title>The Discriminant</title>
         <p>The <term>discriminant</term> of a quadratic equation is
             <me>D=b^2-4ac</me>  <ol label="1">      
-        <li>If <m>D \gt 0</m>,  there are two unequal solutions.</li>
+        <li>If <m>D \gt 0</m>,  there are two unequal real solutions.</li>
         <li>If  <m>D = 0</m>,  there is one solution of multiplicity two.</li>
         <li>If<m>D \lt 0</m>,  there are two complex conjugate solutions.</li></ol></p></assemblage></li>
         <li>Every quadratic equation has two solutions, which may be the same.</li>
@@ -52,7 +52,7 @@
     <li>We need three points to determine a parabola.</li>
     <li>We can use the method of elimination to find the equation of a parabola through three points.</li>
     <li>If we know the vertex of a parabola, we need only one other point to find its equation.</li>
-    <li>We can use quadratic regression to fit a parabol to a collection of data points from a quadratic model.</li>
+    <li>We can use quadratic regression to fit a parabola to a collection of data points from a quadratic model.</li>
     <li>We can use a graphical technique to solve quadratic inequalities.</li>
     <li><assemblage><title>To solve a quadratic inequality algebraically</title>
         <p><ol label="1">
@@ -68,7 +68,7 @@
             <li>The <term>open interval</term> <m>(a,b)</m> is the set <m>a \lt x \lt b</m>.</li>
             <li>Intervals may also be <term>half-open</term> or <term>half-closed</term>.</li>
             <li>The <term>infinite interval</term> <m>[a,\infty)</m> is the set <m>x \ge a</m>.</li>
-            <li>The <term>infinite interval</term> <m>9-\infty,a]</m> is the set <m>x \le a</m>.</li></ol></p></assemblage>
+            <li>The <term>infinite interval</term> <m>(\infty,a]</m> is the set <m>x \le a</m>.</li></ol></p></assemblage>
     </li>
 	<li><assemblage><title>To graph a quadratic equation <m>~y=ax^2+bx+c</m></title>
         <p><ol label="1">

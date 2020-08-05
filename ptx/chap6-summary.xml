@@ -42,7 +42,7 @@
         <li><p><m>\displaystyle{\left(a^m\right)^n=a^{mn}}</m></p></li>
         <li><p><m>\displaystyle{\left(ab\right)^n=a^n b^n}</m></p></li>
         <li><p><m>\displaystyle{\left(\frac{a}{b}\right)^n=\frac{a^n}{b^n}}</m></p></li></ol></p></assemblage></li>
-    <li>The laws of exponents do not apply to sums or differences of powers.  We can add or subtract like terms, but we cannot add or subtract terms with different exponents.  </li>
+    <li>The laws of exponents are used to simplify products and quotients of powers, not for sums or differences of powers.  We can combine (add or subtract) like terms, but we cannot combine terms with different exponents into a single term.  </li>
     <li><assemblage><title>To Write a Number in Scientific Notation</title><p><ol label="1">
         <li>Locate the decimal point so that there is exactly one nonzero digit to its left.</li>
             <li><p>Count the number of places you moved the decimal point:  this determines the power of 10.<ol label="a">
