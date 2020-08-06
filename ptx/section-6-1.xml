@@ -339,7 +339,7 @@ which is consistent with our previous version of the rule,
 
 <warning><p>The laws of exponents do not apply to sums or differences of powers. We can add or subtract like terms, that is, powers with the same exponent. For example,
     <me>6x^{-2} + 3x^{-2} = 9x^{-2}</me>
-but <em>we cannot add or subtract terms with different exponents</em>. Thus, for example,
+but <em>we cannot combine terms with different exponents</em> into a single term. Thus, for example,
     <md><mrow>4x^2 \amp- 3x^{-2} \amp\amp \blert{\text{cannot be simplified}}</mrow>
         <mrow>x^{-1} \amp + x^{-3}\amp\amp \blert{\text{cannot be simplified}}</mrow></md>
 </p></warning>

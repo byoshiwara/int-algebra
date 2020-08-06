@@ -393,7 +393,7 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
         <me>285 - 15(\alert{9}) = 285 - 135 = 150 ~~~~~~\blert{\text{Yes}}</me>
 </p></solution></example>
 
-<note><p>The relationship between an equation and its graph is an important one. For the previous example, make sure you understand that the following three statement sare equivalent.<ol label="1">
+<note><p>The relationship between an equation and its graph is an important one. For the previous example, make sure you understand that the following three statements are equivalent.<ol label="1">
         <li><p>The point <m>(9, 150)</m> lies on the graph of <m>y = 285 - 15x</m>.</p></li>
         <li><p>The ordered pair <m>(9, 150)</m> is a solution of the equation <m>y = 285 - 15x</m>.</p></li>
         <li><p><m>x=9</m> is a solution of the equation <m>150 = 285 - 15x</m>.</p></li></ol></p></note>
@@ -439,7 +439,7 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
 
 <p>We can also use graphs to solve inequalities. Consider the inequality
     <md><mrow>285-15x \ge 150</mrow></md>
-To solve this inequality means finding all values of <m>x</m> that make the expression <m>285 -15x</m> greater than or equal to 150. We could begin by trying some values of <m>x</m>. Here is a table obtained by evaluating <m>285 − 15x</m>.
+To solve this inequality means to find all values of <m>x</m> that make the expression <m>285 -15x</m> greater than or equal to 150. We could begin by trying some values of <m>x</m>. Here is a table obtained by evaluating <m>285 − 15x</m>.
 </p>
 <sidebyside><tabular top="minor" bottom="minor" right="minor" left="minor" halign="center">
     <row>

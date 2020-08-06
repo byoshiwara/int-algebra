@@ -14,9 +14,9 @@ and obtain a formula for the solutions of any quadratic equation.  Here is the r
     <p>The solutions of the equation <m>~~ax^2+bx+c=0,~~(a \not= 0)~~</m> are 
         <me>\blert{x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}}</me></p></assemblage>
 
-<note><p>The formula gives us the solutions of a particular quadratic equation in terms of its coefficients, <m>a,~b,</m> and <m>c</m>.  We know that there should be two solutions, and the symbol <m>~\blert{\pm}~</m> is used to combine the two expressions
+<note><p>The formula gives us the solutions of a particular quadratic equation in terms of its coefficients, <m>a,~b,</m> and <m>c</m>.  We know that there should be two solutions, and the symbol <m>~\blert{\pm}~</m> is used to represent the two expressions
     <me>x=\dfrac{-b +\sqrt{b^2-4ac}}{2a}~~~\text{and}~~~x=\dfrac{-b - \sqrt{b^2-4ac}}{2a}</me>
-into a single formula.</p></note>
+in a single formula.</p></note>
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -321,7 +321,7 @@ For example, consider the three graphs shown at right.</p>
     <mrow>\amp =\frac{4\pm\sqrt{\alert{4}}}{2}\amp 
         \amp =\frac{4\pm\sqrt{\alert{0}}}{2}\amp  
         \amp =\frac{4\pm\sqrt{\alert{-12}}}{2}</mrow>
-    <mrow>\amp~~\blert{ \text{two solutions}}  \amp \amp ~\blert{~\text{one repeated solution}} \amp\amp ~~\blert{~\text{no solutions}} </mrow></md></p>
+    <mrow>\amp~~\blert{ \text{two real solutions}}  \amp \amp ~\blert{~\text{one repeated solution}} \amp\amp ~~\blert{~\text{no real solutions}} </mrow></md></p>
 
 <p>From these examples, we see that the solutions of a quadratic equation always occur in <term>conjugate pairs</term>,
     <me>\dfrac{-b}{2a}+\dfrac{\sqrt{b^2-4ac}}{2a}~~~~~~\text{and}~~~~~~\dfrac{-b}{2a}-\dfrac{\sqrt{b^2-4ac}}{2a}</me>
@@ -332,7 +332,7 @@ For example, consider the three graphs shown at right.</p>
 <assemblage><title>The Discriminant</title>
 <p>The <term>discriminant</term> of a quadratic equation is
         <me>\blert{D=b^2-4ac}</me>  <ol label="1">      
-    <li>If <m>D \gt 0</m>,  there are two unequal solutions.</li>
+    <li>If <m>D \gt 0</m>,  there are two unequal real solutions.</li>
     <li>If  <m>D = 0</m>,  there is one solution of multiplicity two.</li>
     <li>If <m>D \lt 0</m>,  there are two complex conjugate solutions.</li></ol></p></assemblage>
 

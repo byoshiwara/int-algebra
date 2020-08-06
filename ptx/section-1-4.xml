@@ -646,7 +646,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     </solution>
 </webwork></exercise>
     
-<p>Here is a second consequence of the fact that lines have constant slope: We can tell whether a collection of data points lies on a straight line by computing slopes. If the slope between any two data points is the same, the points lie on a straight line.</p>
+<p>Here is a second consequence of the fact that lines have constant slope: We can tell whether a collection of data points lies on a straight line by computing slopes. If the slopes between pairs of data points are all the same, the points lie on a straight line.</p>
 
 <exercise><title>QuickCheck 6</title>
 <webwork><pg-code>       

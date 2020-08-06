@@ -48,7 +48,7 @@
     		<li>Solve each equation. There are two solutions (which may be equal).</li></ol></p></assemblage></p></li>
         <li>Each solution of a quadratic equation corresponds to a non-constant factor in the factored form.</li>
 		<li>The value of the constant <m>a</m> in the factored form of a quadratic equation does not affect the solutions.</li>
-		<li><p>The <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m> are the solutions of the equation<m>ax^2+bx+c=0</m>.</p></li>
+		<li><p>The <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m> are the solutions of the equation <m>ax^2+bx+c=0</m>.</p></li>
 		<li><p><assemblage><title>The Graph of <m>y=ax^2</m></title>
 			<p><ul>
     		<li>The parabola opens upward if <m>a \gt 0</m></li>
@@ -57,7 +57,7 @@
     		<li>The vertex, the <m>x</m>-intercepts, and the <m>y</m>-intercept all coincide at the origin.</li>
 		</ul></p></assemblage></p></li>
 		<li><p><assemblage><title>The Graph of <m>y=x^2+c</m></title>
-		<p>Compared th the graph of <m>y=x^2</m>, the graph of <m>y=x^2+c</m><ul>
+		<p>Compared to the graph of <m>y=x^2</m>, the graph of <m>y=x^2+c</m><ul>
     		<li>is shifted upward by <m>c</m> units if <m>c \gt 0</m></li>
     		<li>is shifted downward by <m>c</m> units if <m>c \lt 0</m></li>
 		</ul></p></assemblage></p></li>

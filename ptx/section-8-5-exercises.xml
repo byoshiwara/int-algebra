@@ -115,7 +115,7 @@ Solution:
 Write and solve an equation to determine what percent of the population can be immunized for $168,000.</p></statement>
 <answer><p><m>168=\dfrac{72p}{100-p}</m>; <m>p=70\%</m></p></answer></exercise>
 
-<exercise number="30"><statement><p>A school od bluefin tuna average 36 miles per hour on a 200-mile trip in still water, but this time they encounter a current.<ol>
+<exercise number="30"><statement><p>A school of bluefin tuna average 36 miles per hour on a 200-mile trip in still water, but this time they encounter a current.<ol>
     <li><p>Express the tuna's travel time, <m>t</m>, as a function of the current speed, <m>v</m>, and graph the function in the window
         <md><mrow>{\text{Xmin}} \amp = 0 \amp\amp {\text{Xmax}} = 36</mrow>
         <mrow>{\text{Ymin}} \amp = 0 \amp\amp {\text{Ymax}} =50</mrow></md></p></li>
