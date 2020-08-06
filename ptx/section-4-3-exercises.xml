@@ -224,7 +224,7 @@
     <li>Which model is more appropriate for the height of the star-flare, linear or quadratic? Why?</li></ol></p>
 </statement></exercise>
 
-<exercise number="21"><statement><p>Some comets move about the sun in parabolic orbits. In 1973 the comet Kohoutek passed within 0.14 AU (astronomical units), or 21 million kilometers of the sun. Imagine a coordinate system superimposed on a diagram of the comet's orbit, with the sun at the origin, as shown below. The units on each axis are measured in AU.</p>
+<exercise number="21"><statement><p>Some comets move about the sun in parabolic orbits. In 1973 the comet Kohoutek passed within 0.14 AU (<term>astronomical units</term><idx><h>astronomical units</h></idx>), or 21 million kilometers of the sun. Imagine a coordinate system superimposed on a diagram of the comet's orbit, with the sun at the origin, as shown below. The units on each axis are measured in AU.</p>
     <sidebyside  width="20%"><image source="images/fig-comet-parabola"><description>graph</description></image></sidebyside>  
 <p><ol label="a">
     <li>The comet's closest approach to the sun (called perihelion) occurred at the vertex of the parabola. What were the comet's coordinates at perihelion?  </li> 

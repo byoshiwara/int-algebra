@@ -5,7 +5,7 @@
 
 <subsection><title>Introduction</title>
 
-<p>An <term>algebraic fraction</term> (or <em>rational expression</em>, as they are someitmes called,) is a fraction in which both numerator and denominator are polynomials.  Here are some examples of algebraic fractions:
+<p>An <term>algebraic fraction</term><idx><h>algebraic fraction</h></idx> (or <term>rational expression</term><idx>rational expression</idx>, as they are someitmes called,) is a fraction in which both numerator and denominator are polynomials.  Here are some examples of algebraic fractions:
     <me>\dfrac{3}{x},~~~~~~\dfrac{a^2+1}{a-2},~~~~~~\text{and}~~~~~~\dfrac{z-1}{2z+3}</me>
 We can evaluate algebraic fractions just as we evaluate any other algebraic expression.</p>
 
@@ -194,7 +194,7 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
 
 <p>We summarize the procedure for reducing algebraic fractions as follows.</p>
 
-<assemblage><title>To reduce an algebraic fraction</title>
+<assemblage><title>To reduce an algebraic fraction</title><idx><h>algebraic fraction</h><h>reducing</h></idx>
     <p><ol label="1">
         <li>Factor the numerator and the denominator.</li>
         <li>Divide the numerator and denominator by any common factors.</li></ol></p>
@@ -360,7 +360,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 
 <subsection><title>Rational Functions</title>
 
-<p>A <term>rational function</term> is a function defined by an algebraic fraction.  That is, it has the form
+<p>A <term>rational function</term><idx><h>rational function</h></idx> is a function defined by an algebraic fraction.  That is, it has the form
     <me>f(x) = \dfrac{P(x)}{Q(x)}</me>
 where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undefined at any <m>x</m>-values where <m>Q(x) = 0</m>.</p>
 
@@ -406,7 +406,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
     <p>What about negative values for <m>x</m>? If we interpret a negative headwind as a tailwind, Francine's flying time should decrease for negative <m>x</m>-values. For example, if <m>x = -5</m>, there is a tailwind of 5 miles per hour, so Francine's effective speed is 20  miles per hour, and she can complete the flight in 3 hours. As the tailwind gets stronger (that is, as we move farther to the left in the <m>x</m>-direction), Francine's flying time continues to decrease, and the graph approaches the <m>x</m>-axis.</p></li></ol></p>
 </solution></example>
 
-<p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx>vertical asymptote</idx> for the graph. We first encountered asymptotes in <xref ref="SomeBasicGraphs" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>
+<p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx><h>asymptote</h><h>vertical</h></idx> for the graph. We first encountered asymptotes in <xref ref="SomeBasicGraphs" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>
 
 <exercise xml:id="average-tshirt-cost"><title>Practice 7</title>
 <webwork><pg-code>
@@ -491,7 +491,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
 </conclusion>
 </exercise>
 
-<p>In <xref ref="average-tshirt-cost" text="custom" >Practice 7</xref>, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions.</p>
+<p>In <xref ref="average-tshirt-cost" text="custom" >Practice 7</xref>, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions.</p>
 
 <exercise><title>QuickCheck 3</title>
 <webwork><pg-code>

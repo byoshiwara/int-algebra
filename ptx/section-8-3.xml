@@ -73,7 +73,7 @@ The same applies to the product of an algebraic fraction and any nonfractional e
 
  <p> We summarize the procedure for multiplying algebraic fractions as follows.</p>
 
- <assemblage><title>To multiply algebraic fractions:</title>
+ <assemblage><title>To multiply algebraic fractions:</title><idx><h>algebraic fraction</h><h>multiplying</h></idx>
  <p><ol label="1">
     <li>Factor each numerator and denominator.</li>
     <li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
@@ -140,7 +140,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
 
 <p>We summarize the procedure for dividing algebraic fractions as follows.</p>
 
-<assemblage><title>To divide algebraic fractions:</title>
+<assemblage><title>To divide algebraic fractions:</title><idx><h>algebraic fraction</h><h>dividing</h></idx>
  <p><ol label="1">
     <li>Take the reciprocal of the second fraction and change the operation to multiplication.</li>
     <li>Follow the rules for multiplication of fractions.</li></ol></p></assemblage>
@@ -223,7 +223,7 @@ The same holds true for all algebraic fractions.</p>
 
 <p>We summarize our procedure for adding or subtracting like fractions as follows.</p>
 
-<assemblage><title>To add or subtract like fractions</title>
+<assemblage><title>To add or subtract like fractions</title><idx><h>like fractions</h><h>adding or subtracting</h></idx>
  <p><ol label="1">
     <li>Add or subtract the numerators.</li>
     <li>Keep the same denominator.</li>
@@ -410,7 +410,7 @@ There is noting mysterious about the building process; we are breaking up each f
     <me>\dfrac{2}{3}+\dfrac{3}{4} = \dfrac{8}{12}+\dfrac{9}{12} = \dfrac{17}{12}</me>
 We add or subtract algebraic fractions with the same three steps.</p>
 
-<assemblage><title>To add or subtract algebraic fractions</title>
+<assemblage><title>To add or subtract algebraic fraction</title><idx><h>algebraic fraction</h><h>adding or subtracting</h></idx>
  <p><ol label="1">
     <li>Find the lowest common denominator (LCD) for the fractions.</li>
     <li>Build each fraction to an equivalent one with the same denominator.</li>

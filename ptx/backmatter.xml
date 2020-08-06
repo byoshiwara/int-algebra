@@ -7,4 +7,7 @@
 
     <solutions divisional=" solution answer" project="answer">
     </solutions>
+    <index>
+        <index-list />
+    </index>
 </backmatter>
