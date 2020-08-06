@@ -6,7 +6,7 @@
 <subsection><title>Tables, Graphs, and Equations</title>
 
 <assemblage><title>Mathematical Model</title>
-    <p>A <term>mathematical model</term><idx>mathematical model</idx> is a simplified description of reality that uses mathamatics to help us understand a system or process.</p></assemblage>
+    <p>A <term>mathematical model</term><idx>mathematical model</idx> is a simplified description of reality that uses mathematics to help us understand a system or process.</p></assemblage>
 
 <p>We can use a model to analyze data, identify trends, and predict the effects of change. The first step in creating a model is to describe relationships between the variables involved.</p>
 
@@ -34,9 +34,9 @@
 
 <p>Each of these mathematical tools is useful in a different way.
     <ol label="1">
-        <li>A table of values lists specific data points with precise numerical values.</li>
-        <li>A graph is a visual display of the data. It is easier to spot trends and describe the overall behavior of the variables from a graph.</li>
-        <li>An algebraic equation is a compact summary of the model. It can be used to analyze the model and to make predictions.</li> </ol></p>
+        <li>A <term>table of values</term><idx><h>table of values</h></idx> lists specific data points with precise numerical values.</li>
+        <li>A <term>graph</term><idx><h>graph</h></idx> is a visual display of the data. It is easier to spot trends and describe the overall behavior of the variables from a graph.</li>
+        <li>An <term>algebraic equation</term><idx><h>algebraic equation</h></idx> is a compact summary of the model. It can be used to analyze the model and to make predictions.</li> </ol></p>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       

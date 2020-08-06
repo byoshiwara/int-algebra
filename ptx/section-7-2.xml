@@ -114,7 +114,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 	<li><p>The <m>y</m>-intercept is <m>(0, a)</m>. There is no <m>x</m>-intercept.</p></li>
 </ol></p></assemblage>
 
-<p>In the table for <m>f(x)</m>, you can see that as the <m>x</m>-values decrease toward negative infinity, the corresponding <m>y</m>-values decrease toward zero. As a result, the graph of <m>f</m> decreases toward the <m>x</m>-axis, but never touches it, as we move to the left. The negative <m>x</m>-axis is a <term>horizontal asymptote</term> for exponential functions with <m>b \gt 1</m>, as shown in figure (a).</p>
+<p>In the table for <m>f(x)</m>, you can see that as the <m>x</m>-values decrease toward negative infinity, the corresponding <m>y</m>-values decrease toward zero. As a result, the graph of <m>f</m> decreases toward the <m>x</m>-axis, but never touches it, as we move to the left. The negative <m>x</m>-axis is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx> for exponential functions with <m>b \gt 1</m>, as shown in figure (a).</p>
     
 <p> For exponential functions with <m>0 \lt b \lt 1</m>, the positive <m>x</m>-axis is an asymptote, as illustrated in figure (b). </p>
 
