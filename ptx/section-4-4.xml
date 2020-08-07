@@ -143,7 +143,7 @@ We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have
 
 <warning><p>In <xref ref="example-quadratic-inequality" text="type-global"/> above, the solution of the inequality <m>~x^2 - 2x - 15 \ge 0~</m> is the set of values
     <me>x \le -3~~ \text{or}  ~~x \ge 5</me>
-This set is another type of compound inequality, and its graph consists of two pieces. Therefore, we cannot write the solution as a single inequality. For instance, it would be <em>incorrect</em> to describe the solution set as <m>~-3 \ge x \ge 5~</m>, because this notation implies that <m>-3 \ge 5</m>.  We must write the solution as two parts: <m>x \le -3</m> or <m>x \ge 5</m>.</p></warning>
+This set is another type of compound inequality, <idx>compound inequality</idx> and its graph consists of two pieces. Therefore, we cannot write the solution as a single inequality. For instance, it would be <em>incorrect</em> to describe the solution set as <m>~-3 \ge x \ge 5~</m>, because this notation implies that <m>-3 \ge 5</m>.  We must write the solution as two parts: <m>x \le -3</m> or <m>x \ge 5</m>.</p></warning>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
@@ -201,9 +201,9 @@ This set is another type of compound inequality, and its graph consists of two p
 
 <p>The solution set in <xref ref="example-fireworks" text="type-global"/>, namely <m>~4.26 \lt t \lt 11.74,~</m> is called an interval.  An <term>interval</term> is a set that consists of all the real numbers between two numbers <m>a</m> and <m>b</m>. An interval may include one or both of its endpoints.</p>
 
-<assemblage><title>Interval Notation</title>
+<assemblage><title>Interval Notation</title><idx>interval notation</idx>
 <p><ol label="1">
-    <li>The <term>closed interval</term> <m>[a,b]</m> is the set <m>a \le x \le b</m>.</li>
+    <li>The <term>closed interval</term><idx><h>closed interval</h></idx><idx><h>closed interval</h><seealso>interval notation</seealso></idx> <m>[a,b]</m> is the set <m>a \le x \le b</m>.</li>
     <li>The <term>open interval</term> <m>(a,b)</m> is the set <m>a \lt x \lt b</m>.</li>
     <li>Intervals may also be <term>half-open</term> or <term>half-closed</term>.</li>
     <li>The <term>infinite interval</term> <m>[a,\infty)</m> is the set <m>x \ge a</m>.</li>

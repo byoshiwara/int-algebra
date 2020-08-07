@@ -33,7 +33,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
 
 <p>Using the distance formula and the definition above, we can show that the equation of an ellipse centered at the origin has the following standard form.</p>
 
-<assemblage><title>Central Ellipse</title>
+<assemblage><title>Central Ellipse</title><idx>ellipse</idx><idx><h>central</h><h>ellipse</h></idx><idx><h>ellipse</h><h>central</h></idx><idx><h>center</h><h>of an ellipse</h></idx>
 <p>The equation of an <term>ellipse</term> centered at the origin is
     <md><mrow>\blert{\frac{x^2}{a^2}+\frac{y^2}{b^2}=1}</mrow></md></p>
 </assemblage>
@@ -41,7 +41,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
 <p>By setting <m>y</m> equal to zero in the equation above, we find that the <m>x</m>-intercepts of this ellipse are <m>a</m> and <m>-a</m>; by setting <m>x</m> equal to zero, we find that the <m>y</m>-intercepts are <m>b</m> and <m>-b</m>.
 </p>
 
-<p> The line segment that passes through the foci (labeled <m>F_1</m> and <m>F_2</m> on the graphs below) and ends on the ellipse is called the <term>major axis</term><idx><h>axis</h><h>major</h></idx>. If <m>a \gt b</m>, the major axis is horizontal, as shown in the Figure below left. The <m>x</m>-intercepts are the endpoints of the major axis, so its length is <m>2a</m>. The vertical segment with length <m>2b</m> is called the <term>minor axis</term><idx><h>axis</h><h>minor</h></idx>. The endpoints of the major axis are the <term>vertices</term><idx><h>vertices</h></idx> of the ellipse and the endpoints of the minor axis are the <term>covertices</term><idx><h>covertices</h></idx>.</p>
+<p> The line segment that passes through the foci (labeled <m>F_1</m> and <m>F_2</m> on the graphs below) and ends on the ellipse is called the <term>major axis</term><idx><h>axis</h><h>major</h></idx>. If <m>a \gt b</m>, the major axis is horizontal, as shown in the Figure below left. The <m>x</m>-intercepts are the endpoints of the major axis, so its length is <m>2a</m>. The vertical segment with length <m>2b</m> is called the <term>minor axis</term><idx><h>axis</h><h>minor</h></idx>. The endpoints of the major axis are the <term>vertices</term><idx><h>vertices</h></idx> of the ellipse and the endpoints of the minor axis are the <term>covertices</term><idx><h>covertices</h><see>ellipse</see></idx>.</p>
 
 <sidebyside widths="47% 47%" margins="0% 0%"><image xml:id="fig-ellipse-wide">
         <description>ellipse with horizontal major axis</description><latex-image>
@@ -383,7 +383,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
 
 <p>An ellipse whose center is at the point <m>(h, k)</m> instead of the origin is said to be shifted or <term>translated</term> to that location.</p>
 
-<assemblage><title>Ellipse</title>
+<assemblage><title>Ellipse</title><idx><h>ellipse</h><h>translated</h></idx><idx><h>center</h><h>of an ellipse</h></idx>
     <p>The standard equation for an ellipse centered at <m>(h,k)</m> is
         <md><mrow>\blert{\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1}</mrow></md></p>
 </assemblage>
@@ -640,7 +640,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
 
 <subsection><title>Writing in Standard Form</title>
 
-<p>Second-degree equations in which the coefficients of <m>x^2</m> and <m>y^2</m> have the same sign can be written in one of the standard forms for an ellipse by completing the square. The equation can be graphed easily from the standard form.</p>
+<p>Second-degree equations in which the coefficients of <m>x^2</m> and <m>y^2</m> have the same sign can be written in one of the standard forms for an ellipse by completing the square<idx>completing the square</idx>. The equation can be graphed easily from the standard form.</p>
 
 <example><statement><p><ol label="a">
     <li><p>Write the equation in standard form.

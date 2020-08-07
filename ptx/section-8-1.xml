@@ -147,14 +147,14 @@ in ascending powers.</p>
 
 <p>Recall the following special products involving quadratic expressions.</p>
 
-<assemblage><title>Special Products of Binomials</title>
+<assemblage><title>Special Products of Binomials</title><idx><h>binomial</h><h>special products of</h></idx>
     <p><md><mrow>\amp \blert{(a + b)^2 = (a + b) (a + b) = a^2 + 2ab + b^2}</mrow>
             <mrow>\amp \blert{(a - b)^2 = (a - b) (a - b) = a^2 - 2ab + b^2}</mrow>
             <mrow>\amp \blert{(a + b) (a - b)= a^2 -b^2}</mrow></md></p></assemblage>
 
 <p>There are also special products resulting in cubic polynomials. In the Homework problems, you will be asked to verify the following products.</p>
 
-<assemblage><title>Cube of a Binomial</title>
+<assemblage><title>Cube of a Binomial</title><idx><h>binomial</h><h>cube of</h></idx><idx>cube of a binomial</idx>
     <p><ol label="1">
         <li><m>\blert{(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3}</m></li>
         <li xml:id="cube-of-x-minus-y"><m>\blert{(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3}</m></li></ol></p>
@@ -395,9 +395,9 @@ $multians = MultiAnswer($fac1,$fac2)->with(
      <li><p>Although the cost is always increasing, it increases very slowly from about <m>x = 5</m> to about <m>x = 11</m>. The flattening of the graph in this interval is a result of economy of scale: By buying supplies in bulk and using time efficiently, the cost per magazine can be minimized. However, if the production level is too large, costs begin to rise rapidly again.</p></li>
 </ol></p></solution></example>
 
-<p>In <xref ref="example-cubic-cost-function" text="type-global"/>c, we solved a cubic equation graphically. There is a cubic formula, analogous to the quadratic formula, that allows us to solve cubic equations algebraically, but it is complicated and not often used.</p>
+<p>In <xref ref="example-cubic-cost-function" text="type-global"/>c, we solved a cubic equation graphically. There is a cubic formula, <idx>cubic formula</idx> analogous to the quadratic formula, that allows us to solve cubic equations algebraically, but it is complicated and not often used.</p>
 
-<p>Cubic polynomials are also used to model smooth curves connecting given points. Such a curve is called a <term>cubic spline</term>.</p>
+<p>Cubic polynomials are also used to model smooth curves connecting given points. Such a curve is called a <term>cubic spline</term><idx>cubic spline</idx>.</p>
 
 <exercise><title>Practice 6</title>
     <webwork><pg-code>

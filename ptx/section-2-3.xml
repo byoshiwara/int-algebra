@@ -360,7 +360,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
     <p>We are left with the true but unhelpful equation <m>0 = 0</m>. The two equations are in fact equivalent (one is a constant multiple of the other), so the system is dependent. The graph of both equations is shown in the figure.</p>
     </li></ol></p></solution></example>
 
-<assemblage><title>Inconsistent and Dependent Systems</title>
+<assemblage><title>Inconsistent and Dependent Systems</title><idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx>
 <p>When using elimination to solve a system:<ol label="1">
     <li><p>If combining the two equations results in an equation of the form
             <md><mrow>0x+0y = k \amp\amp(k\ne 0)</mrow></md>

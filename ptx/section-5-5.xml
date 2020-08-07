@@ -46,7 +46,7 @@
     </tabular>
 <image source="images/fig-inverse-variation"><description>graph of time vs average speed</description></image></sidebyside>
 
-<assemblage><title>Inverse Variation</title>
+<assemblage><title>Inverse Variation</title><idx>constant of variation</idx>
 <p><m>y</m> <term>varies inversely</term><idx>varies inversely</idx> with <m>x</m> if
     <me>y = \dfrac{k}{x}\text{, }x \ne 0</me>
 where <m>k</m> is a positive constant.</p></assemblage>
@@ -101,7 +101,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <subsection><title>Finding a Formula for Inverse Variation</title>
 
-<p>If we know that two variables vary inversely and we can find one pair of corresponding values for the variables, we can determine <m>k</m>, the constant of variation.</p>
+<p>If we know that two variables vary inversely and we can find one pair of corresponding values for the variables, we can determine <m>k</m>, the constant of variation.<idx>constant of variation</idx></p>
 
 <example><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of 12 ohms draws 10 amps of current.<ol label="a">
         <li><p>Write a formula that gives current as a function of the resistance.</p></li>

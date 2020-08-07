@@ -143,7 +143,7 @@
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<assemblage><title>Coordinate Formula for Slope</title>
+<assemblage><title>Coordinate Formula for Slope</title><idx>coordinate formula for slope</idx>
 <p>If <m>(x_1, y_1)</m> and <m>(x_2,y_2)</m> are two points on a line, then the slope of the line is given by
     <md><mrow>m = \frac{y_2 - y_1}{x_2 - x_1} </mrow></md>
     as long as <m>x_1 \ne x_2</m></p>

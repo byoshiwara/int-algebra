@@ -832,8 +832,8 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
 
 <p>Compound interest is another example of exponential growth. Suppose you deposit a sum of money into an account that pays 5% interest compounded annually. Each year, 5% of your current balance is added to your account as interest, so your balance grows by a factor of 1.05. In general, we have the following formula.</p>
 
-<assemblage><title>Compound Interest</title>
-<p>If a <term>principal</term> of <m>P</m> dollars is invested in an account that pays an interest rate <m>r</m> compounded annually, the <term>balance</term> <m>B</m> after <m>t</m> years is given by
+<assemblage><title>Compound Interest</title><idx>compound interest</idx><idx><h>balance</h><seealso>compound interest</seealso></idx><idx><h>compound interest</h><h>balance</h></idx><idx><h>compound interest</h><h>principal</h></idx>
+<p>If a <term>principal</term><idx><h>principal</h></idx> of <m>P</m> dollars is invested in an account that pays an interest rate <m>r</m> compounded annually, the <term>balance</term><idx><h>balance</h></idx> <m>B</m> after <m>t</m> years is given by
     <me>\blert{B=P(1+r)^t}</me></p></assemblage>
 
 </subsection>

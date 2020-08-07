@@ -2,7 +2,7 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="CurveFitting"   xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Curve Fitting</title>
+<title>Curve Fitting</title><idx>curve fitting</idx>
 <introduction>
 <p>Earlier, we used linear regression to fit a line to a collection of data points.  In this section we'll see how to fit a quadratic equation to a collection of data points.</p>
 </introduction>

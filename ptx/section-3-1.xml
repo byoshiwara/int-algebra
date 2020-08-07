@@ -247,7 +247,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
             <mrow>\amp \amp \amp \blert{\text{has two square roots.}}</mrow></md></p></li></ul>
     The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.</p>  
 
-<note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions, which may be equal. The solutions may also be complex numbers, which we'll study in Chapter 4.</p></note>
+<note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions, which may be equal. The solutions may also be complex numbers, <idx>complex number</idx> which we'll study in Chapter 4.</p></note>
 
 <example><statement><p>Solve the equation
         <md><mrow>\frac{1}{2}x^2-7=8</mrow></md>
@@ -542,7 +542,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
 
 <subsection><title>An Application: Compound Interest</title>
 
-<p>Many savings accounts offer interest compounded annually:  at the end of each year the interest earned is added to the principal, and the interest for the next year is computed on this larger sum of money. After <m>n</m> years, the amount of money in the account is given by the formula 
+<p>Many savings accounts offer interest compounded annually:<idx>compound interest</idx><idx><h>compound interest</h><h>principal</h></idx>  at the end of each year the interest earned is added to the principal, and the interest for the next year is computed on this larger sum of money. After <m>n</m> years, the amount of money in the account is given by the formula 
     <me>A=P(1+r)^n</me>
 where <m>P</m> is the original principal and <m>r</m> is the interest rate, expressed as a decimal fraction.</p> 
 

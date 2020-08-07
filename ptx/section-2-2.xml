@@ -18,7 +18,7 @@
     <md><mrow>3t + 6r \amp = 48</mrow>
         <mrow>5t + 2r \amp =32</mrow></md></p>
 
-<p>This pair of equations is an example of a <term>linear system</term><idx>linear system</idx> <term>of two equations in two unknowns</term> (or a <m>2\times 2</m> linear system, for short). A <term>solution</term><idx>solution</idx> to the system is an ordered pair of numbers, <m>(t, r)</m>, that satisfies both equations in the system.</p>
+<p>This pair of equations is an example of a <term>linear system of two equations in two unknowns</term><idx><h>system of equations</h><h><m>2\times 2</m></h></idx><idx><h>linear system</h><h><m>2\times 2</m></h></idx> (or a <m>2\times 2</m> linear system, for short). A <term>solution</term><idx><h>solution</h><h>to a system of equations</h></idx> to the system is an ordered pair of numbers, <m>(t, r)</m>, that satisfies both equations in the system.</p>
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -224,7 +224,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<definition><title>Solutions of Linear Systems</title>
+<definition><title>Solutions of Linear Systems</title><idx><h>linear system</h></idx><idx><h>linear system</h><seealso>system of equations</seealso></idx><idx><h>solution</h><h>to a system of equations</h></idx><idx><h>consistent system</h><see>system of equations</see></idx><idx><h>system of equations</h><h>consistent</h></idx><idx><h>inconsistent system</h><see>system of equations</see></idx><idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>dependent system</h><see>system of equations</see></idx><idx><h>system of equations</h><h>dependent</h></idx><idx><h>independent system</h><see>system of equations</see></idx><idx><h>system of equations</h><h>independent</h></idx>
 <p>There are three types of <m>2 \times 2</m> linear systems<idx>linear system</idx>: <ol label="1">
     <li><p><term>Consistent and independent system</term><idx>consistent</idx><idx>independent</idx>. The graphs of the two lines intersect in exactly one point. The system has exactly one solution.</p></li>
     <li><p><term>Inconsistent system</term><idx>inconsistent</idx>. The graphs of the equations are parallel lines and hence do not intersect. An inconsistent system has no solutions.</p></li>
@@ -349,9 +349,9 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
         <p>The equilibrium price is $12 per yard, and the mill will sell 4800 yards of fabric at that price.</p></li>
     </ul></p></solution></example>
 
-<p>A business venture calculates its <term>profit</term> by subtracting its <term>costs</term> from its <term>revenue</term>, the amount of money it takes in from sales.
+<p>A business venture calculates its <term>profit</term><idx>profit</idx> by subtracting its <term>costs</term><idx>cost</idx> from its <term>revenue</term><idx>revenue</idx>, the amount of money it takes in from sales.
     <md><mrow>\blert{\text{Profit} = \text{Revenue} -\text{Cost}}</mrow></md>
-Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs,the cost of labor and materials to produce its product. Revenue is the product ofthe selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>.</p>
+Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs,the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>.</p>
 
 <exercise><title>Practice 4</title>
 <webwork><pg-code>

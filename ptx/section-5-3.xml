@@ -14,7 +14,7 @@
     <me>\blert{~s~~~\text{is a square root of}~~~n~~~\text{if}~~~    s^2=n}</me>
 There are several other kinds of roots, one of which is called the <term>cube root</term>.  We define the cube root as follows.</p>
 
-<assemblage><title>Cube Root</title>
+<assemblage><title>Cube Root</title><idx>cube root</idx><idx><h>root</h><h>cube root</h></idx>
 <p><m>b</m> is the <term>cube root</term> of <m>a</m> if <m>b</m> cubed equals <m>a</m>.  In symbols, we write
     <me>\blert{b=\sqrt[3]{a}~~~~\text{if}~~~~b^3=a}</me></p></assemblage>
 

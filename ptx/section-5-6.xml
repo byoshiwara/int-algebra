@@ -88,7 +88,7 @@
     </conclusion>
 </exercise>
 
-<p>The graphs in <xref ref="example-home-to-school" text="type-global"/> are portions of straight lines. We can also consider graphs that bend upward or downward. The bend is called the <term>concavity</term><idx>concavity</idx> of the graph.</p>
+<p>The graphs in <xref ref="example-home-to-school" text="type-global"/> are portions of straight lines. We can also consider graphs that bend upward or downward. The bend is called the <term>concavity</term><idx><h>concavity</h></idx><idx><h>concavity</h><seealso>concave up, concave down</seealso></idx> of the graph.</p>
 
 <example xml:id="concavity"><statement><p>The two functions described in this example are both increasing functions, but they increase in different ways. Match each function to its graph and to the appropriate table of values.<ol label="a">
         <li><p>The number of flu cases reported at an urban medical center during an epidemic is an increasing function of time, and it is growing at a faster and faster rate.</p></li>
@@ -149,7 +149,7 @@
         <sidebyside  width="40%"><image source="images/fig-concave-down" ><description>cocave down graph</description></image></sidebyside></li>
     </ol></p></solution></example>
 
-<p>A graph that bends upward is called <term>concave up</term>, and one that bends down is <term>concave down</term>.</p>
+<p>A graph that bends upward is called <term>concave up</term><idx>concave up</idx>, and one that bends down is <term>concave down</term><idx>concave down</idx>.</p>
 
 <exercise><title>Practice 2</title>
     <introduction>
