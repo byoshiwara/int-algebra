@@ -534,4 +534,141 @@ area is 24 square feet</p></statement></exercise>
     <li>Overshoot and oscillation:  the population exceeds the carrying capacity without inflicting permanent damage, then oscillates around the limit before leveling off.</li></ol></p></statement></exercise>
 
 </subexercises>
+
+<subexercises><title>Absolute Value</title>
+
+<exercisegroup ><introduction><p>In Problems 1<ndash/>8, 
+    <ol label="a">
+        <li><p>Use absolute value notation to write each expression as an equation or an inequality. (It may be helpful to restate each sentence using the word <em>distance</em>.)</p></li>
+        <li><p>Illustrate the solutions on a number line.</p></li></ol></p></introduction>
+    
+<exercise number="1"><statement><p><m>x</m> is six units from the origin. </p></statement>
+    <answer><p><ol label="a">
+            <li><p><m>\abs{x}=6 </m></p></li>
+            <li><sidebyside width="50%"><image source="images/fig-ans-2-5-1"><description>number line</description></image></sidebyside></li></ol></p></answer></exercise>
+
+<exercise number="2"><statement><p><m>a</m> is seven units from the origin.</p></statement></exercise>
+
+<exercise number="3"><statement><p>The distance from <m>p</m> to <m>-3</m> is five units.</p></statement>
+        <answer><p><ol label="a">
+            <li><p><m>\abs{p+3}=5 </m></p></li>
+            <li><sidebyside width="50%"><image source="images/fig-ans-2-5-3"><description>number line</description></image></sidebyside></li></ol></p></answer></exercise>
+
+<exercise number="4"><statement><p>The distance from <m>q</m> to <m>-7</m> is two units.</p></statement></exercise>
+
+<exercise number="5"><statement><p><m>t</m> is within three units of <m>6</m>. </p></statement>
+        <answer><p><ol label="a">
+            <li><p><m>\abs{t-6}\lt 3 </m></p></li>
+            <li><sidebyside width="50%"><image source="images/fig-ans-2-5-5"><description>number line</description></image></sidebyside></li></ol></p></answer></exercise>
+
+<exercise number="6"><statement><p><m>w</m> is no more than one unit from <m>-5</m>.</p></statement></exercise>
+
+<exercise number="7"><statement><p><m>b</m> is at least <m>0.5</m> unit from <m>-1</m>.</p></statement>
+        <answer><p><ol label="a">
+            <li><p><m>\abs{b+1}\ge 0.5 </m></p></li>
+            <li><sidebyside width="50%"><image source="images/fig-ans-2-5-7"><description>number line</description></image></sidebyside></li></ol></p></answer></exercise>
+
+<exercise number="8"><statement><p><m>m</m> is more than <m>0.1</m> unit from <m>8</m>.</p></statement></exercise>
+</exercisegroup>
+<p></p>
+
+<exercise number="9"><statement><p>Graph <m>y = \abs{x + 3}</m>. Use your graph to solve the following equations and inequalities.
+    <ol label="a" cols="3">
+        <li><p><m>\abs{x + 3} = 2 </m></p></li>
+        <li><p><m>\abs{x+3}\le 4 </m></p></li>
+        <li><p><m>\abs{x+3}\gt 5 </m></p></li></ol></p></statement>
+<answer><sidebyside width="30%"><image source="images/fig-ans-2-5-9"><description>absolute value graph</description></image></sidebyside>
+    <p><ol label="a">
+    <li><p><m>x = -5</m> or <m>x = -1</m> </p></li>
+    <li><p><m>-7\le x\le 1</m></p></li>
+    <li><p><m>x\lt -8</m> or <m>x\gt 2</m> </p></li></ol></p></answer></exercise>
+
+<exercise number="10"><statement><p>Graph <m>y = \abs{x -2}</m>. Use your graph to solve the following equations and inequalities.<ol label="a" cols="3">
+        <li><p><m>\abs{x-2} = 5 </m></p></li>
+        <li><p><m>\abs{x-2}\lt 8 </m></p></li>
+        <li><p><m>\abs{x-2}\ge 4 </m></p></li></ol></p></statement></exercise>
+
+<exercise number="11"><statement><p>Graph <m>y = \abs{2x-8}</m>. Use your graph to solve the following equations and inequalities.<ol label="a" cols="3">
+        <li><p><m>\abs{2x-8} = 0 </m></p></li>
+        <li><p><m>\abs{2x-8}=-2 </m></p></li>
+        <li><p><m>\abs{2x-8}\lt -6 </m></p></li></ol></p></statement>
+<answer><sidebyside width="30%"><image source="images/fig-ans-2-5-11"><description>absolute value graph</description></image></sidebyside><p><ol label="a">
+    <li><p><m>x = 4</m> </p></li>
+    <li><p>No solution</p></li>
+    <li><p>No solution </p></li></ol></p></answer></exercise>
+
+<exercise number="12"><statement><p>Graph <m>y = \abs{4x+8}</m>. Use your graph to solve the following equations and inequalities.<ol label="a" cols="3">
+        <li><p><m>\abs{4x+8} = 0 </m></p></li>
+        <li><p><m>\abs{4x+8}\lt 0 </m></p></li>
+        <li><p><m>\abs{4x+8}\gt -3 </m></p></li></ol></p></statement></exercise>
+
+<exercisegroup cols="3"><introduction><p>For Problems 13-24, solve.</p></introduction>
+
+<exercise number="13"><statement><p><m>\abs{2x-1}=4 </m></p></statement>
+<answer><p><m>x=\dfrac{-3}{2} </m> or <m>x=\dfrac{5}{2} </m></p></answer></exercise>
+
+<exercise number="14"><statement><p><m>\abs{3x-1}=5 </m></p></statement></exercise>
+
+<exercise number="15"><statement><p><m>0=\abs{7+3q} </m></p></statement>
+<answer><p><m>q=\dfrac{-7}{3} </m></p></answer></exercise>
+
+<exercise number="16"><statement><p><m>\abs{-11-5t}=0 </m></p></statement></exercise>
+
+<exercise number="17"><statement><p><m>4=\dfrac{\abs{b+2}}{3} </m></p></statement>
+<answer><p><m>b=-14 </m> or <m>b=10 </m></p></answer></exercise>
+
+<exercise number="18"><statement><p><m>6\abs{n+2}=9 </m></p></statement></exercise>
+
+<exercise number="19"><statement><p><m>\abs{2(w-7)}=1 </m></p></statement>
+<answer><p><m>w=\dfrac{13}{2} </m> or <m>w=\dfrac{15}{2} </m></p></answer></exercise>
+
+<exercise number="20"><statement><p><m>2=\abs{\dfrac{a-4}{5}} </m></p></statement></exercise>
+
+<exercise number="21"><statement><p><m>\abs{c-2}+3=1 </m></p></statement>
+<answer><p>No solution</p></answer></exercise>
+
+<exercise number="22"><statement><p><m>5=4-\abs{h+3} </m></p></statement></exercise>
+
+<exercise number="23"><statement><p><m>-7=\abs{2m+3} </m></p></statement>
+<answer><p>No solution</p></answer></exercise>
+
+<exercise number="24"><statement><p><m>\abs{5r-3}=-2 </m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 25-36, solve.</p></introduction>
+
+<exercise number="25"><statement><p><m>\abs{2x+6}\lt 3 </m></p></statement>
+<answer><p><m>\dfrac{-9}{2}\lt x \lt \dfrac{-3}{2} </m></p></answer></exercise>
+
+<exercise number="26"><statement><p><m>\abs{5-3x}\le 1 </m></p></statement></exercise>
+
+<exercise number="27"><statement><p><m>7\le \abs{3-2d} </m></p></statement>
+<answer><p><m>d\le -2~ </m> or <m>~ d\ge 5 </m></p></answer></exercise>
+
+<exercise number="28"><statement><p><m>10 \lt \abs{3r+2} </m></p></statement></exercise>
+
+<exercise number="29"><statement><p><m>\abs{6s+15}\gt -3 </m></p></statement>
+<answer><p>All real numbers</p></answer></exercise>
+
+<exercise number="30"><statement><p><m>\abs{8b-12}\lt -4 </m></p></statement></exercise>
+
+<exercise number="31"><statement><p><m> \abs{t-1.5}\lt 0.1 </m></p></statement>
+<answer><p><m>1.4 \lt t\lt 1.6 </m></p></answer></exercise>
+
+<exercise number="32"><statement><p><m>\abs{z-2.6}\le 0.1 </m></p></statement></exercise>
+
+<exercise number="33"><statement><p><m>\abs{T-3.25}\ge 0.05 </m></p></statement>
+<answer><p><m>T\le 3.2~</m> or <m>~T\ge 3.3 </m></p></answer></exercise>
+
+<exercise number="34"><statement><p><m>\abs{P-0.6}\gt 0.01 </m></p></statement></exercise>
+
+<exercise number="35"><statement><p><m>-1\ge \abs{\dfrac{n-3}{2}} </m></p></statement>
+<answer><p>No solution</p></answer></exercise>
+
+<exercise number="36"><statement><p><m>-0.1\le \abs{9(p+2)} </m></p></statement></exercise>
+</exercisegroup>
+
+</subexercises>
+
 </exercises>
+
