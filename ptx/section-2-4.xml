@@ -117,7 +117,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
 
 <subsection><title>Gaussian Reduction</title>
 
-<p>The method for solving a general <m>3 \times 3</m> linear system is called <term>Gaussian reduction</term><idx>Gaussian reduction</idx>, after the German mathematician Carl Gauss. We use linear combinations to reduce the system to triangular form, and then use back-substitution to find the solutions.</p>
+<p>The method for solving a general <m>3 \times 3</m> linear system is called <term>Gaussian reduction</term><idx>Gaussian reduction</idx><idx><h>Gaussian reduction</h><seealso>system of equations</seealso></idx>, after the German mathematician Carl Gauss. We use linear combinations to reduce the system to triangular form, and then use back-substitution to find the solutions.</p>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
@@ -223,7 +223,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
               2, 
             );            
         </pg-code> 
-    <statement><p>Suppose you eliminate <m>y</m> from two equations as Step 2 of Gaussian elimina-tion. What should you do for Step 3?</p>
+    <statement><p>Suppose you eliminate <m>y</m> from two equations as Step 2 of Gaussian reduction. What should you do for Step 3?</p>
         <p><var name="$elsm" form="buttons"/></p>      
     </statement>
     <solution><p>Eliminate <m>y</m> again from a different pair of equations.</p>
@@ -323,7 +323,7 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
             <li><p>If a system is dependent, it has no solutions. <var name="$TF" form="popup"/></p></li>
             <li><p>The equation <m>0x + 0y + 0z = 0</m> has no solution <var name="$TF" form="popup"/></p></li>
             <li><p>If a <m>3 \times 3</m> system is dependent, all three equations are the same.. <var name="$TF" form="popup"/></p></li>
-            <li><p>Gaussian elimination will reveal whether a system is dependent or inconsistent. <var name="$True" form="popup"/></p></li></ol></p>
+            <li><p>Gaussian reduction will reveal whether a system is dependent or inconsistent. <var name="$True" form="popup"/></p></li></ol></p>
     </statement>
     <solution><p><ol label="a">
             <li><p>False</p></li>

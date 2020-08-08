@@ -9,9 +9,9 @@
 	<sidebyside><image source="images/fig-parabola-diagram"><description>two parabolas with labeled features</description></image></sidebyside>
 
 <p>All these parabolas share certain features. <ul>
-	<li>The graph has either a highest point (if the parabola opens downward, as in figure (a) or a lowest point (if the parabola opens upward, as in figure (b). This high or low point is called the <term>vertex</term><idx>vertex</idx> of the graph.</li>
+	<li>The graph has either a highest point (if the parabola opens downward, as in figure (a) or a lowest point (if the parabola opens upward, as in figure (b). This high or low point is called the <term>vertex</term><idx><h>vertex</h><h>of a parabola</h></idx> of the graph.</li>
 	<li>The parabola is symmetric about a vertical line, called the <term>axis of symmetry</term><idx><h>axis</h><h>of symmetry</h></idx>, that runs through the vertex.</li> 
-	<li>A parabola has a <m>y</m>-intercept, and it may have zero, one, or two <m>x</m>-intercepts.</li>
+	<li>A parabola has a <m>y</m>-intercept<idx><em>y</em>-intercept</idx>, and it may have zero, one, or two <m>x</m>-intercepts<idx><em>x</em>-intercept</idx>.</li>
 	<li>If there are two <m>x</m>-intercepts, they are equidistant from the axis of symmetry.</li>
 </ul></p>
 
@@ -445,7 +445,7 @@ The <m>x</m>-intercepts are the points <m>(0, 0)</m> and <m>(\dfrac{-b}{a}, 0)</
 	<me>x=\frac{1}{2}\left[0+\left(\frac{-b}{a}\right)\right]=\frac{-b}{2a}</me>
 Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 
-<assemblage><title>Vertex of a Parabola</title><idx>vertex</idx>
+<assemblage><title>Vertex of a Parabola</title><idx><h>vertex</h><h>of a parabola</h></idx>
 	<p>For the graph of <m>y = ax^2 + bx</m>, the <m>x</m>-coordinate of the vertex is
 		<me>\blert{x_v=\frac{-b}{2a}}</me></p></assemblage>
 

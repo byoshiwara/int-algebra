@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Hyperbolas"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Conic Sections: Hyperbolas</title>
+<section xml:id="Hyperbolas"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Conic Sections: Hyperbolas</title><idx>hyperbola</idx>
 
 <introduction>     
- <p>If a cone is cut by a plane parallel to its axis, the intersection is a <term>hyperbola</term><idx>hyperbola</idx>, the only conic section <idx>conic section</idx> made of two separate pieces, or <term>branches</term><idx><h>branches</h><see>hyperbola</see></idx>.  Hyperbolas occur in a number of applied settings.  The navigational system called LORAN (long-range navigation) uses radio signals to locate a ship or plane at the intersection of two hyperbolas.  Satellites moving with sufficient speed will follow an orbit that is branch of a hyperbola; for example, a rocket sent to the moon must be fitted with retrorockets to reduce its speed in order to achieve an elliptical, rather than hyperbolic, orbit about the moon.</p>
+ <p>If a cone is cut by a plane parallel to its axis, the intersection is a <term>hyperbola</term><idx>hyperbola</idx>, the only conic section <idx>conic section</idx> made of two separate pieces, or <term>branches</term><idx><h>branches</h><see>hyperbola</see></idx><idx><h>hyperbola</h><h>branches</h></idx>.  Hyperbolas occur in a number of applied settings.  The navigational system called LORAN (long-range navigation) uses radio signals to locate a ship or plane at the intersection of two hyperbolas.  Satellites moving with sufficient speed will follow an orbit that is branch of a hyperbola; for example, a rocket sent to the moon must be fitted with retrorockets to reduce its speed in order to achieve an elliptical, rather than hyperbolic, orbit about the moon.</p>
   
   <p>The hyperbola is defined as follows.</p>
 
-  <definition><title>Hyperbola</title>
-    <p>A <term>hyperbola</term><idx>hyperbola</idx> is the set of points in the plane, the difference of whose distances from two fixed points (the <term>foci</term><idx>focus</idx>) is a constant.</p>
+  <definition><title>Hyperbola</title><idx>hyperbola</idx>
+    <p>A <term>hyperbola</term><idx>hyperbola</idx> is the set of points in the plane, the difference of whose distances from two fixed points (the <term>foci</term><idx><h>focus</h><h>of a hyperbola</h></idx>) is a constant.</p>
 </definition>
 
 <sidebyside widths="40% 40%" margins="5% 5%"><image xml:id="fig-hyperbola-left-right">
@@ -85,14 +85,14 @@
                 \text{ or } \qquad \blert{\frac{y^2}{b^2} -\frac{x^2}{a^2}  = 1}</mrow> </md></p>
 </assemblage>
 
-<p>In the first case, the two branches of the hyperbola open left and right, so the graph has <m>x</m>-intercepts at <m>a</m> and <m>-a</m> but no <m>y</m>-intercepts. (See figure above left.) The segment joining the <m>x</m>-intercepts is the <term>transverse axis</term><idx><h>axis</h><h>transverse</h></idx>, and its length is <m>2a</m>. The endpoints of the transverse axis are the vertices of the hyperbola. The segment of length <m>2b</m> is called the <term>conjugate axis.</term><idx>conjugate axis</idx><idx><h>conjugate axis</h><seealso>hyperbola</seealso></idx><idx><h>axis</h><h>conjugate</h></idx> </p>
+<p>In the first case, the two branches of the hyperbola open left and right, so the graph has <m>x</m>-intercepts at <m>a</m> and <m>-a</m> but no <m>y</m>-intercepts. (See figure above left.) The segment joining the <m>x</m>-intercepts is the <term>transverse axis</term><idx><h>axis</h><h>transverse</h></idx><idx><h>hyperbola</h><h>transverse axis</h></idx>, and its length is <m>2a</m>. The endpoints of the transverse axis are the <term>vertices</term><idx><h>hyperbola</h><h>vertices</h></idx><idx><h>vertex</h><h>of a hyperbola</h></idx><idx><h>vertices</h><see>hyperbola</see></idx> of the hyperbola. The segment of length <m>2b</m> is called the <term>conjugate axis.</term><idx>conjugate axis</idx><idx><h>conjugate axis</h><seealso>hyperbola</seealso></idx><idx><h>axis</h><h>conjugate</h></idx><idx><h>hyperbola</h><h>conjugate axis</h></idx></p>
 
 <p>In the second case, the graph has <m>y</m>-intercepts at <m>b</m> and <m>-b</m> but no <m>x</m>-intercepts<mdash/>the two branches open up and down. (See figure above right.) Here the <m>y</m>-intercepts are the vertices, so the transverse axis is vertical and has length <m>2b</m>. The conjugate axis has length <m>2a</m>.</p>
 </introduction>  
 
 <subsection><title>Asymptotes of Hyperbolas</title>
 
-<p>The branches of the hyperbola approach two straight lines that intersect at its center.  These lines are <term>asymptotes</term><idx><h>asymptote</h><h>of hyperbola</h></idx> of the graph, and they are useful as guidelines for sketching the hyperbola.  We first sketch a rectangle (called the <term>central rectangle</term><idx>central rectangle</idx>) whose sides are parallel to the axes and whose dimensions are <m>2a</m> and <m>2b</m>. The asymptotes are the diagonals of this rectangle.</p>
+<p>The branches of the hyperbola approach two straight lines that intersect at its center.  These lines are <term>asymptotes</term><idx><h>asymptote</h><h>of hyperbola</h></idx><idx><h>hyperbola</h><h>asymptotes</h></idx> of the graph, and they are useful as guidelines for sketching the hyperbola.  We first sketch a rectangle (called the <term>central rectangle</term><idx>central rectangle</idx>) whose sides are parallel to the axes and whose dimensions are <m>2a</m> and <m>2b</m>. The asymptotes are the diagonals of this rectangle.</p>
 
 <example><statement><p>Graph <m> \dfrac{y^2}{9} - \dfrac{x^2}{4} = 1</m></p></statement>
 
@@ -232,7 +232,7 @@
     </conclusion>
 </exercise>
 
-<p>The equation of a central hyperbola may be written as
+<p>The equation of a central hyperbola <idx><h>hyperbola</h><h>central</h></idx> may be written as
     <md><mrow>Ax^2 + By^2 = C</mrow></md>
 where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>.  As with ellipses, it is best to rewrite the equation in standard form in order to graph it.</p>
 

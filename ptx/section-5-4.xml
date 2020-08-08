@@ -4,7 +4,7 @@
 <section xml:id="DirectVariation"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Variation</title>
 
-<introduction><p>Two types of functions are widely used in modeling and are known by special names: <term>direct variation</term> and <term>inverse variation</term>.</p></introduction>
+<introduction><p>Two types of functions are widely used in modeling and are known by special names: <term>direct variation</term><idx><h>function</h><h>direct variation</h></idx> and <term>inverse variation</term><idx><h>function</h><h>inverse variation</h></idx>.</p></introduction>
 
 <subsection><title>Direct Variation</title><idx>direct variation</idx>
 
@@ -435,7 +435,7 @@ The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope o
         </solution>
 </webwork></exercise>
 
-<p>In any example of direct variation, as the input variable increases through positive values, the output variable increases also. Thus, a direct variation is an increasing function, as we can see when we consider the graphs of some typical direct variations shown below.</p>
+<p>In any example of direct variation, as the input variable increases through positive values, the output variable increases also. Thus, a direct variation is an increasing function, <idx>increasing function</idx><idx><h>increasing function</h><seealso>increasing graph</seealso></idx> as we can see when we consider the graphs of some typical direct variations shown below.</p>
 <sidebyside width="65%"><image source="images/fig-vary-with-power"><description>graphs of three variation with power</description></image></sidebyside>
 
 <warning><p>The graph of a direct variation always passes through the origin, so when the input is zero, the output is also zero. Thus, the functions <m>~y = 3x + 2~</m> and <m>~y = 0.4x^2 - 2.3~</m>, for example, are not direct variation, even though they are increasing functions for positive <m>x</m>.</p></warning>

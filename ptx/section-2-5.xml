@@ -168,7 +168,7 @@ is equivalent to
         <md><mrow>y \alert{\lt} {-3x}+4</mrow></md></p>
 </warning>
 
-<p>An inequality that uses <m>\gt</m> or <m>\lt</m> instead of <m>\ge</m> or <m>\le</m> is called <term>strict</term><idx>strict</idx>. The graph of a strict inequality includes only the half-plane and not the line. In that case we use a dashed line for the graph of the equation <m>ax + by + c = 0</m> to show that it is not part of the solution.</p>
+<p>An inequality that uses <m>\gt</m> or <m>\lt</m> instead of <m>\ge</m> or <m>\le</m> is called <term>strict</term><idx>strict inequality</idx><idx><h>inequality</h><h>strict</h></idx>. The graph of a strict inequality includes only the half-plane and not the line. In that case we use a dashed line for the graph of the equation <m>ax + by + c = 0</m> to show that it is not part of the solution.</p>
 
 <exercise><title>Practice 2</title>
 <webwork><pg-code>
@@ -283,7 +283,7 @@ is equivalent to
 
 <p>Here is a summary of our test point method for graphing inequalities.</p>
 
-<assemblage><title>To Graph an Inequality Using a Test Point:</title><p><ol label="1">
+<assemblage><title>To Graph an Inequality Using a Test Point:</title><idx><h>graph</h><h>graphing an inequality using a test point</h></idx><idx>test point for inequalities</idx><p><ol label="1">
     <li><p>Graph the corresponding equation to obtain the boundary line.</p></li>
     <li><p>Choose a test point that does not lie on the boundary line.</p></li>
     <li><p>Substitute the coordinates of the test point into the inequality.<ol label="a">
@@ -375,9 +375,9 @@ which is a false statement. Thus, <m>(5, 0)</m> is not a solution to the inequal
 <warning><p>We cannot choose a test point that lies on the boundary line. In Practice 3 above, we cannot use <m>(0, 0)</m> as a test point, because it lies on the line <m>y =\dfrac{-3}{2}x</m>. In this case, we should choose some other point, such as <m>(0, 1)</m> or <m>(1, 2)</m>.</p>
 </warning>
 
-<p>Recall that the equation of a vertical line has the form
+<p>Recall that the equation of a vertical line <idx>vertical line</idx> has the form
     <md><mrow>x=k</mrow></md>
-where <m>k</m> is a constant, and a horizontal line has an equation of the form
+where <m>k</m> is a constant, and a horizontal line <idx>horizontal line</idx> has an equation of the form
     <md><mrow>y=k</mrow></md>
 Similarly, the inequality <m>x\ge k</m> may represent the inequality in two variables
     <md><mrow>x+0y\ge k</mrow></md>
@@ -471,7 +471,7 @@ Its graph is then a region in the plane.</p>
 
 </subsection>
 
-<subsection><title>Systems of Inequalities</title>
+<subsection><title>Systems of Inequalities</title><idx>system of inequalities</idx><idx><h>inequality</h><h>system of</h></idx>
 
 <sidebyside valigns="middle middle" widths="60% 30%" margins="0% 0%">
 <p>Some applications are best described by a system of two or more inequalities. The solutions to a system of inequalities include all points that are solutions to each inequality in the system. The graph of the system is the intersection of the shaded regions for each inequality in the system. For example, the figure at right shows the solutions of the system
@@ -624,7 +624,7 @@ Its graph is then a region in the plane.</p>
     </conclusion>
 </exercise>
 
-<p>To describe the solutions of a system of inequalities, it is useful to locate the <term>vertices</term><idx>vertices</idx>, or corner points, of the boundary.</p>
+<p>To describe the solutions of a system of inequalities, it is useful to locate the <term>vertices</term><idx><h>vertices</h><see>system of inequalities</see></idx><idx><h>vertex</h><h>of a system of inequalities</h></idx>, or corner points, of the boundary.</p>
 
 <example><statement><p>Graph the solution set of the system below and find the coordinates of its vertices.
             <md><mrow>x - y - 2 \amp\le 0</mrow>

@@ -5,7 +5,7 @@
 
 <subsection><title>Introduction</title>
 
-<p>So far you have learned how to solve linear equations.  In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term><idx><h>equation</h><h>first-degree</h></idx><idx>degree (of a polynomial)</idx>.  Now we'll consider second-degree equations, or <term>quadratic</term><idx>quadratic equation</idx><idx><h>equation</h><h>quadratic</h></idx><idx><h>second-degree</h><see>quadratic</see></idx><idx><h>equation</h><h>second-degree</h><see>quadratic</see></idx> equations. A quadratic equation includes the square of the variable.</p> 
+<p>So far you have learned how to solve linear equations.  In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term><idx><h>first-degree equation</h></idx><idx>degree (of a polynomial)</idx><idx><h>equation</h><h>first-degree</h></idx><idx>degree (of a polynomial)</idx>.  Now we'll consider second-degree equations, or <term>quadratic</term><idx>quadratic equation</idx><idx><h>equation</h><h>quadratic</h></idx><idx><h>second-degree</h><see>quadratic</see></idx><idx><h>equation</h><h>second-degree</h><see>quadratic</see></idx> equations. A quadratic equation includes the square of the variable.</p> 
 
 <assemblage><title>Quadratic Equations</title>
 <p>A <term>quadratic equation</term> can be written in the standard form 
@@ -315,9 +315,9 @@ graphically and algebraically.</p></statement>
         </solution>
 </webwork></exercise>
 
-<p>We can now solve quadratic equations of the form <m>~ax^2+c = 0~</m>, by isolating <m>x</m> on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called <term>extraction of roots</term>.</p>
+<p>We can now solve quadratic equations of the form <m>~ax^2+c = 0~</m>, by isolating <m>x</m> on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called <term>extraction of roots</term>. <idx><h>extraction of roots</h><seealso>quadratic equation</seealso></idx></p>
 
-<assemblage><title>Extraction of Roots</title>
+<assemblage><title>Extraction of Roots</title><idx>extraction of roots</idx>
 <p>To solve a quadratic equation of the form
     <me>ax^2+c=0</me> <ol label="1">
     <li>Isolate <m>x</m> on one side of the equation.</li> 
@@ -375,7 +375,7 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
 
 <p>The formulas for the volume and surface area of some everyday objects, such as cylinders and cones, involve quadratic expressions. We can use extraction of roots to solve problems involving these objects.</p>
 
-<assemblage><title>Formulas for Volume and Surface Area</title>
+<assemblage><title>Formulas for Volume and Surface Area</title><idx>geometric formulas</idx>
     <sidebyside  width="90%"><image source="images/fig-volume-and-surface-area"><description>graph </description></image></sidebyside>
 </assemblage>
 
@@ -467,7 +467,7 @@ Because the radius of a cone must be a positive number, we use only the positive
 </webwork></exercise>
 </subsection>
 
-<subsection><title>More Extraction of Roots</title>
+<subsection><title>More Extraction of Roots</title><idx>extraction of roots</idx>
 
 <p>We can also use extraction of roots to solve quadratic equations of the form
     <me>a(x-p)^2=q</me>

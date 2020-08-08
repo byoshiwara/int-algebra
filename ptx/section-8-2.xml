@@ -14,12 +14,12 @@ We can evaluate algebraic fractions just as we evaluate any other algebraic expr
 
 <subsection><title>Reducing Fractions</title>
 
-<p>You'll recall from your study of arithmetic that we can <term>reduce</term> a fraction if we can divide both numerator and denominator by a <term>common factor</term><idx><h>common factor</h></idx><idx><h>common factor</h><seealso>fraction</seealso></idx>.  In algebra, it is helpful to think of factoring out the common factor first.  For example,
+<p>You'll recall from your study of arithmetic that we can <term>reduce</term><idx><h>fraction</h><h>reducing</h></idx> a fraction if we can divide both numerator and denominator by a <term>common factor</term><idx><h>common factor</h></idx><idx><h>fraction</h><h>common factor</h></idx><idx><h>common factor</h><seealso>fraction</seealso></idx>.  In algebra, it is helpful to think of factoring out the common factor first.  For example,
     <me>\dfrac{27}{36} = \dfrac{\cancel{9} \cdot 3}{\cancel{9} \cdot 4} = \dfrac{3}{4}</me>
 where we have divided both numerator and denominator by 9. The new fraction has the same value as the old one, namely 0.75, but it is simpler (the numbers are smaller.) Reducing is an application of the Fundamental Principle of Fractions.
 </p>
 
-<assemblage><title>Fundamental Principle of Fractions</title>
+<assemblage><title>Fundamental Principle of Fractions</title><idx><h>fraction</h><h>fundamental principal</h></idx><idx>fundamental principal of fractions</idx>
 <p>We can multiply or divide the numerator and denominator of a fraction by the same nonzero factor, and the new fraction will be equivalent to the old one.
     <me>\blert{\dfrac{a \cdot c}{b \cdot c} = \dfrac{a}{b}}~~~~~~\text{if}~~~~~~b,c \ne 0</me></p></assemblage>
 
@@ -194,7 +194,7 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
 
 <p>We summarize the procedure for reducing algebraic fractions as follows.</p>
 
-<assemblage><title>To reduce an algebraic fraction</title><idx><h>algebraic fraction</h><h>reducing</h></idx>
+<assemblage><title>To reduce an algebraic fraction</title><idx><h>algebraic fraction</h><h>reducing</h></idx><idx><h>fraction</h><h>reducing an algebraic fraction</h></idx>
     <p><ol label="1">
         <li>Factor the numerator and the denominator.</li>
         <li>Divide the numerator and denominator by any common factors.</li></ol></p>
@@ -358,7 +358,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Rational Functions</title>
+<subsection><title>Rational Functions</title><idx><h>rational function</h></idx><idx><h>function</h><h>rational</h></idx>
 
 <p>A <term>rational function</term><idx><h>rational function</h></idx> is a function defined by an algebraic fraction.  That is, it has the form
     <me>f(x) = \dfrac{P(x)}{Q(x)}</me>
@@ -491,7 +491,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
 </conclusion>
 </exercise>
 
-<p>In <xref ref="average-tshirt-cost" text="custom" >Practice 7</xref>, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions.</p>
+<p>In <xref ref="average-tshirt-cost" text="custom" >Practice 7</xref>, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx><idx>horizontal asymptote</idx> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions.</p>
 
 <exercise><title>QuickCheck 3</title>
 <webwork><pg-code>

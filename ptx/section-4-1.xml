@@ -184,14 +184,14 @@ When we evalute this last expression, we get two different positive values, <m>x
         <mrow>x \amp = \pm \sqrt{-4}</mrow></md>
 Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real numbers, they occur frequently in mathematics and its applications.  Mathematicians in the sixteenth century gave them the name <term>imaginary numbers</term>, which reflected the mistrust with which they were viewed at the time. Today, however, such numbers are well understood and are used routinely by scientists and engineers.</p>
 
-<p>To help us work with imaginary numbers, we define a new number, <m>i</m>, the <term>imaginary unit</term>, whose square is <m>-1</m>. </p>
+<p>To help us work with imaginary numbers, we define a new number, <m>i</m><idx><em>i</em></idx>, the <term>imaginary unit</term><idx><h>imaginary unit</h><see><em>i</em></see></idx>, whose square is <m>-1</m>. </p>
  
-<assemblage><title>Imaginary Unit</title>
-<p><me>\blert{i = \sqrt{-1}}~~~~\text{or}~~~~\blert{i^2=-1}</me></p></assemblage>
+<definition><title>Imaginary Unit</title><idx><em>i</em></idx>
+<p><me>\blert{i = \sqrt{-1}}~~~~\text{or}~~~~\blert{i^2=-1}</me></p></definition>
 
 <p> With this new number we define the principal square root of any negative real number as follows.</p> 
 
-<assemblage><title>Imaginary Numbers</title>
+<assemblage><title>Imaginary Numbers</title><idx>imaginary number</idx>
 <p>If <m>~a \ge 0</m>,
     <me>\blert{\sqrt{-a} = \sqrt{-1}\sqrt{a} = i\sqrt{a}}</me></p></assemblage>
 

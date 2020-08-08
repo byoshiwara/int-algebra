@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="IntegerExponents"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Integer Exponents</title><idx><h>exponent</h><h>integer</h></idx>
+<section xml:id="IntegerExponents"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Integer Exponents</title><idx><h>exponent</h><h>integer</h><idx>power function</idx></idx>
 
 <introduction><p>You know that that a positive integer exponent tells us how many times its base occurs as a factor in an expression. For example,
     <me>4a^3b^2~~ \text{ means } ~~4aaabb</me></p>
@@ -140,11 +140,11 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
 
 <p>The functions that describe direct and inverse variation are part of a larger family of functions called <term>power functions</term>.</p> 
 
-<assemblage><title>Power Function</title>
+<definition><title>Power Function</title><idx>power function</idx>
     <p>A function of the form
         <me>\blert{f(x) = kx^p}</me>
     where <m>k</m> and <m>p</m> are nonzero constants, is called a <term>power function</term><idx>power function</idx>.
-    </p></assemblage>
+    </p></definition>
 
 <p>Examples of power functions are
     <me>V(r ) = \frac{4}{3}\pi r^3 ~~\text{ and }~~L(T ) = 0.8125T^2</me>

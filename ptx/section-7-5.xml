@@ -5,7 +5,7 @@
 
 <subsection><title>Fitting an Exponential Function through Two Points</title>
 
-<p>To write a formula for an exponential function, we need to know the initial value, <m>a</m>, and the growth or decay factor, <m>b</m>. We can find these two parameters if we know any two function values.</p>
+<p>To write a formula for an exponential function, we need to know the initial value, <m>a</m><idx>initial value</idx>, and the growth or decay factor, <m>b</m>. We can find these two parameters if we know any two function values.</p>
 
 <example xml:id="example-fit-exponential"><statement><p>Find an exponential function that has the values <m>f(2) = 4.5</m> and <m>f(5) = 121.5</m>.</p></statement>
 
@@ -218,7 +218,7 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 </exercise>
 </subsection>
 
-<subsection><title>Half-Life</title>
+<subsection><title>Half-Life</title><idx>half-life</idx>
 
 <p>The <term>half-life</term><idx>half-life</idx> of a decreasing exponential function is the time it takes for the output to decrease to half its original value. For example, the half-life of a radioactive isotope is the time it takes for half of the substance to decay. The half-life of a drug is the time it takes for half of the drug to be eliminated from the body. Like the doubling time, the half-life is constant for a particular function; no matter where you start, it takes the same amount of time to reach half that value.</p>
 

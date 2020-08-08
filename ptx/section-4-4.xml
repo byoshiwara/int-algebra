@@ -4,7 +4,7 @@
 <section xml:id="QuadraticInequalities"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Quadratic Inequalities</title>
 
-<subsection><title>Solving Inequalities Graphically</title>
+<subsection><title>Solving Inequalities Graphically</title><idx><h>inequality</h><h>quadratic</h><h>inequality</h><h>graphical solution</h></idx>
 
 <p>The easiest way to solve a quadratic inequality is with a graph.</p>
 
@@ -20,7 +20,7 @@ Points on the graph with <m>h \gt 800</m> are shown in color, and the <m>t</m>-c
          
 <p>From the graph, the safe time interval runs from approximately 4.25 seconds to 11.75 seconds after launch. The solution of the inequality is the set of all <m>t</m>-values greater than 4.25 but less than 11.75.</p></solution></example>
 
-<note><p>The solution set in <xref ref="example-fireworks" text="type-global"/> is called a <term>compound inequality</term><idx>compound inequality</idx>, because it involves more than one inequality symbol. We write this inequality as
+<note><p>The solution set in <xref ref="example-fireworks" text="type-global"/> is called a <term>compound inequality</term><idx>compound inequality</idx><idx><h>inequality</h><h>compound</h></idx>, because it involves more than one inequality symbol. We write this inequality as
     <me>4.25 \lt t \lt 11.75</me>
 and read "<m>t</m> greater than 4.25 but less than 11.75."</p></note>
 
@@ -103,7 +103,7 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
 
 </subsection>
 
-<subsection><title>Using the <m>x</m>-Intercepts</title>
+<subsection><title>Using the <m>x</m>-Intercepts</title><idx><em>x</em>-intercept</idx>
 
 <p>Because it is easy to decide whether the <m>y</m>-coordinate of a point on a graph is positive or negative (the point lies above the <m>x</m>-axis or below the <m>x</m>-axis), we often rewrite a given inequality so that one side is zero.  
 </p>  
@@ -143,7 +143,7 @@ We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have
 
 <warning><p>In <xref ref="example-quadratic-inequality" text="type-global"/> above, the solution of the inequality <m>~x^2 - 2x - 15 \ge 0~</m> is the set of values
     <me>x \le -3~~ \text{or}  ~~x \ge 5</me>
-This set is another type of compound inequality, <idx>compound inequality</idx> and its graph consists of two pieces. Therefore, we cannot write the solution as a single inequality. For instance, it would be <em>incorrect</em> to describe the solution set as <m>~-3 \ge x \ge 5~</m>, because this notation implies that <m>-3 \ge 5</m>.  We must write the solution as two parts: <m>x \le -3</m> or <m>x \ge 5</m>.</p></warning>
+This set is another type of compound inequality, <idx>compound inequality</idx><idx><h>inequality</h><h>compound</h></idx> and its graph consists of two pieces. Therefore, we cannot write the solution as a single inequality. For instance, it would be <em>incorrect</em> to describe the solution set as <m>~-3 \ge x \ge 5~</m>, because this notation implies that <m>-3 \ge 5</m>.  We must write the solution as two parts: <m>x \le -3</m> or <m>x \ge 5</m>.</p></warning>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
@@ -197,19 +197,19 @@ This set is another type of compound inequality, <idx>compound inequality</idx> 
 
 </subsection>
 
-<subsection><title>Interval Notation</title>
+<subsection><title>Interval Notation</title><idx>interval notation</idx>
 
 <p>The solution set in <xref ref="example-fireworks" text="type-global"/>, namely <m>~4.26 \lt t \lt 11.74,~</m> is called an interval.  An <term>interval</term> is a set that consists of all the real numbers between two numbers <m>a</m> and <m>b</m>. An interval may include one or both of its endpoints.</p>
 
 <assemblage><title>Interval Notation</title><idx>interval notation</idx>
 <p><ol label="1">
     <li>The <term>closed interval</term><idx><h>closed interval</h></idx><idx><h>closed interval</h><seealso>interval notation</seealso></idx> <m>[a,b]</m> is the set <m>a \le x \le b</m>.</li>
-    <li>The <term>open interval</term> <m>(a,b)</m> is the set <m>a \lt x \lt b</m>.</li>
+    <li>The <term>open interval</term><idx><h>open interval</h></idx><idx><h>open interval</h><seealso>interval notation</seealso></idx> <m>(a,b)</m> is the set <m>a \lt x \lt b</m>.</li>
     <li>Intervals may also be <term>half-open</term> or <term>half-closed</term>.</li>
-    <li>The <term>infinite interval</term> <m>[a,\infty)</m> is the set <m>x \ge a</m>.</li>
-    <li>The <term>infinite interval</term> <m>(-\infty,a]</m> is the set <m>x \le a</m>.</li></ol></p></assemblage>
+    <li>The <term>infinite interval</term><idx><h>infinite interval</h></idx><idx><h>infinite interval</h><seealso>interval notation</seealso></idx> <m>[a,\infty)</m> is the set <m>x \ge a</m>.</li>
+    <li>The <term>infinite interval</term><idx><h>infinite interval</h></idx><idx><h>infinite interval</h><seealso>interval notation</seealso></idx> <m>(-\infty,a]</m> is the set <m>x \le a</m>.</li></ol></p></assemblage>
 
-<p>The symbol <m>\infty</m>, infinity, does not represent a specific real number; it indicates that the interval continues forever along the real line. A set consisting of two or more intervals is called the <term>union</term> of the intervals. For example, the solution to <xref ref="example-quadratic-inequality" text="type-global"/> is denoted in interval notation by <m>(-\infty,-3)\cup (5, \infty)</m>.</p>
+<p>The symbol <m>\infty</m><idx>infinity (<m>\infty</m>)</idx>, infinity, does not represent a specific real number; it indicates that the interval continues forever along the real line. A set consisting of two or more intervals is called the <term>union</term> of the intervals. For example, the solution to <xref ref="example-quadratic-inequality" text="type-global"/> is denoted in interval notation by <m>(-\infty,-3)\cup (5, \infty)</m>.</p>
 <p>Many solutions of inequalities are intervals or unions of intervals.</p>
 
 <example><statement><p>Write the solution sets with interval notation, and graph the solution set on a number line.  
@@ -295,10 +295,10 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
 <p>If the parabola opens downward, as in figure (b), the situation is reversed. The solutions to the inequality <m>y\gt 0</m> lie between the <m>x</m>-intercepts, and the solutions to <m>y\lt 0</m> lie outside the <m>x</m>-intercepts.</p>
 <p>From the graphs, we see that the <m>x</m>-intercepts are the boundary points between the portions of the graph with positive <m>y</m>-coordinates and the portions with negative <m>y</m>-coordinates. To solve a quadratic inequality, we need only locate the <m>x</m>-intercepts of the corresponding graph and then decide which intervals of the <m>x</m>-axis produce the correct sign for <m>y</m>.</p>
 
-<assemblage><title>To solve a quadratic inequality algebraically</title>
+<assemblage><title>To solve a quadratic inequality algebraically</title><idx><h>inequality</h><h>quadratic</h></idx>
 <p><ol label="1">
     <li>Write the inequality in standard form:  One side is zero, and the other has the form  <m>ax^2+bx+c</m>.</li>
-    <li>Find the <m>x</m>-intercepts of the graph of <m>~y=ax^2+bx+c</m> by setting <m>y=0</m> and solving for <m>x</m>.</li>
+    <li>Find the <m>x</m>-intercepts <idx><em>x</em>-intercept</idx> of the graph of <m>~y=ax^2+bx+c</m> by setting <m>y=0</m> and solving for <m>x</m>.</li>
     <li>Make a rough sketch of the graph, using the sign of <m>a</m> to determine whether the parabola opens upward or downward.</li>
     <li>Decide which intervals on the <m>x</m>-axis give the correct sign for <m>y</m>.</li></ol></p></assemblage>
 

@@ -146,7 +146,7 @@ Thus, <m>3(\log_b x - \log_b y) = \log_{b}\left(\dfrac{x}{y}\right)^3</m>.</p></
 
 </subsection>
 
-<subsection><title>Solving Exponential Equations</title>
+<subsection><title>Solving Exponential Equations</title><idx><h>exponential equation</h><h>solving with logarithms</h></idx>
 
 <p>By using Property (3), we can now solve exponential equations in which the base is not 10. For example, to solve the equation
 	<me>5^x = 7</me>

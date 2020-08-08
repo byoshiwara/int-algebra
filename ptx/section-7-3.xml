@@ -22,7 +22,7 @@ The unknown exponent that solves the equation <m>16=2^t</m> is called the base <
 	<me>\log_{2}16 = 4</me>
 So, we solve an exponential equation by computing a logarithm. We make the following definition.</p>
 
-<assemblage><title>Definition of Logarithm</title><idx>logarithm</idx><idx><h>base</h><h>of a logarithm</h></idx>
+<assemblage><title>Definition of Logarithm</title><idx>logarithm</idx><idx><h>base</h><h>of a logarithm</h></idx>(logarithm)<idx><h>exponent</h><h></h></idx>
 <p>For <m>b\gt 0, b\ne 1</m>, the <term>base <m>b</m> logarithm of <m>x</m></term>,
 	<idx>base</idx>
 	written <m>\log_{b} x</m>, is the exponent to which <m>b</m> must be raised in order to yield <m>x</m>.
@@ -428,7 +428,7 @@ We can evaluate this expression on the calculator by entering</p>
 
 <p>To solve exponential equations involving powers of 10, we can use the following steps.</p>
 
-<assemblage><title>Steps for Solving Exponential Equations</title>
+<assemblage><title>Steps for Solving Exponential Equations</title><idx><h>exponential equation</h><h>solving</h></idx><idx><h>exponential equation</h><h>solving with logarithms</h></idx>
 <p><ol label="1">
 	<li>Isolate the power on one side of the equation.</li>
 	<li>Rewrite the equation in logarithmic form.</li>

@@ -7,10 +7,10 @@
 
 <p>In <xref ref="ExponentialGrowthandDecay" text="type-global"/>, we studied functions that describe exponential growth or decay. More formally, we define an <term>exponential function</term> as follows.</p>
 
-<assemblage><title>Exponential Function</title>
+<definition><title>Exponential Function</title><idx>exponential function</idx><idx><h>function</h><h>exponential</h></idx>
 <p>An <term>exponential function</term> has the form
 	<me>\blert{f(x) = ab^x},~~~~ \text{ where } ~~~b \gt 0 ~~~\text{ and } ~~~b \ne 1 \text{, } ~~~a \ne 0</me>
-</p></assemblage>
+</p></definition>
 
 <p>Some examples of exponential functions are
 	<me>f (x) = 5^x,~~~~  P(t) = 250(1.7)^t,~~~~ \text{and } ~~~~g(n) = 2.4(0.3)^n</me>
@@ -21,7 +21,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 		<mrow>P(0) \amp= 250(1.7)^0 = 250</mrow>
 		<mrow>g(0) \amp= 2.4(0.3)^0 = 2.4</mrow></md></p>
 
-<p>The positive constant <m>b</m> is called the <term>base</term><idx><h>base</h><h>of an exponential function</h></idx> of the exponential function.</p>
+<p>The positive constant <m>b</m> is called the <term>base</term><idx><h>base</h><h>of an exponential function</h></idx><idx><h>exponential function</h><h>base of</h></idx> of the exponential function.</p>
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -111,10 +111,10 @@ For the examples above, we find that the <m>y</m>-intercepts are
 <assemblage><title>Properties of Exponential Functions, <m>f(x) = ab^x</m>, <m>a \gt 0</m></title><idx>exponential function</idx><idx><h>concave up</h></idx><p><ol>
 	<li><p>If <m>b \gt 1</m>, the function is increasing <idx>increasing function</idx>and concave up;</p> 
 		<p>if <m>0 \lt b \lt 1</m>, the function is decreasing<idx>decreasing function</idx> and concave up.</p></li>
-	<li><p>The <m>y</m>-intercept is <m>(0, a)</m>. There is no <m>x</m>-intercept.</p></li>
+	<li><p>The <m>y</m>-intercept <idx><em>y</em>-intercept</idx> is <m>(0, a)</m>. There is no <m>x</m>-intercept.</p></li>
 </ol></p></assemblage>
 
-<p>In the table for <m>f(x)</m>, you can see that as the <m>x</m>-values decrease toward negative infinity, the corresponding <m>y</m>-values decrease toward zero. As a result, the graph of <m>f</m> decreases toward the <m>x</m>-axis, but never touches it, as we move to the left. The negative <m>x</m>-axis is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx> for exponential functions with <m>b \gt 1</m>, as shown in figure (a).</p>
+<p>In the table for <m>f(x)</m>, you can see that as the <m>x</m>-values decrease toward negative infinity, the corresponding <m>y</m>-values decrease toward zero. As a result, the graph of <m>f</m> decreases toward the <m>x</m>-axis, but never touches it, as we move to the left. The negative <m>x</m>-axis is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx><idx>horizontal asymptote</idx> for exponential functions with <m>b \gt 1</m>, as shown in figure (a).</p>
     
 <p> For exponential functions with <m>0 \lt b \lt 1</m>, the positive <m>x</m>-axis is an asymptote, as illustrated in figure (b). </p>
 
@@ -259,13 +259,13 @@ For the examples above, we find that the <m>y</m>-intercepts are
 
 </subsection>
 
-<subsection><title>Comparing Exponential and Power Functions</title>
+<subsection><title>Comparing Exponential and Power Functions</title><idx><h>exponential function</h><h>vs power functions</h></idx><idx><h>power function</h><h>vs exponential function</h></idx>
 
 <p>We have studied several families of functions, including linear, quadratic, and power functions. Exponential functions are useful because they model growth or decline by a constant factor.</p>
 
-<warning><p>Exponential functions<idx>exponential functions</idx> are not the same as the power functions <idx>power functions</idx> we studied earlier. Although both involve expressions with exponents, it is the location of the variable that makes the difference. A power function, <m>h(x)=hx^p</m>, has a variable base and a constant exponent. An exponential function, <m>f(x)=ab^x</m>, has a constant base and a variable exponent.</p></warning>
+<warning><p>Exponential functions<idx>exponential function</idx> are not the same as the power functions <idx>power functions</idx> we studied earlier. Although both involve expressions with exponents, it is the location of the variable that makes the difference. A power function, <m>h(x)=hx^p</m>, has a variable base and a constant exponent. An exponential function, <m>f(x)=ab^x</m>, has a constant base and a variable exponent.</p></warning>
 
-<assemblage><title>Power Functions vs Exponential Functions</title>
+<assemblage><title>Power Functions vs Exponential Functions</title><idx><h>exponential function</h><h>vs power functions</h></idx><idx><h>power function</h><h>vs exponential functions</h></idx>
 <sidebyside><tabular>
         <col halign="left" width="50%"/>
         <col halign="left" width="25%"/>
@@ -372,7 +372,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 
 <p></p>
 
-<sidebyside widths="62% 37%" margins="0% 0%"><p>The relationship in <xref ref="example-power-vs-exponential" text="type-global"/> holds true for all increasing power and exponential functions: For large enough values of <m>x</m>, the exponential function will always be greater than the power function, regardless of the parameters in the functions. The figure at left shows the graphs of <m>f(x) = x^6</m> and <m>g(x) = 1.8^x</m>. At first, <m>f(x) \gt g(x)</m>, but at around <m>x = 37</m>, <m>g(x)</m> overtakes <m>f(x)</m>, and <m>g(x) \gt f(x)</m> for all <m>x \gt 37</m>.</p>
+<sidebyside widths="62% 37%" margins="0% 0%"><p>The relationship in <xref ref="example-power-vs-exponential" text="type-global"/> holds true for all increasing power and exponential functions: For large enough values of <m>x</m>, the exponential function will always be greater than the power function, regardless of the parameters in the functions.<idx><h>exponential growth</h><h>vs power function</h></idx><idx>increasing function</idx> The figure at left shows the graphs of <m>f(x) = x^6</m> and <m>g(x) = 1.8^x</m>. At first, <m>f(x) \gt g(x)</m>, but at around <m>x = 37</m>, <m>g(x)</m> overtakes <m>f(x)</m>, and <m>g(x) \gt f(x)</m> for all <m>x \gt 37</m>.</p>
     <image source="images/fig-power-vs-exponential-3"><description>power function vs exponential from 0 to 50</description></image></sidebyside>
 
 <exercise xml:id="exercise-identify-power-and-exponential-functions"><title>Practice 2</title>
@@ -460,7 +460,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 is exponential. </p>
 <p>Many exponential equations can be solved by writing both sides of the equation as powers with the same base. To solve the equation above, we write
 	<me>3^x = 3^4</me>
-which is true if and only if <m>x = 4</m>.</p> 
+which is true if and only if <m>x = 4</m>.<idx><h>exponential equation</h><h>solving</h></idx></p> 
 <p>In general, if two equivalent powers have the same base, then their exponents must be equal also, as long as the base is not <m>0</m> or <m>\pm 1</m>.</p>
 
 <p>In the next Example, we use the laws of exponents to express both sides of the equation as single powers of a common base.</p>
@@ -633,9 +633,9 @@ From this form see that the growth factor for this function is <m>2^{1/5}</m>, o
 
 </subsection>
 
-<subsection><title>Graphical Solution of Exponential Equations</title>
+<subsection><title>Graphical Solution of Exponential Equations</title><idx><h>exponential equation</h><h>graphical solution of</h></idx>
 
-<p>It is not always so easy to express both sides of the equation as powers of the same base. In the following sections, we will develop more general methods for finding exact solutions to exponential equations. But we can use a graphing utility to obtain approximate solutions.</p>
+<p>It is not always so easy to express both sides of the equation as powers of the same base. In the following sections, we will develop more general methods for finding exact solutions to exponential equations. But we can use a graphing utility to obtain approximate solutions.<idx><h>exponential equation</h><h>solving</h></idx></p>
 
 <example xml:id="example-gc-exponential-equation"><idx>intersect</idx><statement><p>Use the graph of <m>y = 2^x</m> to find an approximate solution to the equation <m>2^x = 5</m> accurate to the nearest hundredth.</p></statement>
 

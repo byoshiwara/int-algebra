@@ -56,7 +56,7 @@
         models exponential growth and decay.</p>
         <p><ul>
             <li><m>P_0 =P(0)</m> is the <term>initial value</term><idx>initial value</idx> of <m>P</m>;</li>
-            <li><m>b</m> is the <term>growth</term> <idx>growth factor</idx> or <term>decay factor</term><idx>decay factor</idx>.</li></ul><ol>
+            <li><m>b</m> is the <term>growth</term>  or <term>decay factor</term>.</li></ul><ol>
         <li><p>If <m>b \gt 1</m>, then <m>P(t)</m> is increasing, and <m>b = 1 + r</m>, where <m>r</m> represents percent increase.</p></li>
         <li><p>If <m>0 \lt b \lt 1</m>, then <m>P(t)</m> is decreasing, and <m>b = 1 - r</m>, where <m>r</m> represents percent decrease.</p></li></ol></p></assemblage></li>
     <li><assemblage><title>Exponential Function</title>

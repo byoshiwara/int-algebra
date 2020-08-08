@@ -8,7 +8,7 @@
 <p>The function in <xref ref="investigation-population-growth" text="type-global"/> describes <term>exponential growth</term>. During each time interval of a fixed length, the population is multiplied by a certain constant amount. In this case, the bacteria population grows by a factor of 3 every day.</p>
 <sidebyside width="60%"><image source="images/fig-table-bacteria-population"><description>table of bacteria population</description></image></sidebyside>
 
-<p>For this reason, we say that 3 is the <term>growth factor</term><idx>growth factor</idx> for the function. </p>
+<p>For this reason, we say that 3 is the <term>growth factor</term><idx>growth factor</idx><idx><h>exponential growth</h><h>growth factor</h></idx> for the function. </p>
 </subsection>
 
 <subsection><title>Growth Factors</title>
@@ -66,10 +66,10 @@
 
 <p>Because the fruit fly population grows by a factor of 2 every day, the function <m>P(t)</m> describes exponential growth. Functions that describe exponential growth can be expressed in a standard form.</p>
 
-<assemblage><title>Exponential Growth</title>
+<assemblage><title>Exponential Growth</title><idx>exponential growth</idx><idx><h>exponential growth</h><h>growth factor</h></idx><idx><h>growth factor</h><seealso>exponential growth</seealso></idx><idx>initial value</idx><idx><h>exponential growth</h><h>initial value</h></idx>
 <p>The function
     <md><mrow>\blert{P(t)=P_0 b^t}</mrow></md> 
-    describes <term>exponential growth</term><idx>exponential growth</idx>, where <m>P_0=P(0)</m> is the <term>initial value</term><idx>initial value</idx> of the function and <m>b</m> is the <term>growth factor</term><idx>growth factor</idx>.</p></assemblage>
+    describes <term>exponential growth</term>, where <m>P_0=P(0)</m> is the <term>initial value</term> of the function and <m>b</m> is the <term>growth factor</term>.</p></assemblage>
 
 <p>For the <em>Drosophila</em> cell population, we have
     <md><mrow>P(t)=1 \cdot 2^t</mrow></md>
@@ -283,7 +283,7 @@ So the growth factor for the rabbit population is <m>2^{1/3}</m>, or about 1.26.
 
 </subsection>
 
-<subsection><title>Comparing Linear Growth and Exponential Growth</title>
+<subsection><title>Comparing Linear Growth and Exponential Growth</title><idx><h>exponential function</h><h>vs linear growth</h></idx><idx><h>exponential growth</h><h>vs linear growth</h></idx>
 
 <p>It may be helpful to compare linear growth <idx>linear growth</idx> and <idx>exponential growth</idx> exponential growth. Consider the two functions
     <me>L(t) = 5 + 2t ~~~~~\text{ and } ~~~~~ E(t) = 5 \cdot 2^t ~~~ (t \ge 0)</me>
@@ -416,9 +416,9 @@ whose graphs are shown below.</p>
 
 <subsection><title>Exponential Decay</title>
 
-<p>In the examples above, exponential growth was modeled by increasing functions of the form
+<p>In the examples above, exponential growth was modeled by increasing functions <idx>increasing function</idx> of the form
     <me>P(t) = P_0 b^t</me>
- where the growth factor, <m>b</m>, is a number greater than 1. If we multiply the function value by a number smaller than 1, the function values will decrease. Thus, if <m>0 \lt b \lt 1</m>, then <m>P(t) = P_0b^t</m> is a <em>decreasing</em> function. In this case, we say that the function describes <term>exponential decay</term><idx>exponential decay</idx>, and the constant <m>b</m> is called the <term>decay factor</term><idx>decay factor</idx>.</p>
+ where the growth factor, <m>b</m>, is a number greater than 1. If we multiply the function value by a number smaller than 1, the function values will decrease. Thus, if <m>0 \lt b \lt 1</m>, then <m>P(t) = P_0b^t</m> is a <em>decreasing</em> function.<idx>decreasing function</idx> In this case, we say that the function describes <term>exponential decay</term><idx>exponential decay</idx>, and the constant <m>b</m> is called the <term>decay factor</term><idx>decay factor</idx><idx><h>exponential decay</h><h>decay factor</h></idx>.</p>
 
 <example><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined by a factor of 0.942 each year.<ol label="a">
     <li>In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of <m>t</m>, the number of years after 1944.</li>
@@ -621,11 +621,11 @@ and so on. Now here is the important observation about percent increase:</p>
     <me>P(t) = 4000(1.05)^t</me> 
 This formula describes exponential growth with a growth factor of <m>b=1.05</m>. In general, a function that grows at a percent rate <m>r</m>, where <m>r</m> is expressed as a decimal, has a growth factor of <m>b=1+r</m>.</p>
 
-<assemblage><title>Growth by a Constant Percent</title>
+<assemblage><title>Growth by a Constant Percent</title><idx>growth by a constant percent</idx>
     <p>The function
         <md><mrow>\blert{P(t) =P_0 (1+r)^t}</mrow></md>
     describes exponential growth at a constant percent rate of growth, <m>r</m>.</p>
-    <p> The <term>initial value</term><idx>initial value</idx> of the function is <m>P_0 = P(0)</m>, and <m>b=1+r</m> is the <term>growth factor</term><idx>growth factor</idx>.</p></assemblage>
+    <p> The <term>initial value</term><idx>initial value</idx> of the function is <m>P_0 = P(0)</m>, and <m>b=1+r</m> is the <term>growth factor</term><idx><h>exponential growth</h><h>growth factor</h></idx>.</p></assemblage>
 
 <p>Many quantities besides population can grow by a fixed percent. For example, an inflation rate gives the percent rate at which prices are rising.</p>
 
@@ -1027,13 +1027,13 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
 
 <p>We summarize our observations about exponential growth and decay functions as follows.</p>
 
-<assemblage><title>Exponential Growth and Decay</title><idx>exponential growth and decay</idx>
+<assemblage><title>Exponential Growth and Decay</title><idx>exponential growth and decay</idx><idx><h>function</h><h>exponential growth and decay</h></idx>
 <p>The function
     <md><mrow>\blert{P(t) = P_0 b^t}</mrow></md>
 models exponential growth and decay.</p>
 <p><ul>
     <li><m>P_0 =P(0)</m> is the <term>initial value</term><idx>initial value</idx> of <m>P</m>;</li>
-    <li><m>b</m> is the <term>growth</term> <idx>growth factor</idx> or <term>decay factor</term><idx>decay factor</idx>.</li></ul>
+    <li><m>b</m> is the <term>growth</term> <idx><h>exponential growth</h>growth factor<h></h></idx> or <term>decay factor</term><idx>decay factor</idx>.</li></ul>
 <ol>
     <li><p>If <m>b \gt 1</m>, then <m>P(t)</m> is increasing, and <m>b = 1 + r</m>, where <m>r</m> represents percent increase.</p></li>
     <li><p>If <m>0 \lt b \lt 1</m>, then <m>P(t)</m> is decreasing, and <m>b = 1 - r</m>, where <m>r</m> represents percent decrease.</p></li>

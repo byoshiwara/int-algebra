@@ -7,7 +7,7 @@
 
 <p>To multiply two fractions together, we multiply their numerators together and then multiply their denominators together. </p>
 
-<assemblage><title>Product of Fractions</title>
+<assemblage><title>Product of Fractions</title><idx>product of fractions</idx><idx><h>fraction</h><h>multiplying</h></idx>
 <p>If <m>b \ne 0</m> and <m>d \ne 0</m>, then
     <me>\blert{\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}}</me></p></assemblage>
 
@@ -73,7 +73,7 @@ The same applies to the product of an algebraic fraction and any nonfractional e
 
  <p> We summarize the procedure for multiplying algebraic fractions as follows.</p>
 
- <assemblage><title>To multiply algebraic fractions:</title><idx><h>algebraic fraction</h><h>multiplying</h></idx>
+ <assemblage><title>To multiply algebraic fractions:</title><idx><h>algebraic fraction</h><h>multiplying</h></idx><idx>product of fractions</idx><idx><h>fraction</h><h>multiplying</h></idx>
  <p><ol label="1">
     <li>Factor each numerator and denominator.</li>
     <li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
@@ -81,13 +81,13 @@ The same applies to the product of an algebraic fraction and any nonfractional e
     <li>Reduce the product if necessary.</li></ol></p></assemblage>
 </subsection>
 
-<subsection><title>Quotients of Fractions</title>
+<subsection><title>Quotients of Fractions</title><idx>quotient of fractions</idx><idx><h>fraction</h><h>dividing</h></idx>
 
 <p>To divide one fraction by another, we multiply the first fraction by the reciprocal of the second fraction.  For example,
         <me>\dfrac{m}{2} \div \dfrac{2p}{3} = \dfrac{m}{2} \cdot \dfrac{3}{2p} = \dfrac{3m}{4p}</me>
 We express this rule in symbols as follows.</p>
 
-<assemblage><title>Quotient of Fractions</title>
+<assemblage><title>Quotient of Fractions</title><idx>quotient of fractions</idx><idx><h>fraction</h><h>dividing</h></idx>
 <p>If <m>b, c, d \ne 0</m>, then
     <me>\blert{\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}}</me></p></assemblage>
 
@@ -140,7 +140,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
 
 <p>We summarize the procedure for dividing algebraic fractions as follows.</p>
 
-<assemblage><title>To divide algebraic fractions:</title><idx><h>algebraic fraction</h><h>dividing</h></idx><idx>dividing algebraic fractions</idx>
+<assemblage><title>To divide algebraic fractions:</title><idx><h>algebraic fraction</h><h>dividing</h></idx><idx>dividing algebraic fractions</idx><idx>quotient of fractions</idx><idx><h>fraction</h><h>dividing</h></idx>
  <p><ol label="1">
     <li>Take the reciprocal of the second fraction and change the operation to multiplication.</li>
     <li>Follow the rules for multiplication of fractions.</li></ol></p></assemblage>
@@ -188,7 +188,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Adding and Subtracting Like Fractions</title>
+<subsection><title>Adding and Subtracting Like Fractions</title><idx><h>fraction</h><h>adding or subtracting</h></idx>
 
 <p>Fractions with the same denominator are called <term>like fractions</term>. For example,
     <me>\dfrac{5}{8}~~\text{and}~~\dfrac{9}{8},~~~~~~~\dfrac{4}{5x}~~\text{and}~~\dfrac{3}{5x},~~~~~~~\dfrac{1}{a-2}~~\text{and}~~\dfrac{a}{a-2}</me>
@@ -204,7 +204,7 @@ or <m>\dfrac{7}{5}</m>. The denominators of the terms must be the same because t
 <me>\dfrac{10}{3x} +\dfrac{4}{3x} = \dfrac{10+4}{3x} = \dfrac{14}{3x}</me>
 The same holds true for all algebraic fractions.</p>
 
-<assemblage><title>Sum or Difference of Like Fractions</title>
+<assemblage><title>Sum or Difference of Like Fractions</title><idx><h>fraction</h><h>adding or subtracting like fractions</h></idx>
  <p>If <m>c \ne 0</m>, then
     <md><mrow>\blert{\dfrac{a}{c}+\dfrac{b}{c}} \amp = \blert{\dfrac{a+b}{c}}</mrow>
         <mrow>\blert{\dfrac{a}{c}-\dfrac{b}{c}} \amp = \blert{\dfrac{a-b}{c}}</mrow></md></p></assemblage>
@@ -223,7 +223,7 @@ The same holds true for all algebraic fractions.</p>
 
 <p>We summarize our procedure for adding or subtracting like fractions as follows.</p>
 
-<assemblage><title>To add or subtract like fractions</title><idx><h>like fractions</h><h>adding or subtracting</h></idx>
+<assemblage><title>To add or subtract like fractions</title><idx><h>like fractions</h><h>adding or subtracting</h></idx><idx><h>fraction</h><h>adding or subtracting like fractions</h></idx>
  <p><ol label="1">
     <li>Add or subtract the numerators.</li>
     <li>Keep the same denominator.</li>
@@ -357,11 +357,11 @@ The same holds true for all algebraic fractions.</p>
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Unlike Fractions</title>
+<subsection><title>Unlike Fractions</title><idx><h>fraction</h><h>unlike</h></idx>
 
 <p>Let's review the steps for adding or subtracting unlike fractions.  For example, to compute the sum
     <me>\dfrac{2}{3}+\dfrac{3}{4}</me>
-we first find the lowest common denominator, or LCD, for the two fractions:  The smallest number that is a multiple of both 3 and 4 is 12.</p>
+we first find the lowest common denominator<idx>lowest common denominator</idx><idx><h>LCD</h><see>lowest common denominator</see></idx>, or LCD, for the two fractions:  The smallest number that is a multiple of both 3 and 4 is 12.</p>
 
 <p>Next, we use the fundamental principle of fractions to build each fraction to an equivalent one with denominator 12:
     <md><mrow>\dfrac{2}{3} = \dfrac{2 \cdot \alert{4}}{3 \cdot \alert{4}} = \dfrac{8}{12}</mrow>
@@ -410,7 +410,7 @@ There is noting mysterious about the building process; we are breaking up each f
     <me>\dfrac{2}{3}+\dfrac{3}{4} = \dfrac{8}{12}+\dfrac{9}{12} = \dfrac{17}{12}</me>
 We add or subtract algebraic fractions with the same three steps.</p>
 
-<assemblage><title>To add or subtract algebraic fraction</title><idx><h>algebraic fraction</h><h>adding or subtracting</h></idx>
+<assemblage><title>To add or subtract algebraic fraction</title><idx><h>algebraic fraction</h><h>adding or subtracting</h></idx><idx><h>fraction</h><h>adding or subtracting algebraic fractions</h></idx>
  <p><ol label="1">
     <li>Find the lowest common denominator (LCD) for the fractions.</li>
     <li>Build each fraction to an equivalent one with the same denominator.</li>
@@ -515,7 +515,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
 
 <subsection><title>Finding the Lowest Common Denominator</title>
 
-<p>The <term>lowest common denominator</term> for two or more algebraic fractions is the simplest algebraic expression that is a multiple of each denominator. If neither denominator can be factored, then their LCD is just the product of the two expressions.</p>
+<p>The <term>lowest common denominator</term><idx>lowest common denominator</idx><idx><h>fraction</h><h>lowest common denominator</h><see>lowest common denominator</see></idx> for two or more algebraic fractions is the simplest algebraic expression that is a multiple of each denominator. If neither denominator can be factored, then their LCD is just the product of the two expressions.</p>
 
 <example><statement><p>Add:  <m>~\dfrac{6}{x} + \dfrac{x}{x-2}</m></p></statement>
 
@@ -580,7 +580,7 @@ You can check that both 12 and 18 divide evenly into 36.</p>
     
 <p>In general, we can find the LCD in the following way.</p>
 
-<assemblage><title>To Find the LCD</title>
+<assemblage><title>To Find the LCD</title><idx><h>lowest commond denominator</h><h>finding the</h></idx>
 <p><ol label="1">
     <li>Factor each denominator completely.</li>
     <li>Include each different factor in the LCD as many times as it occurs in any one of the given denominators.</li>
@@ -606,13 +606,13 @@ You can check that both 12 and 18 divide evenly into 36.</p>
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Adding and Subtracting Unlike Fractions</title>
+<subsection><title>Adding and Subtracting Unlike Fractions</title><idx><h>fraction</h><h>adding or subtracting unlike fractions</h></idx>
 
 <p>After finding the LCD, we build each fraction to an equivalent one with the LCD as its denominator.  The new fractions will be like fractions, so we can combine their numerators.</p>
 
 <p>Building a fraction is an application of the fundamental principle of fractions, 
     <me>\dfrac{a}{b} = \dfrac{a \cdot c}{b \cdot c},~~~~\text{if}~~~~c \ne 0</me>  
-It is the opposite of reducing a fraction, because we multiply, rather than divide, the numerator and denominator by an appropriate factor.  To find the <term>building factor</term>, we compare the factors of the original denominator with those of the desired common denominator.</p>
+It is the opposite of reducing a fraction, because we multiply, rather than divide, the numerator and denominator by an appropriate factor.  To find the <term>building factor</term><idx>building factor</idx><idx><h>fraction</h><h>building factor</h></idx>, we compare the factors of the original denominator with those of the desired common denominator.</p>
 
 <example><statement><p>Add:  <m>~\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4}</m></p></statement>
 

@@ -14,9 +14,9 @@
     <me>\blert{~s~~~\text{is a square root of}~~~n~~~\text{if}~~~    s^2=n}</me>
 There are several other kinds of roots, one of which is called the <term>cube root</term>.  We define the cube root as follows.</p>
 
-<assemblage><title>Cube Root</title><idx>cube root</idx><idx><h>root</h><h>cube root</h></idx>
+<definition><title>Cube Root</title><idx>cube root</idx><idx><h>root</h><h>cube root</h></idx>
 <p><m>b</m> is the <term>cube root</term> of <m>a</m> if <m>b</m> cubed equals <m>a</m>.  In symbols, we write
-    <me>\blert{b=\sqrt[3]{a}~~~~\text{if}~~~~b^3=a}</me></p></assemblage>
+    <me>\blert{b=\sqrt[3]{a}~~~~\text{if}~~~~b^3=a}</me></p></definition>
 
 <p>Square roots of negative numbers are not real (they are complex), but every real number has a real cube root.  For example,
     <md><mrow> 4=\sqrt[3]{64}~~~~~~ \amp \text{because} \amp \amp 4^3=64</mrow>
@@ -97,16 +97,16 @@ Simplifying radicals occupies the same position in the order of operations as co
 <p>We use the absolute value to discuss problems involving distance. For example, consider the number line below.  Starting at the origin, we travel in opposite <em>directions</em> to reach the two numbers <m>6</m> and <m>-6</m>, but the <em>distance</em> we travel in each case is the same.</p>
 
 <sidebyside width="50%"><image source="images/fig-abs-six"><description>absolute value</description></image></sidebyside>  
-<p>The distance from a number <m>c</m> to the origin is called the <term>absolute value</term><idx>absolute value</idx> of <m>c</m>, denoted by <m>\abs{c}</m>. Because distance is never negative, the absolute value of a number is always positive (or zero). Thus, <m>\abs{6}= 6</m> and <m>\abs{-6} = 6</m>. In general, we define the absolute value of a number <m>x</m> as follows.</p>
+<p>The distance from a number <m>c</m> to the origin is called the <term>absolute value</term><idx>absolute value</idx><idx><h>function</h><h>absolute value</h><see>absolute value</see></idx> of <m>c</m>, denoted by <m>\abs{c}</m>. Because distance is never negative, the absolute value of a number is always positive (or zero). Thus, <m>\abs{6}= 6</m> and <m>\abs{-6} = 6</m>. In general, we define the absolute value of a number <m>x</m> as follows.</p>
 
-<assemblage><title>Absolute Value</title>
+<definition><title>Absolute Value</title>
     <p>The <term>absolute value</term><idx>absolute value</idx> of <m>x</m> is defined by
         <md><mrow>\abs{x} =
                     \begin{cases}
                     x \amp \text{if } x\ge 0</mrow>
             <mrow>-x  \amp \text{if } x\lt 0
                 \end{cases}</mrow></md></p>
-</assemblage>
+</definition>
 
 <p>This definition is called <term>piecewise</term>, because the formula has two pieces.  It says that the absolute value of a positive number (or zero) is the same as the number.  To find the absolute value of a negative number, we take the opposite of the number, which is then positive.  For instance,
     <me>\abs{-6}=-(-6)=6</me></p>
@@ -188,7 +188,7 @@ Simplifying radicals occupies the same position in the order of operations as co
 
 </subsection>
 
-<subsection><title>Eight Basic Graphs</title>
+<subsection><title>Eight Basic Graphs</title><idx><h>graph</h><h>eight basic</h></idx>
 
 <p>Most of the graphs in this section will be new to you, but many useful graphs are variations of the eight basic functions shown below.</p>
 
@@ -271,7 +271,7 @@ Simplifying radicals occupies the same position in the order of operations as co
 
 <p>The next pair of functions, <m>f(x)=\dfrac{1}{x}</m> and <m>g(x)=\dfrac{1}{x^2}</m>, are both undefined at <m>x=0</m>, so thier graphs do not include any points with <m>x</m>-coordinate zero. For very small positive values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very large. As <m>x</m> gets closer to zero, the graphs approach the vertical line <m>x=0</m> (the <m>y</m>-axis). This line is called a <term>vertical asymptote</term><idx><h>asymptote</h><h>vertical</h></idx> for the graph.</p>
 
-<p>Also, notice that for very large values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very close to zero. Their graphs approach the horizontal line <m>y=0</m> (the <m>x</m>-axis).  This line is called the <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx> for the graph.</p>
+<p>Also, notice that for very large values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very close to zero. Their graphs approach the horizontal line <m>y=0</m> (the <m>x</m>-axis).  This line is called the <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx><idx>horizontal asymptote</idx> for the graph.</p>
 
 <sidebyside  width="70%"><image source="images/fig-inverses"><description>graphs</description></image></sidebyside>
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <assemblage>
-    <title>To find an exponential function <m>f(x)=ab^x</m> through two points:</title>
+    <title>To find an exponential function <m>f(x)=ab^x</m> through two points:</title><idx><h>exponential function</h><h>finding a formula</h></idx>
     <p>
         <ol label="1">
             <li>
