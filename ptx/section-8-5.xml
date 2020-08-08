@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="EquationswithFractions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations with Fractions</title>
+<section xml:id="EquationswithFractions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations with Fractions</title><idx><h>equation</h><h>with fractions</h></idx>
 
 <introduction>
 <sidebyside widths="34% 64%" margins="0% 0%" valigns="middle middle">

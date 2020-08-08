@@ -6,9 +6,9 @@
 
 <introduction><p>Two types of functions are widely used in modeling and are known by special names: <term>direct variation</term> and <term>inverse variation</term>.</p></introduction>
 
-<subsection><title>Direct Variation</title><idx>directvariation</idx>
+<subsection><title>Direct Variation</title><idx>direct variation</idx>
 
-<p>Two variables are <term>directly proportional</term><idx>directly proportional</idx> (or just <term>proportional</term><idx>proportional</idx>) if the ratios of their corresponding values are always equal. Consider the functions described in the tables below. The first table shows the price of gasoline as a function of the number of gallons purchased.</p>
+<p>Two variables are <term>directly proportional</term><idx>directly proportional</idx><idx><h>directly proportional</h><seealso>direct variation</seealso></idx> (or just <term>proportional</term><idx><h>proportional</h><h>directly</h></idx>) if the ratios of their corresponding values are always equal. Consider the functions described in the tables below. The first table shows the price of gasoline as a function of the number of gallons purchased.</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -107,7 +107,7 @@ which we recognize as the equation of a line through the origin.</p>
 <assemblage><title>Direct Variation</title><idx>direct variation</idx>
 <p><m>y</m> <term>varies directly</term> with <m>x</m> if
     <me>y = kx</me>
-    where <m>k</m> is a positive constant called the <term>constant of variation</term><idx>constant of variation</idx>.
+    where <m>k</m> is a positive constant called the <term>constant of variation</term><idx>constant of variation</idx><idx><h>direct variation</h><h>constant of variation</h></idx>.
 </p></assemblage>
 
 <p>If <m>y</m> varies directly with <m>x</m>, we may also say that <m>y</m> is directly proportional to <m>x</m>.  The two phrases mean the same thing.</p>
@@ -122,7 +122,7 @@ which we recognize as the equation of a line through the origin.</p>
 
 <p>Direct variation defines a linear function of the form
     <me>y = f (x) = kx</me>
-The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope of the graph, so it tells us how rapidly the graph increases. Compared to the standard form for a linear function, <m>y = b + mx</m>, the constant term, <m>b</m>, is zero, so the graph of a direct variation passes through the origin.</p>
+The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope of the graph, so it tells us how rapidly the graph increases. Compared to the standard form for a linear function, <m>y = b + mx</m>, the constant term, <m>b</m>, is zero, so the graph of a direct variation passes through the origin. <idx>direct variation</idx></p>
 
 <exercise>
     <title>Practice 1</title>
@@ -310,7 +310,7 @@ The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope o
 </exercise>
 </subsection>
 
-<subsection><title>Finding a Formula for Direct Variation</title>
+<subsection><title>Finding a Formula for Direct Variation</title><idx><h>direct variation</h><h>finding a formula for</h></idx>
 
 <p>If we know any one pair of values for the variables in a direct variation, we can find the constant of variation. Then we can use the constant to write a formula for one of the variables as a function of the other.</p>
 
@@ -391,7 +391,7 @@ The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope o
 
 <p>In many situations, <m>y</m> is proportional to a power of <m>x</m>, instead of <m>x</m> itself.</p> 
 
-<assemblage><title>Direct Variation with a Power</title><idx>direct variation with a power</idx><p></p>
+<assemblage><title>Direct Variation with a Power</title><idx><h>direct variation</h><h>with a power</h></idx><p></p>
 <p><m>y</m> <term>varies directly</term><idx>varies directly</idx> with a power of <m>x</m> if
     <me>y = kx^n</me>
     where <m>k</m> and <m>n</m> are positive constants.</p>
@@ -468,7 +468,7 @@ The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope o
 
 <p>Even without an equation, we can check whether a table of data describes direct variation or merely an increasing function. If <m>y</m> varies directly with <m>x^n</m>, then <m>~y = kx^n~</m>, or, equivalently,<m>~\dfrac{y}{x^n} = k.~</m></p>
 
-<assemblage><title>Test for Direct Variation</title>
+<assemblage><title>Test for Direct Variation</title><idx><h>direct variation</h><h>test for</h></idx><idx>test for direct variation</idx>
     <p>If the ratio <m>~\dfrac{y}{x^n}~</m> is constant, then <m>y</m> varies directly with <m>x^n</m>.</p></assemblage>
 
 <example xml:id="example-test-variation-with-square"><statement><p>Delbert collects the following data and would like to know if <m>y</m> varies directly with the square of <m>x</m>. What should he calculate?</p>
@@ -550,7 +550,7 @@ The positive constant <m>k</m> in the equation <m>y = kx</m> is just the slope o
 </exercise>
 </subsection>
 
-<subsection><title>Scaling</title>
+<subsection><title>Scaling</title><idx><h>scaling property of direct variation</h></idx><idx><h>direct variation</h><h>scaling property</h></idx>
 
 <p>If <m>y</m> varies directly with <m>x</m>, then doubling <m>x</m> causes <m>y</m> to double also. But what if <m>y</m> varies directly with a <em>power</em> of <m>x</m> :<ul>
     <li> Is the area of a <m>16</m>-inch circular pizza double the area of an <m>8</m>-inch pizza?</li> 
@@ -614,7 +614,7 @@ The weight of the new model is <m>2^3 = 8</m> times the weight of the original m
             <mrow> \amp =c^n(kx^n) = c^n(y_\text{old})</mrow></md>
 so the value of <m>y</m> is multiplied by <m>c^n</m>.</p> 
     
-<p>We will call <m>n</m> the <term>scaling exponent</term><idx>scaling exponent</idx>, and you will often see variation described in terms of scaling. For example, we might say that "the area of a circle scales as the square of its radius." (In many applications, the power <m>n</m> is called the <em>scale factor</em>, even though it is not a factor but an exponent.)</p>
+<p>We will call <m>n</m> the <term>scaling exponent</term><idx>scaling exponent</idx><idx><h>direct variation</h><h>scaling exponent</h></idx><idx><h>exponent</h><h>scaling</h></idx>, and you will often see variation described in terms of scaling. For example, we might say that "the area of a circle scales as the square of its radius." (In many applications, the power <m>n</m> is called the <em>scale factor</em>, even though it is not a factor but an exponent.)</p>
 
 </subsection>
 

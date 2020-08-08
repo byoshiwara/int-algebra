@@ -116,7 +116,7 @@
 
 <subsection><title>Coordinate Formula for Slope</title>
 
-<p>Slope measures the change in one variable with respect to unit changes in another.To calculate the <term>net change</term> between two points on a number line, we can subtract their coordinates.
+<p>Slope measures the change in one variable with respect to unit changes in another.To calculate the <term>net change</term><idx>net change</idx><idx><h>Delta (<m>\Delta</m>)</h><seealso>net change</seealso></idx> between two points on a number line, we can subtract their coordinates.
     <md><mrow>\blert{\text{net change} = \text{final value} - \text{starting value}}</mrow></md></p>
 
 <p>For example, if you walk from <m>3^{\text{rd}}</m> street to <m>8^{\text{th}}</m> street, your distance, <m>s</m>, from the center of town has increased by 5 blocks, or

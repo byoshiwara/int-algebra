@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="RadicalEquations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Radical Equations</title>
+<section xml:id="RadicalEquations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Radical Equations</title><idx><h>equation</h><h>with radicals</h></idx>
 
 <subsection><title>Solving a Radical Equation</title>
 
@@ -200,7 +200,7 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
 
 </subsection>
 
-<subsection><title>Equations with More than One Radical</title>
+<subsection><title>Equations with More than One Radical</title><idx><h>equation</h><h>with more than one radical</h></idx>
 
 <p>Sometimes we need to square both sides of an equation more than once in order to eliminate all the radicals.</p>
 

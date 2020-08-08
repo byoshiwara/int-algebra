@@ -74,7 +74,7 @@
     <md><mrow>d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2</mrow></md>
 Taking the (positive) square root of each side of this equation gives us the <term>distance formula</term><idx>distance formula</idx>.</p>
 
-<assemblage><title>Distance Formula</title>
+<assemblage><title>Distance Formula</title><idx><h>distance</h><h>formula</h></idx>
     <p>The <term>distance</term> <m>d</m> between points <m>P_1(x_1,y_1)</m> and <m>P_2(x_2,y_2)</m> is
         <md><mrow>\blert{d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}}</mrow></md></p>
 </assemblage>

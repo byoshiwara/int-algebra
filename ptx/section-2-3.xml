@@ -3,7 +3,7 @@
 
 <section xml:id="AlgebraicSolution"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Solution of Systems</title>
 
-<subsection><title>Substitution Method</title>
+<subsection><title>Substitution Method</title><idx>substitution method</idx>
 
 <p>You are probably familiar with the substitution method for solving a system of equations. Here is a summary of the steps for solving a system by substitution.</p>
 
@@ -98,7 +98,7 @@
 </exercise>
 </subsection>
    
-<subsection><title>Elimination Method</title>
+<subsection><title>Elimination Method</title><idx>elimination method</idx><idx><h>elimination method</h><seealso>system of equations</seealso></idx>
 
 <p>A second algebraic method for solving systems is called <term>elimination</term>. As with the substitution method, we obtain an equation in a single variable, but we do it by eliminating one of the variables in the system. We must first put both equations into the general linear form <m>Ax + By = C</m>.</p>
 

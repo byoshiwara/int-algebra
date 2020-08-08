@@ -158,7 +158,7 @@
         </sidebyside>
 </investigation>
 
-<investigation><title>Exponential Decay</title>
+<investigation><title>Exponential Decay</title><idx>exponential decay</idx>
 
  <p>A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals), the population declined to approximately 0.90 of its earlier figure.</p>
     <sidebyside><tabular halign="center" right="minor" left="minor" bottom="minor"><col top="minor" /><col top="minor" /><col top="none"/><col halign="left"/>                      

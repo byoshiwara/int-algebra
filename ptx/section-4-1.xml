@@ -327,7 +327,7 @@ For example, consider the three graphs shown at right.</p>
     <me>\dfrac{-b}{2a}+\dfrac{\sqrt{b^2-4ac}}{2a}~~~~~~\text{and}~~~~~~\dfrac{-b}{2a}-\dfrac{\sqrt{b^2-4ac}}{2a}</me>
  For example, if we know that one solution of a particular quadratic equation is <m>3+\sqrt{2}</m>, the other solution must be <m>3-\sqrt{2}</m>. If one solution is <m>5-3i</m>, the other solution must be <m>5+3i</m>.</p>
 
-<p>The expression <m>~b^2-4ac~</m>, which appears under the radical in the quadratic formula, is called the <term>discriminant</term>, <m>D</m>, of the equation.  The value of the discriminant determines the nature of the solutions of the equation.  In particular, if the discriminant is negative, the equation has no real-valued solutions; the solutions are complex numbers.</p>
+<p>The expression <m>~b^2-4ac~</m>, which appears under the radical in the quadratic formula, is called the <term>discriminant</term><idx>discriminant</idx>, <m>D</m>, of the equation.  The value of the discriminant determines the nature of the solutions of the equation.  In particular, if the discriminant is negative, the equation has no real-valued solutions; the solutions are complex numbers.</p>
 
 <assemblage><title>The Discriminant</title><idx>discriminant</idx><idx>complex conjugate</idx><idx><h>complex conjugate</h><seealso>conjugate pair</seealso></idx>
 <p>The <term>discriminant</term> of a quadratic equation is

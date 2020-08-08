@@ -36,7 +36,7 @@
     <ol label="1">
         <li>A <term>table of values</term><idx><h>table of values</h></idx> lists specific data points with precise numerical values.</li>
         <li>A <term>graph</term><idx><h>graph</h></idx> is a visual display of the data. It is easier to spot trends and describe the overall behavior of the variables from a graph.</li>
-        <li>An <term>algebraic equation</term><idx><h>algebraic equation</h></idx> is a compact summary of the model. It can be used to analyze the model and to make predictions.</li> </ol></p>
+        <li>An <term>algebraic equation</term><idx><h>algebraic equation</h></idx><idx><h>equation</h><h>algebraic</h></idx> is a compact summary of the model. It can be used to analyze the model and to make predictions.</li> </ol></p>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
@@ -219,7 +219,7 @@ A one-hour bike ride costs $8.</p>
 </webwork>
 </exercise>
 
-<p>In the examples above, the graph is <term>increasing</term> as <m>t</m> increases. In the next Example we consider a <term>decreasing graph</term>.</p>
+<p>In the examples above, the graph is <term>increasing</term> as <m>t</m> increases. In the next Example we consider a <term>decreasing graph</term><idx>decreasing graph</idx><idx><h>decreasing graph</h><seealso>decreasing function</seealso></idx>.</p>
 
 <example xml:id="Leon-camper"><statement><p>Leon's camper has a 20-gallon gas tank, and he gets 12 miles to the gallon. (Note that getting 12 miles to the gallon is the same as using ​ <m>\frac{1}{12}</m> gallon of gas per mile.)</p>
     <p><ol label="a">

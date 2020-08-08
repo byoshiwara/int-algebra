@@ -136,7 +136,7 @@ Thus, <m>C(t) = 108.75(1.31)^t</m> , and the annual inflation rate was 31%.</p><
 		<sidebyside width="45%"><image source="images/fig-doubling-time"  ><description>graph showing doubling time</description></image></sidebyside></li>
 	</ol></p></solution></example>
 
-<p>In the <xref ref="example-doubling-time" text="custom" >Example</xref> above, notice that the calculations in parts (a) and (b) are identical after the first step, and give the same result, 35 years.  In fact, we can start at any time, and it will take the population 35 years to double.  We say that 35 years is the <term>doubling time</term> for this population.  Every increasing exponential function has a constant doubling time.  In fact, if a function has a constant doubling time, it must be exponential.</p>
+<p>In the <xref ref="example-doubling-time" text="custom" >Example</xref> above, notice that the calculations in parts (a) and (b) are identical after the first step, and give the same result, 35 years.  In fact, we can start at any time, and it will take the population 35 years to double.  We say that 35 years is the <term>doubling time</term> for this population.  Every increasing exponential function  <idx>exponential growth</idx>has a constant doubling time.  In fact, if a function has a constant doubling time, it must be exponential.</p>
 
 <exercise><title>Practice 3</title>
     <webwork><pg-code>
@@ -297,7 +297,7 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
     </solution>
 </webwork></exercise>
 
-<p>Just as we can write an exponential growth law in terms of its doubling time, we can use the half-life to write a formula for exponential decay. For example, the  half-life of ibuprofen is 2.2 hours, so every 2.2 hours the amount remaining is reduced by a factor of 0.5. After <m>t</m> hours a 200-mg dose will be reduced to
+<p>Just as we can write an exponential growth law in terms of its doubling time, we can use the half-life to write a formula for exponential decay. <idx>exponential decay</idx> For example, the  half-life of ibuprofen is 2.2 hours, so every 2.2 hours the amount remaining is reduced by a factor of 0.5. After <m>t</m> hours a 200-mg dose will be reduced to
 	<me>Q(t) = 200(0.5)^{t/2.2}</me>
 Once again, you can check that this formula is equivalent to the decay function given in the previous <xref ref="example-half-life" text="custom" >Example</xref>.</p>
 

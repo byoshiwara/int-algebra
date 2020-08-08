@@ -186,7 +186,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Solving Systems by Elimination</title>
+<subsection><title>Solving Systems by Elimination</title><idx>elimination method</idx><idx><h>system of equations</h><h>elimination method</h></idx>
 
 <p>We used substitution in the previous Example to solve the system. If both equations are ofthe form 
     <md><mrow>ax^2 + by^2 = c</mrow></md>

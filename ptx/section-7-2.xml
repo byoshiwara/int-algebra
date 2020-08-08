@@ -106,11 +106,11 @@ For the examples above, we find that the <m>y</m>-intercepts are
 
     <image source="images/fig-exponential-growth-and-decay"><description>graphs of exponential growth and decay</description></image></sidebyside>
 
-<p>Notice that <m>f (x) = 2^x</m> is an increasing function and <m>g(x) = \left(\dfrac{1}{2}\right)^x</m> is a decreasing function. Both are concave up. In general, exponential functions have the following properties.</p>
+<p>Notice that <m>f (x) = 2^x</m> is an increasing function and <m>g(x) = \left(\dfrac{1}{2}\right)^x</m> is a decreasing function<idx>decreasing function</idx>. Both are concave up. In general, exponential functions have the following properties.</p>
 
 <assemblage><title>Properties of Exponential Functions, <m>f(x) = ab^x</m>, <m>a \gt 0</m></title><idx>exponential function</idx><idx><h>concave up</h></idx><p><ol>
-	<li><p>If <m>b \gt 1</m>, the function is increasing and concave up;</p> 
-		<p>if <m>0 \lt b \lt 1</m>, the function is decreasing and concave up.</p></li>
+	<li><p>If <m>b \gt 1</m>, the function is increasing <idx>increasing function</idx>and concave up;</p> 
+		<p>if <m>0 \lt b \lt 1</m>, the function is decreasing<idx>decreasing function</idx> and concave up.</p></li>
 	<li><p>The <m>y</m>-intercept is <m>(0, a)</m>. There is no <m>x</m>-intercept.</p></li>
 </ol></p></assemblage>
 

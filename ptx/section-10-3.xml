@@ -2,15 +2,15 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="The-Natural-Base"   xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>The Natural Base</title><idx>e</idx>
+<title>The Natural Base</title><idx>natural base</idx>
 
-<introduction><p>There is another base for logarithms and exponential functions that is often used in applications. This base is an irrational number called <m>e</m>, where
+<introduction><p>There is another base for logarithms and exponential functions that is often used in applications. This base is an irrational number called <m>e</m><idx><m>e</m></idx>, where
 	<me>\blert{e \approx 2.71828182845}</me>
-	The number <m>e</m> is essential for many advanced topics, and it is often called the <term>natural base</term>.<idx>natural base</idx></p></introduction>
+	The number <m>e</m> is essential for many advanced topics, and it is often called the <term>natural base</term><idx><h>natural base</h><seealso><m>e</m></seealso></idx>.<idx>natural base</idx></p></introduction>
 
 <subsection><title>The Natural Exponential Function</title>
 
-<p>The <term>natural exponential function</term><idx>natural exponential function</idx> is the function <m>f(x) = e^x</m>. Values for <m>e^x</m> can be obtained with a calculator using the <m>\boxed{e^x}</m> key ( <kbd>2nd</kbd> <kbd>LN</kbd> on most calculators). For example, you can evaluate <m>e^1</m> by pressing</p>
+<p>The <term>natural exponential function</term><idx>natural exponential function</idx><idx><m>e</m></idx> is the function <m>f(x) = e^x</m>. Values for <m>e^x</m> can be obtained with a calculator using the <m>\boxed{e^x}</m> key ( <kbd>2nd</kbd> <kbd>LN</kbd> on most calculators). For example, you can evaluate <m>e^1</m> by pressing</p>
     <p><m>\qquad\qquad</m><kbd>2nd</kbd> <kbd>LN</kbd> <m>1</m></p>
 <p>to confirm the value of <m>e</m> given above.</p>
 
@@ -149,9 +149,9 @@
 
 <subsection><title>The Natural Logarithmic Function</title>
 
-<p>The base <m>e</m> logarithm of a number <m>x</m>, or <m>\log_ e x</m>, is called the <term>natural logarithm</term><idx>natural logarithm</idx> of <m>x</m> and is denoted by <m>\ln x</m>.</p>
+<p>The base <m>e</m><idx><m>e</m></idx> logarithm of a number <m>x</m>, or <m>\log_ e x</m>, is called the <term>natural logarithm</term><idx>natural logarithm</idx> of <m>x</m> and is denoted by <m>\ln x</m>.</p>
 
-<assemblage><title>The Natural Logarithm</title><idx>natural logarithm</idx>
+<assemblage><title>The Natural Logarithm</title><idx>natural logarithm</idx><m>e</m>
 	<p>The natural logarithm is the logarithm base <m>e</m>.
 		<me>\blert{\ln x = \log_{e}{x}, ~~~~ x\gt 0}</me></p>
 </assemblage>

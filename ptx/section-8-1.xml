@@ -22,7 +22,7 @@ where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constant
     <md><mrow>f(x)\amp= 6x^3 - 4x^2 + x - 2 \amp g(x) \amp= 9x^5 - 2</mrow>
         <mrow>p(x) \amp = x^4 + x^2 + 1 \amp q(x) \amp= 2x^{10} - x^7 + 3x^6 + 5x^3 + 3x</mrow></md></p>
 
-<p>Each of the polynomials above is written in <term>descending powers</term><idx>descending powers</idx>, which means that the highest-degree term comes first, and the degrees of the terms decrease from largest to smallest. Sometimes it is useful to write a polynomial in <term>ascending powers</term><idx>ascending powers</idx>, so that the degrees of the terms increase. For example, the polynomial <m>f(x)</m> above would be written as
+<p>Each of the polynomials above is written in <term>descending powers</term><idx>descending powers</idx>, which means that the highest-degree <idx>degree (of a polynomial)</idx> term comes first, and the degrees of the terms decrease from largest to smallest. Sometimes it is useful to write a polynomial in <term>ascending powers</term><idx>ascending powers</idx>, so that the degrees of the terms increase. For example, the polynomial <m>f(x)</m> above would be written as
     <me>f(x) = -2 + x - 4x^2 + 6x^3</me>
 in ascending powers.</p>
 
@@ -68,7 +68,7 @@ in ascending powers.</p>
 
 <p>In part (a) of the <xref ref="example-polynomial-product" text="custom" >Example</xref> above, we multiplied a polynomial of degree one by a polynomial of degree three, and the product was a polynomial of degree four. In the <xref ref="example-polynomial-product" text="custom" >Example</xref> part (b), the product of three first-degree polynomials is a third-degree polynomial.</p>
 
-<assemblage><title>Degree of a Product</title>   
+<assemblage><title>Degree of a Product</title><idx><h>degree (of a polynomial)</h><h>of a product</h></idx>   
 <p>The degree of a product of non-zero polynomials is the sum of the degrees of the factors.  That is:</p> 
 <p>If <m>P(x)</m> has degree <m>m</m> and <m>Q(x)</m> has degree <m>n</m>, then their product <m>P(x)Q(x)</m> has degree <m>m+n</m>.</p></assemblage>
 

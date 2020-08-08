@@ -418,7 +418,7 @@ whose graphs are shown below.</p>
 
 <p>In the examples above, exponential growth was modeled by increasing functions of the form
     <me>P(t) = P_0 b^t</me>
- where the growth factor, <m>b</m>, is a number greater than 1. If we multiply the function value by a number smaller than 1, the function values will decrease. Thus, if <m>0 \lt b \lt 1</m>, then <m>P(t) = P_0b^t</m> is a <em>decreasing</em> function. In this case, we say that the function describes <term>exponential decay</term>, and the constant <m>b</m> is called the <term>decay factor</term><idx>decay factor</idx>.</p>
+ where the growth factor, <m>b</m>, is a number greater than 1. If we multiply the function value by a number smaller than 1, the function values will decrease. Thus, if <m>0 \lt b \lt 1</m>, then <m>P(t) = P_0b^t</m> is a <em>decreasing</em> function. In this case, we say that the function describes <term>exponential decay</term><idx>exponential decay</idx>, and the constant <m>b</m> is called the <term>decay factor</term><idx>decay factor</idx>.</p>
 
 <example><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined by a factor of 0.942 each year.<ol label="a">
     <li>In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of <m>t</m>, the number of years after 1944.</li>
@@ -840,7 +840,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
 
 <subsection><title>Percent Decrease</title>
 
-<p>We have seen that a percent increase of <m>r</m> (in decimal form) corresponds to a growth factor of <m>b=1+r</m>. A percent decrease of <m>r</m> corresponds to a decay factor of <m>b=1-r</m>. For example, if a population declines by 25% each year, then each year the new population is 75% of its previous value. So
+<p>We have seen that a percent increase of <m>r</m> (in decimal form) corresponds to a growth factor of <m>b=1+r</m>. A percent decrease of <m>r</m> corresponds to a decay factor <idx>decay factor </idx> of <m>b=1-r</m>. For example, if a population declines by 25% each year, then each year the new population is 75% of its previous value. So
     <me>b = 1-0.25  = 0.75</me>
 and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us the population remaining, not the amount of decline.</p>
 

@@ -523,7 +523,7 @@
     <p> (Source: <em>Fitting Models to Biological Data Using Linear and Nonlinear Regression</em>, Motulsky &amp; Christopoulos, GraphPad Software, 2003)</p>
 </subsection>
 
-<subsection><title>The Absolute Value and Distance</title>
+<subsection><title>The Absolute Value and Distance</title><idx><h>distance</h><h>(absolute value)</h></idx>
 
 <p>The absolute value function is used to model problems involving distance. Recall that the absolute value of a number gives the distance from the origin to that number on the number line.</p>
 
@@ -608,7 +608,7 @@
                 <p>A numberline is shown below.</p></li></ol></p></solution>
     </webwork>
     <conclusion><p><ol label="a">
-            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-ex-2-5-1"><description>number line</description><latex-image>
+            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-abs-x-minus-3-eq5"><description>number line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -629,7 +629,7 @@
                     \filldraw[red] (2,0) circle (.1);
                     \end{tikzpicture}]]>
                 </latex-image></image></sidebyside></li>
-            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-ex-2-5-1b"><description>number line</description><latex-image>
+            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-abs-x-minus-4-ge-6"><description>number line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -781,7 +781,7 @@
           <li><p><m>x=-9</m> or <m>x=2</m></p></li></ol></p></solution>
   </webwork>
   <conclusion>
-      <sidebyside width="40%" margins="0% 60%"><image source="images/exercise-2-5-2"><description>abs(2x+7)</description></image></sidebyside></conclusion>
+      <sidebyside width="40%" margins="0% 60%"><image source="images/y-eq-abs-2x-plus7"><description>abs(2x+7)</description></image></sidebyside></conclusion>
 </exercise>
 
 <p>To solve an absolute value equation algebraically, we use the definition of absolute value.</p>

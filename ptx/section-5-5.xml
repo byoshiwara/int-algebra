@@ -51,7 +51,7 @@
     <me>y = \dfrac{k}{x}\text{, }x \ne 0</me>
 where <m>k</m> is a positive constant.</p></assemblage>
 
-<warning><p>Inverse variation describes a decreasing function, but not every decreasing function represents inverse variation. People sometimes mistakenly use the phrase <em>varies inversely</em> to describe any decreasing function, but if <m>y</m> varies inversely with <m>x</m>, the variables must satisfy an equation of the form <m>y = \dfrac{k}{x}</m>, or <m>xy = k</m>.</p></warning>
+<warning><p>Inverse variation describes a decreasing function, <idx>decreasing function</idx> but not every decreasing function represents inverse variation. People sometimes mistakenly use the phrase <em>varies inversely</em> to describe any decreasing function, but if <m>y</m> varies inversely with <m>x</m>, the variables must satisfy an equation of the form <m>y = \dfrac{k}{x}</m>, or <m>xy = k</m>.</p></warning>
 
 <p> To decide whether two variables truly vary inversely, we can check whether their product is constant. For instance, in the preceding travel-time example, we see from the table that <m>RT = 600</m>.</p>
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -307,7 +307,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 </latex-image></image></sidebyside></li></ol></p>
 </solution></example>
 
-<p>To summarize, an inverse variation is an example of a decreasing function, but not every decreasing function describes an inverse variation.</p> 
+<p>To summarize, an inverse variation is an example of a decreasing function, but not every decreasing function describes an inverse variation.<idx>decreasing function</idx></p> 
 
 <assemblage><title>Test for Inverse Variation</title>
     <p>If the product <m>~yx^n~</m> is constant and <m>n</m> is positive, then <m>y</m> varies inversely with <m>x^n</m>.</p></assemblage>

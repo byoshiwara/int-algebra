@@ -65,7 +65,7 @@
 
 	<sidebyside   width="80%"><image source="images/fig-logscale-mammal-mass" ><description>mammal masses plotted on log scale</description></image></sidebyside>
 
-<p>The scale above is called a <term>logarithmic scale</term><idx>logarithmic scale</idx>, or log scale. The tick marks are labeled with powers of 10, because, as you recall, a logarithm is actually an exponent. For example, the mass of the horse is 300 kg, and
+<p>The scale above is called a <term>logarithmic scale</term><idx>logarithmic scale</idx>, or log scale. The tick marks are labeled with powers of 10, because, as you recall, a logarithm is actually an exponent. <idx><h>exponent</h><h>(logarithm)</h></idx> For example, the mass of the horse is 300 kg, and
 	<me>\log 300 = 2.48 ~~ \text{ so } ~~ 10^{2.48} = 300</me>
 When we plot 2.48 for the horse, we are really plotting the power of 10 that gives its mass, because <m>10^{2.48} = 300</m> kg. The exponents on base 10 are evenly spaced on a log scale, so we plot <m>10^{2.48}</m> about halfway between <m>10^2</m> and <m>10^3</m>.</p>
 
