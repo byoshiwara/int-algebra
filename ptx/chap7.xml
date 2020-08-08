@@ -6,7 +6,7 @@
 <introduction>
     <sidebyside width="60%" margins="0% 40%"><image source="images/computer-chip.png"><description>computer chip, Andre Kudyusov/Getty Images</description></image></sidebyside>
     
-<p>We next consider another important family of functions, called <term>exponential functions</term>. These functions describe growth by a constant factor in equal time periods. Exponential functions model many familiar processes, including the growth of populations, compound interest, and radioactive decay.  Here is an example.</p>
+<p>We next consider another important family of functions, called <term>exponential functions</term><idx>exponential function</idx><h><idx><h>function</h><h>exponential</h></idx></h>. These functions describe growth by a constant factor in equal time periods. Exponential functions model many familiar processes, including the growth of populations, compound interest, and radioactive decay.  Here is an example.</p>
     
 <p>In 1965, Gordon Moore, the cofounder of Intel, observed that the number of transistors on a computer chip had doubled every year since the integrated circuit was invented. Moore predicted that the pace would slow down a bit, but the number of transistors would continue to double every 2 years. More recently, data density has doubled approximately every 18 months, and this is the current definition of Moore's law. Most experts, including Moore himself, expected Moore's law to hold for at least another two decades.</p>
 
@@ -158,7 +158,7 @@
         </sidebyside>
 </investigation>
 
-<investigation><title>Exponential Decay</title>
+<investigation><title>Exponential Decay</title><idx>exponential decay</idx>
 
  <p>A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals), the population declined to approximately 0.90 of its earlier figure.</p>
     <sidebyside><tabular halign="center" right="minor" left="minor" bottom="minor"><col top="minor" /><col top="minor" /><col top="none"/><col halign="left"/>                      

@@ -174,7 +174,7 @@ Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequ
 
 </subsection>
  
-<subsection><title>Equations in Two Variables</title>
+<subsection><title>Equations in Two Variables</title><idx><h>equation</h><h>in two variables</h></idx>
 
 <p>An <term>equation in two variables</term>, such as
     <md><mrow>-3x + 4y = 24</mrow></md>
@@ -257,7 +257,7 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
 
 <subsection><title>What is the Graph of an Equation?</title>
 
-<definition><title>Graph</title>
+<definition><title>Graph</title><idx>graph</idx>
     <p>The <term>graph</term><idx>graph</idx> of an equation in two variables is just a picture of all its solutions.</p>
 </definition>
 
@@ -376,7 +376,7 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
 
 </subsection>
 
-<subsection><title>Graphical Solution of Equations</title>
+<subsection><title>Graphical Solution of Equations</title><idx><h>equation</h><h>graphical solution</h></idx>
 
 <p>We can use graphs to find solutions to equations in one variable.</p>
 
@@ -435,7 +435,7 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
 
 </subsection>
 
-<subsection><title>Graphical Solution of Inequalities</title>
+<subsection><title>Graphical Solution of Inequalities</title><idx><h>inequality</h><h>graphical solution</h></idx>
 
 <p>We can also use graphs to solve inequalities. Consider the inequality
     <md><mrow>285-15x \ge 150</mrow></md>

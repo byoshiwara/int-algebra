@@ -285,7 +285,7 @@ which confirms that when <m>x = 4</m>, <m>y = 6</m>. Next, notice that if <m>x</
         </solution>
 </webwork></exercise>
 
-<p>Any quadratic equation in vertex form can be written in standard form by expanding, and any quadratic equation in standard form can be put into vertex form by completing the square.</p>
+<p>Any quadratic equation in vertex form can be written in standard form by expanding, and any quadratic equation in standard form can be put into vertex form by completing the square.<idx>completing the square</idx></p>
 
 <example xml:id="example-write-in-vertex-form"><statement><p>Write the equation <m>y = 3x^2 - 6x - 1</m> in vertex form and find the vertex of its graph.</p></statement>
 

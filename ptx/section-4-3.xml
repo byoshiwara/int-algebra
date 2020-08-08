@@ -2,7 +2,7 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="CurveFitting"   xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Curve Fitting</title>
+<title>Curve Fitting</title><idx>curve fitting</idx>
 <introduction>
 <p>Earlier, we used linear regression to fit a line to a collection of data points.  In this section we'll see how to fit a quadratic equation to a collection of data points.</p>
 </introduction>
@@ -25,7 +25,7 @@ or, equivalently,
     <md><mrow>a + b  + c \amp =  3 \amp\amp(1)</mrow>
         <mrow>9a +  3b + c \amp = 5 \amp\amp(2)</mrow>
         <mrow>16a +  4b + c \amp = 9 \amp\amp(3)</mrow></md> 
-This is a system of three equations in the three unknowns <m>a</m>, <m>b</m>, and <m>c</m>. To solve the system, we use Gaussian elimination. We first eliminate <m>c</m>. We subtract Equation (1) from Equation (2) to obtain
+This is a system of three equations in the three unknowns <m>a</m>, <m>b</m>, and <m>c</m>. To solve the system, we use Gaussian reduction. We first eliminate <m>c</m>. We subtract Equation (1) from Equation (2) to obtain
     <me>8a + 2b = 2 \hphantom{blankblank}(4)</me>
 and then subtract Equation (1) from Equation (3) to get
     <me>15a + 3b = 6 \hphantom{blankblank}(5)</me>
@@ -84,19 +84,19 @@ The parabola and the three points are shown below.</p>
 <webwork>
     <pg-code>
         $a = PopUp(
-          ["?","Gaussian elimination", "x-intercepts", "vertex", "three", "one"],
+          ["?","Gaussian reduction", "x-intercepts", "vertex", "three", "one"],
           3, 
         );
         $b = PopUp(
-          ["?","Gaussian elimination", "x-intercepts", "vertex", "three", "one"],
+          ["?","Gaussian reduction", "x-intercepts", "vertex", "three", "one"],
           2, 
         );
         $c = PopUp(
-          ["?","Gaussian elimination", "x-intercepts", "vertex", "three", "one"],
+          ["?","Gaussian reduction", "x-intercepts", "vertex", "three", "one"],
           4, 
         );
         $d = PopUp(
-          ["?","Gaussian elimination", "x-intercepts", "vertex", "three", "one"],
+          ["?","Gaussian reduction", "x-intercepts", "vertex", "three", "one"],
           1, 
         );
     </pg-code>
@@ -116,7 +116,7 @@ The parabola and the three points are shown below.</p>
     <li>vertex</li>
     <li><m>x</m>-intercepts</li>
     <li>three</li>
-    <li>Gaussian elimination</li></ol></p>
+    <li>Gaussian reduction</li></ol></p>
     </solution>
 </webwork>
 </exercise>

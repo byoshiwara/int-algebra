@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Hyperbolas"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Conic Sections: Hyperbolas</title>
+<section xml:id="Hyperbolas"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Conic Sections: Hyperbolas</title><idx>hyperbola</idx>
 
 <introduction>     
- <p>If a cone is cut by a plane parallel to its axis, the intersection is a <term>hyperbola</term><idx>hyperbola</idx>, the only conic section made of two separate pieces, or <term>branches</term><idx>branch</idx>.  Hyperbolas occur in a number of applied settings.  The navigational system called LORAN (long-range navigation) uses radio signals to locate a ship or plane at the intersection of two hyperbolas.  Satellites moving with sufficient speed will follow an orbit that is branch of a hyperbola; for example, a rocket sent to the moon must be fitted with retrorockets to reduce its speed in order to achieve an elliptical, rather than hyperbolic, orbit about the moon.</p>
+ <p>If a cone is cut by a plane parallel to its axis, the intersection is a <term>hyperbola</term><idx>hyperbola</idx>, the only conic section <idx>conic section</idx> made of two separate pieces, or <term>branches</term><idx><h>branches</h><see>hyperbola</see></idx><idx><h>hyperbola</h><h>branches</h></idx>.  Hyperbolas occur in a number of applied settings.  The navigational system called LORAN (long-range navigation) uses radio signals to locate a ship or plane at the intersection of two hyperbolas.  Satellites moving with sufficient speed will follow an orbit that is branch of a hyperbola; for example, a rocket sent to the moon must be fitted with retrorockets to reduce its speed in order to achieve an elliptical, rather than hyperbolic, orbit about the moon.</p>
   
   <p>The hyperbola is defined as follows.</p>
 
-  <definition><title>Hyperbola</title>
-    <p>A <term>hyperbola</term><idx>hyperbola</idx> is the set of points in the plane, the difference of whose distances from two fixed points (the <term>foci</term><idx>focus</idx>) is a constant.</p>
+  <definition><title>Hyperbola</title><idx>hyperbola</idx>
+    <p>A <term>hyperbola</term><idx>hyperbola</idx> is the set of points in the plane, the difference of whose distances from two fixed points (the <term>foci</term><idx><h>focus</h><h>of a hyperbola</h></idx>) is a constant.</p>
 </definition>
 
 <sidebyside widths="40% 40%" margins="5% 5%"><image xml:id="fig-hyperbola-left-right">
@@ -79,20 +79,20 @@
 
 <p>If the origin is the center of the hyperbola and the foci  (labeled <m>F_1</m> and <m>F_2</m> on the graphs above) lie on the axes, we can use the distance formula to derive its equation.</p>
 
-<assemblage><title>Central Hyperbola</title>
+<assemblage><title>Central Hyperbola</title><idx><h>hyperbola</h><h>central</h></idx><idx><h>center</h><h>of hyperbola</h></idx><idx><h>central</h><h>hyperbola</h></idx>
     <p>The equation of a hyperbola with center at the origin is
         <md><mrow>\blert{\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1} \qquad
                 \text{ or } \qquad \blert{\frac{y^2}{b^2} -\frac{x^2}{a^2}  = 1}</mrow> </md></p>
 </assemblage>
 
-<p>In the first case, the two branches of the hyperbola open left and right, so the graph has <m>x</m>-intercepts at <m>a</m> and <m>-a</m> but no <m>y</m>-intercepts. (See figure above left.) The segment joining the <m>x</m>-intercepts is the <term>transverse axis</term><idx><h>axis</h><h>transverse</h></idx>, and its length is <m>2a</m>. The endpoints of the transverse axis are the vertices of the hyperbola. The segment of length <m>2b</m> is called the <term>conjugate axis.</term><idx><h>axis</h><h>conjugate</h></idx> </p>
+<p>In the first case, the two branches of the hyperbola open left and right, so the graph has <m>x</m>-intercepts at <m>a</m> and <m>-a</m> but no <m>y</m>-intercepts. (See figure above left.) The segment joining the <m>x</m>-intercepts is the <term>transverse axis</term><idx><h>axis</h><h>transverse</h></idx><idx><h>hyperbola</h><h>transverse axis</h></idx>, and its length is <m>2a</m>. The endpoints of the transverse axis are the <term>vertices</term><idx><h>hyperbola</h><h>vertices</h></idx><idx><h>vertex</h><h>of a hyperbola</h></idx><idx><h>vertices</h><see>hyperbola</see></idx> of the hyperbola. The segment of length <m>2b</m> is called the <term>conjugate axis.</term><idx>conjugate axis</idx><idx><h>conjugate axis</h><seealso>hyperbola</seealso></idx><idx><h>axis</h><h>conjugate</h></idx><idx><h>hyperbola</h><h>conjugate axis</h></idx></p>
 
 <p>In the second case, the graph has <m>y</m>-intercepts at <m>b</m> and <m>-b</m> but no <m>x</m>-intercepts<mdash/>the two branches open up and down. (See figure above right.) Here the <m>y</m>-intercepts are the vertices, so the transverse axis is vertical and has length <m>2b</m>. The conjugate axis has length <m>2a</m>.</p>
 </introduction>  
 
 <subsection><title>Asymptotes of Hyperbolas</title>
 
-<p>The branches of the hyperbola approach two straight lines that intersect at its center.  These lines are <term>asymptotes</term><idx><h>asymptote</h><h>of hyperbola</h></idx> of the graph, and they are useful as guidelines for sketching the hyperbola.  We first sketch a rectangle (called the <term>central rectangle</term><idx>central rectangle</idx>) whose sides are parallel to the axes and whose dimensions are <m>2a</m> and <m>2b</m>. The asymptotes are the diagonals of this rectangle.</p>
+<p>The branches of the hyperbola approach two straight lines that intersect at its center.  These lines are <term>asymptotes</term><idx><h>asymptote</h><h>of hyperbola</h></idx><idx><h>hyperbola</h><h>asymptotes</h></idx> of the graph, and they are useful as guidelines for sketching the hyperbola.  We first sketch a rectangle (called the <term>central rectangle</term><idx>central rectangle</idx>) whose sides are parallel to the axes and whose dimensions are <m>2a</m> and <m>2b</m>. The asymptotes are the diagonals of this rectangle.</p>
 
 <example><statement><p>Graph <m> \dfrac{y^2}{9} - \dfrac{x^2}{4} = 1</m></p></statement>
 
@@ -232,7 +232,7 @@
     </conclusion>
 </exercise>
 
-<p>The equation of a central hyperbola may be written as
+<p>The equation of a central hyperbola <idx><h>hyperbola</h><h>central</h></idx> may be written as
     <md><mrow>Ax^2 + By^2 = C</mrow></md>
 where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>.  As with ellipses, it is best to rewrite the equation in standard form in order to graph it.</p>
 
@@ -401,9 +401,9 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 </webwork></exercise>
 </subsection>
 
-<subsection><title>The Central Conics</title>
+<subsection><title>The Central Conics</title><idx><h>conic section</h><h>central</h></idx><idx><h>central</h><h>conics</h></idx>
 
-<p>The fourth conic section, after circles, ellipses, and hyperbolas, is the parabola. We have already encountered parabolas in our study of quadratic functions. In particular, the graph of <m>y = ax^2</m> has its vertex at the origin and opens up or down, depending on the sign of <m>a</m>. The graph of <m>x = ay^2</m> is a parabola that opens to the left or right. There is also a geometric definition of a parabola, but we will not discuss that here.</p>
+<p>The fourth conic section, <idx>conic section</idx> after circles, <idx><h>circle</h></idx> ellipses, and hyperbolas, is the parabola. We have already encountered parabolas in our study of quadratic functions. In particular, the graph of <m>y = ax^2</m> has its vertex at the origin and opens up or down, depending on the sign of <m>a</m>. The graph of <m>x = ay^2</m> is a parabola that opens to the left or right. There is also a geometric definition of a parabola, but we will not discuss that here.</p>
 
 <sidebyside><image source="images/conics-summary"><description>table summarizing conics</description></image></sidebyside>
 <!-- Here is a tabular in a figure version of the image:
@@ -587,7 +587,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <p>The standard form for the equations of hyperbolas centered at the point <m>(h,k)</m> can be derived using the distance formula and the definition of hyperbola.</p>
 
-<assemblage><title>Hyperbolas</title>
+<assemblage><title>Hyperbolas</title><idx><h>hyperbola</h><h>translated</h></idx><idx><h>center</h><h>of hyperbola</h></idx>
     <p>The equation for a hyperbola centered at <m>(h,k)</m> has one of the two standard forms:
         <md><mrow>\blert{\frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1}</mrow>
             <mrow>\blert{\frac{(y-k)^2}{b^2} - \frac{(x-h)^2}{a^2} = 1}</mrow></md></p>
@@ -853,7 +853,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <subsection><title>Writing in Standard Form</title>
 
-<p>We can write the equation of a hyperbola in standard form by completing the squares in <m>x</m> and <m>y</m>.</p>
+<p>We can write the equation of a hyperbola in standard form by completing the squares <idx>completing the square</idx> in <m>x</m> and <m>y</m>.</p>
 
 <example><statement><p><ol label="a">
     <li>Write the equation in standard form.
@@ -1078,13 +1078,13 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     <md><mrow>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</mrow></md>
 for which <m>B</m>, the coefficient of the <m>xy</m>-term, is zero. These graphs are conic sections with axes parallel to one or both of the coordinate axes. If <m>B</m> does not equal zero, the axes of the conic section are rotated with respect to the coordinate axes. The graphing of such equations is taken up in more advanced courses in analytic geometry.</p> 
 
-<p>The graph of a second-degree equation can also be a point, a line, a pair of lines, or no graph at all, depending on the values of the coefficients <m>A</m> through <m>F</m>. Such graphs are called <term>degenerate conics</term><idx>degenerate conics</idx>.</p> 
+<p>The graph of a second-degree equation can also be a point, a line, a pair of lines, or no graph at all, depending on the values of the coefficients <m>A</m> through <m>F</m>. Such graphs are called <term>degenerate conics</term><idx>degenerate conics</idx><idx><h>conic section</h><h>degenerate</h></idx>.</p> 
 
 <p>Given an equation of the form
     <md><mrow>Ax^2 + Cy^2 + Dx + Ey + F = 0</mrow></md>
 we can determine the nature of the graph from the coefficients of the quadratic terms. If the graph is not a degenerate conic, the following criteria apply.</p>
 
-<assemblage><title>Conic Sections</title>
+<assemblage><title>Conic Sections</title><idx>conic section</idx>
     <p>The graph of <m>~Ax^2 + Cy^2 + Dx + Ey + F = 0~</m> is
         <ol label = "1">
             <li><p>a circle if <m>A=C</m>.</p></li>
@@ -1106,7 +1106,7 @@ we can determine the nature of the graph from the coefficients of the quadratic 
     <li><p>The graph is a parabola because <m>y</m> is of first degree and <m>x</m> is of second degree.</p></li>
         </ol></p></solution></example> 
 
-<p>The standard forms for the conic sections are summarized in the table below. For the parabola, <m>(h, k)</m> is the vertex of the graph, and for the other conics, <m>(h, k)</m> is the center.</p>
+<p>The standard forms for the conic sections <idx><h>conic section</h><h>standard form</h></idx> are summarized in the table below. For the parabola, <m>(h, k)</m> is the vertex of the graph, and for the other conics, <m>(h, k)</m> is the center.<idx><h>circle</h></idx><idx><h>ellipse</h></idx><idx><h>hyperbola</h></idx><idx><h>parabola</h></idx></p>
 
 <sidebyside width="100%"><image source="images/conic-summary-2"><description>table of conic sections</description>
     </image></sidebyside>

@@ -53,9 +53,9 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 <p>Note that there can be only one value of <m>C</m> for each value of <m>t</m>. We say that "<m>C</m> is a <term>function</term> of <m>t</m>." </p>
 
-<assemblage><title>Definition of Function</title>
-    <p>A <term>function</term><idx>function</idx> is a relationship between two variables for which a exactly one value of the <term>output</term><idx>output</idx> variable is determined by each value of the <term>input</term><idx>input</idx> variable.</p>
-</assemblage>
+<definition><title>Definition of Function</title>
+    <p>A <term>function</term><idx>function</idx> is a relationship between two variables for which a exactly one value of the <term>output</term><idx><h>function</h><h>output variable</h></idx><idx><h>output variable</h><see>function</see></idx> variable is determined by each value of the <term>input</term><idx><h>function</h><h>input variable</h></idx><idx><h>input variable</h><see>function</see></idx> variable.</p>
+</definition>
 
 <exercise><title>QuickCheck 1</title>
 <webwork>
@@ -484,7 +484,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 </subsection>
 
-<subsection><title>Function Notation</title>
+<subsection><title>Function Notation</title><idx><h>function</h><h>notation</h></idx>
 
 <p>There is a convenient notation for discussing functions. First, we choose a letter, such as <m>f</m>, <m>g</m>, or <m>h</m> (or <m>F</m>, <m>G</m>, or <m>H</m>), to name a particular function. (We can use any letter, but these are
 the most common choices.)</p> 

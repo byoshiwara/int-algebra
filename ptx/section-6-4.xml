@@ -462,7 +462,7 @@ We multiply together any expressions outside the radical, and apply the product 
 </webwork>
 </exercise>
 
-<p>If the denominator of a fraction is a <em>binomial</em> in which one or both terms is a radical, we can use a special building factor to rationalize it. First, recall that
+<p>If the denominator of a fraction is a <em>binomial</em><idx><h>binomial</h><h>denominator with radical</h></idx> in which one or both terms is a radical, we can use a special building factor to rationalize it. First, recall that
     <me>(p - q) (p + q) = p^2 - q^2</me>
 In particular, then,
 	<me>(\sqrt{b}-\sqrt{c})(\sqrt{b}+\sqrt{c}) = (\sqrt{b})^2-(\sqrt{c})^2 = b-c</me>

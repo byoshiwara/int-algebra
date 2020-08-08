@@ -74,7 +74,7 @@
     <md><mrow>d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2</mrow></md>
 Taking the (positive) square root of each side of this equation gives us the <term>distance formula</term><idx>distance formula</idx>.</p>
 
-<assemblage><title>Distance Formula</title>
+<assemblage><title>Distance Formula</title><idx><h>distance</h><h>formula</h></idx>
     <p>The <term>distance</term> <m>d</m> between points <m>P_1(x_1,y_1)</m> and <m>P_2(x_2,y_2)</m> is
         <md><mrow>\blert{d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}}</mrow></md></p>
 </assemblage>
@@ -245,7 +245,7 @@ The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m
 
 <subsection><title>Circles</title>
 
-<p>A <term>circle</term><idx>circle</idx> is the set of all points in a plane that lie at a given distance, called the <term>radius</term><idx>radius</idx>, from a fixed point called the <term>center</term><idx>center</idx>. We can use the distance formula to find an equation for a circle. First consider the circle in Figure (a), whose center is the origin, <m>(0,0)</m>.</p> 
+<p>A <term>circle</term><idx>circle</idx> is the set of all points in a plane that lie at a given distance, called the <term>radius</term><idx>radius</idx>, from a fixed point called the <term>center</term><idx><h>center</h><h>of a circle</h></idx><idx><h>circle</h><h>center</h></idx>. We can use the distance formula to find an equation for a circle. First consider the circle in Figure (a), whose center is the origin, <m>(0,0)</m>.</p> 
 
 <sidebyside width="80%">
     <image source="images/fig-circles"><description>circles</description></image></sidebyside>
@@ -260,7 +260,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
 <p>Now consider the circle in Figure (b), whose center is the point <m>(h,k)</m>.  Every point <m>P(x,y)</m> on the circle lies a distance <m>r</m> from <m>(h,k)</m>, so the equation of the circle is given by the following formula.</p>
 
 <assemblage><title>Standard Form for a Circle</title>
-    <p>The equation for a <term>circle</term> of radius <m>r</m> centered at the point <m>(h,k)</m> is
+    <p>The equation for a <term>circle</term><idx><h>circle</h><h>equation of</h></idx><idx><h>circle</h><h>radius of</h></idx><idx><h>circle</h><h>center of</h></idx> of radius <m>r</m> centered at the point <m>(h,k)</m> is
         <md><mrow>\blert{(x-h)^2+(y-k)^2=r^2}</mrow></md></p>
 </assemblage>
 
@@ -343,7 +343,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
 
 <subsection><title>General Form for Circles</title>
 
-<p>The equations of circles often appear in a <term>general quadratic form</term><idx>general quadratic form</idx>, rather than the standard form described above.  For example, we can expand the squares of binomials in part (a) of the previous <xref ref="example-two-circles" text="custom" >Example</xref>,
+<p>The equations of circles often appear in a <term>general quadratic form</term><idx><h>general quadratic form</h><h>of a circle</h></idx><idx><h>circle</h><h>general quadratic form</h></idx>, rather than the standard form described above.  For example, we can expand the squares of binomials in part (a) of the previous <xref ref="example-two-circles" text="custom" >Example</xref>,
     <md><mrow>(x-2)^2+(y+3)^2=16</mrow></md>
 to obtain
     <md><mrow>x^2-4x+4+y^2+6y+9=16</mrow></md>
@@ -352,7 +352,7 @@ or
 
 <p>This is a quadratic equation in two variables. Such an equation describes a circle if the coefficients of the quadratic, or squared, terms are equal.</p>  
 
-<p>Conversely, an equation of the form <m>x^2+y^2+ax+by+c=0</m> can be converted to standard form by completing the square in both variables.  Once this is done, the center and radius of the circle can be determined directly from the equation.</p>
+<p>Conversely, an equation of the form <m>x^2+y^2+ax+by+c=0</m> can be converted to standard form by completing the square <idx>completing the square</idx> in both variables.  Once this is done, the center and radius of the circle can be determined directly from the equation.</p>
 
 <example><statement><p>Write the equation of the circle
             <md><mrow>x^2+y^2+8x-2y+6=0</mrow></md>

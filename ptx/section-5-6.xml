@@ -88,7 +88,7 @@
     </conclusion>
 </exercise>
 
-<p>The graphs in <xref ref="example-home-to-school" text="type-global"/> are portions of straight lines. We can also consider graphs that bend upward or downward. The bend is called the <term>concavity</term><idx>concavity</idx> of the graph.</p>
+<p>The graphs in <xref ref="example-home-to-school" text="type-global"/> are portions of straight lines. We can also consider graphs that bend upward or downward. The bend is called the <term>concavity</term><idx><h>concavity</h></idx><idx><h>concavity</h><seealso>concave up, concave down</seealso></idx><idx><h>graph</h><h>concavity</h></idx> of the graph.</p>
 
 <example xml:id="concavity"><statement><p>The two functions described in this example are both increasing functions, but they increase in different ways. Match each function to its graph and to the appropriate table of values.<ol label="a">
         <li><p>The number of flu cases reported at an urban medical center during an epidemic is an increasing function of time, and it is growing at a faster and faster rate.</p></li>
@@ -149,7 +149,7 @@
         <sidebyside  width="40%"><image source="images/fig-concave-down" ><description>cocave down graph</description></image></sidebyside></li>
     </ol></p></solution></example>
 
-<p>A graph that bends upward is called <term>concave up</term>, and one that bends down is <term>concave down</term>.</p>
+<p>A graph that bends upward is called <term>concave up</term><idx>concave up</idx><idx><h>graph</h><h>concave up</h></idx>, and one that bends down is <term>concave down</term><idx>concave down</idx><idx><h>graph</h><h>concave down</h></idx>.</p>
 
 <exercise><title>Practice 2</title>
     <introduction>
@@ -523,7 +523,7 @@
     <p> (Source: <em>Fitting Models to Biological Data Using Linear and Nonlinear Regression</em>, Motulsky &amp; Christopoulos, GraphPad Software, 2003)</p>
 </subsection>
 
-<subsection><title>The Absolute Value and Distance</title>
+<subsection><title>The Absolute Value and Distance</title><idx><h>distance</h><h>(absolute value)</h></idx>
 
 <p>The absolute value function is used to model problems involving distance. Recall that the absolute value of a number gives the distance from the origin to that number on the number line.</p>
 
@@ -608,7 +608,7 @@
                 <p>A numberline is shown below.</p></li></ol></p></solution>
     </webwork>
     <conclusion><p><ol label="a">
-            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-ex-2-5-1"><description>number line</description><latex-image>
+            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-abs-x-minus-3-eq5"><description>number line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -629,7 +629,7 @@
                     \filldraw[red] (2,0) circle (.1);
                     \end{tikzpicture}]]>
                 </latex-image></image></sidebyside></li>
-            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-ex-2-5-1b"><description>number line</description><latex-image>
+            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-abs-x-minus-4-ge-6"><description>number line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -781,7 +781,7 @@
           <li><p><m>x=-9</m> or <m>x=2</m></p></li></ol></p></solution>
   </webwork>
   <conclusion>
-      <sidebyside width="40%" margins="0% 60%"><image source="images/exercise-2-5-2"><description>abs(2x+7)</description></image></sidebyside></conclusion>
+      <sidebyside width="40%" margins="0% 60%"><image source="images/y-eq-abs-2x-plus7"><description>abs(2x+7)</description></image></sidebyside></conclusion>
 </exercise>
 
 <p>To solve an absolute value equation algebraically, we use the definition of absolute value.</p>
@@ -838,7 +838,7 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
 
 <p>Thus, we can solve an absolute value inequality by first solving the related equation.</p>
 
-<assemblage><title>Absolute Value Inequalities</title>
+<assemblage><title>Absolute Value Inequalities</title><idx><h>compound inequalities</h></idx><idx><h>inequality</h><h>compound</h></idx>
 <p>Suppose the solutions of the equation <m>\abs{ax+b}=c</m> are <m>r</m> and <m>s</m>, with <m>r \lt s</m>. Then
     <ol>
         <li>The solutions of <m>~\abs{ax+b} \lt c~</m> are 

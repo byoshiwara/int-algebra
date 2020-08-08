@@ -2,7 +2,7 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="CompletingSquare"   xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Completing the Square</title>
+<title>Completing the Square</title><idx>completing the square</idx>
 
 <introduction><p>Not every quadratic equation can be solved easily by factoring or by extraction of roots. If the solutions are not integers, the expression <m>x^2+bx+c</m> may be very difficult to factor. For example, the equation <m>x^2 + 3x - 1 = 0</m> cannot be solved easily by either of these methods. In this section we learn a method that will solve <em>any</em> quadratic equation.</p></introduction>
 
@@ -12,7 +12,7 @@
     <me>a(x + p)^2 + q = 0</me>
 where the left side of the equation includes the square of a binomial, or a <term>perfect square</term><idx>perfect square</idx>. It turns out that we can write any quadratic equation in this form.</p>
 
-<p>Study the following squares of binomials.</p>
+<p>Study the following squares of binomials. <idx><h>binomial</h><h>square of</h></idx></p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor"><col halign="left"/><col /><col /><col />
     <row bottom="major">

@@ -2,7 +2,7 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="The-Natural-Base"   xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>The Natural Base</title><idx>e</idx>
+<title>The Natural Base</title><idx>natural base</idx><idx><h>natural base</h><seealso><em>e</em></seealso></idx><idx><em>e</em></idx>
 
 <introduction><p>There is another base for logarithms and exponential functions that is often used in applications. This base is an irrational number called <m>e</m>, where
 	<me>\blert{e \approx 2.71828182845}</me>
@@ -10,7 +10,7 @@
 
 <subsection><title>The Natural Exponential Function</title>
 
-<p>The <term>natural exponential function</term><idx>natural exponential function</idx> is the function <m>f(x) = e^x</m>. Values for <m>e^x</m> can be obtained with a calculator using the <m>\boxed{e^x}</m> key ( <kbd>2nd</kbd> <kbd>LN</kbd> on most calculators). For example, you can evaluate <m>e^1</m> by pressing</p>
+<p>The <term>natural exponential function</term><idx>natural exponential function</idx><idx>exponential function</idx><idx><h>exponential function</h><h>natural</h></idx><idx><h>function</h><h>natural exponential</h></idx><idx><em>e</em></idx> is the function <m>f(x) = e^x</m>. Values for <m>e^x</m> can be obtained with a calculator using the <m>\boxed{e^x}</m> key ( <kbd>2nd</kbd> <kbd>LN</kbd> on most calculators). For example, you can evaluate <m>e^1</m> by pressing</p>
     <p><m>\qquad\qquad</m><kbd>2nd</kbd> <kbd>LN</kbd> <m>1</m></p>
 <p>to confirm the value of <m>e</m> given above.</p>
 
@@ -149,9 +149,9 @@
 
 <subsection><title>The Natural Logarithmic Function</title>
 
-<p>The base <m>e</m> logarithm of a number <m>x</m>, or <m>\log_ e x</m>, is called the <term>natural logarithm</term><idx>natural logarithm</idx> of <m>x</m> and is denoted by <m>\ln x</m>.</p>
+<p>The base <m>e</m><idx><em>e</em></idx> logarithm of a number <m>x</m>, or <m>\log_ e x</m>, is called the <term>natural logarithm</term><idx>natural logarithm</idx> of <m>x</m> and is denoted by <m>\ln x</m>.</p>
 
-<assemblage><title>The Natural Logarithm</title><idx>natural logarithm</idx>
+<assemblage><title>The Natural Logarithm</title><idx>natural logarithm</idx><m>e</m>
 	<p>The natural logarithm is the logarithm base <m>e</m>.
 		<me>\blert{\ln x = \log_{e}{x}, ~~~~ x\gt 0}</me></p>
 </assemblage>
@@ -308,7 +308,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 
 <subsection><title>Solving Equations</title>
 
-<p>We use the natural logarithm to solve exponential equations with base <m>e</m>. The techniques we've learned for solving other exponential equations also apply to equations with base <m>e</m>.</p>
+<p>We use the natural logarithm to solve exponential equations with base <m>e</m>. The techniques we've learned for solving other exponential equations also apply to equations with base <m>e</m>.<idx>exponential equation</idx><idx><h>exponential equation</h><h>solving with logarithms</h></idx></p>
 
 <example xml:id="example-solve-ln-equation"><statement><p>Solve each equation for <m>x</m>.<ol label="a" cols="2">
 			<li><m>e^x = 0.24</m></li>
@@ -370,7 +370,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
     </solution>
 </webwork></exercise>
 
-<p>To solve more complicated exponential equations, we isolate the power on one side of the equation before converting to logarithmic form.</p>
+<p>To solve more complicated exponential equations, we isolate the power on one side of the equation before converting to logarithmic form.<idx><h>exponential equation</h><h>solving</h></idx></p>
 
 <example xml:id="example-solve-natural-exponential"><statement><p>Solve <m>140 = 20 e^{0.4x}</m></p></statement>
 
@@ -447,7 +447,7 @@ describe exponential growth when <m>b \gt 1</m> and exponential decay when <m>0 
 where we have substituted <m>e^k</m> for the growth factor <m>b</m>, so that 
 	<md><mrow>P(t) \amp = P_0 \cdot b^t</mrow>
 	   <mrow>\amp = P_0 \cdot \left(e^k\right)^t = P_0 \cdot e^{kt}</mrow></md>
-We can find the value of <m>k</m> by solving the equation <m>b = e^k</m> for <m>k</m>, to get <m>k = \ln b</m>.</p>
+We can find the value of <m>k</m> by solving the equation <m>b = e^k</m> for <m>k</m>, to get <m>k = \ln b</m>.<idx><h>exponential decay</h></idx><idx><h>exponential growth</h></idx></p>
 
 <p>For instance, consider a colony of bacteria that grows according to the formula
 	<me>P(t) = 100 \cdot \alert{3^t}</me>

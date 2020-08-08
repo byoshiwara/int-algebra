@@ -127,7 +127,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
 </exercise>
 </subsection>
 
-<subsection><title>Systems Involving Conic Sections</title>
+<subsection><title>Systems Involving Conic Sections</title><idx><h>conic section</h><h>systems involving</h></idx>
 
 <p>A system of two parabolas can have one, two, or no solutions, depending on the graphs of the two equations. Systems involving other conics may have up to four solutions.</p>
 
@@ -186,7 +186,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Solving Systems by Elimination</title>
+<subsection><title>Solving Systems by Elimination</title><idx>elimination method</idx><idx><h>system of equations</h><h>elimination method</h></idx>
 
 <p>We used substitution in the previous Example to solve the system. If both equations are ofthe form 
     <md><mrow>ax^2 + by^2 = c</mrow></md>

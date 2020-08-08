@@ -365,7 +365,7 @@ We can also apply the two functions in the opposite order, so that
 <assemblage><title>Properties of Log Functions</title>
 <p> For any base <m>b \gt 0, b \ne 1</m>: <ol label="1">
 	<li>The logarithmic function <m>y = \log_b x</m> is defined for positive <m>x</m> only.</li>
-	<li>The <m>x</m>-intercept of its graph is <m>(1,0)</m>.</li>
+	<li>The <m>x</m>-intercept <idx><em>x</em>-intercept</idx>of its graph is <m>(1,0)</m>.</li>
 	<li>The graph has a vertical asymptote at <m>x=0</m>.</li>
 	<li>The graphs of <m>y = \log_b x</m> and <m>y=b^x</m> are symmetric about the line <m>y=x</m>.</li></ol></p>
 </assemblage>
@@ -463,7 +463,7 @@ We can also apply the two functions in the opposite order, so that
     <solution><p>33 days</p></solution>
 </webwork></exercise>
 
-<p>Logarithmic functions are useful for modeling increasing functions that slow down as the input increases.</p>
+<p>Logarithmic functions are useful for modeling increasing functions <idx>increasing function</idx> that slow down as the input increases.</p>
 
 <example xml:id="example-life-expectancy"><statement><p>In 1900, the average life expectancy at birth in the U.S. was 47.3 years. Since then, life expectancy has increased according to the formula
     <me>L(x)=18.53 + 28.92 \log {x}</me>
@@ -677,7 +677,7 @@ The solution is 36.</p></solution></example>
 
 <warning><p>Remember that we cannot take a logarithm of a negative number or zero, because the output of an exponential function is always positive.</p>
 <p> For example suppose that <m>\log_5{(-25)} = x</m>. Then <m>5^x = -25</m>. But this is impossible, because <m>5^x</m> cannot be negative. Thus, the log of a negative number (or zero) is undefined.</p>  
-<p>Because of this fact, extraneous solutions can arise when we solve logarithmic equations.</p></warning>
+<p>Because of this fact, extraneous solutions can arise when we solve logarithmic equations.<idx>extraneous solution</idx></p></warning>
 
 <p>If the equation contains more than one log, we must first combine any expressions involving logs into a single logarithm.</p>
 

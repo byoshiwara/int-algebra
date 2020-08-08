@@ -219,9 +219,9 @@
         <md><mrow>C=-2.5(\alert{24})+52=-8</mrow></md>
     Because the snack bar cannot sell <m>-8</m> cups of cocoa, this prediction is not useful. (What is the Fahrenheit equivalent of 24°C?)</p></li></ol></p></solution></example>
 
-<p>Using a regression line to estimate values between known data points is called <term>interpolation</term>. If the data points lie fairly close to the regression line, then interpolation will usually give a fairly accurate estimate. In the Example above, the estimate of 29 or 30 cups of cocoa at <m>9\degree\text{C} </m> seems reasonable in the context of the data.</p>
+<p>Using a regression line to estimate values between known data points is called <term>interpolation</term><idx>interpolation</idx>. If the data points lie fairly close to the regression line, then interpolation will usually give a fairly accurate estimate. In the Example above, the estimate of 29 or 30 cups of cocoa at <m>9\degree\text{C} </m> seems reasonable in the context of the data.</p>
 
-<p>Making predictions beyond the range of known data is called <term>extrapolation</term>. Extrapolation can often give useful information, but if we try to extrapolate too far beyond our data, we may get unreasonable results. The conditions that produced the data may no longer hold, as in the Example above, or other unexpected conditions may arise to alter the situation.</p>
+<p>Making predictions beyond the range of known data is called <term>extrapolation</term><idx>extrapolation</idx>. Extrapolation can often give useful information, but if we try to extrapolate too far beyond our data, we may get unreasonable results. The conditions that produced the data may no longer hold, as in the Example above, or other unexpected conditions may arise to alter the situation.</p>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>

@@ -26,7 +26,7 @@
 
 <assemblage><title>Equation of a Line</title>
     <p><ol label="1">
-        <li><p>The <m>y</m>-intercept of a line gives the <term>initial value</term> of <m>y</m>.</p></li>
+        <li><p>The <m>y</m>-intercept <idx><em>y</em>-intercept</idx> of a line gives the <term>initial value</term><idx>initial value</idx><idx><h>starting value</h><see>initial value</see></idx> of <m>y</m>.</p></li>
         <li><p>The <term>slope</term> of the line gives the <term>rate of change</term> of <m>y</m> with respect to <m>x</m>.</p></li></ol></p>
 </assemblage>
 
@@ -38,7 +38,7 @@
 <assemblage><title>Slope-Intercept Form<idx>slope-intercept form</idx></title>
     <p>We can write the equation of a line in the form
         <md><mrow>y = mx + b</mrow></md>
-    where <m>m</m> is the <term>slope</term> of the line, and <m>b</m> is the <term><m>y</m>-intercept</term>.</p>
+    where <m>m</m> is the <term>slope</term> of the line, and <m>b</m> is the <term><m>y</m>-intercept</term><idx><em>y</em>-intercept</idx>.</p>
 </assemblage>
 
 <exercise><title>QuickCheck 1</title>
@@ -116,7 +116,7 @@
 
 <subsection><title>Coordinate Formula for Slope</title>
 
-<p>Slope measures the change in one variable with respect to unit changes in another.To calculate the <term>net change</term> between two points on a number line, we can subtract their coordinates.
+<p>Slope measures the change in one variable with respect to unit changes in another.To calculate the <term>net change</term><idx>net change</idx><idx><h>Delta (<m>\Delta</m>)</h><seealso>net change</seealso></idx> between two points on a number line, we can subtract their coordinates.
     <md><mrow>\blert{\text{net change} = \text{final value} - \text{starting value}}</mrow></md></p>
 
 <p>For example, if you walk from <m>3^{\text{rd}}</m> street to <m>8^{\text{th}}</m> street, your distance, <m>s</m>, from the center of town has increased by 5 blocks, or
@@ -143,7 +143,7 @@
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<assemblage><title>Coordinate Formula for Slope</title>
+<assemblage><title>Coordinate Formula for Slope</title><idx>coordinate formula for slope</idx>
 <p>If <m>(x_1, y_1)</m> and <m>(x_2,y_2)</m> are two points on a line, then the slope of the line is given by
     <md><mrow>m = \frac{y_2 - y_1}{x_2 - x_1} </mrow></md>
     as long as <m>x_1 \ne x_2</m></p>
@@ -444,7 +444,7 @@ is called the <term>point-slope form</term><idx>point-slope form</idx> for a lin
 <p>In this section, we studied three different formulas associated with linear equations: the slope-intercept formula, the coordinate formula for slope, and the point-slope formula. How are these formulas related, and how are they different?
 </p>
 <p><ol label="1">
-    <li><p>The <term>slope-intercept form</term>, <m>y = mx + b</m>, is just a special case of the <term>point-slope formula</term>. If the given point <m>(x_1, y_1)</m> happens to be the <m>y</m>-intercept <m>(0, b)</m>, then the point-slope formula reduces to the familiar form:
+    <li><p>The <term>slope-intercept form</term>, <m>y = mx + b</m>, is just a special case of the <term>point-slope formula</term>. If the given point <m>(x_1, y_1)</m> happens to be the <m>y</m>-intercept<idx><em>y</em>-intercept</idx> <m>(0, b)</m>, then the point-slope formula reduces to the familiar form:
         <md><mrow>y\amp =y_1+m(x-x_1) \amp\amp\blert{\text{Substitute } b \text{ for } y_1 \text{ and 0 for } x_1.}</mrow>
             <mrow>y\amp = b + m(x-0) \amp\amp \blert{\text{Simplify.}}</mrow>
             <mrow>y\amp = mx + b</mrow></md>

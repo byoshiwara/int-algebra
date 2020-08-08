@@ -3,7 +3,7 @@
 
 <section xml:id="RationalExponents"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Rational Exponents</title>
 
-<subsection><title>Powers of the Form <m>a^{m/n}</m></title>
+<subsection><title>Powers of the Form <m>a^{m/n}</m></title><idx><h>exponent</h><h>fractional</h></idx><idx><h>exponent</h><h>rational</h></idx>
 
 <p>In the last section, we considered powers of the form <m>a^{1/n}</m>, such as <m>x^{1/3}</m> and <m>x^{-1/4}</m>, and saw that <m>a^{1/n}</m> is equivalent to the root <m>\sqrt[n]{a}</m>. What about other fractional exponents? What meaning can we attach to a power of the form <m>a^{m /n}</m>?</p>
 
@@ -44,7 +44,7 @@ In other words, we can compute <m>x^{3/2}</m> by first taking the square root of
 
 <p>A fractional exponent represents a power and a root. The denominator of the exponent is the root, and the numerator of the exponent is the power. We will define fractional powers only when the base is a positive number.</p>
 
-<assemblage><title>Rational Exponents</title>
+<assemblage><title>Rational Exponents</title><idx>rational exponents</idx><idx><h><em>a</em><m>\vphantom{a}^{m/n}</m></h><see>rational exponents</see></idx><idx><h>exponent</h><h>rational</h></idx><idx><h>exponent</h><h>fractional</h></idx>
 <p><me>\blert{a^{m/n} = (a^{1/n})^m = (a^m)^{1/n},~~~~a \gt 0\text,~~ n \ne 0}</me></p>
 </assemblage>
 
@@ -95,7 +95,7 @@ or
 </exercise>
 </subsection>
 
-<subsection><title>Power Functions</title>
+<subsection><title>Power Functions</title><idx>power function</idx>
 
 <p>Perhaps the single most useful piece of information a scientist can have about an animal is its metabolic rate. The metabolic rate is the amount of energy the animal uses per unit of time for its usual activities, including locomotion, growth, and reproduction.</p>
 <p> The basal metabolic rate, or BMR, sometimes called the resting metabolic rate, is the minimum amount of energy the animal can expend in order to survive.</p>
@@ -311,7 +311,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     
 <p>Because <m>a^{1/n} = \sqrt[n]{a}</m>, we can write any power with a fractional exponent in radical form as follows.</p>
 
-<assemblage><title>Rational Exponents and Radicals</title>
+<assemblage><title>Rational Exponents and Radicals</title><idx>rational exponents</idx><idx><h>exponent</h><h>rational</h></idx><idx><h>exponent</h><h>fractional</h></idx><idx>radical</idx>
     <p><me>\blert{a^{m/n} = \sqrt[n]{a^m} =\left( \sqrt[n]{a}\right)^m}</me></p>
 </assemblage>
 

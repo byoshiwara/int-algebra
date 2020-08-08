@@ -177,21 +177,21 @@ When we evalute this last expression, we get two different positive values, <m>x
      
 </subsection>
 
-<subsection><title>Complex Numbers</title>
+<subsection><title>Complex Numbers</title><idx>complex number</idx>
 
 <p>Not all quadratic equations have solutions that are real numbers.  For example, when we try to solve the equation <m>~x^2+4=0,~</m>, we find
     <md><mrow>x^2 \amp =-4</mrow>
         <mrow>x \amp = \pm \sqrt{-4}</mrow></md>
 Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real numbers, they occur frequently in mathematics and its applications.  Mathematicians in the sixteenth century gave them the name <term>imaginary numbers</term>, which reflected the mistrust with which they were viewed at the time. Today, however, such numbers are well understood and are used routinely by scientists and engineers.</p>
 
-<p>To help us work with imaginary numbers, we define a new number, <m>i</m>, the <term>imaginary unit</term>, whose square is <m>-1</m>. </p>
+<p>To help us work with imaginary numbers, we define a new number, <m>i</m><idx><em>i</em></idx>, the <term>imaginary unit</term><idx><h>imaginary unit</h><see><em>i</em></see></idx>, whose square is <m>-1</m>. </p>
  
-<assemblage><title>Imaginary Unit</title>
-<p><me>\blert{i = \sqrt{-1}}~~~~\text{or}~~~~\blert{i^2=-1}</me></p></assemblage>
+<definition><title>Imaginary Unit</title><idx><em>i</em></idx>
+<p><me>\blert{i = \sqrt{-1}}~~~~\text{or}~~~~\blert{i^2=-1}</me></p></definition>
 
 <p> With this new number we define the principal square root of any negative real number as follows.</p> 
 
-<assemblage><title>Imaginary Numbers</title>
+<assemblage><title>Imaginary Numbers</title><idx>imaginary number</idx>
 <p>If <m>~a \ge 0</m>,
     <me>\blert{\sqrt{-a} = \sqrt{-1}\sqrt{a} = i\sqrt{a}}</me></p></assemblage>
 
@@ -323,13 +323,13 @@ For example, consider the three graphs shown at right.</p>
         \amp =\frac{4\pm\sqrt{\alert{-12}}}{2}</mrow>
     <mrow>\amp~~\blert{ \text{two real solutions}}  \amp \amp ~\blert{~\text{one repeated solution}} \amp\amp ~~\blert{~\text{no real solutions}} </mrow></md></p>
 
-<p>From these examples, we see that the solutions of a quadratic equation always occur in <term>conjugate pairs</term>,
+<p>From these examples, we see that the solutions of a quadratic equation always occur in <term>conjugate pairs</term><idx><h>conjugate pair</h></idx><idx><h>conjugate</h><h>pair</h></idx><idx><h>conjugate pair</h><seealso>complex conjugate</seealso></idx>,
     <me>\dfrac{-b}{2a}+\dfrac{\sqrt{b^2-4ac}}{2a}~~~~~~\text{and}~~~~~~\dfrac{-b}{2a}-\dfrac{\sqrt{b^2-4ac}}{2a}</me>
  For example, if we know that one solution of a particular quadratic equation is <m>3+\sqrt{2}</m>, the other solution must be <m>3-\sqrt{2}</m>. If one solution is <m>5-3i</m>, the other solution must be <m>5+3i</m>.</p>
 
-<p>The expression <m>~b^2-4ac~</m>, which appears under the radical in the quadratic formula, is called the <term>discriminant</term>, <m>D</m>, of the equation.  The value of the discriminant determines the nature of the solutions of the equation.  In particular, if the discriminant is negative, the equation has no real-valued solutions; the solutions are complex numbers.</p>
+<p>The expression <m>~b^2-4ac~</m>, which appears under the radical in the quadratic formula, is called the <term>discriminant</term><idx>discriminant</idx>, <m>D</m>, of the equation.  The value of the discriminant determines the nature of the solutions of the equation.  In particular, if the discriminant is negative, the equation has no real-valued solutions; the solutions are complex numbers.</p>
 
-<assemblage><title>The Discriminant</title>
+<assemblage><title>The Discriminant</title><idx>discriminant</idx><idx>complex conjugate</idx><idx><h>complex conjugate</h><seealso>conjugate pair</seealso></idx>
 <p>The <term>discriminant</term> of a quadratic equation is
         <me>\blert{D=b^2-4ac}</me>  <ol label="1">      
     <li>If <m>D \gt 0</m>,  there are two unequal real solutions.</li>
