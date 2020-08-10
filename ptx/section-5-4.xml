@@ -6,7 +6,7 @@
 
 <introduction><p>Two types of functions are widely used in modeling and are known by special names: <term>direct variation</term><idx><h>function</h><h>direct variation</h></idx> and <term>inverse variation</term><idx><h>function</h><h>inverse variation</h></idx>.</p></introduction>
 
-<subsection><title>Direct Variation</title><idx>direct variation</idx>
+<subsection><title>Direct Variation</title><idx>direct variation</idx><idx><h>variation</h><see>direct variation</see></idx>
 
 <p>Two variables are <term>directly proportional</term><idx>directly proportional</idx><idx><h>directly proportional</h><seealso>direct variation</seealso></idx> (or just <term>proportional</term><idx><h>proportional</h><h>directly</h></idx>) if the ratios of their corresponding values are always equal. Consider the functions described in the tables below. The first table shows the price of gasoline as a function of the number of gallons purchased.</p>
 
@@ -104,7 +104,7 @@ which we recognize as the equation of a line through the origin.</p>
 
 <p>In general, we make the following definition.</p>
 
-<assemblage><title>Direct Variation</title><idx>direct variation</idx>
+<assemblage><title>Direct Variation</title><idx>direct variation</idx><idx>varies directly</idx>
 <p><m>y</m> <term>varies directly</term> with <m>x</m> if
     <me>y = kx</me>
     where <m>k</m> is a positive constant called the <term>constant of variation</term><idx>constant of variation</idx><idx><h>direct variation</h><h>constant of variation</h></idx>.

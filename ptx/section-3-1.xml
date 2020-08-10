@@ -375,7 +375,8 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
 
 <p>The formulas for the volume and surface area of some everyday objects, such as cylinders and cones, involve quadratic expressions. We can use extraction of roots to solve problems involving these objects.</p>
 
-<assemblage><title>Formulas for Volume and Surface Area</title><idx>geometric formulas</idx>
+<assemblage><title>Formulas for Volume and Surface Area</title><idx>geometric formulas</idx><idx><h>surface area</h><h>of a sphere</h></idx><idx><h>surface area</h><h>of a cylinder</h></idx><idx><h>surface area</h><h>of a cone</h></idx><idx><h>surface area</h><h>of a pyramid</h></idx>
+<idx><h>volume</h><h>of a sphere</h></idx><idx><h>volume</h><h>of a cylinder</h></idx><idx><h>volume</h><h>of a cone</h></idx><idx><h>volume</h><h>of a pyramid</h></idx>
     <sidebyside  width="90%"><image source="images/fig-volume-and-surface-area"><description>graph </description></image></sidebyside>
 </assemblage>
 

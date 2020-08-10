@@ -268,7 +268,7 @@ is equivalent to
 
 <subsection><title>Using a Test Point</title>
 
-<p>A second method for graphing inequalities does not require us to solve for <m>y</m>. Once we have graphed the boundary line, we can decide which half-plane to shade by using a <term>test point</term><idx>test point</idx>. The test point can be any point that is not on the boundary line itself.</p>
+<p>A second method for graphing inequalities does not require us to solve for <m>y</m>. Once we have graphed the boundary line, we can decide which half-plane to shade by using a <term>test point</term><idx>test point for inequalities</idx>. The test point can be any point that is not on the boundary line itself.</p>
 
 <example xml:id="example-linear-inequality-test-point"><statement><p>Graph the solutions of the inequality <m>~~3x - 2y\lt 6</m></p></statement>
 

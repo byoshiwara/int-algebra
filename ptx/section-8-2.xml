@@ -406,7 +406,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
     <p>What about negative values for <m>x</m>? If we interpret a negative headwind as a tailwind, Francine's flying time should decrease for negative <m>x</m>-values. For example, if <m>x = -5</m>, there is a tailwind of 5 miles per hour, so Francine's effective speed is 20  miles per hour, and she can complete the flight in 3 hours. As the tailwind gets stronger (that is, as we move farther to the left in the <m>x</m>-direction), Francine's flying time continues to decrease, and the graph approaches the <m>x</m>-axis.</p></li></ol></p>
 </solution></example>
 
-<p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx><h>asymptote</h><h>vertical</h></idx> for the graph. We first encountered asymptotes in <xref ref="SomeBasicGraphs" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>
+<p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx><h>asymptote</h><h>vertical</h></idx><idx>vertical asymptote</idx> for the graph. We first encountered asymptotes in <xref ref="SomeBasicGraphs" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>
 
 <exercise xml:id="average-tshirt-cost"><title>Practice 7</title>
 <webwork><pg-code>

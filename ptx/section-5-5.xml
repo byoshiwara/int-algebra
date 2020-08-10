@@ -4,7 +4,7 @@
 <section xml:id="InverseVariation"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Inverse Variation</title>
 
-<subsection><title>Inverse Variation</title><idx>inverse variation</idx><idx><h>inversely proportional</h><seealso>inverse variation</seealso></idx>
+<subsection><title>Inverse Variation</title><idx>inverse variation</idx><idx><h>inversely proportional</h><seealso>inverse variation</seealso></idx><idx><h>variation</h><see>inverse variation</see></idx>
 
 <p>How long does it take to travel a distance of 600 miles? The answer depends on your average speed. If you are on a bicycle trip, your average speed might be 15 miles per hour. In that case, your traveling time will be
     <me>T = \frac{D}{R}= \frac{600}{15}= 40 \text{ hours}</me>
@@ -309,7 +309,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>To summarize, an inverse variation is an example of a decreasing function, but not every decreasing function describes an inverse variation.<idx>decreasing function</idx></p> 
 
-<assemblage><title>Test for Inverse Variation</title><idx><h>inverse variation</h><h>test for</h></idx>
+<assemblage><title>Test for Inverse Variation</title><idx><h>inverse variation</h><h>test for</h></idx><idx><h>test for inverse variation</h></idx>
     <p>If the product <m>~yx^n~</m> is constant and <m>n</m> is positive, then <m>y</m> varies inversely with <m>x^n</m>.</p></assemblage>
 
 <p>The graphs of some typical inverse variations are shown below. They are versions of the basic graphs you studied in Section 5.3, but restricted to positive <m>x</m>-values only.</p>

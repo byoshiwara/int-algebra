@@ -3,7 +3,7 @@
 
 <section xml:id="GaussReduct"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Gaussian Reduction</title>
 
-<subsection><title><m>3\times 3</m> Linear Systems</title><idx><h>linear system</h><h><m>3\times 3</m></h></idx>
+<subsection><title><m>3\times 3</m> Linear Systems</title><idx><h>linear system</h><h><m>3\times 3</m></h></idx><idx><h>system of equations</h><h><m>3\times 3</m></h></idx>
 
 <p>A <term>solution</term><idx><h>solution</h><h>to system of equations</h></idx> to an equation in three variables, such as
     <me>x + 2y - 3z = -4</me>
@@ -15,7 +15,7 @@ is an <term>ordered triple</term><idx>ordered triple</idx> of numbers that satis
     A linear equation in three variables has infinitely many solutions.</p>
 
 <sidebyside  widths="55% 45%" margins="0% 0%" valigns="middle middle">
-<stack><p>An ordered triple <m>(x, y, z)</m> can be represented geometrically as a point in space using a three-dimensional Cartesian coordinate system, as shown in the figure. The graph of a linear equation in three variables is a plane. A solution to a system of three linear equations in three variables is an ordered triple that satisfies each equation in the system. That triple represents a point where all three planes intersect. </p></stack>
+<stack><p>An ordered triple <m>(x, y, z)</m> can be represented geometrically as a point in space using a three-dimensional Cartesian coordinate system, as shown in the figure. The graph of a linear equation in three variables is a plane. A solution to a <term>system of three linear equations in three variables</term><idx><h>system of equations</h><h>solution</h></idx><idx><h>solution</h><h>to a system of equations</h></idx><idx><h>system of equations</h><h><m>3\times 3</m></h></idx> is an ordered triple that satisfies each equation in the system. That triple represents a point where all three planes intersect. </p></stack>
     <image source="images/fig-3D-point"><description>point in 3D space</description></image>
 </sidebyside>
 
@@ -68,11 +68,11 @@ is an <term>ordered triple</term><idx>ordered triple</idx> of numbers that satis
 
 </subsection>
 
-<subsection><title>Back-Substitution</title>
+<subsection><title>Back-Substitution</title><idx><h>system of equations</h><h>back-subsitution</h></idx><idx><h>back-substitution</h></idx>
 
 <p>The strategy for solving a <m>3 \times 3</m> system is the same as the strategy for <m>2 \times 2</m> systems: we would like to reduce the system to an equation in a single variable. Once we have found the value for that variable, we substitute its value into the other equations to find the remaining unknowns.</p>
 
-<p>A special case of this technique is called <term>back-substitution</term><idx><h>back-substitution</h></idx>. It works when one of the equations involves exactly one variable, and a second equation involves that same variable and just one other variable. A <m>3 \times 3</m> system with these properties is said to be in <term>triangular form</term><idx>triangular form</idx>.</p>
+<p>A special case of this technique is called <term>back-substitution</term><idx><h>back-substitution</h></idx>. It works when one of the equations involves exactly one variable, and a second equation involves that same variable and just one other variable. A <m>3 \times 3</m> system with these properties is said to be in <term><h>system of equations</h><h>triangular form</h></term><idx><h>triangular form</h><see>system of equations</see></idx>.</p>
 
 <example><statement><p>Solve the system
             <md alignment="alignat">
@@ -115,9 +115,9 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
 </exercise>
 </subsection>
 
-<subsection><title>Gaussian Reduction</title>
+<subsection><title>Gaussian Reduction</title><idx>Gaussian reduction</idx><idx><h>Gaussian reduction</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>Gaussian reduction</h></idx><idx><h>linear combination</h><seealso>Gaussian reduction</seealso></idx><idx><h>system of equations</h><h>linear combination</h></idx>
 
-<p>The method for solving a general <m>3 \times 3</m> linear system is called <term>Gaussian reduction</term><idx>Gaussian reduction</idx><idx><h>Gaussian reduction</h><seealso>system of equations</seealso></idx><idx>Gaussian reduction</idx><idx><h>linear combination</h><seealso>Gaussian reduction</seealso></idx>, after the German mathematician Carl Gauss. We use linear combinations to reduce the system to triangular form, and then use back-substitution to find the solutions.</p>
+<p>The method for solving a general <m>3 \times 3</m> linear system is called <term>Gaussian reduction</term>, after the German mathematician Carl Gauss. We use linear combinations to reduce the system to triangular form, and then use back-substitution to find the solutions.</p>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>       
@@ -204,7 +204,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
 
 <p>We summarize the method for solving a <m>3\times 3</m> linear system as follows.</p>
 
-<assemblage><title>Steps for Solving a <m>3\times 3</m> Linear System</title><idx><h>linear system</h><h><m>3\times 3</m></h></idx>
+<assemblage><title>Steps for Solving a <m>3\times 3</m> Linear System</title><idx><h>linear system</h><h><m>3\times 3</m></h></idx><idx><h>system of equations</h><h><m>3\times 3</m></h></idx><idx>Gaussian reduction</idx><idx><h>system of equations</h><h>Gaussian reduction</h></idx>
     <p><ol label="1">
         <li><p>Clear each equation of fractions and put it in standard form.</p></li>
         <li><p>Choose two of the equations and eliminate one of the variables by forming a linear combination.</p></li>
