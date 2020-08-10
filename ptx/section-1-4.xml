@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Slope" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Slope</title>
+<section xml:id="Slope" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Slope</title><idx>slope</idx>
 
 <subsection><title>Glacier Melt</title>
 
 <p>Glaciers around the world are retreating at accelerating rates, and many lower-latitude mountain glaciers may disappear entirely within decades. The meltwater from these smaller glaciers contributed as much as 40% to the total rise in sea level over the 1990s.</p>
 
-<p>By measuring the change in ice and snow height at fixed points and multiplying by the surface area of the glacier, scientists calculate the total volume of water lost from land-based glaciers. Dividing this volume by the surface area of the world's oceans gives the resulting change in sea level.</p>
+<p>By measuring the change in ice and snow height at fixed points and multiplying by the surface area <idx><h>surface area</h></idx> of the glacier, scientists calculate the total volume <idx>volume</idx> of water lost from land-based glaciers. Dividing this volume by the surface area of the world's oceans gives the resulting change in sea level.</p>
 
 <p>The graphs below show the change in thickness of the land-based glaciers overthe past 5 years, and the rise in sea level attributed to their melting.</p>
 
@@ -16,9 +16,9 @@
 </sidebyside>
 </subsection>
 
-<subsection><title>Rate of Change</title>
+<subsection><title>Rate of Change</title><idx>rate of change</idx>
 
-<assemblage><title>Rate</title>
+<assemblage><title>Rate</title><idx>rate</idx>
     <p>A <term>rate</term> is a type of ratio that compares two quantities with different units.</p>
 </assemblage>
 
@@ -64,7 +64,7 @@
 
 <definition><title>Rate of Change</title>
 
-<p>A <term>rate of change</term><idx>rate of change</idx> is a special kind of ratio that compares the change in two quantities or variables.</p>
+<p>A <term>rate of change</term><idx>rate of change</idx><idx><h>rate of change</h><seealso>slope</seealso></idx> is a special kind of ratio that compares the change in two quantities or variables.</p>
 </definition>
 
 <example><statement><p>Gregor is driving across Montana. At 1 pm his trip odometer reads 189 miles, and at 4 pm it reads 360 miles. Calculate Gregor's average speed as a rate of change.</p></statement>
@@ -183,9 +183,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 </subsection>
 
-<subsection><title>Review of Slope</title>
+<subsection><title>Review of Slope</title><idx>slope</idx>
 
-<assemblage><title>Slope</title>
+<assemblage><title>Slope</title><idx>slope</idx>
 <p>The <term>slope</term> of a line is a rate of change that measures the steepness of the line.</p>
 </assemblage>
 
@@ -208,8 +208,8 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     </solution>
 </webwork></exercise>
 
-<definition><title>Slope of a Line</title>
-<p><idx>slope</idx>
+<definition><title>Slope of a Line</title><idx>slope</idx><idx><h>slope</h><h>of a line</h></idx>
+<p>
     <md><mrow>\text{slope}=\frac{\text{change in }y\text{-coordinate}}{\text{change in }x\text{-coordinate}} </mrow></md>
     or, in symbols
     <md><mrow>m=\frac{\Delta y}{\Delta x} </mrow></md></p>
@@ -314,9 +314,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <p>From these examples, we can make the following observations:</p>
 
-<assemblage><title>Slope and Steepness</title><p><ol labe="a">
-    <li><p>For positive slopes, the larger the value of <m>m</m>, the more the <m>y</m>-value increases for each unit increase in <m>x</m>, and the more we climb up as our location changes from left to right. (So graph A is steeper than graph B.)</p></li>
-    <li><p>If <m>y</m> decreases as we move from left to right, then <m>\Delta y</m> is negative when <m>\Delta x</m> is positive, so their ratio (the slope) is negative. (See graph C.)</p></li></ol></p>
+<assemblage><title>Slope and Steepness</title><idx>slope</idx><p><ol labe="a">
+    <li><p>For positive slopes, the larger the value of <m>m</m>, the more the <m>y</m>-value increases for each unit increase in <m>x</m>, and the more we climb up as our location changes from left to right. (So graph A is steeper than graph B.)<idx><h>slope</h><h>positive</h></idx></p></li>
+    <li><p>If <m>y</m> decreases as we move from left to right, then <m>\Delta y</m> is negative when <m>\Delta x</m> is positive, so their ratio (the slope) is negative. (See graph C.)<idx><h>slope</h><h>positive</h></idx></p></li></ol></p>
 </assemblage>
 
 <example><statement><sidebyside widths="55% 40%" margins="0% 0%">
@@ -488,7 +488,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     From the graph, we see that at <m>t = 0</m> the skier's altitude was <m>a = 100</m>, and we calculated the rate of change of altitude as 150 feet per minute. Substituting these values into the formula, we find
                 <md><mrow>a = 100 + 150t</mrow></md></p></li></ol></p></solution></example>
 
-<assemblage><title>Slope as a Rate of Change</title>
+<assemblage><title>Slope as a Rate of Change</title><idx><h>slope</h><h>rate of change</h></idx>
 <p><ol label="1">
     <li><p>The slope of a line measures the <term>rate of change</term> of <m>y</m> with respect to <m>x</m>.</p></li>
     <li><p>The units of <m>\Delta y</m> and <m>\Delta x</m> can help us interpret the slope as a rate.</p></li>

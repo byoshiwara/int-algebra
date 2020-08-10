@@ -3,7 +3,7 @@
 
 <section xml:id="AlgebraicSolution"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Solution of Systems</title>
 
-<subsection><title>Substitution Method</title><idx>substitution method</idx>
+<subsection><title>Substitution Method</title><idx><h>system of equations</h><h>substitution method</h></idx><idx><h>substitution method</h><see>system of equations</see></idx>
 
 <p>You are probably familiar with the substitution method for solving a system of equations. Here is a summary of the steps for solving a system by substitution.</p>
 
@@ -98,7 +98,7 @@
 </exercise>
 </subsection>
    
-<subsection><title>Elimination Method</title><idx>elimination method</idx><idx><h>elimination method</h><seealso>system of equations</seealso></idx>
+<subsection><title>Elimination Method</title><idx>elimination method</idx><idx><h>elimination method</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>elimination method</h></idx>
 
 <p>A second algebraic method for solving systems is called <term>elimination</term>. As with the substitution method, we obtain an equation in a single variable, but we do it by eliminating one of the variables in the system. We must first put both equations into the general linear form <m>Ax + By = C</m>.</p>
 
@@ -205,13 +205,13 @@ Be careful to multiply each term by <m>-3</m>, not just the <m>y</m>-term. We ca
     </solution>
 </webwork></exercise>
 
-<p>When we add a multiple of one equation to the other we are making a <term>linear combination</term><idx>linear combination</idx> of the equations. The method of elimination is also called the method of linear combinations. Sometimes we need to multiply both equations by suitable constants in order to eliminate one of the variables.</p>
+<p>When we add a multiple of one equation to the other we are making a <term>linear combination</term><idx>linear combination</idx> <idx><h>system of equations</h><h>linear combination</h></idx>of the equations. The method of elimination is also called the method of linear combinations. Sometimes we need to multiply both equations by suitable constants in order to eliminate one of the variables.</p>
 
 <example><statement><p>Use linear combinations to solve the system
            <md><mrow>5x-2y \amp = 22</mrow>
                <mrow>2x - 5y \amp =13</mrow></md> </p></statement>
 
-<solution><p>This time we choose to eliminate the <m>x</m>-terms. We must arrange things so that the coefficients of the <m>x</m>-terms are opposites, so we look for the smallest integer that both 2 and 5 divide into evenly. (This number is called the <term>lowest common multiple</term>, or <term>LCM</term>, of 2 and 5.) The LCM of 2 and 5 is 10. We want one of the coefficients of <m>x</m> to be <m>10</m>, and the other to be <m>-10</m>.</p>
+<solution><p>This time we choose to eliminate the <m>x</m>-terms. We must arrange things so that the coefficients of the <m>x</m>-terms are opposites, so we look for the smallest integer that both 2 and 5 divide into evenly. (This number is called the <term>lowest common multiple</term><idx>lowest common multiple (LCM)</idx>, or <term>LCM</term>, of 2 and 5.) The LCM of 2 and 5 is 10. We want one of the coefficients of <m>x</m> to be <m>10</m>, and the other to be <m>-10</m>.</p>
 <p>To achieve this, we multiply the first equation by <m>2</m> and the second equation by <m>-5</m>.
             <md><mrow>\alert{2}(5x-2y\amp=22)\amp\amp \rightarrow\amp 10x - 4y \amp=44 </mrow>
                 <mrow>\alert{-5}(2x-5y\amp=13)\amp\amp \rightarrow\amp -10x +25y \amp=-65 </mrow></md>
@@ -360,7 +360,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
     <p>We are left with the true but unhelpful equation <m>0 = 0</m>. The two equations are in fact equivalent (one is a constant multiple of the other), so the system is dependent. The graph of both equations is shown in the figure.</p>
     </li></ol></p></solution></example>
 
-<assemblage><title>Inconsistent and Dependent Systems</title><idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx>
+<assemblage><title>Inconsistent and Dependent Systems</title><idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx><idx><h>system of equations</h><h>elimination method</h></idx>
 <p>When using elimination to solve a system:<ol label="1">
     <li><p>If combining the two equations results in an equation of the form
             <md><mrow>0x+0y = k \amp\amp(k\ne 0)</mrow></md>

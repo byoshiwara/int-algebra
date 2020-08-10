@@ -269,7 +269,7 @@ Simplifying radicals occupies the same position in the order of operations as co
 </sidebyside>
 
 
-<p>The next pair of functions, <m>f(x)=\dfrac{1}{x}</m> and <m>g(x)=\dfrac{1}{x^2}</m>, are both undefined at <m>x=0</m>, so thier graphs do not include any points with <m>x</m>-coordinate zero. For very small positive values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very large. As <m>x</m> gets closer to zero, the graphs approach the vertical line <m>x=0</m> (the <m>y</m>-axis). This line is called a <term>vertical asymptote</term><idx><h>asymptote</h><h>vertical</h></idx> for the graph.</p>
+<p>The next pair of functions, <m>f(x)=\dfrac{1}{x}</m> and <m>g(x)=\dfrac{1}{x^2}</m>, are both undefined at <m>x=0</m>, so thier graphs do not include any points with <m>x</m>-coordinate zero. For very small positive values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very large. As <m>x</m> gets closer to zero, the graphs approach the vertical line <m>x=0</m> (the <m>y</m>-axis). This line is called a <term>vertical asymptote</term><idx>vertical asymptote</idx><idx><h>asymptote</h><h>vertical</h></idx> for the graph.</p>
 
 <p>Also, notice that for very large values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very close to zero. Their graphs approach the horizontal line <m>y=0</m> (the <m>x</m>-axis).  This line is called the <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx><idx>horizontal asymptote</idx> for the graph.</p>
 

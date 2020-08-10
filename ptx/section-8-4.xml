@@ -78,7 +78,7 @@ Finally, we reduce the result to obtain
 
  <p> We summarize the procedure for multiplying algebraic fractions as follows.</p>
 
- <assemblage><title>To simplify a complex fraction</title><idx><h>complex fraction</h><h>simplify</h></idx><idx><h>fraction</h><h>complex</h></idx><idx><h>fraction</h><h>simplify</h></idx>
+ <assemblage><title>To simplify a complex fraction</title><idx><h>complex fraction</h><h>simplify</h></idx><idx><h>fraction</h><h>complex</h></idx><idx><h>fraction</h><h>simplify</h></idx><idx>simplifying a complex fraction</idx>
  <p><ol label="1">
     <li>Find the LCD of all the fraction contained in the complex fraction.</li>
     <li>Multiply the numerator and the denominator of the complex fraction by the LCD.</li>
@@ -127,7 +127,7 @@ Finally, we reduce the result to obtain
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Negative Exponents</title>
+<subsection><title>Negative Exponents</title><idx>negative exponents</idx>
 
 <p>Algebraic fractions are sometimes written using negative exponents. </p>
 
@@ -305,7 +305,7 @@ Thus, the average speed for the entire trip is
 </webwork></exercise> 
 </subsection>       
 
-<subsection><title>Polynomial Division</title>
+<subsection><title>Polynomial Division</title><idx><h>polynomial</h><h>division</h></idx>
 
 <p>Consider three improper fractions: <m>\dfrac{8}{6},~ \dfrac{8}{4},</m> and <m>\dfrac{8}{3}</m>.  Can these fractions be simplified? <ul>
     <li>We can reduce the first fraction: <m>~\dfrac{8}{6} = \dfrac{4}{3}</m></li>  

@@ -24,7 +24,8 @@
 <p><me>2^{-1} = \frac{1}{2}= \frac{1}{2^1}~~~ ~ \text{ and } ~~~~ 2^{-2} = \frac{1}{4}= \frac{1}{2^2}</me>
     Based on these observations, we make the following definitions.</p>
 
-<assemblage><title>Definition of Negative and Zero Exponents</title><idx><h>exponent</h><h>negative</h></idx><idx><h>exponent</h><h>zero</h></idx><p>
+<assemblage><title>Definition of Negative and Zero Exponents</title><idx><h>exponent</h><h>negative</h></idx><idx><h>exponent</h><h>zero</h></idx><idx>negative and zero exponents</idx><idx>negative exponents</idx>
+<p>
     <md><mrow>\blert{a^{-n}} \amp \blert{= \frac{1}{a^n}} \amp\amp \blert{(a \ne 0)} </mrow>
         <mrow>\blert{a^0} \amp \blert{= 1}  \amp\amp \blert{(a \ne 0)}</mrow></md>
 </p></assemblage>
@@ -383,7 +384,7 @@ but <em>we cannot combine terms with different exponents</em> into a single term
 
 </subsection>
 
-<subsection><title>Review of Scientific Notation</title>
+<subsection><title>Review of Scientific Notation</title><idx>scientific notation</idx>
 
 <p>Scientists and engineers regularly encounter very large numbers such as, 
     <md><mrow>5,980,000,000,000,000,000,000,000,</mrow></md>
@@ -391,7 +392,7 @@ but <em>we cannot combine terms with different exponents</em> into a single term
     <md><mrow>0.000~ 000~ 000~ 000~ 000~ 000~ 000 ~001~ 67</mrow></md>
 (the mass of a hydrogen atom in grams) in their work. These numbers are easier to use when expressed in <term>scientific notation</term>.  </p>
 
-<assemblage><title>To Write a Number in Scientific Notation</title>
+<assemblage><title>To Write a Number in Scientific Notation</title><idx>scientific notation</idx>
 <p><ol label="1">
     <li>Locate the decimal point so that there is exactly one nonzero digit to its left.</li>
     <li><p>Count the number of places you moved the decimal point:  this determines the power of 10.<ol label="a">

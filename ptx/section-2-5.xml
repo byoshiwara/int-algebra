@@ -139,7 +139,7 @@ On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded regi
 
 <subsection><title>Linear Inequalities</title>
 
-<p>A <term>linear inequality</term><idx>linear inequality</idx> can be written in the form
+<p>A <term>linear inequality</term><idx>linear inequality</idx><idx><h>inequality</h><h>linear</h></idx> can be written in the form
     <md><mrow>ax + by + c \le 0 \qquad\text{ or }\qquad ax + by + c \ge 0</mrow></md>
 The solutions consist of the line <m>ax + by + c = 0</m> and a <term>half-plane</term><idx>half-plane</idx> on one side of that line. We shade the half-plane to show that all its points are included in the solution set. 
 To decide which side of the line to shade, we can solve the inequality for <m>y</m> in terms of <m>x</m>. If we obtain
@@ -268,7 +268,7 @@ is equivalent to
 
 <subsection><title>Using a Test Point</title>
 
-<p>A second method for graphing inequalities does not require us to solve for <m>y</m>. Once we have graphed the boundary line, we can decide which half-plane to shade by using a <term>test point</term><idx>test point</idx>. The test point can be any point that is not on the boundary line itself.</p>
+<p>A second method for graphing inequalities does not require us to solve for <m>y</m>. Once we have graphed the boundary line, we can decide which half-plane to shade by using a <term>test point</term><idx>test point for inequalities</idx>. The test point can be any point that is not on the boundary line itself.</p>
 
 <example xml:id="example-linear-inequality-test-point"><statement><p>Graph the solutions of the inequality <m>~~3x - 2y\lt 6</m></p></statement>
 

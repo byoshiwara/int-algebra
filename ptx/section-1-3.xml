@@ -143,7 +143,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
 <p>This form of a linear equation, <m>Ax +By = C</m>, is called the <term>general form</term>.</p>
 
 <definition><title>General Form for a Linear Equation</title>
-    <p>The <term>general form</term><idx>general form for a linear equation</idx> for a linear equation is
+    <p>The <term>general form</term><idx>general form for a linear equation</idx><idx><h>linear equation</h><h>general form</h></idx> for a linear equation is
         <md><mrow>\blert{Ax+By=C} </mrow></md>
     (where <m>A</m> and <m>B</m> cannot both be 0).</p>
 </definition>
@@ -217,11 +217,11 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
 
 </subsection>
 
-<subsection><title>Intercept Method of Graphing</title><idx>intercept method of graphing</idx>
+<subsection><title>Intercept Method of Graphing</title><idx>intercept method of graphing</idx><idx><h>linear equation</h><h>graph using the intercept method</h></idx>
 
 <p>Because we really need only two points to graph a linear equation, we might as well find the intercepts and use them to draw the graph.</p>
 
-<assemblage><title>To Graph a Linear Equation by the Intercept Method</title><idx>intercept method of graphing</idx>
+<assemblage><title>To Graph a Linear Equation by the Intercept Method</title><idx>intercept method of graphing</idx><idx><h>linear equation</h><h>graph using the intercept method</h></idx>
 <p><ol label="a">
     <li><p>Find the horizontal and vertical intercepts.</p></li>
     <li><p>Plot the intercepts, and draw the line through the two points.</p></li>

@@ -37,7 +37,7 @@ where the left side of the equation includes the square of a binomial, or a <ter
         <cell><m>(\alert{-12})^2=144</m></cell></row>
 </tabular></sidebyside>
 
-<p>In each case, the square of the binomial is a quadratic trinomial,
+<p>In each case, the square of the binomial is a <term>quadratic trinomial</term><idx>quadratic trinomial</idx>,
     <me>(x + p)^2= x^2 + 2px + p^2</me>
 The coefficient of the linear term, <m>2p</m>, is twice the constant in the binomial, and the constant term of the trinomial, <m>p^2</m>, is its square.</p>
 
@@ -132,7 +132,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Solving Quadratic Equations by Completing the Square</title>
+<subsection><title>Solving Quadratic Equations by Completing the Square</title><idx><h>quadratic equation</h><h>solving by completing the square</h></idx>
 
 <p>Now we will use completing the square to solve quadratic equations. First, we will solve equations in which the coefficient of the squared term is 1. Consider the equation 
     <me>x^2 - 6x - 7 = 0</me></p>
@@ -376,7 +376,7 @@ You can check that <m>(2x - 3)^2</m> is not equal to <m>2x^2 - 6x + 9</m>. We ha
 
 <p>Here is a summary of the steps for solving quadratic equations by completing the square.</p>
 
-<assemblage><title>To Solve a Quadratic Equation by Completing the Square</title>
+<assemblage><title>To Solve a Quadratic Equation by Completing the Square</title><idx><h>quadratic equation</h><h>solving by completing the square</h></idx>
     <p><ol label="1">
             <li><ol label="a">
                 <li><p>Write the equation in standard form.</p></li>

@@ -100,7 +100,7 @@ or
 <p>Perhaps the single most useful piece of information a scientist can have about an animal is its metabolic rate. The metabolic rate is the amount of energy the animal uses per unit of time for its usual activities, including locomotion, growth, and reproduction.</p>
 <p> The basal metabolic rate, or BMR, sometimes called the resting metabolic rate, is the minimum amount of energy the animal can expend in order to survive.</p>
 
-<example xml:id="example-Kleiber-rule"><statement><p>A revised form of Kleiber's rule states that the basal metabolic rate for many groups of animals is given by 
+<example xml:id="example-Kleiber-rule"><statement><p>A revised form of Kleiber's rule <idx>Kleiber's Rule</idx> states that the basal metabolic rate for many groups of animals is given by 
     <me>B(m) = 70m^{0.75}</me>
 where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in kilocalories per day.<ol label="a">
     <li><p>Calculate the BMR for various animals whose masses are given in the table.</p>

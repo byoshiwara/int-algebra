@@ -18,7 +18,7 @@
 
 	<p>Each of these laws corresponds to one of three properties of logarithms.</p>
 
-<assemblage xml:id="properties-of-logarithms"><title>Properties of Logarithms</title>
+<assemblage xml:id="properties-of-logarithms"><title>Properties of Logarithms</title><idx><h>logarithm</h><h>properties</h></idx>
 <p>If <m>x,~y,</m> and <m>b\gt 0,</m> and <m>b\ne 1</m>, then <ol label="1">
 	<li><m>\log_b {xy} = \log_b {x} + \log_b {y}</m></li>
 	<li><m>\log_b {\dfrac{x}{y}} = \log_b {x} - \log_b {y}</m></li>

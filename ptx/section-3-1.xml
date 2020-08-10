@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="ExtractRoots"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Extraction of Roots</title>
+<section xml:id="ExtractRoots"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Extraction of Roots</title><idx>extraction of roots</idx>
 
 <subsection><title>Introduction</title>
 
@@ -42,12 +42,12 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
 <p>We would like to be able to solve quadratic equations, use them in applications, and graph quadratic equations in two variables. Let's begin by considering some simple examples.</p>
 </subsection>
 
-<subsection><title>Graphs of Quadratic Equations</title>
+<subsection><title>Graphs of Quadratic Equations</title><idx><h>quadratic equation</h><h>graph of</h></idx>
 
 <sidebyside widths="50% 40%" margins="0% 0%" valigns="middle middle">
     <stack><p>The simplest quadratic equation in two variables is 
             <md><mrow>y=x^2</mrow></md>
-    Its graph is not a straight line, but a curve called a <term>parabola</term>, shown in the figure. You can verify the table of values below for this parabola.</p>
+    Its graph is not a straight line, but a curve called a <term>parabola</term><idx>parabola</idx>, shown in the figure. You can verify the table of values below for this parabola.</p>
         <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
@@ -212,7 +212,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
 
 <p>How can we solve a quadratic equation? Consider the equation
     <me>x^2-4=5</me>
-First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> from Example 1.</p>
+First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> from Example 1. <idx><h>quadratic equation</h><h>solving by graphing</h></idx></p>
 
 <sidebyside  width="30%">
      <image xml:id="fig-solve-quadratic"><description>parabola and y=5</description><latex-image>
@@ -241,7 +241,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
 
 <p>Algebraically, we solve the equation as follows. <ul> 
     <li><p>First, we isolate the variable.  We add 4 to both sides, yielding <m>~x^2=9</m>.</p></li> 
-    <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>. 
+    <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, <idx><h>square root</h></idx><idx>square root</idx><idx><h>root</h><h>square root</h></idx> in order to solve for <m>x</m>. 
         <md><mrow>x^2 \amp = 9  \amp \amp \blert{\text{Take square roots of both sides.}}</mrow>
             <mrow>x \amp = \pm \sqrt{9} = \pm 3 \amp \amp \blert{\text{Remember that every positive number}}</mrow>
             <mrow>\amp \amp \amp \blert{\text{has two square roots.}}</mrow></md></p></li></ul>
@@ -317,7 +317,7 @@ graphically and algebraically.</p></statement>
 
 <p>We can now solve quadratic equations of the form <m>~ax^2+c = 0~</m>, by isolating <m>x</m> on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called <term>extraction of roots</term>. <idx><h>extraction of roots</h><seealso>quadratic equation</seealso></idx></p>
 
-<assemblage><title>Extraction of Roots</title><idx>extraction of roots</idx>
+<assemblage><title>Extraction of Roots</title><idx>extraction of roots</idx><idx><h>quadratic equation</h><h>solving by extraction of roots</h></idx>
 <p>To solve a quadratic equation of the form
     <me>ax^2+c=0</me> <ol label="1">
     <li>Isolate <m>x</m> on one side of the equation.</li> 
@@ -375,7 +375,8 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
 
 <p>The formulas for the volume and surface area of some everyday objects, such as cylinders and cones, involve quadratic expressions. We can use extraction of roots to solve problems involving these objects.</p>
 
-<assemblage><title>Formulas for Volume and Surface Area</title><idx>geometric formulas</idx>
+<assemblage><title>Formulas for Volume and Surface Area</title><idx>geometric formulas</idx><idx><h>surface area</h><h>of a sphere</h></idx><idx><h>surface area</h><h>of a cylinder</h></idx><idx><h>surface area</h><h>of a cone</h></idx><idx><h>surface area</h><h>of a pyramid</h></idx>
+<idx><h>volume</h><h>of a sphere</h></idx><idx><h>volume</h><h>of a cylinder</h></idx><idx><h>volume</h><h>of a cone</h></idx><idx><h>volume</h><h>of a pyramid</h></idx>
     <sidebyside  width="90%"><image source="images/fig-volume-and-surface-area"><description>graph </description></image></sidebyside>
 </assemblage>
 

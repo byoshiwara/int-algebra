@@ -9,11 +9,11 @@
 
 <p> Because <m>\sqrt[n]{a}=a^{1/n}</m>, we can use the laws of exponents to derive two important properties that are useful in working with radicals.</p>
 
-<assemblage><title>Product Rule for Radicals</title>
+<assemblage><title>Product Rule for Radicals</title><idx>product rule for radicals</idx>
    <p><me>\blert{\displaystyle{\sqrt[n]{ab}=\sqrt[n]{a}\sqrt[n]{b}\text{, }\hphantom{blank000}\text{for } a,  b \ge 0}}</me></p> 
 </assemblage>
 
-<assemblage><title>Quotient Rule for Radicals</title>
+<assemblage><title>Quotient Rule for Radicals</title><idx>quotient rule for radicals</idx><idx><h>radical</h><h>quotient rule for</h></idx>
 <p><me>\blert{\displaystyle{\sqrt[n]{\frac{a}{b}}=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}\text{, }\hphantom{blankblank}\text{for } a\ge 0,~~  b \gt 0}}</me></p>
 </assemblage>
 
@@ -57,7 +57,7 @@
 
 </subsection>
 
-<subsection><title>Simplifying Radicals</title>
+<subsection><title>Simplifying Radicals</title><idx><h>radical</h><h>simpifying</h></idx>
 
 <p>Each time we use a calculator to approximate a radical, we lose accuracy, and in the course of a long calculation, the error accumulates. To avoid this problem, we simplify radicals by factoring out any perfect powers from the radicand.</p>  
 
@@ -200,13 +200,13 @@ and
 
 </subsection>
 
-<subsection><title>Sums and Differences of Radicals</title>
+<subsection><title>Sums and Differences of Radicals</title><idx><h>radical</h><h>sums and differences of</h></idx>
 
 <p>How can we add or subtract radicals?  Keep in mind that, in general,
 	<me>\sqrt[n]{a}+\sqrt[n]{b} \not= \sqrt[n]{a+b}</me>
 We cannot add or subtract expressions that occur under a radical.  For example, you can check that 
 	<me>\sqrt{16}-\sqrt{4} \not= \sqrt{12}~~~~~~\text{and}~~~~~~\sqrt{7}+\sqrt{7} \not= \sqrt{14}</me>
-However, if two roots have the same index and identical radicands, they are said to be <term>like radicals</term>.  We can add or subtract like radicals in the same way that we add or subtract like terms, namely by adding or subtracting their coefficients.  For example, we know that
+However, if two roots have the same index and identical radicands, they are said to be <term>like radicals</term><idx>like radical</idx><idx><h>radical</h><h>like radicals</h></idx>.  We can add or subtract like radicals in the same way that we add or subtract like terms, namely by adding or subtracting their coefficients.  For example, we know that
 	<me>2r+3r=(2+3)r=5r</me>
 where <m>r</m> is a variable that can stand for any real number.  In particular, if <m>r=\sqrt{x}</m>, we have
 	<me>2\sqrt{x}+3\sqrt{x}=(2+3)\sqrt{x}=5\sqrt{x}</me>
@@ -422,7 +422,7 @@ We multiply together any expressions outside the radical, and apply the product 
 
 </subsection>
 
-<subsection><title>Rationalizing the Denominator</title>
+<subsection><title>Rationalizing the Denominator</title><idx><h>radical</h><h>rationalizing the denominator</h></idx><idx><h>rationalizing the denominator</h></idx><idx><h>rationalizing the denominator</h><seealso>radical</seealso></idx>
 
 <p>It is easier to work with radicals if there are no roots in the denominators of fractions. We can use the fundamental principle of fractions to remove radicals from the denominator. This process is called <term>rationalizing the denominator</term><idx>rationalizing the denominator</idx>. For square roots, we multiply the numerator and denominator of the fraction by the radical in the denominator.</p>
 

@@ -307,7 +307,7 @@ where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the
     <li>The runway at Edwards Air Force base is 15,000 feet long. Graph your equation again in an appropriate (larger) window, and use it to estimate the answer to the question:  What is the maximum velocity the shuttle can have at touchdown and still stop on the runway?</li></ol></p>
 </statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For problems 21<ndash/>24, graph the set of equations in the standard window on your calculator.  Describe how the parameters <m>a,~b,~</m> and <m>c</m> in each equation transform the graph, compared to the basic parabola.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For problems 21<ndash/>24, graph the set of equations in the standard window on your calculator.  Describe how the <term>parameters</term><idx>parameter</idx> (constants) <m>a</m>,<m>b</m>, and <m>c</m> in each equation transform the graph, compared to the basic parabola.</p></introduction>
 
 <exercise number="21"><statement><p><ol label="a">  
     <li><m>y=x^2</m></li>
