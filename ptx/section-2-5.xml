@@ -139,7 +139,7 @@ On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded regi
 
 <subsection><title>Linear Inequalities</title>
 
-<p>A <term>linear inequality</term><idx>linear inequality</idx> can be written in the form
+<p>A <term>linear inequality</term><idx>linear inequality</idx><idx><h>inequality</h><h>linear</h></idx> can be written in the form
     <md><mrow>ax + by + c \le 0 \qquad\text{ or }\qquad ax + by + c \ge 0</mrow></md>
 The solutions consist of the line <m>ax + by + c = 0</m> and a <term>half-plane</term><idx>half-plane</idx> on one side of that line. We shade the half-plane to show that all its points are included in the solution set. 
 To decide which side of the line to shade, we can solve the inequality for <m>y</m> in terms of <m>x</m>. If we obtain

@@ -7,11 +7,11 @@
 <p>Earlier, we used linear regression to fit a line to a collection of data points.  In this section we'll see how to fit a quadratic equation to a collection of data points.</p>
 </introduction>
 
-<subsection><title>Finding a Quadratic Equation through Three Points</title>
+<subsection><title>Finding a Quadratic Equation through Three Points</title><idx><h>quadratic equation</h><h>find using three points</h></idx>
 
 <p>Every linear equation can be written in the form
     <me>y=mx+b</me>
-To find a specific line we must find values for the two parameters (constants) <m>m</m> and <m>b</m>. We need two data points in order to find those two parameters.  A quadratic equation, however, has three parameters, <m>a,~b,</m> and <m>c</m>:
+To find a specific line we must find values for the two <term>parameters</term><idx>parameter</idx><idx><h>quadratic equation</h><h>parameters</h></idx><idx><h>parameter</h><seealso>quadratic equation</seealso></idx> (constants) <m>m</m> and <m>b</m>. We need two data points in order to find those two parameters.  A quadratic equation, however, has three parameters, <m>a,~b,</m> and <m>c</m>:
     <me>y=ax^2+bx+c</me>
 To find these parameters we need three data points. </p>
 

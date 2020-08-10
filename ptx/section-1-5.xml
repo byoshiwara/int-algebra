@@ -20,7 +20,7 @@
 
 </subsection>
 
-<subsection><title>Slope-Intercept Form</title>
+<subsection><title>Slope-Intercept Form</title><idx>slope-intercept form</idx><idx><h>linear equation</h><h>slope-intercept form</h></idx><idx><h>slope-intercept formula</h><see>slope-intercept form</see></idx>
 
 <p>In earlier sections we learned that:</p>
 
@@ -35,7 +35,7 @@
          <mrow>\blert{y} \amp = \hphantom{startin}\blert{b} \hphantom{value}  + ~~ \blert{mx} </mrow></md>
     Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. We call this last equation the <term>slope-intercept form</term>  for a line. </p>
 
-<assemblage><title>Slope-Intercept Form<idx>slope-intercept form</idx></title>
+<assemblage><title>Slope-Intercept Form</title><idx>slope-intercept form</idx><idx><h>linear equation</h><h>slope-intercept form</h></idx>
     <p>We can write the equation of a line in the form
         <md><mrow>y = mx + b</mrow></md>
     where <m>m</m> is the <term>slope</term> of the line, and <m>b</m> is the <term><m>y</m>-intercept</term><idx><em>y</em>-intercept</idx>.</p>
@@ -114,7 +114,7 @@
 
 </subsection>
 
-<subsection><title>Coordinate Formula for Slope</title>
+<subsection><title>Coordinate Formula for Slope</title><idx>coordinate formula for slope</idx>
 
 <p>Slope measures the change in one variable with respect to unit changes in another.To calculate the <term>net change</term><idx>net change</idx><idx><h>Delta (<m>\Delta</m>)</h><seealso>net change</seealso></idx> between two points on a number line, we can subtract their coordinates.
     <md><mrow>\blert{\text{net change} = \text{final value} - \text{starting value}}</mrow></md></p>
@@ -143,7 +143,7 @@
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<assemblage><title>Coordinate Formula for Slope</title><idx>coordinate formula for slope</idx>
+<assemblage><title>Coordinate Formula for Slope</title><idx>coordinate formula for slope</idx><idx><h>slope</h><h>coordinate formula for</h></idx>
 <p>If <m>(x_1, y_1)</m> and <m>(x_2,y_2)</m> are two points on a line, then the slope of the line is given by
     <md><mrow>m = \frac{y_2 - y_1}{x_2 - x_1} </mrow></md>
     as long as <m>x_1 \ne x_2</m></p>
@@ -293,7 +293,7 @@
     </webwork></exercise>
 </subsection>
 
-<subsection><title>Point-Slope Formula</title>
+<subsection><title>Point-Slope Formula</title><idx>point-slope formula</idx><idx><h>linear equation</h><h>point-slope formula</h></idx>
 
 <p>Now consider using the slope formula for a different problem. If we know the slope of a line and the coordinates of one point on the line, we can use the coordinate formula for slope to find the <m>y</m>-coordinate of any other point on the line.</p>
 <p> Instead of <em>evaluating</em> the formula to find <m>m</m>, we <em>substitute</em> the values we know for <m>m</m> and <m>(x_1, y_1)</m>. If we then plug in the <m>x</m>-coordinate of any unknown point, we can solve for <m>y</m>.</p>
@@ -338,12 +338,12 @@
 
 <p>When we use the slope formula to find the equation of a line, we substitute a variable point <m>(x, y)</m> for the second point. This version of the formula,
     <md><mrow>m = \frac{y - y_1}{x - x_1}</mrow></md>
-is called the <term>point-slope form</term><idx>point-slope form</idx> for a linear equation. It is sometimes stated in another version by clearing the fraction to get
+is called the <term>point-slope form</term><idx><h>point-slope form</h></idx><idx><h>point-slope form</h><seealso>point-slope formula</seealso></idx> for a linear equation. It is sometimes stated in another version by clearing the fraction to get
     <md><mrow>\alert{(x-x_1)}m\amp = \frac{y-y_1}{x-x_1}\alert{(x-x_1)} </mrow>
         <mrow>(x-x_1)m \amp = y - y_1</mrow>
         <mrow>y \amp = y_1 + m(x-x_1)  </mrow></md></p>
 
-<assemblage><title>Point-Slope Form</title>
+<assemblage><title>Point-Slope Form</title><idx>point-slope formula</idx><idx><h>linear equation</h><h>point-slope formula</h></idx>
 <p>The equation of the line that passes through the point <m>(x_1, y_1)</m> and has slope  <m>m</m> is
     <md><mrow>\blert{y = y_1 + m(x-x_1) } </mrow></md>
     You may also see the formula written in an alternate version:
@@ -364,7 +364,7 @@ is called the <term>point-slope form</term><idx>point-slope form</idx> for a lin
   </webwork></exercise>
 </subsection>
 
-<subsection><title>Finding a Linear Model</title>
+<subsection><title>Finding a Linear Model</title><idx>linear model</idx><idx><h>linear model</h><seealso>linear equation</seealso></idx>
 
 <p>Now we are ready to find the equation promised in the introduction to this section: a formula for the freezing temperature of water in terms of its salinity.</p>
 

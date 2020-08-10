@@ -650,7 +650,7 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
 
 <subsection><title>Solving Logarithmic Equations</title>
 
-<p>A <term>logarithmic equation</term><idx>logarithmic equation</idx> is one in which the variable appears inside of a logarithm. For example,
+<p>A <term>logarithmic equation</term><idx>logarithmic equation</idx><idx><h>logarithmic equation</h><h><seealso>conversion equations</seealso></h></idx><idx><h>logarithm</h><h>equation</h></idx> is one in which the variable appears inside of a logarithm. For example,
 	<me>\log_4 x = 3</me>
 is a log equation.</p>
 

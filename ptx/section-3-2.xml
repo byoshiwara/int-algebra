@@ -172,7 +172,7 @@ So we can always solve a quadratic equation to find the <m>x</m>-intercepts of a
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Solving Quadratic Equations by Factoring</title><idx><h>factoring</h><h>solve a quadratic equation by</h></idx>
+<subsection><title>Solving Quadratic Equations by Factoring</title><idx><h>factoring</h><h>solve a quadratic equation by</h></idx><idx><h>quadratic equation</h><h>solve by factoring</h></idx>
 
 <p>Now we'll consider some other quadratic equations. Before we apply the ZFP, we must write the equation so that one side is zero.</p> 
 
@@ -195,7 +195,8 @@ it is <em>incorrect</em> to set each factor equal to 15! (There are many ways th
 
 <p>We summarize the factoring method for solving quadratic equations as follows.</p>
 
-<assemblage><title>To Solve a Quadratic Equation by Factoring</title><idx><h>factoring</h><h>solve a quadratic equation by</h></idx><p> <ol label="1">
+<assemblage><title>To Solve a Quadratic Equation by Factoring</title><idx><h>factoring</h><h>solve a quadratic equation by</h></idx><idx><h>quadratic equation</h><h>solve by factoring</h></idx>
+<p> <ol label="1">
     <li>Write the equation in standard form.</li>
     <li>Factor the left side of the equation.</li>
     <li>Apply the zero-factor principle:  Set each factor equal to zero.</li>
@@ -380,7 +381,7 @@ To solve this equation, we begin by simplifying the left side
 </webwork></exercise>
 </subsection>
 
-<subsection><title>More About Solutions of Quadratic Equations</title>
+<subsection><title>More About Solutions of Quadratic Equations</title><idx><h>quadratic equation</h><h>solutions of</h></idx>
 
 <p>
   As we have seen in ehe examples above, the solutions of the quadratic equation
@@ -440,7 +441,7 @@ From here, you can see that the solutions are indeed <m>\dfrac{1}{2}</m> and <m>
 can be solved by factoring as follows:
     <md><mrow>(x-1)(x-1) \amp = 0  \amp \amp \blert{\text{Apply the zero-factor principle.}}</mrow>
         <mrow>x-1=0~~~~\text{or}~~~~x-1 \amp = 0</mrow></md>
-Both of these equations have solution <m>x=1</m>.  We say that 1 is a solution of <term>multiplicity two</term>, meaning that it occurs twice as a solution of the quadratic equation.</p>
+Both of these equations have solution <m>x=1</m>.  We say that 1 is a solution of <term>multiplicity two</term><idx>multiplicity</idx><idx><h>quadratic equation</h><h>multiplicity</h></idx>, meaning that it occurs twice as a solution of the quadratic equation.</p>
 
 <exercise><title>QuickCheck 4</title>
     <webwork><pg-code>

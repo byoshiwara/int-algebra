@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Models</title>
+<section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Models</title><idx>linear model</idx>
 
 <subsection><title>Tables, Graphs, and Equations</title>
 
 <assemblage><title>Mathematical Model</title>
-    <p>A <term>mathematical model</term><idx>mathematical model</idx> is a simplified description of reality that uses mathematics to help us understand a system or process.</p></assemblage>
+    <p>A <term>mathematical model</term><idx>mathematical model</idx><idx>model</idx> is a simplified description of reality that uses mathematics to help us understand a system or process.</p></assemblage>
 
 <p>We can use a model to analyze data, identify trends, and predict the effects of change. The first step in creating a model is to describe relationships between the variables involved.</p>
 
@@ -124,7 +124,7 @@ A one-hour bike ride costs $8.</p>
 
 <p>The equation we wrote in the first Example is an example of a <term>linear model</term>, which describes a variable that increases or decreases at a constant rate.</p>    
 
-<definition><title>Linear Model</title>
+<definition><title>Linear Model</title><idx>linear model</idx>
     <p>A <term>linear model</term><idx>linear model</idx> describes a variable that increases or decreases at a constant rate. It has the form
         <md><mrow>\blert{y=(\text{starting value})+(\text{rate})\times t }</mrow></md></p>
 </definition>

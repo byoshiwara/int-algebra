@@ -22,7 +22,7 @@ where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constant
     <md><mrow>f(x)\amp= 6x^3 - 4x^2 + x - 2 \amp g(x) \amp= 9x^5 - 2</mrow>
         <mrow>p(x) \amp = x^4 + x^2 + 1 \amp q(x) \amp= 2x^{10} - x^7 + 3x^6 + 5x^3 + 3x</mrow></md></p>
 
-<p>Each of the polynomials above is written in <term>descending powers</term><idx>descending powers</idx>, which means that the highest-degree <idx>degree (of a polynomial)</idx> term comes first, and the degrees of the terms decrease from largest to smallest. Sometimes it is useful to write a polynomial in <term>ascending powers</term><idx>ascending powers</idx>, so that the degrees of the terms increase. For example, the polynomial <m>f(x)</m> above would be written as
+<p>Each of the polynomials above is written in <term>descending powers</term><idx>descending powers</idx><idx><h>polynomial</h><h>descending powers</h></idx>, which means that the highest-degree <idx>degree (of a polynomial)</idx> term comes first, and the degrees of the terms decrease from largest to smallest. Sometimes it is useful to write a polynomial in <term>ascending powers</term><idx>ascending powers</idx><idx><h>polynomial</h><h>ascending powers</h></idx>, so that the degrees of the terms increase. For example, the polynomial <m>f(x)</m> above would be written as
     <me>f(x) = -2 + x - 4x^2 + 6x^3</me>
 in ascending powers.</p>
 
@@ -44,7 +44,7 @@ in ascending powers.</p>
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Products of Polynomials</title>
+<subsection><title>Products of Polynomials</title><idx><h>polynomial</h><h>products of</h></idx>
 
 <p>When we multiply two or more polynomials together, we get another polynomial of higher degree. </p>
 
@@ -147,14 +147,14 @@ in ascending powers.</p>
 
 <p>Recall the following special products involving quadratic expressions.</p>
 
-<assemblage><title>Special Products of Binomials</title><idx><h>binomial</h><h>special products of</h></idx>
+<assemblage><title>Special Products of Binomials</title><idx>special products of binomials</idx><idx><h>binomial</h><h>special products of</h></idx><idx><h>polynomial</h><h>quadratic</h></idx>
     <p><md><mrow>\amp \blert{(a + b)^2 = (a + b) (a + b) = a^2 + 2ab + b^2}</mrow>
             <mrow>\amp \blert{(a - b)^2 = (a - b) (a - b) = a^2 - 2ab + b^2}</mrow>
             <mrow>\amp \blert{(a + b) (a - b)= a^2 -b^2}</mrow></md></p></assemblage>
 
 <p>There are also special products resulting in cubic polynomials. In the Homework problems, you will be asked to verify the following products.</p>
 
-<assemblage><title>Cube of a Binomial</title><idx><h>binomial</h><h>cube of</h></idx><idx>cube of a binomial</idx>
+<assemblage><title>Cube of a Binomial</title><idx><h>binomial</h><h>cube of</h></idx><idx>cube of a binomial</idx><idx><h>polynomial</h><h>cubic</h></idx>
     <p><ol label="1">
         <li><m>\blert{(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3}</m></li>
         <li xml:id="cube-of-x-minus-y"><m>\blert{(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3}</m></li></ol></p>
@@ -226,7 +226,7 @@ in ascending powers.</p>
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Factoring Cubics</title>
+<subsection><title>Factoring Cubics</title><idx><h>polynomial</h><h>cubic</h></idx>
 
 <p>Another pair of products is useful for factoring cubic polynomials. In the Homework problems, you will be asked to verify the following products:
     <md><mrow>(x + y)(x^2 - xy + y^2) \amp= x^3 + y^3</mrow>
@@ -234,7 +234,7 @@ in ascending powers.</p>
 
 <p>Viewing these products from right to left, we have the following special factorizations for the sum and difference of two cubes.</p>
 
-<assemblage><title>Factoring the Sum or Difference of Two Cubes</title><idx><h>factoring</h><h>cubics</h></idx>
+<assemblage><title>Factoring the Sum or Difference of Two Cubes</title><idx><h>factoring</h><h>cubics</h></idx><idx><h>polynomial</h><h>cubic</h></idx>
     <p><ol label="1">
     <li xml:id="sum-of-cubes"><p><m>\blert{x^3 + y^3 = (x + y)(x^2 - xy + y^2)}</m></p></li>
     <li xml:id="difference-of-cubes"><p><m>\blert{x^3 - y^3 = (x - y)(x^2 + xy + y^2)}</m></p></li></ol></p>
@@ -326,9 +326,9 @@ $multians = MultiAnswer($fac1,$fac2)->with(
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Modeling with Polynomials</title>
+<subsection><title>Modeling with Polynomials</title><idx><h>polynomial</h><h>modeling with</h></idx>
 
-<p>Polynomials model many variable relationships, including volume and surface area.</p>
+<p>Polynomials model many variable relationships, including volume and surface area.<idx><h>surface area</h></idx></p>
 
 <example><statement><sidebyside widths="55% 30%" valigns="middle middle"><p>A closed box has a square base of length and width <m>x</m> inches and a height of 8 inches, as shown at right.</p>
     <image source="images/fig-box"><description>box with height inches with both length and width of <m>x</m> inches</description></image></sidebyside><p><ol label="a">
@@ -373,7 +373,7 @@ $multians = MultiAnswer($fac1,$fac2)->with(
     </webwork>
 </exercise>
 
-<p>Cubic polynomials are often used in economics to model cost functions. The cost of producing <m>x</m> items is an increasing function of <m>x</m>, but its rate of increase is usually not constant.</p>
+<p>Cubic polynomials <idx><h>polynomial</h><h>cubic</h></idx> are often used in economics to model cost functions. The cost of producing <m>x</m> items is an increasing function of <m>x</m>, but its rate of increase is usually not constant.</p>
 
 <example xml:id="example-cubic-cost-function"><statement><p>Pegasus Printing, Ltd. is launching a new magazine. The cost of printing <m>x</m> thousand copies is given by
         <me>C(x) = x^3 - 24x^2 + 195x + 250</me><ol label="a">
@@ -395,9 +395,9 @@ $multians = MultiAnswer($fac1,$fac2)->with(
      <li><p>Although the cost is always increasing, it increases very slowly from about <m>x = 5</m> to about <m>x = 11</m>. The flattening of the graph in this interval is a result of economy of scale: By buying supplies in bulk and using time efficiently, the cost per magazine can be minimized. However, if the production level is too large, costs begin to rise rapidly again.</p></li>
 </ol></p></solution></example>
 
-<p>In <xref ref="example-cubic-cost-function" text="type-global"/>c, we solved a cubic equation graphically. There is a cubic formula, <idx>cubic formula</idx> analogous to the quadratic formula, that allows us to solve cubic equations algebraically, but it is complicated and not often used.</p>
+<p>In <xref ref="example-cubic-cost-function" text="type-global"/>c, we solved a cubic equation graphically. There is a cubic formula, <idx>cubic formula</idx> analogous to the quadratic formula, that allows us to solve cubic equations <idx><h>polynomial</h><h>cubic</h></idx> algebraically, but it is complicated and not often used.</p>
 
-<p>Cubic polynomials are also used to model smooth curves connecting given points. Such a curve is called a <term>cubic spline</term><idx>cubic spline</idx>.</p>
+<p>Cubic polynomials <idx><h>polynomial</h><h>cubic</h></idx> are also used to model smooth curves connecting given points. Such a curve is called a <term>cubic spline</term><idx>cubic spline</idx>.</p>
 
 <exercise><title>Practice 6</title>
     <webwork><pg-code>

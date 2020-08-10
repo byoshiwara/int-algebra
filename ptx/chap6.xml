@@ -75,7 +75,7 @@
         
 <p>Kleiber modeled his data by the power function
     <me>P(m) = 73.3m^{0.74}</me>
-where <m>P</m> is the metabolic rate and <m>m</m> is the mass of the animal.  Kleiber's rule initiated the use of <term>allometric equations</term><idx><h>allometric equations</h></idx><idx><h>equation</h><h>allometric</h></idx>, or power functions of mass, in physiology.</p>
+where <m>P</m> is the metabolic rate and <m>m</m> is the mass of the animal.  Kleiber's rule <idx>Kleiber's Rule</idx> initiated the use of <term>allometric equations</term><idx><h>allometric equations</h></idx><idx><h>equation</h><h>allometric</h></idx>, or power functions of mass, in physiology.</p>
 
 <investigation><title>Inflating a Balloon</title>
  
@@ -181,7 +181,7 @@ Francis Sears, Mechanics, Heat, and Sound</p>
 
 <li><p>As the diameter of the balloon increases from 5 cm to 20 cm, the pressure inside decreases. Can we find a function that describes this portion of the graph? Here is some information: <ul>
     <li>Pressure is the force per unit area exerted by the balloon on the air inside, or <m>P=\dfrac{F}{A}</m>.</li>
-    <li>The balloon is spherical, so its surface area, <m>A</m>, is given by <m>A=\pi d^2</m>.</li></ul></p>
+    <li>The balloon is spherical, so its surface area, <m>A</m>, is given by <m>A=\pi d^2</m><idx><h>surface area</h><h>of a sphere</h></idx>.</li></ul></p>
 
 <p>Because the force increases as the balloon expands, we will try a power function of the form <m>F=kd^p</m>, where <m>k</m> and <m>p</m> are constants, to see if it fits the data. Combine the three equations, <m>P=\dfrac{F}{A},~A=\pi d^2~</m>, and <m>~F=kd^p</m>, to express <m>P</m> as a power function of <m>d</m>.</p></li>
 

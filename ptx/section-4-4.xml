@@ -2,9 +2,9 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="QuadraticInequalities"   xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Quadratic Inequalities</title>
+<title>Quadratic Inequalities</title><idx>quadratic inequality</idx>
 
-<subsection><title>Solving Inequalities Graphically</title><idx><h>inequality</h><h>quadratic</h><h>inequality</h><h>graphical solution</h></idx>
+<subsection><title>Solving Inequalities Graphically</title><idx><h>inequality</h><h>quadratic</h></idx><idx><h>inequality</h><h>graphical solution</h></idx><idx><h>quadratic inequality</h><h>graphical solution</h></idx>
 
 <p>The easiest way to solve a quadratic inequality is with a graph.</p>
 
@@ -201,13 +201,13 @@ This set is another type of compound inequality, <idx>compound inequality</idx><
 
 <p>The solution set in <xref ref="example-fireworks" text="type-global"/>, namely <m>~4.26 \lt t \lt 11.74,~</m> is called an interval.  An <term>interval</term> is a set that consists of all the real numbers between two numbers <m>a</m> and <m>b</m>. An interval may include one or both of its endpoints.</p>
 
-<assemblage><title>Interval Notation</title><idx>interval notation</idx>
+<assemblage><title>Interval Notation</title><idx>interval notation</idx><idx><h>interval notation</h><h>infinite interval</h></idx>
 <p><ol label="1">
-    <li>The <term>closed interval</term><idx><h>closed interval</h></idx><idx><h>closed interval</h><seealso>interval notation</seealso></idx> <m>[a,b]</m> is the set <m>a \le x \le b</m>.</li>
-    <li>The <term>open interval</term><idx><h>open interval</h></idx><idx><h>open interval</h><seealso>interval notation</seealso></idx> <m>(a,b)</m> is the set <m>a \lt x \lt b</m>.</li>
-    <li>Intervals may also be <term>half-open</term> or <term>half-closed</term>.</li>
+    <li>The <term>closed interval</term><idx><h>closed interval</h></idx><idx><h>closed interval</h><seealso>interval notation</seealso></idx><idx><h>interval notation</h><h>closed interval</h></idx> <m>[a,b]</m> is the set <m>a \le x \le b</m>.</li>
+    <li>The <term>open interval</term><idx><h>open interval</h></idx><idx><h>open interval</h><seealso>interval notation</seealso></idx><idx><h>interval notation</h><h>open interval</h></idx> <m>(a,b)</m> is the set <m>a \lt x \lt b</m>.</li>
+    <li>Intervals may also be <term>half-open</term> or <term>half-closed</term>.<idx><h>interval notation</h><h>half open</h></idx><idx><h>interval notation</h><h>half closed</h></idx></li>
     <li>The <term>infinite interval</term><idx><h>infinite interval</h></idx><idx><h>infinite interval</h><seealso>interval notation</seealso></idx> <m>[a,\infty)</m> is the set <m>x \ge a</m>.</li>
-    <li>The <term>infinite interval</term><idx><h>infinite interval</h></idx><idx><h>infinite interval</h><seealso>interval notation</seealso></idx> <m>(-\infty,a]</m> is the set <m>x \le a</m>.</li></ol></p></assemblage>
+    <li>The <term>infinite interval</term><idx><h>infinite interval</h></idx> <m>(-\infty,a]</m> is the set <m>x \le a</m>.</li></ol></p></assemblage>
 
 <p>The symbol <m>\infty</m><idx>infinity (<m>\infty</m>)</idx>, infinity, does not represent a specific real number; it indicates that the interval continues forever along the real line. A set consisting of two or more intervals is called the <term>union</term> of the intervals. For example, the solution to <xref ref="example-quadratic-inequality" text="type-global"/> is denoted in interval notation by <m>(-\infty,-3)\cup (5, \infty)</m>.</p>
 <p>Many solutions of inequalities are intervals or unions of intervals.</p>
@@ -279,7 +279,7 @@ This set is another type of compound inequality, <idx>compound inequality</idx><
 
 </subsection>
 
-<subsection><title>Solving Quadratic Inequalities Algebraically</title>
+<subsection><title>Solving Quadratic Inequalities Algebraically</title><idx><h>quadratic inequality</h><h>algebraic solution</h></idx>
 
 <p>Although a graph is very helpful in solving inequalities, it is not completely necessary. Every quadratic inequality can be put into one of the forms
     <md><mrow>ax^2 + bx + c \amp\lt 0\text{,}
@@ -295,7 +295,7 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
 <p>If the parabola opens downward, as in figure (b), the situation is reversed. The solutions to the inequality <m>y\gt 0</m> lie between the <m>x</m>-intercepts, and the solutions to <m>y\lt 0</m> lie outside the <m>x</m>-intercepts.</p>
 <p>From the graphs, we see that the <m>x</m>-intercepts are the boundary points between the portions of the graph with positive <m>y</m>-coordinates and the portions with negative <m>y</m>-coordinates. To solve a quadratic inequality, we need only locate the <m>x</m>-intercepts of the corresponding graph and then decide which intervals of the <m>x</m>-axis produce the correct sign for <m>y</m>.</p>
 
-<assemblage><title>To solve a quadratic inequality algebraically</title><idx><h>inequality</h><h>quadratic</h></idx>
+<assemblage><title>To solve a quadratic inequality algebraically</title><idx><h>inequality</h><h>quadratic</h></idx><idx><h>quadratic inequality</h><h>algebraic solution</h></idx>
 <p><ol label="1">
     <li>Write the inequality in standard form:  One side is zero, and the other has the form  <m>ax^2+bx+c</m>.</li>
     <li>Find the <m>x</m>-intercepts <idx><em>x</em>-intercept</idx> of the graph of <m>~y=ax^2+bx+c</m> by setting <m>y=0</m> and solving for <m>x</m>.</li>

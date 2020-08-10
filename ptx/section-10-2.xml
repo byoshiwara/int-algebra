@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="LogarithmicScales"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithmic Scales</title>
+<section xml:id="LogarithmicScales"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithmic Scales</title><idx><h>logarithm</h><h>scale</h></idx><idx><h>logarithmic scale</h><seealso>logarithm</seealso></idx>
 
 <subsection><title>Making a Log Scale</title>
 
@@ -559,9 +559,9 @@ Thunder is <m>10^9</m>, or one billion times more intense than a whisper. It wou
 <warning><p>Both the decibel model and the Richter scale in the next example use expressions of the form <m>\log\left(\dfrac{a}{b}\right)</m>. Be careful to follow the order of operations when using these models. We must compute the quotient <m>\dfrac{a}{b}</m> before taking a logarithm. In particular, it is <em>not</em> true that <m>\log\left(\dfrac{a}{b}\right)</m> can be simplified to <m>\dfrac{\log a}{\log b}</m>.</p></warning>
 </subsection>
 
-<subsection><title>The Richter Scale</title>
+<subsection><title>The Richter Scale</title><idx>Richter scale (or magnitude)</idx>
 
-<p>One method for measuring the magnitude of an earthquake compares the amplitude <m>A</m> of its seismographic trace with the amplitude <m>A_0</m> of the smallest detectable earthquake. The log of their ratio is the Richter<idx>Richter</idx> magnitude, <m>M</m>. Thus, 
+<p>One method for measuring the magnitude of an earthquake compares the amplitude <m>A</m> of its seismographic trace with the amplitude <m>A_0</m> of the smallest detectable earthquake. The log of their ratio is the Richter<idx>Richter scale (or magnitude)</idx> magnitude, <m>M</m>. Thus, 
 	<me>M=\log_{10}\left(\frac{A}{A_0} \right)</me></p>
 
 <example xml:id="example-northridge-earthquake"><statement><p><ol label="a">

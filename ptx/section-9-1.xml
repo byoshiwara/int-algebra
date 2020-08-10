@@ -56,7 +56,7 @@ This equation tells us that any point with <m>x</m>-coordinate <m>-2</m> lies on
 <p><ol label="1">
     <li><p>The equation of the <term>horizontal line</term><idx>horizontal line</idx> passing through <m>(0, b)</m> is
             <md><mrow>\blert{y=b}</mrow></md></p></li>
-    <li><p>The equation of the <term>vertical line</term><idx>vertical line</idx> passing through <m>(a,0)</m> is
+    <li><p>The equation of the <term>vertical line</term><idx>vertical line</idx><idx><h>line</h><h>vertical</h></idx> passing through <m>(a,0)</m> is
             <md><mrow>\blert{x=a}</mrow></md></p></li></ol></p>
 </assemblage>
 
@@ -114,9 +114,9 @@ The slope of the horizontal line <m>y = -2</m> is zero. In fact, the slope of an
     <md><mrow>m=\frac{y_2-y_1}{x_2-x_1}= \frac{6-1}{3-3}=\frac{5}{0}</mrow></md>
 which is undefined. The slope of any vertical line is undefined because the expression <m>x_2-x_1</m> equals zero.</p>
 
-<assemblage><title>Slopes of Horizontal and Vertical Lines</title><idx><h>horizontal line</h><h>slope of</h></idx><idx><h>vertical line</h><h>slope of</h></idx>
-<p>The slope of a <term>horizontal</term> line is <term>zero</term>.</p>
-<p>The slope of a <term>vertical</term> line is <term>undefined</term>.</p>
+<assemblage><title>Slopes of Horizontal and Vertical Lines</title><idx><h>horizontal line</h><h>slope of</h></idx><idx><h>vertical line</h><h>slope of</h></idx><idx><h>slope</h><h>undefined</h></idx><idx><h>slope</h><h>zero</h></idx>
+<p>The slope of a <term>horizontal</term><idx><h>line</h><h>horizontal</h></idx> line is <term>zero</term>.</p>
+<p>The slope of a <term>vertical</term><idx><h>line</h><h>vertical</h></idx> line is <term>undefined</term>.</p>
 </assemblage>
 
 <exercise><title>Practice 1</title>
@@ -171,7 +171,7 @@ which is undefined. The slope of any vertical line is undefined because the expr
 <subsection><title>Parallel and Perpendicular Lines</title>
 
 <sidebyside widths="55% 30%" margins="0% 0%" valigns="middle middle">
-    <p>Lines that lie in the same plane but never intersect are called <term>parallel</term><idx>parallel</idx> lines. They have the same "steepness" or inclination, so it is easy to understand that parallel lines have the same slope. You can verify that the parallel lines in the figure at right both have slope <m>m = 2.</m></p>
+    <p>Lines that lie in the same plane but never intersect are called <term>parallel</term><idx>parallel lines</idx><idx><h>line</h><h>parallel</h></idx> lines. They have the same "steepness" or inclination, so it is easy to understand that parallel lines have the same slope. You can verify that the parallel lines in the figure at right both have slope <m>m = 2.</m></p>
     <image xml:id="fig-parallel-lines"><description>parallel lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -206,7 +206,7 @@ which is undefined. The slope of any vertical line is undefined because the expr
         \draw[red,very thick,<->,>=stealth'] (5,-4)--(-.5,7) node[left, yshift=-.2cm, text=black, fill=white, inner sep=1]{$l_2$};
         \end{tikzpicture}]]>
     </latex-image></image>
-<p><term>Perpendicular</term><idx>perpendicular</idx> lines in a plane meet at right angles, or 90°. The relationship between the slopes of perpendicular lines is not so easy to see as the relationship for parallel lines. However, for the perpendicular lines shown at left, you can verify that
+<p><term>Perpendicular</term><idx>perpendicular lines</idx><idx><h>line</h><h>perpendicular</h></idx> lines in a plane meet at right angles, or 90°. The relationship between the slopes of perpendicular lines is not so easy to see as the relationship for parallel lines. However, for the perpendicular lines shown at left, you can verify that
         <md><mrow>m_1=\frac{1}{2} \quad\text{ and } \quad m_2 =-2</mrow></md>
 Note that the product of <m>m_1</m> and <m>m_2</m> is <m>-1</m>, that is,</p></sidebyside>
 <p>
@@ -215,10 +215,10 @@ This relationship holds for any pair of perpendicular lines. We summarize these 
 
 <assemblage><title>Parallel and Perpendicular Lines</title>
 <p><ol label="1">
-    <li><p>Two lines are <term>parallel</term><idx>parallel</idx> if their slopes are equal, that is, if
+    <li><p>Two lines are <term>parallel</term><idx>parallel lines</idx><idx><h>line</h><h>parallel</h></idx> if their slopes are equal, that is, if
         <md><mrow>\blert{m_1 = m_2}</mrow></md>
         or if both lines are vertical.</p></li>
-    <li><p>Two lines are <term>perpendicular</term><idx>perpendicular</idx> if the product of their slopes is <m>-1</m>, that is, if
+    <li><p>Two lines are <term>perpendicular</term><idx>perpendicular lines</idx><idx><h>line</h><h>perpendicular</h></idx> if the product of their slopes is <m>-1</m>, that is, if
         <md><mrow>\blert{m_1 m_2 = -1}</mrow></md>
     or if one of the lines is horizontal and one is vertical.</p></li></ol></p>
 </assemblage>

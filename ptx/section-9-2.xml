@@ -259,8 +259,8 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
 
 <p>Now consider the circle in Figure (b), whose center is the point <m>(h,k)</m>.  Every point <m>P(x,y)</m> on the circle lies a distance <m>r</m> from <m>(h,k)</m>, so the equation of the circle is given by the following formula.</p>
 
-<assemblage><title>Standard Form for a Circle</title>
-    <p>The equation for a <term>circle</term><idx><h>circle</h><h>equation of</h></idx><idx><h>circle</h><h>radius of</h></idx><idx><h>circle</h><h>center of</h></idx> of radius <m>r</m> centered at the point <m>(h,k)</m> is
+<assemblage><title>Standard Form for a Circle</title><idx><h>circle</h><h>equation of</h></idx><idx><h>circle</h><h>radius</h></idx><idx><h>circle</h><h>center</h></idx><idx><h>radius</h></idx><idx><h>radius</h><seealso>circle</seealso></idx>
+    <p>The equation for a <term>circle</term> of radius <m>r</m> centered at the point <m>(h,k)</m> is
         <md><mrow>\blert{(x-h)^2+(y-k)^2=r^2}</mrow></md></p>
 </assemblage>
 

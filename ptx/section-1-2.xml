@@ -8,7 +8,7 @@
 <p>In this section we review some techniques and terminology related to equations, inequalities, and their graphs.</p>
 
 <definition><title>Solution</title>
-    <p>A <term>solution</term><idx>solution</idx> of an equation is a value of the variable that makes the equation true.
+    <p>A <term>solution</term><idx><h>solution</h><h>to an equation in one variable</h></idx> of an equation is a value of the variable that makes the equation true.
 </p></definition>
 
 <p>For example, <m>x = \alert{−2}</m> is a solution of the equation
@@ -68,7 +68,7 @@ The solution is <m>-3</m>. You can check that substituting <m>x=-3</m> into the 
 </exercise>
 </subsection>
 
-<subsection><title>Linear Inequalities</title>
+<subsection><title>Linear Inequalities</title><idx>linear inequality</idx><idx><h>inequality</h><h>linear</h></idx>
 
 <p>Although a linear equation can have at most one solution, a linear <term>inequality</term> can have many solutions. For example, complete the table of values for the expression <m>5 − 2x</m>:</p>
 
@@ -120,7 +120,7 @@ Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequ
 
 <p>In the Example above, we used the following rule for solving linear inequalities.</p>
 
-<assemblage><title>Solving a Linear Inequality</title>
+<assemblage><title>Solving a Linear Inequality</title><idx>linear inequality</idx><idx><h>inequality</h><h>linear</h></idx>
     <p>If we multiply or divide both sides of an inequality by a negative number, we must reverse the direction of the inequality.</p>
 </assemblage>
 
@@ -178,7 +178,7 @@ Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequ
 
 <p>An <term>equation in two variables</term>, such as
     <md><mrow>-3x + 4y = 24</mrow></md>
-has many solutions. Each <term>solution</term> consists of an <term>ordered pair</term> of values, one for <m>x</m> and one for <m>y</m>, that together satisfy the equation (make the equation true.)</p>
+has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equation in two variables</h></idx> consists of an <term>ordered pair</term> of values, one for <m>x</m> and one for <m>y</m>, that together satisfy the equation (make the equation true.)</p>
 
 <exercise><title>QuickCheck 3</title>
     <webwork><pg-code>
@@ -435,7 +435,7 @@ has many solutions. Each <term>solution</term> consists of an <term>ordered pair
 
 </subsection>
 
-<subsection><title>Graphical Solution of Inequalities</title><idx><h>inequality</h><h>graphical solution</h></idx>
+<subsection><title>Graphical Solution of Inequalities</title><idx><h>inequality</h><h>graphical solution</h></idx><idx><h>solution</h><h>to an inequality in one variable</h></idx>
 
 <p>We can also use graphs to solve inequalities. Consider the inequality
     <md><mrow>285-15x \ge 150</mrow></md>

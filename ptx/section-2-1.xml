@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="LinReg"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Regression</title>
+<section xml:id="LinReg"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Regression</title><idx>linear regression</idx><idx><h>regression</h><see>linear regression</see></idx>
 
 <subsection><title>Shrinking Rain Forest</title>
 
@@ -85,7 +85,7 @@
     
 </subsection>
 
-<subsection><title>Line of Best Fit</title>
+<subsection><title>Line of Best Fit</title><idx>least-squares regression line</idx><idx><h>line</h><h>of best fit</h><h><see>least-squares regression line</see></h></idx><idx><h>linear regression</h><h>line of best fit</h></idx>
 
 <p>In most cases, a mathematical model is not a perfect description of reality. Many factors can affect empirical data, including measurement error, environmental conditions, and the influence of related variables. Nonetheless, we can often find an equation that approximates the data in a useful way.</p>
 
@@ -122,7 +122,7 @@
 </statement>
 
 <solution><p><ol label="a">
-    <li><p>The graph shown is called a <term>scatterplot</term>. The data are not strictly linear, because the slope is not constant: from 1960 to 1965, the minimum wage increased at an average rate of 
+    <li><p>The graph shown is called a <term>scatterplot</term><idx>scatterplot</idx>. The data are not strictly linear, because the slope is not constant: from 1960 to 1965, the minimum wage increased at an average rate of 
         <me>\dfrac{1.25-1.00}{5}=0.05~ \text{dollars per year}</me> 
     and from 1970 to 1975, the minimum wage increased at a rate of 
     <me>\dfrac{2.10-1.60}{5}=0.10~ \text{dollars per year}</me> 
@@ -132,7 +132,7 @@
         <image source="images/fig-example-2-1-1ans"><description>scatterplot of minimum wage</description></image>
 </sidebyside></li></ol></p></solution></example>
 
-<p>A line that fits the data in a scatterplot is called a <term>regression line</term>. Drawing a regression line by eye is a subjective process. In the Activities Workbook we'll use a calculator to compute a particular regression line called the <term>least-squares regression line</term>, which is widely used in statistics and modeling.</p>
+<p>A line that fits the data in a scatterplot is called a <term>regression line</term><idx>regression line</idx><idx><h>regression line</h><seealso>linear regression</seealso></idx><idx><h>line</h><h>regression</h></idx>. Drawing a regression line by eye is a subjective process. In the Activities Workbook we'll use a calculator to compute a particular regression line called the <term>least-squares regression line</term><idx>least-squares regression line</idx><idx><h>linear regression</h><h>least-squares regression line</h></idx>, which is widely used in statistics and modeling.</p>
 
 <p>We can still find an equation for a line of best fit using the point-slope formula. We choose two points on the line whose coordinates we can estimate fairly accurately. Note that these two points need not be any of the original data points.</p>
 
@@ -169,7 +169,7 @@
 
 </subsection>
 
-<subsection><title>Interpolation and Extrapolation</title>
+<subsection><title>Interpolation and Extrapolation</title><idx>extrapolation</idx><idx><h>linear regression</h><h>extrapolation</h></idx><idx>interpolation</idx><idx><h>linear regression</h><h>interpolation</h></idx>
 
 <example xml:id="example-cocoa"><statement><p>An outdoor snack bar collected the following data showing the number of cups of cocoa, <m>C</m>, they sold when the high temperature for the day was <m>T\degree</m> Celsius.</p>
         <sidebyside><tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
@@ -219,9 +219,9 @@
         <md><mrow>C=-2.5(\alert{24})+52=-8</mrow></md>
     Because the snack bar cannot sell <m>-8</m> cups of cocoa, this prediction is not useful. (What is the Fahrenheit equivalent of 24°C?)</p></li></ol></p></solution></example>
 
-<p>Using a regression line to estimate values between known data points is called <term>interpolation</term><idx>interpolation</idx>. If the data points lie fairly close to the regression line, then interpolation will usually give a fairly accurate estimate. In the Example above, the estimate of 29 or 30 cups of cocoa at <m>9\degree\text{C} </m> seems reasonable in the context of the data.</p>
+<p>Using a regression line to estimate values between known data points is called <term>interpolation</term><idx>interpolation</idx><idx><h>linear regression</h><h>interpolation</h></idx>. If the data points lie fairly close to the regression line, then interpolation will usually give a fairly accurate estimate. In the Example above, the estimate of 29 or 30 cups of cocoa at <m>9\degree\text{C} </m> seems reasonable in the context of the data.</p>
 
-<p>Making predictions beyond the range of known data is called <term>extrapolation</term><idx>extrapolation</idx>. Extrapolation can often give useful information, but if we try to extrapolate too far beyond our data, we may get unreasonable results. The conditions that produced the data may no longer hold, as in the Example above, or other unexpected conditions may arise to alter the situation.</p>
+<p>Making predictions beyond the range of known data is called <term>extrapolation</term><idx>extrapolation</idx><idx><h>linear regression</h><h>extrapolation</h></idx>. Extrapolation can often give useful information, but if we try to extrapolate too far beyond our data, we may get unreasonable results. The conditions that produced the data may no longer hold, as in the Example above, or other unexpected conditions may arise to alter the situation.</p>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>
@@ -313,7 +313,7 @@
                         <cell>9.4</cell>
                         <cell>6.75</cell></row>
                 </tabular></sidebyside></li>
-    <li><p>Data points that lie far from the regression line are called <term>outliers</term>. Which of the nations listed in part (b) could be considered outliers?</p></li></ol></p>
+    <li><p>Data points that lie far from the regression line are called <term>outliers</term><idx><h>linear regression</h><h>outliers</h></idx><idx>outliers</idx><idx><h>outliers</h><seealso>linear regression</seealso></idx>. Which of the nations listed in part (b) could be considered outliers?</p></li></ol></p>
     </statement>
     
 <solution><p><ol label="a">

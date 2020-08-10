@@ -599,7 +599,7 @@ whose graphs are shown below.</p>
 
 </subsection>
 
-<subsection><title>Percent Increase</title>
+<subsection><title>Percent Increase</title><idx>percent increase</idx>
 
 <p>Exponential growth is often described as growth by a certain percent increase. Suppose the town of Lakeview had 4000 residents in the year 2000, and grew at a rate of 5% per year. This means that each year we add 5% of last year's population to find the current population, <m>P(t)</m>. Thus
     <md><mrow>\text{In 2000,} ~~P(0) \amp = 4000</mrow>
@@ -838,7 +838,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
 
 </subsection>
 
-<subsection><title>Percent Decrease</title>
+<subsection><title>Percent Decrease</title><idx>percent decrease</idx>
 
 <p>We have seen that a percent increase of <m>r</m> (in decimal form) corresponds to a growth factor of <m>b=1+r</m>. A percent decrease of <m>r</m> corresponds to a decay factor <idx>decay factor </idx> of <m>b=1-r</m>. For example, if a population declines by 25% each year, then each year the new population is 75% of its previous value. So
     <me>b = 1-0.25  = 0.75</me>

@@ -10,7 +10,7 @@
 
 <p>All these parabolas share certain features. <ul>
 	<li>The graph has either a highest point (if the parabola opens downward, as in figure (a) or a lowest point (if the parabola opens upward, as in figure (b). This high or low point is called the <term>vertex</term><idx><h>vertex</h><h>of a parabola</h></idx> of the graph.</li>
-	<li>The parabola is symmetric about a vertical line, called the <term>axis of symmetry</term><idx><h>axis</h><h>of symmetry</h></idx>, that runs through the vertex.</li> 
+	<li>The parabola is symmetric about a vertical line, called the <term>axis of symmetry</term><idx><h>axis</h><h>of symmetry</h></idx><idx><h>parabola</h><h>axis of symmetry</h></idx>, that runs through the vertex.</li> 
 	<li>A parabola has a <m>y</m>-intercept<idx><em>y</em>-intercept</idx>, and it may have zero, one, or two <m>x</m>-intercepts<idx><em>x</em>-intercept</idx>.</li>
 	<li>If there are two <m>x</m>-intercepts, they are equidistant from the axis of symmetry.</li>
 </ul></p>

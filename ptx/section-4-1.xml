@@ -2,7 +2,7 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="QuadraticFormula"   xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Quadratic Formula</title>
+<title>Quadratic Formula</title><idx>quadratic formula</idx>
 
 <subsection><title>A New Formula</title>
 
@@ -10,7 +10,7 @@
     <me>ax^2+bx+c=0,~~~~     (a \not= 0)</me>
 and obtain a formula for the solutions of any quadratic equation.  Here is the resulting formula.</p>
 
-<assemblage><title>The Quadratic Formula</title>
+<assemblage><title>The Quadratic Formula</title><idx>quadratic formula</idx><idx><h>quadratic equation</h><h>solve using the quadratic formula</h></idx>
     <p>The solutions of the equation <m>~~ax^2+bx+c=0,~~(a \not= 0)~~</m> are 
         <me>\blert{x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}}</me></p></assemblage>
 
@@ -182,11 +182,11 @@ When we evalute this last expression, we get two different positive values, <m>x
 <p>Not all quadratic equations have solutions that are real numbers.  For example, when we try to solve the equation <m>~x^2+4=0,~</m>, we find
     <md><mrow>x^2 \amp =-4</mrow>
         <mrow>x \amp = \pm \sqrt{-4}</mrow></md>
-Although square roots of negative numbers such as <m>\sqrt{-4}</m>  are not real numbers, they occur frequently in mathematics and its applications.  Mathematicians in the sixteenth century gave them the name <term>imaginary numbers</term>, which reflected the mistrust with which they were viewed at the time. Today, however, such numbers are well understood and are used routinely by scientists and engineers.</p>
+Although square roots <idx><h>square root</h><h>of a negative real number</h></idx><idx><h>square root</h><h>of a negative real number</h><seealso>imaginary number</seealso></idx><idx><h>root</h><h>square root</h></idx> of negative numbers such as <m>\sqrt{-4}</m>  are not real numbers, they occur frequently in mathematics and its applications.  Mathematicians in the sixteenth century gave them the name <term>imaginary numbers</term><idx>imaginary number</idx>, which reflected the mistrust with which they were viewed at the time. Today, however, such numbers are well understood and are used routinely by scientists and engineers.</p>
 
-<p>To help us work with imaginary numbers, we define a new number, <m>i</m><idx><em>i</em></idx>, the <term>imaginary unit</term><idx><h>imaginary unit</h><see><em>i</em></see></idx>, whose square is <m>-1</m>. </p>
+<p>To help us work with imaginary numbers, we define a new number, <m>i</m><idx><em>i</em><m>\thinspace</m></idx>, the <term>imaginary unit</term><idx><h>imaginary unit</h><see><em>i</em><m>\thinspace</m></see></idx>, whose square is <m>-1</m>. </p>
  
-<definition><title>Imaginary Unit</title><idx><em>i</em></idx>
+<definition><title>Imaginary Unit</title><idx><em>i</em><m>\thinspace</m></idx>
 <p><me>\blert{i = \sqrt{-1}}~~~~\text{or}~~~~\blert{i^2=-1}</me></p></definition>
 
 <p> With this new number we define the principal square root of any negative real number as follows.</p> 

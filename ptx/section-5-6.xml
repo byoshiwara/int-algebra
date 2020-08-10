@@ -513,9 +513,9 @@
     <solution><p>plot the data.</p></solution>
 </webwork></exercise>
 
-<p>At this point, a word of caution is in order. There is more to choosing a model than finding a curve that fits the data. A model based purely on the data is called an <term>empirical model</term><idx>empirical model</idx>. However, many functions have similar shapes over small intervals of their input variables, and there may be several candidates that model the data. Such a model simply describes the general shape of the data set; the parameters of the model do not necessarily correspond to any actual process.</p>
+<p>At this point, a word of caution is in order. There is more to choosing a model than finding a curve that fits the data. A model based purely on the data is called an <term>empirical model</term><idx>empirical model</idx><idx><h>model</h><h>empirical</h></idx>. However, many functions have similar shapes over small intervals of their input variables, and there may be several candidates that model the data. Such a model simply describes the general shape of the data set; the parameters <idx>parameter</idx> of the model do not necessarily correspond to any actual process.</p>
 
-<p>In contrast, <term>mechanistic models</term><idx>mechanistic models</idx> provide insight into the biological, chemical, or physical process that is thought to govern the phenomenon under study. Parameters derived from mechanistic models are quantitative estimates of real system properties. Here is what GraphPad Software has to say about modeling:</p>
+<p>In contrast, <term>mechanistic models</term><idx>mechanistic models</idx><idx><h>model</h><h>mechanistic</h></idx> provide insight into the biological, chemical, or physical process that is thought to govern the phenomenon under study. Parameters derived from mechanistic models are quantitative estimates of real system properties. Here is what GraphPad Software has to say about modeling:</p>
 
 <p>"Choosing a model is a scientific decision. You should base your choice on your understanding of chemistry or physiology (or genetics, etc.). The choice should not be based solely on the shape of the graph.</p>
 
@@ -655,7 +655,7 @@
     </conclusion></exercise>
 </subsection>
 
-<subsection><title>Absolute Value Equations</title>
+<subsection><title>Absolute Value Equations</title><idx><h>absolute value</h><h>equations</h></idx>
 
 <sidebyside widths= "55% 35%" valigns="middle middle" margins="0% 5%">
 <stack><p>A graph can help us analyze an absolute value equation. For example, we know that the simple equation <m>\abs{x} = 5</m> has two solutions, <m>x = 5</m> and <m>x = -5</m>.</p>
@@ -826,7 +826,7 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
 </webwork></exercise>
 </subsection>
 
-<subsection><title>Absolute Value Inequalities</title>
+<subsection><title>Absolute Value Inequalities</title><idx><h>absolute value</h><h>inequalities</h></idx>
 
 <p>We can also use graphs to solve absolute value inequalities. Look again at the graph of <m>y = \abs{3x - 6}</m> in figure (a) below. </p>
 

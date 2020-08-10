@@ -41,7 +41,7 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
     </latex-image></image></sidebyside>
 <p>We see that the <m>x</m>-coordinate of the vertex is not affected by an upward shift. The formula for the <m>x</m>-coordinate of the vertex still holds.</p> 
 
-<assemblage><title>Vertex of a Parabola</title>
+<assemblage><title>Vertex of a Parabola</title><idx><h>parabola</h><h>vertex of</h></idx><idx><h>vertex of a parabola</h></idx>
     <p>For the graph of  <m>~~y=ax^2+bx+c=0,~~</m> the <m>x</m>-coordinate of the vertex is 
         <me>\blert{x_v=\dfrac{-b}{2a}}</me></p></assemblage>
 
@@ -148,7 +148,7 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
 
 <p>Many quadratic models arise as the product of two variables, one of which increases while the other decreases. For example, in the Investigation for Chapter 3 we looked at the areas of different rectangles with the same perimeter. The area of a rectangle is the product of its length and its width, or <m>A=lw</m>.  If we require that the rectangle have a certain perimeter, then as we increase its length, we must also decrease its width.</p>  
     
-<p>Another example is the formula for the revenue from sales of an item:
+<p>Another example is the formula for the revenue <idx>revenuess</idx> from sales of an item:
     <me>\blert{\text{Revenue} = \text{(price of one item)} \times \text{(number of items sold)}}</me>
 Usually, when the price of an item increases, the number of items sold decreases.</p>
 
@@ -173,7 +173,9 @@ Usually, when the price of an item increases, the number of items sold decreases
         The revenue takes on its maximum value when <m>x = 20</m>, and the maximum value is <m>R = 6000</m>. This means that Late Nite Blues should charge $20 for a pair of jeans in order to maximize revenue at $6000 a week.</p></li></ol></p>
     </solution></example>
 
-<note><p>If the equation relating two variables is quadratic, then the maximum or minimum value is easy to find: It is the value at the vertex. If the parabola opens downward, as in <xref ref="example-maximum-revenue" text="type-global"/>, there is a maximum value at the vertex. If the parabola opens upward, there is a minimum value at the vertex.</p></note>
+<note><p>If the equation relating two variables is quadratic, then the maximum or minimum value is easy to find: It is the value at the vertex. If the parabola opens downward, as in <xref ref="example-maximum-revenue" text="type-global"/>, there is a maximum value at the vertex. If the parabola opens upward, there is a minimum value at the vertex.</p><idx>maximum value</idx><idx>minimum value</idx><idx><h>maximum value</h><seealso>parabola</seealso></idx><idx><h>minimum value</h><seealso>parabola</seealso></idx>
+<idx><h>parabola</h><h>maximum value</h></idx><idx><h>quadratic equation</h><h>maximum value</h></idx>
+<idx><h>parabola</h><h>minimum value</h></idx><idx><h>quadratic equation</h><h>minimum value</h></idx></note>
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -215,7 +217,7 @@ Usually, when the price of an item increases, the number of items sold decreases
 </webwork></exercise>
 </subsection>
 
-<subsection><title>The Vertex Form for a Parabola</title>
+<subsection><title>The Vertex Form for a Parabola</title><idx><h>parabola</h><h>vertex form</h></idx><idx><h>vertex form</h><h>for a parabola</h></idx><idx><h>quadratic equation</h><h>vertex form</h></idx>
 
 <p>Consider the quadratic equation
     <me>y = 2(x - 3)^2 - 8</me>
@@ -234,7 +236,7 @@ and its graph is shown at right.</p>
             <mrow>\amp \alert{x_v} ~~~~~~~~\alert{y_v}</mrow></md>
 This equation is an example of the <term>vertex form</term><idx>vertex form</idx> for a quadratic function.</p>
 
-<assemblage><title>Vertex Form for a Quadratic Equation</title>
+<assemblage><title>Vertex Form for a Quadratic Equation</title><idx><h>parabola</h><h>vertex form</h></idx><idx><h>vertex form</h><h>for a quadratic equation</h></idx>
 <p>A quadratic equation <m>~y=ax^2+bx+c,~a \not=0,~</m> can be written in the vertex form 
     <me>\blert{y=a(x-x_v)^2+y_v}</me>
 where the vertex of the graph is <m>~(x_v,y_v)</m>.</p></assemblage>
