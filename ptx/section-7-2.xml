@@ -263,7 +263,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 
 <p>We have studied several families of functions, including linear, quadratic, and power functions. Exponential functions are useful because they model growth or decline by a constant factor.</p>
 
-<warning><p>Exponential functions<idx>exponential function</idx> are not the same as the power functions <idx>power functions</idx> we studied earlier. Although both involve expressions with exponents, it is the location of the variable that makes the difference. A power function, <m>h(x)=hx^p</m>, has a variable base and a constant exponent. An exponential function, <m>f(x)=ab^x</m>, has a constant base and a variable exponent.</p></warning>
+<warning><p>Exponential functions<idx>exponential function</idx> are not the same as the power functions <idx>power function</idx> we studied earlier. Although both involve expressions with exponents, it is the location of the variable that makes the difference. A power function, <m>h(x)=hx^p</m>, has a variable base and a constant exponent. An exponential function, <m>f(x)=ab^x</m>, has a constant base and a variable exponent.</p></warning>
 
 <assemblage><title>Power Functions vs Exponential Functions</title><idx><h>exponential function</h><h>vs power functions</h></idx><idx><h>power function</h><h>vs exponential functions</h></idx>
 <sidebyside><tabular>
