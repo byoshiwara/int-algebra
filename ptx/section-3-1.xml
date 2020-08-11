@@ -5,7 +5,7 @@
 
 <subsection><title>Introduction</title>
 
-<p>So far you have learned how to solve linear equations.  In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term><idx><h>first-degree equation</h></idx><idx>degree (of a polynomial)</idx><idx><h>equation</h><h>first-degree</h></idx><idx>degree (of a polynomial)</idx>.  Now we'll consider second-degree equations, or <term>quadratic</term><idx>quadratic equation</idx><idx><h>equation</h><h>quadratic</h></idx><idx><h>second-degree</h><see>quadratic</see></idx><idx><h>equation</h><h>second-degree</h><see>quadratic</see></idx> equations. A quadratic equation includes the square of the variable.</p> 
+<p>So far you have learned how to solve linear equations.  In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term><idx><h>first-degree equation</h></idx><idx>degree (of a polynomial)</idx><idx><h>equation</h><h>first-degree</h></idx>.  Now we'll consider second-degree equations, or <term>quadratic</term><idx>quadratic equation</idx><idx><h>equation</h><h>quadratic</h></idx><idx><h>second-degree</h><see>quadratic</see></idx><idx><h>equation</h><h>second-degree</h><see>quadratic</see></idx> equations. A quadratic equation includes the square of the variable.</p> 
 
 <assemblage><title>Quadratic Equations</title>
 <p>A <term>quadratic equation</term> can be written in the standard form 

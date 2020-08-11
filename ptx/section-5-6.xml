@@ -803,7 +803,9 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
 
 <p>In general, we have the following strategy for solving absolute value equations.</p>
 
-<assemblage><title>Absolute Value Equations</title><p></p>
+<assemblage><title>Absolute Value Equations</title>
+<idx><h>absolute value</h></idx><idx><h>equations</h><h>compound</h></idx>
+<p></p>
 <p>The equation
     <me>\blert{\abs{ax + b} = c} \hphantom{break} (c \gt 0)</me>
     is equivalent to
@@ -838,7 +840,8 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
 
 <p>Thus, we can solve an absolute value inequality by first solving the related equation.</p>
 
-<assemblage><title>Absolute Value Inequalities</title><idx><h>compound inequalities</h></idx><idx><h>inequality</h><h>compound</h></idx>
+<assemblage><title>Absolute Value Inequalities</title>
+<idx><h>absolute value</h><h>inequalities</h></idx><idx><h>compound inequality</h></idx><idx><h>inequality</h><h>compound</h></idx>
 <p>Suppose the solutions of the equation <m>\abs{ax+b}=c</m> are <m>r</m> and <m>s</m>, with <m>r \lt s</m>. Then
     <ol>
         <li>The solutions of <m>~\abs{ax+b} \lt c~</m> are 

@@ -148,7 +148,7 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
 
 <p>Many quadratic models arise as the product of two variables, one of which increases while the other decreases. For example, in the Investigation for Chapter 3 we looked at the areas of different rectangles with the same perimeter. The area of a rectangle is the product of its length and its width, or <m>A=lw</m>.  If we require that the rectangle have a certain perimeter, then as we increase its length, we must also decrease its width.</p>  
     
-<p>Another example is the formula for the revenue <idx>revenuess</idx> from sales of an item:
+<p>Another example is the formula for the revenue <idx>revenue</idx> from sales of an item:
     <me>\blert{\text{Revenue} = \text{(price of one item)} \times \text{(number of items sold)}}</me>
 Usually, when the price of an item increases, the number of items sold decreases.</p>
 

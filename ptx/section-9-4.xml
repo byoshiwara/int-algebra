@@ -1078,7 +1078,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     <md><mrow>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</mrow></md>
 for which <m>B</m>, the coefficient of the <m>xy</m>-term, is zero. These graphs are conic sections with axes parallel to one or both of the coordinate axes. If <m>B</m> does not equal zero, the axes of the conic section are rotated with respect to the coordinate axes. The graphing of such equations is taken up in more advanced courses in analytic geometry.</p> 
 
-<p>The graph of a second-degree equation can also be a point, a line, a pair of lines, or no graph at all, depending on the values of the coefficients <m>A</m> through <m>F</m>. Such graphs are called <term>degenerate conics</term><idx>degenerate conics</idx><idx><h>conic section</h><h>degenerate</h></idx>.</p> 
+<p>The graph of a second-degree equation can also be a point, a line, a pair of lines, or no graph at all, depending on the values of the coefficients <m>A</m> through <m>F</m>. Such graphs are called <term>degenerate conics</term><idx>degenerate conic</idx><idx><h>conic section</h><h>degenerate</h></idx>.</p> 
 
 <p>Given an equation of the form
     <md><mrow>Ax^2 + Cy^2 + Dx + Ey + F = 0</mrow></md>
