@@ -804,7 +804,7 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
 <p>In general, we have the following strategy for solving absolute value equations.</p>
 
 <assemblage><title>Absolute Value Equations</title>
-<idx><h>absolute value</h></idx><idx><h>equations</h><h>compound</h></idx>
+<idx><h>absolute value</h><h>equations</h></idx>
 <p></p>
 <p>The equation
     <me>\blert{\abs{ax + b} = c} \hphantom{break} (c \gt 0)</me>
