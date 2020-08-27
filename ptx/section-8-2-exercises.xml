@@ -130,35 +130,35 @@
 
 <exercisegroup cols="3"><introduction><p>For Problems 17-28, reduce if possible.</p></introduction>
 
-<exercise number="17"><statement><m>\dfrac{2a^2}{2a^2-6a}</m></statement>
-<answer><m>\dfrac{a}{a-3}</m></answer></exercise>
+<exercise number="17"><statement><p><m>\dfrac{2a^2}{2a^2-6a}</m></p></statement>
+<answer><p><m>\dfrac{a}{a-3}</m></p></answer></exercise>
 
-<exercise number="18"><statement><m>\dfrac{b-2}{4-2b}</m></statement></exercise>
+<exercise number="18"><statement><p><m>\dfrac{b-2}{4-2b}</m></p></statement></exercise>
 
-<exercise number="19"><statement><m>\dfrac{a-b}{a^2-b^2}</m></statement>
-<answer><m>\dfrac{1}{a+b}</m></answer></exercise>
+<exercise number="19"><statement><p><m>\dfrac{a-b}{a^2-b^2}</m></p></statement>
+<answer><p><m>\dfrac{1}{a+b}</m></p></answer></exercise>
 
-<exercise number="20"><statement><m>\dfrac{(3x+2y)^2}{4y^2-9x^2}</m></statement></exercise>
+<exercise number="20"><statement><p><m>\dfrac{(3x+2y)^2}{4y^2-9x^2}</m></p></statement></exercise>
 
-<exercise number="21"><statement><m>\dfrac{y^2-9x^2}{(3x-y)^2}</m></statement>
-<answer><m>\dfrac{y+3x}{y-3x}</m></answer></exercise>
+<exercise number="21"><statement><p><m>\dfrac{y^2-9x^2}{(3x-y)^2}</m></p></statement>
+<answer><p><m>\dfrac{y+3x}{y-3x}</m></p></answer></exercise>
 
-<exercise number="22"><statement><m>\dfrac{6-6t^2}{(t-1)^2}</m></statement></exercise>
+<exercise number="22"><statement><p><m>\dfrac{6-6t^2}{(t-1)^2}</m></p></statement></exercise>
 
-<exercise number="23"><statement><m>\dfrac{2y^2-8}{2y+4}</m></statement>
-<answer><m>y-2</m></answer></exercise>
+<exercise number="23"><statement><p><m>\dfrac{2y^2-8}{2y+4}</m></p></statement>
+<answer><p><m>y-2</m></p></answer></exercise>
 
-<exercise number="24"><statement><m>\dfrac{4x^3-36x}{6x^2-18x}</m></statement></exercise>
+<exercise number="24"><statement><p><m>\dfrac{4x^3-36x}{6x^2-18x}</m></p></statement></exercise>
 
-<exercise number="25"><statement><m>\dfrac{3a-a^2}{a^2-2a-3}</m></statement>
-<answer><m>\dfrac{-a}{a+1}</m></answer></exercise>
+<exercise number="25"><statement><p><m>\dfrac{3a-a^2}{a^2-2a-3}</m></p></statement>
+<answer><p><m>\dfrac{-a}{a+1}</m></p></answer></exercise>
 
-<exercise number="26"><statement><m>\dfrac{2x^2+x-6}{x^2+x-2}</m></statement></exercise>
+<exercise number="26"><statement><p><m>\dfrac{2x^2+x-6}{x^2+x-2}</m></p></statement></exercise>
 
-<exercise number="27"><statement><m>\dfrac{8z^3-27}{4z^2-9}</m></statement>
-<answer><m>\dfrac{4z^2+6z+9}{2z+3}</m></answer></exercise>
+<exercise number="27"><statement><p><m>\dfrac{8z^3-27}{4z^2-9}</m></p></statement>
+<answer><p><m>\dfrac{4z^2+6z+9}{2z+3}</m></p></answer></exercise>
 
-<exercise number="28"><statement><m>\dfrac{6-2v}{v^3-27}</m></statement></exercise>
+<exercise number="28"><statement><p><m>\dfrac{6-2v}{v^3-27}</m></p></statement></exercise>
 </exercisegroup>
 
 </subexercises>
@@ -199,7 +199,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     <li>If the exercise took 2 hours, what was the current in the river?</li>
     <li>As the speed of the current increases, what happens to the time needed for the exercise?</li></ol></p>
 </statement>
-<answer><p><ol lable="a" cols="2">
+<answer><p><ol label="a" cols="2">
     <li><p>30 min</p></li>
     <li><p>50 min</p></li>
     <li><p>50 min</p></li>

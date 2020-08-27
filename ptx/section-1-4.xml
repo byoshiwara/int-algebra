@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
 
 <section xml:id="Slope" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Slope</title><idx>slope</idx>
 
@@ -63,8 +62,8 @@
 </webwork></exercise>
 
 <definition><title>Rate of Change</title>
-
-<p>A <term>rate of change</term><idx>rate of change</idx><idx><h>rate of change</h><seealso>slope</seealso></idx> is a special kind of ratio that compares the change in two quantities or variables.</p>
+<statement>
+<p>A <term>rate of change</term><idx>rate of change</idx><idx><h>rate of change</h><seealso>slope</seealso></idx> is a special kind of ratio that compares the change in two quantities or variables.</p></statement>
 </definition>
 
 <example><statement><p>Gregor is driving across Montana. At 1 pm his trip odometer reads 189 miles, and at 4 pm it reads 360 miles. Calculate Gregor's average speed as a rate of change.</p></statement>
@@ -209,10 +208,10 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 </webwork></exercise>
 
 <definition><title>Slope of a Line</title><idx>slope</idx><idx><h>slope</h><h>of a line</h></idx>
-<p>
+<statement><p>
     <md><mrow>\text{slope}=\frac{\text{change in }y\text{-coordinate}}{\text{change in }x\text{-coordinate}} </mrow></md>
     or, in symbols
-    <md><mrow>m=\frac{\Delta y}{\Delta x} </mrow></md></p>
+    <md><mrow>m=\frac{\Delta y}{\Delta x} </mrow></md></p></statement>
 </definition>
 
 <p>In the definition of slope,
@@ -314,7 +313,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <p>From these examples, we can make the following observations:</p>
 
-<assemblage><title>Slope and Steepness</title><idx>slope</idx><p><ol labe="a">
+<assemblage><title>Slope and Steepness</title><idx>slope</idx><p><ol label="a">
     <li><p>For positive slopes, the larger the value of <m>m</m>, the more the <m>y</m>-value increases for each unit increase in <m>x</m>, and the more we climb up as our location changes from left to right. (So graph A is steeper than graph B.)<idx><h>slope</h><h>positive</h></idx></p></li>
     <li><p>If <m>y</m> decreases as we move from left to right, then <m>\Delta y</m> is negative when <m>\Delta x</m> is positive, so their ratio (the slope) is negative. (See graph C.)<idx><h>slope</h><h>positive</h></idx></p></li></ol></p>
 </assemblage>
@@ -638,7 +637,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     </pg-code>
     <statement><p>A wheelchair ramp can have a slope of no more than 24%, or 0.24. What height can the wheelchair ramp climb over a horizontal distance of 10 feet?</p>
         <p>Answer: <var name="$answer" width="5"/> </p>
-    <instructions><p>Use "ft" for feet.</p></instructions>
+    <instruction>Use "ft" for feet.</instruction>
      </statement>
     <hint><p>Do we know the value of <m>\Delta y</m> or of <m>\Delta x</m>?</p>
     </hint>

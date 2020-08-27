@@ -45,7 +45,7 @@ where we have divided both numerator and denominator by 9. The new fraction has 
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{-3b^3}{5a}</m></solution>
+    <solution><p><m>\dfrac{-3b^3}{5a}</m></p></solution>
 </webwork></exercise>
 
 <warning><p>When we cancel common factors, we are <em>dividing</em>. Because division is the inverse or opposite operation for multiplication, we can cancel common <em>factors</em>, but <em>we cannot cancel common terms</em>.
@@ -306,7 +306,7 @@ and
     <statement><p>If you evaluate <m>\dfrac{3x+12}{6x+24}</m> for <m>x=2</m> and for <m>x=-5</m>, what answer do you expect to get? (Recall the earlier Example with the same algebraic fraction in part a.)</p>
         <p><var name="$answer" width="3"/> </p>
     </statement>
-    <solution><m>\dfrac{1}{2}</m></solution>
+    <solution><p><m>\dfrac{1}{2}</m></p></solution>
 </webwork></exercise>
 
 </subsection>
@@ -417,8 +417,8 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
         }
     </pg-code>
     <statement><p>EarthCare decides to sell T-shirts to raise money. The company makes an initial investment of $100 to pay for the design of the T-shirt and to set up the printing process. After that, the T-shirts cost $5 each for labor and materials.<ol label="a">
-        <li><p>Express the average cost, <m>C</m>, per T-shirt as a function of the number of T-shirts EarthCare produces.
-                    <p><m>C=</m><var name="$cost" width="10"/> </p></p></li>
+        <li><p>Express the average cost, <m>C</m>, per T-shirt as a function of the number of T-shirts EarthCare produces.</p>
+                    <p><m>C=</m><var name="$cost" width="10"/> </p></li>
         <li><p>Make a table of values for the function.</p>
                     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                         <row bottom="minor">

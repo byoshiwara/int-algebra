@@ -60,7 +60,7 @@ We can always simplify a complex fraction into a standard algebraic fraction.  O
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{6}{y^2}</m></solution>
+    <solution><p><m>\dfrac{6}{y^2}</m></p></solution>
 </webwork></exercise>
 
 <p>If the numerator or denominator of the complex fraction contains more than one term, there is an easier way to simplify the fraction that takes advantage of the fundamental principle of fractions.</p>
@@ -123,7 +123,7 @@ Finally, we reduce the result to obtain
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{ad+bd}{ad-bc}</m></solution>
+    <solution><p><m>\dfrac{ad+bd}{ad-bc}</m></p></solution>
 </webwork></exercise>
 </subsection>
 
@@ -194,7 +194,7 @@ Finally, we reduce the result to obtain
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{x}{x+1}</m></solution>
+    <solution><p><m>\dfrac{x}{x+1}</m></p></solution>
 </webwork></exercise>
 
 <exercise><title>QuickCheck 1</title>
@@ -333,7 +333,7 @@ Note that the quotient is the sum of a polynomial, <m>3x^2 - 2x</m>, and an alge
     </p>
     <instruction>Enter the appropriate polynomial in the first box, and enter the algebraic fraction in the second box.</instruction>
     </statement>
-    <solution><m>3a + 1 - \dfrac{1}{2a}</m></solution>
+    <solution><p><m>3a + 1 - \dfrac{1}{2a}</m></p></solution>
 </webwork></exercise>
 
 <p>If the denominator is not a monomial, we use a method similar to the long division algorithm used in arithmetic.</p>
@@ -388,7 +388,7 @@ We then proceed as in <xref ref="example-long-division" text="type-global"/>. Yo
     <statement><p>Divide: <m>\dfrac{4+8y^2-3y^3}{3y+1}=</m> <var name="$poly" width="8"/><m>{}+{}</m> <var name="$frac" width="6"/></p>
     <instruction>Enter the appropriate polynomial in the first box, and enter the algebraic fraction in the second box.</instruction>
     </statement>
-    <solution><m>-y^2+3y-1+ \dfrac{5}{3y+1}</m></solution>
+    <solution><p><m>-y^2+3y-1+ \dfrac{5}{3y+1}</m></p></solution>
 </webwork></exercise>
 
 <exercise><title>QuickCheck 2</title>

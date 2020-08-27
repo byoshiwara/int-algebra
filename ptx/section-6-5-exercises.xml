@@ -95,7 +95,7 @@
 
 <exercise number="4"><statement><p><ol label="a">
     <li><p>Complete the table of values and graph <m>y=4-\sqrt{x+3}</m>.</p>
-    <p><sidebyside widths="45% 45%" valigns="middle middle">
+    <sidebyside widths="45% 45%" valigns="middle middle">
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -115,7 +115,6 @@
                     <row><cell><m>16</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular>
-    <!-- <image source="images/hp-9-5-22.png"><description>grid</description></image>-->
     <image xml:id="hp-9-5-22"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -133,7 +132,7 @@
          \draw[black] ({.2},\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside></p></li>
+    </latex-image></image></sidebyside></li>
      <li>Solve <m>~4-\sqrt{x+3}=1~</m> graphically and algebraically. Do your answers agree?</li></ol></p>
  </statement></exercise>
 
@@ -297,12 +296,12 @@
 <exercise number="12"><statement><p><m>\sqrt{x}+\sqrt{2}=\sqrt{x+2}</m></p></statement></exercise>
 
 <exercise number="13"><statement><p><m>\sqrt[3]{2x-5} -1 = 2</m></p></statement>
-        <answer>16</answer></exercise>
+        <answer><p>16</p></answer></exercise>
 
 <exercise number="14"><statement><p><m>16 = 12 - \sqrt[3]{x+24}</m></p></statement></exercise>
 
 <exercise number="15"><statement><p><m>15-2\sqrt[3]{x-4} = 9</m></p></statement>
-    <answer>31</answer></exercise>
+    <answer><p>31</p></answer></exercise>
 
 <exercise number="16"><statement><p><m>2 = 8-3\sqrt[3]{x^3+1}</m></p></statement></exercise>
 </exercisegroup>
@@ -362,12 +361,12 @@ where <m>h</m> is the greatest height the bullet reaches in meters, and <m>g</m>
 <exercisegroup cols="2"><introduction><p>For Problems 23<ndash/>26, solve the formula for the indicated variable.</p></introduction>
 
 <exercise number="23"><statement><p><m>c=\sqrt{a^2-b^2},~</m> for <m>b</m></p></statement>
-<answer><m>b= \pm \sqrt{a^2-c^2}</m></answer></exercise>
+<answer><p><m>b= \pm \sqrt{a^2-c^2}</m></p></answer></exercise>
 
 <exercise number="24"><statement><p><m>x=a-\sqrt{h(2r-h)},~</m> for <m>r</m></p></statement></exercise>
 
 <exercise number="25"><statement><p><m>D=S\sqrt[3]{1-\dfrac{v}{W}},~</m> for <m>W</m></p></statement>
-<answer><m>W=\dfrac{v}{1-(\dfrac{D}{S})^3}</m></answer></exercise>
+<answer><p><m>W=\dfrac{v}{1-(\dfrac{D}{S})^3}</m></p></answer></exercise>
 
 <exercise number="26"><statement><p><m>R=\dfrac{T}{1-\sqrt[3]{1-K}},~</m> for <m>K</m></p></statement></exercise>
 </exercisegroup>

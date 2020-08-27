@@ -15,8 +15,8 @@
 There are several other kinds of roots, one of which is called the <term>cube root</term>.  We define the cube root as follows.</p>
 
 <definition><title>Cube Root</title><idx>cube root</idx><idx><h>root</h><h>cube root</h></idx>
-<p><m>b</m> is the <term>cube root</term> of <m>a</m> if <m>b</m> cubed equals <m>a</m>.  In symbols, we write
-    <me>\blert{b=\sqrt[3]{a}~~~~\text{if}~~~~b^3=a}</me></p></definition>
+<statement><p><m>b</m> is the <term>cube root</term> of <m>a</m> if <m>b</m> cubed equals <m>a</m>.  In symbols, we write
+    <me>\blert{b=\sqrt[3]{a}~~~~\text{if}~~~~b^3=a}</me></p></statement></definition>
 
 <p>Square roots of negative numbers are not real (they are complex), but every real number has a real cube root.  For example,
     <md><mrow> 4=\sqrt[3]{64}~~~~~~ \amp \text{because} \amp \amp 4^3=64</mrow>
@@ -100,12 +100,12 @@ Simplifying radicals occupies the same position in the order of operations as co
 <p>The distance from a number <m>c</m> to the origin is called the <term>absolute value</term><idx>absolute value</idx><idx><h>function</h><h>absolute value</h><see>absolute value</see></idx> of <m>c</m>, denoted by <m>\abs{c}</m>. Because distance is never negative, the absolute value of a number is always positive (or zero). Thus, <m>\abs{6}= 6</m> and <m>\abs{-6} = 6</m>. In general, we define the absolute value of a number <m>x</m> as follows.</p>
 
 <definition><title>Absolute Value</title>
-    <p>The <term>absolute value</term><idx>absolute value</idx> of <m>x</m> is defined by
+    <statement><p>The <term>absolute value</term><idx>absolute value</idx> of <m>x</m> is defined by
         <md><mrow>\abs{x} =
                     \begin{cases}
                     x \amp \text{if } x\ge 0</mrow>
             <mrow>-x  \amp \text{if } x\lt 0
-                \end{cases}</mrow></md></p>
+                \end{cases}</mrow></md></p></statement>
 </definition>
 
 <p>This definition is called <term>piecewise</term>, because the formula has two pieces.  It says that the absolute value of a positive number (or zero) is the same as the number.  To find the absolute value of a negative number, we take the opposite of the number, which is then positive.  For instance,

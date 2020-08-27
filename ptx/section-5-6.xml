@@ -253,7 +253,7 @@
     <li>The loudness, or intensity, <m>I</m>, of the music at a concert is a function of the <em>reciprocal of the square</em> of your distance, <m>d</m>, from the speakers.</li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><m>B=kc^3</m><sidebyside  width="40%">
+    <li><p><m>B=kc^3</m></p><sidebyside  width="40%">
     <!-- could use fig-cubic-model -->
         <image xml:id="fig-example-5-6-3a">
             <description>cubic</description>
@@ -270,7 +270,7 @@
             </latex-image>
         </image>
     </sidebyside></li>
-    <li><m>Q=k\sqrt{D}</m><sidebyside  width="40%">
+    <li><p><m>Q=k\sqrt{D}</m></p><sidebyside  width="40%">
     <!-- could use fig-sqrt-model -->
         <image xml:id="fig-example-5-6-3b">
             <description>square root</description>
@@ -287,7 +287,7 @@
             </latex-image>
         </image>
     </sidebyside></li>
-    <li><m>I=\dfrac{k}{d^2}</m><sidebyside  width="40%">
+    <li><p><m>I=\dfrac{k}{d^2}</m></p><sidebyside  width="40%">
     <!-- could use fig-inverse-square-model -->
         <image xml:id="fig-example-5-6-3c">
             <description>inverse square</description>
@@ -322,7 +322,7 @@
 </webwork></exercise>
 
 <exercise><title>Practice 3</title>
-<introduction><title>Graphs of the eight basic functions: Eight basic graphs</title>
+<introduction><p>Graphs of the eight basic functions: Eight basic graphs</p>
     <sidebyside><image source="images/fig-basic-a-c"><description>parabola, cubic, square root</description></image></sidebyside>
     <sidebyside><image source="images/fig-basic-d-f"><description>cube root, reciprocal, inverse square</description></image></sidebyside>
     <sidebyside  width="60%"><image source="images/fig-basic-g-h"><description>line, absolute value</description></image></sidebyside>
@@ -769,11 +769,11 @@
                 <image pg-name="$gr[2]"/>
                 <image pg-name="$gr[3]"/>
             </sidebyside>
-            <p>The graph of <m>y= |2x+7|</m> is</p>
-            <var name="$mc" form="buttons"/></li>
+            <p>The graph of <m>y= |2x+7|</m> is 
+             <var name="$mc" form="buttons"/></p></li>
           <li><p>Use your graph to solve the equation <m>|2x + 7| = 11</m>.</p>
             <p><m>x=</m><var name="$answers" width="8" evaluator="$my_evaluator" /> </p></li></ol></p>
-      <instructions>Separate different values with a comma.</instructions>
+      <instruction>Separate different values with a comma.</instruction>
     </statement>
     <solution><p><ol label="a.">
           <li><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
@@ -823,7 +823,7 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
         </pg-code> 
     <statement><p>Solve  <m>|2x + 7| = 11</m> algebraically.</p>
             <p><m>x=</m><var name="$answers" width="8" evaluator="$my_evaluator" /> </p>
-      <instructions>Separate different values with a comma.</instructions></statement>
+      <instruction>Separate different values with a comma.</instruction></statement>
     <solution><p><m>x=-9</m> or <m>x=2</m></p></solution>
 </webwork></exercise>
 </subsection>

@@ -125,20 +125,20 @@
 
 <exercisegroup cols="3"><introduction><p>For Problems 16 and 21, factor completely.</p></introduction>
 
-<exercise number="16"><statement><m>x^3+27</m></statement></exercise>
+<exercise number="16"><statement><p><m>x^3+27</m></p></statement></exercise>
 
-<exercise number="17"><statement><m>a^3-8b^3</m></statement>
-<answer><m>(a-2b)(a^2+2ab+4b^2)</m></answer></exercise>
+<exercise number="17"><statement><p><m>a^3-8b^3</m></p></statement>
+<answer><p><m>(a-2b)(a^2+2ab+4b^2)</m></p></answer></exercise>
 
-<exercise number="18"><statement><m>x^3y^6-1</m> </statement></exercise>
+<exercise number="18"><statement><p><m>x^3y^6-1</m></p></statement></exercise>
 
-<exercise number="19"><statement><m>27a^3+64b^3</m></statement>
-<answer><m>(3a+4b)(9a^2-12ab+16b^2)</m></answer></exercise>
+<exercise number="19"><statement><p><m>27a^3+64b^3</m></p></statement>
+<answer><p><m>(3a+4b)(9a^2-12ab+16b^2)</m></p></answer></exercise>
 
-<exercise number="20"><statement><m>125a^3b^3-1</m></statement></exercise>
+<exercise number="20"><statement><p><m>125a^3b^3-1</m></p></statement></exercise>
 
-<exercise number="21"><statement><m>64t^9+w^6</m></statement>
-<answer><m>(4t^3+w^2)(16t^6-4t^3w^2+w^4)</m></answer></exercise>
+<exercise number="21"><statement><p><m>64t^9+w^6</m></p></statement>
+<answer><p><m>(4t^3+w^2)(16t^6-4t^3w^2+w^4)</m></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="22"><statement><p>Evaluate each polynomial for <m>n=10</m>. Try to do the calculations mentally. What do you notice?<ol label="a" cols="2">

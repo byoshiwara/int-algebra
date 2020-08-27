@@ -86,7 +86,7 @@ Now consider the functions that describe those operations:  The graphs of <m>f(x
 
 <p>By interchanging the rows in the table for <m>f(x)</m>, we get the table for <m>g(x)</m>. This makes sense when we recall that each function undoes the effect of the other.  In fact, we define the cube root function by
 	<me>y=\sqrt[3]{x}~~~~\text{if and only if}~~~~x=y^3</me></p>
-In other words, if we interchange the variables in the cubing function, <m>y=x^3</m>, to get <m>x=y^3</m>, we have an equivalent formula for the cube root function, <m>y=\sqrt[3]{x}</m>.
+<p>In other words, if we interchange the variables in the cubing function, <m>y=x^3</m>, to get <m>x=y^3</m>, we have an equivalent formula for the cube root function, <m>y=\sqrt[3]{x}</m>.</p>
 
 <exercise><title>Quickcheck 1</title>
 <webwork>
@@ -420,7 +420,7 @@ We can also apply the two functions in the opposite order, so that
             For this WeBWorK problem, if you want <m> \log_{10} t </m>, you should enter "log(t)".
         </instruction>
     </statement>
-    <solution><m>20 \log_{10}{4} \approx 12.04</m></solution>
+    <solution><p><m>20 \log_{10}{4} \approx 12.04</m></p></solution>
 </webwork></exercise>
 
 <example>
@@ -549,7 +549,7 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
             where <m>t</m> is in years.
             <ol label="a">
                 <li>Graph the height function for <m>2 \le t \le 20</m>.</li>
-                <li>Use the height function to complete the table.
+                <li><p>Use the height function to complete the table.</p>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
@@ -650,7 +650,7 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
 
 <subsection><title>Solving Logarithmic Equations</title>
 
-<p>A <term>logarithmic equation</term><idx>logarithmic equation</idx><idx><h>logarithmic equation</h><h><seealso>conversion equations</seealso></h></idx><idx><h>logarithm</h><h>equation</h></idx> is one in which the variable appears inside of a logarithm. For example,
+<p>A <term>logarithmic equation</term><idx>logarithmic equation</idx><idx><h>logarithmic equation</h><seealso>conversion equations</seealso></idx><idx><h>logarithm</h><h>equation</h></idx> is one in which the variable appears inside of a logarithm. For example,
 	<me>\log_4 x = 3</me>
 is a log equation.</p>
 
@@ -672,7 +672,7 @@ The solution is 36.</p></solution></example>
         <p>Solve <m>~\log_5{(5-3x)} = 3</m></p>
         <p><m>x=</m><var name="$a" width="5"/> </p>
     </statement>
-    <solution><m>x=-40</m></solution>
+    <solution><p><m>x=-40</m></p></solution>
 </webwork></exercise>
 
 <warning><p>Remember that we cannot take a logarithm of a negative number or zero, because the output of an exponential function is always positive.</p>
@@ -707,7 +707,7 @@ We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation 
         <p>Solve for <m>x</m>.</p>   
         <p>Check for extraneous solutions.</p>
     </hint>
-    <solution><m>x=500</m></solution>
+    <solution><p><m>x=500</m></p></solution>
 </webwork></exercise>
 
 <exercise><title>QuickCheck 5</title>

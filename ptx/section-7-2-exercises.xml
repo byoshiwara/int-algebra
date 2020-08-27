@@ -90,15 +90,15 @@
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 10</mrow></md></p></li>
     <li>Use your graph to find an approximate solution accurate to the nearest hundredth.</li></ol></p></introduction>
 
-<exercise number="15"><statement><p><ol Label="a">
+<exercise number="15"><statement><p><ol label="a">
     <li><m>y=3^{x-1}</m></li>
     <li><m>3^{x-1}=4</m></li></ol></p></statement>
-<answer><m>2.26</m></answer></exercise>
+<answer><p><m>2.26</m></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol Label="a">
+<exercise number="16"><statement><p><ol label="a">
     <li><m>y=4^{-x}</m></li>
     <li><m>4^{-x}=7</m></li></ol></p></statement>
-<answer><m>0.2</m></answer></exercise>
+</exercise>
 </exercisegroup>
 
 <exercise number="17"><statement><p>Find the <m>y</m>-intercept of each exponential function and decide whether the graph is increasing or decreasing.<ol cols="2">
@@ -215,9 +215,9 @@
     <li>Use a graphing calculator to obtain the graphs for <m>-5 \le x \le 5</m>.</li>
     <li>Find the largest and smallest function values on the interval <m>-5 \le x \le 5</m>.</li></ol></p></introduction> 
 
-<exercise number="22"><statement><m>h(x)=2.4^x</m></statement></exercise>
+<exercise number="22"><statement><p><m>h(x)=2.4^x</m></p></statement></exercise>
 
-<exercise number="23"><statement><m>P(x)=0.7^x</m></statement>
+<exercise number="23"><statement><p><m>P(x)=0.7^x</m></p></statement>
 <answer><p><m>0.17; 5.95</m></p></answer></exercise>
 </exercisegroup>
 

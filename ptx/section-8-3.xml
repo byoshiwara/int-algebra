@@ -63,7 +63,7 @@ or
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{-y(2y-1)}{2(y+2)}</m></solution>
+    <solution><p><m>\dfrac{-y(2y-1)}{2(y+2)}</m></p></solution>
 </webwork></exercise>
 
 <p>To multiply a fraction by a whole number, we write the whole number with 1 as denominator. 
@@ -184,7 +184,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{3x(x+2y)}{4y(x-y)}</m></solution>
+    <solution><p><m>\dfrac{3x(x+2y)}{4y(x-y)}</m></p></solution>
 </webwork></exercise>
 </subsection>
 
@@ -268,7 +268,7 @@ The same holds true for all algebraic fractions.</p>
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{3n+2}{n-3}</m></solution>
+    <solution><p><m>\dfrac{3n+2}{n-3}</m></p></solution>
 </webwork></exercise>        
 
 <p>We must be careful when subtracting algebraic fractions: A subtraction sign in front of a fraction applies to the <em>entire</em> numerator.</p>
@@ -353,7 +353,7 @@ The same holds true for all algebraic fractions.</p>
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{1}{x+1}</m></solution>
+    <solution><p><m>\dfrac{1}{x+1}</m></p></solution>
 </webwork></exercise>
 </subsection>
 
@@ -470,7 +470,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{4x+9}{12}</m></solution>
+    <solution><p><m>\dfrac{4x+9}{12}</m></p></solution>
 </webwork></exercise>
 
 <exercise><title>QuickCheck 3</title>
@@ -566,7 +566,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{-x-10}{x^2-4}</m></solution>
+    <solution><p><m>\dfrac{-x-10}{x^2-4}</m></p></solution>
 </webwork></exercise>
 
 <p>If the denominators contain any common factors, the LCD is not simply their product.  For example, the LCD for 
@@ -602,7 +602,7 @@ You can check that both 12 and 18 divide evenly into 36.</p>
     <statement><p>Find the LCD for the fractions <m>~\dfrac{1}{2x^3(x-1)^2}~</m> and <m>~\dfrac{3}{4x^2-4x}~</m></p>
         <p>LCD<m>=</m> <var name="$ans" width="12"/> </p>
     </statement>
-    <solution><m>4x^3(x-1)^2</m></solution>
+    <solution><p><m>4x^3(x-1)^2</m></p></solution>
 </webwork></exercise>
 </subsection>
 
@@ -700,7 +700,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
         </tabular></sidebyside>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
-    <solution><m>\dfrac{6}{(x+1)^2(x-2)}</m></solution>
+    <solution><p><m>\dfrac{6}{(x+1)^2(x-2)}</m></p></solution>
 </webwork></exercise>
 </subsection>
 

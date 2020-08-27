@@ -39,26 +39,26 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>16, solve.</p></introduction>
 
-<exercise number="9"><statement><m>\dfrac{4}{x} - 3 = \dfrac{5}{2x+3}</m></statement>
-<answer><m>-2,~1</m></answer></exercise>
+<exercise number="9"><statement><p><m>\dfrac{4}{x} - 3 = \dfrac{5}{2x+3}</m></p></statement>
+<answer><p><m>-2,~1</m></p></answer></exercise>
 
-<exercise number="10"><statement><m>\dfrac{4}{x-1} - \dfrac{4}{x+2} = \dfrac{3}{7}</m></statement></exercise>
+<exercise number="10"><statement><p><m>\dfrac{4}{x-1} - \dfrac{4}{x+2} = \dfrac{3}{7}</m></p></statement></exercise>
 
-<exercise number="11"><statement><m>\dfrac{2}{n^2-2n} + \dfrac{1}{2n} = \dfrac{-1}{n^2+2n}</m></statement>
-<answer><m>-6</m></answer></exercise>
+<exercise number="11"><statement><p><m>\dfrac{2}{n^2-2n} + \dfrac{1}{2n} = \dfrac{-1}{n^2+2n}</m></p></statement>
+<answer><p><m>-6</m></p></answer></exercise>
 
-<exercise number="12"><statement><m>\dfrac{3}{x-2}=\dfrac{1}{2}+\dfrac{2x-7}{2x-4} </m></statement>
+<exercise number="12"><statement><p><m>\dfrac{3}{x-2}=\dfrac{1}{2}+\dfrac{2x-7}{2x-4} </m></p></statement>
 </exercise>
 
-<exercise number="13"><statement><m>\dfrac{4}{x+2}-\dfrac{1}{x}=\dfrac{2x-1}{x^2+2x} </m></statement>
-<answer><m>1</m></answer></exercise>
+<exercise number="13"><statement><p><m>\dfrac{4}{x+2}-\dfrac{1}{x}=\dfrac{2x-1}{x^2+2x} </m></p></statement>
+<answer><p><m>1</m></p></answer></exercise>
 
-<exercise number="14"><statement><m>\dfrac{1}{x-1} +\dfrac{2}{x+1}=\dfrac{x-2}{x^2-1} </m></statement></exercise>
+<exercise number="14"><statement><p><m>\dfrac{1}{x-1} +\dfrac{2}{x+1}=\dfrac{x-2}{x^2-1} </m></p></statement></exercise>
 
-<exercise number="15"><statement><m>\dfrac{x}{x+2} -\dfrac{3}{x-2}=\dfrac{x^2+8}{x^2-4} </m></statement>
-<answer><m>\dfrac{-14}{5}</m></answer></exercise>
+<exercise number="15"><statement><p><m>\dfrac{x}{x+2} -\dfrac{3}{x-2}=\dfrac{x^2+8}{x^2-4} </m></p></statement>
+<answer><p><m>\dfrac{-14}{5}</m></p></answer></exercise>
 
-<exercise number="16"><statement><m>-3= \dfrac{-10}{x+2} +\dfrac{10}{x+5}</m></statement></exercise>
+<exercise number="16"><statement><p><m>-3= \dfrac{-10}{x+2} +\dfrac{10}{x+5}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="17"><statement><p>What is wrong with the solution to the following addition problem:  
@@ -66,32 +66,32 @@
 Solution:  
     <md><mrow> \alert{8} \cdot \dfrac{3}{8} + \alert{8} \cdot \dfrac{1}{2} \amp = 3+4 \amp \amp \blert{\text{Multiply by the LCD, 8.}}</mrow>
         <mrow> \amp = 7  \amp \amp \blert{\text{The answer is 7.}}</mrow></md></p></statement>
-<answer>We don't multiply by the LCD in addition problems.</answer></exercise>
+<answer><p>We don't multiply by the LCD in addition problems.</p></answer></exercise>
 
-<exercise number="18"><statement>Compare the methods in each calculation with fractions. Explain how the LCD is used in each operation.<ol label="a" cols="2">
+<exercise number="18"><statement><p>Compare the methods in each calculation with fractions. Explain how the LCD is used in each operation.<ol label="a" cols="2">
     <li><p>Add:  <m>~\dfrac{3}{x} + \dfrac{1}{x+3}</m></p></li>
     <li><p>Divide:  <m>~\dfrac{3}{x} \div \dfrac{1}{x+3}</m></p></li>
     <li><p>Solve:  <m>~\dfrac{3}{x} + \dfrac{1}{x+3} = 3</m></p></li>
-    <li><p>Simplify:  <m>~\dfrac{1+\dfrac{3}{x}}{3+\dfrac{1}{x+3}}</m></p></li></ol></statement>
+    <li><p>Simplify:  <m>~\dfrac{1+\dfrac{3}{x}}{3+\dfrac{1}{x+3}}</m></p></li></ol></p></statement>
 </exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>24, solve the formula for the specified variable.</p>
 </introduction>
 
-<exercise number="19"><statement><m>S=\dfrac{a}{1-r},~~~~</m> for <m>r</m></statement>
-<answer><m>r=\dfrac{S-a}{a}</m></answer></exercise>
+<exercise number="19"><statement><p><m>S=\dfrac{a}{1-r},~~~~</m> for <m>r</m></p></statement>
+<answer><p><m>r=\dfrac{S-a}{a}</m></p></answer></exercise>
 
-<exercise number="20"><statement><m>m=\dfrac{y-k}{x-h},~~~~</m> for <m>x</m></statement></exercise>
+<exercise number="20"><statement><p><m>m=\dfrac{y-k}{x-h},~~~~</m> for <m>x</m></p></statement></exercise>
 
-<exercise number="21"><statement><m>\dfrac{x}{a} + \dfrac{y}{b} = 1,~~~~</m> for <m>x</m></statement>
-<answer><m>x=a-\dfrac{ay}{b}</m></answer></exercise>
+<exercise number="21"><statement><p><m>\dfrac{x}{a} + \dfrac{y}{b} = 1,~~~~</m> for <m>x</m></p></statement>
+<answer><p><m>x=a-\dfrac{ay}{b}</m></p></answer></exercise>
 
-<exercise number="22"><statement><m>F=\dfrac{Gm_1m_2}{d^2},~~~~</m> for <m>d</m></statement></exercise>
+<exercise number="22"><statement><p><m>F=\dfrac{Gm_1m_2}{d^2},~~~~</m> for <m>d</m></p></statement></exercise>
 
-<exercise number="23"><statement><m>C=\dfrac{rR}{r+R},~~~~</m> for <m>R</m></statement>
-<answer><m>R=\dfrac{Cr}{r-C}</m></answer></exercise>
+<exercise number="23"><statement><p><m>C=\dfrac{rR}{r+R},~~~~</m> for <m>R</m></p></statement>
+<answer><p><m>R=\dfrac{Cr}{r-C}</m></p></answer></exercise>
 
-<exercise number="24"><statement><m>E=\dfrac{Ff}{(P-x)p},~~~~</m> for <m>x</m></statement></exercise>
+<exercise number="24"><statement><p><m>E=\dfrac{Ff}{(P-x)p},~~~~</m> for <m>x</m></p></statement></exercise>
 </exercisegroup>
 </subexercises>
 
@@ -99,13 +99,13 @@ Solution:
 
 <exercise number="25"><statement><p>Rani went hiking in the Santa Monica mountains last weekend.  She drove 10 miles in her car and then walked 4 miles, and arrived at a small lake  hours after she left home.  If Rani drives 20 times faster than she walks, how fast does she walk?
 </p></statement>
-<answer>2 mph</answer></exercise>
+<answer><p>2 mph</p></answer></exercise>
 
 <exercise number="26"><statement><p>Sam Scholarship and Reginald Privilege each travel the 360 miles to Fort Lauderdale on spring break, but Reginald drives his Porsche while Sam hitches a ride on a vegetable truck.  Reginald travels 20 miles per hour faster than Sam and arrives in 3 hours less time.  How fast did each travel?
 </p></statement></exercise>
 
 <exercise number="27"><statement><p>Walt and Irma use a tank of fuel oil for their furnace every 25 days during the winter.  Last winter it was so cold that they also lit their space heater 10 days after they filled the fuel oil tank.  If the space heater uses a tank of fuel oil every 40 days, how much longer will the fuel last with both heaters running?</p></statement>
-<answer>24 days</answer></exercise>
+<answer><p>24 days</p></answer></exercise>
 
 <exercise number="28"><statement><p>An underground spring fills a small pond in 12 days.  Evaporation from the surface of the pond can empty the pond in 28 days.  If the pond is completely dry, how long will it take to fill again?</p>
 </statement></exercise>
@@ -162,7 +162,7 @@ burgers if he charges <m>x</m> dollars apiece for them.<ol label="a">
 </ol></p></statement></exercise>
 
 <exercise number="35"><statement><p>Distances on a map vary directly with actual distances. The scale on a map of Michigan uses <m>\dfrac{3}{8}</m> inch to represent 10 miles. If Isle Royale is <m>1\dfrac{11}{16}</m> inches long on the map, what is the actual length of the island?</p></statement>
-<answer><m>28 \dfrac{1}{3}</m> miles</answer></exercise>
+<answer><p><m>28 \dfrac{1}{3}</m> miles</p></answer></exercise>
 
 <exercise number="36"><statement><p>The highest point on Earth is Mount Everest in Tibet, with an elevation of 8848 meters. The deepest part of the ocean is the Challenger Deep in the Mariana Trench, near Indonesia, 11,034 meters below sea level. <ol label="a">
     <li><p>What is the total height variation in the surface of the Earth?</p></li>

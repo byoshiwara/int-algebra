@@ -8,9 +8,9 @@
 <p>In <xref ref="ExponentialGrowthandDecay" text="type-global"/>, we studied functions that describe exponential growth or decay. More formally, we define an <term>exponential function</term> as follows.</p>
 
 <definition><title>Exponential Function</title><idx>exponential function</idx><idx><h>function</h><h>exponential</h></idx>
-<p>An <term>exponential function</term> has the form
+<statement><p>An <term>exponential function</term> has the form
 	<me>\blert{f(x) = ab^x},~~~~ \text{ where } ~~~b \gt 0 ~~~\text{ and } ~~~b \ne 1 \text{, } ~~~a \ne 0</me>
-</p></definition>
+</p></statement></definition>
 
 <p>Some examples of exponential functions are
 	<me>f (x) = 5^x,~~~~  P(t) = 250(1.7)^t,~~~~ \text{and } ~~~~g(n) = 2.4(0.3)^n</me>
@@ -532,7 +532,7 @@ which is true if and only if <m>x = 4</m>.<idx><h>exponential equation</h><h>sol
 	<li>How long will it be before there are 10,240 fleas?</li></ol></p></statement>
 
 <solution><p><ol label="a">
-	<li><p>We let <m>P</m> represent the number of fleas present after <m>t</m> days. The original population of 10 fleas doubles not every day, but every 5 days. A table of values for <m>P</m> would look like this.
+	<li><p>We let <m>P</m> represent the number of fleas present after <m>t</m> days. The original population of 10 fleas doubles not every day, but every 5 days. A table of values for <m>P</m> would look like this.</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
@@ -561,7 +561,7 @@ which is true if and only if <m>x = 4</m>.<idx><h>exponential equation</h><h>sol
                     	<cell bottom="minor"><m>P(\alert{20}) = 10 \cdot 2^{\alert{4}} = 160</m></cell></row>
                     </tabular></sidebyside>
 
-    Notice that the original population is multiplied by another factor of 2 every 5 days. We must divide <m>t</m> by 5 to see how many times the population doubles. The formula for <m>P</m> is thus
+    <p>Notice that the original population is multiplied by another factor of 2 every 5 days. We must divide <m>t</m> by 5 to see how many times the population doubles. The formula for <m>P</m> is thus
 		<me>P(t) = 10 \cdot 2^{t/5}</me></p></li>
 	<li>We set <m>P = \alert{10,240}</m> and solve for <m>t</m>:
 		<md><mrow>\alert{10,240} \amp = 10\cdot 2^{t/5}\amp\amp \blert{\text{Divide both sides by 10.}}</mrow>

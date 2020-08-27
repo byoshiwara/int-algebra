@@ -9,7 +9,7 @@
   <p>The hyperbola is defined as follows.</p>
 
   <definition><title>Hyperbola</title><idx>hyperbola</idx>
-    <p>A <term>hyperbola</term><idx>hyperbola</idx> is the set of points in the plane, the difference of whose distances from two fixed points (the <term>foci</term><idx><h>focus</h><h>of a hyperbola</h></idx>) is a constant.</p>
+    <statement><p>A <term>hyperbola</term><idx>hyperbola</idx> is the set of points in the plane, the difference of whose distances from two fixed points (the <term>foci</term><idx><h>focus</h><h>of a hyperbola</h></idx>) is a constant.</p></statement>
 </definition>
 
 <sidebyside widths="40% 40%" margins="5% 5%"><image xml:id="fig-hyperbola-left-right">
@@ -922,7 +922,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
                         \draw [green!60!black, decorate, decoration={brace,amplitude=6}] ({\h+\a},\k)--(\h,\k) node[below, midway, xshift=1.9cm, yshift=-6mm, fill=white, inner sep=1]{$a=\frac{3}{2}$};
                         \draw [green,thick,->, >=stealth'] (2,-3.5) to [out=180,in=280] (-.2,-2.5);
                         \end{tikzpicture}]]>
-                    </latex-image></image>></sidebyside>
+                    </latex-image></image></sidebyside>
     <p>The central rectangle is centered at <m>(-1,-2)</m>, as shown in the figure. We draw the asymptotes through the corners of the rectangle, then sketch the hyperbola by starting at the vertices and approaching the asymptotes.</p> 
     </li></ol></p>  </solution></example>
 

@@ -10,28 +10,28 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-4, evaluate.</p></introduction>
 
-<exercise number="1"><statement><m>2x-x^2~~~</m> for <m>x=-4</m></statement>
-<answer><m>-24</m></answer></exercise>
+<exercise number="1"><statement><p><m>2x-x^2~~~</m> for <m>x=-4</m></p></statement>
+<answer><p><m>-24</m></p></answer></exercise>
 
-<exercise number="2"><statement><m>\dfrac{2z-3}{z+2}~~~</m> for <m>z=\dfrac{1}{2}</m></statement></exercise>
+<exercise number="2"><statement><p><m>\dfrac{2z-3}{z+2}~~~</m> for <m>z=\dfrac{1}{2}</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>\sqrt{36-(r+1)^2}~~~</m> for <m>r=3</m></statement>
-<answer><m>\sqrt{20}</m></answer></exercise>
+<exercise number="3"><statement><p><m>\sqrt{36-(r+1)^2}~~~</m> for <m>r=3</m></p></statement>
+<answer><p><m>\sqrt{20}</m></p></answer></exercise>
 
-<exercise number="4"><statement><m>-t^3+3t^2~~~</m> for <m>t=-2</m></statement></exercise>
+<exercise number="4"><statement><p><m>-t^3+3t^2~~~</m> for <m>t=-2</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 5-8, solve.</p></introduction>
 
-<exercise number="5"><statement><m>4-5x-2x^2=1</m></statement>
-<answer><m>-3, \dfrac{1}{2}</m></answer></exercise>
+<exercise number="5"><statement><p><m>4-5x-2x^2=1</m></p></statement>
+<answer><p><m>-3, \dfrac{1}{2}</m></p></answer></exercise>
 
-<exercise number="6"><statement><m>6(2x-8)^2=20</m></statement></exercise>
+<exercise number="6"><statement><p><m>6(2x-8)^2=20</m></p></statement></exercise>
 
-<exercise number="7"><statement><m>\dfrac{1}{2x-9}=3</m></statement>
-<answer><m>\dfrac{14}{3}</m></answer></exercise>
+<exercise number="7"><statement><p><m>\dfrac{1}{2x-9}=3</m></p></statement>
+<answer><p><m>\dfrac{14}{3}</m></p></answer></exercise>
 
-<exercise number="8"><statement><m>5\sqrt{8+x}=20</m></statement></exercise>
+<exercise number="8"><statement><p><m>5\sqrt{8+x}=20</m></p></statement></exercise>
 </exercisegroup>
 </subexercises>
 
@@ -206,7 +206,7 @@
                         <cell><m>-2</m></cell>
                         <cell><m>-1</m></cell></row>
                 </tabular></sidebyside></li></ol></p></statement> 
-<answer>(b), (c), (e), and (f)</answer></exercise>
+<answer><p>(b), (c), (e), and (f)</p></answer></exercise>
 
 <exercise number="14"><statement><p>Which of the following tables define the second variable as a function of the first variable? Explain why or why not.<ol label="a" cols="2">
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">

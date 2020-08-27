@@ -13,29 +13,29 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-4, solve. Round your answers to hundredths.</p></introduction>
 
-<exercise number="1"><statement><m>4.6(x-3)^{1.8}+12=18</m></statement>
-<answer>4.16</answer></exercise>
+<exercise number="1"><statement><p><m>4.6(x-3)^{1.8}+12=18</m></p></statement>
+<answer><p>4.16</p></answer></exercise>
 
-<exercise number="2"><statement><m>2x^2-4.7x=3.8</m></statement></exercise>
+<exercise number="2"><statement><p><m>2x^2-4.7x=3.8</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>28(1.65)^{-0.3t} = 2.53</m></statement>
-<answer>16</answer></exercise>
+<exercise number="3"><statement><p><m>28(1.65)^{-0.3t} = 2.53</m></p></statement>
+<answer><p>16</p></answer></exercise>
 
-<exercise number="4"><statement><m>5(10)^x=30</m></statement></exercise>
+<exercise number="4"><statement><p><m>5(10)^x=30</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 5-8, find an equation for the line with the given pooperties.</p>
+<exercisegroup><introduction><p>For Problems 5<ndash/>8, find an equation for the line with the given pooperties.</p>
 </introduction> 
 
-<exercise number="5"><statement>slope <m>= \dfrac{-2}{3}</m>, <m>y</m>-intercept is <m>(0,-1)</m></statement>
-<answer><m>y=\dfrac{-2}{3}x-1</m></answer></exercise>
+<exercise number="5"><statement><p>slope <m>= \dfrac{-2}{3}</m>, <m>y</m>-intercept is <m>(0,-1)</m></p></statement>
+<answer><p><m>y=\dfrac{-2}{3}x-1</m></p></answer></exercise>
 
-<exercise number="6"><statement>slope <m>=-2</m>, passes through <m>(-1,2)</m></statement></exercise>
+<exercise number="6"><statement><p>slope <m>=-2</m>, passes through <m>(-1,2)</m></p></statement></exercise>
 
-<exercise number="7"><statement>passes through <m>(0,4)</m> and <m>(2,3)</m></statement>
-<answer><m>y=\dfrac{-1}{2}x+4</m></answer></exercise>
+<exercise number="7"><statement><p>passes through <m>(0,4)</m> and <m>(2,3)</m></p></statement>
+<answer><p><m>y=\dfrac{-1}{2}x+4</m></p></answer></exercise>
 
-<exercise number="8"><statement>passes through <m>(-3,0)</m> and <m>(0,-5)</m></statement></exercise>
+<exercise number="8"><statement><p>passes through <m>(-3,0)</m> and <m>(0,-5)</m></p></statement></exercise>
 </exercisegroup>
 </subexercises>
 
@@ -44,17 +44,17 @@
 <exercisegroup cols="2"><introduction><p>For Problems 9 and 10, find an exponential function that has the given values.</p>
 </introduction>
 
-<exercise number="9"><statement><m>P(0)=8,~P(5)=0.25</m></statement>
-<answer><m>P(x)=8(0.5)^x</m></answer></exercise>
+<exercise number="9"><statement><p><m>P(0)=8,~P(5)=0.25</m></p></statement>
+<answer><p><m>P(x)=8(0.5)^x</m></p></answer></exercise>
 
-<exercise number="10"><statement><m>f(2)=9, ~f(3)=12</m></statement></exercise>
+<exercise number="10"><statement><p><m>f(2)=9, ~f(3)=12</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 11 and 12, find a formula for the exponential function.</p>
 </introduction>
 
 <exercise number="11"><statement><sidebyside width="75%"><image source="images/fig-3halves-times-3-to-x-over-5"><description>mystery exponential growth</description></image></sidebyside></statement>
-<answer><m>y=1.5(3){x/5}</m></answer></exercise>
+<answer><p><m>y=1.5(3){x/5}</m></p></answer></exercise>
 
 <exercise number="12"><statement><sidebyside width="65%"><image source="images/fig-8fifths-times-5-to-neg-x-over-3"><description>mystery exponential decay</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -64,13 +64,13 @@
     <li>fit an exponential function to the points,</li>
     <li>graph both functions in the same window.</li></ol></p></introduction>
 
-<exercise number="13"><statement><m>(0,2.6)</m>, <m>(1,1.3)</m></statement>
+<exercise number="13"><statement><p><m>(0,2.6)</m>, <m>(1,1.3)</m></p></statement>
 <answer><p><ol label="a">
     <li><m>y=2.6-1.3x</m></li>
     <li><m>y=2.5(0,5)^x</m></li>
     <li><sidebyside width="80%"><image source="images/fig-lin-and-exp-fit"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="14"><statement><m>(-2,0.75),~(4,6)</m></statement></exercise>
+<exercise number="14"><statement><p><m>(-2,0.75),~(4,6)</m></p></statement></exercise>
 </exercisegroup>
 
 </subexercises>
@@ -80,13 +80,13 @@
 <exercisegroup><introduction><p>For Problems 15-18, write a growth or decay formula for the exponential function.  Then find the percent growth or decay rate.</p></introduction>
 
 <exercise number="15"><statement><p>A population starts with 2000 and has a doubling time of 5 years.</p></statement>
-<answer><m>P(t)=2000(2^{t/5};~</m> 14.9%</answer></exercise>
+<answer><p><m>P(t)=2000(2^{t/5};~</m> 14.9%</p></answer></exercise>
 
 <exercise number="16"><statement><p>You have 10 grams of a radioactive isotope whose half-life is 42 years.</p></statement>
 </exercise>
 
 <exercise number="17"><statement><p>A certain medication has a half-life of 18 hours in the body. You are given an initial dose of <m>D_0</m> mg.</p></statement>
-<answer><m>D(t)=D_0(0,5^{t/18};~</m> 3.8%</answer></exercise>
+<answer><p><m>D(t)=D_0(0,5^{t/18};~</m> 3.8%</p></answer></exercise>
 
 <exercise number="18"><statement><p>The doubling time of a certain financial investment is 8 years. You invest an amount <m>M_0</m>.</p></statement></exercise>
 </exercisegroup>
@@ -158,7 +158,7 @@
  </p></introduction>
 
 <exercise number="27"><statement><p>What rate of interest is required so that $1000 will yield $1900 after 5 years if the interest rate is compounded monthly?</p></statement>
-<answer><m>12.9%</m></answer></exercise>
+<answer><p><m>12.9%</m></p></answer></exercise>
 
 <exercise number="28"><statement><p>What rate of interest is required so that $400 will yield $600 after 3 years if the interest rate is compounded quarterly?</p></statement></exercise>
 

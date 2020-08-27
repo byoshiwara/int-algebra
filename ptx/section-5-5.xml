@@ -128,7 +128,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
             <md><mrow>\alert{10} \amp =\dfrac{k}{\alert{12}} \amp \amp \blert{\text{Solve for}~k.}</mrow>
                 <mrow>k \amp = 10 \cdot 12 = 120</mrow></md>
     So the formula is <m>I=\dfrac{120}{R}</m>.</li>
-    <li><p>We use the formula to complete the table.
+    <li><p>We use the formula to complete the table.</p>
         <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
                     <cell><m>R</m></cell>
@@ -143,7 +143,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                     <cell><m>12</m></cell>
                     <cell><m>6</m></cell></row>
             </tabular></sidebyside>
-        A graph of <m>I</m> as a function of <m>R</m> is shown below.</p>
+        <p>A graph of <m>I</m> as a function of <m>R</m> is shown below.</p>
         <sidebyside  width="40%"><image xml:id="fig-example-5-5-1"><description>current vs resistance</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

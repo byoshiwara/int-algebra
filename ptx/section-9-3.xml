@@ -28,7 +28,7 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
 <p>Recall that a circle is the set of all points in a plane that lie at a fixed distance from its center. An ellipse also has a geometric definition.</p>
 
 <definition><title>Ellipse</title><idx>ellipse</idx>
-    <p>An <term>ellipse</term><idx>ellipse</idx> is the set of points in the plane, the sum of whose distances from two fixed points (the <term>foci</term><idx><h>ellipse</h><h>foci</h></idx><idx><h>focus</h><h>of an ellipse</h></idx>) is a constant.</p>
+    <statement><p>An <term>ellipse</term><idx>ellipse</idx> is the set of points in the plane, the sum of whose distances from two fixed points (the <term>foci</term><idx><h>ellipse</h><h>foci</h></idx><idx><h>focus</h><h>of an ellipse</h></idx>) is a constant.</p></statement>
 </definition>
 
 <p>Using the distance formula and the definition above, we can show that the equation of an ellipse centered at the origin has the following standard form.</p>
@@ -370,8 +370,8 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
         ); 
     </pg-code>
     <statement><p>Find the exact coordinates of all points with <m>y</m>-coordinate <m>-1</m> on the ellipse <m>9x^2 + 8y^2 = 16</m>. </p>
-        <instructions><p>Enter "sqrt(2)"  for <m>\sqrt{2}</m>, and separate different points with a comma. </p>
-        </instructions>
+        <instruction>Enter "sqrt(2)"  for <m>\sqrt{2}</m>, and separate different points with a comma.
+        </instruction>
         <p><var name="$answer" width="27"  evaluator="$my_evaluator"/> </p>
     </statement>
     <solution><p><m>\left(\dfrac{2\sqrt{2}}{3}, -1 \right) </m>, <m>\left(\dfrac{-2\sqrt{2}}{3}, -1 \right) </m></p>

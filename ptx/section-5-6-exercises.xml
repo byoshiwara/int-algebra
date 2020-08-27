@@ -19,38 +19,38 @@
     <li>decreasing and concave down</li></ol></p>
 <p>Give your answers in interval notation.</p></introduction>
 
-<exercise number="1"><statement><m>f(x)=x^2</m></statement>
+<exercise number="1"><statement><p><m>f(x)=x^2</m></p></statement>
 <answer><p><ol label="a">
     <li><m>(0, \infty)</m></li>
     <li>none</li>
     <li><m>(-infty, 0)</m></li>
     <li>none</li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><m>f(x)=x^3</m></statement></exercise>
+<exercise number="2"><statement><p><m>f(x)=x^3</m></p></statement></exercise>
 
-<exercise number="3"><statement><m>f(x)=\sqrt{x}</m></statement>
+<exercise number="3"><statement><p><m>f(x)=\sqrt{x}</m></p></statement>
 <answer><p><ol label="a">
     <li>none</li>
     <li><m>(0, \infty)</m></li>
     <li>none</li>
     <li>none</li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><m>f(x)=\sqrt[3]{x}</m></statement></exercise>
+<exercise number="4"><statement><p><m>f(x)=\sqrt[3]{x}</m></p></statement></exercise>
 
-<exercise number="5"><statement><m>f(x)=\dfrac{1}{x}</m></statement>
+<exercise number="5"><statement><p><m>f(x)=\dfrac{1}{x}</m></p></statement>
 <answer><p><ol label="a">
     <li><m>(-infty, 0)</m></li>
     <li>none</li>
     <li><m>(0, \infty)</m></li>
     <li>none</li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><m>f(x)=\dfrac{1}{x^2}</m></statement></exercise>
+<exercise number="6"><statement><p><m>f(x)=\dfrac{1}{x^2}</m></p></statement></exercise>
 </exercisegroup>
 </subexercises>
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="7"><statement><p>The graph defines a function, <m>h</m>, that shows the height, <m>s</m>, in meters, of a duck <m>t</m> seconds after it is flushed out of the bushes.
+<exercise number="7"><statement><p>The graph defines a function, <m>h</m>, that shows the height, <m>s</m>, in meters, of a duck <m>t</m> seconds after it is flushed out of the bushes.</p>
     <sidebyside  width="25%">
         <image xml:id="fig-hw-5-6-7">
         <description>curve</description>
@@ -75,14 +75,14 @@
         </latex-image>
         </image>
     </sidebyside>
-<ol label="a">
+<p><ol label="a">
     <li>Use function notation to state that <m>s</m> is a function of <m>t</m>.</li>
     <li>What does the statement <m>h(3)=7</m> mean in this context?</li></ol></p></statement>
 <answer><p><ol label="a">
     <li> <m>s=h(t)</m></li>
     <li>After 3 seconds, the duck is at a height of 7 meters.</li></ol></p></answer></exercise>
 
-<exercise number="8"><statement><p>The graph defines a function, <m>f</m>, that shows the atmospheric pressure, <m>P</m>, in inches of mercury, at an altitude of <m>a</m> feet.
+<exercise number="8"><statement><p>The graph defines a function, <m>f</m>, that shows the atmospheric pressure, <m>P</m>, in inches of mercury, at an altitude of <m>a</m> feet.</p>
     <sidebyside  width="40%"><image xml:id="fig-hw-5-6-8"><description>line</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -103,7 +103,7 @@
         </latex-image>
         </image>
     </sidebyside>
-<ol label="a">
+<p><ol label="a">
     <li>Use function notation to state that <m>P</m> is a function of <m>a</m>.</li>
     <li>What does the statement <m>f(1500)=28.3</m> mean in this context?</li></ol></p></statement></exercise>
 
@@ -169,8 +169,9 @@
             <cell><m>3</m></cell>
             <cell><m>2</m></cell>
             <cell><m>1.5</m></cell></row>
-    </tabular>    </sidebyside></statement>
-<answer><m>y=\dfrac{k}{x}</m></answer></exercise>
+    </tabular>
+    </sidebyside></statement>
+<answer><p><m>y=\dfrac{k}{x}</m></p></answer></exercise>
 
 <exercise number="12"><statement><sidebyside>
     <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
@@ -570,7 +571,6 @@ area is 24 square feet</p></statement></exercise>
 
 <exercise number="8"><statement><p><m>m</m> is more than <m>0.1</m> unit from <m>8</m>.</p></statement></exercise>
 </exercisegroup>
-<p></p>
 
 <exercise number="9"><statement><p>Graph <m>y = \abs{x + 3}</m>. Use your graph to solve the following equations and inequalities.
     <ol label="a" cols="3">

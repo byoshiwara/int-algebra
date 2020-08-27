@@ -114,17 +114,17 @@
 
 <exercisegroup><introduction><p>In Problems 31-34, evaluate the expression.</p></introduction>
 
-<exercise number="31"><statement><m>k=\dfrac{1}{t}(\log N - \log N_0);~~</m>  for <m>t=2.3,~N=12,000,</m> and <m>N_0 =9000</m></statement>
-<answer>0.054</answer></exercise>
+<exercise number="31"><statement><p><m>k=\dfrac{1}{t}(\log N - \log N_0);~~</m>  for <m>t=2.3,~N=12,000,</m> and <m>N_0 =9000</m></p></statement>
+<answer><p>0.054</p></answer></exercise>
 
-<exercise number="32"><statement><m>P=\dfrac{1}{k} \sqrt{\dfrac{\log N}{t}}:~~</m> for <m>k=0.4,~N=48,</m> and <m>t=12</m></statement>
-<answer>2.959</answer></exercise>
+<exercise number="32"><statement><p><m>P=\dfrac{1}{k} \sqrt{\dfrac{\log N}{t}}:~~</m> for <m>k=0.4,~N=48,</m> and <m>t=12</m></p></statement>
+<answer><p>2.959</p></answer></exercise>
 
-<exercise number="33"><statement><m>h = k \log \left(\dfrac{N}{N-N_0}\right)~~</m> for <m>k=1.2,~N=6400,</m> and <m>N_0 =2000</m></statement>
-<answer>0.195</answer></exercise>
+<exercise number="33"><statement><p><m>h = k \log \left(\dfrac{N}{N-N_0}\right)~~</m> for <m>k=1.2,~N=6400,</m> and <m>N_0 =2000</m></p></statement>
+<answer><p>0.195</p></answer></exercise>
 
-<exercise number="34"><statement><m>Q = \dfrac{1}{t}\left(\dfrac{\log M}{\log N}\right);~~</m> for <m>t=0.3,~M=180,</m> and <m>N=640</m></statement>
-<answer>2.823</answer></exercise>
+<exercise number="34"><statement><p><m>Q = \dfrac{1}{t}\left(\dfrac{\log M}{\log N}\right);~~</m> for <m>t=0.3,~M=180,</m> and <m>N=640</m></p></statement>
+<answer><p>2.823</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 35-38, write the expression in terms of simpler logarithms. (Assume that all variables and variable expressions denote positive real numbers.)</p></introduction>

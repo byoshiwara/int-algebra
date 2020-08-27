@@ -18,7 +18,7 @@
     <li><m>137</m></li>
     <li><m>0.2</m></li>
     <li><m>1,234,567</m></li></ol></p></statement>
-<answer><p><ol label="a" cosl="4">
+<answer><p><ol label="a" cols="4">
     <li>0 and 1</li>
     <li>2 and 3</li>
     <li><m>-1</m> and 0</li>
@@ -38,7 +38,7 @@
     <li><m>0.7</m></li>
     <li><m>-3.1</m></li>
     <li><m>-0.4</m></li></ol></p></statement>
-<answer><p><ol label="a" cosl="4">
+<answer><p><ol label="a" cols="4">
     <li>3981.1</li>
     <li>5.01</li>
     <li>0.00079</li>
@@ -251,7 +251,7 @@ where <m>L</m> is the luminosity of the star, measured in solar units. Calculate
     <image source="images/fig-hw-7-6-24"><description>stream drainage vs order on semi-log</description></image></sidebyside></statement></exercise>
 
 <exercise number="29"><statement><p>The pH of normal rain is 5.6. Some areas of Ontario have experienced acid rain with a pH of 4.5. How many times more acidic is acid rain than normal rain?</p></statement>
-<answer>12.6</answer></exercise>
+<answer><p>12.6</p></answer></exercise>
 
 <exercise number="30"><statement><p>The pH of normal hair is about 5, the average pH of shampoo is 8, and 4 for conditioner. Compare the acidity of normal hair, shampoo, and conditioner.</p></statement></exercise>
 

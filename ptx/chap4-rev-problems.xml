@@ -7,42 +7,42 @@
 <exercisegroup cols="2">
     <introduction><p>For Problems 1<ndash/>4, solve by using the quadratic formula.</p></introduction>
 
-<exercise number="1"><statement><m>\dfrac{1}{2}x^2+1=\dfrac{3}{2}x</m></statement>
-    <answer><m>1,~2</m></answer></exercise>
+<exercise number="1"><statement><p><m>\dfrac{1}{2}x^2+1=\dfrac{3}{2}x</m></p></statement>
+    <answer><p><m>1,~2</m></p></answer></exercise>
 
-<exercise number="2"><statement><m>x^2-3x+1=0</m></statement>
-    <answer><m>\dfrac{3 \pm \sqrt{5}}{2}</m></answer></exercise>
+<exercise number="2"><statement><p><m>x^2-3x+1=0</m></p></statement>
+    <answer><p><m>\dfrac{3 \pm \sqrt{5}}{2}</m></p></answer></exercise>
 
-<exercise number="3"><statement><m>x^2-4x+2=0</m></statement>
-    <answer><m>-\dfrac{4 \pm \sqrt{8}}{2}</m></answer></exercise>
+<exercise number="3"><statement><p><m>x^2-4x+2=0</m></p></statement>
+    <answer><p><m>-\dfrac{4 \pm \sqrt{8}}{2}</m></p></answer></exercise>
 
-<exercise number="4"><statement><m>2x^2+2x=3</m></statement>
-    <answer><m>\dfrac{-2 \pm \sqrt{28}}{4}</m></answer></exercise>
+<exercise number="4"><statement><p><m>2x^2+2x=3</m></p></statement>
+    <answer><p><m>\dfrac{-2 \pm \sqrt{28}}{4}</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2">
     <introduction><p>For Problems 5 and 6, solve the formula for the indicated variable.</p></introduction>
 
-<exercise number="5"><statement><m>h=6t+3t^2,~~</m> for <m>t</m></statement>
-    <answer><m>\dfrac{6 \pm \sqrt{36-12h}}{6}</m></answer></exercise>
+<exercise number="5"><statement><p><m>h=6t+3t^2,~~</m> for <m>t</m></p></statement>
+    <answer><p><m>\dfrac{6 \pm \sqrt{36-12h}}{6}</m></p></answer></exercise>
 
-<exercise number="6"><statement><m>D=\dfrac{n^2-3n}{2},~~</m> for <m>n</m></statement>
-    <answer><m>\dfrac{3 \pm \sqrt{9+8D}}{2}</m></answer></exercise>
+<exercise number="6"><statement><p><m>D=\dfrac{n^2-3n}{2},~~</m> for <m>n</m></p></statement>
+    <answer><p><m>\dfrac{3 \pm \sqrt{9+8D}}{2}</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2">
     <introduction><p>For Problems 7<ndash/>10, use the discriminant to determine the nature of the solutions of the equation.</p></introduction>
 
-<exercise number="7"><statement><m>4x^2-12x+9=0</m></statement>
+<exercise number="7"><statement><p><m>4x^2-12x+9=0</m></p></statement>
     <answer><p>one repeated real solution</p></answer></exercise>
 
-<exercise number="8"><statement><m>2t^2+6t+5=0</m></statement>
+<exercise number="8"><statement><p><m>2t^2+6t+5=0</m></p></statement>
     <answer><p>two complex soutions</p></answer></exercise>
 
-<exercise number="9"><statement><m>2y^2=3y-4</m></statement>
+<exercise number="9"><statement><p><m>2y^2=3y-4</m></p></statement>
     <answer><p>two complex soutions</p></answer></exercise>
 
-<exercise number="10"><statement><m>\dfrac{x^2}{4} = x+\dfrac{5}{4}</m></statement>
+<exercise number="10"><statement><p><m>\dfrac{x^2}{4} = x+\dfrac{5}{4}</m></p></statement>
     <answer><p>two distinct real soutions</p></answer></exercise>
 </exercisegroup>
   
@@ -84,7 +84,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
         <li>Find the coordinates of the vertex and the intercepts.</li>
         <li>Sketch the graph.</li></ol></p></introduction>
     
-<exercise number="13"><statement><m>y=x^2-x-12</m></statement>
+<exercise number="13"><statement><p><m>y=x^2-x-12</m></p></statement>
     <answer><p><ol label="a">
         <li><m>\left(\dfrac{1}{2}, \dfrac{-49}{4}\right)</m>, <m>(-3,0)</m>, <m>(4,0)</m>, <m>(0,-12)</m></li>
         <li><sidebyside  width="60%" margins="0% 0%">
@@ -117,7 +117,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
                 </image>
         </sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="14"><statement><m>y=-2x^2+x-4</m></statement>
+<exercise number="14"><statement><p><m>y=-2x^2+x-4</m></p></statement>
     <answer><p><ol label="a">
         <li><m>\left(\dfrac{1}{4}, \dfrac{-31}{8}\right)</m>, no <m>x</m>-intercepts,<m>~(0,-4)</m></li>
         <li><sidebyside  width="60%" margins="0% 0%">
@@ -148,7 +148,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
                 </image>
         </sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="15"><statement><m>y=-x^2+2x+4</m></statement>
+<exercise number="15"><statement><p><m>y=-x^2+2x+4</m></p></statement>
     <answer><p><ol label="a">
         <li><m>(1,5),~(-1.24,0),~(3.24,0),~(0,4)</m></li>
         <li><sidebyside  width="60%" margins="0% 0%">
@@ -178,7 +178,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
                 </image>
         </sidebyside></li></ol></p></answer></exercise>
 
-<exercise number="16"><statement><m>y=x^2-3x+4</m></statement>
+<exercise number="16"><statement><p><m>y=x^2-3x+4</m></p></statement>
     <answer><p><ol label="a">
         <li><m>\left(\dfrac{3}{2}, \dfrac{7}{4}\right),~</m> no <m>x</m>-intercepts,<m>~(0,4)</m></li>
         <li><sidebyside  width="60%" margins="0% 0%">
@@ -208,7 +208,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
 </exercisegroup> 
 
 <exercise number="17"><statement><p>Find the equation for a parabola whose vertex is <m>(15,-6)</m> and that passes through the point <m>(3,22.8)</m>.</p></statement>
-    <answer><m>y=0.2(x-15)^2-6</m></answer></exercise>
+    <answer><p><m>y=0.2(x-15)^2-6</m></p></answer></exercise>
 
 <exercise number="18"><statement><p><ol label="a">
     <li>Find the vertex of the graph of <m>y=-2(x-1)^2+5</m></li>
@@ -256,9 +256,9 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
 </ol></p></answer></exercise>
 
 <exercise number="23"><statement><p>Find values of <m>a~, b,</m> and <m>c</m> so that the graph of the parabola <m>~y=ax^2+bx+c</m> contains the points <m>(-1,-4),~ (0,-6)~</m> and <m>(4,6)</m>.</p> </statement>
-    <answer><m>a=1,~b=-1,~c=-6</m></answer></exercise>
+    <answer><p><m>a=1,~b=-1,~c=-6</m></p></answer></exercise>
 
-<exercise number="24"><statement><p>Find a parabola that fits the following data points.
+<exercise number="24"><statement><p>Find a parabola that fits the following data points.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -273,10 +273,10 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
                         <cell><m>0</m></cell>
                         <cell><m>-14</m></cell></row>
                     </tabular></sidebyside>
-</p></statement>
-    <answer><m>y=-\dfrac{1}{2}x^2-4x+10</m></answer></exercise>
+</statement>
+    <answer><p><m>y=-\dfrac{1}{2}x^2-4x+10</m></p></answer></exercise>
 
-<exercise number="25"><statement><p>The height of a cannonball was observed at <m>0.2</m>-second intervals after the cannon was fired, and the data recorded in the table below.
+<exercise number="25"><statement><p>The height of a cannonball was observed at <m>0.2</m>-second intervals after the cannon was fired, and the data recorded in the table below.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Time (seconds)</cell>
@@ -302,7 +302,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
                         <cell><m>64.7</m></cell>
                         <cell><m>71.0</m></cell>
                         <cell><m>76.8</m></cell></row>
-                    </tabular></sidebyside> <ol label="a">
+                    </tabular></sidebyside> <p><ol label="a">
     <li>Find the equation of the least-squares regression line for height in terms of time.</li>
     <li>Use the linear regression equation to predict the height of the cannonball at 3 seconds and at 4 seconds after it was fired.</li>
     <li>Make a scatterplot of the data and draw the regression line on the same axes.</li>
@@ -320,7 +320,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
     <li>(graph)</li>  
     <li>quadratic</li></ol></p></answer></exercise>
 
-<exercise number="26"><statement><p>Max took a sequence of photographs of an explosion spaced at equal time intervals. From the photographs he was able to estimate the height and vertical velocity of some debris from the explosion, as shown in the table.  (Negative velocities indicate that the debris is falling back to earth.)
+<exercise number="26"><statement><p>Max took a sequence of photographs of an explosion spaced at equal time intervals. From the photographs he was able to estimate the height and vertical velocity of some debris from the explosion, as shown in the table.  (Negative velocities indicate that the debris is falling back to earth.)</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Velocity (meters/second)</cell>
@@ -338,7 +338,7 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
                         <cell><m>232</m></cell>
                         <cell><m>228</m></cell>
                         <cell><m>185</m></cell></row>
-                    </tabular></sidebyside> <ol label="a">
+                    </tabular></sidebyside> <p><ol label="a">
     <li>Enter the data into your calculator and create a scatterplot. Fit a quadratic regression equation to the data, and graph the equation on the scatterplot.</li>
     <li>Use your regression equation to find the vertex of the parabola. What do the coordinates represent, in terms of the problem? What should the velocity of the debris be at its maximum height?</li></ol></p>
 </statement>
@@ -351,23 +351,23 @@ where <m>t</m> is the time in seconds from launch. Use your calculator to graph 
     <introduction><p>For Problems 27<ndash/>32, solve the inequality algebraically, and give your answers in interval notation. Verify your solutions by graphing.
 </p></introduction>
 
-<exercise number="27"><statement><m>(x-3)(x+2) \gt 0</m></statement>
-    <answer><m>(-\infty,-2) \cup (3,\infty)</m></answer></exercise>
+<exercise number="27"><statement><p><m>(x-3)(x+2) \gt 0</m></p></statement>
+    <answer><p><m>(-\infty,-2) \cup (3,\infty)</m></p></answer></exercise>
 
-<exercise number="28"><statement><m>y^2-y-12 \le 0</m></statement>
-    <answer><m>[-3,4]</m></answer></exercise>
+<exercise number="28"><statement><p><m>y^2-y-12 \le 0</m></p></statement>
+    <answer><p><m>[-3,4]</m></p></answer></exercise>
 
-<exercise number="29"><statement><m>2y^2-y \le 3</m></statement>
-    <answer><m>[-1,\dfrac{3}{2}]</m></answer></exercise>
+<exercise number="29"><statement><p><m>2y^2-y \le 3</m></p></statement>
+    <answer><p><m>[-1,\dfrac{3}{2}]</m></p></answer></exercise>
 
-<exercise number="30"><statement><m>3z^2-5z \gt 2</m></statement>
-    <answer><m>(-\infty,-\dfrac{1}{3}) \cup (2,\infty)</m></answer></exercise>
+<exercise number="30"><statement><p><m>3z^2-5z \gt 2</m></p></statement>
+    <answer><p><m>(-\infty,-\dfrac{1}{3}) \cup (2,\infty)</m></p></answer></exercise>
 
-<exercise number="31"><statement><m>s^2 \le 4</m></statement>
-    <answer><m>[-2,2]</m> </answer></exercise>
+<exercise number="31"><statement><p><m>s^2 \le 4</m></p></statement>
+    <answer><p><m>[-2,2]</m> </p></answer></exercise>
 
-<exercise number="32"><statement><m>4t^2 \gt 12</m></statement>
-    <answer><m>(-\infty,-\sqrt{3}) \cup (\sqrt{3},\infty)</m></answer></exercise>
+<exercise number="32"><statement><p><m>4t^2 \gt 12</m></p></statement>
+    <answer><p><m>(-\infty,-\sqrt{3}) \cup (\sqrt{3},\infty)</m></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="33"><statement><p>The Sub Station sells <m>~220-\dfrac{1}{4}p~</m> submarine sandwiches at lunchtime if it sells them at <m>p</m> cents each.  <ol label="a">

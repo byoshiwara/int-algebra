@@ -410,7 +410,7 @@ How many parkas should the company produce and sell each month if it must keep t
     <webwork><pg-code>       
             $nosol = RadioButtons(
               ["A) Panic",
-              "B) Use the <m>y</m>-intercept instead",
+              "B) Use the\(y\)-intercept instead",
               "C) Use the quadratic formula",
               "D) Go on to the next problem"],
               2, 

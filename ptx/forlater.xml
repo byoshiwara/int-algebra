@@ -415,7 +415,7 @@ Answer to Hmwk 3.3 #14:
             </image>
         </sidebyside></p></answer>
 
-<exercise number="11"><statement><m>y=225-x^2</m></statement>
+<exercise number="11"><statement><p><m>y=225-x^2</m></p></statement>
     <answer><p><m>(-15,0), (15,0); (0,255)</m></p>
         <sidebyside width="35%" margins="0% 50%">
             <image xml:id="fig-hw-3-3-11ans">

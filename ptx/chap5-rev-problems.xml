@@ -183,16 +183,16 @@ where <m>v</m> represents the boat's top speed in miles per hour. Evaluate <m>H(
 
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>22, graph the function by hand.</p></introduction>
 
-<exercise number="19"><statement><m>f(t)=-2t+4</m></statement>
+<exercise number="19"><statement><p><m>f(t)=-2t+4</m></p></statement>
     <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer></exercise>
 
-<exercise number="20"><statement><m>g(s)=\dfrac{-2}{3}s-2</m></statement>
+<exercise number="20"><statement><p><m>g(s)=\dfrac{-2}{3}s-2</m></p></statement>
     <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer></exercise>
 
-<exercise number="21"><statement><m>p(x)=9-x^2</m></statement>
+<exercise number="21"><statement><p><m>p(x)=9-x^2</m></p></statement>
     <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer></exercise>
 
-<exercise number="22"><statement><m>q(x)=x^2-16</m></statement>
+<exercise number="22"><statement><p><m>q(x)=x^2-16</m></p></statement>
     <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer></exercise>
 </exercisegroup>
 

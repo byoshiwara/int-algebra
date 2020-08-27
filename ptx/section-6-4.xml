@@ -89,7 +89,7 @@ but <m>4.762</m>  is not the <em>exact</em> value for <m>\sqrt[3]{108}</m>.</p>
 <statement><p>Simplify <m>\sqrt[4]{80}</m></p>
         <p><var name="$a" form="buttons"/></p>
     </statement>
-    <solution><m>\sqrt[4]{80}=\sqrt[4]{16\cdot5}=\sqrt[4]{16}\sqrt[4]{5}=2\sqrt[4]{5}</m></solution>
+    <solution><p><m>\sqrt[4]{80}=\sqrt[4]{16\cdot5}=\sqrt[4]{16}\sqrt[4]{5}=2\sqrt[4]{5}</m></p></solution>
 </webwork>
 </exercise>
 
@@ -121,7 +121,7 @@ but <m>4.762</m>  is not the <em>exact</em> value for <m>\sqrt[3]{108}</m>.</p>
 <statement><p>Simplify <m>\sqrt[4]{a^{15}}</m></p>
         <p><var name="$a" form="buttons"/></p>
     </statement>
-    <solution><m>\sqrt[4]{a^{15}}=\sqrt[4]{a^{12}\cdot a^3}=\sqrt[4]{a^{12}}\sqrt[4]{a^3}=a^3\sqrt[4]{a^3}</m></solution>
+    <solution><p><m>\sqrt[4]{a^{15}}=\sqrt[4]{a^{12}\cdot a^3}=\sqrt[4]{a^{12}}\sqrt[4]{a^3}=a^3\sqrt[4]{a^3}</m></p></solution>
 </webwork>
 </exercise>
 
@@ -162,7 +162,7 @@ but <m>4.762</m>  is not the <em>exact</em> value for <m>\sqrt[3]{108}</m>.</p>
             Take cube roots. 
         </instruction>
     </statement>
-    <solution><m>\sqrt[3]{250b^7}=\sqrt[3]{125b^6\cdot 2b}=\sqrt[3]{125b^6}\sqrt[3]{2b}=5b^2\sqrt[3]{2b}</m></solution>
+    <solution><p><m>\sqrt[3]{250b^7}=\sqrt[3]{125b^6\cdot 2b}=\sqrt[3]{125b^6}\sqrt[3]{2b}=5b^2\sqrt[3]{2b}</m></p></solution>
 </webwork>
 </exercise>
 
@@ -246,7 +246,7 @@ So we may add like radicals by adding their coefficients. The same idea applies 
             Note: Enter "root(3,7x)" for <m>\sqrt[3]{7x}</m>.
         </instruction>
     </statement>
-    <solution><m>12\sqrt[3]{5b}</m></solution>
+    <solution><p><m>12\sqrt[3]{5b}</m></p></solution>
 </webwork></exercise>
 
 <exercise><title>QuickCheck 3</title>
@@ -299,10 +299,9 @@ So we may add like radicals by adding their coefficients. The same idea applies 
             Note: Enter "sqrt(7x)" for <m>\sqrt{7x}</m>.
         </instruction>
 </statement>
-    <solution><m>2\sqrt{3x}-10\sqrt{2x}</m></solution>
+    <solution><p><m>2\sqrt{3x}-10\sqrt{2x}</m></p></solution>
 </webwork>
-<statement><p>Simplify <m>~</m></p></statement>
-<answer><m>2\sqrt{3x}-10\sqrt{2x}</m></answer></exercise>
+</exercise>
 
 </subsection>
 
@@ -521,7 +520,8 @@ The denominator of the fraction no longer contains any radicals—it has been ra
      <li><p>To rationalize a binomial denominator, we multiply by its <var name="$conjugate" form="popup"/>.</p></li>
     <li><p>Before rationalizing, it is always best to <var name="$simplify" form="popup"/>.</p></li>
     <li><p> <m>\dfrac{5}{\sqrt{5}} =</m>  <var name="$ans" width="5"/> power.</p>
-                    <instruction>Enter "sqrt(2)" to get <m>\sqrt{2}</m></instruction></li></ol></p>
+                    </li></ol></p>
+                    <instruction>Enter "sqrt(2)" to get <m>\sqrt{2}</m></instruction>
     </statement>
     <solution><p><ol label="a">
         <li>radicals</li>

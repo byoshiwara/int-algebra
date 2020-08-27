@@ -33,21 +33,21 @@
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>10, solve. Round your answers to two places if necessary.</p>
 </introduction>
 
-<exercise number="5"><statement><m>768 = 12b^3</m></statement>
-<answer>4</answer></exercise>
+<exercise number="5"><statement><p><m>768 = 12b^3</m></p></statement>
+<answer><p>4</p></answer></exercise>
 
-<exercise number="6"><statement><m>1875 = 3b^4</m></statement>
+<exercise number="6"><statement><p><m>1875 = 3b^4</m></p></statement>
 </exercise>
 
-<exercise number="7"><statement><m>14,929.92 = 5000b^6</m></statement>
-<answer><m>\pm 1.2</m></answer></exercise>
+<exercise number="7"><statement><p><m>14,929.92 = 5000b^6</m></p></statement>
+<answer><p><m>\pm 1.2</m></p></answer></exercise>
 
-<exercise number="8"><statement><m>151,875 = 20,000b^5</m></statement></exercise>
+<exercise number="8"><statement><p><m>151,875 = 20,000b^5</m></p></statement></exercise>
    
-<exercise number="9"><statement><m>1253 = 260(1+r)^{12}</m></statement>
-<answer><m>-2.14</m>; <m>0.14</m></answer></exercise>
+<exercise number="9"><statement><p><m>1253 = 260(1+r)^{12}</m></p></statement>
+<answer><p><m>-2.14</m>; <m>0.14</m></p></answer></exercise>
 
-<exercise number="10"><statement><m>56.27 = 78(1-r)^8</m></statement></exercise>
+<exercise number="10"><statement><p><m>56.27 = 78(1-r)^8</m></p></statement></exercise>
 </exercisegroup>
 </subexercises>
 
@@ -105,7 +105,7 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
                     </tabular></sidebyside></statement>
-<answer>20%, 2%, 7.5%, 100%, 115%</answer></exercise>
+<answer><p>20%, 2%, 7.5%, 100%, 115%</p></answer></exercise>
 
 <exercise number="16"><statement><p>The table shows the decay factor for a number of different populations.  For each population, find the percent decay rate.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              

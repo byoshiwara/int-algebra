@@ -99,7 +99,7 @@
 
 <exercisegroup cols="2"><introduction><p> For Problems 11<ndash/>16, sketch the graph of the function by hand, paying attention to the shape of the graph. Carefully plot at least three “guide points” to ensure accuracy. If possible, plot the points with x-coordinates <m>-1, ~0,</m> and <m>1</m>.</p></introduction>
 
-<exercise number="11"><statement><m>f(x)=x^3</m>
+<exercise number="11"><statement><p><m>f(x)=x^3</m></p>
     <sidebyside width="70%">
         <image xml:id="fig-x-cubed-grid">
         <description>grid</description>
@@ -151,7 +151,7 @@
     </sidebyside>
 </answer></exercise>
 
-<exercise number="12"><statement><m>f(x)=\abs{x}</m>
+<exercise number="12"><statement><p><m>f(x)=\abs{x}</m></p>
     <sidebyside width="70%">
         <image xml:id="fig-abs-x-grid">
         <description>grid</description>
@@ -380,7 +380,7 @@
     <li><m>f(x)=x^3</m></li>
     <li><m>g(x)=x^3-2</m></li>
     <li><m>h(x)=x^3+1</m></li></ol></p></statement>
-<answer>(b): 2 units down, (c): 1 unit up</answer></exercise>
+<answer><p>(b): 2 units down, (c): 1 unit up</p></answer></exercise>
 
 <exercise number="22"><statement><p><ol label="a">
     <li><m>f(x)=\abs{x}</m></li>
@@ -391,7 +391,7 @@
     <li><m>f(x)=\dfrac{1}{x}</m></li>
     <li><m>g(x)=\dfrac{1}{x+1.5}</m></li>
     <li><m>h(x)=\dfrac{1}{x-1}</m></li></ol></p></statement>
-<answer>(b): 1.5 units left, (c): 1 unit right</answer></exercise>
+<answer><p>(b): 1.5 units left, (c): 1 unit right</p></answer></exercise>
 
 <exercise number="24"><statement><p><ol label="a">
     <li><m>f(x)=\dfrac{1}{x^2}</m></li>
@@ -402,7 +402,7 @@
     <li><m>f(x)=\sqrt{x}</m></li>
     <li><m>g(x)=-\sqrt{x}</m></li>
     <li><m>h(x)=\sqrt{-x}</m></li></ol></p></statement>
-<answer>(b): reflected about <m>x</m>-axis, (c): reflected about <m>y</m>-axis</answer></exercise>
+<answer><p>(b): reflected about <m>x</m>-axis, (c): reflected about <m>y</m>-axis</p></answer></exercise>
 
 <exercise number="26"><statement><p><ol label="a">
     <li><m>f(x)=\sqrt[3]{x}</m></li>
@@ -762,7 +762,14 @@
         </image>
     </sidebyside></li>
 </ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+    <li><p>horizontal shift of square root <m>y=\sqrt{x}</m></p></li>
+    <li><p>vertical shift of cube root <m>y=\sqrt[3]{x}</m></p></li>
+    <li><p>vertical shift of absolute value <m>y=\abs{x}</m></p></li>
+    <li><p>vertical flip of reciprocal <m>y=\dfrac{1}{x}</m></p></li>
+    <li><p>vertical flip and vertical shift of cube <m>y=x^3</m></p></li>
+    <li><p>vertical flip and vertical shift of inverse-square <m>y=\dfrac{1}{x^2} </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="30"><statement><p><ol label="a" cols="2">
     <li><sidebyside width="80%"><image xml:id="fig-transformed-cube-rt">

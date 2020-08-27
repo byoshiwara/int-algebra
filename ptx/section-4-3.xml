@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
 
 <section xml:id="CurveFitting"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Curve Fitting</title><idx>curve fitting</idx>
@@ -249,7 +248,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
                <cell><m>63.6</m></cell>
             </row>
         </tabular></sidebyside>     
-        <ol label="a">
+        <p><ol label="a">
             <li><p>
                 Use the values for 1987 through 1989 to fit a quadratic equation to the data, <m>~C=at^2+bt+c,~</m> where <m>t</m> is measured in years since 1985.
             </p>
@@ -263,7 +262,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
             <li><p>
                 Sketch the graph of your equation and the given data. Does your model provide a good fit for the data?
             </p></li>
-        </ol>
+        </ol></p>
     </statement>
     <solution>
         <p><ol label="a">
@@ -526,5 +525,4 @@ From either the graph of the regression equation or from the table (see figure b
 </subsection>
 
 <xi:include href="./section-4-3-exercises.xml" /> <!-- exercises  -->
-</section> 
-<!-- </book>  </mathbook> -->
+</section>

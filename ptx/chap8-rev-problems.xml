@@ -6,18 +6,18 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 1 and 2, multiply.</p></introduction>
 
-<exercise number="1"><statement><m>(2x-5)(x^2-3x+2)</m></statement>
-    <answer><m>2x^3-11x^2+19x-10</m></answer></exercise>
+<exercise number="1"><statement><p><m>(2x-5)(x^2-3x+2)</m></p></statement>
+    <answer><p><m>2x^3-11x^2+19x-10</m></p></answer></exercise>
 
-<exercise number="2"><statement><m>(b^2-2b-3)(2b^2+b-5)</m></statement></exercise>
+<exercise number="2"><statement><p><m>(b^2-2b-3)(2b^2+b-5)</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 3 and 4, factor.</p></introduction>
 
-<exercise number="3"><statement><m>8x^3-27z^3</m></statement>
-    <answer><m>(2x-3z)(4x^2+6xz+9z^2)</m></answer></exercise>
+<exercise number="3"><statement><p><m>8x^3-27z^3</m></p></statement>
+    <answer><p><m>(2x-3z)(4x^2+6xz+9z^2)</m></p></answer></exercise>
 
-<exercise number="4"><statement><m>1+125a^3b^3</m></statement></exercise>
+<exercise number="4"><statement><p><m>1+125a^3b^3</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="5"><statement><p>The expression <m>\dfrac{n}{6 }(n - 1)(n - 2)</m> gives the number of different 3-item pizzas that can be created from a list of <m>n</m> toppings.<ol label="a">
@@ -38,7 +38,7 @@
     </ol></p></statement></exercise>
 
 <exercise number="7"><statement><p>The radius, <m>r</m>, of a cylindrical can should be one-half its height, <m>h</m>.
-<ol label="a">>
+<ol label="a">
         <li><p>Express the volume, <m>V</m>, of the can as a function of its height.</p></li>
         <li><p>What is the volume of the can if its height is 2 centimeters? 4 centimeters?</p></li>
         <li><p>Graph the volume as a function of the height and verify your results of part (b) graphically. What is the approximate height of the can if its volume is 100 cubic centimeters?</p></li>
@@ -166,18 +166,18 @@
 <exercisegroup cols="2"><introduction><p>For Problems 31<ndash/>36, write the expression as a single fraction in lowest terms.
 </p></introduction>
 
-<exercise number="31"><statement><m>\dfrac{x+2}{3x} - \dfrac{x-4}{3x}</m></statement>
-<answer>\dfrac{2}{x}</answer></exercise>
+<exercise number="31"><statement><p><m>\dfrac{x+2}{3x} - \dfrac{x-4}{3x}</m></p></statement>
+<answer><p><m>\dfrac{2}{x}</m></p></answer></exercise>
 
-<exercise number="32"><statement><m>\dfrac{5}{6}b - \dfrac{1}{3}b + \dfrac{3}{4}b</m></statement>/exercise>
+<exercise number="32"><statement><p><m>\dfrac{5}{6}b - \dfrac{1}{3}b + \dfrac{3}{4}b</m></p></statement></exercise>
 
-<exercise number="33"><statement><m>\dfrac{3}{2x-6} - \dfrac{4}{x^2-9}</m></statement>
-<answer>\dfrac{3x+1}{2(x-3)(x+3)}</answer></exercise>
+<exercise number="33"><statement><p><m>\dfrac{3}{2x-6} - \dfrac{4}{x^2-9}</m></p></statement>
+<answer><p><m>\dfrac{3x+1}{2(x-3)(x+3)}</m></p></answer></exercise>
 
-<exercise number="34"><statement><m>\dfrac{1}{y^2+4y+4} + \dfrac{3}{y^2-4}</m></statement></exercise>
+<exercise number="34"><statement><p><m>\dfrac{1}{y^2+4y+4} + \dfrac{3}{y^2-4}</m></p></statement></exercise>
 
-<exercise number="35"><statement><p><m>\dfrac{2a+1}{a-3} - \dfrac{-2}{a^2-4a+3}</m></p></statement></exercise>
-<answer><m>\dfrac{2a^2-a+1}{(a-3)(a-1{})}</m></answer></exercise>
+<exercise number="35"><statement><p><m>\dfrac{2a+1}{a-3} - \dfrac{-2}{a^2-4a+3}</m></p></statement>
+<answer><p><m>\dfrac{2a^2-a+1}{(a-3)(a-1{})}</m></p></answer></exercise>
 
 <exercise number="36"><statement><p><m>a - \dfrac{1}{a^2+2a+1} + \dfrac{3}{a^2-1}</m></p></statement></exercise>
 </exercisegroup>
@@ -228,17 +228,17 @@
 <exercise number="49"><statement><p><m>x^{-3}+y^{-1}</m></p></statement>
 <answer><p><m>\dfrac{x^3+y}{x^3y}</m></p></answer></exercise>
 
-<exercise number="50"><statement><m>\dfrac{x^{-1}}{y}-\dfrac{x}{y^{-1}}</m></statement></exercise>
+<exercise number="50"><statement><p><m>\dfrac{x^{-1}}{y}-\dfrac{x}{y^{-1}}</m></p></statement></exercise>
 
-<exercise number="51"><statement><m>\dfrac{x^{-1}-y}{x-y^{-1}}</m></statement>
-<answer><m>\dfrac{1-x^2y^2}{xy}</m></answer></exercise>
+<exercise number="51"><statement><p><m>\dfrac{x^{-1}-y}{x-y^{-1}}</m></p></statement>
+<answer><p><m>\dfrac{1-x^2y^2}{xy}</m></p></answer></exercise>
 
-<exercise number="52"><statement><m>\dfrac{x^{-1}+y^{-1}}{x^{-1}}</m></statement></exercise>
+<exercise number="52"><statement><p><m>\dfrac{x^{-1}+y^{-1}}{x^{-1}}</m></p></statement></exercise>
 
-<exercise number="53"><statement><m>\dfrac{x^{-1}-y^{-1}}{(x-y)^{-1}}</m></statement>
-    <answer><m>\dfrac{-(x-y)^2}{xy}</m></answer></exercise>
+<exercise number="53"><statement><p><m>\dfrac{x^{-1}-y^{-1}}{(x-y)^{-1}}</m></p></statement>
+    <answer><p><m>\dfrac{-(x-y)^2}{xy}</m></p></answer></exercise>
 
-<exercise number="54"><statement><m>\dfrac{(xy)^{-1}}{x^{-1}-y^{-1}}</m></statement></exercise>
+<exercise number="54"><statement><p><m>\dfrac{(xy)^{-1}}{x^{-1}-y^{-1}}</m></p></statement></exercise>
 </exercisegroup>
 
 

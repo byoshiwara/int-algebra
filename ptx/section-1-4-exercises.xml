@@ -112,7 +112,7 @@
 <exercise number="16"><statement><p><m>\dfrac{x}{7}-\dfrac{y}{4}=1 </m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="17"><statement>Residential staircaises are usutally built with a slope of 70%, or <m>\dfrac{7}{10}</m>. If the vertical distance between stories is 10 feet, how much horizontal space does the staircase require?</statement>
+<exercise number="17"><statement><p>Residential staircaises are usutally built with a slope of 70%, or <m>\dfrac{7}{10}</m>. If the vertical distance between stories is 10 feet, how much horizontal space does the staircase require?</p></statement>
 <answer><p>14.29 ft</p></answer></exercise>
 
 <exercise number="18"><statement><p>A line has slope <m>m=\dfrac{-4}{5} </m> . Use the equation <m>m=\dfrac{\Delta y}{\Delta x} </m> to find the horizontal or vertical change along the line.<ol label="a" cols="2">
@@ -164,7 +164,7 @@
                             <cell><m>6</m></cell>
                             <cell><m>36</m></cell></row>
                     </tabular></sidebyside></li></ol></p></statement>
-<answer>(a)</answer></exercise>
+<answer><p>(a)</p></answer></exercise>
 
 <exercise number="20"><statement><p><ol label="a" cols="2">
    <li><sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
@@ -450,9 +450,9 @@
 <p><ol label="a">    
     <li>Why do you think the graph is plotted with distance as the independent variable?</li>
     <li>Use the graph to calculate the speed of the wave.</li></ol></p></statement>
-<answer><ol label="a">
+<answer><p><ol label="a">
     <li>The distances to the stations are known.</li>
-    <li>5.7 km/sec</li></ol></answer></exercise>
+    <li>5.7 km/sec</li></ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>Niagara Falls was discovered by Father Louis Hennepin in 1682. In 1952, much of the water of the Niagara River was diverted for hydroelectric power, but until that time erosion caused the Falls to recede upstream by 3 feet per year.<ol label="a">
         <li><p>How far did the Falls recede from 1682 to 1952?</p></li>

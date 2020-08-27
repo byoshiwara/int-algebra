@@ -443,7 +443,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
 
 <example><statement><p><ol label="a">
     <li>A diamond weighing one-quarter carat has diameter about 4.05 millimeters. Find the constant of proportionality, <m>k</m>, and write a formula for <m>D</m> as a function of <m>w</m>.</li>
-    <li><p>Complete the table with the diameters of diamonds of various weights. 
+    <li><p>Complete the table with the diameters of diamonds of various weights.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>w~</m> (carats)</cell>
@@ -467,7 +467,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
                         <cell><m>~~~</m></cell>
                         <cell><m>~~~</m></cell>
                         <cell><m>~~~</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></sidebyside></li>
     <li>Sketch a graph of the function <m>D=f(w)</m>.</li>
     <li>What is the diameter of the Hope Diamond, which weighs 45.52 carats and is worth $300 million?</li></ol></p>
 </statement>
@@ -477,7 +477,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
         <md><mrow>\alert{4.05} \amp = k(\alert{0.25})^{1/3}</mrow>
             <mrow>k \amp = \dfrac{4.05}{0.25^{1/3}} = 6.429</mrow></md>
     Rounded to tenths, <m>k=6.4</m>, and <m>D=6.4w^{1/3}</m>.</li>
-    <li><p>We evaluate the function for each of the weights given in the table. The diameters are rounded to tenths of a millimeter. 
+    <li><p>We evaluate the function for each of the weights given in the table. The diameters are rounded to tenths of a millimeter. </p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>w~</m> (carats)</cell>
@@ -501,8 +501,8 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
                         <cell><m>8.1</m></cell>
                         <cell><m>8.7</m></cell>
                         <cell><m>9.2</m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li>We plot the points from the table and draw a smooth curve to obtain the graph shown.
+                    </tabular></sidebyside></li>
+    <li><p>We plot the points from the table and draw a smooth curve to obtain the graph shown.</p>
         <sidebyside  width="45%"><image xml:id="fig-example-diamond"><description>diameter vs carats</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -522,9 +522,9 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
                 \node[above, text=red, fill=white, inner sep=2] at (2.3,3) {$D=6.4 w^{1/3}$};
                 \end{tikzpicture}]]>
                 </latex-image></image></sidebyside></li>
-    <li>We evaluate the function for <m>w=45.52</m> to obtain
+    <li><p>We evaluate the function for <m>w=45.52</m> to obtain
         <me>D=6.4(45.52)^{1/3} = 22.85</me>
-     According to our formula, the Hope Diamond is about 22.85 millimeters in diameter.</li></ol></p>
+     According to our formula, the Hope Diamond is about 22.85 millimeters in diameter.</p></li></ol></p>
 </solution></example>
 
 <p>Of course, power functions can be expressed using any of the notations we have discussed. For example, the function in the Example above can be written as

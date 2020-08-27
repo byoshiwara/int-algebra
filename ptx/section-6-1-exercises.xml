@@ -149,13 +149,13 @@
 
 <exercisegroup><introduction><p>For Problems 15<ndash/>17, solve.</p></introduction>
     
-<exercise number="15"><statement><m>6x^{-2}=3.84</m></statement>
-<answer><m>1.25</m></answer></exercise>
+<exercise number="15"><statement><p><m>6x^{-2}=3.84</m></p></statement>
+<answer><p><m>1.25</m></p></answer></exercise>
 
-<exercise number="16"><statement><m>12+0.04t^{-3}=175.84</m></statement></exercise>
+<exercise number="16"><statement><p><m>12+0.04t^{-3}=175.84</m></p></statement></exercise>
 
-<exercise number="17"><statement><m>100-0.15v^{-4}=6.25</m></statement>
-<answer><m>0.2</m></answer></exercise>
+<exercise number="17"><statement><p><m>100-0.15v^{-4}=6.25</m></p></statement>
+<answer><p><m>0.2</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 18<ndash/>20, use the laws of exponents to simplify and write without negative exponents.</p></introduction>
@@ -287,7 +287,7 @@
                     <cell><m>0.0042</m></cell>
                     <cell><m>0.0012 </m></cell></row></tabular></sidebyside></li>
     <li><p>they decrease</p></li>
-    <li><p><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>x</m></cell>
                     <cell><m>1.5</m></cell>
                     <cell><m>0.6</m></cell>
@@ -299,7 +299,7 @@
                     <cell><m>4.63</m></cell>
                     <cell><m>1000</m></cell>
                     <cell><m>37,037</m></cell>
-                    <cell><m>125 \times 10^6</m></cell></row></tabular></sidebyside></p></li>
+                    <cell><m>125 \times 10^6</m></cell></row></tabular></sidebyside></li>
     <li><p>they increase</p></li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p><ol>
@@ -365,7 +365,8 @@
                     <cell><m>4.5</m></cell></row>
         </tabular><image source="images/fig-hw-6-1-27"><description>power function</description></image></sidebyside></li>
         <li><p>Why are the f-stop settings labeled with the values given in the table?</p>
-        <hint><p>As you stop down the aperture from one f-value to the next, by what factor does <m>d</m> increase?</p></hint></li></ol></p></statement>
+        </li></ol></p></statement>
+        <hint><p>As you stop down the aperture from one f-value to the next, by what factor does <m>d</m> increase?</p></hint>
 <answer><p><ol label="a">
     <li><m>d=50f^{-1}</m></li>
     <li>The are of the aperture decreases by a factor of 0.5 at each <m>f</m>-stop.</li></ol></p>

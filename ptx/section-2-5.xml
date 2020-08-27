@@ -6,7 +6,7 @@
 
 <subsection><title>Graphs of Inequalities in Two Variables</title>
 
-<definition><p>A <term>solution</term><idx>solution</idx> to an inequality in two variables is an ordered pair of numbers that satisfies the inequality.</p></definition>
+<definition><statement><p>A <term>solution</term><idx>solution</idx> to an inequality in two variables is an ordered pair of numbers that satisfies the inequality.</p></statement></definition>
 
 <example><statement><p>Find a solution to the inequality <m>x + y \ge 10,000</m> for <m>x = 2000</m></p></statement>
     
