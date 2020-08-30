@@ -54,7 +54,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <p>Note that there can be only one value of <m>C</m> for each value of <m>t</m>. We say that "<m>C</m> is a <term>function</term> of <m>t</m>." </p>
 
 <definition><title>Definition of Function</title>
-    <p>A <term>function</term><idx>function</idx> is a relationship between two variables for which a exactly one value of the <term>output</term><idx><h>function</h><h>output variable</h></idx><idx><h>output variable</h><see>function</see></idx> variable is determined by each value of the <term>input</term><idx><h>function</h><h>input variable</h></idx><idx><h>input variable</h><see>function</see></idx> variable.</p>
+    <statement><p>A <term>function</term><idx>function</idx> is a relationship between two variables for which a exactly one value of the <term>output</term><idx><h>function</h><h>output variable</h></idx><idx><h>output variable</h><see>function</see></idx> variable is determined by each value of the <term>input</term><idx><h>function</h><h>input variable</h></idx><idx><h>input variable</h><see>function</see></idx> variable.</p></statement>
 </definition>
 
 <exercise><title>QuickCheck 1</title>
@@ -107,13 +107,13 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             );
         </pg-code>
 
-    <statement><ol label="a">
+    <statement><p><ol label="a">
         <li><p>As part of a project to improve the success rate of freshmen, the counseling department studied the grades earned by a group of students in English and algebra. Do you think that a student's grade in algebra is a function of his or her grade in English? <var name="$YNgrade" form="popup"/></p>
         <p>Explain why or why not.</p>
         <p><var name="$WHYgrade" form="buttons"/></p></li>
         <li><p>Phatburger features a soda bar, where you can serve your own soft drinks in any size. Do you think that the number of calories in a serving of Zap Kola is a function of the number of fluid ounces? <var name="$YNcalories" form="popup"/></p>
         <p>Explain why or why not.</p>
-        <p><var name="$WHYcalories" form="buttons"/></p></li></ol>
+        <p><var name="$WHYcalories" form="buttons"/></p></li></ol></p>
     </statement>
 
     <solution><p><ol label="a">

@@ -667,7 +667,7 @@
     <li><p><m>-46\degree\text{F}</m>; <m>108\degree\text{F}</m></p></li>
     <li><p><m>-71\degree\text{F}</m></p></li></ol></p></answer></exercise>
    
-<exercisegroup cols="2"><introduction>For Problems 28 and 29, find an equation for the line passing through the two givenpoints.</introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 28 and 29, find an equation for the line passing through the two givenpoints.</p></introduction>
 
 <exercise number="28"><statement><p><m>(3,-5) </m>, <m>~(-2,4) </m></p></statement>
 <answer><p><m>y=\dfrac{-9}{5}x+\dfrac{2}{5} </m></p></answer></exercise>

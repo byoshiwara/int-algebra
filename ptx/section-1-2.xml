@@ -8,8 +8,8 @@
 <p>In this section we review some techniques and terminology related to equations, inequalities, and their graphs.</p>
 
 <definition><title>Solution</title>
-    <p>A <term>solution</term><idx><h>solution</h><h>to an equation in one variable</h></idx> of an equation is a value of the variable that makes the equation true.
-</p></definition>
+    <statement><p>A <term>solution</term><idx><h>solution</h><h>to an equation in one variable</h></idx> of an equation is a value of the variable that makes the equation true.
+</p></statement></definition>
 
 <p>For example, <m>x = \alert{−2}</m> is a solution of the equation
     <md><mrow>4x^3 + 5x^2 -8x = 4</mrow></md>
@@ -258,7 +258,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
 <subsection><title>What is the Graph of an Equation?</title>
 
 <definition><title>Graph</title><idx>graph</idx>
-    <p>The <term>graph</term><idx>graph</idx> of an equation in two variables is just a picture of all its solutions.</p>
+    <statement><p>The <term>graph</term><idx>graph</idx> of an equation in two variables is just a picture of all its solutions.</p></statement>
 </definition>
 
 <p>You might think it would be difficult to find <em>all</em> the solutions of an equation, but for a linear equation <m>Ax + By = C</m>, we can at least illustrate the solutions: all the solutions lie on a straight line. (Later on we can prove that this is true.)</p>
@@ -532,7 +532,7 @@ Note that the equation now has the form of the linear models we saw in the last 
 <statement><p>Solve for <m>y</m> in terms of <m>x</m>:  <m>\quad 10y-15x=6</m></p>
         <p><m>y=</m><var name="$f" width="10"/></p>
 </statement>
-<solution><m>y = 1.5x + 0.6</m></solution>
+<solution><p><m>y = 1.5x + 0.6</m></p></solution>
 </webwork></exercise>
 
  <p>Now we are ready to graph an equation with technology. On most calculators, we follow three steps.</p>
@@ -622,7 +622,7 @@ Note that the equation now has the form of the linear models we saw in the last 
         Context("Point");
         $answer = Point("(-2.5,-122)");
     </pg-code>
-    <statement><ol label="a">
+    <statement><p><ol label="a">
             <li><p>Graph the equation <m>y=32x-42</m> in the window:</p>
                 <sidebyside><tabular>
                 <row>
@@ -637,7 +637,7 @@ Note that the equation now has the form of the linear models we saw in the last 
             <li><p>Use the Trace feature to find the point that has <m>y</m>-coordinate <m>-122</m>.</p>
                 <p><var name="$answer" width="8"/> Enter an ordered pair.</p></li>
             <li><p>Verify your answer algebraically by substituting your <m>x</m>-value into the equation.</p></li>
-        </ol></statement>
+        </ol></p></statement>
     <solution><p><ol label="a">
             <li><p>A graph is below.</p></li>
             <li><p><m>(-2.5,-122) </m></p></li>

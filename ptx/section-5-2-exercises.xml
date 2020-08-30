@@ -241,14 +241,14 @@
 
 <exercise number="7"><statement><p><m>g(x)=x^3+4</m></p>
 <p><m>x = -2, -1, \dots, 2</m></p></statement>
-<answer><sidebyside width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside></answer></exercise>
+<answer><sidebyside width="30%"><image source="images/y-eq-x-cubed-plus4.png"><description>graph</description></image></sidebyside></answer></exercise>
 
 <exercise number="8"><statement><p><m>h(x)=2+\sqrt{x}</m></p>
     <p><m>x = 0, 1, \dots, 9</m></p></statement></exercise>
 
 <exercise number="9"><statement><p><m>G(x)=\sqrt{4-x}</m></p>
 <p><m>x = -5, -4, \dots, 4</m></p></statement>
-<answer><sidebyside width="30%"><image source="images/fig-???"><description>graph</description></image></sidebyside></answer></exercise>
+<answer><sidebyside width="30%"><image source="images/y-eq-sqrt-4-x.png"><description>graph</description></image></sidebyside></answer></exercise>
 
 <exercise number="10"><statement><p><m>w(x)=x^3-8x</m></p>
 <p><m>x = -4, -3, \dots, 4</m></p></statement></exercise>
@@ -340,7 +340,7 @@
 <exercise number="17"><statement><p>Which of the following graphs represent functions?</p>
     <sidebyside  width="100%"><image source="images/fig-five-curves"><description>graph</description></image></sidebyside>
 </statement>
-<answer>(a) and (d)</answer></exercise>
+<answer><p>(a) and (d)</p></answer></exercise>
 
 <exercise number="18"><statement><p>Which of the following graphs represent functions?</p>
     <sidebyside  width="100%"><image source="images/fig-five-more-curves"><description>graph</description></image></sidebyside>

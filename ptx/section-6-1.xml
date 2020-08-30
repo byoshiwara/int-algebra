@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="IntegerExponents"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Integer Exponents</title><idx><h>exponent</h><h>integer</h><idx>power function</idx></idx>
+<section xml:id="IntegerExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Integer Exponents</title><idx><h>exponent</h><h>integer</h></idx><idx>power function</idx>
 
 <introduction><p>You know that that a positive integer exponent tells us how many times its base occurs as a factor in an expression. For example,
     <me>4a^3b^2~~ \text{ means } ~~4aaabb</me></p>
@@ -43,7 +43,7 @@
     <li><p>In <xref ref="example-integer-exponents" text="type-global" />b, note that 
     <me>9x^{-2} \ne  \frac{1}{9x^2}</me>
     The exponent, <m>-2</m>, applies only to the base <m>x</m>, not to <m>9</m>.</p></li>   
-</ol></p><idx><h>exponent</h><h>negative</h></idx></warning>
+</ol><idx><h>exponent</h><h>negative</h></idx></p></warning>
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>
@@ -113,11 +113,7 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
 </ol></p></solution></example>
 
 <exercise><title>Practice 2</title>
-    <webwork><pg-macros>
-            loadMacros(
-              "parserRoot.pl"
-            ) ;
-        </pg-macros><pg-code>
+    <webwork><pg-code>
             parser::Root->Enable;
             Context()->operators->undefine("^","**");
             Context()->functions->disable("All");
@@ -142,10 +138,10 @@ where <m>w</m> is your weight in kilograms and <m>h</m> is your height in meters
 <p>The functions that describe direct and inverse variation are part of a larger family of functions called <term>power functions</term>.</p> 
 
 <definition><title>Power Function</title><idx>power function</idx>
-    <p>A function of the form
+    <statement><p>A function of the form
         <me>\blert{f(x) = kx^p}</me>
     where <m>k</m> and <m>p</m> are nonzero constants, is called a <term>power function</term><idx>power function</idx>.
-    </p></definition>
+    </p></statement></definition>
 
 <p>Examples of power functions are
     <me>V(r ) = \frac{4}{3}\pi r^3 ~~\text{ and }~~L(T ) = 0.8125T^2</me>
@@ -238,7 +234,7 @@ Their graphs are shown below. Note that power functions with negative exponents 
             <mrow>9147 \amp = \dfrac{k}{(0.387)^2} \amp \amp \blert{\text{Multiply both sides by}~0.387^2.}</mrow> 
             <mrow>1369.9 \amp = k</mrow></md>
      Thus, <m>I=f(d)=1370d^{-2}</m>.</p></li>
-    <li>We evaluate the function for several values of <m>d</m>, and use a calculator to obtain the graph shown.
+    <li><p>We evaluate the function for several values of <m>d</m>, and use a calculator to obtain the graph shown.</p>
         <sidebyside  width="35%"><image xml:id="fig-example-6-1-4"><description>triangle</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

@@ -432,7 +432,7 @@ From here, you can see that the solutions are indeed <m>\dfrac{1}{2}</m> and <m>
             <var name="$f" width="12" evaluator="$my_evaluator"/><m>=0 </m>
         </p>
     </statement>
-    <solution><m>3x^2+13x-10=0</m></solution>
+    <solution><p><m>3x^2+13x-10=0</m></p></solution>
 </webwork>
 </exercise>
 

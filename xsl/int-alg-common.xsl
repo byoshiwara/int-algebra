@@ -9,7 +9,7 @@
 <!--
  Assumes current file is in mfg/xsl and that the mathbook repository is adjacent 
 -->
-<xsl:import href="../../mathbook/xsl/mathbook-latex.xsl"/>
+<xsl:import href="../../mathbook/xsl/pretext-latex.xsl"/>
 <!--
  Parameters to pass via xsltproc "stringparam" on command-line            
 -->

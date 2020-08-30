@@ -18,7 +18,7 @@
 </answer></exercise>
 
 <exercise number="2"><statement><p>Sketch a graph in the first quadrant.<ol label="a" cols="2">
-    <li><p><m>f(x)=2x</m>
+    <li><p><m>f(x)=2x</m></p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -32,8 +32,8 @@
                         <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>\hphantom{\qquad}</m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p><m>g(x)=2x^2</m>
+                    </tabular></sidebyside></li>
+    <li><p><m>g(x)=2x^2</m></p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -47,8 +47,8 @@
                         <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>\hphantom{\qquad}</m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p><m>h(x)=\dfrac{2}{x}</m>
+                    </tabular></sidebyside></li>
+    <li><p><m>h(x)=\dfrac{2}{x}</m></p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -62,7 +62,7 @@
                         <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>\hphantom{\qquad}</m></cell></row>
-                    </tabular></sidebyside></p></li></ol></p>
+                    </tabular></sidebyside></li></ol></p>
     </statement></exercise>
 </subexercises>
 
@@ -73,7 +73,7 @@
     <li>Fill in the rest of the table with the correct values.</li>
     <li>What happens to <m>y</m> when you double the value of <m>x</m>?</li></ol></p></introduction>
 
-<exercise number="3"><statement><p><m>y</m> varies directly with <m>x</m>.
+<exercise number="3"><statement><p><m>y</m> varies directly with <m>x</m>.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -89,10 +89,10 @@
                         <cell><m>2.4</m></cell>
                         <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>4.5</m></cell></row>
-                    </tabular></sidebyside></p></statement>
+                    </tabular></sidebyside></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>y=0.3x</m></li>
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>2</m></cell>
@@ -107,10 +107,10 @@
                         <cell><m>2.4</m></cell>
                         <cell><m>3.6</m></cell>
                         <cell><m>4.5</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></sidebyside></li>
     <li><m>y</m> doubles also</li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><m>y</m> varies directly with the square of <m>x</m>.
+<exercise number="4"><statement><p><m>y</m> varies directly with the square of <m>x</m>.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -126,17 +126,17 @@
                         <cell><m>54</m></cell>
                         <cell><m></m></cell>
                         <cell><m>150</m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise>
+                    </tabular></sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5-8, decide whether<ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, decide whether<ol label="a">
     <li><m>y</m> varies directly with <m>x</m></li>
     <li><m>y</m> varies directly with <m>x^2</m></li>
     <li><m>y</m> does not vary directly with a power of <m>x</m></li></ol></p>
 <p>Explain why your choice is correct. If your choice is (a) or (b), find the constant of variation, <m>k</m>.</p>
 </introduction>
 
-<exercise number="5"><statement><p>
+<exercise number="5"><statement>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -150,10 +150,10 @@
                         <cell><m>4.5</m></cell>
                         <cell><m>12.5</m></cell>
                         <cell><m>32.0</m></cell></row>
-                    </tabular></sidebyside></p></statement>
+                    </tabular></sidebyside></statement>
 <answer><p>(b), <m>k=0.5</m></p></answer></exercise>
 
-<exercise number="6"><statement><p>
+<exercise number="6"><statement>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -167,9 +167,9 @@
                         <cell><m>28</m></cell>
                         <cell><m>44</m></cell>
                         <cell><m>68</m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise>
+                    </tabular></sidebyside></statement></exercise>
 
-<exercise number="7"><statement><p>
+<exercise number="7"><statement>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -183,10 +183,10 @@
                         <cell><m>7.2</m></cell>
                         <cell><m>33</m></cell>
                         <cell><m>73.8</m></cell></row>
-                    </tabular></sidebyside></p></statement>
+                    </tabular></sidebyside></statement>
 <answer><p>(c)</p></answer></exercise>
 
-<exercise number="8"><statement><p>
+<exercise number="8"><statement>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -200,7 +200,7 @@
                         <cell><m>31.25</m></cell>
                         <cell><m>204.80</m></cell>
                         <cell><m>720.00</m></cell></row>
-                    </tabular></sidebyside></p></statement></exercise>
+                    </tabular></sidebyside></statement></exercise>
 </exercisegroup>
 </subexercises>
 

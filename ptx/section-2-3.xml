@@ -380,7 +380,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
         );            
         </pg-code>
     <statement><p>Identify the system as dependent, inconsistent, or consistent and independent
-            <md><mrow>x+3y=6</mrow>-12=-6y
+            <md><mrow>x+3y=6</mrow>
                 <mrow>2x-12=-6y</mrow></md></p>
         <p><var name="$explain" form="buttons"/></p>      
     </statement>
@@ -394,4 +394,3 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
 <xi:include href="./section-2-3-exercises.xml" />                
 
 </section>
-<!-- </book>  </mathbook> -->

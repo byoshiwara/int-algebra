@@ -49,9 +49,9 @@
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
 
-<assembly>
+<assemblage>
     <p>The distance between two points is the length of the segment joining them.</p>
-</assembly>
+</assemblage>
 
 <p>If we make a right triangle as shown in Figure (b), we can use the Pythagorean theorem to find its length. First, notice that the coordinates at the right angle are <m>(-2, 3)</m>. We can find the lengths of the two legs of the triangle, because they are horizontal and vertical segments.
     <md><mrow>a\amp= \abs{3-7} = 4</mrow>
@@ -126,11 +126,12 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
     </pg-code>
     <statement><p><ol label="a">
         <li><p>Find the distance between the points <m>(-5,3)</m> and <m>(3,-9)</m>: <var name="$d" width="10"/></p>
-                <instruction>
-                    Enter "sqrt(2)" to get <m>\sqrt{2}</m>.
-                </instruction></li>
+                </li>
         <li><p>Plot the points, and illustrate how the Pythagorean theorem is used in calculating the distance.</p></li>
         </ol></p>
+        <instruction>
+            Enter "sqrt(2)" to get <m>\sqrt{2}</m>.
+        </instruction>
     </statement>
     <solution>
         <p><ol label="a">
@@ -321,7 +322,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
     <li>A graph is below.</li>
 </ol></p></solution>
 </webwork>
-<conclusion><p><m>(x+3)^2+(y+2)^2=16</m></p><sidebyside width="40%" margins="0% %0%">
+<conclusion><p><m>(x+3)^2+(y+2)^2=16</m></p><sidebyside width="40%" margins="0% 0%">
     <image xml:id="fig-ex-9-2-3ans"><description>circle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -362,7 +363,7 @@ in standard form, and graph the equation.</p></statement>
         <md><mrow>(x^2+8x+<fillin characters="6"/>)+(y^2-2y+<fillin characters="6"/>)=-6</mrow></md>
 We complete the square in <m>x</m> by adding 16 to each side of the equation, and complete the square in <m>y</m> by adding 1 to each side, to get
             <md><mrow>(x^2+8x+\alert{16})+(y^2-2y+\alert{1})=-6+\alert{16}+\alert{1}</mrow></md></p>
-        <sidebyside widths="55% 32%" margins="0% 5%" aligns="middle middle">
+        <sidebyside widths="55% 32%" margins="0% 5%" valigns="middle middle">
 <p>from which we obtain the standard form,
             <md><mrow>(x+4)^2+(y-1)^2=11</mrow></md>
 Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}</m>, or approximately 3.3.  The graph is shown at right.</p>

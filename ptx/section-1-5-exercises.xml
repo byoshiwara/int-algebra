@@ -165,19 +165,19 @@
     <li>Write the equation in slope-intercept form.</li>
     <li>State the slope and the <m>y</m>-intercept of its graph.</li></ol></p></introduction>
 
-<exercise number="5"><statement><m>3x+2y=1</m></statement>
+<exercise number="5"><statement><p><m>3x+2y=1</m></p></statement>
 <answer><p><ol label="a">
     <li><m>y=\dfrac{-3}{2}x+\dfrac{1}{2}</m></li>
     <li><m>m=\dfrac{-3}{2}; ~b=\dfrac{1}{2} </m></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><m>2x- \dfrac{3}{2}y=3</m></statement></exercise>
+<exercise number="6"><statement><p><m>2x- \dfrac{3}{2}y=3</m></p></statement></exercise>
 
-<exercise number="7"><statement><m>4.2-0.3y=6.6</m></statement>
+<exercise number="7"><statement><p><m>4.2-0.3y=6.6</m></p></statement>
 <answer><p><ol label="a">
     <li><m>y=14x-22</m></li>
     <li><m>m=14; ~b=-22 </m></li></ol></p></answer></exercise>
 
-<exercise number="8"><statement><m>5x-4y=0</m></statement></exercise>
+<exercise number="8"><statement><p><m>5x-4y=0</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 9 and 10,<ol label="a">

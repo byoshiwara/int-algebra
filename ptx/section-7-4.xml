@@ -162,7 +162,7 @@ On your calculator, enter the sequence</p>
 <p><kbd>LOG</kbd> <m>7</m> <kbd>)</kbd> <kbd name="obelus"/> <kbd>LOG</kbd> <m>5</m> <kbd>)</kbd> <kbd>ENTER</kbd></p>
 <p>to find that <m>x \approx 1.2091</m>.</p>
 
-<note>Note how using Property (3) allows us to solve the equation above: The variable, <m>x</m>, is no longer in the exponent, and it is multiplied by a constant, <m>\log_{10}{5}</m>.</note>
+<note><p>Note how using Property (3) allows us to solve the equation above: The variable, <m>x</m>, is no longer in the exponent, and it is multiplied by a constant, <m>\log_{10}{5}</m>.</p></note>
 
 <warning><p>Do not confuse the expression <m>~\dfrac{\log_{10}{7}}{\log_{10}{5}}~</m> with <m>~\log_{10}{\left(\dfrac{7}{5}\right)}~</m>; they are not the same! 
 Although 
@@ -335,14 +335,11 @@ Then we write the exponential equation in logarithmic form:
         <p>Rewrite in exponential form.</p>
         <p>Solve for <m>s</m>.</p>
     </hint>
-    <solution><m>s=\dfrac{1}{k}b^{N/N_0}</m></solution>
+    <solution><p><m>s=\dfrac{1}{k}b^{N/N_0}</m></p></solution>
 </webwork></exercise>
 
 </subsection>
 
-  
-<xi:include href="./section-7-4-exercises.xml" />                
-
+<xi:include href="./section-7-4-exercises.xml" />
 
 </section>
-<!-- </book>  </mathbook> -->

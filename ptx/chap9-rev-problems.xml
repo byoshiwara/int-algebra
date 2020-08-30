@@ -15,7 +15,7 @@
     <answer><p>parallel</p></answer>
 </exercise>
 
-<exercise number="2">"
+<exercise number="2">
     <statement><p>
         <m>4x-y=6 </m>; <m>\quad x+4y=-2</m>
     </p></statement>
@@ -376,7 +376,7 @@
         4x^2+y^2-16x+4y+4=0
     </m></p></statement>
     <answer><p><ol label="a">
-        <li><p><m>\dfrac{(x-2)^}{4}+\dfrac{(y+2)^2}{16}=1</m></p></li>
+        <li><p><m>\dfrac{(x-2)^2}{4}+\dfrac{(y+2)^2}{16}=1</m></p></li>
         <li><p>Ellipse: center <m>(2,-2)</m>, <m>a=2</m>, <m>b=4</m></p></li>
     </ol></p></answer>
 </exercise>
@@ -386,7 +386,7 @@
         8x^2+5y^2+16x-20y-12=0
     </m></p></statement>
     <answer><p><ol label="a">
-        <li><p><m>\dfrac{(x+1)^}{5}+\dfrac{(y-2)^2}{8}=1</m></p></li>
+        <li><p><m>\dfrac{(x+1)^2}{5}+\dfrac{(y-2)^2}{8}=1</m></p></li>
         <li><p>Ellipse: center <m>(-1,2)</m>, <m>a=\sqrt{5}</m>, <m>b=\sqrt{8}</m></p></li>
     </ol></p></answer>
 </exercise>
@@ -544,7 +544,7 @@
     <statement><p>
         Hyperbola: one vertex at <m>(−4, 1)</m>, one end of the vertical conjugate axis at <m>(-3, 4)</m>
     </p></statement>
-    <answer><p><m>(x+3)^2} -\dfrac{(y-1)^2}{9}=1 </m></p></answer>
+    <answer><p><m>(x+3)^2 -\dfrac{(y-1)^2}{9}=1 </m></p></answer>
 </exercise>
 
 </exercisegroup>

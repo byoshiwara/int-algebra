@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
 
 <section xml:id="Intercepts" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Intercepts</title>
 
 <subsection><title>Intercepts of a Graph</title>
 
 <definition><title>Intercepts</title>
-    <p>The points at which a graph crosses the axes are called the <term>intercepts</term><idx>intercept</idx><idx><h>intercept</h><seealso><em>x</em>-intercept</seealso></idx><idx><h>intercept</h><seealso><em>y</em>-intercept</seealso></idx> of the graph.</p></definition>
+    <statement><p>The points at which a graph crosses the axes are called the <term>intercepts</term><idx>intercept</idx><idx><h>intercept</h><seealso><em>x</em>-intercept</seealso></idx><idx><h>intercept</h><seealso><em>y</em>-intercept</seealso></idx> of the graph.</p></statement></definition>
 
 <sidebyside width="32%"><image source="images/fig-intercepts"><description>intercepts of a line</description></image></sidebyside>
 
@@ -143,9 +142,9 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
 <p>This form of a linear equation, <m>Ax +By = C</m>, is called the <term>general form</term>.</p>
 
 <definition><title>General Form for a Linear Equation</title>
-    <p>The <term>general form</term><idx>general form for a linear equation</idx><idx><h>linear equation</h><h>general form</h></idx> for a linear equation is
+    <statement><p>The <term>general form</term><idx>general form for a linear equation</idx><idx><h>linear equation</h><h>general form</h></idx> for a linear equation is
         <md><mrow>\blert{Ax+By=C} </mrow></md>
-    (where <m>A</m> and <m>B</m> cannot both be 0).</p>
+    (where <m>A</m> and <m>B</m> cannot both be 0).</p></statement>
 </definition>
 
 <exercise><title>QuickCheck 2</title>

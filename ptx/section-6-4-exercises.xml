@@ -175,7 +175,7 @@
     <li><m>\dfrac{5}{4}+\dfrac{3\sqrt{2}}{2}</m></li>
     <li><m>\dfrac{3}{2a}+\dfrac{\sqrt{3}}{6a}</m></li>
     <li><m>\dfrac{3\sqrt{3}}{2}+3</m></li></ol></p></statement>
-<answer></answer></exercise>
+</exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 23<ndash/>26, rationalize the denominator.</p></introduction>
 
@@ -209,7 +209,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 27 and 28, verify by substitution that the number is a solution of the quadratic equation.</p></introduction>
 
 <exercise number="27"><statement><p><m>x^2+4x-1=0 \text{, }~-2+\sqrt{5}</m></p></statement>
-<answer><m>x^2+4x=(4-4\sqrt{5}+5)+(8+4\sqrt{5})=1</m> </answer></exercise>
+<answer><p><m>x^2+4x=(4-4\sqrt{5}+5)+(8+4\sqrt{5})=1</m> </p></answer></exercise>
 
 <exercise number="28"><statement><p><m>4x^2-20x+22=0 \text{, }~\dfrac{5-\sqrt{3}}{2}</m></p></statement></exercise>
 </exercisegroup>

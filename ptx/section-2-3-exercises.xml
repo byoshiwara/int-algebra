@@ -149,7 +149,7 @@
     <li><p>Solve the system and answer the question in the problem.</p></li></ol></p></statement></exercise>
 
 <exercise number="15"><statement><p>Rani kayaks downstream for 45 minutes and travels a distance of 6000 meters. On the return journey upstream, she covers only 4800 meters in 45 minutes. How fast is the current in the river, and how fast would Rani kayak in still water? (Give your answers in meters per minute.)     <ol label="a">
-    <li><p>Choose variables for the unknown quantities, and fill in the table.
+    <li><p>Choose variables for the unknown quantities, and fill in the table.</p>
             <sidebyside><tabular top="minor" left="minor" right="minor" bottom="minor"><col /><col halign="center"/><col halign="center"/><col halign="center"/>
                             <row><cell></cell>
                                 <cell>Rate</cell>
@@ -163,7 +163,7 @@
                                 <cell><m></m></cell>
                                 <cell><m></m></cell>
                                 <cell><m></m></cell></row>
-                        </tabular></sidebyside></p></li>
+                        </tabular></sidebyside></li>
         <li><p>Write one equation about the downstream trip.</p></li>
         <li><p>Write a second equation about the return trip. </p></li>
         <li><p>Solve the system and answer the question in the problem.</p></li></ol></p></statement>

@@ -85,7 +85,7 @@
     
 </subsection>
 
-<subsection><title>Line of Best Fit</title><idx>least-squares regression line</idx><idx><h>line</h><h>of best fit</h><h><see>least-squares regression line</see></h></idx><idx><h>linear regression</h><h>line of best fit</h></idx>
+<subsection><title>Line of Best Fit</title><idx><h>least-squares regression line</h></idx><idx><h>line</h><h>of best fit</h><see>least-squares regression line</see></idx><idx><h>linear regression</h><h>line of best fit</h></idx>
 
 <p>In most cases, a mathematical model is not a perfect description of reality. Many factors can affect empirical data, including measurement error, environmental conditions, and the influence of related variables. Nonetheless, we can often find an equation that approximates the data in a useful way.</p>
 
@@ -174,7 +174,7 @@
 <example xml:id="example-cocoa"><statement><p>An outdoor snack bar collected the following data showing the number of cups of cocoa, <m>C</m>, they sold when the high temperature for the day was <m>T\degree</m> Celsius.</p>
         <sidebyside><tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
             <row>
-                <cell align="left">Temperature (<m>\degree\text{C}</m>), <m>T</m></cell>
+                <cell halign="left">Temperature (<m>\degree\text{C}</m>), <m>T</m></cell>
                 <cell>2</cell>
                 <cell>4</cell>
                 <cell>5</cell>
@@ -186,7 +186,7 @@
                 <cell>16</cell>
                 <cell>18</cell></row>
             <row>
-                <cell align="left">Cups of cocoa, <m>C</m></cell>
+                <cell halign="left">Cups of cocoa, <m>C</m></cell>
                 <cell>45</cell>
                 <cell>42</cell>
                 <cell>42</cell>
@@ -340,7 +340,7 @@
               ["A) 0.05 births per woman for each percentage point increase in the female literacy rate.",
               "B) 0.05 births per year among literate women.",
               "C) 0.05 births per country for each percentage point increase in the female literacy rate.",
-              "D) <m>-0.05</m> births per women."],
+              "D) \(-0.05\) births per women."],
               0, 
             );            
         </pg-code>

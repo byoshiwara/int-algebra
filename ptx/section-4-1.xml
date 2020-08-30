@@ -61,7 +61,7 @@ Using a calculator, we find that the solutions are approximately <m>1.7</m> and 
         <statement>
             <p>Use the quadratic formula to solve <m>~x^2 - 3x = 1</m>.</p>
             <p>Solutions: <m>x=</m><var name="$answer" width="25" evaluator="$my_evaluator"/></p>
-            <instructions><p>List all the values that are solutions. Enter "sqrt(2)" to get <m>\sqrt{2}</m>, and use a comma to separate different solutions.</p></instructions>
+            <instruction>List all the values that are solutions. Enter "sqrt(2)" to get <m>\sqrt{2}</m>, and use a comma to separate different solutions.</instruction>
         </statement>
         <hint><p>Write the equation in standard form.</p>
             <p>Substitute <m>a = 1</m>, <m>b = -3</m>, <m>c = -1</m> into the quadratic formula.</p>
@@ -187,7 +187,7 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
 <p>To help us work with imaginary numbers, we define a new number, <m>i</m><idx><em>i</em><m>\thinspace</m></idx>, the <term>imaginary unit</term><idx><h>imaginary unit</h><see><em>i</em><m>\thinspace</m></see></idx>, whose square is <m>-1</m>. </p>
  
 <definition><title>Imaginary Unit</title><idx><em>i</em><m>\thinspace</m></idx>
-<p><me>\blert{i = \sqrt{-1}}~~~~\text{or}~~~~\blert{i^2=-1}</me></p></definition>
+<statement><p><me>\blert{i = \sqrt{-1}}~~~~\text{or}~~~~\blert{i^2=-1}</me></p></statement></definition>
 
 <p> With this new number we define the principal square root of any negative real number as follows.</p> 
 
@@ -420,7 +420,7 @@ Expressions in <m>y</m> are treated as constants with respect to <m>x</m>, so th
         </pg-code>
     <statement><p>Solve <m>2x^2 + kx + k^2 = 1</m> for <m>x</m> in terms of <m>k</m>.</p>
             <p>Solutions: <m>x=</m><var name="$answer" width="35"/></p>
-            <instructions><p>Use a comma to separate different solutions.</p></instructions>
+            <instruction>Use a comma to separate different solutions.</instruction>
     </statement>
     <solution><p><m>x=\dfrac{-k\pm\sqrt{8-7k^2}}{4} </m></p>
         </solution>

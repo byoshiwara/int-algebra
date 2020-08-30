@@ -23,10 +23,10 @@ The unknown exponent that solves the equation <m>16=2^t</m> is called the base <
 So, we solve an exponential equation by computing a logarithm. We make the following definition.</p>
 
 <definition><title>Definition of Logarithm</title><idx>logarithm</idx><idx><h>base</h><h>of a logarithm</h></idx>(logarithm)<idx><h>exponent</h><h></h></idx><idx><h>logarithm</h><h>base</h></idx>
-<p>For <m>b\gt 0, b\ne 1</m>, the <term>base <m>b</m> logarithm of <m>x</m></term>,
+<statement><p>For <m>b\gt 0, b\ne 1</m>, the <term>base <m>b</m> logarithm of <m>x</m></term>,
 	<idx>base</idx>
 	written <m>\log_{b} x</m>, is the exponent to which <m>b</m> must be raised in order to yield <m>x</m>.
-</p></definition>
+</p></statement></definition>
 
 <example xml:id="example-easy-logarithm"><statement><p>Compute the logarithms.
 	<ol label="a">

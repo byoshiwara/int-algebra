@@ -22,7 +22,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="2"><statement><p>Complete each table. Then use the tables to approximate each logarithm between two integers.<ol label="a" cols="2">
-    <li><stack><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
                         <cell bottom="minor"><m>2^{-5}</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
@@ -57,10 +57,10 @@
                         <cell bottom="minor"><m>2^5</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-        <md><mrow><fillin characters="3"/> \lt \log_2{12} \lt <fillin characters="3"/></mrow>     
+        <p><md><mrow><fillin characters="3"/> \lt \log_2{12} \lt <fillin characters="3"/></mrow>     
             <mrow><fillin characters="3"/> \lt \log_2{\dfrac{1}{6}} \lt <fillin characters="3"/></mrow>
-            <mrow><fillin characters="3"/> \lt \log_2{0.02} \lt <fillin characters="3"/></mrow></md></stack></li>
-    <li><stack><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+            <mrow><fillin characters="3"/> \lt \log_2{0.02} \lt <fillin characters="3"/></mrow></md></p></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
                         <cell bottom="minor"><m>10^{-5}</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
@@ -95,9 +95,9 @@
                         <cell bottom="minor"><m>10^5</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-        <md><mrow><fillin characters="3"/> \lt \log_{10}{296} \lt <fillin characters="3"/></mrow>     
-            <mrow><fillin characters="3"/> \lt \log_{10}{0.095} \lt <fillin characters="3"/></mrow>
-            <mrow><fillin characters="3"/> \lt \log_{10}{3.8} \lt <fillin characters="3"/></mrow></md></stack></li>
+        <p><md><mrow><fillin characters="3"/> \lt \log_{10}{296} \lt <fillin characters="3"/></mrow>     
+            <mrow><fillin characters="3"/> \lt \log_{10}{0.095} \lt <fillin characters="3"/>\vphantom{\dfrac{1}{6}}</mrow>
+            <mrow><fillin characters="3"/> \lt \log_{10}{3.8} \lt <fillin characters="3"/></mrow></md></p></li>
 </ol></p></statement></exercise>
 </subexercises>
 
@@ -244,15 +244,15 @@ where <m>h</m> is altitude given in miles, and  <m>P</m> is atmospheric pressure
         <mrow>{\text{Ymin}} \amp = 0 \amp\amp {\text{Ymax}} = 30</mrow></md>
 Solve Problems 27 and 28 algebraically, then verify with your graph.</p></introduction>
 
-<exercise number="27"><statement><p><ol Label="a">
+<exercise number="27"><statement><p><ol label="a">
     <li><p>The elevation of Mount Everest, the highest mountain in the world, is 29,028 feet. What is the atmospheric pressure at the top?</p>
-    <hint><p> 1 mile = 5280 feet</p></hint></li>
+    <p><em>Hint:</em> 1 mile = 5280 feet</p></li>
     <li>The atmospheric pressure at the top of Mount McKinley, the highest peak in the United States, is 13.51 inches of mercury.  Estimate the elevation of Mount McKinley.</li></ol></p></statement>
-<answer><p><ol Label="a">
+<answer><p><ol label="a">
     <li>9.60 in</li>
     <li>3.85 mi</li></ol></p></answer></exercise>
 
-<exercise number="28"><statement><p><ol Label="a">
+<exercise number="28"><statement><p><ol label="a">
     <li>What is the atmospheric pressure at sea level (<m>h=0</m>)?</li>
     <li>Find the height above sea level at which the atmospheric pressure is equal to one-half the pressure at sea level.
 </li></ol></p></statement></exercise>

@@ -130,7 +130,7 @@
 <exercise number="6"><statement><p><m>y\gt \dfrac{4}{3}x </m></p></statement></exercise>
 
 <exercise number="7"><statement><p><m>y \lt  9 - 3x</m></p></statement>
-<answer><sidbyside width="60%">
+<answer><sidebyside width="60%">
     <image xml:id="fig-hw-2-5-7ans"><description>linear inequality in two variables</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -146,7 +146,7 @@
         \draw[red, ultra thick, <->,>=stealth'](-3,-5)--(-3,5);
         \filldraw[blue!20!white, opacity=.5] (-3,-5)--(-3,5)--(5,5)--(5,-5)--cycle;
         \end{tikzpicture}]]>
-        </latex-image></image></sidbyside></answer></exercise>
+        </latex-image></image></sidebyside></answer></exercise>
 
 <exercise number="8"><statement><p><m>2x + 5y \ge 10</m></p></statement></exercise>
 

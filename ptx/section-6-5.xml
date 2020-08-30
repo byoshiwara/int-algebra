@@ -135,7 +135,7 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
             <li>Check for extraneous roots.</li>
         </ul></p>
     </statement>
-    <solution><m>x=5</m></solution>
+    <solution><p><m>x=5</m></p></solution>
 </webwork>
 </exercise>
 
@@ -195,7 +195,7 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
         <p>Solve the formula <m>~r-2 = \sqrt[3]{V-Bh}~</m> for <m>h</m>.</p>
         <p><m>h=</m><var name="$a" width="15"/> </p>
     </statement>
-    <solution><m>h=\dfrac{V-(r-2)^3}{B}</m></solution>
+    <solution><p><m>h=\dfrac{V-(r-2)^3}{B}</m></p></solution>
 </webwork></exercise>
 
 </subsection>
@@ -252,7 +252,7 @@ We must square the <em>entire expression</em> on each side of the equal sign as 
         </p>
         <instruction>Use a comma to separate different solutions.</instruction>
     </statement>
-    <solution><m>x=5</m>;  <m>x=8</m></solution>
+    <solution><p><m>x=5</m>;  <m>x=8</m></p></solution>
 </webwork>
 </exercise>
 </subsection>

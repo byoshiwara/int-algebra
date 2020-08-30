@@ -53,7 +53,7 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
         </statement>
         <solution><p><ol label="a" cols="2">
                 <li><p><m>(2,5) </m></p></li>
-                <li></li><p>A graph is below.</p></ol></p>
+                <li><p>A graph is below.</p></li></ol></p>
         </solution>
     </webwork>
     <conclusion>
@@ -117,7 +117,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
     </statement>
     <solution><p><ol label="a" cols="2">
                 <li><p><m>(-2,9), (5,-12) </m></p></li>
-                <li></li><p>A graph is below.</p></ol></p>
+                <li><p>A graph is below.</p></li></ol></p>
     </solution>
     </webwork>
     <conclusion>

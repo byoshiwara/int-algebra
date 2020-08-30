@@ -87,30 +87,49 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exrcisegroup cols="2"><introduction><p>For Problems 5 and 6,<ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 5 and 6,<ol label="a">
     <li>sketch a rough graph of the equation,</li>
     <li>state the slope and intercept of the line.</li></ol></p></introduction>
 
-<exercise number="5"><statement><m>2x=8</m></statement>
+<exercise number="5"><statement><p><m>2x=8</m></p></statement>
 <answer><p><ol label="a">
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="40%" margins="0% 5%">
+        <image xml:id="fig-x-eq-4">
+        <description>verticl line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (-5,-5) grid (5,5);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(5.3,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5.3) node[above]{$y$};
+        \foreach \x in  {-5,5} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta,very thick,<->,>=stealth'] (4,-5)--++(0,10);
+        \node[color=red,left,rotate=90, fill=white, inner sep=1] at (3.6,3){$2x=8$};        
+        \end{tikzpicture}]]>
+        </latex-image>
+</image></sidebyside></li>
     <li><m>m</m> is undefined; <m>(4,0)</m></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><m>3y=15</m></statement></exercise>
-</exrcisegroup>
+<exercise number="6"><statement><p><m>3y=15</m></p></statement></exercise>
+</exercisegroup>
 
-<exrcisegroup><introduction><p>For Problems 7-10, find an equation for the line described.</p></introduction>
+<exercisegroup><introduction><p>For Problems 7<ndash/>10, find an equation for the line described.</p></introduction>
 
 <exercise number="7"><statement><p>A vertical line through the point <m>(-5,8)</m>.</p></statement>
-<answer><m>x=-5</m></answer></exercise>
+<answer><p><m>x=-5</m></p></answer></exercise>
 
 <exercise number="8"><statement><p>The <m>x</m>-axis.</p></statement></exercise>
 
 <exercise number="9"><statement><p>Perpendicular to <m>x=-2</m> and intersecting it at <m>(-2,6)</m>.</p></statement>
-<answer><m>y=6</m></answer></exercise>
+<answer><p><m>y=6</m></p></answer></exercise>
 
 <exercise number="10"><statement><p>Parallel to the <m>y</m>-axis with intercept at <m>(-3,0)</m>.</p></statement></exercise>
-</exrcisegroup>
+</exercisegroup>
 
 <exercise number="11"><statement><p>The slopes of several lines are given below. Which of the lines are parallel to the graph of <m>y = 0.75x + 2</m>, and which are perpendicular to it?<ol label="a" cols="3">
                 <li><p><m>m=\dfrac{3}{4}</m></p></li>

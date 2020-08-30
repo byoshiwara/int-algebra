@@ -95,8 +95,6 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
                 \draw[blue,ultra thick] (5,0) -- (-3,0);
                 \filldraw[blue] (-3,0) circle (.2);
                 \filldraw[blue] (5,0) circle (.2);
-                \end{tikzpicture}
-                \newline        
                 \end{tikzpicture}]]>
             </latex-image></image></sidebyside></conclusion>
 </exercise>
@@ -410,7 +408,7 @@ How many parkas should the company produce and sell each month if it must keep t
     <webwork><pg-code>       
             $nosol = RadioButtons(
               ["A) Panic",
-              "B) Use the <m>y</m>-intercept instead",
+              "B) Use the\(y\)-intercept instead",
               "C) Use the quadratic formula",
               "D) Go on to the next problem"],
               2, 

@@ -152,7 +152,7 @@
                     3x \amp{}+{} \amp 2y\amp{}+{}\amp z\amp{}= -4 \\
                     2x \amp{}-{} \amp 4y\amp {}+{}\amp z\amp{}= -11 
                     \end{alignedat} </m></p></statement>
-<answer> <p><m>\left(2,\dfrac{3}{2},-1) </m></p></answer></exercise>
+<answer> <p><m>\left(2,\dfrac{3}{2},-1\right) </m></p></answer></exercise>
 
 <exercise number="19"><statement><p><m>
                     \begin{alignedat}[t]{5}
@@ -514,7 +514,6 @@
             \filldraw[black] (8,0) circle (0.1) node[ above right, yshift=2,fill=white, inner sep=2, text=black] {$(32,0)$};
             \filldraw[black] (7,0) circle (0.1);
             \draw[<-,>=stealth'] (6.6, .2) -- (4,1.5)  node[left, yshift=2,fill=white, inner sep=2, text=black] {$(28,0)$};
-            \end{tikzpicture}
-            \newline            \end{tikzpicture}]]>
+            \end{tikzpicture}]]>
             </latex-image></image></sidebyside></answer></exercise>
 </exercises>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
 
 <section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Models</title><idx>linear model</idx>
 
@@ -71,28 +70,28 @@
 A one-hour bike ride costs $8.</p>
 <p>We calculate the cost for the other values of <m>t</m> and record the results in a table as shown below.</p>
             <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <col/><col/><col bottom="none" top="none" /><col />
+                <col/><col/><col top="none" /><col />
                 <row>
                     <cell><line>Length of rental</line><line>(hours)</line></cell>
                     <cell><line>Cost of rental</line><line>(dollars)</line></cell>
-                    <cell bottom="none" top="none" ></cell>
+                    <cell bottom="none"></cell>
                     <cell><m>(t,C)</m></cell></row>
                 <row> 
                     <cell><m>0</m></cell>
                     <cell><m>5</m></cell>
-                    <cell bottom="none" top="none"><m>\quad C=5+3(\alert{0})\quad</m></cell>
+                    <cell bottom="none"><m>\quad C=5+3(\alert{0})\quad</m></cell>
                     <cell><m>(0,5)</m></cell></row>
                 <row> <cell><m>1</m></cell>
                     <cell><m>8</m></cell>
-                    <cell bottom="none" top="none"><m>\quad C=5+3(\alert{1})\quad</m></cell>
+                    <cell bottom="none"><m>\quad C=5+3(\alert{1})\quad</m></cell>
                     <cell><m>(1,8)</m></cell></row>
                 <row> <cell><m>2</m></cell>
                     <cell><m>11</m></cell>
-                    <cell bottom="none" top="none"><m>C=5+3(\alert{2})</m></cell>
+                    <cell bottom="none"><m>C=5+3(\alert{2})</m></cell>
                     <cell><m>(2,11)</m></cell></row>
                 <row> <cell><m>3</m></cell>
                     <cell><m>14</m></cell>
-                    <cell bottom="none" top="none"><m>C=5+3(\alert{3})</m></cell>
+                    <cell bottom="none"><m>C=5+3(\alert{3})</m></cell>
                     <cell><m>(3,14)</m></cell></row>
                     </tabular></sidebyside></li>
         <li><sidebyside widths="55% 28%"><stack><p>Each pair of values represents a point on the graph.  The first value gives the horizontal coordinate of the point, and the second value gives the vertical coordinate.</p> 
@@ -125,8 +124,8 @@ A one-hour bike ride costs $8.</p>
 <p>The equation we wrote in the first Example is an example of a <term>linear model</term>, which describes a variable that increases or decreases at a constant rate.</p>    
 
 <definition><title>Linear Model</title><idx>linear model</idx>
-    <p>A <term>linear model</term><idx>linear model</idx> describes a variable that increases or decreases at a constant rate. It has the form
-        <md><mrow>\blert{y=(\text{starting value})+(\text{rate})\times t }</mrow></md></p>
+    <statement><p>A <term>linear model</term><idx>linear model</idx> describes a variable that increases or decreases at a constant rate. It has the form
+        <md><mrow>\blert{y=(\text{starting value})+(\text{rate})\times t }</mrow></md></p></statement>
 </definition>
 
 <exercise><title>QuickCheck 3</title>

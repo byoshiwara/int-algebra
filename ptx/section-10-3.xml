@@ -151,7 +151,7 @@
 
 <p>The base <m>e</m><idx><em>e</em><m>\thinspace</m></idx> logarithm of a number <m>x</m>, or <m>\log_ e x</m>, is called the <term>natural logarithm</term><idx>natural logarithm</idx> of <m>x</m> and is denoted by <m>\ln x</m>.</p>
 
-<assemblage><title>The Natural Logarithm</title><idx>natural logarithm</idx><m>e</m>
+<assemblage><title>The Natural Logarithm</title><idx>natural logarithm</idx>
 	<p>The natural logarithm is the logarithm base <m>e</m>.
 		<me>\blert{\ln x = \log_{e}{x}, ~~~~ x\gt 0}</me></p>
 </assemblage>

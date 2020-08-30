@@ -6,9 +6,9 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 1 and 2, make a table of values for the function and sketch a graph.</p></introduction>
 
-<exercise number="1"><statement><m>f(x)=\log_4 {x}</m></statement></exercise>
+<exercise number="1"><statement><p><m>f(x)=\log_4 {x}</m></p></statement></exercise>
 
-<exercise number="2"><statement><m>f(x)=\log_{1/4} {x}</m></statement></exercise>
+<exercise number="2"><statement><p><m>f(x)=\log_{1/4} {x}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 3 and 4, simplify.</p></introduction>
