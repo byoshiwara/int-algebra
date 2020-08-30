@@ -4,7 +4,7 @@
 <exercises xml:id="chap6-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Chapter 6 Review Problems</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1-6, write without negative exponents and simplify.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>6, write without negative exponents and simplify.</p></introduction>
     
 <exercise number="1"><statement><p><ol label="a" cols="2">
     <li><m>(-3)^{-4}</m></li>
@@ -25,7 +25,7 @@
     <li><m>-7y{-8}</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>\dfrac{1}{243m^5}</m></li>
-    <li><m>\dfrac{-7{y^8}</m></li></ol></p></answer></exercise>
+    <li><m>\dfrac{-7}{y^8}</m></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement><p><ol label="a" cols="2">
     <li><m>a^{-1}+a^{-2}</m></li>
@@ -196,7 +196,7 @@
     <li><p><m>(16-x^2)^{0.25} </m></p></li>
 </ol></p></statement>
 <answer><p><ol label="a" cols="2">
-    <li><p><m>\sqrt(a^2+b^2)} </m></p></li>
+    <li><p><m>\sqrt{a^2+b^2} </m></p></li>
     <li><p><m>\sqrt[4]{16-x^2} </m></p></li>
 </ol></p></answer>
 </exercise>
@@ -291,25 +291,48 @@ where <m>t</m> is the number of years since the refuge was established in 1990.<
         <li><p>Sketch a graph of the function <m>P(t)</m>.</p></li>
         <li><p>How many heron were there in 1995?</p></li>
         <li><p>In what year will there be only 40 heron left?</p></li></ol></p></statement>
-<answer><p><ol label="a">
+<!-- <answer><p><ol label="a">
     <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
     <li><p>123</p></li>
-    <li><p>2017</p></li></ol></p></answer></exercise>
+    <li><p>2017</p></li></ol></p></answer> -->
+</exercise>
 
 <exercise number="25"><statement><p>A brewery wants to replace its old vats with larger ones. To estimate the cost of the new equipment, the accountant uses the 0.6 rule for industrial costs. This rule states that the cost of a new container is approximately <m>~N=Cr^{0.6},~</m> where <m>C</m> is the cost of the old container and <m>r</m> is the ratio of the capacity of the new container to the old one. <ol label="a"> 
-    <li>If an old vat cost $5000, sketch a graph of <m>N</m> as a fucntion of <m>r</m> for <m>0 \le r \le 5</m>.</li> 
+    <li>If an old vat cost $5000, sketch a graph of <m>N</m> as a function of <m>r</m> for <m>0 \le r \le 5</m>.</li> 
     <li>How much should the accountant budget for a new vat that holds 1.8 times as much as the old one?</li></ol></p>
 </statement>    
 <answer><p><ol label="a" cols="2">
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="90%" margins="0% 0%">
+        <image xml:id="fig-0point6-rule">
+        <description>power function</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=1, yscale=.25]
+        \draw[cyan] (0,0) grid (5,15);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(5.4,0) node[right]{$r$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,15.9) node[above]{$N$};
+        \foreach \x  in {1,2,3,4,5} {
+         \draw[black] (\x,.1) --++(0,-.2) node[below]{\x};
+         }
+        \foreach \x [evaluate=\x as \xi using int(1000*\x)] in {5,10,15} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left]   {$\xi$};
+        }
+        \draw[samples=65,domain={0:5)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {5*(\x)^(0.6)});
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+</sidebyside></li>
     <li><p>$7114.32</p></li></ol></p></answer></exercise>
 
 <exercise number="26"><statement><p>If a quantity of air expands without changing temperature, its pressure in pounds per square inch is given by <m>~P=kV^{-1.4},~</m> where <m>V</m> is the volume of the air in cubic inches and <m>k=2.79 \times 10^4</m>. <ol label="a">
     <li>Sketch a graph of <m>P</m> as a function of <m>V</m> for <m>0 \le V \le 100</m>.</li>
     <li>Find the air pressure of an air sample when its volume is 50 cubic inches.</li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<!-- <answer><p><ol label="a" cols="2">
     <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-    <li><p><m>116.7 psi</m></p></li></ol></p></answer></exercise>
+    <li><p><m>116.7 psi</m></p></li></ol></p></answer> -->
+</exercise>
 
 <exercise number="27"><statement><p>Shipbuilders find that the average cost of producing a ship decreases as more of those ships are produced. This relationship is called the experience curve, and is given by the equation 
     <me>C = ax^{-b}</me>
@@ -333,11 +356,12 @@ where <m>P</m> is measured in thousands and <m>R</m> is measured in thousands pe
     <li><p>What will the population be when its rate of growth is 5000 per year?</p></li>
     <li><p>Graph <m>R</m> and use your graph to verify your answers to parts (a) and (b).</p></li></ol></p>
 </statement>
-<answer><p><ol label="a">
+<!-- <answer><p><ol label="a">
     <li><p>0.546; 1.255; 2.041</p></li>
     <li><p>126,590</p></li>
     <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-</ol></p></answer></exercise>
+</ol></p></answer> -->
+</exercise>
 
 <exercisegroup><introduction><p>In Problems 29 and 30, evaluate the function for the given values.</p></introduction>
 

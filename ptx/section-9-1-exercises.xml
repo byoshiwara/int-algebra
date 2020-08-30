@@ -93,13 +93,32 @@
 
 <exercise number="5"><statement><p><m>2x=8</m></p></statement>
 <answer><p><ol label="a">
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="40%" margins="0% 5%">
+        <image xml:id="fig-x-eq-4">
+        <description>verticl line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (-5,-5) grid (5,5);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(5.3,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,5.3) node[above]{$y$};
+        \foreach \x in  {-5,5} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta,very thick,<->,>=stealth'] (4,-5)--++(0,10);
+        \node[color=red,left,rotate=90, fill=white, inner sep=1] at (3.6,3){$2x=8$};        
+        \end{tikzpicture}]]>
+        </latex-image>
+</image></sidebyside></li>
     <li><m>m</m> is undefined; <m>(4,0)</m></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>3y=15</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 7-10, find an equation for the line described.</p></introduction>
+<exercisegroup><introduction><p>For Problems 7<ndash/>10, find an equation for the line described.</p></introduction>
 
 <exercise number="7"><statement><p>A vertical line through the point <m>(-5,8)</m>.</p></statement>
 <answer><p><m>x=-5</m></p></answer></exercise>

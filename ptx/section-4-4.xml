@@ -95,8 +95,6 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
                 \draw[blue,ultra thick] (5,0) -- (-3,0);
                 \filldraw[blue] (-3,0) circle (.2);
                 \filldraw[blue] (5,0) circle (.2);
-                \end{tikzpicture}
-                \newline        
                 \end{tikzpicture}]]>
             </latex-image></image></sidebyside></conclusion>
 </exercise>

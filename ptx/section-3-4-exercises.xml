@@ -151,7 +151,7 @@
 <answer><p><ol label="a">
     <li><m>A = (x+y)^2</m></li>
     <li><m>A = x^2+2xy+y^2</m></li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
+    <li><sidebyside width="40%"><image source="images/fig-square-side-x-plus-y-subdivided"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="26"><statement><p><ol label="a">
     <li><sidebyside widths="60% 20%" margins="0% 15%" valigns="top top">

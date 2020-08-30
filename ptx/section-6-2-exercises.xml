@@ -347,7 +347,7 @@ where <m>L</m> is the length of the vessel in feet.   (Source: Gilner, 1972) <ol
                         <cell><m>800</m></cell>
                         <cell><m>1000</m></cell></row>
                     <row> 
-                        <cell><m>v_{\text{max}</m> (knots)</cell>
+                        <cell><m>v_{\text{max}}</m> (knots)</cell>
                         <cell><m>18.4</m></cell>
                         <cell><m>26</m></cell>
                         <cell><m>31.8</m></cell>

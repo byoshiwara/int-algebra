@@ -184,16 +184,58 @@ where <m>v</m> represents the boat's top speed in miles per hour. Evaluate <m>H(
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>22, graph the function by hand.</p></introduction>
 
 <exercise number="19"><statement><p><m>f(t)=-2t+4</m></p></statement>
-    <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer></exercise>
+    <answer><sidebyside  width="60%" margins="0% 5%"><image xml:id="fig-minus2t-plus4">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (-4,-2) grid[ystep=1/2] (4,6);
+        \draw[black,thick, ->, >=stealth'] (-4,0)--(4.8,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,-2)--(0,6.8) node[above]{$f(t)$};
+        \foreach \x in  {-4,-2,2,4} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-2,2,4,6} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-4,6)--(4,-2);
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+</sidebyside></answer></exercise>
 
 <exercise number="20"><statement><p><m>g(s)=\dfrac{-2}{3}s-2</m></p></statement>
-    <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer></exercise>
+<!--     <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer> -->
+</exercise>
 
 <exercise number="21"><statement><p><m>p(x)=9-x^2</m></p></statement>
-    <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer></exercise>
+    <answer><sidebyside  width="60%" margins="0% 5%"><image xml:id="fig-9minus-xsqd">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (-4,-2) grid[ystep=1/2] (4,6);
+        \draw[black,thick, ->, >=stealth'] (-4,0)--(4.8,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-2)--(0,6.8) node[above]{$p(x)$};
+        \foreach \x in  {-4,-2,2,4} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-2,2,4,6} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain={-sqrt(13):sqrt(13)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x}, {(9-(\x)^2)/2});
+        \end{tikzpicture}]]>
+        </latex-image>
+</image>
+</sidebyside></answer></exercise>
 
 <exercise number="22"><statement><p><m>q(x)=x^2-16</m></p></statement>
-    <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer></exercise>
+<!--     <answer><sidebyside  width="30%"><image source="images/fig???"><description>graph</description></image></sidebyside></answer> -->
+</exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 23<ndash/>26, graph the given function on a graphing calculator. Then use the graph to solve the equations and inequalities. Round your answers to one decimal place if necessary.</p></introduction>
@@ -350,10 +392,11 @@ where <m>v</m> represents the boat's top speed in miles per hour. Evaluate <m>H(
         <li><p>Express <m>T</m> as a function of <m>L</m>. Let <m>k</m> stand for the constant of variation.</p></li>
         <li><p>Make a rough graph of your function.</p></li>
         <li><p>If a certain pendulum is replaced by a new one four-fifths as long as the old one, what happens to the period?</p></li></ol></p></statement>
-<answer><p><ol label="a">
+<!-- <answer><p><ol label="a">
         <li><p><m>T = k \sqrt{L}</m></p></li>
         <li><sidebyside width="25%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
-        <li><p><m>0.89</m> of old period</p></li></ol></p></answer></exercise>
+        <li><p><m>0.89</m> of old period</p></li></ol></p></answer> -->
+</exercise>
 
 <exercisegroup><introduction><p>For Problems 37 and 38, sketch a graph to illustrate the situations.</p></introduction>
 
@@ -386,7 +429,8 @@ where <m>v</m> represents the boat's top speed in miles per hour. Evaluate <m>H(
 
 <exercise number="40"><statement><p><m>y</m> varies directly with <m>x</m>. The constant of variation is <m>k = 1.5</m>.
 </p></statement>
-<answer><sidebyside width="50%"><image source="images/fig-rev-5-40ans"><description>curve</description></image></sidebyside></answer></exercise>
+<!-- <answer><sidebyside width="50%"><image source="images/fig-rev-5-40ans"><description>curve</description></image></sidebyside></answer> -->
+</exercise>
 
 <exercise number="41"><statement><p><m>y</m> varies inversely with <m>x</m>. The constant of variation is <m>k = 2</m>.
 </p></statement>
@@ -394,7 +438,8 @@ where <m>v</m> represents the boat's top speed in miles per hour. Evaluate <m>H(
 
 <exercise number="42"><statement><p><m>y</m> varies inversely with <m>x^2</m>. The constant of variation is <m>k = 4</m>.
 </p></statement>
-<answer><sidebyside width="50%"><image source="images/fig-rev-5-42ans"><description>curve</description></image></sidebyside></answer></exercise>
+<!-- <answer><sidebyside width="50%"><image source="images/fig-rev-5-42ans"><description>curve</description></image></sidebyside></answer> -->
+</exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>In Problems 43 and 44,<ol label="a">

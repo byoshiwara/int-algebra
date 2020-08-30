@@ -322,7 +322,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
     <li>A graph is below.</li>
 </ol></p></solution>
 </webwork>
-<conclusion><p><m>(x+3)^2+(y+2)^2=16</m></p><sidebyside width="40%" margins="0% %0%">
+<conclusion><p><m>(x+3)^2+(y+2)^2=16</m></p><sidebyside width="40%" margins="0% 0%">
     <image xml:id="fig-ex-9-2-3ans"><description>circle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%

@@ -75,7 +75,7 @@
 <answer><p><ol cols="3">
     <li><p><m>\sqrt[4]{y^3}</m></p></li>
     <li><p><m>\dfrac{1}{\sqrt[7]{a^2}}</m></p></li>
-    <li><p><m>\dfrac{1}{\sqrt[5]{s^3t^3}</m></p></li>
+    <li><p><m>\dfrac{1}{\sqrt[5]{s^3t^3}}</m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><ol cols="3">
@@ -378,7 +378,7 @@
                         <cell><m>302</m></cell></row>
                     </tabular></sidebyside></li>
     <li>20 days</li>
-    <li><sidebyside width="40%"><image source="images/fig-???"><description>graph</description></image></sidebyside></li>
+    <li><sidebyside width="40%"><image source="images/fig-50t-to-point6.png"><description>graph</description></image></sidebyside></li>
 </ol></p></answer></exercise>
 
 <exercise number="36"><statement><p>The research division of an advertising firm estimates that the number of people who have seen their ads <m>t</m> days after the campaign begins is given by the function

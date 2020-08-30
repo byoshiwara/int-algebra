@@ -601,12 +601,13 @@ whose graphs are shown below.</p>
 <subsection><title>Percent Increase</title><idx>percent increase</idx>
 
 <p>Exponential growth is often described as growth by a certain percent increase. Suppose the town of Lakeview had 4000 residents in the year 2000, and grew at a rate of 5% per year. This means that each year we add 5% of last year's population to find the current population, <m>P(t)</m>. Thus
-    <md><mrow>\text{In 2000,} ~~P(0) \amp = 4000</mrow>
-        <mrow>\text{In 2001,}~~P(1) \amp = 4000 + \blert{0.05(4000)} = 4200 \amp\amp \blert{\text{Add 5% of}~P(0).}</mrow>
-        <mrow>\text{In 2002,}~~P(2) \amp = 4200 + \blert{0.05(4200)} = 4410 \amp\amp \blert{\text{Add 5% of}~P(1).}</mrow></md>
+    <md><mrow>\text{In 2000,  } P(0) \amp = 4000</mrow>
+        <mrow>\text{In 2001,  } P(1) \amp = 4000 + \blert{0.05(4000)} = 4200 \amp\amp \blert{\text{Add 5}\% \text{ of } P(0).}</mrow>
+        <mrow>\text{In 2002,  } P(2) \amp = 4200 + \blert{0.05(4200)} = 4410 \amp\amp \blert{\text{Add 5}\% \text{ of  } P(1).}</mrow>
+    </md>
 and so on. Now here is the important observation about percent increase:</p>  
 
-<p><me>\glert{\text{Adding 5% of the old population is the same as multiplying the old population by 1.05.}}</me>
+<p><md><mrow>\glert{\text{Adding }5\% \text{ of the old population is the same as multiplying the old population by 1.05.}}</mrow></md>
 
     <md><mrow>4000 + 0.05(4000) \amp = 4000(1+0.05) = 4000(1.05) \amp \amp \blert{\text{Factor out 4000.}}</mrow>
         <mrow>4200 + 0.05(4200) \amp = 4200(1+0.05) = 4200(1.05) \amp \amp \blert{\text{Factor out 4000.}}</mrow></md>
@@ -614,7 +615,7 @@ and so on. Now here is the important observation about percent increase:</p>
 
 <p>Thus, we can find the current population by multiplying the old population by 1.05. In other words,</p>
 
- <p><me>\glert{\text{Growing by 5% is the same as growing by a factor of 1.05.}}</me></p>  
+ <p><me>\glert{\text{Growing by } 5\% \text{ is the same as growing by a factor of 1.05.}}</me></p>  
 
 <p>A formula for the population of Lakeview <m>t</m> years after 2000 is
     <me>P(t) = 4000(1.05)^t</me> 

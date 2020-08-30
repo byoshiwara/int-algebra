@@ -17,7 +17,7 @@
     <answer><p><m>-4 \pm \sqrt{20}</m></p></answer></exercise>
 
 <exercise number="4"><statement><p><m>(7x-1)^2=15</m></p></statement>
-    <answer><p><m>\dfrac{1 \pm \sqrt{15}{7}</m></p></answer></exercise>
+    <answer><p><m>\dfrac{1 \pm \sqrt{15}}{7}</m></p></answer></exercise>
 
 <exercise number="5"><statement><p><m>(2x-5)^2=9</m></p></statement>
     <answer><p><m>1,~4</m></p></answer></exercise>
@@ -104,9 +104,10 @@
 </exercise>
 
 <exercise number="16"><statement><p><m>y=x^2-4</m></p></statement>
-    <answer><p><ol label="a">
+<!--     <answer><p><ol label="a">
         <li><p>Vertex: <m>(0,-4)</m>, <m>y</m>-int: <m>(0,-4)</m>, <m>x</m>-int: <m>(-2,0),~(2,0)</m></p></li>
-        <li><sidebyside width="40%"><image source="images/fig???"><description>figures </description></image></sidebyside></li></ol></p></answer></exercise>
+        </ol></p></answer> -->
+</exercise>
 
 <exercise number="17"><statement><p><m>y=x^2-9x</m></p></statement>
     <answer>
@@ -146,9 +147,10 @@
 </exercise>
 
 <exercise number="18"><statement><p><m>y=-2x^2-4x</m></p></statement>
-    <answer><p><ol label="a">
+<!--     <answer><p><ol label="a">
         <li><p>Vertex: <m>(-1,2)</m>, <m>y</m>-int: <m>(0,0)</m>, <m>x</m>-int: <m>(0,0),~(-2,0)</m></p></li>
-        <li><sidebyside width="40%"><image source="images/fig???"><description>figures </description></image></sidebyside></li></ol></p></answer></exercise>
+        <li><sidebyside width="40%"><image source="images/fig???"><description>figures </description></image></sidebyside></li></ol></p></answer> -->
+</exercise>
 </exercisegroup> 
 
 <exercisegroup cols="2">

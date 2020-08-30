@@ -318,7 +318,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
 <example xml:id="example-GC-quadratic-fit">
     <statement>
         <p><ol label="a">
-            <li><p>Use your calculator to find a quadratic fit for the data in <xref ref="example-quadratic-fit" text="type-global"/>.</p></li>
+            <li><p>Use your calculator to find a quadratic fit for the data in <xref ref="example-quadratic-fit" text="type-hybrid"/>.</p></li>
             <li><p>How many of the given data points actually lie on the graph of the quadratic approximation?</p></li>
         </ol></p>
     </statement>
@@ -389,7 +389,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
     </webwork>
     <conclusion>
         <p>Graph for part (a):</p>
-        <sidebyside width="40%" margins="0% 60$"><image source="images/fig-ex-4-3-5."><description>parabola fit to points</description></image></sidebyside>
+        <sidebyside width="40%" margins="0% 60%"><image source="images/fig-ex-4-3-5"><description>parabola fit to points</description></image></sidebyside>
     </conclusion>
 </exercise>
 
