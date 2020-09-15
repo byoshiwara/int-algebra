@@ -18,27 +18,32 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
 <exercise><title>QuickCheck 1</title>
 <webwork>
     <pg-code>
-        $which = new_checkbox_multiple_choice();
-        $which -> qa (
-        "A question can go here, but PTX ignores this",            
-        "\( x=-3\)$BR",           
-        "\( x=1\)$BR",
-        );
-        $which -> extra(
-        "\( x=2\)$BR",
-        "\( x=3\)$BR",
-        );
-        $which -> makeLast( 
-        "\( x=2\)$BR",
-        "\( x=-3\)$BR",
-        "\( x=3\)$BR",
-        "\( x=1\)$BR"
-        );
+             $True = PopUp(
+              ["?","True","False"],
+              1, 
+            );        
+            $False = PopUp(
+              ["?","True","False"],
+              2, 
+            );            
     </pg-code>    
     <statement>
         <p>Which of the following values are solutions of the equation
             <md><mrow>-2x^3+x^2+16x=15\text{?}</mrow></md></p>
-        <p><var name="$which" form="checkboxes"/> </p>
+            <p><ul>
+                <li><p>
+                    <m>x=2</m> <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    <m>x=-3</m> <var name="$True" form="popup"/>
+                </p></li>
+                <li><p>
+                    <m>x=3</m> <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    <m>x=1</m> <var name="$True" form="popup"/>
+                </p></li>
+            </ul></p>
     </statement>
     <solution><p><m>x=-3</m> and <m>x=1</m> both satisfy the equation.</p>
     </solution>

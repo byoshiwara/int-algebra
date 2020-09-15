@@ -162,7 +162,8 @@
     <introduction><p>Refer to the graph of the function <m>g</m> shown in <xref ref="example-function-graph" text="type-global"/>.</p>
     <sidebyside width="35%"><image source="images/fig-function"><description>graph of a function</description></image></sidebyside>
     </introduction>
-    <webwork><pg-code>
+    <webwork>
+         <pg-code>
             $yint = 3;
             $zeros = List("-2,2,4");
             $my_evaluator = $zeros -> cmp(
@@ -172,34 +173,34 @@
             ); 
             $min = -3;
             $tmin = -4;
-            $intervals = new_checkbox_multiple_choice();
-            $intervals -> qa (
-            "A question can go here, but PTX ignores this",
-            "from \( -5 \) to \( -4 \)$BR",
-            "from \( 1 \) to \( 3 \)$BR",
-            );
-            $intervals -> extra(
-            "from \( 2 \) to \( 4 \)$BR",
-            "from \( -5 \) to \( -2 \)$BR",
-            );
-            $intervals -> makeLast( "from \( -5 \) to \( -4 \)$BR",
-            "from \( -5 \) to \( -2 \)$BR",
-            "from \( 2 \) to \( 4 \)$BR",
-            "from \( 1 \) to \( 3 \)$BR",
-            "None of the above");
-        </pg-code>
-    <statement><p><ol label="a">
-        <li><p><m> g(0)= </m><var name="$yint" width="3"/> </p></li>
-        <li><p> List the value(s) of <m> t </m> for which <m> g(t) = 0 </m>. Separate different values with commas.</p>
-            <p><var name="$zeros" width="10" evaluator="$my_evaluator"/>  </p></li>
-        <li><p>What is the smallest, or minimum, value of <m> g(t) </m>?</p>
-            <p>Minimum: <var name="$min" width="3"/></p> 
-            <p>For what value of <m> t </m> does the function take on its minimum value?</p>
-            <p><m> t= </m><var name="$tmin" width="3"/></p></li>
-        <li><p>Select all the intervals listed below where <m> g </m> is decreasing.</p>
-                <p><var name="$intervals" form="checkboxes"/></p></li></ol></p>
-    </statement>
-    <solution><p><ol label="a" cols="2">
+            $Yes = PopUp(
+              ["?","Yes","No"],
+              1, 
+            );        
+            $No = PopUp(
+              ["?","Yes","No"],
+              2, 
+            );            
+        </pg-code> 
+        <statement><p>
+            <ol label="a">
+                <li><p><m> g(0)= </m><var name="$yint" width="3"/> </p></li>
+                <li><p> List the value(s) of <m> t </m> for which <m> g(t) = 0 </m>. Separate different values with commas.</p>
+                <p><var name="$zeros" width="10" evaluator="$my_evaluator"/>  </p></li>
+                <li><p>What is the smallest, or minimum, value of <m> g(t) </m>?</p>
+                <p>Minimum: <var name="$min" width="3"/></p> 
+                <p>For what value of <m> t </m> does the function take on its minimum value?</p>
+                <p><m> t= </m><var name="$tmin" width="3"/></p></li>
+                <li><p>Select all the intervals listed below where <m> g </m> is decreasing.</p>
+                <p>From <m>-5</m> to <m>-4</m>? <var name="$Yes" form="popup"/></p>
+                <p>From <m>-5</m> to <m>-2</m>? <var name="$No" form="popup"/></p>
+                <p>From 2 to 4? <var name="$No" form="popup"/></p>
+                <p>From 1 to 3? <var name="$Yes" form="popup"/></p>
+                </li>
+            </ol>
+        </p></statement>
+        <solution><p>
+        <ol label="a" cols="2">
             <li><p><m>3</m></p></li>
             <li><p><m> -2, 2, 4 </m></p></li>
             <li><p><m> -3 </m>; <m> t = -4 </m></p></li>
@@ -382,24 +383,18 @@ at most one point.</p></assemblage>
 <exercise><title>Practice 4</title>
     <introduction><p>Use the vertical line test to determine which of the graphs below represent functions.</p>
     <sidebyside ><image source="images/fig-vertical-line-test3" ><description>vertical line test</description></image></sidebyside></introduction>
-    <webwork><pg-code>
-            $functions = new_checkbox_multiple_choice();
-            $functions -> qa (
-            "A question can go here, but PTX ignores this",
-            "(b)$BR",
-            );
-            $functions -> extra(
-            "(a)$BR",
-            "(c)$BR",
-            );
-            $functions -> makeLast(
-            "(a)$BR",
-            "(b)$BR",
-            "(c)$BR",
-            "None of the above");
-        </pg-code>
+    <webwork>
+         <pg-code>
+            $choice = RadioButtons(
+              ["(a)",
+              "(b)",
+              "(c)",
+              "None of the above"],
+              1, 
+            );            
+        </pg-code> 
         <statement><p>
-            <var name="$functions" form="checkboxes"/>
+            <var name="$choice" form="buttons"/>
         </p></statement>
         <solution><p>Only (b) is a function.</p></solution>
     </webwork>

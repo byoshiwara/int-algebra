@@ -375,53 +375,37 @@ For the examples above, we find that the <m>y</m>-intercepts are
 <sidebyside widths="62% 37%" margins="0% 0%"><p>The relationship in <xref ref="example-power-vs-exponential" text="type-global"/> holds true for all increasing power and exponential functions: For large enough values of <m>x</m>, the exponential function will always be greater than the power function, regardless of the parameters in the functions.<idx><h>exponential growth</h><h>vs power function</h></idx><idx>increasing function</idx> The figure at left shows the graphs of <m>f(x) = x^6</m> and <m>g(x) = 1.8^x</m>. At first, <m>f(x) \gt g(x)</m>, but at around <m>x = 37</m>, <m>g(x)</m> overtakes <m>f(x)</m>, and <m>g(x) \gt f(x)</m> for all <m>x \gt 37</m>.</p>
     <image source="images/fig-power-vs-exponential-3"><description>power function vs exponential from 0 to 50</description></image></sidebyside>
 
-<exercise xml:id="exercise-identify-power-and-exponential-functions"><title>Practice 2</title>
-    <webwork><pg-code>
-            $match = new_checkbox_multiple_choice();
-            $match -> qa (
-            "A question can go here, but PTX ignores this",
-            "\( F(x)= 1.5^x \) $BR",
-            "\( H(x)= 3^{1.5x} \) $BR",
+<exercise xml:id="exercise-identify-power-and-exponential-functions">
+    <title>Practice 3</title>
+    <webwork>
+         <pg-code>
+            $exponential = PopUp(
+            ["?","exponential","power","neither"],
+            1, 
             );
-            $match -> extra(
-            "\( G(x)= 3x^{1.5} \) $BR",
-            "\( K(x)= (3x)^{1.5} \) $BR"
+            $power = PopUp(
+            ["?","exponential","power","neither"],
+            2, 
             );
-            $match -> makeLast(
-            "\( F(x)= 1.5^x \) $BR",
-            "\( G(x)= 3x^{1.5} \) $BR",
-            "\( H(x)= 3^{1.5x} \) $BR",
-            "\( K(x)= (3x)^{1.5} \) $BR",
-             "None of the above");
-
-            $match2 = new_checkbox_multiple_choice();
-            $match2 -> qa (
-            "A question can go here, but PTX ignores this",
-            "\( G(x)= 3x^{1.5} \) $BR",
-            "\( K(x)= (3x)^{1.5} \) $BR"
+            $neither = PopUp(
+            ["?","exponential","power","neither"],
+            3, 
             );
-            $match2 -> extra(
-            "\( F(x)= 1.5^x \) $BR",
-            "\( H(x)= 3^{1.5x} \) $BR",
-            );
-            $match2 -> makeLast(
-            "\( F(x)= 1.5^x \) $BR",
-            "\( G(x)= 3x^{1.5} \) $BR",
-            "\( H(x)= 3^{1.5x} \) $BR",
-            "\( K(x)= (3x)^{1.5} \) $BR",
-            "None of the above");
-        </pg-code>
-   	<statement><p>Which of the following functions are exponential functions, and which are power functions?<ol label="a" cols="2">
-                <li><m>F(x) = 1.5^x</m></li>
-                <li><m>G(x) = 3x^{1.5}</m></li>
-                <li><m>H(x) = 3^{1.5x}</m></li>
-                <li><m>K(x) = (3x)^{1.5}</m></li></ol></p>
-            <p>Exponential: <var name="$match" form="checkboxes"/> </p>
-            <p>Power: <var name="$match2" form="checkboxes"/> </p>
-    </statement>
-    <solution> <p>Exponential:  (a) and (c); power: (b) and (d)</p>
-     </solution>
-</webwork></exercise>
+            
+        </pg-code> 
+        <statement>
+            <p>Which of the following functions are exponential functions, and which are power functions?<ol label="a" cols="2">
+                <li><p><m>F(x) = 1.5^x</m>  <var name="$exponential" form="popup"/></p></li>
+                <li><p><m>G(x) = 3x^{1.5}</m>  <var name="$power" form="popup"/></p></li>
+                <li><p><m>H(x) = 3^{1.5x}</m>  <var name="$exponential" form="popup"/></p></li>
+                <li><p><m> K(x) = (3x)^{1.5}</m>  <var name="$power" form="popup"/></p></li>
+            </ol></p>
+        </statement>
+        <solution>
+            <p>Exponential:  (a) and (c); power: (b) and (d)</p>
+        </solution>
+    </webwork>
+</exercise>
 
 <exercise><title>QuickCheck 4</title>
 <webwork><pg-code>
