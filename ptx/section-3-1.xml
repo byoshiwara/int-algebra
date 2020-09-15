@@ -15,26 +15,31 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></a
 
 <exercise><title>QuickCheck 1</title>
 <webwork><pg-code>
-        $which = new_checkbox_multiple_choice();
-        $which -> qa (
-        "A question can go here, but PTX ignores this",            
-        "\( 3x+2x^2=1\)$BR",           
-        "\( v^2 =6v\)$BR",
-        );
-        $which -> extra(
-        "\( 4z^2 -2z^3+2=0\)$BR",
-        "\( 36y-16=0\)$BR",
-        );
-        $which -> makeLast( 
-        "\( 3x+2x^2=1\)$BR",
-        "\( 4z^2 -2z^3+2=0\)$BR",
-        "\( 36y-16=0\)$BR",
-        "\( v^2 =6v\)$BR"
-        );
+             $True = PopUp(
+              ["?","Yes","No"],
+              1, 
+            );        
+            $False = PopUp(
+              ["?","Yes","No"],
+              2, 
+            );            
     </pg-code>    
     <statement><p>Which of the following equations are quadratic?</p>
-        <p><var name="$which" form="checkboxes"/> 
-    </p></statement>
+            <p><ol label="A">
+                <li><p>
+                    <m>3x+2x^2=1</m> <var name="$True" form="popup"/>
+                </p></li>
+                <li><p>
+                    <m>4z^2-2z^3+2=0</m> <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    <m>36y-16=0</m> <var name="$False" form="popup"/>
+                </p></li>
+                <li><p>
+                    <m>v^2=6v</m> <var name="$True" form="popup"/>
+                </p></li>
+            </ol></p>
+        </statement>
     <solution><p>(A) and (D) are quadratic.</p>
     </solution>
 </webwork></exercise> 
