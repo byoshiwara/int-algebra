@@ -1,13 +1,6 @@
-<!--  This file is part of the book                  -->
-<!--   Modeling, Functions, and Graphs   -->
-<!--                                                 -->
-<!--  Copyright (C) 2016 Katherine Yoshiwara            -->
-<!--
- Parts of this file were adapted from the author guide at https://github.com/rbeezer/mathbook and the analagous file at https://github.com/twjudson/aata 
--->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <!--
- Assumes current file is in mfg/xsl and that the mathbook repository is adjacent 
+ Assumes current file is in int-alg/xsl and that the mathbook repository is adjacent 
 -->
 <xsl:import href="../../mathbook/xsl/pretext-html.xsl"/>
 <!--
@@ -33,7 +26,6 @@
 <xsl:param name="html.knowl.technology" select="'no'" />
 <!-- color theme -->
 <xsl:param name="html.css.colorfile" select="'colors_default.css'" />
-
 <!--
  Exercises have "solution"s which should be put in the back. 
 -->
