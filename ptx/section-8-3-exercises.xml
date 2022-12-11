@@ -15,27 +15,27 @@
 
 <exercise number="1"><statement><p><m>\dfrac{5}{8} \cdot \dfrac{3}{4} = \dfrac{15}{32}</m></p>
     <p><m>\blert{\text{Multiply the numerators together; multiply the denominators together.}}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
     <li><m>\dfrac{2}{5} \cdot \dfrac{2}{3}</m></li>
     <li><m>\dfrac{2}{w} \cdot \dfrac{z}{3}</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>\dfrac{4}{15} </m></p></li>
     <li><p><m>\dfrac{2z}{3w}</m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="2"><statement><p><m>\dfrac{3}{4} \cdot \dfrac{5}{6} = \dfrac{\cancel{3}}{4} \cdot \dfrac{5}{2 \cdot \cancel{3}} = \dfrac{5}{8}</m></p>
     <p><m>\blert{\text{Divide out common factors first, then multiply.}}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
     <li><m>\dfrac{5}{4} \cdot \dfrac{8}{9}</m></li>
     <li><m>\dfrac{5}{2a} \cdot \dfrac{4a}{9}</m></li></ol></p>
     </statement></exercise>
 
 <exercise number="3"><statement><p><m>\dfrac{3}{4} \cdot 6 = \dfrac{3}{4} \cdot \dfrac{6}{1} = \dfrac{3}{2 \cdot \cancel{2}} \cdot \dfrac{\cancel{2} \cdot 3}{1} = \dfrac{9}{2}</m></p>
     <p><m>\blert{\text{Write 6 as}~\dfrac{6}{1}}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
     <li><m>\dfrac{7}{3} \cdot 12</m></li>
     <li><m>\dfrac{7}{x} \cdot 4x</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>28</m></p></li>
     <li><p><m>28</m></p></li>
 </ol></p></answer></exercise>
@@ -43,24 +43,24 @@
 <exercise number="4"><statement><p><m>\dfrac{12}{5} \div \dfrac{8}{5} = \dfrac{12}{5} \cdot \dfrac{5}{8} = 
     \dfrac{\cancel{4} \cdot 3}{\cancel{5}} \cdot \dfrac{5\cancel{5}}{\cancel{4} \cdot 2} = \dfrac{3}{2}</m></p>
     <p><m>\blert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
     <li><m>\dfrac{8}{3} \div \dfrac{2}{9}</m></li>
     <li><m>\dfrac{4a}{3b} \div \dfrac{2a}{3}</m></li></ol></p>
 </statement></exercise>
 
 <exercise number="5"><statement><p><m>\dfrac{3}{5} \div 6 = \dfrac{3}{5} \cdot \dfrac{1}{6} = \dfrac{\cancel{3}}{5} \cdot \dfrac{1}{\cancel{3} \cdot 2} = \dfrac{1}{15}</m></p>
     <p><m>\blert{\text{Take the reciprocal of the second fraction; then change to multiplication.}}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
     <li><m>\dfrac{2}{3} \div 4</m></li>
     <li><m>\dfrac{2}{3y} \div (4y)</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>\dfrac{1}{6}</m></p></li>
     <li><p><m>\dfrac{1}{6y^2}</m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>\dfrac{5}{4} + \dfrac{3}{4} = \dfrac{5+3}{4} = \dfrac{8}{4} = 2</m></p>
     <p><m>\blert{\text{Combine the numerators; keep the same denominator.}}</m></p>
-<p><ol label="a" cols="2">
+<p><ol marker="a" cols="2">
     <li><m>\dfrac{13}{6} - \dfrac{5}{6}</m></li>
     <li><m>\dfrac{13k}{n} - \dfrac{5k}{n}</m></li></ol></p>
 </statement></exercise>
@@ -69,19 +69,19 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="7"><statement><p>Multiply.<ol label = "a" cols="3">
+<exercise number="7"><statement><p>Multiply.<ol marker= "a" cols="3">
     <li><m>\dfrac{-24ab}{5b} \cdot \dfrac{15ab}{14}</m></li>
     <li><m>\dfrac{2b}{3} \cdot \dfrac{4}{b+1}</m></li>
     <li><m>\dfrac{-v}{v+1} \cdot \dfrac{v}{v-1}</m></li></ol></p></statement>
-<answer><p><ol label = "a">
+<answer><p><ol marker= "a">
     <li><m>\dfrac{-36a^2}{7} </m></li>
     <li><m>\dfrac{8b}{3b+3}</m></li>
     <li><m>\dfrac{v^2}{1-v^2}</m></li></ol></p></answer></exercise>
 
-<exercise number="8"><statement><p>Write each product as a fraction.<ol label = "a" cols="3">
+<exercise number="8"><statement><p>Write each product as a fraction.<ol marker= "a" cols="3">
     <li><m>\dfrac{3}{4}(a-b)</m></li>
-    <li><m>4a^2b\dfrac{2a+b}{6ab}</m></li>
-    <li><m>15x^2y\dfrac{3}{35xy^2}</m></li></ol></p></statement></exercise>
+    <li><m>4a^2b\left(\dfrac{2a+b}{6ab}\right)</m></li>
+    <li><m>15x^2y\left(\dfrac{3}{35xy^2}\right)</m></li></ol></p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>14, multiply.</p></introduction>
 
@@ -226,31 +226,31 @@
 <exercisegroup><introduction><p>Write an algebraic expression for each phrase Problems 55<ndash/>57, and simplify.</p>
 </introduction>
 
-<exercise number="55"><statement><p><ol label="a">
+<exercise number="55"><statement><p><ol marker="a">
     <li>One-half of <m>x</m></li>
     <li><m>x</m> divided by one-half</li>
     <li>One-half divided by <m>x</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>\dfrac{x}{2}</m></li>
     <li><m>2x</m> </li>
     <li><m>\dfrac{1}{2x}</m></li></ol></p></answer></exercise>
 
-<exercise number="56"><statement><p><ol label="a">
+<exercise number="56"><statement><p><ol marker="a">
     <li>Two-thirds of <m>y</m></li>
     <li><m>y</m> divided by two-thirds</li>
     <li>Two-thirds divided by <m>y</m></li></ol></p></statement></exercise>
 
-<exercise number="57"><statement><p><ol label="a">
+<exercise number="57"><statement><p><ol marker="a">
     <li>The reciprocal of <m>a+b</m></li>
     <li>Three-fourths of the reciprocal of <m>a+b</m></li>
     <li>The reciprocal of <m>a+b</m> divided by three-fourths</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>\dfrac{1}{a+b}</m></li>
     <li><m>\dfrac{3}{4(a+b)}</m></li>
     <li><m>\dfrac{4}{3(a+b)}</m></li></ol></p></answer></exercise>
 </exercisegroup>
 
-<exercise number="58"><statement><p>Simplify. <ol label="a" cols="2">
+<exercise number="58"><statement><p>Simplify. <ol marker="a" cols="2">
     <li><m>\left(\dfrac{1}{c} \cdot \dfrac{1}{5}\right) \div \dfrac{2}{5}</m></li>
     <li><m>\dfrac{1}{c} \cdot \left(\dfrac{1}{5} \div \dfrac{2}{5}\right)</m></li>
     <li><m>\dfrac{1}{c} \div \left(\dfrac{1}{5} \div \dfrac{2}{5}\right)</m></li>
@@ -275,31 +275,31 @@
 <exercise number="64"><statement><p><m>\dfrac{q}{r-a} - \dfrac{2q}{r} + \dfrac{q}{r+a}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 65<ndash/>68, write algebraic fractions in simplest.</p></introduction>
+<exercisegroup><introduction><p>For Problems 65<ndash/>68, write algebraic fractions in simplest form.</p></introduction>
 
-<exercise number="65"><statement><p>The dimensions of a rectangular rug are <m>\dfrac{12}{x}</m> feet and <m>\dfrac{12}{x-2}</m> feet. <ol label="a">
+<exercise number="65"><statement><p>The dimensions of a rectangular rug are <m>\dfrac{12}{x}</m> feet and <m>\dfrac{12}{x-2}</m> feet. <ol marker="a">
     <li>Write and sinplify an expression for the area of the rug.</li>
     <li>Write and sinplify an expression for the perimeter of the rug.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>\dfrac{144}{x^2-2x}</m> sq ft</li>
     <li><m>\dfrac{48x-48}{x^2-2x} ft</m></li></ol></p></answer></exercise>
 
-<exercise number="66"><statement><p>Colonial Airline has a commuter flight between Richmond and Washington, a distance of 100 miles. The plane flies at <m>x</m> miles per hour in still air.  Today there is a steady wind from the north at 10 miles per hour. <ol label="a">
+<exercise number="66"><statement><p>Colonial Airline has a commuter flight between Richmond and Washington, a distance of 100 miles. The plane flies at <m>x</m> miles per hour in still air.  Today there is a steady wind from the north at 10 miles per hour. <ol marker="a">
     <li>How long will the flight from Richmond to Washington take?</li>
     <li>How long will the flight from Washington to Richmond take?</li>
     <li>How long will a round trip take?</li>
     <li>Evaluate your fractions in parts (a)-(c) for <m>x=150</m></li></ol></p></statement></exercise>
 
-<exercise number="67"><statement><p>Two pilots for the Flying Express parcel service receive packages simultaneously.  Orville leaves Boston for Chicago at the same time Wilbur leaves Chicago for Boston. Each pilot selects an air speed of 400 miles per hour for the 900-mile trip. The prevailing winds blow from east to west. <ol label="a">
+<exercise number="67"><statement><p>Two pilots for the Flying Express parcel service receive packages simultaneously.  Orville leaves Boston for Chicago at the same time Wilbur leaves Chicago for Boston. Each pilot selects an air speed of 400 miles per hour for the 900-mile trip. The prevailing winds blow from east to west. <ol marker="a">
     <li>Express Orville's flying time as a function of the wind speed.</li>
     <li>Write a function for Wilbur's flying time.</li>
     <li>Who reaches his destination first? By how much time (in terms of wind speed)?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>\dfrac{900}{400+w}</m> hr</li>
     <li><m>\dfrac{900}{400-w}</m> hr</li>
     <li>Orville, by <m>\dfrac{1800w}{160,000-w^2}</m> hr</li></ol></p></answer></exercise>
 
-<exercise number="68"><statement><p>Francine's cocker spaniel eats a large bag of dog food in <m>d</m> days, and Delbert's sheep dog takes 5 fewer days to eat the same size bag. <ol label="a">
+<exercise number="68"><statement><p>Francine's cocker spaniel eats a large bag of dog food in <m>d</m> days, and Delbert's sheep dog takes 5 fewer days to eat the same size bag. <ol marker="a">
     <li>What fraction of a bag of dog food does Francine's cocker spaniel eat in one day?</li>
     <li>What fraction of a bag of dog food does Delbert's sheep dog eat in one day? </li>
     <li>If Delbert and Francine get married, what fraction of a bag of dog food will their 

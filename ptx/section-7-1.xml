@@ -4,6 +4,91 @@
 
 <subsection><title>Introduction</title>
 
+<investigation xml:id="investigation-population-growth"><title>Population Growth</title>
+
+<p>In a laboratory experiment, researchers establish a colony of <m>100</m> bacteria and monitor its growth. The colony triples in population every day. </p>
+<sidebyside>
+    <tabular halign="center" right="minor" left="minor" bottom="minor">
+            <col top="minor" />
+            <col top="minor" />
+            <col top="none" />
+            <col halign="left"/>
+                    
+            <row bottom="minor">
+                <cell><m>~t~</m></cell>
+                <cell><m>P(t)</m></cell>
+                <cell right="none" bottom="none"></cell>
+                <cell right="none" bottom="none"></cell></row>
+            <row> 
+                <cell><m>~0~</m></cell>
+                <cell><m>100</m></cell>
+                <cell right="none" bottom="none"></cell>
+                <cell right="none" bottom="none"><m>\blert{P(0)=100}</m></cell></row>
+            <row> 
+                <cell><m>~1~</m></cell>
+                <cell><m></m></cell>
+                <cell right="none" bottom="none"></cell>
+                <cell right="none" bottom="none"><m>\blert{P(1)=100\cdot 3=}</m></cell></row>
+            <row> 
+                <cell><m>~2~</m></cell>
+                <cell><m></m></cell>
+                <cell right="none" bottom="none"></cell>
+                <cell right="none" bottom="none"><m>\blert{P(2)=[100\cdot 3]\cdot 3=}</m></cell></row>
+            <row> 
+                <cell><m>~3~</m></cell>
+                <cell><m></m></cell>
+                <cell right="none" bottom="none"></cell>
+                <cell right="none" bottom="none"><m>\blert{P(3)=}</m></cell></row>
+            <row> 
+                <cell><m>~4~</m></cell>
+                <cell><m></m></cell>
+                <cell right="none" bottom="none"></cell>
+                <cell right="none" bottom="none"><m>\blert{P(4)=}</m></cell></row>
+            <row> 
+                <cell><m>~5~</m></cell>
+                <cell><m></m></cell>
+                <cell right="none" bottom="none"></cell>
+                <cell right="none" bottom="none"><m>\blert{P(5)=}</m></cell></row>
+        </tabular>
+</sidebyside>
+<sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle">
+    <p><ol marker="1">
+    <li><p>Fill in the table showing the population <m>P(t)</m> of bacteria <m>t</m> days later.</p></li>
+
+    <li><p>Plot the data points from the table and connect them with a smooth curve.</p></li>
+
+    <li><p>Write a function that gives the population of the colony at any time <m>t</m>, in days.
+        <em>Hint:</em> Express the values you calculated in part (1) using powers of <m>3</m>. Do you see a connection between the value of <m>t</m> and the exponent on <m>3</m>?</p></li>
+
+    <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).</p></li>
+
+    <li><p>Evaluate your function to find the number of bacteria present after 8 days. How many bacteria are present after 36 hours?</p></li>       
+    </ol></p>
+        <image xml:id="fig-grid-for-bacteria-population"><description>grid for graph of bacteria population</description>
+            <latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [xscale=.4, yscale=.35] 
+            \draw[cyan] (0,0) grid (10,26);
+            \draw[black,thick,->,>=stealth'] (0,0)--(10.8,0) node[right]{$t$};
+            \draw[black,thick,->,>=stealth'] (0,0)--(0,26.8) node[left]{$P$};
+            \foreach \x [evaluate=\x as \xi using int(\x/2)] in {2,4,6,8,10} {
+              \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
+            }
+            \foreach \x [evaluate=\x as \xi using int(1000*\x)] in {5} {
+              \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+            }
+            \draw[black,thick] (.15,10)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$10,000$};
+            \draw[black,thick] (.15,15)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$15,000$};
+            \draw[black,thick] (.15,20)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$20,000$};
+            \draw[black,thick] (.15,25)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$25,000$};
+            \node[text=white] at (12,0) {0};
+            \end{tikzpicture}]]>
+            </latex-image></image>
+        </sidebyside>
+</investigation>
+
 <p>The function in <xref ref="investigation-population-growth" text="type-global"/> describes <term>exponential growth</term>. During each time interval of a fixed length, the population is multiplied by a certain constant amount. In this case, the bacteria population grows by a factor of 3 every day.</p>
 <sidebyside width="60%"><image source="images/fig-table-bacteria-population"><description>table of bacteria population</description></image></sidebyside>
 
@@ -74,11 +159,11 @@
     <md><mrow>P(t)=1 \cdot 2^t</mrow></md>
 so <m>P_0 = 1</m> and <m>b=2</m>.  You can see that the graph of the function is not linear. In fact, the population grows slowly at first, but eventually grows faster and faster.</p>
 
-<example xml:id="example-cellphone"><statement><p>In 1985, there were about 1.2 million cell phone users world-wide. Since that time, the number has grown by a factor of 1.5 each year.<ol label="a">
+<example xml:id="example-cellphone"><statement><p>In 1985, there were about 1.2 million cell phone users world-wide. Since that time, the number has grown by a factor of 1.5 each year.<ol marker="a">
     <li>Make a table of values and graph the function.</li>
     <li>Write a formula for the number, <m>C(t)</m>, of cell phone users <m>t</m> years after 1985.</li>
     <li>How many cell phone users does the formula predict for the year 2000?</li></ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
         <li><p>We let <m>t=0</m> in 1985, so <m>C(0)=1.2</m>, in millions. Each value of <m>C(t)</m> can be obtained by multiplying the previous value by the growth factor, 1.5.</p>
         <sidebyside widths="30% 40%" valigns="middle middle">
             <tabular  halign="center" top="minor" bottom="minor" right="minor" left="minor"> 
@@ -164,7 +249,7 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
         );
     </pg-code>
     <statement><p>A population grows according to the formula <m>P(t) = 800(1.06)^t</m>, where <m>t</m> is in years.
-        <ol label="a">
+        <ol marker="a">
             <li><p>What was the starting value of the population? <var name="$P0" width="4"/></p></li>
             <li><p>What was the population one year later? <var name="$P1" width="4"/></p></li>
             <li><p>What does 1.06 tell you about the population?</p>
@@ -172,7 +257,7 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
             <li><p> Choose the correct first step to evaluate <m>800(1.06)^5</m>:</p>
                 <p><var name="$d" form="buttons"/></p></li>
         </ol></p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li>800</li>
         <li>848</li>
         <li>The population grew by a factor of 1.06 each year.</li>
@@ -195,7 +280,7 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
               tolerance => .51,
             );
     </pg-code>
-<statement><p>A colony of rabbits started with 20 rabbits and doubles every 3 months.<ol label="a"> 
+<statement><p>A colony of rabbits started with 20 rabbits and doubles every 3 months.<ol marker="a"> 
     <li><p>Complete the table for the number of rabbits <m>P(t)</m> after <m>t</m> months, and graph the function.</p>
                 <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                         <row bottom="minor">
@@ -224,7 +309,7 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
                     <p><m>P(t)=</m><var name="$f" width="8"/> </p></li>
             <li><p>How many rabbits will there be after 1 year? <var name="$month" width="4"/></p></li>
         </ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
         <li><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                         <row bottom="minor">
                             <cell><m>t</m></cell>
@@ -277,7 +362,7 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
 <note><p>In Practice 1, the rabbit population doubled every 3 months, leading to the growth law
         <me>P(t)=20(2)^{t/3}</me>
 To see the growth factor for the rabbit population, we use the third law of exponents to rewrite <m>2^{t/3}</m>.
-    <me> (2^{1/3})^t = 2^{t(1/3)} = 2^{t/3}</me>
+    <me>2^{t/3} = 2^{t(1/3)} =  (2^{1/3})^t</me>
 So the growth factor for the rabbit population is <m>2^{1/3}</m>, or about 1.26. The rabbit population grows by a factor of 1.26 every month.</p></note>
 
 </subsection>
@@ -364,12 +449,12 @@ whose graphs are shown below.</p>
 <p> However, for each unit increase in <m>t</m>, 2 units are <em>added</em> to the value of <m>L(t)</m>, whereas the value of <m>E(t)</m> is <em>multiplied</em> by 2. An exponential function with growth factor 2 eventually grows much more rapidly than a linear function with slope 2, as you can see by comparing the graphs or the function values in the tables.</p>
 
 <example xml:id="example-compare-linear-vs-exponential"><statement>
-<p>A solar energy company sold $80,000 worth of solar collectors last year, its first year of operation. This year its sales rose to $88,000. The marketing department must estimate its projected sales for the next 3 years.<ol label="a">
+<p>A solar energy company sold $80,000 worth of solar collectors last year, its first year of operation. This year its sales rose to $88,000. The marketing department must estimate its projected sales for the next 3 years.<ol marker="a">
     <li>If the marketing department predicts that sales will grow linearly, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow linearly.</li>
     <li>If the marketing department predicts that sales will grow exponentially, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow exponentially.</li>
     </ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>Let <m>L(t)</m> represent the company's total sales <m>t</m> years after starting business, where <m>t = 0</m> is the first year of operation. If sales grow linearly, then <m>L(t)</m> has the form <m>L(t) = mt + b</m>. Because <m>L(0) = 80,000</m>, the intercept <m>b</m> is 80,000. The slope <m>m</m> of the graph is
         <me>\dfrac{\Delta S}{\Delta t}= \dfrac{8000 \text{ dollars}}{1\text{ year}}= 8000 \text{ dollars/year}</me>
     where <m>\Delta S = 8000</m> is the increase in sales during the first year. Thus, <m>L(t) = 8000t + 80,000</m>, and sales grow by adding $8000 each year. The expected sales total for the next year is
@@ -419,13 +504,70 @@ whose graphs are shown below.</p>
     <me>P(t) = P_0 b^t</me>
  where the growth factor, <m>b</m>, is a number greater than 1. If we multiply the function value by a number smaller than 1, the function values will decrease. Thus, if <m>0 \lt b \lt 1</m>, then <m>P(t) = P_0b^t</m> is a <em>decreasing</em> function.<idx>decreasing function</idx> In this case, we say that the function describes <term>exponential decay</term><idx>exponential decay</idx>, and the constant <m>b</m> is called the <term>decay factor</term><idx>decay factor</idx><idx><h>exponential decay</h><h>decay factor</h></idx>.</p>
 
-<example><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined by a factor of 0.942 each year.<ol label="a">
+<investigation><title>Exponential Decay</title><idx>exponential decay</idx>
+
+ <p>A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals), the population declined to approximately 0.90 of its earlier figure.</p>
+    <sidebyside><tabular halign="center" right="minor" left="minor" bottom="minor"><col top="minor" /><col top="minor" /><col top="none"/><col halign="left"/>                      
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>P(t)</m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"></cell></row>
+                <row> 
+                    <cell><m>0</m></cell>
+                    <cell><m>5000</m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(0)=5000}</m></cell></row>
+                <row> 
+                    <cell><m>10</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(10)=5000\cdot 0.90=}</m></cell></row>
+                <row> 
+                    <cell><m>20</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(20)=[5000\cdot 0.90]\cdot 0.90=}</m></cell></row>
+                <row> 
+                    <cell><m>30</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(3)=}</m></cell></row>
+                <row> 
+                    <cell><m>40</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(4)=}</m></cell></row>
+                <row> 
+                    <cell><m>50</m></cell>
+                    <cell><m></m></cell>
+                    <cell right="none" bottom="none"></cell>
+                    <cell right="none" bottom="none"><m>\blert{P(5)=}</m></cell></row>
+            </tabular></sidebyside>
+        <sidebyside widths="62% 32%" valigns="middle middle">
+    
+<p><ol marker="1"> 
+    <li><p>Fill in the table showing the population <m>P(t)</m> of the town <m>t</m> years after 1940.</p></li>
+
+    <li><p>Plot the data points and connect them with a smooth curve. </p></li>
+    
+    <li><p>Write a function that gives the population of the town at any time <m>t</m> in years after 1940.</p>
+        <p><em>Hint: </em> Express the values you calculated in part (1) using powers of 0.90. Do you see a connection between the value of <m>t</m> and the exponent on 0.90?</p></li>
+    
+    <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).</p></li>
+        
+    <li>Evaluate your function to find the population of the town in 1995. What was the population in 2000?</li>
+    </ol></p>      
+        <image source="images/fig-grid-for-population-decay"><description>grid </description></image></sidebyside>
+</investigation>
+
+<example><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined by a factor of 0.942 each year.<ol marker="a">
     <li>In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of <m>t</m>, the number of years after 1944.</li>
     <li>Graph the function from 1944 to 2000.</li>
     <li>In 1998, only 3.3% of beer was sold in refillable bottles. How well does the model predict this number?</li></ol>
 </p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li>We let <m>t=0</m> in 1944, so that <m>P_0 = 98</m>. The formula is
     <me>P(t)=P_0 b^t = 90(0.942)^t</me></li>
     <li><p>We evaluate the formula for several values of <m>t</m>, and plot the data points.</p>
@@ -481,7 +623,7 @@ whose graphs are shown below.</p>
             );
         }        
     </pg-code>
-    <statement><p>The number of perch in Hidden Lake has declined to 0.88 of its previous value every year since 2000, when the perch population was estimated at 8000. <ol label="a">
+    <statement><p>The number of perch in Hidden Lake has declined to 0.88 of its previous value every year since 2000, when the perch population was estimated at 8000. <ol marker="a">
         <li><p>Let <m>P(t)</m> represent the perch population <m>t</m> years after 2000. Complete the table.</p>
                     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
                                 <row bottom="minor">
@@ -505,7 +647,7 @@ whose graphs are shown below.</p>
             <li>What does the model predict for the perch population in 2025? <var name="$p[25]" width="4"/></li>
         </ol></p></statement>
     <solution>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
                     <row bottom="minor">
                         <cell><m>t</m></cell>
@@ -583,13 +725,13 @@ whose graphs are shown below.</p>
             2
         );
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>We can tell whether a linear function is increasing or decreasing by whether its slope is <var name="$lin" form="popup"/></p></li>
         <li><p>We can tell whether an exponential function is increasing or decreasing by whether <m>b</m> is <var name="$exp" form="popup"/></p></li>
         <li><p>If a linear function has slope 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one? <var name="$lin2" form="popup"/></p></li>
         <li><p>If an exponential function has growth factor 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one? <var name="$exp2" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li>positive or negative</li>
     <li>greater than 1 or less than 1</li>
     <li>Add 1.5</li>
@@ -629,14 +771,14 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
 
 <p>Many quantities besides population can grow by a fixed percent. For example, an inflation rate gives the percent rate at which prices are rising.</p>
 
-<example><statement><p>During a period of rapid inflation, prices rose by 12% each year. At the beginning of this time, a loaf of bread cost $2.<ol label="a">
+<example><statement><p>During a period of rapid inflation, prices rose by 12% each year. At the beginning of this time, a loaf of bread cost $2.<ol marker="a">
     <li>Make a table showing the cost of bread over the next four years.</li>
     <li>Write a function that gives the price of a loaf of bread  years after inflation began.</li>
     <li>How much did a loaf of bread cost after 6 years?  After 30 months?</li>
     <li>Graph the function found in (b).</li>
 </ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>The percent increase in the cost of bread is 12% every year. Therefore, the growth factor for the cost of bread is <m>1+0.12 = 1.12</m> every year.  If <m>P(t)</m> represents the price of bread after <m>t</m> years, then <m>P(0)=2</m>, and we multiply the price by 1.12 every year, as shown in the table.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
@@ -701,14 +843,14 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
         $c = Compute("1.46");
         $d = Compute("2");
     </pg-code>
-<statement><p>Fill in the blanks.<ol label="a">
+<statement><p>Fill in the blanks.<ol marker="a">
             <li><p>Increasing by 10% is the same as multiplying by <var name="$a" width="3"/>.</p></li>
             <li><p>If a population grows by 2% annually, its growth factor is <var name="$b" width="3"/>.</p></li>
             <li><p>If a population grows by 46% annually, its growth factor is <var name="$c" width="3"/>.</p></li>
             <li><p>If a population grows by 100% annually, its growth factor is <var name="$d" width="3"/>.</p></li>
             </ol></p>
     </statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li>1.10</li>
     <li>1.02</li>
     <li>1.46</li>
@@ -754,7 +896,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
             );
     </pg-code>
 <statement><p>Tombstone, Arizona was the most famous "boomtown" during the gold rush in the American west.  It was established in December, 1879, after the discovery of a large silver deposit nearby.  The original town had 40 dwellings and a population of 100.  Over the next two to three years, the population grew at an average rate of 19% per month.
-    <ol label="a">
+    <ol marker="a">
         <li><p>What was the population one year later, in December, 1880? <var name="$a" width="3"/></p></li>
         <li><p>Write a formula for <m>P(t)</m>, the population of Tombstone <m>t</m> months after its founding.</p>
                 <p><m>P(t)=</m><var name="$f" width="10" /></p></li>
@@ -781,7 +923,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
             <p>About <var name="$d" width="2"/> months</p></li>
     </ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li>806</li>
             <li><m>P(t)=100(1.19)^t</m></li>
             <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -844,12 +986,12 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
     <me>b = 1-0.25  = 0.75</me>
 and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us the population remaining, not the amount of decline.</p>
 
-<example><statement><p>According to <em>Context</em> magazine: "Computing prices have been falling exponentially for the past 30 years and will probably stay on that curve for another couple of decades." In fact, prices have been falling at a rate of 37% every year. Suppose an accounting firm invests $50,000 in new computer equipment.<ol label="a">
+<example xml:id="Example-computing-prices"><statement><p>According to <em>Context</em> magazine: "Computing prices have been falling exponentially for the past 30 years and will probably stay on that curve for another couple of decades." In fact, prices have been falling at a rate of 37% every year. Suppose an accounting firm invests $50,000 in new computer equipment.<ol marker="a">
     <li>Write a formula for the value <m>V(t)</m> of the equipment <m>t</m> years from now.</li>
     <li>What will the equipment be worth in 5 years?</li>
     <li>Graph the function <m>V(t)</m> for <m>0 \le t \le 20</m>.</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>The initial value of the equipment is <m>V_0 = 50,000</m>. Every year, the value of the equipment is     
         multiplied by
             <me>b=1-r=1-0.37 = 0.63</me>
@@ -896,7 +1038,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
     </ol></p></solution>
 </example>
 
-<note><p>In the preceding Example, the value of the computer equipment decreases by 37% each year, so 63% of the value remains, and the decay factor for the value function is 0.63, not 0.37.  The function <m>V(t)</m> gives the value remaining, not the amount that has depreciated.</p></note>
+<note><p>In the preceding <xref ref="Example-computing-prices" text="custom">Example</xref>, the value of the computer equipment decreases by 37% each year, so 63% of the value remains, and the decay factor for the value function is 0.63, not 0.37.  The function <m>V(t)</m> gives the value remaining, not the amount that has depreciated.</p></note>
 
 <exercise><title>Practice 4</title>
 <webwork><pg-code>
@@ -916,7 +1058,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
             };        
         </pg-code> 
     <statement><p>The number of butterflies visiting a nature station is declining by 18% per year. In <var name="$year0"/>, <var name="$b0"/> butterflies visited the nature station.</p>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p>What is the decay factor in the annual butterfly count?</p>
                 <p>Answer: <var name="$b" width="3"/> </p></li>
             <li><p>Write a formula for <m>B(t)</m>, the number of butterflies <m>t</m> years after <var name="$year0"/>.</p>
@@ -941,7 +1083,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
                         <cell><var name="$b[5]" width="2"/></cell></row>
                 </tabular></sidebyside></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
                 <li><p><m>0.82</m></p></li>
                 <li><p><m>B(t) = 3600\cdot 0.82^t</m></p></li>
                 <li><sidebyside>
@@ -1006,19 +1148,19 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
             [ "\(f(x)\), with a decay factor of 0.15,", 
             "\(g(x)\), with a decay factor of 0.05"
             ],
-            0
+            1
         );
         Context("Inequalities")->variables->add(b=>"Real");
         $d = Compute("b &lt; 1");
     </pg-code>
-<statement><p><ol label="a">
+<statement><p><ol marker="a">
         <li><p>If <m>b=0.9</m>, it represents a decrease of <var name="$a" width="2"/>%.</p></li>
         <li><p>An annual decrease of 15% corresponds to a decay factor of <var name="$b" width="2"/>.</p></li>
         <li><p>Which function decreases more rapidly: <m>f(x)</m>, with a decay factor of 0.15, or <m>g(x)</m>, with a decay factor of 0.05?</p>
             <p><var name="$c" form="buttons"/> </p></li>
         <li><p>An exponential function <m>P(t)=P_0b^t</m> is decreasing if <var name="$d" width="6"/>.</p></li>
     </ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li>10%</li>
     <li>0.85</li>
     <li><m>f(x)</m></li>
@@ -1055,7 +1197,7 @@ models exponential growth and decay.</p>
             );
         </pg-code>
     <statement><p>A new car begins to depreciate in value as soon as you drive it off the lot. Some models depreciate linearly, and others depreciate exponentially. Suppose you buy a new car for $20,000, and 1 year later its value has decreased to $17,000.</p>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p>If the value decreased linearly, what was its annual rate of decrease?</p>
                 <p>$<var name="$decrease" width="4"/> per year </p></li>
             <li><p>If the value decreased exponentially, what was its annual decay factor? <var name="$ratio" width="3"/> What was its annual percent depreciation? <var name="$decay" width="2"/>% </p></li>
@@ -1063,7 +1205,7 @@ models exponential growth and decay.</p>
                 <p>Linear: $<var name="$linear" width="4"/></p>
                 <p>Exponential: $<var name="$exponential" width="4"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
                 <li><p>$3000 per year</p></li>
                 <li><p>0.85; 15%</p></li>
                 <li><p>Linear: $5000; Exponential: $8874</p></li></ol></p>

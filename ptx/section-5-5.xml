@@ -103,7 +103,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>If we know that two variables vary inversely and we can find one pair of corresponding values for the variables, we can determine <m>k</m>, the constant of variation.<idx>constant of variation</idx></p>
 
-<example><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of 12 ohms draws 10 amps of current.<ol label="a">
+<example><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of 12 ohms draws 10 amps of current.<ol marker="a">
         <li><p>Write a formula that gives current as a function of the resistance.</p></li>
         <li><p> Complete the table and graph your function in a suitable window.</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
@@ -123,7 +123,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
         <li><p>How much current is drawn by a light bulb with a resistance of 533.3 ohms?</p></li>
         <li><p>What is the resistance of a toaster that draws 12.5 amps of current?</p></li>
     </ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li>Because <m>I</m> varies inversely with <m>R</m>, we know that <m>I=\dfrac{k}{R}</m>. To find the constant <m>k</m>, we substitute <m>\alert{10}</m> for <m>I</m> and <m>\alert{12}</m> for <m>R</m>.
             <md><mrow>\alert{10} \amp =\dfrac{k}{\alert{12}} \amp \amp \blert{\text{Solve for}~k.}</mrow>
                 <mrow>k \amp = 10 \cdot 12 = 120</mrow></md>
@@ -228,7 +228,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
             );            
       </pg-code>
     <statement><p>Delbert's officemates want to buy a $120 gold watch for a colleague who is retiring. The cost per person is inversely proportional to the number of people who contribute.</p>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p>Express the cost per person, <m>C</m>, as a function of the number of people, <m>p</m>, who contribute.</p>
             <p><var name="$multians" width="2"/><m>=</m><var name="$multians" width="10"/> </p></li>
             <li><p>Sketch the function on the domain <m>0 \le p \le 20</m>.</p>
@@ -243,10 +243,11 @@ where <m>k</m> is a positive constant.</p></assemblage>
             <p>The graph of cost per person is</p>
             <p><var name="$mc" form="buttons"/> </p></li></ol></p>
     </statement>
-    <solution><p><ol label="a.">
-          <li><sidebyside widths="20%"><image pg-name="$gr[0]"/></sidebyside>
+    <solution><p><ol marker="a.">
+        <li><p><m>C=\dfrac{120}{p}</m></p></li>
+        <li><sidebyside widths="20%"><image pg-name="$gr[0]"/></sidebyside>
             <p>A graph is also shown below.</p></li>
-          <li><p><m>x=-9</m> or <m>x=2</m></p></li></ol></p>
+          </ol></p>
     </solution>
   </webwork>
     <conclusion>
@@ -267,7 +268,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>We may also say that <m>y</m> is <term>inversely proportional</term><idx>inversely proportional</idx><idx><h>proportional</h><h>inversely</h></idx><idx><h>proportional</h><h>inversely</h><seealso>inverse variation</seealso></idx> to <m>x^n</m>.</p>
 
-<example xml:id="example-EMR-vs-distance"><statement><p>The intensity of electromagnetic radiation, such as light or radio waves, varies inversely with the square of the distance from its source. Radio station KPCC broadcasts a signal that is measured at 0.016 watt per square meter by a receiver 1 kilometer away.<ol label="a">
+<example xml:id="example-EMR-vs-distance"><statement><p>The intensity of electromagnetic radiation, such as light or radio waves, varies inversely with the square of the distance from its source. Radio station KPCC broadcasts a signal that is measured at 0.016 watt per square meter by a receiver 1 kilometer away.<ol marker="a">
         <li>Write a formula that gives signal strength as a function of distance.</li>
         <li>If you live 5 kilometers from the station, what is the strength of the signal you will receive?</li>
         <li><p>Graph your function in the window
@@ -275,7 +276,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 0.02</mrow></md></p></li>
     </ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>Let <m>I</m> stand for the intensity of the signal in watts per square meter, and <m>d</m> for the distance from the station in kilometers. Then <m>I = \dfrac{k}{d^2}</m>. To find the constant <m>k</m>, we substitute <m>\alert{0.016}</m> for <m>I</m> and <m>1</m> for <m>d</m>. Solving for <m>k</m> gives us
             <md><mrow>\alert{0.016} \amp = \dfrac{k}{1^2} </mrow>
                 <mrow>k \amp = 0.016 (1^2) = 0.016</mrow></md>
@@ -406,14 +407,14 @@ Your new weight will be <m>\dfrac{1}{4}</m> of your old weight. By a similar cal
     <statement>
         <p>
             Match each formula with its description below. 
-            <ol label="a" cols="2">
+            <ol marker="a" cols="2">
                 <li><p>Direct variation <var name="$a" form="popup"/></p></li>
                 <li><p>Direct variation with a power <var name="$b" form="popup"/></p></li>
                 <li><p>Inverse variation <var name="$c" form="popup"/></p></li>
                 <li><p>Inverse variation with a power <var name="$d" form="popup"/></p></li>
             </ol>
         </p>
-        <p><ol label="i" cols ="2">
+        <p><ol marker="i" cols ="2">
             <li><m>I=\dfrac{50}{d^2}</m></li>
             <li><m>S=15.3h^2</m></li>
             <li><m>N=\dfrac{2600}{P}</m></li>
@@ -421,7 +422,7 @@ Your new weight will be <m>\dfrac{1}{4}</m> of your old weight. By a similar cal
         </p>
     </statement>
     <solution>
-        <p><ol label="a" cols ="2">
+        <p><ol marker="a" cols ="2">
         <li>iv</li>
         <li>ii</li>
         <li>iii</li>

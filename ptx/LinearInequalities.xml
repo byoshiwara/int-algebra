@@ -87,7 +87,7 @@
             mychecker($xn2) );
         </pg-code> 
         <statement>
-            <p><ol label="a">
+            <p><ol marker="a">
                 <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                     <row>
                         <cell><m>x</m></cell>
@@ -104,7 +104,7 @@
             </ol></p>
         </statement>
         <solution>
-            <p><ol label="a" cols="2">
+            <p><ol marker="a" cols="2">
             <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
                     <cell><m>x</m></cell>
@@ -312,7 +312,7 @@
         );
     </pg-code>
     <statement>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p>
                 The solutions of a linear inequality in two variables consist of a boundary
                 line and a <var name="$a" form="popup"/>.
@@ -329,7 +329,7 @@
         </ol></p>
     </statement>
     <solution>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p>half-plane</p></li>
             <li><p>strict </p></li>
             <li><p>reverse</p></li>
@@ -373,7 +373,7 @@
 <assemblage>
     <title>To Graph an Inequality Using a Test Point:</title>
     <p>
-        <ol label="1">
+        <ol marker="1">
             <li><p>
                 Graph the corresponding equation to obtain the boundary line.
             </p></li>
@@ -382,7 +382,7 @@
             </p></li>
             <li><p>
                 Substitute the coordinates of the test point into the inequality.
-                <ol label="a">
+                <ol marker="a">
                     <li><p>
                         If the resulting statement is true, shade the half-plane that includes the test point.
                     </p></li>
@@ -460,7 +460,7 @@
     </pg-code>
     <statement>
         <p>
-            Graph the solutions of the inequality <m> y \gt \dfrac{-3}{2}x</m><ol label="1">
+            Graph the solutions of the inequality <m> y \gt \dfrac{-3}{2}x</m><ol marker="1">
                 <li><p>Graph the line <m>y = \dfrac{-3}{2}x</m>. (Use the slope-intercept method.)</p></li>
                 <li><p>Choose a test point. (Do not choose <m>(0, 0)</m>!)</p></li>
                 <li><p>Decide which side of the line to shade. <var name="$where" form="popup"/> </p></li>
@@ -683,7 +683,7 @@
             <md>
                 <mrow>3y-2x \amp\le 2</mrow>
                 <mrow>y \amp\gt x-1</mrow>
-            </md><ol label="1">
+            </md><ol marker="1">
             <li><p>Graph the boundary line <m>3y-2x = 2</m>.</p></li>
             <li><p>Lightly shade the solutions of the inequality <m>3y-2x \le 2</m>.</p></li>
             <li><p>Graph the boundary line <m>y=x-1</m>.</p></li>

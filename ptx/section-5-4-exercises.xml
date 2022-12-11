@@ -8,16 +8,16 @@
     
 <subexercises><title>Warm Up</title>
 
-<exercise number="1"><statement><p>Solve<ol label="a" cols="2">
+<exercise number="1"><statement><p>Solve<ol marker="a" cols="2">
     <li><p><m>\dfrac{a}{a-2}=\dfrac{25}{30}</m></p></li>
     <li><p><m>\dfrac{7}{90}=\dfrac{126}{5(t-2)^2}</m></p></li></ol></p>
 </statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>-10</m></li>
     <li><m>-16, 20</m></li></ol></p>
 </answer></exercise>
 
-<exercise number="2"><statement><p>Sketch a graph in the first quadrant.<ol label="a" cols="2">
+<exercise number="2"><statement><p>Sketch a graph in the first quadrant.<ol marker="a" cols="2">
     <li><p><m>f(x)=2x</m></p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -68,7 +68,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercisegroup><introduction><p>For Problems 3 and 4, <ol label="a">
+<exercisegroup><introduction><p>For Problems 3 and 4, <ol marker="a">
     <li>Use the values in the table to find the constant of variation, <m>k</m>, and write <m>y</m> as a function of <m>x</m>.</li>
     <li>Fill in the rest of the table with the correct values.</li>
     <li>What happens to <m>y</m> when you double the value of <m>x</m>?</li></ol></p></introduction>
@@ -90,7 +90,7 @@
                         <cell><m>\hphantom{\qquad}</m></cell>
                         <cell><m>4.5</m></cell></row>
                     </tabular></sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><m>y=0.3x</m></li>
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -129,7 +129,7 @@
                     </tabular></sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, decide whether<ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, decide whether<ol marker="a">
     <li><m>y</m> varies directly with <m>x</m></li>
     <li><m>y</m> varies directly with <m>x^2</m></li>
     <li><m>y</m> does not vary directly with a power of <m>x</m></li></ol></p>
@@ -221,13 +221,13 @@
             <cell><m>\hphantom{00000}</m></cell>
             <cell><m>\hphantom{00000}</m></cell>
             <cell><m>\hphantom{00000}</m></cell></row>
-    </tabular></sidebyside><p><ol label="a">
+    </tabular></sidebyside><p><ol marker="a">
         <li><p>Compute the ratio of the tax to the price of each item. Is the tax proportional to the price? What is the tax rate?</p></li>
         <li><p>Express the tax, <m>T</m>, as a function of the price, <m>p</m>, of the item.</p></li>
         <li><p>Sketch a graph of the function by hand, and label the scales on the axes.</p></li>
     </ol></p></statement>
 <answer><p>
-    <ol label="a">
+    <ol marker="a">
     <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <col right="major" halign="left"/><col/><col/><col/>
             <row><cell><m>\text{Price of item} </m></cell>
@@ -264,13 +264,13 @@
             <cell><m>\hphantom{00000}</m></cell>
             <cell><m>\hphantom{00000}</m></cell></row>
     </tabular></sidebyside>
-    <p><ol label="a">
+    <p><ol marker="a">
         <li><p>Compute the ratios of the distance traveled to the square of the time elapsed. What was the acceleration, in feet per second squared?</p></li>
         <li><p>Express the distance traveled, <m>d</m>, as a function of time in seconds, <m>t</m>.</p></li>
         <li><p>Sketch a graph of the function by hand, and label the scales on the axes.</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="11"><statement><p>The weight of an object on the Moon varies directly with its weight on Earth. A person who weighs 150 pounds on Earth would weigh only 24.75 pounds on the Moon.<ol label="a">
+<exercise number="11"><statement><p>The weight of an object on the Moon varies directly with its weight on Earth. A person who weighs 150 pounds on Earth would weigh only 24.75 pounds on the Moon.<ol marker="a">
     <li><p>Find a function that gives the weight <m>m</m> of an object on the Moon in terms of its weight <m>w</m> on Earth. Complete the table and graph your function in a suitable window.</p>
         <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>w</m></cell>
@@ -288,7 +288,7 @@
         <li><p>A piece of rock weighs 50 pounds on the Moon. How much will it weigh back on Earth?</p></li>
         <li><p>If you double the weight of an object on Earth, what will happen to its weight on the Moon?</p></li>
     </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>m = 0.165w</m></p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>w</m></cell>
@@ -307,7 +307,7 @@
     <li><p>It will double.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p>The length of a rectangle is 10 inches, and its width is 8 inches. Suppose we increase the length of the rectangle while holding the width constant.<ol label="a">
+<exercise number="12"><statement><p>The length of a rectangle is 10 inches, and its width is 8 inches. Suppose we increase the length of the rectangle while holding the width constant.<ol marker="a">
         <li><p>Fill in the table.</p>
         <sidebyside><tabular bottom="minor" top="minor" left="minor" right="minor" halign="center">
             <row><cell>Length</cell>
@@ -338,7 +338,7 @@
     </ol></p></statement></exercise>
 
 <exercise number="13"><statement><p>Hubble's law says that distant galaxies are receding from us at a rate that varies directly with their distance. (The speeds of the galaxies are measured using a phenomenon called redshifting.) A galaxy in the constellation Ursa Major is 980 million light-years away and is receding at a speed of 15,000 kilometers per second.
-    <ol label="a">
+    <ol marker="a">
         <li><p>Find a function that gives the speed, <m>v</m>, of a galaxy in terms of its distance, <m>d</m>, from Earth. Complete the table and graph your function in a suitable window. (Distances are given in millions of light-years.)</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>d</m></cell>
@@ -355,13 +355,13 @@
         <li><p>How far away is a galaxy in the constellation Hydra that is receding at 61,000 kilometers per second?</p></li>
         <li><p>A galaxy in Leo is 1240 million light-years away. How fast is it receding from us?</p></li>
     </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>v=15.306 d</m></li>
     <li>3985 million light-years</li>
     <li>18,979 km/sec</li></ol></p></answer>
 </exercise>
 
-<exercise number="14"><statement><p>The length, <m>L</m>, of a pendulum varies directly with the square of its period, <m>T</m>, the time required for the pendulum to make one complete swing back and forth. The pendulum on a grandfather clock is 3.25 feet long and has a period of 2 seconds.<ol label="a">
+<exercise number="14"><statement><p>The length, <m>L</m>, of a pendulum varies directly with the square of its period, <m>T</m>, the time required for the pendulum to make one complete swing back and forth. The pendulum on a grandfather clock is 3.25 feet long and has a period of 2 seconds.<ol marker="a">
         <li><p>Express <m>L</m> as a function of <m>T</m>. Complete the table and graph your function in a suitable window.</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>T</m></cell>
@@ -380,7 +380,7 @@
         <li><p>In order to double the period of a pendulum, how must you vary its length?</p></li>
     </ol></p></statement></exercise>
 
- <exercise number="15"><statement><p>The amount of power, <m>P</m>, generated by a windmill varies directly with the cube of the wind speed, <m>w</m>. A windmill on Oahu, Hawaii, produces 7300 kilowatts of power when the wind speed is 32 miles per hour.<ol label="a">
+ <exercise number="15"><statement><p>The amount of power, <m>P</m>, generated by a windmill varies directly with the cube of the wind speed, <m>w</m>. A windmill on Oahu, Hawaii, produces 7300 kilowatts of power when the wind speed is 32 miles per hour.<ol marker="a">
         <li><p>Express the power as a function of wind speed. Complete the table and graph your function in a suitable window.</p>
             <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>w</m></cell>
@@ -398,7 +398,7 @@
         <li><p>What wind speed is needed to produce 10,000 kilowatts of power?</p></li>
         <li><p>If the wind speed doubles, what  happens to the amount of power generated?</p></li>
     </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>P = \dfrac{1825}{8192}w^3\approx0.228w^3</m></p>
         <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row><cell><m>w</m></cell>
@@ -417,7 +417,7 @@
     <li><p>It is multiplied by 8.</p></li>
 </ol></p></answer></exercise>
 
-<exercisegroup><introduction><p>The functions described by a table or a graph in Problems 16-19 are examples of direct variation.<ol label="a"> 
+<exercisegroup><introduction><p>The functions described by a table or a graph in Problems 16-19 are examples of direct variation.<ol marker="a"> 
     <li>Find an algebraic formula for the function, including the constant of variation, <m>k</m>.</li> 
     <li>Answer the question in the problem.</li></ol></p></introduction>
 
@@ -427,7 +427,7 @@
 
 <exercise number="17"><statement><sidebyside widths="50% 27%" valigns="middle middle"><p>The faster a car moves, the more difficult it is to stop. The graph shows the distance, <m>d</m>, required to stop a car as a function of its velocity, <m>v</m>, before the brakes were applied. What distance is needed to stop a car moving at 100 kilometers per hour?</p>
     <image source="images/fig-hw-5-4-17"><description>increasing concave up</description></image></sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p><m>d = 0.005v^2</m></p></li>
     <li><p>50 m</p></li>
 </ol></p></answer></exercise>
@@ -459,18 +459,18 @@
         <row><cell><m>2.0</m></cell>
             <cell><m>2400</m></cell></row>
     </tabular></sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p><m>W = 600d^2 </m></p></li>
     <li><p>864 newtons</p></li>
 </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercise number="20"><statement><p>The wind resistance, <m>W</m>, experienced by a vehicle on the freeway varies directly with the square of its speed, <m>v</m>.<ol label="a">
+<exercise number="20"><statement><p>The wind resistance, <m>W</m>, experienced by a vehicle on the freeway varies directly with the square of its speed, <m>v</m>.<ol marker="a">
         <li><p>If you double your speed, what happens to the wind resistance?</p></li>
         <li><p>If you drive one-third as fast, what happens to the wind resistance?</p></li>
         <li><p>If you decrease your speed by 10%, what happens to the wind resistance?</p></li>
     </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p>Wind resistance quadruples.</p></li>
     <li><p>It is one-ninth as great.</p></li>
     <li><p>It is decreased by 19% because it is 81% of the original.</p></li>

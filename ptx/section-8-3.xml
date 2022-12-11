@@ -74,7 +74,7 @@ The same applies to the product of an algebraic fraction and any nonfractional e
  <p> We summarize the procedure for multiplying algebraic fractions as follows.</p>
 
  <assemblage><title>To multiply algebraic fractions:</title><idx><h>algebraic fraction</h><h>multiplying</h></idx><idx>product of fractions</idx><idx><h>fraction</h><h>multiplying</h></idx><idx><h>fraction</h><h>multiplying</h></idx><idx>muliplying algebraic fractions</idx>
- <p><ol label="1">
+ <p><ol marker="1">
     <li>Factor each numerator and denominator.</li>
     <li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
     <li>Multiply the remaining factors of the numerator and the remaining factors of the denominator.</li>
@@ -124,13 +124,13 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
             4);
             $one = Compute("1");
     </pg-code>
-    <statement><p>Fill in the blanks.<ol label="a">
+    <statement><p>Fill in the blanks.<ol marker="a">
           <li>The first step in multiplying fractions is to <var name="$factor" form="popup"/>.</li>
           <li>It is usually easier to cancel common factors <var name="$cancel" form="popup"/> multiplying.</li>
           <li>To divide two fractions, we multiply the first fraction by the <var name="$reciprocal" form="popup"/> of the second fraction.</li>
           <li>We can write a whole number as a fraction with denominator <var name="$one" width="2"/>.</li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li>factor</li>
         <li>before</li>
         <li>reciprocal</li>
@@ -141,7 +141,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
 <p>We summarize the procedure for dividing algebraic fractions as follows.</p>
 
 <assemblage><title>To divide algebraic fractions:</title><idx><h>algebraic fraction</h><h>dividing</h></idx><idx>dividing algebraic fractions</idx><idx>quotient of fractions</idx><idx><h>fraction</h><h>dividing</h></idx>
- <p><ol label="1">
+ <p><ol marker="1">
     <li>Take the reciprocal of the second fraction and change the operation to multiplication.</li>
     <li>Follow the rules for multiplication of fractions.</li></ol></p></assemblage>
 
@@ -209,11 +209,11 @@ The same holds true for all algebraic fractions.</p>
     <md><mrow>\blert{\dfrac{a}{c}+\dfrac{b}{c}} \amp = \blert{\dfrac{a+b}{c}}</mrow>
         <mrow>\blert{\dfrac{a}{c}-\dfrac{b}{c}} \amp = \blert{\dfrac{a-b}{c}}</mrow></md></p></assemblage>
 
-<example><statement><p>Add. <ol label="a" cols="2">
+<example><statement><p>Add. <ol marker="a" cols="2">
         <li><m>\dfrac{2x}{9z^2}+\dfrac{5x}{9z^2}</m></li>
         <li><m>\dfrac{2x-5}{x+2}+\dfrac{x+4}{x+2}</m></li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>Because these are like fractions, we add their numerators and keep the same denominator.
         <me>\dfrac{2x}{9z^2}+\dfrac{5x}{9z^2} = \dfrac{2x+5x}{9z^2} = \dfrac{7x}{9z^2}</me></p></li>
     <li><p> We combine the numerators over a single denominator.
@@ -224,7 +224,7 @@ The same holds true for all algebraic fractions.</p>
 <p>We summarize our procedure for adding or subtracting like fractions as follows.</p>
 
 <assemblage><title>To add or subtract like fractions</title><idx><h>like fractions</h><h>adding or subtracting</h></idx><idx><h>fraction</h><h>adding or subtracting like fractions</h></idx><idx>sum or difference of fractions</idx>
- <p><ol label="1">
+ <p><ol marker="1">
     <li>Add or subtract the numerators.</li>
     <li>Keep the same denominator.</li>
     <li>Reduce the sum or difference if necessary.</li></ol></p></assemblage>
@@ -301,13 +301,13 @@ The same holds true for all algebraic fractions.</p>
             2
         );        
     </pg-code>
-    <statement><p>True or False.<ol label="a">
+    <statement><p>True or False.<ol marker="a">
         <li><p>Like fractions have the same denominator. <var name="$True" form="popup"/></p></li>
         <li><p>To add like fractions, we add their numerators and add their denominators. <var name="$False" form="popup"/></p></li>
         <li><p>A negative sign in front of a fraction changes the sign of both numerator and denominator. <var name="$False" form="popup"/></p></li>
         <li><p>When we subtract fractions, the subtraction symbol applies only to the first term of the numerator.  <var name="$False" form="popup"/></p></li>
     </ol></p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li>True</li>
     <li>False</li>
     <li>False</li>
@@ -411,7 +411,7 @@ There is noting mysterious about the building process; we are breaking up each f
 We add or subtract algebraic fractions with the same three steps.</p>
 
 <assemblage><title>To add or subtract algebraic fraction</title><idx><h>algebraic fraction</h><h>adding or subtracting</h></idx><idx><h>fraction</h><h>adding or subtracting algebraic fractions</h></idx><idx>sum or difference of fractions</idx>
- <p><ol label="1">
+ <p><ol marker="1">
     <li>Find the lowest common denominator (LCD) for the fractions.</li>
     <li>Build each fraction to an equivalent one with the same denominator.</li>
     <li>Add or subtract the resulting like fractions: Add or subtract their numerators, and keep the same denominator.
@@ -498,13 +498,13 @@ We add or subtract algebraic fractions with the same three steps.</p>
             "reduce the fraction"],
             3);
     </pg-code>
-    <statement> <p>Fill in the blanks.<ol label="a">
+    <statement> <p>Fill in the blanks.<ol marker="a">
       <li><p>To add unlike fractions, we must first convert them into <var name="$like" form="popup"/> fractions.</p></li>
       <li><p>Building a fraction is an application of the <var name="$build" form="popup"/>.</p></li>
       <li><p>The LCD is the smallest <var name="$lcd" form="popup"/>. of each denominator.</p></li>
       <li><p>The last step in adding fractions is to <var name="$add" form="popup"/>.</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li>like</li>
         <li>fundamental principle of fractions</li>
         <li>multiple</li>
@@ -519,7 +519,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
 
 <example><statement><p>Add:  <m>~\dfrac{6}{x} + \dfrac{x}{x-2}</m></p></statement>
 
-<solution><p>Step 1: The LCD for these fractions is just the product of their denominators, <m>x(x-2)</m></p>
+<solution><p>Step 1: The LCD for these fractions is just the product of their denominators, <m>x(x-2)</m>.</p>
 <p>Step 2: We build each fraction to an equivalent one with denominator <m>x(x-2)</m>.  The building factor for <m>\dfrac{6}{x}</m> is <m>\alert{(x-2)}</m> and the building factor for <m>\dfrac{x}{x-2}</m> is <m>\alert{x}</m>.  We multiply numerator and denominator of each fraction by its building factor.
     <md><mrow>\dfrac{6}{x} \amp = \dfrac{6\alert{(x-2)}}{x\alert{(x-2)}} = \dfrac{6x-12}{x(x-2)}</mrow>
         <mrow>\dfrac{x}{x-2} \amp = \dfrac{x\alert{(x)}}{(x-2)\alert{(x)}} = \dfrac{x^2}{x(x-2)}</mrow></md></p>
@@ -574,26 +574,26 @@ We add or subtract algebraic fractions with the same three steps.</p>
 is not <m>12(18) = 216</m>.  It is true that 216 is a multiple of both 12 and 18, but it is not the smallest one! We can find a smaller common denominator by factoring each denominator.
     <md><mrow>12 \amp = 2 \cdot 2 \cdot 3 \amp \amp \blert{\text{This denominator has the most factors of 2.}}</mrow> 
         <mrow>18 \amp = 2 \cdot 3 \cdot 3 \amp \amp \blert{\text{This denominator has the most factors of 3.}}</mrow></md>
-To find a number that both 12 and 18 divide into evenly, we need only enough factors to cover each of them.  In this case two 2'sand two 3'sare sufficient, so the LCD is
+To find a number that both 12 and 18 divide into evenly, we need only enough factors to cover each of them.  In this case two 2's and two 3's are sufficient, so the LCD is
     <me>\text{LCD} = 2 \cdot 2 \cdot 3 \cdot 3 = 36</me>
 You can check that both 12 and 18 divide evenly into 36.</p>
     
 <p>In general, we can find the LCD in the following way.</p>
 
 <assemblage><title>To Find the LCD</title><idx><h>lowest common denominator</h><h>finding the</h></idx>
-<p><ol label="1">
+<p><ol marker="1">
     <li>Factor each denominator completely.</li>
     <li>Include each different factor in the LCD as many times as it occurs in any one of the given denominators.</li>
 </ol></p></assemblage>
 
-<example><statement><p>Find the LCD for the fractions <m>~\dfrac{2x}{x^2-1}~</m> and <m>~\dfrac{x+3}{x^2+x}~</m></p></statement>
+<example xml:id="Example-find-LCD"><statement><p>Find the LCD for the fractions <m>~\dfrac{2x}{x^2-1}~</m> and <m>~\dfrac{x+3}{x^2+x}~</m></p></statement>
 
 <solution><p>We factor the denominators of each of the given fractions.
     <me>x^2-1 = (x-1)(x+1)~~~~\text{and}~~~~x^2+x = x(x+1)</me>
  The factor <m>(x-1)</m> occurs once in the first denominator, the factor <m>x</m> occurs once in the second denominator, and the factor <m>(x+1)</m> occurs once in each denominator.  Therefore we include in our LCD one copy of each of these factors.  The LCD is  <m>x(x-1)(x+1)</m>.  </p>
 </solution></example>
 
-<warning><p>In the previous Example, we do not include two factors of <m>(x+1)</m> in the LCD. We need only one factor of <m>(x+1)</m>, because <m>(x+1)</m> occurs only once in each denominator.  You can check that each original denominator divides evenly into our LCD, <m>x(x-1)(x+1)</m>.  </p></warning> 
+<warning><p>In the previous <xref ref="Example-find-LCD" text="custom">Example</xref>, we do not include two factors of <m>(x+1)</m> in the LCD. We need only one factor of <m>(x+1)</m>, because <m>(x+1)</m> occurs only once in each denominator.  You can check that each original denominator divides evenly into our LCD, <m>x(x-1)(x+1)</m>.  </p></warning> 
 
 <exercise><title>Practice 7</title>
 <webwork><pg-code>
@@ -648,14 +648,14 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
             2
         );        
     </pg-code>
-    <statement><p>True or False.<ol label="a">
+    <statement><p>True or False.<ol marker="a">
         <li><p>We can always find the LCD by multiplying together the denominators of the fractions. <var name="$False" form="popup"/></p></li>
         <li><p>If each denominator includes one factor of <m>x-3</m>, we include two factors of <m>x-3</m> in the LCD. <var name="$False" form="popup"/></p></li>
         <li><p>We find the building factor for each fraction by comparing its denominator to the LCD. <var name="$True" form="popup"/></p></li>
         <li><p>When adding fractions, it is best to reduce the fractions at each step. <var name="$False" form="popup"/>
             </p></li>
     </ol></p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li>False</li>
     <li>False</li>
     <li>True</li>
@@ -707,12 +707,12 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
 <subsection><title>Applications</title>
 <p>Recall that the formulas for rational functions are algebraic fractions.  It is often useful to simplify the formula for a function before using it.</p> 
 
-<example><statement><p>When estimating their travel time, pilots must take into account the prevailing winds.  A tail wind adds to the plane's ground speed, while a head wind decreases the ground speed.  Skyhigh Airlines is setting up a shuttle service from Dallas to Phoenix, a distance of 800  miles.<ol label="a">
+<example><statement><p>When estimating their travel time, pilots must take into account the prevailing winds.  A tail wind adds to the plane's ground speed, while a head wind decreases the ground speed.  Skyhigh Airlines is setting up a shuttle service from Dallas to Phoenix, a distance of 800  miles.<ol marker="a">
     <li>Express the time needed for a one-way trip, without wind, as a function of the speed of the plane.</li>
     <li>Suppose there is a prevailing wind of 30 miles per hour blowing from the west.  Write expressions for the flying time from Dallas to Phoenix and from Phoenix to Dallas.</li>
     <li>Write an expression for the round trip flying time with a 30-mile-per-hour wind from the west, as a function of the plane's speed.  Simplify your expression.</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>Recall that  <m>\text{time} = \dfrac{\text{distance}}{\text{rate}}</m>. If we let <m>r</m> represent the speed of the plane in still air, then the time required for a one-way trip is
     <me>f(r) = \dfrac{800}{r}</me></p></li>
     <li><p>On the trip from Dallas to Phoenix the plane encounters a head wind of 30 miles per hour, so its actual ground speed is <m>r-30</m>.  On the return trip the plan enjoys a tail wind of 30 miles per hour, so its actual ground speed is <m>r+30</m>.  Therefore, the flying times are
@@ -732,7 +732,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
         $t1 = Formula("5/(15+c)");
         $t2 = Formula("150/(225-c^2)");
     </pg-code>
-    <statement><p>A rowing team can maintain a speed of 15 miles per hour in still water.  The team's daily training session includes a 5-mile run up the Red Cedar River and the return downstream.<ol label="a">
+    <statement><p>A rowing team can maintain a speed of 15 miles per hour in still water.  The team's daily training session includes a 5-mile run up the Red Cedar River and the return downstream.<ol marker="a">
         <li><p>Express the team's time on the upstream leg as a function of the speed of the current.
                 </p><p><var name="$t0" width="12"/> </p></li>
         <li><p>Write a function for the team's time on the downstream leg.
@@ -740,7 +740,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
         <li><p> Write and simplify an expression for the total time for the training run as a function of the current's speed.
                 </p><p><var name="$t2" width="12"/> </p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li><m>\dfrac{5}{15-c}</m></li>
     <li><m>\dfrac{5}{15+c}</m></li>
     <li><m>\dfrac{150}{225-c^2}</m></li></ol></p></solution>

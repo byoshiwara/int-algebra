@@ -4,6 +4,121 @@
 <section xml:id="Functions"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Functions</title>
 
+<introduction>
+
+<investigation><title>Epidemics</title>
+ 
+<p>A contagious disease whose spread is unchecked can devastate a confined population. For example, in the early 16th-century, Spanish troops introduced smallpox into the Aztec population in Central America, and the resulting epidemic contributed significantly to the fall of Montezuma’s empire.</p>
+
+ <p>Suppose that an outbreak of cholera follows severe flooding in an isolated town of 5000 people. Initially (Day 0), 40 people are infected. Every day after that, 25% of those still healthy fall ill.</p>
+
+<p><ol marker="1">
+<li><p>At the beginning of the first day (Day 1), how many people are still healthy? How many will fall ill during the first day? What is the total number of people infected after the first day?</p></li>
+
+<li><p>Check your results against the table below. Subtract the total number of infected residents from 5000 to find the number of healthy residents at the beginning of the second day. Then fill in the rest of the table for 10 days. (Round off decimal results to the nearest whole number.)</p>
+ 
+<sidebyside widths="45% 45%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+    <row>
+        <cell bottom="minor">Day</cell>
+        <cell bottom="minor"><line>Number</line><line>healthy</line></cell>
+        <cell bottom="minor"><line>New</line><line>patients</line></cell>
+        <cell bottom="minor"><line>Total</line><line>infected</line></cell></row>
+    <row>
+        <cell bottom="minor"><m>0</m></cell>
+        <cell bottom="minor"><m>5000</m></cell>
+        <cell bottom="minor"><m>40</m></cell>
+        <cell bottom="minor"><m>40</m></cell></row>
+    <row> 
+        <cell bottom="minor"><m>1</m></cell>
+        <cell bottom="minor"><m>4960</m></cell>
+        <cell bottom="minor"><m>1240</m></cell>
+        <cell bottom="minor"><m>1280</m></cell></row>
+    <row>
+        <cell bottom="minor"><m>2</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>3</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>4</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>5</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>6</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>7</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>8</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>9</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>
+    <row>
+        <cell bottom="minor"><m>10</m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell>
+        <cell bottom="minor"><m></m></cell></row>  
+    </tabular>
+
+    <image xml:id="fig-epidemiology">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[cyan] (0,0) grid (15,25);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(15.8,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,25.8) node[above]{$I$};
+        \foreach \x in {5,10,15} {
+         \draw[black,thick] (\x,0.1) --++(0,-.2)  node[below]   {$\x$};
+         \draw[cyan,ultra thick] (\x,0)--++(0,25);
+        }
+        \foreach \x [evaluate=\x as \xi using int(200*\x)] in {5,10,...,25} {
+
+         \draw[black] (.1,\x) --++(-.20,0)  node[left]   {$\xi$};
+         \draw[cyan,ultra thick] (0,\x)--++(15,0);
+         }
+        \node[font=\bf] at (7.5,-2.3) {Time (days)};
+        \node[rotate=90,font=\bf] at (-3.2,12.5) {Number of infected people};
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside></li>
+
+<li><p>Use the last column of the table to plot the total number of infected residents, <m>I</m>, against time, <m>t</m>, on the grid. Connect your data points with a smooth curve.</p></li>
+
+<li><p>Do the values of <m>I</m> approach some largest value? Draw a dotted horizontal line at that value of <m>I</m>. Will the values of <m>I</m> ever exceed that value?</p></li>
+
+<li><p>What is the first day on which at least 95% of the population is infected?</p></li>
+
+<li><p>Look back at the table. What is happening to the number of new patients each day as time goes on? How is this phenomenon reflected in the graph? How would your graph look if the number of new patients every day were a constant?</p></li>
+
+<li><p>Summarize your work: In your own words, describe how the number of residents infected with cholera changes with time. Include a description of your graph.</p></li>
+</ol></p></investigation>
+
+</introduction>
+
 <subsection><title>Definitions and Notation</title>   
 
 <p>We often want to predict values of one variable from the values of a related variable. For example, when a physician prescribes a drug in a certain dosage, she needs to know how long the dose will remain in the bloodstream. A sales manager needs to know how the price of his product will affect its sales. A <term>function</term><idx>function</idx> is a special type of relationship between variables that allows us to make such predictions.</p>
@@ -53,8 +168,8 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 <p>Note that there can be only one value of <m>C</m> for each value of <m>t</m>. We say that "<m>C</m> is a <term>function</term> of <m>t</m>." </p>
 
-<definition><title>Definition of Function</title>
-    <statement><p>A <term>function</term><idx>function</idx> is a relationship between two variables for which a exactly one value of the <term>output</term><idx><h>function</h><h>output variable</h></idx><idx><h>output variable</h><see>function</see></idx> variable is determined by each value of the <term>input</term><idx><h>function</h><h>input variable</h></idx><idx><h>input variable</h><see>function</see></idx> variable.</p></statement>
+<definition xml:id="Definition-function"><title>Definition of Function</title>
+    <statement><p>A <term>function</term><idx>function</idx> is a relationship between two variables for which exactly one value of the <term>output</term><idx><h>function</h><h>output variable</h></idx><idx><h>output variable</h><see>function</see></idx> variable is determined by each value of the <term>input</term><idx><h>function</h><h>input variable</h></idx><idx><h>input variable</h><see>function</see></idx> variable.</p></statement>
 </definition>
 
 <exercise><title>QuickCheck 1</title>
@@ -77,7 +192,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
     </solution>
 </webwork></exercise>
 
-<example  xml:id="example-functions"><p><ol label="a">
+<example  xml:id="example-functions"><p><ol marker="a">
     <li><p>The distance, <m>d</m>, traveled by a car in 2 hours is a function of its speed, <m>r</m>. If we know the speed of the car, we can determine the distance it travels by the formula <m>d = r \cdot 2</m>.</p></li>
     <li><p>The cost of a fill-up with unleaded gasoline is a function of the number of gallons purchased. The gas pump represents the function by displaying the corresponding values of the input variable (number of gallons) and the output variable (cost).</p></li>
     <li><p>Score on the Scholastic Aptitude Test (SAT) is not a function of score on an IQ test, because two people with the same score on an IQ test may score differently on the SAT; that is, a person’s score on the SAT is not uniquely determined by his or her score on an IQ test.</p></li></ol></p></example>
@@ -102,12 +217,12 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             $WHYcalories = RadioButtons(
               ["A) The number of calories is proportional to the number of fluid ounces.",
               "B) Two servings with the same calories will have different fluid ounces.",
-              "C) Two servings with the same flid ounces will have different calories."],
+              "C) Two servings with the same fluid ounces will have different calories."],
               0, # index of correct answer; could also just be the correct answer
             );
         </pg-code>
 
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>As part of a project to improve the success rate of freshmen, the counseling department studied the grades earned by a group of students in English and algebra. Do you think that a student's grade in algebra is a function of his or her grade in English? <var name="$YNgrade" form="popup"/></p>
         <p>Explain why or why not.</p>
         <p><var name="$WHYgrade" form="buttons"/></p></li>
@@ -116,7 +231,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
         <p><var name="$WHYcalories" form="buttons"/></p></li></ol></p>
     </statement>
 
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><p>No, students with the same grade in English can have different grades in algebra.</p></li>
             <li><p>Yes, the number of calories is proportional to the number of fluid ounces.</p></li></ol></p>
     </solution>
@@ -129,7 +244,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <subsection><title>Functions Defined by Tables</title>
 <p>When we use a table to describe a function, the first variable in the table (the left column of a vertical table or the top row of a horizontal table) is the input variable, and the second variable is the output. We say that the output variable <em>is a function of</em> the input.</p>
 
-<example xml:id="example-table-functions"><statement><p><ol label="a">
+<example xml:id="example-table-functions"><statement><p><ol marker="a">
     <li><p>The table below shows data on sales compiled over several years by the accounting office for Eau Claire Auto Parts, a division of Major Motors. In this example, the year is the input variable, and total sales is the output. We say that total sales, <m>S</m>, <em>is a function of</em> <m>t</m>.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -151,9 +266,9 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             <cell>2004</cell>
             <cell>$904,000</cell></row>
         </tabular></sidebyside></li>
-        <li><p>The table below gives the cost of sending a letter by first-class mail in 2020. </p>
+        <li><p>The table below gives the cost of sending a letter by first-class mail in 2022. <!-- in 2020.  --></p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-        <row bottom="minor">
+        <!-- <row bottom="minor">
             <cell>Weight in ounces <m>(w)</m></cell>
             <cell>Postage <m>(P)</m></cell></row>
         <row>
@@ -176,10 +291,34 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             <cell>$1.25</cell></row>
         <row> 
             <cell><m>6 \lt w \le 7 </m></cell>
-            <cell>$1.40</cell></row>
+            <cell>$1.40</cell></row> -->
+        <row bottom="minor">
+            <cell>Weight in ounces <m>(w)</m></cell>
+            <cell>Postage <m>(P)</m></cell></row>
+        <row>
+            <cell><m>0 \lt w \le 1 </m></cell>
+            <cell>$0.60</cell></row>
+        <row> 
+            <cell><m>1 \lt w \le 2 </m></cell>
+            <cell>$0.84</cell></row>
+        <row> 
+            <cell><m>2 \lt w \le 3 </m></cell>
+            <cell>$1.08</cell></row>
+        <row> 
+            <cell><m>3 \lt w \le 4 </m></cell>
+            <cell>$1.32</cell></row>
+        <row> 
+            <cell><m>4 \lt w \le 5 </m></cell>
+            <cell>$1.56</cell></row>
+        <row> 
+            <cell><m>5 \lt w \le 6 </m></cell>
+            <cell>$1.80</cell></row>
+        <row> 
+            <cell><m>6 \lt w \le 7 </m></cell>
+            <cell>$2.04</cell></row>
     </tabular></sidebyside>
 
-    <p>If we know the weight of the article being mailed, we can find the postage from the table. For instance, a catalog weighing 4.5 ounces would require $1.10 in postage. In this example, <m>w</m> is the input variable and <m>p</m> is the output variable. We say that <m>p</m> <em>is a function of</em> <m>w</m>.</p></li>
+    <p>If we know the weight of the article being mailed, we can find the postage from the table. For instance, a catalog weighing 4.5 ounces would require $1.56 in postage. In this example, <m>w</m> is the input variable and <m>p</m> is the output variable. We say that <m>p</m> <em>is a function of</em> <m>w</m>.</p></li>
 
     <li><p>The table below records the age and cholesterol count for 20 patients tested in a hospital survey.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -254,7 +393,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
     <p>According to these data, cholesterol count is <em>not</em> a function of age, because several patients who are the same age have different cholesterol levels. For example, three different patients are 51 years old but have cholesterol counts of 227, 209, and 216, respectively. Thus, we cannot determine a <em>unique</em> value of the output variable (cholesterol count) from the value of the input variable (age). Other factors besides age must influence a person’s cholesterol count.</p></li>
     </ol></p></statement></example>
 
-<note><p>Note that several different inputs for a function can have the same output.  For example, the inputs 4.5 and 4.25 in part (b) of the Example above have output $1.10. However, a single input cannot have more than one output, as illustrated in part (c) of the Example.</p></note>
+<note xml:id="Note-function-from-table"><p>Note that several different inputs for a function can have the same output.  For example, the inputs 4.5 and 4.25 in part (b) of <xref ref="example-table-functions" text="type-global"/> above have output $1.56. However, a single input cannot have more than one output, as illustrated in part (c) of the <xref ref="example-table-functions" text="custom">Example</xref>.</p></note>
 
 <exercise><title>Practice 2</title>
 <introduction><p>Decide whether each table describes <m>y</m> as a function of <m>x</m>. Explain your choice.</p></introduction>
@@ -278,7 +417,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             );
         </pg-code>
 
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><sidebyside width="63%" margins="0% 37%">
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor"> <row bottom="minor">
             <cell><m>x</m></cell>
@@ -327,7 +466,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
         </ol></p>
     </statement>
 
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><p>No, for example, <m>x=3.5</m> corresponds both to <m>y=2.5</m> and also to <m>y=4</m>.</p></li>
         <li><p>Yes, each value of <m>x</m> has exactly one value of <m>y</m> associated with it.</p></li>
         </ol></p>
@@ -358,24 +497,25 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <subsection><title>Functions Defined by Graphs</title>
 <p>We can also use a graph to define a function. The input variable is displayed on the horizontal axis, and the output variable on the vertical axis.</p>    
 
+
 <example xml:id="example-sun-hours"><statement>
     <p>The graph  shows the number of hours, <m>H</m>, that the sun is above the horizon in Peoria, Illinois, on day <m>t</m>, where <m>t = 0</m> on January 1.</p>
     <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%">        
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p>Which variable is the input, and which is the output?</p></li>
             <li><p>How many hours of sunlight are there in Peoria on day 150?</p></li>
             <li><p>On which days are there 12 hours of sunlight?</p></li>
             <li><p>What are the maximum and minimum values of <m>H</m>, and when do these values occur?</p></li>
         </ol></p>
         <image source="images/fig-sun-hours" ><description>Peoria sunlight hours</description></image>
-    </sidebyside></statement>
- 
-<solution><p><ol label="a">
+    </sidebyside></statement> 
+<solution><p><ol marker="a">
     <li><p>The input variable, <m>t</m>, appears on the horizontal axis. The number of daylight hours, <m>H</m>, is a function of the date. The output variable appears on the vertical axis.</p></li>
     <li><p>The point on the curve where <m>t = 150</m> has <m>H \approx 14.1</m>, so Peoria gets about 14.1 hours of daylight when <m>t = 150</m>, which is at the end of May.</p></li>
     <li><p><m>H = 12</m> at the two points where <m>t \approx 85</m> (in late March) and <m>t \approx 270</m> (late September).</p></li>
     <li><p>The maximum value of 14.4 hours occurs on the longest day of the year, when <m>t \approx 170</m>, about three weeks into June. The minimum of 9.6 hours occurs on the shortest day, when <m>t \approx 355</m>, about three weeks into December.</p></li>
-    </ol></p></solution></example>
+    </ol></p></solution>
+</example>
 
 <exercise><title>Practice 3</title>
 <introduction><p>The graph shows the elevation in feet, <m>a</m>, of the Los Angeles Marathon course at a distance <m>d</m> miles into the race. (Source: <em>Los Angeles Times</em>, March 3, 2005)</p>
@@ -418,7 +558,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             );            
         </pg-code>
 
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>Which variable is the input, and which is the output?</p>
         <p><var name="$input" form="buttons"/></p></li>
         <li><p>What is the elevation at mile 20?</p>
@@ -432,7 +572,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
     </ol></p>
     </statement>
 
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><p>The input variable is <m> d </m>, and the output variable is <m> a </m>.</p></li>
         <li><p>Approximately 210 feet</p></li>
         <li><p>Approximately where <m> d\approx 5 </m>, <m> d\approx 11 </m>, <m> d\approx 12 </m>, <m> d\approx 16 </m>, <m> d\approx 17.5 </m>, and <m> d\approx 18 </m></p></li>
@@ -508,24 +648,15 @@ to describe the function.</p>
 <p>In <xref ref="example-falling-book" text="type-global"/>, the height of an algebra book dropped from the top of One World Trade Center is given by the equation
     <me>h = 1776 - 16t^2</me>
 We see that</p>
-    <sidebyside><tabular>
-            <row>
-                <cell>when <m>t=1</m></cell>
-                <cell></cell>
-                <cell><m>h=1760</m></cell></row>
-            <row>
-                <cell>when <m>t=2</m></cell>
-                <cell></cell>
-                <cell><m>h=1712</m></cell></row>
-     </tabular></sidebyside>
+    <md>
+        <mrow>\text{when } t=1, \quad h=1760</mrow>
+        <mrow>\text{when } t=2, \quad h=1712</mrow>
+    </md>
 <p>Using function notation, these relationships can be expressed more concisely as</p>
-    <sidebyside><tabular>
-            <row>
-                <cell><m>f(1)=1760</m></cell>
-                <cell> and </cell>
-                <cell><m>f(2)=1712</m></cell></row>
-     </tabular></sidebyside>
-<p>which we read as "<m>f</m> of 1 equals 1760" and "<m>f</m> of 2 equals 1712." The values for the input variable, <m>t</m>, appear <em>inside</em> the parentheses, and the values for the output variable, <m>h</m>, appear on the other side of the equation.</p></example>  
+    <md>
+        <mrow>f(1)=1760 \quad\text{ and } \quad f(2)=1712</mrow>
+    </md>
+<p>which we read as "<m>f</m> of 1 equals 1760" and "<m>f</m> of 2 equals 1712." The values for the input variable, <m>t</m>, appear <em>inside</em> the parentheses, and the values for the output variable, <m>h</m>, appear on the other side of the equation.</p></example> 
 
 <p>Remember that when we write <m>y = f(x)</m>, the symbol <m>f(x)</m> is just another name for the output variable.</p>
 
@@ -562,7 +693,7 @@ We see that</p>
           2, 
         );
     </pg-code>
-<statement><p>True or False.<ol label="a">
+<statement><p>True or False.<ol marker="a">
     <li><p>The notation <m>f(t)</m> indicates the product of  <m>f</m> and <m>t</m>. <var name="$False" form="popup"/>
             </p></li>
     <li><p> If <m>y=f(x)</m>, then <m>f(x)</m> gives the value of the input variable. <var name="$False" form="popup"/>
@@ -571,7 +702,7 @@ We see that</p>
             </p></li>
     <li><p>In the equation <m>d=g(n)</m>, the letters <m>d</m>, <m>g</m>, and <m>n</m> are variables. <var name="$False" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li>False</li>
             <li>False</li>
             <li>False</li>
@@ -599,7 +730,7 @@ We see that</p>
             <li><p>What does the statement <m>F(15) = 9.7</m> mean in the context of the problem?</p>
             <p><var name="$meaning" form="buttons"/></p></li>
         </ol></p></statement>
-        <solution><p><ol label="a">
+        <solution><p><ol marker="a">
             <li><p><m>H = F(t)</m></p></li>
             <li><p>The sun is above the horizon in Peoria for 9.7 hours on January 16.</p></li></ol></p>
         </solution>
@@ -636,25 +767,25 @@ We see that</p>
             <row>
                 <cell>when <m>w=1</m>,</cell>
                 <cell></cell>
-                <cell><m>p=0.50</m></cell>
+                <cell><m>p=0.60</m></cell>
                 <cell> so </cell>
-                <cell><m>g(1)=0.50</m></cell></row>
+                <cell><m>g(1)=0.60</m></cell></row>
             <row>
                 <cell>when <m>w=3</m>,</cell>
                 <cell></cell>
-                <cell><m>p=0.80</m></cell>
+                <cell><m>p=1.00</m></cell>
                 <cell> so </cell>
-                <cell><m>g(3)=0.80</m></cell></row>
+                <cell><m>g(3)=1.08</m></cell></row>
             <row>
                 <cell>when <m>w=6.75</m>,</cell>
                 <cell></cell>
-                <cell><m>p=1.40</m></cell>
+                <cell><m>p=2.04</m></cell>
                 <cell> so </cell>
-                <cell><m>g(6.75)=1.40</m></cell></row>
+                <cell><m>g(6.75)=2.04</m></cell></row>
      </tabular></sidebyside>
-     <p>Thus, a letter weighing 1 ounce costs $0.50 to mail, a letter weighing 3 ounces costs $0.80, and a letter weighing 6.75 ounces costs $1.40.</p></solution></example>
+     <p>Thus, a letter weighing 1 ounce costs $0.60 to mail, a letter weighing 3 ounces costs $1.08, and a letter weighing 6.75 ounces costs $1.04.</p></solution></example>
 
-<p>We can also find the input (or inputs) corresponding to a given output. For example, if <m>p=g(w)</m> is the postage function, we solve the equation <m>g(w)=0.65</m> by finding all input values, <m>w</m>, that correspond to the output $0.65. According to the table in Example 2b, any value of <m>w</m> greater than 1 but less than or equal to 2 is a solution.</p>
+<p>We can also find the input (or inputs) corresponding to a given output. For example, if <m>p=g(w)</m> is the postage function, we solve the equation <m>g(w)=0.84</m> by finding all input values, <m>w</m>, that correspond to the output $0.84. According to the table in <xref ref="example-table-functions" text="type-global"/> part (b), any value of <m>w</m> greater than 1 but less than or equal to 2 is a solution.</p>
 
 <exercise><title>Practice 6</title>
     <webwork><pg-code>
@@ -690,7 +821,7 @@ We see that</p>
         <cell>116</cell>
         <cell>112</cell></row>
     </tabular></sidebyside> 
-    <p><ol label="a">
+    <p><ol marker="a">
         <li><p>Find <m> f(25) </m> and <m> f(50) </m>.</p>
             <p><m> f(25)= </m><var name="$r0" width="3"/></p>
             <p><m> f(50)= </m><var name="$r1" width="3"/></p></li>
@@ -698,7 +829,7 @@ We see that</p>
             <p><m> a= </m><var name="$a0" width="3"/></p></li></ol></p>
     </statement>
     <solution>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p><m> f (25) = 146 </m>,  <m> f(50) = 127 </m></p></li>
             <li><p><m> a = 40 </m></p></li></ol></p>
     </solution>
@@ -802,7 +933,6 @@ We see that</p>
     </solution>
 </webwork>    
 </exercise>
-
 </subsection>
 
 

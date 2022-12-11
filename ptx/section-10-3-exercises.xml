@@ -451,7 +451,7 @@
     <li><p>Divide each natural logarithm in your table by <m>\ln 5</m>. Explain the result.</p></li>
 </ol></p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 37<ndash/>42,<ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 37<ndash/>42,<ol marker="a">
         <li><p>Express each growth or decay law in the form <m>N(t) = N_0e^{kt}</m>. </p></li>
         <li><p>Check your answer by graphing both forms of the function on the same axes. Do they have the same graph?</p></li>
     </ol></p></introduction>

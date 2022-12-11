@@ -13,7 +13,7 @@
 
 <investigation><title>Water Level</title>
  
-<p>When sailing upstream in a canal or a river that has rapids, ships must sometimes negotiate locks to raise them to a higher water level. Suppose your ship is in one of the lower locks, at an elevation of 20 feet. The next lock is at an elevation of 50 feet. Water begins to flow from the higher lock to the lower one, raising your level by 1 foot per minute, and simultaneously lowering the water level in the next lock by 1.5 feet per minute. <ol label="1">
+<p>When sailing upstream in a canal or a river that has rapids, ships must sometimes negotiate locks to raise them to a higher water level. Suppose your ship is in one of the lower locks, at an elevation of 20 feet. The next lock is at an elevation of 50 feet. Water begins to flow from the higher lock to the lower one, raising your level by 1 foot per minute, and simultaneously lowering the water level in the next lock by 1.5 feet per minute. <ol marker="1">
 
 <li><p>Fill in the table</p>
 
@@ -48,7 +48,7 @@
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
 
-<li><p>Let <m>t</m> stand for the number of minutes the water has been flowing.<ol label="a">
+<li><p>Let <m>t</m> stand for the number of minutes the water has been flowing.<ol marker="a">
     <li>Write an equation for <m>L</m>, the water level in the lower lock after <m>t</m> minues.</li>
     <li>Write an equation for <m>U</m>, the water level in the upper lock after <m>t</m> minues.</li></ol></p></li>
 

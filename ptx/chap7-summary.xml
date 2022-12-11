@@ -27,8 +27,8 @@
 
 </subsection>
 <subsection><title>Key Concepts</title>
-<p><ol label="1">
-    <li>Exponential growth was modeled by increasing functions of the form <m>P(t)=P_0b^t</m>,  where the growth factor, <m>b</m>, is a number greater than 1.  </li>
+<p><ol marker="1">
+    <li>Exponential growth is modeled by increasing functions of the form <m>P(t)=P_0b^t</m>,  where the growth factor, <m>b</m>, is a number greater than 1.  </li>
     <li><assemblage><title>Exponential Growth</title>
         <p>The function
                 <me>P(t)=P_0 b^t</me> 
@@ -41,7 +41,7 @@
     <li><assemblage><title>Compound Interest</title>
         <p>If a <term>principal</term> of <m>P</m> dollars is invested in an account that pays an interest rate <m>r</m> compounded annually, the <term>balance</term> <m>B</m> after <m>t</m> years is given by
             <me>B=P(1+r)^t</me></p></assemblage></li>
-    <li><assemblage><title>Laws of Exponents</title><p><ol label="I">
+    <li><assemblage><title>Laws of Exponents</title><p><ol marker="I">
         <li><p><m>\displaystyle{a^m\cdot a^n = a^{m+n}}</m></p></li>
         <li><p><m>\displaystyle{\frac{a^m}{a^n}=a^{m-n}}</m></p></li>
         <li><p><m>\displaystyle{\left(a^m\right)^n=a^{mn}}</m></p></li>
@@ -49,7 +49,7 @@
         <li><p><m>\displaystyle{\left(\frac{a}{b}\right)^n=\frac{a^n}{b^n}}</m></p></li></ol></p></assemblage></li>
     <li>If <m>0 \lt b \lt 1</m>, then <m>P(t)=P_0b^t</m> is a decreasing function. In this case <m>P(t)</m> is said to describe exponential decay.</li> 
     <li>A percent increase of <m>r</m> (in decimal form) corresponds to a growth factor of <m>b=1+r</m>.  
-        A percent decrease of  corresponds to a decay factor of <m>b=1-r</m>. </li>
+        A percent decrease of  <m>r</m> corresponds to a decay factor of <m>b=1-r</m>. </li>
     <li><assemblage><title>Exponential Growth and Decay</title><idx>exponential growth and decay</idx>
         <p>The function
             <me>P(t) = P_0 b^t</me>
@@ -116,20 +116,20 @@
         </p></assemblage></li>
     <li>We use logarithms to solve exponential equations, just as we use square roots to solve quadratic equations. The operation of taking a base <m>b</m> logarithm is the inverse of raising the base <m>b</m> to a power, just as extracting square roots is the inverse of squaring a number.</li>
     <li><assemblage><title>Steps for Solving Base 10 Exponential Equations</title>
-        <p><ol label="1">
+        <p><ol marker="1">
             <li>Isolate the power on one side of the equation.</li>
             <li>Rewrite the equation in logarithmic form.</li>
             <li>Use a calculator, if necessary, to evaluate the logarithm.</li>
             <li>Solve for the variable.</li></ol></p>
         </assemblage></li>
     <li><assemblage><title>Properties of Logarithms</title>
-        <p>If <m>x,~y,</m> and <m>b\gt 0,</m> and <m>b\ne 1</m>, then <ol label="1">
+        <p>If <m>x,~y,</m> and <m>b\gt 0,</m> and <m>b\ne 1</m>, then <ol marker="1">
             <li><m>\log_b {xy} = \log_b {x} + \log_b {y}</m></li>
             <li><m>\log_b {\dfrac{x}{y}} = \log_b {x} - \log_b {y}</m></li>
             <li><m>\log_b {x^k} = k\log_b {x} </m></li></ol>
         </p></assemblage></li>
     <li><assemblage><title>Steps for Solving Exponential Equations</title>
-        <p><ol label="1">
+        <p><ol marker="1">
             <li>Isolate the power on one side of the equation.</li>
             <li>Take the base 10 logarithm of both sides of the equation.</li>
             <li>Apply the third property of logarithms to simplify.</li>

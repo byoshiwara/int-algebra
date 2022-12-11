@@ -6,7 +6,7 @@
 <introduction>
 <sidebyside widths="34% 64%" margins="0% 0%" valigns="middle middle">
     <image source="images/fig-solve-rational-equation"><description>graph of rational function for solving equation</description></image>
-<p>In <xref ref="example-pedal-aircraft" text="type-global"/>, of Section 8.2, Francine planned a 60-mile training run on her cycle-plane. The time required for the training run, in terms of the windspeed, <m>x</m>, is given by:
+<p>In <xref ref="example-pedal-aircraft" text="type-global"/> of Section 8.2 Francine planned a 60-mile training run on her cycle-plane. The time required for the training run, in terms of the windspeed, <m>x</m>, is given by:
     <me>t=f(x) = \dfrac{60}{15-x}</me>
 If it takes Francine 9 hours to cover 60 miles, what is the speed of the wind? We can answer this question by reading values from the graph of <m>f</m>, as shown at left. When <m>t = 9</m>, the value of <m>x</m> is between 8 and 9, so the windspeed is between 8 and 9 miles per hour.</p></sidebyside>
 </introduction>
@@ -181,13 +181,13 @@ The two towns are 80 kilometers apart.</p></solution></example>
             3
         );        
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>To clear fractions from an equation, we multiply each term by the <var name="$lcd" form="popup"/> of all the fractions.</p></li>
         <li><p>True or False:  When clearing fraction from an equation, we do not multiply terms that are not fractions. <var name="$False" form="popup"/></p></li>
         <li><p>A proportion is a statement that two <var name="$ratios" form="popup"/> are equal. </p></li>
         <li><p>Cross-multiplying works only on  <var name="$prop" form="popup"/>.</p></li>
     </ol></p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li>LCD</li>
     <li>False</li>
     <li>ratios</li>
@@ -197,7 +197,7 @@ The two towns are 80 kilometers apart.</p></solution></example>
 
 <subsection><title>Extraneous Solutions</title>
 
-<p>An algebraic fractions is undefined for any values of <m>x</m> that make its denominator equal zero. These values cannot be solutions to equations involving the fraction. Consider the equation
+<p>An algebraic fraction is undefined for any values of <m>x</m> that make its denominator equal zero. These values cannot be solutions to equations involving the fraction. Consider the equation
     <me>\dfrac{x}{x-3}=\frac{3}{x-3}+2</me>
 When we multiply both sides by the LCD, <m>x - 3</m>, we obtain
     <md><mrow>\alert{(x - 3)}\frac{x}{x-3} \amp =\alert{(x - 3)}\frac{3}{x-3}+\alert{(x - 3)}\cdot 2</mrow>
@@ -262,13 +262,13 @@ you will find that the graphs never intersect, which means that there is no solu
             1
         );        
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li>An algebraic fraction is undefined when <var name="$undef" form="popup"/>.</li>
         <li>An apparent solution that does not satisfy the original equation is called  <var name="$extra" form="popup"/> solution.</li>
         <li>We may introduce extraneous solutions if we multiply both sides of an equation by <var name="$zero" form="popup"/>.</li>
         <li>We must multiply each <var name="$term" form="popup"/> of the equation by the LCD.</li>
     </ol></p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li>the denominator equals zero</li>
         <li>an extraneous</li>
         <li>an expression containing the variable</li>
@@ -319,14 +319,14 @@ and obtain the close-up view shown in figure (b). In this window, we can see tha
     </pg-code>
     <statement><p>The manager of a new health club kept track of the number of active members over the club's first few months of operation.  The number, <m>N</m>  of active members, in hundreds, <m>t</m> months after the club opened is given by the equation
     <md><mrow>N=\dfrac{10t}{4+t^2}</mrow></md>
-    <ol label="a">
+    <ol marker="a">
     <li><p>Graph the equation in the window
         <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 9.4</mrow>
             <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 3</mrow></md></p></li>
     <li><p>Use the graph to find out in which months the club had 200 active members.</p>
         <p>Months: <var name="$answer" width="5"/> Enter month numbers separated by a comma.</p></li>
     <li>Verify your answer algebraically by solving an equation.</li></ol></p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li>A graph is below.</li>
     <li>1, 4</li></ol></p></solution>
 </webwork>
@@ -396,7 +396,7 @@ to obtain the graph shown below.</p>
         $t = Compute("9/2");
         $ans = Compute("9");
     </pg-code>
-    <statement><p>A cruise boat travels 18 miles downstream and back in <m>4\dfrac{1}{2}</m> hours. If the speed of the current is 3 miles per hour, what is the speed of the boat in still water? <ol label="a">
+    <statement><p>A cruise boat travels 18 miles downstream and back in <m>4\dfrac{1}{2}</m> hours. If the speed of the current is 3 miles per hour, what is the speed of the boat in still water? <ol marker="a">
         <li><p>Let <m>x</m> represent the speed of the boat in still water, and fill in the table.</p>
                     <sidebyside><tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
                         <row>
@@ -421,7 +421,7 @@ to obtain the graph shown below.</p>
         <li><p>Solve your equation, and answer the question in the problem.</p>
             <p><m>x=</m><var name="$ans" width="3"/>: The speed of the boat in still water is <var name="$ans" width="2"/> mph.</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li><sidebyside><tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
             <row>
                 <cell></cell>
@@ -488,12 +488,12 @@ We cannot combine the two terms containing <m>v</m> because they are not like te
             2
         );        
     </pg-code>
-    <statement><p>True or False.<ol label="a">
+    <statement><p>True or False.<ol marker="a">
         <li><p>To solve an equation graphically, we graph two functions, <m>y=</m> (each side of the equation.) <var name="$True" form="popup"/></p></li>
         <li><p>The solutions are the <m>y</m>-coordinates of the intersection points of the two graphs.  <var name="$False" form="popup"/></p></li>
         <li><p>To solve a formula that is linear in the desired variable, we must get all terms including that variable on one side of the equation. <var name="$True" form="popup"/></p></li>
         <li><p>If two or more terms on one side of the equation include the desired variable, we factor it out. <var name="$True" form="popup"/></p></li></ol></p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li>True</li>
     <li>False</li>
     <li>True</li>

@@ -41,20 +41,20 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="9"><statement><p><ol label="a">
+<exercise number="9"><statement><p><ol marker="a">
         <li><p>Compute the slope of the line.</p>
             <sidebyside width="40%"><image source="images/fig-hw-line-slope-3halves"><description>graph</description></image></sidebyside></li>
         <li><p>Start at point <m>(0,2)</m> and move 4 units in the positive <m>x</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
         <li><p>Start at point <m>(0,2)</m> and move <m>-6</m> units in the positive <m>x</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
         <li><p>Suppose you start at any point on the line and move 18 units in the <m>x</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? Use the equation <m>m=\dfrac{\Delta y}{\Delta x}</m> to calculate your answer.</p></li>
     </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
         <li><m>\dfrac{3}{2} </m></li>
         <li><m>6,~ \dfrac{3}{2}</m></li>
         <li><m>-9,~ \dfrac{3}{2}</m></li>
         <li>27</li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><p><ol label="a">
+<exercise number="10"><statement><p><ol marker="a">
         <li><p>Compute the slope of the line.</p>
             <sidebyside width="40%"><image source="images/fig-hw-line-slope-neg3fourths"><description>graph</description></image></sidebyside></li>
         <li><p>Start at point <m>(0,-6)</m> and move <m>-6</m> units in the <m>y</m>-direction (down). How many units must you move in the <m>x</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
@@ -79,13 +79,13 @@
         <sidebyside width="60%"><image source="images/fig-ex-1-4-26"><description>four lines</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 15 and 16, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 15 and 16, <ol marker="a">
     <li>Graph the line by the intercept method.</li>
     <li>Use the intercepts to compute the slope.</li>
     <li><p>Use the intercepts to illustrate the slope on each graph. Put arrows on <m>\Delta x</m> and <m>\Delta y</m> to indicate the direction of motion.</p></li></ol></p></introduction>
 
 <exercise number="15"><statement><p><m>9x+12y=36</m></p></statement>
-<answer><p><ol label="a"><li>
+<answer><p><ol marker="a"><li>
         <sidebyside width="80%" margins="0% 0%">
             <image xml:id="fig-9x-plus12y-eq36"><description>9x+12y=36</description>
             <latex-image>
@@ -112,10 +112,10 @@
 <exercise number="16"><statement><p><m>\dfrac{x}{7}-\dfrac{y}{4}=1 </m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="17"><statement><p>Residential staircaises are usutally built with a slope of 70%, or <m>\dfrac{7}{10}</m>. If the vertical distance between stories is 10 feet, how much horizontal space does the staircase require?</p></statement>
+<exercise number="17"><statement><p>Residential staircaises are usually built with a slope of 70%, or <m>\dfrac{7}{10}</m>. If the vertical distance between stories is 10 feet, how much horizontal space does the staircase require?</p></statement>
 <answer><p>14.29 ft</p></answer></exercise>
 
-<exercise number="18"><statement><p>A line has slope <m>m=\dfrac{-4}{5} </m> . Use the equation <m>m=\dfrac{\Delta y}{\Delta x} </m> to find the horizontal or vertical change along the line.<ol label="a" cols="2">
+<exercise number="18"><statement><p>A line has slope <m>m=\dfrac{-4}{5} </m> . Use the equation <m>m=\dfrac{\Delta y}{\Delta x} </m> to find the horizontal or vertical change along the line.<ol marker="a" cols="2">
                 <li><p><m>\Delta x = -10</m></p></li>
                 <li><p><m>\Delta y = 2</m></p></li>
                 <li><p><m>\Delta x = 12</m></p></li>
@@ -123,7 +123,7 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 19 and 20, which tables represent variables that are related by a linear equation? (Hint: which relationships have constant slope?)</p></introduction>
 
-<exercise number="19"><statement><p><ol label="a" cols="2">
+<exercise number="19"><statement><p><ol marker="a" cols="2">
     <li><sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                         <row>
                             <cell><m>x</m></cell>
@@ -166,7 +166,7 @@
                     </tabular></sidebyside></li></ol></p></statement>
 <answer><p>(a)</p></answer></exercise>
 
-<exercise number="20"><statement><p><ol label="a" cols="2">
+<exercise number="20"><statement><p><ol marker="a" cols="2">
    <li><sidebyside margins="0% 20%"><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                         <row>
                             <cell><m>h</m></cell>
@@ -213,7 +213,7 @@
 <subexercises><title>Applications</title>
 
 <exercise number="21"><statement><p>The population of Smallville grew from 7000 people in 1990 to 16,600 in 2002.
-    <ol label="a">
+    <ol marker="a">
         <li><p>Use a rate of change to calculate the town's average rate of growth, in people per year. First, complete the table of values:</p>
             <sidebyside widths="50% 40%" margins="0% 0%">
             <stack><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
@@ -255,7 +255,7 @@
     <li><p>Illustrate <m>\Delta P</m> and <m>\Delta t</m> by line segments on the graph. (Note that the <m>P</m>-axis is labeled in thousands.)</p></li>
     <li><p>How much did the town grow each year?</p></li>
     <li><p>Write a linear model for <m>P</m> in terms of <m>t</m>.</p></li></ol>  </p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><sidebyside width="45%" margins="0% 5%"><image xml:id="fig-linear-growth-slope"><description>del x and del y</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -300,12 +300,12 @@
                         <cell><m>10.5</m></cell>
                         <cell><m>9.75</m></cell></row>
                     </tabular></sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
     <li>Choose appropriate scales for the axes and plot the data. Do the points lie on a straight line?</li>
     <li>Compute the slope of the graph, including units, and explain what the slope tells us about the candle.</li>
     <li>Write a linear model for <m>h</m> in terms of <m>t</m>.</li></ol></p></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 23 and 24,<ol label="a">
+<exercisegroup><introduction><p>For Problems 23 and 24,<ol marker="a">
             <li><p>Choose two points and compute the slope, including units.</p></li>
             <li><p>Write the slope as a rate of change, including units.</p></li>
             <li><p>Illustrate the slope on the graph.</p></li>
@@ -331,7 +331,7 @@
         \filldraw[red] (8,0) circle (.12cm);
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
         <li><p><m>-6</m> liters/day</p></li>
         <li><p>The water supply is decreasing at a rate of 6 liters per day.</p></li>
         <li><sidebyside width="35%" margins="0% 0%"><image xml:id="fig-water-remaining-ans"><description>line with changes in W and t</description><latex-image>
@@ -414,11 +414,11 @@
                         <cell><m>27.2</m> </cell>
                         <cell><m>28.04</m> </cell></row>
             </tabular></sidebyside>
-            <p><ol label="a">
+            <p><ol marker="a">
                 <li><p>If you plot the data, will the points lie on a straight line? Why or why not?</p></li>
                 <li><p>Interpret the slope as a rate of change. Include units in your answer</p></li>
         </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
             <li><p>Yes, the slope is 0.12</p></li>
             <li><p>0.12 cm/kg: The spring stretches an extra 0.12 cm for each additional 1 kg mass.</p></li></ol></p>
 </answer></exercise>
@@ -441,31 +441,31 @@
                 <cell>15</cell>
                 <cell>94.248</cell></row>
         </tabular></sidebyside>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p>If we plot the data, will the points lie on a straight line? Why or why not?</p></li>
             <li><p>What familiar number does the slope turn out to be? (Hint: Recall a formula from geometry.) What does the slope tell us about circles?</p></li></ol></p></statement></exercise>
 
 <exercise number="27"><statement><p>Geologists calculate the speed of seismic waves by plotting the travel times for waves to reach seismometers at known distances from the epicenter. The speed of the wave can help them determine the nature of the material it passes through. The graph shows a travel time graph for P-waves from a shallow earthquake.</p>
    <sidebyside width="40%"><image source="images/fig-P-waves"><description>graph</description></image></sidebyside> 
-<p><ol label="a">    
+<p><ol marker="a">    
     <li>Why do you think the graph is plotted with distance as the independent variable?</li>
     <li>Use the graph to calculate the speed of the wave.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li>The distances to the stations are known.</li>
     <li>5.7 km/sec</li></ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>Niagara Falls was discovered by Father Louis Hennepin in 1682. In 1952, much of the water of the Niagara River was diverted for hydroelectric power, but until that time erosion caused the Falls to recede upstream by 3 feet per year.<ol label="a">
+<exercise number="28"><statement><p>Niagara Falls was discovered by Father Louis Hennepin in 1682. In 1952, much of the water of the Niagara River was diverted for hydroelectric power, but until that time erosion caused the Falls to recede upstream by 3 feet per year.<ol marker="a">
         <li><p>How far did the Falls recede from 1682 to 1952?</p></li>
         <li><p>The Falls were formed about 12,000 years ago during the end of the last ice age. How far downstream from their current position were they then? (Give your answer in miles.)</p></li></ol></p>
 </statement></exercise>
 
 <exercise number="29"><statement><p>Naismith’s Rule is used by runners and walkers to estimate journey times in hilly terrain. In 1892 Naismith wrote in the Scottish Mountaineering Club Journal that a person “in fair condition should allow for easy expeditions an hour for every three miles on the map, with an additional hour for every 2000 feet of ascent.”
-(Source: Scarf, 1998.)<ol label="a">
+(Source: Scarf, 1998.)<ol marker="a">
     <li>According to Naismith, 1 unit of ascent requires the same travel time as how many units of horizontall travel? 
         (This is called Naismith’s number.) Round your answer to one decimal place.</li>
     <li>A walk in the Brecon Beacons in Wales covers 3.75 kilometers horizontally and climbs 582 meters. What is the equivalent flat distance?</li>
     <li>If you can walk at a pace of 15 minutes per kilometer over flat ground, how long will the walk in the Brecon Beacons take you?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li>7.9</li>
     <li>8.35 km</li>
     <li>2 hrs 5 min</li></ol></p></answer></exercise>

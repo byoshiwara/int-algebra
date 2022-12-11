@@ -17,10 +17,10 @@
 </exercise>
 </exercisegroup>
 
-<exercise number="3"><statement><p>You are in charge of selling tickets to a one-woman show at a local art gallery.  Tickets to the opening night were priced at $25, and you sold 30 tickets. <ol label="a">
+<exercise number="3"><statement><p>You are in charge of selling tickets to a one-woman show at a local art gallery.  Tickets to the opening night were priced at $25, and you sold 30 tickets. <ol marker="a">
     <li>Every night after the opening, you reduce the ticket price by $2. What is the ticket price after <m>x</m> nights?</li>
     <li>Every night after the opening, you sell 4 more tickets than the previous night. How many tickets did you sell <m>x</m> nights after the opening?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>25-2x</m></li>
     <li><m>30+4x</m></li></ol></p></answer></exercise>
 
@@ -90,11 +90,11 @@
                         <cell><m>62</m></cell>
                         <cell><m>72</m></cell>
                         <cell><m>40</m></cell></row>
-                    </tabular></sidebyside> <p><ol label="a">
+                    </tabular></sidebyside> <p><ol marker="a">
     <li>Use the first three data points to fit a quadratic equation to the data, <m>~N=ax^2+bx+c</m>, where <m>x</m> represents age.</li>
     <li>What does your equation predict for the number of 40-year-olds who were the victims of homicide?</li>
     <li>Sketch the graph of your quadratic equation and the given data on the same axes.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>y=a(x-5)^2-10=-0.2x^2+11x-78</m></li>
     <li><m>42</m></li></ol></p></answer></exercise>
 
@@ -116,7 +116,7 @@
                         <cell><m>21</m></cell>
                         <cell><m>21</m></cell>
                         <cell><m>20</m></cell></row>
-                    </tabular></sidebyside> <p><ol label="a">
+                    </tabular></sidebyside> <p><ol marker="a">
     <li>Use the first three data points to find a quadratic model, <m>~E=an^2+bn+c</m>.</li>  
     <li>Plot the data and sketch the model on the same axes.</li> 
     <li>What does the model predict for the number of eggs produced when 39 hens are confined in the henhouse?</li>
@@ -187,10 +187,10 @@
                         <cell><m>9</m></cell></row>
                     </tabular></sidebyside> 
             <p>(Source:  www.cjd.ed.ac.uk/vcjdqsep05)</p>
-    <p><ol label="a">
+    <p><ol marker="a">
     <li>The Health Protection Agency determined that a quadratic model was the best-fitting model for the data. Find a quadratic regression equation for the data.</li> 
     <li>Use your model to estimate when the peak of the epidemic occurred, and how many deaths from mad cow disease were expected in 2005.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
         <li><m>N=-0.59t^2+7.33t-2.54</m></li>
         <li><m>2000;~7</m></li></ol></p></answer></exercise>
 
@@ -214,7 +214,7 @@
                         <cell><m>22.8</m></cell>
                         <cell><m>23.9</m></cell></row>
                     </tabular></sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
     <li>Find the equation of the least-squares regression line for the height of the flare in terms of time.</li>
     <li>Use the regression line to predict the height of the flare 1.4 seconds after it exploded.</li>
     <li>Make a scatterplot of the data and draw the regression line on the same axes.</li>
@@ -226,17 +226,17 @@
 
 <exercise number="21"><statement><p>Some comets move about the sun in parabolic orbits. In 1973 the comet Kohoutek passed within 0.14 AU (<term>astronomical units</term><idx><h>astronomical units</h></idx>), or 21 million kilometers of the sun. Imagine a coordinate system superimposed on a diagram of the comet's orbit, with the sun at the origin, as shown below. The units on each axis are measured in AU.</p>
     <sidebyside  width="20%"><image source="images/fig-comet-parabola"><description>graph</description></image></sidebyside>  
-<p><ol label="a">
+<p><ol marker="a">
     <li>The comet's closest approach to the sun (called perihelion) occurred at the vertex of the parabola. What were the comet's coordinates at perihelion?  </li> 
     <li>When the comet was first discovered, its coordinates were <m>(1.68,-4.9)</m>. Find an equation for comet Kohoutek's orbit in vertex form.</li></ol></p>
 </statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>(0,0.14)</m></li>
     <li><m>y=-1.786x^2+0.14</m></li></ol></p></answer></exercise>
 
 <exercise number="22"><statement><p>The Akashi Kaikyo bridge in Japan is the longest suspension bridge in the world, with a main span of 1991 meters. Its main towers are 297 meters tall. The roadbed of the bridge is 14 meters thick and clears the water below by 65 meters. The cables on a suspension bridge hang in the shape of parabolas. Imagine a coordinate system superimposed on the diagram of the bridge, as shown in the figure.</p>
-    <sidebyside  width="40%"><image source="images/fig-suspension-bridge"><description>graph</description></image></sidebyside> 
-<p><ol label="a">
+    <sidebyside  width="60%"><image source="images/fig-suspension-bridge"><description>graph</description></image></sidebyside> 
+<p><ol marker="a">
     <li>Find the coordinates of the vertex and one other point on the cable.</li>
    <li>Use the points from part (a) to find an equation for the shape of the cable in vertex form.</li></ol></p>
  </statement></exercise>    

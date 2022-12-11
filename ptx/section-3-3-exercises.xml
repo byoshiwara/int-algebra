@@ -18,18 +18,18 @@
 
 <exercisegroup><introduction><p>For problems 3 and 4, which technique would you use to solve the equation, extracting roots or factoring? Then solve the equation.</p></introduction>
 
-<exercise number="3"><statement><p><ol label="a" cols="2">
+<exercise number="3"><statement><p><ol marker="a" cols="2">
     <li><m>3x^2-15=0</m></li>
     <li><m>3x^2-15x=0</m></li>
     <li><m>(2x-3)^2=9</m></li>
     <li><m>2x^2-3x=9</m></li></ol></p></statement></exercise>
 
- <exercise number="4"><statement><p><ol label="a" cols="2">
+ <exercise number="4"><statement><p><ol marker="a" cols="2">
     <li><m>20x-2x^2</m></li>
     <li><m>20=2x^2</m></li>
     <li><m>4x^2=2+2x</m></li>
     <li><m>4(x+2)^2-1=0</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li>factoring; <m>0,10</m></li>
     <li>extraction of roots; <m>\pm \sqrt{10}</m></li>
     <li>factoring; <m>\dfrac{-1}{2}, 1</m></li>
@@ -56,7 +56,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="9"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol label="a" cols="3">
+<exercise number="9"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol marker="a" cols="3">
         <li><m>y=x^2+k</m></li>
         <li><m>y=x^2+kx </m></li>
         <li><m>y=kx^2</m></li>
@@ -65,7 +65,7 @@
         <li><m>y=x^2-k </m></li></ol></p>
         <sidebyside width="90%"><image source="images/fig-hw-3-3-1" ><description>parabolas</description></image></sidebyside>
     </statement>
-    <answer><p><ol label="a" cols="2">
+    <answer><p><ol marker="a" cols="2">
         <li>ii</li>
         <li>iv</li>
         <li>i</li>
@@ -73,7 +73,7 @@
         <li>vi</li>
         <li>v</li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol label="a" cols="3">
+<exercise number="10"><statement><p>Match each equation with its graph. In each equation, <m>k \gt 0</m>.<ol marker="a" cols="3">
         <li><p><m>y=-kx</m></p></li>
         <li><p><m>y=-kx^2 </m></p></li>
         <li><p><m>y=k-x^2</m></p></li>
@@ -82,17 +82,17 @@
         <li><p><m>y=x^2-kx </m></p></li></ol></p><sidebyside width="90%"><image source="images/fig-hw-3-3-8" ><description>parabolas</description></image></sidebyside>
     </statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 11 and 12: <ol label="a">
+<exercisegroup><introduction><p>For Problems 11 and 12: <ol marker="a">
     <li>Describe what each graph will look like compared to the basic parabola.</li>
     <li>Sketch the graph by hand and label the coordinates of three points on the graph.</li></ol></p></introduction>
 
-<exercise number="11"><statement><p><ol label="i" cols="3">
+<exercise number="11"><statement><p><ol marker="i" cols="3">
     <li><m>y=2x^2</m></li>
     <li><m>y=\dfrac{1}{2}x^2</m></li>
     <li><m>y=-x^2</m></li></ol></p></statement>
-<answer><p><ol label="i">
+<answer><p><ol marker="i">
     <li><p>
-        <ol label="a">
+        <ol marker="a">
             <li>Narrower</li>
             <li><sidebyside>
                  <image xml:id="fig-y-eq-2-x-sq">
@@ -117,7 +117,7 @@
                 \filldraw[red] (2,4) circle (.1) node[below right, xshift=2, fill=white, inner sep=2] {$(2,8)$};
                 \end{tikzpicture}]]>
                 </latex-image></image></sidebyside></li></ol></p></li>
-    <li><p><ol label="a">
+    <li><p><ol marker="a">
             <li>Wider</li>
             <li><sidebyside><image xml:id="fig-y-eq-half-x-sq"><description>graph y=2x-squared</description>
                 <latex-image>
@@ -140,7 +140,7 @@
                 \filldraw[red] (2,2) circle (.1) node[ right, xshift=.2cm, fill=white, inner sep=2] {$(2,2)$};
                 \end{tikzpicture}]]>
                 </latex-image></image></sidebyside></li></ol></p></li>
-    <li><p><ol label="a">
+    <li><p><ol marker="a">
             <li>Opens downward</li>
             <li><sidebyside><image xml:id="fig-y-eq-neg-x-sq"><description>graph y=neg x-squared</description>
                 <latex-image>
@@ -165,7 +165,7 @@
                 </latex-image></image></sidebyside></li></ol></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p><ol label="i" cols="3">
+<exercise number="12"><statement><p><ol marker="i" cols="3">
     <li><m>y=x^2+2</m></li>
     <li><m>y=x^2-9</m></li>
     <li><m>y=100-x^2</m></li></ol></p></statement></exercise>
@@ -251,7 +251,7 @@
 <exercise number="19"><statement><p>Commercial fishermen rely on a steady supply of fish in their area. To avoid overfishing, they adjust their harvest to the size of the population. The formula
     <me>R=0.4x-0.001x^2</me>
 gives the annual rate of growth, in tons per year, of a fish population of biomass <m>x</m> tons.
-<ol label="a">
+<ol marker="a">
     <li>Find the vertex of the graph. What does it tell us about the fish population?</li>
     <li>Find the <m>x</m>-intercepts of the graph. What do they tell us about the fish population?</li>
     <li><p>Sketch the graph for <m>0 \le x \le 5000</m>.</p>
@@ -273,7 +273,7 @@ gives the annual rate of growth, in tons per year, of a fish population of bioma
             \end{tikzpicture}]]>
         </latex-image></image></sidebyside></li>
     <li>For what values of <m>x</m> does the fish population decrease rather than increase? Suggest a reason why the population might decrease.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>(2000, 400)</m></li>
     <li><m>(0,0), (4000,0)</m></li>
     <li><sidebyside width="65%" margins="0% 10%">
@@ -300,7 +300,7 @@ gives the annual rate of growth, in tons per year, of a fish population of bioma
 <exercise number="20"><statement><p>After it lands on Earth, the distance the space shuttle travels is given by
         <me> d=vT+\dfrac{v^2}{2a}</me>   
 where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the pilot's reaction time before the brakes are applied, and <m>a</m> is the shuttle's deceleration.
- <ol label="a">
+ <ol marker="a">
     <li>Suppose that for a particular landing, <m>T=0.5</m> seconds and <m>a=12</m> ft/sec. Write the equation for <m>d</m> in terms of <m>v</m>, using these values.</li>    
     <li>Find the coordinates of the vertex and the horizontal intercepts of the graph of your equation.  Use these points to help you graph the equation.</li> 
     <li>Explain the meaning of the vertex and the intercepts, if any, in this context. As <m>v</m> increases, what happens to <m>d</m>?</li>  
@@ -309,37 +309,37 @@ where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the
 
 <exercisegroup cols="2"><introduction><p>For problems 21<ndash/>24, graph the set of equations in the standard window on your calculator.  Describe how the <term>parameters</term><idx>parameter</idx> (constants) <m>a</m>,<m>b</m>, and <m>c</m> in each equation transform the graph, compared to the basic parabola.</p></introduction>
 
-<exercise number="21"><statement><p><ol label="a">  
+<exercise number="21"><statement><p><ol marker="a">  
     <li><m>y=x^2</m></li>
     <li><m>y=3x^2</m></li>
     <li><m>y=\dfrac{1}{4}x^2</m></li>
     <li><m>y=-2x^2</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li>basic parabola</li>
     <li>narrower</li>
     <li>wider</li>
     <li>narrower and reflected about <m>y</m>-axis</li></ol></p>
 </answer></exercise>
 
-<exercise number="22"><statement><p><ol label="a">  
+<exercise number="22"><statement><p><ol marker="a">  
     <li><m>y=x^2</m></li>
     <li><m>y=x^2+1</m></li>
     <li><m>y=x^2+3</m></li>
     <li><m>y=x^2-6</m></li></ol></p></statement></exercise>
 
-<exercise number="23"><statement><p><ol label="a">  
+<exercise number="23"><statement><p><ol marker="a">  
     <li><m>y=x^2-4x</m></li>
     <li><m>y=x^2+4x</m></li>
     <li><m>y=4x-x^2</m></li>
     <li><m>y=-x^2-4x</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>x</m>-intercepts at 0 and 4</li>
     <li><m>x</m>-intercepts at 0 and <m>-4</m></li>
     <li>reflection of (a) about <m>y</m>-axis</li>
     <li>reflection of (b) about <m>y</m>-axis</li></ol></p>
 </answer></exercise>
 
-<exercise number="24"><statement><p><ol label="a">  
+<exercise number="24"><statement><p><ol marker="a">  
     <li><m>y=x^2-4x</m></li>
     <li><m>y=2x^2-8x</m></li>
     <li><m>y=\dfrac{1}{2}x^2-2x</m></li>

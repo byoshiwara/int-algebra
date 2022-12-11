@@ -36,7 +36,7 @@
             <mrow>4x+5y \amp = 10</mrow></md></p>
         <p><var name="$pick" form="buttons"/></p>      
     </statement>
-    <solution><p><m>(5,-2)</m> satiesfies both equations.</p>
+    <solution><p><m>(5,-2)</m> satisfies both equations.</p>
     </solution>
 </webwork></exercise>
 
@@ -79,14 +79,14 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
           1, 
         );
     </pg-code>
-<statement><p>True or false.<ol label="a">
-    <li><p>The point where two lines cross is called the <term>intercept</term> <var name="$TF" form="popup"/></p></li>
+<statement><p>True or false.<ol marker="a">
+    <li><p>The point where two lines cross is called the <term>intercept.</term>. <var name="$TF" form="popup"/></p></li>
     <li><p>The <term>intercepts</term> of a line are the points where it intersects the axes. <var name="$TrueF" form="popup"/></p></li>
     <li><p>The solution of a system may occur at an intercept. <var name="$TrueF" form="popup"/></p></li>
-    <li><p>The words <term>intercept</term> and <term>intersect</term> mean the same thing <var name="$TF" form="popup"/></p></li></ol></p>
+    <li><p>The words <term>intercept</term> and <term>intersect</term> mean the same thing. <var name="$TF" form="popup"/></p></li></ol></p>
 </statement>
     <solution>
-        <p><ol label="a" cols="4">
+        <p><ol marker="a" cols="4">
             <li><p>False</p></li>
             <li><p>True</p></li>
             <li><p>True</p></li>
@@ -125,7 +125,7 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
             Context("Point");
             $a = Compute("(7,2)");
         </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>Solve the system of equations
                     <md><mrow>y \amp = -0.7x + 6.9</mrow>
                         <mrow>y \amp =1.2x - 6.4</mrow></md>
@@ -133,7 +133,7 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
                     <md><mrow>\text{Xmin} \amp = -9.4 \amp\amp \text{Xmax} = 9.4</mrow>
                         <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 10</mrow></md></p></li>
         <li>
-            Verify algebraically that your solution satisfies both equations
+            Verify algebraically that your solution satisfies both equations.
         </li></ol></p>
             <p>Answer: <var name="$a" width="6"/> </p>
         <instruction>
@@ -224,20 +224,20 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<definition><title>Solutions of Linear Systems</title><idx><h>linear system</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>solution</h></idx><idx><h>solution</h><h>to a system of equations</h></idx><idx><h>consistent</h><see>system of equations</see></idx><idx><h>system of equations</h><h>consistent and independent</h></idx><idx><h>inconsistent system</h><see>system of equations</see></idx><idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx><idx><h>system of equations</h><h>independent</h></idx>
-<statement><p>There are three types of <m>2 \times 2</m> linear system<idx><h>linear system</h><h><m>2\times 2</m></h></idx> : <ol label="1">
+<definition xml:id="Definition-solution-system"><title>Solutions of Linear Systems</title><idx><h>linear system</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>solution</h></idx><idx><h>solution</h><h>to a system of equations</h></idx><idx><h>consistent</h><see>system of equations</see></idx><idx><h>system of equations</h><h>consistent and independent</h></idx><idx><h>inconsistent system</h><see>system of equations</see></idx><idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx><idx><h>system of equations</h><h>independent</h></idx>
+<statement><p>There are three types of <m>2 \times 2</m> linear system<idx><h>linear system</h><h><m>2\times 2</m></h></idx> : <ol marker="1">
     <li><p><term>Consistent and independent system</term><idx><h>independent system</h><see>system of equations</see></idx>. The graphs of the two lines intersect in exactly one point. The system has exactly one solution.</p></li>
     <li><p><term>Inconsistent system</term><idx>inconsistent</idx>. The graphs of the equations are parallel lines and hence do not intersect. An inconsistent system has no solutions.</p></li>
     <li><p><term>Dependent system</term><idx>dependent</idx>. All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</p></li></ol></p></statement>
 </definition>
 
-<example xml:id="example-inconsistent-system"><statement><p>Solve each system.<ol label="a" cols="2">
+<example xml:id="example-inconsistent-system"><statement><p>Solve each system.<ol marker="a" cols="2">
     <li><p><md><mrow>y = -x + 5</mrow>
                 <mrow>2x + 2y = 3</mrow></md></p></li>
     <li><p><md><mrow>x = \frac{2}{3}y + 3</mrow>
                 <mrow>3x - 2y = 9</mrow></md></p></li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>We use the calculator to graph both equations on the same axes. First, we rewrite the second equation in slope-intercept form by solving for <m>y</m>.
                 <md><mrow>2x + 2y \amp = 3\amp\amp \blert{\text{Substract } 2x \text{ from both sides.}}</mrow>
                     <mrow>2y \amp = -2x + 3\amp\amp \blert{\text{Divide both sides by 2.}}</mrow>
@@ -273,7 +273,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
         3, 
         );
     </pg-code>
-    <statement><p>Complete the statements.<ol label="a">
+    <statement><p>Complete the statements.<ol marker="a">
         <li><p>If two lines have the same slope but different <m>y</m>-intercepts, the system is <var name="$typeI" form="popup"/></p></li>
         <li><p>If two lines have the same slope and the same <m>y</m>-intercept, the system is <var name="$typeD" form="popup"/></p></li>
         <li><p>If two lines have the same <m>y</m>-intercept but different slopes, the system is <var name="$typeC" form="popup"/></p></li>
@@ -295,7 +295,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
             );
             
         </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
             <li><p>Graph the system
                     <md><mrow>y = -3x + 6</mrow>
                         <mrow>6x + 2y = 15</mrow></md>
@@ -303,7 +303,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
             <li><p>Identify the system as dependent, inconsistent, or consistent and independent.</p>
                 <p><var name="$type" form="popup"/> </p></li></ol></p>
     </statement>
-        <solution><p><ol label="a" cols="2">
+        <solution><p><ol marker="a" cols="2">
                 <li><p>A graph is below.</p></li>
                 <li><p>Inconsistent: The graph is two parallel lines.</p></li></ol></p>
         </solution>
@@ -319,7 +319,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
 
 <p>Systems of equations are useful in many applied problems. One example involves supply and demand. The owner of a retail business must try to balance the demand for his product from consumers with the supply he can obtain from manufacturers. Supply and demand both vary with the price of the product: consumers usually buy fewer items if the price increases, but manufacturers will be willing to supply more units of the product if its price increases.</p>
 
-<p>The <term>demand equation</term><idx>demand equation</idx><idx><h>equation</h><h>demand</h></idx> gives the number of units of the product that consumers will buy at a given price. The <term>supply equation</term><idx>supply equation</idx><idx><h>equation</h><h>supply</h></idx> gives the number of units that theproducer will supply at that price. The price at which the supply and demand are equal is called the <term>equilibrium price</term><idx>equilibrium price</idx>. This is the price at which the consumer and the producer agree to do business.
+<p>The <term>demand equation</term><idx>demand equation</idx><idx><h>equation</h><h>demand</h></idx> gives the number of units of the product that consumers will buy at a given price. The <term>supply equation</term><idx>supply equation</idx><idx><h>equation</h><h>supply</h></idx> gives the number of units that the producer will supply at that price. The price at which the supply and demand are equal is called the <term>equilibrium price</term><idx>equilibrium price</idx>. This is the price at which the consumer and the producer agree to do business.
 </p>
 
 <example><statement><p>A woolens mill can produce <m>400x</m> yards of fine suit fabric if it can charge <m>x</m> dollars per yard. The mill's clients in the garment industry will buy <m>6000 - 100x</m> yards of wool fabric at a price of <m>x</m> dollars per yard. Find the equilibrium price and the amount of fabric that will change hands at that price.</p>
@@ -351,7 +351,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
 
 <p>A business venture calculates its <term>profit</term><idx>profit</idx> by subtracting its <term>costs</term><idx>cost</idx> from its <term>revenue</term><idx>revenue</idx>, the amount of money it takes in from sales.
     <md><mrow>\blert{\text{Profit} = \text{Revenue} -\text{Cost}}</mrow></md>
-Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs,the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>.</p>
+Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs, the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>.</p>
 
 <exercise><title>Practice 4</title>
 <webwork><pg-code>
@@ -361,7 +361,7 @@ Cost is usually calculated as the sum of fixed costs, or overhead, and variable 
         $a = Point("(25,300)");
         $n = Compute("25");
     </pg-code>
-<statement><p>The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.<ol label="a">
+<statement><p>The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.<ol marker="a">
         <li><p>Express the cost <m>C</m> of production in terms of the number <m>x</m> of pendants produced.</p>
                 <p><m>C=</m><var name="$C" width="7"/></p></li>
         <li><p>Express the revenue <m>R</m> in terms of the number <m>x</m> of pendants sold.</p>
@@ -372,7 +372,7 @@ Cost is usually calculated as the sum of fixed costs, or overhead, and variable 
             <p>The must sell <var name="$n" width="2"/> pendants to break even.</p></li>
             </ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><p><m>C=200+4x</m></p></li>
             <li><p><m>R=12x</m></p></li>
             <li><p><m>(25,300)</m></p></li>

@@ -51,14 +51,14 @@ is an <term>ordered triple</term><idx>ordered triple</idx> of numbers that satis
           1, 
         );
     </pg-code> 
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>A solution to an equation in three variables is an</p>
                 <p><var name="$solution" form="buttons"/>.</p></li>
         <li><p>The graph of a linear equation in three variables is a <var name="$graph" form="buttons"/>.</p></li>
-        <li><p>A linear <m>3 \times 3</m> system has a unique solution if the three planes intersect  <var name="$unique" form="popup"/>.</p></li>
+        <li><p>A linear <m>3 \times 3</m> system has a unique solution if the three planes intersect in <var name="$unique" form="popup"/>.</p></li>
         <li><p>Three planes may also intersect <var name="$line" form="popup"/> or <var name="$inconsistent" form="popup"/>.</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><p>ordered triple that satisfies the equation</p></li>
         <li><p>plane</p></li>
         <li><p>a single point</p></li>
@@ -72,7 +72,7 @@ is an <term>ordered triple</term><idx>ordered triple</idx> of numbers that satis
 
 <p>The strategy for solving a <m>3 \times 3</m> system is the same as the strategy for <m>2 \times 2</m> systems: we would like to reduce the system to an equation in a single variable. Once we have found the value for that variable, we substitute its value into the other equations to find the remaining unknowns.</p>
 
-<p>A special case of this technique is called <term>back-substitution</term><idx><h>back-substitution</h></idx>. It works when one of the equations involves exactly one variable, and a second equation involves that same variable and just one other variable. A <m>3 \times 3</m> system with these properties is said to be in <term></term><idx><h>system of equations</h><h>triangular form</h></idx><idx><h>triangular form</h><see>system of equations</see></idx>.</p>
+<p>A special case of this technique is called <term>back-substitution</term><idx><h>back-substitution</h></idx>. It works when one of the equations involves exactly one variable, and a second equation involves that same variable and just one other variable. A <m>3 \times 3</m> system with these properties is said to be in <term>triangular form</term><idx><h>triangular form</h></idx><idx><see>system of equations</see></idx>.</p>
 
 <example><statement><p>Solve the system
             <md alignment="alignat">
@@ -143,14 +143,14 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
           2, 
         );
     </pg-code> 
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>The method for solving a <m>3 \times 3</m> linear system is called <var name="$method" form="popup"/>.</p></li>
         <li><p>A special case of this method is called <var name="$case" form="popup"/>.</p></li>
         <li><p>The special case works on systems</p>
                 <p><var name="$work" form="buttons"/>.</p></li>
         <li><p>To reduce a system to the special form, we use <var name="$reduce" form="popup"/>.</p></li></ol></p>         
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><p>Gaussian reduction</p></li>
         <li><p>back-substitution</p></li>
         <li><p>when one equation involves exactly one variable, and a second equation involves that same variable and just one other variable</p></li>
@@ -158,7 +158,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
     </solution>  
 </webwork></exercise>
 
-<p>To obtain the triangular form, we eliminate one of the variables from each of thethree equations by considering them in pairs.  This results in a <m>2\times 2</m> system that we can solve using elimination.</p>
+<p>To obtain the triangular form, we eliminate one of the variables from each of the three equations by considering them in pairs.  This results in a <m>2\times 2</m> system that we can solve using elimination.</p>
 
 <example><statement><p>Solve the system:
         <md alignment="alignat">
@@ -205,7 +205,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
 <p>We summarize the method for solving a <m>3\times 3</m> linear system as follows.</p>
 
 <assemblage><title>Steps for Solving a <m>3\times 3</m> Linear System</title><idx><h>linear system</h><h><m>3\times 3</m></h></idx><idx><h>system of equations</h><h><m>3\times 3</m></h></idx><idx>Gaussian reduction</idx><idx><h>system of equations</h><h>Gaussian reduction</h></idx>
-    <p><ol label="1">
+    <p><ol marker="1">
         <li><p>Clear each equation of fractions and put it in standard form.</p></li>
         <li><p>Choose two of the equations and eliminate one of the variables by forming a linear combination.</p></li>
         <li><p>Choose a different pair of equations and eliminate the <em>same</em> variable.</p></li>
@@ -238,7 +238,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
     <statement><p>Use Gaussian reduction to solve the system
                 <md><mrow>x-2y+z \amp= -1\qquad\qquad \amp\amp (1)</mrow>
                     <mrow>\frac{2}{3}x +\frac{1}{3}y - z \amp= -1 \amp\amp (2)</mrow>
-                    <mrow>3+3y-2z \amp= 10 \amp\amp (3)</mrow></md>
+                    <mrow>3x+3y-2z \amp= 10 \amp\amp (3)</mrow></md>
         Follow the steps:<ul>
             <li><p>Step 1: Clear the fractions from Equation (2).</p></li>
             <li> <p>Step 2: Eliminate <m>z</m> from Equations (1) and (2).</p></li>
@@ -261,7 +261,7 @@ then the system is inconsistent and has no solution. If we don’t obtain such a
     <md><mrow>0x + 0y + 0z = 0</mrow></md>
 then the system is dependent and has infinitely many solutions.<idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx></p>
 
-<example><statement><p>Solve the systems.<ol label="a" cols="2">
+<example><statement><p>Solve the systems.<ol marker="a" cols="2">
         <li><p><m>\begin{alignedat}[t]{5}
                     3x\amp{}+{}\amp y\amp{}-{}\amp 2z\amp{}={}1 \amp\qquad\amp (1)\\
                     6x\amp{}+{}\amp 2y\amp{}-{}\amp 4z\amp{}={}5 \amp\qquad\amp (2)\\
@@ -273,7 +273,7 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
                     2x\amp{}-{}\amp 6y\amp {}+{}\amp 2z\amp{}={}4 \amp\qquad\amp (3)
                     \end{alignedat} </m></p></li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
         <li><p>To eliminate <m>y</m> from Equations (1) and (2), we multiply Equation (1) by <m>-2</m> and add the result to Equation (2).
                 <md alignment="alignat">
                     <mrow> -6x \amp {}-{} \amp 2y \amp {}+{} \amp 4z \amp {}={} \amp -2</mrow>
@@ -297,7 +297,7 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
           0, 
         );            
         </pg-code>
-    <statement><p>Decide whether the system is inconsistent, dependent, or consistent andindependent.
+    <statement><p>Decide whether the system is inconsistent, dependent, or consistent and independent.
             <md><mrow>x+3y-z\amp=4</mrow>
                 <mrow>-2x-6y+2z\amp=4</mrow>
                 <mrow>x+2y-z\amp=3</mrow></md></p>
@@ -318,13 +318,13 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
           1, 
         );
     </pg-code>
-    <statement><p>True or false.<ol label="a">
+    <statement><p>True or false.<ol marker="a">
             <li><p>If a system is dependent, it has no solutions. <var name="$TF" form="popup"/></p></li>
-            <li><p>The equation <m>0x + 0y + 0z = 0</m> has no solution <var name="$TF" form="popup"/></p></li>
-            <li><p>If a <m>3 \times 3</m> system is dependent, all three equations are the same.. <var name="$TF" form="popup"/></p></li>
+            <li><p>The equation <m>0x + 0y + 0z = 0</m> has no solution. <var name="$TF" form="popup"/></p></li>
+            <li><p>If a <m>3 \times 3</m> system is dependent, all three equations are the same. <var name="$TF" form="popup"/></p></li>
             <li><p>Gaussian reduction will reveal whether a system is dependent or inconsistent. <var name="$True" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><p>False</p></li>
             <li><p>False</p></li>
             <li><p>False</p></li>
@@ -380,7 +380,38 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
                     <md><mrow>\alert{52} + \alert{28} + z \amp= 180</mrow>
                         <mrow>z\amp=100</mrow></md></p></li>
         <li><title>Step 4:</title>
-            <p>The angles measure 52°, 28°, and 100°.</p></li></ul></p>       </solution></example>
+            <p>The angles measure 52°, 28°, and 100°.</p></li></ul></p>       
+        </solution>
+</example>
+
+<exercise><title>Practice 4</title>
+<webwork><pg-code>       
+        $w = 250;
+        $c = 600;
+        $s = 450;          
+        </pg-code>
+    <statement><p>A farmer has 1300 acres on which to plant wheat, corn, and soybeans. The seed costs $6 for an acre of wheat, $4 for an acre of corn, and $5 for an acre of soybeans. An acre of wheat requires 5 acre-feet of water during the growing season, while an acre of corn requires 2 acre-feet and an acre of soybeans requires 3 acre-feet. If the farmer has $6150 to spend on seed and can count on 3800 acre-feet of water, how many acres of each crop should he plant in order to use all his resources?</p>
+    <p>
+        Wheat: <var name="$w" width="3"/> acres
+    </p>
+    <p>
+        Corn: <var name="$c" width="3"/> acres
+    </p>
+    <p>
+        Soybeans: <var name="$s" width="3"/> acres
+    </p>
+    </statement>
+    <solution>
+    <p> We solve the system
+        <md alignment="alignat">
+        <mrow>w\amp {}+{} \amp c\amp {}+{} \amp s \amp= 1300</mrow>
+        <mrow>6w\amp {}+{} \amp 4c\amp {}+{} \amp 5s\amp=6150</mrow>
+        <mrow>5w\amp {}+{} \amp 2c\amp {}+{} \amp 3s\amp =3800</mrow>
+    </md>
+    to find that the farmer should plant 250 acres of wheat, 600 acres of corn, 450 acres of soybeans</p>
+    </solution>
+</webwork></exercise>
+
 
 </subsection>
 

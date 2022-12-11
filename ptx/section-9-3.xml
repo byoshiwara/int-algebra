@@ -138,12 +138,12 @@ Notice that the denominators of both the <m>x^2</m>- and <m>y^2</m> -terms are <
          partialCredit => 1,
         ); 
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>Find the intercepts of the graph of <m>\dfrac{x^2}{9}+\dfrac{y^2}{4}=1 </m>. Separate different intercepts with a comma. </p>
         <p><var name="$answer" width="20"  evaluator="$my_evaluator"/> </p></li>
         <li><p>Graph the ellipse.</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><p><m>(3,0) </m>, <m>(-3,0) </m>, <m>(0,2) </m>, <m>(0,-2) </m></p></li>
         <li><p>A graph is below.</p></li></ol></p></solution>
 </webwork>
@@ -322,11 +322,11 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
 
 <p>We can find coordinates of other points on an ellipse by substituting a value for one variable and solving for the other variable.</p>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a">
     <li><p>Find the exact coordinates of any points with <m>y</m>-coordinate 2 on the ellipse <m>4x^2 + y^2 = 12</m>. Plot and label those points on the ellipse.</p></li>
     <li><p>Solve the equation <m>4x^2 + y^2 = 12</m> when <m>y = -4</m>. What do the solutions tell you about the graph of the ellipse?</p></li></ol></p></statement>
     
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><sidebyside widths="60% 34%" margins="0% 0%" valigns="middle middle">
         <p>We substitute <m>y = \alert{2}</m> into the equation and solve for <m>x</m>.
                 <md><mrow>4x^2+(\alert{2})^2\amp = 12</mrow>
@@ -434,12 +434,12 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside> 
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a">
     <li>Graph <m>~~\dfrac{(x+2)^2}{16} + \dfrac{(y-1)^2}{5} = 1</m></li>
     <li>Find the exact coordinates of the intercepts of the graph.</li></ol></p></statement>
     
-<solution><p><ol label="a">
-    <li><p>The graph is an ellipse with center at <m>(-2,1)</m>.  We have <m>a=4</m> and <m>b=\sqrt{5}</m>,  and the major axis is parallel to the <m>x</m>-axis because <m>a \gt b</m>. We plot the vertices four units to the left and right of the center, a <m>(-6,1)</m> and <m>(2,1)</m>. The covertices lie <m>\sqrt{5}</m> units above and below the center, at approximately <m>(-2, 3.2)</m> and <m>(-2, -1.2)</m>. The graph is shown below.</p>
+<solution><p><ol marker="a">
+    <li><p>The graph is an ellipse with center at <m>(-2,1)</m>.  We have <m>a=4</m> and <m>b=\sqrt{5}</m>,  and the major axis is parallel to the <m>x</m>-axis because <m>a \gt b</m>. We plot the vertices four units to the left and right of the center, at <m>(-6,1)</m> and <m>(2,1)</m>. The covertices lie <m>\sqrt{5}</m> units above and below the center, at approximately <m>(-2, 3.2)</m> and <m>(-2, -1.2)</m>. The graph is shown below.</p>
 
    <sidebyside width="50%"><image xml:id="fig-example-9-3-4"><description>translated ellipse</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -534,7 +534,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
          partialCredit => 1,
         ); 
       </pg-code>     
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>Graph <m>\dfrac{(x-5)^2}{15} + \dfrac{(y+3)^2}{8} = 1</m></p>
                 <sidebyside widths="35% 35%" margins="5% 5%">
                     <image pg-name="$gr[2]"/>
@@ -551,7 +551,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
             <p>covertices: <var name="$covertices" width="25"  evaluator="$my_evaluator2"/> </p></li>
         </ol></p>
      </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
                 <p>A graph is also shown below.</p></li>
             <li><p>vertices: <m>(5-\sqrt{15}, -3)</m>, <m>(5+\sqrt{15}, -3)</m></p>
@@ -622,13 +622,13 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
         );
         $axis = Formula("2b");
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>To write the equation <m>Ax^2 + By^2 = C</m> in the standard form for ellipses, we divide through by <var name="$C" width="2"/></p></li>
         <li><p>The <m>x</m>-coordinates of all points on a central ellipse <m>\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1 </m> lie between <var name="$multians" width="2"/> and <var name="$multians" width="2"/></p></li>
         <li><p>In the standard form for an ellipse, <m>(h, k)</m> are the coordinates of the <var name="$center" form="popup"/> of the ellipse.</p></li>
         <li><p>The vertical axis of an ellipse <m>\dfrac{(x-h)^2}{a^2}+\dfrac{(y-k)^2}{b^2}=1 </m> has length <var name="$axis" width="2"/>.</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><p><m>C</m></p></li>
             <li><p><m>-a</m> and <m>a</m></p></li>
             <li><p>center</p></li>
@@ -642,13 +642,13 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
 
 <p>Second-degree equations in which the coefficients of <m>x^2</m> and <m>y^2</m> have the same sign can be written in one of the standard forms for an ellipse by completing the square<idx>completing the square</idx>. The equation can be graphed easily from the standard form.</p>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-ellipse-equation-standard-form" ><statement><p><ol marker="a">
     <li><p>Write the equation in standard form.
             <md><mrow>4x^2 + 9y^2 - 16x - 18y -11 = 0</mrow></md></p></li>
     <li>Graph the equation.</li></ol></p>
 </statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>We first prepare to complete the square in both <m>x</m> and <m>y</m>. Begin by factoring out the coefficients of <m>x^2</m> and <m>y^2</m>.
         <md><mrow>\alert{4}(x^2-4x \underline{\hphantom{0000}}) + \alert{9}(y^2 - 2y \underline{\hphantom{0000}}) = 11</mrow></md>
         We complete the square in <m>x</m> by adding <m>\alert{4}</m> to <m>x^2-4x</m>, and adding <m>4 \cdot \alert{4}</m>, or <m>\blert{16}</m>, to the right side of the equation. We  complete the square in <m>y</m> by adding <m>\alert{1}</m> to <m>y^2-2y</m>, and  <m>9 \cdot \alert{1}</m>, or <m>\blert{9}</m>, to the right side.
@@ -678,7 +678,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
                 </latex-image></image></sidebyside></li></ol></p>
 </solution></example>
 
-<warning><p>When completing the square in the Example above, do not forget the coefficients you factored out in the first step. When we add 4 to complete the square in <m>x</m>, it is multiplied by a factor of 4, so we must add <m>4 \cdot 4</m> or 16 to the right side of the equation. Similarly, we must add <m>9 \cdot 1</m> or 9 to the right side when we complete the square in <m>x</m>.</p>
+<warning><p>When completing the square in the <xref ref="Example-ellipse-equation-standard-form" text="custom">Example</xref> above, do not forget the coefficients you factored out in the first step. When we add 4 to complete the square in <m>x</m>, it is multiplied by a factor of 4, so we must add <m>4 \cdot 4</m> or 16 to the right side of the equation. Similarly, we must add <m>9 \cdot 1</m> or 9 to the right side when we complete the square in <m>x</m>.</p>
 </warning>
 
 <exercise><title>Practice 5</title>
@@ -688,12 +688,12 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
         $h = Compute("-2");
         $k = Compute("2");
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>Write the equation <m>x^2 + 4y^2 + 4x - 16y + 4 = 0</m> in standard form: <m>\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1</m></p>
             <p><m>h=</m><var name="$h" width="2"/>, <m>k=</m><var name="$k" width="2"/>, <m>a^2=</m><var name="$a2" width="2"/>, <m>b^2=</m><var name="$b2" width="2"/></p></li>
         <li><p>Graph the equation.</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><p><m>\dfrac{(x+2)^2}{16} + \dfrac{(y-2)^2}{4} = 1</m></p></li>
             <li><p>A graph is below.</p></li></ol></p>
     </solution>

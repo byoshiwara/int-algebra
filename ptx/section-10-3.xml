@@ -33,14 +33,14 @@
         </pg-code>
     <statement>
             <p>Use your calculator to evaluate the following powers.
-            <ol label="a">
+            <ol marker="a">
                 <li><p><m>e^2\approx</m><var name="$a" width="5"/></p></li>
                 <li><p><m>e^{3.5}\approx</m><var name="$b" width="5"/></p></li>
                 <li><p><m>e^{-0.5}\approx</m><var name="$c" width="5"/></p></li>
             </ol></p>
     </statement>
         <solution>
-            <p><ol cols="3" label="a">
+            <p><ol cols="3" marker="a">
                 <li><p><m>e^2\approx 7.389</m></p></li>
                 <li><p><m>e^{3.5}\approx 33.115 </m></p></li>
                 <li><p><m>e^{-0.5}\approx 0.6065 </m></p></li>
@@ -115,7 +115,7 @@
     </solution>
 </webwork></exercise>
 
-<example xml:id="example-translate-exponential"><statement><p>Graph each function. How does each graph differ from the graph of <m>y = e^x</m>?<ol label="a" cols="2">
+<example xml:id="example-translate-exponential"><statement><p>Graph each function. How does each graph differ from the graph of <m>y = e^x</m>?<ol marker="a" cols="2">
             <li><m>g(x) = e^{x+2}</m></li>
             <li><m>h(x) = e^x + 2</m></li>
         </ol></p></statement>
@@ -159,7 +159,7 @@
 <p>The natural logarithm of <m>x</m> is the exponent to which <m>e</m> must be raised to produce <m>x</m>. For example, the natural logarithm of <m>10</m>, or <m>\ln 10</m>, is the solution of the equation
 	<me>e^y = 10</me>
 You can verify on your calculator that
-	<me>e^{\alert{2.3}} ~~ \approx 10 \text{ or } ~~ \ln 10 \approx \alert{2.3}</me>
+	<me>e^{\alert{2.3}} ~~ \approx 10 ~~ \text{ or } ~~ \ln 10 \approx \alert{2.3}</me>
 In general, natural logs obey the same conversion formulas that work for logs to other bases.</p>
 
 <assemblage><title>Conversion Formulas for Natural Logs</title>
@@ -240,14 +240,14 @@ In general, natural logs obey the same conversion formulas that work for logs to
         </pg-code>
         <statement>
             <p>Use your calculator to evaluate each logarithm. Round your answers to four decimal places.</p>
-            <p><ol label="a">
+            <p><ol marker="a">
                 <li><p><m>\ln 100\approx</m><var name="$a" width="5"/></p></li>
                 <li><p><m>\ln 0.01\approx</m><var name="$b" width="5"/></p></li>
                 <li><p><m>\ln e^3\approx</m><var name="$c" width="5"/></p></li>
             </ol></p>
         </statement>
         <solution>
-            <p><ol label="a" cols="2">
+            <p><ol marker="a" cols="2">
             <li><m>\ln 100\approx 4.6052</m></li>
             <li><m>\ln 0.01\approx -4.6052</m></li>
             <li><m>\ln e^3 =3</m></li></ol></p>
@@ -257,7 +257,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 <p>The three properties of logarithms also apply to base <m>e</m> logarithms.</p>
 
 <assemblage><title>Properties of Natural Logarithms</title>
-<p>If <m>x, y \gt 0</m>, then <ol label="1">
+<p>If <m>x, y \gt 0</m>, then <ol marker="1">
     <li><m>\ln(xy) = \ln x + \ln y</m></li>
     <li><m>\ln {\dfrac{x}{y}} = \ln x - \ln y</m></li>
     <li><m>\ln {x^n} = n \ln x</m></li></ol></p>
@@ -270,11 +270,11 @@ In general, natural logs obey the same conversion formulas that work for logs to
 
 
 <example xml:id="example-simplify-ln-and-exp"><statement><p>Simplify each expression.
-		<ol label="a" cols="2">
+		<ol marker="a" cols="2">
 			<li><m>\ln e^{0.3x}</m></li>
 			<li><m>e^{2 \ln(x+3)}</m></li>
 		</ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 		<li><p>The natural log is the log base <m>e</m>, and hence the inverse of <m>e^x</m>. Therefore,
 			<me>\ln {e^{0.3x}} = 0.3x</me></p></li>
 		<li><p>First, we simplify the exponent using the third property of logs to get
@@ -292,13 +292,13 @@ In general, natural logs obey the same conversion formulas that work for logs to
         </pg-code>
     <statement>
             <p>Simplify each expression. Use "sqrt(x)" to get <m>\sqrt{x}</m>.</p>
-            <p><ol label="a" cols="2">
+            <p><ol marker="a" cols="2">
                 <li><p><m>e^{(\ln x)/2}=</m><var name="$a" width="6"/> </p></li>
                 <li><p><m>\ln\left(\dfrac{1}{e^{4x}}\right)=</m><var name="$b" width="6"/></p></li>
             </ol></p>
     </statement>
         <solution>
-            <p><ol label="a" cols="2">
+            <p><ol marker="a" cols="2">
                 <li><p><m>\sqrt{x} </m></p></li>
                 <li><p><m>-4x</m></p></li>
             </ol></p>
@@ -310,12 +310,12 @@ In general, natural logs obey the same conversion formulas that work for logs to
 
 <p>We use the natural logarithm to solve exponential equations with base <m>e</m>. The techniques we've learned for solving other exponential equations also apply to equations with base <m>e</m>.<idx>exponential equation</idx><idx><h>exponential equation</h><h>solving with logarithms</h></idx></p>
 
-<example xml:id="example-solve-ln-equation"><statement><p>Solve each equation for <m>x</m>.<ol label="a" cols="2">
+<example xml:id="example-solve-ln-equation"><statement><p>Solve each equation for <m>x</m>.<ol marker="a" cols="2">
 			<li><m>e^x = 0.24</m></li>
 			<li><m>\ln x = 3.5</m></li>
 		</ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 		<li><p>We convert the equation to logarithmic form and evaluate using a calculator.
 			<me>x = \ln 0.24 \approx -1.427</me></p></li>
 		<li><p>We convert the equation to exponential form and evaluate.
@@ -336,7 +336,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
         </pg-code>
     <statement>
             <p>Solve each equation. Round your answers to four decimal places.
-            <ol label="a">
+            <ol marker="a">
                 <li><p><m>\ln x =-0.2</m></p>
                 <p><m>x\approx</m><var name="$a" width="6"/></p></li>
                 <li><p><m>e^x = 8</m></p>
@@ -344,7 +344,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
             </ol></p>
     </statement>
         <solution>
-            <p><ol label="a" cols="2">
+            <p><ol marker="a" cols="2">
                 <li><p><m>0.8187 </m></p></li>
                 <li><p><m>2.0794</m></p></li>
             </ol></p>
@@ -381,7 +381,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 		    <mrow>x \amp= \frac{\ln 7}{0.4}</mrow></md>
 	Rounded to four decimal places, <m>x \approx 4.8648</m>.</p></solution></example>
 
-<note><p>We can also solve the equation in the Example above,
+<note><p>We can also solve the equation in the <xref ref="example-solve-natural-exponential" text="custom">Example</xref> above,
 	<me>7 = e^{0.4x}</me>
 by taking the natural logarithm of both sides. This gives us
 	<md><mrow>\ln 7 \amp = \ln e^{0.4x}\amp\amp \blert{\text{Simplify the right side.}}</mrow>
@@ -458,11 +458,11 @@ Thus, the growth law for the colony of bacteria can be written
 By graphing both functions on your calculator, you can verify that <me>P(t) = 100 \cdot 3^t~~~\text{and}~~~P(t) = 100 \cdot e^{1.0986t}</me> are just two ways of writing the same function.</p>
 
 <example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year.
-<ol label="a">
+<ol marker="a">
 	<li>What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population <m>t</m> years later.</li>
 	<li>Write a growth formula for Clark County using base <m>e</m>.</li>
 		</ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 		<li><p>The growth factor was <m>b = 1 + r = 1.064</m>. The population <m>t</m> years later was
 			<me>P(t) = 768,000 (1.064)^t</me></p></li>
 		<li><p>We use the formula <m>P(t) = P_0 \cdot e^{kt}</m>, where <m>e^k = 1.064</m>. Solving for <m>k</m>, we find
@@ -484,7 +484,7 @@ By graphing both functions on your calculator, you can verify that <me>P(t) = 10
             $b = Formula("2.8*(1+$percent/100)**t");
         </pg-code>
     <statement><p>From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula <m>N(t) = 2.8e^{0.85t}</m>, where <m>t = 0</m> in 1994 and <m>N</m> is in millions. (Source: Los Angeles Times, September 6, 1999)</p>
-            <p><ol label="a">
+            <p><ol marker="a">
             <li><p>Evaluate <m>N(1)=</m><var name="$a" width="3"/> . By what percent did the number of Internet users grow in one year?</p>
             <p>About <var name="$percent" width="3"/>%</p></li>
             <li><p>Express the growth law in the form <m>N(t) = N_0 (1 + r)^t</m>. </p>
@@ -495,7 +495,7 @@ By graphing both functions on your calculator, you can verify that <me>P(t) = 10
             <p><m>e^k = 1 + r</m></p>
         </hint>
     <solution>
-            <p><ol label="a" cols="2">
+            <p><ol marker="a" cols="2">
                 <li><p><m>N(1)\approx 6.55</m>, <m>~134\%</m></p></li>
                 <li><p><m>N(t)\approx 2.8 (2.3396)^t </m></p></li>
             </ol></p>
@@ -563,7 +563,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
         </pg-code>
     <statement><p>A scientist isolates <m>25</m> grams of krypton-91, which decays according to the formula
                 <me>N(t) = 25e^{-0.07t}</me>, 
-        where <m>t</m> is in seconds.<ol label="a">
+        where <m>t</m> is in seconds.<ol marker="a">
             <li><p>Complete the table of values showing the amount of krypton-91 left at <m>10</m>-second intervals over the first minute.</p>
                 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -603,7 +603,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
             <p>If <m>60\%</m> of the krypton-91 has decayed, <m>40\%</m> of the original <m>25</m> grams remains.</p>
         </hint>
     <solution>
-            <p><ol label="a">
+            <p><ol marker="a">
                 <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
                     <cell halign="left"><m>t</m></cell>
@@ -644,7 +644,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
 where <m>P</m> is the principal invested.</p>
 
 <example xml:id="example-continuous-compounding"><statement><p>Suppose you invest $500 in an account that pays 8% interest compounded continuously. You leave the money in the account without making any additional deposits or withdrawals.
-	<ol label="a">
+	<ol marker="a">
 		<li>Write a formula that gives the value of your account <m>A(t)</m> after <m>t</m> years.</li>
 		<li>Make a table of values showing <m>A(t)</m> for the first 5 years.</li>
 		<li>Graph the function <m>A(t)</m>.</li>
@@ -652,7 +652,7 @@ where <m>P</m> is the principal invested.</p>
 		<li>How long will it be before the account is worth $1000?</li>
 	</ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 		<li>We substitute 500 for <m>P</m>, and 0.08 for <m>r</m> to find
 			<me>A(t) = 500e^{0.08t}</me></li>
 		<li><p>We evaluate the formula for <m>A(t)</m> to obtain a table.</p>
@@ -710,6 +710,150 @@ where <m>P</m> is the principal invested.</p>
             <p>About 15.4 years</p>
         </solution>
 </webwork></exercise>
+
+<investigation><title>Interest Compounded Continuously</title>
+
+<p>We learned in <xref ref="PropertiesofLogarithms" text="type-global"/> that the amount, <m>A</m> (principal plus interest), accumulated in an account with interest compounded <m>n</m> times annually is
+    <me>A=P\left(1+\dfrac{r}{n} \right)^{nt} </me>
+where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>t</m> is the time period, in years.</p>
+
+<p><ol marker="1">
+
+<li><p>Suppose you keep <m>\$1000</m> in an account that pays 8% interest. How much is the amount <m>A</m> after 1 year if the interest is compounded twice a year? Four times a year?
+        <md><mrow>n = \alert{2}: A = 1000\left(1 + \frac{0.08}{\alert{2}} \right)^{\alert{2}(1)}= </mrow>
+            <mrow>n = \alert{4}: A = 1000\left(1 + \frac{0.08}{\alert{4}} \right)^{\alert{4}(1)}= </mrow></md></p></li>
+
+<li><p>What happens to <m>A</m> as we increase <m>n</m>, the number of compounding periods per year? Fill in the table showing the amount in the account for different values of <m>n</m>.</p>
+            <sidebyside widths="40% 41%" margins="7%">
+                <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/>
+                    <row>
+                        <cell halign="center"><m>n</m></cell>
+                        <cell><m>A</m></cell></row>
+                    <row>
+                        <cell><m>1</m> (annually)</cell>
+                        <cell><m>1080</m></cell></row>
+                    <row>
+                        <cell><m>2</m> (semiannually)</cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>4</m> (quarterly)</cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>6</m> (bimonthly)</cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>12</m> (monthly)</cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>365</m> (daily)</cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>1000</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>10,000</m></cell>
+                        <cell><m></m></cell></row>
+                </tabular>
+            <image source="images/fig-investigation-9"><description>grid</description></image></sidebyside></li>
+
+<li><p>Plot the values in the table from <m>n = 1</m> to <m>n = 12</m>, and connect them with a smooth curve. Describe the curve: What is happening to the value of <m>A</m>?</p></li>
+
+<li><p>In part (2), as you increased the value of <m>n</m>, the other parameters in the formula stayed the same. In other words, <m>A</m> is a function of <m>n</m>, given by <m>A = 1000 (1 + \dfrac{0.08}{n} )^n</m>. Use your calculator to graph A on successively larger intervals:
+            <ol marker="a">
+                <li><p><m>\text{Xmin} = 0, \text{Xmax} = 12; \text{Ymin} = 1080, \text{Ymax} = 1084</m></p></li>
+                <li><p><m>\text{Xmin} = 0, \text{Xmax} = 50; \text{Ymin} = 1080, \text{Ymax} = 1084</m></p></li>
+                <li><p><m>\text{Xmin} = 0, \text{Xmax} = 365; \text{Ymin} = 1080, \text{Ymax} = 1084</m></p></li>
+            </ol></p></li>
+
+<li><p>Use the <term>Trace</term> feature or the <term>Table</term> feature to evaluate <m>A</m> for very large values of <m>n</m>. Rounded to the nearest penny, what is the largest value of <m>A</m> that you can find?</p></li>
+
+<li><p>As <m>n</m> increases, the values of <m>A</m> approach a limiting value. Although <m>A</m> continues to increase, it does so by smaller and smaller increments and will never exceed $1083.29. When the number of compounding periods increases without bound, we call the limiting result <term>continuous compounding</term><idx>continuous compounding</idx>.</p></li>
+
+<li><p>Is there an easier way to compute <m>A</m> under continues compounding? Yes! Compute <m>1000e^{0.08}</m> on your calculator. (Press <kbd>2nd</kbd>  <kbd>LN</kbd> to enter <m>e^x</m>.) Compare the value to your answer in part (5) for the limiting value. The number <m>e</m> is called the <term>natural base</term><idx>natural base</idx>. We'll compute its value shortly.</p></li>
+
+<li><p>Repeat your calculations for two other interest rates, 15% and (an extremely unrealistic) 100%, again for an investment of $1000 for 1 year. In each case, compare the limiting value of <m>A</m>, and compare to the value of <m>1000e^r</m>.
+        <ol marker="a" cols="2"><li><sidebyside>
+                <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="right"/><col/>
+                    <row>
+                        <cell  halign="center" colspan="2"><m>r=0.15</m></cell></row>
+                    <row>
+                        <cell halign="center"><m>n</m></cell>
+                        <cell><m>A</m></cell></row>
+                    <row>
+                        <cell><m>1</m></cell>
+                        <cell><m>115</m></cell></row>
+                    <row>
+                        <cell><m>2</m></cell>
+                        <cell><m>\hphantom{00000}</m></cell></row>
+                    <row>
+                        <cell><m>4</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>6</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>12</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>3652</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>1000</m></cell>
+                        <cell><m></m></cell></row>
+                    <row>
+                        <cell><m>10,000</m></cell>
+                        <cell><m></m></cell></row>
+                    <row left="none">
+                        <cell  halign="left" colspan="2" right="none" bottom="none"> </cell></row>
+                    <row left="none">
+                        <cell  halign="left" colspan="2" right="none" bottom="none"><m>~~1000e^{0.15}= </m></cell></row>
+                </tabular></sidebyside></li>
+        <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="right"/><col/>
+                    <row><cell  halign="center"  colspan="2"><m>r=1</m></cell></row>
+                    <row><cell halign="center"><m>n</m></cell>
+                        <cell><m>A</m></cell></row>
+                    <row><cell><m>1</m></cell>
+                        <cell><m>200</m></cell></row>
+                    <row><cell><m>2</m></cell>
+                        <cell><m>\hphantom{00000}</m></cell></row>
+                    <row><cell><m>4</m></cell>
+                        <cell><m></m></cell></row>
+                    <row><cell><m>6</m></cell>
+                        <cell><m></m></cell></row>
+                    <row><cell><m>12</m></cell>
+                        <cell><m></m></cell></row>
+                    <row><cell><m>3652</m></cell>
+                        <cell><m></m></cell></row>
+                    <row><cell><m>1000</m></cell>
+                        <cell><m></m></cell></row>
+                    <row><cell><m>10,000</m></cell>
+                        <cell><m></m></cell></row>
+                    <row left="none">
+                        <cell  halign="left" colspan="2" right="none" bottom="none"> </cell></row>
+                    <row left="none">
+                        <cell  halign="left" colspan="2" right="none" bottom="none"><m>~~1000e^{1}= </m></cell></row>
+                </tabular></sidebyside></li>
+            </ol></p></li>
+
+<li><p>In part (8b), you have computed an approximation for <m>1000e</m>. What is the value of <m>e</m>, rounded to 5 decimal places?</p></li>
+
+<li><p>Complete the table of values. What does <m>\left(1 + \dfrac{1}{n} \right)^n</m> appear to approach as <m>n</m> increases?</p>
+            <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="left">
+                <row>
+                    <cell><m>n</m></cell>
+                    <cell><m>100</m></cell>
+                    <cell><m>1000</m></cell>
+                    <cell><m>10,000</m></cell>
+                    <cell><m>100,000</m></cell></row>
+                <row>
+                    <cell><m>\left(1+\frac{1}{n} \right)^n </m></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+            </tabular></sidebyside></li>
+</ol></p></investigation>
+
 
 </subsection>
 

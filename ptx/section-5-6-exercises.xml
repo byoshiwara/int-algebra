@@ -12,7 +12,7 @@
 <subexercises><title>Warm Up</title>
 
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>6, state the intervals (if any) on which the function is 
-<ol label="a">
+<ol marker="a">
     <li>increasing and concave up</li>
     <li>increasing and concave down</li>
     <li>decreasing and concave up</li>
@@ -20,7 +20,7 @@
 <p>Give your answers in interval notation.</p></introduction>
 
 <exercise number="1"><statement><p><m>f(x)=x^2</m></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>(0, \infty)</m></li>
     <li>none</li>
     <li><m>(-infty, 0)</m></li>
@@ -29,7 +29,7 @@
 <exercise number="2"><statement><p><m>f(x)=x^3</m></p></statement></exercise>
 
 <exercise number="3"><statement><p><m>f(x)=\sqrt{x}</m></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li>none</li>
     <li><m>(0, \infty)</m></li>
     <li>none</li>
@@ -38,7 +38,7 @@
 <exercise number="4"><statement><p><m>f(x)=\sqrt[3]{x}</m></p></statement></exercise>
 
 <exercise number="5"><statement><p><m>f(x)=\dfrac{1}{x}</m></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>(-infty, 0)</m></li>
     <li>none</li>
     <li><m>(0, \infty)</m></li>
@@ -46,9 +46,6 @@
 
 <exercise number="6"><statement><p><m>f(x)=\dfrac{1}{x^2}</m></p></statement></exercise>
 </exercisegroup>
-</subexercises>
-
-<subexercises><title>Skills Practice</title>
 
 <exercise number="7"><statement><p>The graph defines a function, <m>h</m>, that shows the height, <m>s</m>, in meters, of a duck <m>t</m> seconds after it is flushed out of the bushes.</p>
     <sidebyside  width="25%">
@@ -75,10 +72,10 @@
         </latex-image>
         </image>
     </sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
     <li>Use function notation to state that <m>s</m> is a function of <m>t</m>.</li>
     <li>What does the statement <m>h(3)=7</m> mean in this context?</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li> <m>s=h(t)</m></li>
     <li>After 3 seconds, the duck is at a height of 7 meters.</li></ol></p></answer></exercise>
 
@@ -103,12 +100,16 @@
         </latex-image>
         </image>
     </sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
     <li>Use function notation to state that <m>P</m> is a function of <m>a</m>.</li>
     <li>What does the statement <m>f(1500)=28.3</m> mean in this context?</li></ol></p></statement></exercise>
+</subexercises>
+
+<subexercises><title>Skills Practice</title>
+
 
 <exercisegroup cols="2"><introduction><p>In Problems 9 and 10, use the table of values to answer the questions.
-    <ol label="a">
+    <ol marker="a">
         <li><p>Based on the given values, is the function increasing or decreasing?</p></li>
         <li><p>Could the function be concave up, concave down, or linear?</p></li>
     </ol></p></introduction>
@@ -130,7 +131,7 @@
             <cell><m>3.375</m></cell>
             <cell><m>5.0625</m></cell></row>
     </tabular></sidebyside></statement>
-<answer><p><ol label="a"><li><p>Increasing</p></li><li><p>Concave up</p></li></ol></p></answer></exercise>
+<answer><p><ol marker="a"><li><p>Increasing</p></li><li><p>Concave up</p></li></ol></p></answer></exercise>
 
 <exercise number="10"><statement><sidebyside>
     <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
@@ -227,7 +228,7 @@
 
 <exercisegroup ><introduction><p>In Problems 19 and 20, match each graph with the function it illustrates.</p></introduction>
 
-<exercise number="19"><statement><p><ol label="a">
+<exercise number="19"><statement><p><ol marker="a">
         <li><p>The volume of a cylindrical container of constant height as a function of its radius</p></li>
         <li><p>The time it takes to travel a fixed distance as a function of average speed</p></li>
         <li><p>The simple interest earned at a given interest rate as a function of the investment</p></li>
@@ -235,11 +236,11 @@
     </ol></p>
     <sidebyside width="80%"><image source="images/fig-hw-5-6-15"><description>four curves</description></image></sidebyside>
 </statement>
-<answer><p><ol label="a" cols="4">
+<answer><p><ol marker="a" cols="4">
     <li><p>II</p></li><li><p>IV</p></li><li><p>I</p></li><li><p>III</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><ol label="a">
+<exercise number="20"><statement><p><ol marker="a">
         <li><p>Unemployment was falling but is now steady.</p></li>
         <li><p>Inflation, which rose slowly until last month, is now rising rapidly.</p></li>
         <li><p>The birthrate rose steadily until 1990 but is now beginning to fall.</p></li>
@@ -274,13 +275,13 @@ area is 24 square feet</p></statement></exercise>
 <exercise number="26"><statement><p>The sales tax on a purchase, as a function of its price</p></statement></exercise>
 </exercisegroup>
 
-<exercise number="27"><statement><p>Four different functions are described below. Match each description with the appropriate table of values and with its graph.<ol label="a">
+<exercise number="27"><statement><p>Four different functions are described below. Match each description with the appropriate table of values and with its graph.<ol marker="a">
     <li><p>As a chemical pollutant pours into a lake, its concentration is a function of time. The concentration of the pollutant initially increases quite rapidly, but due to the natural mixing and self-cleansing action of the lake, the concentration levels off and stabilizes at some saturation level.</p></li>
     <li><p>An overnight express train travels at a constant speed across the Great Plains. The train's distance from its point of origin is a function of time.</p></li>
     <li><p>The population of a small suburb of a Florida city is a function of time. The population began increasing rather slowly, but it has continued to grow at a faster and faster rate.</p></li>
     <li><p>The level of production at a manufacturing plant is a function of capital outlay, that is, the amount of money invested in the plant. At first, small increases in capital outlay result in large increases in production, but eventually the investors begin to experience diminishing returns on their money, so that although production continues to increase, it is at a disappointingly slow rate.</p></li>
     </ol>
-    <ol label="1">
+    <ol marker="1">
         <li><sidebyside>
             <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
                 <row>
@@ -377,20 +378,20 @@ area is 24 square feet</p></statement></exercise>
     <sidebyside widths="100%">
         <image source="images/fig-hw-5-6-27"><description>four increasing graphs</description></image>
     </sidebyside></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p>Table (4), Graph (C)</p></li>
     <li><p>Table (3), Graph (B)</p></li>
     <li><p>Table (1), Graph (D)</p></li>
     <li><p>Table (2), Graph (A)</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>Four different functions are described below. Match each description with the appropriate table of values and with its graph.<ol label="a">
+<exercise number="28"><statement><p>Four different functions are described below. Match each description with the appropriate table of values and with its graph.<ol marker="a">
     <li><p>Fresh water flowing through Crystal Lake has gradually reduced the phosphate concentration to its natural level, and it is now stable.</p></li>
     <li><p>The number of bacteria in a person during the course of an illness is a function of time. It increases rapidly at first, then decreases slowly as the patient recovers.</p></li>
     <li><p>A squirrel drops a pine cone from the top of a California redwood. The height of the pine cone is a function of time, decreasing ever more rapidly as gravity accelerates its descent.</p></li>
     <li><p>Enrollment in Ginny's Weight Reduction program is a function of time. It began declining last fall. After the holidays, enrollment stabilized for a while but soon began to fall off again.</p></li>
     </ol>
-    <ol label="1">
+    <ol marker="1">
         <li><sidebyside>
             <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
                 <row>
@@ -481,18 +482,18 @@ area is 24 square feet</p></statement></exercise>
             <cell><m>3200</m></cell>
             <cell><m>5000</m></cell></row>
     </tabular></sidebyside>
-    <p><ol label="a">
+    <p><ol marker="a">
         <li><p>Which graph represents the data?</p>
         <sidebyside width="80%"><image source="images/fig-2-4-43"><description>four curves</description></image></sidebyside></li>
         <li><p>Which equation describes the function?
-            <ol label="i" cols="4">
+            <ol marker="i" cols="4">
                 <li><p><m>v=k\sqrt{r} </m></p></li>
                 <li><p><m>v=kr</m></p></li>
                 <li><p><m>v=kr^2</m></p></li>
                 <li><p><m>v=\dfrac{k}{r} </m></p></li>
             </ol></p></li>
     </ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p>III</p></li>
     <li><p>3</p></li>
 </ol></p></answer></exercise>
@@ -511,11 +512,11 @@ area is 24 square feet</p></statement></exercise>
             <cell><m>34</m></cell>
             <cell><m>41</m></cell>
             <cell><m>47</m></cell></row>
-    </tabular></sidebyside><p><ol label="a">
+    </tabular></sidebyside><p><ol marker="a">
         <li><p>Which graph represents the data?</p>
         <sidebyside width="80%"><image source="images/fig-hw-5-6-30"><description>four curves</description></image></sidebyside></li>
         <li><p>Which equation describes the function?
-            <ol label="i" cols="4">
+            <ol marker="i" cols="4">
                 <li><p><m>A=k\sqrt{W} </m></p></li>
                 <li><p><m>A=kW</m></p></li>
                 <li><p><m>A=kW^2</m></p></li>
@@ -528,7 +529,7 @@ area is 24 square feet</p></statement></exercise>
 
     <sidebyside width="60%"><image source="images/world-population-limits"><description>models of world population limits</description></image></sidebyside>
 
-<p>Match each graph to one of the scenarios described in (a)-(d), and explain your choice.<ol label="a">
+<p>Match each graph to one of the scenarios described in (a)-(d), and explain your choice.<ol marker="a">
     <li>Sigmoid growth:  the population levels off smoothly below the carrying capacity.</li>
     <li>Overshoot and collapse:  the population exceeds the carrying capacity with severe damage to the resource base, and is forced to decline rapidly to achieve a new balance with a reduced carrying capacity.</li>
     <li>Continued growth:  the carrying capacity is far away, or growing faster than the population.</li>
@@ -539,33 +540,33 @@ area is 24 square feet</p></statement></exercise>
 <subexercises><title>Absolute Value</title>
 
 <exercisegroup ><introduction><p>In Problems 1<ndash/>8, 
-    <ol label="a">
+    <ol marker="a">
         <li><p>Use absolute value notation to write each expression as an equation or an inequality. (It may be helpful to restate each sentence using the word <em>distance</em>.)</p></li>
         <li><p>Illustrate the solutions on a number line.</p></li></ol></p></introduction>
     
 <exercise number="1"><statement><p><m>x</m> is six units from the origin. </p></statement>
-    <answer><p><ol label="a">
+    <answer><p><ol marker="a">
             <li><p><m>\abs{x}=6 </m></p></li>
             <li><sidebyside width="50%"><image source="images/fig-ans-2-5-1"><description>number line</description></image></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="2"><statement><p><m>a</m> is seven units from the origin.</p></statement></exercise>
 
 <exercise number="3"><statement><p>The distance from <m>p</m> to <m>-3</m> is five units.</p></statement>
-        <answer><p><ol label="a">
+        <answer><p><ol marker="a">
             <li><p><m>\abs{p+3}=5 </m></p></li>
             <li><sidebyside width="50%"><image source="images/fig-ans-2-5-3"><description>number line</description></image></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement><p>The distance from <m>q</m> to <m>-7</m> is two units.</p></statement></exercise>
 
 <exercise number="5"><statement><p><m>t</m> is within three units of <m>6</m>. </p></statement>
-        <answer><p><ol label="a">
+        <answer><p><ol marker="a">
             <li><p><m>\abs{t-6}\lt 3 </m></p></li>
             <li><sidebyside width="50%"><image source="images/fig-ans-2-5-5"><description>number line</description></image></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>w</m> is no more than one unit from <m>-5</m>.</p></statement></exercise>
 
 <exercise number="7"><statement><p><m>b</m> is at least <m>0.5</m> unit from <m>-1</m>.</p></statement>
-        <answer><p><ol label="a">
+        <answer><p><ol marker="a">
             <li><p><m>\abs{b+1}\ge 0.5 </m></p></li>
             <li><sidebyside width="50%"><image source="images/fig-ans-2-5-7"><description>number line</description></image></sidebyside></li></ol></p></answer></exercise>
 
@@ -573,31 +574,31 @@ area is 24 square feet</p></statement></exercise>
 </exercisegroup>
 
 <exercise number="9"><statement><p>Graph <m>y = \abs{x + 3}</m>. Use your graph to solve the following equations and inequalities.
-    <ol label="a" cols="3">
+    <ol marker="a" cols="3">
         <li><p><m>\abs{x + 3} = 2 </m></p></li>
         <li><p><m>\abs{x+3}\le 4 </m></p></li>
         <li><p><m>\abs{x+3}\gt 5 </m></p></li></ol></p></statement>
 <answer><sidebyside width="30%"><image source="images/fig-ans-2-5-9"><description>absolute value graph</description></image></sidebyside>
-    <p><ol label="a">
+    <p><ol marker="a">
     <li><p><m>x = -5</m> or <m>x = -1</m> </p></li>
     <li><p><m>-7\le x\le 1</m></p></li>
     <li><p><m>x\lt -8</m> or <m>x\gt 2</m> </p></li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><p>Graph <m>y = \abs{x -2}</m>. Use your graph to solve the following equations and inequalities.<ol label="a" cols="3">
+<exercise number="10"><statement><p>Graph <m>y = \abs{x -2}</m>. Use your graph to solve the following equations and inequalities.<ol marker="a" cols="3">
         <li><p><m>\abs{x-2} = 5 </m></p></li>
         <li><p><m>\abs{x-2}\lt 8 </m></p></li>
         <li><p><m>\abs{x-2}\ge 4 </m></p></li></ol></p></statement></exercise>
 
-<exercise number="11"><statement><p>Graph <m>y = \abs{2x-8}</m>. Use your graph to solve the following equations and inequalities.<ol label="a" cols="3">
+<exercise number="11"><statement><p>Graph <m>y = \abs{2x-8}</m>. Use your graph to solve the following equations and inequalities.<ol marker="a" cols="3">
         <li><p><m>\abs{2x-8} = 0 </m></p></li>
         <li><p><m>\abs{2x-8}=-2 </m></p></li>
         <li><p><m>\abs{2x-8}\lt -6 </m></p></li></ol></p></statement>
-<answer><sidebyside width="30%"><image source="images/fig-ans-2-5-11"><description>absolute value graph</description></image></sidebyside><p><ol label="a">
+<answer><sidebyside width="30%"><image source="images/fig-ans-2-5-11"><description>absolute value graph</description></image></sidebyside><p><ol marker="a">
     <li><p><m>x = 4</m> </p></li>
     <li><p>No solution</p></li>
     <li><p>No solution </p></li></ol></p></answer></exercise>
 
-<exercise number="12"><statement><p>Graph <m>y = \abs{4x+8}</m>. Use your graph to solve the following equations and inequalities.<ol label="a" cols="3">
+<exercise number="12"><statement><p>Graph <m>y = \abs{4x+8}</m>. Use your graph to solve the following equations and inequalities.<ol marker="a" cols="3">
         <li><p><m>\abs{4x+8} = 0 </m></p></li>
         <li><p><m>\abs{4x+8}\lt 0 </m></p></li>
         <li><p><m>\abs{4x+8}\gt -3 </m></p></li></ol></p></statement></exercise>
