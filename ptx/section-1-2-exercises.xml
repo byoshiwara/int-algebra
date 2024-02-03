@@ -276,10 +276,10 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>18, solve the inequality and graph the solutions on a number line.</p></introduction>
             
-<exercise number="14"><statement><p><m>3x-2 \gt 1+2x</m></p></statement></exercise>
+<exercise number="15"><statement><p><m>3x-2 \gt 1+2x</m></p></statement></exercise>
 
 
-<exercise number="15"><statement><p><m>\dfrac{-2x-6}{-3} \gt 2 </m></p></statement></exercise>
+<exercise number="16"><statement><p><m>\dfrac{-2x-6}{-3} \gt 2 </m></p></statement></exercise>
 
 <exercise number="17"><statement><p><m>\dfrac{-2x-3}{2}\le -5 </m></p></statement>
 <answer><sidebyside widths="20% 60%" margins="0% 10%" valigns="middle middle"><p>
