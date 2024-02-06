@@ -44,14 +44,14 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
              partialCredit => 1,
             ); 
         </pg-code> 
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
             <li><p>Solve the system algebraically:
                     <md><mrow>y \amp= x^2 - 8x + 17</mrow>
                         <mrow>y \amp{}+ 4x =13</mrow></md></p>
                 <p>Solution: <var name="$answer" width="6" evaluator="$my_evaluator" /> Note: list solutions as ordered pairs.</p> </li>
             <li><p>Graph both equations, and show the solutions on the graph.</p></li></ol></p>
         </statement>
-        <solution><p><ol label="a" cols="2">
+        <solution><p><ol marker="a" cols="2">
                 <li><p><m>(2,5) </m></p></li>
                 <li><p>A graph is below.</p></li></ol></p>
         </solution>
@@ -108,14 +108,14 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
             ); 
 
         </pg-code> 
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
             <li><p>Solve the system algebraically:
                     <md><mrow>y \amp= x^2 - 6x - 7</mrow>
                         <mrow>y \amp= 13 - x^2</mrow></md></p>
-                <p>Solutions: <var name="$answer" width="12" evaluator="$my_evaluator" /> Note: list solutions as ordered pairs, and use a comma to different solutions.</p> </li>
+                <p>Solutions: <var name="$answer" width="12" evaluator="$my_evaluator" /> Note: list solutions as ordered pairs, and use a comma to separate different solutions.</p> </li>
             <li><p>Graph both equations, and show the solutions on the graph.</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a" cols="2">
+    <solution><p><ol marker="a" cols="2">
                 <li><p><m>(-2,9), (5,-12) </m></p></li>
                 <li><p>A graph is below.</p></li></ol></p>
     </solution>
@@ -131,7 +131,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
 
 <p>A system of two parabolas can have one, two, or no solutions, depending on the graphs of the two equations. Systems involving other conics may have up to four solutions.</p>
 
-<example><statement><p>Find the intersection points of the graphs of
+<example xml:id="Example-intersection-of-conics"><statement><p>Find the intersection points of the graphs of
             <md><mrow>x^2+y^2 \amp=5</mrow>
                 <mrow>xy\amp=2</mrow></md></p></statement>
 
@@ -188,7 +188,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
 
 <subsection><title>Solving Systems by Elimination</title><idx>elimination method</idx><idx><h>system of equations</h><h>elimination method</h></idx>
 
-<p>We used substitution in the previous Example to solve the system. If both equations are ofthe form 
+<p>We used substitution in the previous <xref ref="Example-intersection-of-conics" text="custom">Example</xref> to solve the system. If both equations are of the form 
     <md><mrow>ax^2 + by^2 = c</mrow></md>
 elimination of variables is more efficient.</p>
 

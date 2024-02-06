@@ -89,7 +89,9 @@
 
 <p>In most cases, a mathematical model is not a perfect description of reality. Many factors can affect empirical data, including measurement error, environmental conditions, and the influence of related variables. Nonetheless, we can often find an equation that approximates the data in a useful way.</p>
 
-<example><statement><p>The table shows the minimum wage in the US at five-year intervals. (Source: Economic Policy Institute)</p>
+<example xml:id="Minimum-wage">
+    <statement>
+        <p>The table shows the minimum wage in the US at five-year intervals. (Source: Economic Policy Institute)</p>
         <sidebyside><tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
             <row>
                 <cell halign="left">Year</cell>
@@ -114,25 +116,27 @@
                 <cell>4.25</cell>
                 <cell>5.15</cell></row>
         </tabular></sidebyside>
-    <sidebyside widths="50% 45%" margins="0% 0%" valigns="top middle"><p><ol label="a">
-        <li><p>Let <m>t</m> represent the number of years after 1960, and plot the data. Are the data linear?</p></li>
-        <li><p>Draw a line that "fits" the data.</p></li></ol></p>
-            <image source="images/fig-example-2-1-1"><description>scatterplot of minimum wage</description></image>
+        <sidebyside widths="50% 45%" margins="0% 0%" valigns="top middle"><p><ol marker="a">
+            <li><p>Let <m>t</m> represent the number of years after 1960, and plot the data. Are the data linear?</p></li>
+            <li><p>Draw a line that "fits" the data.</p></li></ol></p>
+                <image source="images/fig-example-2-1-1"><description>scatterplot of minimum wage</description></image>
         </sidebyside>
-</statement>
+    </statement>
 
-<solution><p><ol label="a">
-    <li><p>The graph shown is called a <term>scatterplot</term><idx>scatterplot</idx>. The data are not strictly linear, because the slope is not constant: from 1960 to 1965, the minimum wage increased at an average rate of 
-        <me>\dfrac{1.25-1.00}{5}=0.05~ \text{dollars per year}</me> 
-    and from 1970 to 1975, the minimum wage increased at a rate of 
-    <me>\dfrac{2.10-1.60}{5}=0.10~ \text{dollars per year}</me> 
-    However, the data points do appear to lie close to an imaginary line.</p></li>
-    <li><sidebyside widths="45% 51%" margins="0% 0%" valigns="top middle">
-    <p>We would like to draw a line that comes as close as possible to all the data points, even though it may not pass precisely through any of them. In particular, we try to adjust the line so that we have the same number of points above the line and below the line. One possible solution is shown in the figure at right.</p>
-        <image source="images/fig-example-2-1-1ans"><description>scatterplot of minimum wage</description></image>
-</sidebyside></li></ol></p></solution></example>
+    <solution><p><ol marker="a">
+        <li><p>The graph shown is called a <term>scatterplot</term><idx>scatterplot</idx>. The data are not strictly linear, because the slope is not constant: from 1960 to 1965, the minimum wage increased at an average rate of 
+            <me>\dfrac{1.25-1.00}{5}=0.05~ \text{dollars per year}</me> 
+        and from 1970 to 1975, the minimum wage increased at a rate of 
+        <me>\dfrac{2.10-1.60}{5}=0.10~ \text{dollars per year}</me> 
+        However, the data points do appear to lie close to an imaginary line.</p></li>
+        <li><sidebyside widths="45% 51%" margins="0% 0%" valigns="top middle">
+        <p>We would like to draw a line that comes as close as possible to all the data points, even though it may not pass precisely through any of them. In particular, we try to adjust the line so that we have the same number of points above the line and below the line. One possible solution is shown in the figure at right.</p>
+            <image source="images/fig-example-2-1-1ans"><description>scatterplot of minimum wage</description></image>
+        </sidebyside></li></ol></p>
+    </solution>
+</example>
 
-<p>A line that fits the data in a scatterplot is called a <term>regression line</term><idx>regression line</idx><idx><h>regression line</h><seealso>linear regression</seealso></idx><idx><h>line</h><h>regression</h></idx>. Drawing a regression line by eye is a subjective process. In the Activities Workbook we'll use a calculator to compute a particular regression line called the <term>least-squares regression line</term><idx>least-squares regression line</idx><idx><h>linear regression</h><h>least-squares regression line</h></idx>, which is widely used in statistics and modeling.</p>
+<p>A line that fits the data in a scatterplot is called a <term>regression line</term><idx>regression line</idx><idx><h>regression line</h><seealso>linear regression</seealso></idx><idx><h>line</h><h>regression</h></idx>. Drawing a regression line by eye is a subjective process. Using technology, we can compute a particular regression line called the <term>least-squares regression line</term><idx>least-squares regression line</idx><idx><h>linear regression</h><h>least-squares regression line</h></idx>, which is widely used in statistics and modeling.</p>
 
 <p>We can still find an equation for a line of best fit using the point-slope formula. We choose two points on the line whose coordinates we can estimate fairly accurately. Note that these two points need not be any of the original data points.</p>
 
@@ -197,13 +201,13 @@
                 <cell>16</cell>
                 <cell>15</cell>
                 <cell>6</cell></row>
-        </tabular></sidebyside><p><ol label="a">
+        </tabular></sidebyside><p><ol marker="a">
     <li><p>Make a scatterplot of the data, and draw a regression line</p></li>
     <li><p>Read values from your line for the number of cups of cocoa that will be sold when the temperature is <m>8\degree\text{C}</m> and when the temperature is <m>16\degree\text{C}</m>.</p></li>
     <li><p>Find an equation for the regression line.</p></li>
     <li><p>Use your equation to predict the number of cups of cocoa that will be sold when the temperature is <m>9\degree\text{C}</m>, and when the temperature is <m>24\degree\text{C}.</m></p></li></ol></p></statement>
     
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>The scatterplot and a regression line are shown in the figure.</p>
         <sidebyside width="85%"><image source="images/fig-example-cocoa"><description>scatterplot with regression line</description></image></sidebyside>
     <p>The regression line need not pass through any of the data points, but it should be as close as possible. We try to draw the regression line so that there are an equal number of data points above and below the line.</p></li>
@@ -212,16 +216,18 @@
         <md><mrow>m=\frac{C_2-C_1}{T_2-T_1}=\frac{12-32}{16-8}=-2.5</mrow></md>
     Next, we apply the point-slope formula. We'll use the point <m>(16, 12)</m>.
         <md><mrow>C\amp= C_1+m(T-T_1)</mrow>
-            <mrow>C\amp= 12-2.5(T-16)</mrow></md></p></li>
+            <mrow>C\amp= 12-2.5(T-16)</mrow>
+            <mrow>C\amp= -2.5T+52</mrow>
+        </md></p></li>
     <li><p>When <m>T=\alert{9}</m>,
         <md><mrow>C=-2.5(\alert{9})+52=29.5</mrow></md>
     We predict that the snack bar will sell 29 or 30 cups of cocoa when the temperature is <m>9\degree\text{C}</m>. When <m>T = \alert{24}</m>,
         <md><mrow>C=-2.5(\alert{24})+52=-8</mrow></md>
     Because the snack bar cannot sell <m>-8</m> cups of cocoa, this prediction is not useful. (What is the Fahrenheit equivalent of 24°C?)</p></li></ol></p></solution></example>
 
-<p>Using a regression line to estimate values between known data points is called <term>interpolation</term><idx>interpolation</idx><idx><h>linear regression</h><h>interpolation</h></idx>. If the data points lie fairly close to the regression line, then interpolation will usually give a fairly accurate estimate. In the Example above, the estimate of 29 or 30 cups of cocoa at <m>9\degree\text{C} </m> seems reasonable in the context of the data.</p>
+<p>Using a regression line to estimate values between known data points is called <term>interpolation</term><idx>interpolation</idx><idx><h>linear regression</h><h>interpolation</h></idx>. If the data points lie fairly close to the regression line, then interpolation will usually give a fairly accurate estimate. In the <xref ref="example-cocoa" text="custom">Example</xref> above, the estimate of 29 or 30 cups of cocoa at <m>9\degree\text{C} </m> seems reasonable in the context of the data.</p>
 
-<p>Making predictions beyond the range of known data is called <term>extrapolation</term><idx>extrapolation</idx><idx><h>linear regression</h><h>extrapolation</h></idx>. Extrapolation can often give useful information, but if we try to extrapolate too far beyond our data, we may get unreasonable results. The conditions that produced the data may no longer hold, as in the Example above, or other unexpected conditions may arise to alter the situation.</p>
+<p>Making predictions beyond the range of known data is called <term>extrapolation</term><idx>extrapolation</idx><idx><h>linear regression</h><h>extrapolation</h></idx>. Extrapolation can often give useful information, but if we try to extrapolate too far beyond our data, we may get unreasonable results. The conditions that produced the data may no longer hold, as in the <xref ref="example-cocoa" text="custom">Example</xref> above, or other unexpected conditions may arise to alter the situation.</p>
 
 <exercise><title>QuickCheck 2</title>
 <webwork><pg-code>
@@ -230,7 +236,7 @@
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol label="a">
+<statement><p>True or false.<ol marker="a">
     <li><p>A scatterplot is a type of linear model. <var name="$TF" form="popup"/></p></li>
     <li><p>A regression line should give the same <m>y</m>-values as the data points. <var name="$TF" form="popup"/></p></li>
     <li><p>We use interpolation to estimate the <m>y</m>-value at a data point. <var name="$TF" form="popup"/></p></li>
@@ -259,7 +265,7 @@
           3, 
         );            
         </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
          <li><p>Use your regression equation from the previous Example to predict the number of cups of cocoa sold when the temperature is <m>-10^\circ\text{C} </m>.</p>
                     <p><var name="$a1" width="2"/> cups</p></li>
         <li><p>Predict the number of cups of cocoa sold when the temperature is <m>7^\circ\text{C}</m>.</p>
@@ -267,7 +273,7 @@
         <li><p>Which prediction is more likely to be accurate?  Why?</p>
                     <p><var name="$explain" form="buttons"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
                 <li><p>77</p></li>
                 <li><p>34 or 35</p></li>
                 <li><p>(b), because it is interpolation</p></li></ol></p>
@@ -279,8 +285,8 @@
 
 <p>The data in a scatterplot may show a linear trend, even though the individual points are not clustered closely around a line. Scattering of data is common in the social sciences, where many variables may influence a particular situation. Nonetheless, by analyzing the data, we may be able to detect a connection between some of the variables.</p>
 
-<example><statement><p>The world's population is growing at different rates in different nations. Many factors, including economic and social forces, influence the birthrate. Is there a connection between birth rates and education levels? The figure below shows the birth rate plotted against the female literacy rate in 148 countries.</p>
-    <sidebyside width="90%"><image source="images/fig-female-literacy-scatterplot"><description>scatterplot birth rate and female literacy</description></image></sidebyside><p><ol label="a">
+<example xml:id="Example-female-literacy"><statement><p>The world's population is growing at different rates in different nations. Many factors, including economic and social forces, influence the birthrate. Is there a connection between birth rates and education levels? The figure below shows the birth rate plotted against the female literacy rate in 148 countries.</p>
+    <sidebyside width="90%"><image source="images/fig-female-literacy-scatterplot"><description>scatterplot birth rate and female literacy</description></image></sidebyside><p><ol marker="a">
     <li><p>Draw a line of best fit for the data points.</p></li>
     <li><p>Locate on the scatterplot the points representing the following nations</p>
         <sidebyside><tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
@@ -316,7 +322,7 @@
     <li><p>Data points that lie far from the regression line are called <term>outliers</term><idx><h>linear regression</h><h>outliers</h></idx><idx>outliers</idx><idx><h>outliers</h><seealso>linear regression</seealso></idx>. Which of the nations listed in part (b) could be considered outliers?</p></li></ol></p>
     </statement>
     
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
         <li><sidebyside width="95%"><image source="images/fig-female-literacy-line"><description>regression line for birth rate and female literacy</description></image></sidebyside></li>
         <li><p>The figure above shows the regression line and the data points for eachof the nations in part (b).</p></li>
         <li><p> Morocco and the Maldives could be considered outliers.</p></li></ol></p>
@@ -330,7 +336,7 @@
             $min=Compute("2.04");
             $m = Compute("-0.05");
             $units = RadioButtons(
-              ["A) biths per woman",
+              ["A) births per woman",
               "B) births per woman per percentage point",
               "C) literacy per percentage point",
               "D) women per birth"],
@@ -345,12 +351,12 @@
             );            
         </pg-code>
     <statement><p>The equation for the least-squares regression line in the previous Example is
-            <md><mrow>y = 7.04 - 0.05x</mrow></md><ol label="a">
+            <md><mrow>y = 7.04 - 0.05x</mrow></md><ol marker="a">
             <li><p>What values for the input variable make sense for the model? </p>
                 <p>From <var name="$zero" width="1"/> to <var name="$hundred" width="2"/> </p>
-                <p>What is the largest value predicted by the model for the output variable</p>
+                <p>What is the largest value predicted by the model for the output variable?</p>
                     <p><var name="$max" width="3"/> </p>
-                <p>What is the smallest value predicted by the model for the output variable</p>
+                <p>What is the smallest value predicted by the model for the output variable?</p>
                         <p><var name="$min" width="3"/> </p></li>
             <li><p>State the slope of the regression line, including units.</p>
                         <p><var name="$m" width="3"/> </p>
@@ -359,7 +365,7 @@
                 <p>The birth rate decreases by : </p>
                         <p><var name="$explain" form="buttons"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><p>From 0 to 100; largest: 7.04; smallest: 2.04</p></li>
         <li><p><m>-0.05</m> births per woman per percentage point. The birth rate decreases by 0.05 births per woman for each percentage point increase in the female literacy rate.</p></li></ol></p>
     </solution>

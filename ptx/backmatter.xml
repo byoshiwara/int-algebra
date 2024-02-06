@@ -5,7 +5,7 @@
     <title>Appendices</title>
     <xi:include href="./appendix-c.xml" />   <!-- Using a Geogebra Calculator App -->
 
-	<solutions divisional=" solution answer" project="answer">
+	<solutions divisional="answer" project="answer">
 	        <title>Answers to Selected Exercises</title>
 	</solutions>
     <index>

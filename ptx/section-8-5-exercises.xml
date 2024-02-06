@@ -68,7 +68,7 @@ Solution:
         <mrow> \amp = 7  \amp \amp \blert{\text{The answer is 7.}}</mrow></md></p></statement>
 <answer><p>We don't multiply by the LCD in addition problems.</p></answer></exercise>
 
-<exercise number="18"><statement><p>Compare the methods in each calculation with fractions. Explain how the LCD is used in each operation.<ol label="a" cols="2">
+<exercise number="18"><statement><p>Compare the methods in each calculation with fractions. Explain how the LCD is used in each operation.<ol marker="a" cols="2">
     <li><p>Add:  <m>~\dfrac{3}{x} + \dfrac{1}{x+3}</m></p></li>
     <li><p>Divide:  <m>~\dfrac{3}{x} \div \dfrac{1}{x+3}</m></p></li>
     <li><p>Solve:  <m>~\dfrac{3}{x} + \dfrac{1}{x+3} = 3</m></p></li>
@@ -122,30 +122,30 @@ Write and solve an equation to determine what percent of the population can be i
     <li><p>Write and solve an equation to find the current speed if the school makes its trip in 8 hours. Label the corresponding point on your graph.</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="31"><statement><p>During the baseball season so far this year, Pete got hits 44 times out of 164 times at bat.<ol label="a">
+<exercise number="31"><statement><p>During the baseball season so far this year, Pete got hits 44 times out of 164 times at bat.<ol marker="a">
     <li>What is Pete's batting average so far? (Batting average is the fraction of at-bats that resulted in hits.)</li>
     <li>If Pete gets hits on every one of his next <m>x</m> at-bats, write an expression for his new batting average.</li>
     <li>How many consecutive hits does Pete need to raise his batting average to 0.350 ?</li></ol>
 </p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li>0.268</li>
     <li><m>\dfrac{44+x}{164+x}</m></li>
     <li>21</li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>The manager of Joe's Burgers discovers that he will sell <m>\dfrac{160}{x}</m> burgers per day if the price of a burger is <m>x</m> dollars.  On the other hand, he can afford to make <m>6x+49</m>
-burgers if he charges <m>x</m> dollars apiece for them.<ol label="a">  
-    <li>Graph the demand function, <m>D(x) = \dfrac{160}{x}</m> and the supply function, <m>S(x) = 6x+49</m>, in the same window.  At what price<m>x</m>does the demand for burgers equal the number that Joe can afford to supply?  This value for  is called the equilibrium price.</li>
+burgers if he charges <m>x</m> dollars apiece for them.<ol marker="a">  
+    <li>Graph the demand function, <m>D(x) = \dfrac{160}{x}</m> and the supply function, <m>S(x) = 6x+49</m>, in the same window.  At what price <m>x</m> does the demand for burgers equal the number that Joe can afford to supply?  This value for  is called the equilibrium price.</li>
     <li>Write and solve an equation to verify your equilibrium price.</li></ol></p>
 </statement></exercise>
 
-<exercise number="33"><statement><p>A chartered sightseeing flight over the Grand Canyon is scheduled to return to its departure point in 3 hours. The pilot would like to cover a distance of 144 miles before turning around, and he hears on the Weather Service that there will be a headwind of 20 miles per hour on the outward journey.<ol label="a">
+<exercise number="33"><statement><p>A chartered sightseeing flight over the Grand Canyon is scheduled to return to its departure point in 3 hours. The pilot would like to cover a distance of 144 miles before turning around, and he hears on the Weather Service that there will be a headwind of 20 miles per hour on the outward journey.<ol marker="a">
     <li><p>Express the time it takes for the outward journey as a function of the airspeed of the plane.</p></li>
     <li><p>Express the time it takes for the return journey as a function of the speed of the plane.</p></li>
     <li><p>Graph the sum of the two functions and find the point on the graph with <m>y</m>-coordinate 3. Interpret the coordinates of the point in the context of the problem.</p></li>
     <li><p>The pilot would like to know what airspeed to maintain in order to complete the tour in 3 hours. Write an equation to describe this situation.</p></li>
     <li><p>Solve your equation to find the appropriate airspeed.</p></li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><m>t=\dfrac{144}{v-20}</m></li>
     <li><m>t=\dfrac{144}{v+20}</m></li>
     <li><m>(100,3)</m></li>
@@ -153,7 +153,7 @@ burgers if he charges <m>x</m> dollars apiece for them.<ol label="a">
     <li>100 mph</li></ol></p>
 </answer></exercise>
 
-<exercise number="34"><statement><!-- <m>b\dfrac{a-b}{a+b} +b</m> --><p>The cost of wire fencing is $7.50 per foot. A rancher wants to enclose a rectangular pasture of 1000 square feet with this fencing.<ol label="a">
+<exercise number="34"><statement><!-- <m>b\dfrac{a-b}{a+b} +b</m> --><p>The cost of wire fencing is $7.50 per foot. A rancher wants to enclose a rectangular pasture of 1000 square feet with this fencing.<ol marker="a">
     <li><p>Express the length of the pasture as a function of its width.</p></li>
     <li><p>Express the cost of the fence as a function of its width.</p></li>
     <li><p>Graph your function for the cost and find the coordinates of the lowest point on the graph. Interpret those coordinates in the context of the problem.</p></li>
@@ -164,7 +164,7 @@ burgers if he charges <m>x</m> dollars apiece for them.<ol label="a">
 <exercise number="35"><statement><p>Distances on a map vary directly with actual distances. The scale on a map of Michigan uses <m>\dfrac{3}{8}</m> inch to represent 10 miles. If Isle Royale is <m>1\dfrac{11}{16}</m> inches long on the map, what is the actual length of the island?</p></statement>
 <answer><p><m>28 \dfrac{1}{3}</m> miles</p></answer></exercise>
 
-<exercise number="36"><statement><p>The highest point on Earth is Mount Everest in Tibet, with an elevation of 8848 meters. The deepest part of the ocean is the Challenger Deep in the Mariana Trench, near Indonesia, 11,034 meters below sea level. <ol label="a">
+<exercise number="36"><statement><p>The highest point on Earth is Mount Everest in Tibet, with an elevation of 8848 meters. The deepest part of the ocean is the Challenger Deep in the Mariana Trench, near Indonesia, 11,034 meters below sea level. <ol marker="a">
     <li><p>What is the total height variation in the surface of the Earth?</p></li>
     <li><p>What percentage of the Earth's radius, 6400 kilometers, is this variation?</p></li>
     <li><p>If the Earth were shrunk to the size of a basketball, with a radius of 4.75 inches, what would be the corresponding height of Mount Everest?</p></li>
@@ -173,7 +173,7 @@ burgers if he charges <m>x</m> dollars apiece for them.<ol label="a">
 <exercise number="37"><statement><p>The rectangle <m>ABCD</m> is divided into a square and a smaller rectangle, <m>CDEF</m>. The two rectangles <m>ABCD</m> and <m>CDEF</m> are similar (their corresponding sides are proportional.) A rectangle <m>ABCD</m> with this property is called a <term>golden rectangle</term><idx>golden rectangle</idx>, and the ratio of its length to its width is called the golden ratio.</p>
 <sidebyside widths="65% 25%" valigns="middle middle"><p>The golden ratio appears
 frequently in art and nature, and it is considered to give the most pleasing proportions to many figures. We will compute the golden ratio as follows.</p>
-<image source="images/fig-golden-rectangle"><description>golden rectangle</description></image></sidebyside><p><ol label="a">
+<image source="images/fig-golden-rectangle"><description>golden rectangle</description></image></sidebyside><p><ol marker="a">
     <li><p>Let <m>AB = 1</m> and <m>AD = x</m>. What are the lengths of <m>AE</m>, <m>DE</m>, and <m>CD</m>?</p></li>
     <li><p>Write a proportion in terms of <m>x</m> for the similarity of rectangles <m>ABCD</m> and <m>CDEF</m>. Be careful to match up the corresponding sides.</p></li>
     <li><p>Solve your proportion for <m>x</m>. Find the golden ratio, <m>\dfrac{AD}{AB}=\dfrac{x}{1} </m>.</p></li>
@@ -186,7 +186,7 @@ frequently in art and nature, and it is considered to give the most pleasing pro
 
 <exercise number="38"><statement><sidebyside widths="60% 30%" valigns="middle middle"><p>The figure shows the graphs of two equations, 
     <me>y = x~~~~\text{and}~~~~y=\dfrac{1}{x}+1 </me>.</p>
-<image source="images/fig-reciprocal-and-identity"><description>line and translated reciprocal</description></image></sidebyside> <p><ol label="a">
+<image source="images/fig-reciprocal-and-identity"><description>line and translated reciprocal</description></image></sidebyside> <p><ol marker="a">
     <li><p>Find the <m>x</m>-coordinate of the intersection point of the two graphs.</p></li>
     <li><p>Compare your answer to the golden ratio you computed in Problem 37.</p></li>
 </ol></p></statement></exercise>
@@ -202,7 +202,7 @@ frequently in art and nature, and it is considered to give the most pleasing pro
     Because <m>x=1</m> and <m>x=0</m>, we have "proved" that <m>1=0</m>.</p></statement>
 <answer><p>Because <m>x=1</m>, dividing by <m>x-1</m> in the fourth step is dividing by <m>0</m>.</p></answer></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 40<ndash/>42,<ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 40<ndash/>42,<ol marker="a">
     <li><p>Solve the equation graphically by graphing two functions, one for each side of the equation.</p></li>
     <li><p>Solve the equation algebraically.</p></li>
 </ol></p></introduction>

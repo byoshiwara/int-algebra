@@ -51,7 +51,7 @@ where we have divided both numerator and denominator by 9. The new fraction has 
 <warning><p>When we cancel common factors, we are <em>dividing</em>. Because division is the inverse or opposite operation for multiplication, we can cancel common <em>factors</em>, but <em>we cannot cancel common terms</em>.
 </p></warning>
 
-<example><statement><p>Use your calculator to decide which calculation is correct. <ol label="a" cols="2">
+<example><statement><p>Use your calculator to decide which calculation is correct. <ol marker="a" cols="2">
         <li><m>\dfrac{12}{8} = \dfrac{4 \cdot 3}{4 \cdot 2} \rightarrow \dfrac{3}{2}</m></li>
         <li><m>\dfrac{7}{6} = \dfrac{4 + 3}{4 + 2} \rightarrow \dfrac{3}{2}</m></li></ol></p></statement>
 
@@ -73,7 +73,7 @@ where we have divided both numerator and denominator by 9. The new fraction has 
         $undef2 = PopUp(
             [ "?", 
             "even", 
-            "negatove",
+            "negative",
             "positive",
             "zero"
             ],
@@ -116,14 +116,14 @@ where we have divided both numerator and denominator by 9. The new fraction has 
             1
         );
     </pg-code>
-    <statement><p>Fill in the blanks.<ol label="a">
+    <statement><p>Fill in the blanks.<ol marker="a">
         <li>An algebraic fraction is undefined when the <var name="$undefined" form="popup"/> is <var name="$undef2" form="popup"/>.</li>
         <li>"Canceling" common factors uses the operation of <var name="$cancel" form="popup"/>.</li>
         <li>Terms are expressions that are <var name="$terms" form="popup"/> or <var name="$terms2" form="popup"/>.</li>
         <li>When we reduce a fraction, the new fraction is <var name="$equiv" form="popup"/> to the old one.</li>
             </ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li>denominator, zero</li>
         <li>division</li>
         <li>added, subtracted</li>
@@ -150,11 +150,11 @@ where we have divided both numerator and denominator by 9. The new fraction has 
 
 <p>If the numerator or denominator of the fraction contains more than one term, it is especially important to <em>factor before reducing</em>, so that numerator and denominator are written as products of factors, instead of sums of terms. </p>
 
-<example xml:id="example-reduce"><statement><p>Reduce each fraction. <ol label="a" cols="2">
+<example xml:id="example-reduce"><statement><p>Reduce each fraction. <ol marker="a" cols="2">
         <li><m>\dfrac{4x+2}{4}</m></li>
         <li><m>\dfrac{9x^2+3}{6x+3}</m></li></ol></p></statement>
 
-<solution><p>First we factor the numerator and denominator.  Then we divide numerator and denominator by any common factors.<ol label="a">
+<solution><p>First we factor the numerator and denominator.  Then we divide numerator and denominator by any common factors.<ol marker="a">
     <li><m>\dfrac{4x+2}{4} = \dfrac{\cancel{2}(2x+1)}{\cancel{2}(2)} = \dfrac{2x+1}{2}</m></li>
     <li><m>\dfrac{9x^2+3}{6x+3} = \dfrac{\cancel{3}(3x^2+1)}{\cancel{3}(2x+1)} = \dfrac{3x^2+1}{2x+1}</m></li></ol></p>
 </solution></example>
@@ -181,13 +181,13 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
             0
         );
     </pg-code>
-    <statement><p>Explain why each calculation is incorrect.<ol label="a">
+    <statement><p>Explain why each calculation is incorrect.<ol marker="a">
         <li><p><m>\dfrac{x-6}{x-9} \rightarrow \dfrac{x-2}{x-3}</m>
             </p><p><var name="$a" form="buttons"/></p></li>
         <li><p><m>\dfrac{2x+5}{2} \rightarrow x+5</m>
             </p><p><var name="$b" form="buttons"/></p></li></ol></p>
         </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li>3 is not a factor of numerator or denominator</li>
     <li>2 is not a factor of the numerator</li></ol></p></solution>
 </webwork></exercise>        
@@ -195,16 +195,16 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
 <p>We summarize the procedure for reducing algebraic fractions as follows.</p>
 
 <assemblage><title>To reduce an algebraic fraction</title><idx><h>algebraic fraction</h><h>reducing</h></idx><idx><h>fraction</h><h>reducing an algebraic fraction</h></idx><idx>reducing fractions</idx>
-    <p><ol label="1">
+    <p><ol marker="1">
         <li>Factor the numerator and the denominator.</li>
         <li>Divide the numerator and denominator by any common factors.</li></ol></p>
 </assemblage>
 
-<example><statement><p>Reduce each fraction. <ol label="a" cols="2">
+<example xml:id="Reduce-algebraic-fractions"><statement><p>Reduce each fraction. <ol marker="a" cols="2">
         <li><m>\dfrac{3x+12}{6x+24}</m></li>
         <li><m>\dfrac{27x^3-1}{9x^2-1}</m></li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>We first factor the numerator and denominator completely.  
         <me>\dfrac{3x+12}{6x+24} = \dfrac{3(x+4)}{2 \cdot 3(x+4)}</me>
     Then we divide numerator and denominator by the common factors 3 and <m>(x+4)</m>. We must cancel the entire expression <m>(x+4)</m> from numerator and denominator (we cannot cancel the <m>x</m>'s or the 4's separately!).
@@ -248,13 +248,13 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
         );
         $one = Compute("1");
     </pg-code>
-    <statement><p>Fill in the blanks.<ol label="a">
+    <statement><p>Fill in the blanks.<ol marker="a">
         <li>If we want to cancel an expression from a fraction, we must be able to <var name="$cancel" form="popup"/> it from numerator and denominator.</li>
         <li>When we factor an expression, we write it as a <var name="$factor" form="popup"/>.</li>
         <li>If a factor appears in both numerator and denominator, it is called a <var name="$common" form="popup"/> factor.</li>
         <li>If all the factors in the numerator or denominator cancel out, we replace it by <var name="$one" width="2"/>.</li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li>factor</li>
         <li>product</li>
         <li>common</li>
@@ -279,13 +279,13 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
             0
         );
     </pg-code>
-    <statement><p>Reduce each fraction. <ol label="a" cols="2">
+    <statement><p>Reduce each fraction. <ol marker="a" cols="2">
         <li><p><m>\dfrac{x^2-x-6}{x^2-9}</m></p>
                     <p><var name="$ans" form="buttons"/> </p></li>
         <li><p><m>\dfrac{16t^2-4}{8t+4}</m></p>
                     <p><var name="$ansb" form="buttons"/> </p></li></ol></p>
     </statement>
-    <solution><p><ol label="a" cols="2">
+    <solution><p><ol marker="a" cols="2">
         <li><m>\dfrac{x+2}{x+3}</m></li>
         <li><m>2t-1</m></li></ol></p></solution>
 </webwork></exercise>
@@ -297,7 +297,8 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
 <solution><p>We evaluate each fraction at <m>x=\alert{2}</m>.
     <me>\dfrac{x^2-x-6}{x^2-9} = \dfrac{(\alert{2})^2-\alert{2}-6}{(\alert{2})^2-9} = \dfrac{-4}{-5} = \dfrac{4}{5}</me>
 and
-    <me>\dfrac{x+2}{x+3} = \dfrac{\alert{2}+2}{\alert{2}+3} = \dfrac{4}{5}</me></p></solution></example> 
+    <me>\dfrac{x+2}{x+3} = \dfrac{\alert{2}+2}{\alert{2}+3} = \dfrac{4}{5}</me></p></solution>
+</example> 
 
 <exercise><title>Practice 5</title>
 <webwork><pg-code>
@@ -343,14 +344,14 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
         $b = OneOf(@choices[1..2]);
         $c = Compute("-1");
     </pg-code>
-    <statement><p>Reduce if possible. <ol label="a" cols="2">
+    <statement><p>Reduce if possible. <ol marker="a" cols="2">
         <li><p><m>\dfrac{-x+1}{1-x}</m><var name="$a" width="5"/></p></li>
         <li><p><m>\dfrac{1+x}{1-x}</m> <var name="$b" width="5"/></p></li>
         <li><p><m>\dfrac{2a-3b}{3b-2a}</m> <var name="$c" width="5"/></p></li>
         <li><p><m>\dfrac{2a-3b}{2b-3a}</m> <var name="$b" width="5"/></p></li></ol></p>
         <instruction>Enter "cbr" if the fraction cannot be reduced</instruction>
     </statement>
-    <solution><p><ol label="a" cols="2">
+    <solution><p><ol marker="a" cols="2">
     <li>1</li>
     <li>cannot be reduced</li>
     <li><m>-1</m></li>
@@ -364,14 +365,14 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
     <me>f(x) = \dfrac{P(x)}{Q(x)}</me>
 where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undefined at any <m>x</m>-values where <m>Q(x) = 0</m>.</p>
 
-<example xml:id="example-pedal-aircraft"><statement><p>Francine is planning a 60-mile training flight through the desert on her cycle-plane, a pedal-driven aircraft. If there is no wind, she can pedal at an average speed of 15 miles per hour, so she can complete the flight in 4 hours. <ol label="a">
+<example xml:id="example-pedal-aircraft"><statement><p>Francine is planning a 60-mile training flight through the desert on her cycle-plane, a pedal-driven aircraft. If there is no wind, she can pedal at an average speed of 15 miles per hour, so she can complete the flight in 4 hours. <ol marker="a">
     <li><p>If there is a headwind of <m>x</m> miles per hour, it will take Francine longer to fly 60 miles. Express the time it will take to complete the training flight as a function of <m>x</m>.</p></li>
     <li><p>Make a table of values for the function.</p></li>
     <li><p>Graph the function and explain what it tells you about the time Francine should allot for the flight.</p></li>
 </ol></p></statement>
 
-<solution><p><ol label="a">
-    <li><p>If there is a headwind of <m>x</m> miles per hour, Francine's ground speed will be <m>15 - x</m> miles per hour. Using the fact that time <m>\text{time} = \dfrac{\text{distance}}{\text{rate}}</m>, we find that the time needed for the flight will be
+<solution><p><ol marker="a">
+    <li><p>If there is a headwind of <m>x</m> miles per hour, Francine's ground speed will be <m>15 - x</m> miles per hour. Using the fact that <m>\text{time} = \dfrac{\text{distance}}{\text{rate}}</m>, we find that the time needed for the flight will be
             <me>t = f(x) = \frac{60}{15 - x}</me></p></li>
     <li><p>We evaluate the function for several values of <m>x</m>, as shown in the table below.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -416,7 +417,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
         $C[$i]= $cost->eval(x=>$t[$i]);
         }
     </pg-code>
-    <statement><p>EarthCare decides to sell T-shirts to raise money. The company makes an initial investment of $100 to pay for the design of the T-shirt and to set up the printing process. After that, the T-shirts cost $5 each for labor and materials.<ol label="a">
+    <statement><p>EarthCare decides to sell T-shirts to raise money. The company makes an initial investment of $100 to pay for the design of the T-shirt and to set up the printing process. After that, the T-shirts cost $5 each for labor and materials.<ol marker="a">
         <li><p>Express the average cost, <m>C</m>, per T-shirt as a function of the number of T-shirts EarthCare produces.</p>
                     <p><m>C=</m><var name="$cost" width="10"/> </p></li>
         <li><p>Make a table of values for the function.</p>
@@ -440,7 +441,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
                         </tabular></sidebyside></li>
     <li><p>Graph the function and explain what it tells you about the cost of the T-shirts.</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><m>C=g(x) = \dfrac{100+5x}{x}</m></li>
             <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
@@ -508,7 +509,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
             2
         );        
     </pg-code>
-    <statement><p>True or False.<ol label="a">
+    <statement><p>True or False.<ol marker="a">
         <li><p>A rational function is a quotient of polynomials. <var name="$True" form="popup"/></p></li>
         <li><p>A vertical asymptote occurs where a rational function is undefined.  <var name="$True" form="popup"/></p>
         </li>
@@ -517,7 +518,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undef
         <li><p>The algebraic fraction <m>\dfrac{60}{x-15}</m> is never equal to zero.  <var name="$True" form="popup"/>
             </p></li>
     </ol></p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li>True</li>
     <li>True</li>
     <li>True</li>

@@ -16,56 +16,56 @@
 -->
 <subexercises><title>Warm Up</title>
 
-<exercise number="1"><statement><p>Convert each equation to logarithmic form. <ol label="a" cols="2">
+<exercise number="1"><statement><p>Convert each equation to logarithmic form. <ol marker="a" cols="2">
     <li><m>8^{-1/3} = \dfrac{1}{2}</m></li>
     <li><m>5^x = 46</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p><m>\log_8 {\dfrac{1}{2}} = \dfrac{-1}{3}</m></p></li>
     <li><p><m>\log_5 {46} = x</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><p>Convert each equation to exponential form.<ol label="a" cols="2">
+<exercise number="2"><statement><p>Convert each equation to exponential form.<ol marker="a" cols="2">
     <li><m>\log_{10} C = -4.5</m></li>
     <li><m>\log_m n = 5</m></li>
 </ol></p></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 3-8, follow the instructions, then state which property of logarithms each problem illustrates.</p></introduction>
 
-<exercise number="3"><statement><ol label="a">
+<exercise number="3"><statement><ol marker="a">
     <li><p>Simplify <m>10^2 \cdot 10^6</m></p></li>
     <li><p>Compute <m>\log {10^2},~\log {10^6},~</m> and <m>~\log {(10^2 \cdot 10^6)}</m></p></li>
 </ol></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>10^8</m></p></li>
     <li><p><m>2;~6;~8~</m> Property (1)</p></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><ol label="a">
+<exercise number="4"><statement><ol marker="a">
     <li><p>Simplify <m>\dfrac{10^9}{10^6}</m></p></li>
     <li><p>Compute <m>\log {10^9},~\log {10^6},~</m> and <m>~\log {\dfrac{10^9}{10^6}}</m></p></li>
 </ol></statement></exercise>
 
-<exercise number="5"><statement><ol label="a">
+<exercise number="5"><statement><ol marker="a">
     <li><p>Simplify <m>b^8 \cdot b^5</m></p></li>
     <li><p>Compute <m>\log_b {b^8},~\log_b {b^5},~</m> and <m>~\log_b {\dfrac{b^8}{b^5}}</m></p></li>
 </ol></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>b^3</m></p></li>
     <li><p><m>8;~5;~3~</m> Property (2)</p></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><ol label="a">
+<exercise number="6"><statement><ol marker="a">
     <li><p>Simplify <m>b^4 \cdot b^3</m></p></li>
     <li><p>Compute <m>\log_b {b^4},~\log_b {b^3},~</m> and <m>~\log_b {(b^4 \cdot b^3)}</m></p></li>
 </ol></statement></exercise>
 
-<exercise number="7"><statement><ol label="a">
+<exercise number="7"><statement><ol marker="a">
     <li><p>Simplify <m>(10^3)^5</m></p></li>
     <li><p>Compute <m>\log {((10^3)^5)},~</m> and <m>~\log {(10^3)},~</m> </p></li>
 </ol></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>10^{15}</m></p></li>
     <li><p><m>15;~3~</m> Property (3)</p></li></ol></p></answer></exercise>
 
-<exercise number="8"><statement><ol label="a">
+<exercise number="8"><statement><ol marker="a">
     <li><p>Simplify <m>(b^2)^6 </m></p></li>
     <li><p>Compute <m>\log_b {(b^2)^6},~</m> and <m>~\log_b {b^2}</m></p></li>
 </ol></statement></exercise>
@@ -114,44 +114,44 @@
 
 <exercisegroup><introduction><p>For Problems 13-16, use the properties of logarithms to write each expression in terms of simpler logarithms. All variable expressions denote positive numbers.</p></introduction>
 
-<exercise number="13"><statement><p><ol label="a" cols="2">
+<exercise number="13"><statement><p><ol marker="a" cols="2">
     <li><p><m>\log_b 2x </m></p></li>
     <li><p><m>\log_b\dfrac{x}{2} </m></p></li>
     <li><p><m>\log_b x^3 </m></p></li>
     <li><p><m>\log_b \sqrt[3]{x^2} </m></p></li>
 </ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p><m>\log_t {16} = \dfrac{3}{2}</m></p></li>
     <li><p><m>\log_{0.8}{M} = 1.2</m></p></li>
     <li><p><m>\log_{3.7}{Q} = 2.5</m></p></li>
     <li><p><m>\log_3 {2N_0} = -0.2t</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol label="a" cols="2">
+<exercise number="14"><statement><p><ol marker="a" cols="2">
     <li><p><m>\log_b\dfrac{2x}{x-2} </m></p></li>
     <li><p><m>\log_b x(2x+3) </m></p></li>
     <li><p><m>\log_4 x^2y^3 </m></p></li>
     <li><p><m>\log_3 \sqrt[3]{x^2+1} </m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="15"><statement><p><ol label="a" cols="2">
+<exercise number="15"><statement><p><ol marker="a" cols="2">
     <li><p><m>\log_3 (3x^4) </m></p></li>
     <li><p><m>\log_5 1.1^{1/t} </m></p></li>
     <li><p><m>\log_b (4b)^t </m></p></li>
     <li><p><m>\log_2 5(2^x) </m></p></li>
 </ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><m>x=\log_4{2.5} \approx 2.7</m></li>
     <li><m>x=\log_2{0.2} \approx -2.3</m></li></ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol label="a" cols="2">
+<exercise number="16"><statement><p><ol marker="a" cols="2">
     <li><p><m>\log_{10} \sqrt{\dfrac{2L}{R^2}} </m></p></li>
     <li><p><m>\log_{10} 2\pi\sqrt{\dfrac{l}{g}} </m></p></li></ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 17-20, combine into one logarithm and simplify. Assume all expressions are defined.</p></introduction>
 
-<exercise number="17"><statement><p><ol label="a" cols="2">
+<exercise number="17"><statement><p><ol marker="a" cols="2">
     <li><p><m>\log_b 8 - \log_b 2</m></p></li>
     <li><p><m>2 \log_4 x + 3 \log_4 y</m></p></li>
 </ol></p></statement>
@@ -160,12 +160,12 @@
     <li><p><m>\log_4(x^2y^3) </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><p><ol label="a" cols="2">
+<exercise number="18"><statement><p><ol marker="a" cols="2">
     <li><p><m>\log_b 5 + \log_b 2</m></p></li>
     <li><p><m>\dfrac{1}{4} \log_5 x - \dfrac{3}{4} \log_5 y</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="19"><statement><p><ol label="a" cols="2">
+<exercise number="19"><statement><p><ol marker="a" cols="2">
     <li><p><m>\log 2x + 2\log x -\log\sqrt{x} </m></p></li>
     <li><p><m>\log(t^2-16)-\log(t+4) </m></p></li>
 </ol></p></statement>
@@ -174,7 +174,7 @@
     <li><p><m>\log (t-4) </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><ol label="a" cols="2">
+<exercise number="20"><statement><p><ol marker="a" cols="2">
     <li><p><m>\log x^2 + \log  x^3-5\log x</m></p></li>
     <li><p><m>\log(x^2-x)-\log\sqrt{x^3} </m></p></li>
 </ol></p></statement></exercise>
@@ -255,7 +255,7 @@
 </ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="36"><statement><p><ol label="a">
+<exercise number="36"><statement><p><ol marker="a">
     <li>Explain why <m>~\log {\dfrac{1}{x}}~</m> is the same as <m>~-\log {x}</m>.</li>
     <li>Explain why <m>~\log {x^2}~</m> is the same as <m>~2 \log {x}</m>.</li></ol></p></statement></exercise>
 
@@ -288,7 +288,7 @@
     <li><sidebyside><image source="images/fig-hw-7-4-43ans"><description>decay</description></image></sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="40"><statement><p>A small pond is tested for pollution and the concentration of toxic chemicals is found to be 80 parts per million. Clean water enters the pond from a stream, mixes with the polluted water, then leaves the pond so that the pollution level is reduced by 10% each month.<ol>
+<exercise number="40"><statement><p>A small pond is tested for pollution, and the concentration of toxic chemicals is found to be 80 parts per million. Clean water enters the pond from a stream, mixes with the polluted water, then leaves the pond so that the pollution level is reduced by 10% each month.<ol>
     <li><p>Write a function for the concentration of toxic chemicals as a function of time.</p></li>
     <li><p>How long will it be before the concentration of toxic chemicals reaches a safe level of 25 parts per million?</p></li>
     <li><p>Graph the function, and label the point on the graph that illustrates your answer to part (b).</p></li></ol>

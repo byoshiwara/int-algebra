@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Models</title><idx>linear model</idx>
+<introduction>
+<investigation><title>Sales on Commission</title>
+
+<p>Delbert is offered a part-time job selling restaurant equipment.  He will be paid  $1000  per month plus a 6% commission on his sales.  The sales manager tells Delbert he can expect to sell about $8000 worth of equipment per month.  To help him decide whether to accept the job, Delbert does a few calculations. <ol marker="1">
+
+<li><p>Based on the sales manager's estimate, what monthly income can Delbert expect from this job?  What annual salary would that provide?</p></li>
+
+<li><p>What would Delbert's monthly salary be if he sold only $5000 of equipment per month? What would his salary be if he sold $10,000 worth per month? Compute the monthly incomes for each sales totals shown in the table.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor">Sales</cell>
+                        <cell bottom="minor">Income</cell></row>
+                    <row>
+                        <cell bottom="minor"><m>5000</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>10,000</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>15,000</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>20,000</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>25,000</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>30,000</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+
+<li><p>Plot your data points on a graph, using sales, <m>S</m>, on the horizontal axis and income, <m>I</m>, on the vertical axis, as shown in the figure. Connect the data points to show Delbert's monthly income for all possible monthly sales totals.</p>
+
+<sidebyside width="60%"><image source="images/Investigation1Grid"><description>graph</description></image></sidebyside></li>
+
+<li><p>Add two new data points to the table by reading values from your graph.</p></li>
+
+<li><p>Write an algebraic expression for Delbert's monthly income, <m>I</m>, in terms of his monthly sales, <m>S</m>.  Use the description in the problem to help you:</p>
+          
+         <p>He will be paid: $1000 plus a 6% commission on his sales.</p>
+                
+        <p>Income <m>= ~~<fillin characters="16"/> </m></p></li>
+
+<li><p>Test your formula from part (5) to see if it gives the same results as those you recorded in the table.</p></li>
+
+<li><p>Use your formula to find out what monthly sales total Delbert would need in order to have a monthly income of $2500.</p></li>
+
+<li><p>Each increase of $1000 in monthly sales increases Delbert's monthly income by <m><fillin characters="6"/></m></p></li>
+
+<li><p>Summarize the results of your work:  In your own words, describe the relationship between Delbert's monthly sales and his monthly income.  Include in your discussion a description of your graph.</p></li>
+</ol></p></investigation>    
+</introduction>
 
 <subsection><title>Tables, Graphs, and Equations</title>
 
@@ -32,7 +92,7 @@
         <li><p>an algebraic equation</p></li></ul></p>
 
 <p>Each of these mathematical tools is useful in a different way.
-    <ol label="1">
+    <ol marker="1">
         <li>A <term>table of values</term><idx><h>table of values</h></idx> lists specific data points with precise numerical values.</li>
         <li>A <term>graph</term><idx><h>graph</h></idx> is a visual display of the data. It is easier to spot trends and describe the overall behavior of the variables from a graph.</li>
         <li>An <term>algebraic equation</term><idx><h>algebraic equation</h></idx><idx><h>equation</h><h>algebraic</h></idx> is a compact summary of the model. It can be used to analyze the model and to make predictions.</li> </ol></p>
@@ -58,12 +118,12 @@
 
 <example xml:id="example-bicycle"><statement><p>In May 2005, the city of Lyons, France, started a bicycle rental program. Over 3,000 bicycles are available at 350 computerized stations around the city. Each of the 52,000 subscribers pays an annual 5 euro fee (about $7.20) and gets a PIN to access the bicycles. The bicycles rent for 1 euro per hour and can be returned to any station.</p>
 <p>Your community decides to set up a similar program, charging a $5 subscription fee and $3 an hour for rental. (A fraction of an hour is charged as the corresponding fraction of $3).</p>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p>Make a table of values showing the cost, <m>C</m>, of renting a bike for various lengths of time, <m>t</m>.</p></li>
             <li><p>Plot the points on a graph. Draw a curve through the data points.</p></li>
             <li><p>Write an equation for <m>C</m> in terms of <m>t</m>.</p></li></ol></p></statement>
     
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 <li><p>There is an initial fee of $5, and a rental fee of $3 per hour. To find the cost, we multiply the time by $3 per hour, and add the result to the $5 subscription fee.  For example, the cost of a one-hour bike ride is
         <md><mrow>\text{Cost}\amp=(\$5\text{ insurance fee})+(\$3\text{ per hour})\times(\alert{\text{one hour}})</mrow>
             <mrow>C\amp=5+3(\alert{1})=8</mrow></md>
@@ -109,19 +169,20 @@ A one-hour bike ride costs $8.</p>
             $rate = Compute("2.50");
         </pg-code>
     <statement><p>Write an equation for the cost <m>C</m> of renting a bicycle for <m>t</m> hours if the subscription fee is $7 and the rental fee is $2.50 per hour.</p>
-        <p><md><mrow>\text{Cost}\amp = (\text{subscription fee})+(\text{hourly rate})\cdot(\text{number of hours}) </mrow>
+        <p><md><mrow>\text{Cost} = (\text{subscription fee})+(\text{hourly rate})\cdot(\text{number of hours}) </mrow>
             </md></p>
-        <p><m>C=</m><var name="$subscription" width="2"/><m>+</m> <var name="$rate" width="3"/> <m>\cdot ~ t</m></p>
+        <p><m>C={} </m><var name="$subscription" width="2"/><m>{} + {}</m> <var name="$rate" width="3"/> <m>\cdot ~ t</m></p>
     </statement>
         <hint><p>Fill in the correct numbers.</p></hint>
     <solution><p><m>C=7+2.50t </m></p></solution>
-</webwork></exercise>
+</webwork>
+</exercise>
     
 </subsection>
 
 <subsection><title>Equations for Linear Models</title>
 
-<p>The equation we wrote in the first Example is an example of a <term>linear model</term>, which describes a variable that increases or decreases at a constant rate.</p>    
+<p>The equation we wrote in the <xref ref="example-bicycle" text="custom">first Example</xref> is an example of a <term>linear model</term>, which describes a variable that increases or decreases at a constant rate.</p>    
 
 <definition><title>Linear Model</title><idx>linear model</idx>
     <statement><p>A <term>linear model</term><idx>linear model</idx> describes a variable that increases or decreases at a constant rate. It has the form
@@ -151,13 +212,13 @@ A one-hour bike ride costs $8.</p>
 <p>In the next example we see how a graph and its equation are related.</p>
 
 <example xml:id="example-6hrbike"><statement>
-    <p>Use the equation <m>C=5+3\cdot t</m> you found in <xref ref="example-bicycle" text="type-global"/> to answer the following questions.  Then show how to find the answers by using the graph.</p><p>
-    <ol label="a">
+    <p>Use the equation <m>~ C=5+3\cdot t ~</m> you found in <xref ref="example-bicycle" text="type-global"/> to answer the following questions.  Then show how to find the answers by using the graph.</p><p>
+    <ol marker="a">
         <li><p>How much will it cost to rent a bicycle for 6 hours?</p></li>
         <li><p>How long can you bicycle for $18.50?</p></li>
     </ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>We substitute <m>t=\alert{6}</m> into the equation to find 
         <me>C=5+3(\alert{6})=23</me>
     A 6-hour bike ride will cost $23.  The point <m>P</m> on the graph in the figure represents the cost of a 6-hour bike ride.  The value on the <m>C</m>-axis at the same height as point <m>P</m> is 23, so a 6-hour bike ride costs $23.</p></li>
@@ -166,7 +227,7 @@ A one-hour bike ride costs $8.</p>
         <md><mrow>\alert{18.50}\amp=5+3t</mrow>
         <mrow>13.50\amp=3t</mrow>
         <mrow>t\amp=4.5</mrow></md>
-    For $18.50 Annelise can bicycle for <m>4\frac{1}{2} </m> hours. The point <m>Q</m> on the graph represents an $18.50 bike ride. The value on the <m>t</m>-axis below point <m>Q</m> is 4.5, so $18.50 will buy a 4.5 hour bike ride.</p>
+    For $18.50 you can bicycle for <m>4\frac{1}{2} </m> hours. The point <m>Q</m> on the graph represents an $18.50 bike ride. The value on the <m>t</m>-axis below point <m>Q</m> is 4.5, so $18.50 will buy a 4.5 hour bike ride.</p>
             <image source="images/fig1-2"><description>line though points</description></image></sidebyside></li>
     </ol></p>
 </solution></example>
@@ -221,14 +282,14 @@ A one-hour bike ride costs $8.</p>
 <p>In the examples above, the graph is <term>increasing</term><idx>increasing graph</idx><idx><h>graph</h><h>increasing</h></idx> as <m>t</m> increases. In the next Example we consider a <term>decreasing graph</term><idx><h>decreasing graph</h></idx><idx><h>decreasing graph</h><seealso>decreasing function</seealso></idx><idx><h>graph</h><h>decreasing</h></idx><idx><h>graph</h><h>decreasing</h><seealso>decreasing function</seealso></idx>.</p>
 
 <example xml:id="Leon-camper"><statement><p>Leon's camper has a 20-gallon gas tank, and he gets 12 miles to the gallon. (Note that getting 12 miles to the gallon is the same as using ​ <m>\frac{1}{12}</m> gallon of gas per mile.)</p>
-    <p><ol label="a">
+    <p><ol marker="a">
         <li><p>Write an equation for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles.</p></li>
         <li><p>Make a table of values for the equation.</p></li>
         <li><p>Graph the equation.</p></li>
         <li><p>If Leon has less than 5 gallons of gas left, how many miles has he driven since his last fill-up? Illustrate on the graph.</p></li>
         </ol></p></statement>
     
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>We use the form for a linear model,
                 <md><mrow>y=(\text{starting value})+(\text{rate})\times t</mrow></md>
     However, in this problem, instead of variables <m>y</m> and <m>t</m>, we use <m>g</m> and <m>d</m>.  Leon's fuel tank started with 20 gallons, and the amount of gasoline is decreasing at a rate of <m>\frac{1}{12}</m> gallon for every mile that he drives. Thus,
@@ -251,10 +312,14 @@ A one-hour bike ride costs $8.</p>
             </tabular></sidebyside></li>
     <li><p>We scale the values of <m>d</m> along the horizontal axis, and the values of <m>g</m> along the vertical axis. Then we plot the points from the table and connect with a line, as shown in the figure below.</p></li>
     <li><p>If Leon has less than 5 gallons of gasoline left, then <m>g\lt 5</m>, as shown on the <m>g</m>-axis. Using our model from part (a), we solve the inequality.
-                <md><mrow>20-\frac{1}{12}d \amp \lt 5 </mrow>
-                    <mrow>-\frac{1}{12}d \amp \lt -15 </mrow>
-                    <mrow>d \amp\gt 180 </mrow></md>
-    Leon has driven at least 180 miles. The solution is shown on the graph below.</p></li></ol></p>
+                <md><mrow>20-\frac{1}{12}d \amp \lt 5 \amp\amp\blert{\text{Subtract } 20 \text{ from both sides.}}</mrow>
+                    <mrow>-\frac{1}{12}d \amp \lt -15 \amp\amp\blert{\text{Multiply by } {-12} \text{ on both sides.}} </mrow>
+                    <mrow>d \amp\gt 180\amp\amp \begin{array}{l}
+                        \blert{\text{Note that we reversed the direction of the}}\\
+                        \blert{\text{the inequality when we multiplied by }{-12}. }
+                    \end{array}
+                </mrow></md>
+     Leon has driven at least 180 miles. The solution is shown on the graph below.</p></li></ol></p>
      <sidebyside  width="40%"><image xml:id="fig-Leon-gas-miles">
         <description>gas mileage</description>
         <latex-image>

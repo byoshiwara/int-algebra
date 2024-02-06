@@ -328,13 +328,13 @@ where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>.  As
          3, 
         );
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>The hyperbola is the only conic section with two separate <var name="$branches" form="popup"/>.</p></li>
         <li><p>The endpoints of the <var name="$transverse" form="popup"/> axis are the vertices of the hyperbola.</p></li>
         <li><p>The asymptotes of a hyperbola are the diagonals of the <var name="$rectangle" form="popup"/> .</p></li>
         <li><p>If the <m>y^2</m> term in the standard form is positive, a central hyperbola has no <var name="$intercept" form="popup"/> .</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><p><var name="$branches"/></p></li>
             <li><p><var name="$transverse"/></p></li>
             <li><p><var name="$rectangle"/></p></li>
@@ -346,20 +346,20 @@ where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>.  As
     
 <example><statement><p>Find the exact coordinates of any points with <m>x</m>-coordinate <m>x=2</m> on the hyperbola with equation <m>4x^2-y^2=16</m>. Plot and label those points on the hyperbola.</p></statement>
 
-<solution><sidebyside widths="53% 40%" margins="0% 5%" valigns="middle middle">
-    <p>We substitute  in the given equation.
+<solution><sidebyside widths="53% 45%" margins="0% 0%" valigns="middle middle">
+    <p>We substitute <m>x=2</m> in the given equation.
                 <md><mrow>4y^2 - (2)^2 \amp = 16</mrow>
                     <mrow>4y^2 \amp = 20</mrow>
                     <mrow>y^2 \amp = 5</mrow>
                     <mrow>y \amp = \pm \sqrt{5}</mrow></md>
 There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and <m>\left(2, -\sqrt{5}\right)</m>, as shown in the figure.</p>
     <image xml:id="fig-example-9-4-3"><description>hyperbola opens up and down</description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
                 \begin{tikzpicture} [scale=.5]
-                \draw[black,thick, ->, >=stealth'] (-7,0)--(7,0) node[right]{$x$};
-                \draw[black,thick, ->, >=stealth'] (0,-7)--(0,7) node[above]{$y$};
+                \draw[cyan] (-7,-7) grid (7,7);
+                \draw[black,thick, ->, >=stealth'] (-7,0)--(7.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-7)--(0,7.6) node[above]{$y$};
                 \foreach \x in {-5,5} {
                  \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
                  \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
@@ -524,11 +524,11 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 </figure> -->
 
 <example><statement><p>Write each equation in standard form and describe its graph.</p>
-    <p><ol label="a" cols="2">
+    <p><ol marker="a" cols="2">
             <li><p><m>x^2=6y^2+8</m></p></li>
             <li><p><m>x^2=\dfrac{4-y^2}{2}</m></p></li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>The equation <m>x^2=6y^2+8</m> is equivalent to
             <md><mrow>x^2-6y^2=8\qquad \text{ or }\qquad \frac{x^2}{\left( \sqrt{8} \right)^2} - \frac{y^2}{\left( \frac{2}{\sqrt{3}} \right)^2}=1</mrow></md>
     The graph is a hyperbola that opens left and right.</p></li>
@@ -568,7 +568,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
          4, 
         );
     </pg-code>
-    <statement><p>Write each equation in standard form and describe its graph.<ol label="and">
+    <statement><p>Write each equation in standard form and describe its graph.<ol marker="and">
         <li><p><m>4y^2=x^2-8</m></p>
                 <p>Standard form: <var name="$a" width="15" /><m>=1</m></p>
                 <p>The graph is <var name="$hyperbola" form="popup"/> centered at the point <var name="$origin" width="5"/>, with vertices <var name="$vertices" width="25"  evaluator="$my_evaluator"/>. There <var name="$are" form="popup"/> asymptotes: <m>y=\pm</m><var name="$slope" width="3"/>.</p>
@@ -651,11 +651,11 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a">
             <li>Graph <m>\dfrac{(x-3)^2}{8} - \dfrac{(y+2)^2}{10} = 1</m></li>
             <li>Find the equations of the asymptotes.</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>The graph is a hyperbola with 
             <md><mrow>(h,k) = (3,-2),\quad a = \sqrt{8} = 2\sqrt{2},\quad \text{ and } b=\sqrt{10}</mrow></md></p>
         <sidebyside widths="50% 48%" margins="0% 0%" valigns="middle middle">
@@ -686,7 +686,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
                         \draw [blue, decorate, decoration={brace,amplitude=6}] ({\h+sqrt(8)},\k)--(\h,\k) node[below, midway, yshift=-3mm, fill=white, inner sep=1]{$a=\sqrt{8}$};
                         \end{tikzpicture}]]>
                     </latex-image></image></sidebyside>
-   <p>The central rectangle is centered at the point <m>(3,-2)</m> and extends to the vertices in the horizontal direction and to the ends of the conjugate axis in the vertical direction. We draw the asymptotes through the opposite corners of the central rectangle, and sketch the hyperbola through the vertices and approaching the asymptotes to obtain the graph shown below.</p></li>
+   <p>The central rectangle is centered at the point <m>(3,-2)</m> and extends to the vertices in the horizontal direction and to the ends of the conjugate axis in the vertical direction. We draw the asymptotes through the opposite corners of the central rectangle, and sketch the hyperbola through the vertices and approaching the asymptotes to obtain the graph shown above.</p></li>
    <li><p>Both asymptotes pass through the center of the hyperbola, <m>(3,-2)</m>.  Their slopes are 
             <md><mrow>\frac{\sqrt{10}}{\sqrt{8}} = \frac{\sqrt{5}}{2}\quad \text{ and } \dfrac{-\sqrt{5}}{2}</mrow></md>
         We substitute these values into the point-slope formula to find the equations
@@ -796,7 +796,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
             }
         );            
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>Graph <m>\dfrac{y^2}{9} - \dfrac{(x+4)^2}{12} = 1</m></p>
                <sidebyside widths="35% 35%" margins="5% 5%">
                     <image pg-name="$gr[0]"/>
@@ -812,7 +812,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
                 <p>Equations of asymptotes: <m>y=</m><var name="$multians" width="15"/> and </p>
                 <p><m>y=</m><var name="$multians" width="15"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><sidebyside widths="40%"><image pg-name="$gr[2]"/></sidebyside>
                 <p>A graph is also shown below.</p></li>
         <li><m>y=\dfrac{\sqrt{3}}{2}x+4</m>, <m>y=\dfrac{-\sqrt{3}}{2}x+4</m></li></ol></p>
@@ -855,14 +855,14 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <p>We can write the equation of a hyperbola in standard form by completing the squares <idx>completing the square</idx> in <m>x</m> and <m>y</m>.</p>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a">
     <li>Write the equation in standard form.
                 <me>y^2-4x^2+4y-8x-9=0</me></li>
             <li>Graph the equation.</li>
         </ol></p>
     </statement>
     <solution>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li>
                 <p>
                     We prepare to complete the square by factoring out <m>-4</m> from the <m>x</m>-terms.
@@ -993,7 +993,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
                 0
             );
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>Write the equation <m>4x^2 - 6y^2 + 16x-12y-14=0</m> in standard form.</p>
                 <p><var name="$f" width="25"/><m>=1</m></p></li>
         <li><p>Graph the equation.</p>
@@ -1008,7 +1008,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
             <p>Which of the above is the best match for the graph?</p>
                 <p><var name="$mc" form="buttons"/> </p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><m>\dfrac{(x+2)^2}{6} - \dfrac{(y+1)^2}{4}=1</m></li>
             <li><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
                 <p>A graph is also shown below.</p></li></ol></p>
@@ -1058,12 +1058,12 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
          2, 
         );
     </pg-code>
-    <statement><p>True or false.<ol label="a">
+    <statement><p>True or false.<ol marker="a">
         <li><p>The graph of a general quadratic is a hyperbola if the coefficients of both the <m>x^2</m>-term and the <m>y^2</m>-term are negative. <var name="$False" form="popup"/></p></li>
         <li><p>The slopes of the asymptotes of a hyperbola are <m>\pm\dfrac{b}{a} </m>. <var name="$True" form="popup"/></p></li>
         <li><p>The asymptotes pass through the vertices of the hyperbola. <var name="$False" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li><p>False</p></li>
             <li><p>True</p></li>
             <li><p>False</p></li>
@@ -1093,13 +1093,13 @@ we can determine the nature of the graph from the coefficients of the quadratic 
             <li><p>a hyperbola if <m>A</m> and <m>C</m> have opposite signs.</p></li></ol></p>
 </assemblage>
 
-<example><statement><p>Name the graph of each equation, assuming that the graph is not degenerate.<ol label="a">
+<example><statement><p>Name the graph of each equation, assuming that the graph is not degenerate.<ol marker="a">
                 <li><p><m>3x^2+3y^2-2x+4y-6=0</m></p></li>
                 <li><p><m>4y^2+8x^2-3y=0</m></p></li>
                 <li><p><m>4x^2-6y^2+x-2y=0</m></p></li>
                 <li><p><m>y+x^2-4x+1=0</m></p></li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>The graph is a circle because the coefficients of <m>x^2</m> and <m>y^2</m> are equal.</p></li>
     <li><p>The graph is an ellipse because the coefficients of <m>x^2</m> and <m>y^2</m> are both positive.</p></li>
     <li><p>The graph is a hyperbola because the coefficients of <m>x^2</m> and <m>y^2</m> have opposite signs.</p></li>
@@ -1150,7 +1150,7 @@ we can determine the nature of the graph from the coefficients of the quadratic 
         $a = Compute("2");
         $b = Compute("2/3");
     </pg-code>
-    <statement><p>Describe the graph of each equation without graphing.<ol label="a">
+    <statement><p>Describe the graph of each equation without graphing.<ol marker="a">
         <li><p><m>x^2=9y^2-9</m></p>
                 <p><var name="$hyperbola" form="popup"/> at the point <var name="$origin" width="5"/>; vertices: <var name="$vertices" width="12"/>; asymptotes <m>y=\pm</m><var name="$f" width="5"/></p></li>
         <li><p><m>x^2-y=2x+4</m></p>
@@ -1158,7 +1158,7 @@ we can determine the nature of the graph from the coefficients of the quadratic 
         <li><p><m>x^2+9y^2+4x-18y+9=0</m></p>
                 <p><var name="$ellipse" form="popup"/> at the point <var name="$v2" width="5"/> with horizontal <var name="$horizontal" form="popup"/>; <m>a=</m><var name="$a" width="3"/>, and <m>b=</m><var name="$b" width="3"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li>A hyperbola centered at the origin with vertices <m>(0,1)</m> and <m>(0,-1)</m> and asymptotes <m>y=\dfrac{1}{3}x</m> and <m>y=\dfrac{-1}{3}x</m>.</li> 
             <li>A parabola that opens upward from the vertex <m>(1,-5)</m>.</li>
             <li>An ellipse centered at <m>(-2,1)</m> with a horizontal major axis, <m>a=2</m> and <m>b=\dfrac{2}{3} </m>.</li></ol></p>
@@ -1185,13 +1185,13 @@ we can determine the nature of the graph from the coefficients of the quadratic 
         );
         
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>A <var name="$a" form="popup"/> conic can be a point, a line, a pair of lines, or no graph at all.</p></li>
         <li><p>The coefficients <m>D</m>, <m>E</m>, and <m>F</m> determine the <var name="$b" form="popup"/> of the conic.</p></li>
         <li><p>The graph is a <var name="$c" form="popup"/> if one of <m>A</m> or <m>C</m> is zero.</p></li>
         <li><p>If <m>A = C</m> (and <m>B=0</m>), the graph is a <var name="$d" form="popup"/>.</p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><p>A <var name="$a" /> conic can be a point, a line, a pair of lines, or no graph at all.</p></li>
         <li><p>The coefficients <m>D</m>, <m>E</m>, and <m>F</m> determine the <var name="$b"/> of the conic.</p></li>
         <li><p>The graph is a <var name="$c"/> if one of <m>A</m> or <m>C</m> is zero.</p></li>

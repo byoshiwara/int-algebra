@@ -99,7 +99,7 @@ Now consider the functions that describe those operations:  The graphs of <m>f(x
         $b = Compute("213");
         $c = Formula("b");
     </pg-code>
-    <statement><p>Simplify each expression without a calculator.<ol label="a">
+    <statement><p>Simplify each expression without a calculator.<ol marker="a">
         <li><p>
             <m>\sqrt[4]{17^4}=</m><var name="$a" width="3"/>
         </p></li>
@@ -110,7 +110,7 @@ Now consider the functions that describe those operations:  The graphs of <m>f(x
             <m>(\sqrt[5]{b})^5=</m><var name="$c" width="3"/>
         </p></li></ol>
     </p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><m>17</m></li>
         <li><m>213</m></li>
         <li><m>b</m></li></ol>
@@ -148,13 +148,13 @@ We can also apply the two functions in the opposite order, so that
         $c = Formula("6");
         $d = Formula("1000");
     </pg-code>
-    <statement><p>Simplify each expression. <ol label="a">
+    <statement><p>Simplify each expression. <ol marker="a">
         <li><p><m>\log_4 {4^6}=</m><var name="$a" width="3"/></p></li>
         <li><p><m>4^{\log_4 {64}}=</m><var name="$b" width="3"/></p></li>
         <li><p><m>\log_{10} {10^6}=</m><var name="$c" width="3"/></p></li>
         <li><p><m>10^{\log_{10} {1000}}=</m><var name="$d" width="3"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
         <li><m>6</m></li>
         <li><m>64</m></li>
         <li><m>6</m></li>
@@ -364,7 +364,7 @@ We can also apply the two functions in the opposite order, so that
 <p>In addition, the logarithmic function has the following properties.</p>
 
 <assemblage><title>Properties of Log Functions</title>
-<p> For any base <m>b \gt 0, b \ne 1</m>: <ol label="1">
+<p> For any base <m>b \gt 0, b \ne 1</m>: <ol marker="1">
 	<li>The logarithmic function <m>y = \log_b x</m> is defined for positive <m>x</m> only.</li>
 	<li>The <m>x</m>-intercept <idx><em>x</em>-intercept</idx>of its graph is <m>(1,0)</m>.</li>
 	<li>The graph has a vertical asymptote at <m>x=0</m>.</li>
@@ -397,12 +397,12 @@ We can also apply the two functions in the opposite order, so that
 
 <p>We can use the <kbd>LOG</kbd> key on a calculator to evaluate the function <m>f(x) = \log_{10}{x}</m>.</p>
 
-<example xml:id="example-GC-evaluate-logs"><statement><p>Let <m>f(x) = \log_{10}{x}</m>. Evaluate the following expressions.<ol label="a" cols="3">
+<example xml:id="example-GC-evaluate-logs"><statement><p>Let <m>f(x) = \log_{10}{x}</m>. Evaluate the following expressions.<ol marker="a" cols="3">
 		<li><m>f(35)</m></li>
 		<li><m>f(-8)</m></li>
 		<li><m>2 f(16) + 1</m></li>
 	</ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
 	<li><m>f (35) = \log_{10}{35}\approx 1.544</m></li>
 	<li><m>f(-8)</m>, or <m>\log_{10}{(-8)}</m>, is undefined.</li>
 	<li><m>2 f(16) + 1 = 2(\log_{10}{16}) + 1 \approx 2(1.204) + 1 = 3.408</m></li>
@@ -468,13 +468,13 @@ We can also apply the two functions in the opposite order, so that
 
 <example xml:id="example-life-expectancy"><statement><p>In 1900, the average life expectancy at birth in the U.S. was 47.3 years. Since then, life expectancy has increased according to the formula
     <me>L(x)=18.53 + 28.92 \log {x}</me>
-where <m>x</m> is the number of years after 1900. <ol label="a">
+where <m>x</m> is the number of years after 1900. <ol marker="a">
     <li>Graph the life expectancy function for the years 1900 to 2010.</li>
     <li>The life expectancy in 1950 was 68.2 years. What does the function <m>L(x)</m> predict for life expectancy in 1950?</li>
     <li>How much did life expectancy increase between 1920 and 1930?  How much did it increase between 1990 and 2000?</li>
 </ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>We can make a table of values and plot points to obtain the graph below.</p>
 
     <sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -548,7 +548,7 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
             The CDC (Centers for Disease Control and Prevention) provides Growth Charts for the average height and weight of children from age 2 to 20. The average height of girl children is given in centimeters by
             <md><mrow>H(t) = 49.29+91.3 \log {t}</mrow></md>
             where <m>t</m> is in years.
-            <ol label="a">
+            <ol marker="a">
                 <li>Graph the height function for <m>2 \le t \le 20</m>.</li>
                 <li><p>Use the height function to complete the table.</p>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -577,7 +577,7 @@ where <m>x</m> is the number of years after 1900. <ol label="a">
     </statement>
     <solution>
         <p>
-            <ol label="a">
+            <ol marker="a">
                 <li>A graph is below.</li>
                 <li>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -744,14 +744,14 @@ We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation 
             3
         );
     </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>We cannot take a logarithm of <var name="$a" form="popup"/>.</p></li>
         <li><p>After solving a logarithmic equation, we must check for  <var name="$b" form="popup"/>.</p></li>
         <li><p>If an equation contains more than one log, we must first combine them into  <var name="$c" form="popup"/>.
         </p></li>
         <li><p>If there is only one log involved, we write the equation in  <var name="$d" form="popup"/> form.</p></li>
     </ol></p></statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
     <li>a negative number or zero</li>
     <li>extraneous solutions</li>
     <li>a single logarithm</li>

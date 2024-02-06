@@ -27,7 +27,7 @@
 
 </subsection>
 <subsection><title>Key Concepts</title>
-<p><ol label="1">
+<p><ol marker="1">
     <li><assemblage><title>Polynomial Function</title>
         <p>A <term>polynomial function</term> has the form
             <me>f(x) = a_n x^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2} + \cdots + a_2x^2 + a_1x + a_0</me>
@@ -40,11 +40,11 @@
             <mrow>\amp(a - b)^2 = (a - b) (a - b) = a^2 - 2ab + b^2</mrow>
             <mrow>\amp(a + b) (a - b)= a^2 -b^2</mrow></md></p></assemblage></li>
     <li><assemblage><title>Cube of a Binomial</title>
-        <p><ol label="1">
+        <p><ol marker="1">
             <li><m>(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3</m></li>
             <li><m>(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3</m></li></ol></p></assemblage></li>
     <li><assemblage><title>Factoring the Sum or Difference of Two Cubes</title>
-        <p><ol label="1">
+        <p><ol marker="1">
             <li><p><m>x^3 + y^3 = (x + y)(x^2 - xy + y^2)</m></p></li>
             <li><p><m>x^3 - y^3 = (x - y)(x^2 + xy + y^2)</m></p></li></ol></p>
         </assemblage></li>
@@ -53,13 +53,16 @@
             <me>\dfrac{a \cdot c}{b \cdot c} = \dfrac{a}{b}~~~~~~\text{if}~~~~~~b,c \ne 0</me></p></assemblage></li> 
     <li><p>When we cancel common factors, we are <em>dividing</em>. Because division is the inverse or opposite operation for multiplication, we can cancel common <em>factors</em>, but <em>we cannot cancel common terms</em>.</p></li>
     <li><assemblage><title>To reduce an algebraic fraction</title>
-        <p><ol label="1">
+        <p><ol marker="1">
             <li>Factor the numerator and the denominator.</li>
             <li>Divide the numerator and denominator by any common factors.</li></ol></p></assemblage></li>
-    <li><assemblage><title>Exponential Function</title>
-        <p>An <term>exponential function</term> has the form
-            <me>f(x) = ab^x,~~~~ \text{ where } ~~~b \gt 0 ~~~\text{ and } ~~~b \ne 1 \text{, } ~~~a \ne 0</me>
-        </p></assemblage></li>
+
+    <li><assemblage><title>Rational Function</title>
+        <p>A <term>rational function</term> has the form
+            <me>f(x) = \dfrac{P(x)}{Q(x)}</me>
+            where <m>P(x)</m> and <m>Q(x)</m> are polynomials.  A rational function is undefined at any <m>x</m>-values where <m>Q(x) = 0</m>.
+    </p></assemblage></li>
+
 	<li><assemblage><title>Operations on Fractions</title><p><ul>
         <li><p>If <m>b,~d \ne 0</m>, then 
             <me>\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}</me></p></li>
@@ -69,36 +72,36 @@
             <me>\dfrac{a}{b} + \dfrac{c}{d} = \dfrac{a+b}{c}</me>
             <me>\dfrac{a}{b} - \dfrac{c}{d} = \dfrac{a-b}{c}</me></p></li></ul></p></assemblage></li>
     <li><assemblage><title>To multiply algebraic fractions:</title>
-        <p><ol label="1">
+        <p><ol marker="1">
             <li>Factor each numerator and denominator.</li>
             <li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
             <li>Multiply the remaining factors of the numerator and the remaining factors of the denominator.</li>
             <li>Reduce the product if necessary.</li></ol></p></assemblage></li>  
     <li><assemblage><title>To divide algebraic fractions:</title>
-        <p><ol label="1">
+        <p><ol marker="1">
             <li>Take the reciprocal of the second fraction and change the operation to multiplication.</li>
             <li>Follow the rules for multiplication of fractions.</li></ol></p></assemblage></li>  
     <li><assemblage><title>To add or subtract algebraic fractions</title>
-        <p><ol label="1">
+        <p><ol marker="1">
             <li>Find the lowest common denominator (LCD) for the fractions.</li>
             <li>Build each fraction to an equivalent one with the same denominator.</li>
             <li>Add or subtract the resulting like fractions: Add or subtract their numerators, and keep the same denominator.</li>
             <li>Reduce the sum or difference if necessary.</li></ol></p></assemblage></li>  
     <li><assemblage><title>To Find the LCD</title>
-        <p><ol label="1">
+        <p><ol marker="1">
             <li>Factor each denominator completely.</li>
             <li>Include each different factor in the LCD as many times as it occurs in any one of the given denominators.</li></ol></p></assemblage></li>
     <li><assemblage><title>To simplify a complex fraction</title>
-        <p><ol label="1">
-            <li>Find the LCD of all the fraction contained in the complex fraction.</li>
+        <p><ol marker="1">
+            <li>Find the LCD of all the fractions contained in the complex fraction.</li>
             <li>Multiply the numerator and the denominator of the complex fraction by the LCD.</li>
             <li>Reduce the resulting simple fraction, if possible.</li></ol></p></assemblage></li>
     <li>An algebraic fractrion is "improper" if the degree of the numerator is greater than the degree of the denominator.  If it cannot be reduced, we can simplify the expression by treating it as a division of polynomials.  The quotient will be the sum of a polynomial and a simpler algebraic fraction.</li>
-    <li>If the equation contains more than one fraction, we can clear all the denominators at once by multiplying both sides by the LCD of the fractions.</li>
+    <li>If an equation contains more than one fraction, we can clear all the denominators at once by multiplying both sides by the LCD of the fractions.</li>
     <li><assemblage><title>Property of Proportions</title>
         <p><me>\blert{\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc,~~\text{as long as}~ b,d \ne 0}</me>
         </p></assemblage></li>
-    <li>Whenever we multiply an equation by an expression containing the variable, we should check that the solution obtained does not cause oany of the fractions to be undefined.</li>
+    <li>Whenever we multiply an equation by an expression containing the variable, we should check that the solution obtained does not cause any of the fractions to be undefined.</li>
     </ol></p>
 </subsection>
 

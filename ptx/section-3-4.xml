@@ -69,11 +69,11 @@ We substitute these values for <m>p^2</m> and <m>p</m> into the equation to find
     <me>x^2 - 16x + \alert{64} = (x \alert{-8})^2</me>
 You can check that in the resulting trinomial, the constant term is equal to <em>the square of one-half the coefficient of</em> <m>x</m>. In other words, we can find the constant term by taking one-half the coefficient of <m>x</m> and then squaring the result. Adding a constant term obtained in this way is called <term>completing the square</term><idx>completing the square</idx>.</p>
  
-<example xml:id="example-completing-the-square"><statement><p>Complete the square by adding an appropriate constant; write the result as the square of a binomial.<ol label="a" cols="2">
+<example xml:id="example-completing-the-square"><statement><p>Complete the square by adding an appropriate constant; write the result as the square of a binomial.<ol marker="a" cols="2">
             <li><m>x^2 - 12x + {}<fillin characters="6" /></m></li>
             <li><m>x^2 + 5x + {}<fillin characters="6" /></m></li>
         </ol></p></statement>
-<solution><p><ol label="a">
+<solution><p><ol marker="a">
     <li><p>One-half of <m>-12</m> is <m>-6</m>, so the constant term is <m>(-6)^2</m>, or <m>36</m>. We add <m>36</m> to obtain
     <md><mrow>x^2 - 12x \alert{{}+{}36}=(x - 6)^2\amp\amp\amp  {\large\blert{\underset{p^2\, = \,(-6)^2 \,=\, 36\hphantom{0}}{\stackrel {p\, = \,\frac{1}{2}(-12) \,=\, -6}{}}}}</mrow></md></p></li>
     <li><p>One-half of <m>5</m> is <m>\dfrac{5}{2}</m>, so the constant term is <m>\left(\dfrac{5}{2}\right)^2</m>, or <m>\dfrac{25}{4}</m>. We add <m>\dfrac{25}{4}</m> to obtain
@@ -91,13 +91,13 @@ You can check that in the resulting trinomial, the constant term is equal to <em
           1, 
         );
     </pg-code>
-    <statement><p>True or False.<ol label="a">
+    <statement><p>True or False.<ol marker="a">
         <li><p>Every quadratic equation can be solved by factoring. <var name="$TF" form="popup"/></p></li>
         <li><p>Every expression of the form <m>x^2+bx</m> can be turned into a perfect square by adding an appropriate constant.  <var name="$True" form="popup"/></p></li>
-        <li><p>The coefficient of the linear term in the expansion of <m>(x+p)^2</m> is twice the constant term.  <var name="$TF" form="popup"/></p></li>
+        <li><p>The coefficient of the linear term in the expansion of <m>(x+p)^2</m> is twice the constant term in the binomial.  <var name="$True" form="popup"/></p></li>
         <li><p>To complete the square means to square the expression.  <var name="$TF" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p><ol label="a">
+    <solution><p><ol marker="a">
             <li>False</li>
             <li>True</li>
             <li>False</li>
@@ -114,7 +114,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             $pb2= Compute("81/4");
         </pg-code>
         <statement>
-            <p>Complete the square by adding an appropriate constant; write the result as the square of a binomial.<ol label="a">
+            <p>Complete the square by adding an appropriate constant; write the result as the square of a binomial.<ol marker="a">
         <li><p><m>x^2-18x{}+</m><var name="$pa2" width="2"/><m> = (x+</m><var name="$pa" width="2"/><m>)^2</m></p></li>
         <li><p><m>x^2 +9x{}+</m><var name="$pb2" width="2"/><m> = (x+</m><var name="$pb" width="2"/> <m> )^2</m></p></li>
         </ol></p>
@@ -125,7 +125,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             <p>For part (b): 
             <m>p=\frac{1}{2}(9)={}</m>_____ , <m>p^2={}</m> ______</p>
         </hint>
-    <solution><p><ol label="a" cols="2">
+    <solution><p><ol marker="a" cols="2">
                 <li><p><m>x^2 - 18x + 81 = (x - 9)^2</m></p></li>
                 <li><p><m>x^2+9x+\dfrac{81}{4}=\left(x+\dfrac{9}{2}\right)^2 </m></p></li></ol></p>
     </solution>
@@ -186,7 +186,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
 <example xml:id="example-completing-the-square2"><statement><p>Solve <m>x^2 - 4x - 3 = 0</m> by completing the square.</p>
 </statement>
 
-<solution><p><ol label="1">
+<solution><p><ol marker="1">
     <li><p>We write the equation with the constant term on the right side.
         <me>x^2 - 4x{}~<fillin characters="6" />{}=3</me></p></li>
     <li>We complete the square on the left side. The coefficient of <m>x</m> is <m>-4</m>, so
@@ -224,7 +224,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         );
         
     </pg-code>
-    <statement><p>Put the steps for completing the square in the correct order:<ol label="a">
+    <statement><p>Put the steps for completing the square in the correct order:<ol marker="a">
                 <li>Add to both sides of the equation.</li>
                 <li>Use extraction of roots.</li>
                 <li>Write the left side as a perfect square.</li>
@@ -269,9 +269,9 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             ); 
 
         </pg-code>
-    <statement><p><ol label="a">
+    <statement><p><ol marker="a">
         <li><p>Follow the steps to solve by completing the square: <m>x^2 - 1 = 3x</m>.</p>
-            <p><ol label="1">
+            <p><ol marker="1">
                 <li><p>Write the equation with the constant on the right.</p>
                         <p><var name="$lhs" width="5"/><m>=</m><var name="$rhs" width="2"/></p></li>
                 <li><p>Complete the square on the left:</p>
@@ -294,7 +294,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
                 \end{aligned}</me></p></li>
             </ol></p>
         </statement>
-        <solution><p><ol label="a" cols="2">
+        <solution><p><ol marker="a" cols="2">
             <li><p><m>x=\dfrac{3}{2}\pm\sqrt{\frac{13}{4}} </m></p></li>
             <li><p><m>x\approx -0.30</m> or <m>x\approx 3.30</m></p></li>
         </ol></p></solution>
@@ -306,7 +306,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
 <p>Our method for completing the square works only if the coefficient of <m>x^2</m> is 1.  If we want to solve a quadratic equation whose lead coefficient is not 1, we first divide each term of the equation by the lead coefficient.</p> 
 <example xml:id="example-general-quadratic"><statement><p>Solve <m>~~2x^2 - 6x - 5 = 0</m>.</p></statement>
 
-<solution><p><ol label="1">
+<solution><p><ol marker="1">
     <li><p>Because the coefficient of <m>x^2</m> is <m>2</m>, we must divide each term of the equation by <m>2</m>.
         <me>x^2 - 3x - \frac{5}{2}= 0</me>
         Now we proceed as before. Rewrite the equation with the constant on the right side.
@@ -323,7 +323,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         <p> Using a calculator, we can find decimal approximations for the solutions: <m>3.679</m> and <m>-0.679</m>.</p></li>
 </ol></p></solution></example>
 
-<warning><p>In <xref ref="example-completing-the-square2" text="type-global"/>, it is essential that we first divide each term of the equation by <m>2</m>, the coefficient of <m>x^2</m>. The following attempt at a solution is <em>incorrect</em>.
+<warning><p>In <xref ref="example-general-quadratic" text="type-global"/>, it is essential that we first divide each term of the equation by <m>2</m>, the coefficient of <m>x^2</m>. The following attempt at a solution is <em>incorrect</em>.
         <md><mrow>2x^2 - 6x \amp= 5</mrow>
             <mrow>2x^2 - 6x + 9 \amp= 5 + 9</mrow>
             <mrow>(2x - 3)^2 \amp= 14 ~~~ \rightarrow ~~~ \blert{\text{ Incorrect!}}</mrow></md>
@@ -350,10 +350,10 @@ You can check that <m>(2x - 3)^2</m> is not equal to <m>2x^2 - 6x + 9</m>. We ha
             ); 
             
         </pg-code>
-<statement><p><ol label="a">
+<statement><p><ol marker="a">
         <li><p>Follow the steps to solve by completing the square: 
                 <me>-4x^2- 36x-65 = 0</me>.</p>
-            <p><ol label="1">
+            <p><ol marker="1">
                 <li><p>Divide each term by <m>-4</m>. Write the equation with the constant on the right.</p>
                         <p><var name="$lhs" width="5"/><m>=</m><var name="$rhs" width="3"/> </p></li>
                 <li><p>Complete the square on the left:</p>
@@ -377,11 +377,11 @@ You can check that <m>(2x - 3)^2</m> is not equal to <m>2x^2 - 6x + 9</m>. We ha
 <p>Here is a summary of the steps for solving quadratic equations by completing the square.</p>
 
 <assemblage><title>To Solve a Quadratic Equation by Completing the Square</title><idx><h>quadratic equation</h><h>solving by completing the square</h></idx>
-    <p><ol label="1">
-            <li><ol label="a">
+    <p><ol marker="1">
+            <li><ol marker="a">
                 <li><p>Write the equation in standard form.</p></li>
                 <li><p>Divide both sides of the equation by the coefficient of the quadratic term, and subtract the constant term from both sides.</p></li></ol></li>
-            <li><p>Complete the square on the left side:<ol label="a">
+            <li><p>Complete the square on the left side:<ol marker="a">
                 <li>Multiply the coefficient of the first-degree term by one-half, then square the result.</li>
                 <li>Add the value obtained in (a) to both sides of the equation.</li></ol></p></li>
             <li><p>Write the left side of the equation as the square of a binomial. Simplify the right side.</p></li>

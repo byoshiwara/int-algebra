@@ -464,7 +464,7 @@
 <section xml:id="GGB-Graphing-an-Equation"><title>Graphing an Equation</title><introduction>
 <p>
     We can graph equations in the variables <m>x</m> and <m>y</m>. The variable keys are located on the top row of the app 123 keyboard. There are two steps to graphing an equation:
-    <ol label="1">
+    <ol marker="1">
         <li><p>
             Entering the equation
         </p></li>

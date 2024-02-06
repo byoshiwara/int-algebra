@@ -11,13 +11,13 @@
 
 <subexercises><title>Warm Up</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, <ol label="a">
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, <ol marker="a">
     <li>Evaluate the fraction for the given values of the variable.</li>
     <li>For what values of the variable is the fraction undefined?</li>
     <li>Find a value of <m>x</m> for which the fraction is equal to zero.</li></ol></p></introduction>
 
 <exercise number="1"><statement><p><m>\dfrac{x+1}{x-3},~~~~~x=\dfrac{1}{2},~{-4}</m></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>\dfrac{-3}{5} </m>, <m>\dfrac{3}{7} </m></p></li>
     <li><p><m>3 </m></p></li>
     <li><m>-1</m></li>
@@ -26,7 +26,7 @@
 <exercise number="2"><statement><p><m>\dfrac{2a-a^2}{a^2+1},~~~~~a=3,~{-1}</m></p></statement></exercise>
 
 <exercise number="3"><statement><p><m>\dfrac{2x}{x^2-1},~~~~~x=-2,~20</m></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>\dfrac{-4}{3} </m>, <m>\dfrac{40}{399} </m></p></li>
     <li><p><m>1,~-1 </m></p></li>
     <li><m>0</m></li>
@@ -68,7 +68,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="9"><statement><p>Which of the following is a correct application of the fundamental principle of fractions?  Explain why or why not in each case.<ol label="a" cols="2">
+<exercise number="9"><statement><p>Which of the following is a correct application of the fundamental principle of fractions?  Explain why or why not in each case.<ol marker="a" cols="2">
     <li><m>\dfrac{3x+5}{3x} \rightarrow 5</m></li>
     <li><m>\dfrac{4x+3}{2y} \rightarrow \dfrac{2x+3}{y}</m></li>
     <li><m>\dfrac{2x^2+x-12}{x-12} \rightarrow 2x^2</m></li>
@@ -77,18 +77,18 @@
 
 <exercisegroup><introduction><p>For Problems 10 and 11, decide whether the fraction is equivalent to 1, to <m>-1</m>, or cannot be reduced.</p></introduction>
 
-<exercise number="10"><statement><p><ol label="a" cols="2">
+<exercise number="10"><statement><p><ol marker="a" cols="2">
     <li><m>\dfrac{x+4}{x-4}</m></li>
     <li><m>\dfrac{t+5w}{5w-t}</m></li>
     <li><m>\dfrac{x+3z}{z+3x}</m></li>
     <li><m>\dfrac{-(m-1)}{1-m}</m></li></ol></p></statement></exercise>
 
-<exercise number="11"><statement><p><ol label="a" cols="2">
+<exercise number="11"><statement><p><ol marker="a" cols="2">
     <li><m>\dfrac{2a+b}{2a-b}</m></li>
     <li><m>\dfrac{-(a-b)}{b-a}</m></li>
     <li><m>\dfrac{2a^2-1}{2a^2}</m></li>
     <li><m>\dfrac{-a^2+3)}{a^2+3}</m></li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p>cannot be reduced</p></li>
     <li><p><m>1</m></p></li>
     <li><p>cannot be reduced</p></li>
@@ -99,30 +99,30 @@
 <exercisegroup><introduction><p>For Problems 12-15, reduce if possible, and select the correct reduced form.</p>
 </introduction>
 
-<exercise number="12"><statement><p><m>\dfrac{2x+3}{2x}</m><ol label="a" cols="3">
+<exercise number="12"><statement><p><m>\dfrac{2x+3}{2x}</m><ol marker="a" cols="3">
     <li><m>\dfrac{x+3}{x}</m></li>
     <li><m>3</m></li>
     <li>neither of these</li></ol></p></statement></exercise>
 
-<exercise number="13"><statement><p><m>\dfrac{3a+a^2}{3a}</m><ol label="a" cols="3">
+<exercise number="13"><statement><p><m>\dfrac{3a+a^2}{3a}</m><ol marker="a" cols="3">
     <li><m>a^2</m></li>
     <li><m>\dfrac{3+a}{3}</m></li>
     <li>neither of these</li></ol></p></statement>
 <answer><p>(b)</p></answer></exercise>
 
-<exercise number="14"><statement><p><m>\dfrac{y+3}{2y^2+6y}</m><ol label="a" cols="3">
+<exercise number="14"><statement><p><m>\dfrac{y+3}{2y^2+6y}</m><ol marker="a" cols="3">
     <li><m>\dfrac{1}{2y}</m></li>
     <li><m>y</m></li>
     <li>neither of these</li></ol></p></statement></exercise>
 
-<exercise number="15"><statement><p><m>\dfrac{a^3}{a^4-a^3}</m><ol label="a" cols="3">
+<exercise number="15"><statement><p><m>\dfrac{a^3}{a^4-a^3}</m><ol marker="a" cols="3">
     <li><m>\dfrac{1}{a-1}</m></li>
     <li><m>\dfrac{1}{a^4}</m></li>
     <li>neither of these</li></ol></p></statement>
 <answer><p>(a)</p></answer></exercise>
 </exercisegroup>
 
-<exercise number="16"><statement><p>Reduce each fraction. Which of the fractions are equivalent to <m>3b</m>?<ol label="a" cols="2">
+<exercise number="16"><statement><p>Reduce each fraction. Which of the fractions are equivalent to <m>3b</m>?<ol marker="a" cols="2">
     <li><m>\dfrac{9b^2-3b}{3b}</m></li>
     <li><m>\dfrac{b+2}{3b^2+6b}</m></li>
     <li><m>\dfrac{3b-9}{9}</m></li>
@@ -192,14 +192,14 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     </latex-image>
     </image>
 </sidebyside>
-<p><ol label="a">
+<p><ol marker="a">
     <li>How long does the exercise take if there is no current in the river?</li>
     <li>How long will it take if the current is 4 miles per hour?</li>
     <li>Find an exact answer for part (b) by using the equation.</li>
     <li>If the exercise took 2 hours, what was the current in the river?</li>
     <li>As the speed of the current increases, what happens to the time needed for the exercise?</li></ol></p>
 </statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li><p>30 min</p></li>
     <li><p>50 min</p></li>
     <li><p>50 min</p></li>
@@ -207,7 +207,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     <li><p>The time increases. If the current is 10 mph, the team will not be able to row upstream</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="30" xml:id="problem-7-4-1"><statement><p>The eider duck, one of the world's fastest flying birds, can exceed an airspeed of 65 miles per hour. A flock of eider ducks is migrating south at an average airspeed of 50 miles per hour against a moderate headwind. Their next feeding grounds are 150 miles away.<ol label="a">
+<exercise number="30" xml:id="problem-7-4-1"><statement><p>The eider duck, one of the world's fastest flying birds, can exceed an airspeed of 65 miles per hour. A flock of eider ducks is migrating south at an average airspeed of 50 miles per hour against a moderate headwind. Their next feeding grounds are 150 miles away.<ol marker="a">
     <li><p>Express the ducks' travel time, <m>t</m>, as a function of the windspeed, <m>v</m>.</p></li>
     <li><p>Complete the table showing the travel time for various windspeeds.</p>
         <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
@@ -232,7 +232,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     <li><p>Use the table to choose an appropriate window and graph your function <m>t(v)</m>. Label the scales on the axes.</p></li>
     <li>Estimate the wind speed if the travel time was 12 hours. Illustrate your result on the graph.</li> 
     <li>Give the equations of any horizontal or vertical asymptotes. What does the vertical asymptote tell us about the problem?</li></ol></p></statement>
-<!-- <answer><p><ol label="a">
+<!-- <answer><p><ol marker="a">
     <li><p><m>t=\dfrac{150}{50-v} </m></p></li>
     <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
@@ -263,7 +263,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     <statement>
         <p>The cost, in thousands of dollars, for extracting <m>p</m> percent of a precious ore from a mine is given by the equation
         <me>C(p)=\frac{360p}{100-p} </me>
-        <ol label="a">
+        <ol marker="a">
             <li><p>What input values make sense for <m>C</m>?</p></li>
             <li><p>Complete the table showing the cost of extracting various percentages of the ore. (Note: do not convert percents to decimals.)</p>
                 <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
@@ -290,7 +290,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
         </ol></p>
     </statement>
     <answer>
-        <p><ol label="a">
+        <p><ol marker="a">
             <li><p><m>0\le p \lt 100</m></p></li>
             <li>
                 <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
@@ -349,7 +349,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     </answer>
 </exercise>
 
-<exercise number="32"><statement><p>The total cost in dollars of producing <m>n</m> calculators is approximately <m>20,000+8n</m>.<ol label="a">
+<exercise number="32"><statement><p>The total cost in dollars of producing <m>n</m> calculators is approximately <m>20,000+8n</m>.<ol marker="a">
     <li><p>Express the cost per calculator, <m>C</m>, as a function of the number <m>n</m> of calculators produced.</p></li>
     <li><p>Complete the table showing the cost per calculator for various production levels.</p>
         <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
@@ -405,7 +405,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 </exercise>
 
 <exercise number="33"><statement><p>The volume of a test tube is given by its height times the area of its cross-section. A test tube that holds 200 cubic centimeters is <m>2x-1</m> centimeters long.
-<ol label="a">
+<ol marker="a">
     <li>What is the area of its cross-section?</li>
     <li>Evaluate your fraction for <m>x=13</m>. What does your answer mean in the context of the problem?</li></ol></p></statement>
 <answer><p><ol>
@@ -414,13 +414,13 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 </ol></p></answer></exercise>
 
 <exercise number="34"><statement><p>Delbert prepares a 25% glucose solution of by mixing 2 ml of glucose with 8 ml of water.  If he adds <m>x</m> ml of glucose to the solution, its concentration is given by
-    <me>C(x)=\dfrac{2+x}{8+x}</me><ol label="a">
+    <me>C(x)=\dfrac{2+x}{8+x}</me><ol marker="a">
     <li>How many ml of glucose should Delbert add to increase the concentration to 50%?</li>
     <li>Graph the function for <m>0 \le x \le 100</m></li>  
     <li>What is the horizontal asymptote of the graph?  What does it tell you about the solution?</li></ol></p>
 </statement></exercise>
 
-<exercise number="35"><statement><p>A computer store sells approximately 300 of its most popular model per year. The manager would like to minimize her annual inventory cost by ordering the optimal number of computers, <m>x</m>, at regular intervals. If she orders <m>x</m> computers in each shipment, the cost of storage will be <m>6x</m> dollars, and the cost of reordering will be <m>\dfrac{300}{x} (15x + 10)</m> dollars. The inventory cost is the sum of the storage cost and the reordering cost.<ol label="a">
+<exercise number="35"><statement><p>A computer store sells approximately 300 of its most popular model per year. The manager would like to minimize her annual inventory cost by ordering the optimal number of computers, <m>x</m>, at regular intervals. If she orders <m>x</m> computers in each shipment, the cost of storage will be <m>6x</m> dollars, and the cost of reordering will be <m>\dfrac{300}{x} (15x + 10)</m> dollars. The inventory cost is the sum of the storage cost and the reordering cost.<ol marker="a">
     <li><p>Use the distributive law to simplify the expression for the reordering cost. Then express the inventory cost, <m>C</m>, as a function of <m>x</m>.</p></li>
     <li><p>Complete the table of values for the inventory cost for various reorder sizes.</p>
         <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
@@ -446,7 +446,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     <li><p>How many computers should the manager order in each shipment so as to minimize the inventory cost? How many orders will she make during the year?</p></li>
     <li><p>Graph the function <m>y = 6x + 4500</m> in the same window with the function <m>C</m>. What do you observe?</p></li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a">
     <li><p><m>4500+\dfrac{3000}{x} </m>; <m>C(x) = 6x + 4500 + \dfrac{3000}{x} </m></p></li>
     <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
@@ -470,7 +470,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 
 <exercise number="36"><statement><p>A train whistle sounds higher when the train is approaching you than when it is moving away from you. This phenomenon is known as the Doppler effect. If the actual pitch of the whistle is 440 hertz (this is the A note below middle C), then the note you hear will have the pitch
     <me>P(v)=\frac{440 (332)}{332-v} </me>
-where the velocity, <m>v</m>, in meters per second is positive as the train approaches and is negative when the train is moving away. (The number 332 that appears in this expression is the speed of sound in meters per second.)<ol label="a">
+where the velocity, <m>v</m>, in meters per second is positive as the train approaches and is negative when the train is moving away. (The number 332 that appears in this expression is the speed of sound in meters per second.)<ol marker="a">
     <li><p>Complete the table of values showing the pitch of the whistle at various train velocities.</p>
         <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
@@ -499,9 +499,9 @@ where the velocity, <m>v</m>, in meters per second is positive as the train appr
     <li><p>Graph the function <m>P</m> in an appropriate window. </p></li>
     <li><p>What is the velocity of the train if the note you hear has a pitch of 415 hertz (corresponding to the note A-flat)? A pitch of <m>553.\overline{3}</m> hertz (C-sharp)?</p></li>
     <li><p>For what velocities will the pitch you hear be greater than 456.5 hertz?</p></li>
-    <li><p>The graph has a vertical asymptote (although it is not visible in the suggested window). Where is it and what is its significance in this context?</p></li>
+    <li><p>The graph has a vertical asymptote (although it is not visible in the window). Where is it and what is its significance in this context?</p></li>
 </ol></p></statement>
-<!-- <answer><p><ol label="a">
+<!-- <answer><p><ol marker="a">
      <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>v</m></cell>
