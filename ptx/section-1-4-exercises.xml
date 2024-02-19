@@ -59,10 +59,10 @@
             <sidebyside width="40%"><image source="images/fig-hw-line-slope-neg3fourths"><description>graph</description></image></sidebyside></li>
         <li><p>Start at point <m>(0,-6)</m> and move <m>-6</m> units in the <m>y</m>-direction (down). How many units must you move in the <m>x</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
         <li><p>Start at point <m>(0,-6)</m> and move 9 units in the positive <m>y</m>-direction. How many units must you move in the <m>x</m>-direction to get back to the line? What is the ratio of <m>\Delta y</m> to <m>\Delta x</m>?</p></li>
-        <li><p>Suppose you start at any point on the line and move 20 units in the <m>y</m>-direction. How many units must you move in the <m>y</m>-direction to get back to the line? Use the equation <m>m=\dfrac{\Delta y}{\Delta x}</m> to calculate your answer.</p></li>
+        <li><p>Suppose you start at any point on the line and move 24 units in the <m>y</m>-direction. How many units must you move in the <m>x</m>-direction to get back to the line? Use the equation <m>m=\dfrac{\Delta y}{\Delta x}</m> to calculate your answer.</p></li>
     </ol></p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 11-14, compute the slope of the line. Note the scales on the axes.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>14, compute the slope of the line. Note the scales on the axes.</p></introduction>
 
     <exercise number="11"><statement>
         <sidebyside width="60%"><image source="images/fig-ex-1-4-23"><description>four lines</description></image></sidebyside></statement>
@@ -150,7 +150,7 @@
                             <cell><m>P</m></cell></row>
                         <row>
                             <cell><m>2</m></cell>
-                            <cell><m>12</m></cell></row>
+                            <cell><m>4</m></cell></row>
                         <row>
                             <cell><m>3</m></cell>
                             <cell><m>9</m></cell></row>
@@ -406,7 +406,7 @@
                         <cell><m>22</m></cell></row>
                     <row>
                         <cell>Length, cm</cell>
-                        <cell><m>25.87 </m> </cell>
+                        <cell><m>25.76 </m> </cell>
                         <cell><m>25.88</m> </cell>
                         <cell><m>26.36</m> </cell>
                         <cell><m>26.6</m> </cell>
