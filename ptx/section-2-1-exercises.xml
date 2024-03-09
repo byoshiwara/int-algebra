@@ -15,7 +15,6 @@
     <li><p><m>y=\dfrac{-3}{4}x-2</m></p></li></ol></p>
         <sidebyside widths="36% 36%" margins="5% 5%">
         <stack><image xml:id="fig-hw-2-1-2-I"><description>positive slope, negative y-intercept</description><latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%
                         }
                         \begin{tikzpicture} [scale=.35]
@@ -28,7 +27,6 @@
                         \end{tikzpicture}]]>
                 </latex-image></image>
             <image xml:id="fig-hw-2-1-2-III"><description>negative slope, positive y-intercept</description><latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%
                         }
                         \begin{tikzpicture} [scale=.35]
@@ -42,7 +40,6 @@
                 </latex-image></image></stack>
             <stack><image xml:id="fig-hw-2-1-2-II"><description>positive slope, positive y-intercept</description>
                         <latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%
                         }
                         \begin{tikzpicture} [scale=.35]
@@ -56,7 +53,6 @@
                 </latex-image></image>
                 <image xml:id="fig-hw-2-1-2-IV"><description>negative slope, negative y-intercept</description>
                         <latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%
                         }
                         \begin{tikzpicture} [scale=.35]
@@ -75,10 +71,9 @@
     <li><p><m>y=1+2(x+3)</m></p></li>
     <li><p><m>y=-1+2(x-3)</m></p></li>
     <li><p><m>y=-1+2(x+3)</m></p></li>
-    <li><p><m>y=1+2(x-2)</m></p></li></ol></p>
+    <li><p><m>y=1+2(x-3)</m></p></li></ol></p>
         <sidebyside widths="36% 36%" margins="5% 5%">
         <stack><image xml:id="fig-hw-2-1-6-I"><description>positive slope, y-intercept -5</description><latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
                     \begin{tikzpicture} [scale=.35]
@@ -91,7 +86,6 @@
                     \end{tikzpicture}]]>
             </latex-image></image>
         <image xml:id="fig-hw-2-1-6-III"><description>positive slope, y-intercept 7</description><latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
                     \begin{tikzpicture} [scale=.35]
@@ -104,7 +98,6 @@
                     \end{tikzpicture}]]>
             </latex-image></image></stack>
     <stack><image xml:id="fig-hw-2-1-6-II"><description>positive slope, y-intercept 5</description><latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
                     \begin{tikzpicture} [scale=.35]
@@ -117,7 +110,6 @@
                     \end{tikzpicture}]]>
             </latex-image></image>
         <image xml:id="fig-hw-2-1-6-IV"><description>positive slope, y-intercept -7</description><latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
                     \begin{tikzpicture} [scale=.35]
@@ -133,7 +125,9 @@
 
 <exercisegroup><introduction><p>In Problems 3 and 4, find a linear model from two data points as follows:<ol marker="a">
         <li><p>Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?)</p></li>
-        <li><p>Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?)</p></li>
+        <li><p>
+            Write an equation for the line.
+        </p></li>
         <li><p>State the slope of the line, including units, and explain its meaning in the context of the problem.
         </p></li></ol></p></introduction>
 
@@ -450,7 +444,6 @@
             </p></li></ol></p></statement>
 <answer><p><ol marker="a">
         <li><sidebyside width="35%" margins="0% 0%"><image xml:id="fig-hw-2-1-11ans"><description>scatterplot and regression line</description><latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
                     \begin{tikzpicture} [scale=.6]
@@ -497,4 +490,3 @@
 </subexercises>
 
 </exercises>
-

@@ -13,7 +13,6 @@
             <md><mrow>4x=\frac{4}{3}y=12</mrow></md></p></statement>
 <answer><sidebyside width="35%" margins="0% 0%"><image xml:id="fig-hw-2-2-1ans"><description>line</description>
             <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
             \begin{tikzpicture} [scale=.6]
@@ -249,7 +248,6 @@
         <li><p>Write a second equation about the number of each type of book.</p></li>
         <li><p>Graph both equations and solve the system using the grid.</p>
         <sidebyside width="35%"><image xml:id="fig-hw-2-2-11"><description>grid</description><latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
             \begin{tikzpicture} [xscale=.9, yscale=.6]
@@ -270,7 +268,6 @@
         <li><p><m>y=3x</m></p></li>
         <li><sidebyside width="40%" margins="0% 0%"><image xml:id="fig-hw-2-2-11ans"><description>two lines</description>
             <latex-image>
-                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
                     \begin{tikzpicture} [xscale=.9, yscale=.6]
@@ -334,7 +331,6 @@
             <li><p><m>D=120-2.5x</m></p></li>
             <li><sidebyside width="45%" margins="0% 0%"><image xml:id="fig-hw-2-2-13ans"><description>two lines
             </description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
                 \begin{tikzpicture} [xscale=1, yscale=.75]
@@ -396,7 +392,6 @@
             <image xml:id="fig-avg-US-women-age-grid">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=.4]
@@ -429,7 +424,6 @@
             <image xml:id="fig-avg-US-women-age-plot">
         <description>grid</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=.4]
