@@ -43,7 +43,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 3-6, solve the system by substitution or by linear combinations.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>6, solve the system by substitution or by linear combinations.</p></introduction>
 
 <exercise number="3"><statement><p> 
         <md><mrow>3m+n \amp = 7</mrow>
@@ -216,9 +216,9 @@
                     <row>
                         <cell></cell><cell>Cups</cell><cell>Calories per cup</cell><cell>Calories</cell></row>
                     <row>
-                        <cell>Oat flakes</cell><cell></cell><cell></cell><cell></cell></row>
+                        <cell>Rolled Oats</cell><cell></cell><cell></cell><cell></cell></row>
                     <row>
-                        <cell>Wheat flakes</cell><cell></cell><cell></cell><cell></cell></row>
+                        <cell>Wheat Flakes</cell><cell></cell><cell></cell><cell></cell></row>
                     <row>
                         <cell>Mixture</cell><cell></cell><cell></cell><cell></cell></row>    
                 </tabular></sidebyside></li>
@@ -263,8 +263,6 @@ per day. How many of each model of chassis can it produce in a day?<ol marker="a
                         <cell>First stock</cell><cell></cell><cell></cell><cell></cell></row>
                     <row>
                         <cell>Second stock</cell><cell></cell><cell></cell><cell></cell></row>
-                    <row>
-                        <cell>Total</cell><cell></cell><cell></cell><cell></cell></row>    
                 </tabular></sidebyside></li>
     <li><p>Write one equation about the amounts Carmella invested.</p></li>
     <li><p>Write a second equation about Carmella's annual interest.</p></li>

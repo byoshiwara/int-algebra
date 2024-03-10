@@ -302,10 +302,10 @@
 <exercise number="18"><statement><p><m>\dfrac{2x-3}{3}\le \dfrac{3x}{-2} </m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 19-24, solve for <m>y</m> in terms of <m>x</m>.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>24, solve for <m>y</m> in terms of <m>x</m>.</p></introduction>
 
 <exercise number="19"><statement><p><m>2x-3y=-72</m></p></statement>
-<answer><p><m>y = \dfrac{2}{3} + 24</m></p></answer></exercise>
+<answer><p><m>y = \dfrac{2x}{3} + 24</m></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>4x+75y = 60,000</m></p></statement></exercise>
 
@@ -533,7 +533,7 @@
 
 <exercise number="34"><statement><p>When Francine is at rest, her cardiac output is 5 liters per minute. The output increases by 3 liters per minute for each minute she spends on a cycling machine with increasing intensity.<ol marker="a">
     <li>Find a formula for Francine's cardiac output, <m>c</m>, in terms of time, <m>t</m>.</li>
-    <li><p>Graph the equation for <m>p</m> for <m>0 \le t \le 10</m>.</p>
+    <li><p>Graph the equation for <m>c</m> for <m>0 \le t \le 10</m>.</p>
         <sidebyside width="40%"><image xml:id="fig-cardiac-output-grid"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
