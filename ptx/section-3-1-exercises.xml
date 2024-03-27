@@ -161,10 +161,10 @@
 
 <exercise number="10"><statement><p><m>4(x-1)^2=12</m></p></statement></exercise>       
 
-<exercise number="11"><statement><p><m>(x-\dfrac{2}{3})^2=\dfrac{5}{9}</m></p></statement>
+<exercise number="11"><statement><p><m>\left(x-\dfrac{2}{3}\right)^2=\dfrac{5}{9}</m></p></statement>
     <answer><p><m>\dfrac{2}{3} \pm \dfrac{\sqrt{5}}{3}</m></p></answer></exercise>
 
-<exercise number="12"><statement><p><m>81(x+\dfrac{1}{3})^2=1</m></p></statement></exercise>
+<exercise number="12"><statement><p><m>81\left(x+\dfrac{1}{3}\right)^2=1</m></p></statement></exercise>
 
  <exercise number="13"><statement><p><m>3(8x-7)^2=24</m></p></statement>
     <answer><p><m>\dfrac{7}{8},\pm \dfrac{\sqrt{8}}{8} </m></p></answer></exercise>
@@ -225,7 +225,7 @@
     TV screen is 28 inches, what is its height?</p></statement>
     <answer><p>21 in</p></answer></exercise>
 
-<exercise number="24"><statement><p>24 a 30-meter pine tree casts a shadow of 30 meters, how far is the tip of the shadow from the top of the tree? </p></statement></exercise>
+<exercise number="24"><statement><p>A 30-meter pine tree casts a shadow of 30 meters, how far is the tip of the shadow from the top of the tree? </p></statement></exercise>
 </exercisegroup>
 
 <exercise number="25"><statement><p>You plan to deposit your savings of $1600 in an account that compounds interest annually.<ol marker="a">
@@ -271,7 +271,6 @@
 <exercise number="27"><statement><sidebyside widths="65% 20%" margins="0% 5 %" valigns="middle middle">
 <p>What size rectangle will fit inside a circle of radius 30 feet if the length of the rectangle must be three times its width?</p>        
     <image xml:id="fig-inscribed-rectangle"><description>rectangle inscribed in circle radius 30</description><latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
             \begin{tikzpicture} [scale=.08  ]
