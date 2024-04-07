@@ -54,7 +54,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 <warning><p>Inverse variation describes a decreasing function, <idx>decreasing function</idx> but not every decreasing function represents inverse variation. People sometimes mistakenly use the phrase <em>varies inversely</em> to describe any decreasing function, but if <m>y</m> varies inversely with <m>x</m>, the variables must satisfy an equation of the form <m>y = \dfrac{k}{x}</m>, or <m>xy = k</m>.</p></warning>
 
 <p> To decide whether two variables truly vary inversely, we can check whether their product is constant. For instance, in the preceding travel-time example, we see from the table that <m>RT = 600</m>.</p>
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>R</m></cell>
             <cell><m>10</m></cell>
@@ -79,9 +79,9 @@ where <m>k</m> is a positive constant.</p></assemblage>
             <cell><m>600</m></cell>
             <cell><m>600</m></cell>
             <cell><m>600</m></cell></row>
-    </tabular></sidebyside>
+    </tabular>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
             $invvar = RadioButtons(
               ["Check whether \(xy\) is a constant.",
@@ -97,6 +97,15 @@ where <m>k</m> is a positive constant.</p></assemblage>
     <solution><p>Check whether <m>xy</m> is a constant.</p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>How can you test whether a table for <m>y=f(x)</m> represents inverse variation?</p>
+    <p><ol marker="a">
+        <li><p>Check whether <m>xy</m> is a constant.</p></li>
+        <li><p>Check whether the function is decreasing.</p></li>
+        <li><p>Check whether <m>y</m> is the reciprocal of <m>x</m>.</p></li>
+        <li><p>Check whether <m>y/x</m> is a constant.</p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Finding a Formula for Inverse Variation</title>
@@ -106,7 +115,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
 <example><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of 12 ohms draws 10 amps of current.<ol marker="a">
         <li><p>Write a formula that gives current as a function of the resistance.</p></li>
         <li><p> Complete the table and graph your function in a suitable window.</p>
-            <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+            <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
                     <cell><m>R</m></cell>
                     <cell><m>1</m></cell>
@@ -119,7 +128,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                     <cell><m>\hphantom{0000} </m></cell>
                     <cell><m>\hphantom{0000} </m></cell>
                     <cell><m>\hphantom{0000} </m></cell></row>
-            </tabular></sidebyside></li>
+            </tabular></li>
         <li><p>How much current is drawn by a light bulb with a resistance of 533.3 ohms?</p></li>
         <li><p>What is the resistance of a toaster that draws 12.5 amps of current?</p></li>
     </ol></p></statement>
@@ -129,7 +138,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 <mrow>k \amp = 10 \cdot 12 = 120</mrow></md>
     So the formula is <m>I=\dfrac{120}{R}</m>.</li>
     <li><p>We use the formula to complete the table.</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
                     <cell><m>R</m></cell>
                     <cell><m>1</m></cell>
@@ -142,9 +151,9 @@ where <m>k</m> is a positive constant.</p></assemblage>
                     <cell><m>60</m></cell>
                     <cell><m>12</m></cell>
                     <cell><m>6</m></cell></row>
-            </tabular></sidebyside>
+            </tabular>
         <p>A graph of <m>I</m> as a function of <m>R</m> is shown below.</p>
-        <sidebyside  width="40%"><image xml:id="fig-example-5-5-1"><description>current vs resistance</description>
+        <image width="40%" xml:id="fig-example-5-5-1"><description>current vs resistance</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -161,9 +170,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 \filldraw[red] (6,5) circle (.3) node[above right, xshift=4, fill=white, inner sep=2] {$(12,10)$};
                 \node[black,fill=white, inner sep=2] at (12,20) {$I=\Large \frac{120}{R}$};
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside></li>
+            </latex-image></image></li>
      <li>We substitute <m>\alert{533.3}</m> for <m>R</m> in the formula.
         <me>I=\dfrac{120}{\alert{533.3}} = 0.225</me>
         The light bulb draws 0.225 amps of current.</li>
@@ -173,7 +180,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
         The toaster has a resistance of 9.6 ohms.</li></ol>
 </p></solution></example>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
   <webwork><pg-code>
         $refreshCachedImages = 1;
         $fun=Formula("120/x");
@@ -231,7 +238,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
         <p><ol marker="a">
             <li><p>Express the cost per person, <m>C</m>, as a function of the number of people, <m>p</m>, who contribute.</p>
             <p><var name="$multians" width="2"/><m>=</m><var name="$multians" width="10"/> </p></li>
-            <li><p>Sketch the function on the domain <m>0 \le p \le 20</m>.</p>
+            <li><p>Sketch the function for <m>0 \le p \le 20</m>.</p>
             <sidebyside widths="20% 20%" margins="15% 15%">
                 <image pg-name="$gr[1]"/>
                 <image pg-name="$gr[2]"/>
@@ -251,10 +258,20 @@ where <m>k</m> is a positive constant.</p></assemblage>
     </solution>
   </webwork>
     <conclusion>
-        <sidebyside width="30%" margins="0% 50%"><image source="images/fig-ex-5-4-1ans"><description>reciprocal</description></image></sidebyside>
+        <image width="30%" margins="0% 50%" source="images/fig-ex-5-4-1ans"><description>reciprocal</description></image>
     </conclusion>
 </exercise>
 
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Delbert's officemates want to buy a $120 gold watch for a colleague who is retiring. The cost per person is inversely proportional to the number of people who contribute.</p>
+        <p><ol marker="a">
+            <li><p>Express the cost per person, <m>C</m>, as a function of the number of people, <m>p</m>, who contribute.</p></li>
+            <li><p>Sketch the function for <m>0 \le p \le 20</m>.</p></li>
+        </ol></p></statement>
+    <solution><p><ol marker="a">
+        <li><p><m>C=\dfrac{120}{p}</m></p></li>
+        <li></li>
+          </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Inverse Variation with a Power</title>
@@ -285,7 +302,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
         <me>I = \frac{0.016}{\alert{5}^2}= 0.00064</me>
     At a distance of 5 kilometers from the station, the signal strength is 0.00064 watt per square meter.</p></li>
     <li><p>The graph is shown below.</p>
-        <sidebyside  width="30%"><image xml:id="fig-example-5-5-2"><description>inverse-square</description>
+        <image width="30%" xml:id="fig-example-5-5-2"><description>inverse-square</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -305,7 +322,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 \filldraw[red] (1,8) circle (.1) node[right, xshift=4, fill=white, inner sep=2] {$(1,0.016)$};
                 \node[black,fill=white, inner sep=2] at (4,6) {$I=\Large \frac{0.016}{d^2}$};
                 \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li></ol></p>
+                </latex-image></image></li></ol></p>
 </solution></example>
 
 <p>To summarize, an inverse variation is an example of a decreasing function, but not every decreasing function describes an inverse variation.<idx>decreasing function</idx></p> 
@@ -315,9 +332,9 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>The graphs of some typical inverse variations are shown below. They are versions of the basic graphs you studied in Section 5.3, but restricted to positive <m>x</m>-values only.</p>
 
-<sidebyside width="50%"><image source="images/fig-inverse-variation-with-power"><description>inverse variation</description></image></sidebyside>
+<image width="50%" source="images/fig-inverse-variation-with-power"><description>inverse variation</description></image>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
         $Yes = PopUp(
           ["?","Yes", "No"],
@@ -325,7 +342,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
         );
     </pg-code>
 <statement><p>Use the table to decide whether <m>H</m> could vary inversely with <m>m^2</m>.</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
             <row bottom="minor">
                 <cell><m>m</m></cell>
                 <cell><m>0.05</m></cell>
@@ -338,16 +355,34 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 <cell><m>15</m></cell>
                 <cell><m>9.6</m></cell>
                 <cell><m>3.75</m></cell></row>
-            </tabular></sidebyside>
-        <p><var name="$Yes" form="popup"/></p>
-    </statement>
+            </tabular>
+        <p><var name="$Yes" form="popup"/></p></statement>
     <solution>
         <p>Yes, the product <m>Hm^2</m> is the constant 0.6 for all pairs <m>(m,H)</m> in the table.</p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
-<p>In Section 5.4, we considered the scaling property of direct variation. If <m>y=kx</m> and you double the value of <m>x</m>, then the value of <m>y</m> doubles also.  If <m>y=kx^2</m> and you double the value of <m>x</m>, then the value of <m>y</m> is multiplied by a factor of <m>2^2=4</m>.</p>
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>Use the table to decide whether <m>H</m> could vary inversely with <m>m^2</m>.</p>
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <row bottom="minor">
+                <cell><m>m</m></cell>
+                <cell><m>0.05</m></cell>
+                <cell><m>0.20</m></cell>
+                <cell><m>0.25</m></cell>
+                <cell><m>0.4</m></cell></row>
+            <row> 
+                <cell><m>H</m></cell>
+                <cell><m>240</m></cell>
+                <cell><m>15</m></cell>
+                <cell><m>9.6</m></cell>
+                <cell><m>3.75</m></cell></row>
+            </tabular></statement>
+    <solution>
+        <p>Yes, the product <m>Hm^2</m> is the constant 0.6 for all pairs <m>(m,H)</m> in the table.</p>
+    </solution></exercise>
+
+<p>In Section 5.4, we considered the scaling property of direct variation. If <m>y=kx</m> and you double the value of <m>x</m>, then the value of <m>y</m> doubles also. If <m>y=kx^2</m> and you double the value of <m>x</m>, then the value of <m>y</m> is multiplied by a factor of <m>2^2=4</m>.</p>
 
 <p>What happens when you double the input of an inverse variation?</p>
 
@@ -360,8 +395,7 @@ If you double your distance from the center of the Earth, what happens to your w
         = \frac{1}{4}W</me>
 Your new weight will be <m>\dfrac{1}{4}</m> of your old weight. By a similar calculation, you can check that by tripling the distance, your weight will be reduced to <m>\dfrac{1}{9}</m> of its original value.</p></solution></example>
 
-<exercise xml:id="exercise-rusty-bolt">
-    <title>Practice 2</title>
+<exercise component="webwork" xml:id="exercise-rusty-boltw"><title>Practice 2</title>
     <webwork><pg-code>
             $explain =  RadioButtons(
                     ["\( F_\text{new}=\frac{1}{2}F_\text{old}  \)",
@@ -372,8 +406,7 @@ Your new weight will be <m>\dfrac{1}{4}</m> of your old weight. By a similar cal
                     3
                 );
         </pg-code>
-        <statement>
-            <p>The amount of force, <m>F</m>, (in pounds) needed to loosen a rusty bolt with a wrench is inversely proportional to the length, <m>l</m>, of the wrench. Thus,
+        <statement><p>The amount of force, <m>F</m>, (in pounds) needed to loosen a rusty bolt with a wrench is inversely proportional to the length, <m>l</m>, of the wrench. Thus,
                 <me>F = \frac{k}{l}</me>
             If you increase the length of the wrench by 50% so that the new length is <m>1.5l</m>, what happens to the amount of force required to loosen the bolt?</p>
             <p><var name="$explain" form="buttons"/> </p>
@@ -381,10 +414,15 @@ Your new weight will be <m>\dfrac{1}{4}</m> of your old weight. By a similar cal
         <solution>
             <p><m>F_\text{new}=\dfrac{2}{3}F_\text{old} </m></p>
         </solution>
-    </webwork>
-</exercise>
+    </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="main" xml:id="exercise-rusty-bolt"><title>Practice 2</title>
+    <statement><p>The amount of force, <m>F</m>, (in pounds) needed to loosen a rusty bolt with a wrench is inversely proportional to the length, <m>l</m>, of the wrench. Thus,
+                <me>F = \frac{k}{l}</me>
+    If you increase the length of the wrench by 50% so that the new length is <m>1.5l</m>, what happens to the amount of force required to loosen the bolt?</p></statement>
+    <solution><p><m>F_\text{new}=\dfrac{2}{3}F_\text{old} </m></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork>
     <pg-code>
         $a = PopUp(
@@ -428,8 +466,29 @@ Your new weight will be <m>\dfrac{1}{4}</m> of your old weight. By a similar cal
         <li>iii</li>
         <li>i</li></ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p> Match each formula with its description below.</p> 
+    <p><ol marker="a" cols="2">
+        <li><p>Direct variation</p></li>
+        <li><p>Direct variation with a power </p></li>
+        <li><p>Inverse variation</p></li>
+        <li><p>Inverse variation with a power</p></li>
+    </ol></p>
+    <p><ol marker="i" cols ="2">
+            <li><m>I=\dfrac{50}{d^2}</m></li>
+            <li><m>S=15.3h^2</m></li>
+            <li><m>N=\dfrac{2600}{P}</m></li>
+            <li><m>C=85A</m></li>
+    </ol></p></statement>
+    <solution>
+        <p><ol marker="a" cols ="2">
+        <li>iv</li>
+        <li>ii</li>
+        <li>iii</li>
+        <li>i</li></ol></p>
+    </solution></exercise>
 </subsection>
 
 <xi:include href="./section-5-5-exercises.xml" /> <!-- exercises  -->

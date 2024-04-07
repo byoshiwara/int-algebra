@@ -26,7 +26,7 @@ is an <term>ordered triple</term><idx>ordered triple</idx> of numbers that satis
 
 <p>It is impractical to solve <m>3\times 3</m> systems by graphing. Even when technology for producing three-dimensional graphs is available, we cannot read coordinates on such graphs with any confidence. Thus, we will restrict our attention to algebraic methods of solving such systems.</p>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
         $solution = RadioButtons(
           ["A) ordered pair that satisfies the equation.",
@@ -66,6 +66,13 @@ is an <term>ordered triple</term><idx>ordered triple</idx> of numbers that satis
     </solution>    
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p><ol marker="a">
+        <li><p>A solution to an equation in three variables is an <fillin characters="10"/>.</p></li>
+        <li><p>The graph of a linear equation in three variables is a <fillin characters="10"/>.</p></li>
+        <li><p>A linear <m>3 \times 3</m> system has a unique solution if the three planes intersect in <fillin characters="10"/>.</p></li>
+        <li><p>Three planes may also intersect in a <fillin characters="10"/> or a <fillin characters="10"/>.</p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Back-Substitution</title><idx><h>system of equations</h><h>back-subsitution</h></idx><idx><h>back-substitution</h></idx>
@@ -91,7 +98,7 @@ Finally, we substitute <m>\alert{-1}</m> for <m>z</m> and <m>\alert{3}</m> for <
                 <mrow>x\amp=-1</mrow></md>
 The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that this triple satisfies all three equations of the system.</p></solution></example>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
     <webwork>
         <pg-code>
             Context("Point");
@@ -101,9 +108,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
             <md alignment="alignat">
                 <mrow>2x + 2y \amp {}+{} \amp z \amp {}={} \amp 10</mrow>
                 <mrow>y \amp {}-{} \amp  4z \amp {}={} \amp 9</mrow>
-                <mrow>\amp\amp   3z \amp {}={} \amp -6</mrow>
-            </md>
-        </p>
+                <mrow>\amp\amp   3z \amp {}={} \amp -6</mrow></md></p>
         <p><var name="$triple" width="6"/></p>
         <instruction>
             Give the solution as an ordered triple.
@@ -111,15 +116,22 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
     </statement>
     <solution><p><m><var name="$triple"/> </m> satisfies all three equations.</p>
     </solution>
-  </webwork>
-</exercise>
+  </webwork></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+  <statement><p>Use back-substitution to solve the system
+            <md alignment="alignat">
+                <mrow>2x + 2y \amp {}+{} \amp z \amp {}={} \amp 10</mrow>
+                <mrow>y \amp {}-{} \amp  4z \amp {}={} \amp 9</mrow>
+                <mrow>\amp\amp   3z \amp {}={} \amp -6</mrow></md></p></statement>
+<solution><p><m>(5,1,-2)</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Gaussian Reduction</title><idx>Gaussian reduction</idx><idx><h>Gaussian reduction</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>Gaussian reduction</h></idx><idx><h>linear combination</h><seealso>Gaussian reduction</seealso></idx><idx><h>system of equations</h><h>linear combination</h></idx>
 
 <p>The method for solving a general <m>3 \times 3</m> linear system is called <term>Gaussian reduction</term>, after the German mathematician Carl Gauss. We use linear combinations to reduce the system to triangular form, and then use back-substitution to find the solutions.</p>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>       
         $method = PopUp(
           ["?",
@@ -157,6 +169,14 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
         <li> <p>linear combinations</p></li></ol></p>
     </solution>  
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p><ol marker="a">
+        <li><p>The method for solving a <m>3 \times 3</m> linear system is called <fillin characters="10"/>.</p></li>
+        <li><p>A special case of this method is called <fillin characters="10"/>.</p></li>
+        <li><p>The special case works on systems in <fillin characters="10"/>.</p></li>
+        <li><p>To reduce a system to the special form, we use <fillin characters="10"/>.</p></li>
+    </ol></p></statement></exercise>
 
 <p>To obtain the triangular form, we eliminate one of the variables from each of the three equations by considering them in pairs.  This results in a <m>2\times 2</m> system that we can solve using elimination.</p>
 
@@ -213,7 +233,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
         <li><p>Form a triangular system by choosing among the previous equations. Use back-substitution to solve the triangular system.</p></li></ol></p>
 </assemblage>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork> <pg-code>       
             $elsm = RadioButtons(
               ["Form a triangular system.",
@@ -230,7 +250,16 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
     </solution>
 </webwork></exercise>
 
-<exercise><title>Practice 2</title>
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>Suppose you eliminate <m>y</m> from two equations as Step 2 of Gaussian reduction. What should you do for Step 3?</p>
+    <p><ol marker="a">
+        <li><p>Form a triangular system.</p></li>
+        <li><p>Eliminate either <m>x</m> or <m>z</m>.</p></li>
+        <li><p>Eliminate <m>y</m> again from a different pair of equations.</p></li>
+        <li><p>Substitute the value for <m>y</m>into the equations.</p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
             Context("Point");
             $triple = Point(2,2,1);
@@ -248,9 +277,22 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
             <p><var name="$triple" width="6"/> </p>
         <instruction>Give the solution as an ordered triple.  </instruction>
         </statement>
-        <solution><p><m><var name="$triple"/> </m></p>
-        </solution>
+    <solution><p><m><var name="$triple"/> </m></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 2</title>
+<statement><p>Use Gaussian reduction to solve the system
+                <md><mrow>x-2y+z \amp= -1\qquad\qquad \amp\amp (1)</mrow>
+                    <mrow>\frac{2}{3}x +\frac{1}{3}y - z \amp= -1 \amp\amp (2)</mrow>
+                    <mrow>3x+3y-2z \amp= 10 \amp\amp (3)</mrow></md>
+        Follow the steps:<ul>
+            <li><p>Step 1: Clear the fractions from Equation (2).</p></li>
+            <li> <p>Step 2: Eliminate <m>z</m> from Equations (1) and (2).</p></li>
+            <li><p>Step 3: Eliminate <m>z</m> from Equations (1) and (3).</p></li>
+            <li><p>Step 4: Eliminate <m>x</m> from your new <m>2\times 2</m> system.</p></li>
+            <li><p>Step 5: Form a triangular system and solve by back-substitution.</p></li>
+        </ul></p></statement>
+    <solution><p><m>(2,2,1)</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
@@ -288,7 +330,7 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
         Because the resulting equation vanishes, the system is dependent and has infinitely many solutions.</p></li>
     </ol></p></solution></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
 <webwork><pg-code>       
         $explain = RadioButtons(
           ["Inconsistent",
@@ -307,7 +349,14 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
     </solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Decide whether the system is inconsistent, dependent, or consistent and independent.
+            <md><mrow>x+3y-z\amp=4</mrow>
+                <mrow>-2x-6y+2z\amp=4</mrow>
+                <mrow>x+2y-z\amp=3</mrow></md></p></statement>
+    <solution><p>Inconsistent</p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>
          $TF = PopUp(
           ["?","True","False"],
@@ -331,6 +380,15 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
             <li><p>True</p></li></ol></p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p>True or false.</p>
+    <p><ol marker="a">
+            <li><p>If a system is dependent, it has no solutions.</p></li>
+            <li><p>The equation <m>0x + 0y + 0z = 0</m> has no solution.</p></li>
+            <li><p>If a <m>3 \times 3</m> system is dependent, all three equations are the same. </p></li>
+            <li><p>Gaussian reduction will reveal whether a system is dependent or inconsistent.</p></li>
+        </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -381,38 +439,33 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
                         <mrow>z\amp=100</mrow></md></p></li>
         <li><title>Step 4:</title>
             <p>The angles measure 52°, 28°, and 100°.</p></li></ul></p>       
-        </solution>
-</example>
+    </solution></example>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>       
         $w = 250;
         $c = 600;
         $s = 450;          
         </pg-code>
-    <statement><p>A farmer has 1300 acres on which to plant wheat, corn, and soybeans. The seed costs $6 for an acre of wheat, $4 for an acre of corn, and $5 for an acre of soybeans. An acre of wheat requires 5 acre-feet of water during the growing season, while an acre of corn requires 2 acre-feet and an acre of soybeans requires 3 acre-feet. If the farmer has $6150 to spend on seed and can count on 3800 acre-feet of water, how many acres of each crop should he plant in order to use all his resources?</p>
-    <p>
-        Wheat: <var name="$w" width="3"/> acres
-    </p>
-    <p>
-        Corn: <var name="$c" width="3"/> acres
-    </p>
-    <p>
-        Soybeans: <var name="$s" width="3"/> acres
-    </p>
-    </statement>
+<statement><p>A farmer has 1300 acres on which to plant wheat, corn, and soybeans. The seed costs $6 for an acre of wheat, $4 for an acre of corn, and $5 for an acre of soybeans. An acre of wheat requires 5 acre-feet of water during the growing season, while an acre of corn requires 2 acre-feet and an acre of soybeans requires 3 acre-feet. If the farmer has $6150 to spend on seed and can count on 3800 acre-feet of water, how many acres of each crop should he plant in order to use all his resources?</p>
+    <p>Wheat: <var name="$w" width="3"/> acres</p>
+    <p>Corn: <var name="$c" width="3"/> acres</p>
+    <p>Soybeans: <var name="$s" width="3"/> acres</p>
+</statement>
     <solution>
     <p> We solve the system
         <md alignment="alignat">
         <mrow>w\amp {}+{} \amp c\amp {}+{} \amp s \amp= 1300</mrow>
         <mrow>6w\amp {}+{} \amp 4c\amp {}+{} \amp 5s\amp=6150</mrow>
-        <mrow>5w\amp {}+{} \amp 2c\amp {}+{} \amp 3s\amp =3800</mrow>
-    </md>
+        <mrow>5w\amp {}+{} \amp 2c\amp {}+{} \amp 3s\amp =3800</mrow></md>
     to find that the farmer should plant 250 acres of wheat, 600 acres of corn, 450 acres of soybeans</p>
     </solution>
 </webwork></exercise>
 
-
+<exercise component="main"><title>Practice 4</title>
+<statement><p>A farmer has 1300 acres on which to plant wheat, corn, and soybeans. The seed costs $6 for an acre of wheat, $4 for an acre of corn, and $5 for an acre of soybeans. An acre of wheat requires 5 acre-feet of water during the growing season, while an acre of corn requires 2 acre-feet and an acre of soybeans requires 3 acre-feet. If the farmer has $6150 to spend on seed and can count on 3800 acre-feet of water, how many acres of each crop should he plant in order to use all his resources?</p>
+</statement>
+<solution><p>250 acres of wheat, 600 acres of corn, 450 acres of soybeans</p></solution></exercise>
 </subsection>
 
 <xi:include href="./section-2-4-exercises.xml" />                

@@ -14,7 +14,7 @@ where the left side of the equation includes the square of a binomial, or a <ter
 
 <p>Study the following squares of binomials. <idx><h>binomial</h><h>square of</h></idx></p>
 
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor"><col halign="left"/><col /><col /><col />
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor"><col halign="left"/><col /><col /><col />
     <row bottom="major">
         <cell>Square of binomial <m>(x+p)^2</m></cell>
         <cell><m>p</m></cell>
@@ -35,13 +35,13 @@ where the left side of the equation includes the square of a binomial, or a <ter
         <cell><m>\alert{-12}</m></cell>
         <cell><m>2(\alert{-12})=-24</m></cell>
         <cell><m>(\alert{-12})^2=144</m></cell></row>
-</tabular></sidebyside>
+</tabular>
 
 <p>In each case, the square of the binomial is a <term>quadratic trinomial</term><idx>quadratic trinomial</idx>,
     <me>(x + p)^2= x^2 + 2px + p^2</me>
 The coefficient of the linear term, <m>2p</m>, is twice the constant in the binomial, and the constant term of the trinomial, <m>p^2</m>, is its square.</p>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
             $lint = RadioButtons(
               ["\(x^2\)",
@@ -57,6 +57,9 @@ The coefficient of the linear term, <m>2p</m>, is twice the constant in the bino
     <solution><p><m>12x</m> is the linear term of <m>x^2+12x+36</m>.</p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>What is the linear term of <m>~(x+6)^2~</m> ?</p></statement></exercise>
 
 <p>We would like to reverse the process and write a quadratic expression as the square of a binomial. For example, what constant term can we add to
     <me>x^2 - 16x</me>
@@ -80,7 +83,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
     <md><mrow>x^2 +5x \alert{{}+{}\frac{25}{4}}=\left(x +\frac{5}{2}\right)^2 \amp\amp\amp {\large \blert{\underset{p^2\, = \,(\frac{5}{2})^2 \,= \,\frac{25}{4}}{\stackrel {p \,= \,\frac{1}{2}(5) \,=\, \frac{5}{2}~~ }{}}}}</mrow></md></p></li></ol></p>
 </solution></example>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
         $TF = PopUp(
           ["?","True","False"],
@@ -105,7 +108,16 @@ You can check that in the resulting trinomial, the constant term is equal to <em
     </solution>
 </webwork></exercise>
 
-<exercise><title>Practice 1</title>
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>True or False.</p>
+    <p><ol marker="a">
+        <li><p>Every quadratic equation can be solved by factoring.</p></li>
+        <li><p>Every expression of the form <m>x^2+bx</m> can be turned into a perfect square by adding an appropriate constant.</p></li>
+        <li><p>The coefficient of the linear term in the expansion of <m>(x+p)^2</m> is twice the constant term in the binomial.</p></li>
+        <li><p>To complete the square means to square the expression. </p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
             Context("Fraction");
             $pa = Compute("-9");
@@ -130,6 +142,21 @@ You can check that in the resulting trinomial, the constant term is equal to <em
                 <li><p><m>x^2+9x+\dfrac{81}{4}=\left(x+\dfrac{9}{2}\right)^2 </m></p></li></ol></p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Complete the square by adding an appropriate constant; write the result as the square of a binomial.</p>
+    <p><ol marker="a">
+        <li><p><m>x^2-18x{}+<fillin characters="6"/> = (x+<fillin characters="6"/>)^2</m></p></li>
+        <li><p><m>x^2 +9x{}+<fillin characters="6"/> = (x+<fillin characters="6"/> )^2</m></p></li>
+    </ol></p>
+    <p>Hint: <ol marker="a">
+            <li><p><m>p=\frac{1}{2}(-18)={}</m>_____ , <m>p^2={}</m> ______</p></li>
+            <li><p><m>p=\frac{1}{2}(9)={}</m>_____ , <m>p^2={}</m> ______</p></li>
+        </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+                <li><p><m>x^2 - 18x + 81 = (x - 9)^2</m></p></li>
+                <li><p><m>x^2+9x+\dfrac{81}{4}=\left(x+\dfrac{9}{2}\right)^2 </m></p></li>
+    </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Solving Quadratic Equations by Completing the Square</title><idx><h>quadratic equation</h><h>solving by completing the square</h></idx>
@@ -138,7 +165,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
     <me>x^2 - 6x - 7 = 0</me></p>
 
 <p><em>Step 1</em>  To begin, we move the constant term to the other side of the equation, to get
-<me>x^2 - 6x{}<fillin characters="6"/> = 7</me></p>
+<me>x^2 - 6x{ }<fillin characters="6"/> = 7</me></p>
 <p><em>Step 2</em>  Next, we complete the square on the left. Because
         <me>p = \frac{1}{2}(-6) = -3 ~~~\text{ and } ~~~ p^2 = (-3)^2 = 9</me>
     we add <m>9</m> to <em>both</em> sides of our equation to get
@@ -155,8 +182,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         <mrow>x^2-6x+9 \amp = 16 \amp \amp \blert{\text{Subtract 16 fron both sides.}}</mrow>
         <mrow>x^2-6c-7 \amp = 0</mrow></md></p>
  
-<note>
-    <sidebyside widths="30% 50%" valigns="middle middle">
+<note><sidebyside widths="30% 50%" valigns="middle middle">
         <image xml:id="fig-parabola-with-symmetry-line"><description>parabola with line of symmetry</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -178,8 +204,8 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         \filldraw[red] (7,0) ellipse (.15 and .1);
         \end{tikzpicture}]]>
     </latex-image></image>    
-    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown at left. Notice that the <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p></sidebyside>
-</note>
+    <p>The graph of <m>y = x^2 - 6x - 7</m> is shown at left. Notice that the <m>x</m>-intercepts of the graph are <m>x = 7</m> and <m>x = -1</m>, and the parabola is symmetric about the vertical line halfway between the intercepts, at <m>x = 3</m>.</p>
+</sidebyside></note>
 
 <p>We can also solve <m>x^2 - 6x - 7 = 0</m> by factoring instead of completing the square. Of course, we get the same solutions by either method. In the next Example, we solve an equation that cannot be solved by factoring.</p> 
 
@@ -204,7 +230,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
         <sidebyside  width="25%"><image source="images/fig-parabola-with-symmetry-line2" ><description>parabola showing x-intercepts and line of symmetry</description></image></sidebyside></li>
 </ol></p></solution></example>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
          $one = PopUp(
           ["?","a","b", "c", "d"],
@@ -235,11 +261,19 @@ You can check that in the resulting trinomial, the constant term is equal to <em
                 <li><p>Step 3: <var name="$three" form="popup"/></p></li>
                 <li><p>Step 4: <var name="$four" form="popup"/></p></li></ul></p>
     </statement>
-    <solution><p>d, a, c, b</p>
-    </solution>
+    <solution><p>d, a, c, b</p></solution>
 </webwork></exercise>
 
-<exercise xml:id="exercise-completing-the-square2"><title>Practice 2</title>
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>Put the steps for completing the square in the correct order:</p>
+    <p><ol marker="a">
+                <li>Add to both sides of the equation.</li>
+                <li>Use extraction of roots.</li>
+                <li>Write the left side as a perfect square.</li>
+                <li>Write the equation with the constant term on the right side.</li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork" xml:id="exercise-completing-the-square2w"><title>Practice 2</title>
     <webwork><pg-code>
             Context("Fraction");
             $p = Compute("-3/2");
@@ -299,11 +333,35 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             <li><p><m>x\approx -0.30</m> or <m>x\approx 3.30</m></p></li>
         </ol></p></solution>
 </webwork></exercise>
+
+<exercise component="main" xml:id="exercise-completing-the-square2"><title>Practice 2</title>
+<statement><p><ol marker="a">
+        <li><p>Follow the steps to solve by completing the square: <m>x^2 - 1 = 3x</m>.</p>
+            <p><ol marker="1">
+                <li><p>Write the equation with the constant on the right.</p></li>
+                <li><p>Complete the square on the left:</p>
+                    <p><m>p=\dfrac{1}{2}(-3)={}</m>_____ , <m>p^2={}_____ </m></p>
+                        <p>Add <m>p^2</m> to both sides.</p></li>
+                <li><p>Write the left side as a perfect square; simplify the right side.</p></li>
+                <li><p>Solve by extracting roots.</p></li>
+            </ol></p></li>
+            <li><p>Find approximations to two decimal places for the solutions.</p></li>
+            <li><p>Graph the parabola <m>y = x^2 - 3x - 1</m> in the window
+                <me>\begin{aligned}[t]
+                \text{Xmin} \amp = -4.7 \amp\amp \text{Xmax} = 4.7\\
+                \text{Ymin} \amp = -5 \amp\amp \text{Ymax} = 5
+                \end{aligned}</me></p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+            <li><p><m>x=\dfrac{3}{2}\pm\sqrt{\frac{13}{4}} </m></p></li>
+            <li><p><m>x\approx -0.30</m> or <m>x\approx 3.30</m></p></li>
+        </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>The General Case</title>
 
 <p>Our method for completing the square works only if the coefficient of <m>x^2</m> is 1.  If we want to solve a quadratic equation whose lead coefficient is not 1, we first divide each term of the equation by the lead coefficient.</p> 
+
 <example xml:id="example-general-quadratic"><statement><p>Solve <m>~~2x^2 - 6x - 5 = 0</m>.</p></statement>
 
 <solution><p><ol marker="1">
@@ -329,7 +387,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             <mrow>(2x - 3)^2 \amp= 14 ~~~ \rightarrow ~~~ \blert{\text{ Incorrect!}}</mrow></md>
 You can check that <m>(2x - 3)^2</m> is not equal to <m>2x^2 - 6x + 9</m>. We have not written the left side of the equation as a perfect square, so the solutions we obtain by extracting roots will not be correct.</p></warning>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
             Context("Fraction");
             $p = Compute("9/2");
@@ -369,10 +427,27 @@ You can check that <m>(2x - 3)^2</m> is not equal to <m>2x^2 - 6x + 9</m>. We ha
         <li><p>Graph <m>y = -4x^2 - 36x - 65</m> in the window
                 <md><mrow>\text{Xmin} \amp = -9.4 \amp\amp \text{Xmax} = 0</mrow>
                     <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 20</mrow></md></p></li>
-        </ol></p>        
-    </statement>
+        </ol></p></statement>
     <solution><p><m>x=\dfrac{-13}{2} </m>, <m> x=\dfrac{-5}{2} </m></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 3</title>
+<statement><p><ol marker="a">
+        <li><p>Follow the steps to solve by completing the square: 
+                <me>-4x^2- 36x-65 = 0</me>.</p>
+            <p><ol marker="1">
+                <li><p>Divide each term by <m>-4</m>. Write the equation with the constant on the right.</p></li>
+                <li><p>Complete the square on the left:</p>
+                    <p><m>p = \dfrac{1}{2}(9) ={}</m>_____ , <m>p^2={}</m>_____ </p>
+                    <p>Add <m>p^2</m> to both sides.</p></li>
+                <li><p>Write the left side as a perfect square; simplify the right side.</p></li>
+                <li><p>Solve by extracting roots.</p></li>
+                </ol></p></li>
+        <li><p>Graph <m>y = -4x^2 - 36x - 65</m> in the window
+                <md><mrow>\text{Xmin} \amp = -9.4 \amp\amp \text{Xmax} = 0</mrow>
+                    <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 20</mrow></md></p></li>
+        </ol></p></statement>
+    <solution><p><m>x=\dfrac{-13}{2} </m>, <m> x=\dfrac{-5}{2} </m></p></solution></exercise>
 
 <p>Here is a summary of the steps for solving quadratic equations by completing the square.</p>
 

@@ -13,7 +13,7 @@
 When should the Starburst explode in order to satisfy the safety regulation?</p></statement>
 
 <solution><p>We can get an approximate answer to this question by looking at the graph of the rocket's height, shown below.</p>
-        <sidebyside  width="50%"><image source="images/fig-fireworks"><description>graph of fireworks height</description></image> </sidebyside>
+        <image width="50%" source="images/fig-fireworks"><description>graph of fireworks height</description></image> 
 <p>We would like to know when the rocket's height is greater than 800 feet, or, in mathematical terms, for what values of <m>t</m> is <m>h \gt 800</m>? The answer to this question is the solution of the inequality
         <me>256t - 16t^2 \gt 800</me>
 Points on the graph with <m>h \gt 800</m> are shown in color, and the <m>t</m>-coordinates of those points are marked on the horizontal axis. If the Freedom Starburst explodes at any of these times, it will satisfy the safety regulation.</p> 
@@ -24,7 +24,7 @@ Points on the graph with <m>h \gt 800</m> are shown in color, and the <m>t</m>-c
     <me>4.25 \lt t \lt 11.75</me>
 and read "<m>t</m> greater than 4.25 but less than 11.75."</p></note>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
             $nosol = RadioButtons(
               ["\(8 \gt x \lt 3\)",
@@ -43,16 +43,25 @@ and read "<m>t</m> greater than 4.25 but less than 11.75."</p></note>
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>Which is the correct way to write "<m>x</m> is greater than 3 and less than 8"?</p>
+    <p><ol marker="a" cols="2">
+        <li><p><m>8 \gt x \lt 3</m></p></li>
+        <li><p><m>3 \lt x \lt 8</m></p></li>
+        <li><p><m>8 \lt x \lt 3</m></p></li>
+        <li><p><m>3 \lt x \gt 8</m></p></li>
+    </ol></p></statement></exercise>
+
 <technology><title><!--<image source="images/icon-GC.jpg"  width="8%"><description>Graphing Calculator</description></image>-->Solving an Inequality With a Graphing Calculator</title>
 
 <p>You can use your graphing calculator to solve the problem in <xref ref="example-fireworks" text="type-global"/>. Graph the two functions
         <md><mrow>Y_1 \amp= 256X - 16X^2</mrow>
             <mrow>Y_2 \amp= 800</mrow></md>
 on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref ref="example-fireworks" text="type-global"/>.</p> 
-    <sidebyside  width="35%"><image source="images/fig-GC-fireworks" ><description>GCgraph of fireworks height</description></image> </sidebyside>
+    <image width="35%" source="images/fig-GC-fireworks" ><description>GCgraph of fireworks height</description></image> 
 <p>Then use the intersect feature to find the points where the two graphs intersect, at about <m>x=4.26</m> and <m>x=11.74</m>. Both these points <m>y</m>-coordinate <m>800</m>, and between the points the parabola is above the line, so <m>h \gt 800</m> when <m>4.26 \lt t \lt 11.74</m>.</p>  </technology>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
             Context("Inequalities");
             $answer= Compute(" -3 &lt;= x &lt;= 5");
@@ -72,8 +81,7 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
     </webwork>
     <conclusion>
         <p><m>y = x^2 - 2x - 9</m>:</p>
-        <sidebyside widths="40%" margins="0% 10%"><image xml:id="fig-ex-4-4-1ans">
-                <description>parabola for quadratic inequality</description><latex-image>
+        <image width="40%" margins="0% 10%" xml:id="fig-ex-4-4-1answ"><description>parabola for quadratic inequality</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -96,15 +104,49 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
                 \filldraw[blue] (-3,0) circle (.2);
                 \filldraw[blue] (5,0) circle (.2);
                 \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></conclusion>
-</exercise>
+            </latex-image></image>
+        </conclusion></exercise>
 
+<exercise component="main"><title>Practice 1</title>
+<statement><p><ol marker="a">
+        <li><p>Graph the function <m>y = x^2 - 2x - 9</m> in the window
+            <md><mrow>\text{Xmin} \amp = -9.4 \amp\amp \text{Xmax} = 9.4</mrow>
+                <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 10</mrow></md></p></li>
+        <li><p>Use the graph to solve the inequality <m>x^2 - 2x - 9 \le 6</m>.</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+        <li><image width="50%" xml:id="fig-ex-4-4-1ans"><description>parabola for quadratic inequality</description><latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.35]
+                \draw[cyan] (-10,-10) grid (10,10);
+                \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+                \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+                \foreach \x in  {-5, 5, -10, 10} {
+                 \draw[cyan, very thick] (\x,-10) --++(0,20);
+                 \draw[cyan, very thick] (-10,\x) --++(20,0);
+                 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \draw[samples=65,domain={-sqrt(20)+1:1+sqrt(20)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(\x)^2-  2*\x-9) });
+                \draw[green!60!black,very thick, dashed, ->, >=stealth'] (-3,6) -- ++(0,-6);
+                \draw[green!60!black,very thick, dashed, ->, >=stealth'] (5,6) -- ++(0,-6);
+                \filldraw[red] (-3,6) circle (.2);
+                \filldraw[red] (5,6) circle (.2);
+                \draw[blue,ultra thick] (5,0) -- (-3,0);
+                \filldraw[blue] (-3,0) circle (.2);
+                \filldraw[blue] (5,0) circle (.2);
+                \end{tikzpicture}]]>
+            </latex-image></image></li>
+        <li><p><m>-3 \le x \le 5</m></p></li>
+    </ol></p>
+    </solution></exercise>
 </subsection>
 
 <subsection><title>Using the <m>x</m>-Intercepts</title><idx><em>x</em>-intercept</idx>
 
-<p>Because it is easy to decide whether the <m>y</m>-coordinate of a point on a graph is positive or negative (the point lies above the <m>x</m>-axis or below the <m>x</m>-axis), we often rewrite a given inequality so that one side is zero.  
-</p>  
+<p>Because it is easy to decide whether the <m>y</m>-coordinate of a point on a graph is positive or negative (the point lies above the <m>x</m>-axis or below the <m>x</m>-axis), we often rewrite a given inequality so that one side is zero. </p>  
     
 <example xml:id="example-quadratic-inequality"><statement><p>Use a graph to solve <m>x^2 - 2x - 3 \ge 12</m></p></statement>
 
@@ -143,7 +185,7 @@ We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have
     <me>x \le -3~~ \text{ or }  ~~x \ge 5</me>
 This set is another type of compound inequality, <idx>compound inequality</idx><idx><h>inequality</h><h>compound</h></idx> and its graph consists of two pieces. Therefore, we cannot write the solution as a single inequality. For instance, it would be <em>incorrect</em> to describe the solution set as <m>~-3 \ge x \ge 5~</m>, because this notation implies that <m>-3 \ge 5</m>.  We must write the solution as two parts: <m>x \le -3</m> or <m>x \ge 5</m>.</p></warning>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>       
             $nosol = RadioButtons(
               ["\(6 \lt x \gt 10\)",
@@ -162,8 +204,16 @@ This set is another type of compound inequality, <idx>compound inequality</idx><
     </solution>
 </webwork></exercise>
 
-<exercise>
-    <title>Practice 2</title>
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>Which is the correct way to write "<m>x</m> is less than 6 or greater than 10"?</p>
+    <p><ol marker="a" cols="2">
+        <li><p><m>6 \lt x \gt 10</m></p></li>
+        <li><p><m>10 \lt x \lt 6</m></p></li>
+        <li><p><m>x \lt 6\) or \(x \gt 10</m></p></li>
+        <li><p><m>10 \gt x \lt 6</m></p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
             $f = Formula("16+6x-x^2");
             $answer = Compute("(-inf,-2]U[8,inf)");
@@ -189,10 +239,17 @@ This set is another type of compound inequality, <idx>compound inequality</idx><
     </webwork>
     <conclusion>
         <p><m>y = 16 + 6x - x^2</m>.</p>
-        <sidebyside width="20%" margins="0% 75%"><image source="images/fig-ex-4-4-2ans" ><description>parabola for quadratic inequality</description></image></sidebyside>
-    </conclusion>
-</exercise>
+        <image width="20%" source="images/fig-ex-4-4-2ans" ><description>parabola for quadratic inequality</description></image>
+    </conclusion></exercise>
 
+<exercise component="main"><title>Practice 2</title>
+<statement><p>Follow the steps below to solve the inequality <m>36 + 6x - x^2\le 20</m>.</p>
+        <p><ol marker="1">
+            <li><p>Rewrite the inequality so that the right side is zero.</p></li>
+            <li><p>Graph the equation <m>y = 16 + 6x - x^2</m>.</p></li>
+            <li><p>Locate the points on the graph with <m>y</m>-coordinate less than zero, and mark the <m>x</m>-coordinates of the points on the <m>x</m>-axis.</p></li>
+        </ol></p></statement>
+    <solution><p><m>x \le -2~ \text{or} ~x \ge 8</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Interval Notation</title><idx>interval notation</idx>
@@ -219,16 +276,16 @@ This set is another type of compound inequality, <idx>compound inequality</idx><
 
 <solution><p><ol marker="a">
     <li><p><m>[3,6)</m>. This is called a half-open or half-closed interval.</p>
-    <sidebyside width="65%"><image source="images/fig-half-open-interval"><description>number line</description></image></sidebyside></li>
+        <image width="65%" source="images/fig-half-open-interval"><description>number line</description></image></li>
     <li><p><m>[-9, \infty)</m>. We always use round brackets next to the symbol <m>\infty</m> because <m>\infty</m> is not a specific number and is not included in the set. </p>
-    <sidebyside width="75%"><image source="images/fig-half-closed-infinite-interval"><description>number line</description></image></sidebyside></li>
+        <image width="75%" source="images/fig-half-closed-infinite-interval"><description>number line</description></image></li>
     <li><p><m>(-\infty,1] \cup (4, \infty)</m>. The word "or" describes the union of two sets. </p>
-    <sidebyside width="65%"><image source="images/fig-disjoint-infinite-intervals"><description>number line</description></image></sidebyside></li>
+        <image width="65%" source="images/fig-disjoint-infinite-intervals"><description>number line</description></image></li>
     <li><p><m>(-8,-5] \cup [-1,3)</m>. </p>
-    <sidebyside width="60%"><image source="images/fig-disjoint-finite-intervals"><description>number line</description></image></sidebyside></li>
+        <image width="60%" source="images/fig-disjoint-finite-intervals"><description>number line</description></image></li>
     </ol></p></solution></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
 <webwork><pg-code>
         Context("Interval");
             Context()->{error}{msg}{"Unexpected character '&lt;'"}
@@ -250,7 +307,13 @@ This set is another type of compound inequality, <idx>compound inequality</idx><
     </solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Write the solutions to Practice 1 and Practice 2 in interval notation.</p></statement>
+<solution><p>Practice 1: <m> [-3,5]</m></p>
+        <p>Practice 2: <m>(-\infty,-2]\cup [8,\infty)</m></p>
+    </solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
          $True = PopUp(
           ["?","True", "False"],
@@ -266,15 +329,23 @@ This set is another type of compound inequality, <idx>compound inequality</idx><
     <li>Infinite intervals include the number <m>\infty</m>. <var name="$TF"  form="popup" /></li>
     <li>The union of two intervals includes all numbers that lie in at least one of the intervals.  <var name="$True" form="popup" /></li>
     <li>An interval must be either closed or open. <var name="$TF"  form="popup" /></li></ol></p>
-    </statement>
-    <solution><p><ol marker="a">
+</statement>
+<solution><p><ol marker="a">
     <li>True</li>
     <li>False</li>
     <li>True</li>
     <li>False</li></ol></p>
-    </solution>
+</solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>True or False</p>  
+    <p><ol marker="a">
+        <li><p>An open interval includes only the numbers between its endpoints.</p></li>
+        <li><p>Infinite intervals include the number <m>\infty</m>.</p> </li>
+        <li><p>The union of two intervals includes all numbers that lie in at least one of the intervals.</p></li>
+        <li><p>An interval must be either closed or open.</p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Solving Quadratic Inequalities Algebraically</title><idx><h>quadratic inequality</h><h>algebraic solution</h></idx>
@@ -285,7 +356,7 @@ This set is another type of compound inequality, <idx>compound inequality</idx><
         <mrow>ax^2 + bx + c \amp\le 0\text{,}
         \amp\hphantom{blank} ax^2 + bx + c \amp\ge 0</mrow></md>
 All we really need to know is whether the corresponding parabola <m>y = ax^2 + bx + c</m> opens upward or downward. Consider the parabolas shown below.</p>
-    <sidebyside width="50%"><image source="images/fig-two-parabolas" ><description>parabola opens up, the other opens down</description></image></sidebyside>
+    <image width="50%" source="images/fig-two-parabolas"><description>parabola opens up, the other opens down</description></image>
 <p>The parabola in figure (a) opens upward. It crosses the <m>x</m>-axis at two points, <m>x = r_1</m> and <m>x = r_2</m>. At these points, <m>y = 0</m>. </p><p>
     <ul><li><p>The graph lies below the <m>x</m>-axis between <m>r_1</m> and <m>r_2</m>, so the solutions to the inequality <m>y\lt 0</m> lie between <m>r_1</m> and <m>r_2</m>.</p></li> 
         <li><p>The graph lies above the <m>x</m>-axis for <m>x</m>-values less than <m>r_1</m> or greater than <m>r_2</m>, so the solutions to the inequality <m>y\gt 0</m> are <m>x\lt r_1</m> or <m>x\gt r_2</m>.</p></li>
@@ -313,13 +384,13 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
             <mrow>x = 8  ~~~\text{ or }~~~ x \amp= -2</mrow></md>
     The <m>x</m>-intercepts are <m>x = -2</m> and <m>x = 8</m>.</p></li>
     <li><p>Make a rough sketch of the graph of <m>y = 16 + 6x - x^2</m>, as shown below. Because <m>a = -1 \lt 0</m>, the graph is a parabola that opens downward.</p>
-        <sidebyside width="30%"><image source="images/fig-quadratic-inequality2" ><description>parabola opening down dividing x-axis into 3 parts</description></image></sidebyside></li>
+        <image width="30%" source="images/fig-quadratic-inequality2" ><description>parabola opening down dividing x-axis into 3 parts</description></image></li>
     <li><p>We are interested in points on the graph for which <m>y\le 0</m>. The points with negative <m>y</m>-coordinates (that is, points below the <m>x</m>-axis) lie outside the <m>x</m>-intercepts of the graph, so the solution of the inequality is <m>~x\le -2~</m> or <m>~x\ge 8~</m>. Or, using interval notation, the solution is <m>~(-\infty,-2] \cup  [8,\infty)</m>.</p></li>
     </ol></p></solution></example>
 
 <warning><p>Many people think that the inequality signs in the solution should point in the same direction as the sign in the original problem, and hence would incorrectly write the solution to <xref ref="example-quadratic-inequality2" text="type-global"/> as <m>x \le -2</m> or <m>x \le 8</m>. However, you can see from the graph that this is incorrect. Remember that the graph of a quadratic equation is a parabola, not a straight line!</p></warning>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
            Context("Inequalities")->flags->set( reduceConstants => 0, reduceConstantFunctions => 0,   );
             $answer= Compute(" -sqrt(20) &lt; x &lt; sqrt(20)");
@@ -337,7 +408,17 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
     <solution><p><m>-\sqrt{20} \lt x \lt \sqrt{20} </m></p></solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Solve <m>x^2 \lt 20</m>.</p>
+        <p>Hint:<ol marker="1">
+            <li><p>Write the inequality in standard form.</p></li>
+            <li><p>Find the <m>x</m>-intercepts of the corresponding graph. Use extraction of roots.</p></li>
+            <li><p>Make a rough sketch of the graph.</p></li>
+            <li><p>Decide which intervals on the <m>x</m>-axis give the correct sign for <m>y</m>.</p></li>
+        </ol></p></statement>
+    <solution><p><m>-\sqrt{20} \lt x \lt \sqrt{20} </m></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>       
             $nosol = RadioButtons(
               ["\(x \gt 4\)",
@@ -353,6 +434,15 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
     <solution><p><m>x \lt -4</m> or <m>x \gt 4</m></p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p>Which is the correct solution for <m>x^2 \gt 16</m>?</p>
+<p><ol marker="a" cols="2">
+    <li><p><m>x \gt 4</m></p></li>
+    <li><p><m>x \gt 4~ \text{or} ~x \gt -4</m></p></li>
+    <li><p><m>4 \lt x \lt -4</m></p></li>
+    <li><p><m>x \lt -4~ \text{or} ~x \gt 4</m></p></li>
+</ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -377,13 +467,12 @@ How many parkas should the company produce and sell each month if it must keep t
                     <mrow>\amp=\frac{-320\pm\sqrt{102,400 - 87,040}}{-1.6}</mrow>
                     <mrow>\amp=\frac{-320\pm\sqrt{15,360}}{-1.6}</mrow></md>
             To two decimal places, the solutions to the equation are 122.54 and 277.46.</p></li>
-            <li><p>The graph of the equation is a parabola that opens downward, because the coefficient of <m>x^2</m> is negative. </p>
-                <sidebyside  width="40%"><image source="images/fig-quadratic-inequality3"><description>graph of parabola opening down</description></image></sidebyside></li>
+            <li><p>The graph of the equation is a parabola that opens downward, because the coefficient of <m>x^2</m> is negative. </p><image width="40%" source="images/fig-quadratic-inequality3"><description>graph of parabola opening down</description></image></li>
             <li><p>The graph lies above the <m>x</m>-axis, and hence <m>y \gt 0</m>, for <m>x</m>-values between the two <m>x</m>-intercepts, that is, for <m>122.54 \lt x \lt 277.46</m>. Because we cannot produce a fraction of a parka, we restrict the interval to the closest whole number <m>x</m>-values included, namely 123 and 277.</p>
             <p>Thus, TrailGear can produce as few as 123 parkas or as many as 277 parkas per month to keep its profit above $2000.</p></li>
         </ol></p></solution></example>
 
-<exercise><title>Practice 5</title>
+<exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
            Context("Inequalities")->flags->set( reduceConstants => 0, reduceConstantFunctions => 0,   );
             $answer= Compute(" (-inf,4-sqrt(10))U (4+sqrt(10),inf)");
@@ -398,13 +487,20 @@ How many parkas should the company produce and sell each month if it must keep t
             <li>Make a rough sketch of the graph.</li>
             <li>Decide which intervals on the <m>x</m>-axis give the correct sign for <m>y</m>.</li>
         </ol></p></hint>
-    <solution>
-            <p><m>(-\infty, 4 - \sqrt{10}) \cup (4 + \sqrt{10},\infty)</m></p>
-    </solution>
-    </webwork>
-</exercise>
+    <solution><p><m>(-\infty, 4 - \sqrt{10}) \cup (4 + \sqrt{10},\infty)</m></p></solution>
+    </webwork></exercise>
 
-<exercise><title>QuickCheck 5</title>
+<exercise component="main"><title>Practice 5</title>
+<statement><p>Solve the inequality <m>10 - 8x + x^2 \gt 4</m>.</p>
+        <p>Hint: <ol marker="1">
+            <li>Write the inequality in standard form.</li>
+            <li>Find the <m>x</m>-intercepts of the corresponding graph. Use extraction of roots.</li>
+            <li>Make a rough sketch of the graph.</li>
+            <li>Decide which intervals on the <m>x</m>-axis give the correct sign for <m>y</m>.</li>
+        </ol></p></statement>
+    <solution><p><m>(-\infty, 4 - \sqrt{10}) \cup (4 + \sqrt{10},\infty)</m></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 5</title>
     <webwork><pg-code>       
             $nosol = RadioButtons(
               ["A) Panic.",
@@ -414,15 +510,19 @@ How many parkas should the company produce and sell each month if it must keep t
               2, 
             );            
         </pg-code>
-    <statement>
-        <p>If you cannot find the <m>x</m>-intercepts of a parabola by factoring, what should you do?</p>
-        <p><var name="$nosol" form="buttons"/></p>      
-    </statement>
-    <solution>
-        <p>Use the quadratic formula</p>
-    </solution>
+    <statement><p>If you cannot find the <m>x</m>-intercepts of a parabola by factoring, what should you do?</p>
+        <p><var name="$nosol" form="buttons"/></p>      </statement>
+    <solution><p>Use the quadratic formula</p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 5</title>
+<statement><p>If you cannot find the <m>x</m>-intercepts of a parabola by factoring, what should you do?</p>
+    <p><ol marker="a" cols="2">
+        <li><p>Panic</p></li>
+        <li><p>Use the <m>y</m>-intercept instead</p></li>
+        <li><p>Use the quadratic formula</p></li>
+        <li><p>Go on to the next problem</p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <xi:include href="./section-4-4-exercises.xml" /> <!-- exercises  -->

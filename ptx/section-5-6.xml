@@ -18,12 +18,14 @@
 
 <solution><p><ol marker="a">
     <li><p>The graph is a straight-line segment, as shown in figure (a). It begins at the origin because at the instant Forrest leaves the house, his distance from home is 0. (In other words, when <m>t = 0, y = 0</m>.) The graph is a straight line because Forrest has a constant speed. The slope of the line is equal to Forrest’s walking speed.</p>
-    <sidebyside  width="100%"><image source="images/fig-home-to-school" ><description>distance from home</description></image></sidebyside></li>
+    <image width="100%" source="images/fig-home-to-school" ><description>distance from home</description></image></li>
+    
     <li><p>The first part of the graph is the same as part (a). But while Forrest waits for the bus, his distance from home remains constant, so the graph at that time is a horizontal line, as shown in figure (b). The line has slope <m>0</m> because while Forrest is waiting for the bus, his speed is <m>0</m>.</p></li>
+    
     <li><p>The graph begins like the graph in part (b). The last section of the graph represents the bus ride. It has a constant slope because the bus is moving at a constant speed. Because the bus (probably) moves faster than Forrest walks, the slope of this segment is greater than the slope for the walking section. The graph is shown in figure (c).</p></li>
 </ol></p></solution></example>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
   <webwork><pg-code>
         $refreshCachedImages = 1;
         $fun=Formula("1.5-abs(x-11.5)");
@@ -84,13 +86,19 @@
     </solution>
   </webwork>
     <conclusion>
-        <sidebyside width="35%" margins="0% 65%"><image source="images/fig-ex-5-6-1ans"><description>piecewise graph</description></image></sidebyside>
-    </conclusion>
-</exercise>
+        <image width="35%" margins="0% 65%" source="images/fig-ex-5-6-1answ"><description>piecewise graph</description></image>
+    </conclusion></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Erin walks from her home to a convenience store, where she buys some cat food, and then walks back home. Sketch a possible graph of her distance from home as a function of time.</p></statement>
+    <solution>
+        <image width="35%" margins="0% 65%" source="images/fig-ex-5-6-1ans"><description>piecewise graph</description></image>
+    </solution></exercise>
 
 <p>The graphs in <xref ref="example-home-to-school" text="type-global"/> are portions of straight lines. We can also consider graphs that bend upward or downward. The bend is called the <term>concavity</term><idx><h>concavity</h></idx><idx><h>concavity</h><seealso>concave up, concave down</seealso></idx><idx><h>graph</h><h>concavity</h></idx> of the graph.</p>
 
-<example xml:id="concavity"><statement><p>The two functions described in this example are both increasing functions, but they increase in different ways. Match each function to its graph and to the appropriate table of values.<ol marker="a">
+<example xml:id="concavity"><statement><p>The two functions described in this example are both increasing functions, but they increase in different ways. Match each function to its graph and to the appropriate table of values.</p>
+    <p><ol marker="a">
         <li><p>The number of flu cases reported at an urban medical center during an epidemic is an increasing function of time, and it is growing at a faster and faster rate.</p></li>
         <li><p>The temperature of a potato placed in a hot oven increases rapidly at first, then more slowly as it approaches the temperature of the oven.</p></li>
     </ol></p><sidebyside widths="35% 35%">
@@ -126,7 +134,8 @@
             <cell><m>419</m></cell>
             <cell><m>441</m></cell></row>
     </tabular></stack></sidebyside>
-    <sidebyside  width="70%"><image source="images/fig-concavity" ><description>increasing graphs of opposite concavity</description></image></sidebyside></statement>
+    <image width="70%" source="images/fig-concavity" ><description>increasing graphs of opposite concavity</description></image>
+    </statement>
 
 <solution><p><ol marker="a">
     <li><p>The number of flu cases is described by  graph (A) and table (1). The function values in table (1) increase at an increasing rate. We can see this by computing the rate of change over successive time intervals. 
@@ -137,7 +146,7 @@
         <mrow>x = 10 \text{ to } x = 15:~~~~~~~~m = \frac{\Delta y}{\Delta x} 
             =\frac{383 - 217}{15 - 10} = 33.2</mrow> </md>
     The increasing rates can be seen inthe figure below; the graph bends upward as the slopes increase.</p>
-        <sidebyside  width="45%"><image source="images/fig-concave-up"><description>cocave up graph</description></image></sidebyside></li>
+        <image width="45%" source="images/fig-concave-up"><description>cocave up graph</description></image></li>
     <li><p>The temperature of the potato is described by  graph (B) and table (2). The function values in table (2) increase, but at a decreasing rate.
             <md><mrow>x = 0\text { to } x = 5:~~~~~~~~m =\frac{\Delta y}{\Delta x}=\frac{341-70}{5 - 0}= 54.2</mrow>
             <mrow></mrow>
@@ -146,14 +155,14 @@
             <mrow>x = 10 \text{ to } x = 15:~~~~~~~~m =\frac{\Delta y}{\Delta x}=\frac{441 - 419}{15 - 10}= 4.4</mrow>
         </md>
     The decreasing slopes can be seen in the figure below. The graph is increasing but bends downward.</p>
-        <sidebyside  width="40%"><image source="images/fig-concave-down" ><description>cocave down graph</description></image></sidebyside></li>
+        <image width="40%" source="images/fig-concave-down" ><description>cocave down graph</description></image></li>
     </ol></p></solution></example>
 
 <p>A graph that bends upward is called <term>concave up</term><idx>concave up</idx><idx><h>graph</h><h>concave up</h></idx>, and one that bends down is <term>concave down</term><idx>concave down</idx><idx><h>graph</h><h>concave down</h></idx>.</p>
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
     <introduction>
-        <sidebyside  width="45%"><image source="images/fig-concavity2"><description>decreasing graphs of opposite concavity</description></image></sidebyside>
+        <image width="45%" source="images/fig-concavity2w"><description>decreasing graphs of opposite concavity</description></image>
     </introduction>
     <webwork>
          <pg-code>
@@ -174,33 +183,28 @@
             1, 
             );
         </pg-code> 
-        <statement>
-            <p>Francine bought a cup of cocoa at the cafeteria. The cocoa cooled off rapidly at first, and then gradually approached room temperature. Which graph more accurately reflects the temperature of the cocoa as a function of time? 
+    <statement><p>Francine bought a cup of cocoa at the cafeteria. The cocoa cooled off rapidly at first, and then gradually approached room temperature. Which graph more accurately reflects the temperature of the cocoa as a function of time? 
             <var name="$ab" form="popup"/> </p>
             <p>Explain why. (Select all that apply.)</p>
-            <p><ul>
-                <li><p>
-                    The graph has a steep negative slope at first, corresponding to an initial rapid drop in the temperature of the cocoa. <var name="$Yes" form="popup"/>
-                </p></li>
-                <li><p>
-                    The graph becomes closer to a horizontal line, corresponding to the cocoa approaching room temperature.<var name="$Yes" form="popup"/>
-                </p></li>
-                <li><p>
-                    The graph has a slight negative slope at first, corresponding to an initial rapid drop in the temperature of the cocoa. <var name="$No" form="popup"/>
-                </p></li>
-                <li><p>
-                    The graph becomes grows steeper and steeper, corresponding to the cocoa approaching room temperature. <var name="$No" form="popup"/>
-                </p></li>
-            </ul></p>
+        <p><ul>
+            <li><p>The graph has a steep negative slope at first, corresponding to an initial rapid drop in the temperature of the cocoa. <var name="$Yes" form="popup"/></p></li>
+            <li><p>The graph becomes closer to a horizontal line, corresponding to the cocoa approaching room temperature.<var name="$Yes" form="popup"/></p></li>
+            <li><p>The graph has a slight negative slope at first, corresponding to an initial rapid drop in the temperature of the cocoa. <var name="$No" form="popup"/></p></li>
+            <li><p>The graph becomes grows steeper and steeper, corresponding to the cocoa approaching room temperature. <var name="$No" form="popup"/></p></li>
+        </ul></p>
             <p>Is the graph you chose concave up or concave down? <var name="$concavity" form="popup"/> </p>
             </statement>
         <solution>
             <p>Graph (a): The graph has a steep negative slope at first, corresponding to an initial rapid drop in the temperature of the cocoa. The graph becomes closer to a horizontal line, corresponding to the cocoa approaching room temperature. The graph is concave up.</p>
         </solution>
-    </webwork>
-</exercise>
+    </webwork></exercise>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="main"><title>Practice 2</title>
+<statement><sidebyside widths="40% 50%"><p>Francine bought a cup of cocoa at the cafeteria. The cocoa cooled off rapidly at first, and then gradually approached room temperature. Which graph more accurately reflects the temperature of the cocoa as a function of time? Explain why. Is the graph you chose concave up or concave down?</p>
+ <image width="45%" source="images/fig-concavity2"><description>decreasing graphs of opposite concavity</description></image></sidebyside>      
+    <solution><p>Graph (a): The graph has a steep negative slope at first, corresponding to an initial rapid drop in the temperature of the cocoa. The graph becomes closer to a horizontal line, corresponding to the cocoa approaching room temperature. The graph is concave up.</p></solution></statement></exercise>
+
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork>
     <pg-code>
         $a = PopUp(
@@ -220,34 +224,42 @@
           1, 
         );
     </pg-code>
-    <statement>
-        <p> 
-            Match each type of graph with its properties.
-            <ol marker="a">
+    <statement><p>Match each type of graph with its properties.
+        <ol marker="a">
                 <li><p>Increasing, concave up <var name="$a" form="popup"/></p> </li> 
                 <li><p>Increasing, concave down <var name="$b" form="popup"/></p></li>
                 <li><p>Decreasing, concave up <var name="$c" form="popup"/></p></li>
                 <li><p>Decreasing, concave down <var name="$d" form="popup"/></p></li>
-            </ol>
-            <ol marker="i">  
+        </ol>
+        <ol marker="i">  
                 <li> <m>y</m>-values decrease, slopes decrease</li>
                 <li><m>y</m>-values decrease, slopes increase</li>
                 <li><m>y</m>-values increase, slopes decrease</li>
                 <li><m>y</m>-values increase, slopes increase</li>
-            </ol>
-        </p>
+            </ol></p>
     </statement>
-    <solution>
-        <p><ol marker="a">
+    <solution><p><ol marker="a">
             <li>iv</li> 
             <li>iii</li>
             <li>ii</li>
             <li>i</li>
-        </ol></p>
-    </solution>
-</webwork>
-</exercise>
+        </ol></p></solution>
+</webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>Match each type of graph with its properties.</p>
+    <p><ol marker="a">
+            <li><p>Increasing, concave up</p></li> 
+            <li><p>Increasing, concave down</p></li>
+            <li><p>Decreasing, concave up</p></li>
+            <li><p>Decreasing, concave down</p></li>
+    </ol></p>
+    <p><ol marker="i">  
+                <li> <m>y</m>-values decrease, slopes decrease</li>
+                <li><m>y</m>-values decrease, slopes increase</li>
+                <li><m>y</m>-values increase, slopes decrease</li>
+                <li><m>y</m>-values increase, slopes increase</li>
+        </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Using the Basic Functions as Models</title>
@@ -261,11 +273,8 @@
     <li>The loudness, or intensity, <m>I</m>, of the music at a concert is a function of the <em>reciprocal of the square</em> of your distance, <m>d</m>, from the speakers.</li></ol></p></statement>
 
 <solution><p><ol marker="a">
-    <li><p><m>B=kc^3</m></p><sidebyside  width="40%">
-    <!-- could use fig-cubic-model -->
-        <image xml:id="fig-example-5-6-3a">
-            <description>cubic</description>
-            <latex-image>
+    <li><p><m>B=kc^3</m></p><!-- could use fig-cubic-model -->
+        <image width="40%" xml:id="fig-example-5-6-3a"><description>cubic</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -275,14 +284,9 @@
             \draw[black,thick, ->, >=stealth'] (0,0)--(0,8.4) node[above]{$B$};
             \draw[samples=65,domain={0:(320)^(1/3)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {(\x)^3/40});
             \end{tikzpicture}]]>
-            </latex-image>
-        </image>
-    </sidebyside></li>
-    <li><p><m>Q=k\sqrt{D}</m></p><sidebyside  width="40%">
-    <!-- could use fig-sqrt-model -->
-        <image xml:id="fig-example-5-6-3b">
-            <description>square root</description>
-            <latex-image>
+            </latex-image></image></li>
+    <li><p><m>Q=k\sqrt{D}</m></p><!-- could use fig-sqrt-model -->
+        <image width="40%" xml:id="fig-example-5-6-3b"><description>square root</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -292,14 +296,9 @@
             \draw[black,thick, ->, >=stealth'] (0,0)--(0,8.4) node[above]{$Q$};
             \draw[samples=65,domain={0:8},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {(sqrt(8*\x)});
             \end{tikzpicture}]]>
-            </latex-image>
-        </image>
-    </sidebyside></li>
-    <li><p><m>I=\dfrac{k}{d^2}</m></p><sidebyside  width="40%">
-    <!-- could use fig-inverse-square-model -->
-        <image xml:id="fig-example-5-6-3c">
-            <description>inverse square</description>
-            <latex-image>
+            </latex-image></image></li>
+    <li><p><m>I=\dfrac{k}{d^2}</m></p><!-- could use fig-inverse-square-model -->
+        <image width="40%" xml:id="fig-example-5-6-3c"><description>inverse square</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -309,11 +308,10 @@
             \draw[black,thick, ->, >=stealth'] (0,0)--(0,8.4) node[above]{$I$};
             \draw[samples=65,domain={sqrt(2):8},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {16/(\x)^2});
             \end{tikzpicture}]]>
-            </latex-image>
-        </image>
-    </sidebyside></li></ol></p></solution></example>
+            </latex-image></image></li>
+        </ol></p></solution></example>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>       
             $cond = RadioButtons(
               ["\(y=x^3\)",
@@ -323,13 +321,26 @@
               3, 
             );            
         </pg-code>
-    <statement><p>Which graph is concave down wherever it is defined?</p>
-        <p><var name="$cond" form="buttons"/></p>      
-    </statement>
+    <statement><p>Which basic graph is concave down wherever it is defined?</p>
+        <p><ol marker="a">
+            <li><p><m>y=x^3</m></p></li>
+            <li><p><m>y=\dfrac{1}{x}</m></p></li>
+            <li><p><m>y=\sqrt[3]{x}</m></p></li>
+            <li><p><m>y=\sqrt{x}</m></p></li>
+        </ol></p></statement>
     <solution><p><m>y=\sqrt{x}</m></p></solution>
 </webwork></exercise>
 
-<exercise><title>Practice 3</title>
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>Which basic graph is concave down wherever it is defined?</p>
+     <p><ol marker="a">
+            <li><p><m>f(x)=x^3</m></p></li>
+            <li><p><m>f(x)=\dfrac{1}{x}</m></p></li>
+            <li><p><m>f(x)=\sqrt[3]{x}</m></p></li>
+            <li><p><m>f(x)=\sqrt{x}</m></p></li>
+        </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 3</title>
 <introduction><p>Graphs of the eight basic functions: Eight basic graphs</p>
     <sidebyside><image source="images/fig-basic-a-c"><description>parabola, cubic, square root</description></image></sidebyside>
     <sidebyside><image source="images/fig-basic-d-f"><description>cube root, reciprocal, inverse square</description></image></sidebyside>
@@ -387,17 +398,29 @@
 </webwork>
 <conclusion>
     <p><ol marker="a">
-        <li><sidebyside  width="25%" margins="5% 5%"><image source="images/fig-quadratic-model"><description>graph</description></image></sidebyside></li>
-        <li><sidebyside  width="25%" margins="5% 5%"><image source="images/fig-cube-root-model"><description>graph</description></image></sidebyside></li>
-        <li><sidebyside  width="25%" margins="5% 5%"><image source="images/fig-inverse-model"><description>graph</description></image></sidebyside></li>
+        <li><image width="25%" margins="5% 5%" source="images/fig-quadratic-modelw"><description>graph</description></image></li>
+        <li><image width="25%" margins="5% 5%" source="images/fig-cube-root-modelw"><description>graph</description></image></li>
+        <li><image width="25%" margins="5% 5%" source="images/fig-inverse-modelw"><description>graph</description></image></li>
     </ol></p>
-</conclusion>
-</exercise>
+</conclusion></exercise>
+
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Choose one of the eight basic functions to model each situation, and sketch a possible graph.</p>
+<p><ol marker="a">
+    <li><p>The contractor for a new hotel is estimating the cost of the marble tile for a circular lobby. The cost, <m>C</m>, is a function of the square of the diameter, <m>D</m>, of the lobby.</p></li>
+    <li><p>Investors are deciding whether to support a windmill farm. The wind speed, <m>v</m>, needed to generate a given amount of power is a function of the cube root of the power, <m>P</m>.</p></li>
+    <li><p>The frequency, <m>F</m>, of the note produced by a violin string is a function of the reciprocal of the length, <m>L</m>, of the string.</p></li>
+</ol></p></statement>
+<solution><p><ol marker="a">
+    <li><p><m>C=kD^2</m>,</p> <image width="25%" source="images/fig-quadratic-model"><description>graph</description></image></li>
+    <li><p><m>v=k\sqrt[3]{P}</m>,</p> <image width="25%" source="images/fig-cube-root-model"><description>graph</description></image></li>
+    <li><p><m>F=\dfrac{k}{L}</m>,</p> <image width="25%" source="images/fig-inverse-model"><description>graph</description></image></li>
+</ol></p></solution></exercise>
 
 <p>The next Example illustrates an application of the function <m>f(x)=\sqrt{x}</m>.</p>
 
 <example xml:id="example-sound"><statement><p>The speed of sound is a function of the temperature of the air in kelvins. (The temperature, <m>T</m>, in kelvins is given by <m>T = C + 273</m>, where <m>C</m> is the temperature in degrees Celsius.) The table shows the speed of sound, <m>s</m>, in meters per second, at various temperatures, <m>T</m>.</p>
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>T ~ (\degree K)</m></cell>
             <cell><m>0</m></cell>
@@ -414,14 +437,16 @@
             <cell><m>200.6</m></cell>
             <cell><m>283.7</m></cell>
             <cell><m>401.2</m></cell></row>
-    </tabular></sidebyside><p><ol marker="a">
+    </tabular>
+    <p><ol marker="a">
         <li>Plot the data to obtain a graph. Which of the basic functions does your graph most resemble?</li>
         <li>Find a value of <m>k</m> so that <m>s = kf(T)</m> fits the data.</li>
         <li>On a summer night when the temperature is <m>20\degree</m> Celsius, you see a flash of lightning, and 6 seconds later you hear the thunderclap. Use your function to estimate your distance from the thunderstorm.</li>
     </ol></p></statement>
 
 <solution><p><ol marker="a">
-    <li><p>The graph of the data is shown below. The shape of the graph reminds us of the square root function, <m>y = \sqrt{x}</m>.</p><sidebyside width="50%"><image source="images/fig-speed-sound" ><description>speed of sound</description></image></sidebyside></li>
+    <li><p>The graph of the data is shown below. The shape of the graph reminds us of the square root function, <m>y = \sqrt{x}</m>.</p>
+    <image width="50%" source="images/fig-speed-sound" ><description>speed of sound</description></image></li>
     <li>We are looking for a value of <m>k</m> so that the function <m>f(T) = k \sqrt{T}</m> fits the data. We substitute one of the data points into the formula and solve for <m>k</m>. If we choose the point <m>(100, 200.6)</m>, we obtain 
             <me>200.6 = k \sqrt{100}</me>
     and solving for <m>k</m> yields <m>k = 20.06</m>. We can check that the formula <m>s = 20.06 \sqrt{T} </m> is a good fit for the rest of the data points as well. Thus, we suggest the function 
@@ -438,7 +463,7 @@
     The thunderstorm is 2060 meters, or about 1.3 miles, away.</p></li></ol></p>
 </solution></example>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
             $basic = RadioButtons(
                     ["\(y= x^2 \)",
@@ -455,7 +480,7 @@
             $less = Compute("300");
         </pg-code>
     <statement><p>The ultraviolet index (UVI) is issued by the National Weather Service as a forecast of the amount of ultraviolet radiation expected to reach Earth around noon on a given day. The data show how much exposure to the sun people can take before risking sunburn.</p>
-            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
                     <cell>UVI</cell>
                     <cell><m>2</m></cell>
@@ -486,7 +511,7 @@
                     <cell><m>37.5</m></cell>
                     <cell><m>30</m></cell>
                     <cell><m>25</m></cell></row>
-            </tabular></sidebyside>
+            </tabular>
     <p><ol marker="a">
         <li><p>Plot <m>m</m>, the minutes to burn, against <m>u</m>, the UVI, to obtain two graphs, one for people who are more sensitive to sunburn, and another for people less sensitive to sunburn. Which of the basic functions do your graphs most resemble?</p>
                 <p><var name="$basic" form="buttons"/> </p></li>
@@ -498,14 +523,55 @@
     <solution><p><ol marker="a">
         <li><p>The graphs are shown below. They resemble <m>f (x) = \dfrac{1}{x}</m>. </p></li>
         <li><p>More sensitive: <m>k = 60</m>, Less sensitive: <m>k = 300</m> </p></li></ol></p>
-    </solution>
-    </webwork>
+    </solution></webwork>
     <conclusion>
-        <sidebyside width="25%" margins="0% 75%"><image source="images/fig-ex-5-6-4ans"><description>two concave up decreasing curves</description></image></sidebyside>
-    </conclusion>
-</exercise>
+        <image width="25%" margins="0% 75%" source="images/fig-ex-5-6-4answ"><description>two concave up decreasing curves</description></image>
+    </conclusion></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="main"><title>Practice 4</title>
+<statement><p>The ultraviolet index (UVI) is issued by the National Weather Service as a forecast of the amount of ultraviolet radiation expected to reach Earth around noon on a given day. The data show how much exposure to the sun people can take before risking sunburn.</p>
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">
+                    <cell>UVI</cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>6</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>12</m></cell></row>
+                <row>
+                     <cell><line>Minutes to burn</line><line>(more sensitive)</line></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>15</m></cell>
+                    <cell><m>12</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>7.5</m></cell>
+                    <cell><m>6</m></cell>
+                    <cell><m>5</m></cell></row>
+                <row>
+                     <cell><line>Minutes to burn</line><line>(more sensitive)</line></cell>
+                    <cell><m>150</m></cell>
+                    <cell><m>100</m></cell>
+                    <cell><m>75</m></cell>
+                    <cell><m>60</m></cell>
+                    <cell><m>50</m></cell>
+                    <cell><m>37.5</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>25</m></cell></row>
+            </tabular>
+    <p><ol marker="a">
+        <li><p>Plot <m>m</m>, the minutes to burn, against <m>u</m>, the UVI, to obtain two graphs, one for people who are more sensitive to sunburn, and another for people less sensitive to sunburn. Which of the basic functions do your graphs most resemble?</p></li>
+        <li><p>For each graph, find a value of <m>k</m> so that <m>m = k f(u)</m> fits the data.</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+        <li><image width="30%" source="images/fig-ex-5-6-4ans"><description>two concave up decreasing curves</description></image> <p>The graphs resemble <m>f(x) = \dfrac{1}{x}</m>. </p></li>
+        <li><p>More sensitive: <m>k = 60</m>, Less sensitive: <m>k = 300</m> </p></li>
+        </ol></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>       
             $model = RadioButtons(
               ["plot the data.",
@@ -521,6 +587,15 @@
     <solution><p>plot the data.</p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>To decide which basic function might model a set of data, we can</p>
+    <p><ol marker="a">
+        <li><p>plot the data.</p></li>
+        <li><p>look at the variables.</p></li>
+        <li><p>choose scales for the axes.</p></li>
+        <li><p>calculate the slope.</p></li>
+    </ol></p></statement></exercise>
+
 <p>At this point, a word of caution is in order. There is more to choosing a model than finding a curve that fits the data. A model based purely on the data is called an <term>empirical model</term><idx>empirical model</idx><idx><h>model</h><h>empirical</h></idx>. However, many functions have similar shapes over small intervals of their input variables, and there may be several candidates that model the data. Such a model simply describes the general shape of the data set; the parameters <idx>parameter</idx> of the model do not necessarily correspond to any actual process.</p>
 
 <p>In contrast, <term>mechanistic models</term><idx>mechanistic models</idx><idx><h>model</h><h>mechanistic</h></idx> provide insight into the biological, chemical, or physical process that is thought to govern the phenomenon under study. Parameters derived from mechanistic models are quantitative estimates of real system properties. Here is what GraphPad Software has to say about modeling:</p>
@@ -535,7 +610,7 @@
 
 <p>The absolute value function is used to model problems involving distance. Recall that the absolute value of a number gives the distance from the origin to that number on the number line.</p>
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>       
             $absdist = RadioButtons(
               ["change its sign.",
@@ -545,12 +620,20 @@
               3, 
             );            
         </pg-code> 
-    <statement>
-        <p>To find the absolute value of a number, we can</p>
+    <statement><p>To find the absolute value of a number, we can</p>
         <p><var name="$absdist" form="buttons"/></p>      </statement>
     <solution>
         <p>find its distance from 0.</p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p>To find the absolute value of a number, we can</p>
+    <p><ol marker="a">
+        <li><p>change its sign.</p></li>
+        <li><p>subtract it from 0.</p></li>
+        <li><p>find its distance from 0.</p></li>
+        <li><p>square it.</p></li>
+    </ol></p></statement></exercise>
 
 <p>We can find the distance from a number <m>x</m> to some point other than the origin, say <m>a</m>, by computing <m>\abs{x - a}</m>. For instance, the distance on the number line from <m>x=-2</m> to <m>a=5</m> is 
     <me>\abs{-2-5} = \abs{-7} = 7~ \text{units}</me></p>
@@ -560,7 +643,7 @@
 </assemblage>
 
 <p>For example, the equation <m>\abs{x - 2} = 6</m> means "the distance between <m>x</m> and <m>2</m> is <m>6</m> units." The number <m>x</m> could be to the left or the right of <m>2</m> on the number line. Thus, the equation has two solutions, <m>8</m> and <m>-4</m>, as shown below.</p>
-<sidebyside width="70%"><image source="images/fig-abs-x-minus-2-is-6"  ><description>6 units from 2</description></image></sidebyside>
+<image width="70%" source="images/fig-abs-x-minus-2-is-6"  ><description>6 units from 2</description></image>
 
 <example xml:id="example-distances"><statement><p>Write each statement using absolute value notation. Illustrate the solutions on a number line.<ol marker="a">
         <li><m>x</m> is three units from the origin.</li>
@@ -570,15 +653,15 @@
 
 <solution><p>First, we restate each statement in terms of distance.<ol marker="a">
     <li><p>The distance between <m>x</m> and the origin is three units, or <m>\abs{x} = 3</m>. Thus, <m>x</m> can be <m>3</m> or <m>-3</m>. </p>
-        <sidebyside width="70%"><image source="images/fig-abs-x-is-3"><description>absolut value of x is 3</description></image></sidebyside></li>
+        <image width="70%" source="images/fig-abs-x-is-3"><description>absolut value of x is 3</description></image></li>
     <li><p>The distance between <m>p</m> and <m>5</m> is two units, or 
         <m>\abs{p - 5} = 2</m>. If we count two units on either side of <m>5</m>, we see that <m>p</m> can be <m>3</m> or <m>7</m>. </p>
-        <sidebyside width="70%"><image source="images/fig-abs-p-minus-5-is-2" ><description>absolut value of p-5 is 2</description></image></sidebyside></li>
+        <image width="70%" source="images/fig-abs-p-minus-5-is-2"><description>absolut value of p-5 is 2</description></image></li>
     <li><p>The distance between <m>a</m> and <m>-2</m> is less than four units, or <m>\abs{a - (-2)} \lt 4</m>, or <m>\abs{a + 2} \lt 4</m>. Count four units on either side of <m>-2</m>, to find <m>-6</m> and <m>2</m>. Then <m>a</m> is between <m>-6</m> and <m>2</m>, or <m>-6 \lt a \lt 2</m>.</p>
-        <sidebyside width="70%"><image source="images/fig-4-units-from-negative-2"><description>4 units from -2</description></image></sidebyside></li>
+        <image width="70%" source="images/fig-4-units-from-negative-2"><description>4 units from -2</description></image></li>
     </ol></p></solution></example>
 
-<exercise><title>QuickCheck 5</title>
+<exercise component="webwork"><title>QuickCheck 5</title>
 <webwork><pg-code>       
             $dist5 = RadioButtons(
               ["\(x\) is 3 units bigger than 5.",
@@ -595,7 +678,16 @@
         <p>the distance between <m>x</m> and 3 is 5 units.</p></solution>
 </webwork></exercise>
 
-<exercise xml:id="exercise-write-abs"><title>Practice 5</title>
+<exercise component="main"><title>QuickCheck 5</title>
+<statement><p>The notation <m>|x-3|=5</m> means</p>
+ <p><ol marker="a">
+        <li><p><m>x</m> is 3 units bigger than 5.</p></li>
+        <li><p>the distance between <m>x</m> and 5 is 3 units.</p></li>
+        <li><p>5 and 3 are <m>x</m> units apart.</p></li>
+        <li><p>the distance between <m>x</m> and 3 is 5 units.</p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork" xml:id="exercise-write-absw"><title>Practice 5</title>
     <webwork><pg-code>
             $f = Formula("abs(x+3)");
             $a = 5;
@@ -616,7 +708,7 @@
                 <p>A numberline is shown below.</p></li></ol></p></solution>
     </webwork>
     <conclusion><p><ol marker="a">
-            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-abs-x-minus-3-eq5"><description>number line</description><latex-image>
+            <li><image width="55%" margins="0% 45%" xml:id="fig-abs-x-minus-3-eq5w"><description>number line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -636,8 +728,8 @@
                     \filldraw[red] (-8,0) circle (.1);
                     \filldraw[red] (2,0) circle (.1);
                     \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li>
-            <li><sidebyside width="55%" margins="0% 45%"><image xml:id="fig-abs-x-minus-4-ge-6"><description>number line</description><latex-image>
+                </latex-image></image></li>
+            <li><image width="55%" margins="0% 45%" xml:id="fig-abs-x-minus-4-ge-6w"><description>number line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -659,8 +751,63 @@
                     \filldraw[red] (-2,0) circle (.15);
                     \filldraw[red] (10,0) circle (.15);
                     \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li></ol></p>
+                </latex-image></image></li></ol></p>
     </conclusion></exercise>
+
+<exercise component="main" xml:id="exercise-write-abs"><title>Practice 5</title>
+<statement><p>Write each statement using absolute value notation; then illustrate the solutions on a number line.</p>
+     <p><ol marker="a">
+            <li><p><m>x</m> is five units away from <m>-3</m>.</p></li>
+            <li><p><m>x</m> is at least six units away from <m>4</m>.</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+            <li><p><m>\left|x+3\right|=5</m></p>
+            <image width="55%" margins="0% 45%" xml:id="fig-abs-x-minus-3-eq5"><description>number line</description><latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.7]
+                    \draw[black,thick,->,>=stealth'] (-9.4,0)--(2.85,0);
+                    \foreach \x  in  {-8, -7, ..., 2}
+                     \draw[black] (\x,.15) --++(0,-.3);
+                    \foreach \x in  {-8, -6, ..., 2} {
+                     \node[below] at (\x,-.1) {\x};
+                    }
+                    \draw [black, decorate, decoration={brace,amplitude=5pt}]
+                    (-8,.25) -- ++(5,0) node [black,above,midway, yshift=.2cm] 
+                    {Five units};
+                    \draw [black, decorate, decoration={brace,amplitude=5pt}]
+                    (-3,.25) -- ++(5,0) node [black,above,midway, yshift=.2cm] 
+                    {Five units};
+                    \filldraw[red] (-8,0) circle (.1);
+                    \filldraw[red] (2,0) circle (.1);
+                    \end{tikzpicture}]]>
+                </latex-image></image></li>
+            <li><p><m>\left|x-4\right|\ge 6</m></p>
+                <image width="55%" margins="0% 45%" xml:id="fig-abs-x-minus-4-ge-6"><description>number line</description><latex-image>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\tikzset{%
+                    }
+                    \begin{tikzpicture} [scale=.4]
+                    \draw[black,thick] (-5.9,0)--(13.,0);
+                    \foreach \x  in  {-5, -4, ..., 13}
+                     \draw[black] (\x,.25) --++(0,-.5);
+                    \foreach \x in  {-4, -2, ..., 12} {
+                     \node[below] at (\x,-.2) {\x};
+                    }
+                    \draw [black, decorate, decoration={brace,amplitude=5pt}]
+                    (-2,.35) -- ++(6,0) node [black,above,midway, yshift=.2cm] 
+                    {Six units};
+                    \draw [black, decorate, decoration={brace,amplitude=5pt}]
+                    (4,.35) -- ++(6,0) node [black,above,midway, yshift=.2cm] 
+                    {Six units};
+                    \draw[red, ultra thick,->, >=stealth'] (-2,0)--(-5.9,0);
+                    \draw[red, ultra thick,->, >=stealth'] (10,0)--(13.9,0);
+                    \filldraw[red] (-2,0) circle (.15);
+                    \filldraw[red] (10,0) circle (.15);
+                    \end{tikzpicture}]]>
+                </latex-image></image></li>
+        </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Absolute Value Equations</title><idx><h>absolute value</h><h>equations</h></idx>
@@ -670,7 +817,7 @@
 <p> In fact, we can see from the graph at right that the equation <m>\abs{x} = k</m> has two solutions if <m>k \gt 0</m>, one solution if <m>k = 0</m>, and no solution if <m>k \lt 0</m>.</p></stack>
 <image source="images/fig-abs-x-is-k"><description>4 units from -2</description></image></sidebyside>
 
-<exercise><title>QuickCheck 6</title>
+<exercise component="webwork"><title>QuickCheck 6</title>
 <webwork><pg-code>       
             $absq = RadioButtons(
               ["The graph of \(y=|2x-8|\) has no negative inputs.",
@@ -687,6 +834,15 @@
         <p>Depending on <m>x</m>, <m>|2x-8|</m> can equal <m>2x-8</m> or <m>8-2x</m>.</p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 6</title>
+<statement><p>True or false.</p>
+    <p><ol marker="a">
+        <li><p>The graph of <m>y=|2x-8|</m> has no negative inputs.</p></li>
+        <li><p>The equation <m>|2x-8|=-4</m> has two solutions.</p></li>
+        <li><p>Depending on <m>x,~~~|2x-8|</m> can equal <m>2x-8</m> or <m>8-2x</m>.</p></li>
+        <li><p>The graph of <m>y=|2x-8|</m> is a straight line.</p></li>
+    </ol></p></statement></exercise>
+
 <example xml:id="example-abs-equation"><statement><p><ol marker="a">
         <li><p>Use a graph of <m>y = \abs{3x - 6}</m> to solve the equation 
             <m>\abs{3x - 6} = 9</m>.</p></li>
@@ -694,7 +850,8 @@
             <m>\abs{3x - 6} = -2</m>.</p></li>
     </ol></p></statement>
 
-<solution><sidebyside width="30%"><image source="images/fig-abs-3x-6"><description>absolute value of 3x-6</description></image></sidebyside><p><ol marker="a">
+<solution><image width="30%" source="images/fig-abs-3x-6"><description>absolute value of 3x-6</description></image>
+<p><ol marker="a">
     <li><p>The graph shows the graphs of <m>y = \abs{3x - 6}</m> and <m>y = 9</m>. We see that there are two points on the graph of <m>y = \abs{3x - 6}</m> that have <m>y = 9</m>, and those points have <m>x</m>-coordinates <m>x = -1</m> and <m>x = 5</m>. We can verify algebraically that the solutions are <m>-1</m> and <m>5</m>. 
     <md><mrow>x = \alert{-1}\text{: }\amp </mrow> 
         <mrow>\amp ~~ \abs{3(\alert{-1}) - 6} = \abs{-9} = 9\hphantom{00000}</mrow>
@@ -713,7 +870,7 @@
     <image source="images/fig-GC-abs-3x-6"><description>absolute value of 3x-6</description></image></sidebyside>
 </technology>
 
-<exercise xml:id="exercise-GC-solve-abs-equation"><title>Practice 6</title>
+<exercise component="webwork" xml:id="exercise-GC-solve-abs-equationw"><title>Practice 6</title>
   <webwork><pg-code>
         $refreshCachedImages = 1;
         $fun=Formula("abs(2*x+7)");
@@ -792,6 +949,15 @@
       <sidebyside width="40%" margins="0% 60%"><image source="images/y-eq-abs-2x-plus7"><description>abs(2x+7)</description></image></sidebyside></conclusion>
 </exercise>
 
+<exercise component="main" xml:id="exercise-GC-solve-abs-equation"><title>Practice 6</title>
+<statement><p><ol marker="a">
+          <li><p>Graph <m>y = |2x + 7|</m> for <m>-12 \le x \le 8</m>.</p></li>
+          <li><p>Use your graph to solve the equation <m>|2x + 7| = 11</m>.</p></li>
+      </ol></p></statement>
+    <solution><p><ol marker="a">
+          <li></li>
+          <li><p><m>x=-9</m> or <m>x=2</m></p></li></ol></p></solution></exercise>
+
 <p>To solve an absolute value equation algebraically, we use the definition of absolute value.</p>
 
 <example xml:id="example-abs-algebraic"><statement><p>Solve the equation <m>\abs{3x - 6} = 9</m> algebraically.</p></statement>
@@ -820,7 +986,7 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
     <me>\blert{ax + b = c} ~~~~\text{ or }~~~~ \blert{ax + b = -c}</me></p>
 </assemblage>
 
-<exercise><title>Practice 7</title>
+<exercise component="webwork"><title>Practice 7</title>
     <webwork><pg-code>
             $answers = List("-9,2");
             $my_evaluator = $answers -> cmp(
@@ -834,13 +1000,17 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
       <instruction>Separate different values with a comma.</instruction></statement>
     <solution><p><m>x=-9</m> or <m>x=2</m></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 7</title>
+<statement><p>Solve  <m>|2x + 7| = 11</m> algebraically.</p></statement>
+    <solution><p><m>x=-9</m> or <m>x=2</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Absolute Value Inequalities</title><idx><h>absolute value</h><h>inequalities</h></idx>
 
 <p>We can also use graphs to solve absolute value inequalities. Look again at the graph of <m>y = \abs{3x - 6}</m> in figure (a) below. </p>
 
-    <sidebyside width="70%"><image source="images/fig-abs-inequality"><description>abs-3x-6</description></image></sidebyside>
+    <image width="70%" source="images/fig-abs-inequality"><description>abs-3x-6</description></image>
 
 <p>Because of the V-shape of the graph, all points with <m>y</m>-values less than <m>9</m> lie between the two solutions of <m>~\abs{3x - 6} = 9~</m>, that is, between <m>-1</m> and <m>5</m>. Thus, the solutions of the inequality <m>~\abs{3x - 6} \lt 9~</m> are <m>-1 \lt x \lt 5, </m> as shown in figure (a). </p>
 
@@ -853,12 +1023,12 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
 <p>Suppose the solutions of the equation <m>\abs{ax+b}=c</m> are <m>r</m> and <m>s</m>, with <m>r \lt s</m>. Then
     <ol>
         <li>The solutions of <m>~\abs{ax+b} \lt c~</m> are 
-        <me>r \lt  x \lt  s</me></li>
+            <me>r \lt  x \lt  s</me></li>
         <li>The solutions of <m>~\abs{ax+b} \gt c~</m> are
-        <me>x \lt  r ~~\text{ or }~~ x \gt  s</me></li>
+            <me>x \lt  r ~~\text{ or }~~ x \gt  s</me></li>
     </ol></p></assemblage>
 
-<exercise><title>QuickCheck 8</title>
+<exercise component="webwork"><title>QuickCheck 8</title>
 <webwork><pg-code>       
             $absgr = RadioButtons(
               ["either \(x-3 \gt 5\) or \(x-3 \gt -5\).",
@@ -873,6 +1043,15 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
     <solution><p>either <m>x-3 \gt 5</m> or <m>x-3 \lt -5</m>.</p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 8</title>
+<statement><p>If <m>|x-3| \gt 5</m>, then</p>
+    <p><ol marker="a">
+        <li><p>either <m>x-3 \gt 5</m> or <m>x-3 \gt -5</m>.</p></li>
+        <li><p><m>5 \gt x-3 \gt -5</m></p></li>
+        <li><p>either <m>x-3 \gt 5</m> or <m>x-3 \lt -5</m>.</p></li>
+        <li><p><m>-5 \gt x-3 \lt 5</m>.</p></li>
+    </ol></p></statement></exercise>
+
 <example xml:id="example-abs-inequality"><statement><p>Solve <m>~\abs{4x - 15} \lt 0.01</m></p></statement>
 <solution><p>First, we solve the equation <m>~\abs{4x - 15} = 0.01</m>. There are two cases:
     <md><mrow>4x - 15 \amp = 0.01 \amp \text{or} \amp\amp 4x - 15 \amp= -0.01</mrow>
@@ -880,7 +1059,7 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
         <mrow>x \amp = 3.7525 \amp\amp\amp x \amp= 3.7475</mrow></md>
 Because the inequality symbol is <m>\lt</m>, the solutions of the inequality are between these two values: <m>3.7475 \lt x \lt 3.7525</m>. In interval notation, the solutions are <m>(3.7475, 3.7525)</m>.</p> </solution></example>
 
-<exercise><title>Practice 8</title>
+<exercise component="webwork"><title>Practice 8</title>
     <webwork><pg-code>
            Context("Inequalities");
 
@@ -897,6 +1076,16 @@ Because the inequality symbol is <m>\lt</m>, the solutions of the inequality are
             <li><p><m>(-9,2)</m></p></li>
             <li><p><m>(-\infty,-9) \cup (2, \infty)</m></p></li></ol></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 8</title>
+<statement><p><ol marker="a">
+                <li><p>Solve the inequality <m>|2x + 7| \lt 11</m></p></li>
+                <li><p>Solve the inequality <m>|2x + 7| \gt 11</m></p></li>
+            </ol></p></statement>
+        <solution><p><ol marker="a" cols="2">
+            <li><p><m>(-9,2)</m></p></li>
+            <li><p><m>(-\infty,-9) \cup (2, \infty)</m></p></li></ol></p></solution></exercise>
+
 </subsection>
 
 

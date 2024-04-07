@@ -7,7 +7,6 @@
 <investigation xml:id="investigation-population-growth"><title>Population Growth</title>
 
 <p>In a laboratory experiment, researchers establish a colony of <m>100</m> bacteria and monitor its growth. The colony triples in population every day. </p>
-<sidebyside>
     <tabular halign="center" right="minor" left="minor" bottom="minor">
             <col top="minor" />
             <col top="minor" />
@@ -50,18 +49,13 @@
                 <cell right="none" bottom="none"></cell>
                 <cell right="none" bottom="none"><m>\blert{P(5)=}</m></cell></row>
         </tabular>
-</sidebyside>
 <sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle">
     <p><ol marker="1">
     <li><p>Fill in the table showing the population <m>P(t)</m> of bacteria <m>t</m> days later.</p></li>
-
     <li><p>Plot the data points from the table and connect them with a smooth curve.</p></li>
-
     <li><p>Write a function that gives the population of the colony at any time <m>t</m>, in days.
         <em>Hint:</em> Express the values you calculated in part (1) using powers of <m>3</m>. Do you see a connection between the value of <m>t</m> and the exponent on <m>3</m>?</p></li>
-
     <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).</p></li>
-
     <li><p>Evaluate your function to find the number of bacteria present after 8 days. How many bacteria are present after 36 hours?</p></li>       
     </ol></p>
         <image xml:id="fig-grid-for-bacteria-population"><description>grid for graph of bacteria population</description>
@@ -90,7 +84,7 @@
 </investigation>
 
 <p>The function in <xref ref="investigation-population-growth" text="type-global"/> describes <term>exponential growth</term>. During each time interval of a fixed length, the population is multiplied by a certain constant amount. In this case, the bacteria population grows by a factor of 3 every day.</p>
-<sidebyside width="60%"><image source="images/fig-table-bacteria-population"><description>table of bacteria population</description></image></sidebyside>
+<image width="60%" source="images/fig-table-bacteria-population"><description>table of bacteria population</description></image>
 
 <p>For this reason, we say that 3 is the <term>growth factor</term><idx>growth factor</idx><idx><h>exponential growth</h><h>growth factor</h></idx> for the function. </p>
 </subsection>
@@ -153,7 +147,7 @@
 <assemblage><title>Exponential Growth</title><idx>exponential growth</idx><idx><h>exponential growth</h><h>growth factor</h></idx><idx><h>growth factor</h><seealso>exponential growth</seealso></idx><idx>initial value</idx><idx><h>exponential growth</h><h>initial value</h></idx>
 <p>The function
     <md><mrow>\blert{P(t)=P_0 b^t}</mrow></md> 
-    describes <term>exponential growth</term>, where <m>P_0=P(0)</m> is the <term>initial value</term> of the function and <m>b</m> is the <term>growth factor</term>.</p></assemblage>
+describes <term>exponential growth</term>, where <m>P_0=P(0)</m> is the <term>initial value</term> of the function and <m>b</m> is the <term>growth factor</term>.</p></assemblage>
 
 <p>For the <em>Drosophila</em> cell population, we have
     <md><mrow>P(t)=1 \cdot 2^t</mrow></md>
@@ -220,8 +214,8 @@ so <m>P_0 = 1</m> and <m>b=2</m>.  You can see that the graph of the function is
             <me>C(t) = 1.2(1.5)^t</me></li>
         <li>The year 2000 is 15 years after 1985, so we evaluate the function for <m>t = \alert{15}</m>. 
             <me>C(\alert{15}) = 1.2(1.5)^{\alert{15}} = 525.47</me>
-        The formula predicts that over 525 million people used cell phones in 2000.</li></ol></p>
-    </solution></example>
+        The formula predicts that over 525 million people used cell phones in 2000.</li>
+    </ol></p></solution></example>
 
 <p>In the examples above, you can see that the graphs of the functions are not linear. In each case, the function grows slowly at first, but eventually grows faster and faster.</p>
 
@@ -229,8 +223,7 @@ so <m>P_0 = 1</m> and <m>b=2</m>.  You can see that the graph of the function is
     <md><mrow>1.2\blert{(1.5)^{15}} = 1.2 \times \blert{437.89} = 525.47~~~~~~~\blert{\text{Compute the power first.}}</mrow></md>              
 According to the order of operations, we compute the power <m>1.5^{15}</m> first, and then multiply the result by 1.2.</p></warning>
 
-
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
         $P0 = Compute("800");
         $P1 = Compute("848");
@@ -265,7 +258,20 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
     </ol></p></solution>
 </webwork></exercise>
 
-<exercise ><title>Practice 1</title>
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>A population grows according to the formula <m>P(t) = 800(1.06)^t</m>, where <m>t</m> is in years.</p>
+    <p><ol marker="a">
+            <li><p>What was the starting value of the population?</p></li>
+            <li><p>What was the population one year later?</p></li>
+            <li><p>What does 1.06 tell you about the population?</p></li>
+            <li><p> Choose the correct first step to evaluate <m>800(1.06)^5</m>:
+                <ol marker="i">
+                    <li><p>Multiply 800 by 1.06 or</p></li>
+                    <li><p>Raise 1.06 to the 5th power</p></li>
+                </ol></p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>
         Context()->variables->add(t=>"Real");
         $f = Formula("20*2^(t/3)");
@@ -282,7 +288,7 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
     </pg-code>
 <statement><p>A colony of rabbits started with 20 rabbits and doubles every 3 months.<ol marker="a"> 
     <li><p>Complete the table for the number of rabbits <m>P(t)</m> after <m>t</m> months, and graph the function.</p>
-                <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                         <row bottom="minor">
                             <cell><m>t</m></cell>
                             <cell><m>P(t)</m></cell></row>
@@ -304,13 +310,13 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
                         <row>
                             <cell><m>15</m></cell>
                             <cell><var name="$p[5]" width="3"/></cell></row>
-                    </tabular></sidebyside></li>       
+                    </tabular></li>       
             <li><p>Write a formula for the function <m>P(t)</m>. Note that the population is multiplied by 2 every 3 months. If you know the value of <m>t</m>, how do you find the corresponding exponent in <m>P(t)</m>?</p>
                     <p><m>P(t)=</m><var name="$f" width="8"/> </p></li>
             <li><p>How many rabbits will there be after 1 year? <var name="$month" width="4"/></p></li>
         </ol></p></statement>
 <solution><p><ol marker="a">
-        <li><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+        <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                         <row bottom="minor">
                             <cell><m>t</m></cell>
                             <cell><m>P(t)</m></cell></row>
@@ -332,15 +338,14 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
                         <row>
                             <cell><m>15</m></cell>
                             <cell><var name="$p[5]"/></cell></row>
-                    </tabular></sidebyside>
+                    </tabular>
             <p>A graph is below.</p></li>
         <li><p><m>P(t)=20(2)^{t/3}</m></p></li>
         <li>320 rabbits (after 12 months)</li></ol></p></solution>
 </webwork>
 <conclusion>
     <p>Graph for part (a):</p>
-    <sidebyside width="30%" margins="0% 0%"><image xml:id="fig-ex-7-1-1ans"><description>rabbit population</description>
-        <latex-image>
+    <image width="30%" xml:id="fig-ex-7-1-1answ"><description>rabbit population</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -356,15 +361,88 @@ According to the order of operations, we compute the power <m>1.5^{15}</m> first
         }
         \draw[samples=65,domain={0:6)}, smooth, variable=\x,red, very thick, ->,>=stealth'] plot (\x, {2*2^(\x/3)});
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
+        </latex-image></image>
 </conclusion></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p>A colony of rabbits started with 20 rabbits and doubles every 3 months.</p>
+    <p><ol marker="a"> 
+        <li><p>Complete the table for the number of rabbits <m>P(t)</m> after <m>t</m> months, and graph the function.</p>
+            <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                        <row bottom="minor">
+                            <cell><m>t</m></cell>
+                            <cell><m>P(t)</m></cell></row>
+                        <row>
+                            <cell><m>0</m></cell>
+                            <cell><m>\hphantom{000}</m></cell></row>
+                        <row>
+                            <cell><m>3</m></cell>
+                            <cell><m>\hphantom{000}</m></cell></row>
+                        <row>
+                            <cell><m>6</m></cell>
+                            <cell><m>\hphantom{000}</m></cell></row>
+                        <row>
+                           <cell><m>9</m></cell>
+                            <cell><m>\hphantom{000}</m></cell></row>
+                        <row>
+                            <cell><m>12</m></cell>
+                            <cell><m>\hphantom{000}</m></cell></row>
+                        <row>
+                            <cell><m>15</m></cell>
+                            <cell><m>\hphantom{000}</m></cell></row>
+                    </tabular></li>       
+            <li><p>Write a formula for the function <m>P(t)</m>. </p></li>
+            <li><p>How many rabbits will there be after 1 year? </p></li>
+        </ol></p></statement>
+<solution><p><ol marker="a">
+        <li><sidebyside widths="40% 30%"><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                        <row bottom="minor">
+                            <cell><m>t</m></cell>
+                            <cell><m>P(t)</m></cell></row>
+                        <row>
+                            <cell><m>0</m></cell>
+                            <cell><m>20</m></cell></row>
+                        <row>
+                            <cell><m>3</m></cell>
+                            <cell><m>40</m></cell></row>
+                        <row>
+                            <cell><m>6</m></cell>
+                            <cell><m>80</m></cell></row>
+                        <row>
+                           <cell><m>9</m></cell>
+                            <cell><m>160</m></cell></row>
+                        <row>
+                            <cell><m>12</m></cell>
+                            <cell><m>320</m></cell></row>
+                        <row>
+                            <cell><m>15</m></cell>
+                            <cell><m>640</m></cell></row>
+                    </tabular>
+            <image xml:id="fig-ex-7-1-1ans"><description>rabbit population</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.8] 
+        \draw[cyan] (0,0) grid (6,8);
+        \draw[black,thick,->,>=stealth'] (0,0)--(6.6,0) node[above]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,8.6) node[left, yshift=1mm]{$P$};
+        \foreach \x  in {1,2,...,6} {
+          \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in {1,2,...,8} {
+          \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+        }
+        \draw[samples=65,domain={0:6)}, smooth, variable=\x,red, very thick, ->,>=stealth'] plot (\x, {2*2^(\x/3)});
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></li>
+        <li><p><m>P(t)=20(2)^{t/3}</m></p></li>
+        <li>320 rabbits</li></ol></p></solution></exercise>
 
 <note><p>In Practice 1, the rabbit population doubled every 3 months, leading to the growth law
         <me>P(t)=20(2)^{t/3}</me>
 To see the growth factor for the rabbit population, we use the third law of exponents to rewrite <m>2^{t/3}</m>.
     <me>2^{t/3} = 2^{t(1/3)} =  (2^{1/3})^t</me>
 So the growth factor for the rabbit population is <m>2^{1/3}</m>, or about 1.26. The rabbit population grows by a factor of 1.26 every month.</p></note>
-
 </subsection>
 
 <subsection><title>Comparing Linear Growth and Exponential Growth</title><idx><h>exponential function</h><h>vs linear growth</h></idx><idx><h>exponential growth</h><h>vs linear growth</h></idx>
@@ -372,7 +450,7 @@ So the growth factor for the rabbit population is <m>2^{1/3}</m>, or about 1.26.
 <p>It may be helpful to compare linear growth <idx>linear growth</idx> and <idx>exponential growth</idx> exponential growth. Consider the two functions
     <me>L(t) = 5 + 2t ~~~~~\text{ and } ~~~~~ E(t) = 5 \cdot 2^t ~~~ (t \ge 0)</me>
 whose graphs are shown below.</p>
-<sidebyside widths="25% 25% 30%" valigns="middle middle middle">
+<sidebyside widths="17% 26% 32%" valigns="middle middle middle">
 <stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>t</m></cell>
@@ -415,8 +493,7 @@ whose graphs are shown below.</p>
             <cell><m>80</m></cell></row>
     </tabular><p>Growth factor <m>b=2</m></p></stack>
 
-<image xml:id="fig-linear-vs-exponential">
-        <description>graph of linear and exponential</description><latex-image>
+    <image xml:id="fig-linear-vs-exponential"><description>graph of linear and exponential</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -449,7 +526,8 @@ whose graphs are shown below.</p>
 <p> However, for each unit increase in <m>t</m>, 2 units are <em>added</em> to the value of <m>L(t)</m>, whereas the value of <m>E(t)</m> is <em>multiplied</em> by 2. An exponential function with growth factor 2 eventually grows much more rapidly than a linear function with slope 2, as you can see by comparing the graphs or the function values in the tables.</p>
 
 <example xml:id="example-compare-linear-vs-exponential"><statement>
-<p>A solar energy company sold $80,000 worth of solar collectors last year, its first year of operation. This year its sales rose to $88,000. The marketing department must estimate its projected sales for the next 3 years.<ol marker="a">
+<p>A solar energy company sold $80,000 worth of solar collectors last year, its first year of operation. This year its sales rose to $88,000. The marketing department must estimate its projected sales for the next 3 years.</p>
+<p><ol marker="a">
     <li>If the marketing department predicts that sales will grow linearly, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow linearly.</li>
     <li>If the marketing department predicts that sales will grow exponentially, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow exponentially.</li>
     </ol></p></statement>
@@ -495,7 +573,6 @@ whose graphs are shown below.</p>
             </tabular>
         <image source="images/fig-linear-vs-exponential2"><description>linear and exponential growth</description></image></sidebyside>
 </solution></example>
-
 </subsection>
 
 <subsection><title>Exponential Decay</title>
@@ -548,28 +625,25 @@ whose graphs are shown below.</p>
     
 <p><ol marker="1"> 
     <li><p>Fill in the table showing the population <m>P(t)</m> of the town <m>t</m> years after 1940.</p></li>
-
     <li><p>Plot the data points and connect them with a smooth curve. </p></li>
-    
     <li><p>Write a function that gives the population of the town at any time <m>t</m> in years after 1940.</p>
         <p><em>Hint: </em> Express the values you calculated in part (1) using powers of 0.90. Do you see a connection between the value of <m>t</m> and the exponent on 0.90?</p></li>
-    
     <li><p>Graph your function from part (3) using a calculator. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).</p></li>
-        
-    <li>Evaluate your function to find the population of the town in 1995. What was the population in 2000?</li>
+    <li><p>Evaluate your function to find the population of the town in 1995. What was the population in 2000?</p></li>
     </ol></p>      
         <image source="images/fig-grid-for-population-decay"><description>grid </description></image></sidebyside>
 </investigation>
 
-<example><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined by a factor of 0.942 each year.<ol marker="a">
-    <li>In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of <m>t</m>, the number of years after 1944.</li>
-    <li>Graph the function from 1944 to 2000.</li>
-    <li>In 1998, only 3.3% of beer was sold in refillable bottles. How well does the model predict this number?</li></ol>
-</p></statement>
+<example><statement><p>Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles.  During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined by a factor of 0.942 each year.</p>
+<p><ol marker="a">
+    <li><p>In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of <m>t</m>, the number of years after 1944.</p></li>
+    <li><p>Graph the function from 1944 to 2000.</p></li>
+    <li><p>In 1998, only 3.3% of beer was sold in refillable bottles. How well does the model predict this number?</p></li>
+</ol></p></statement>
 
 <solution><p><ol marker="a">
-    <li>We let <m>t=0</m> in 1944, so that <m>P_0 = 98</m>. The formula is
-    <me>P(t)=P_0 b^t = 90(0.942)^t</me></li>
+    <li><p>We let <m>t=0</m> in 1944, so that <m>P_0 = 98</m>. The formula is
+            <me>P(t)=P_0 b^t = 90(0.942)^t</me></p></li>
     <li><p>We evaluate the formula for several values of <m>t</m>, and plot the data points.</p>
         <sidebyside widths="48% 30%" margins="0% 15%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
             <row bottom="minor">
@@ -607,12 +681,12 @@ whose graphs are shown below.</p>
                 \draw[samples=65,domain={0:7},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {9*0.942^(10*\x)});
                 \end{tikzpicture}]]>
                 </latex-image></image></sidebyside></li>
-    <li>In 1998, <m>t=54</m>, and
+    <li><p>In 1998, <m>t=54</m>, and
             <me>P(54) = 98(0.942)^{54} = 3.89</me>
-        The model predicts that 3.89% of beer was sold in refillable bottles in 1998, just slightly above the actual figure.</li></ol></p>
+        The model predicts that 3.89% of beer was sold in refillable bottles in 1998, just slightly above the actual figure.</p></li></ol></p>
 </solution></example>
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
         Context()->variables->add(t=>"Real");
         $f = Formula("8000*0.88^t");
@@ -625,7 +699,7 @@ whose graphs are shown below.</p>
     </pg-code>
     <statement><p>The number of perch in Hidden Lake has declined to 0.88 of its previous value every year since 2000, when the perch population was estimated at 8000. <ol marker="a">
         <li><p>Let <m>P(t)</m> represent the perch population <m>t</m> years after 2000. Complete the table.</p>
-                    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
+                    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
                                 <row bottom="minor">
                                     <cell><m>t</m></cell>
                                     <cell><m>2</m></cell>
@@ -640,7 +714,7 @@ whose graphs are shown below.</p>
                                     <cell><var name="$p[10]" width="4"/></cell>
                                     <cell><var name="$p[15]" width="4"/></cell>
                                     <cell><var name="$p[20]" width="4"/></cell></row>
-                                </tabular></sidebyside></li>                         
+                                </tabular></li>                         
             <li><p>Write a formula for the function <m>P(t)</m>.</p>
                     <p><m>P(t)=</m><var name="$f" width="12"/></p></li>
             <li>Graph the function, using the table values to choose an appropriate window.</li>
@@ -648,7 +722,7 @@ whose graphs are shown below.</p>
         </ol></p></statement>
     <solution>
         <p><ol marker="a">
-            <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+            <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>2</m></cell>
@@ -663,18 +737,15 @@ whose graphs are shown below.</p>
                         <cell><m>2228</m></cell>
                         <cell><m>1176</m></cell>
                         <cell><m>621</m></cell></row>
-                    </tabular></sidebyside></li> 
-            <li></li>
+                    </tabular></li> 
             <li><m>8000\cdot 0.88^t</m></li>
             <li>A graph is below.</li>
             <li>327</li>
         </ol></p>   
-    </solution>
-</webwork>
+    </solution></webwork>
 <conclusion>
     <p>Graph for part (c):</p>
-    <sidebyside width="35%" margins="0% 5%">
-        <image xml:id="fig-ex-7-1-2"><description>exponential decay</description><latex-image>
+    <image width="35%"  xml:id="fig-ex-7-1-2w"><description>exponential decay</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -690,11 +761,72 @@ whose graphs are shown below.</p>
         }
         \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {8*0.88^(2*\x)});
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
-</conclusion>
-</exercise>
+        </latex-image></image>
+</conclusion></exercise>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="main"><title>Practice 2</title>
+<statement><p>The number of perch in Hidden Lake has declined to 0.88 of its previous value every year since 2000, when the perch population was estimated at 8000.</p>
+    <p><ol marker="a">
+        <li><p>Let <m>P(t)</m> represent the perch population <m>t</m> years after 2000. Complete the table.</p>
+                    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
+                                <row bottom="minor">
+                                    <cell><m>t</m></cell>
+                                    <cell><m>2</m></cell>
+                                    <cell><m>8</m></cell>
+                                    <cell><m>10</m></cell>
+                                    <cell><m>15</m></cell>
+                                    <cell><m>20</m></cell></row>
+                                <row> 
+                                    <cell><m>P(t)</m></cell>
+                                    <cell><m>\hphantom{000}</m></cell>
+                                    <cell><m>\hphantom{000}</m></cell>
+                                    <cell><m>\hphantom{000}</m></cell>
+                                    <cell><m>\hphantom{000}</m></cell>
+                                    <cell><m>\hphantom{000}</m></cell></row>
+                                </tabular></li>                         
+            <li><p>Write a formula for the function <m>P(t)</m>.</p></li>
+            <li>Graph the function, using the table values to choose an appropriate window.</li>
+            <li>What does the model predict for the perch population in 2025? </li>
+        </ol></p></statement>
+    <solution><p><ol marker="a">
+            <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>20</m></cell></row>
+                    <row> 
+                        <cell><m>P(t)</m></cell>
+                        <cell><m>6195</m></cell>
+                        <cell><m>2877</m></cell>
+                        <cell><m>2228</m></cell>
+                        <cell><m>1176</m></cell>
+                        <cell><m>621</m></cell></row>
+                    </tabular></li> 
+            <li><m>8000\cdot 0.88^t</m></li>
+            <li><image width="35%"  xml:id="fig-ex-7-1-2"><description>exponential decay</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5] 
+        \draw[cyan] (0,0) grid (10,8);
+        \draw[black,thick,->,>=stealth'] (0,0)--(10.6,0) node[above]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,8.6) node[left, yshift=1mm]{$P$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)]  in {2,4, ..., 10} {
+          \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(1000*\x)] in {2,4,6,8} {
+          \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+        }
+        \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {8*0.88^(2*\x)});
+        \end{tikzpicture}]]>
+        </latex-image></image></li>
+            <li>327</li>
+        </ol></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
         $lin = PopUp(
             [ "?", 
@@ -738,6 +870,13 @@ whose graphs are shown below.</p>
     <li>Multiply by 1.5</li></ol></p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p><ol marker="a">
+        <li><p>We can tell whether a linear function is increasing or decreasing by whether its slope is <fillin characters="10"/>.</p></li>
+        <li><p>We can tell whether an exponential function is increasing or decreasing by whether <m>b</m> is <fillin characters="10"/>.</p></li>
+        <li><p>If a linear function has slope 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one? </p></li>
+        <li><p>If an exponential function has growth factor 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one? </p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Percent Increase</title><idx>percent increase</idx>
@@ -745,15 +884,13 @@ whose graphs are shown below.</p>
 <p>Exponential growth is often described as growth by a certain percent increase. Suppose the town of Lakeview had 4000 residents in the year 2000, and grew at a rate of 5% per year. This means that each year we add 5% of last year's population to find the current population, <m>P(t)</m>. Thus
     <md><mrow>\text{In 2000,  } P(0) \amp = 4000</mrow>
         <mrow>\text{In 2001,  } P(1) \amp = 4000 + \blert{0.05(4000)} = 4200 \amp\amp \blert{\text{Add 5}\% \text{ of } P(0).}</mrow>
-        <mrow>\text{In 2002,  } P(2) \amp = 4200 + \blert{0.05(4200)} = 4410 \amp\amp \blert{\text{Add 5}\% \text{ of  } P(1).}</mrow>
-    </md>
+        <mrow>\text{In 2002,  } P(2) \amp = 4200 + \blert{0.05(4200)} = 4410 \amp\amp \blert{\text{Add 5}\% \text{ of  } P(1).}</mrow></md>
 and so on. Now here is the important observation about percent increase:</p>  
 
 <p><md><mrow>\glert{\text{Adding }5\% \text{ of the old population is the same as multiplying the old population by 1.05.}}</mrow></md>
 
     <md><mrow>4000 + 0.05(4000) \amp = 4000(1+0.05) = 4000(1.05) \amp \amp \blert{\text{Factor out 4000.}}</mrow>
-        <mrow>4200 + 0.05(4200) \amp = 4200(1+0.05) = 4200(1.05) \amp \amp \blert{\text{Factor out 4000.}}</mrow></md>
-    </p>
+        <mrow>4200 + 0.05(4200) \amp = 4200(1+0.05) = 4200(1.05) \amp \amp \blert{\text{Factor out 4000.}}</mrow></md></p>
 
 <p>Thus, we can find the current population by multiplying the old population by 1.05. In other words,</p>
 
@@ -806,7 +943,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
                         <cell bottom="minor"><m>P(4)=3.15</m></cell>
                         <cell bottom="minor"><m>\blert{2(1.12)^4}</m></cell></row>                 
                     </tabular></sidebyside></li>
-    <li>After <m>t</m> years of inflation the original price of $2 has been multiplied <m>t</m> times by a factor of 1.12.  Thus, 
+    <li>After <m>t</m> years of inflation the original price of $2 has been multiplied <m>t</m> times by a factor of 1.12. Thus, 
         <me>P(t)=2(1.12)^t</me></li>
     <li>To find the price of bread at any time after inflation began, we evaluate the function at the appropriate value of <m>t</m>.
         <me>P(\alert{6}) = 2(1.12)^{\alert{6}} \approx 3.95</me>
@@ -836,7 +973,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
             </latex-image></image></sidebyside></li></ol></p>
 </solution></example>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
         $a = Compute("1.10");
         $b = Compute("1.02");
@@ -857,7 +994,16 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
     <li>2</li></ol></p></solution>
 </webwork></exercise>
 
-<exercise><title>Practice 3</title>
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>Fill in the blanks.<ol marker="a">
+            <li><p>Increasing by 10% is the same as multiplying by <fillin characters="10"/>.</p></li>
+            <li><p>If a population grows by 2% annually, its growth factor is <fillin characters="10"/>.</p></li>
+            <li><p>If a population grows by 46% annually, its growth factor is <fillin characters="10"/>.</p></li>
+            <li><p>If a population grows by 100% annually, its growth factor is <fillin characters="10"/>.</p></li>
+            </ol></p>
+    </statement></exercise>
+
+<exercise component="webwork"><title>Practice 3</title>
 <introduction>
     <sidebyside width="35%" margins="10% 10%">
         <image xml:id="fig-ex-7-1-3"><description>grid for Tombstone, AZ population</description><latex-image>
@@ -900,8 +1046,8 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
         <li><p>What was the population one year later, in December, 1880? <var name="$a" width="3"/></p></li>
         <li><p>Write a formula for <m>P(t)</m>, the population of Tombstone <m>t</m> months after its founding.</p>
                 <p><m>P(t)=</m><var name="$f" width="10" /></p></li>
-        <li><p>Complete the table and sketch a graph of <m>P(t)</m>. A suggest grid is above.</p>
-                    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <li><p>Complete the table and sketch a graph of <m>P(t)</m>.</p>
+                    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                         <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>0</m></cell>
@@ -918,15 +1064,14 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
                         <cell><var name="$p[3]" width="2"/></cell>
                         <cell><var name="$p[4]" width="2"/></cell>
                         <cell><var name="$p[5]" width="2"/></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
         <li><p>Tombstone's peak population was about 10,000 people. Use your graph to estimate the time it took to reach that figure.</p>
             <p>About <var name="$d" width="2"/> months</p></li>
-    </ol></p>
-    </statement>
-    <solution><p><ol marker="a">
+    </ol></p></statement>
+<solution><p><ol marker="a">
             <li>806</li>
             <li><m>P(t)=100(1.19)^t</m></li>
-            <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
                     <cell><m>t</m></cell>
                     <cell><m>0</m></cell>
@@ -943,15 +1088,14 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
                     <cell>1359</cell>
                     <cell>3243</cell>
                     <cell>7739</cell></row>
-            </tabular></sidebyside>
+            </tabular>
             <p>A graph is below.</p></li>
     <li>About 26 months</li>
     </ol></p></solution>
 </webwork>
 <conclusion>
     <p>Graph for part (c):</p>
-    <sidebyside width="35%" margins="10% 10%">
-        <image xml:id="fig-ex-7-1-3ans"><description>population Tombstone, AZ</description><latex-image>
+        <image width="35%" xml:id="fig-ex-7-1-3answ"><description>population Tombstone, AZ</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -968,9 +1112,73 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
             \draw[samples=65,domain={0:ln(120)/(3*ln(1.19)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {0.1*1.19^(3*\x)});
             \end{tikzpicture}]]>
             </latex-image></image>
-    </sidebyside>
-</conclusion>
-</exercise>  
+</conclusion></exercise>  
+
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Tombstone, Arizona was the most famous "boomtown" during the gold rush in the American west.  It was established in December, 1879, after the discovery of a large silver deposit nearby.  The original town had 40 dwellings and a population of 100.  Over the next two to three years, the population grew at an average rate of 19% per month.
+    <ol marker="a">
+        <li><p>What was the population one year later, in December, 1880? </p></li>
+        <li><p>Write a formula for <m>P(t)</m>, the population of Tombstone <m>t</m> months after its founding.</p></li>
+        <li><p>Complete the table and sketch a graph of <m>P(t)</m>.</p>
+                    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                        <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>25</m></cell></row>
+                    <row> 
+                        <cell><m>P(t)</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell></row>
+                    </tabular></li>
+        <li><p>Tombstone's peak population was about 10,000 people. Use your graph to estimate the time it took to reach that figure.</p></li>
+    </ol></p></statement>
+<solution><p><ol marker="a">
+            <li>806</li>
+            <li><m>P(t)=100(1.19)^t</m></li>
+            <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>15</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>25</m></cell></row>
+                <row> 
+                    <cell><m>P(t)</m></cell>
+                    <cell>100</cell>
+                    <cell>239</cell>
+                    <cell>569</cell>
+                    <cell>1359</cell>
+                    <cell>3243</cell>
+                    <cell>7739</cell></row></tabular>
+            <image width="35%" xml:id="fig-ex-7-1-3ans"><description>population Tombstone, AZ</description><latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.5] 
+            \draw[cyan] (0,0) grid (12,12);
+            \draw[black,thick,->,>=stealth'] (0,0)--(12.6,0) node[above]{$t$};
+            \draw[black,thick,->,>=stealth'] (0,0)--(0,12.6) node[left, yshift=1mm]{$P$};
+            \foreach \x [evaluate=\x as \xi using int(3*\x)] in {2,4,...,12} {
+              \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
+            }
+            \foreach \x [evaluate=\x as \xi using int(1000*\x)] in {5,10} {
+              \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
+            }
+            \draw[samples=65,domain={0:ln(120)/(3*ln(1.19)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {0.1*1.19^(3*\x)});
+            \end{tikzpicture}]]>
+            </latex-image></image></li>
+            <li>About 26 months</li>
+    </ol></p></solution></exercise>
 
 <p>Compound interest is another example of exponential growth. Suppose you deposit a sum of money into an account that pays 5% interest compounded annually. Each year, 5% of your current balance is added to your account as interest, so your balance grows by a factor of 1.05. In general, we have the following formula.</p>
 
@@ -986,7 +1194,8 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
     <me>b = 1-0.25  = 0.75</me>
 and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us the population remaining, not the amount of decline.</p>
 
-<example xml:id="Example-computing-prices"><statement><p>According to <em>Context</em> magazine: "Computing prices have been falling exponentially for the past 30 years and will probably stay on that curve for another couple of decades." In fact, prices have been falling at a rate of 37% every year. Suppose an accounting firm invests $50,000 in new computer equipment.<ol marker="a">
+<example xml:id="Example-computing-prices"><statement><p>According to <em>Context</em> magazine: "Computing prices have been falling exponentially for the past 30 years and will probably stay on that curve for another couple of decades." In fact, prices have been falling at a rate of 37% every year. Suppose an accounting firm invests $50,000 in new computer equipment.</p>
+<p><ol marker="a">
     <li>Write a formula for the value <m>V(t)</m> of the equipment <m>t</m> years from now.</li>
     <li>What will the equipment be worth in 5 years?</li>
     <li>Graph the function <m>V(t)</m> for <m>0 \le t \le 20</m>.</li></ol></p></statement>
@@ -1040,7 +1249,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
 
 <note><p>In the preceding <xref ref="Example-computing-prices" text="custom">Example</xref>, the value of the computer equipment decreases by 37% each year, so 63% of the value remains, and the decay factor for the value function is 0.63, not 0.37.  The function <m>V(t)</m> gives the value remaining, not the amount that has depreciated.</p></note>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>
             Context()->variables->add(t=>"Real");
             $year0 = Compute("2012");
@@ -1064,7 +1273,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
             <li><p>Write a formula for <m>B(t)</m>, the number of butterflies <m>t</m> years after <var name="$year0"/>.</p>
                 <p><m>B(t)=</m><var name="$f" width="12"/> </p></li>
             <li><p>Complete the table and sketch a graph of <m>B(t)</m>.</p>
-                <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>0</m></cell>
@@ -1081,13 +1290,12 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
                         <cell><var name="$b[3]" width="2"/></cell>
                         <cell><var name="$b[4]" width="2"/></cell>
                         <cell><var name="$b[5]" width="2"/></cell></row>
-                </tabular></sidebyside></li></ol></p>
+                </tabular></li></ol></p>
     </statement>
     <solution><p><ol marker="a">
                 <li><p><m>0.82</m></p></li>
                 <li><p><m>B(t) = 3600\cdot 0.82^t</m></p></li>
-                <li><sidebyside>
-                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>0</m></cell>
@@ -1103,16 +1311,13 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
                             <cell><var name="$br[3]"/></cell>
                             <cell><var name="$br[4]"/></cell>
                             <cell><var name="$br[5]"/></cell></row>
-                </tabular></sidebyside>
+                </tabular>
                 <p>A graph is below.</p></li>
-            </ol></p>
-    </solution>
+            </ol></p></solution>
 </webwork>
     <conclusion>
         <p>Graph for part (c):</p>
-         <sidebyside width="35%" margins="0% 10%"><image xml:id="fig-butterfly">
-        <description>exponential decay</description>
-        <latex-image>
+         <image width="35%" xml:id="fig-butterflyw"><description>exponential decay</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -1128,11 +1333,72 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
         }
         \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {7.2*0.82^(2*\x)});
         \end{tikzpicture}]]>
-        </latex-image>
-</image>
-</sidebyside>
-    </conclusion>
-</exercise>
+        </latex-image></image>
+    </conclusion></exercise>
+
+<exercise component="main"><title>Practice 4</title>
+<statement><p>The number of butterflies visiting a nature station is declining by 18% per year. In 1998, 3600 butterflies visited the nature station.</p>
+        <p><ol marker="a">
+            <li><p>What is the decay factor in the annual butterfly count?</p></li>
+            <li><p>Write a formula for <m>B(t)</m>, the number of butterflies <m>t</m> years after 1998.</p></li>
+            <li><p>Complete the table and sketch a graph of <m>B(t)</m>.</p>
+                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row>
+                        <cell><m>B(t)</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell></row>
+                </tabular></li>
+        </ol></p></statement>
+    <solution><p><ol marker="a">
+                <li><p><m>0.82</m></p></li>
+                <li><p><m>B(t) = 3600\cdot 0.82^t</m></p></li>
+                <li><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row><cell><m>B(t)</m></cell>
+                            <cell><m>3600</m></cell>
+                            <cell><m>2421</m></cell>
+                            <cell><m>1628</m></cell>
+                            <cell><m>1094</m></cell>
+                            <cell><m>736</m></cell>
+                            <cell><m>495</m></cell></row>
+                </tabular>
+        <image width="55%" xml:id="fig-butterfly"><description>exponential decay</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5] 
+        \draw[cyan] (0,0) grid (10,8);
+        \draw[black,thick,->,>=stealth'] (0,0)--(10.6,0) node[above]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,8.6) node[above]{$B(t)$};
+        \foreach \x in {2,4,...,10} {
+          \draw[black,thick] (\x,.15)--++(0,-.3) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(500*\x)] in {2,4,...,8} {
+          \draw[black,thick] (.15,\x)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+        }
+        \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {7.2*0.82^(2*\x)});
+        \end{tikzpicture}]]>
+        </latex-image></image>></p></li>
+    </ol></p></solution></exercise>
 
 <warning><p>Compare these two descriptions of exponential decay:<ul>
     <li>Each year, the population decreases <em>by</em> 25% of its previous value.</li>
@@ -1140,7 +1406,7 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
 <p>In the first description, <m>r=0.25</m> and <m>b=1-r = 0.75</m>. If the population this year is 100, next year it will be 75. If 25% of the population is gone, 75% remains.</p>
 <p>In the second description, only 25% of the population remains, so <m>b = 0.25</m>. If the population this year is 100, next year it will be 25.</p></warning>
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>
         $a = Compute("10");
         $b = Compute("0.85");
@@ -1167,6 +1433,14 @@ and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us 
     <li><m>b \lt 1</m></li></ol></p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p><ol marker="a">
+        <li><p>If <m>b=0.9</m>, it represents a decrease of <fillin characters="6"/>%.</p></li>
+        <li><p>An annual decrease of 15% corresponds to a decay factor of <fillin characters="6"/>.</p></li>
+        <li><p>Which function decreases more rapidly: <m>f(x)</m>, with a decay factor of 0.15, or <m>g(x)</m>, with a decay factor of 0.05?</p></li>
+        <li><p>An exponential function <m>P(t)=P_0b^t</m> is decreasing if <fillin characters="6"/>.</p></li>
+    </ol></p></statement></exercise>
+
 <p>We summarize our observations about exponential growth and decay functions as follows.</p>
 
 <assemblage><title>Exponential Growth and Decay</title><idx>exponential growth and decay</idx><idx><h>function</h><h>exponential growth and decay</h></idx>
@@ -1181,7 +1455,7 @@ models exponential growth and decay.</p>
     <li><p>If <m>0 \lt b \lt 1</m>, then <m>P(t)</m> is decreasing, and <m>b = 1 - r</m>, where <m>r</m> represents percent decrease.</p></li>
 </ol></p></assemblage>
 
-<exercise><title>Practice 5</title>
+<exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
             $p0 = 20000;
             $p1 = 17000;
@@ -1211,6 +1485,19 @@ models exponential growth and decay.</p>
                 <li><p>Linear: $5000; Exponential: $8874</p></li></ol></p>
     </solution>
 </webwork></exercise> 
+
+<exercise component="main"><title>Practice 5</title>
+<statement><p>A new car begins to depreciate in value as soon as you drive it off the lot. Some models depreciate linearly, and others depreciate exponentially. Suppose you buy a new car for $20,000, and 1 year later its value has decreased to $17,000.</p>
+        <p><ol marker="a">
+            <li><p>If the value decreased linearly, what was its annual rate of decrease?</p></li>
+            <li><p>If the value decreased exponentially, what was its annual decay factor? What was its annual percent depreciation?</p></li>
+            <li><p>Calculate the value of your car when it is 5 years old under each assumption, linear or exponential depreciation.</p></li>
+    </ol></p></statement>
+<solution><p><ol marker="a">
+                <li><p>$3000 per year</p></li>
+                <li><p>0.85; 15%</p></li>
+                <li><p>Linear: $5000; Exponential: $8874</p></li></ol></p>
+    </solution></exercise>
 
 </subsection>
 

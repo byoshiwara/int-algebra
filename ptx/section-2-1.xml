@@ -13,76 +13,53 @@
 <p>In Brazil, the Instituto Nacional de Pesquisas Espaciais (INPE, or National Institute of Space Research) uses Landsat satellite photos to monitor the pace of deforestation. According to their data, the original Amazon rain forest biome in Brazil of 4,100,000 square kilometers was reduced to 3,413,000 square kilometers by 2005, representing a loss of 16.8%. The figures for 1987 to 2006 are shown at right, and a plot of the data appears below</p>
 </stack>
     <tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
-        <row>
-            <cell>Year</cell>
+        <row><cell>Year</cell>
             <cell><line>Remaining forest</line><line>(thousands sq km)</line></cell></row>
-        <row>
-            <cell>1987</cell>
+        <row><cell>1987</cell>
             <cell>3745</cell></row>
-        <row>
-            <cell>1988</cell>
+        <row><cell>1988</cell>
             <cell>3274</cell></row>
-        <row>
-            <cell>1989</cell>
+        <row><cell>1989</cell>
             <cell>3706</cell></row>
-        <row>
-            <cell>1990</cell>
+        <row><cell>1990</cell>
             <cell>3692</cell></row>
-        <row>
-            <cell>1991</cell>
+        <row><cell>1991</cell>
             <cell>3681</cell></row>
-        <row>
-            <cell>1992</cell>
+        <row><cell>1992</cell>
             <cell>3667</cell></row>
-        <row>
-            <cell>1993</cell>
+        <row><cell>1993</cell>
             <cell>3652</cell></row>
-        <row>
-            <cell>1994</cell>
+        <row><cell>1994</cell>
             <cell>3637</cell></row>
-        <row>
-            <cell>1995</cell>
+        <row><cell>1995</cell>
             <cell>3608</cell></row>
-        <row>
-            <cell>1996</cell>
+        <row><cell>1996</cell>
             <cell>3590</cell></row>
-        <row>
-            <cell>1997</cell>
+        <row><cell>1997</cell>
             <cell>3577</cell></row>
-        <row>
-            <cell>1998</cell>
+        <row><cell>1998</cell>
             <cell>3560</cell></row>
-        <row>
-            <cell>1999</cell>
+        <row><cell>1999</cell>
             <cell>3542</cell></row>
-        <row>
-            <cell>2000</cell>
+        <row><cell>2000</cell>
             <cell>3524</cell></row>
-        <row>
-            <cell>2001</cell>
+        <row><cell>2001</cell>
             <cell>3506</cell></row>
-        <row>
-            <cell>2002</cell>
+        <row><cell>2002</cell>
             <cell>3485</cell></row>
-        <row>
-            <cell>2003</cell>
+        <row><cell>2003</cell>
             <cell>3460</cell></row>
-        <row>
-            <cell>2004</cell>
+        <row><cell>2004</cell>
             <cell>3432</cell></row>
-        <row>
-            <cell>2005</cell>
+        <row><cell>2005</cell>
             <cell>3413</cell></row>
-        <row>
-            <cell>2006</cell>
+        <row><cell>2006</cell>
             <cell>3400</cell></row>
     </tabular></sidebyside>
 
-<sidebyside width="90%">
-    <image source="images/fig-rain-forest"><description>plot of shrinking rain forest</description></image></sidebyside>
+    <image width="90%" source="images/fig-rain-forest"><description>plot of shrinking rain forest</description></image>
 
 <p>Although the data points do not all lie exactly on a straight line, they are very close. One question we might ask is: If deforestation continues at the same rate, when will the Amazon rain forest disappear completely? In this section we learn to find a linear model that approximates a data set.</p>
-    
 </subsection>
 
 <subsection><title>Line of Best Fit</title><idx><h>least-squares regression line</h></idx><idx><h>line</h><h>of best fit</h><see>least-squares regression line</see></idx><idx><h>linear regression</h><h>line of best fit</h></idx>
@@ -92,7 +69,7 @@
 <example xml:id="Minimum-wage">
     <statement>
         <p>The table shows the minimum wage in the US at five-year intervals. (Source: Economic Policy Institute)</p>
-        <sidebyside><tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
+        <tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
             <row>
                 <cell halign="left">Year</cell>
                 <cell>1960</cell>
@@ -115,10 +92,11 @@
                 <cell>3.80</cell>
                 <cell>4.25</cell>
                 <cell>5.15</cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <sidebyside widths="50% 45%" margins="0% 0%" valigns="top middle"><p><ol marker="a">
             <li><p>Let <m>t</m> represent the number of years after 1960, and plot the data. Are the data linear?</p></li>
-            <li><p>Draw a line that "fits" the data.</p></li></ol></p>
+            <li><p>Draw a line that "fits" the data.</p></li>
+        </ol></p>
                 <image source="images/fig-example-2-1-1"><description>scatterplot of minimum wage</description></image>
         </sidebyside>
     </statement>
@@ -132,15 +110,14 @@
         <li><sidebyside widths="45% 51%" margins="0% 0%" valigns="top middle">
         <p>We would like to draw a line that comes as close as possible to all the data points, even though it may not pass precisely through any of them. In particular, we try to adjust the line so that we have the same number of points above the line and below the line. One possible solution is shown in the figure at right.</p>
             <image source="images/fig-example-2-1-1ans"><description>scatterplot of minimum wage</description></image>
-        </sidebyside></li></ol></p>
-    </solution>
-</example>
+        </sidebyside></li>
+        </ol></p></solution></example>
 
 <p>A line that fits the data in a scatterplot is called a <term>regression line</term><idx>regression line</idx><idx><h>regression line</h><seealso>linear regression</seealso></idx><idx><h>line</h><h>regression</h></idx>. Drawing a regression line by eye is a subjective process. Using technology, we can compute a particular regression line called the <term>least-squares regression line</term><idx>least-squares regression line</idx><idx><h>linear regression</h><h>least-squares regression line</h></idx>, which is widely used in statistics and modeling.</p>
 
 <p>We can still find an equation for a line of best fit using the point-slope formula. We choose two points on the line whose coordinates we can estimate fairly accurately. Note that these two points need not be any of the original data points.</p>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
         $explain = RadioButtons(
           ["A) Choose two data points and use the point-slope formula.",
@@ -153,11 +130,19 @@
     <statement><p>Explain how to find the equation of a regression line.</p>
         <p><var name="$explain" form="buttons"/></p>      
     </statement>
-    <solution><p>Choose two points on the regression line and use the point-slope formula.</p>
-    </solution>
+    <solution><p>Choose two points on the regression line and use the point-slope formula.</p></solution>
 </webwork></exercise>
 
-<exercise><title>Practice 1</title>
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>Explain how to find the equation of a regression line.</p>
+<p><ol marker="a">
+    <li><p>Choose two data points and use the point-slope formula.</p></li>
+    <li><p>Use the point-slope formula with the first and last data points.</p></li>
+    <li><p>The regression line must pass through two data points, and we use the point-slope formula for those points.</p></li>
+    <li><p>Choose two points on the regression line and use the point-slope formula.</p></li>
+</ol></p></statement></exercise> 
+
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
         Context("ImplicitPlane");
         Context()->variables->add(y=>"Real");
@@ -165,18 +150,19 @@
         $equation = ImplicitPlane("y = 1.25 + $m *(x-5)");   
         </pg-code>
     <statement><p>The regression line in the Example above appears to pass through the points <m>(5, 1.25)</m> and <m>(25, 3.35)</m>. Use those points to find an equation for the regression line.</p>
-            <p><var name="$equation" width="12"/> </p>
-    </statement>
-    <solution><p><m>y = 0.105x+0.725</m></p>
-        </solution>
+            <p><var name="$equation" width="12"/> </p></statement>
+    <solution><p><m>y = 0.105x+0.725</m></p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 1</title>
+<statement><p>The regression line in the Example above appears to pass through the points <m>(5, 1.25)</m> and <m>(25, 3.35)</m>. Use those points to find an equation for the regression line.</p></statement>
+<solution><p><m>y = 0.105x+0.725</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Interpolation and Extrapolation</title><idx>extrapolation</idx><idx><h>linear regression</h><h>extrapolation</h></idx><idx>interpolation</idx><idx><h>linear regression</h><h>interpolation</h></idx>
 
 <example xml:id="example-cocoa"><statement><p>An outdoor snack bar collected the following data showing the number of cups of cocoa, <m>C</m>, they sold when the high temperature for the day was <m>T\degree</m> Celsius.</p>
-        <sidebyside><tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
+        <tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
             <row>
                 <cell halign="left">Temperature (<m>\degree\text{C}</m>), <m>T</m></cell>
                 <cell>2</cell>
@@ -201,15 +187,16 @@
                 <cell>16</cell>
                 <cell>15</cell>
                 <cell>6</cell></row>
-        </tabular></sidebyside><p><ol marker="a">
+        </tabular><p><ol marker="a">
     <li><p>Make a scatterplot of the data, and draw a regression line</p></li>
     <li><p>Read values from your line for the number of cups of cocoa that will be sold when the temperature is <m>8\degree\text{C}</m> and when the temperature is <m>16\degree\text{C}</m>.</p></li>
     <li><p>Find an equation for the regression line.</p></li>
-    <li><p>Use your equation to predict the number of cups of cocoa that will be sold when the temperature is <m>9\degree\text{C}</m>, and when the temperature is <m>24\degree\text{C}.</m></p></li></ol></p></statement>
+    <li><p>Use your equation to predict the number of cups of cocoa that will be sold when the temperature is <m>9\degree\text{C}</m>, and when the temperature is <m>24\degree\text{C}.</m></p></li>
+    </ol></p></statement>
     
 <solution><p><ol marker="a">
     <li><p>The scatterplot and a regression line are shown in the figure.</p>
-        <sidebyside width="85%"><image source="images/fig-example-cocoa"><description>scatterplot with regression line</description></image></sidebyside>
+        <image width="85%" source="images/fig-example-cocoa"><description>scatterplot with regression line</description></image>
     <p>The regression line need not pass through any of the data points, but it should be as close as possible. We try to draw the regression line so that there are an equal number of data points above and below the line.</p></li>
     <li><p>The points <m>(8, 32)</m> and <m>(16, 12)</m> appear to lie on the regression line. According to this model, the snack bar will sell 32 cups of cocoa when the temperature is <m>8\degree\text{C}</m>, and 12 cups when it is <m>16\degree\text{C}</m>. These values are close to the actual data, but not exact.</p></li>
     <li><p>To find an equation for the regression line, we use two points on the line<mdash/>not data points! We will use <m>(8, 32)</m> and <m>(16, 12)</m>. First we compute the slope
@@ -223,13 +210,14 @@
         <md><mrow>C=-2.5(\alert{9})+52=29.5</mrow></md>
     We predict that the snack bar will sell 29 or 30 cups of cocoa when the temperature is <m>9\degree\text{C}</m>. When <m>T = \alert{24}</m>,
         <md><mrow>C=-2.5(\alert{24})+52=-8</mrow></md>
-    Because the snack bar cannot sell <m>-8</m> cups of cocoa, this prediction is not useful. (What is the Fahrenheit equivalent of 24°C?)</p></li></ol></p></solution></example>
+    Because the snack bar cannot sell <m>-8</m> cups of cocoa, this prediction is not useful. (What is the Fahrenheit equivalent of 24°C?)</p></li>
+    </ol></p></solution></example>
 
 <p>Using a regression line to estimate values between known data points is called <term>interpolation</term><idx>interpolation</idx><idx><h>linear regression</h><h>interpolation</h></idx>. If the data points lie fairly close to the regression line, then interpolation will usually give a fairly accurate estimate. In the <xref ref="example-cocoa" text="custom">Example</xref> above, the estimate of 29 or 30 cups of cocoa at <m>9\degree\text{C} </m> seems reasonable in the context of the data.</p>
 
 <p>Making predictions beyond the range of known data is called <term>extrapolation</term><idx>extrapolation</idx><idx><h>linear regression</h><h>extrapolation</h></idx>. Extrapolation can often give useful information, but if we try to extrapolate too far beyond our data, we may get unreasonable results. The conditions that produced the data may no longer hold, as in the <xref ref="example-cocoa" text="custom">Example</xref> above, or other unexpected conditions may arise to alter the situation.</p>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
          $TF = PopUp(
           ["?","True","False"],
@@ -240,13 +228,21 @@
     <li><p>A scatterplot is a type of linear model. <var name="$TF" form="popup"/></p></li>
     <li><p>A regression line should give the same <m>y</m>-values as the data points. <var name="$TF" form="popup"/></p></li>
     <li><p>We use interpolation to estimate the <m>y</m>-value at a data point. <var name="$TF" form="popup"/></p></li>
-    <li><p>Extrapolation is usually more reliable than interpolation. <var name="$TF" form="popup"/></p></li></ol></p>
-</statement>
+    <li><p>Extrapolation is usually more reliable than interpolation. <var name="$TF" form="popup"/></p></li>
+</ol></p></statement>
 <solution><p>The statements are all false.</p>
 </solution>
 </webwork></exercise>
 
-<exercise><title>Practice 2</title>
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>True or false.<ol marker="a">
+    <li><p>A scatterplot is a type of linear model.</p></li>
+    <li><p>A regression line should give the same <m>y</m>-values as the data points.</p></li>
+    <li><p>We use interpolation to estimate the <m>y</m>-value at a data point. </p></li>
+    <li><p>Extrapolation is usually more reliable than interpolation. </p></li>
+</ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
         $f = Formula("-2.5*x+52");
         $a1 = $f->eval(x=>-10) ->with(
@@ -271,14 +267,26 @@
         <li><p>Predict the number of cups of cocoa sold when the temperature is <m>7^\circ\text{C}</m>.</p>
                     <p><var name="$a2" width="2"/> cups</p></li>
         <li><p>Which prediction is more likely to be accurate?  Why?</p>
-                    <p><var name="$explain" form="buttons"/></p></li></ol></p>
-    </statement>
+                    <p><var name="$explain" form="buttons"/></p></li>
+    </ol></p></statement>
     <solution><p><ol marker="a">
                 <li><p>77</p></li>
                 <li><p>34 or 35</p></li>
-                <li><p>(b), because it is interpolation</p></li></ol></p>
-    </solution>
+                <li><p>(b), because it is interpolation</p></li>
+    </ol></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 2</title>
+<statement><p><ol marker="a">
+         <li><p>Use your regression equation from the previous Example to predict the number of cups of cocoa sold when the temperature is <m>-10^\circ\text{C} </m>.</p></li>
+        <li><p>Predict the number of cups of cocoa sold when the temperature is <m>7^\circ\text{C}</m>.</p></li>
+        <li><p>Which prediction is more likely to be accurate?  Why?</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+            <li><p>77</p></li>
+            <li><p>34 or 35</p></li>
+            <li><p>(b), because it is interpolation</p></li>
+    </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Scatterplots</title>
@@ -286,10 +294,11 @@
 <p>The data in a scatterplot may show a linear trend, even though the individual points are not clustered closely around a line. Scattering of data is common in the social sciences, where many variables may influence a particular situation. Nonetheless, by analyzing the data, we may be able to detect a connection between some of the variables.</p>
 
 <example xml:id="Example-female-literacy"><statement><p>The world's population is growing at different rates in different nations. Many factors, including economic and social forces, influence the birthrate. Is there a connection between birth rates and education levels? The figure below shows the birth rate plotted against the female literacy rate in 148 countries.</p>
-    <sidebyside width="90%"><image source="images/fig-female-literacy-scatterplot"><description>scatterplot birth rate and female literacy</description></image></sidebyside><p><ol marker="a">
+    <image width="90%" source="images/fig-female-literacy-scatterplot"><description>scatterplot birth rate and female literacy</description></image>
+<p><ol marker="a">
     <li><p>Draw a line of best fit for the data points.</p></li>
     <li><p>Locate on the scatterplot the points representing the following nations</p>
-        <sidebyside><tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
+        <tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
                     <row>
                         <cell halign="left">Country</cell>
                         <cell>Literacy rate</cell>
@@ -318,17 +327,17 @@
                         <cell halign="left">Niger</cell>
                         <cell>9.4</cell>
                         <cell>6.75</cell></row>
-                </tabular></sidebyside></li>
-    <li><p>Data points that lie far from the regression line are called <term>outliers</term><idx><h>linear regression</h><h>outliers</h></idx><idx>outliers</idx><idx><h>outliers</h><seealso>linear regression</seealso></idx>. Which of the nations listed in part (b) could be considered outliers?</p></li></ol></p>
-    </statement>
+                </tabular></li>
+    <li><p>Data points that lie far from the regression line are called <term>outliers</term><idx><h>linear regression</h><h>outliers</h></idx><idx>outliers</idx><idx><h>outliers</h><seealso>linear regression</seealso></idx>. Which of the nations listed in part (b) could be considered outliers?</p></li>
+</ol></p></statement>
     
 <solution><p><ol marker="a">
-        <li><sidebyside width="95%"><image source="images/fig-female-literacy-line"><description>regression line for birth rate and female literacy</description></image></sidebyside></li>
+        <li><image width="95%" source="images/fig-female-literacy-line"><description>regression line for birth rate and female literacy</description></image></li>
         <li><p>The figure above shows the regression line and the data points for eachof the nations in part (b).</p></li>
-        <li><p> Morocco and the Maldives could be considered outliers.</p></li></ol></p>
-    </solution></example>
+        <li><p> Morocco and the Maldives could be considered outliers.</p></li>
+</ol></p></solution></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
             $zero = Compute("0");
             $hundred = Compute("100");
@@ -363,14 +372,25 @@
                         <p><var name="$units" form="buttons"/></p>
                 <p>Explain what the slope means in the context of the data.</p>
                 <p>The birth rate decreases by : </p>
-                        <p><var name="$explain" form="buttons"/></p></li></ol></p>
-    </statement>
+                        <p><var name="$explain" form="buttons"/></p></li>
+    </ol></p></statement>
     <solution><p><ol marker="a">
         <li><p>From 0 to 100; largest: 7.04; smallest: 2.04</p></li>
-        <li><p><m>-0.05</m> births per woman per percentage point. The birth rate decreases by 0.05 births per woman for each percentage point increase in the female literacy rate.</p></li></ol></p>
-    </solution>
+        <li><p><m>-0.05</m> births per woman per percentage point. The birth rate decreases by 0.05 births per woman for each percentage point increase in the female literacy rate.</p></li>
+    </ol></p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 3</title>
+<statement><p>The equation for the least-squares regression line in the previous Example is
+            <md><mrow>y = 7.04 - 0.05x</mrow></md></p>
+    <p><ol marker="a">
+            <li><p>What values for the input variable make sense for the model? What are the largest and smallest values predicted by the model for the output variable?</p></li>
+            <li><p>State the slope of the regression line, including units, and explain what it means in the context of the data.</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+        <li><p>From 0 to 100; largest: 7.04; smallest: 2.04</p></li>
+        <li><p><m>-0.05</m> births per woman per percentage point. The birth rate decreases by 0.05 births per woman for each percentage point increase in the female literacy rate.</p></li>
+    </ol></p></solution></exercise>
 </subsection>
 
 <xi:include href="./section-2-1-exercises.xml" />                

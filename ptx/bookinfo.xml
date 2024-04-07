@@ -27,10 +27,6 @@
     <!-- Prefix to enhance Sage notebook contents -->
     <initialism>Int-Alg</initialism>
 
-      <latex-preamble>
-        <package>cancel</package>
-<!--            \usepackage{gensymb}-->
-      </latex-preamble>
 
    <macros>
         \newcommand\degree[0]{^{\circ}}

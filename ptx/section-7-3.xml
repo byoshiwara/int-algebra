@@ -7,14 +7,15 @@
 
 <subsection><title>A Logarithm is an Exponent</title>
 
-<p>Suppose that a colony of bacteria doubles in size every day. If the colony starts with 50 bacteria, how long will it be before there are 800 bacteria? We answer questions of this type by writing and solving an exponential equation. The function
+<p>Suppose that a colony of bacteria doubles in size every day. If the colony starts with 50 bacteria, how long will it be before there are 800 bacteria?</p>
+<p> We answer questions of this type by writing and solving an exponential equation. The function
 	<me>P(t) = 50 \cdot 2^t</me>
 gives the number of bacteria present on day <m>t</m>, so we must solve the equation
 	<me>800 = 50 \cdot 2^t</me>
 We are looking for an unknown exponent on base 2. Dividing both sides by 50 yields
 	<me>16 = 2^t</me>
 This equation asks the question:</p> 
-	<p>To what power must we raise <m>2</m> in order to get <m>16</m>?</p>
+	<me>\glert{\text{To what power must we raise 2 in order to get 16?}}</me>
 
 <p>Because <m>2^4 = 16</m>, we see that the solution of the equation is 4. You can check that <m>t=4</m> solves the original problem:
 	<me>P(\alert{4}) = 50 \cdot 2^{\alert{4}} = 800</me>
@@ -23,8 +24,7 @@ The unknown exponent that solves the equation <m>16=2^t</m> is called the base <
 So, we solve an exponential equation by computing a logarithm. We make the following definition.</p>
 
 <definition><title>Definition of Logarithm</title><idx>logarithm</idx><idx><h>base</h><h>of a logarithm</h></idx><idx><h>exponent</h><h></h></idx><idx><h>logarithm</h><h>base</h></idx>
-<statement><p>For <m>b\gt 0, b\ne 1</m>, the <term>base <m>b</m> logarithm of <m>x</m></term>,
-	<idx>base</idx>
+<statement><p>For <m>b\gt 0, b\ne 1</m>, the <term>base <m>b</m> logarithm of <m>x</m></term>,<idx>base</idx>
 	written <m>\log_{b} x</m>, is the exponent to which <m>b</m> must be raised in order to yield <m>x</m>.
 </p></statement></definition>
 
@@ -32,15 +32,15 @@ So, we solve an exponential equation by computing a logarithm. We make the follo
 
 <example xml:id="example-easy-logarithm"><statement><p>Compute the logarithms.
 	<ol marker="a">
-		<li><p><m>\log_3 9 = 2</m> because <m>3^2=9</m></p></li>
-		<li><p><m>\log_5 125 = 3</m> because <m>5^3=125</m></p></li>
-		<li><p><m>\log_4 \dfrac{1}{16} = -2</m> because <m>4^{-2}=\dfrac{1}{16}</m></p></li>
-		<li><p><m>\log_5 \sqrt{5} = \dfrac{1}{2}</m> because <m>5^{1/2} = \sqrt{5}</m></p></li>
+		<li><p><m>\log_3 9 = \alert{2}</m> because <m>3^\alert{2}=9</m></p></li>
+		<li><p><m>\log_5 125 = \alert{3}</m> because <m>5^\alert{3}=125</m></p></li>
+		<li><p><m>\log_4 \dfrac{1}{16} = \alert{-2}</m> because <m>4^{\alert{-2}}=\dfrac{1}{16}</m></p></li>
+		<li><p><m>\log_5 \sqrt{5} = \alert{\dfrac{1}{2}}</m> because <m>5^\alert{1/2} = \sqrt{5}</m></p></li>
 	</ol></p></statement></example>
 
-<!--  <p>The positive constant <m>b</m> is called the <term>base</term> of the exponential function.</p> -->
+<note><p>So the request to compute a logarithm really says "Find me the exponent!"</p></note>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
             Context()->functions->disable("All");
             $a = Compute("4");
@@ -53,10 +53,18 @@ So, we solve an exponential equation by computing a logarithm. We make the follo
     </statement>
     <solution><p><ol marker="a" cols="2">
                 <li><p><m>4</m></p></li>
-                <li><p><m>-3</m></p></li></ol></p>
-    </solution>
-    </webwork>
-</exercise>
+                <li><p><m>-3</m></p></li></ol></p></solution>
+</webwork></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Find each logarithm.</p>
+            <p><ol marker="a" cols="2">
+                <li><p><m>\log_{3}{81}</m></p></li>
+                <li><p><m>\log_{10}{\dfrac{1}{1000}}</m></p></li>
+            </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+                <li><p><m>4</m></p></li>
+                <li><p><m>-3</m></p></li></ol></p></solution></exercise>
 
 <p>From the definition of a logarithm and the examples above, we see that the following two statements are equivalent.</p>
 
@@ -67,10 +75,11 @@ So, we solve an exponential equation by computing a logarithm. We make the follo
 
 <p>This equivalence tells us that the logarithm, <m>y</m>, is the same as the <em>exponent</em> in <m>x = b^y</m>. We see again that <em>a logarithm is an exponent</em>; it is the exponent to which <m>b</m> must be raised to yield <m>x</m>.</p>
 
-<p>The conversion equations allow us to convert from logarithmic to exponential form, or vice versa. You should memorize the conversion equations, because we will use them frequently. </p>
+<p>For example, to convert the equation  <m>3 = \log_5 125</m> to exponential form, we note that the base is <m>b=5</m> and the logarithm is <m>y=3</m>, so the exponent on base 5 will be 3, like this:  <m>125 = 5^3</m>.</p>
+
+<p>The <term>conversion equations</term> allow us to convert from logarithmic to exponential form, or vice versa. You should memorize the conversion, because we will use it frequently. </p>
 
 <p>As special cases of the equivalence above, we can compute the following useful logarithms.</p>
-<p>For any base <m>b \gt 0, b\ne 1</m>,</p>
 
 <assemblage><title>Some Useful Logarithms</title><idx><h>logarithm</h><h>some useful</h></idx>
 <p>For any base <m>b \gt 0, b\ne 1</m>,
@@ -85,7 +94,7 @@ So, we solve an exponential equation by computing a logarithm. We make the follo
 		<li><p><m>\log_{3}{3^4} = 4</m></p></li>
 	</ol></p></statement></example>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
         Context()->functions->undefine("ln","log10","log");
         Context()->variables->add(w=>"Real",p=>"Real");
@@ -105,8 +114,17 @@ So, we solve an exponential equation by computing a logarithm. We make the follo
     <li>3</li>
     <li>0</li>
     <li>5</li>
-    <li><m>w^p</m></li></ol></p></solution>
+    <li><m>w^p</m></li>
+</ol></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p><ol marker="a">
+        <li><p><m>\log_6{216}=</m> <fillin characters="6"/> because <m>6^{<fillin characters="3"/>} = 216</m></p></li>
+        <li><p><m>\log_8{1} =</m> <fillin characters="6"/> because <m>8^{<fillin characters="3"/>}= 1</m></p></li>
+        <li><p><m>\log_9{9^5} =</m> <fillin characters="6"/></p></li>
+        <li><p>If <m>\log_w{87} = p,</m> then <m>87 =</m> <fillin characters="6"/></p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Logs and Exponential Equations</title>
@@ -131,13 +149,13 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 	</ol></p></statement>
 <solution><p>First identify the base <m>b</m>, and then the exponent or logarithm <m>y</m>. Use the conversion equations to rewrite <m>b^y = x</m> in the form <m>\log_{b}{x} = y</m>.
 	<ol marker="a">
-		<li><p>The base is <m>2</m> and the exponent is <m>-1</m>. Thus, <m>\log_{2}{\dfrac{1}{2}}= -1</m>.</p></li>
-		<li><p>The base is <m>a</m> and the exponent is <m>\dfrac{1}{5}</m>. Thus, <m>\log_{a}{2.8} = \dfrac{1}{5}</m>.</p></li>
-		<li><p>The base is <m>6</m> and the exponent is <m>1.5</m>. Thus, <m>\log_{6}{T} = 1.5</m>.</p></li>
-		<li><p>The base is <m>M</m> and the exponent is <m>v</m>. Thus, <m>\log_{M}{3K} = v</m>.</p></li>
+		<li><p>The base is <m>\blert{2}</m> and the exponent is <m>\alert{-1}</m>. Thus, <m>\log_{\blert{2}}{\dfrac{1}{2}}= \alert{-1}</m>.</p></li>
+		<li><p>The base is <m>\blert{a}</m> and the exponent is <m>\alert{\dfrac{1}{5}}</m>. Thus, <m>\log_{\blert{a}}{2.8} = \alert{\dfrac{1}{5}}</m>.</p></li>
+		<li><p>The base is <m>\blert{6}</m> and the exponent is <m>\alert{1.5}</m>. Thus, <m>\log_{\blert{6}}{T} = \alert{1.5}</m>.</p></li>
+		<li><p>The base is <m>\blert{M}</m> and the exponent is <m>\alert{v}</m>. Thus, <m>\log_{\blert{M}}{3K} = \alert{v}</m>.</p></li>
 	</ol></p></solution></example>
     
-<exercise> <title>Practice 2</title>
+<exercise component="webwork"> <title>Practice 2</title>
     <webwork><pg-code>
             Context(Fraction);
             $ya = Compute("-1/3");
@@ -161,12 +179,22 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
     </statement>
     <solution><p><ol marker="a" cols="2">
         <li><p><m>\log_8 \left(\dfrac{1}{2} \right)=\dfrac{-1}{3} </m></p></li>
-        <li><p><m>\log_{5} 46=x </m></p></li></ol></p>
-    </solution>
-    </webwork>
-</exercise>
+        <li><p><m>\log_{5} 46=x </m></p></li>
+    </ol></p></solution>
+</webwork></exercise>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="main"> <title>Practice 2</title>
+<statement><p>Rewrite each equation in logarithmic form. </p>
+    <p><ol marker="a" cols="2">
+        <li><p><m>8^{-1/3} = \dfrac{1}{2}</m></p></li>
+        <li><p><m>5^x = 46</m></p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+        <li><p><m>\log_8 \left(\dfrac{1}{2} \right)=\dfrac{-1}{3} </m></p></li>
+        <li><p><m>\log_{5} 46=x </m></p></li>
+    </ol></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
         $sqrt = PopUp(
             [ "?", 
@@ -210,9 +238,17 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
     <li>Taking a square root</li>
     <li>Taking a logarithm</li>
     <li>conversion equations</li>
-    <li>exponent</li></ol></p></solution>
+    <li>exponent</li>
+</ol></p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p><ol marker="a">
+    <li><p>What is the inverse operation for squaring a number?</p></li>
+    <li><p>What is the inverse operation for raising to a power?</p></li>
+    <li><p>Every exponential equation can be rewritten in logarithmic form by using the <fillin characters="6"/>.</p></li>
+    <li><p>A logarithm is an unknown <fillin characters="6"/>.</p></li>
+</ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Approximating Logarithms</title>
@@ -223,7 +259,7 @@ The solution of this equation is <m>x = \log_{2}{26}</m>, but can we find a deci
 	<me>2^4  = 16~~~~~ \text{and }~~~~ 2^5  = 32</me>
 So <m>\log_{2}{26}</m> must be between 4 and 5. We can use trial and error to find the value of <m>\log_{2}{26}</m> to the nearest tenth. Use your calculator to make a table of values for <m>y = 2^x</m>, starting with <m>x = 4</m> and using increments of 0.1.</p>
 
-<sidebyside>   <tabular halign="center" right="minor" left="minor" bottom="minor"><col top="minor" /><col top="minor" /><col top="none"/>
+<tabular halign="center" right="minor" left="minor" bottom="minor"><col top="minor" /><col top="minor" /><col top="none"/>
         <col top="minor"/><col top="minor"/>
                 
         <row bottom="major">
@@ -262,7 +298,7 @@ So <m>\log_{2}{26}</m> must be between 4 and 5. We can use trial and error to fi
             <cell bottom="none"></cell>
             <cell><m>4.9</m></cell>
             <cell><m>2^{4.9}=29.857</m></cell></row>
-     </tabular></sidebyside>
+     </tabular>
 
 <p>From the table we see that 26 is between <m>2^{4.7}</m> and <m>2^{4.8}</m>, and is closer to <m>2^{4.7}</m>. To the nearest tenth, <m>\log_{2}{26} \approx 4.7</m>.</p>
 
@@ -275,10 +311,10 @@ So <m>\log_{2}{26}</m> must be between 4 and 5. We can use trial and error to fi
 <p> We graph <m>Y_1 =3</m><kbd name="circumflex"/> X and <m>Y_2 = 7</m> in the standard window (<kbd>ZOOM</kbd> 6) to obtain the graph shown below. Next we activate the intersect feature to find that the two graphs intersect at the point <m>(1.7712437, 7)</m>. Because this point lies on the graph of <m>y = 3^x</m> , we know that
 	<me>3^{1.7712437} \approx 7~~~\text{, or }~~~ \log_{3}{7} \approx 1.7712437</me>
 To the nearest hundredth, <m>\log_{3}{7} \approx 1.77</m>.</p>
-<sidebyside width="40%"><image source="images/fig-GC-approx-log"><description>GC intersection of expnential curve and horizontal line</description></image></sidebyside>
+    <image width="40%" source="images/fig-GC-approx-log"><description>GC intersection of expnential curve and horizontal line</description></image>
 </solution></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
             Context(Fraction);
             $y = Formula("x");
@@ -301,9 +337,19 @@ To the nearest hundredth, <m>\log_{3}{7} \approx 1.77</m>.</p>
     </statement>
     <solution><p><ol marker="a" cols="2">
             <li><p><m>\log_8(90)=x </m></p></li>
-            <li><p><m>x\approx 4.096 </m></p></li></ol></p>
-    </solution>
+            <li><p><m>x\approx 4.096 </m></p></li>
+    </ol></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 3</title>
+<statement><p><ol marker="a">
+        <li><p>Rewrite the equation <m>3^x = 90</m> in logarithmic form.</p></li>
+        <li><p>Use a graph to approximate the solution to the equation in part (a). Round your answer to three decimal places.</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+            <li><p><m>\log_8(90)=x </m></p></li>
+            <li><p><m>x\approx 4.096 </m></p></li>
+    </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Base 10 Logarithms</title>
@@ -312,7 +358,7 @@ To the nearest hundredth, <m>\log_{3}{7} \approx 1.77</m>.</p>
 	<me>\log_{10}{1000} = 3 ~~~\text{ and }~~~ \log_{10}{0.01} = -2</me>
 Base 10 logarithms are called <term>common logarithms</term><idx>common logarithms</idx><idx><h>base 10 logarithms</h><see>common logarithms</see></idx><idx><h>logarithms</h><h>common (base 10)</h></idx>, and the subscript 10 is often omitted, so that <m>\log x</m> is understood to mean <m>\log_{10}{x}</m>.</p>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>       
             $findex = RadioButtons(
               ["\(x=25\)",
@@ -325,9 +371,17 @@ Base 10 logarithms are called <term>common logarithms</term><idx>common logarith
     <statement><p>If <m>\log x = 2.5</m>, what can you say about <m>x</m>?</p>
         <p><var name="$findex" form="buttons"/></p>      
     </statement>
-    <solution><p><m>x</m> is between 100 and 1000</p>
-    </solution>
+    <solution><p><m>x</m> is between 100 and 1000</p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>If <m>\log x = 2.5</m>, what can you say about <m>x</m>?</p>
+    <p><ol marker="a">
+        <li><p><m>x=25</m></p></li>
+        <li><p><m>x</m> is between 20 and 30</p></li>
+        <li><p><m>x</m> is between 100 and 1000</p></li>
+        <li><p><m>x=\dfrac{1}{2.5}=0.4</m></p></li>
+    </ol></p></statement></exercise>
 
 <p>To evaluate a base 10 logarithm, we use the <kbd>LOG</kbd> key on a calculator. Many logarithms are irrational numbers, and the calculator gives as many digits as its display allows. We can then round off to the desired accuracy.</p>
 
@@ -338,7 +392,7 @@ Base 10 logarithms are called <term>common logarithms</term><idx>common logarith
 		</ol></p></statement>
 <solution><p><ol marker="a">
 	<li><p>The keying sequence <kbd>LOG</kbd> <m>6.5</m> <kbd>)</kbd><kbd>ENTER</kbd> produces the display</p>
-		<sidebyside><tabular>
+		<tabular>
 				<col halign="left"/><col /><col halign="right"/>
 				<row>
 					<cell><m>\log {(6.5)}</m></cell>
@@ -348,7 +402,7 @@ Base 10 logarithms are called <term>common logarithms</term><idx>common logarith
 					<cell><m></m></cell>
 					<cell><m></m></cell>
 					<cell><m>.812913566</m></cell></row>
-			</tabular></sidebyside>
+			</tabular>
 	<p>so <m>\log {6.5}\approx 0.81</m>.</p></li>
 	<li><p>The keying sequence <kbd>LOG</kbd> <m>256</m> <kbd>)</kbd> <kbd>ENTER</kbd> yields <m>2.408239965</m>, so <m>\log {256} \approx 2.41</m>.</p></li>
 	</ol></p></solution></example>
@@ -359,7 +413,7 @@ Base 10 logarithms are called <term>common logarithms</term><idx>common logarith
 so our approximations are reasonable, although you can see that rounding a logarithm to 2 decimal places does lose some accuracy.</p>
 <p> For this reason, <em>rounding logarithms to 4 decimal places is customary.</em></p></note>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>
         Context()->functions->undefine("ln","log10","log");
         $a = Compute("-0.699");
@@ -370,10 +424,22 @@ so our approximations are reasonable, although you can see that rounding a logar
     <li><p><m>\log {846,000}\approx</m><var name="$b" width="5"/></p></li></ol></p></statement>
     <solution><p> <ol marker="a" cols="2">
     <li><m> -0.6990</m></li>
-    <li><m>5.9274</m></li></ol></p></solution>
+    <li><m>5.9274</m></li>
+</ol></p></solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Approximate the logarithms to four decimal places.</p>
+    <p> <ol marker="a" cols="2">
+    <li><p><m>\log {0.2}</m></p> </li>
+    <li><p><m>\log {846,000}</m></p></li>
+</ol></p></statement>
+    <solution><p> <ol marker="a" cols="2">
+    <li><m> -0.6990</m></li>
+    <li><m>5.9274</m></li>
+</ol></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>
         $True = PopUp(
             [ "?", 
@@ -388,7 +454,7 @@ so our approximations are reasonable, although you can see that rounding a logar
             2
         );
     </pg-code>
-    <statement><p>True or False.
+<statement><p>True or False.
     <ol marker="a">
         <li><p>The LOG key on a calculator computes logarithms base 2. <var name="$False" form="popup"/></p></li>
         <li><p><m>\log_5 {100}</m> is a number between 2 and 3.  <var name="$True" form="popup"/></p></li>
@@ -397,13 +463,22 @@ so our approximations are reasonable, although you can see that rounding a logar
         <li><p>The value of <m>\log_4 {392}</m> is also the solution of <m>4^x = 392</m>. <var name="$True" form="popup"/>
             </p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+<solution><p><ol marker="a">
     <li>False</li>
     <li>True</li>
     <li>False</li>
-    <li>True</li></ol></p></solution>
+    <li>True</li>
+</ol></p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p>True or False.
+    <ol marker="a">
+        <li><p>The LOG key on a calculator computes logarithms base 2. </p></li>
+        <li><p><m>\log_5 {100}</m> is a number between 2 and 3. </p></li>
+        <li><p>Rounding a logarithm to two decimal places gives very accurate results. </p></li>
+        <li><p>The value of <m>\log_4 {392}</m> is also the solution of <m>4^x = 392</m>. </p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Solving Exponential Equations</title>
@@ -426,7 +501,7 @@ We can evaluate this expression on the calculator by entering</p>
 
 <p>which yields <m>1.449458992</m>. Thus, to four decimal places, <m>x \approx 1.4495</m>.</p></solution></example>
 
-<warning><p>Do not omit the parenthesis when entering the expression in <xref ref="example-solve-exponential" text="type-global"/>.  Without the parenthesis, you are calculating <m> \log_{10}{\dfrac{3.8}{0.4}}</m>.  You can check that this is not the same as  <m>\dfrac{\log_{10}{3.8}}{0.4}</m>.</p></warning>
+<warning><p>Do not omit the parenthesis when entering the expression in <xref ref="example-solve-exponential" text="type-global"/>.  Without the parenthesis, you are calculating <m> \log_{10}{\dfrac{3.8}{0.4}}</m>. You can check that this is not the same as  <m>\dfrac{\log_{10}{3.8}}{0.4}</m>.</p></warning>
 
 <p>To solve exponential equations involving powers of 10, we can use the following steps.</p>
 
@@ -438,7 +513,7 @@ We can evaluate this expression on the calculator by entering</p>
 	<li>Solve for the variable.</li></ol></p>
 </assemblage>
 
-<exercise><title>QuickCheck 5</title>
+<exercise component="webwork"><title>QuickCheck 5</title>
 <webwork><pg-code>       
             $stepone = RadioButtons(
               ["Multiply 5 times 10.",
@@ -452,11 +527,19 @@ We can evaluate this expression on the calculator by entering</p>
         <p>What is the first step in solving the equation <m>5(10)^x=12</m>?</p>
         <p><var name="$stepone" form="buttons"/></p>      
     </statement>
-    <solution>
-        <p>Divide both sides by 5.</p>
-    </solution></webwork></exercise>
+    <solution><p>Divide both sides by 5.</p></solution>
+</webwork></exercise>
 
-<exercise><title>Practice 5</title>
+<exercise component="main"><title>QuickCheck 5</title>
+<statement><p>What is the first step in solving the equation <m>5(10)^x=12</m>?</p>
+    <p><ol marker="a">
+        <li><p>Multiply 5 times 10.</p></li>
+        <li><p>Take the log of both sides.</p></li>
+        <li><p>Get zero on one side of the equation.</p></li>
+        <li><p>Divide both sides by 5.</p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 5</title>
 <webwork><pg-code>
         Context()->flags->set(useBaseTenLog=>1); 
         $a = Compute("log(220-20)")->with(
@@ -475,6 +558,11 @@ We can evaluate this expression on the calculator by entering</p>
     <solution><p><m>2.3010</m></p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 5</title>
+<statement><p>Solve the equation <m>20+10^x = 220</m>.</p>
+        <p>Hint: <m>\blert{\text{Isolate the power of 10.}}</m></p>
+        <p><m>\blert{\text{Rewrite in logarithmic form.}}</m></p></statement>
+    <solution><p><m>2.3010</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Application to Exponential Models</title>
@@ -501,7 +589,7 @@ To evaluate this expression, we key in</p>
 <p>to find <m>t \approx 7.525749892</m>. The tractor will be worth $15,000 in approximately <m>7\frac{1}{2}</m> years.</p>
 </solution></example>
 
-<exercise><title>QuickCheck 6</title>
+<exercise component="webwork"><title>QuickCheck 6</title>
 <webwork><pg-code>
         $True = PopUp(
             [ "?", 
@@ -528,10 +616,19 @@ To evaluate this expression, we key in</p>
     <li>False</li>
     <li>False</li>
     <li>False</li>
-    <li>True</li></ol></p></solution>
+    <li>True</li>
+</ol></p></solution>
 </webwork></exercise>
 
-<exercise><title>Practice 6</title>
+<exercise component="main"><title>QuickCheck 6</title>
+<statement><p>True or False.<ol marker="a">
+        <li><p>The first step in solving an exponential equation is to convert to logarithmic form.</p></li>
+        <li><p>To solve the equation <m>10^x = 19</m>, we divide both sides by 10.</p></li>
+        <li><p> <m>\dfrac{\log{15}}{6}</m> is the same as <m>\log{\dfrac{15}{6}}</m>.</p></li>
+        <li><p>Logarithms are used in the study of exponential growth and decay. </p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 6</title>
     <webwork><pg-code>
             Context()->variables->add(t=>"Real");
             Context()->flags->set(useBaseTenLog=>1); 
@@ -563,9 +660,24 @@ To evaluate this expression, we key in</p>
     <solution><p><ol marker="a">
                 <li><p>25.85%</p></li>
                 <li><p><m>t\approx 10.4</m> (year 2004)</p></li>
-                <li><p>No, the percent of homes with computers cannot exceed 100%.</p></li></ol></p>
-    </solution>
+                <li><p>No, the percent of homes with computers cannot exceed 100%.</p></li>
+        </ol></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 6</title>
+<statement><p>The percentage of American homes with computers grew exponentially from 1994 to 1999. For <m>t = 0</m> in 1994, the growth law was 
+            <me>P(t) = 25.85(10)^{0.052t}</me> 
+[Source: Los Angeles Times, August 20, 1999]</p>
+    <p><ol marker="a">
+            <li><p>What percent of American homes had computers in 1994?</p></li>
+            <li><p>If the percentage of homes with computers continued to grow at the same rate, when did 90% of American homes have a computer?</p></li>
+             <li><p>Do you think that the function <m>P(t)</m> will continue to model the percentage of American homes with computers? Why or why not?</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+                <li><p>25.85%</p></li>
+                <li><p><m>t\approx 10.4</m> (year 2004)</p></li>
+                <li><p>No, the percent of homes with computers cannot exceed 100%.</p></li>
+        </ol></p></solution></exercise>
 
 <p>At this stage, it seems we will only be able to solve exponential equations in which the base is 10. However, we will see in future sections how the properties of logarithms enable us to solve exponential equations with any base.</p>
 </subsection>

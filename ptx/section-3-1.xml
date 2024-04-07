@@ -12,8 +12,7 @@
     <me>ax^2+bx+c=0</me>
 where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></definition>
 
-
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
              $True = PopUp(
               ["?","Yes","No"],
@@ -26,23 +25,23 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
     </pg-code>    
     <statement><p>Which of the following equations are quadratic?</p>
             <p><ol marker="A">
-                <li><p>
-                    <m>3x+2x^2=1</m> <var name="$True" form="popup"/>
-                </p></li>
-                <li><p>
-                    <m>4z^2-2z^3+2=0</m> <var name="$False" form="popup"/>
-                </p></li>
-                <li><p>
-                    <m>36y-16=0</m> <var name="$False" form="popup"/>
-                </p></li>
-                <li><p>
-                    <m>v^2=6v</m> <var name="$True" form="popup"/>
-                </p></li>
+                <li><p><m>3x+2x^2=1</m> <var name="$True" form="popup"/></p></li>
+                <li><p><m>4z^2-2z^3+2=0</m> <var name="$False" form="popup"/></p></li>
+                <li><p><m>36y-16=0</m> <var name="$False" form="popup"/></p></li>
+                <li><p><m>v^2=6v</m> <var name="$True" form="popup"/></p></li>
             </ol></p>
         </statement>
-    <solution><p>(A) and (D) are quadratic.</p>
-    </solution>
+    <solution><p>(A) and (D) are quadratic.</p></solution>
 </webwork></exercise> 
+
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>Which of the following equations are quadratic?</p>
+    <p><ol marker="a" cols="2">
+        <li><p><m>3x+2x^2=1</m> </p></li>
+        <li><p><m>4z^2-2z^3+2=0</m></p></li>
+        <li><p><m>36y-16=0</m></p></li>
+        <li><p><m>v^2=6v</m></p></li>
+    </ol></p></statement></exercise>
 
 <p>We would like to be able to solve quadratic equations, use them in applications, and graph quadratic equations in two variables. Let's begin by considering some simple examples.</p>
 </subsection>
@@ -72,10 +71,8 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
                     <cell><m>1</m></cell>
                     <cell><m>4</m></cell>
                     <cell><m>9</m></cell></row>
-            </tabular>
-    </stack>
+            </tabular></stack>
     <image xml:id="fig-standard-parab"><description>standard parabola</description><latex-image>
-    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
     <![CDATA[\tikzset{%
     }
     \begin{tikzpicture} [scale=.6]
@@ -120,7 +117,6 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
                     <cell><m>5</m></cell></row>
             </tabular>
         <image xml:id="fig-example-3-1-1"><description>parabola</description><latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
             \begin{tikzpicture} [scale=.6]
@@ -138,8 +134,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
             </latex-image></image></sidebyside>
 </solution></example>
 
-    
-<exercise><title>Practice 1</title>
+ <exercise component="webwork"><title>Practice 1</title>
   <webwork><pg-code>
         $refreshCachedImages = 1;
         $fun=Formula("4-(x)**2");
@@ -189,10 +184,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
     </solution>
   </webwork>
     <conclusion>
-        <sidebyside width="35%" margins="0% 65%">
-            <image xml:id="fig-ex-3-1-1ans">
-            <description>parabola</description>
-            <latex-image>
+        <image width="35%"  xml:id="fig-ex-3-1-1answ"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -208,9 +200,29 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
             }
             \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{4-(\x)^2});
             \end{tikzpicture}]]>
-            </latex-image></image></sidebyside>
-    </conclusion>
-</exercise> 
+            </latex-image></image>
+    </conclusion></exercise> 
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Graph the parabola <m>~y=4-x^2</m> on the same grid in the Example above.</p></statement>
+<solution><image width="50%" xml:id="fig-ex-3-1-1ans"><description>parabola</description><latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.6]
+            \draw[cyan] (-5,-6) grid (5,6);
+            \draw[black,thick,->,>=stealth'] (-5,0)--++(10.6,0) node[right]{$x$};
+            \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.6) node[above]{$y$};
+            \foreach \x  in {-5,5} {
+              \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\x};
+            }
+            \foreach \x in {5,-5} {
+              \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\x};
+            }
+            \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{4-(\x)^2});
+            \end{tikzpicture}]]>
+            </latex-image></image></solution>
+</exercise>
 </subsection>
 
 <subsection><title>Solving Quadratic Equations</title>
@@ -219,9 +231,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
     <me>x^2-4=5</me>
 First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> from Example 1. <idx><h>quadratic equation</h><h>solving by graphing</h></idx></p>
 
-<sidebyside  width="30%">
-     <image xml:id="fig-solve-quadratic"><description>parabola and y=5</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+     <image width="30%" xml:id="fig-solve-quadratic"><description>parabola and y=5</description><latex-image>
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=.6]
@@ -241,7 +251,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
         \filldraw[red] (-3,5) circle (.2);
         \filldraw[red] (3,5) circle (.2);
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside>    
+    </latex-image></image>    
 <p>We would like to find the <m>x</m>-values that make <m>y=5</m>. The horizontal line <m>y=5</m> intersects the graph at two points with <m>y</m>-coordinate 5, and their <m>x</m>-coordinates are the solutions of the equation. Thus, there are two solutions, namely <m>3</m> and <m>-3</m>.</p> 
 
 <p>Algebraically, we solve the equation as follows. <ul> 
@@ -259,7 +269,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
 graphically and algebraically.</p></statement> 
     
 <solution><p> The figure shows the graph of <m>~y=\dfrac{1}{2}x^2-7.</m> </p>
-    <sidebyside  width="40%"><image xml:id="fig-solve-quadratic2"><description>parabola and y=8</description><latex-image>
+    <image width="40%" xml:id="fig-solve-quadratic2"><description>parabola and y=8</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -280,7 +290,7 @@ graphically and algebraically.</p></statement>
             \filldraw[red] ({-sqrt(30)},8) circle (.2);
             \filldraw[red] ({sqrt(30)},8) circle (.2);
             \end{tikzpicture}]]>
-            </latex-image></image></sidebyside> 
+            </latex-image></image> 
 <p>We would like to find the <m>x</m>-values that make <m>y=8</m>. The horizontal line <m>y=8</m> intersects the graph at two points with <m>x</m>-coordinates approximately <m>5.5</m> and <m>-5.5</m>. These are the solutions of the equation.</p>  
 <p>Algebraically, we solve the equation as follows. <ul> 
         <li><p>First, we isolate the variable.  We add 7 to both sides, then multiply by 2, yielding <m>~x^2=30</m>.</p></li> 
@@ -295,7 +305,7 @@ graphically and algebraically.</p></statement>
     <li>For the example above, the exact solutions are <m>\pm \sqrt{30}</m>.</li> 
     <li>The values from the calculator, <m>\pm 5.477</m>, are decimal approximations to the solutions, rounded to thousandths.</li></ul></p></warning>    
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
     <webwork><pg-code>       
             $approximation = PopUp(
               ["?","exact solutions", "approximations"],
@@ -316,9 +326,16 @@ graphically and algebraically.</p></statement>
         <li><p><m>b^2=(0.632)^2, \qquad b=\pm 0.632</m>
                         <var name="$exact" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p>Only the solutions to (a) are approximations.</p>
-        </solution>
+    <solution><p>Only the solutions to (a) are approximations.</p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>Which solutions are exact values, and which are approximations?<ol marker="a">
+        <li><p><m>x^2=40, \qquad\qquad x=\pm 6.32455532</m></p></li>
+        <li><p><m>t^2=\dfrac{81}{64}, \qquad\qquad t=\pm 1.125</m></p></li>
+        <li><p><m>w^2=50, \qquad\qquad w=\pm 5\sqrt{2} </m></p></li>
+        <li><p><m>b^2=(0.632)^2, \qquad b=\pm 0.632</m></p></li>
+    </ol></p></statement></exercise>
 
 <p>We can now solve quadratic equations of the form <m>~ax^2+c = 0~</m>, by isolating <m>x</m> on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called <term>extraction of roots</term>. <idx><h>extraction of roots</h><seealso>quadratic equation</seealso></idx></p>
 
@@ -328,7 +345,7 @@ graphically and algebraically.</p></statement>
     <li>Isolate <m>x</m> on one side of the equation.</li> 
     <li>Take the square root of each side.</li></ol></p></assemblage> 
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
             $r1 = Compute("4");
             $r2 = Compute("-4");
@@ -346,6 +363,10 @@ graphically and algebraically.</p></statement>
     <solution><p><m>\pm 4</m></p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 2</title>
+<statement><p>Solve by extracting roots <m>\quad\dfrac{3x^2-8}{4} = 10</m></p></statement>
+<solution><p><m>\pm 4</m></p></solution></exercise>
 
 <p>In the next Example, we compare the steps for <em>evaluating a quadratic expression</em> and for <em>solving a quadratic equation</em>.</p>
 
@@ -372,7 +393,7 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
 </ol></p>
 <p>A graph of the Tux's height after <m>t</m> seconds is shown below. The points corresponding to parts (a) and (b) are labeled.
 </p>
-        <sidebyside  width="30%"><image source="images/fig-cat-falling"><description>graph </description></image></sidebyside>
+        <image width="30%" source="images/fig-cat-falling"><description>graph </description></image>
     </solution></example>
 </subsection>
 
@@ -382,7 +403,7 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
 
 <assemblage xml:id="Summary-volume-and-surface-area"><title>Formulas for Volume and Surface Area</title><idx>geometric formulas</idx><idx><h>surface area</h><h>of a sphere</h></idx><idx><h>surface area</h><h>of a cylinder</h></idx><idx><h>surface area</h><h>of a cone</h></idx><idx><h>surface area</h><h>of a pyramid</h></idx>
 <idx><h>volume</h><h>of a sphere</h></idx><idx><h>volume</h><h>of a cylinder</h></idx><idx><h>volume</h><h>of a cone</h></idx><idx><h>volume</h><h>of a pyramid</h></idx>
-    <sidebyside  width="90%"><image source="images/fig-volume-and-surface-area"><description>3D Objects</description></image></sidebyside>
+    <image width="90%" source="images/fig-volume-and-surface-area"><description>3D Objects</description></image>
 </assemblage>
 
 <example><statement><p>The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters.  What is the radius of the can, to the nearest tenth of a centimeter?</p></statement>
@@ -393,7 +414,7 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
         <mrow>4.200 \amp \approx r</mrow></md>
  The radius of the can is approximately 4.2 centimeters.</p></solution></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
             $h = 21.64;
             $V = 9049.68;
@@ -404,9 +425,13 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
         </pg-code>
     <statement><p>The glass pyramid at the Louvre in Paris has a square base, is 21.64 meters tall, and encloses a volume of 9049.68 cubic meters. Use the formula <m>~ V=\dfrac{1}{3}s^2h~</m> to find the length of the base. Round your answer to hundredths.</p>
         <p>Answer: <var name="$s" width="4"/> meters</p>
-        </statement>
+    </statement>
         <solution><p>35.42 m</p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 3</title>
+<statement><p>The glass pyramid at the Louvre in Paris has a square base, is 21.64 meters tall, and encloses a volume of 9049.68 cubic meters. Use the formula <m>~ V=\dfrac{1}{3}s^2h~</m> to find the length of the base. Round your answer to hundredths.</p></statement>
+<solution><p>35.42 m</p></solution></exercise>
 </subsection>
 
 <subsection><title>Solving Formulas</title>
@@ -421,7 +446,7 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
             <mrow>\pm \sqrt{\frac{3V}{\pi h}} \amp = r</mrow></md>
 Because the radius of a cone must be a positive number, we use only the positive square root: <m> \quad r = \sqrt{\dfrac{3V}{\pi h}}</m>.</p></solution></example>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
              Context()->variables->add(A=>"Real");
              $radius = Formula("sqrt(A/pi)");
@@ -435,11 +460,16 @@ Because the radius of a cone must be a positive number, we use only the positive
        <hint><p>Start with the formula for the area of a circle: <m>A =</m> </p>
             <p>Solve for <m>r</m> in terms of <m>A</m>.</p>
         </hint>
-    <solution><p><m>r=\sqrt{\dfrac{A}{\pi}}</m></p>
-    </solution>
+    <solution><p><m>r=\sqrt{\dfrac{A}{\pi}}</m></p></solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Find a formula for the radius of a circle in terms of its area, <m>A</m>.</p>
+<p>Hint: Start with the formula for the area of a circle: <m>A =</m> </p>
+            <p>Solve for <m>r</m> in terms of <m>A</m>.</p></statement>
+<solution><p><m>r=\sqrt{\dfrac{A}{\pi}}</m></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 3</title>
     <webwork><pg-code>
             $length = PopUp(
               ["?","I", "II","III","IV"],
@@ -471,6 +501,22 @@ Because the radius of a cone must be a positive number, we use only the positive
                 <li>I</li></ol></p>
         </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>Match each quantity with the appropriate units.</p>
+    <sidebyside widths="50% 50%">
+    <p><ol marker="a">
+            <li><p>Height of a cylinder </p></li>
+            <li><p>Volume of a cone</p></li>
+            <li><p>Surface area of a sphere</p></li>
+            <li><p>Area of a triangle</p></li>
+    </ol></p>
+    <p><ol marker="I">
+            <li>Square meters</li>
+            <li>Feet</li>
+            <li>Cubic centimeters</li>
+            <li>Kilograms</li>
+    </ol></p></sidebyside></statement></exercise>
 </subsection>
 
 <subsection><title>More Extraction of Roots</title><idx>extraction of roots</idx>
@@ -490,7 +536,7 @@ This gives us two equations for <m>x</m>,
         <mrow> x \amp = 6~~~~\text{or}~~~~x=-2</mrow></md>
 The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solutions satisfy the original equation.</p></solution></example>
 
-<exercise><title>Practice 5</title>
+<exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
             $x0 = Compute("(-3 + sqrt(19))/5");
             $x1 = Formula("(-3 - sqrt(19))/5");
@@ -520,7 +566,18 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
         </solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="main"><title>Practice 5</title>
+<statement><p>Solve <m>2(5x + 3)^2 = 38</m> by extracting roots.</p>
+    <p><ol marker="a">
+        <li><p>Give your answers as exact values.</p></li>
+        <li><p>Find approximations for the solutions to two decimal places.</p></li>
+    </ol></p></statement>
+<solution><p><ol marker="a" cols="2">
+                <li><p><m>x=\dfrac{-3\pm \sqrt{19}}{5} </m></p></li>
+                <li><p><m>x\approx -1.47</m> or <m>x\approx 0.27</m></p></li>
+    </ol></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 4</title>
     <webwork><pg-code>
             $TF = PopUp(
               ["?","True", "False"],
@@ -541,9 +598,17 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
                 <li>False</li>
                 <li>False</li>
                 <li>False</li>
-                <li>False</li></ol></p>
-        </solution>
+                <li>False</li>
+    </ol></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p>True or false.<ol marker="a">
+        <li><p>The first step in extraction of roots is to take square roots.</p></li>
+        <li><p>The solutions of a quadratic equation are always of the form <m>~\pm k</m>.</p></li>
+        <li><p>Your calculator gives exact decimal values for square roots of integers.</p></li>
+        <li><p>The coefficients of a quadratic equation are called parabolas.</p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>An Application: Compound Interest</title>
@@ -573,7 +638,7 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
         <md><mrow>A \amp = P(1+r)^2</mrow>
             <mrow>100 \amp = (1+0.04)^2 = 108.16</mrow></md></p>
 
-<exercise><title>Practice 6</title>
+<exercise component="webwork"><title>Practice 6</title>
     <webwork><pg-code>
             $C0 = 36;
             $C1 = 38.16;
@@ -588,6 +653,9 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
     <solution><p>2.96%</p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 6</title>
+<statement><p>The average cost of dinner and a movie two years ago was $36. This year the average cost is $38.16. What was the rate of inflation over the past two years?  (Round to two decimal places.)</p></statement>
+<solution><p>2.96%</p></solution></exercise>
 </subsection>
 
 <xi:include href="./section-3-1-exercises.xml" />                

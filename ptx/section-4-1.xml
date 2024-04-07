@@ -18,7 +18,7 @@ and obtain a formula for the solutions of any quadratic equation.  Here is the r
     <me>x=\dfrac{-b +\sqrt{b^2-4ac}}{2a}~~~\text{and}~~~x=\dfrac{-b - \sqrt{b^2-4ac}}{2a}</me>
 in a single formula.</p></note>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
             $lint = RadioButtons(
               ["\(x=-b \pm \dfrac{\sqrt{b^2-4ac}}{2a}\)",
@@ -37,6 +37,15 @@ in a single formula.</p></note>
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>Which of the following is a correct statement of the quadratic formula?</p>
+    <p><ol marker="a" cols="2">
+        <li><p><m>x=-b \pm \dfrac{\sqrt{b^2-4ac}}{2a}</m></p></li>
+        <li><p><m>x=\dfrac{-b}{2a} \pm \dfrac{\sqrt{b^2-4ac}}{2a}</m></p></li>
+        <li><p><m>x=-b \pm \dfrac{b-\sqrt{4ac}}{2a}</m></p></li>
+        <li><p><m>x=-b \pm \dfrac{\sqrt{b^2-ac}}{a}</m></p></li>
+    </ol></p></statement></exercise>
+
 <p>To solve a quadratic equation using the quadratic formula, all we have to do is substitute the coefficients <m>a,~b,</m> and <m>c</m> into the formula.</p>
 
 <example xml:id="example-quadratic-formula"><statement><p>Solve <m>~~2x^2 + 1 = 4x</m>.</p></statement>
@@ -46,9 +55,9 @@ We substitute <m>\alert{2}</m> for <m>a</m>, <m>\alert{-4}</m> for <m>b</m>, and
         <md><mrow> x \amp =\frac{-(\alert{-4})\pm \sqrt{(\alert{-4})^2 - 4(\alert{2})(\alert{1})}}{2(\alert{2})}</mrow>
             <mrow>\amp = \frac{4 \pm \sqrt{8}}{4}</mrow></md>
 Using a calculator, we find that the solutions are approximately <m>1.7</m> and <m>0.3</m>. These values are the <m>x</m>-intercepts of the graph of <m>~y = 2x^2 - 4x + 1,~</m> as shown in the figure.</p>
-    <sidebyside  width="38%"><image source="images/fig-parabola-intercepts" ><description>parabola with irrational x-intercepts</description></image></sidebyside></solution></example>
+<image width="38%" source="images/fig-parabola-intercepts" ><description>parabola with irrational x-intercepts</description></image></solution></example>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
             Context()->flags->set( reduceConstants => 0, reduceConstantFunctions => 0,   );
             $answer=Formula("(3+sqrt(13))/2,(3-sqrt(13))/2");
@@ -70,6 +79,13 @@ Using a calculator, we find that the solutions are approximately <m>1.7</m> and 
         <solution><p><m>x=\dfrac{3\pm \sqrt{13}}{2} </m></p>
         </solution>
     </webwork></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Use the quadratic formula to solve <m>~x^2 - 3x = 1</m>.</p>
+        <p>Hint: Write the equation in standard form.</p>
+            <p>Substitute <m>a = 1</m>, <m>b = -3</m>, <m>c = -1</m> into the quadratic formula.</p>
+            <p>Simplify.</p></statement>
+    <solution><p><m>x=\dfrac{3\pm \sqrt{13}}{2} </m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -81,7 +97,7 @@ Using a calculator, we find that the solutions are approximately <m>1.7</m> and 
         <li>Quadratic formula</li></ol>
 Factoring and extraction of roots are relatively fast and simple, but they do not work on all quadratic equations. The quadratic formula will work on any quadratic equation.</p>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
     <webwork><pg-code>
             $a = PopUp(
               ["?","I", "II","III","IV"],
@@ -120,12 +136,27 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
                 <li>I</li>
                 <li>IV</li>
                 <li>III</li>
-            </ol></p>
-</solution>
-</webwork>    </exercise>
+            </ol></p></solution>
+</webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>Match each equation with the most efficient method of solution.
+    <ol marker="a" cols="2">
+        <li><p><m>6(x-4)^2=120 </m></p></li>
+        <li><p><m>x^2-9x+20=0</m></p></li>
+        <li><p><m>1.4x^2-6.2x+2.5=0</m></p></li>
+        <li><p><m>x^2-20x=44</m></p></li>
+    </ol></p>
+    <p><ol marker="I" cols="2">
+                    <li><p>Factoring</p></li>
+                    <li><p>Extraction of roots</p></li>
+                    <li><p>Completing the square</p> </li>
+                    <li><p>Quadratic formula</p></li>
+        </ol></p></statement></exercise>
 
 <example xml:id="example-fencing-areas"><statement><p>The owners of a day-care center plan to enclose a divided play area against the back wall of their building, as shown below. They have <m>300</m> feet of picket fence and would like the total area of the playground to be <m>6000</m> square feet. Can they enclose the playground with the fence they have, and if so, what should the dimensions of the playground be?</p>
-    <sidebyside  width="30%"><image source="images/fig-fencing-areas" ><description>two fenced rectangles against wall</description></image> </sidebyside></statement>
+    <image width="30%" source="images/fig-fencing-areas" ><description>two fenced rectangles against wall</description></image> 
+    </statement>
 <solution><p>Suppose the width of the play area is <m>x</m> feet. Because there are three sections of fence along the width of the play area, that leaves <m>300 - 3x</m> feet of fence for its length.</p>
 <p> The area of the play area should be <m>6000</m> square feet, so we have the equation
         <me>x(300 - 3x) = 6000</me>
@@ -142,7 +173,7 @@ When we evalute this last expression, we get two different positive values, <m>x
 <p>The dimensions of the play area can be 72.4 feet by 82.8 feet, or it can be 27.6 feet by 217.2 feet.</p>
 </solution></example>
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
             $a = Compute("(4+sqrt(12))/2")->with(
               tolType => 'absolute',
@@ -171,10 +202,17 @@ When we evalute this last expression, we get two different positive values, <m>x
             <p>Divide each term by <m>-16</m>.</p>
             <p>Use the quadratic formula to solve.</p>
     </hint>
-<solution><p>0.27 sec, 3.73 sec</p>
-        </solution>
+<solution><p>0.27 sec, 3.73 sec</p></solution>
 </webwork></exercise>
-     
+
+<exercise component="main"><title>Practice 2</title>
+<statement><p>The height of a baseball is given by the equation
+                <md><mrow>h=-16t^2+64t+4</mrow></md>
+    where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places.</p>
+    <p>Hint: Set <m>h=20</m>, then write the equation in standard form.</p>
+            <p>Divide each term by <m>-16</m>.</p>
+            <p>Use the quadratic formula to solve.</p></statement>
+<solution><p>0.27 sec, 3.73 sec</p></solution></exercise>   
 </subsection>
 
 <subsection><title>Complex Numbers</title><idx>complex number</idx>
@@ -204,7 +242,7 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
     <li><p><md><mrow>\sqrt{-3} \amp = \sqrt{-1}\sqrt{3}</mrow>
             <mrow> \amp = i \sqrt{3} </mrow></md></p></li></ol></p></statement></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
 <webwork><pg-code>
             Context("Complex")->functions->disable("sqrt");
             Context()->functions->enable("sqrt");
@@ -227,6 +265,17 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
         </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Simplify.</p>
+        <p><ol marker="a" cols="2">
+            <li><p><m>-\sqrt{-36}</m></p></li>
+            <li><p><m>(5i)^2</m></p></li>
+        </ol></p></statement>
+<solution><p><ol marker="a" cols="2">
+                <li><p><m>-6i </m></p></li>
+                <li><p><m>-25 </m></p></li>
+    </ol></p></solution></exercise>
+
 <p>The solutions of many quadratic equations involve imaginary numbers.</p>
  
 <example><statement><p>Solve <m>~~2x^2-x+2 = 0</m>.</p></statement>
@@ -238,7 +287,7 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
 Because the solutions are not real numbers, the graph of 
             <md><mrow>y=2x^2-x+2</mrow></md>
 has no <m>x</m>-intercepts, as shown below.</p>
-    <sidebyside  width="30%"><image xml:id="fig-example-complex-roots"><description>parabola no x-intercepts</description>
+    <image width="30%" xml:id="fig-example-complex-roots"><description>parabola no x-intercepts</description>
                 <latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
@@ -255,11 +304,11 @@ has no <m>x</m>-intercepts, as shown below.</p>
                     }
                     \draw[samples=65,domain={-3/2:2},smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(2*(\x)^2 - \x +2)/2 });
                     \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></solution></example>
+                </latex-image></image></solution></example>
 
 <p>The sum of a real number and an imaginary number is called a <term>complex number</term>.</p>  
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>
         Context("Complex")->functions->disable("sqrt");
         Context()->functions->enable("sqrt");
@@ -281,9 +330,11 @@ has no <m>x</m>-intercepts, as shown below.</p>
         <p><m>x=</m><var name="$answer" width="15"/> </p>
         </statement>
 <solution><p><m>\dfrac{-1}{2} + \dfrac{3}{2}i</m>, <m>\dfrac{-1}{2} - \dfrac{3}{2}i</m></p></solution>
-</webwork>
-</exercise>
+</webwork></exercise>
 
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers.</p></statement>
+<solution><p><m>\dfrac{-1}{2} + \dfrac{3}{2}i</m>, <m>\dfrac{-1}{2} - \dfrac{3}{2}i</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Number of <m>x</m>-Intercepts</title>
@@ -347,7 +398,7 @@ For example, consider the three graphs shown at right.</p>
     <li><p><m>D = b^2 - 4ac = 1^2 - 4(2)(1) = -7 \lt 0</m>.</p><p>The equation has no real solutions, so the graph has no <m>x</m>-intercepts.</p></li>
     <li><p><m>D = b^2 - 4ac = (-6)^2 - 4(1)(9) = 0</m>.</p><p> The equation has one real solution of multiplicity two, and the graph has a single <m>x</m>-intercept.</p></li></ol></p></solution></example> 
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>       
         $True = PopUp(
           ["?","True", "False"],
@@ -374,8 +425,15 @@ For example, consider the three graphs shown at right.</p>
     </solution>
 </webwork></exercise>
 
-<exercise xml:id="exercise-discriminant">
-    <title>Practice 5</title>
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>True or False. <ol marker="a">
+    <li><p>The discriminant is part of the quadratic formula.</p></li>
+    <li><p>We use the discriminant to calculate the solutions of a quadratic equation.</p></li>
+    <li><p>If the discriminant is negative, both <m>x</m>-intercepts of the graph are negative.</p></li>
+    <li><p>If a quadratic equation won't factor, its graph has no <m>x</m>-intercepts.</p></li>
+</ol></p></statement></exercise>
+
+<exercise component="webwork" xml:id="exercise-discriminantw"><title>Practice 5</title>
     <webwork><pg-code>
             $counta = PopUp(
             ["?","None","1", "2", "Other"],
@@ -397,6 +455,17 @@ For example, consider the three graphs shown at right.</p>
         </solution>
 </webwork></exercise> 
 
+<exercise component="main" xml:id="exercise-discriminant"><title>Practice 5</title>
+<statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph of each equation has.</p>
+        <p><ol marker="a" cols="2">
+            <li><p><m>y = x^2 + 5x + 7</m></p></li>
+            <li><p><m>y = -\dfrac{1}{2}x^2 + 4x - 8</m></p></li>
+        </ol></p></statement>
+    <solution>
+            <p><ol marker="a" cols="2">
+            <li><p>None: the discriminant is negative.</p></li>
+            <li><p>One: the discriminant is 0.</p></li>
+            </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Solving Formulas</title>
@@ -412,8 +481,7 @@ Expressions in <m>y</m> are treated as constants with respect to <m>x</m>, so th
             <mrow>\amp = \frac{y \pm\sqrt{y^2 - 4y + 8}}{2}</mrow></md>
 </p></solution></example>
 
-<exercise xml:id="exercise-quadratic-in-two-variables">
-    <title>Practice 6</title>
+<exercise component="webwork" xml:id="exercise-quadratic-in-two-variablesw"><title>Practice 6</title>
     <webwork><pg-code>
             Context()->variables->add(k=>"Real");
             $answer=Formula("(-k+sqrt(8-7k**2))/4, (-k-sqrt(8-7k**2))/4");
@@ -426,8 +494,10 @@ Expressions in <m>y</m> are treated as constants with respect to <m>x</m>, so th
         </solution>
 </webwork></exercise>
 
+<exercise component="main" xml:id="exercise-quadratic-in-two-variables"><title>Practice 6</title>
+<statement><p>Solve <m>2x^2 + kx + k^2 = 1</m> for <m>x</m> in terms of <m>k</m>.</p></statement>
+<solution><p><m>x=\dfrac{-k\pm\sqrt{8-7k^2}}{4} </m></p></solution></exercise>
 </subsection>
-
 
 <xi:include href="./section-4-1-exercises.xml" /> <!-- exercises  -->
 </section> 

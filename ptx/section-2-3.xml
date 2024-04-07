@@ -31,7 +31,7 @@
             <md><mrow>x = 2(\alert{28}) = 56</mrow></md>
     The solution to the system is <m>x = 56</m>, <m>y = 28</m>. Staci should order 56 standard sleeping bags and 28 down-filled bags.</p></solution></example>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
         $explain = RadioButtons(
           ["Solve both equations for \(y\).",
@@ -44,11 +44,19 @@
     <statement><p>What is the first step in the substitution method?</p>
         <p><var name="$explain" form="buttons"/></p>      
     </statement>
-    <solution><p>Solve one of the equations for one of the variables.</p>
-    </solution>
+    <solution><p>Solve one of the equations for one of the variables.</p></solution>
 </webwork></exercise>
 
-<exercise><title>Practice 1</title>
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>What is the first step in the substitution method?</p>
+    <p><ol marker="a">
+        <li><p>Solve both equations for <m>y</m>.</p></li>
+        <li><p>Substitute a value for <m>y</m>.</p></li>
+        <li><p>Solve one of the equations for one of the variables.</p></li>
+        <li><p>Add the equations together.</p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
             Context()->variables->add(y=>"Real");
             $xeq = Formula("2y-2");
@@ -90,12 +98,23 @@
             <p><m>y=<var name="$y"/></m> </p></li>
         <li><p>Step 4</p>
             <p><m>x=<var name="$x"/></m> </p>
-            <p>The solution to the system is <m><var name="$solution"/></m></p>
-            </li>
+            <p>The solution to the system is <m><var name="$solution"/></m></p></li>
         </ul></p>
     </solution>
-    </webwork>
-</exercise>
+    </webwork></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Follow the suggested steps to solve the system by substitution:
+                <md><mrow>3y-2x\amp=3</mrow>
+                    <mrow>x-2y\amp=-2</mrow></md>
+        <ul>
+        <li><p>Step 1: Solve the second equation for <m>x</m> in terms of <m>y</m>.</p></li>
+        <li><p>Step 2: Substitute your expression for <m>x</m> into the first equation.</p></li>
+        <li><p>Step 3: Solve the equation you got in Step 2.</p></li>
+        <li><p>Step 4: You now have the solution value for <m>y</m>. Substitute that value into your result from Step 1 to find the solution value for <m>x</m>. </p>
+            <p>As always, you should check that your solution values satisfy both equations in the system.</p></li>
+        </ul></p></statement>
+    <solution><p><m>(0,1)</m></p></solution></exercise>
 </subsection>
    
 <subsection><title>Elimination Method</title><idx>elimination method</idx><idx><h>elimination method</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>elimination method</h></idx>
@@ -123,7 +142,7 @@ Note that the <m>y</m>-terms canceled, or were <term>eliminated</term>. Solving 
                 <mrow>y \amp = 2     </mrow></md>
 Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>       
         $explain = RadioButtons(
           ["Point-slope form",
@@ -136,9 +155,18 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
     <statement><p>In order to use the elimination method, in what form should you write the equations?</p>
         <p><var name="$explain" form="buttons"/></p>      
     </statement>
-    <solution><p>The general linear form is usually the most convenient form when using the elimination method to solve a system.</p>
+<solution><p>The general linear form is usually the most convenient form when using the elimination method to solve a system.</p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>In order to use the elimination method, in what form should you write the equations?</p>
+    <p><ol marker="a" cols="2">
+        <li><p>Point-slope form</p></li>
+         <li><p>Slope-intercept form</p></li>
+         <li><p>General linear form</p></li>
+         <li><p>Coordinate form</p></li>
+    </ol></p></statement></exercise>
 
 <p>In the previous <xref ref="Example-elimination-method" text="custom">Example</xref>, the elimination method worked because the coefficients of <m>y</m> in the two equations were opposites, <m>2</m> and <m>-2</m>. This caused the <m>y</m>-terms to cancel out when we added the two equations together. What if the coefficients of neither <m>x</m> nor <m>y</m> are opposites? Then we must multiply one or both of the equations in the system by a suitable constant. Consider the system
    <md><mrow>4x+3y\amp = 7</mrow>
@@ -149,7 +177,7 @@ Be careful to multiply each term by <m>-3</m>, not just the <m>y</m>-term. We ca
    <md><mrow>4x+3y\amp = 7</mrow>
        <mrow>-9x-3y\amp =3</mrow></md></p>
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
             Context()->variables->add(y=>"Real");
             $lhs = Formula("-5x");
@@ -174,9 +202,9 @@ Be careful to multiply each term by <m>-3</m>, not just the <m>y</m>-term. We ca
                 <p><m>y=</m><var name="$y" width="2"/> </p></li>
             <li><p>Step 4</p>
                 <p>Check that your solution satisfies both original equations.</p>
-                <p>The solution to the system is <var name="$solution" width="6"/> (Give the solution as an ordered pair.)</p> </li></ul></p>
-        </statement>
-        <solution><p><ul>
+                <p>The solution to the system is <var name="$solution" width="6"/> (Give the solution as an ordered pair.)</p></li>
+        </ul></p></statement>
+    <solution><p><ul>
             <li><p>Step 1</p>
                 <p><m><var name="$lhs"/>=<var name="$rhs" width="3"/></m></p></li>
             <li><p>Step 2</p>
@@ -187,12 +215,22 @@ Be careful to multiply each term by <m>-3</m>, not just the <m>y</m>-term. We ca
                 <p><md><mrow>4(<var name="$x"/>)+3(<var name="$y"/>) \amp = 7</mrow>
                     <mrow>-9(<var name="$x"/>)-3(<var name="$y"/>) \amp = 3</mrow></md></p>
                 <p>The solution to the system is <m><var name="$solution"/></m></p> </li>
-            </ul></p>
-        </solution>
-    </webwork>
-</exercise>
+        </ul></p></solution>
+</webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="main"><title>Practice 2</title>
+<statement><p>Follow the suggested steps to solve the system
+                <md><mrow>4x+3y \amp = 7</mrow>
+                    <mrow>-9x-3y \amp = 3</mrow></md></p>
+        <p><ul>
+            <li><p>Step 1: Add the equations together.</p></li>
+            <li><p>Step 2: Solve the resulting equation for <m>x</m>.</p></li>
+            <li><p>Step 3: Substitute your value for <m>x</m> into either original equation and solve for <m>y</m>.</p></li>
+            <li><p>Step 4: Check that your solution satisfies both original equations.</p></li>
+        </ul></p></statement>
+<solution><p><m>(-2,5)</m></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
          $TF = PopUp(
           ["?","equal","opposites","reciprocals"],
@@ -204,6 +242,9 @@ Be careful to multiply each term by <m>-3</m>, not just the <m>y</m>-term. We ca
     <solution><p>opposites</p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>Before adding the two equations together, we must arrange it so that the coefficients of one of the variables are <fillin characters="10"/>.</p></statement></exercise>
 
 <p>When we add a multiple of one equation to the other we are making a <term>linear combination</term><idx>linear combination</idx> <idx><h>system of equations</h><h>linear combination</h></idx> of the equations. The method of elimination is also called the method of linear combinations. Sometimes we need to multiply both equations by suitable constants in order to eliminate one of the variables.</p>
 
@@ -225,7 +266,7 @@ We solve for <m>y</m> to find <m>y = -1</m>. Finally, we substitute <m>y = \aler
                 <mrow>x\amp = 4</mrow></md>
 The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>       
         $explain = RadioButtons(
           ["A) The divisor",
@@ -238,11 +279,19 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
     <statement><p>What is the name of the smallest integer that two integers, <m>a</m> and <m>b</m>, divide into evenly?</p>
         <p><var name="$explain" form="buttons"/></p>      
     </statement>
-    <solution><p>The lowest common multiple</p>
-    </solution>
+    <solution><p>The lowest common multiple</p></solution>
 </webwork></exercise>
 
-<exercise><title>Practice 3</title>
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p>What is the name of the smallest integer that two integers, <m>a</m> and <m>b</m>, divide into evenly?</p>
+    <p><ol marker="a" cols="2">
+        <li><p>The divisor</p></li>
+         <li><p>The quotient</p></li>
+         <li><p>The lowest common multiple</p></li>
+         <li><p>The lowest common factor</p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
             Context()->variables->add(y=>"Real");
             $lhs0 = Formula("3x");
@@ -275,33 +324,38 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
             <p>The solution to the system is <var name="$solution" width="6"/> (Give the solution as an ordered pair.)</p>
             </li></ul></p>
         </statement>
-        <solution><p>
+    <solution><p>
             <md><mrow><var name="$lhs0"/> = <var name="$rhs0"/></mrow>
                     <mrow><var name="$lhs1"/>= <var name="$rhs1"/></mrow></md>
-            <ul>
+        <ul>
         <li><p>Step 1
-            <md>
-                <mrow>3x-2y \amp= 13</mrow>
-                <mrow>7x+3y \amp= 15</mrow>
-            </md>
-        </p></li>
+            <md><mrow>3x-2y \amp= 13</mrow>
+                <mrow>7x+3y \amp= 15</mrow></md></p></li>
         <li><p>Step 2
-            <md>
-                <mrow>9x-6y \amp= 39</mrow>
-                <mrow>14x+6y \amp= 30</mrow>
-            </md>
-        </p></li>
+            <md><mrow>9x-6y \amp= 39</mrow>
+                <mrow>14x+6y \amp= 30</mrow></md></p></li>
         <li><p>Step 3</p>
             <p><m>x=<var name="$x"/></m></p></li>
         <li><p>Step 4</p>
             <p><m>y=<var name="$y"/></m></p>
-            <p>The solution to the system is <m><var name="$solution"/></m>.</p>
-        </li></ul></p>
-        </solution>
-    </webwork>
-</exercise>
+            <p>The solution to the system is <m><var name="$solution"/></m>.</p></li>
+    </ul></p></solution>
+</webwork></exercise>
 
-<p>Which method should you choose to solve a particular system? Both methods work on any linear system, but the substitution method is easier if one of the variables in one of the equations has coefficient <m>1</m> or <m>-1</m>.</p>
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Follow the suggested steps to solve the system by elimination
+                <md><mrow>\frac{3}{2}x = y + \frac{13}{2}</mrow>
+                    <mrow>y-5= \frac{-7}{3}x</mrow></md>
+    First, clear the fractions: multiply the first equation by 2 and the second equation by 3. </p>
+    <p><ul>
+        <li><p>Step 1: Write each equation in the form <m>Ax + By = C</m>.</p></li>
+        <li><p>Step 2: Eliminate the <m>y</m>-terms: Multiply each equation by an appropriate constant.</p></li>
+        <li><p>Step 3: Add the new equations and solve the result for <m>x</m>.</p></li>
+        <li><p>Step 4: Substitute your value for <m>x</m> into the second equation and solve for <m>y</m>.</p></li>
+    </ul></p></statement>
+    <solution><p><m>(3,2)</m></p></solution></exercise>
+
+<note><p>Which method should you choose to solve a particular system? Both methods work on any linear system, but the substitution method is easier if one of the variables in one of the equations has coefficient <m>1</m> or <m>-1</m>.</p></note>
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
@@ -370,7 +424,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
         then the system is dependent.</p></li></ol></p>
 </assemblage>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>       
         $explain = RadioButtons(
           ["dependent",
@@ -379,17 +433,19 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
           0, 
         );            
         </pg-code>
-    <statement><p>Identify the system as dependent, inconsistent, or consistent and independent
+    <statement><p>Identify the system as dependent, inconsistent, or consistent and independent.
             <md><mrow>x+3y=6</mrow>
                 <mrow>2x-12=-6y</mrow></md></p>
-        <p><var name="$explain" form="buttons"/></p>      
-    </statement>
-    <solution><p>Dependent</p>
-    </solution>
+        <p><var name="$explain" form="buttons"/></p></statement>
+    <solution><p>Dependent</p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Identify the system as dependent, inconsistent, or consistent and independent.
+            <md><mrow>x+3y=6</mrow>
+                <mrow>2x-12=-6y</mrow></md></p></statement>
+<solution><p>Dependent</p></solution></exercise>
 </subsection>
-
  
 <xi:include href="./section-2-3-exercises.xml" />                
 

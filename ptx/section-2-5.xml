@@ -41,7 +41,7 @@
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
             $x1 = Compute("1");
             $y1 = Compute("5");
@@ -101,9 +101,38 @@
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="30%" margins="0% 50%"><image source="images/fig-ex-2-5-1"><description>linear inequality in two variables</description></image></sidebyside>
+        <image width="30%"  source="images/fig-ex-2-5-1w"><description>linear inequality in two variables</description></image>
     </conclusion>
 </exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p><ol marker="a">
+        <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                    <row><cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>-2</m></cell></row>
+                    <row><cell><m>y</m></cell>
+                        <cell><m>\hphantom{00}</m></cell> 
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                </tabular></sidebyside></li>
+        <li><p>Graph the line <m>y - 3x = 6</m>. Then plot your solutions from part (a) on the same grid.</p></li>
+    </ol></p></statement>
+<solution><p><ol marker="a" cols="2">
+        <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <row><cell><m>x</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>-2</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\alert{5} </m></cell>
+                    <cell><m>\alert{0}</m></cell>
+                    <cell><m>\alert{-3}</m></cell></row>
+                </tabular>
+                <p>(Many answers are possible.) </p></li>
+        <li><p><image width="80%" source="images/fig-ex-2-5-1"><description>linear inequality in two variables</description></image></p></li>
+    </ol></p></solution></exercise>
 
 <p></p>
 
@@ -163,14 +192,14 @@ then we shade the half-plane <em>below</em> the line.</p>
 </solution></example>
 
 <warning><p>Be careful when isolating <m>y</m>. We must remember to reverse the direction of the inequality whenever we multiply or divide by a negative number. For example, the inequality
-        <md><mrow>-2y  \alert{\gt} 6x-8</mrow></md>
+        <md><mrow>-2y ~ \alert{\gt} ~ 6x-8</mrow></md>
 is equivalent to
-        <md><mrow>y \alert{\lt} {-3x}+4</mrow></md></p>
+        <md><mrow>y ~ \alert{\lt} ~ {-3x}+4</mrow></md></p>
 </warning>
 
 <p>An inequality that uses <m>\gt</m> or <m>\lt</m> instead of <m>\ge</m> or <m>\le</m> is called <term>strict</term><idx>strict inequality</idx><idx><h>inequality</h><h>strict</h></idx>. The graph of a strict inequality includes only the half-plane and not the line. In that case we use a dashed line for the graph of the equation <m>ax + by + c = 0</m> to show that it is not part of the solution.</p>
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
         $refreshCachedImages = 1;
         $f[0] = Formula("2*x+4");
@@ -231,7 +260,11 @@ is equivalent to
     </solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="main"><title>Practice 2</title>
+<statement><p>Graph the solutions of the inequality <m>4x - 2y \lt -8</m>.</p></statement>
+<solution></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
         $a = PopUp(
           ["?","single point", "quadrant", "semicircle", "half-plane"],
@@ -254,16 +287,23 @@ is equivalent to
         <li><p>The solutions of a linear inequality in two variables consist of a boundary line and a <var name="$a" form="popup"/>.</p></li>
         <li><p>An inequality that uses <m>\gt</m> or <m>\lt</m> instead of <m>\ge</m> or <m>\le</m> is called <var name="$b" form="popup"/>.</p></li>
         <li><p>If we multiply or divide an inequality by a negative number we must <var name="$c" form="popup"/> the direction of the inequality symbol.</p></li>
-        <li><p>The shaded region shows all the <var name="$d" form="popup"/> of the inequality.</p></li></ol></p>
-    </statement>
+        <li><p>The shaded region shows all the <var name="$d" form="popup"/> of the inequality.</p></li>
+    </ol></p></statement>
     <solution><p><ol marker="a">
             <li><p>half-plane</p></li>
             <li><p>strict </p></li>
             <li><p>reverse</p></li>
-            <li><p>solutions</p></li></ol></p>
-    </solution>  
+            <li><p>solutions</p></li>
+    </ol></p></solution>  
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p><ol marker="a">
+        <li><p>The solutions of a linear inequality in two variables consist of a boundary line and a <fillin characters="10"/>.</p></li>
+        <li><p>An inequality that uses <m>\gt</m> or <m>\lt</m> instead of <m>\ge</m> or <m>\le</m> is called <fillin characters="10"/>.</p></li>
+        <li><p>If we multiply or divide an inequality by a negative number we must <fillin characters="10"/> the direction of the inequality symbol.</p></li>
+        <li><p>The shaded region shows all the <fillin characters="10"/> of the inequality.</p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Using a Test Point</title>
@@ -297,7 +337,7 @@ is equivalent to
     <md><mrow>3(\alert{5}) - 2(\blert{0}) \lt 6</mrow></md>
 which is a false statement. Thus, <m>(5, 0)</m> is not a solution to the inequality, so the solutions must lie on the other side of the boundary line. Note that using <m>(5, 0)</m> as the test point gives us the same solutions we found in <xref ref="example-linear-inequality-test-point" text="type-global"/>.</p>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
 <webwork><pg-code>
         $refreshCachedImages = 1;
         $f[0] = Formula("-3/2*x");
@@ -372,6 +412,16 @@ which is a false statement. Thus, <m>(5, 0)</m> is not a solution to the inequal
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Graph the solutions of the inequality <m> y \gt \dfrac{-3}{2}x</m></p>
+    <p><ol marker="1">
+        <li><p>Graph the line <m>y = \dfrac{-3}{2}x.</m> (Use the slope-intercept method.)</p></li>
+        <li><p>Choose a test point. (Do not choose <m>(0, 0)</m>!)</p></li>
+        <li><p>Decide which side of the line to shade.</p></li>
+        <li><p>Should the boundary line be dashed or solid?</p></li>
+    </ol></p></statement>
+<solution></solution></exercise>
+
 <warning><p>We cannot choose a test point that lies on the boundary line. In Practice 3 above, we cannot use <m>(0, 0)</m> as a test point, because it lies on the line <m>y =\dfrac{-3}{2}x.</m> In this case, we should choose some other point, such as <m>(0, 1)</m> or <m>(1, 2)</m>.</p>
 </warning>
 
@@ -392,7 +442,7 @@ Its graph is then a region in the plane.</p>
         <image source="images/fig-planar-graph-x-greater-or-equal-2"><description>graph of x greater or equal to 2 in the plane</description></image></sidebyside>
 </solution></example>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>
         $refreshCachedImages = 1;
         $y1 = 4;
@@ -477,6 +527,9 @@ Its graph is then a region in the plane.</p>
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Graph  <m>-1\lt y \le 4 </m> in the plane.</p></statement>
+<solution></solution></exercise>
 </subsection>
 
 <subsection><title>Systems of Inequalities</title><idx>system of inequalities</idx><idx><h>inequality</h><h>system of</h></idx>
@@ -527,7 +580,7 @@ Its graph is then a region in the plane.</p>
     <li><title>Step 4:</title>
         <p>Laura can choose any combination of broccoli and zucchini represented by points in the shaded region. For example, the point <m>(3, 1)</m> is a solution to the system of inequalities, so Laura could choose to eat <m>3</m> servings of broccoli and <m>1</m> serving of zucchini.</p></li></ul></p></solution></example>
 
-<exercise><title>Practice 5</title>
+<exercise component="webwork"><title>Practice 5</title>
 <webwork>
     <pg-code>
         $refreshCachedImages = 1;
@@ -574,18 +627,15 @@ Its graph is then a region in the plane.</p>
     </pg-code>
     <statement>
         <p>Use the following steps to graph the solutions of the system
-            <md>
-                <mrow>3y-2x \amp\le 2</mrow>
-                <mrow>y \amp\gt x-1</mrow>
-            </md>
-            <ol marker="1">
-                <li><p>Graph the boundary line <m>3y-2x = 2</m>.</p></li>
-                <li><p>Lightly shade the solutions of the inequality <m>3y-2x \le 2</m>.</p></li>
-                <li><p>Graph the boundary line <m>y=x-1</m>.</p></li>
-                <li><p>Lightly shade the solutions of <m>y \gt x-1</m>.</p></li>
-                <li><p>Shade the intersection of the two solutions sets.</p></li>
-            </ol>
-        </p>
+            <md><mrow>3y-2x \amp\le 2</mrow>
+                <mrow>y \amp\gt x-1</mrow></md>
+        <ol marker="1">
+            <li><p>Graph the boundary line <m>3y-2x = 2</m>.</p></li>
+            <li><p>Lightly shade the solutions of the inequality <m>3y-2x \le 2</m>.</p></li>
+            <li><p>Graph the boundary line <m>y=x-1</m>.</p></li>
+            <li><p>Lightly shade the solutions of <m>y \gt x-1</m>.</p></li>
+            <li><p>Shade the intersection of the two solutions sets.</p></li>
+        </ol></p>
        <sidebyside widths="35% 35%" margins="5% 5%">
             <image pg-name="$gr[0]"/>
             <image pg-name="$gr[1]"/>
@@ -594,22 +644,15 @@ Its graph is then a region in the plane.</p>
             <image pg-name="$gr[2]"/>
             <image pg-name="$gr[3]"/>
         </sidebyside>
-        <p>
-            Which of the above is the best match for the solution to the system of inequalities?
-        </p>
+        <p>Which of the above is the best match for the solution to the system of inequalities?</p>
         <p><var name="$mc" form="buttons"/> </p>
     </statement>
     <solution>
-        <sidebyside widths="40%">
-                <image pg-name="$gr[1]"/>
-            </sidebyside>
-        <p>
-          A graph is also shown below.
-        </p>
+        <sidebyside widths="40%"><image pg-name="$gr[1]"/></sidebyside>
+        <p>A graph is also shown below.</p>
     </solution>
 </webwork>  
-<conclusion><sidebyside width="36%" margins="0% 5%"><image xml:id="fig-ex-2-5-5ans"><description>system of inequalities
-    </description><latex-image>
+<conclusion><image width="36%" xml:id="fig-ex-2-5-5ans"><description>system of inequalities</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -626,11 +669,21 @@ Its graph is then a region in the plane.</p>
             \filldraw[blue!50!white, opacity=.2] (-3,-4)--(7,6)--(7,7)--(-4,7)--(-4,-4)--cycle;
             \draw[blue,thick,<->, >=stealth', dashed] (-3,-4)--(7,6) node[above left, xshift=-1.5cm,yshift=1.5cm, midway,fill=blue!10!white, inner sep=2] {$y > x-1$};
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </conclusion>
-</exercise>
+            </latex-image></image>
+</conclusion></exercise>
+
+<exercise component="main"><title>Practice 5</title>
+<statement><p>Use the following steps to graph the solutions of the system
+            <md><mrow>3y-2x \amp\le 2</mrow>
+                <mrow>y \amp\gt x-1</mrow></md></p>
+    <p><ol marker="1">
+        <li><p>Graph the boundary line <m>3y-2x = 2</m>.</p></li>
+        <li><p>Lightly shade the solutions of the inequality <m>3y-2x \le 2</m>.</p></li>
+        <li><p>Graph the boundary line <m>y=x-1</m>.</p></li>
+        <li><p>Lightly shade the solutions of <m>y \gt x-1</m>.</p></li>
+        <li><p>Shade the intersection of the two solutions sets.</p></li>
+    </ol></p></statement>
+<solution></solution></exercise>
 
 <p>To describe the solutions of a system of inequalities, it is useful to locate the <term>vertices</term><idx><h>vertices</h><see>system of inequalities</see></idx><idx><h>vertex</h><h>of a system of inequalities</h></idx>, or corner points, of the boundary.</p>
 
@@ -661,6 +714,25 @@ Its graph is then a region in the plane.</p>
             <p><md><mrow>y \amp= 0</mrow><mrow>x -y \amp= 2</mrow></md></p>
             <p>to find <m>\left(2,0 \right)</m></p></sidebyside>
 <p>The vertices are the points <m>(0, 0)</m>, <m>(0, 3)</m>, <m>\left(\dfrac{10}{3},\dfrac{4}{3} \right)</m>, and <m>(2, 0)</m>.</p></solution></example>
+
+<exercise component="main"><title>Practice 6</title>
+<statement><p><ol marker="a">
+    <li><p>Graph the system of inequalities
+        <md><mrow>5x+4y \amp\lt 40</mrow>
+                <mrow>-3x+4y \amp\lt 12</mrow>
+                <mrow>x \lt 6, ~~~~~y \amp\gt 2</mrow></md></p></li>
+    <li><p>Find the coordinaes of the vertices of the solution set.</p></li>
+</ol></p></statement>
+<solution></solution></exercise>
+
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>True or false.</p>
+    <p><ol marker="a">
+        <li><p>We cannot choose a test point that lies on <fillin characters="10"/>.</p></li>
+        <li><p>The soution set of a system of inequalities is the <fillin characters="10"/> of the solutions to each inequality in the system.</p></li>
+        <li><p>The corner points of the solution set are called the <fillin characters="10"/>. </p></li>
+        <li><p>The graph of <m>x \gt 2</m> is the set of all points that lie <fillin characters="10"/> the boundary line.</p></li>
+        </ol></p></statement></exercise>
 
 </subsection>
  

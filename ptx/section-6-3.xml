@@ -13,7 +13,7 @@ In other words, we can compute <m>x^{3/2}</m> by first taking the square root of
         <md><mrow>100^{3/2} \amp = (\alert{100^{1/2}})^3 \amp\amp \blert{\text{Take the square root of 100.}}</mrow>
             <mrow>\amp= \alert{10^3} = 1000  \amp\amp \blert{\text{Cube the result.}}</mrow></md></p>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork>
     <pg-code>
         $True = PopUp(
@@ -42,6 +42,16 @@ In other words, we can compute <m>x^{3/2}</m> by first taking the square root of
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>True or false.</p>
+<p><ol marker="a">
+    <li><p>When we raise a power to a power, we multiply the exponents; in symbols 
+                        <md><mrow>(a^m)^n = a^{mn}</mrow></md></p></li>
+    <li><p><m>\dfrac{4}{3} = 4\left(\dfrac{1}{3}\right)</m>, and in general <m>\dfrac{p}{q} = p\left(\dfrac{1}{q}\right)</m>. </p></li>
+    <li><p>To compute <m>(25^{1/2})^3</m>, we first take the square root of 25, then cube the result. </p></li>
+    <li><p>The notation <m>16^{3/4}</m> means to multipy 16 by <m>\dfrac{3}{4}</m>.</p></li>
+</ol></p></statement></exercise>
+
 <p>A fractional exponent represents a power and a root. The denominator of the exponent is the root, and the numerator of the exponent is the power. We will define fractional exponents only when the base is a positive number.</p>
 
 <assemblage><title>Rational Exponents</title><idx>rational exponents</idx><idx><h><em>a</em><m>\vphantom{a}^{m/n}</m></h><see>rational exponents</see></idx><idx><h>exponent</h><h>rational</h></idx><idx><h>exponent</h><h>fractional</h></idx>
@@ -65,17 +75,12 @@ or
 <p>or simply</p>
     <p>81 <kbd name="circumflex"/> 0.75 <kbd>ENTER</kbd></p></note>
 
-<warning>
-    <p>
-        When computing <m>81^{3/4}</m> on a calculator, do not forget the parentheses around the exponent, <m>\dfrac{3}{4}</m>. The keying sequence
-    </p>
-    <p>
-        <m>\qquad\qquad 81</m> <kbd name="circumflex"/> <m>3</m> <kbd name="obelus"/> <kbd>ENTER</kbd>
-        gives us the value of <m>\dfrac{81^3}{4}</m>, or <m>132,860.25</m>. The parentheses tell the calculator to include all of the quotient <m>3 \div 4</m> in the exponent, not just the 3.
-    </p>
+<warning><p>When computing <m>81^{3/4}</m> on a calculator, do not forget the parentheses around the exponent, <m>\dfrac{3}{4}</m>. The keying sequence</p>
+    <p><m>\qquad\qquad 81</m> <kbd name="circumflex"/> <m>3</m> <kbd name="obelus"/> <kbd>ENTER</kbd>
+        gives us the value of <m>\dfrac{81^3}{4}</m>, or <m>132,860.25</m>. The parentheses tell the calculator to include all of the quotient <m>3 \div 4</m> in the exponent, not just the 3.</p>
 </warning> 
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
             Context(Fraction)->operators->undefine("^","**");
             Context()->functions->disable("All");
@@ -91,8 +96,17 @@ or
                 <li><p><m>\dfrac{1}{8} </m></p></li>
                 <li><p><m>-243</m></p></li></ol></p>
     </solution>
-    </webwork>
-</exercise>
+    </webwork></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Evaluate each power.<ol marker="a" cols="2">
+                <li><p><m> 32^{-3/5}</m></p></li>
+                <li><p><m> -81^{1.25}</m></p></li>
+        </ol></p></statement>
+    <solution><p><ol cols="2" marker="a">
+                <li><p><m>\dfrac{1}{8} </m></p></li>
+                <li><p><m>-243</m></p></li></ol></p>
+    </solution></exercise>
 </subsection>
 
 <subsection><title>Power Functions</title><idx>power function</idx>
@@ -104,7 +118,7 @@ or
     <me>B(m) = 70m^{0.75}</me>
 where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in kilocalories per day.<ol marker="a">
     <li><p>Calculate the BMR for various animals whose masses are given in the table.</p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell>Animal</cell>
             <cell>Bat</cell>
@@ -113,8 +127,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
             <cell>Lynx</cell>
             <cell>Human</cell>
             <cell>Moose</cell>
-            <cell>Rhinoceros</cell>
-        </row>
+            <cell>Rhinoceros</cell></row>
         <row>
             <cell>Weight (kg)</cell>
             <cell><m>0.1</m></cell>
@@ -133,7 +146,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
             <cell><m></m></cell>
             <cell><m></m></cell>
             <cell><m></m></cell></row>
-    </tabular></sidebyside></li>
+    </tabular></li>
     <li><p>Sketch a graph of Kleiber’s rule for <m>0 \lt m \le 400</m>.</p></li>
     <li><p>Do larger species eat more or less, relative to their body mass, than smaller ones?</p></li>
 </ol></p></statement>
@@ -142,7 +155,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     <li><p>We evaluate the function for the values of <m>m</m> given. For example, to calculate the BMR of a bat, we compute
     <me>B(0.1) = 70(0.1)^{0.75} = 12.4</me>
     A bat expends, and hence must consume, at least 12 kilocalories per day. We evaluate the function to complete the rest of the table. The values of BMR are rounded to the nearest whole number.</p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell>Animal</cell>
             <cell>Bat</cell>
@@ -170,13 +183,13 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
             <cell><m>1694</m></cell>
             <cell><m>5785</m></cell>
             <cell><m>31,853</m></cell></row>
-    </tabular></sidebyside></li>
+    </tabular></li>
     <li><p>We plot the data from the table to obtain the graph below.</p>
-    <sidebyside width="40%"><image source="images/fig-bat-to-rhino" ><description>BMR vs mass</description></image></sidebyside></li>
+    <image width="40%" source="images/fig-bat-to-rhino" ><description>BMR vs mass</description></image></li>
     <li><p>If energy consumption were proportional to body weight, the graph would be a straight line. But this graph is concave down, or bends downward. Larger species eat less than smaller ones, relative to their body weight. For example, a moose weighs 600 times as much as a squirrel, but its energy requirement is only 121 times the squirrel's.</p></li>
 </ol></p></solution></example>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork>
     <pg-code>
         $True = PopUp(
@@ -203,7 +216,16 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
         </solution>
 </webwork></exercise>
 
-<exercise><title>Practice 2</title>
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>True or false</p>
+    <p><ol marker="a">
+    <li><p>The graph of <m>f(x)=70x^{3/4}</m> is concave down.</p></li>
+    <li><p>Energy consumption is not directly proportional to body weight.</p></li>
+    <li><p>An animal twice as heavy as a squirrel uses twice as much energy as a squirrel.</p></li>
+    <li><p>The graph of <m>f(x)=70x^{3/4}</m> passes through the origin.</p></li>
+</ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
             $f = Formula("x**(-3/4)");
             $x[0]=0.1;
@@ -223,36 +245,36 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
         </pg-code>
     <statement><p><ol marker="a">
         <li><p>Complete the table of values for the function <m>f (x) = x^{-3/4}</m>.</p>
-            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>0.1</m></cell>
                         <cell><m>0.2</m></cell>
                         <cell><m>0.5</m></cell>
                         <cell><m>1</m></cell></row>
-                    <row><cell><m>f (x)</m></cell>
+                <row><cell><m>f(x)</m></cell>
                         <cell><var name="$y[0]" width="4"/></cell>
                         <cell><var name="$y[1]" width="4"/></cell>
                         <cell><var name="$y[2]" width="4"/></cell>
                         <cell><var name="$y[3]" width="4"/></cell></row>
-                </tabular></sidebyside>
-                <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                </tabular>
+                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>2</m></cell>
                         <cell><m>5</m></cell>
                         <cell><m>8</m></cell>
                         <cell><m>10</m></cell></row>
-                    <row><cell><m>f (x)</m></cell>
+                    <row><cell><m>f(x)</m></cell>
                         <cell><var name="$y[4]" width="4"/></cell>
                         <cell><var name="$y[5]" width="4"/></cell>
                         <cell><var name="$y[6]" width="4"/></cell>
                         <cell><var name="$y[7]" width="4"/></cell></row>
-                </tabular></sidebyside>                </li>
-            <li><p>Sketch the graph of the function.</p></li></ol></p>
-    </statement>
+                </tabular></li>
+            <li><p>Sketch the graph of the function.</p></li>
+        </ol></p></statement>
     <solution><p><ol marker="a">
-            <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>0.1</m></cell>
@@ -264,8 +286,8 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
                         <cell><m>3.344</m></cell>
                         <cell><m>1.682</m></cell>
                         <cell><m>1</m></cell></row>
-                    </tabular></sidebyside>
-                    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    </tabular>
+                    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>2</m></cell>
@@ -277,14 +299,12 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
                         <cell><m>0.299</m></cell>
                         <cell><m>0.210</m></cell>
                         <cell><m>0.178</m></cell></row>
-                    </tabular></sidebyside></li>
-            <li><p>A graph is below.</p></li></ol></p>
-    </solution>
+                    </tabular></li>
+            <li><p>A graph is below.</p></li>
+        </ol></p></solution>
     </webwork>
     <conclusion>
-        <sidebyside width="35%" margins="0% 5%"><image xml:id="fig-x-to-neg3quarter">
-        <description>power function</description>
-        <latex-image>
+        <image  width="35%" xml:id="fig-x-to-neg3quarterw"><description>power function</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -300,11 +320,85 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
         }
         \draw[samples=65,domain={6^(-4/3):10)},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^(-3/4)});
         \end{tikzpicture}]]>
-        </latex-image>
-</image>
-</sidebyside>
-    </conclusion>
+        </latex-image></image></conclusion>
 </exercise>
+
+<exercise component="main"><title>Practice 2</title>
+<statement><p><ol marker="a">
+        <li><p>Complete the table of values for the function <m>f (x) = x^{-3/4}</m>.</p>
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0.1</m></cell>
+                        <cell><m>0.2</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell></row>
+                <row><cell><m>f(x)</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell></row>
+                </tabular>
+                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row><cell><m>f(x)</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell></row>
+                </tabular></li>
+            <li><p>Sketch the graph of the function.</p></li>
+        </ol></p></statement>
+    <solution><p><ol marker="a">
+            <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0.1</m></cell>
+                        <cell><m>0.2</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell></row>
+                    <row><cell><m>f (x)</m></cell>
+                        <cell><m>5.623</m></cell>
+                        <cell><m>3.344</m></cell>
+                        <cell><m>1.682</m></cell>
+                        <cell><m>1</m></cell></row>
+                    </tabular>
+                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row><cell><m>f (x)</m></cell>
+                        <cell><m>0.595</m></cell>
+                        <cell><m>0.299</m></cell>
+                        <cell><m>0.210</m></cell>
+                        <cell><m>0.178</m></cell></row>
+                    </tabular></li>
+            <li><image  width="35%" xml:id="fig-x-to-neg3quarter"><description>power function</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (0,0) grid[] (10,6);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,6.6) node[above]{$f(x)$};
+        \foreach \x in {5,10} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         }
+        \foreach \x in {2,4,6} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={6^(-4/3):10)},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^(-3/4)});
+        \end{tikzpicture}]]>
+        </latex-image></image></li>
+        </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Radical Notation</title>
@@ -321,7 +415,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
         <li><p><m>6w^{-3/4} = \dfrac{6}{\sqrt[4]{w^3}}</m></p></li></ol></p>
 </statement></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
             $A =  RadioButtons(
                     ["\( \sqrt[4]{5t^{5}} \)",
@@ -348,10 +442,19 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
             <li><p><m>5\sqrt[4]{t^5} </m></p></li>
             <li><p><m>\dfrac{3}{\sqrt[3]{m^5} } </m></p></li></ol></p>
     </solution>
-    </webwork>
-</exercise>
+    </webwork></exercise>
 
-<p> Usually, we will want to convert from radical notation to fractional exponents, since exponential notation is easier to use.</p>
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Write each expression in radical notation.<ol marker="a" cols="2">
+            <li><p><m>5t^{1.25}</m></p></li>
+            <li><p><m> 3m^{-5/3}</m></p></li>
+        </ol></p></statement>
+    <solution><p><ol cols="2" marker="a">
+            <li><p><m>5\sqrt[4]{t^5} </m></p></li>
+            <li><p><m>\dfrac{3}{\sqrt[3]{m^5} } </m></p></li>
+    </ol></p></solution></exercise>
+
+<p> Usually, we will want to convert from radical notation to fractional exponents, because exponential notation is easier to use.</p>
 
 <example xml:id="example-radical-to-exponential"><statement><p><ol marker="a" cols="2">
     <li><p><m>\sqrt{x^5} = x^{5/2}</m></p></li>
@@ -360,7 +463,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     <li><p><m> \sqrt[3]{2y^2} = \left(2y^2\right)^{1/3} = 2^{1/3} y^{2/3}</m></p></li>
 </ol></p></statement></example>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
             Context(Fraction)->variables->add(w=>"Real", v=>"Real", s=>"Real");
             Context()->flags->set(limits=>[2,5]);
@@ -375,10 +478,20 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
             <li><p><m>6^{1/3} w^{2/3} </m></p></li>
             <li><p><m>v^{3/4} s^{-5/4} </m></p></li></ol></p>
         </solution>
-    </webwork>
-</exercise>
+    </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Convert to exponential notation.</p>
+    <p><ol marker="a" cols="2">
+            <li><p><m>\sqrt[3]{6w^2}</m></p></li>
+            <li><p><m>  \sqrt[4]{\dfrac{v^3}{s^5}}</m></p></li>
+    </ol></p></statement>
+        <solution><p><ol cols="2" marker="a">
+            <li><p><m>6^{1/3} w^{2/3} </m></p></li>
+            <li><p><m>v^{3/4} s^{-5/4} </m></p></li>
+    </ol></p></solution></exercise>
+
+<exercise component="webwork"> <title>QuickCheck 3</title>
 <webwork>
     <pg-code>
         $True = PopUp(
@@ -406,6 +519,14 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     </solution>
 </webwork></exercise>
 
+<exercise component="main"> <title>QuickCheck 3</title>
+<statement><p>True or false.</p>
+<p><ol marker="a">
+    <li><p><m>x^{3/5}</m> represents the cube root of <m>x</m> to the fifth power.</p></li>
+    <li><p>We can simplify <m>2x^{4/3}</m> as <m>\sqrt[3]{2x^4}</m>. </p></li>
+    <li><p>The notation <m>a^{-1/4}</m> means <m>-a^4</m>.</p></li>
+    <li><p>We can simplify <m>5b^{-3/2}</m>  as <m>\dfrac{1}{5b^{3/2}}</m>.</p></li>
+</ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Operations with Rational Exponents</title>
@@ -426,7 +547,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
         \amp\amp \blert{\text{Apply the second law of exponents.}}</mrow></md></p></li>
 </ol></p></statement></example>
 
-<exercise><title>Practice 5</title>
+<exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
             Context()->flags->set(reduceConstants=>0);
             Context()->flags->set(limits=>[1,10]);
@@ -485,6 +606,16 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 5</title>
+<statement><p>Simplify by applying the laws of exponents.</p>
+    <p><ol marker="a" cols="2">
+        <li><p><m> x^{1/3}\left(x + x^{2/3}\right)</m></p></li>
+        <li><p><m> \dfrac{n^{9/4}}{4n^{3/4}}</m></p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+                <li><p><m>x^{4/3}+x </m></p></li>
+                <li><p><m>\dfrac{n^{3/2}}{4} </m></p></li>
+        </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Solving Equations</title>
@@ -505,7 +636,7 @@ The solution is <m>8</m>.</p>
         <mrow>2x + 1 \amp = 81 \amp\amp \blert{\text{Solve as usual.}}</mrow>
         <mrow>x \amp = 40</mrow></md></p></solution></example>
 
-<exercise><title>Practice 6</title>
+<exercise component="webwork"><title>Practice 6</title>
     <webwork><pg-code>
             $answer = Compute("(18.4/3.2)**(1/0.6) ")->with(
               tolType => 'absolute',
@@ -518,12 +649,17 @@ The solution is <m>8</m>.</p>
     </statement>
         <hint><p><m>\blert{\text{Isolate the power.}}</m></p>
         <p><m>\blert{\text{Raise both sides to the reciprocal power}}.</m></p></hint>
-    <solution><p><m>18.45</m></p>
-    </solution>
-    </webwork>
-</exercise>
+    <solution><p><m>18.45</m></p></solution>
+</webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="main"><title>Practice 6</title>
+<statement><p>Solve the equation <m>3.2z^{0.6} - 9.7 = 8.7</m>. Round your answer to two decimal places.</p>
+        <p>Hint: <m>\blert{\text{Isolate the power.}}</m></p>
+        <p><m>\blert{\text{Raise both sides to the reciprocal power}}.</m></p>
+    </statement>
+    <solution><p><m>18.45</m></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork>
     <pg-code>
         $True = PopUp(
@@ -549,6 +685,18 @@ The solution is <m>8</m>.</p>
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>True or false.</p>
+<p><ol marker="a">
+    <li><p> The first step in solving an equation with a fractional exponent is to isolate the power.</p></li>
+    <li><p> Then we raise both sides to the reciprocal of the exponent.</p></li>
+    <li><p>We can use the laws of exponents to simplify expressions involving fractional exponents. </p></li>
+    <li><p>The reciprocal of 0.6 is <m>\dfrac{1}{0.6}</m>. </p></li>
+</ol></p></statement></exercise>
+</subsection>
+
+<subsection>
+
 <investigation><title>Inflating a Balloon</title>
  
 <p>If you blow air into a balloon, what do you think will happen to the air pressure inside the
@@ -565,7 +713,8 @@ Francis Sears, Mechanics, Heat, and Sound</p>
 
 <li><p>Two high school students, April Leonardo and Tolu Noah, decided to see for themselves how the pressure inside a balloon changes as the balloon expands. Using a column of water to measure pressure, they collected the following data while blowing up a balloon. Graph their data on the grid below.</p>
  
-<sidebyside widths="30% 65%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+<sidebyside widths="30% 65%" margins="0% 0%" valigns="middle middle">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
     <row>
         <cell bottom="minor"><line>Diameter</line><line>(cm)</line></cell>
         <cell bottom="minor"><line>Pressure</line><line>(cm <m>\text{H}_2</m>O)</line></cell></row>
@@ -624,9 +773,7 @@ Francis Sears, Mechanics, Heat, and Sound</p>
         <cell bottom="minor"><m>32.2</m></cell>
         <cell bottom="minor"><m>61.9</m></cell></row>    
     </tabular>
-    <image xml:id="fig-balloon-pressure-vs-diameter-grid">
-        <description>grid</description>
-        <latex-image>
+    <image xml:id="fig-balloon-pressure-vs-diameter-grid"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -644,10 +791,7 @@ Francis Sears, Mechanics, Heat, and Sound</p>
         }
         \node[font=\bf] at (10,-2) {Diameter (cm)};
         \node[rotate=90,font=\bf] at (-2,8) {Pressure (cm)};        \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</li>
+        </latex-image></image></sidebyside></li>
 
 <li><p>Describe the graph of April and Tolu’s data. Does the graph confirm the predictions of the physics books?</p></li>
 
