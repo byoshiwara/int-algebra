@@ -346,7 +346,7 @@ and press <kbd>ZOOM</kbd> <m>6</m> for the standard window. Your calculator does
                     <cell><m>\frac{-15}{8} </m></cell>
                     <cell><m>-1</m></cell>
                     <cell><m>6</m></cell></row>
-                </tabular></sidebyside>
+                </tabular>
             <p>The graph is shown below.</p>
     </solution> </webwork>
     <conclusion><p><m>f(x)=x^3-2</m></p><image width="25%" source="images/fig-ex-5-2-3answ"><description>cubic</description></image></conclusion>

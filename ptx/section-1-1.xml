@@ -282,7 +282,7 @@
 <statement><p>In the preceding Example, how long can you bicycle for $9.50?</p> 
 <p>Hint: Start by finding $9.50 on the Cost (vertical axis). Then find the point on the graph with <m>C</m>-coordinate $9.50. Finally, find the <m>t</m>-coordinate of that point.</p>
 </statement>
-<solution<p>1.5 hours</p></solution<p></exercise>
+<solution><p>1.5 hours</p></solution></exercise>
 
 <p>In <xref ref="example-6hrbike" text="type-global" />, note the different algebraic techniques we used in parts (a) and (b):</p>
 <p><ul>
@@ -400,7 +400,7 @@
         }
         \draw[red,very thick] (0,10)--(24/5,0);
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
+        </latex-image></image>
     </introduction>
     <webwork>
         <pg-code>

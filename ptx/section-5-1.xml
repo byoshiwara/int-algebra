@@ -453,7 +453,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             </tabular>
             <p>Is  <m>y</m> a function of <m>x</m>? <var name="$YN1" form="popup"/> </p>
         <p><var name="$WHY1" form="buttons"/></p></li>
-        <li><tabular  width="50%" margins="0% 50%"top="major" halign="center" right="minor" left="minor" bottom="minor"> <row bottom="minor">
+        <li><tabular  width="50%" margins="0% 50%" top="major" halign="center" right="minor" left="minor" bottom="minor"> <row bottom="minor">
             <cell><m>x</m></cell>
             <cell><m>-3</m></cell>
             <cell><m>-2</m></cell>
@@ -508,7 +508,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             <cell><m>2.0</m></cell>
             <cell><m>2.5</m></cell></row>
             </tabular></li>
-        <li><tabular  width="50%" margins="0% 50%"top="major" halign="center" right="minor" left="minor" bottom="minor"> <row bottom="minor">
+        <li><tabular  width="50%" margins="0% 50%" top="major" halign="center" right="minor" left="minor" bottom="minor"> <row bottom="minor">
             <cell><m>x</m></cell>
             <cell><m>-3</m></cell>
             <cell><m>-2</m></cell>

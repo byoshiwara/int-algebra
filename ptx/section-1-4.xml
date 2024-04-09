@@ -409,7 +409,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     </ol></p></solution></example>
 
 <exercise component="webwork"><title>Practice 3</title>
-<introduction>latex-image>
+<introduction><image width="40%"  xml:id="fig-ex-1-4-3w"><description>negative slope line with different scales on axes</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -581,7 +581,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 </assemblage>
 
 <exercise component="webwork"><title>Practice 4</title>
-    <introduction<image width="35%" xml:id="fig-garbage-depositedw"><description>linear graph of garbage deposited</description><latex-image>
+    <introduction><image width="35%" xml:id="fig-garbage-depositedw"><description>linear graph of garbage deposited</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }

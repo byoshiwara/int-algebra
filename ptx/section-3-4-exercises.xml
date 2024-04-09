@@ -54,7 +54,7 @@
     <li><m>x^2-\dfrac{3}{2}x+\dfrac{9}{4}</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 7-10, solve by completing the square.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>10, solve by completing the square.</p></introduction>
 
 <exercise number="7"><statement><p><m>x^2+9x+20=0</m></p></statement>
 <answer><p><m>-4, -5</m></p></answer></exercise>
@@ -72,7 +72,7 @@
 <exercise number="12"><statement><p><m>3x^2+x=4</m></p></statement></exercise>      
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 13-16, choose the best method, then solve the equation</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>16, choose the best method, then solve the equation</p></introduction>
 
 <exercise number="13"><statement><p><m>x^2-3x=40</m></p></statement>
     <answer><p><m>-5,8</m></p></answer></exercise>
@@ -161,7 +161,7 @@
     <li>Express the area in factored form.</li>
     <li>By making one cut in the shaded region, rearrange the pieces into a rectangle whose area is given by your answer to part (b).</li></ol></p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 27-30, solve by completing the square.  Your answers will involve <m>a,~b,~</m> or <m>c~</m> (or a combination of these).</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>30, solve by completing the square.  Your answers will involve <m>a,~b,~</m> or <m>c~</m> (or a combination of these).</p></introduction>
 
 <exercise number="27"><statement><p><m>x^2+2x+c=0</m></p></statement>
     <answer><p><m>-1 \pm \sqrt{1-c}</m></p></answer></exercise>

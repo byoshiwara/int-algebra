@@ -347,7 +347,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
             <p>A graph is below.</p></solution></webwork>
     <conclusion>
         <p>Graph for Breadbasket Bakery:</p>
-        <sidebyside width="30%" margins="0% 0%"><image xml:id="fig-ex-ans-1-2-4w"><description>line with positive intercepts</description>
+        <image width="30%" xml:id="fig-ex-ans-1-2-4w"><description>line with positive intercepts</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -367,7 +367,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
 
         \draw[red,very thick] (4,0) -- (0,3);
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside></conclusion>
+    </latex-image></image></conclusion>
 </exercise>
 
 <exercise component="main"><title>Practice 4</title>

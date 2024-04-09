@@ -301,7 +301,7 @@ gives the annual rate of growth, in tons per year, of a fish population of bioma
         <me> d=vT+\dfrac{v^2}{2a}</me>   
 where <m>v</m> is the shuttle's velocity in ft/sec at touchdown, <m>T</m> is the pilot's reaction time before the brakes are applied, and <m>a</m> is the shuttle's deceleration.
  <ol marker="a">
-    <li>Suppose that for a particular landing, <m>T=0.5</m> seconds and <m>a=12</m> ft/sec. Write the equation for <m>d</m> in terms of <m>v</m>, using these values.</li>    
+    <li>Suppose that for a particular landing, <m>T=0.5</m> seconds and <m>a=-12\text{ ft/sec}^2</m>. Write the equation for <m>d</m> in terms of <m>v</m>, using these values.</li>    
     <li>Find the coordinates of the vertex and the horizontal intercepts of the graph of your equation.  Use these points to help you graph the equation.</li> 
     <li>Explain the meaning of the vertex and the intercepts, if any, in this context. As <m>v</m> increases, what happens to <m>d</m>?</li>  
     <li>The runway at Edwards Air Force base is 15,000 feet long. Graph your equation again in an appropriate (larger) window, and use it to estimate the answer to the question:  What is the maximum velocity the shuttle can have at touchdown and still stop on the runway?</li></ol></p>
