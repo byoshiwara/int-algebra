@@ -218,7 +218,7 @@
     <li>Write an equation for a parabola with vertex at <m>(0,-3)</m> and no <m>x</m>-intercepts.</li></ol></p>
 </statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 13 and 14, write the equation in the form <m>~a(x-p)^2+q~</m> by completing the square.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 13 and 14, write the equation in the form <m>~y=a(x-p)^2+q~</m> by completing the square.</p></introduction>
 
 <exercise number="13"><statement><p><m>y=3x^2+6x-2</m></p></statement>
 <answer><p><m>y=(3x+1)^2-5</m></p></answer></exercise>
@@ -438,7 +438,7 @@ rapidly, and how long will the precipitation take?</p></statement>
             <mrow>Y_3 \amp = (x+4)(x-2)</mrow></md></li>
     <li>What are the <m>x</m>-intercepts of the parabola?</li>
     <li><p>By referring to your graph, complete the table showing whether the <m>y</m>-values are positive or negative in each region.</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~~~</m></cell>
                         <cell><m>x \lt -4</m></cell>
@@ -459,12 +459,12 @@ rapidly, and how long will the precipitation take?</p></statement>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></li></ol></p>
+                    </tabular></li></ol></p>
 </statement>
 <answer><p><ol marker="a">
     <li><sidebyside  width="30%"><image source="images/fig-two-lines-and-parabola"><description>graph</description></image></sidebyside></li>
     <li><m>(-4,0),~(0,2)</m></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~~~</m></cell>
                         <cell><m>x \lt -4</m></cell>
@@ -485,7 +485,7 @@ rapidly, and how long will the precipitation take?</p></statement>
                         <cell><m>+</m></cell>
                         <cell><m>-</m></cell>
                         <cell><m>+</m></cell></row>
-                    </tabular></sidebyside></li></ol></p>
+                    </tabular></li></ol></p>
 </answer></exercise>
 
 </subexercises>
