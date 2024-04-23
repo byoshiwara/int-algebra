@@ -58,7 +58,7 @@
 <exercise number="11"><statement><p><m>F(x)=\dfrac{1-x}{2x-3}</m><ol marker="a" cols="2">
     <li><m>F(0)</m></li>
     <li><m>F(-3)</m></li>
-    <li><m>F(\dfrac{5}{2})</m></li>
+    <li><m>F\left(\dfrac{5}{2}\right)</m></li>
     <li><m>F(9.8)</m></li></ol></p>
 </statement>
 <answer><p><ol marker="a" cols="2">
