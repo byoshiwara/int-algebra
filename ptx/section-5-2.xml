@@ -442,7 +442,7 @@ at most one point.</p></assemblage>
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>The vertical line test is used to decide whether a graph represents a <fillin characters="10"/>.</p>
-<p>If it is, there cannot be two poits on the graph with the same <fillin characters="10"/>.</p></statement></exercise>
+<p>If it is, there cannot be two points on the graph with the same <fillin characters="10"/>.</p></statement></exercise>
 
 <exercise component="webwork"><title>Practice 4</title>
     <introduction><p>Use the vertical line test to determine which of the graphs below represent functions.</p>

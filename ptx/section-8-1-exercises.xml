@@ -79,13 +79,13 @@
     <li>5</li>
     <li>7</li></ol></p></answer></exercise>
 
-<exercisegroup><introduction><p>For Problems 10 and 11, multiply.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 10 and 11, multiply.</p></introduction>
 
-<exercise number="10"><statement><p><ol marker="a" cols="2">
+<exercise number="10"><statement><p><ol marker="a">
     <li><m>(3x-2)(4x^2+x-2)</m></li>
     <li><m>(x-2)(x-1)(x-3)</m></li></ol></p></statement></exercise>
 
-<exercise number="11"><statement><p><ol marker="a" cols="2">
+<exercise number="11"><statement><p><ol marker="a">
     <li><m>(2a^2-3a+1)(3a^2+2a-1)</m></li>
     <li><m>(y-2)(y+2)(y+4)(y+1)</m></li></ol></p></statement>
 <answer><p><ol marker="a">
@@ -94,13 +94,13 @@
 </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 12 and 13, use the formulas for the cube of a binomial to expand the products.</p></introduction>
+<exercisegroup  cols="2"><introduction><p>For Problems 12 and 13, use the formulas for the cube of a binomial to expand the products.</p></introduction>
 
-<exercise number="12"><statement><p><ol marker="a" cols="2">
+<exercise number="12"><statement><p><ol marker="a">
     <li><m>(1+2z)^3</m></li>
     <li><m>(1-x^2)^3</m></li></ol></p></statement></exercise>
 
-<exercise number="13"><statement><p><ol marker="a" cols="2">
+<exercise number="13"><statement><p><ol marker="a">
     <li><m>(1+5\sqrt{t})^3</m></li>
     <li><m>(1-\dfrac{3}{a})^3</m></li></ol></p></statement>
 <answer><p><ol marker="a">
@@ -109,7 +109,7 @@
 </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 14 and 15, write each product as a polynomial and simplify.</p></introduction>
+<exercisegroup  cols="2"><introduction><p>For Problems 14 and 15, write each product as a polynomial and simplify.</p></introduction>
 
 <exercise number="14"><statement><p><ol marker="a">
     <li><m>(2x + 1)(4x^2 - 2x + 1)</m></li>

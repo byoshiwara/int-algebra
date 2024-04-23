@@ -62,8 +62,7 @@ This equation tells us that any point with <m>x</m>-coordinate <m>-2</m> lies on
 
 <example xml:id="example-horizontal-and-vertical-lines"><statement><p>Give the equation of each line.
     <ol marker="a" cols="2">
-        <li><sidebyside width="60%" margins="5% 5%">
-            <image xml:id="fig-example-9-1-1a"><description>horizontal line</description><latex-image>
+        <li><image width="70%" xml:id="fig-example-9-1-1a"><description>horizontal line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -79,9 +78,8 @@ This equation tells us that any point with <m>x</m>-coordinate <m>-2</m> lies on
         }
         \draw[red,very thick,<->,>=stealth'] (-3,-2)--++(5,0);
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></li>
-    <li><sidebyside width="70%" margins="5% 5%">
-            <image xml:id="fig-example-9-1-1b"><description>horizontal line</description><latex-image>
+        </latex-image></image></li>
+    <li><image width="70%" xml:id="fig-example-9-1-1b"><description>horizontal line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -97,7 +95,7 @@ This equation tells us that any point with <m>x</m>-coordinate <m>-2</m> lies on
         }
         \draw[red,very thick,<->,>=stealth'] (3,-1)--++(0,5);
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></li>
+        </latex-image></image></li>
     </ol></p></statement>
     
 <solution><p><ol marker="a">
@@ -119,7 +117,7 @@ which is undefined. The slope of any vertical line is undefined because the expr
 <p>The slope of a <term>vertical</term><idx><h>line</h><h>vertical</h></idx> line is <term>undefined</term>.</p>
 </assemblage>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>       
         $horizontal = PopUp(
           ["?"," 0 ", "Undefined"],
@@ -141,7 +139,17 @@ which is undefined. The slope of any vertical line is undefined because the expr
     </solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="main"><title>Practice 1</title>
+<statement><p><ol marker="a">
+        <li><p>What is the slope of any line parallel to the <m>x</m>-axis?</p></li>
+        <li><p>What is the slope of any line parallel to the <m>y</m>-axis?</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+            <li>0</li>
+            <li>undefined</li>
+    </ol></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
         $True = PopUp(
           ["?","True", "False"],
@@ -166,6 +174,15 @@ which is undefined. The slope of any vertical line is undefined because the expr
             <li>False</li></ol></p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p> True or False.</p> 
+    <p><ol marker="a">
+            <li><p>A horizontal line has no slope.</p></li>
+            <li><p>The equation of a vertical line is undefined.</p></li>
+            <li><p>A vertical line is not the graph of a function. </p></li>
+            <li><p>The graph of <m>x = 6</m> is a point. </p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Parallel and Perpendicular Lines</title>
@@ -189,7 +206,7 @@ which is undefined. The slope of any vertical line is undefined because the expr
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<sidebyside widths="35% 58%" margins="0% 0%" valigns="middle middle">
+<sidebyside widths="30% 58%" margins="0% 0%" valigns="middle middle">
     <image xml:id="fig-perpendicular-lines"><description>perpendicular lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -207,8 +224,9 @@ which is undefined. The slope of any vertical line is undefined because the expr
         \end{tikzpicture}]]>
     </latex-image></image>
 <p><term>Perpendicular</term><idx>perpendicular lines</idx><idx><h>line</h><h>perpendicular</h></idx> lines in a plane meet at right angles, or 90°. The relationship between the slopes of perpendicular lines is not so easy to see as the relationship for parallel lines. However, for the perpendicular lines shown at left, you can verify that
-        <md><mrow>m_1=\frac{1}{2} \quad\text{ and } \quad m_2 =-2</mrow></md>
-Note that the product of <m>m_1</m> and <m>m_2</m> is <m>-1</m>, that is,</p></sidebyside>
+        <md><mrow>m_1=\frac{1}{2} \quad\text{ and } \quad m_2 =-2</mrow></md></p></sidebyside>
+
+<p>Note that the product of <m>m_1</m> and <m>m_2</m> is <m>-1</m>, that is,</p>
 <p>
         <md><mrow>m_1 m_2 = \frac{1}{2}(-2)=-1</mrow></md>
 This relationship holds for any pair of perpendicular lines. We summarize these results as follows.</p>
@@ -220,8 +238,8 @@ This relationship holds for any pair of perpendicular lines. We summarize these 
         or if both lines are vertical.</p></li>
     <li><p>Two lines are <term>perpendicular</term><idx>perpendicular lines</idx><idx><h>line</h><h>perpendicular</h></idx> if the product of their slopes is <m>-1</m>, that is, if
         <md><mrow>\blert{m_1 m_2 = -1}</mrow></md>
-    or if one of the lines is horizontal and one is vertical.</p></li></ol></p>
-</assemblage>
+    or if one of the lines is horizontal and one is vertical.</p></li>
+</ol></p></assemblage>
 
 <p>Another way to state the condition for perpendicular lines is
     <md><mrow>m_2=\frac{-1}{m_1}</mrow></md>
@@ -239,7 +257,7 @@ The slope of the first line is <m>m_1=\dfrac{-2}{3}</m>, and the slope of the se
             <md><mrow>m_1 m_2 = \left(\frac{-2}{3}\right)\left(\frac{3}{2}\right)=-1</mrow></md>
 so the lines are perpendicular.</p></solution></example>
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
         $a = Compute("-1/4");
         $b = Compute("4");
@@ -256,7 +274,17 @@ so the lines are perpendicular.</p></solution></example>
     </solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="main"><title>Practice 2</title>
+<statement><p><ol marker="a">
+        <li><p>What is the slope of a line that is parallel to <m>x + 4y = 2</m>?</p></li>
+        <li><p>What is the slope of a line that is perpendicular to <m>x + 4y = 2</m>?</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+            <li><p><m>\dfrac{-1}{4} </m></p></li>
+            <li><p><m>4</m></p></li>
+    </ol></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
         $True = PopUp(
           ["?","True", "False"],
@@ -280,18 +308,26 @@ so the lines are perpendicular.</p></solution></example>
         <li><p>True</p></li>
     </ol></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>True or false.</p>
+    <p><ol marker="a">
+        <li><p>The best way to test whether two lines are perpendicular is to graph them. </p></li>
+        <li><p>Two lines are perpendicular if their slopes are reciprocals. </p></li>
+        <li><p>If two lines are not parallel, they must be perpendicular. </p></li>
+        <li><p>A vertical line is perpendicular to a horizontal line. </p></li>
+    </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Applications to Geometry</title>
 
-<p>These relationships for the slopes of parallel and perpendicular lines can help us solve numerous geometric problems.
-</p>
+<p>These relationships for the slopes of parallel and perpendicular lines can help us solve numerous geometric problems.</p>
 
 <example><statement><p>Show that the triangle with vertices <m>A (0, 8)</m>, <m>B (6, 2)</m>, and <m>C (-4, 4)</m> is a right triangle.</p></statement>
     
 <solution><p>We will show that two of the sides of the right triangle are perpendicular. The line segment <m>~\overline{AB}~</m> has slope
             <md><mrow>m_1=\frac{2-8}{6-0}=\frac{-6}{6}=-1</mrow></md></p>
-        <sidebyside widths="50% 35%" margins="0% 10%" valigns="middle middle">
+    <sidebyside widths="50% 35%" margins="0% 10%" valigns="middle middle">
         <p>and the segment <m>\overline{AC} ~ </m> has slope
                 <md><mrow>m_2=\frac{4-8}{-4-0}=\frac{-4}{-4}=1</mrow></md>
         Because
@@ -316,7 +352,7 @@ so the lines are perpendicular.</p></solution></example>
 <p>The sides <m>\overline{AB}</m> and <m>\overline{AC}</m> perpendicular, and therefore the triangle is a right triangle.
 </p></solution></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
 <webwork><pg-code>
         $m1 = Compute("-5/4");
         $m2 = Compute("36/5");
@@ -338,9 +374,15 @@ so the lines are perpendicular.</p></solution></example>
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Show that the quadrilateral with vertices <m>A (-5, 4)</m>, <m>B (7, -11)</m>, <m>C (12, 25)</m>, and <m>D(0, 40)</m> is a parallelogram.</p>
+        <p>(Hint: Show that <m>\overline{AB} </m> is parallel to <m>\overline{CD} </m>, and that <m>\overline{BC} </m> is parallel to <m>\overline{AD} </m>.)</p></statement>
+    <solution><p><m>m_{AB}=m_{CD}=\dfrac{-5}{4}</m>; <m>m_{BC}=m_{AD}=\dfrac{36}{5}</m></p>
+    </solution></exercise>
+
 <example><statement><p>Find an equation for the line that passes through the point <m>(1, 4)</m> and is perpendicular to the line <m>4x -2y = 6</m>.</p></statement>
 
-<solution><sidebyside widths="52% 30%" margins="0% 10%" valigns="middle middle">
+<solution><sidebyside widths="52% 30%" margins="0% 10%" valigns="top top">
 <p>First we find the slope of the desired line, then use the point-slope formula to write its equation. The line we want is perpendicular to the given line, so its slope is the negative reciprocal of <m>m_1 = 2</m>, the slope of the given line. Thus
                 <md><mrow>m_2=\frac{-1}{m_1}=\frac{-1}{2}</mrow></md></p>
         <image xml:id="fig-example-9-1-4"><description>line perpendicular to given line</description><latex-image>
@@ -371,9 +413,9 @@ so the lines are perpendicular.</p></solution></example>
                 </mrow></md>
 The given line and the perpendicular line are shown in the figure on the above.</p></solution></example>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
 <introduction>
-    <sidebyside width="40%"><image xml:id="fig-ex-9-1-4"><description>altitude of triangle</description><latex-image>
+    <sidebyside width="40%"><image xml:id="fig-ex-9-1-4w"><description>altitude of triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -414,6 +456,41 @@ The given line and the perpendicular line are shown in the figure on the above.<
     <solution><p><m>m_1=\dfrac{2}{5}</m>; <m>m_2=\dfrac{-5}{2}</m>; <m>y=\dfrac{-5}{2}x+\dfrac{17}{2} </m></p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 4</title>
+<statement><sidebyside widths="50% 40%">
+    <stack><p>Follow the steps to find an equation for the altitude of the triangle shown at right. (Recall that the altitude of a triangle is perpendicular to its base.)</p>
+    <p>Find the slope of the base.
+        <me>m_1=</me> </p>
+    <p>Find the slope of the altitude.
+        <me>m_2=</me> </p></stack>
+
+    <image xml:id="fig-ex-9-1-4"><description>altitude of triangle</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (0,0) grid (8,8);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(8.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,8.6) node[above]{$y$};
+        \foreach \x in  {2,4,6,8} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {2,4,6,8} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (2,1) -- (7,3)--(1,6) --cycle;
+        \draw[blue!60!black,thick] (1,6) -- (83/29,39/29);
+        \draw[blue!60!black,thick] (83/29,39/29)++(-.1,.25) --++(.25,.1)--++(.1,-.25);\filldraw[red] (2,1) circle (0.1);
+        \filldraw[red] (7,3) circle (0.1);
+        \filldraw[red] (1,6) circle (0.1);
+        \end{tikzpicture}]]>
+    </latex-image></image></sidebyside>
+    <p>Use the point-slope formula. Use <m>m_2</m> for the slope, and the vertex of the triangle for <m>(x_1, y_1)</m>. 
+            <me>y- y_1 = m (x- x_1)</me>
+        Write your answer in slope-intercept form.</p></statement>
+    <solution><p><m>y=\dfrac{-5}{2}x+\dfrac{17}{2} </m></p></solution></exercise>
+
 </subsection>
 
 <xi:include href="./section-9-1-exercises.xml" />                

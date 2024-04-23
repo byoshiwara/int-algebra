@@ -79,7 +79,7 @@ Taking the (positive) square root of each side of this equation gives us the <te
         <md><mrow>\blert{d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}}</mrow></md></p>
 </assemblage>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
         $True = PopUp(
           ["?","True", "False"],
@@ -105,6 +105,15 @@ Taking the (positive) square root of each side of this equation gives us the <te
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>True or false.</p>
+    <p><ol marker="a">
+        <li><p>The distance formula is a version of the Pythagorean theorem.</p></li>
+        <li><p><m>(u-v)^2 = (v-u)^2 = |u-v|^2=|v-u|^2 </m> </p></li>
+        <li><p>We can find the length of a horizontal segment by subtracting the <m>x</m>-coordinates of its endpoints.</p></li>
+        <li><p>The distance between two points is always a positive number (or zero).</p></li>
+    </ol></p></statement></exercise>
+
 <example xml:id="example-distance-betw-points"><statement><p>Find the distance between <m>(2,-1)</m> and <m>(4,3)</m>.</p></statement>
     
 <solution><p>Substitute <m>(2,-1)</m> for <m>(x_1,y_1)</m> and <m>(4,3)</m> for <m>(x_2,y_2)</m> in the distance formula to obtain
@@ -120,7 +129,7 @@ Taking the (positive) square root of each side of this equation gives us the <te
         <md><mrow>\sqrt{3^2+4^2}=\sqrt{9+16}=\sqrt{5}</mrow></md>
 so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For the same reason, we cannot simplify the distance formula to <m>(x_2-x_1)+(y_2-y_1)</m>.</p></warning>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>
         $d = Compute("sqrt(208)");
     </pg-code>
@@ -139,8 +148,8 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
             <li>A graph is below.</li></ol></p>
     </solution>
 </webwork>
-<conclusion><p>Graph for Practice 1:</p><sidebyside width="40%" margins="0% 50%">
-    <image xml:id="fig-ex-9-2-1ans"><description>distance formula</description><latex-image>
+<conclusion><p>Graph for Practice 1:</p>
+    <image width="40%" xml:id="fig-ex-9-2-1answ"><description>distance formula</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -159,14 +168,46 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
         \filldraw[blue] (3,-9) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(3,-9)$};
         \node[fill=white, inner sep=1,text=red] at (0.5,1.5) {$8^2+12^2=d^2$};
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></conclusion>
+        </latex-image></image></conclusion>
 </exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p><ol marker="a">
+        <li><p>Find the distance between the points <m>(-5,3)</m> and <m>(3,-9)</m>.</p></li>
+        <li><p>Plot the points, and illustrate how the Pythagorean theorem is used in calculating the distance.</p></li>
+    </ol></p></statement>
+    <solution>
+        <p><ol marker="a">
+            <li><m>\sqrt{208}</m></li>
+            <li><image width="40%" xml:id="fig-ex-9-2-1ans"><description>distance formula</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (-8,-10) grid (5,5);
+        \draw[black,thick, ->, >=stealth'] (-8,0)--(5.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,5.6) node[above]{$y$};
+        \foreach \x in  {5,-5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, thick] (-5,3)--(3,-9) node[midway, right, xshift=3, yshift=5, fill=white, inner sep=1] {$d$};
+        \draw[blue,ultra thick, dashed] (-5,3)--(-5,-9) node[left, midway, xshift=-2, fill=white, inner sep=1]{$12$};
+        \draw[blue,ultra thick, dashed] (-5,-9)--(3,-9) node[below, midway, yshift=-2, fill=white, inner sep=1]{$8$};
+        \filldraw[blue] (-5,3) circle (.2) node[above left, yshift=3, fill=white, inner sep=1, text=black] {$(-5,3)$};
+        \filldraw[blue] (3,-9) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(3,-9)$};
+        \node[fill=white, inner sep=1,text=red] at (0.5,1.5) {$8^2+12^2=d^2$};
+        \end{tikzpicture}]]>
+        </latex-image></image></li>
+    </ol></p></solution></exercise>
 </subsection>
 
-<subsection><title>Finding the Midpoint</title>
+<subsection><title>The Midpoint Formula</title>
 
-<p>The <term>midpoint</term><idx>midpoint</idx> of a segment is the point halfway between its endpoints, so that the distance from the midpoint to either endpoint is the same. The <m>x</m>-coordinate of the midpoint is halfway between the <m>x</m>-coordinates of the endpoints, and likewise for the <m>y</m>-coordinate. For the points <m>(-2, 7)</m> and <m>(6, 3)</m> shown below, the <m>x</m>-coordinate of the midpoint is <m>2</m>, which is halfway between <m>-2</m> and <m>6</m>. The <m>y</m>-coordinate is halfway between <m>7</m> and <m>3</m>, or <m>5</m>. Thus, the midpoint is <m>(2, 5)</m>.</p>
-<sidebyside width="40%"><image xml:id="fig-line-segment-midpoint"><description>line segment</description><latex-image>
+<p>The <term>midpoint</term><idx>midpoint</idx> of a segment is the point halfway between its endpoints, so that the distance from the midpoint to either endpoint is the same.</p>
+<p>The <m>x</m>-coordinate of the midpoint is halfway between the <m>x</m>-coordinates of the endpoints, and likewise for the <m>y</m>-coordinate. For the points <m>(-2, 7)</m> and <m>(6, 3)</m> shown below, the <m>x</m>-coordinate of the midpoint is <m>2</m>, which is halfway between <m>-2</m> and <m>6</m>. The <m>y</m>-coordinate is halfway between <m>7</m> and <m>3</m>, or <m>5</m>. Thus, the midpoint is <m>(2, 5)</m>.</p>
+
+<image width="40%" xml:id="fig-line-segment-midpoint"><description>line segment</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -185,10 +226,7 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
         \filldraw[black] (2,5) circle (.2) node[above right, yshift=3, fill=white, inner sep=1, text=black] {$(2,5)$};
         \filldraw[blue] (6,3) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(6,3)$};
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
-</subsection>
-
-<subsection><title>The Midpoint Formula</title>
+        </latex-image></image>
 
 <p>If we know the coordinates of two points, we can calculate the coordinates of the midpoint. Each coordinate of the midpoint is the average of the corresponding coordinates of the two points.</p>
 
@@ -204,7 +242,7 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
         <mrow>\overline{y}\amp=\dfrac{y_1+y_2}{2}=\dfrac{1+3}{2}=2</mrow></md>
 The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m>.</p></solution></example>
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
         Context("Point");
         $answer = Point("(-1,-3)");
@@ -219,8 +257,8 @@ The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m
     </ol></p></solution>
 </webwork>
 <conclusion>
-    <sidebyside width="35%" margins="0% 0%"><p>Graph for Practice 2:</p><image xml:id="fig-ex-9-2-2ans"><description>rectangle</description>
-            <latex-image>
+    <p>Graph for Practice 2:</p>
+        <image width="35%" xml:id="fig-ex-9-2-2answ"><description>rectangle</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -239,17 +277,44 @@ The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m
             \filldraw[blue] (3,-9) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(3,-9)$};
             \filldraw[red] (-1,-3) circle (.2) node[left, xshift=-3, fill=white, inner sep=1] {$(-1,-3)$};
             \end{tikzpicture}]]>
-            </latex-image></image></sidebyside>
-</conclusion>
-</exercise>
+            </latex-image></image>
+</conclusion></exercise>
+
+<exercise component="main"><title>Practice 2</title>
+<statement><p><ol marker="a">
+        <li><p>Find the midpoint of the line joining the points <m>(-5,3)</m> and <m>(3,-9)</m></p></li>
+        <li><p>Plot the points and draw a rectangle with the points as opposite vertices. Illustrate that the midpoint is the center of the rectangle.</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+        <li><m>(-1,-3)</m></li>
+        <li><image width="35%" xml:id="fig-ex-9-2-2ans"><description>rectangle</description><latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.45]
+            \draw[lightgray] (-8,-10) grid (5,5);
+            \draw[black,thick, ->, >=stealth'] (-8,0)--(5.6,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-10)--(0,5.6) node[above]{$y$};
+            \foreach \x in  {5,-5} {
+             \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+             \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \draw[gray, very thick, dashed] (-5,3) rectangle (3,-9);
+            \draw[blue, thick, dashed] (-5,3)--(3,-9);
+            \draw[blue, thick, dashed] (-5,-9)--(3,3);
+            \filldraw[blue] (-5,3) circle (.2) node[above left, yshift=3, fill=white, inner sep=1, text=black] {$(-5,3)$};
+            \filldraw[blue] (3,-9) circle (.2) node[below right, yshift=-3, fill=white, inner sep=1, text=black] {$(3,-9)$};
+            \filldraw[red] (-1,-3) circle (.2) node[left, xshift=-3, fill=white, inner sep=1] {$(-1,-3)$};
+            \end{tikzpicture}]]>
+            </latex-image></image></li>
+    </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Circles</title>
 
 <p>A <term>circle</term><idx>circle</idx> is the set of all points in a plane that lie at a given distance, called the <term>radius</term><idx>radius</idx>, from a fixed point called the <term>center</term><idx><h>center</h><h>of a circle</h></idx><idx><h>circle</h><h>center</h></idx>. We can use the distance formula to find an equation for a circle. First consider the circle in Figure (a), whose center is the origin, <m>(0,0)</m>.</p> 
 
-<sidebyside width="80%">
-    <image source="images/fig-circles"><description>circles</description></image></sidebyside>
+    <image width="80%" source="images/fig-circles"><description>circles</description></image>
 
 <p>The distance from the origin to any point <m>P(x,y)</m> on the circle is <m>r</m>. Therefore, 
     <md><mrow>\sqrt{(x-0)^2+(y-0)^2}=r</mrow></md>
@@ -265,7 +330,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
         <md><mrow>\blert{(x-h)^2+(y-k)^2=r^2}</mrow></md></p>
 </assemblage>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
         $No = PopUp(
           ["?","Yes", "No"],
@@ -288,8 +353,15 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
             <li>No</li>
         </ol></p>
     </solution>
-</webwork>
-</exercise>
+</webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p><ol marker="a">
+        <li><p>Does the center of a circle lie on the graph of the circle?</p></li>
+         <li><p>What is the radius of the circle <m>x^2 + y^2 = 81</m>?</p></li>
+        <li><p>What is the diameter of the circle in part (b)?</p></li>
+        <li><p>Can we simplify the equation in part (b) to <m>x + y = 9</m>?</p></li>
+    </ol></p></statement></exercise>
 
 <p>The equation <m>(x-h)^2+(y-k)^2=r^2 </m> is the <term>standard form</term> for a circle of radius <m>r</m> with center at <m>(h,k)</m>. It is easy to graph a circle if its equation is given in standard form.</p>
 
@@ -301,12 +373,12 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
     <li><p>The graph of <m>(x-2)^2+(y+3)^2=16</m> is a circle with radius 4 and center at <m>(2,-3)</m>. To sketch the graph, we first locate the center of the circle. (The center is not part of the graph of the circle.)</p>
     <p> From the center, we move a distance of 4 units (the radius of the circle) in each of four directions:  up, down, left, and right. This locates four points that lie on the circle: <m>(2,1)</m>, <m>(2,-7)</m>, <m>(-2,-3)</m>, and <m>(6,-3)</m>.  We sketch the circle through these four points.</p> 
 
-    <sidebyside width="80%"><image source="images/fig-circles2"><description>circles</description></image></sidebyside></li>
+    <image width="80%" source="images/fig-circles2"><description>circles</description></image></li>
 
     <li><p>The graph of <m>x^2+(y-4)^2=7</m> is a circle with radius <m>\sqrt{7}</m> and center at <m>(0,4)</m>.  From the center, we move approximately <m>\sqrt{7}</m>, or 2.6 units in each of the four coordinate directions to obtain the points <m>(0,6.6)</m>, <m>(0,1.4)</m>, <m>(-2.6,4)</m>, and <m>(2.6,4)</m>. We sketch the circle through these four points.</p></li>
 </ol></p></solution></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
 <webwork><pg-code>
         Context("Point");
         $center = Point("(-3,-2)");
@@ -322,8 +394,8 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
     <li>A graph is below.</li>
 </ol></p></solution>
 </webwork>
-<conclusion><p><m>(x+3)^2+(y+2)^2=16</m></p><sidebyside width="40%" margins="0% 0%">
-    <image xml:id="fig-ex-9-2-3ans"><description>circle</description><latex-image>
+<conclusion><p><m>(x+3)^2+(y+2)^2=16</m></p>
+    <image width="40%" xml:id="fig-ex-9-2-3answ"><description>circle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -338,8 +410,34 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
         \draw[red, thick] (-3,-2) circle (4cm);
         \filldraw (-3,-2) circle (.15) node[below, yshift=-2, fill=white, inner sep=1]{$(-3,-2)$};
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></conclusion>
+        </latex-image></image></conclusion>
 </exercise>
+
+<exercise component="main"><title>Practice 3</title>
+<statement><p><ol marker="a">
+        <li><p>State the center and radius of the circle
+                <me>(x+3)^2+(y+2)^2=16</me></p></li>
+        <li><p>Graph the circle.</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+    <li><p>center <m>(-3,-2)</m>, radius 4</p></li>
+    <li><image width="40%" xml:id="fig-ex-9-2-3ans"><description>circle</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[lightgray] (-8,-8) grid (3,3);
+        \draw[black,thick, ->, >=stealth'] (-8,0)--(3.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-8)--(0,3.6) node[above]{$y$};
+        \foreach \x in  {2,-5} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, thick] (-3,-2) circle (4cm);
+        \filldraw (-3,-2) circle (.15) node[below, yshift=-2, fill=white, inner sep=1]{$(-3,-2)$};
+        \end{tikzpicture}]]>
+        </latex-image></image></li>
+</ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>General Form for Circles</title>
@@ -360,13 +458,13 @@ or
 in standard form, and graph the equation.</p></statement>
     
 <solution><p>We prepare to complete the square in both variables by writing the equation as
-        <md><mrow>(x^2+8x+<fillin characters="6"/>)+(y^2-2y+<fillin characters="6"/>)=-6</mrow></md>
+        <md><mrow>(x^2+8x+<fillin characters="3"/>)+(y^2-2y+<fillin characters="3"/>)=-6</mrow></md>
 We complete the square in <m>x</m> by adding 16 to each side of the equation, and complete the square in <m>y</m> by adding 1 to each side, to get
             <md><mrow>(x^2+8x+\alert{16})+(y^2-2y+\alert{1})=-6+\alert{16}+\alert{1}</mrow></md></p>
         <sidebyside widths="55% 32%" margins="0% 5%" valigns="middle middle">
 <p>from which we obtain the standard form,
             <md><mrow>(x+4)^2+(y-1)^2=11</mrow></md>
-Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}</m>, or approximately 3.3.  The graph is shown at right.</p>
+Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}</m>, or approximately 3.3. The graph is shown at right.</p>
     <image xml:id="fig-example-9-2-4"><description>circle</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -389,7 +487,7 @@ Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}
             </latex-image></image></sidebyside>
 </solution></example>
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>
         $a = PopUp(
           ["?",
@@ -428,7 +526,14 @@ Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}
     </solution>
 </webwork></exercise>
 
-<exercise><title>Practice 4</title>
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p>Fill in the blanks.<ol marker="a">
+        <li><p>The standard form for a circle is useful because we can see the <fillin characters="6"/> of the circle in the equation.</p></li>
+        <li><p>A quadratic equation in two variables describes a circle if the coefficients of the quadratic terms are <fillin characters="6"/>.</p></li>
+        <li><p>We convert the equation for a circle into standard form by <fillin characters="6"/> in both variables.</p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>
         $h = Compute("7");
         $k = Compute("-2");
@@ -441,11 +546,18 @@ Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}
         <m>h=</m><var name="$h" width="2"/>, <m>k=</m><var name="$k" width="2"/>, <m>r=</m><var name="$r" width="8"/>.</p>
         <instruction>
             Enter "sqrt(2)" for <m>\sqrt{2}</m>.
-        </instruction>
-    </statement>
-    <solution><p><m>(x-7)^2+(y+2)^2=28</m></p>
-    </solution>
+        </instruction></statement>
+    <solution><p><m>(x-7)^2+(y+2)^2=28</m></p></solution>
 </webwork></exercise>
+
+<exercise component="webwork"><title>Practice 4</title>
+<statement><p>Write the equation of the circle
+            <m>x^2+y^2-14x+4y+25=0</m>
+    in standard form.</p></statement>
+    <solution><p><m>(x-7)^2+(y+2)^2=28</m></p></solution></exercise>
+</subsection>
+
+<subsection><title>Finding an Equation for a Circle</title>
 
 <p>We can write an equation for any circle if we can find its center and radius.</p>
 
@@ -487,7 +599,7 @@ Finally, we substitute 4 for<m>h</m> and 2 for <m>k</m> (the coordinates of the 
 to obtain 
             <md><mrow>(x-4)^2+(y-2)^2=18</mrow></md></p></solution></example>
 
-<exercise><title>Practice 5</title>
+<exercise component="webwork"><title>Practice 5</title>
 <webwork><pg-code>
         Context()->variables->set(
           x=>{limits=>[-4-sqrt(13),-4+sqrt(13)]},
@@ -512,9 +624,13 @@ to obtain
     </statement>
     <solution><p><m>(x+4)^2 + (y+3)^2 = 13</m></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 5</title>
+<statement><p>Find an equation for the circle whose diameter has endpoint <m>(-7,-5) </m> and <m>(-1,-1) </m>.</p></statement>
+    <solution><p><m>(x+4)^2 + (y+3)^2 = 13</m></p></solution></exercise>
 </subsection>
 
-<xi:include href="./section-9-2-exercises.xml" />
+
 
 <subsection><title>Investigation</title>
 
@@ -529,9 +645,7 @@ point of several such spheres centered on different satellites.</p>
 
 <p>In this model we’ll need data from two GPS satellites. The satellites are orbiting along a circle of radius 100 meters centered at the origin. You have a receiver inside that circle and would like to know the coordinates of your position within the circle.</p> 
 
-    <sidebyside width="100%"><image xml:id="fig-gps-grid">
-        <description>grid</description>
-        <latex-image>
+    <image width="100%" xml:id="fig-gps-grid"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -545,9 +659,7 @@ point of several such spheres centered on different satellites.</p>
         }
         \draw[red!80!black,ultra thick] (0,0) circle (10 );
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
+        </latex-image></image>
     
 <p>To make the computations simpler, we will also assume that the satellite transmissions travel at 5 meters per second.</p>
 <p><ol marker="1">
@@ -570,4 +682,7 @@ point of several such spheres centered on different satellites.</p>
 </ol></p></investigation>
     
 </subsection>
+
+<xi:include href="./section-9-2-exercises.xml" />
+
 </section>
