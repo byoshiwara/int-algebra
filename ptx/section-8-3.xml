@@ -24,7 +24,7 @@ or
         <mrow>\amp = \dfrac{2(2x+3)}{x+2}~~~~\text{or}~~~~\dfrac{4x+6}{x+2}</mrow></md></p>
 </solution></example>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>
         Context()->variables->add(y=>"Real");
         $num = Compute("-y*(2*y-1)");
@@ -66,6 +66,10 @@ or
     <solution><p><m>\dfrac{-y(2y-1)}{2(y+2)}</m></p></solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Find the product   <m>\quad\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2}</m></p></statement>
+    <solution><p><m>\dfrac{-y(2y-1)}{2(y+2)}</m></p></solution></exercise>
+
 <p>To multiply a fraction by a whole number, we write the whole number with 1 as denominator. 
     <me>\dfrac{2}{3} \cdot \alert{4} = \dfrac{2}{3} \cdot \alert{\dfrac{4}{1}} = \dfrac{8}{3}</me>
 The same applies to the product of an algebraic fraction and any nonfractional expression.  For example,
@@ -104,7 +108,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
 
 <note><p>When working with algebraic fractions, we often leave the denominators in factored form. This makes it easier to add and subtract fractions, and to check whether they can be reducecd.</p></note>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
         $factor = PopUp(["?", 
             "add together the numerators",
@@ -138,6 +142,15 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>Fill in the blanks.</p>
+    <p><ol marker="a">
+          <li><p>The first step in multiplying fractions is to <fillin characters="10"/>.</p></li>
+          <li><p>It is usually easier to cancel common factors <fillin characters="10"/> multiplying.</p></li>
+          <li><p>To divide two fractions, we multiply the first fraction by the <fillin characters="10"/> of the second fraction.</p></li>
+          <li><p>We can write a whole number as a fraction with denominator <fillin characters="10"/>.</p></li>
+      </ol></p></statement></exercise>
+
 <p>We summarize the procedure for dividing algebraic fractions as follows.</p>
 
 <assemblage><title>To divide algebraic fractions:</title><idx><h>algebraic fraction</h><h>dividing</h></idx><idx>dividing algebraic fractions</idx><idx>quotient of fractions</idx><idx><h>fraction</h><h>dividing</h></idx>
@@ -145,7 +158,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
     <li>Take the reciprocal of the second fraction and change the operation to multiplication.</li>
     <li>Follow the rules for multiplication of fractions.</li></ol></p></assemblage>
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
         Context()->variables->add(y=>"Real");
         $num = Compute("3x(x+2y)");
@@ -186,6 +199,10 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
     </statement>
     <solution><p><m>\dfrac{3x(x+2y)}{4y(x-y)}</m></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 2</title>
+<statement><p>Divide: <m>~\dfrac{x^2-4y^2}{4y^2} \div \dfrac{x^2-3xy+2y^2}{3xy}</m></p></statement>
+    <solution><p><m>\dfrac{3x(x+2y)}{4y(x-y)}</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Adding and Subtracting Like Fractions</title><idx><h>fraction</h><h>adding or subtracting</h></idx><idx><h>like fractions</h><h>adding or subtracting</h></idx><idx>sum or difference of fractions</idx>
@@ -229,7 +246,7 @@ The same holds true for all algebraic fractions.</p>
     <li>Keep the same denominator.</li>
     <li>Reduce the sum or difference if necessary.</li></ol></p></assemblage>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
 <webwork><pg-code>
         Context()->variables->add(n=>"Real");
         $num = Compute("3n+2");
@@ -269,7 +286,11 @@ The same holds true for all algebraic fractions.</p>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
     <solution><p><m>\dfrac{3n+2}{n-3}</m></p></solution>
-</webwork></exercise>        
+</webwork></exercise> 
+
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Add:  <m>~\dfrac{2n}{n-3}+\dfrac{n+2}{n-3}</m></p></statement>
+    <solution><p><m>\dfrac{3n+2}{n-3}</m></p></solution></exercise>       
 
 <p>We must be careful when subtracting algebraic fractions: A subtraction sign in front of a fraction applies to the <em>entire</em> numerator.</p>
 
@@ -286,7 +307,7 @@ The same holds true for all algebraic fractions.</p>
 <warning><p>In the <xref ref="example-subtract-linear-fractionals" text="custom" >Example</xref> above, the subtraction symbol in the numerator <m>(x-3)-(3x-5)</m> applies to <em>both</em> terms of <m>(3x-5)</m>.  That is why
     <me>(x-3)-(3x-5) = x-3-3x+5</me></p></warning>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
         $True = PopUp(
             [ "?", 
@@ -314,7 +335,16 @@ The same holds true for all algebraic fractions.</p>
     <li>False</li></ol></p></solution>
 </webwork></exercise>
 
-<exercise><title>Practice 4</title>
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>True or False.</p>
+    <p><ol marker="a">
+        <li><p>Like fractions have the same denominator.</p></li>
+        <li><p>To add like fractions, we add their numerators and add their denominators.</p></li>
+        <li><p>A negative sign in front of a fraction changes the sign of both numerator and denominator. </p></li>
+        <li><p>When we subtract fractions, the subtraction symbol applies only to the first term of the numerator. </p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>
         Context()->variables->add(n=>"Real");
         $num = Compute("1");
@@ -355,6 +385,10 @@ The same holds true for all algebraic fractions.</p>
     </statement>
     <solution><p><m>\dfrac{1}{x+1}</m></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 4</title>
+<statement><p> Subtract: <m>~\dfrac{3}{x^2+2x+1}-\dfrac{2-x}{x^2+2x+1}</m></p></statement>
+    <solution><p><m>\dfrac{1}{x+1}</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Unlike Fractions</title><idx><h>fraction</h><h>unlike</h></idx>
@@ -368,9 +402,7 @@ we first find the lowest common denominator<idx>lowest common denominator</idx><
         <mrow>\dfrac{3}{4} = \dfrac{3 \cdot \alert{3}}{4 \cdot \alert{3}} = \dfrac{9}{12}</mrow></md>
 There is noting mysterious about the building process; we are breaking up each fraction into smaller pieces of the same size so that we can add them together.</p>
 
-<sidebyside width="70%">
-    <image xml:id="fig-add-unlike-fraction">
-        <description>subdivided rectangles</description><latex-image>
+    <image width="70%" xml:id="fig-add-unlike-fraction"><description>subdivided rectangles</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -404,7 +436,7 @@ There is noting mysterious about the building process; we are breaking up each f
         \node at({-\b/2-1},{\d-1.75*\h}) {\large$\frac{3}{4} $}; 
         \node at({\b/2+1},{\d-1.75*\h}) {\large$\frac{9}{12} $}; 
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
+        </latex-image></image>
 
 <p>Finally, the new fractions are like fractions, and we can add them by combining their numerators.
     <me>\dfrac{2}{3}+\dfrac{3}{4} = \dfrac{8}{12}+\dfrac{9}{12} = \dfrac{17}{12}</me>
@@ -414,9 +446,9 @@ We add or subtract algebraic fractions with the same three steps.</p>
  <p><ol marker="1">
     <li>Find the lowest common denominator (LCD) for the fractions.</li>
     <li>Build each fraction to an equivalent one with the same denominator.</li>
-    <li>Add or subtract the resulting like fractions: Add or subtract their numerators, and keep the same denominator.
-    </li>
-    <li>Reduce the sum or difference if necessary.</li></ol></p></assemblage>
+    <li>Add or subtract the resulting like fractions: Add or subtract their numerators, and keep the same denominator.</li>
+    <li>Reduce the sum or difference if necessary.</li>
+</ol></p></assemblage>
 
 <example> <statement><p>Subtract: <m>~\dfrac{x+2}{6}-\dfrac{x-1}{15}</m></p></statement>
     
@@ -432,7 +464,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
             <me>\dfrac{3x+12}{30} = \dfrac{\cancel{3}(x+4)}{\cancel{3} \cdot 10} = \dfrac{x+4}{10}</me></p>
   </solution></example> 
 
-<exercise><title>Practice 5</title>
+<exercise component="webwork"><title>Practice 5</title>
 <webwork><pg-code>
         $num = Compute("4x+9");
         $den = Compute("12");
@@ -473,7 +505,11 @@ We add or subtract algebraic fractions with the same three steps.</p>
     <solution><p><m>\dfrac{4x+9}{12}</m></p></solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="main"><title>Practice 5</title>
+<statement><p>Add: <m>\dfrac{5x}{6} + \dfrac{3-2x}{4}</m></p></statement>
+    <solution><p><m>\dfrac{4x+9}{12}</m></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
         $like = PopUp(["?", 
             "decimal",
@@ -511,6 +547,15 @@ We add or subtract algebraic fractions with the same three steps.</p>
         <li>reduce</li></ol></p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 3</title>
+<statement> <p>Fill in the blanks.</p>
+    <p><ol marker="a">
+      <li><p>To add unlike fractions, we must first convert them into <fillin characters="10"/> fractions.</p></li>
+      <li><p>Building a fraction is an application of the <fillin characters="10"/>.</p></li>
+      <li><p>The LCD is the smallest <fillin characters="10"/>. of each denominator.</p></li>
+      <li><p>The last step in adding fractions is to <fillin characters="10"/>.</p></li>
+  </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Finding the Lowest Common Denominator</title>
@@ -528,7 +573,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
         <mrow>\amp = \dfrac{x^2+6x-12}{x-2}</mrow></md></p>
 <p>Step 4: The numerator of this fraction cannot be factored, so the sum cannot be reduced.</p></solution></example>
 
-<exercise><title>Practice 6</title>
+<exercise component="webwork"><title>Practice 6</title>
 <webwork><pg-code>
         $num = Compute("-x-10");
         $den = Compute("x^2-4");
@@ -569,9 +614,13 @@ We add or subtract algebraic fractions with the same three steps.</p>
     <solution><p><m>\dfrac{-x-10}{x^2-4}</m></p></solution>
 </webwork></exercise>
 
-<p>If the denominators contain any common factors, the LCD is not simply their product.  For example, the LCD for 
+<exercise component="main"><title>Practice 6</title>
+<statement><p>Write as a single fraction in reduced form:  <m>~\dfrac{2}{x+2} - \dfrac{3}{x-2}</m></p></statement>
+    <solution><p><m>\dfrac{-x-10}{x^2-4}</m></p></solution></exercise>
+
+<p>If the denominators contain any common factors, the LCD is not simply their product. For example, the LCD for 
     <me>\dfrac{5}{12}+\dfrac{7}{18}</me>
-is not <m>12(18) = 216</m>.  It is true that 216 is a multiple of both 12 and 18, but it is not the smallest one! We can find a smaller common denominator by factoring each denominator.
+is not <m>12(18) = 216</m>. It is true that 216 is a multiple of both 12 and 18, but it is not the smallest one! We can find a smaller common denominator by factoring each denominator.
     <md><mrow>12 \amp = 2 \cdot 2 \cdot 3 \amp \amp \blert{\text{This denominator has the most factors of 2.}}</mrow> 
         <mrow>18 \amp = 2 \cdot 3 \cdot 3 \amp \amp \blert{\text{This denominator has the most factors of 3.}}</mrow></md>
 To find a number that both 12 and 18 divide into evenly, we need only enough factors to cover each of them.  In this case two 2's and two 3's are sufficient, so the LCD is
@@ -593,9 +642,9 @@ You can check that both 12 and 18 divide evenly into 36.</p>
  The factor <m>(x-1)</m> occurs once in the first denominator, the factor <m>x</m> occurs once in the second denominator, and the factor <m>(x+1)</m> occurs once in each denominator.  Therefore we include in our LCD one copy of each of these factors.  The LCD is  <m>x(x-1)(x+1)</m>.  </p>
 </solution></example>
 
-<warning><p>In the previous <xref ref="Example-find-LCD" text="custom">Example</xref>, we do not include two factors of <m>(x+1)</m> in the LCD. We need only one factor of <m>(x+1)</m>, because <m>(x+1)</m> occurs only once in each denominator.  You can check that each original denominator divides evenly into our LCD, <m>x(x-1)(x+1)</m>.  </p></warning> 
+<warning><p>In the previous <xref ref="Example-find-LCD" text="custom">Example</xref>, we do not include two factors of <m>(x+1)</m> in the LCD. We need only one factor of <m>(x+1)</m>, because <m>(x+1)</m> occurs only once in each denominator. You can check that each original denominator divides evenly into our LCD, <m>x(x-1)(x+1)</m>.  </p></warning> 
 
-<exercise><title>Practice 7</title>
+<exercise component="webwork"><title>Practice 7</title>
 <webwork><pg-code>
         $ans = Formula("4x^3*(x-1)^2");
     </pg-code>
@@ -604,6 +653,10 @@ You can check that both 12 and 18 divide evenly into 36.</p>
     </statement>
     <solution><p><m>4x^3(x-1)^2</m></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 7</title>
+<statement><p>Find the LCD for the fractions <m>~\dfrac{1}{2x^3(x-1)^2}~</m> and <m>~\dfrac{3}{4x^2-4x}~</m></p></statement>
+    <solution><p><m>4x^3(x-1)^2</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Adding and Subtracting Unlike Fractions</title><idx><h>fraction</h><h>adding or subtracting unlike fractions</h></idx>
@@ -631,9 +684,9 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
     <me>\dfrac{x^2+2x+8}{x(x-2)(x+2)} = \dfrac{(x+4)\cancel{(x-2)}}{x\cancel{(x-2)}(x+2)} = \dfrac{x+4}{x(x+2)}</me></p>
 </solution></example>
 
-<warning><p>Do not reduce the built-up fractions in Step 3 -- you will just get back to the original problem.  When adding fractions, we have to make the fractions "harder" before we can combine them.  Don't reduce until the last step of the problem.</p></warning>
+<warning><p>Do not reduce the built-up fractions in Step 3 -- you will just get back to the original problem. When adding fractions, we have to make the fractions "harder" before we can combine them. Don't reduce until the last step of the problem.</p></warning>
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>
         $True = PopUp(
             [ "?", 
@@ -662,7 +715,16 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
     <li>False</li></ol></p></solution>
 </webwork></exercise>
 
-<exercise><title>Practice 8</title>
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p>True or False.</p>
+    <p><ol marker="a">
+        <li><p>We can always find the LCD by multiplying together the denominators of the fractions.</p></li>
+        <li><p>If each denominator includes one factor of <m>x-3</m>, we include two factors of <m>x-3</m> in the LCD.</p></li>
+        <li><p>We find the building factor for each fraction by comparing its denominator to the LCD. </p></li>
+        <li><p>When adding fractions, it is best to reduce the fractions at each step. </p></li>
+    </ol></p></statement></exercise>
+
+<exercise component="webwork"><title>Practice 8</title>
 <webwork><pg-code>
         $num = Compute("6");
         $den = Compute("(x+1)^2*(x-2)");
@@ -702,10 +764,14 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
     </statement>
     <solution><p><m>\dfrac{6}{(x+1)^2(x-2)}</m></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 8</title>
+<statement><p>Subtract: <m>\quad\dfrac{2}{x^2-x-2} - \dfrac{2}{x^2+2x+1}~</m></p></statement>
+    <solution><p><m>\dfrac{6}{(x+1)^2(x-2)}</m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Applications</title>
-<p>Recall that the formulas for rational functions are algebraic fractions.  It is often useful to simplify the formula for a function before using it.</p> 
+<p>Recall that the formulas for rational functions are algebraic fractions. It is often useful to simplify the formula for a function before using it.</p> 
 
 <example><statement><p>When estimating their travel time, pilots must take into account the prevailing winds.  A tail wind adds to the plane's ground speed, while a head wind decreases the ground speed.  Skyhigh Airlines is setting up a shuttle service from Dallas to Phoenix, a distance of 800  miles.<ol marker="a">
     <li>Express the time needed for a one-way trip, without wind, as a function of the speed of the plane.</li>
@@ -725,14 +791,14 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
             <mrow>\amp = \dfrac{(800r+24,000)+(800r-24,000)}{(r+30)(r-30)}</mrow>
             <mrow> \amp = \dfrac{1600r}{r^2-900}</mrow></md></p></li></ol></p></solution></example>
 
-<exercise><title>Practice 9</title>
+<exercise component="webwork"><title>Practice 9</title>
 <webwork><pg-code>
         Context()->variables->add(c=>"Real");
         $t0 = Formula("5/(15-c)");
         $t1 = Formula("5/(15+c)");
         $t2 = Formula("150/(225-c^2)");
     </pg-code>
-    <statement><p>A rowing team can maintain a speed of 15 miles per hour in still water.  The team's daily training session includes a 5-mile run up the Red Cedar River and the return downstream.<ol marker="a">
+    <statement><p>A rowing team can maintain a speed of 15 miles per hour in still water. The team's daily training session includes a 5-mile run up the Red Cedar River and the return downstream.<ol marker="a">
         <li><p>Express the team's time on the upstream leg as a function of the speed of the current.
                 </p><p><var name="$t0" width="12"/> </p></li>
         <li><p>Write a function for the team's time on the downstream leg.
@@ -745,6 +811,19 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
     <li><m>\dfrac{5}{15+c}</m></li>
     <li><m>\dfrac{150}{225-c^2}</m></li></ol></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 9</title>
+    <statement><p>A rowing team can maintain a speed of 15 miles per hour in still water.  he team's daily training session includes a 5-mile run up the Red Cedar River and the return downstream.</p>
+    <p><ol marker="a">
+        <li><p>Express the team's time on the upstream leg as a function of the speed of the current.</p></li>
+        <li><p>Write a function for the team's time on the downstream leg.</p></li>
+        <li><p> Write and simplify an expression for the total time for the training run as a function of the current's speed.</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+        <li><m>\dfrac{5}{15-c}</m></li>
+        <li><m>\dfrac{5}{15+c}</m></li>
+        <li><m>\dfrac{150}{225-c^2}</m></li>
+    </ol></p></solution></exercise>
 </subsection>
 
 <xi:include href="./section-8-3-exercises.xml" />                

@@ -12,11 +12,10 @@ and quadratic functions
 are special cases of polynomial functions. In general, we make the following definition.</p>
 
 <definition><title>Polynomial Function</title>
-
 <statement><p>A <term>polynomial function</term><idx><h>polynomial</h><h>function</h></idx><idx><h>function</h><h>polynomial</h></idx> has the form
     <me>f (x) = a_n x^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2} + \cdots + a_2x^2 + a_1x + a_0</me>
-where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constants and <m>a_n \ne 0</m>. The coefficient <m>a_n</m> of the highest power term is called the <term>lead coefficient</term><idx>lead coefficient</idx><idx><h>polynomial</h><h>lead coefficient</h></idx>.
-</p></statement></definition>
+where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constants and <m>a_n \ne 0</m>.</p>
+<p> The coefficient <m>a_n</m> of the highest power term is called the <term>lead coefficient</term><idx>lead coefficient</idx><idx><h>polynomial</h><h>lead coefficient</h></idx>.</p></statement></definition>
 
 <p>Some examples of polynomials are
     <md><mrow>f(x)\amp= 6x^3 - 4x^2 + x - 2 \amp g(x) \amp= 9x^5 - 2</mrow>
@@ -26,7 +25,7 @@ where <m>a_0</m>, <m>a_1</m>, <m>a_2</m>, <m>\ldots</m>, <m>a_n</m> are constant
     <me>f(x) = -2 + x - 4x^2 + 6x^3</me>
 in ascending powers.</p>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
             $lead = RadioButtons(
               ["A) The first coefficient",
@@ -42,11 +41,52 @@ in ascending powers.</p>
     <solution><p>The coefficient of the highest power, that is, the coefficient of the largest degree</p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>What is the lead coefficient of a polynomial?</p>
+<p><ol marker="a">
+    <li><p>The first coefficient</p></li>
+    <li><p>The constant term</p></li>
+    <li><p>The largest coefficient</p></li>
+    <li><p>The coefficient of the highest power</p></li>
+</ol></p></statement></exercise>
+
+<p>We can evaluate polynomials just as we do for any other function.</p>
+
+<example><statement><p>Evaluate the polynomial 
+    <me>P(x)=x^3-0.5x^2-4x+2</me>
+    at <m>x = 3</m> and at <m>x=-2</m>.</p></statement>
+
+<solution><sidebyside widths="62% 38%">
+    <stack><p><me>P(3) = 3^3-0.5(3)^2-4(3)+2 = 12.5</me>,</p>
+    <p><me>P(-2) = (-2)^3-0.5(-2)^2-4(-2)+2 = 0</me>.</p>
+    <p>Here is a graph of the polynomial.</p></stack>
+    <image xml:id="cubic" width="38%"><description>x-cubed-.5xsquared-4x+2</description><latex-image>
+        <![CDATA[
+        \begin{tikzpicture} [xscale=.4,yscale=.2]
+        \draw[cyan] (-5,-5) grid (5,15);
+        \draw[black,thick,->,>=stealth'] (-5,0)--(5.6,0) node[right]{$x$};
+        \draw[black,thick,->,>=stealth'] (0,-5)--(0,15.6) node[above]{$y$};
+        \foreach \x in {-5,5}{
+            \draw[black] (\x,.08)  --++(0,-.16) node[below] {$\x$};
+        }
+        \foreach \y in {-5,5,10,15}{
+            \draw[black] (0.08,\y)  --++(-.16,0) node[left] {$\y$};
+        }
+        \draw[samples=65,domain=-2.4:3.119,smooth,variable=\x,red,very thick,<->, >=stealth'] plot (\x,{\x^3 -.5*(\x)^2-4*\x+2});
+        \filldraw[blue] (3,12.5) ellipse(.15 and .3) node[right,xshift=3,text=blue,fill=white, inner sep=0pt]{(3,12.5)};
+        \filldraw[blue] (-2,0) ellipse(.15 and .3) node[above left,xshift=-3,yshift=3,text=blue,fill=white, inner sep=0pt]{(-2,0)};
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside>
+</solution></example>
+
 </subsection>
 
 <subsection><title>Products of Polynomials</title><idx><h>polynomial</h><h>products of</h></idx>
 
-<p>When we multiply two or more polynomials together, we get another polynomial of higher degree. </p>
+<p>In Section 3.2, we solved some quadratic equations by factoring. For example, because
+    <me>(x-4)(x+7) = x^2 + 3x - 28</me>
+the solutions of the equation <me>x^2+3x-28 = 0</me> are <m>4</m> and <m>-7</m>. But now notice that the product of the two linear polynomials <m>x-4</m> and <m>x+7</m> is a quadratic polynomial. Or in other words, the product of two first-degree polynomials gives us a second-degree polynomial. In fact, whenever we multiply two or more polynomials together, we get another polynomial of higher degree. </p>
 
 <example xml:id="example-polynomial-product"><statement><p>Compute the products.<ol marker="a" cols="2">
             <li><m>(x + 2)(5x^3 - 3x^2 + 4)</m></li>
@@ -55,16 +95,18 @@ in ascending powers.</p>
 <solution><sidebyside>
     <image source="images/fig-product-of-polynomials"><description>diagram of polynomial multiplication</description></image></sidebyside></solution></example>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
             Context("LimitedPolynomial-Strict")->variables->are(y=>"Real");
             $f = Formula("y^3 -y +6");
         </pg-code>
-    <statement><p>Multiply <m>(y + 2)(y^2 - 2y + 3)=</m><var name="$f" width="8"/> .</p>
-    </statement>
-    <solution><p><m>y^3 - y + 6</m></p>
-    </solution>
+    <statement><p>Multiply <m>(y + 2)(y^2 - 2y + 3)=</m><var name="$f" width="8"/> .</p></statement>
+    <solution><p><m>y^3 - y + 6</m></p></solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+    <statement><p>Multiply <m>(y + 2)(y^2 - 2y + 3)</m></p></statement>
+    <solution><p><m>y^3 - y + 6</m></p></solution></exercise>
 
 <p>In part (a) of the <xref ref="example-polynomial-product" text="custom" >Example</xref> above, we multiplied a polynomial of degree one by a polynomial of degree three, and the product was a polynomial of degree four. In the <xref ref="example-polynomial-product" text="custom" >Example</xref> part (b), the product of three first-degree polynomials is a third-degree polynomial.</p>
 
@@ -72,33 +114,16 @@ in ascending powers.</p>
 <p>The degree of a product of non-zero polynomials is the sum of the degrees of the factors.  That is:</p> 
 <p>If <m>P(x)</m> has degree <m>m</m> and <m>Q(x)</m> has degree <m>n</m>, then their product <m>P(x)Q(x)</m> has degree <m>m+n</m>.</p></assemblage>
 
-<exercise><title>QuickCheck 2</title>
-<webwork><pg-code>       
-            $linterm = RadioButtons(
-              ["\(x^2\)",
-              "\(2x-15\)",
-              "\(-15\)",
-              "\(2x\)"],
-              3, 
-            );            
-        </pg-code>
-    <statement><p>What is the linear term of the product <m>(x-3)(x+5)</m> ?</p>
-        <p><var name="$linterm" form="buttons"/></p>      
-    </statement>
-    <solution>
-        <p><m>2x</m> is the linear term of <m>x^2+2x-15</m>.</p>
-    </solution>
-</webwork></exercise>
-
 <example><statement><p>Let <m>P(x) = 5x^4 - 2x^3 + 6x^2 - x + 2</m>, and 
     <me>Q(x) = 3x^3 - 4x^2 + 5x + 3</me>.<ol marker="a">
         <li><p>What is the degree of their product? What is the coefficient of the lead term?</p></li>
-        <li><p>Find the coefficient of the <m>x^3</m>-term of the product.</p></li></ol></p></statement>
+        <li><p>Find the coefficient of the <m>x^3</m>-term of the product.</p></li>
+</ol></p></statement>
 
 <solution><p><ol marker="a">
     <li><p>The degree of <m>P</m> is 4, and the degree of <m>Q</m> is 3, so the degree of their product is <m>4 + 3 = 7</m>. The only degree 7 term of the product is <m>(5x^4)(3x^3) = 15x^7</m>, which has coefficient 15.</p></li>
     <li><p>In the product, each term of <m>P(x)</m> is multiplied by each term of <m>Q(x)</m>. We get degree 3 terms by multiplying together terms of degree 0 and 3, or 1 and 2. For these polynomials, the possible combinations are:</p>
-            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>P(x)</m></cell>
                         <cell><m>Q(x)</m></cell>
@@ -119,222 +144,69 @@ in ascending powers.</p>
                         <cell><m>6x^2</m></cell>
                         <cell><m>5x</m></cell>
                         <cell><m>30x^3</m></cell></row>
-                </tabular></sidebyside>
+                </tabular>
     <p>The sum of the third-degree terms of the product is <m>34x^3</m>, with coefficient 34.</p></li>
     </ol></p></solution></example>
 
-<exercise>
-  <title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
     <webwork>
          <pg-code>
             $a = Compute("2");
         </pg-code> 
-        <statement>
-            <p>Find the coefficient of the fourth-degree term of the product of <m>f(x) = 2x^6 + 2x^4 - x^3 + 5x^2 + 1</m> and <m>g(x) = x^5 - 3x^4 + 2x^3 + x^2 - 4x - 2</m>.</p>
-            <p>Answer: <var name="$a" width="2"/> </p>
-        </statement>
-        <solution>
-            <p><m>2</m> is the coefficient of the <m>x^4</m> term in the product.</p>
-            <p>To compute the fourth-degree term in the product, we multiply a term of <m>f(x)</m> of degree 4, 3, 2, or 0 by a term of <m>g(x)</m> of degree 0, 1, 2, or 4 respectively. We add those four products of terms:
-            <me>\left(2x^4\cdot (-2)\right) + \left( (-x^3)(-4x)\right) + \left(5x^2\cdot x^2\right) + \left(1\cdot (-3x^4)\right)</me>
-            So the fourth-degree term in the product is <m>2x^4</m>, and the coefficient is <m>2</m>.</p>
+    <statement>
+        <p>Find the coefficient of the fourth-degree term of the product of <m>f(x) = 2x^6 + 2x^4 - x^3 + 5x^2 + 1</m> and <m>g(x) = x^5 - 3x^4 + 2x^3 + x^2 - 4x - 2</m>.</p>
+        <p>Answer: <var name="$a" width="2"/> </p>
+    </statement>
+    <solution>
+        <p><m>2</m> is the coefficient of the <m>x^4</m> term in the product.</p>
+        <p>To compute the fourth-degree term in the product, we multiply a term of <m>f(x)</m> of degree 4, 3, 2, or 0 by a term of <m>g(x)</m> of degree 0, 1, 2, or 4 respectively. We add those four products of terms:
+        <me>\left(2x^4\cdot (-2)\right) + \left( (-x^3)(-4x)\right) + \left(5x^2\cdot x^2\right) + \left(1\cdot (-3x^4)\right)</me>
+        So the fourth-degree term in the product is <m>2x^4</m>, and the coefficient is <m>2</m>.</p>
         </solution>
-    </webwork>
-</exercise>
-</subsection>
+    </webwork></exercise>
 
-<subsection><title>Special Products</title>
+<exercise component="main"><title>Practice 2</title>
+    <statement><p>Find the coefficient of the fourth-degree term of the product of <me>f(x) = 2x^6 + 2x^4 - x^3 + 5x^2 + 1</me> and 
+    <me>g(x) = x^5 - 3x^4 + 2x^3 + x^2 - 4x - 2</me>.</p></statement>
+    <solution><p><m>2</m></p></solution></exercise>
 
-<p>Recall the following special products involving quadratic expressions.</p>
-
-<assemblage><title>Special Products of Binomials</title><idx>special products of binomials</idx><idx><h>binomial</h><h>special products of</h></idx><idx><h>polynomial</h><h>quadratic</h></idx>
-    <p><md><mrow>\amp \blert{(a + b)^2 = (a + b) (a + b) = a^2 + 2ab + b^2}</mrow>
-            <mrow>\amp \blert{(a - b)^2 = (a - b) (a - b) = a^2 - 2ab + b^2}</mrow>
-            <mrow>\amp \blert{(a + b) (a - b)= a^2 -b^2}</mrow></md></p></assemblage>
-
-<p>There are also special products resulting in cubic polynomials. In the Homework problems, you will be asked to verify the following products.</p>
-
-<assemblage><title>Cube of a Binomial</title><idx><h>binomial</h><h>cube of</h></idx><idx>cube of a binomial</idx><idx><h>polynomial</h><h>cubic</h></idx>
-    <p><ol marker="1">
-        <li><m>\blert{(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3}</m></li>
-        <li xml:id="cube-of-x-minus-y"><m>\blert{(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3}</m></li></ol></p>
-</assemblage>
-
-<p>If you become familiar with these general forms, you can use them as patterns to find specific examples of such products.</p>
-
-<example xml:id="example-cube-binomial"><statement><p>Write <m>(2w - 3)^3</m> as a polynomial.</p></statement>
-
-<solution><p>Use <xref ref="cube-of-x-minus-y">product</xref> above, with <m>x</m> replaced by <m>\alert{2w}</m> and <m>y</m> replaced by <m>\blert{3}</m>.
-        <md><mrow>(x - y)^3 \amp= x^3 - 3 x^2 y + 3 x y^2 - y^3</mrow>
-            <mrow>(\alert{2w} - \blert{3})^3 \amp= (\alert{2w})^3 - 3(\alert{2w})^2(\blert{3}) +    3(\alert{2w})(\blert{3})^2 - \blert{3}^3 \amp\amp \blert{\text{Simplify.}}</mrow>
-            <mrow>\amp= 8w^3 - 36w^2 + 54w - 27</mrow></md>
-</p></solution></example>
-
-<p>Of course, we can also expand the product in <xref ref="example-cube-binomial" text="type-global"/> simply by polynomial multiplication and arrive at the same answer.</p>
-
-<exercise><title>Practice 3</title>
-    <webwork><pg-code>
-            Context("LimitedPolynomial-Strict");
-            $f = Formula("125 + 75x^2+15x^4 + x^6");
+<exercise component="webwork"><title>QuickCheck 2</title>
+<webwork><pg-code>       
+            $linterm = RadioButtons(
+              ["\(x^2\)",
+              "\(2x-15\)",
+              "\(-15\)",
+              "\(2x\)"],
+              3, 
+            );            
         </pg-code>
-   <statement><p>Write <m>\left(5 + x^2\right)^3</m> as a polynomial.</p>
-            <p>Answer: <var name="$f" width="20"/> </p>
-    </statement>
-    <solution><p><m>125 + 75x^2 + 15x^4 + x^6</m></p>
-        </solution>
+    <statement><p>What is the linear term of the product <m>(x-3)(x+5)</m> ?</p>
+        <p><var name="$linterm" form="buttons"/></p>      </statement>
+    <solution>
+        <p><m>2x</m> is the linear term of <m>x^2+2x-15</m>.</p></solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
-<webwork>
-    <pg-code>
-        $lead = PopUp(
-            [ "?", 
-            "discriminant", 
-            "lead coefficient"
-            ],
-            2
-        );
-        $degree = PopUp(
-            [ "?", 
-            "degree", 
-            "logarithm"
-            ],
-            1
-        );
-        $powers = PopUp(
-            [ "?", 
-            "ascending powers", 
-            "descending powers"
-            ],
-            2
-        );
-        $six = Compute("6");
-    </pg-code>
-<statement>
-    <p>Fill in the blanks.<ol marker="a">
-        <li><p>The coefficient of the highest power term of a polynomial is called the <var name="$lead" form="popup"/>.</p></li>
-        <li><p>The largest exponent in a polynomial is called the <var name="$degree" form="popup"/> of the polynomial.</p></li>
-        <li><p>If the degrees of the terms decrease from largest to smallest, the polynomial is written in <var name="$powers" form="popup"/>.</p></li>
-        <li><p>The degree of a product of two cubic polynomials is <var name="$six" width="2"/>.</p></li></ol></p>
-    </statement>
-    <solution><p><ol marker="a">
-        <li>lead coefficient</li>
-        <li>degree</li>
-        <li>descending powers</li>
-        <li>6</li></ol></p>
-    </solution>
-</webwork></exercise>
-</subsection>
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p>What is the linear term of the product <m>(x-3)(x+5)</m> ?</p>
+    <p><ol marker="a" cols="2">
+        <li><p><m>x^2</m></p></li>
+        <li><p><m>2x-15</m></p></li>
+        <li><p><m>-15</m></p></li>
+        <li><p><m>2x</m></p></li>
+    </ol></p></statement></exercise>
 
-<subsection><title>Factoring Cubics</title><idx><h>polynomial</h><h>cubic</h></idx>
-
-<p>Another pair of products is useful for factoring cubic polynomials. In the Homework problems, you will be asked to verify the following products:
-    <md><mrow>(x + y)(x^2 - xy + y^2) \amp= x^3 + y^3</mrow>
-        <mrow>(x - y)(x^2 + xy + y^2) \amp= x^3 - y^3</mrow></md></p>
-
-<p>Viewing these products from right to left, we have the following special factorizations for the sum and difference of two cubes.</p>
-
-<assemblage><title>Factoring the Sum or Difference of Two Cubes</title><idx><h>factoring</h><h>cubics</h></idx><idx><h>polynomial</h><h>cubic</h></idx>
-    <p><ol marker="1">
-    <li xml:id="sum-of-cubes"><p><m>\blert{x^3 + y^3 = (x + y)(x^2 - xy + y^2)}</m></p></li>
-    <li xml:id="difference-of-cubes"><p><m>\blert{x^3 - y^3 = (x - y)(x^2 + xy + y^2)}</m></p></li></ol></p>
-</assemblage>
-
-<p>When we recognize a polynomial as a sum or difference of two perfect cubes, we then identify the two cubed expressions and apply the formula.</p>
-
-<example><statement><p>Factor each polynomial.<ol marker="a" cols="2">
-            <li><m>8a^3 + b^3</m></li>
-            <li><m>1 - 27h^6</m></li></ol></p></statement>
-
-<solution><p><ol marker="a">
-    <li><p>This polynomial is a sum of two cubes. The cubed expressions are <m>2a</m>, because <m>(2a)^3 = 8a^3</m>, and <m>b</m>. Use <xref ref="sum-of-cubes">formula</xref> as a pattern, replacing <m>x</m> with <m>\alert{2a}</m>, and <m>y</m> with <m>\blert{b}</m>.
-            <md><mrow>x^3 + y^3 \amp= (x + y) (x^2 - xy + y^2)</mrow>
-                <mrow>(\alert{2a})3 + \blert{b}3 \amp= (\alert{2a} + \blert{b}) ((\alert{2a})^2 - (\alert{2a})\blert{b} + \blert{b}^2) \amp\amp \blert{\text{Simplify.}}</mrow>
-                <mrow>\amp= (2a + b) (4a^2 - 2ab + b^2)</mrow></md></p></li>
-    <li><p>This polynomial is a difference of two cubes. The cubed expressions are <m>1</m>, because <m>1^3 = 1</m>, and <m>3h^2</m>, because <m>(3h^2)^3 = 27h^6</m>. Use <xref ref="difference-of-cubes">formula</xref> above as a pattern, replacing <m>x</m> by <m>\alert{1}</m>, and <m>y</m> by <m>\blert{3h^2}</m>:
-            <md><mrow>x^3 - y^3 \amp= (x - y) (x^2 + xy + y^2)</mrow>
-                <mrow>\alert{1}^3 - (\blert{3h^2})^3 \amp= (\alert{1} - \blert{3h^2})(\alert{1}^2 + \alert{1}(\blert{3h^2}) + (\blert{3h^2})^2)\amp\amp \blert{\text{Simplify.}}</mrow>
-                <mrow>\amp= (1 - 3h^2)(1 + 3h^2 + 9 h^4)</mrow></md></p></li></ol></p>
-</solution></example>
-
-<exercise><title>Practice 4</title>
-    <webwork><pg-code>
-            Context("LimitedPolynomial")->variables->are(n=>"Real", p=>"Real");
-            $fac1 = Compute("(5*n-p)");
-            $fac2 = Compute("(25n**2+ 5*n*p  + p**2)");
-            
-$multians = MultiAnswer($fac1,$fac2)->with(
-   singleResult => 0,
-   allowBlankAnswers => 0,
-
-  checker => sub {
-    my $correct = shift; my $student = shift; my $ansHash = shift;
-    my ($F,$G) = @{$correct};
-    my ($f,$g) = @{$student};
-
-    $ansHash->setMessage(1,"Neither factor can be constant") 
-    unless $f->isFormula;
-    $ansHash->setMessage(2,"Neither factor can be constant") 
-    unless $g->isFormula;
-
-    if ( (($F == $f) &amp;&amp; ($G == $g)) ||
-         (($G == $f) &amp;&amp; ($F == $g))
-       ) 
-    { return [1,1];
-    }elsif( ($F == $f) || ($G == $f) ) 
-     {return [1,0];
-    }elsif( ($F == $g) || ($G == $g) ) 
-     {return [0,1];}
-     else 
-       {return [0,0];}    
-  }
-);
-        </pg-code>
-    <statement><p>Factor <m>125n^3 - p^3=\big(</m><var name="$multians" width="12"/><m>\big)\big(</m><var name="$multians" width="12"/><m>\big)</m> </p>
-     </statement>
-     <solution><p><m>(5n - p)(25n^2 + 5np + p^2)</m></p>
-      </solution>
-</webwork></exercise>
-
-<exercise><title>QuickCheck 4</title>
-<webwork><pg-code>
-        $True = PopUp(
-            [ "?", 
-            "True", 
-            "False"],
-            1
-        );
-        $False = PopUp(
-            [ "?", 
-            "True", 
-            "False"],
-            2
-        );
-    </pg-code>
-    <statement><p>True or False.<ol marker="a">
-        <li><p>We cannot factor the sum of two squares. <var name="$True" form="popup"/></p></li>
-        <li><p>We cannot factor the sum of two cubes.  <var name="$False" form="popup"/></p></li>
-        <li><p><m>(x+y)^3 = x^3 + y^3</m>  <var name="$False" form="popup"/></p></li>
-        <li><p>To factor <m>a^3-b^3</m>, we must first identify <m>a</m> and <m>b</m>.  <var name="$True" form="popup"/>
-        </p></li></ol></p>
-    </statement>
-    <solution><p><ol marker="a">
-    <li>True</li>
-    <li>False</li>
-    <li>False</li>
-    <li>True</li></ol></p></solution>
-</webwork></exercise>
 </subsection>
 
 <subsection><title>Modeling with Polynomials</title><idx><h>polynomial</h><h>modeling with</h></idx>
 
-<p>Polynomials model many variable relationships, including volume and surface area.<idx><h>surface area</h></idx></p>
+<p>Polynomials are used to model many variable relationships, including volume and surface area.<idx><h>surface area</h></idx></p>
 
 <example><statement><sidebyside widths="55% 30%" valigns="middle middle"><p>A closed box has a square base of length and width <m>x</m> inches and a height of 8 inches, as shown at right.</p>
-    <image source="images/fig-box"><description>box with height inches with both length and width of <m>x</m> inches</description></image></sidebyside><p><ol marker="a">
+    <image source="images/fig-box"><description>box with height 8 inches with both length and width of x inches</description></image></sidebyside>
+    <p><ol marker="a">
         <li><p>Write a polynomial function <m>S(x)</m> that gives the surface area of the box in terms of the dimensions of the base.</p></li>
         <li><p>What is the surface area of a box of length and width 18 inches?</p></li>
-        </ol></p></statement>
+    </ol></p></statement>
 
 <solution><p><ol marker="a">
     <li><p>The surface area of a box is the sum of the areas of its six faces,
@@ -345,19 +217,21 @@ $multians = MultiAnswer($fac1,$fac2)->with(
                 <me>S(18) = 2(18)^2 + 32(18) = 1224 \text{ square inches}</me></p></li>
 </ol></p></solution></example>
 
-<exercise>
-    <title>Practice 5</title>
+<p>You probably recall that the formula for the volume of a box is 
+    <me>V = lwh</me>,
+the product of its length, width, and height. So the box in the previous Example has volume <m>V = 8x^2</m> cubic inches.</p>
+
+<exercise component="webwork"><title>Practice 3</title>
     <introduction>
-        <sidebyside width="50%"><image source="images/fig-reflecting-pool" ><description>rectangular hole 3 ft deep, x feet wide, x+8 ft long</description></image></sidebyside>
+        <image width="50%" source="images/fig-reflecting-poolw" ><description>rectangular hole 3 ft deep, x feet wide, x+8 ft long</description></image>
     </introduction>
     <webwork>
          <pg-code>
             $s = Formula("x^2+20x+48");
             $v = Formula("3x^2+24x");
         </pg-code> 
-        <statement>
-            <p>An empty reflecting pool is <m>3</m> feet deep. It is <m>8</m> feet longer than it is wide, as illustrated above.</p>
-            <p><ol marker="a">
+    <statement><p>An empty reflecting pool is <m>3</m> feet deep. It is <m>8</m> feet longer than it is wide, as illustrated above.</p>
+        <p><ol marker="a">
                 <li><p>Write a polynomial function <m>S(x)</m> that gives the surface area of the empty pool.</p>
                 <p><m>S(x)=</m><var name="$s" width="20"/> </p></li>
                 <li><p>Write a polynomial function <m>V(x)</m> for the volume of the pool.</p>
@@ -368,12 +242,23 @@ $multians = MultiAnswer($fac1,$fac2)->with(
             <p><ol cols="2" marker="a">
                 <li><p>We add the area of the bottom to the areas of each of the sides of the pool: <m>S(x) = x^2 + 20x + 48</m></p></li>
                 <li><p>We multiply depth, length, and width: <m>V(x) = 3x^2 + 24x</m></p></li>
-            </ol></p>
-        </solution>
-    </webwork>
-</exercise>
+        </ol></p></solution>
+    </webwork></exercise>
 
-<p>Cubic polynomials <idx><h>polynomial</h><h>cubic</h></idx> are often used in economics to model cost functions. The cost of producing <m>x</m> items is an increasing function of <m>x</m>, but its rate of increase is usually not constant.</p>
+<exercise component="main"><title>Practice 3</title>
+<statement>
+    <p>An empty reflecting pool is <m>3</m> feet deep. It is <m>8</m> feet longer than it is wide, as illustrated at right.</p>
+    <sidebyside widths="55% 40%" valigns="middle middle"><p><ol marker="a">
+            <li><p>Write a polynomial function <m>S(x)</m> that gives the surface area of the empty pool.</p></li>
+            <li><p>Write a polynomial function <m>V(x)</m> for the volume of the pool.</p></li>
+    </ol></p>
+    <image source="images/fig-reflecting-pool" ><description>rectangular hole 3 ft deep, x feet wide, x+8 ft long</description></image></sidebyside></statement>
+    <solution><p><ol marker="a" cols="2">
+        <li><p><m>S(x) = x^2 + 20x + 48</m></p></li>
+        <li><p><m>V(x) = 3x^2 + 24x</m></p></li>
+    </ol></p></solution></exercise>
+
+<p>A polynomial of degree 3 is called a <term> cubic polynomial</term>. <idx><h>polynomial</h><h>cubic</h></idx> Cubic polynomials  are often used in economics to model cost functions. The cost of producing <m>x</m> items is an increasing function of <m>x</m>, but its rate of increase is usually not constant.</p>
 
 <example xml:id="example-cubic-cost-function"><statement><p>Pegasus Printing, Ltd. is launching a new magazine. The cost of printing <m>x</m> thousand copies is given by
         <me>C(x) = x^3 - 24x^2 + 195x + 250</me><ol marker="a">
@@ -388,18 +273,18 @@ $multians = MultiAnswer($fac1,$fac2)->with(
 <solution><p><ol marker="a">
     <li><p>Fixed costs are given by <m>C(0) = 250</m>, or $250. The fixed costs include expenses like utility bills that must be paid even if no magazines are produced.</p></li>
     <li><p>The graph is shown in figure (a). It is increasing from a vertical intercept of 250. The graph is concave down for <m>x \lt 8</m> approximately, and concave up for <m>x\gt 8</m>.</p>
-            <sidebyside width="80%"><image source="images/fig-GC-cubic-cost-function" ><description>GC graphs of a cubic cost function</description></image></sidebyside></li>
+            <image width="80%" source="images/fig-GC-cubic-cost-function" ><description>GC graphs of a cubic cost function</description></image></li>
     <li><p>We must solve the equation
                 <me>x^3 - 24x^2 + 195x + 250 = 1200</me>
      We will solve the equation graphically, as shown in figure (b). Graph <m>y = 1200</m> along with the cost function, and use the <em>intersect</em> command to find the intersection point of the graphs, <m>(15.319, 1200)</m>. <m>C(x) = 1200</m> when <m>x</m> is about 15.319, so 15,319 copies can be printed for $1200.</p></li>
      <li><p>Although the cost is always increasing, it increases very slowly from about <m>x = 5</m> to about <m>x = 11</m>. The flattening of the graph in this interval is a result of economy of scale: By buying supplies in bulk and using time efficiently, the cost per magazine can be minimized. However, if the production level is too large, costs begin to rise rapidly again.</p></li>
 </ol></p></solution></example>
 
-<p>In <xref ref="example-cubic-cost-function" text="type-global"/>c, we solved a cubic equation graphically. There is a cubic formula, <idx>cubic formula</idx> analogous to the quadratic formula, that allows us to solve cubic equations <idx><h>polynomial</h><h>cubic</h></idx> algebraically, but it is complicated and not often used.</p>
+<p>In <xref ref="example-cubic-cost-function" text="type-global"/>c, we solved a cubic equation graphically. There is a cubic formula, <idx>cubic formula</idx> analogous to the quadratic formula, that allows us to solve cubic equations <idx><h>polynomial</h><h>cubic</h></idx> algebraically, but it is complicated and not often used in applications.</p>
 
 <p>Cubic polynomials <idx><h>polynomial</h><h>cubic</h></idx> are also used to model smooth curves connecting given points. Such a curve is called a <term>cubic spline</term><idx>cubic spline</idx>.</p>
 
-<exercise><title>Practice 6</title>
+<exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
             $a = Compute("8000");
             $d = Compute("5");
@@ -429,11 +314,30 @@ $multians = MultiAnswer($fac1,$fac2)->with(
     </webwork>
     <conclusion>
         <p>Graph for part (b)</p>
-        <sidebyside width="40%" margins="0% 50%"><image source="images/fig-ex-8-1-6ans"><description>cubic</description></image></sidebyside>
+        <image width="50%" margins="0% 50%" source="images/fig-ex-8-1-6answ"><description>cubic</description></image>
     </conclusion>
 </exercise>
 
-<exercise><title>QuickCheck 5</title>
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Leon is flying his plane to Au Gres, Michigan. He maintains a constant altitude until he passes over a marker just outside the neighboring town of Omer, when he begins his descent for landing. During the descent, his altitude, in feet, is given by
+            <me>A(x) = 128x^3 - 960x^2 + 8000</me>
+    where <m>x</m> is the number of miles Leon has traveled since passing over the marker in Omer.</p>
+    <p><ol marker="a">
+            <li><p>What is Leon's altitude when he begins his descent?</p></li>
+            <li><p>Graph <m>A(x)</m> in the window
+                <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 5</mrow>
+                    <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 8000</mrow></md></p></li>
+            <li><p>Use the <em>Trace</em> feature to discover how far from Omer Leon will travel before landing. (In other words, how far is Au Gres from Omer?)</p></li>
+            <li><p>Verify your answer to part (c) algebraically.</p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+            <li><p>8000 ft</p></li>
+            <li><image width="50%" margins="0% 50%" valign="middle" source="images/fig-ex-8-1-6ans"><description>cubic</description></image></li>
+            <li><p>5 mi</p></li>
+            <li><p><m>A(5) = 0</m></p></li>
+        </ol></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
         $add = PopUp(
             [ "?", 
@@ -483,6 +387,260 @@ $multians = MultiAnswer($fac1,$fac2)->with(
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p>Fill in the blanks.</p>
+<p><ol marker="a">
+    <li>We find the surface area of an object by calculating the area of each face and then <fillin characters="10"/> them.</li>
+    <li>In economics, <fillin characters="10"/> are often used to model cost functions.</li>
+    <li>The flattening of a cost function in its midrange is a result of <fillin characters="10"/>.</li>
+    <li>A smooth curve connecting given points by cubic polynomials is called a <fillin characters="10"/>.</li>
+</ol></p></statement></exercise>
+</subsection>
+
+<subsection><title>Approximations with Polynomials</title>
+
+<p>Did you ever wonder how your calculator obtains decimal values for numbers such as <m>\sqrt{1.1}~</m> or <m>10^{0.8}~</m>? One way to do it is to use a polynomial. Functions such as <m>f(x) = \sqrt{x}~</m> and <m>f(x) = 10^x~</m> can be approximated by polynomials, and the higher the degree of the polynomial, the better the approximation. Because evaluating a polynomial uses only addition and multiplication, calculators and computers can perform the calculations quickly and give us decimal values with great accuracy.</p>
+
+<example><statement><p><ol marker="a">
+    <li><p>Evaluate the polynomial 
+        <me>P(x) = 1 + 0.5x - 0.125x^2 + 0.0625x^3</me>
+        at <m>x=0.1</m> to find an approximation for <m>\sqrt{1.1}</m>.</p></li>
+    <li><p>Use a calculator to evaluate <m>\sqrt{1.1}</m>. How close is your approximation from part (a)?</p></li>
+</ol></p></statement>
+
+<solution><p><ol marker="a">
+    <li><p>Substituting <m>x=\blert{0.1}</m> into <m>P(x)</m> we find
+    <me>P({\blert{0.1}}) = 1 + 0.5({\blert{0.1}}) - 0.125({\blert{0.1}})^2 + 0.0625({\blert{0.1}})^3 = 1.0488125</me></p></li>
+    <li><p>A calculator returns the value <m>\sqrt{1.1} = 1.048808848</m>. Our approximation is accurate to four decimal places. One can use a polynomial of higher degree to obtain an approximation with greater accuracy.</p></li>
+</ol></p></solution></example>
+
+<exercise component="main"><title>Practice 5</title>
+<statement><p><ol marker="a">
+    <li><p>Evaluate the polynomial 
+        <me>P(x) = 10 + 23x + 26.51x^2 + 20.35x^3</me>
+        at <m>x=-0.2</m> to find an approximation for <m>10^{0.8}</m>.</p></li>
+        <li><p>Use a calculator to evaluate <m>10^{0.8}</m>. How close is your approximation from part (a)?</p></li>
+</ol></p></statement>
+<solution><p><ol marker="a">
+    <li><p><m>6.2976</m></p></li>
+    <li><p><m>6.30957~~</m> The approximation is accurate to two decimal places.</p></li>
+</ol></p></solution></exercise>
+</subsection>
+
+<subsection><title>Special Products</title>
+
+<p>As we mentioned earlier, many quadratic polynomials can be factored into a product of two linear expressions, and these factors give us information about the roots of a quadratic equation or the <m>x</m>-intercepts of its graph. The same is true of cubic polynomials, so we will take a brief look at how they can be factored.</p>
+
+<p>To begin, recall the following special products involving quadratic expressions.</p>
+
+<assemblage><title>Special Products of Binomials</title><idx>special products of binomials</idx><idx><h>binomial</h><h>special products of</h></idx><idx><h>polynomial</h><h>quadratic</h></idx>
+    <p><md><mrow>\amp \blert{(a + b)^2 = a^2 + 2ab + b^2}</mrow>
+            <mrow>\amp \blert{(a - b)^2 = a^2 - 2ab + b^2}</mrow>
+            <mrow>\amp \blert{(a + b) (a - b)= a^2 -b^2}</mrow></md>
+</p></assemblage>
+
+<p>There are also special products resulting in cubic polynomials. In the Homework problems, you will be asked to verify the following products.</p>
+
+<assemblage><title>Cube of a Binomial</title><idx><h>binomial</h><h>cube of</h></idx><idx>cube of a binomial</idx><idx><h>polynomial</h><h>cubic</h></idx>
+    <p><ol marker="1">
+        <li><m>\blert{(x + y)^3 = x^3 + 3x^2y + 3xy^2 + y^3}</m></li>
+        <li xml:id="cube-of-x-minus-y"><m>\blert{(x - y)^3 = x^3 - 3x^2y + 3xy^2 - y^3}</m></li>
+    </ol></p></assemblage>
+
+<p>If you become familiar with these general forms, you can use them as patterns to find specific examples of such products.</p>
+
+<example xml:id="example-cube-binomial"><statement><p>Write <m>(2w - 3)^3</m> as a polynomial.</p></statement>
+
+<solution><p>Use <xref ref="cube-of-x-minus-y">product</xref> above, with <m>x</m> replaced by <m>\alert{2w}</m> and <m>y</m> replaced by <m>\blert{3}</m>.
+        <md><mrow>(x - y)^3 \amp= x^3 - 3 x^2 y + 3 x y^2 - y^3</mrow>
+            <mrow>({\alert{2w}} - {\blert{3}})^3 \amp= ({\alert{2w}})^3 - 3({\alert{2w}})^2({\blert{3}}) + 3({\alert{2w}})({\blert{3}})^2 - {\blert{3}}^3 \amp\amp \blert{\text{Simplify.}}</mrow>
+            <mrow>\amp= 8w^3 - 36w^2 + 54w - 27</mrow></md>
+</p></solution></example>
+
+<p>Of course, we can also expand the product in <xref ref="example-cube-binomial" text="type-global"/> simply by polynomial multiplication and arrive at the same answer.</p>
+
+<exercise component="webwork"><title>Practice 6</title>
+    <webwork><pg-code>
+            Context("LimitedPolynomial-Strict");
+            $f = Formula("125 + 75x^2+15x^4 + x^6");
+        </pg-code>
+   <statement><p>Write <m>\left(5 + x^2\right)^3</m> as a polynomial.</p>
+            <p>Answer: <var name="$f" width="20"/> </p>
+    </statement>
+    <solution><p><m>125 + 75x^2 + 15x^4 + x^6</m></p></solution>
+</webwork></exercise>
+
+<exercise component="main"><title>Practice 6</title>
+    <statement><p>Write <m>\left(5 + x^2\right)^3</m> as a polynomial.</p></statement>
+    <solution><p><m>125 + 75x^2 + 15x^4 + x^6</m></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 4</title>
+<webwork>
+    <pg-code>
+        $lead = PopUp(
+            [ "?", 
+            "discriminant", 
+            "lead coefficient"
+            ],
+            2
+        );
+        $degree = PopUp(
+            [ "?", 
+            "degree", 
+            "logarithm"
+            ],
+            1
+        );
+        $powers = PopUp(
+            [ "?", 
+            "ascending powers", 
+            "descending powers"
+            ],
+            2
+        );
+        $six = Compute("6");
+    </pg-code>
+<statement>
+    <p>Fill in the blanks.<ol marker="a">
+        <li><p>The coefficient of the highest power term of a polynomial is called the <var name="$lead" form="popup"/>.</p></li>
+        <li><p>The largest exponent in a polynomial is called the <var name="$degree" form="popup"/> of the polynomial.</p></li>
+        <li><p>If the degrees of the terms decrease from largest to smallest, the polynomial is written in <var name="$powers" form="popup"/>.</p></li>
+        <li><p>The degree of a product of two cubic polynomials is <var name="$six" width="2"/>.</p></li></ol></p>
+    </statement>
+    <solution><p><ol marker="a">
+        <li>lead coefficient</li>
+        <li>degree</li>
+        <li>descending powers</li>
+        <li>6</li>
+    </ol></p></solution>
+</webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p>Fill in the blanks.</p>
+<p><ol marker="a">
+        <li><p>The coefficient of the highest power term of a polynomial is called the <fillin characters="10"/>.</p></li>
+        <li><p>The largest exponent in a polynomial is called the <fillin characters="10"/> of the polynomial.</p></li>
+        <li><p>If the degrees of the terms decrease from largest to smallest, the polynomial is written in <fillin characters="10"/>.</p></li>
+        <li><p>The degree of a product of two cubic polynomials is <fillin characters="10"/>.</p></li>
+    </ol></p></statement></exercise>
+</subsection>
+
+<subsection><title>Factoring Cubics</title><idx><h>polynomial</h><h>cubic</h></idx>
+
+<p>Another pair of products is useful for factoring cubic polynomials. In the Homework problems, you will be asked to verify the following products:
+    <md><mrow>(x + y)(x^2 - xy + y^2) \amp= x^3 + y^3</mrow>
+        <mrow>(x - y)(x^2 + xy + y^2) \amp= x^3 - y^3</mrow></md></p>
+
+<p>Viewing these products from right to left, we have the following special factorizations for the sum and difference of two cubes.</p>
+
+<assemblage><title>Factoring the Sum or Difference of Two Cubes</title><idx><h>factoring</h><h>cubics</h></idx><idx><h>polynomial</h><h>cubic</h></idx>
+    <p><ol marker="1">
+    <li xml:id="sum-of-cubes"><p><m>\blert{x^3 + y^3 = (x + y)(x^2 - xy + y^2)}</m></p></li>
+    <li xml:id="difference-of-cubes"><p><m>\blert{x^3 - y^3 = (x - y)(x^2 + xy + y^2)}</m></p></li>
+</ol></p></assemblage>
+
+<p>When we recognize a polynomial as a sum or difference of two perfect cubes, we then identify the two cubed expressions and apply the formula.</p>
+
+<example><statement><p>Factor each polynomial.<ol marker="a" cols="2">
+            <li><m>8a^3 + b^3</m></li>
+            <li><m>1 - 27h^6</m></li>
+    </ol></p></statement>
+
+<solution><p><ol marker="a">
+    <li><p>This polynomial is a sum of two cubes. The cubed expressions are <m>2a</m>, because <m>(2a)^3 = 8a^3</m>, and <m>b</m>. Use <xref ref="sum-of-cubes">formula</xref> as a pattern, replacing <m>x</m> with <m>\alert{2a}</m>, and <m>y</m> with <m>\blert{b}</m>.
+            <md><mrow>x^3 + y^3 \amp= (x + y) (x^2 - xy + y^2)</mrow>
+            <mrow>({\alert{2a}})^3 + \blert{b}^3 \amp= ({\alert{2a}} + {\blert{b}}) \left[({\alert{2a}})^2 - ({\alert{2a}}){\blert{b}} + {\blert{b}}^2\right] \amp\amp \blert{\text{Simplify.}}</mrow>
+                <mrow>\amp= (2a + b) (4a^2 - 2ab + b^2)</mrow></md></p></li>
+    <li><p>This polynomial is a difference of two cubes. The cubed expressions are <m>1</m>, because <m>1^3 = 1</m>, and <m>3h^2</m>, because <m>(3h^2)^3 = 27h^6</m>. Use <xref ref="difference-of-cubes">formula</xref> above as a pattern, replacing <m>x</m> by <m>\alert{1}</m>, and <m>y</m> by <m>\blert{3h^2}</m>:
+            <md><mrow>x^3 - y^3 \amp= (x - y) (x^2 + xy + y^2)</mrow>
+                <mrow>{\alert{1}}^3 - ({\blert{3h^2}})^3 \amp= ({\alert{1}} - {\blert{3h^2}})\left[{\alert{1}}^2 + {\alert{1}}({\blert{3h^2}}) + ({\blert{3h^2}})^2\right]\amp\amp \blert{\text{Simplify.}}</mrow>
+                <mrow>\amp= (1 - 3h^2)(1 + 3h^2 + 9 h^4)</mrow></md></p></li>
+    </ol></p></solution></example>
+
+<exercise component="webwork"><title>Practice 7</title>
+    <webwork><pg-code>
+            Context("LimitedPolynomial")->variables->are(n=>"Real", p=>"Real");
+            $fac1 = Compute("(5*n-p)");
+            $fac2 = Compute("(25n**2+ 5*n*p  + p**2)");
+            
+$multians = MultiAnswer($fac1,$fac2)->with(
+   singleResult => 0,
+   allowBlankAnswers => 0,
+
+  checker => sub {
+    my $correct = shift; my $student = shift; my $ansHash = shift;
+    my ($F,$G) = @{$correct};
+    my ($f,$g) = @{$student};
+
+    $ansHash->setMessage(1,"Neither factor can be constant") 
+    unless $f->isFormula;
+    $ansHash->setMessage(2,"Neither factor can be constant") 
+    unless $g->isFormula;
+
+    if ( (($F == $f) &amp;&amp; ($G == $g)) ||
+         (($G == $f) &amp;&amp; ($F == $g))
+       ) 
+    { return [1,1];
+    }elsif( ($F == $f) || ($G == $f) ) 
+     {return [1,0];
+    }elsif( ($F == $g) || ($G == $g) ) 
+     {return [0,1];}
+     else 
+       {return [0,0];}    
+  }
+);
+        </pg-code>
+    <statement><p>Factor <m>125n^3 - p^3=\big(</m><var name="$multians" width="12"/><m>\big)\big(</m><var name="$multians" width="12"/><m>\big)</m> </p>
+     </statement>
+     <solution><p><m>(5n - p)(25n^2 + 5np + p^2)</m></p>
+      </solution>
+</webwork></exercise>
+
+<exercise component="main"><title>Practice 7</title>
+    <statement><p>Factor <m>125n^3 - p^3</m> </p></statement>
+    <solution><p><m>(5n - p)(25n^2 + 5np + p^2)</m></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 5</title>
+<webwork><pg-code>
+        $True = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            1
+        );
+        $False = PopUp(
+            [ "?", 
+            "True", 
+            "False"],
+            2
+        );
+    </pg-code>
+    <statement><p>True or False.<ol marker="a">
+        <li><p>We cannot factor the sum of two squares. <var name="$True" form="popup"/></p></li>
+        <li><p>We cannot factor the sum of two cubes.  <var name="$False" form="popup"/></p></li>
+        <li><p><m>(x+y)^3 = x^3 + y^3</m>  <var name="$False" form="popup"/></p></li>
+        <li><p>To factor <m>a^3-b^3</m>, we must first identify <m>a</m> and <m>b</m>.  <var name="$True" form="popup"/>
+        </p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a">
+        <li>True</li>
+        <li>False</li>
+        <li>False</li>
+        <li>True</li>
+    </ol></p></solution>
+</webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 5</title>
+<statement><p>True or False.</p>
+<p><ol marker="a">
+        <li><p>We cannot factor the sum of two squares. </p></li>
+        <li><p>We cannot factor the sum of two cubes.</p></li>
+        <li><p><m>(x+y)^3 = x^3 + y^3</m> </p></li>
+        <li><p>To factor <m>a^3-b^3</m>, we must first identify <m>a</m> and <m>b</m>. </p></li>
+    </ol></p></statement></exercise>
+</subsection>
+
+<subsection><title>An Application of Cubic Splines</title>
 <investigation><title>Bézier Curves</title>
 
 <p>A Bézier curve is actually a sequence of short curves pieced together. Each piece has two endpoints and (for nonlinear curves) at least one control point. The control points do not lie on the curve itself, but they determine its shape. Two polynomials define the curve, one for the <m>x</m>-coordinate and one for the <m>y</m>-coordinate.</p>
@@ -635,7 +793,6 @@ $multians = MultiAnswer($fac1,$fac2)->with(
 
 <li><p>Connect the four given points in order using three line segments. How does the position of the control points affect the curve? Finish the letter y by including the linear Bézier curve you drew for step (2).</p></li>
 </ol></p></investigation>
-
 
 </subsection>
 

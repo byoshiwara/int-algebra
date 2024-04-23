@@ -6,7 +6,7 @@
 
 <introduction><p>There is another base for logarithms and exponential functions that is often used in applications. This base is an irrational number called <m>e</m>, where
 	<me>\blert{e \approx 2.71828182845}</me>
-	The number <m>e</m> is essential for many advanced topics, and it is often called the <term>natural base</term>.<idx>natural base</idx></p></introduction>
+The number <m>e</m> is essential for many advanced topics, and it is often called the <term>natural base</term>.<idx>natural base</idx></p></introduction>
 
 <subsection><title>The Natural Exponential Function</title>
 
@@ -14,7 +14,7 @@
     <p><m>\qquad\qquad</m><kbd>2nd</kbd> <kbd>LN</kbd> <m>1</m></p>
 <p>to confirm the value of <m>e</m> given above.</p>
 
-<exercise><title>Practice 1</title>
+<exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
             $a = Compute("e**2")->with(
               tolType => 'absolute',
@@ -47,6 +47,19 @@
             </ol></p>
         </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 1</title>
+<statement><p>Use your calculator to evaluate the following powers.
+        <ol marker="a" cols="3">
+            <li><p><m>e^2</m></p></li>
+            <li><p><m>e^{3.5}</m></p></li>
+            <li><p><m>e^{-0.5}</m></p></li>
+        </ol></p></statement>
+        <solution><p><ol cols="3" marker="a">
+                <li><p><m>e^2\approx 7.389</m></p></li>
+                <li><p><m>e^{3.5}\approx 33.115 </m></p></li>
+                <li><p><m>e^{-0.5}\approx 0.6065 </m></p></li>
+            </ol></p></solution></exercise>
 
 <p>Because <m>e</m> is a number between 2 and 3, the graph of <m>f(x) = e^x</m> lies between the graphs of <m>y = 2^x</m> and <m>y = 3^x</m>. Compare the tables of values and the graphs of the three functions below. You can verify the table and graphs on your caclulator.</p>
 
@@ -96,7 +109,7 @@
 <image source="images/fig-3-exponentials"><description>graph of 3 exponential functions</description></image>
 </sidebyside>
 
-<exercise><title>QuickCheck 1</title>
+<exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
             $esq = RadioButtons(
               ["\(3\)",
@@ -115,14 +128,22 @@
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>The value of <m>e^2</m> is closest to</p>
+    <p><ol marker="a" cols="4">
+        <li><m>3</m></li>
+        <li><m>5</m></li>
+        <li><m>7</m></li>
+        <li><m>9</m></li>
+    </ol></p></statement>
+<solution><p><m>7</m></p></solution></exercise>
+
 <example xml:id="example-translate-exponential"><statement><p>Graph each function. How does each graph differ from the graph of <m>y = e^x</m>?<ol marker="a" cols="2">
             <li><m>g(x) = e^{x+2}</m></li>
             <li><m>h(x) = e^x + 2</m></li>
         </ol></p></statement>
 
-<solution><sidebyside width="35%"><image xml:id="fig-translate-exponential">
-        <description>translates of exponential</description>
-        <latex-image>
+<solution><image width="35%" xml:id="fig-translate-exponential"><description>translates of exponential</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -141,9 +162,7 @@
         \draw[samples=65,domain={-4:ln(8)},smooth,variable=\x,green!60!black, thick, <->, >=stealth'] plot ({(\x)},{e^(\x)+2});
         \node[text=green!50!black,fill=white, inner sep=2] at (-2.9,2.8) {$y=e^x+2$};
         \end{tikzpicture}]]>
-        </latex-image>
-</image>
-</sidebyside>
+        </latex-image></image>
 <p> The graph of <m>g</m> is shifted <m>2</m> units to the left of <m>y = e^x</m>. The graph of <m>h</m> is shifted <m>2</m> units up from <m>y = e^x</m>. The graphs are shown above.</p></solution></example>
 </subsection>
 
@@ -165,7 +184,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 <assemblage><title>Conversion Formulas for Natural Logs</title>
 <p><me>\blert{y= \ln x~~~~~~\text{if and only if}~~~~~~e^y=x}</me></p></assemblage>
 
-<exercise><title>QuickCheck 2</title>
+<exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>       
             $loge = RadioButtons(
               ["\(e^k=x\)",
@@ -183,6 +202,15 @@ In general, natural logs obey the same conversion formulas that work for logs to
         <p><m>\ln k=x</m></p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 2</title>
+<statement><p> Which of the following is equivalent to <m>e^x=k</m> ?</p>
+    <p><ol marker="a" cols="2">
+        <li><m>e^k=x</m></li>
+        <li><m>\ln(e) = x</m></li>
+        <li><m>\ln(k) = x</m></li>
+        <li><m>k^x = e</m></li>
+    </ol></p></statement></exercise>
 
 <p>In particular,
 	<md><mrow>\ln e \amp = 1~~~~ \text{ because }~~~~ e^1 = e </mrow>
@@ -224,7 +252,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 
 <p>You can see from the graph that the natural log function has only positive numbers as input values. The natural logs of negative numbers and zero are undefined. You can also see that the natural log of a number greater than 1 is positive, while the logs of fractions between 0 and 1 are negative. </p>
 
-<exercise><title>Practice 2</title>
+<exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
             $a = Compute("ln(100)")->with(
               tolType => 'absolute',
@@ -254,6 +282,23 @@ In general, natural logs obey the same conversion formulas that work for logs to
         </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 2</title>
+<statement><p>Use your calculator to evaluate each logarithm. Round your answers to four decimal places.</p>
+        <p><ol marker="a" cols="3">
+                <li><p><m>\ln 100</m></p></li>
+                <li><p><m>\ln 0.01</m></p></li>
+                <li><p><m>\ln e^3</m></p></li>
+        </ol></p></statement>
+    <solution>
+            <p><ol marker="a" cols="2">
+            <li><m>\ln 100\approx 4.6052</m></li>
+            <li><m>\ln 0.01\approx -4.6052</m></li>
+            <li><m>\ln e^3 =3</m></li>
+    </ol></p></solution></exercise>
+</subsection>
+
+<subsection><title>Properties of the Natural Logarithm</title>
+
 <p>The three properties of logarithms also apply to base <m>e</m> logarithms.</p>
 
 <assemblage><title>Properties of Natural Logarithms</title>
@@ -268,7 +313,6 @@ In general, natural logs obey the same conversion formulas that work for logs to
 <assemblage><title>The Natural Log and <m>e^x</m></title>
     <p><me>\blert{\ln {e^x} =x}~~~~~~\text{and}~~~~~~\blert{e^{\ln {x}} = x}</me></p></assemblage>
 
-
 <example xml:id="example-simplify-ln-and-exp"><statement><p>Simplify each expression.
 		<ol marker="a" cols="2">
 			<li><m>\ln e^{0.3x}</m></li>
@@ -282,7 +326,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 		Then <m>e^{2 \ln(x+3)} = e^{\ln(x+3)^2} = (x + 3)^2</m>.</p></li>
 	</ol></p></solution></example>
 
-<exercise><title>Practice 3</title>
+<exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
             Context()->functions->disable("All");
             Context()->functions->enable("sqrt");
@@ -304,6 +348,17 @@ In general, natural logs obey the same conversion formulas that work for logs to
             </ol></p>
         </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 3</title>
+<statement><p>Simplify each expression.</p>
+    <p><ol marker="a" cols="2">
+            <li><p><m>e^{(\ln x)/2}</m></p></li>
+            <li><p><m>\ln\left(\dfrac{1}{e^{4x}}\right)</m></p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+                <li><p><m>\sqrt{x} </m></p></li>
+                <li><p><m>-4x</m></p></li>
+        </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Solving Equations</title>
@@ -322,7 +377,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 			<me>x = e^{3.5} \approx 33.1155</me></p></li>
 	</ol></p></solution></example>
 
-<exercise><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
             $a = Compute("e**(-0.2)")->with(
               tolType => 'absolute',
@@ -351,7 +406,18 @@ In general, natural logs obey the same conversion formulas that work for logs to
         </solution>
 </webwork></exercise>
 
-<exercise><title>QuickCheck 3</title>
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Solve each equation. Round your answers to four decimal places.</p>
+         <p><ol marker="a" cols="2">
+            <li><p><m>\ln x =-0.2</m></p></li>
+            <li><p><m>e^x = 8</m></p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a" cols="2">
+                <li><p><m>0.8187 </m></p></li>
+                <li><p><m>2.0794</m></p></li>
+    </ol></p></solution></exercise>
+
+<exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>       
             $button = RadioButtons(
               ["8 is larger than 6.5.",
@@ -369,6 +435,15 @@ In general, natural logs obey the same conversion formulas that work for logs to
         <p>There is a button for log base  on the calculator, but not a button for log base 8.</p>
     </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 3</title>
+<statement><p> Why is the equation <m>e^x=6.5</m> easier to solve than <m>8^x=6.5</m> ?</p>
+        <p><ol marker="a">
+            <li><p>8 is larger than 6.5.</p></li> 
+            <li><p><m>k</m> is a constant.</p></li>
+            <li><p>There is a button for log base <m>e</m> on the calculator, but not a button for log base 8.</p></li>
+            <li><p>Because <m>e</m> is an irrational number.</p></li>
+        </ol></p> </statement></exercise>
 
 <p>To solve more complicated exponential equations, we isolate the power on one side of the equation before converting to logarithmic form.<idx><h>exponential equation</h><h>solving</h></idx></p>
 
@@ -388,7 +463,7 @@ by taking the natural logarithm of both sides. This gives us
 	   <mrow>\ln 7 \amp = 0.4x</mrow></md>
 because <m>\ln{e^a} = a</m> for any number <m>a</m>. We then proceed with the solution as before.</p></note>
 
-<exercise><title>Practice 5</title>
+<exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
             $a = Compute("-5*ln(9.7/16)");
         </pg-code>
@@ -400,6 +475,10 @@ because <m>\ln{e^a} = a</m> for any number <m>a</m>. We then proceed with the so
             <p><m>x = -5 \ln \left(\dfrac{9.7}{16} \right)\approx 2.5023</m></p>
         </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 5</title>
+<statement><p>Solve <me>80 -16e^{-0.2x} = 70.3</me></p></statement>
+    <solution><p><m>x = -5 \ln \left(\dfrac{9.7}{16} \right)\approx 2.5023</m></p></solution></exercise>
 
 <example xml:id="example-solve-logistic"><statement><p>Solve <m>P = \dfrac{a}{1 + be^{-kt}}</m> for <m>t</m>.</p></statement>
 
@@ -418,7 +497,7 @@ Then we isolate the power, <m>e^{-kt}</m>, as follows:
 	Finally, we divide both sides by <m>-k</m> to solve for <m>t</m>.
 		<me>t =\frac{-1}{k}\ln{\frac{a-P}{bP}}</me></p></solution></example>
 
-<exercise><title>Practice 6</title>
+<exercise component="webwork"><title>Practice 6</title>
     <webwork><pg-code>
             Context()->variables->add(N=>"Real", A=>"Real", t=>"Real");
             $a = Formula("-ln(N/A)/t");
@@ -436,6 +515,14 @@ Then we isolate the power, <m>e^{-kt}</m>, as follows:
             <p><m>k=\dfrac{-\ln(N/A) }{t} </m></p>
         </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 6</title>
+<statement><p>Solve <m>N = Ae^{-kt}</m> for <m>k</m>.</p>
+            <p>Hint: <m>\blert{\text{Divide both sides by}~ A.}</m></p>
+            <p><m>\blert{\text{Take the natural log of both sides.}}</m></p>
+            <p><m>\blert{\text{Divide both sides by}~ -t.}</m></p>
+        </statement>
+    <solution><p><m>k=\dfrac{-\ln(N/A) }{t} </m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Exponential Growth and Decay</title>
@@ -457,11 +544,11 @@ Thus, the growth law for the colony of bacteria can be written
 	<me>P(t) \approx 100 \cdot e^{1.0986t}</me>
 By graphing both functions on your calculator, you can verify that <me>P(t) = 100 \cdot 3^t~~~\text{and}~~~P(t) = 100 \cdot e^{1.0986t}</me> are just two ways of writing the same function.</p>
 
-<example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year.
-<ol marker="a">
+<example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year.</p>
+<p><ol marker="a">
 	<li>What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population <m>t</m> years later.</li>
 	<li>Write a growth formula for Clark County using base <m>e</m>.</li>
-		</ol></p></statement>
+</ol></p></statement>
 <solution><p><ol marker="a">
 		<li><p>The growth factor was <m>b = 1 + r = 1.064</m>. The population <m>t</m> years later was
 			<me>P(t) = 768,000 (1.064)^t</me></p></li>
@@ -470,7 +557,7 @@ By graphing both functions on your calculator, you can verify that <me>P(t) = 10
 			so <m>P(t) = 768,000 e^{0.062t}</m>.</p></li>
 	</ol></p></solution></example>
 
-<exercise><title>Practice 7</title>
+<exercise component="webwork"><title>Practice 7</title>
     <webwork><pg-code>
             Context()->variables->add(t=>"Real");
             $a = Compute("2.8*e**(0.85)")->with(
@@ -484,7 +571,7 @@ By graphing both functions on your calculator, you can verify that <me>P(t) = 10
             $b = Formula("2.8*(1+$percent/100)**t");
         </pg-code>
     <statement><p>From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula <m>N(t) = 2.8e^{0.85t}</m>, where <m>t = 0</m> in 1994 and <m>N</m> is in millions. (Source: Los Angeles Times, September 6, 1999)</p>
-            <p><ol marker="a">
+        <p><ol marker="a">
             <li><p>Evaluate <m>N(1)=</m><var name="$a" width="3"/> . By what percent did the number of Internet users grow in one year?</p>
             <p>About <var name="$percent" width="3"/>%</p></li>
             <li><p>Express the growth law in the form <m>N(t) = N_0 (1 + r)^t</m>. </p>
@@ -502,13 +589,24 @@ By graphing both functions on your calculator, you can verify that <me>P(t) = 10
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>Practice 7</title>
+<statement><p>From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula <m>N(t) = 2.8e^{0.85t}</m>, where <m>t = 0</m> in 1994 and <m>N</m> is in millions. (Source: Los Angeles Times, September 6, 1999)</p>
+    <p><ol marker="a">
+        <li><p>Evaluate <m>N(1)=</m>. By what percent did the number of Internet users grow in one year?</p></li>
+        <li><p>Express the growth law in the form <m>N(t) = N_0 (1 + r)^t</m>. (Hint: <m>e^k = 1 + r</m>.)</p></li>
+    </ol></p></statement>
+<solution><p><ol marker="a" cols="2">
+        <li><p><m>N(1)\approx 6.55</m>, <m>~134\%</m></p></li>
+        <li><p><m>N(t)\approx 2.8 (2.3396)^t </m></p></li>
+    </ol></p></solution></exercise>
+
 <p>If <m>k</m> is negative, then <m>e^k</m> is a fraction less than <m>1</m>. For example, if <m>k = -2</m>,
 	<me>e^{-2} = \frac{1}{e^2} \approx \frac{1}{7.3891} \approx 0.1353</me>
 Thus, for negative values of <m>k</m>, the function <m>P(t) = P_0 e^{kt}</m> describes exponential decay.</p>
 
 <xi:include href="./assemblage-exponential-growth-and-decay.xml" />
 
-<exercise><title>QuickCheck 4</title>
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>       
             $lnfrac = RadioButtons(
               ["positive.",
@@ -527,6 +625,15 @@ Thus, for negative values of <m>k</m>, the function <m>P(t) = P_0 e^{kt}</m> des
     </solution>
 </webwork></exercise>
 
+<exercise component="main"><title>QuickCheck 4</title>
+<statement><p> The natural log of a fraction between 0 and 1 is</p>
+    <p><ol marker="a">
+            <li><p>positive.</p></li> 
+            <li><p>negative.</p></li>
+            <li><p>undefined.</p></li>
+            <li><p>between <m>e^0</m> and <m>e^1</m>.</p></li>
+        </ol></p> </statement></exercise>      
+
 <example xml:id="example-write-decay-with-e"><statement><p>Express the decay law <m>N(t) = 60 (0.8)^t</m> in the form <m>N(t) = N_0 e^{kt}</m>.</p></statement>
 
 <solution><p>For this decay law, <m>N_0 = 60</m> and <m>b = 0.8</m>. We would like to find a value for <m>k</m> so that <m>e^k = b = 0.8</m>, that is, we must solve the equation
@@ -536,7 +643,7 @@ Thus, for negative values of <m>k</m>, the function <m>P(t) = P_0 e^{kt}</m> des
 Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
 		<me>N(t) \approx 60e^{-0.2231t}</me></p></solution></example>
 
-<exercise><title>Practice 8</title>
+<exercise component="webwork"><title>Practice 8</title>
     <webwork><pg-code>
             Context()->variables->add(t=>"Real");
             $f = Formula("25*e**(-0.07*t)");
@@ -565,7 +672,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
                 <me>N(t) = 25e^{-0.07t}</me>, 
         where <m>t</m> is in seconds.<ol marker="a">
             <li><p>Complete the table of values showing the amount of krypton-91 left at <m>10</m>-second intervals over the first minute.</p>
-                <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell halign="left"><m>t</m></cell>
                         <cell><m>0</m></cell>
@@ -579,8 +686,8 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
                         <cell><var name="$n[2]" width="3"/></cell>
                         <cell><var name="$n[3]" width="3"/></cell>
                     </row>
-                </tabular></sidebyside>
-                    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                </tabular>
+                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell halign="left"><m>t</m></cell>
                         <cell><m>40</m></cell>
@@ -592,7 +699,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
                         <cell><var name="$n[5]" width="3"/></cell>
                         <cell><var name="$n[6]" width="3"/></cell>
                     </row>
-                </tabular></sidebyside></li>
+                </tabular></li>
         <li><p>Use the table to choose a suitable window and graph the function <m>N(t)</m>.</p></li>
         <li><p>Write and solve an equation to answer the question: How long does it take for 60% of the krypton-91 to decay? </p>
         <p><var name="$explain" form="buttons"/> </p>
@@ -604,7 +711,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
         </hint>
     <solution>
             <p><ol marker="a">
-                <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
                     <cell halign="left"><m>t</m></cell>
                     <cell><m>0</m></cell>
@@ -624,7 +731,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
                     <cell><m>0.75</m></cell>
                     <cell><m>0.37</m></cell>
                 </row>
-                </tabular></sidebyside></li>
+                </tabular></li>
         <li><p>A graph is below.</p></li>
         <li><p><m>25 e^{-0.07t} = 0.40(25)</m>; <m>t=\dfrac{\ln(0.4)}{-0.07}\approx 13.09 </m> seconds</p></li>
             </ol></p>
@@ -632,9 +739,63 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
     </webwork>
     <conclusion>
         <p>Graph for part (b)</p>
-        <sidebyside width="35%"><image source="images/fig-krypton-91-decay"><description>decay</description></image></sidebyside>
-    </conclusion>
-</exercise>
+        <image width="35%" source="images/fig-krypton-91-decayw"><description>decay</description></image>
+    </conclusion></exercise>
+
+<exercise component="main"><title>Practice 8</title>
+<statement><p>A scientist isolates <m>25</m> grams of krypton-91, which decays according to the formula
+                <me>N(t) = 25e^{-0.07t}</me>, 
+        where <m>t</m> is in seconds.</p>
+    <p><ol marker="a">
+        <li><p>Complete the table of values showing the amount of krypton-91 left at <m>10</m>-second intervals over the first minute.</p>
+                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell halign="left"><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>30</m></cell>
+                        <cell><m>40</m></cell>
+                        <cell><m>50</m></cell>
+                        <cell><m>60</m></cell></row>
+                    <row>
+                        <cell halign="left"><m>N(t)</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell>
+                        <cell><m>\hphantom{000}</m></cell></row>
+                </tabular></li>
+        <li><p>Use the table to choose a suitable window and graph the function <m>N(t)</m>.</p></li>
+        <li><p>Write and solve an equation to answer the question: How long does it take for 60% of the krypton-91 to decay?</p> 
+            <p>Hint: If <m>60\%</m> of the krypton-91 has decayed, <m>40\%</m> of the original <m>25</m> grams remains.</p></li>
+        </ol></p></statement>
+    <solution><p><ol marker="a">
+                <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">
+                    <cell halign="left"><m>t</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>40</m></cell>
+                    <cell><m>50</m></cell>
+                    <cell><m>60</m></cell></row>
+                <row>
+                    <cell halign="left"><m>N(t)</m></cell>
+                    <cell><m>25</m></cell>
+                    <cell><m>12.41</m></cell>
+                    <cell><m>6.16</m></cell>
+                    <cell><m>3.06</m></cell>
+                    <cell><m>1.52</m></cell>
+                    <cell><m>0.75</m></cell>
+                    <cell><m>0.37</m></cell></row>
+                </tabular></li>
+        <li><image width="35%" source="images/fig-krypton-91-decay"><description>decay</description></image></li>
+        <li><p><m>25 e^{-0.07t} = 0.40(25)</m>; <m>t=\dfrac{\ln(0.4)}{-0.07}\approx 13.09 </m> seconds</p></li>
+    </ol></p></solution></exercise>
 </subsection>
 
 <subsection><title>Continuous Compounding</title>
@@ -695,7 +856,7 @@ where <m>P</m> is the principal invested.</p>
 		The account will be worth $1000 after approximately 8.7 years.</li>
 	</ol></p></solution></example>
 
-<exercise><title>Practice 9</title>
+<exercise component="webwork"><title>Practice 9</title>
     <webwork><pg-code>
             $answer = Compute("ln(2)/0.045")->with(
               tolType => 'absolute',
@@ -710,6 +871,13 @@ where <m>P</m> is the principal invested.</p>
             <p>About 15.4 years</p>
         </solution>
 </webwork></exercise>
+
+<exercise component="main"><title>Practice 9</title>
+<statement><p>Zelda invested $1000 in an account that pays 4.5% interest compounded continuously. How long will it be before the account is worth $2000?</p></statement>
+<solution><p>About 15.4 years</p></solution></exercise>
+</subsection>
+
+<subsection><title>Compound Interest</title>
 
 <investigation><title>Interest Compounded Continuously</title>
 
@@ -772,8 +940,8 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
 <li><p>Is there an easier way to compute <m>A</m> under continues compounding? Yes! Compute <m>1000e^{0.08}</m> on your calculator. (Press <kbd>2nd</kbd>  <kbd>LN</kbd> to enter <m>e^x</m>.) Compare the value to your answer in part (5) for the limiting value. The number <m>e</m> is called the <term>natural base</term><idx>natural base</idx>. We'll compute its value shortly.</p></li>
 
 <li><p>Repeat your calculations for two other interest rates, 15% and (an extremely unrealistic) 100%, again for an investment of $1000 for 1 year. In each case, compare the limiting value of <m>A</m>, and compare to the value of <m>1000e^r</m>.
-        <ol marker="a" cols="2"><li><sidebyside>
-                <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="right"/><col/>
+        <ol marker="a" cols="2">
+            <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="right"/><col/>
                     <row>
                         <cell  halign="center" colspan="2"><m>r=0.15</m></cell></row>
                     <row>
@@ -807,8 +975,8 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
                         <cell  halign="left" colspan="2" right="none" bottom="none"> </cell></row>
                     <row left="none">
                         <cell  halign="left" colspan="2" right="none" bottom="none"><m>~~1000e^{0.15}= </m></cell></row>
-                </tabular></sidebyside></li>
-        <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="right"/><col/>
+                </tabular></li>
+        <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="right"/><col/>
                     <row><cell  halign="center"  colspan="2"><m>r=1</m></cell></row>
                     <row><cell halign="center"><m>n</m></cell>
                         <cell><m>A</m></cell></row>
@@ -832,13 +1000,13 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
                         <cell  halign="left" colspan="2" right="none" bottom="none"> </cell></row>
                     <row left="none">
                         <cell  halign="left" colspan="2" right="none" bottom="none"><m>~~1000e^{1}= </m></cell></row>
-                </tabular></sidebyside></li>
+                </tabular></li>
             </ol></p></li>
 
 <li><p>In part (8b), you have computed an approximation for <m>1000e</m>. What is the value of <m>e</m>, rounded to 5 decimal places?</p></li>
 
 <li><p>Complete the table of values. What does <m>\left(1 + \dfrac{1}{n} \right)^n</m> appear to approach as <m>n</m> increases?</p>
-            <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="left">
+            <tabular left="minor" right="minor" top="minor" bottom="minor" halign="left">
                 <row>
                     <cell><m>n</m></cell>
                     <cell><m>100</m></cell>
@@ -851,9 +1019,8 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
                     <cell></cell>
                     <cell></cell>
                     <cell></cell></row>
-            </tabular></sidebyside></li>
+            </tabular></li>
 </ol></p></investigation>
-
 
 </subsection>
 
