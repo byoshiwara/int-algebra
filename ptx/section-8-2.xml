@@ -36,12 +36,12 @@ where we have divided both numerator and denominator by 9. The new fraction has 
         $den = Compute("5a");
     </pg-code>
     <statement><p>Reduce   <m>\displaystyle\frac{-15ab^4}{25a^2b}</m></p>
-        <sidebyside><tabular>
+        <tabular>
             <row><cell bottom="minor">
                     <var name="$num" width="4"/></cell></row>
             <row><cell>
                     <var name="$den" width="4"/></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
     <solution><p><m>\dfrac{-3b^3}{5a}</m></p></solution>
@@ -490,7 +490,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
         <li><p>Express the average cost, <m>C</m>, per T-shirt as a function of the number of T-shirts EarthCare produces.</p>
                     <p><m>C=</m><var name="$cost" width="10"/> </p></li>
         <li><p>Make a table of values for the function.</p>
-                    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                         <row bottom="minor">
                             <cell><m>x</m></cell>
                             <cell><m>1</m></cell>
@@ -507,12 +507,12 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
                             <cell><var name="$C[3]" width="2"/></cell>
                             <cell><var name="$C[4]" width="2"/></cell>
                             <cell><var name="$C[5]" width="2"/></cell></row>
-                        </tabular></sidebyside></li>
+                        </tabular></li>
     <li><p>Graph the function and explain what it tells you about the cost of the T-shirts.</p></li></ol></p>
     </statement>
     <solution><p><ol marker="a">
             <li><m>C=g(x) = \dfrac{100+5x}{x}</m></li>
-            <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
                     <cell><m>x</m></cell>
                     <cell><m>1</m></cell>
@@ -529,14 +529,14 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
                     <cell><m>25</m></cell>
                     <cell><m>15</m></cell>
                     <cell><m>10</m></cell></row>
-                </tabular></sidebyside></li>
+                </tabular></li>
             <li><p>A graph is below.</p>                
                 <p>As the number of T-shirts increases, the average cost per shirt decreases, but eventually levels off and approaches $5 per T-shirt.</p></li></ol></p>
     </solution>
 </webwork>
 <conclusion>
     <p>Graph for part (c):</p>
-    <image width="35%" margins="0% 5%" xml:id="fig-average-costw">
+    <image width="35%" xml:id="fig-average-costw">
         <description>graph of average cost of production</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -602,7 +602,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
                     <cell><m>15</m></cell>
                     <cell><m>10</m></cell></row>
                 </tabular></li>
-        <li><image width="35%" margins="0% 5%" xml:id="fig-average-cost"><description>graph of average cost of production</description><latex-image>
+        <li><image width="35%" xml:id="fig-average-cost"><description>graph of average cost of production</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }

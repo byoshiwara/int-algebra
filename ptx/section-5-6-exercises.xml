@@ -272,7 +272,7 @@ area is 24 square feet</p></statement></exercise>
 <sidebyside width="20%"><image source="images/fig-hw-5-6-21ans"><description>root</description></image></sidebyside>
 </answer></exercise>
 
-<exercise number="26"><statement><p>The sales tax on a purchase, as a function of its price</p></statement></exercise>
+<exercise number="26"><statement><p>The area of a circle as a function of its diameter</p></statement></exercise>
 </exercisegroup>
 
 <exercise number="27"><statement><p>Four different functions are described below. Match each description with the appropriate table of values and with its graph.<ol marker="a">
@@ -392,8 +392,7 @@ area is 24 square feet</p></statement></exercise>
     <li><p>Enrollment in Ginny's Weight Reduction program is a function of time. It began declining last fall. After the holidays, enrollment stabilized for a while but soon began to fall off again.</p></li>
     </ol>
     <ol marker="1">
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
+        <li><tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
                 <row>
                     <cell><m>~x~</m></cell>
                     <cell><m>~0~</m></cell>
@@ -408,9 +407,8 @@ area is 24 square feet</p></statement></exercise>
                     <cell><m>96</m></cell>
                     <cell><m>16</m></cell>
                     <cell><m>0</m></cell></row>
-            </tabular>    </sidebyside></li>
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
+            </tabular></li>
+        <li><tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
                 <row>
                     <cell><m>~x~</m></cell>
                     <cell><m>~0~</m></cell>
@@ -425,9 +423,8 @@ area is 24 square feet</p></statement></exercise>
                     <cell><m>230</m></cell>
                     <cell><m>90</m></cell>
                     <cell><m>30</m></cell></row>
-            </tabular>    </sidebyside></li>
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
+            </tabular></li>
+        <li><tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
                 <row>
                     <cell><m>~x~</m></cell>
                     <cell><m>~0~</m></cell>
@@ -442,31 +439,14 @@ area is 24 square feet</p></statement></exercise>
                     <cell><m>240</m></cell>
                     <cell><m>160</m></cell>
                     <cell><m>120</m></cell></row>
-            </tabular>    </sidebyside></li>
-        <li><sidebyside>
-            <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
-                <row>
-                    <cell><m>~x~</m></cell>
-                    <cell><m>~0~</m></cell>
-                    <cell><m>~1~</m></cell>
-                    <cell><m>~2~</m></cell>
-                    <cell><m>~3~</m></cell>
-                    <cell><m>~4~</m></cell></row>
-                <row>
-                    <cell><m>y</m></cell>
-                    <cell><m>250</m></cell>
-                    <cell><m>180</m></cell>
-                    <cell><m>170</m></cell>
-                    <cell><m>150</m></cell>
-                    <cell><m>80</m></cell></row>
-            </tabular>    </sidebyside></li>
+            </tabular></li>
+        <li></li>
     </ol></p>
-    <sidebyside widths="100%">
-        <image source="images/fig-hw-5-6-28"><description>four decreasing graphs</description></image>
-    </sidebyside></statement></exercise>
+    <image source="images/fig-hw-5-6-28"><description>four decreasing graphs</description></image>
+    </statement></exercise>
 
 <exercise number="29"><statement><p>The table shows the radii, <m>r</m>, of several gold coins, in centimeters, and their value, <m>v</m>, in dollars.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row>
             <cell halign="left">Radius</cell>
             <cell><m>0.5</m></cell>
@@ -481,10 +461,10 @@ area is 24 square feet</p></statement></exercise>
             <cell><m>1800</m></cell>
             <cell><m>3200</m></cell>
             <cell><m>5000</m></cell></row>
-    </tabular></sidebyside>
+    </tabular>
     <p><ol marker="a">
         <li><p>Which graph represents the data?</p>
-        <sidebyside width="80%"><image source="images/fig-2-4-43"><description>four curves</description></image></sidebyside></li>
+        <image source="images/fig-2-4-43" width="80%"><description>four curves</description></image></li>
         <li><p>Which equation describes the function?
             <ol marker="i" cols="4">
                 <li><p><m>v=k\sqrt{r} </m></p></li>
@@ -499,7 +479,7 @@ area is 24 square feet</p></statement></exercise>
 </ol></p></answer></exercise>
 
 <exercise number="30"><statement><p>The table shows how the amount of water, <m>A</m>, flowing past a point on a river is related to the width, <m>W</m>, of the river at that point.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row>
             <cell halign="left">Width (feet)</cell>
             <cell><m>11</m></cell>
@@ -512,11 +492,11 @@ area is 24 square feet</p></statement></exercise>
             <cell><m>34</m></cell>
             <cell><m>41</m></cell>
             <cell><m>47</m></cell></row>
-    </tabular></sidebyside><p><ol marker="a">
+    </tabular><p><ol marker="a">
         <li><p>Which graph represents the data?</p>
         <sidebyside width="80%"><image source="images/fig-hw-5-6-30"><description>four curves</description></image></sidebyside></li>
         <li><p>Which equation describes the function?
-            <ol marker="i" cols="4">
+            <ol marker="i" cols="2">
                 <li><p><m>A=k\sqrt{W} </m></p></li>
                 <li><p><m>A=kW</m></p></li>
                 <li><p><m>A=kW^2</m></p></li>
@@ -603,7 +583,7 @@ area is 24 square feet</p></statement></exercise>
         <li><p><m>\abs{4x+8}\lt 0 </m></p></li>
         <li><p><m>\abs{4x+8}\gt -3 </m></p></li></ol></p></statement></exercise>
 
-<exercisegroup cols="3"><introduction><p>For Problems 13-24, solve.</p></introduction>
+<exercisegroup cols="3"><introduction><p>For Problems 13<ndash/>24, solve.</p></introduction>
 
 <exercise number="13"><statement><p><m>\abs{2x-1}=4 </m></p></statement>
 <answer><p><m>x=\dfrac{-3}{2} </m> or <m>x=\dfrac{5}{2} </m></p></answer></exercise>
@@ -636,7 +616,7 @@ area is 24 square feet</p></statement></exercise>
 <exercise number="24"><statement><p><m>\abs{5r-3}=-2 </m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 25-36, solve.</p></introduction>
+<exercisegroup cols="3"><introduction><p>For Problems 25<ndash/>36, solve.</p></introduction>
 
 <exercise number="25"><statement><p><m>\abs{2x+6}\lt 3 </m></p></statement>
 <answer><p><m>\dfrac{-9}{2}\lt x \lt \dfrac{-3}{2} </m></p></answer></exercise>

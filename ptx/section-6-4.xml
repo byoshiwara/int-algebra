@@ -143,7 +143,7 @@ but <m>4.762</m>  is not the <em>exact</em> value for <m>\sqrt[3]{108}</m>.</p>
             <li><p><m>\sqrt{18x^5}</m></p></li>
             <li><p><m>\sqrt[3]{24x^6y^8} </m></p></li>
         </ol></p></statement>
-<solution><p><ol label = "a">
+<solution><p><ol marker = "a">
     <li><p>The index of the radical is <m>2</m>, so we look for perfect square factors of <m>18x^5</m>. The factor <m>9</m> is a perfect square, and <m>x^4</m> has an exponent divisible by <m>2</m>. Thus,
                 <md><mrow>\sqrt{18x^5} \amp = \sqrt{9x^4\cdot 2x}\amp\amp\blert{\text{Apply the Product Rule.}}</mrow>
                     <mrow> \amp = \sqrt{9x^4} \sqrt{2x}\amp\amp\blert{\text{Take square roots.}}</mrow>

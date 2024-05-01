@@ -851,7 +851,7 @@
         </image>
     </sidebyside></li>
     <li><sidebyside width="80%"><image xml:id="fig-transformed-cube">
-        <description>transformed inverse-cube</description>
+        <description>transformed cube</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%

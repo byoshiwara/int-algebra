@@ -52,12 +52,12 @@ We can always simplify a complex fraction into a standard algebraic fraction.  O
         );
     </pg-code>
     <statement><p>Simplify   <m>\quad\dfrac{\dfrac{2x}{y^3}}{\dfrac{x}{3y}}</m></p>
-        <sidebyside><tabular>
+        <tabular>
             <row><cell bottom="minor">
                     <var name="$multians" width="4"/></cell></row>
             <row><cell>
                     <var name="$multians" width="4"/></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
     <solution><p><m>\dfrac{6}{y^2}</m></p></solution>
@@ -120,12 +120,12 @@ Finally, we reduce the result to obtain
         );
     </pg-code>
     <statement><p>Simplify <m>\quad \dfrac{1+\dfrac{b}{a}}{1-\dfrac{bc}{ad}}</m></p>
-        <sidebyside><tabular>
+        <tabular>
             <row><cell bottom="minor">
                     <var name="$multians" width="5"/></cell></row>
             <row><cell>
                     <var name="$multians" width="5"/></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
     <solution><p><m>\dfrac{ad+bd}{ad-bc}</m></p></solution>
@@ -196,12 +196,12 @@ Finally, we reduce the result to obtain
         );
     </pg-code>
     <statement><p>Simplify <m>\quad(1+x^{-1})^{-1}</m></p>
-        <sidebyside><tabular>
+        <tabular>
             <row><cell bottom="minor">
                     <var name="$multians" width="5"/></cell></row>
             <row><cell>
                     <var name="$multians" width="5"/></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <instruction>Enter numerator and denominator in separate boxes.</instruction>
     </statement>
     <solution><p><m>\dfrac{x}{x+1}</m></p></solution>

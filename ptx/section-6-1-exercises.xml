@@ -25,7 +25,7 @@
     <li><m>4p^2(3p^3)</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 3-6, use the laws of exponents to simplilfy.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>6, use the laws of exponents to simplilfy.</p></introduction>
 
 <exercise number="3"><statement><p><ol marker="a">
     <li><m>-4x(3xy)(xy^3)</m></li>
@@ -97,7 +97,7 @@
     <li><m>\dfrac{2^3}{5^{-2}}</m></li>    
     <li><m>\dfrac{2^{-3}}{5^2}</m></li>
     <li><m>\dfrac{5^{-2}}{2^{-3}}</m></li>
-    <li><m>(\dfrac{5}{2})^{-3}</m></li>
+    <li><m>\left(\dfrac{5}{2}\right)^{-3}</m></li>
     <li><m>5^2 \cdot 2^{-3}</m></li>
     <li><m>5^{-2} \cdot 2^{-3}</m></li></ol></p></statement></exercise>
 

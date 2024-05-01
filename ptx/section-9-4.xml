@@ -189,19 +189,15 @@
     );
       </pg-code>     
     <statement><p>Graph <m>\dfrac{x^2}{9} - \dfrac{y^2}{16} = 1</m></p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[1]"/>
-                <image pg-name="$gr[0]"/>
-            </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[2]"/>
-                <image pg-name="$gr[3]"/>
-            </sidebyside>
+                <image pg-name="$gr[1]" width="35%"/>
+                <image pg-name="$gr[0]" width="35%"/>
+                <image pg-name="$gr[2]" width="35%"/>
+                <image pg-name="$gr[3]" width="35%"/>
             <p>Which of the above is the best match for the graph?</p>
             <p><var name="$mc" form="buttons"/> </p>
      </statement>
     <solution>
-        <sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+        <image pg-name="$gr[0]" width="40%"/>
         <p>Another graph is below.</p>
     </solution>
 </webwork>
@@ -853,14 +849,10 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     </pg-code>
     <statement><p><ol marker="a">
         <li><p>Graph <m>\dfrac{y^2}{9} - \dfrac{(x+4)^2}{12} = 1</m></p>
-               <sidebyside widths="35% 35%" margins="5% 5%">
-                    <image pg-name="$gr[0]"/>
-                    <image pg-name="$gr[1]"/>
-                </sidebyside>
-                <sidebyside widths="35% 35%" margins="5% 5%">
-                    <image pg-name="$gr[2]"/>
-                    <image pg-name="$gr[3]"/>
-                </sidebyside>
+                    <image pg-name="$gr[0]" width="35%"/>
+                    <image pg-name="$gr[1]" width="35%"/>
+                    <image pg-name="$gr[2]" width="35%"/>
+                    <image pg-name="$gr[3]" width="35%"/>
                 <p>Which of the above is the best match for the graph?</p>
                 <p><var name="$mc" form="buttons"/> </p></li>
         <li><p>Find the equations of the asymptotes. (Enter "sqrt(2)" for <m>\sqrt{2}</m>.)</p>
@@ -868,7 +860,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
                 <p><m>y=</m><var name="$multians" width="15"/></p></li></ol></p>
     </statement>
     <solution><p><ol marker="a">
-        <li><sidebyside widths="40%"><image pg-name="$gr[2]"/></sidebyside>
+        <li><image pg-name="$gr[2]" width="40%"/>
                 <p>A graph is also shown below.</p></li>
         <li><m>y=\dfrac{\sqrt{3}}{2}x+4</m>, <m>y=\dfrac{-\sqrt{3}}{2}x+4</m></li></ol></p>
     </solution>
@@ -1073,20 +1065,16 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
         <li><p>Write the equation <m>4x^2 - 6y^2 + 16x-12y-14=0</m> in standard form.</p>
                 <p><var name="$f" width="25"/><m>=1</m></p></li>
         <li><p>Graph the equation.</p>
-                <sidebyside widths="35% 35%" margins="5% 5%">
-                    <image pg-name="$gr[0]"/>
-                    <image pg-name="$gr[1]"/>
-                </sidebyside>
-                <sidebyside widths="35% 35%" margins="5% 5%">
-                    <image pg-name="$gr[2]"/>
-                    <image pg-name="$gr[3]"/>
-                </sidebyside>
+                    <image pg-name="$gr[0]" width="35%"/>
+                    <image pg-name="$gr[1]" width="35%"/>
+                    <image pg-name="$gr[2]" width="35%"/>
+                    <image pg-name="$gr[3]" width="35%"/>
             <p>Which of the above is the best match for the graph?</p>
                 <p><var name="$mc" form="buttons"/> </p></li></ol></p>
     </statement>
     <solution><p><ol marker="a">
             <li><m>\dfrac{(x+2)^2}{6} - \dfrac{(y+1)^2}{4}=1</m></li>
-            <li><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+            <li><image pg-name="$gr[0]" width="40%"/>
                 <p>A graph is also shown below.</p></li></ol></p>
     </solution>
 </webwork>
@@ -1123,7 +1111,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <exercise component="main"><title>Practice 6</title>
 <statement><p><ol marker="a">
-        <li><p>Write the equation <m>4x^2 - 6y^2 + 16x-12y-14=0</m> in standard form.</p>></li>
+        <li><p>Write the equation <m>4x^2 - 6y^2 + 16x-12y-14=0</m> in standard form.</p></li>
         <li><p>Graph the equation.</p></li>
     </ol></p></statement>
     <solution><p><ol marker="a">
@@ -1204,7 +1192,7 @@ we can determine the nature of the graph from the coefficients of the quadratic 
 
 <assemblage><title>Conic Sections</title><idx>conic section</idx>
     <p>The graph of <m>~Ax^2 + Cy^2 + Dx + Ey + F = 0~</m> is
-        <ol label = "1">
+        <ol marker = "1">
             <li><p>a circle if <m>A=C</m>.</p></li>
             <li><p>a parabola if <m>A=0</m> or <m>C=0</m> (but not both).</p></li>
             <li><p>an ellipse if <m>A</m> and <m>C</m> have the same sign.</p></li>

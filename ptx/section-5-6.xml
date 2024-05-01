@@ -67,21 +67,15 @@
                 );
       </pg-code>
     <statement><p>Erin walks from her home to a convenience store, where she buys some cat food, and then walks back home. Sketch a possible graph of her distance from home as a function of time.</p>
-            <sidebyside widths="20% 20%" margins="15% 15%">
-                <image pg-name="$gr[1]"/>
-                <image pg-name="$gr[0]"/>
-            </sidebyside>
-            <sidebyside widths="20% 20%" margins="15% 15%">
-                <image pg-name="$gr[3]"/>
-                <image pg-name="$gr[2]"/>
-            </sidebyside>
+                <image pg-name="$gr[1]" width="20%"/>
+                <image pg-name="$gr[0]" width="20%"/>
+                <image pg-name="$gr[3]" width="20%"/>
+                <image pg-name="$gr[2]" width="20%"/>
             <p>The graph of Erin's distance from home is</p>
             <p><var name="$mc" form="buttons"/> </p>
     </statement>
     <solution>
-        <sidebyside widths="20%" margins="0% 65%">
-                <image pg-name="$gr[0]"/>
-        </sidebyside>
+                <image pg-name="$gr[0]" width="20%" margins="0% 80%"/>
         <p>A graph is also shown below.</p>
     </solution>
   </webwork>
@@ -926,14 +920,10 @@
       </pg-code>
     <statement><p><ol marker="a">
           <li><p>Graph <m>y = |2x + 7|</m> for <m>-12 \le x \le 8</m>.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[0]"/>
-                <image pg-name="$gr[1]"/>
-            </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[2]"/>
-                <image pg-name="$gr[3]"/>
-            </sidebyside>
+                <image pg-name="$gr[0]" margin="35%"/>
+                <image pg-name="$gr[1]" margin="35%"/>
+                <image pg-name="$gr[2]" margin="35%"/>
+                <image pg-name="$gr[3]" margin="35%"/>
             <p>The graph of <m>y= |2x+7|</m> is </p>
             <p><var name="$mc" form="buttons"/></p></li>
           <li><p>Use your graph to solve the equation <m>|2x + 7| = 11</m>.</p>
@@ -941,7 +931,7 @@
       <instruction>Separate different values with a comma.</instruction>
     </statement>
     <solution><p><ol marker="a.">
-          <li><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+          <li><image pg-name="$gr[0]" margin="40%"/>
             <p>A graph is also shown below for part (b).</p></li>
           <li><p><m>x=-9</m> or <m>x=2</m></p></li></ol></p></solution>
   </webwork>

@@ -441,7 +441,7 @@ Compared to the standard form for a linear function, <m>y = b + mx</m>, the cons
                 <li><p><m>26.25</m> cups</p></li>
     </ol></p></solution></exercise>
 
-<exercise component="webwork"><title>QuickCheck 3</title>
+<exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>       
             $exdir = RadioButtons(
               ["Double the value of \(x\).",
@@ -460,7 +460,7 @@ Compared to the standard form for a linear function, <m>y = b + mx</m>, the cons
     </solution>
 </webwork></exercise>
 
-<exercise component="main"><title>QuickCheck 3</title>
+<exercise component="main"><title>QuickCheck 4</title>
 <statement><p>How can you find the value of the constant of variation?</p>
         <p><ol marker="a">
             <li><p>Double the value of <m>x</m></p></li>
@@ -526,7 +526,7 @@ Compared to the standard form for a linear function, <m>y = b + mx</m>, the cons
 
 <warning><p>The graph of a direct variation always passes through the origin, so when the input is zero, the output is also zero. Thus, the functions <m>~y = 3x + 2~</m> and <m>~y = 0.4x^2 - 2.3~</m>, for example, are not direct variation, even though they are increasing functions for positive <m>x</m>.</p></warning>
 
-<exercise component="webwork"><title>QuickCheck 4</title>
+<exercise component="webwork"><title>QuickCheck 5</title>
 <webwork><pg-code>
         $True = PopUp(
           ["?","True", "False"],
@@ -552,7 +552,7 @@ Compared to the standard form for a linear function, <m>y = b + mx</m>, the cons
     </solution>
 </webwork></exercise>
 
-<exercise component="main"><title>QuickCheck 4</title>
+<exercise component="main"><title>QuickCheck 5</title>
 <statement><p>True or False.</p>
 <p><ol marker="a">
     <li><p>Every increasing function is a direct variation.</p></li>

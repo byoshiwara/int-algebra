@@ -88,7 +88,7 @@
         </pg-code> 
         <statement>
             <p><ol marker="a">
-                <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                     <row>
                         <cell><m>x</m></cell>
                         <cell><m>1</m></cell>
@@ -99,13 +99,13 @@
                         <cell><var name="$y1" width="2"  evaluator="$my_evaluator"/> </cell>
                         <cell><var name="$y0" width="2"  evaluator="$my_eval2"/></cell>
                         <cell><var name="$yn2" width="2"  evaluator="$my_eval3"/></cell></row>
-                </tabular></sidebyside></li>
+                </tabular></li>
                 <li><p>Graph the line <m>y - 3x = 6</m>. Then plot your solutions from part (a) on the same grid.</p></li>
             </ol></p>
         </statement>
         <solution>
             <p><ol marker="a" cols="2">
-            <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+            <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
                     <cell><m>x</m></cell>
                     <cell><m>1</m></cell>
@@ -116,23 +116,22 @@
                     <cell><m>\alert{5} </m></cell>
                     <cell><m>\alert{0}</m></cell>
                     <cell><m>\alert{-3}</m></cell></row>
-                </tabular></sidebyside>
+                </tabular>
                 <p>(Many answers are possible.) </p></li>
                 <li><p>A graph is below.</p></li>
             </ol></p>
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="30%"><image source="images/fig-ex-2-5-1"><description>linear inequality in two variables</description></image></sidebyside>
+        <image source="images/fig-ex-2-5-1" width="30%"><description>linear inequality in two variables</description></image>
     </conclusion>
 </exercise>
 
-<sidebyside widths="47% 50%" margins="0% 0%" valigns="middle middle">
     <p>
         The graph of the inequality must show all the points whose coordinates are solutions. We found some solutions to the inequality <m>x + y \ge 10,000</m> in the Example above by choosing a value for <m>x</m>  and solving for <m>y</m>. A more efficient way to find all the solutions of the inequality is to start with the graph of the corresponding equation
         <md><mrow>y = -x + 10,000</mrow></md>
     </p>
-     <image xml:id="fig-example-2-5-1b">
+     <image xml:id="fig-example-2-5-1b" width="50%">
         <description>linear inequality, 2 variables</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -155,7 +154,7 @@
         \end{tikzpicture}]]>
         </latex-image>
     </image>
-</sidebyside>
+
 <p>
     The graph is a straight line with slope <m>-1</m>. Any point above this line has a <m>y</m>-coordinate greater than <m>-x + 10,000</m> and hence satisfies the inequality. Thus, the graph of the inequality includes all the points on or above the line <m>y = -x + 10,000</m>, as shown by the shaded region in the figure. You can check that the shaded points are also solutions to the original inequality, <m>x + y \ge 10,000</m>. For example, the point <m>(-1000, ~12,000)</m> does satisfy the inequality, because
     <md><mrow>-1000 + 12,000 \ge 10,000</mrow></md>

@@ -68,7 +68,7 @@
             mychecker($xn2) );
         </pg-code> 
     <statement><p><ol marker="a">
-        <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                     <row>
                         <cell><m>x</m></cell>
                         <cell><m>1</m></cell>
@@ -79,12 +79,12 @@
                         <cell><var name="$y1" width="2"  evaluator="$my_evaluator"/> </cell>
                         <cell><var name="$y0" width="2"  evaluator="$my_eval2"/></cell>
                         <cell><var name="$yn2" width="2"  evaluator="$my_eval3"/></cell></row>
-                </tabular></sidebyside></li>
+                </tabular></li>
                 <li><p>Graph the line <m>y - 3x = 6</m>. Then plot your solutions from part (a) on the same grid.</p></li>
             </ol></p>
     </statement>
     <solution><p><ol marker="a" cols="2">
-        <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
                     <cell><m>x</m></cell>
                     <cell><m>1</m></cell>
@@ -95,7 +95,7 @@
                     <cell><m>\alert{5} </m></cell>
                     <cell><m>\alert{0}</m></cell>
                     <cell><m>\alert{-3}</m></cell></row>
-                </tabular></sidebyside>
+                </tabular>
                 <p>(Many answers are possible.) </p></li>
         <li><p>A graph is below.</p></li></ol></p>
         </solution>
@@ -245,18 +245,14 @@ is equivalent to
                 );
     </pg-code>
     <statement><p>Graph the solutions of the inequality <m>4x - 2y \lt -8</m>.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[0]"/>
-                <image pg-name="$gr[1]"/>
-            </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[2]"/>
-                <image pg-name="$gr[3]"/>
-            </sidebyside>
+                <image pg-name="$gr[0]" width="35%"/>
+                <image pg-name="$gr[1]" width="35%"/>
+                <image pg-name="$gr[2]" width="35%"/>
+                <image pg-name="$gr[3]" width="35%"/>
             <p>Select the appropriate graph.</p>
             <p><var name="$mc" form="buttons"/> </p>
     </statement>
-    <solution><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+    <solution><image pg-name="$gr[0]" width="40%"/>
     </solution>
 </webwork></exercise>
 
@@ -397,18 +393,14 @@ which is a false statement. Thus, <m>(5, 0)</m> is not a solution to the inequal
                 <li><p>Decide which side of the line to shade. <var name="$where" form="popup"/> </p></li>
                 <li><p>Should the boundary line be dashed or solid? <var name="$which" form="popup"/></p></li>
             </ol></p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[3]"/>
-                <image pg-name="$gr[2]"/>
-            </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[1]"/>
-                <image pg-name="$gr[0]"/>
-            </sidebyside>
+                <image pg-name="$gr[3]" width="35%"/>
+                <image pg-name="$gr[2]" width="35%"/>
+                <image pg-name="$gr[1]" width="35%"/>
+                <image pg-name="$gr[0]" width="35%"/>
             <p>Select the appropriate graph.</p>
             <p><var name="$mc" form="buttons"/> </p>
     </statement>
-    <solution><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+    <solution><image pg-name="$gr[0]" width="40%"/>
     </solution>
 </webwork></exercise>
 
@@ -512,18 +504,14 @@ Its graph is then a region in the plane.</p>
                 );
     </pg-code>
     <statement><p>Graph  <m>-1\lt y \le 4 </m> in the plane.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[0]"/>
-                <image pg-name="$gr[1]"/>
-            </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[2]"/>
-                <image pg-name="$gr[3]"/>
-            </sidebyside>
+                <image pg-name="$gr[0]" width="35%"/>
+                <image pg-name="$gr[1]" width="35%"/>
+                <image pg-name="$gr[2]" width="35%"/>
+                <image pg-name="$gr[3]" width="35%"/>
             <p>Select the appropriate graph.</p>
             <p><var name="$mc" form="buttons"/> </p>
     </statement>
-    <solution><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+    <solution><image pg-name="$gr[0]" width="40%"/>
     </solution>
 </webwork></exercise>
 
@@ -636,19 +624,15 @@ Its graph is then a region in the plane.</p>
             <li><p>Lightly shade the solutions of <m>y \gt x-1</m>.</p></li>
             <li><p>Shade the intersection of the two solutions sets.</p></li>
         </ol></p>
-       <sidebyside widths="35% 35%" margins="5% 5%">
-            <image pg-name="$gr[0]"/>
-            <image pg-name="$gr[1]"/>
-        </sidebyside>
-        <sidebyside widths="35% 35%" margins="5% 5%">
-            <image pg-name="$gr[2]"/>
-            <image pg-name="$gr[3]"/>
-        </sidebyside>
+            <image pg-name="$gr[0]" width="35%"/>
+            <image pg-name="$gr[1]" width="35%"/>
+            <image pg-name="$gr[2]" width="35%"/>
+            <image pg-name="$gr[3]" width="35%"/>
         <p>Which of the above is the best match for the solution to the system of inequalities?</p>
         <p><var name="$mc" form="buttons"/> </p>
     </statement>
     <solution>
-        <sidebyside widths="40%"><image pg-name="$gr[1]"/></sidebyside>
+        <image pg-name="$gr[1]" width="40%"/>
         <p>A graph is also shown below.</p>
     </solution>
 </webwork>  

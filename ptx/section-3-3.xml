@@ -282,9 +282,8 @@ rectangle? What is its height?</p></li>
     </ol></p></statement></exercise>
 
 <exercise component="webwork"><title>Practice 1</title>
-    <introduction><sidebyside widths="25%">
-            <image source="images/fig-parabolas-vertically-scaled2w"><description>basic parabola and four vertically scaled parabolas</description></image>
-        </sidebyside>
+    <introduction>
+            <image source="images/fig-parabolas-vertically-scaled2w" width="25%"><description>basic parabola and four vertically scaled parabolas</description></image>
     </introduction>
     <webwork><pg-code>
             $Popa = PopUp(
