@@ -239,26 +239,22 @@ where <m>k</m> is a positive constant.</p></assemblage>
             <li><p>Express the cost per person, <m>C</m>, as a function of the number of people, <m>p</m>, who contribute.</p>
             <p><var name="$multians" width="2"/><m>=</m><var name="$multians" width="10"/> </p></li>
             <li><p>Sketch the function for <m>0 \le p \le 20</m>.</p>
-            <sidebyside widths="20% 20%" margins="15% 15%">
-                <image pg-name="$gr[1]"/>
-                <image pg-name="$gr[2]"/>
-            </sidebyside>
-            <sidebyside widths="20% 20%" margins="15% 15%">
-                <image pg-name="$gr[3]"/>
-                <image pg-name="$gr[0]"/>
-            </sidebyside>
+                <image pg-name="$gr[1]" width="20%"/>
+                <image pg-name="$gr[2]" width="20%"/>
+                <image pg-name="$gr[3]" width="20%"/>
+                <image pg-name="$gr[0]" width="20%"/>
             <p>The graph of cost per person is</p>
             <p><var name="$mc" form="buttons"/> </p></li></ol></p>
     </statement>
     <solution><p><ol marker="a.">
         <li><p><m>C=\dfrac{120}{p}</m></p></li>
-        <li><sidebyside widths="20%"><image pg-name="$gr[0]"/></sidebyside>
+        <li><image pg-name="$gr[0]" width="20%"/>
             <p>A graph is also shown below.</p></li>
           </ol></p>
     </solution>
   </webwork>
     <conclusion>
-        <image width="30%" margins="0% 50%" source="images/fig-ex-5-4-1ans"><description>reciprocal</description></image>
+        <image width="30%" margins="0% 70%" source="images/fig-ex-5-4-1ans"><description>reciprocal</description></image>
     </conclusion>
 </exercise>
 

@@ -25,7 +25,7 @@
     <li><m>4p^2(3p^3)</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 3-6, use the laws of exponents to simplilfy.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>6, use the laws of exponents to simplilfy.</p></introduction>
 
 <exercise number="3"><statement><p><ol marker="a">
     <li><m>-4x(3xy)(xy^3)</m></li>
@@ -97,7 +97,7 @@
     <li><m>\dfrac{2^3}{5^{-2}}</m></li>    
     <li><m>\dfrac{2^{-3}}{5^2}</m></li>
     <li><m>\dfrac{5^{-2}}{2^{-3}}</m></li>
-    <li><m>(\dfrac{5}{2})^{-3}</m></li>
+    <li><m>\left(\dfrac{5}{2}\right)^{-3}</m></li>
     <li><m>5^2 \cdot 2^{-3}</m></li>
     <li><m>5^{-2} \cdot 2^{-3}</m></li></ol></p></statement></exercise>
 
@@ -375,9 +375,9 @@
 <exercise number="36"><statement><p>The lifetime of a star is roughly inversely proportional to the cube of its mass. Our Sun, which has a mass of one solar mass, will last for approximately 10 billion years.<ol>
         <li><p>Write a power function for the lifetime, <m>L</m>, of a star in terms of its mass, <m>m</m>.</p></li>
         <li><p>Sketch a graph of the function using units of solar mass on the horizontal axis.</p></li>
-        <li><p>How long will a star that is 10 times as massive as the Sun last?</p></li>
+        <li><p>How long will a star live that is 10 times as massive as the Sun last?</p></li>
         <li><p>One solar mass is about <m>2\times 10^{30}</m> kilograms. Rewrite your formula for <m>L</m> with the units of mass in kilograms.</p></li>
-        <li><p>How long will a star that is half as massive as the Sun last?</p></li></ol></p>
+        <li><p>How long will a star live that is half as massive as the Sun last?</p></li></ol></p>
 </statement></exercise>
 
 <exercise number="36"><statement><p>In 2020, the public debt of the United States was 19.05 trillion dollars.<ol marker="a">

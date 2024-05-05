@@ -59,7 +59,7 @@
 </exercise>
 
 <exercise number="2"><statement>
-    <p><m>F(t)=\dfrac{-3}{4}t + 60</m></p>
+    <p><m>F(t)=\dfrac{-3}{4}t + 6</m></p>
     <sidebyside width="90%"><image xml:id="fig-10by10grid-F-t">
         <description>10 by 10 grid</description>
         <latex-image>
@@ -225,10 +225,10 @@
 
 <exercise number="6"><statement><p>Use the graphs to solve the inequalities. Show your method on the graph.<ol marker="a" cols="2">
     <li><p><m>-6x^2+4.8x-0.9 \ge 0</m></p>
-        <sidebyside width="80%"><image source="images/fig-hw-5-2-2"><description>parabola</description></image></sidebyside>
+        <image source="images/fig-hw-5-2-2" width="85%"><description>parabola</description></image>
     </li>
     <li><p><m>5x^2+7.5x+1.8 \le 0</m></p>
-        <sidebyside width="80%"><image source="images/fig-hw-5-2-2"><description>parabola</description></image></sidebyside>
+        <image source="images/fig-hw-5-2-2b" width="80%"><description>parabola</description></image>
     </li></ol></p>
     </statement></exercise>
 </subexercises>
@@ -361,11 +361,11 @@
                 <li><m>[-5,5]</m></li>
             </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p>The figure shows the graph of <m> H(t)=t^3-4t^2-4t-12</m>. Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers in interval notation.</p>
+<exercise number="20"><statement><p>The figure shows the graph of <m> H(t)=t^3-4t^2-4t+12</m>. Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers to the inequalities in interval notation.</p>
     <sidebyside width="30%"><image source="images/fig-hw-5-2-12"><description>cubic</description></image></sidebyside>
     <p><ol marker="a" cols="2">
                 <li><m>t^3-4t^2-4t-12 = -4</m></li>
-                <li><m>t^3-4t^2-4t-12=16</m></li>
+                <li><m>t^3-4t^2-4t-12=17</m></li>
                 <li><m>t^3-4t^2-4t-12 \lt -4</m></li>
                 <li><m>t^3-4t^2-4t-12 \gt 6</m></li>
             </ol></p></statement></exercise>
@@ -384,14 +384,14 @@
     <li><m>-2.5 \lt q \lt -1.25</m> and <m>1.25 \lt q \lt 2.5</m></li>
     <li><m>-2 \lt q \lt 0</m> and <m>2 \lt q</m></li></ol></p></answer></exercise>
 
-<exercise number="22"><statement><p>The figure shows a graph of <m>P = f(t)</m>.</p> 
-    <sidebyside width="40%"><image source="images/fig-hw-5-2-10"><description>mystery curve</description></image></sidebyside><p><ol marker="a">
-        <li><p>Find all values of <m>t</m> for which<ol marker="I">
-                <li><p><m>f(t)=3</m></p></li>
-                <li><p><m>f(t) \gt 4.5</m></p></li>
-                <li><p><m>2 \le f(t) \le 4</m></p></li>
+<exercise number="22"><statement><p>The figure shows a graph of <m>P = f(x)</m>.</p> 
+    <sidebyside width="40%"><image source="images/fig-hw-5-2-11"><description>mystery curve</description></image></sidebyside><p><ol marker="a">
+        <li><p>Find all values of <m>x</m> for which<ol marker="I">
+                <li><p><m>f(x)=3</m></p></li>
+                <li><p><m>f(x) \gt 4.5</m></p></li>
+                <li><p><m>2 \le f(x) \le 4</m></p></li>
                     </ol></p></li>
-        <li><p>For what values of <m>q</m> is <m>g(q)</m> increasing?</p></li></ol></p></statement></exercise>
+        <li><p>For what values of <m>x</m> is <m>f(x)</m> increasing?</p></li></ol></p></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 23 and 24, graph each function in the "friendly" window
     <md><mrow>\text{Xmin} \amp = -9.4 \amp\amp \text{Xmax} = 9.4</mrow>

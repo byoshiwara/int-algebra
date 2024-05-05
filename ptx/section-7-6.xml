@@ -109,7 +109,7 @@ When we plot 2.48 for the horse, we are really plotting the power of 10 that giv
 
 <exercise><title>Practice 1</title>
     <introduction>
-        <sidebyside width="90%"><image source="images/fig-read-logscale"><description>points on logscale</description></image></sidebyside>
+        <image source="images/fig-read-logscale"width="90%"><description>points on logscale</description></image>
     </introduction>
     <webwork><pg-code>
             $l[0] = Compute("-4");
@@ -121,7 +121,7 @@ When we plot 2.48 for the horse, we are really plotting the power of 10 that giv
             }
         </pg-code>
     <statement><p>Complete the table by estimating the logarithm of each point plotted on the log scale above. Then give a decimal value for each point.</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row>
             <cell><m>\log x</m></cell>
             <cell><var name="$l[0]" width="3"/> </cell>
@@ -134,9 +134,9 @@ When we plot 2.48 for the horse, we are really plotting the power of 10 that giv
             <cell><var name="$x[1]" width="5"/></cell>
             <cell><var name="$x[2]" width="5"/></cell>
             <cell><var name="$x[3]" width="5"/></cell>
-        </row></tabular></sidebyside>
+        </row></tabular>
     </statement>
-    <solution><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <solution><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row>
             <cell><m>\log x</m></cell>
             <cell><m>-4</m></cell>
@@ -149,7 +149,7 @@ When we plot 2.48 for the horse, we are really plotting the power of 10 that giv
             <cell><m>0.00316</m></cell>
             <cell><m>31.6</m></cell>
             <cell><m>17,782.8</m></cell></row>
-    </tabular></sidebyside>
+    </tabular>
     </solution>
     </webwork>
 </exercise>

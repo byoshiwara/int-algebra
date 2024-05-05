@@ -202,7 +202,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 
 <exercise component="webwork"><title>Practice 1</title>
 <introduction>
-    <sidebyside width="30%" ><image xml:id="fig-two-mystery-exponential-decayw">
+    <image xml:id="fig-two-mystery-exponential-decayw" width="30%">
         <description>two exponential decay functions</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -220,7 +220,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
         \draw[samples=65,domain={-3:5},smooth,variable=\x,blue,very thick, <->,>=stealth'] plot (\x, {0.8^(\x)});
         \node[text=blue, font=\bf] at (-2.5,2.3)  {II};
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
+        </latex-image></image>
 </introduction>
 <webwork><pg-code>
         $I = PopUp(

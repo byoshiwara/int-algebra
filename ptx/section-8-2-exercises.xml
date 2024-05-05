@@ -37,29 +37,29 @@
 
 <exercisegroup cols="4"><introduction><p>For Problems 5<ndash/>8, reduce the fraction.</p></introduction>
 
-<exercise number="5"><statement><p><ol label = "a">
+<exercise number="5"><statement><p><ol marker = "a">
     <li><p><m>\dfrac{15}{3x}</m></p></li>
     <li><m>\dfrac{24b}{14} </m></li></ol></p></statement>
-<answer><p><ol label = "a">
+<answer><p><ol marker = "a">
     <li><p><m>\dfrac{5}{x}</m></p></li>
     <li><m>\dfrac{12b}{7} </m></li></ol></p></answer>
 </exercise>
 
-<exercise number="6"><statement><p><ol label = "a">
+<exercise number="6"><statement><p><ol marker = "a">
     <li><m>\dfrac{-5z}{6z}</m></li>
     <li><m>\dfrac{5u}{120uv}</m></li></ol></p></statement></exercise>
 
-<exercise number="7"><statement><p><ol label = "a">
+<exercise number="7"><statement><p><ol marker = "a">
     <li><m>\dfrac{16ab}{-10ab}</m></li>
     <li><m>\dfrac{3a^2}{27a}</m></li></ol></p></statement>
-<answer><p><ol label = "a">
+<answer><p><ol marker = "a">
     <li><m>\dfrac{-8}{5} </m></li>
     <li><m>\dfrac{a}{9}</m></li></ol></p></answer></exercise>
 
-<exercise number="8"><statement><p><ol label = "a">
+<exercise number="8"><statement><p><ol marker = "a">
     <li><m>\dfrac{-9y^3z}{42yz}</m></li>
     <li><m>\dfrac{8u^3v^2}{12v^2w}</m></li></ol></p></statement>
-<!-- <answer><p><ol label = "a">
+<!-- <answer><p><ol marker = "a">
     <li><m>\dfrac{-3y^2}{14}</m></li>
     <li><m>\dfrac{2u^3}{3w} </m></li></ol></p></answer> -->
 </exercise>

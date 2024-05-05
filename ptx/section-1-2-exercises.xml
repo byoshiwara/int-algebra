@@ -472,7 +472,7 @@
             <li><p><m>x=4</m></p></li>
             <li><p><m>x\lt 22</m></p></li></ol></p></answer></exercise>
 
-<exercise number="32"><statement><p>Graph <m>y= 6.5 - 18x</m>. Use the graph to answer the questions. Then check your answers algebraically.<ol label ="a">
+<exercise number="32"><statement><p>Graph <m>y= 6.5 - 18x</m>. Use the graph to answer the questions. Then check your answers algebraically.<ol marker ="a">
         <li><p>For what value of <m>x</m> is <m>y=-13.3</m>?</p></li>
         <li><p>For what value of <m>x</m> is <m>y=24.5</m>?</p></li>
         <li><p>For what values of <m>x</m> is <m>y \le 15.5</m>?</p></li>

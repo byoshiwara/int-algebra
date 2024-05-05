@@ -317,18 +317,14 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
                 );
       </pg-code>     
     <statement><p>Graph <m>9x^2+8y^2=16</m></p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[0]"/>
-                <image pg-name="$gr[1]"/>
-            </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[2]"/>
-                <image pg-name="$gr[3]"/>
-            </sidebyside>
+                <image pg-name="$gr[0]" width="35%"/>
+                <image pg-name="$gr[1]" width="35%"/>
+                <image pg-name="$gr[2]" width="35%"/>
+                <image pg-name="$gr[3]" width="35%"/>
             <p>Which of the above is the best match for the graph?</p>
             <p><var name="$mc" form="buttons"/> </p>
      </statement>
-    <solution><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+    <solution><image pg-name="$gr[0]" width="40%"/>
             <p>A graph is also shown below.</p>
     </solution>
 </webwork>
@@ -597,14 +593,10 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
       </pg-code>     
     <statement><p><ol marker="a">
         <li><p>Graph <m>\dfrac{(x-5)^2}{15} + \dfrac{(y+3)^2}{8} = 1</m></p>
-                <sidebyside widths="35% 35%" margins="5% 5%">
-                    <image pg-name="$gr[2]"/>
-                    <image pg-name="$gr[1]"/>
-                </sidebyside>
-                <sidebyside widths="35% 35%" margins="5% 5%">
-                    <image pg-name="$gr[0]"/>
-                    <image pg-name="$gr[3]"/>
-                </sidebyside>
+                    <image pg-name="$gr[2]" width="35%"/>
+                    <image pg-name="$gr[1]" width="35%"/>
+                    <image pg-name="$gr[0]" width="35%"/>
+                    <image pg-name="$gr[3]" width="35%"/>
                 <p>Which of the above is the best match for the graph?</p>
                 <p><var name="$mc" form="buttons"/> </p></li>
         <li><p>Find the coordinates of the vertices and covertices.  Separate different points with a comma. Use "sqrt(2)" to get <m>\sqrt{2}</m>.</p>
@@ -613,7 +605,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
         </ol></p>
      </statement>
     <solution><p><ol marker="a">
-            <li><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+            <li><image pg-name="$gr[0]" width="40%"/>
                 <p>A graph is also shown below.</p></li>
             <li><p>vertices: <m>(5-\sqrt{15}, -3)</m>, <m>(5+\sqrt{15}, -3)</m></p>
                 <p>covertices: <m>(5, -3+\sqrt{8})</m>, <m>(5, -3-\sqrt{8})</m></p></li></ol></p>

@@ -168,18 +168,14 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
                 );
       </pg-code>     
     <statement><p>Graph the parabola <m>~y=4-x^2</m> on the same grid in the Example above.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[1]"/>
-                <image pg-name="$gr[2]"/>
-            </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
-                <image pg-name="$gr[0]"/>
-                <image pg-name="$gr[3]"/>
-            </sidebyside>
+                <image pg-name="$gr[1]" width="35%"/>
+                <image pg-name="$gr[2]" width="35%"/>
+                <image pg-name="$gr[0]" width="35%"/>
+                <image pg-name="$gr[3]" width="35%"/>
             <p>Which of the following is the best match for the graph of the parabola <m>~y=4-x^2</m> (using the same scale grid as in the Example)?</p>
             <p><var name="$mc" form="buttons"/> </p>
     </statement>
-    <solution><sidebyside widths="40%"><image pg-name="$gr[0]"/></sidebyside>
+    <solution><image pg-name="$gr[0]" width="40%"/>
             <p>A graph is also shown below.</p>
     </solution>
   </webwork>
