@@ -3,11 +3,15 @@
 
 <section xml:id="RootsandRadicals"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Roots and Radicals</title>
 
-<introduction><p>In the previous section we saw that inverse variation can be expressed as a power function by using negative exponents. We can also use exponents to denote square roots and other radicals.</p></introduction>
+<introduction><p>In the previous section we saw that inverse variation can be expressed as a power function by using negative integer exponents. For example, the function <m>f(x) = \dfrac{k}{x^2}</m> can also be written as <m>f(x)=kx^{-2}</m>. Using negative exponents can simplify many calculations that would otherwise involve algebraic fractions.</p>
+
+<p>But is there some meaning to exponents that are fractions, such as <m>\frac{1}{2}</m> or <m>\frac{1}{3}</m>? For example, do expressions such as  <m>5^{1/2}</m> or <m>a^{1/3}</m> have some familiar interpretation? We'll see that fractional exponents can denote square roots and other radicals.</p></introduction>
 
 <subsection><title><m>n^\text{th}</m> Roots</title><idx><em>n</em><m>\vphantom{n}^{\text{th}}</m> root</idx><idx><h>root</h><h><em>n</em><m>\vphantom{n}^{\text{th}}</m></h></idx>
 
-<p>Recall that <m>s</m> is a square root of <m>b</m> if <m>s^2 = b</m>, and <m>s</m> is a cube root of <m>b</m> if <m>s^3 = b</m>. In a similar way, we can define the fourth, fifth, or sixth root of a number. For instance, the fourth root of <m>b</m> is a number <m>s</m> whose fourth power is <m>b</m>.</p>
+<p>Recall that <m>s</m> is a square root of <m>b</m> if <m>s^2 = b</m>, and <m>s</m> is a cube root of <m>b</m> if <m>s^3 = b</m>. For example, <m>5</m> is a square root of <m>25</m> because <m>5^2 = 25</m>, and <m>2</m> is a cube root of <m>8</m> because <m>2^3 = 8</m>.</p>
+
+<p>In a similar way, we can define the fourth, fifth, or sixth root of a number. For instance, the fourth root of <m>81</m> is the number <m>3</m> because <m>3^4 = 81</m>.</p>
 
 <assemblage><title><m>n</m>th Roots</title>
 <p><m>s</m> is called an <term> <m>n</m>th root of <m>b</m></term> if <m>\blert{s^n = b}</m>.
@@ -15,7 +19,7 @@
 
 <p>We use the symbol <m>\sqrt[n]{b}</m> to denote the <m>n</m>th root of <m>b</m>. An expression of the form <m>\sqrt[n]{b}</m> is called a <term>radical</term><idx>radical</idx>, <m>b</m> is called the <term>radicand</term><idx>radicand</idx>, and <m>n</m> is called the <term>index of the radical</term><idx>index (of a radical)</idx>. </p>
 
-<example xml:id="example-nth-roots"><statement><p><ol marker="a" cols="2">
+<example xml:id="example-nth-roots"><statement><p><ol marker="a">
         <li><m>\sqrt[4]{81} = 3</m> because <m>3^4 = 81</m></li>
         <li><m>\sqrt[5]{32} = 2</m> because <m>2^5 = 32</m></li>
         <li><m>\sqrt[6]{64} = 2</m> because <m>2^6 = 64</m></li>
@@ -55,7 +59,7 @@
 
 <subsection><title>Exponential Notation for Radicals</title><idx><h>exponential notation</h><h>for radicals</h></idx><idx><h>exponent</h><h>rational</h></idx><idx><h>exponent</h><h>fractional</h></idx><idx><h>radical</h><h>exponential notation</h></idx>
 
-<p>A convenient notation for radicals uses fractional exponents. Consider the expression <m>9^{1/2}</m>. What meaning can we attach to an exponent that is a fraction? The third law of exponents says that when we raise a power to a power, we multiply the exponents together:
+<p>A convenient notation for radicals uses fractional exponents. Consider the expression <m>9^{1/2}</m>. What meaning can we attach to an exponent that is a fraction? Recall that when we raise a power to a power, we multiply the exponents together:
     <me>\left(x^a\right)^b = x^{ab}</me>
 Therefore, if we square the number <m>9^{1/2}</m>, we get
     <me>\left(9^{1/2}\right)^2 = 9^{(1/2)(2)} = 9^1 = 9</me>
@@ -110,7 +114,7 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
         <li><p>State the law of exponents that shows that <m>a^{1/2}</m> is a square root of <m>a</m>.</p></li>
     </ol></p></statement></exercise>
 
-<p>In general, any nonnegative number raised to the <m>1/2</m> power is equal to the positive square root of the number, or
+<p>Remember that <m>9</m> actually has two square roots, namely <m>3</m> and <m>-3</m>. But the symbol <m>\sqrt{\hphantom{00}}</m> represents only the positive square root, so that <m>\sqrt{9} = 3</m>. The same is true for the exponent <m>\frac{1}{2}</m>:  any nonnegative number raised to the <m>\frac{1}{2}</m> power is equal to the <em>positive</em> square root of the number, or
     <me>a^{1/2} =\sqrt{a}</me></p>
 
 <example xml:id="example-exponential-notation"><statement><p><ol marker="a" cols="2">
@@ -147,7 +151,7 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Evaluate each power.</p>
-    <p><ol marker="a">
+    <p><ol marker="a" cols="2">
                 <li><p><m>4^{1/2}</m></p> </li>
                 <li><p><m>4^{-2}</m></p></li>
                 <li><p><m>4^{-1/2}</m></p></li>
@@ -334,7 +338,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 
 <subsection><title>Working with Fractional Exponents</title><idx><h>exponent</h><h>rational</h></idx><idx><h>exponent</h><h>fractional</h></idx>
 
-<p>Fractional exponents simplify many calculations involving radicals. You should learn to convert easily between exponential and radical notation.</p>
+<p>Fractional exponents simplify many calculations involving radicals. It will be useful for you to convert easily between exponential and radical notation.</p>
 
 <example xml:id="example-radical-to-exponential-notation"><p>Convert each radical to exponential notation.<ol marker="a" cols="2">
             <li><m>\sqrt[3]{12} = 12^{1/3}</m></li>
@@ -469,7 +473,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 we would take the fifth root of each side. But instead of using radical notation, we can raise both sides of the equation to the power <m>\dfrac{1}{5}</m>:
         <md><mrow>\left(x^5\right)^{1/5} \amp= 250^{1/5}</mrow>
             <mrow>x \amp \approx 3.017</mrow></md>
-The third law of exponents tells us that <m>\left(x^a\right)^b = x^{ab}</m>, so 
+Notice again that <m>\left(x^a\right)^b = x^{ab}</m>, so 
     <me>\left(x^5\right)^{1/5} = x^{(1/5)(5)} = x^1</me> 
 Thus, to solve an equation involving a power function <m>x^n</m>, we first isolate the power, then raise both sides to the exponent <m>\dfrac{1}{n}</m>.</p>
 

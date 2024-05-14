@@ -6,7 +6,17 @@
 <introduction>
     <sidebyside width="60%" margins="0% 40%"><image source="images/computer-chip.png"><description>computer chip, Andre Kudyusov/Getty Images</description></image></sidebyside>
     
-<p>We next consider another important family of functions, called <term>exponential functions</term><idx><h>exponential function</h></idx><idx><h>function</h><h>exponential</h></idx>. These functions describe growth by a constant factor in equal time periods. Exponential functions model many familiar processes, including the growth of populations, compound interest, and radioactive decay.  Here is an example.</p>
+<p>In Chapter 1 we studied <term>linear functions</term>, which model quantities that have a <em>constant rate of change</em>. That is, they increase or decrease by the same amount in equal time periods (or equal increments of the input variable). In Example 1.14 we considered a bicycle rental program where the hourly rental fee of $3 was added each hour to the initial insurance fee of $5. We found a formula for the cost of renting a bike for <m>t</m> hours:
+    <me>C(t) = 5 + 3t</me></p>
+<p>Recall that the general formula for linear functions is
+    <me>f(t) = b + mt</me>
+where <m>m</m> stands for the rate of change. Ponder the fact that <em>multiplying</em> <m>m</m> by <m>t</m> means repeatedly <em>adding</em> <m>t</m> copies of <m>m</m> to the initial amount <m>b</m>.</p>
+
+<p>We next consider another important family of functions, called <term>exponential functions</term><idx><h>exponential function</h></idx><idx><h>function</h><h>exponential</h></idx>. These functions describe growth by a constant <em>factor</em> in equal time periods. Just as multiplication means repeated addition, you also know that raising to an exponent means repeated multiplication. For example, the expression
+    <me>a \cdot b^5</me>
+means to multiply <m>a</m> by <m>5</m> copies of <m>b</m>, so we will use exponents to describe the effect of constant growth factors.</p>
+
+<p>Exponential functions model many familiar processes, including the growth of populations, compound interest, and radioactive decay.  Here is an example.</p>
     
 <p>In 1965, Gordon Moore, the cofounder of Intel, observed that the number of transistors on a computer chip had doubled every year since the integrated circuit was invented. Moore predicted that the pace would slow down a bit, but the number of transistors would continue to double every 2 years. More recently, data density has doubled approximately every 18 months, and this is the current definition of <term>Moore's law</term><idx>Moore's law</idx>. Most experts, including Moore himself, expected Moore's law to hold for at least another two decades.</p>
 

@@ -5,23 +5,23 @@
 
 <subsection><title>Introduction</title>
 
-<p>In <xref ref="ExponentialGrowthandDecay" text="type-global"/>, we studied functions that describe exponential growth or decay. More formally, we define an <term>exponential function</term> as follows.</p>
+<p>In <xref ref="ExponentialGrowthandDecay" text="type-global"/>, we studied functions that describe exponential growth or decay. A population of rabbits grew according to the formula <m>~P(t) = 20(1.26)^t~</m>, and a butterfly count decreased by <m>~ B(t) = 3600 (0.88)^t~</m>. These functions are examples of the family of exponential functions. Here are some more examples.
+
+    <me>f (x) = 5^x,~~~~  P(t) = 250(1.7)^t,~~~~ \text{and } ~~~~g(n) = 2.4(0.3)^n</me>
+
+We define an <term>exponential function</term> as follows.</p>
 
 <definition><title>Exponential Function</title><idx>exponential function</idx><idx><h>function</h><h>exponential</h></idx>
 <statement><p>An <term>exponential function</term> has the form
 	<me>\blert{f(x) = ab^x},~~~~ \text{ where } ~~~b \gt 0 ~~~\text{ and } ~~~b \ne 1 \text{, } ~~~a \ne 0</me>
 </p></statement></definition>
 
-<p>Some examples of exponential functions are
-	<me>f (x) = 5^x,~~~~  P(t) = 250(1.7)^t,~~~~ \text{and } ~~~~g(n) = 2.4(0.3)^n</me>
-The constant <m>a</m> is the <m>y</m>-intercept of the graph because
+<p>The positive constant <m>b</m> is called the <term>base</term><idx><h>base</h><h>of an exponential function</h></idx><idx><h>exponential function</h><h>base of</h></idx> of the exponential function. The constant <m>a</m> gives the <m>y</m>-intercept, <m>(0,a)</m>, of the graph because
 	<me>f (0) = a \cdot b^0 = a \cdot 1 = a</me>
 For the examples above, we find that the <m>y</m>-intercepts are
 	<md><mrow>f(0) \amp= 5^0 = 1 </mrow>
 		<mrow>P(0) \amp= 250(1.7)^0 = 250</mrow>
 		<mrow>g(0) \amp= 2.4(0.3)^0 = 2.4</mrow></md></p>
-
-<p>The positive constant <m>b</m> is called the <term>base</term><idx><h>base</h><h>of an exponential function</h></idx><idx><h>exponential function</h><h>base of</h></idx> of the exponential function.</p>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -52,12 +52,13 @@ For the examples above, we find that the <m>y</m>-intercepts are
 <note><p><ul>
     <li> We do not allow <m>b</m> to be negative, because if <m>b \lt 0</m>, then <m>b^x</m> is not a real number for some values of <m>x</m>. For example, if <m>b = -4</m> and <m>f(x) = (-4)^x</m>, then <m>f(1/2) = (-4)^{1/2}</m> is an imaginary number.</li>
     <li> We also exclude <m>b = 1</m> as a base because <m>1^x = 1</m> for all values of <m>x</m>; hence the function <m>f (x) = 1^x</m> is actually the constant function <m>f (x) = 1</m>.</li>
+    <li>The constant <m>a</m> can be negative, but for our work we'll consider only positive values of <m>a</m>.</li> 
 </ul></p></note>
 </subsection>
 
 <subsection><title>Graphs of Exponential Functions</title>
 
-<p>The graphs of exponential functions have two characteristic shapes, depending on whether the base, <m>b</m>, is greater than <m>1</m> or less than <m>1</m>. As typical examples, consider the graphs of <m>f (x) = 2^x</m> and <m>g(x) =\left(\dfrac{1}{2}\right)^x</m> shown below. Some values for <m>f</m> and <m>g</m> are recorded in the tables.</p>
+<p>The graphs of exponential functions have two characteristic shapes, depending on whether the base, <m>b</m>, is greater than <m>1</m> or less than <m>1</m>. As typical examples, consider the graphs of <m>f (x) = 2^x</m> and <m>g(x) = \left(\dfrac{1}{2}\right)^x</m> shown below. Some values for <m>f</m> and <m>g</m> are recorded in the tables.</p>
 <sidebyside widths="15% 15% 70%">
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -115,7 +116,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 
     <image source="images/fig-exponential-growth-and-decay"><description>graphs of exponential growth and decay</description></image></sidebyside>
 
-<p>Notice that <m>f (x) = 2^x</m> is an increasing function and <m>g(x) = \left(\dfrac{1}{2}\right)^x</m> is a decreasing function<idx>decreasing function</idx>. Both are concave up. In general, exponential functions have the following properties.</p>
+<p>Notice that <m>f(x) = 2^x</m> is an increasing function and <m>g(x) = \left(\dfrac{1}{2}\right)^x</m> is a decreasing function<idx>decreasing function</idx>. Both are concave up. In general, exponential functions have the following properties.</p>
 
 <assemblage><title>Properties of Exponential Functions, <m>f(x) = ab^x</m>, <m>a \gt 0</m></title><idx>properties of exponential functions</idx><idx>exponential function</idx><idx><h>concave up</h></idx><p><ol>
 	<li><p>If <m>b \gt 1</m>, the function is increasing <idx>increasing function</idx>and concave up;</p> 
@@ -271,10 +272,12 @@ For the examples above, we find that the <m>y</m>-intercepts are
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
 </statement>
-    <solution><p><ol marker="a">
+    <answer><p><ol marker="a">
         <li><p>Graph I is <m>q</m>, and graph II is <m>p</m>.</p></li>
         <li><p><m>q</m> decreases more steeply</p></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
+
+<note><p>Perhaps you see a similarity in the formula for exponential functions, <m>y = ab^x</m>, and the formula for linear functions, <m>y = mx + b</m>. In an exponential function the base <m>b</m> tells us how fast the function increases or decreases, much as the slope <m>m</m> does for linear functions, and the constant <m>a</m> tells us the intial value when <m>x=0</m>, as does the constant <m>b</m> in the linear formula <m>y = mx + b</m>.</p></note>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -309,7 +312,7 @@ For the examples above, we find that the <m>y</m>-intercepts are
 <statement><p>True or False.</p>
 <p><ol marker="a">
     <li><p>An exponential function <m>f(x)=b^x</m> is always positive.</p></li>
-    <li><p>The function <m>f(x)=ab^x</m> has a horizontal asymptote at <m>y=0</m>. </p></li>
+    <li><p>For <m>x \lt 0</m>, the function <m>f(x)=ab^x</m> has a horizontal asymptote at <m>y=0</m>. </p></li>
     <li><p>The value of <m>b</m> determines how rapidly the graph of <m>f(x)=ab^x</m> increases or decreases.</p></li>
     <li><p>The graph of <m>f(x)=ab^x</m> is decreasing if <m>b \lt 0</m>. </p></li>
     </ol></p></statement></exercise>
@@ -640,9 +643,9 @@ which is true if and only if <m>x = 4</m>.<idx><h>exponential equation</h><h>sol
 			<mrow>2^{10} \amp = 2^{t/5}</mrow></md>
 	We equate the exponents to get <m>10 = \dfrac{t}{5}</m>, or <m>t = 50</m>. The population will grow to 10,240 fleas in 50 days.</li></ol></p></solution></example>
 
-<p>In part (a) of the <xref ref="example-flea-population" text="custom">Example</xref> above, we can also use the laws of exponents to write the formula as 
+<p>In part (a) of the <xref ref="example-flea-population" text="custom">Example</xref> above, we can also write the formula as 
 	<me>P(t)=10 \cdot (2^{1/5})^t</me> 
-From this form see that the growth factor for this function is <m>2^{1/5}</m>, or about 1.149. The flea population grows at about 14.9% per day.</p>
+(See Note 7.1.5 for another example of this calculation.) From this form see that the growth factor for this function is <m>2^{1/5}</m>, or about 1.149. The flea population grows at about 14.9% per day.</p>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -672,7 +675,7 @@ From this form see that the growth factor for this function is <m>2^{1/5}</m>, o
 <statement><p>During an advertising campaign in a large city, the makers of Chip-O's corn chips estimate that the number of people who have heard of Chip-O's increases by a factor of 8 every 4 days.</p>
     <p><ol marker="a">
         <li><p>If 100 people are given trial bags of Chip-O's to start the campaign, write a function, <m>N(t)</m>, for the number of people who have heard of Chip-O's after <m>t</m> days of advertising.</p></li>
-        <li><p>Use your calculator to graph the function <m>N(t)</m> on the domain <m>0 \le t \le 15</m>.</p></li>
+        <li><p>Use your calculator to graph the function <m>N(t)</m> for <m>0 \le t \le 15</m>.</p></li>
         <li><p>How many days should the makers run the campaign in order for Chip-O's to be familiar to 51,200 people? Use algebraic methods to find your answer and verify on your graph.</p></li>
     </ol></p></statement>
     <solution><p><ol marker="a">
