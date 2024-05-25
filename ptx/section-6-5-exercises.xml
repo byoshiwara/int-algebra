@@ -339,7 +339,7 @@
 
 <exercise number="20"><statement><p>If a gun is fired vertically into the air, the time it takes the bullet to return to the ground is given approximately by
         <me>t=\dfrac{1}{2}\sqrt{\dfrac{2h}{g}}</me>
-where <m>h</m> is the greatest height the bullet reaches in meters, and <m>g</m> is the force of gravity, 9.8 meters per second squared.<ol marker="a">
+where <m>h</m> is the greatest height the bullet reaches in meters, and <m>g</m> is the acceleration due to gravity, 9.8 meters per second squared.<ol marker="a">
     <li>If the bullet returns to earth in 12 seconds, what was the greatest height it reached?</li>
     <li>Solve the formula for <m>h</m> in terms of <m>g</m> and <m>t</m>.</li></ol></p></statement></exercise>
 

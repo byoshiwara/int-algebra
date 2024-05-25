@@ -139,7 +139,8 @@
         }
         \draw[samples=65,domain={0:ln(80)/ln(2)},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {1/5*2^(\x)});
         \node at (4,-2) {Time (days)};
-        \node[rotate=90,font=\bf] at (-1.6,8)  {Population of Drosophila cells (millions)};
+        \node[rotate=90,font=\bf] at (-1.8,8)  {Population of Drosophila cells (millions)};
+        \node[rotate=90,font=\bf] at (-1.6,8)  {};
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
 

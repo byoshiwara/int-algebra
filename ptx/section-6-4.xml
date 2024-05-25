@@ -217,7 +217,7 @@ and
         </solution>
 </webwork></exercise>
 
-<exercise component="webwork"><title>QuickCheck 2</title>
+<exercise component="main"><title>QuickCheck 2</title>
 <statement><p>True or false.</p>
 <p><ol marker="a">
     <li><p>To simplify a radical means to find a decimal approximation.</p></li>
@@ -561,7 +561,7 @@ The denominator of the fraction no longer contains any radicals—it has been ra
 <statement><p>Rationalize the denominator of <m>\dfrac{\sqrt{3}}{\sqrt{3}-\sqrt{2}}</m></p></statement>
     <solution><p><m>3+\sqrt{6}</m></p></solution></exercise>
 
-<exercise component="webwork"><title>QuickCheck 3</title>
+<exercise component="webwork"><title>QuickCheck 5</title>
 <webwork>
     <pg-code>
         $radicals = PopUp(
@@ -596,7 +596,7 @@ The denominator of the fraction no longer contains any radicals—it has been ra
     </solution>
 </webwork></exercise>
 
-<exercise component="main"><title>QuickCheck 3</title>
+<exercise component="main"><title>QuickCheck 5</title>
 <statement><p>Fill in the blanks.</p>
 <p><ol marker="a">
     <li><p>We rationalize the denominator to remove <fillin characters="10"/> from the denominator.</p></li>

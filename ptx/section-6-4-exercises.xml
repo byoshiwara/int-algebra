@@ -1,11 +1,5 @@
 <?xml version="1.0"?>
 
-
-<!-- This file was originally part of the book     -->
-<!--   Modeling, Functions, and Graphs   -->
-<!--           4th                                     -->
-<!-- Copyright (C) Katherine Yoshiwara      -->
-
 <exercises xml:id="section-6-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Problem Set 6.4</title>
 
@@ -87,7 +81,7 @@
         </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 10<ndash/>13, simplify.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 10<ndash/>13, simplify. Assume that all variables represent positive numbers.</p></introduction>
 
 <exercise number="10"><statement><p><ol marker="a">
         <li><p><m>-\sqrt{18s}\sqrt{2s^3} </m></p></li>
@@ -118,7 +112,7 @@
     </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 14-16, simplify and combine like terms.</p></introduction>
+<exercisegroup><introduction><p>For Problems 14<ndash/>16, simplify and combine like terms.</p></introduction>
 
 <exercise number="14"><statement><p><ol marker="a" cols="2">
     <li><m>4\sqrt{3}+\sqrt{27}</m></li>
@@ -133,7 +127,7 @@
 
 <exercise number="16"><statement><p><ol marker="a" cols="2">
     <li><m>2v\sqrt{v}+3\sqrt{v^3}-\dfrac{v^2}{\sqrt{v}}</m></li>
-    <li><m>12\sqrt[3]{w^2}-\sqrt[3]{w}\left(-2\sqrt[3]{w}\right)+\dfrac{8w}{\sqrt[3]{w}}</m></li></ol></p></statement>
+    <li><m>12\sqrt[3]{w^2}-\sqrt[3]{w}\left(-2\sqrt[3]{w}\right)+\dfrac{8w^2}{\sqrt[3]{w}}</m></li></ol></p></statement>
 </exercise>
 </exercisegroup>
 
@@ -208,10 +202,10 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 27 and 28, verify by substitution that the number is a solution of the quadratic equation.</p></introduction>
 
-<exercise number="27"><statement><p><m>x^2+4x-1=0 \text{, }~-2+\sqrt{5}</m></p></statement>
+<exercise number="27"><statement><p><m>x^2+4x-1=0</m>, <m>-2+\sqrt{5}</m></p></statement>
 <answer><p><m>x^2+4x=(4-4\sqrt{5}+5)+(8+4\sqrt{5})=1</m> </p></answer></exercise>
 
-<exercise number="28"><statement><p><m>4x^2-20x+22=0 \text{, }~\dfrac{5-\sqrt{3}}{2}</m></p></statement></exercise>
+<exercise number="28"><statement><p><m>4x^2-20x+22=0</m>,<m>\dfrac{5-\sqrt{3}}{2}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="29"><statement><p><ol marker="a">
