@@ -42,7 +42,7 @@
 
 <exercise number="5"><statement><p><ol marker="a">
         <li><p>Complete the table and graph <m>~y=2x^2-5</m>.</p> 
-            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>-3~</m></cell>
@@ -61,8 +61,8 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside>
-            <sidebyside  width="25%"><image xml:id="fig-hw-3-1-3"><description>grid</description><latex-image>
+                    </tabular>
+            <image width="25%" xml:id="fig-hw-3-1-3"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -77,12 +77,12 @@
                       \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
                     }
                     \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li>
+                </latex-image></image></li>
         <li>Use the graph to solve the equation <m>~2x^2-5=7</m>. Show your work on the graph. How many solutions did you find?</li>
         <li><p>Solve the equation <m>~2x^2-5=7~</m> algebraically, by "undoing" each operation.</p></li></ol></p>
     </statement>
 <answer><p><ol marker="a">
-            <li><sidebyside  width="32%" margins="0% 60%"><image xml:id="fig-hw-3-1-3ans"><description>parabola</description><latex-image>
+            <li><image width="32%" xml:id="fig-hw-3-1-3ans"><description>parabola</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -103,15 +103,13 @@
                     \filldraw[red] ({-sqrt(6)},7) circle (.2);
                     \filldraw[red] ({sqrt(6)},7) circle (.2);
                     \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li>
+                </latex-image></image></li>
             <li>Two solutions. <m>\approx \pm 2.5</m></li>
             <li><m>\pm \sqrt{6}</m></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p>Use the Pythagorean theorem to find the unknown side.<ol marker="a" cols="2">
-    <li><sidebyside width="55%" margins="0% 45%">
-        <image xml:id="fig-x-6-10-rt-triangle">
-        <description>right triangle, legs x and 6, hypotenuse 10</description>
-        <latex-image>
+    <li><image width="65%" xml:id="fig-x-6-10-rt-triangle">
+        <description>right triangle, legs x and 6, hypotenuse 10</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -122,13 +120,9 @@
         \node at (8.8,3) {$6$};
         \node at (3.8,3.8) {$10$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside></li>
-    <li><sidebyside width="90%" margins="0% 5%">
-        <image xml:id="fig-12-35-z-rt-triangle">
-        <description>right triangle, legs 12 and 35, hypotenuse z</description>
-        <latex-image>
+        </latex-image></image></li>
+    <li><image width="100%" xml:id="fig-12-35-z-rt-triangle">
+        <description>right triangle, legs 12 and 35, hypotenuse z</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -139,9 +133,7 @@
         \node at (18,-8) {$z$};
         \node at (-2.5,-6) {$12$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside></li>
+        </latex-image></image></li>
 </ol></p></statement></exercise>
 
 </subexercises>
@@ -232,7 +224,7 @@
     <li>Write a formula for the amount, <m>A</m>, in your savings account after two years in terms of the interest rate, <m>r</m>.</li>
     <li><p>Complete the table showing your account balance after two years for various interest rates.</p>
 
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~r~</m></cell>
                         <cell><m>0.02</m></cell>
@@ -245,12 +237,12 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li>To the nearest tenth of a percent, what interest rate will you require if you want your $1600 to grow to $2000 in two years?</li>
     <li>Use your calculator to graph the formula for the account balance.  Locate the point on the graph that corresponds to the amount in part (c).</li></ol></p></statement>
     <answer><p><ol marker="a">
         <li><m>A=1600(1+r)^2</m></li>
-        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~r~</m></cell>
                         <cell><m>0.02</m></cell>
@@ -263,12 +255,12 @@
                         <cell><m>1730.56</m></cell>
                         <cell><m>1797.76</m></cell>
                         <cell><m>1866.24</m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
         <li>11.8%</li></ol></p></answer></exercise>
 
 <exercise number="26"><statement><p>Two years ago Carol's living expenses were $1200 per month. This year the same items cost Carol $1400 per month. What was the annual inflation rate for the past two years?</p></statement></exercise>
 
-<exercise number="27"><statement><sidebyside widths="65% 20%" margins="0% 5 %" valigns="middle middle">
+<exercise number="27"><statement><sidebyside widths="60% 30%" valigns="middle middle">
 <p>What size rectangle will fit inside a circle of radius 30 feet if the length of the rectangle must be three times its width?</p>        
     <image xml:id="fig-inscribed-rectangle"><description>rectangle inscribed in circle radius 30</description><latex-image>
             <![CDATA[\tikzset{%
@@ -292,7 +284,7 @@ If the box should have a volume of 1960 cubic inches, what size cardboard square
     <ol marker="a">
     <li>Write a formula for the volume of the bottle in terms of its radius.</li>
     <li><p>Complete the table of values for the volume equation. If you cut the radius of the bottle in half, by what factor does the volume decrease?</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~r~</m></cell>
                         <cell><m>~1~</m></cell>
@@ -313,7 +305,7 @@ If the box should have a volume of 1960 cubic inches, what size cardboard square
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></li>
+                    </tabular></li>
     <li>What radius should the bottle have if it must hold 240 milliliters of shampoo? (A milliliter is equal to one cubic centimeter.)</li>
     <li>Use your calculator to graph the volume equation. (Use the table to help you choose a suitable window.) Locate the point on the graph that corresponds to the bottle in part (c). Make a sketch of your graph, and lable the scales on the axes.</li></ol></p></statement>
     <answer><p><ol marker="a">

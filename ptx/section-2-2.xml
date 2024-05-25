@@ -3,6 +3,76 @@
 
 <section xml:id="LinSys"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Systems</title><idx>linear system</idx>
 
+<introduction>
+<p>For the rest of this chapter we'll consider problems that can be solved using two or more linear equations simultaneously. To begin, think about the two equations in the next Investigation.</p>
+
+<investigation><title>Water Level</title>
+ 
+<p>When sailing upstream in a canal or a river that has rapids, ships must sometimes negotiate locks to raise them to a higher water level. Suppose your ship is in one of the lower locks, at an elevation of 20 feet. The next lock is at an elevation of 50 feet. Water begins to flow from the higher lock to the lower one, raising your level by 1 foot per minute, and simultaneously lowering the water level in the next lock by 1.5 feet per minute. <ol marker="1">
+
+<li><p>Fill in the table</p>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>t</m> (minutes)</cell>
+                        <cell bottom="minor">Lower lock water level</cell>
+                        <cell bottom="minor">Upper lock water level</cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>6</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>8</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>10</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></li>
+
+<li><p>Let <m>t</m> stand for the number of minutes the water has been flowing.<ol marker="a">
+    <li>Write an equation for <m>L</m>, the water level in the lower lock after <m>t</m> minues.</li>
+    <li>Write an equation for <m>U</m>, the water level in the upper lock after <m>t</m> minues.</li>
+</ol></p></li>
+
+<li><p>Graph both your equations on the grid.</p>
+    <image width="50%" xml:id="fig-water-level-grid"><description>grid</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (0,0) grid (12,10);
+        \draw[black,thick,->,>=stealth'] (0,0)--(12.5,0) node[right]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,10.5);
+        \foreach \x  in {5,10} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below]{\x};
+        }
+        \foreach \x [evaluate=\x as \xi using int( 5* \x )]  in {2,4,...,10} {
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left]{\xi};
+        }
+        \end{tikzpicture}]]>
+        </latex-image></image></li>
+
+<li><p>When will the water level in the two locks be 10 feet apart?</p></li>
+<li><p>When will the water level in the two locks be the same?</p></li>
+<li><p>Write an equation you can use to verify your answer to part (5), and solve it.</p></li>
+</ol></p>
+</investigation>
+
+</introduction>
+
 <subsection><title>Systems of Equations</title>
 
 <p>A biologist wants to know the average weights of two species of birds in a wildlife preserve. She sets up a feeder whose platform is actually a scale and mounts a camera to monitor the feeder. She waits until the feeder is occupied only by members of the two species she is studying,  robins and thrushes. Then she takes a picture, which records the number of each species on the scale and the total weight registered.</p>
@@ -11,10 +81,8 @@
     <md><mrow>\amp\text{Average weight of a thrush:} ~~t </mrow>
         <mrow>\amp\text{Average weight of a robin:} ~~r </mrow></md>
     In each of the photos,
-    <md><mrow>
-        (\blert{\text{weight of thrushes}}) + (\blert{\text{weight of robins}}) = \blert{\text{total weight}}
-    </mrow></md>
-    Thus
+    <me>(\blert{\text{weight of thrushes}}) + (\blert{\text{weight of robins}}) = \blert{\text{total weight}}</me>
+So the two equations are
     <md><mrow>3t + 6r \amp = 48</mrow>
         <mrow>5t + 2r \amp =32</mrow></md></p>
 
@@ -42,8 +110,7 @@
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Choose the solution of the system:
-        <md>
-            <mrow>3x-2y \amp = 19</mrow>
+        <md><mrow>3x-2y \amp = 19</mrow>
             <mrow>4x+5y \amp = 10</mrow></md></p>
     <p><ol marker="a" cols="4">
             <li><p><m>(7,1)</m></p></li>
@@ -55,8 +122,12 @@
 
 <subsection><title>Solving Systems by Graphing</title><idx><h>system of equations</h><h>graphing</h></idx>
 
-<sidebyside widths="57% 38%" margins="0% 0%" valigns="middle middle">
-<p>Every point on the graph of an equation represents a solution to that equation. A solution to both equations must be a point that lies on both graphs. Therefore, a solution to the system is a point where the two graphs intersect. The figure at right shows a graph of the system about robins and thrushes. The two lines appear to intersect at the point <m>(4, 6)</m>, so we expect that the values <m>t = \alert{4}</m> and <m>r = \alert{6}</m> are the solution to the system. We can check by verifying that these values satisfy both equations in the system.</p>
+<p>Recall that every point on the graph of an equation represents a solution to that equation, so a solution to both equations must be a point that lies on both graphs. Therefore, a solution to the system is a point where the two graphs intersect.</p>
+
+<sidebyside widths="57% 40%" valigns="middle middle">
+<p>The figure at right shows a graph of the system about robins and thrushes. The two lines appear to intersect at the point <m>(4, 6)</m>, so we expect that the values <m>t = \alert{4}</m> and <m>r = \alert{6}</m> are the solution to the system. We can check by verifying that these values satisfy both equations in the system
+    <md><mrow>3(\alert{4})+ 6(\alert{6}) \amp \stackrel{?}{=} 48\amp\amp \blert{\text{True}} </mrow>
+        <mrow>5(\alert{4})+ 2(\alert{6}) \amp \stackrel{?}{=} 32\amp\amp \blert{\text{True}} </mrow></md></p>
     <image xml:id="fig-robins-thrushes"><description>two lines in first quadrant</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -75,9 +146,8 @@
         \node[blue,rotate={atan(-1/4)}, fill=white, inner sep=1] at (7.8,2.5) {$3t+6r=48$};
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
-<p><md><mrow>3(\alert{4})+ 6(\alert{6}) \amp \stackrel{?}{=} 48\amp\amp \blert{\text{True}} </mrow>
-        <mrow>5(\alert{4})+ 2(\alert{6}) \amp \stackrel{?}{=} 32\amp\amp \blert{\text{True}} </mrow></md>
-Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces.</p>
+
+<p>Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces.</p>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
@@ -115,20 +185,18 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
 
 <p>We can use a calculator or graphing utility to graph the equations in a system.</p>
 
-<example><statement><p>Use your calculator to solve the system by graphing.
+<example><statement><p>Use your grapher to solve the system by graphing.
             <md><mrow>y \amp= 1.7x + 0.4</mrow>
                 <mrow>y \amp= 4.1x + 5.2</mrow></md></p></statement>
 
 <solution><p>We set the graphing window to</p>
-    <sidebyside><tabular>
-            <row>
-               <cell><m>\text{Xmin}=-9.4 \qquad</m></cell>
+    <tabular>
+            <row><cell><m>\text{Xmin}=-9.4 \qquad</m></cell>
                <cell><m>\text{Ymin}=-10</m></cell></row>
-            <row>
-               <cell><m>\text{Xmax}=-9.4 \qquad</m></cell>
+            <row><cell><m>\text{Xmax}=-9.4 \qquad</m></cell>
                    <cell><m>\text{Ymax}=10</m></cell></row>
-        </tabular></sidebyside>
-<p>and enter the two equations. We can see in the figure that the two lines intersect in the third quadrant. We use the <kbd>TRACE</kbd> key to find the coordinates of the intersection point, <m>(-2,-3)</m>. The solution to the system is <m>x=-2</m>, <m>y=-3</m>.</p>
+        </tabular>
+<p>and enter the two equations. We can see in the figure that the two lines intersect in the third quadrant. We use the <kbd>TRACE</kbd> feature to find the coordinates of the intersection point, <m>(-2,-3)</m>. The solution to the system is <m>x=-2</m>, <m>y=-3</m>.</p>
     <image width="38%" source="images/fig-GC-2x2-system"><description>GC display of 2 lines intersecting in 3rd quadrant</description></image></solution>
 </example>
 
@@ -155,10 +223,8 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
     </statement>
     <solution><p><ol>
         <li><p><m>(7, 2)</m></p></li>
-        <li><p>
-            <md><mrow>{{2}}\amp= -0.7(7)+ 6.9\amp\amp \text{Yes!}</mrow>
-                <mrow>{{2}}\amp =1.2({7})-6.4\amp\amp \text{Yes!}</mrow></md>
-        </p></li>
+        <li><p><md><mrow>{{2}}\amp= -0.7(7)+ 6.9\amp\amp \text{Yes!}</mrow>
+                <mrow>{{2}}\amp =1.2({7})-6.4\amp\amp \text{Yes!}</mrow></md></p></li>
     </ol></p></solution>
 </webwork></exercise>
 
@@ -172,15 +238,11 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
                         <mrow>\text{Ymin} \amp = -10 \amp\amp \text{Ymax} = 10</mrow></md></p></li>
         <li><p>Verify algebraically that your solution satisfies both equations.</p></li>
     </ol></p></statement>
-    <solution><p><ol>
+<answer><p><ol>
         <li><p><m>(7, 2)</m></p></li>
-        <li><p>
-            <md><mrow>{{2}}\amp= -0.7(7)+ 6.9\amp\amp \text{Yes!}</mrow>
+        <li><p><md><mrow>{{2}}\amp= -0.7(7)+ 6.9\amp\amp \text{Yes!}</mrow>
                 <mrow>{{2}}\amp =1.2({7})-6.4\amp\amp \text{Yes!}</mrow></md></p></li>
-    </ol></p></solution></exercise>
-</subsection>
-
-<subsection><title>The Intersect Feature</title>
+    </ol></p></answer></exercise>
 
 <p>Because the <kbd>TRACE</kbd> feature does not show every point on a graph, we may not find the exact solution to a system by tracing the graphs.</p>
 
@@ -191,10 +253,9 @@ Both equations are true, so we have found the solution: a thrush weighs 4 ounces
 <solution><p>We can graph this system in the standard window by solving each equation for <m>y</m>. We enter
             <md><mrow>Y_1\amp = (21.06 - 3X)/-2.8</mrow>
                 <mrow>Y_2\amp  = (5.3 - 2X)/1.2</mrow></md>
-and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the intersection point, we will not find the same coordinates on both lines. The intersection point is not displayed in this window. Instead, we can use the <term>intersect</term> feature of the calculator.</p> 
+and use the standard window. If we trace along the graph to the intersection point, we will not find the same coordinates on both lines. The intersection point is not displayed in this window. Instead, we can use the <term>intersect</term> feature of the grapher.</p> 
         
-<p>Using the arrow keys, we position the Trace bug as close to the intersection point as possible. We then press <kbd>2nd</kbd><kbd>CALC</kbd> to see the <term>Calculate</term> menu. We press 5 for <term>intersect</term>, and respond to each of the calculator’s questions, <term>First curve?</term>, <term>Second curve?</term>, and <term>Guess?</term>, by pressing <kbd>ENTER</kbd>. The calculator then displays the intersection point, <m>x = 4.36</m>, <m>y = -2.85</m>.</p></solution>
-</example>
+<p>Follow the instructions for your grapher's intersect feature to find the intersection point, <m>x = 4.36</m>, <m>y = -2.85</m>.</p></solution></example>
 
 <p> We can substitute these values into the original system to check that they satisfy both equations.
         <md><mrow>3(\alert{4.36}) - 2.8(\alert{-2.85}) \amp = 21.06 \amp\amp \blert{\text{True}}</mrow>
@@ -223,7 +284,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
             <md><mrow>y = 47x - 1930</mrow>
                 <mrow>y + 19x = 710</mrow></md>
     by graphing. Estimate the intercepts of each graph to help you choose a suitable window, and use the <term>intersect</term> feature  to locate the solution.</p></statement>
-    <solution><p><m>(40,-50)</m></p></solution></exercise>
+<answer><p><m>(40,-50)</m></p></answer></exercise>
 
 <p>How does the calculator find the exact coordinates of the intersection point? In the next section we’ll learn how to find the solution of a system using algebra.</p>
 </subsection>
@@ -273,7 +334,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
                 <mrow>3x - 2y = 9</mrow></md></p></li></ol></p></statement>
 
 <solution><p><ol marker="a">
-    <li><p>We use the calculator to graph both equations on the same axes. First, we rewrite the second equation in slope-intercept form by solving for <m>y</m>.
+    <li><p>We can use technology to graph both equations on the same axes. First, we rewrite the second equation in slope-intercept form by solving for <m>y</m>.
                 <md><mrow>2x + 2y \amp = 3\amp\amp \blert{\text{Substract } 2x \text{ from both sides.}}</mrow>
                     <mrow>2y \amp = -2x + 3\amp\amp \blert{\text{Divide both sides by 2.}}</mrow>
                     <mrow>y \amp = -x + 1.5</mrow></md>
@@ -364,21 +425,19 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
         by hand, using either the intercept method or the slope-intercept method.</p></li>
     <li><p>Identify the system as dependent, inconsistent, or consistent and independent.</p></li>
     </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<answer><p><ol marker="a" cols="2">
             <li><image width="70%" source="images/fig-ex-2-2-3ans"><description>parallel lines</description></image></li>
             <li><p>Inconsistent: The graph is two parallel lines.</p></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
 </subsection>
 
 <subsection><title>Applications</title>
 
 <p>Systems of equations are useful in many applied problems. One example involves supply and demand. The owner of a retail business must try to balance the demand for his product from consumers with the supply he can obtain from manufacturers. Supply and demand both vary with the price of the product: consumers usually buy fewer items if the price increases, but manufacturers will be willing to supply more units of the product if its price increases.</p>
 
-<p>The <term>demand equation</term><idx>demand equation</idx><idx><h>equation</h><h>demand</h></idx> gives the number of units of the product that consumers will buy at a given price. The <term>supply equation</term><idx>supply equation</idx><idx><h>equation</h><h>supply</h></idx> gives the number of units that the producer will supply at that price. The price at which the supply and demand are equal is called the <term>equilibrium price</term><idx>equilibrium price</idx>. This is the price at which the consumer and the producer agree to do business.
-</p>
+<p>The <term>demand equation</term><idx>demand equation</idx><idx><h>equation</h><h>demand</h></idx> gives the number of units of the product that consumers will buy at a given price. The <term>supply equation</term><idx>supply equation</idx><idx><h>equation</h><h>supply</h></idx> gives the number of units that the producer will supply at that price. The price at which the supply and demand are equal is called the <term>equilibrium price</term><idx>equilibrium price</idx>. This is the price at which the consumer and the producer agree to do business.</p>
 
-<example><statement><p>A woolens mill can produce <m>400x</m> yards of fine suit fabric if it can charge <m>x</m> dollars per yard. The mill's clients in the garment industry will buy <m>6000 - 100x</m> yards of wool fabric at a price of <m>x</m> dollars per yard. Find the equilibrium price and the amount of fabric that will change hands at that price.</p>
-</statement>
+<example><statement><p>A woolens mill can produce <m>400x</m> yards of fine suit fabric if it can charge <m>x</m> dollars per yard. The mill's clients in the garment industry will buy <m>6000 - 100x</m> yards of wool fabric at a price of <m>x</m> dollars per yard. Find the equilibrium price and the amount of fabric that will change hands at that price.</p></statement>
     
 <solution><p><ul>
     <li><title>Step 1</title>
@@ -405,7 +464,7 @@ and then press <kbd>ZOOM</kbd> <m>6</m>. If we trace along the graph to the inte
     </ul></p></solution></example>
 
 <p>A business venture calculates its <term>profit</term><idx>profit</idx> by subtracting its <term>costs</term><idx>cost</idx> from its <term>revenue</term><idx>revenue</idx>, the amount of money it takes in from sales.
-    <md><mrow>\blert{\text{Profit} = \text{Revenue} -\text{Cost}}</mrow></md>
+    <me>\blert{\text{Profit} = \text{Revenue} -\text{Cost}}</me>
 Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs, the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>.</p>
 
 <exercise component="webwork"><title>Practice 4</title>
@@ -427,13 +486,12 @@ Cost is usually calculated as the sum of fixed costs, or overhead, and variable 
             <p>The must sell <var name="$n" width="2"/> pendants to break even.</p></li>
             </ol></p>
     </statement>
-    <solution><p><ol marker="a">
+<solution><p><ol marker="a">
             <li><p><m>C=200+4x</m></p></li>
             <li><p><m>R=12x</m></p></li>
             <li><p><m>(25,300)</m></p></li>
             <li><p>They must sell 25 pendants in order to break even.</p></li></ol></p>
-    </solution>
-</webwork></exercise>
+</solution></webwork></exercise>
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.<ol marker="a">
@@ -442,12 +500,12 @@ Cost is usually calculated as the sum of fixed costs, or overhead, and variable 
         <li><p>Graph the revenue and cost on the same set of axes. (Find the intercepts of each equation to help you choose a window for the graph.) State the solution of the system.</p></li>
         <li><p>How many pendants must be sold for the Aquarius company to break even on a particular production run?</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+<answer><p><ol marker="a">
             <li><p><m>C=200+4x</m></p></li>
             <li><p><m>R=12x</m></p></li>
             <li><p><m>(25,300)</m></p></li>
             <li><p>They must sell 25 pendants in order to break even.</p></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
 </subsection>
 
 <xi:include href="./section-2-2-exercises.xml" />                

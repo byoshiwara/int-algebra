@@ -3,8 +3,7 @@
 
 <section xml:id="EquationsOfLines" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations of Lines</title>
 
-<subsection><title>Polar Ice</title>
-
+<introduction>
 <p>Three main factors influence the energy balance of the Earth and its temperature:<ul>
         <li><p>The total energy influx from the sun</p></li>
         <li><p>The chemical composition of the atmosphere</p></li>
@@ -16,17 +15,16 @@
 <image width="90%" source="images/sea-ice-minimum"><description>annual sea ice minimum</description></image>
 
 <p>Numerous factors influence the freezing point of sea water, including its salinity, or mineral content. In this Lesson we'll develop a formula for the freezing temperature of water in terms of its salinity.</p>
-
-</subsection>
+</introduction>
 
 <subsection><title>Slope-Intercept Form</title><idx>slope-intercept form</idx><idx><h>linear equation</h><h>slope-intercept form</h></idx><idx><h>slope-intercept formula</h><see>slope-intercept form</see></idx>
 
 <p>In earlier sections we learned that:</p>
 
-<assemblage><title>Equation of a Line</title>
-    <p><ol marker="1">
-        <li><p>The <m>y</m>-intercept <idx><em>y</em>-intercept</idx> of a line gives the <term>initial value</term><idx>initial value</idx><idx><h>starting value</h><see>initial value</see></idx> of <m>y</m>.</p></li>
-        <li><p>The <term>slope</term> of the line gives the <term>rate of change</term> of <m>y</m> with respect to <m>x</m>.</p></li></ol></p></assemblage>
+<p><ul>
+    <li><p>The <m>y</m>-intercept <idx><em>y</em>-intercept</idx> of a line gives the <term>initial value</term><idx>initial value</idx><idx><h>starting value</h><see>initial value</see></idx> of <m>y</m>.</p></li>
+    <li><p>The <term>slope</term> of the line gives the <term>rate of change</term> of <m>y</m> with respect to <m>x</m>.</p></li>
+</ul></p>
 
 <p>Comparing these observations with the form for a linear model, we see that
     <md><mrow>\blert{y} \amp =(\blert{\text{starting value}} ) +(\blert{\text{rate}})\cdot x </mrow>
@@ -35,7 +33,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <assemblage><title>Slope-Intercept Form</title><idx>slope-intercept form</idx><idx><h>linear equation</h><h>slope-intercept form</h></idx>
     <p>We can write the equation of a line in the form
-        <md><mrow>y = mx + b</mrow></md>
+        <me>\blert{y = mx + b}</me>
     where <m>m</m> is the <term>slope</term> of the line, and <m>b</m> is the <term><m>y</m>-intercept</term><idx><em>y</em>-intercept</idx>.</p></assemblage>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
@@ -64,19 +62,19 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 </ol></p></statement></exercise>
 
 <example><statement><sidebyside widths="55% 40%" margins="0% 0%">
-    <p>The graph shows the amount of garbage <m>G</m>, in tons, that has been deposited at a dumpsite <m>t</m> years after new regulations go into effect.<ol marker="a">
-        <li><p>Choose two points on the graph and compute the slope, including units.</p></li>
+    <p>Recall Practice 4 from Section 1.4:  The graph shows the amount of garbage <m>G</m>, in tons, that has been deposited at a dumpsite <m>t</m> years after new regulations go into effect.<ol marker="a">
+        <li><p>State the vertical intercept and the slope of the graph.</p></li>
         <li><p>Find an equation for the graph shown.</p></li>
-        <li><p>State the meaning of the slope and the vertical intercept.</p></li></ol></p>
+        <li><p>State the meaning of the slope and the vertical intercept for this model.</p></li>
+    </ol></p>
     <image source="images/fig-ex-1-4-4"><description>linear graph of garbage deposited</description></image></sidebyside>
 </statement>
 
 <solution><p><ol marker="a">
-    <li><p>Two points on the line are <m>(0, 25)</m> and <m>(10, 150)</m> The slope is
-        <md><mrow>m=\frac{\Delta G}{\Delta t}=\frac{125\text{ tons}}{10\text{ years}}=12.5 \text{ tons/year}</mrow></md>
+    <li><p>The vertical intercept of the graph is <m>(0,25)</m>. Two points on the line are <m>(0, 25)</m> and <m>(10, 150)</m>, so the slope is
+        <me>m=\frac{\Delta G}{\Delta t}=\frac{125\text{ tons}}{10\text{ years}}=12.5 \text{ tons/year}</me>
             </p></li>
-    <li><p>The vertical intercept of the graph is <m>(0,25)</m>, so <m>b=25</m>, and
-         <md><mrow>G=mt+b = 12.5t + 25</mrow></md></p></li>
+    <li><p><m>G = mt + b</m>, so the equation is <m>~G = 12.5t + 25</m></p></li>
     <li><p>The slope tells us that garbage is accumulating at a rate of 12.5 tons per year. The vertical intercept tells us that when the new regulations went into effect, the dump held 25 tons of garbage.</p></li></ol></p>
 </solution></example>
 
@@ -118,35 +116,36 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><sidebyside widths="50% 40%"><stack><p>Delbert decides to use DSL for his Internet service. Earthlink charges a $99 activation fee and $39.95 per month, DigitalRain charges $50 for activation and $34.95 per month, and FreeAmerica charges $149 for activation and $34.95 per month.</p>
+<statement><sidebyside widths="50% 40%" valigns="middle middle"><p>Delbert decides to use DSL for his Internet service. Earthlink charges a $99 activation fee and $39.95 per month, DigitalRain charges $50 for activation and $34.95 per month, and FreeAmerica charges $149 for activation and $34.95 per month.</p>
+    <image source="images/fig-dsl-price"><description>dsl costs</description></image></sidebyside>
 <p><ol marker="a">
         <li><p>Write a formula for Delbert's Internet costs under each plan.</p></li>
         <li><p>Match Delbert's Internet cost under each company with its graph in the figure.</p></li>
-    </ol></p></stack>
-<image source="images/fig-dsl-price"><description>dsl costs</description></image></sidebyside></statement>
-    <solution><p><ol marker="a">
-    <li><p>Earthlink: <m>E=99 + 39.95x</m>; DigitalRain: <m>D=50 + 34.95x</m>; FreeAmerica: <m>F=149 + 34.95x</m></p></li>
+    </ol></p></statement>
+<answer><p><ol marker="a">
+    <li><p>Earthlink: <m>E=99 + 39.95x</m>;</p>
+        <p> DigitalRain: <m>D=50 + 34.95x</m>;</p>
+        <p> FreeAmerica: <m>F=149 + 34.95x</m></p></li>
     <li><p>DigitalRain: I; Earthlink: II; FreeAmerica: III</p></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
 
 </subsection>
 
 <subsection><title>Coordinate Formula for Slope</title><idx>coordinate formula for slope</idx>
 
-<p>Slope measures the change in one variable with respect to unit changes in another.To calculate the <term>net change</term><idx>net change</idx><idx><h>Delta (<m>\Delta</m>)</h><seealso>net change</seealso></idx> between two points on a number line, we can subtract their coordinates.
-    <md><mrow>\blert{\text{net change} = \text{final value} - \text{starting value}}</mrow></md></p>
+<p>Using the formula <m>m = \dfrac{\Delta y}{\Delta x}</m>, it is fairly easy to calculate the slope of a line from its graph if there are two obvious points to use. However, if the coordinates are not easy, or if we don't have a graph, we may need another method.</p>
+
+<p>You know that to calculate the <term>net change</term><idx>net change</idx><idx><h>Delta (<m>\Delta</m>)</h><seealso>net change</seealso></idx> between two points on a number line, we can subtract their coordinates. That is,
+    <me>\blert{\text{net change} = \text{final value} - \text{starting value}}</me></p>
 
 <p>For example, if you walk from <m>3^{\text{rd}}</m> street to <m>8^{\text{th}}</m> street, your distance, <m>s</m>, from the center of town has increased by 5 blocks, or
     <md><mrow>\Delta s = 8 - 3 = 5 </mrow></md>
  If the temperature <m>T</m> drops from <m>28\degree</m> to <m>22\degree</m>, it has decreased by <m>6\degree</m>, or 
     <md><mrow>\Delta T = 22-28 = -6</mrow></md></p>
 
-<p>The net change is positive if the variable increases, and negative if it decreases.</p>
-
 <sidebyside widths="58% 40%" margins="0% 0%" valigns="middle middle">
-    <p>For the graph shown at right, the net change in <m>t</m>-coordinate from <m>P</m> to <m>Q</m> is
-        <md><mrow>\Delta t = 51 - (-23) = 74</mrow></md>
-        We can use the notion of net change to write a coordinate formula for computing slope.</p>
+    <p>The net change is positive if the variable increases, and negative if it decreases. For the graph shown at right, the net change in <m>t</m>-coordinate from <m>P</m> to <m>Q</m> is
+        <me>\Delta t = 51 - (-23) = 74</me></p>
      <image xml:id="fig-net-change"><description>horizontal change -23 to 51</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -160,9 +159,13 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
+<p>We can use the notion of net change to write a coordinate formula for computing slope. We will need <term>subscripts</term> to designate the coordinates of two different points. We'll write <m>(x_1, y_1)</m> for the coordinates of the first point, and <m>(x_2, y_2)</m> for the coordinates of the second point.</p>
+
+<note><p>Do not confuse subscripts with exponents! An exponent changes the value of a variable, so that for instance if <m> x=3</m> then <m>x^2 = 3^2 = 9</m>, but a subscript merely tells us which point the variable comes from, so that <m>x_2</m> just means "the <m>x</m>-coordinate of the second point."</p></note> 
+
 <assemblage><title>Coordinate Formula for Slope</title><idx>coordinate formula for slope</idx><idx><h>slope</h><h>coordinate formula for</h></idx>
-<p>If <m>(x_1, y_1)</m> and <m>(x_2,y_2)</m> are two points on a line, then the slope of the line is given by
-    <md><mrow>m = \frac{y_2 - y_1}{x_2 - x_1} </mrow></md>
+<p>If <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> are two points on a line, then the slope of the line is given by
+    <me>\blert{m = \frac{y_2 - y_1}{x_2 - x_1}} </me>
     as long as <m>x_1 \ne x_2</m></p>
 </assemblage>
 
@@ -195,7 +198,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <example><statement><p>The graph shows wine consumption, <m>W</m>, in the US, in millions of cases, starting in 1990. In 1993, Americans drank 188.6 million cases of wine.<ol marker="a">
     <li><p>Find the slope of the graph from 1993 to 2003.</p></li>
-    <li><p>State the slope as a rate of change. What does the slope tell us about this problem?</p>
+    <li><p>State the slope as a rate of change. What does the slope tell us about wine consumption?</p>
         <image width="45%" xml:id="fig-example-1-5-2"><description>line with positive slope</description><latex-image>
                         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%
@@ -222,14 +225,14 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
     
 <solution><p><ol marker="a">
     <li><p>If <m>t = 0</m> in 1990, then in 1993, <m>t = 3</m>, and in 2003, <m>t = 13 </m>. Thus, the points <m>P(3, 188.6)</m> and <m>Q(13, 258.3)</m> lie on the line. We want to compute the slope,
-        <md><mrow>m=\frac{\Delta W}{\Delta t}=\frac{W_2-W_1}{t_2 - t_1}</mrow></md>
+        <me>m=\frac{\Delta W}{\Delta t}=\frac{W_2-W_1}{t_2 - t_1}</me>
      between these two points. Think of moving from <m>P</m> to <m>Q</m> in two steps, first moving horizontally to the right from <m>P</m> to the point <m>R</m>, and then vertically from <m>R</m> to <m>Q</m>. The coordinates of <m>R</m> are <m>(13, 188.6)</m>. (Do you see why?) Then
          <md><mrow>\Delta t \amp= t_2-t_1 = 13-3=10</mrow>
             <mrow>\Delta W \amp= W_2-W_1= 258.3-188.6=69.7</mrow></md>
     and thus
-        <md><mrow>m=\frac{W_2-W_1}{t_2-t_1}=\frac{258.3 - 188.6}{13 - 3}=6.97 </mrow></md></p></li>
+        <me>m=\frac{W_2-W_1}{t_2-t_1}=\frac{258.3 - 188.6}{13 - 3}=6.97 </me></p></li>
     <li><p>The slope gives us a rate of change, and the units of the variables help us interpret the slope in context.
-        <md><mrow>\frac{\Delta W}{\Delta t} = \frac{258.3 - 188.6 \text{ millions of cases}}{13-3 \text{ years}}= 6.97 \text{ millions of cases/year}</mrow></md>
+        <md><mrow>\frac{\Delta W}{\Delta t} = \frac{258.3 - 188.6 \text{ million cases}}{13-3 \text{ years}}= 6.97 \text{ million cases/year}</mrow></md>
     Over the ten years between 1993 and 2003, wine consumption in the US increased at a rate of 6.97 million cases per year.</p></li>
 </ol></p></solution></example>
 
@@ -316,15 +319,20 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>In 1991, there were 64.6 burglaries per 1000 households in the United States. The number of burglaries reported annually declined at a roughly constant rate over the next decade, and in 2001 there were 28.7 burglaries per 1000 households. (Source: U.S. Department of Justice)</p>
 <p><ol marker="a">
-    <li><p>Sketch a line that goes through the two points <m>(t, B)</m> given in the problem, where <m>t = 0</m> in 1990.</p></li>
+    <li><p>Give the coordinates of two points on the graph of <m>B=mt+b</m>, where <m>t = 0</m> in 1990, and <m>B</m> stands for the number of burglaries per 1000 households. </p></li>
     <li><p>Find the slope of the line, including units.</p></li>
-</ol></p></statement></exercise>
+</ol></p></statement>
+<answer><p><ol marker="a">
+    <li><p> <m>(1, 64.6)</m> and <m>(11, 28.7)</m></p></li>
+    <li><p>The number of burglaries per 1000 households declined at a rate of 3.59 burglaries per year.</p></li>
+</ol></p></answer>
+</exercise>
 </subsection>
 
-<subsection><title>Point-Slope Formula</title><idx>point-slope formula</idx><idx><h>linear equation</h><h>point-slope formula</h></idx>
+<subsection xml:id="point-slope"><title>Point-Slope Formula</title><idx>point-slope formula</idx><idx><h>linear equation</h><h>point-slope formula</h></idx>
 
-<p>Now consider using the slope formula for a different problem. If we know the slope of a line and the coordinates of one point on the line, we can use the coordinate formula for slope to find the <m>y</m>-coordinate of any other point on the line.</p>
-<p> Instead of <em>evaluating</em> the formula to find <m>m</m>, we <em>substitute</em> the values we know for <m>m</m> and <m>(x_1, y_1)</m>. If we then plug in the <m>x</m>-coordinate of any unknown point, we can solve for <m>y</m>.</p>
+<p>Now we'll consider using the slope formula for a different problem. If we know the slope of a line and the coordinates of one point on the line, we can use the coordinate formula for slope to find the <m>y</m>-coordinate of any other point on the line.</p>
+<p> Instead of <em>evaluating</em> the formula to find <m>m</m>, we <em>substitute</em> the values we know for <m>m</m> and for <m>(x_1, y_1)</m>. If we then plug in the <m>x</m>-coordinate of any unknown point, we can solve for <m>y</m>.</p>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>       
@@ -343,7 +351,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>A line has slope <m>\dfrac{-3}{4}</m> and passes through the point <m>(1,-4)</m>. Which equation can you use to find the <m>y</m>-coordinate of the point on the line with <m>x</m>-coordinate 6?</p>
-    <p><ol marker="a">
+    <p><ol marker="a" cols="2">
     <li><p><m>\dfrac{3}{4} = \dfrac{1-6}{y+4}</m></p></li>
     <li><p><m>\dfrac{-3}{4} = \dfrac{y+4}{1-6}</m></p></li>
     <li><p><m>\dfrac{-3}{4} = \dfrac{y-6}{-4-1}</m></p></li>
@@ -358,7 +366,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
     
 <solution><p><ol marker="a">
     <li><sidebyside widths="55% 40%">
-    <p>We first plot the given point, <m>(1,-4)</m>, and then use the slope to find another point on the line. The slope is <m>m=\dfrac{-3}{4}=\dfrac{\Delta y}{\Delta x} </m>, so starting from <m>(1,-4)</m> we move down 3 units and then 4 units to the right. This brings us to the point <m>(5,-7)</m>. We draw the line through these two points. </p>
+    <p>We first plot the given point, <m>(1,-4)</m>, and then use the slope to find another point on the line. The slope is <m>m =\dfrac{-3}{4}=\dfrac{\Delta y}{\Delta x} </m>, so starting from <m>(1,-4)</m> we move down 3 units and then 4 units to the right. This brings us to the point <m>(5,-7)</m>. We draw the line through these two points. </p>
         <image source="images/fig-point-slope"><description>point slope</description></image></sidebyside></li>
     <li><p>To find an equation for the line, we start with the slope formula,
                     <md><mrow> m=\frac{y_2 -y_1}{x_2 - x_1}</mrow></md>
@@ -368,11 +376,13 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
             <md><mrow>\alert{(x-1)}\frac{-3}{4}\amp = \frac{y+4}{x-1}\alert{(x-1)} </mrow>
                 <mrow>\frac{-3}{4}(x-1)\amp = y+4 \amp\amp \blert{\text{Apply the distributive law.}} </mrow>
                 <mrow>\frac{-3}{4}x +\frac{3}{4} \amp = y+4 \amp\amp \blert{\text{Subtract 4 from both sides.}} </mrow>
-                <mrow>\frac{-3}{4}x -\frac{13}{4} \amp = y \amp\amp \blert{\frac{3}{4}-4=\frac{3}{4}-\frac{16}{4}=\frac{-13}{4}} </mrow></md></p></li></ol></p>
+                <mrow>\frac{-3}{4}x -\frac{13}{4} \amp = y \amp\amp \blert{\frac{3}{4}-4=\frac{3}{4}-\frac{16}{4}=\frac{-13}{4}} </mrow></md></p>
+        In slope-intercept form, the equation of the line is <m>y = \dfrac{-3}{4}x -\dfrac{13}{4}</m>.</li>
+        </ol></p>
 </solution></example>
 
 <p>When we use the slope formula to find the equation of a line, we substitute a variable point <m>(x, y)</m> for the second point. This version of the formula,
-    <md><mrow>m = \frac{y - y_1}{x - x_1}</mrow></md>
+    <me>m = \frac{y - y_1}{x - x_1}</me>
 is called the <term>point-slope form</term><idx><h>point-slope form</h></idx><idx><h>point-slope form</h><seealso>point-slope formula</seealso></idx> for a linear equation. It is sometimes stated in another version by clearing the fraction to get
     <md><mrow>\alert{(x-x_1)}m\amp = \frac{y-y_1}{x-x_1}\alert{(x-x_1)} </mrow>
         <mrow>(x-x_1)m \amp = y - y_1</mrow>
@@ -391,7 +401,7 @@ is called the <term>point-slope form</term><idx><h>point-slope form</h></idx><id
         Context()->variables->add(y=>"Real");
         $equation = ImplicitPlane("y=5-1.4(x+3)");   
     </pg-code>
-    <statement><p>Use the point-slope form to find the equation of the line that passes throughthe point <m>(-3, 5)</m> and has slope <m>-1.4</m>.</p>
+    <statement><p>Use the point-slope form to find the equation of the line that passes through the point <m>(-3, 5)</m> and has slope <m>-1.4</m>.</p>
         <p>Answer: <var name="$equation" width="10"/></p>
     </statement>
     <solution><p><m>y=5-1.4(x+3)</m></p></solution>
@@ -399,14 +409,18 @@ is called the <term>point-slope form</term><idx><h>point-slope form</h></idx><id
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>Use the point-slope form to find the equation of the line that passes throughthe point <m>(-3, 5)</m> and has slope <m>-1.4</m>.</p></statement>
-    <solution><p><m>y=5-1.4(x+3)</m></p></solution></exercise>
+    <answer><p><m>y=5-1.4(x+3)</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Finding a Linear Model</title><idx>linear model</idx><idx><h>linear model</h><seealso>linear equation</seealso></idx>
 
 <p>Now we are ready to find the equation promised in the introduction to this section: a formula for the freezing temperature of water in terms of its salinity.</p>
 
-<p>When we have two data points for a linear model, we can find its equation using two steps: first we compute the slope of the line, then we use the point-slope formula.</p>
+<p>When we have two data points for a linear model, we can find its equation using two steps: 
+    <ul>
+        <li><p>first we compute the slope of the line,</p></li>
+        <li><p>then we use the point-slope formula.</p></li>
+    </ul></p>
 
 <example><statement><p>Sea water does not freeze at exactly 32<m>\degree</m>F because of its salinity. The temperature at which water freezes depends on its dissolved mineral content. A common unit for measuring salinity is parts per thousand, or ppt. For example, salinity of 8 ppt means 8 grams of dissolved salts in each kilogram of water.  Here are some data for the freezing temperature of water.</p>
 
@@ -465,7 +479,7 @@ is called the <term>point-slope form</term><idx><h>point-slope form</h></idx><id
         <p> Answer: <var name="$equation" width="11"/></p></li>
     <li><p>Use your equation to estimate the registration fee for a car that costs $22,000.</p>
         <p>$<var name="$estimate" width="3"/></p></li>
-    <li><p>What is the slope of your line? What does the slope mean in this situation?</p>
+    <li><p>What is the slope of your line? What does the slope mean for registration fees?</p>
         <p>The slope is <var name="$slope" width="5"/> and it tells</p>
         <p><var name="$explain" form="buttons"/></p></li></ol></p>
     </statement>
@@ -481,18 +495,17 @@ is called the <term>point-slope form</term><idx><h>point-slope form</h></idx><id
 <p><ol marker="a">
     <li><p>Find a linear equation that gives the registration fee <m>F</m> for a new car that cost <m>V</m> dollars.</p></li>
     <li><p>Use your equation to estimate the registration fee for a car that costs $22,000.</p></li>
-    <li><p>What is the slope of your line? What does the slope mean in this situation?</p></li>
+    <li><p>What is the slope of your line? What does the slope mean for registration fees?</p></li>
 </ol></p></statement>
-<solution><p><ol marker="a">
+<answer><p><ol marker="a">
           <li><p><m>F=31+0.0065V</m></p></li>
           <li><p>$174</p></li>
           <li><p><m>0.0065</m>: The registration fee increases by 0.65% of the value of the car.</p></li>
-      </ol></p></solution></exercise>
+      </ol></p></answer></exercise>
 </subsection>
 
 <subsection><title>Summary</title>
-<p>In this section, we studied three different formulas associated with linear equations: the slope-intercept formula, the coordinate formula for slope, and the point-slope formula. How are these formulas related, and how are they different?
-</p>
+<p>In this section, we studied three different formulas associated with linear equations: the slope-intercept formula, the coordinate formula for slope, and the point-slope formula. How are these formulas related, and how are they different?</p>
 <p><ol marker="1">
     <li><p>The <term>slope-intercept form</term>, <m>y = mx + b</m>, is just a special case of the <term>point-slope formula</term>. If the given point <m>(x_1, y_1)</m> happens to be the <m>y</m>-intercept<idx><em>y</em>-intercept</idx> <m>(0, b)</m>, then the point-slope formula reduces to the familiar form:
         <md><mrow>y\amp =y_1+m(x-x_1) \amp\amp\blert{\text{Substitute } b \text{ for } y_1 \text{ and 0 for } x_1.}</mrow>

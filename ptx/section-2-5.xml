@@ -4,7 +4,11 @@
 <section xml:id="Linear-Inequalities"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Linear Inequalities in Two Variables</title>
 
+<introduction><p>To conclude this chapter on applications of linear models, we look at some uses of linear inequalities and their graphs.</p></introduction>
+
 <subsection><title>Graphs of Inequalities in Two Variables</title>
+
+<p>Recall that a linear inequality can have many solutions. For example, the solutions of <m>x + 2 \lt 5</m> are all numbers less than <m>3</m>. So it should not be surprising that inequalities in two variables also have many solutions.</p>
 
 <definition><statement><p>A <term>solution</term><idx>solution</idx> to an inequality in two variables is an ordered pair of numbers that satisfies the inequality.</p></statement></definition>
 
@@ -40,6 +44,39 @@
         \filldraw[red] (11,-1) circle (.15);
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside>
+
+<sidebyside widths="47% 45%" margins="0% 0%" valigns="middle middle">
+<p>The graph of the inequality must show all the points whose coordinates are solutions. We found some solutions to the inequality <m>x + y \ge 10,000</m> in <xref ref="Example-inequality-1-of-2-variables-specified" text="type-global" /> above by choosing a value for <m>x</m>  and solving for <m>y</m>. A more efficient way to find all the solutions of the inequality is to start with the graph of the corresponding equation
+        <md><mrow>y = -x + 10,000</mrow></md></p>
+     <image xml:id="fig-example-2-5-1b"><description>linear inequality, 2 variables</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (-2,-2) grid (12,12);
+        \draw[black,thick,->,>=stealth'] (-2,0)--(12.6,0) node[above]{$x$};
+        \draw[black,thick,->,>=stealth'] (0,-2)--(0,12.6) node[left]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(1000*\x)] in {4,8} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
+        }
+        \filldraw[magenta!50!white, opacity=.2] (-2,12)--(12,12)--(12,-2)--cycle;
+        \draw[red,thick,<->, >=stealth'] (-2,12)--(12,-2);
+        \filldraw[red] (-1,12) circle (.15);
+        \filldraw[red] (5,4) circle (.15);
+        \node[fill=magenta!10!white, inner sep=2] at (8,8) {$x+y \ge 10,000$};
+        \draw[black, <-,>=stealth'] (8,1.5)--(6.5,1.5) node[left,fill=white, inner sep=2]{$x+y=10,000$};
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside>
+
+<p>The graph is a straight line with slope <m>-1</m>. Any point <em>above</em> this line has a <m>y</m>-coordinate greater than <m>~ {-x} + 10,000~ </m> and hence satisfies the inequality. Thus, the graph of the inequality includes all the points on or above the line <m>~y = -x + 10,000~</m>, as shown by the shaded region in the figure. Of course, the shaded points are also solutions to the original inequality, <m>~x + y \ge 10,000~</m>.</p>
+
+<p> For example, the point <m>(-1000, ~12,000)</m> is a solution, because
+    <md><mrow>-1000 + 12,000 \ge 10,000</mrow></md>
+On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded region because its coordinates do not satisfy the inequality.</p>
+
+<p>So, just as the solutions of a linear inequality in one variable can be a portion of the <m>x</m>-axis, the solutions of a linear inequality in two variables can be a portion of the <m>xy</m>-plane.</p>
+</subsection>
 
 <exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
@@ -119,7 +156,7 @@
                 </tabular></sidebyside></li>
         <li><p>Graph the line <m>y - 3x = 6</m>. Then plot your solutions from part (a) on the same grid.</p></li>
     </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<answer><p><ol marker="a" cols="2">
         <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>x</m></cell>
                     <cell><m>1</m></cell>
@@ -132,69 +169,43 @@
                 </tabular>
                 <p>(Many answers are possible.) </p></li>
         <li><p><image width="80%" source="images/fig-ex-2-5-1"><description>linear inequality in two variables</description></image></p></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
 
-<p></p>
 
-<sidebyside widths="47% 45%" margins="0% 0%" valigns="middle middle">
-<p>The graph of the inequality must show all the points whose coordinates are solutions. We found some solutions to the inequality <m>x + y \ge 10,000</m> in <xref ref="Example-inequality-1-of-2-variables-specified" text="type-global" /> above by choosing a value for <m>x</m>  and solving for <m>y</m>. A more efficient way to find all the solutions of the inequality is to start with the graph of the corresponding equation
-        <md><mrow>y = -x + 10,000</mrow></md></p>
-     <image xml:id="fig-example-2-5-1b"><description>linear inequality, 2 variables</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.6]
-        \draw[cyan] (-2,-2) grid (12,12);
-        \draw[black,thick,->,>=stealth'] (-2,0)--(12.6,0) node[above]{$x$};
-        \draw[black,thick,->,>=stealth'] (0,-2)--(0,12.6) node[left]{$y$};
-        \foreach \x [evaluate=\x as \xi using int(1000*\x)] in {4,8} {
-          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\xi$};
-          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\xi$};
-        }
-        \filldraw[magenta!50!white, opacity=.2] (-2,12)--(12,12)--(12,-2)--cycle;
-        \draw[red,thick,<->, >=stealth'] (-2,12)--(12,-2);
-        \filldraw[red] (-1,12) circle (.15);
-        \filldraw[red] (5,4) circle (.15);
-        \node[fill=magenta!10!white, inner sep=2] at (8,8) {$x+y \ge 10,000$};
-        \draw[black, <-,>=stealth'] (8,1.5)--(6.5,1.5) node[left,fill=white, inner sep=2]{$x+y=10,000$};
-        \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
-<p>The graph is a straight line with slope <m>-1</m>. Any point <em>above</em> this line has a <m>y</m>-coordinate greater than <m>~ {-x} + 10,000~ </m> and hence satisfies the inequality. Thus, the graph of the inequality includes all the points on or above the line <m>~y = -x + 10,000~</m>, as shown by the shaded region in the figure. Of course, the shaded points are also solutions to the original inequality, <m>~x + y \ge 10,000~</m>.</p>
+<subsection><title>Finding the Solutions</title>
 
-<p> For example, the point <m>(-1000, ~12,000)</m> is a solution, because
-    <md><mrow>-1000 + 12,000 \ge 10,000</mrow></md>
-On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded region because its coordinates do not satisfy the inequality.</p>
-</subsection>
+<p>Let us organize our observations from the discussion above to develop a method for finding the solutions of a linear inequality.</p>
 
-<subsection><title>Linear Inequalities</title>
+<ul>
+<li><p>A <term>linear inequality</term><idx>linear inequality</idx><idx><h>inequality</h><h>linear</h></idx> can be written in the form
+    <me>ax + by + c \le 0 \qquad\text{ or }\qquad ax + by + c \ge 0</me>
+The solutions consist of the line <m>ax + by + c = 0</m> and a <term>half-plane</term><idx>half-plane</idx> on one side of that line. We shade the half-plane to show that all its points are included in the solution set.</p></li>
 
-<p>A <term>linear inequality</term><idx>linear inequality</idx><idx><h>inequality</h><h>linear</h></idx> can be written in the form
-    <md><mrow>ax + by + c \le 0 \qquad\text{ or }\qquad ax + by + c \ge 0</mrow></md>
-The solutions consist of the line <m>ax + by + c = 0</m> and a <term>half-plane</term><idx>half-plane</idx> on one side of that line. We shade the half-plane to show that all its points are included in the solution set. 
-To decide which side of the line to shade, we can solve the inequality for <m>y</m> in terms of <m>x</m>. If we obtain
-    <md><mrow>y \ge mx + b \qquad(\text{ or } y \gt mx + b)</mrow></md>
+<li><p>To decide which side of the line to shade, we can solve the inequality for <m>y</m> in terms of <m>x</m>. If we obtain
+    <me>y \ge mx + b \qquad(\text{ or } y \gt mx + b)</me>
 then we shade the half-plane <em>above</em> the line. If the inequality is equivalent to
-    <md><mrow>y \le mx + b \qquad(\text{ or } y \lt mx + b)</mrow></md>
-then we shade the half-plane <em>below</em> the line.</p>
+    <me>y \le mx + b \qquad(\text{ or } y \lt mx + b)</me>
+then we shade the half-plane <em>below</em> the line.</p></li>
+</ul>
 
-<example><statement><p>Graph <m>4x - 3y \ge 12</m></p></statement>
+<example><statement><p>Graph the solutions of <m>4x - 3y \ge 12</m></p></statement>
     
-<solution><p>We solve the inequality for <m>y</m>.
+<solution><p>First we solve the inequality for <m>y</m>.
             <md><mrow>4x - 3y \amp\ge 12 \amp \amp \blert{\text{Subtract}~ 4x~ \text{from both sides.}}</mrow>
                 <mrow>-3y\amp\ge -4x + 12 \amp \amp \blert{\text{Divide both sides by}~ -3.}</mrow>
                 <mrow>y\amp\le \frac{4}{3}x-4</mrow></md></p>
         <sidebyside widths="70% 28%" margins="0% 0%" valigns="middle middle">
-    <p>We graph the corresponding line
-                <md><mrow>y = \frac{4}{3}x-4</mrow></md>
+    <p>Then we graph the corresponding line
+                <me>y = \frac{4}{3}x-4</me>
         with <m>y</m>-intercept is <m>-4</m> and slope <m>m=\dfrac{4}{3}</m>. Finally, we shade the half-plane below the line. The completed graph is shown at right.</p>
     <image source="images/fig-linear-inequality2"><description>linear inequality in two variables</description></image>
         </sidebyside>
 </solution></example>
 
-<warning><p>Be careful when isolating <m>y</m>. We must remember to reverse the direction of the inequality whenever we multiply or divide by a negative number. For example, the inequality
-        <md><mrow>-2y ~ \alert{\gt} ~ 6x-8</mrow></md>
+<warning><p>Be careful when isolating <m>y</m>. Remember to reverse the direction of the inequality whenever we multiply or divide by a negative number. For example, the inequality
+        <me>-2y ~ \alert{\gt} ~ 6x-8</me>
 is equivalent to
-        <md><mrow>y ~ \alert{\lt} ~ {-3x}+4</mrow></md></p>
+        <me>y ~ \alert{\lt} ~ {-3x}+4</me></p>
 </warning>
 
 <p>An inequality that uses <m>\gt</m> or <m>\lt</m> instead of <m>\ge</m> or <m>\le</m> is called <term>strict</term><idx>strict inequality</idx><idx><h>inequality</h><h>strict</h></idx>. The graph of a strict inequality includes only the half-plane and not the line. In that case we use a dashed line for the graph of the equation <m>ax + by + c = 0</m> to show that it is not part of the solution.</p>
@@ -258,7 +269,7 @@ is equivalent to
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Graph the solutions of the inequality <m>4x - 2y \lt -8</m>.</p></statement>
-<solution></solution></exercise>
+<answer></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
@@ -304,7 +315,7 @@ is equivalent to
 
 <subsection><title>Using a Test Point</title>
 
-<p>A second method for graphing inequalities does not require us to solve for <m>y</m>. Once we have graphed the boundary line, we can decide which half-plane to shade by using a <term>test point</term><idx>test point for inequalities</idx>. The test point can be any point that is not on the boundary line itself.</p>
+<p>A second method for graphing inequalities does not require us to solve for <m>y</m>. Because all the solutions lie on one side of the boundary line, we only need to find one soution! Once we have graphed the boundary line, we can decide which half-plane to shade by using a <term>test point</term><idx>test point for inequalities</idx>. The test point can be any point that is not on the boundary line itself.</p>
 
 <example xml:id="example-linear-inequality-test-point"><statement><p>Graph the solutions of the inequality <m>~~3x - 2y\lt 6</m></p></statement>
 
@@ -319,7 +330,7 @@ is equivalent to
 
 <p>Here is a summary of our test point method for graphing inequalities.</p>
 
-<assemblage><title>To Graph an Inequality Using a Test Point:</title><idx><h>graph</h><h>graphing an inequality using a test point</h></idx><idx>test point for inequalities</idx><p><ol marker="1">
+<assemblage><title>To Graph an Inequality Using a Test Point</title><idx><h>graph</h><h>graphing an inequality using a test point</h></idx><idx>test point for inequalities</idx><p><ol marker="1">
     <li><p>Graph the corresponding equation to obtain the boundary line.</p></li>
     <li><p>Choose a test point that does not lie on the boundary line.</p></li>
     <li><p>Substitute the coordinates of the test point into the inequality.<ol marker="a">
@@ -412,25 +423,26 @@ which is a false statement. Thus, <m>(5, 0)</m> is not a solution to the inequal
         <li><p>Decide which side of the line to shade.</p></li>
         <li><p>Should the boundary line be dashed or solid?</p></li>
     </ol></p></statement>
-<solution></solution></exercise>
+<answer></answer></exercise>
 
 <warning><p>We cannot choose a test point that lies on the boundary line. In Practice 3 above, we cannot use <m>(0, 0)</m> as a test point, because it lies on the line <m>y =\dfrac{-3}{2}x.</m> In this case, we should choose some other point, such as <m>(0, 1)</m> or <m>(1, 2)</m>.</p>
 </warning>
 
-<p>Recall that the equation of a vertical line <idx>vertical line</idx> has the form
-    <md><mrow>x=k</mrow></md>
+<p>A simple example of of our method involves horizontal and vertical lines.  Recall that the equation of a vertical line <idx>vertical line</idx> has the form
+    <me>x=k</me>
 where <m>k</m> is a constant, and a horizontal line <idx>horizontal line</idx> has an equation of the form
-    <md><mrow>y=k</mrow></md>
+    <me>y=k</me>
+Even though only one variable appears in the equation, if we think of it as <m>0x + 1y = k</m>, it represents a line in the plane.
 Similarly, the inequality <m>x\ge k</m> may represent the inequality in two variables
-    <md><mrow>x+0y\ge k</mrow></md>
+    <me>x+0y\ge k</me>
 Its graph is then a region in the plane.</p>
 
 <example><statement><p>Graph <m>~~x\ge 2~~</m> in the plane.</p></statement>
     
 <solution><p>First, we graph the equation <m>x = 2</m>; its graph is a vertical line. Because the origin does not lie on this line, we can use it as a test point. Substitute <m>0</m> for <m>x</m> (there is no <m>y</m>) into the inequality to obtain
-            <md><mrow>0\ge 2</mrow></md></p>
+            <me>0\ge 2</me></p>
     <sidebyside  widths="70% 26%" margins="0% 0%" valigns="middle middle">
-<p>Since this is a false statement, we shade the half-plane that does not contain the origin. We see in the figure below that the graph of the inequality contains all points whose <m>x</m>-coordinates are greater than or equal to <m>2</m>.</p>
+<p>Because this is a false statement, we shade the half-plane that does not contain the origin. We see that the graph of the inequality contains all points whose <m>x</m>-coordinates are greater than or equal to <m>2</m>.</p>
         <image source="images/fig-planar-graph-x-greater-or-equal-2"><description>graph of x greater or equal to 2 in the plane</description></image></sidebyside>
 </solution></example>
 
@@ -517,14 +529,14 @@ Its graph is then a region in the plane.</p>
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>Graph  <m>-1\lt y \le 4 </m> in the plane.</p></statement>
-<solution></solution></exercise>
+<answer></answer></exercise>
 </subsection>
 
 <subsection><title>Systems of Inequalities</title><idx>system of inequalities</idx><idx><h>inequality</h><h>system of</h></idx>
 
 <sidebyside valigns="middle middle" widths="60% 30%" margins="0% 0%">
 <p>Some applications are best described by a system of two or more inequalities. The solutions to a system of inequalities include all points that are solutions to each inequality in the system. The graph of the system is the intersection of the shaded regions for each inequality in the system. For example, the figure at right shows the solutions of the system
-        <md><mrow>y \gt x \qquad\text{ and }\qquad y \gt 2</mrow></md></p>
+        <me>y \gt x \qquad\text{ and }\qquad y \gt 2</me></p>
     <image xml:id="fig-system-of-2-inequalities"><description>system of two inequalities</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -552,20 +564,20 @@ Its graph is then a region in the plane.</p>
 <example><statement><p>Laura is a finicky eater, and she dislikes most foods that are high in calcium. Her morning cereal satisfies some of her calcium requirements, but she needs an additional 500 milligrams of calcium, which she will get from a combination of broccoli, at 160 milligrams per serving, and zucchini, at 30 milligrams per serving. Draw a graph representing the possible combinations of broccoli and zucchini that fulfill Laura’s calcium requirements.</p></statement>
 
 <solution><p><ul>
-    <li><title>Step 1:</title>
+    <li><title>Step 1</title>
         <p>Number of servings of broccoli: <m>\quad x</m></p>
         <p>Number of servings of zucchini: <m>\quad y</m></p></li>
-    <li><title>Step 2:</title>
+    <li><title>Step 2</title>
         <p>To get enough calcium, Laura must choose <m>x</m> and <m>y</m> so that
                 <me>160x + 30y \ge 500</me>
         It makes no sense to consider negative values of <m>x</m> or of <m>y</m>, since Laura cannot eat a negative number of servings. Thus, we have two more inequalities to satisfy:
                 <me>x \ge 0 ~~~\text{ and }~~~y \ge 0</me></p></li>
-    <li><title>Step 3:</title>
+    <li><title>Step 3</title>
         <sidebyside widths="62% 30%" margins="0% 0%" valigns="middle middle">
         <p>We graph all three inequalities on the same axes. The inequalities <m>x\ge 0</m> and <m>y \ge 0</m> restrict the solutions to lie in the first quadrant. The solutions common to all three inequalities are shown at right.</p>
         <image source="images/fig-system-of-inequalities2"><description>system of three inequalities</description></image>
             </sidebyside></li>
-    <li><title>Step 4:</title>
+    <li><title>Step 4</title>
         <p>Laura can choose any combination of broccoli and zucchini represented by points in the shaded region. For example, the point <m>(3, 1)</m> is a solution to the system of inequalities, so Laura could choose to eat <m>3</m> servings of broccoli and <m>1</m> serving of zucchini.</p></li></ul></p></solution></example>
 
 <exercise component="webwork"><title>Practice 5</title>
@@ -667,7 +679,7 @@ Its graph is then a region in the plane.</p>
         <li><p>Lightly shade the solutions of <m>y \gt x-1</m>.</p></li>
         <li><p>Shade the intersection of the two solutions sets.</p></li>
     </ol></p></statement>
-<solution></solution></exercise>
+<answer></answer></exercise>
 
 <p>To describe the solutions of a system of inequalities, it is useful to locate the <term>vertices</term><idx><h>vertices</h><see>system of inequalities</see></idx><idx><h>vertex</h><h>of a system of inequalities</h></idx>, or corner points, of the boundary.</p>
 
@@ -707,7 +719,7 @@ Its graph is then a region in the plane.</p>
                 <mrow>x \lt 6, ~~~~~y \amp\gt 2</mrow></md></p></li>
     <li><p>Find the coordinaes of the vertices of the solution set.</p></li>
 </ol></p></statement>
-<solution></solution></exercise>
+<answer></answer></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>True or false.</p>

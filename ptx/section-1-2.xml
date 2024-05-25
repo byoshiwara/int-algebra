@@ -5,14 +5,14 @@
 
 <subsection><title>Equations and Solutions</title>
 
-<p>In this section we review some techniques and terminology related to equations, inequalities, and their graphs.</p>
+<p>In the last section we studied some linear models, and in particular we looked at graphs and equations that described those models. In this section we review some techniques and terminology related to equations, inequalities, and their graphs.</p>
 
 <definition><title>Solution</title>
     <statement><p>A <term>solution</term><idx><h>solution</h><h>to an equation in one variable</h></idx> of an equation is a value of the variable that makes the equation true.
 </p></statement></definition>
 
 <p>For example, <m>x = \alert{−2}</m> is a solution of the equation
-    <md><mrow>4x^3 + 5x^2 -8x = 4</mrow></md>
+    <me>4x^3 + 5x^2 -8x = 4</me>
 because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 16 = 4</m>.</p>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
@@ -43,7 +43,7 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Which of the following values are solutions of the equation
-            <md><mrow>-2x^3+x^2+16x=15\text{?}</mrow></md></p>
+            <me>-2x^3+x^2+16x=15\text{?}</me></p>
     <p><ol marker="a" cols="2">
         <li><p><m>x=2</m></p></li>
         <li><p><m>x=-3</m></p></li>
@@ -51,7 +51,7 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
         <li><p><m>x=1</m></p></li>
     </ol></p></statement></exercise>
 
-<p>A <term>linear equation</term>, such as the models we studied in the last section, has at most one solution. We find the solution by transforming the equation into a simpler <term>equivalent equation</term> whose solution is obvious.</p>
+<p>A <term>linear equation</term> has no powers of the variable other than 1. It has at most one solution. We find the solution by transforming the equation into a simpler <term>equivalent equation</term> whose solution is obvious.</p>
 
 <example><statement><p>Solve the equation <m>~~3(2x-5)-4x=2x-(6-3x) </m></p></statement>
 
@@ -75,7 +75,7 @@ The solution is <m>-3</m>. You can check that substituting <m>x=-3</m> into the 
 
 <exercise component="main"><title>Practice 1</title>
 <statement><p>Find the solution of the equation <m>16 - 2(3x - 1) = 4x + 2(x - 3)</m>.</p></statement>
-    <solution><p><m>x=2</m></p></solution></exercise>
+    <answer><p><m>x=2</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Linear Inequalities</title><idx>linear inequality</idx><idx><h>inequality</h><h>linear</h></idx>
@@ -107,9 +107,9 @@ The solution is <m>-3</m>. You can check that substituting <m>x=-3</m> into the 
 <example><statement><p>Use algebra to solve the inequality <m>~~5 -2x \lt 2</m>.</p></statement>
     
 <solution><p>We begin by isolating the term containing the variable, just as we do when solving a linear equation. We subtract 5 from both sides to obtain  
-        <md><mrow>-2x \lt -3</mrow></md>
+        <me>-2x \lt -3</me>
 Then we divide both sides by <m>−2</m> to find
-        <md><mrow>x\gt \frac{-3}{-2}\amp =\frac{3}{2}\amp\amp\blert{\text{Reverse the direction of the inequality.}} </mrow></md>
+        <me>x\gt \frac{-3}{-2}\amp =\frac{3}{2}\amp\amp\blert{\text{Reverse the direction of the inequality.}} </me>
 Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequality. We write the solutions as <m>x \gt \frac{3}{2}</m>. Because we cannot list all of these solutions, we often illustrate them as a graph on a <term>number line</term>, as shown below.</p>
         <image width="70%" xml:id="fig-example-1-3-2"><description>number line for inequality</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -191,7 +191,7 @@ Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequ
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Solve the inequality <m>2x + 1 \lt 7</m>, and graph the solutions on a number line.</p></statement>
-<solution><p><m>x \lt 3</m></p>
+<answer><p><m>x \lt 3</m></p>
     <image width="50%"  xml:id="fig-ex-ans-1-3-2"><description>number line for inequality</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -205,7 +205,7 @@ Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequ
         \draw[red, fill=white] (3,0) circle (0.1);
         \end{tikzpicture}]]>
         </latex-image></image>
-    </solution></exercise>
+    </answer></exercise>
 </subsection>
  
 <subsection><title>Equations in Two Variables</title><idx><h>equation</h><h>in two variables</h></idx>
@@ -246,9 +246,10 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
 
 <solution><p><ol marker="a">
         <li><p>The ordered pair <m>(2,7.5) </m> is a solution of the equation above, because it satifies the equation.
-            <md><mrow>-3(\alert{2})+4(\alert{7.5})=-6+30=24</mrow></md></p></li>
+            <me>-3(\alert{2})+4(\alert{7.5})=-6+30=24</me></p></li>
         <li><p>The ordered pair <m>(4,3) </m> is not a solution, because it does not satify the equation.
-            <md><mrow>-3(\alert{4})+4(\alert{3})=-12+12=0\ne 24</mrow></md></p></li></ol></p></solution></example>
+            <me>-3(\alert{4})+4(\alert{3})=-12+12=0\ne 24</me></p></li>
+    </ol></p></solution></example>
 
 <exercise component="webwork" xml:id="exercise-table-linear-equationw"><title>Practice 3</title>
     <webwork><pg-code>
@@ -301,19 +302,19 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
                     <cell><m>x</m></cell>
                     <cell><m>-12</m></cell>
                     <cell><m>-8</m></cell>
-                    <cell></cell>
+                    <cell><m>\hphantom{00}</m></cell>
                     <cell><m>0</m></cell>
-                    <cell></cell></row>
+                    <cell><m>\hphantom{00}</m></cell></row>
                  <row>
                     <cell><m>y</m></cell>
-                    <cell></cell>
-                    <cell></cell>
+                    <cell><m>\hphantom{00}</m></cell>
+                    <cell><m>\hphantom{00}</m></cell>
                     <cell><m>3</m></cell>
-                    <cell></cell>
+                    <cell><m>\hphantom{00}</m></cell>
                     <cell><m>9</m></cell></row>
             </tabular></statement>
 
-<solution><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+<answer><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
                 <row>
                     <cell><m>x</m></cell>
                     <cell><m>-12</m></cell>
@@ -328,10 +329,9 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
                     <cell><m>3</m></cell>
                     <cell><m>6</m></cell>
                     <cell><m>9</m></cell></row>
-            </tabular></solution></exercise>
-</subsection>
+            </tabular></answer></exercise>
 
-<subsection><title>What is the Graph of an Equation?</title>
+<p>Because an equation in two variables may have many solutions, we can use a graph to visualize those solutions.</p>
 
 <definition><title>Graph</title><idx>graph</idx>
     <statement><p>The <term>graph</term><idx>graph</idx> of an equation in two variables is just a picture of all its solutions.</p></statement>
@@ -374,7 +374,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
          <li><p>If a point lies on the graph of an equation, it is a solution of the equation.</p></li>
     </ol></p></statement></exercise>
 
-<example><statement><sidebyside widths="50% 30%" margins="0% 10%"><p>The figure shows a graph of the equation <m>~Ax + By = C</m>. Which of the following equations are true? <ol marker="a">
+<example><statement><sidebyside widths="50% 35%" margins="0% 10%" valigns="middle middle"><p>The figure shows a graph of the equation <m>~Ax + By = C</m>. Which of the following equations are true? <ol marker="a">
                <li><p><m>24B=C</m></p></li>
                <li><p><m>Ap+Bq=C</m></p></li>
                <li><p><m>Ag+Bh=C</m></p></li></ol></p>
@@ -457,7 +457,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>On the grid below, plot the points you found in Practice 3. All the points should lie on a straight line; draw the line with a ruler or straightedge. Which of the following points lie on the graph?</p>
-    <image width="60%" xml:id="fig-ex-1-3-4"><description>grid</description><latex-image>
+    <image width="70%" xml:id="fig-ex-1-3-4"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -473,13 +473,13 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
         }
         \end{tikzpicture}]]>
     </latex-image></image>
-    <stack><p><ol marker="a">
+    <stack><p><ol marker="a" cols="3">
         <li><p><m>(-13,-4)</m></p></li>
         <li><p><m>(-1.6, 4.8)</m></p></li>
         <li><p><m>(1.25, 7)</m></p></li>
     </ol></p>
     <p>Which of the points above satisfy the equation in Practice 3?</p></stack></statement>
-<solution><image width="60%" xml:id="fig-ex-ans-1-3-4"><description>grid</description><latex-image>
+<answer><image width="70%" xml:id="fig-ex-ans-1-3-4"><description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -499,21 +499,22 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
         \filldraw[red] (1.25,7) circle (0.15) node[above, yshift=7, fill=white, inner sep=1]{$(1.25,7)$};
         \end{tikzpicture}]]>
     </latex-image></image>
-    <p><m>(-1.6,4.8) </m> lies on the graph and satisfies the equation.</p></solution></exercise>
+    <p><m>(-1.6,4.8) </m> lies on the graph and satisfies the equation.</p></answer></exercise>
 </subsection>
 
-<subsection><title>Graphical Solution of Equations</title><idx><h>equation</h><h>graphical solution</h></idx>
+<subsection><title>Graphical Solution of Equations and Inequalities</title><idx><h>equation</h><h>graphical solution</h></idx>
 
-<p>We can use graphs to find solutions to equations in one variable.</p>
+<p>Here is a clever way to solve an equation in one variable by using a graph. Suppose we would like to solve the equation <m>~150 = 285 - 15x</m>. We start by looking at the graph of <m>~y = 285 - 15x</m>.</p>
 
 <example xml:id="example-graph-to-solve"><statement><p>Use the graph of <m>~y = 285 - 15x~</m> to solve the equation 
     <me>150 = 285 - 15x</me></p></statement>
 
-<solution><sidebyside widths="65% 30%" margins="0% 0%">    
+<solution><sidebyside widths="60% 30%" margins="0% 5%" valigns="middle middle">    
     <stack><p>Compare the two equations in the problem. In the equation we want to solve, <m>y</m> has been replaced by <m>\alert{150}</m>. We begin by locating the point <m>P</m> on the graph for which <m>y = 150</m>.</p>  
     <p>Next we find the <m>x</m>-coordinate of point <m>P</m> by drawing an imaginary line from <m>P</m> straight down to the <m>x</m>-axis. The <m>x</m>-coordinate of <m>P</m> is <m>x = 9</m>.</p>
-    <p> Thus, <m>P</m> is the point <m>(9,150)</m>, and <m>x = 9</m> when <m>y = 150</m>. The solution we seek is <m>x = 9</m>.</p></stack>
-    <image source="images/fig-graph-to-solve"><description>function graph</description></image></sidebyside> 
+    </stack>
+    <image source="images/fig-graph-to-solve"><description>function graph</description></image></sidebyside>
+    <p> Thus, <m>P</m> is the point <m>(9,150)</m>, and <m>x = 9</m> when <m>y = 150</m>. The solution we seek is <m>x = 9</m>.</p> 
     <p>You can verify the solution algebraically by substituting <m>x = \alert{9}</m> into the equation:</p> 
     <p>Does <m>150 = 285 - 15(\alert{9})</m>? </p><p>
         <me>285 - 15(\alert{9}) = 285 - 135 = 150 ~~~~~~\blert{\text{Yes}}</me>
@@ -560,7 +561,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 5</title>
-<statement><sidebyside widths="50% 40%">
+<statement><sidebyside widths="50% 40%" valigns="middle middle">
     <p><ol marker="a">
         <li><p>Use the graph of <m>y = 30 - 8x</m> to solve the equation <m>30 - 8x = 50</m>. Follow the steps:
             <ul>
@@ -586,13 +587,10 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
         \draw[samples=2,domain=-15/4:5,smooth,variable=\x,red, thick,<->, >=stealth'] plot ({\x},{6-8 *\x /5});
         \node[text width=2cm, fill=white, inner sep=2] at (2.5,6.45)    {$y=30-8x$};
         \end{tikzpicture}]]></latex-image></image></sidebyside></statement>
-    <solution><p><m>x=-2.5</m></p></solution></exercise>
-</subsection>
-
-<subsection><title>Graphical Solution of Inequalities</title><idx><h>inequality</h><h>graphical solution</h></idx><idx><h>solution</h><h>to an inequality in one variable</h></idx>
+    <answer><p><m>x=-2.5</m></p></answer></exercise>
 
 <p>We can also use graphs to solve inequalities. Consider the inequality
-    <md><mrow>285-15x \ge 150</mrow></md>
+    <me>285-15x \ge 150</me>
 To solve this inequality means to find all values of <m>x</m> that make the expression <m>285 -15x</m> greater than or equal to 150. We could begin by trying some values of <m>x</m>. Here is a table obtained by evaluating <m>285 − 15x</m>.</p>
     <tabular top="minor" bottom="minor" right="minor" left="minor" halign="center">
     <row>
@@ -619,7 +617,7 @@ To solve this inequality means to find all values of <m>x</m> that make the expr
 
 <example xml:id="example-graph-to-solve2"><statement><p>Use the graph of the equation <m>~y = 285 - 15x~</m> to solve the inequality <me>285 - 15x \gt 150</me></p></statement>
 
-<solution> <sidebyside  widths="60% 35%" margins="0% 0%" valigns="middle middle"><stack><p>We look for points on the graph with <m>y</m>-coordinates greater than or equal to 150. These points are shown in color. Which <m>x</m>-values produced these points?</p>
+<solution> <sidebyside  widths="50% 40%" margins="0% 0%" valigns="middle middle"><stack><p>We look for points on the graph with <m>y</m>-coordinates greater than or equal to 150. These points are shown in color. Which <m>x</m>-values produced these points?</p>
 <p>We can read the <m>x</m>-coordinates by dropping straight down to the <m>x</m>-axis, as shown by the arows. For example, the <m>x</m>-value corresponding to <m>y=150</m> is <m>x=9</m>. For larger values of <m>285-15x</m>, we must choose <m>x</m>-values less than 9. Thus,  all values of <m>x</m> less than or equal to 9 are solutions, as shown on the <m>x</m>-axis. </p></stack>
    <image source="images/fig-graph-to-solve-inequality"><description>linear inequality</description></image></sidebyside>
 <p>We write the solutions as <m>x \le 9</m>.</p>
@@ -692,7 +690,7 @@ To solve this inequality means to find all values of <m>x</m> that make the expr
         \node[text width=2cm, fill=white, inner sep=2] at (3.5,8.45)    {$y=30-8x$};
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside></statement>
-<solution><p><m>x \gt 2</m></p></solution></exercise>
+<answer><p><m>x \gt 2</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Using a Graphing Utility</title>
@@ -720,18 +718,18 @@ Note that the equation now has the form of the linear models we saw in <xref ref
 
 <exercise component="main"><title> Practice 7</title>
 <statement><p>Solve for <m>y</m> in terms of <m>x</m>:  <m>\quad 10y-15x=6</m></p></statement>
-<solution><p><m>y = 1.5x + 0.6</m></p></solution></exercise>
+<answer><p><m>y = 1.5x + 0.6</m></p></answer></exercise>
 
- <p>Now we are ready to graph an equation with technology. For example, on most calculators, we follow three steps.</p>
+ <p>Now we are ready to graph an equation with technology. For most graphing utilities, we follow three steps.</p>
 
 <assemblage><title>To Graph an Equation</title>
 <p><ol marker="1">
-    <li><p>Press <kbd>Y=</kbd> and enter the equation you wish to graph.</p></li>
-    <li><p>Press <kbd>WINDOW</kbd> and select a graphing window.</p></li>
-    <li><p>Press <kbd>GRAPH</kbd>.</p></li>
+    <li><p>Enter the equation you wish to graph.</p></li>
+    <li><p>Select a graphing window.</p></li>
+    <li><p>Graph.</p></li>
 </ol></p></assemblage>
 
-<p>Choosing a graphing window corresponds to drawing the <m>x</m>- and <m>y</m>-axes and marking a scale on each axis when we graph by hand. The <term>standard graphing window</term> displays values from <m>-10</m> to <m>10</m> on both axes. We can press the <kbd>ZOOM</kbd> key and then the number <m>6</m> to select this window.</p>
+<p>Choosing a graphing window corresponds to drawing the <m>x</m>- and <m>y</m>-axes and marking a scale on each axis when we graph by hand. The <term>standard graphing window</term> displays values from <m>-10</m> to <m>10</m> on both axes. We can start with this window and then adjust it if necessary.</p>
 
 <example><statement><p>Use a graphing utility to graph the equation <m>3x + 2y = 16</m>.</p></statement>
     
@@ -741,11 +739,11 @@ Note that the equation now has the form of the linear models we saw in <xref ref
                 <mrow>y\amp = \frac{-3x}{2}+\frac{16}{2}\amp\amp \blert{\text{Simplify.}} </mrow>
                 <mrow>y\amp= -1.5x+8</mrow></md></p>
     <sidebyside widths="60% 30%" margins="0% 5%"><p>
- Now press <kbd>Y=</kbd> and enter <m>-1.5x+8</m> after <m>Y_1=</m>. (Use the negation key, <kbd>(-)</kbd>, to enter <m>-1.5x</m>; do not use the subtraction key.) We choose the standard graphing window by pressing <kbd>ZOOM</kbd> 6. The graph is shown at right.</p>
+ Now enter <m>-1.5x+8</m> after <m>Y =</m>, and choose the standard graphing window. The graph is shown at right.</p>
     <image source="images/fig-example-1-3-7"><description>Graphing calculator line</description></image></sidebyside>
 </solution></example>
 
-<p>When you want to erase the graph, press <kbd>Y=</kbd> and then press <kbd>CLEAR</kbd>. This deletes the expression following <m>Y_1</m>.</p>
+<p>Don't forget to erase your graph when you are done.</p>
 
 <exercise component="webwork"><title>Practice 8</title>
 <webwork><pg-code>
@@ -782,7 +780,7 @@ Note that the equation now has the form of the linear models we saw in <xref ref
             <li><p>Solve the equation <m>-3x + 4y = 24</m> for <m>y</m> in terms of <m>x</m>.</p></li>
             <li><p>Graph the equation in the standard window.</p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a" cols="2">
             <li><p><m>y=\dfrac{3}{4}x+6 </m></p></li>
             <li><image xml:id="fig-ex-ans-1-3-7"><description>graph</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -799,10 +797,7 @@ Note that the equation now has the form of the linear models we saw in <xref ref
         \draw[samples=2,domain=-10:16/3,smooth,variable=\x,red, thick] plot ({\x},{3/4*\x +6});
         \end{tikzpicture}]]>
     </latex-image></image></li>
-</ol></p></solution></exercise>
-</subsection>
-
-<subsection><title>Finding Coordinates with a Graphing Utility</title>
+</ol></p></answer></exercise>
 
 <p>We can use the <kbd>TRACE</kbd> feature to find the coordinates of points on a graph.</p>
 
@@ -868,12 +863,12 @@ Note that the equation now has the form of the linear models we saw in <xref ref
     <li><p>Use the Trace feature to find the point that has <m>y</m>-coordinate <m>-122</m>.</p></li>
     <li><p>Verify your answer algebraically by substituting your <m>x</m>-value into the equation.</p></li>
     </ol></p></statement>
-<solution><p><ol marker="a">
+<answer><p><ol marker="a">
             <li><image width="40%" source="images/fig-GC-ex-1-2-9ans.png"><description>GC line</description></image></li>
             <li><p><m>(-2.5,-122) </m></p></li>
             <li><p><m>\blert{-122} = 32(\alert{-2.5}) - 42</m></p></li>
         </ol></p>
-</solution></exercise>
+</answer></exercise>
 </subsection>
 
 <xi:include href="./section-1-2-exercises.xml" />           

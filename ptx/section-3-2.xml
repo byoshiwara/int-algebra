@@ -133,7 +133,7 @@ Once again we see that a quadratic equation has two solutions. You can check tha
 
 <exercise component="main"><title>Practice 1</title>
 <statement><p>Solve the equation <m>\quad x^2-11x+24=0</m></p></statement>
-    <solution><p><m>x=3</m> or <m>x=8</m></p></solution></exercise>
+    <answer><p><m>x=3</m> or <m>x=8</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>X-Intercepts of a Parabola</title>
@@ -186,7 +186,7 @@ So we can always solve a quadratic equation to find the <m>x</m>-intercepts of a
             and find the <m>x</m>-intercepts of the graph. Use your answers to solve the equation
                 <md><mrow> (x-3)(2x+3)=0 </mrow></md>
             Check your solutions by applying the ZFP.</p></statement>
-    <solution><p><m>x=3</m> or <m>x=\dfrac{-3}{2} </m></p></solution></exercise>
+    <answer><p><m>x=3</m> or <m>x=\dfrac{-3}{2} </m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Solving Quadratic Equations by Factoring</title><idx><h>factoring</h><h>solve a quadratic equation by</h></idx><idx><h>quadratic equation</h><h>solve by factoring</h></idx>
@@ -205,7 +205,7 @@ Now we factor the left side to obtain
         <mrow>x=\dfrac{2}{3}~~\text{or} ~~x \amp = -1</mrow></md>
 The solutions are <m>\dfrac{2}{3}</m> and <m>-1</m>.</p></solution></example>
 
-<warning><p>When we apply the zero-factor principle, one side of the equation must be zero.  For example, to solve the equation
+<warning><p>When we apply the zero-factor principle, one side of the equation must be zero. For example, to solve the equation
     <me>(x-2)(x-4) = 15</me>
 it is <em>incorrect</em> to set each factor equal to 15! (There are many ways that the product of two numbers can equal 15;  it is not necessary that one of the numbers be 15.)</p>
 <p>We must first simplify the left side and write the equation in standard form. (The correct solutions are <m>7</m> and <m>-1</m>; check that you can find these solutions.)</p></warning>
@@ -217,7 +217,8 @@ it is <em>incorrect</em> to set each factor equal to 15! (There are many ways th
     <li>Write the equation in standard form.</li>
     <li>Factor the left side of the equation.</li>
     <li>Apply the zero-factor principle:  Set each factor equal to zero.</li>
-    <li>Solve each equation. There are two solutions (which may be equal).</li></ol></p></assemblage>
+    <li>Solve each equation. There are two solutions (which may be equal).</li>
+</ol></p></assemblage>
 
 <exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
@@ -243,7 +244,7 @@ it is <em>incorrect</em> to set each factor equal to 15! (There are many ways th
 <statement><p>Solve by factoring:
                 <m>\quad (t-3)^2=3 (9-t) </m></p>
                 <p>Hint: Begin by multiplying out each side of the equation.</p></statement>
-    <solution><p><m>t=-3</m> or <m>t=6 </m></p></solution></exercise>
+    <answer><p><m>t=-3</m> or <m>t=6 </m></p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
     <webwork><pg-code>       
@@ -348,7 +349,7 @@ as shown below.</p>
                         <mrow>\text{Xmax}\amp = 6\amp \text{Ymax}\amp = 25</mrow></md>
             and locate the horizontal intercepts on each graph.</p></li>
    </ol></p></statement>
-<solution><p><m>t=0</m> and <m>t=4</m></p></solution></exercise>
+<answer><p><m>t=0</m> and <m>t=4</m></p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
     <webwork><pg-code>
@@ -408,8 +409,7 @@ as shown below.</p>
 <subsection><title>An Application</title>
 <p>Here is another example of how quadratic equations arise in applications.</p>
 
-<example><statement><p>The size of a rectangular computer monitor screen is taken to be the length of its diagonal.  If the length of the screen should be 3 inches greater than its width, what are the dimensions of a 15-inch monitor?</p>
-</statement>
+<example><statement><p>The size of a rectangular computer monitor screen is taken to be the length of its diagonal. If the length of the screen should be 3 inches greater than its width, what are the dimensions of a 15-inch monitor?</p></statement>
 
 <solution><p>We express the two dimensions of the screen in terms of a single variable:   
         <md><mrow>\text{Width of screen:}~~w</mrow>
@@ -442,7 +442,7 @@ To solve this equation, we begin by simplifying the left side.
 <exercise component="main"><title>Practice 5</title>
 <statement><sidebyside widths="65% 25%"><p>Francine is designing the layout for a botanical garden. The plan includes a square herb garden, with a path 5 feet wide through the center of the garden, as shown at right. To include all the species of herbs, the planted area must be 300 square feet. Find the dimensions of the herb garden.</p>
     <image source="images/fig-garden"><description>garden</description></image></sidebyside></statement>
-<solution><p>20 feet by 20 feet</p></solution></exercise>
+<answer><p>20 feet by 20 feet</p></answer></exercise>
 </subsection>
 
 <subsection><title>More About Solutions of Quadratic Equations</title><idx><h>quadratic equation</h><h>solutions of</h></idx>
@@ -495,7 +495,7 @@ From here, you can see that the solutions are indeed <m>\dfrac{1}{2}</m> and <m>
 <exercise component="main"><title>Practice 6</title>
 <statement><p>Find a quadratic equation with integer coefficients whose solutions are <m>\dfrac{2}{3}</m> and <m>-5</m>.</p>
 </statement>
-    <solution><p><m>3x^2+13x-10=0</m></p></solution></exercise>
+    <answer><p><m>3x^2+13x-10=0</m></p></answer></exercise>
 
 <p>A quadratic equation in one variable always has two solutions. In some cases, the solutions may be equal. For example, the equation
         <me>x^2-2x+1=0</me>

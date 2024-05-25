@@ -3,9 +3,24 @@
 
 <section xml:id="AlgebraicSolution"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Solution of Systems</title>
 
+<introduction>
+<p>In the previous section we used graphs to solve a system of two linear equations. Graphs help us visualize the problem and its solution, but do not always provide the most efficient or most accurate way to find the solution. In this section we review two methods for solving a 2x2 linear system algebraically.</p>
+</introduction>
+
 <subsection><title>Substitution Method</title><idx><h>system of equations</h><h>substitution method</h></idx><idx><h>substitution method</h><see>system of equations</see></idx>
 
-<p>You are probably familiar with the substitution method for solving a system of equations. Here is a summary of the steps for solving a system by substitution.</p>
+<p>You may be familiar with the <term>substitution method</term> for solving a system of equations. The idea is to write an expression for one of the variables in terms of the other variable, and then substitute that expression into the other equation.</p>
+
+<p>For example, consider the system
+    <md><mrow>x + y \amp = 10</mrow>
+        <mrow>2x - y\amp = 2</mrow></md>
+If we solve the first equation for <m>y</m>, we get <m>y=10 - x</m>. We can substitute the expression <m>\alert{10 - x}</m> for <m>y</m> into the second equation to get <m>2x - (\alert{10 - x}) = 2</m>, an equation in only one variable.  Finally, we solve this equation:
+    <md><mrow>2x-10 + x \amp = 2</mrow>
+        <mrow>3x \amp = 12</mrow>
+        <mrow>x \amp = 4</mrow></md>
+And because <m>y=10 - x</m>, we find <m>y = 10 - 4 = 6</m>.  The solution is <m>x = 4, y = 6</m>.</p>
+
+<p>Here is a summary of the steps for solving a system by substitution.</p>
 
 <assemblage><title>To Solve a System by Substitution</title>
     <p><ol marker="1">
@@ -114,7 +129,7 @@
         <li><p>Step 4: You now have the solution value for <m>y</m>. Substitute that value into your result from Step 1 to find the solution value for <m>x</m>. </p>
             <p>As always, you should check that your solution values satisfy both equations in the system.</p></li>
         </ul></p></statement>
-    <solution><p><m>(0,1)</m></p></solution></exercise>
+    <answer><p><m>(0,1)</m></p></answer></exercise>
 </subsection>
    
 <subsection><title>Elimination Method</title><idx>elimination method</idx><idx><h>elimination method</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>elimination method</h></idx>
@@ -168,7 +183,9 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
          <li><p>Coordinate form</p></li>
     </ol></p></statement></exercise>
 
-<p>In the previous <xref ref="Example-elimination-method" text="custom">Example</xref>, the elimination method worked because the coefficients of <m>y</m> in the two equations were opposites, <m>2</m> and <m>-2</m>. This caused the <m>y</m>-terms to cancel out when we added the two equations together. What if the coefficients of neither <m>x</m> nor <m>y</m> are opposites? Then we must multiply one or both of the equations in the system by a suitable constant. Consider the system
+<p>In the previous <xref ref="Example-elimination-method" text="custom">Example</xref>, the elimination method worked because the coefficients of <m>y</m> in the two equations were opposites, <m>2</m> and <m>-2</m>. This caused the <m>y</m>-terms to cancel out when we added the two equations together. What if the coefficients of neither <m>x</m> nor <m>y</m> are opposites? Then we must multiply one or both of the equations in the system by a suitable constant.</p>
+
+<p>Consider the system
    <md><mrow>4x+3y\amp = 7</mrow>
        <mrow>3x+y\amp =-1</mrow></md>
 We can eliminate the <m>y</m>-terms if we multiply each term of the second equation by <m>\alert{-3}</m>, so that the coefficients of <m>y</m> will be opposites:
@@ -228,7 +245,7 @@ Be careful to multiply each term by <m>-3</m>, not just the <m>y</m>-term. We ca
             <li><p>Step 3: Substitute your value for <m>x</m> into either original equation and solve for <m>y</m>.</p></li>
             <li><p>Step 4: Check that your solution satisfies both original equations.</p></li>
         </ul></p></statement>
-<solution><p><m>(-2,5)</m></p></solution></exercise>
+<answer><p><m>(-2,5)</m></p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -353,7 +370,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
         <li><p>Step 3: Add the new equations and solve the result for <m>x</m>.</p></li>
         <li><p>Step 4: Substitute your value for <m>x</m> into the second equation and solve for <m>y</m>.</p></li>
     </ul></p></statement>
-    <solution><p><m>(3,2)</m></p></solution></exercise>
+<answer><p><m>(3,2)</m></p></answer></exercise>
 
 <note><p>Which method should you choose to solve a particular system? Both methods work on any linear system, but the substitution method is easier if one of the variables in one of the equations has coefficient <m>1</m> or <m>-1</m>.</p></note>
 </subsection>
@@ -444,7 +461,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
 <statement><p>Identify the system as dependent, inconsistent, or consistent and independent.
             <md><mrow>x+3y=6</mrow>
                 <mrow>2x-12=-6y</mrow></md></p></statement>
-<solution><p>Dependent</p></solution></exercise>
+<answer><p>Dependent</p></answer></exercise>
 </subsection>
  
 <xi:include href="./section-2-3-exercises.xml" />                

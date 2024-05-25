@@ -5,7 +5,12 @@
 
 <subsection><title>Introduction</title>
 
-<p>So far you have learned how to solve linear equations.  In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term><idx><h>first-degree equation</h></idx><idx>degree (of a polynomial)</idx><idx><h>equation</h><h>first-degree</h></idx>.  Now we'll consider second-degree equations, or <term>quadratic</term><idx>quadratic equation</idx><idx><h>equation</h><h>quadratic</h></idx><idx><h>second-degree</h><see>quadratic</see></idx><idx><h>equation</h><h>second-degree</h><see>quadratic</see></idx> equations. A quadratic equation includes the square of the variable.</p> 
+<p>So far you have learned how to solve linear equations. In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term><idx><h>first-degree equation</h></idx><idx>degree (of a polynomial)</idx><idx><h>equation</h><h>first-degree</h></idx>. Now we'll consider second-degree equations, or <term>quadratic</term><idx>quadratic equation</idx><idx><h>equation</h><h>quadratic</h></idx><idx><h>second-degree</h><see>quadratic</see></idx><idx><h>equation</h><h>second-degree</h><see>quadratic</see></idx> equations. A quadratic equation includes the square of the variable.</p>
+<p> Here are some examples.
+
+    <me>2x^2+5x-3=0, ~~~~~~ 7t-t^2=0, ~~~~~~ \text{and} ~~~~~~ 3w^2=16</me></p>
+
+<p>Some familiar geometric formulas are quadratic equations, such as the formula for the area of a circle, <m>A = \pi r^2</m>.</p>
 
 <definition xml:id="Definition-quadratic-equation"><title>Quadratic Equation</title>
 <p>A <term>quadratic equation</term> can be written in the standard form 
@@ -50,7 +55,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
 
 <sidebyside widths="50% 40%" margins="0% 0%" valigns="middle middle">
     <stack><p>The simplest quadratic equation in two variables is 
-            <md><mrow>y=x^2</mrow></md>
+            <me>y=x^2</me>
     Its graph is not a straight line, but a curve called a <term>parabola</term><idx>parabola</idx>, shown in the figure. You can verify the table of values below for this parabola.</p>
         <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -90,7 +95,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
     \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<warning><p>Be careful when squaring negative numbers. To evaluate the square of a negative number on a calculator, we must enclose the number in parentheses.  For example,
+<warning><p>Be careful when squaring negative numbers. To evaluate the square of a negative number on a calculator, we must enclose the number in parentheses to show that the negative sign is included in the expression to be squared.  For example,
     <me>(-3)^2=(-3)(-3)=9,~~~~\text{but}~~~~-3^2=-3 \cdot 3=-9</me></p></warning>
 
 <example><statement><p>Graph the parabola <m>~y=x^2-4</m></p></statement>
@@ -201,7 +206,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
 
 <exercise component="main"><title>Practice 1</title>
 <statement><p>Graph the parabola <m>~y=4-x^2</m> on the same grid in the Example above.</p></statement>
-<solution><image width="50%" xml:id="fig-ex-3-1-1ans"><description>parabola</description><latex-image>
+<answer><image width="35%" xml:id="fig-ex-3-1-1ans"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -217,8 +222,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
             }
             \draw[samples=65,domain={-sqrt(10):sqrt(10)},smooth,variable=\x,red,very thick, <->, >=stealth'] plot (\x,{4-(\x)^2});
             \end{tikzpicture}]]>
-            </latex-image></image></solution>
-</exercise>
+            </latex-image></image></answer></exercise>
 </subsection>
 
 <subsection><title>Solving Quadratic Equations</title>
@@ -261,7 +265,7 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
 <note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions, which may be equal. The solutions may also be complex numbers, <idx>complex number</idx> which we'll study in Chapter 4.</p></note>
 
 <example><statement><p>Solve the equation
-        <md><mrow>\frac{1}{2}x^2-7=8</mrow></md>
+        <me>\frac{1}{2}x^2-7=8</me>
 graphically and algebraically.</p></statement> 
     
 <solution><p> The figure shows the graph of <m>~y=\dfrac{1}{2}x^2-7.</m> </p>
@@ -297,7 +301,7 @@ graphically and algebraically.</p></statement>
         <li><p>We use a calculator to find that <m>\sqrt{30}</m> is approximately 5.477, or about 5.5, as we saw on the graph.</p></li></ul></p></solution>
 </example>
 
-<warning><p>It is important to make a distinction betweeen exact values and decimal approximations.<ul> 
+<warning><p>Many square roots are <term>irrational numbers</term>, which means that their decimal form never ends. When we round off the decimal form we have an approximation to the square root, but not its exact value. It is important to make a distinction betweeen exact values and decimal approximations.<ul> 
     <li>For the example above, the exact solutions are <m>\pm \sqrt{30}</m>.</li> 
     <li>The values from the calculator, <m>\pm 5.477</m>, are decimal approximations to the solutions, rounded to thousandths.</li></ul></p></warning>    
 
@@ -333,7 +337,7 @@ graphically and algebraically.</p></statement>
         <li><p><m>b^2=(0.632)^2, \qquad b=\pm 0.632</m></p></li>
     </ol></p></statement></exercise>
 
-<p>We can now solve quadratic equations of the form <m>~ax^2+c = 0~</m>, by isolating <m>x</m> on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called <term>extraction of roots</term>. <idx><h>extraction of roots</h><seealso>quadratic equation</seealso></idx></p>
+<p>We can now solve quadratic equations of the form <m>~ax^2+c = 0~</m>, where the linear term <m>bx</m> is missing, by isolating <m>x</m> on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called <term>extraction of roots</term>. <idx><h>extraction of roots</h><seealso>quadratic equation</seealso></idx></p>
 
 <assemblage><title>Extraction of Roots</title><idx>extraction of roots</idx><idx><h>quadratic equation</h><h>solving by extraction of roots</h></idx>
 <p>To solve a quadratic equation of the form
@@ -362,13 +366,14 @@ graphically and algebraically.</p></statement>
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Solve by extracting roots <m>\quad\dfrac{3x^2-8}{4} = 10</m></p></statement>
-<solution><p><m>\pm 4</m></p></solution></exercise>
+<answer><p><m>\pm 4</m></p></answer></exercise>
 
 <p>In the next Example, we compare the steps for <em>evaluating a quadratic expression</em> and for <em>solving a quadratic equation</em>.</p>
 
 <example><statement><p>Tux the cat falls off a tree branch 20 feet above the ground. His height <m>t</m> seconds later is given by <m>h=20-16t^2</m>.<ol marker="a">   
     <li>How high is Tux above the ground 0.5 second later?</li>
-    <li>How long does Tux have to get in position to land on his feet before he reaches the ground?</li></ol></p></statement>
+    <li>How long does Tux have to get in position to land on his feet before he reaches the ground?</li>
+</ol></p></statement>
     
 <solution><p><ol marker="a">
     <li><p>We evaluate the formula for <m>t=0.5</m>. We substitute <m>\alert{0.5}</m> for <m>t</m> into the formula, and simplify. 
@@ -427,7 +432,7 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>The glass pyramid at the Louvre in Paris has a square base, is 21.64 meters tall, and encloses a volume of 9049.68 cubic meters. Use the formula <m>~ V=\dfrac{1}{3}s^2h~</m> to find the length of the base. Round your answer to hundredths.</p></statement>
-<solution><p>35.42 m</p></solution></exercise>
+<answer><p>35.42 m</p></answer></exercise>
 </subsection>
 
 <subsection><title>Solving Formulas</title>
@@ -463,7 +468,7 @@ Because the radius of a cone must be a positive number, we use only the positive
 <statement><p>Find a formula for the radius of a circle in terms of its area, <m>A</m>.</p>
 <p>Hint: Start with the formula for the area of a circle: <m>A =</m> </p>
             <p>Solve for <m>r</m> in terms of <m>A</m>.</p></statement>
-<solution><p><m>r=\sqrt{\dfrac{A}{\pi}}</m></p></solution></exercise>
+<answer><p><m>r=\sqrt{\dfrac{A}{\pi}}</m></p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
     <webwork><pg-code>
@@ -530,7 +535,8 @@ We start by isolating the squared expression, <m>~(x-p)^2</m>.</p>
 This gives us two equations for <m>x</m>,
     <md><mrow>x-2 \amp = 4~~~~\text{or}~~~~x-2=-4 \amp \amp \blert{\text{Solve each equation.}}</mrow>
         <mrow> x \amp = 6~~~~\text{or}~~~~x=-2</mrow></md>
-The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solutions satisfy the original equation.</p></solution></example>
+The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solutions satisfy the original equation.</p>
+</solution></example>
 
 <exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
@@ -568,10 +574,10 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
         <li><p>Give your answers as exact values.</p></li>
         <li><p>Find approximations for the solutions to two decimal places.</p></li>
     </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<answer><p><ol marker="a" cols="2">
                 <li><p><m>x=\dfrac{-3\pm \sqrt{19}}{5} </m></p></li>
                 <li><p><m>x\approx -1.47</m> or <m>x\approx 0.27</m></p></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 4</title>
     <webwork><pg-code>
@@ -628,7 +634,8 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
             <mrow>1.1\overline{6} \amp = (1+r)^2  \amp \amp \blert{\text{Take square roots.}}</mrow> 
             <mrow> \pm 1.0801 \amp \approx 1+r  \amp \amp \blert{\text{Subtract 1 from both sides.}}</mrow>
             <mrow>r \approx 0.0801 \amp \text{or}~~~~r \approx -2.0801</mrow></md>
-    Because the interest rate must be a positive number, we discard the negative solution. Carmella needs an account with interest rate <m>r \approx 0.0801</m>, or over 8%, in order to have an account balance of $3500 in two years.</p></li></ol></p></solution></example>  
+    Because the interest rate must be a positive number, we discard the negative solution. Carmella needs an account with interest rate <m>r \approx 0.0801</m>, or over 8%, in order to have an account balance of $3500 in two years.</p></li>
+</ol></p></solution></example>  
 
 <p>The formula for compound interest also applies to calculating the effects of inflation. For instance, if there is a steady inflation rate of 4% per year, then in two years the price of an item that costs $100 now will be
         <md><mrow>A \amp = P(1+r)^2</mrow>
@@ -651,7 +658,7 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
 
 <exercise component="main"><title>Practice 6</title>
 <statement><p>The average cost of dinner and a movie two years ago was $36. This year the average cost is $38.16. What was the rate of inflation over the past two years?  (Round to two decimal places.)</p></statement>
-<solution><p>2.96%</p></solution></exercise>
+<answer><p>2.96%</p></answer></exercise>
 </subsection>
 
 <xi:include href="./section-3-1-exercises.xml" />                

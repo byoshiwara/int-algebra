@@ -97,7 +97,7 @@
 <exercisegroup><introduction><p>For Problems 3 and 4, calculate the net change in coordinate from <m>P</m> to <m>Q</m>.</p></introduction>
 
 <exercise number="3"><statement><p><ol marker="a" cols="2">
-    <li><sidebyside width="60%" margins="0% 5%"><image xml:id="fig-hw-1-5-4a"><description>vertical line segment</description><latex-image>
+    <li><image width="85%" xml:id="fig-hw-1-5-4a"><description>vertical line segment</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -109,8 +109,8 @@
             \draw[red,thick] (0,-.7) -- (0,-2.9);
             \node[text width=1cm] at (1.5,-3.9){$\Delta h=$};
             \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></li> 
-    <li><sidebyside width="60%" margins="0% 5%"><image xml:id="fig-hw-1-5-4c"><description>horizontal line segment</description><latex-image>
+        </latex-image></image></li> 
+    <li><image width="75%" xml:id="fig-hw-1-5-4c"><description>horizontal line segment</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -122,13 +122,13 @@
             \draw[red,thick] (1.3,1.4) -- (-1.3,1.4);
             \node[text width=1cm] at (0,-1.1){$\Delta r=$};
             \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></li></ol></p></statement>
+        </latex-image></image></li></ol></p></statement>
 <answer><p><ol marker="a">
     <li><m>\Delta h = 22</m></li>
     <li><m>\Delta r = -57</m></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement><p><ol marker="a" cols="2">
-    <li><sidebyside width="60%" margins="0% 5%"><image xml:id="fig-hw-1-5-4b"><description>vertical line segment</description><latex-image>
+    <li><image width="85%" xml:id="fig-hw-1-5-4b"><description>vertical line segment</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -140,8 +140,8 @@
         \draw[red,thick] (1.3,2.5) -- (1.3,.5);
         \node[text width=1cm] at (1.5,-.9){$\Delta T=$};
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></li>
-    <li><sidebyside width="75%" margins="0% 5%"><image xml:id="fig-hw-1-5-4d"><description>horizontal line segment</description><latex-image>
+        </latex-image></image></li>
+    <li><image width="85%" xml:id="fig-hw-1-5-4d"><description>horizontal line segment</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -153,7 +153,7 @@
         \draw[red,thick] (-3.3,-.9) -- (-1.,-.9);
         \node[text width=1cm] at (-1.,-2.6){$\Delta q=$};
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></li>
+        </latex-image></image></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
@@ -187,9 +187,7 @@
 
 <exercise number="9"><statement><p><m>m=\dfrac{-5}{3}</m> and <m>b=-6</m></p></statement>
 <answer><p><ol marker="a">
-    <li><sidebyside width="40%" margins="0% 0%"><image xml:id="fig-y-eq-neg5thirds-x-minus6">
-        <description>line</description>
-        <latex-image>
+    <li><image width="40%"  xml:id="fig-y-eq-neg5thirds-x-minus6"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -205,8 +203,7 @@
         }
         \draw[magenta!90!black, very thick, <->, >=stealth'] (-8,22/3)--(6/5,-8);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image></sidebyside></li>
+        </latex-image></image></li>
     <li><m>y=\dfrac{-5}{3}x-6</m></li>
     <li><m>x=\dfrac{-18}{5}</m></li></ol></p></answer></exercise>
 
@@ -221,8 +218,7 @@
                     <li><p><m> y = \dfrac{3}{4}x - 2 </m></p></li>
                     <li><p><m>y =\dfrac{-3}{4}x - 2</m></p></li>
                 </ol></p>
-        <sidebyside  width="70%"><image source="images/fig-ex-1-5-53"><description>four lines</description></image>
-            </sidebyside></statement>
+        <image width="70%" source="images/fig-ex-1-5-53"><description>four lines</description></image>></statement>
         <answer><p><ol marker="a" cols="4">
                 <li><p>II</p></li>
                 <li><p>III</p></li>
@@ -236,8 +232,8 @@
                     <li><p><m>0\lt m\lt 1</m>, <m>b\lt 0</m></p></li>
                     <li><p><m>m\lt -1</m>, <m>b\lt 0 </m></p></li>
                 </ol></p>
-        <sidebyside width="70%"><image source="images/fig-ex-1-5-54"><description>four lines</description></image>
-            </sidebyside></statement></exercise>
+        <image width="70%" source="images/fig-ex-1-5-54"><description>four lines</description></image>
+        </statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 13 and 14,<ol marker="a">
@@ -247,7 +243,7 @@
 
 <exercise number="13"><statement><p><m>(2,-5) </m>; <m>m=-3</m></p></statement>
 <answer><p><ol marker="a">
-    <li><sidebyside width="35%" margins="0% 0%"><image xml:id="fig-hw-1-5-5ans"><description>line through (2,-5) with slope -3</description><latex-image>
+    <li><image width="35%" xml:id="fig-hw-1-5-5ans"><description>line through (2,-5) with slope -3</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -261,7 +257,7 @@
                     }
                     \draw[red,thick,->,>=stealth'] (-4/3,5) -- (2,-5);
                     \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></li>
+            </latex-image></image></li>
     <li><p><m>y+5 = -3(x-2) </m></p></li>
     <li><p><m>y=-3x+1</m></p></li></ol></p></answer></exercise>
 
@@ -284,9 +280,8 @@
                     <li><p><m> y = -1 + 2(x+3) </m></p></li>
                     <li><p><m>y = 1 + 2(x-3) </m></p></li>
                 </ol></p>
-        <sidebyside  width="70%"><image source="images/fig-ex-1-5-55"><description>four lines</description></image>
-            </sidebyside></statement>
-        <answer><p><ol marker="a" cols="4">
+        <image width="70%" source="images/fig-ex-1-5-55"><description>four lines</description></image></statement>
+    <answer><p><ol marker="a" cols="4">
                 <li><p>III</p></li>
                 <li><p>IV</p></li>
                 <li><p>II</p></li>
@@ -299,8 +294,8 @@
                     <li><p><m> y = 2 + \dfrac{3}{2}(x - 3) </m></p></li>
                     <li><p><m>y = 2 + \dfrac{2}{3}(x + 3) </m></p></li>
                 </ol></p>
-        <sidebyside width="70%"><image source="images/fig-ex-1-5-56"><description>four lines</description></image>
-            </sidebyside></statement></exercise>
+        <image width="70%" source="images/fig-ex-1-5-56"><description>four lines</description></image>
+        </statement></exercise>
 </exercisegroup>
 
 </subexercises>
@@ -313,15 +308,15 @@
     </ol></p><p></p></introduction>
 
 <exercise number="19"><statement><p>The graph shows the amount of money, <m>M</m> (in dollars), in Tammy’s bank account <m>w</m> weeks after she loses all sources of income.</p>
-    <sidebyside  width="40%"><image source="images/fig-money-in-account"><description>dollars vs time</description></image></sidebyside></statement>
+    <image width="40%" source="images/fig-money-in-account"><description>dollars vs time</description></image></statement>
 <answer><p><ol marker="a">
                 <li><p><m>M = 7000 - 400w</m> </p></li>
                 <li><p>The slope tells us that Tammy's bank account is diminishing at a rate of $400 per week, the vertical intercept that she had $7000 (when she lost all sources of income).</p></li>
             </ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>The graph shows the distance, <m>d</m> (in meters), traveled by a train <m>t</m> seconds after it passes an observer.</p>
-    <sidebyside width="35%"><image source="images/fig-train-distance"><description>distance vs time</description></image>
-            </sidebyside></statement></exercise>
+    <image width="35%" source="images/fig-train-distance"><description>distance vs time</description></image>
+    </statement></exercise>
 </exercisegroup>
 
 <exercise number="21"><statement><p>The boiling point of water changes with altitude and is approximated by the formula
@@ -387,8 +382,7 @@ gives the temperature at an altitude of <m>h</m> feet.<ol marker="a">
 <answer><p><ol marker="a">
     <li><p><m>55\degree</m>F</p></li>
     <li><p>9840 ft</p></li>
-    <li><sidebyside width="50%" margins="0% 0%"><image xml:id="fig-temp-vs-altitude">
-        <description>temperature vs altitude</description>
+    <li><image width="50%" xml:id="fig-temp-vs-altitude"><description>temperature vs altitude</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -411,7 +405,7 @@ gives the temperature at an altitude of <m>h</m> feet.<ol marker="a">
         \draw[magenta!90!black, very thick, ->, >=stealth'] (0,7)--(20,-.317);
         \end{tikzpicture}]]>
         </latex-image>
-        </image></sidebyside></li>
+        </image></li>
     <li><p><m>m=\dfrac{-3}{820}</m>. The temperature decreases 3 degrees for each increase in altitude of 820 feet.</p></li>
     <li><p><m>(19,133 \frac{1}{3}, 0)</m>. At an altitude of <m>19,133 \frac{1}{3}</m> feet, the temperature is <m>0\degree</m>F. <m>(0,70)</m>. At an altitude of 0 feet, the temperature is <m>70\degree</m>F.</p></li></ol></p>
 </answer></exercise>
@@ -434,7 +428,7 @@ gives the temperature at an altitude of <m>h</m> feet.<ol marker="a">
         </tabular></sidebyside>
     <p><ol marker="a">
     <li><p>Use the grid below to plot the data and draw a line through the data points.</p>
-            <sidebyside width="45%"><image xml:id="fig-shoe-size-grid"><description>grid</description><latex-image>
+            <image width="45%" xml:id="fig-shoe-size-grid"><description>grid</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -451,13 +445,13 @@ gives the temperature at an altitude of <m>h</m> feet.<ol marker="a">
              \draw[black,thick] (.1,\x) --++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1] {$\xi$};
             }
             \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></li>
+            </latex-image></image></li>
     <li><p>Calculate the slope of your line. Estimate the <m>y</m>-intercept from the graph.</p></li>
     <li><p>Find an equation that gives the European shoe size, <m>E</m>, in terms of the American shoe size, <m>A</m>.</p></li></ol></p></statement>
 </exercise>
 
 <exercise number="29"><statement><p>The table shows the amount of ammonium chloride salt, in grams, that can be dissolved in 100 grams of water at different temperatures.</p>
-        <sidebyside><tabular top="minor" bottom="minor" right="minor" left="minor">
+        <tabular top="minor" bottom="minor" right="minor" left="minor">
             <col halign="left"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/>
             <row>
                 <cell>Temperature (<m>\degree \text{C}</m>)</cell>
@@ -477,10 +471,10 @@ gives the temperature at an altitude of <m>h</m> feet.<ol marker="a">
                 <cell>40.5</cell>
                 <cell>48</cell>
                 <cell>54</cell></row>
-        </tabular></sidebyside>
+        </tabular>
     <p><ol marker="a">
     <li><p>Use the grid below to plot the data and draw a straight line through the points. Estimate the <m>y</m>-intercept of your graph.</p>
-            <sidebyside width="50%"><image xml:id="fig-dissolve-salt-grid"><description>grid</description><latex-image>
+            <image width="50%" xml:id="fig-dissolve-salt-grid"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -499,13 +493,13 @@ gives the temperature at an altitude of <m>h</m> feet.<ol marker="a">
                      \draw[black,thick] (.1,\x) --++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1] {$\xi$};
                     }
                     \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li>
+                </latex-image></image></li>
     <li><p>Calculate the slope of the line.</p></li>
     <li><p>Use the point-slope formula to find an equation for the line.</p></li>
     <li><p>At what temperature will 46 grams of salt dissolve?</p></li></ol></p></statement>
 <answer><p><ol marker="a">
     <li><p><m>(0,28) </m></p>
-            <sidebyside width="50%" margins="0% 0%"><image xml:id="fig-dissolve-salt"><description>salt dissolved</description><latex-image>
+            <image width="50%" xml:id="fig-dissolve-salt"><description>salt dissolved</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -525,13 +519,13 @@ gives the temperature at an altitude of <m>h</m> feet.<ol marker="a">
                 }
                 \draw[red,thick] (0,4) -- (12,19);
                 \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></li>
+            </latex-image></image></li>
     <li><p><m>m=\dfrac{1}{2} </m></p></li>
     <li><p><m>y= \dfrac{1}{2}x + 28 </m></p></li>
     <li><p><m>36\degree\text{C}</m></p></li></ol></p></answer></exercise>
 
 <exercise number="30"><statement><p>A spring is suspended from the ceiling. The table shows the length of the spring in centimeters as it is stretched by hanging various weights from it.</p>
-                <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell>Weight, kg</cell>
                         <cell><m>3</m></cell>
@@ -550,9 +544,9 @@ gives the temperature at an altitude of <m>h</m> feet.<ol marker="a">
                         <cell><m>26.84</m></cell>
                         <cell><m>27.2</m></cell>
                         <cell><m>28.04</m></cell></row>
-                </tabular></sidebyside><p><ol marker="a">
+                </tabular><p><ol marker="a">
     <li><p>Plot the data on graph paper and draw a straight line through the points. Estimate the <m>y</m>-intercept of your graph.</p>
-        <sidebyside width="50%"><image xml:id="fig-spring-stretch"><description>grid</description><latex-image>
+        <image width="50%" xml:id="fig-spring-stretch"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                     }
@@ -569,9 +563,10 @@ gives the temperature at an altitude of <m>h</m> feet.<ol marker="a">
                      \draw[black,thick] (.1,\x) --++(-.2,0) node[left, xshift=-2, fill=white, inner sep=1] {$\xi$};
                     }
                     \end{tikzpicture}]]>
-                    </latex-image></image></sidebyside></li>
+                    </latex-image></image></li>
     <li><p>Find an equation for the line.</p></li>
-    <li><p>If the spring is stretched to <m>27.56</m> cm, how heavy is the attached weight?</p></li></ol></p></statement></exercise>
+    <li><p>If the spring is stretched to <m>27.56</m> cm, how heavy is the attached weight?</p></li>
+</ol></p></statement></exercise>
 
 </subexercises>
 

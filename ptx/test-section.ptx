@@ -14,11 +14,11 @@
     <title>Testing</title>
 
 
-    <xi:include href="./section-6-2.xml" /> 
+    <xi:include href="./chap3.xml" />
 
 </chapter>
 
 
-    <xi:include href="./backmatter.xml" />
+<!--    <xi:include href="./backmatter.xml" /> -->
   </book>
 </pretext>

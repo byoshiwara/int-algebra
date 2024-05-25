@@ -45,7 +45,7 @@
     <image source="images/fig-inclined-plane-graph"><description>graph of ball rolling down inclined plane</description></image>
 </sidebyside>
 
-<p>The total distance traveled by the ball can be modeled by the equation, <m>d = kt^2</m>, where <m>k</m> is a constant. Galileo found that this relationship holds no matter how steep he made the ramp. If we plot the height of the ball (rather than the distance traveled) as a function of time, we obtain a portion of the graph of a quadratic function.</p>
+<p>The total distance traveled by the ball can be modeled by the equation, <m>d = kt^2</m>, where <m>k</m> is a constant. Galileo found that this relationship holds no matter how steep he made the ramp. If we plot the height of the ball (rather than the distance traveled) versus time, we obtain a portion of the graph of a quadratic equation.</p>
     
 <investigation><title>Falling</title>
 

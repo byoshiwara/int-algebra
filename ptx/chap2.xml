@@ -8,79 +8,9 @@
         
     <p>The world's population is growing at different rates in different nations.  Many factors, including economic and social forces, influence the birth rate.  Is there a connection between birth rates and education levels? The figure shows the birth rate plotted against the female literacy rate in 148 countries.  Although the data points do not all lie precisely on a line, we see a generally decreasing trend:  the higher the literacy rate, the lower the birth rate. The <term>regression line</term> provides a model for this trend, and a tool for analyzing the data. In this chapter we study the properties of linear models and some techniques for fitting a linear model to data. </p>  
 
-        <sidebyside width="80%"><image source="images/BirthRateVsFemaleLiteracy"><description>Plot of birth rate vs female literacy</description></image></sidebyside>
+        <image width="80%" source="images/BirthRateVsFemaleLiteracy"><description>Plot of birth rate vs female literacy</description></image>
 
 
-<investigation><title>Water Level</title>
- 
-<p>When sailing upstream in a canal or a river that has rapids, ships must sometimes negotiate locks to raise them to a higher water level. Suppose your ship is in one of the lower locks, at an elevation of 20 feet. The next lock is at an elevation of 50 feet. Water begins to flow from the higher lock to the lower one, raising your level by 1 foot per minute, and simultaneously lowering the water level in the next lock by 1.5 feet per minute. <ol marker="1">
-
-<li><p>Fill in the table</p>
-
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
-                    <row>
-                        <cell bottom="minor"><m>t</m> (minutes)</cell>
-                        <cell bottom="minor">Lower lock water level</cell>
-                        <cell bottom="minor">Upper lock water level</cell></row>
-                    <row>
-                        <cell bottom="minor"><m>0</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell bottom="minor"><m>2</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>4</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>6</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>8</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    <row>
-                        <cell bottom="minor"><m>10</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
-                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></li>
-
-<li><p>Let <m>t</m> stand for the number of minutes the water has been flowing.<ol marker="a">
-    <li>Write an equation for <m>L</m>, the water level in the lower lock after <m>t</m> minues.</li>
-    <li>Write an equation for <m>U</m>, the water level in the upper lock after <m>t</m> minues.</li></ol></p></li>
-
-<li><p>Graph both your equations on the grid.</p>
-
-    <sidebyside width="50%"><image xml:id="fig-water-level-grid">
-        <description>grid</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.6]
-        \draw[cyan] (0,0) grid (12,10);
-        \draw[black,thick,->,>=stealth'] (0,0)--(12.5,0) node[right]{$t$};
-        \draw[black,thick,->,>=stealth'] (0,0)--(0,10.5);
-        \foreach \x  in {5,10} {
-          \draw[black,thick] (\x,.1)--++(0,-.2) node[below]{\x};
-        }
-        \foreach \x [evaluate=\x as \xi using int( 5* \x )]  in {2,4,...,10} {
-          \draw[black,thick] (.1,\x)--++(-.2,0) node[left]{\xi};
-        }
-        \end{tikzpicture}]]>
-        </latex-image>
-</image>
-</sidebyside></li>
-
-<li><p>When will the water level in the two locks be 10 feet apart?</p></li>
-
-<li><p>When will the water level in the two locks be the same?</p></li>
-
-<li><p>Write an equation you can use to verify your answer to part (5), and solve it.</p></li></ol></p>
-</investigation>
 
 </introduction>
 

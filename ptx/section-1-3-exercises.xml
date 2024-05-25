@@ -43,11 +43,8 @@
 
 <exercise number="5"><statement><p><m>9x-12y=36</m></p></statement>
 <answer><p><ol marker="a">
-                <li><p><m>(4,0) </m>, <m>(0,-3) </m></p></li>
-                <li><sidebyside width="90%" margins="0% 0%">
-                    <image xml:id="fig-ex-ans-1-2-1">
-                    <description>line with positive intercepts</description>
-                    <latex-image>
+            <li><p><m>(4,0) </m>, <m>(0,-3) </m></p></li>
+            <li><image width="90%" xml:id="fig-ex-ans-1-2-1"><description>line with positive intercepts</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                       block/.style    = {draw, thick, rectangle, minimum height = 3em,
@@ -69,15 +66,14 @@
                     \filldraw[red] (4,0) circle (0.15);
                     \filldraw[red] (0,-3) circle (0.15);
                     \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></li></ol></p></answer></exercise>
+                </latex-image></image></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>\dfrac{x}{9}-\dfrac{y}{4}=1 </m></p></statement></exercise>
 
 <exercise number="7"><statement><p><m>4y=20 + 2.5x</m></p></statement>
 <answer><p><ol marker="a">
         <li><p><m>(-8,0) </m>, <m>(0,5) </m></p></li>
-        <li><sidebyside width="90%" margins="0% 0%">
-            <image xml:id="fig-ex-ans-1-2-5"><description>line with positive intercepts</description><latex-image>
+        <li><image width="90%" xml:id="fig-ex-ans-1-2-5"><description>line with positive intercepts</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                       block/.style    = {draw, thick, rectangle, minimum height = 3em,
@@ -101,7 +97,7 @@
                     \filldraw[red] (-8,0) circle (0.15);
                     \filldraw[red] (0,5) circle (0.15);
                     \end{tikzpicture}]]>
-                    </latex-image></image></sidebyside></li></ol></p></answer></exercise>
+                    </latex-image></image></li></ol></p></answer></exercise>
 
 <exercise number="8"><statement><p><m>30x=45y+60,000</m></p></statement></exercise>        
 </exercisegroup>
@@ -141,18 +137,21 @@
 </introduction>
     
 <exercise number="13"><statement>
-    <sidebyside  width="80%"><image source="images/fig-2x-plus-3y-eq2400"><description>graph of line</description></image> </sidebyside></statement>
+    <image width="80%" source="images/fig-2x-plus-3y-eq2400"><description>graph of line</description></image></statement>
 <answer><p><m>-2x + 3y = 2400</m></p></answer></exercise>
 
 <exercise number="14"><statement>
-    <sidebyside  width="80%"><image source="images/fig-3x-minus-5y-eq375"><description>graph of line</description></image> </sidebyside></statement></exercise>
+    <image width="80%" source="images/fig-3x-minus-5y-eq375"><description>graph of line</description></image>
+</statement></exercise>
 
 <exercise number="15"><statement>
-    <sidebyside  width="80%"><image source="images/fig-3x-plus-400y-eq240"><description>graph of line</description></image> </sidebyside></statement>
+    <image width="80%" source="images/fig-3x-plus-400y-eq240"><description>graph of line</description></image>
+</statement>
 <answer><p><m>3x + 400y = 240</m></p></answer></exercise>
 
 <exercise number="16"><statement>
-    <sidebyside  width="80%"><image source="images/fig-25x-plus-5y-eq-neg2"><description>graph of line</description></image> </sidebyside></statement></exercise>
+    <image width="80%" source="images/fig-25x-plus-5y-eq-neg2"><description>graph of line</description></image>
+</statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17-20, write the equation in two standard forms:<ol marker="a">
@@ -271,8 +270,7 @@
                     <cell><m>0</m></cell></row>
                 </tabular></sidebyside></li>
     <li><p><m>h=-44+20t </m></p></li>
-    <li><sidebyside width="40%" margins="0% 20%"><image xml:id="fig-ex-ans-1-2-13"><description>grid</description>
-             <latex-image>
+    <li><image width="40%" xml:id="fig-ex-ans-1-2-13"><description>grid</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
                       block/.style    = {draw, thick, rectangle, minimum height = 3em,
@@ -298,13 +296,13 @@
                     \filldraw[red] (3,-2) ellipse (0.06 and .09);
                     \filldraw[red] (4,0) ellipse (0.06 and .09);
                     \end{tikzpicture}]]>
-            </latex-image></image></sidebyside></li>
+            </latex-image></image></li>
     <li><p><m>(0,-400) </m>: The diver starts at a depth of 400 feet. <m>(20,0) </m>: The diver surfaces after 20 minutes.</p></li></ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>In central Nebraska, each acre of corn requires 25 acre-inches of water per year, and each acre of winter wheat requires 18 acre-inches of water. (An acre-inch is the amount of water needed to cover one acre of land to a depth of one inch.) A farmer can count on 9000 acre-inches of water for the coming year. (Source: Institute of Agriculture and Natural Resources, University of Nebraska)<ol marker="a">
     <li><p>Write an equation relating the number of acres of corn, <m>x</m>, and the number of acres of wheat, <m>y</m>, that the farmer can plant.</p></li>
     <li><p>Complete the table.</p>
-                <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+                <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <row>
                     <cell><m>~ x ~</m></cell>
                     <cell><m> ~ 50 ~ </m></cell>
@@ -317,7 +315,7 @@
                     <cell></cell>
                     <cell></cell>
                     <cell></cell></row>
-            </tabular></sidebyside></li>
+            </tabular></li>
     <li><sidebyside widths="35% 45%" margins="0% 0%"><stack><p>Find the intercepts of the graph.</p>
             <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                     <row>
@@ -357,7 +355,7 @@
 <answer><p><ol marker = "a">
     <li><p>$<m>2.40x,</m> $<m>3.20y</m></p></li>
     <li><p><m>2.40x + 3.20y = 19,200</m></p></li>
-    <li><sidebyside  width="40%" margins="0% 60%"><image source="images/fig-unleaded-or-regular"><description>line</description></image></sidebyside></li>
+    <li><image width="40%" source="images/fig-unleaded-or-regular"><description>line</description></image></li>
     <li><p>The <m>y</m>-intercept, 6000 gallons, is the amount of premium that the gas station owner can buy if he buys no regular. The <m>x</m>-intercept, 8000 gallons, is the amount of regular he can buy if he buys no premium.</p></li></ol></p></answer></exercise>
 
 <exercise number="26"><statement><p>Leslie plans to invest some money in two CD accounts. The first account pays 3.6% interest per year, and the second account pays 2.8% interest per year. Leslie would like to earn $500 per year on her investment.</p><ol marker="a">
