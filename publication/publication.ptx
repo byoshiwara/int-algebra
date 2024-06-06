@@ -15,6 +15,7 @@
   <source>
     <version include="main"/>
     <directories external="../ext" generated="../generated-assets"/>
+    <fillin textstyle="underline" mathstyle="box"/>
   </source>
 
   <common>
