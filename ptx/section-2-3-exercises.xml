@@ -151,7 +151,7 @@
 </ol></p></statement></exercise>
 
 <exercise number="15"><statement><p>Rani kayaks downstream for 45 minutes and travels a distance of 6000 meters. On the return journey upstream, she covers only 4800 meters in 45 minutes. How fast is the current in the river, and how fast would Rani kayak in still water? (Give your answers in meters per minute.)     <ol marker="a">
-    <li><p>Choose variables for the unknown quantities, and fill in the table.</p>
+    <li><p>Choose variables for the unknown quantities, and fill in the table.  <m>~\alert{\text{[TK]}}~~</m></p>
             <tabular top="minor" left="minor" right="minor" bottom="minor"><col /><col halign="center"/><col halign="center"/><col halign="center"/>
                             <row><cell></cell>
                                 <cell>Rate</cell>
@@ -169,6 +169,9 @@
         <li><p>Write one equation about the downstream trip.</p></li>
         <li><p>Write a second equation about the return trip. </p></li>
         <li><p>Solve the system and answer the question in the problem.</p></li></ol></p></statement>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review the distance formula, see <xref ref="tkDistance" text="custom"> Section 2.3.3 </xref> of the Toolkit.</p></aside>
+
 <answer><p><ol marker="a">
         <li><tabular>
                     <row><cell>Rani's speed in still water:</cell>

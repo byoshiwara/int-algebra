@@ -50,7 +50,7 @@ The windspeed was <m>8.\overline{3}</m>, or <m>8\frac{1}{3}</m> miles per hour.<
 
 <exercise component="main"><title>Practice 1</title>
 <statement><p>Solve <m>\dfrac{x^2}{x+4}=2</m></p></statement>
-        <solution><p><m>x = -2, x = 4</m></p></solution></exercise>
+        <answer><p><m>x = -2, x = 4</m></p></answer></exercise>
 
 <p>If the equation contains more than one fraction, we can clear all the denominators at once by multiplying both sides by the LCD of the fractions. <idx><h>lowest common denominator</h><h>clearing fractions with</h></idx></p>
 
@@ -65,6 +65,7 @@ We proceed as usual to complete the solution. First we use the distributive law 
         <mrow>3x-15 \amp = 24x-204</mrow>
         <mrow>-21x \amp = -189</mrow>
         <mrow>x \amp = 9</mrow></md>
+The solution is <m>x=9</m>.
 </p></solution></example>
 
  <warning><p>We must multiply <em>each term</em> of an equation by the LCD, whether or not the term is a fraction. In the previous <xref ref="example-clear-fractions" text="custom" >Example</xref> we multiplied each term by the LCD, including the 8.</p></warning>
@@ -88,14 +89,14 @@ We proceed as usual to complete the solution. First we use the distributive law 
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Solve   <m>\quad\dfrac{1}{x-2}+\dfrac{2}{x} = 1</m></p></statement>
-    <solution><p><m>1</m>, <m>4</m></p></solution></exercise>
+    <answer><p>The solutions are <m>x=1</m> and <m>x=4</m>.</p></answer></exercise>
 </subsection>
 
 <subsection><title>Proportions</title><idx>proportion</idx>
 
-<p>A proportion <idx>proportion</idx> is a statement that two ratios are equal.  For example,
+<p>A <term>proportion</term> <idx>proportion</idx> is a statement that two ratios are equal. For example,
     <me>\dfrac{7}{5} = \dfrac{x}{6} </me>    
-To solve this proportion, we multiply both sides by the LCD, 30, to get
+To solve this proportion, we can multiply both sides by the LCD, 30, to get
     <md><mrow>\alert{30}\left(\dfrac{7}{5}\right) \amp = \left(\dfrac{x}{6}\right)\alert{30}</mrow>
         <mrow>42 \amp = 5x \amp \amp \blert{\text{Divide both sides by 5.}}</mrow>
         <mrow>x = \dfrac{42}{5} = 8.4</mrow></md></p>
@@ -129,11 +130,11 @@ To solve this proportion, we multiply both sides by the LCD, 30, to get
 <p><me>\blert{\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc,~~\text{as long as}~ b,d \ne 0}</me>
 </p></assemblage>
 
-<example><statement><p>The scale on a map of Fairfield County says that <m>\dfrac{3}{4}</m> centimeter represents a distance of 10 kilometers.  If Eastlake and Kenwood are 6 centimeters apart on the map, what is the distance between the two towns?</p></statement>
+<example><statement><p>The scale on a map of Fairfield County says that <m>\dfrac{3}{4}</m> centimeter represents a distance of 10 kilometers. If Eastlake and Kenwood are 6 centimeters apart on the map, what is the distance between the two towns?</p></statement>
 
 <solution><p>The ratio of the two actual distances is the same as the ratio of the corresponding distances on the map.  We let <m>x</m> stand for the distance between Eastlake and Kenwood, and write a proportion.</p>  
 <p>We must be careful to keep the same order in both ratios. We choose to put the distance between towns in the numerators, and the distances on the scale in the denominator.
-    <me>\dfrac{\text{distance between towns}}{\text{scale}}:~~~~\dfrac{x}{10} = \dfrac{6}{\dfrac{3}{4}}</me>
+    <me>\dfrac{\text{distance between towns}}{\text{distance on scale}}:~~~~\dfrac{x}{10} = \dfrac{6}{\dfrac{3}{4}}</me>
 To solve the propotion, we cross-multiply.
     <md><mrow>\dfrac{3}{4}x \amp = 10 \cdot 6</mrow>
         <mrow>x \amp = \dfrac{60}{\dfrac{3}{4}} = 80</mrow></md>
@@ -151,10 +152,10 @@ The two towns are 80 kilometers apart.</p></solution></example>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 3</title>
-    <statement><p> On a scale model of Fantasy Valley, <m>1\dfrac{1}{2}</m> inches represents 50 yards. If the distance from the water slide to the bungee jump is 20 inches on the model, what is the distance between the two rides?</p></statement>
-    <solution><p><m>666\dfrac{2}{3}</m> yards</p></solution></exercise>
+<statement><p> On a scale model of Fantasy Valley, <m>1\dfrac{1}{2}</m> inches represents 50 yards. If the distance from the water slide to the bungee jump is 20 inches on the model, what is the distance between the two rides?</p></statement>
+<answer><p>The distance between the two rides is <m>666\dfrac{2}{3}</m> yards.</p></answer></exercise>
 
-<warning><p>Do not try to use "cross-multiplying" on equations that are not proportions, or on any other operations involving fractions.  The shortcut works only on proportions.</p></warning>
+<warning><p>Do not try to use "cross-multiplying" on equations that are not proportions, or on any other operations involving fractions. The shortcut works only on proportions.</p></warning>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
@@ -206,7 +207,7 @@ The two towns are 80 kilometers apart.</p></solution></example>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 1</title>
-<statement><p><ol marker="a">
+<statement><p>Fill in the blanks to complete each statement.<ol marker="a">
         <li><p>To clear fractions from an equation, we multiply each term by the <fillin characters="10"/> of all the fractions.</p></li>
         <li><p>True or False:  When clearing fraction from an equation, we do not multiply terms that are not fractions.</p></li>
         <li><p>A proportion is a statement that two <fillin characters="10"/> are equal. </p></li>
@@ -216,7 +217,7 @@ The two towns are 80 kilometers apart.</p></solution></example>
 
 <subsection><title>Extraneous Solutions</title>
 
-<p>An algebraic fraction is undefined for any values of <m>x</m> that make its denominator equal zero. These values cannot be solutions to equations involving the fraction. Consider the equation
+<p>Recall that an algebraic fraction is undefined for any values of <m>x</m> that make its denominator equal zero. These values cannot be solutions to equations involving the fraction. Consider the equation
     <me>\dfrac{x}{x-3}=\frac{3}{x-3}+2</me>
 When we multiply both sides by the LCD, <m>x - 3</m>, we obtain
     <md><mrow>\alert{(x - 3)}\frac{x}{x-3} \amp =\alert{(x - 3)}\frac{3}{x-3}+\alert{(x - 3)}\cdot 2</mrow>
@@ -238,9 +239,11 @@ you will find that the graphs never intersect, which means that there is no solu
     We use the distributive law to remove the parentheses and write the result in standard form:
                 <md><mrow>6x + 12 + x^2 + 2x\amp = x</mrow>
                     <mrow>x^2 + 7x + 12 \amp = 0</mrow></md>
-    This is a quadratic equation that we can solve by factoring.
+    This is a quadratic equation that we can solve by factoring. <m>~\alert{\text{[TK]}}</m>
                 <me>(x + 3)(x + 4) = 0</me>
     so the solutions are <m>x = -3</m> and <m>x = -4</m>. Neither of these values causes either denominator to equal zero, so they are not extraneous solutions.</p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review solving quadratic equations, see <xref ref="tkSolveQuadEqn" text="custom"> Section 8.5.1 </xref> of the Toolkit.</p></aside>
 
 <warning><p>The following "solution" for the previous <xref ref="example-clear-fractions2" text="custom" >Example</xref> is incorrect.  Do you see why?
     <md><mrow>\alert{x(x + 2)}\frac{6}{x}+1 \amp =\alert{x(x + 2)}\frac{1}{x+2}</mrow>
@@ -296,7 +299,7 @@ you will find that the graphs never intersect, which means that there is no solu
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-    <statement><p><ol marker="a">
+    <statement><p>Fill in the blanks to complete each statement.<ol marker="a">
         <li><p>An algebraic fraction is undefined when <fillin characters="10"/>.</p></li>
         <li><p>An apparent solution that does not satisfy the original equation is called <fillin characters="10"/> solution.</p></li>
         <li><p>We may introduce extraneous solutions if we multiply both sides of an equation by <fillin characters="10"/>.</p></li>
@@ -315,14 +318,14 @@ you will find that the graphs never intersect, which means that there is no solu
 
 <exercise component="main"><title>Practice 4</title>
     <statement><p>Solve <m>\quad\dfrac{9}{x^2+x-2} + \dfrac{1}{x^2-x} = \dfrac{4}{x-1}</m></p></statement>
-    <solution><p><m>\dfrac{-1}{2}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{-1}{2}</m></p></answer></exercise>
 </subsection>       
 
 <subsection><title>Solving Graphically</title>
 
-<p>We can use graphs to solve the equation in the following Example.</p>
+<p>We can use graphs to solve an equation, as we see in the following Example.</p>
 
-<example><statement><p>Solve the equation graphically: <m>~\dfrac{6}{x}+1=\dfrac{1}{x+2}</m>.</p></statement>
+<example><statement><p>Solve the equation graphically: <m>~\dfrac{6}{x}+1=\dfrac{1}{x+2}</m> <m>~\alert{\text{[TK]}}</m></p></statement>
 
 <solution><p>We graph the two functions
             <me>Y_1=\frac{6}{x}+1 \hphantom{space}\text{and}\hphantom{space}Y_2=\frac{1}{x+2}</me>
@@ -337,6 +340,8 @@ you will find that the graphs never intersect, which means that there is no solu
 and obtain the close-up view shown in figure (b). In this window, we can see that the graphs intersect in two distinct points, and by using the Trace we find that their <m>x</m>-coordinates are <m>x = -3</m> and <m>x = -4</m>.
 </p></solution></example>
 
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review solving equations graphically, see <xref ref="tkFracEqnGraphly" text="custom"> Section 8.5.2 </xref> of the Toolkit.</p></aside>
+
 <exercise component="webwork"><title>Practice 5</title>
 <webwork><pg-code>
         $r1 = Compute("1");
@@ -348,7 +353,7 @@ and obtain the close-up view shown in figure (b). In this window, we can see tha
          partialCredit => 1,
         ); 
     </pg-code>
-    <statement><p>The manager of a new health club kept track of the number of active members over the club's first few months of operation.  The number, <m>N</m>  of active members, in hundreds, <m>t</m> months after the club opened is given by the equation
+<statement><p>The manager of a new health club kept track of the number of active members over the club's first few months of operation.  The number, <m>N</m>  of active members, in hundreds, <m>t</m> months after the club opened is given by the equation
     <md><mrow>N=\dfrac{10t}{4+t^2}</mrow></md>
     <ol marker="a">
     <li><p>Graph the equation in the window
@@ -376,10 +381,10 @@ and obtain the close-up view shown in figure (b). In this window, we can see tha
         <li><p>Use the graph to find out in which months the club had 200 active members.</p></li>
         <li><p>Verify your answer algebraically by solving an equation.</p></li>
     </ol></p></statement>
-<solution><p><ol marker="a">
+<answer><p><ol marker="a">
     <li><image width="40%" source="images/fig-GC-healt-club-membership"><description>graph</description></image></li>
-    <li>1, 4</li>
-</ol></p></solution></exercise>
+    <li>In months 1 and 4</li>
+</ol></p></answer></exercise>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -513,7 +518,7 @@ to obtain the graph shown below.</p>
             <p><m>\text{Downstream time + Upstream time = Total trip time}</m></p></li>
         <li><p>Solve your equation, and answer the question in the problem.</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+<answer><p><ol marker="a">
         <li><tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
             <row>
                 <cell></cell>
@@ -532,8 +537,8 @@ to obtain the graph shown below.</p>
                 <cell><m>\dfrac{18}{x-3}</m></cell></row>
             </tabular></li>
         <li><m>\dfrac{18}{x+3} + \dfrac{18}{x-3} = \dfrac{9}{2}</m></li>
-        <li><p>9 mph</p></li>
-    </ol></p></solution></exercise>
+        <li><p>In still water the boat travels at 9 mph.</p></li>
+    </ol></p></answer></exercise>
 </subsection>
 
 <subsection><title>Formulas</title>
@@ -550,8 +555,8 @@ We apply the distributive law on the left side, then collect all terms that invo
             <mrow>qp = v - vp</mrow></md>
 We cannot combine the two terms containing <m>v</m> because they are not like terms. However, we can factor out <m>v</m>, so that the right side is written as a single term containing the variable <m>v</m>. We can then complete the solution.
         <md><mrow>qp \amp = v(1 - p) \amp\amp \blert{\text{Divide both sides by }  1- p.}</mrow>
-            <mrow>\frac{qp}{1-p} \amp= v</mrow></md>
-    </p></solution></example>
+            <mrow>\frac{qp}{1-p} \amp= v</mrow></md></p>
+</solution></example>
 
 <exercise component="webwork"><title>Practice 7</title>
     <webwork><pg-code>
@@ -567,7 +572,7 @@ We cannot combine the two terms containing <m>v</m> because they are not like te
 
 <exercise component="main"><title>Practice 7</title>
 <statement><p>Solve for <m>a</m>: <m>~\dfrac{2ab}{a+b}=H </m></p></statement>
-    <solution><p><m>a=\dfrac{bH}{2b-H}</m> </p></solution></exercise>
+    <answer><p><m>a=\dfrac{bH}{2b-H}</m> </p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -597,12 +602,28 @@ We cannot combine the two terms containing <m>v</m> because they are not like te
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
-<statement><p>True or False.<ol marker="a">
+<statement><p>Decide whether each statement is true or false.<ol marker="a">
         <li><p>To solve an equation graphically, we graph two functions, <m>y=</m> (each side of the equation.)</p></li>
         <li><p>The solutions are the <m>y</m>-coordinates of the intersection points of the two graphs.</p></li>
         <li><p>To solve a formula that is linear in the desired variable, we must get all terms including that variable on one side of the equation.</p></li>
         <li><p>If two or more terms on one side of the equation include the desired variable, we factor it out.</p></li>
     </ol></p></statement></exercise>
+</subsection>
+
+<subsection><title>Summary</title>
+
+<p>In this chapter we have learned a number of algebraic skills to deal with fractions. Here are the operations we studied:
+<ul>
+    <li>reducing fractions</li>
+    <li>multiplying and dividing fractions</li>
+    <li>adding and subtracting fractions</li>
+    <li>simplifying complex fractions</li>
+    <li>polynomial division</li>
+    <li>solving equations with fractions</li>
+</ul></p>
+
+<p><m>\alert{\text{[TK]}}~~</m>Each type of operation has a particular method, and it may help to review which method to use on each type of operation. To practice choosing the appropriate technique, see <xref ref="tkChooseTech" text="custom"> Section 8.5.3 </xref> of the Toolkit.</p>
+
 </subsection>
 
 

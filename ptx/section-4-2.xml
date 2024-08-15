@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="TheVertex"   xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>The Vertex</title>
+<section xml:id="TheVertex"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Vertex</title>
 
 <introduction>
     <investigation><title>Revenue from Theater Tickets</title>
@@ -88,7 +87,9 @@
 
 <subsection><title>Finding the Vertex</title>
 
-<p>In Section 3.3 we saw that the vertex of the graph of <m>~y=ax^2+bx~</m>has <m>x</m>-coordinate given by
+<p>The vertex of a parabola <m>~y=ax^2+bx~</m> is an interesting point. It is the highest or lowest point on the parabola, and it "anchors" the parabola's position in the plane. As we saw in the Investigation, the vertex may represent the maximum or minimum possible value for a variable, so it has important implications for applications. Thus, it will be very useful to have a way to find the vertex easily.</p> 
+
+<p>In <xref ref="VertexFormula" text="custom"> Section 3.3.5 </xref> we saw that the vertex of the graph of <m>~y=ax^2+bx~</m> has <m>x</m>-coordinate given by
     <me>x_v=\dfrac{-b}{2a}</me>
 Now we'll see that the same formula holds for any parabola.  Use your calculator to graph the two parabolas
     <md><mrow>y \amp = 2x^2+8x</mrow>
@@ -96,8 +97,8 @@ Now we'll see that the same formula holds for any parabola.  Use your calculator
  in the window  
     <md><mrow>\text{Xmin}=-6~~~~\text{Ymin}=-6</mrow>
         <mrow>\text{Xmax}=4~~~~~\text{Ymax}=10</mrow></md></p>
-<sidebyside widths="60% 25%" margins="0% 5%" valigns="middle middle">
-     <p>The graphs are shown at right.  Now compare the two graphs.  You should notice that:
+<sidebyside widths="60% 30%" margins="0% 5%" valigns="middle middle">
+     <p>The graphs are shown at right. Now compare the two graphs. You should notice that:
         <ul>
             <li>The second graph is identical to the first, except shifted upward by 6 units.</li>
             <li>For both graphs, the <m>x</m>-coordinate of the vertex is <m>x_v=-2</m>.</li>
@@ -136,7 +137,7 @@ To find the <m>y</m>-coordinate of the vertex, we substitute <m>x = \alert{\dfra
         <md><mrow>y_v \amp= -2\left(\alert{\frac{1}{4}}\right)^2+ \alert{\frac{1}{4}}+1</mrow>
             <mrow>\amp= -2\left(\frac{1}{16}\right)+ \frac{4}{16}+\frac{16}{16}=\frac{18}{16}=\frac{9}{8}</mrow></md>
 So the coordinates of the vertex are <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</m>. Alternatively, we can use the calculator to evaluate <m>-2x^2 + x + 1</m> for <m>x = 0.25</m>. We enter</p>
-<p><m>\qquad\qquad</m> <kbd>(-)</kbd> <m>2</m> <kbd name="times"/> <m>0.25</m> <kbd name="squared"/> <kbd name="plus"/> <m>0.25</m> <kbd name="plus"/> <m>1</m></p>
+    <p><m>\qquad\qquad</m> <kbd>(-)</kbd> <m>2</m> <kbd name="times"/> <m>0.25</m> <kbd name="squared"/> <kbd name="plus"/> <m>0.25</m> <kbd name="plus"/> <m>1</m></p>
 <p>and press <kbd>ENTER</kbd>. The calculator returns the <m>y</m>-value <m>1.125</m>. Thus, the vertex is the point <m>(0.25, 1.125)</m>, which is the decimal equivalent of <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</m>.</p></solution></example>
 
 <exercise component="webwork"><title>Practice 1</title>
@@ -157,7 +158,8 @@ So the coordinates of the vertex are <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</
 <exercise component="main"><title>Practice 1</title>
 <statement><p><ol marker="a">
     <li><p>Find the vertex of the graph of <m>y = 3x^2 - 6x + 4</m>.</p></li>
-    <li><p>Decide whether the vertex is a maximum point or a minimum point of the graph.</p></li>
+    <li><p>Decide whether the vertex is a maximum point or a minimum point of the graph.</p>
+        <p>Hint: Does the parabola open up or down?</p></li>
 </ol></p></statement>
 <solution><p><ol marker="a" cols="2">
     <li><p><m>(1, 1)</m></p></li>
@@ -196,8 +198,10 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
         \filldraw[red](-3,1) circle (.12) node[left, xshift=-.2cm,fill=white, inner sep=1, text=black]{$(-3,1)$};
         \end{tikzpicture}]]>
         </latex-image></image>
-<p>If we need more accuracy in our graph, we can find and plot more points, including the <m>x</m>-intercepts.</p>
+<p>If we need more accuracy in our graph, we can find and plot more points, including the <m>x</m>-intercepts. <m>~\alert{\text{[TK]}}</m></p>
 </solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review finding the <m>x</m>-intercepts of a parabola, see <xref ref="ParabolaX-Ints" text="custom"> Section 3.2.2 </xref>.</p></aside>
 
 <exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
@@ -259,7 +263,7 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
 
 <subsection><title>Maximum or Minimum Values</title>
 
-<p>Many quadratic models arise as the product of two variables, one of which increases while the other decreases. For example, in the Investigation for Chapter 3 we looked at the areas of different rectangles with the same perimeter. The area of a rectangle is the product of its length and its width, or <m>A=lw</m>.  If we require that the rectangle have a certain perimeter, then as we increase its length, we must also decrease its width.</p>  
+<p>Many quadratic models arise as the product of two variables, one of which increases while the other decreases. For example, in <xref ref="tkSolveLinIneq" text="custom"> the Investigation for Section 3.3 </xref> we looked at the areas of different rectangles with the same perimeter. The area of a rectangle is the product of its length and its width, or <m>A=lw</m>.  If we require that the rectangle have a certain perimeter, then as we increase its length, we must also decrease its width.</p>  
     
 <p>Another example is the formula for the revenue <idx>revenue</idx> from sales of an item:
     <me>\blert{\text{Revenue} = \text{(price of one item)} \times \text{(number of items sold)}}</me>
@@ -279,7 +283,7 @@ Usually, when the price of an item increases, the number of items sold decreases
                     <mrow>R \amp = x(600 - 15x)</mrow>
                     <mrow>R \amp = 600x - 15x^2</mrow></md></p></li>
         <li><p>We recognize the equation as quadratic, so the graph is a parabola. You can use your calculator to verify the graph below.</p>
-            <image width="35%" source="images/fig-revenue-jeans-sales"><description>graph showing revenue from sales of jeans</description></image></li>
+            <image width="45%" source="images/fig-revenue-jeans-sales"><description>graph showing revenue from sales of jeans</description></image></li>
         <li><p>As you can see from the graph, the maximum value of <m>R</m> occurs at the vertex of the parabola. Thus,
                 <md><mrow>x_v\amp=\frac{-b}{2a}=\frac{-600}{2(-15)}=20</mrow>
                     <mrow>y_v\amp=600(\alert{20}) - 15(\alert{20})^2 = 6000</mrow></md>
@@ -354,9 +358,9 @@ Usually, when the price of an item increases, the number of items sold decreases
 
 <subsection><title>The Vertex Form for a Parabola</title><idx><h>parabola</h><h>vertex form</h></idx><idx><h>vertex form</h><h>for a parabola</h></idx><idx><h>quadratic equation</h><h>vertex form</h></idx>
 
-<p>Consider the quadratic equation
+<p>Because the vertex is such a useful tool, we introduce a new form for a quadratic equation. Consider the equation
     <me>y = 2(x - 3)^2 - 8</me>
-By expanding the squared expression and collecting like terms, we can rewrite the equation in standard form as
+By expanding the squared expression <m>~\alert{\text{[TK]}}</m> and collecting like terms, we can rewrite the equation in standard form as
         <md><mrow>y \amp= 2(x^2 - 6x + 9) - 8</mrow>
             <mrow>y \amp = 2x^2 - 12x + 10</mrow></md></p>
 <sidebyside  widths="50% 30%" margins="0% 10%"><p>The vertex of this parabola is
@@ -366,7 +370,9 @@ and its graph is shown at right.</p>
     <image source="images/fig-vertex-form"><description>parabola
     with vertex labeled</description></image></sidebyside>
 
-<p>Notice that the coordinates of the vertex, <m>(3,-8)</m>, are apparent in the original equation; we don’t need to do any computation to find the vertex.
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review multiplying binomials, see <xref ref="tkProdBin" text="custom"> Section 4.2.2 </xref> of the Toolkit.</p></aside>
+
+<p>Now notice that the coordinates of the vertex, <m>(3,-8)</m>, are apparent in the original equation; we don’t need to do any computation to find the vertex.
         <md><mrow>y = 2(x - \amp \alert{3})^2 ~~ \alert{- 8}</mrow>
             <mrow>\amp \alert{x_v} ~~~~~~~~\alert{y_v}</mrow></md>
 This equation is an example of the <term>vertex form</term><idx>vertex form</idx> for a quadratic function.</p>
@@ -441,14 +447,16 @@ which confirms that when <m>x = 4</m>, <m>y = 6</m>. Next, notice that if <m>x</
                 <li><p><m>y=-\frac{1}{2}x^2-2x+3 </m></p></li>
     </ol></p></solution></exercise>
 
-<p>Any quadratic equation in vertex form can be written in standard form by expanding, and any quadratic equation in standard form can be put into vertex form by completing the square.<idx>completing the square</idx></p>
+<p>Any quadratic equation in vertex form can be written in standard form by expanding, and any quadratic equation in standard form can be put into vertex form by completing the square. <m>~\alert{\text{[TK]}}</m> <idx>completing the square</idx></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review completing the square, see <xref ref="SolvebyCompletingSquare" text="custom"> Section 3.4.2 </xref>.</p></aside>
 
 <example xml:id="example-write-in-vertex-form"><statement><p>Write the equation <m>y = 3x^2 - 6x - 1</m> in vertex form and find the vertex of its graph.</p></statement>
 
 <solution><p>We factor the lead coefficient, <m>3</m>, from the variable terms, leaving a space to complete the square.
         <me>y = 3(x^2 - 2x <fillin characters="6" /> ) - 1</me>
 Next, we complete the square inside parentheses. Take half the coefficient of <m>x</m> and square the result: 
-<me>p = \frac{1}{2}(-2) = -1,~~\text{and}~~ p^2 = (-1)^2 = 1</me> 
+        <me>p = \frac{1}{2}(-2) = -1,~~\text{and}~~ p^2 = (-1)^2 = 1</me> 
 We must add <m>1</m> to complete the square. However, we are really adding <m>3(1)</m> to the right side of the equation, so we must also subtract <m>3</m> to compensate:
         <me>y = 3(x^2 - 2x \alert{{}+{}1}) - 1\,\alert{-\,3}</me>
 The expression inside parentheses is now a perfect square, and the vertex form is
@@ -493,11 +501,67 @@ The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
 
 <subsection><title>Using the Vertex Form</title>
 
-<p>If we know the vertex of a parabola and one other point, we can use the vertex form to find its equation.</p>
+<p>We can make a quick sketch of a parabola whose equation is given in vertex form.</p>
+
+<example><statement><p>Graph the equation <m>~y=\dfrac{-1}{2}(x+3)^2-2</m></p></statement>
+    
+<solution><p>The vertex is the point <m>(-3,2)</m>.  We can find the <m>y</m>-intercept by setting <m>x=0</m>.
+            <me>y = \dfrac{-1}{2}(\alert{0}+3)^2-2 = \dfrac{-9}{2}-2 = -6\dfrac{1}{2}</me>
+The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The axis of symmetry is the vertical line <m>x=-3</m>, and there is a symmetric point equidistant from the axis, namely <m>\left(-6, -6\dfrac{1}{2}\right)</m>. We plot these three points and sketch the parabola through them.  <m>~\alert{\text{[TK]}}</m></p>
+    <image width="30%" xml:id="y-eq-neg-half-sq-of-x-plus3-minus2"><description>parabola</description><latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.6]
+            \draw[cyan, thin] (-7,-8) grid (1,1);
+            \draw[black,very thick, ->, >=stealth'] (-7,0)--(1.6,0) node[right]{$x$};
+            \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,1.6) node[above]{$y$};
+            \foreach \x  in  {-6,-4,-2} {
+             \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \foreach \x  in  {-8,-6,-4,-2} {
+             \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \filldraw[magenta!90!black] (-3,-2) circle (.15);
+            \filldraw[magenta!90!black] (0,-13/2) circle (.15);
+            \filldraw[magenta!90!black] (-6,-13/2) circle (.15);
+            \draw[samples=65,domain={-sqrt(12)-3:sqrt(12)-3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { -1/2*(\x+3)^2-2 });
+            \end{tikzpicture}]]>
+            </latex-image></image></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of sketching from the vertex form, see <xref ref="tkVertForm" text="custom"> Section 4.2.1 </xref> of the Toolkit.</p></aside>
+
+<exercise component="main"><title>Practice 6</title>
+<statement><p>Find the vertex, the <m>y</m>-intercept, and the <m>x</m>-intercepts of <m>~y=(x-2)^2-5</m>, and sketch its graph.</p></statement>
+    
+<answer><image width="35%" xml:id="y-eq-sq-of-x-minus2-minus5"><description>parabola</description><latex-image>
+            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+            <![CDATA[\tikzset{%
+            }
+            \begin{tikzpicture} [scale=.3]
+            \draw[cyan, thin] (-10,-10) grid (10,10);
+            \draw[black,very thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+            \draw[black,very thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+            \foreach \x in  {-5, 5, -10, 10} {
+             \draw[cyan, very thick] (\x,-10) --++(0,20);
+             \draw[cyan, very thick] (-10,\x) --++(20,0);
+             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+            }
+            \draw[samples=65,domain={-sqrt(15)+2:sqrt(15)+2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { ((\x-2)^2-5) });
+            \filldraw[magenta!90!black] (2,-5) circle (.25);
+            \filldraw[magenta!90!black] (0,-1) circle (.25);
+            \filldraw[magenta!90!black] ({2-sqrt(5)},0) circle (.25);
+            \filldraw[magenta!90!black] ({2+sqrt(5)},0) circle (.25);
+            \end{tikzpicture}]]>
+            </latex-image></image></answer></exercise>
+
+<p>If we know the vertex of a parabola and one other point, we can use the vertex form to find its equation. <m>~\alert{\text{[TK]}}</m></p>
 
 <example><statement><p>When Andre practices free-throws at the park, the ball leaves his hands at a height of 7 feet, and reaches the vertex of its trajectory 10 feet away at a height of 11 feet.<ol marker="a">
     <li>Find a quadratic equation for the ball's trajectory.</li>
-    <li>Do you think Andre's free-throw would score on a regulation basketball court, where the hoop is 15 feet from the shooter and 10 feet high?</li></ol></p></statement>
+    <li>Do you think Andre's free-throw would score on a regulation basketball court, where the hoop is 15 feet from the shooter and 10 feet high?</li>
+</ol></p></statement>
 
 <solution><p><ol marker="a">
     <li><p>If Andre's feet are at the origin, then the vertex of the ball's trajectory is the point <m>(\alert{10},\alert{11})</m>, and its  <m>y</m>-intercept is <m>(0,7)</m>.  We start with the vertex form for a parabola.
@@ -512,8 +576,11 @@ The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
     <li><p> We'd like to know if the point <m>(15,10)</m> is on the trajectory of Andre's free-throw. We substitute <m>x=\alert{15}</m> into the equation. 
         <md><mrow>y \amp =-0.04(\alert{15}-10)^2+11</mrow>
             <mrow>y \amp =-0.04(25)+11 = 10</mrow></md>
-    From our computations, we see that the point <m>(15,10)</m> is indeed on the trajectory. However, because Andre's shot will probably hit the backboard just where the hoop attaches and bounce off, so it is unlikely that his shot will score.</p> </li></ol></p>
+    From our computations, we see that the point <m>(15,10)</m> is indeed on the trajectory. However, because Andre's shot will probably hit the backboard just where the hoop attaches and bounce off, so it is unlikely that his shot will score.</p> </li>
+</ol></p>
 </solution></example> 
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of finding the vertex form, see <xref ref="tkSolveforParam" text="custom"> Section 4.2.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>       

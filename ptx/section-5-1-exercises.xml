@@ -21,7 +21,8 @@
 <exercise number="4"><statement><p><m>-t^3+3t^2~~~</m> for <m>t=-2</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5-8, solve.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 5-8, solve.</p>
+<p><m>\alert{\text{[TK]}}~~</m>To review solving nonlinear equations, see <xref ref="tkNonLinEqn" text="custom"> Section 5.1.2 </xref> of the Toolkit.</p></introduction>
 
 <exercise number="5"><statement><p><m>4-5x-2x^2=1</m></p></statement>
 <answer><p><m>-3, \dfrac{1}{2}</m></p></answer></exercise>

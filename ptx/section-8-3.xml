@@ -3,6 +3,8 @@
 
 <section xml:id="OperationsAlgebraicFractions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Operations on Algebraic Fractions</title>
 
+<introduction><p>In this section we review the rules for operations on fractions and see how to apply those rules to algebraic fractions. The focus of the discussion will be to sharpen algebraic skills and improve understanding of the reasoning behind them.</p></introduction> 
+
 <subsection><title>Products of Fractions</title>
 
 <p>To multiply two fractions together, we multiply their numerators together and then multiply their denominators together. </p>
@@ -11,11 +13,49 @@
 <p>If <m>b \ne 0</m> and <m>d \ne 0</m>, then
     <me>\blert{\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}}</me></p></assemblage>
 
-<p>If a common factor occurs in a numerator and a denominator of either fraction, we can divide it out either before or after multiplying. For example,
+<p>To see why this rule works, consider an example. Suppose you make a chocolate cake for the Math Club bake sale, but at the end of the day <m>\dfrac{4}{5}</m> of the cake is left in the pan. The remaining cake is shown in figure (a).</p>
+
+<sidebyside width="75%"><!--<image source="photos/fig-8-2-1.png"><description>rectangles</description></image>-->
+    <image xml:id="fig-8-2-1"><description>subdivided rectangles</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \foreach \x in {0,1,2,3} {
+         \draw[black, fill=cyan!20!white, very thick, opacity=.5] (\x,0) rectangle ++(1,3);
+        }
+        \draw[black, very thick] (4,0) rectangle ++(1,3);
+        \draw [black,decorate,decoration={brace,amplitude=5pt}] (4,0)++(0, -.1) -- ++(-4,0) node [black, below,midway,yshift=-4pt] {$\displaystyle\frac{4}{5}$};
+
+        \coordinate(A) at (6.5,0);
+        \foreach \x in {0,1,2,3} {
+         \draw[black, fill=cyan!20!white, very thick, opacity=.5] (A)++(\x,0) rectangle ++(1,3);
+        }
+        \draw[black, very thick] (A)++(4,0) rectangle ++(1,3);
+        \draw [black,decorate,decoration={brace,amplitude=5pt}] ($ (A)+(4,0)+(0, -.1)$) -- ++(-4,0) node [black, below,midway,yshift=-4pt] {$\displaystyle\frac{4}{5}$};
+        \foreach \x in {1,2} {
+         \draw[black, fill=cyan!50!white, very thick, opacity=.5] (A)++(0,\x) rectangle ++(4,1);
+         \draw[black,very thick, densely dashed] (A)++(4,\x)--++(1,0);
+        }
+        \draw [black,decorate,decoration={brace,amplitude=5pt}] ($ (A)+(0,1)+(-.1,0)$) -- ++(0,2) node [black, left,midway,xshift=-4pt] {$\displaystyle\frac{2}{3}$};
+        \node[right] at (0,-1.4) {(a)};
+        \node[right] at ($(A)+(0,-1.4)$) {(b)};
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+
+<p>You decide to take <m>\dfrac{2}{3}</m> of the remaining cake home, and give the rest to your math professor. You cut the remaining cake into thirds, as shown in figure (b). How much of the original cake are you taking home? Your share is 
+    <me> \dfrac{2}{3}~~\text{of}~~\dfrac{4}{5}~~~~~\text{or}~~~~~ \dfrac{2}{3} \times \dfrac{4}{5}</me>
+If you look at figure (b), you can see that you are taking home 8 pieces of cake, and that the original cake would have had 15 pieces of the same size. This means that your share is <m>\dfrac{8}{15}</m> of the original cake.</p>
+
+<p> We get the same answer if we use the rule above.
+    <md><mrow> \amp \blert{\text{Multiply numerators together.}}</mrow>
+        <mrow>\dfrac{2}{3} \times \dfrac{4}{5} = \dfrac{2 \times 4}{3 \times 5} = \dfrac{8}{15}~~~~~~\amp \blert{\text{Multiply denominators together.}}</mrow></md></p>
+
+<p>There is a shortcut for multiplying fractions that allows us to reduce the answer before we multiply. We do this by dividing out any common factors in a numerator and a denominator. For example,
     <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{\cancel{3} \cdot \cancel{a}}{4} \cdot \dfrac{5}{\cancel{3} \cdot 2 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me>
 or
-    <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{15a}{24a^2} = \dfrac{\cancel{3} \cdot 5 \cdot\cancel{a}}{\cancel{3} \cdot 8 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me>
-    It is usually easier to cancel any common factors before multiplying.</p>
+    <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{15a}{24a^2} = \dfrac{\cancel{3} \cdot 5 \cdot\cancel{a}}{\cancel{3} \cdot 8 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me></p>
+
+<p>It is usually easier to cancel any common factors before multiplying. But be careful: if the numerators or denominators have more than one term, we'll need to factor them before looking for common factors!</p>
 
 <example><statement><p>Multiply  <m>~\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2}</m></p></statement>
 
@@ -23,6 +63,9 @@ or
     <md><mrow>\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2} \amp = \dfrac{2\cancel{(x-2)}}{\cancel{3}(x+2)} \cdot \dfrac{\cancel{3}(2x+3)}{\cancel{x-2}}</mrow>
         <mrow>\amp = \dfrac{2(2x+3)}{x+2}~~~~\text{or}~~~~\dfrac{4x+6}{x+2}</mrow></md></p>
 </solution></example>
+
+<warning><idx><h>canceling to reduce a fraction</h></idx>
+<p>In the previous Example, it would be incorrect to try to cancel any <em>terms</em> of numerators and denominators before factoring each binomial. For example, we cannot cancel <m>3x</m> into <m>6x</m>, because they are not factors of the fractions.</p></warning>
 
 <exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>
@@ -68,7 +111,7 @@ or
 
 <exercise component="main"><title>Practice 1</title>
 <statement><p>Find the product   <m>\quad\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2}</m></p></statement>
-    <solution><p><m>\dfrac{-y(2y-1)}{2(y+2)}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{-y(2y-1)}{2(y+2)}</m></p></answer></exercise>
 
 <p>To multiply a fraction by a whole number, we write the whole number with 1 as denominator. 
     <me>\dfrac{2}{3} \cdot \alert{4} = \dfrac{2}{3} \cdot \alert{\dfrac{4}{1}} = \dfrac{8}{3}</me>
@@ -95,16 +138,42 @@ We express this rule in symbols as follows.</p>
 <p>If <m>b, c, d \ne 0</m>, then
     <me>\blert{\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}}</me></p></assemblage>
 
-<p>Thus, to divide two algebraic fractions, we take the reciprocal of the divisor and then follow the rules for multiplying algebraic fractions.</p>
+<p>Why does this rule for division work? Consider a simple example, <m>6 \div \dfrac{1}{3}</m>.  This quotient asks us "how many one-thirds are there in six?" To see the answer, we can draw six whole units as shown below, and split each into thirds.</p>
 
-<example><statement><p>Divide:  <m>~\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a}</m></p></statement>
+<sidebyside width="65%"><!--<image source="photos/fig-8-2-2.png"><description>rectangles</description></image>-->
+    <image xml:id="fig-8-2-2"><description>rectangles</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \foreach \x in {1,2,3,...,6} {
+         \draw[black, very thick] ({1.2*\x-.5},0) rectangle ++(1,2.1);
+         \draw[black, thick] ({1.2*\x-.5},0.7)--++(1,0);
+         \draw[black, thick] ({1.2*\x-.5},1.4)--++(1,0);
+         \node[text=blue, scale=.8] at ($1.2*(\x,-.3)$) {\x};
+        }
 
-<solution><p>First, we change the operation to multiplication by taking the reciprocal of the divisor.
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+
+<p>Because there are 3 thirds in each whole unit, we find <m>6 \times 3</m>, or 18 thirds in six units. The answer is 18. Now, 3 is the reciprocal of <m>\dfrac{1}{3}</m>, so by using the reciprocal rule, we also find
+    <me>6 \div \dfrac{1}{3} = 6 \times 3 = 18</me></p>
+
+<p>For a more interesting example, you might try using the figure above to show that 
+    <me>6 \div \dfrac{2}{3} = 6 \times \dfrac{3}{2} = 9</me>
+(Hint:  How many groups of two thirds can you make from six whole units?)</p>
+
+<p>Thus, to divide two algebraic fractions, we take the reciprocal of the divisor (the second fraction) and then follow the rules for multiplying algebraic fractions.</p>
+
+<example><statement><p>Divide:  <m>~\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a}</m> <m>~\alert{\text{[TK]}}~~</m></p></statement>
+
+<solution><p>First, we change the operation to multiplication by taking the reciprocal of the second fraction.
     <me>\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a} = \dfrac{a-2}{6a^2} \cdot \dfrac{4a^2-2a}{4-a^2}</me>
 Now we follow the rules for multiplication:  First, we factor each numerator and denominator.
     <md><mrow>\amp = \dfrac{a-2}{3 \cdot 2 \cdot a \cdot a} \cdot \dfrac{2a(2a-1)}{(2-a)(2+a)} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
         <mrow>\amp = \dfrac{-1 \cancel{(2-a)}}{3 \cdot \cancel{2} \cdot \cancel{a} \cdot a} \cdot \dfrac{\cancel{2}a(2a-1)}{\cancel{(2-a)}(2+a)} \amp \amp \blert{\text{Note}~a-2 = -1(2-a).}</mrow>
         <mrow> \amp = \dfrac{-1(2a-1)}{3a(2+a)} = \dfrac{1-2a}{3a(2+a)}</mrow></md></p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of multiplying and dividing algebraic fractions, see <xref ref="tkMultDiv" text="custom"> Section 8.3.3 </xref> of the Toolkit.</p></aside>
 
 <note><p>When working with algebraic fractions, we often leave the denominators in factored form. This makes it easier to add and subtract fractions, and to check whether they can be reducecd.</p></note>
 
@@ -143,7 +212,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 1</title>
-<statement><p>Fill in the blanks.</p>
+<statement><p>Fill in the blanks tosomplete each statement.</p>
     <p><ol marker="a">
           <li><p>The first step in multiplying fractions is to <fillin characters="10"/>.</p></li>
           <li><p>It is usually easier to cancel common factors <fillin characters="10"/> multiplying.</p></li>
@@ -202,7 +271,8 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Divide: <m>~\dfrac{x^2-4y^2}{4y^2} \div \dfrac{x^2-3xy+2y^2}{3xy}</m></p></statement>
-    <solution><p><m>\dfrac{3x(x+2y)}{4y(x-y)}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{3x(x+2y)}{4y(x-y)}</m></p></answer></exercise>
+
 </subsection>
 
 <subsection><title>Adding and Subtracting Like Fractions</title><idx><h>fraction</h><h>adding or subtracting</h></idx><idx><h>like fractions</h><h>adding or subtracting</h></idx><idx>sum or difference of fractions</idx>
@@ -217,8 +287,8 @@ we can think of the sum  <m>~\dfrac{3}{5}+\dfrac{4}{5}~</m> as
     <me>3\left(\dfrac{1}{5}\right)+4\left(\dfrac{1}{5}\right) =7\left(\dfrac{1}{5}\right)</me>
 or <m>\dfrac{7}{5}</m>. The denominators of the terms must be the same because they tell us what kind of quantity we are adding.  We can add two quantities if they are the same kind.</p>
 
-<p>When we add like fractions, we add their numerators and keep their denominators the same.  For example,
-<me>\dfrac{10}{3x} +\dfrac{4}{3x} = \dfrac{10+4}{3x} = \dfrac{14}{3x}</me>
+<p>When we add like fractions, we add their numerators and keep their denominators the same. For example,
+    <me>\dfrac{10}{3x} +\dfrac{4}{3x} = \dfrac{10+4}{3x} = \dfrac{14}{3x}</me>
 The same holds true for all algebraic fractions.</p>
 
 <assemblage><title>Sum or Difference of Like Fractions</title><idx>sum or difference of fractions</idx><idx><h>fraction</h><h>adding or subtracting like fractions</h></idx><idx><h>like fractions</h><h>adding or subtracting</h></idx>
@@ -290,7 +360,7 @@ The same holds true for all algebraic fractions.</p>
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>Add:  <m>~\dfrac{2n}{n-3}+\dfrac{n+2}{n-3}</m></p></statement>
-    <solution><p><m>\dfrac{3n+2}{n-3}</m></p></solution></exercise>       
+    <answer><p><m>\dfrac{3n+2}{n-3}</m></p></answer></exercise>       
 
 <p>We must be careful when subtracting algebraic fractions: A subtraction sign in front of a fraction applies to the <em>entire</em> numerator.</p>
 
@@ -304,7 +374,7 @@ The same holds true for all algebraic fractions.</p>
             <md><mrow>\dfrac{-2x+2}{x-1} = \dfrac{-2\cancel{(x-1)}}{\cancel{x-1}} = -2</mrow></md></p>
 </solution></example>
 
-<warning><p>In the <xref ref="example-subtract-linear-fractionals" text="custom" >Example</xref> above, the subtraction symbol in the numerator <m>(x-3)-(3x-5)</m> applies to <em>both</em> terms of <m>(3x-5)</m>.  That is why
+<warning><p>In the Example above, the subtraction symbol in the numerator <m>(x-3)-(3x-5)</m> applies to <em>both</em> terms of <m>(3x-5)</m>.  That is why
     <me>(x-3)-(3x-5) = x-3-3x+5</me></p></warning>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
@@ -336,7 +406,7 @@ The same holds true for all algebraic fractions.</p>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-<statement><p>True or False.</p>
+<statement><p>Decide whether each statement is true or false.</p>
     <p><ol marker="a">
         <li><p>Like fractions have the same denominator.</p></li>
         <li><p>To add like fractions, we add their numerators and add their denominators.</p></li>
@@ -388,19 +458,20 @@ The same holds true for all algebraic fractions.</p>
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p> Subtract: <m>~\dfrac{3}{x^2+2x+1}-\dfrac{2-x}{x^2+2x+1}</m></p></statement>
-    <solution><p><m>\dfrac{1}{x+1}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{1}{x+1}</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Unlike Fractions</title><idx><h>fraction</h><h>unlike</h></idx>
 
-<p>Let's review the steps for adding or subtracting unlike fractions.  For example, to compute the sum
+<p>Let's review the steps for adding or subtracting unlike fractions. For example, to compute the sum
     <me>\dfrac{2}{3}+\dfrac{3}{4}</me>
-we first find the lowest common denominator<idx>lowest common denominator</idx><idx><h>LCD</h><see>lowest common denominator</see></idx>, or LCD, for the two fractions:  The smallest number that is a multiple of both 3 and 4 is 12.</p>
+we first find the <term>lowest common denominator</term><idx>lowest common denominator</idx><idx><h>LCD</h><see>lowest common denominator</see></idx>, or <term>LCD</term>, for the two fractions:  The smallest number that is a multiple of both 3 and 4 is 12.</p>
 
-<p>Next, we use the fundamental principle of fractions to build each fraction to an equivalent one with denominator 12:
-    <md><mrow>\dfrac{2}{3} = \dfrac{2 \cdot \alert{4}}{3 \cdot \alert{4}} = \dfrac{8}{12}</mrow>
-        <mrow>\dfrac{3}{4} = \dfrac{3 \cdot \alert{3}}{4 \cdot \alert{3}} = \dfrac{9}{12}</mrow></md>
-There is noting mysterious about the building process; we are breaking up each fraction into smaller pieces of the same size so that we can add them together.</p>
+<p>Next, we use the fundamental principle of fractions to <term>build</term> each fraction to an equivalent one with denominator 12. First, we multiply <m>\dfrac{2}{3}</m> by <m>\dfrac{4}{4}</m>. Because <m>\dfrac{4}{4}</m> is equal to 1, we have not changed the value of the fraction.  4 is called the <term>building factor</term><idx><h>building factor</h></idx> for <m>\dfrac{2}{3}</m>. Similarly, we multiply <m>\dfrac{3}{4}</m> by <m>\dfrac{3}{3}</m>.
+        <md><mrow>\dfrac{2}{3} \amp = \dfrac{2 \cdot \blert{4}}{3 \cdot \blert{4}} = \dfrac{8}{12} \amp \amp \blert{\text{The 
+            building factor is 4.}}</mrow>
+            <mrow>\dfrac{3}{4} \amp = \dfrac{3 \cdot \blert{3}}{4 \cdot \blert{3}} = \dfrac{9}{12} \amp \amp \blert{\text{The building factor is 3.}}</mrow></md>
+There is nothing mysterious about the building process; we are breaking up each fraction into smaller pieces of the same size so that we can add them together.</p>
 
     <image width="70%" xml:id="fig-add-unlike-fraction"><description>subdivided rectangles</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -450,7 +521,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
     <li>Reduce the sum or difference if necessary.</li>
 </ol></p></assemblage>
 
-<example> <statement><p>Subtract: <m>~\dfrac{x+2}{6}-\dfrac{x-1}{15}</m></p></statement>
+<example><statement><p>Subtract: <m>~\dfrac{x+2}{6}-\dfrac{x-1}{15}</m></p></statement>
     
 <solution><p>Step 1: We find the LCD:  The smallest multiple of both 6 and 15 is 30.</p>
     <p>Step 2:  We build each fraction to an equivalent one with denominator 30. The building factor for the first fraction is <m>\alert{5}</m>, and for the second fraction the building factor is <m>\alert{2}</m>.
@@ -507,7 +578,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Add: <m>\dfrac{5x}{6} + \dfrac{3-2x}{4}</m></p></statement>
-    <solution><p><m>\dfrac{4x+9}{12}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{4x+9}{12}</m></p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -549,7 +620,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
-<statement> <p>Fill in the blanks.</p>
+<statement> <p>Fill in the blanks to complete each statement.</p>
     <p><ol marker="a">
       <li><p>To add unlike fractions, we must first convert them into <fillin characters="10"/> fractions.</p></li>
       <li><p>Building a fraction is an application of the <fillin characters="10"/>.</p></li>
@@ -562,7 +633,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
 
 <p>The <term>lowest common denominator</term><idx>lowest common denominator</idx><idx><h>fraction</h><h>lowest common denominator</h><see>lowest common denominator</see></idx> for two or more algebraic fractions is the simplest algebraic expression that is a multiple of each denominator. If neither denominator can be factored, then their LCD is just the product of the two expressions.</p>
 
-<example><statement><p>Add:  <m>~\dfrac{6}{x} + \dfrac{x}{x-2}</m></p></statement>
+<example><statement><p>Add:  <m>~\dfrac{6}{x} + \dfrac{x}{x-2}</m> </p></statement>
 
 <solution><p>Step 1: The LCD for these fractions is just the product of their denominators, <m>x(x-2)</m>.</p>
 <p>Step 2: We build each fraction to an equivalent one with denominator <m>x(x-2)</m>.  The building factor for <m>\dfrac{6}{x}</m> is <m>\alert{(x-2)}</m> and the building factor for <m>\dfrac{x}{x-2}</m> is <m>\alert{x}</m>.  We multiply numerator and denominator of each fraction by its building factor.
@@ -572,6 +643,8 @@ We add or subtract algebraic fractions with the same three steps.</p>
     <md><mrow>\dfrac{6}{x} + \dfrac{x}{x-2} \amp = \dfrac{6x-12}{x(x-2)} + \dfrac{x^2}{x(x-2)} \amp \amp \blert{\text{Combine the numerators.}}</mrow>
         <mrow>\amp = \dfrac{x^2+6x-12}{x-2}</mrow></md></p>
 <p>Step 4: The numerator of this fraction cannot be factored, so the sum cannot be reduced.</p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more on finding the LCD, see <xref ref="tkLCD" text="custom"> Section 8.3.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 6</title>
 <webwork><pg-code>
@@ -616,7 +689,7 @@ We add or subtract algebraic fractions with the same three steps.</p>
 
 <exercise component="main"><title>Practice 6</title>
 <statement><p>Write as a single fraction in reduced form:  <m>~\dfrac{2}{x+2} - \dfrac{3}{x-2}</m></p></statement>
-    <solution><p><m>\dfrac{-x-10}{x^2-4}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{-x-10}{x^2-4}</m></p></answer></exercise>
 
 <p>If the denominators contain any common factors, the LCD is not simply their product. For example, the LCD for 
     <me>\dfrac{5}{12}+\dfrac{7}{18}</me>
@@ -642,7 +715,7 @@ You can check that both 12 and 18 divide evenly into 36.</p>
  The factor <m>(x-1)</m> occurs once in the first denominator, the factor <m>x</m> occurs once in the second denominator, and the factor <m>(x+1)</m> occurs once in each denominator.  Therefore we include in our LCD one copy of each of these factors.  The LCD is  <m>x(x-1)(x+1)</m>.  </p>
 </solution></example>
 
-<warning><p>In the previous <xref ref="Example-find-LCD" text="custom">Example</xref>, we do not include two factors of <m>(x+1)</m> in the LCD. We need only one factor of <m>(x+1)</m>, because <m>(x+1)</m> occurs only once in each denominator. You can check that each original denominator divides evenly into our LCD, <m>x(x-1)(x+1)</m>.  </p></warning> 
+<warning><p>In the previous Example, we do not include two factors of <m>(x+1)</m> in the LCD. We need only one factor of <m>(x+1)</m>, because <m>(x+1)</m> occurs only once in each denominator. You can check that each original denominator divides evenly into our LCD, <m>x(x-1)(x+1)</m>.  </p></warning> 
 
 <exercise component="webwork"><title>Practice 7</title>
 <webwork><pg-code>
@@ -656,7 +729,7 @@ You can check that both 12 and 18 divide evenly into 36.</p>
 
 <exercise component="main"><title>Practice 7</title>
 <statement><p>Find the LCD for the fractions <m>~\dfrac{1}{2x^3(x-1)^2}~</m> and <m>~\dfrac{3}{4x^2-4x}~</m></p></statement>
-    <solution><p><m>4x^3(x-1)^2</m></p></solution></exercise>
+    <answer><p><m>4x^3(x-1)^2</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Adding and Subtracting Unlike Fractions</title><idx><h>fraction</h><h>adding or subtracting unlike fractions</h></idx>
@@ -665,9 +738,9 @@ You can check that both 12 and 18 divide evenly into 36.</p>
 
 <p>Building a fraction is an application of the fundamental principle of fractions, 
     <me>\dfrac{a}{b} = \dfrac{a \cdot c}{b \cdot c},~~~~\text{if}~~~~c \ne 0</me>  
-It is the opposite of reducing a fraction, because we multiply, rather than divide, the numerator and denominator by an appropriate factor.  To find the <term>building factor</term><idx>building factor</idx><idx><h>fraction</h><h>building factor</h></idx>, we compare the factors of the original denominator with those of the desired common denominator.</p>
+It is the opposite of reducing a fraction, because we multiply, rather than divide, the numerator and denominator by an appropriate factor. To find the <term>building factor</term><idx>building factor</idx><idx><h>fraction</h><h>building factor</h></idx>, we compare the factors of the original denominator with those of the desired common denominator.</p>
 
-<example><statement><p>Add:  <m>~\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4}</m></p></statement>
+<example><statement><p>Add:  <m>~\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4}</m> <m>~\alert{\text{[TK]}}</m> </p></statement>
 
 <solution><p>Step 1: Find the LCD. We factor each denominator completely.
     <md><mrow>x^2-2x \amp = x(x-2)</mrow>
@@ -683,6 +756,8 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
 <p>Step 4: Finally, we reduce the fraction.
     <me>\dfrac{x^2+2x+8}{x(x-2)(x+2)} = \dfrac{(x+4)\cancel{(x-2)}}{x\cancel{(x-2)}(x+2)} = \dfrac{x+4}{x(x+2)}</me></p>
 </solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help with building, see <xref ref="tkBuild" text="custom"> Section 8.3.2 </xref> of the Toolkit.</p></aside>
 
 <warning><p>Do not reduce the built-up fractions in Step 3 -- you will just get back to the original problem. When adding fractions, we have to make the fractions "harder" before we can combine them. Don't reduce until the last step of the problem.</p></warning>
 
@@ -716,7 +791,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 4</title>
-<statement><p>True or False.</p>
+<statement><p>Decide whether each statement is true or false.</p>
     <p><ol marker="a">
         <li><p>We can always find the LCD by multiplying together the denominators of the fractions.</p></li>
         <li><p>If each denominator includes one factor of <m>x-3</m>, we include two factors of <m>x-3</m> in the LCD.</p></li>
@@ -767,7 +842,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
 
 <exercise component="main"><title>Practice 8</title>
 <statement><p>Subtract: <m>\quad\dfrac{2}{x^2-x-2} - \dfrac{2}{x^2+2x+1}~</m></p></statement>
-    <solution><p><m>\dfrac{6}{(x+1)^2(x-2)}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{6}{(x+1)^2(x-2)}</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -780,7 +855,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
 
 <solution><p><ol marker="a">
     <li><p>Recall that  <m>\text{time} = \dfrac{\text{distance}}{\text{rate}}</m>. If we let <m>r</m> represent the speed of the plane in still air, then the time required for a one-way trip is
-    <me>f(r) = \dfrac{800}{r}</me></p></li>
+    <me>t = f(r) = \dfrac{800}{r}</me></p></li>
     <li><p>On the trip from Dallas to Phoenix the plane encounters a head wind of 30 miles per hour, so its actual ground speed is <m>r-30</m>.  On the return trip the plan enjoys a tail wind of 30 miles per hour, so its actual ground speed is <m>r+30</m>.  Therefore, the flying times are
         <md><mrow>\text{Dallas to Phoenix:}~~~\dfrac{800}{r-30}</mrow>
             <mrow>\text{Phoenix to Dallas:}~~~\dfrac{800}{r+30}</mrow></md></p></li>
@@ -813,17 +888,17 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 9</title>
-    <statement><p>A rowing team can maintain a speed of 15 miles per hour in still water.  he team's daily training session includes a 5-mile run up the Red Cedar River and the return downstream.</p>
+    <statement><p>A rowing team can maintain a speed of 15 miles per hour in still water. The team's daily training session includes a 5-mile run up the Red Cedar River and the return downstream.</p>
     <p><ol marker="a">
         <li><p>Express the team's time on the upstream leg as a function of the speed of the current.</p></li>
         <li><p>Write a function for the team's time on the downstream leg.</p></li>
         <li><p> Write and simplify an expression for the total time for the training run as a function of the current's speed.</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+<answer><p><ol marker="a">
         <li><m>\dfrac{5}{15-c}</m></li>
         <li><m>\dfrac{5}{15+c}</m></li>
         <li><m>\dfrac{150}{225-c^2}</m></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
 </subsection>
 
 <xi:include href="./section-8-3-exercises.xml" />                

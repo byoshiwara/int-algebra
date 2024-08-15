@@ -23,7 +23,8 @@ There are several other kinds of roots, one of which is called the <term>cube ro
         <mrow> -3=\sqrt[3]{-27}~~~~~~ \amp \text{because} \amp \amp (-3)^3=-27</mrow></md>       
 Simplifying radicals occupies the same position in the order of operations as computing powers:  after parentheses, and before products and quotients.</p>
 
-<example><statement><p>Simplify each expression.<ol marker="a" cols = "2">
+<example><statement><p>Simplify each expression. <m>~\alert{\text{[TK]}}</m>
+<ol marker="a" cols = "2">
     <li><m>3\sqrt[3]{-8}</m></li>
     <li> <m>2-\sqrt[3]{-125}</m></li></ol></p>
 </statement>
@@ -32,6 +33,9 @@ Simplifying radicals occupies the same position in the order of operations as co
     <li><m>3\sqrt[3]{-8}=3(-2)=-6</m></li>
     <li><m>2-\sqrt[3]{-125}=2-(-5)=7</m></li>
 </ol></p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of cube roots, see <xref ref="tkCubRt" text="custom"> Section 5.3.1 </xref>
+and <xref ref="tkOrderOp" text="custom"> Section 5.3.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title> Practice 1</title>
 <webwork>
@@ -86,7 +90,7 @@ Simplifying radicals occupies the same position in the order of operations as co
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 1</title>
-<statement><p>True or False.</p>
+<statement><p>Decide whether each statement is true or false.</p>
     <p><ol marker="a">
         <li><p>A negative number has a negative cube root.</p></li>
         <li><p>A negative number has a negative square root.</p></li>
@@ -102,7 +106,7 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
 <subsection><title>Absolute Value</title>
 
 <p>We use the absolute value to discuss problems involving distance. For example, consider the number line below.  Starting at the origin, we travel in opposite <em>directions</em> to reach the two numbers <m>6</m> and <m>-6</m>, but the <em>distance</em> we travel in each case is the same.</p>
-<image width="50%" source="images/fig-abs-six"><description>absolute value</description></image>  
+    <image width="50%" source="images/fig-abs-six"><description>absolute value</description></image>  
 
 <p>The distance from a number <m>c</m> to the origin is called the <term>absolute value</term><idx>absolute value</idx><idx><h>function</h><h>absolute value</h><see>absolute value</see></idx> of <m>c</m>, denoted by <m>\abs{c}</m>. Because distance is never negative, the absolute value of a number is always positive (or zero). Thus, <m>\abs{6}= 6</m> and <m>\abs{-6} = 6</m>. In general, we define the absolute value of a number <m>x</m> as follows.</p>
 
@@ -115,7 +119,7 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
                 \end{cases}</mrow></md></p></statement>
 </definition>
 
-<p>This definition is called <term>piecewise</term>, because the formula has two pieces.  It says that the absolute value of a positive number (or zero) is the same as the number.  To find the absolute value of a negative number, we take the opposite of the number, which is then positive.  For instance,
+<p>This definition is called <term>piecewise</term>, because the formula has two pieces.  It says that the absolute value of a positive number (or zero) is the same as the number. To find the absolute value of a negative number, we take the opposite of the number, which is then positive. For instance,
     <me>\abs{-6}=-(-6)=6</me></p>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
@@ -148,7 +152,7 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
 
 <p>Absolute value bars act like grouping devices in the order of operations:  you should complete any operations that appear inside absolute value bars before you compute the absolute value.</p>
 
-<example xml:id="example-abs"><statement><p>Simplify each expression.</p>
+<example xml:id="example-abs"><statement><p>Simplify each expression. <m>~\alert{\text{[TK]}}</m></p>
     <p><ol marker="a" cols ="2">
         <li><p><m>\abs{3 - 8}</m></p></li>
         <li><p><m>\abs{3} - \abs{8}</m></p></li>
@@ -159,6 +163,8 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
         <li><p>We simplify each absolute value; then subtract.
             <me>\abs{3} - \abs{8} = 3 - 8 = -5</me></p></li>
     </ol></p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples using absolute value, see <xref ref="tkAbsVal" text="custom"> Section 5.3.2 </xref> and <xref ref="tkOrderOp" text="custom"> Section 5.3.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
@@ -179,14 +185,14 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Simplify each expression.</p>
-            <p><ol marker="a" cols = "2">
-                <li><p><m>12 - 3 \left|-6\right|=</m></p></li>
-                <li><p><m>-7 - 3\left|2 - 9\right|=</m></p></li>
-            </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
-                <li><p><m>-6</m></p></li>
-                <li><p><m>-28</m></p></li>
-            </ol></p></solution></exercise>
+    <p><ol marker="a" cols = "2">
+        <li><p><m>12 - 3 \left|-6\right|=</m></p></li>
+        <li><p><m>-7 - 3\left|2 - 9\right|=</m></p></li>
+    </ol></p></statement>
+<solution><p><ol marker="a" cols="2">
+        <li><p><m>-6</m></p></li>
+        <li><p><m>-28</m></p></li>
+</ol></p></solution></exercise>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -213,11 +219,11 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
     </statement></exercise>
 </subsection>
 
-<subsection><title>Eight Basic Graphs</title><idx><h>graph</h><h>eight basic</h></idx>
+<subsection xml:id="EightBasicGraphs"><title>Eight Basic Graphs</title><idx><h>graph</h><h>eight basic</h></idx>
 
 <p>Most of the graphs in this section will be new to you, but many useful graphs are variations of the eight basic functions shown below.</p>
 
-<p>Consider the first pair of graphs.  You have already studied the graph of <m>f(x)=x^2</m>, the basic parabola. Compare that graph with the graph of <m>g(x)=x^3</m>. Notice several differences in the shape of the two graphs. Once you have a good idea of the shape of a graph, up can make a quick sketch with just a few "guide points." For these two graphs, complete a short table of values to find useful guide points:</p>
+<p>Consider the first pair of graphs. You have already studied the graph of <m>f(x)=x^2</m>, the basic parabola. Compare that graph with the graph of <m>g(x)=x^3</m>. Notice several differences in the shape of the two graphs. Once you have a good idea of the shape of a graph, up can make a quick sketch with just a few "guide points." For these two graphs, complete a short table of values to find useful guide points:</p>
 
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -243,7 +249,7 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
                         <cell><m>~~</m></cell></row>
                     </tabular>
 
-<image width="70%" source="images/fig-parabola-cubic"><description>graphs</description></image>
+    <image width="70%" source="images/fig-parabola-cubic"><description>graphs</description></image>
 
 <p>The next pair of graphs are <m>f(x)=\sqrt{x}</m> and <m>g(x)=\sqrt[3]{x}</m>. Once again, notice the differences in the two graphs. For example, we cannot take the square root of a negative number, but we can take its cube root. How is this reflected in the graphs?</p>
 
@@ -290,7 +296,7 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
 
 <p>Also, notice that for very large values of <m>x</m>, both <m>f(x)</m> and <m>g(x)</m> get very close to zero. Their graphs approach the horizontal line <m>y=0</m> (the <m>x</m>-axis).  This line is called the <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx><idx>horizontal asymptote</idx> for the graph.</p>
 
-<image width="70%" source="images/fig-inverses"><description>graphs</description></image>
+    <image width="70%" source="images/fig-inverses"><description>graphs</description></image>
 
 <p>Finally, compare the familiar graph of <m>f(x)=x</m> with the graph of <m>g(x)=\abs{x}</m>. The piecewise definition of <m>\abs{x}</m> means that we graph <m>y=x</m> in the first quadrant (where <m>x \ge 0</m>), and <m>y=-x</m> in the first quadrant <m>x \lt 0</m>).  The result is the V-shaped graph shown below.</p>
 

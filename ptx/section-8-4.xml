@@ -3,17 +3,18 @@
 
 <section xml:id="MoreOperationsonFractions"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>More Operations on Fractions</title>
 
+<introduction><p>In this section we consider a few more skills for working with algebraic fractions.</p></introduction>
+
 <subsection><title>Complex Fractions</title><idx><h>complex fraction</h></idx><idx><h>fraction</h><h>complex</h></idx>
 
 <p>A fraction that contains one or more fractions in either its numerator or its denominator or both is called a <term>complex fraction</term><idx>complex fraction</idx>.  For example,
     <me>\dfrac{\dfrac{2}{3}}{\dfrac{5}{6}}~~~~~~\text{and}~~~~~~\dfrac{x+\dfrac{3}{4}}{x-\dfrac{1}{2}}</me>
-are complex fractions.  Like simple fractions, complex fractions represent quotients.  For the examples above,
+are complex fractions. Like simple fractions, complex fractions represent quotients. For the examples above,
     <me>\dfrac{\dfrac{2}{3}}{\dfrac{5}{6}} = \dfrac{2}{3} \div \dfrac{5}{6}</me>
 and
-    <md><mrow>
-        \dfrac{x+\dfrac{3}{4}}{x-\dfrac{1}{2}} = \left(x+\dfrac{3}{4}\right) \div \left(x-\dfrac{1}{2}\right)
-    </mrow></md>
-We can always simplify a complex fraction into a standard algebraic fraction.  One way to do this is to treat the fraction as a division.</p>
+    <me>
+        \dfrac{x+\dfrac{3}{4}}{x-\dfrac{1}{2}} = \left(x+\dfrac{3}{4}\right) \div \left(x-\dfrac{1}{2}\right)</me>
+We can always simplify a complex fraction into a standard algebraic fraction. One way to do this is to treat the fraction as a division.</p>
 
 <example><statement><p>Simplify  <m>~~\dfrac{\dfrac{2}{3}}{\dfrac{5}{6}}</m></p></statement>
 
@@ -65,22 +66,26 @@ We can always simplify a complex fraction into a standard algebraic fraction.  O
 
 <exercise component="main"><title>Practice 1</title>
 <statement><p>Simplify   <m>\quad\dfrac{\dfrac{2x}{y^3}}{\dfrac{x}{3y}}</m></p></statement>
-    <solution><p><m>\dfrac{6}{y^2}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{6}{y^2}</m></p></answer></exercise>
 
 <p>If the numerator or denominator of the complex fraction contains more than one term, there is an easier way to simplify the fraction. This method takes advantage of the fundamental principle of fractions.</p>
 
 <example><statement><p>Simplify  <m>~~\dfrac{\dfrac{1}{2x} - \dfrac{1}{x^2}}{\dfrac{1}{4} - \dfrac{1}{2x}}</m></p></statement>
 
-<solution><p>This complex fraction contains the simple fractions <m>\dfrac{1}{2x},~ \dfrac{1}{x^2},~ \dfrac{1}{4}</m> and <m>\dfrac{1}{2x}</m>. The LCD of these fractions is <m>4x^2</m>.  We multiply the numerator and denominator of the complex fraction by <m>4x^2</m>.  Doing this will not change the value of the fraction, but will clear all the "smaller" fractions inside. 
+<solution><p>This complex fraction contains the simple fractions <m>\dfrac{1}{2x},~ \dfrac{1}{x^2},~ \dfrac{1}{4}</m> and <m>\dfrac{1}{2x}</m>. The LCD of these fractions is <m>4x^2</m>.  We multiply the numerator and denominator of the complex fraction by <m>4x^2</m>.  Doing this will not change the value of the fraction, but will clear all the "smaller" fractions inside.
+
     <me>\dfrac{\dfrac{1}{2x} - \dfrac{1}{x^2}}{\dfrac{1}{4} - \dfrac{1}{2x}} =\dfrac{\alert{4x^2}\left(\dfrac{1}{2x} - \dfrac{1}{x^2}\right)}{\alert{4x^2}\left(\dfrac{1}{4} - \dfrac{1}{2x}\right)} </me>  
+
 Then we apply the distributive law, so that we multiply each term of the numerator and each term of the denominator by <m>\alert{4x^2}</m>.
+
     <me>\dfrac{\alert{4x^2}\left(\dfrac{1}{2x} - \dfrac{1}{x^2}\right)}{\alert{4x^2}\left(\dfrac{1}{4} - \dfrac{1}{2x}\right)}  = 
         \dfrac{\alert{\dfrac{4x^2}{1}} \cdot \dfrac{1}{2x} - \alert{\dfrac{4x^2}{1}} \cdot \dfrac{1}{x^2}}{\alert{\dfrac{4x^2}{1}} \cdot \dfrac{1}{4} - \alert{\dfrac{4x^2}{1}} \cdot \dfrac{1}{2x}}=\dfrac{2x-4}{x^2-2x}</me>
+
 Finally, we reduce the result to obtain
     <me>\dfrac{2x-4}{x^2-2x} = \dfrac{2\cancel{(x-2)}}{x\cancel{(x-2)}} = \dfrac{2}{x}</me></p></solution>
 </example>
 
- <p> We summarize the procedure for multiplying algebraic fractions as follows.</p>
+ <p> We summarize the procedure for simplifying complex fractions as follows.</p>
 
  <assemblage><title>To simplify a complex fraction</title><idx><h>complex fraction</h><h>simplify</h></idx><idx><h>fraction</h><h>complex</h></idx><idx><h>fraction</h><h>simplify</h></idx><idx>simplifying a complex fraction</idx>
  <p><ol marker="1">
@@ -133,14 +138,15 @@ Finally, we reduce the result to obtain
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Simplify <m>\quad \dfrac{1+\dfrac{b}{a}}{1-\dfrac{bc}{ad}}</m></p></statement>
-    <solution><p><m>\dfrac{ad+bd}{ad-bc}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{ad+bd}{ad-bc}</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Negative Exponents</title><idx>negative exponents</idx>
 
 <p>Algebraic fractions are sometimes written using negative exponents. </p>
 
-<example xml:id="Example-negarive-exponents-for-algebraic-fractions" ><statement><p>Write each expression as a single algebraic fraction. <ol marker="a" cols="2">
+<example xml:id="Example-negarive-exponents-for-algebraic-fractions" ><statement><p>Write each expression as a single algebraic fraction. <m>~\alert{\text{[TK]}}</m>
+<ol marker="a" cols="2">
     <li><m>x^{-1}-y^{-1}</m></li>
     <li><m>(x^{-2}+y^{-2})^{-1}</m></li>
 </ol></p></statement>
@@ -156,7 +162,9 @@ Finally, we reduce the result to obtain
     For the last step, remember that a negative exponent indicates the reciprocal of its base.</p></li>
 </ol></p></solution></example>
 
-<warning><p>When working with fractions and exponents,it is important to avoid some tempting but <em>incorrect</em> algebraic operations. <ol marker="1">
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review negative exponents, see <xref ref="tkUseNegExp" text="custom"> Section 8.4.1 </xref> of the Toolkit.</p></aside>
+
+<warning><p>When working with fractions and exponents, it is important to avoid some tempting but <em>incorrect</em> algebraic operations. <ol marker="1">
     <li><p>In part (a) of <xref ref="Example-negarive-exponents-for-algebraic-fractions" text="type-global"/>, note that     
             <me>\dfrac{1}{x} - \dfrac{1}{y} \ne \dfrac{1}{x-y}</me>
         For example, you can check that, for <m>x=2</m> and <m>y=3</m> ,
@@ -209,7 +217,7 @@ Finally, we reduce the result to obtain
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>Simplify <m>\quad(1+x^{-1})^{-1}</m></p></statement>
-    <solution><p><m>\dfrac{x}{x+1}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{x}{x+1}</m></p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
@@ -240,12 +248,12 @@ Finally, we reduce the result to obtain
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 1</title>
-<statement><p>True or False.</p>
+<statement><p>Decide whether each statement is true or false.</p>
 <p><ol marker="a">
-        <li><p><m>\dfrac{1+\dfrac{1}{x}}{1-\dfrac{1}{x^2}} = \left(1+\dfrac{1}{x}\right) \div \left(1-\dfrac{1}{x^2}\right)</m></p></li>
-        <li><p><m>\dfrac{1+\dfrac{1}{x}}{1-\dfrac{1}{x^2}} = \dfrac{x+1}{x^2+1}</m></p></li>
-        <li><p><m>\left(a^{-1}+b^{-1}\right)^{-2} = a^{-2} + b^{-2}</m></p></li>
-        <li><p><m>\dfrac{\dfrac{1}{a} - \dfrac{1}{b}}{\dfrac{1}{a} + \dfrac{1}{b}} = \dfrac{\dfrac{1}{a-b}}{\dfrac{1}{a+b}}</m></p></li>
+    <li><p><m>\dfrac{1+\dfrac{1}{x}}{1-\dfrac{1}{x^2}} = \left(1+\dfrac{1}{x}\right) \div \left(1-\dfrac{1}{x^2}\right)</m></p></li>
+    <li><p><m>\dfrac{1+\dfrac{1}{x}}{1-\dfrac{1}{x^2}} = \dfrac{x+1}{x^2+1}</m></p></li>
+    <li><p><m>\left(a^{-1}+b^{-1}\right)^{-2} = a^{-2} + b^{-2}</m></p></li>
+    <li><p><m>\dfrac{\dfrac{1}{a} - \dfrac{1}{b}}{\dfrac{1}{a} + \dfrac{1}{b}} = \dfrac{\dfrac{1}{a-b}}{\dfrac{1}{a+b}}</m></p></li>
     </ol></p></statement></exercise>
 </subsection>
 
@@ -256,9 +264,9 @@ Finally, we reduce the result to obtain
 <example><statement><p>On a weekday afternoon, when traffic is always horrible, Kathy left her home north of Los Angeles and drove south 120 miles along the San Diego Freeway to San Juan Capistrano. Her average speed was 40 miles per hour.  She returned home on Saturday, at an average speed of 60 miles per hour. What was her average speed for the round trip?
 </p></statement>
 
-<solution><p>If you said that the average speed is 50 miles per hour, you would be wrong!  Let's do some calculations.  Kathy's average speed for the round trip is given by
+<solution><p>If you said that the average speed is 50 miles per hour, you would be wrong! Let's do some calculations. Kathy's average speed for the round trip is given by
     <me>\text{Average speed} = \dfrac{\text{Total distance}}{\text{Total time}}</me>
-The total distance she drove is 240 miles, but to find the total time we must compute the time Kathy drove on each part of the trip.  We use the formula <m>d=rt</m> and solve for <m>t</m>.</p>
+The total distance she drove is 240 miles, but to find the total time we must compute the time Kathy drove on each part of the trip. We use the formula <m>d=rt</m> and solve for <m>t</m>.</p>
 
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -321,25 +329,27 @@ Thus, the average speed for the entire trip is
             3
         );        
     </pg-code>
-    <statement><p>Bruce drove for 24 miles in rush-hour traffic at an average speed of 20 miles per hour. Then he drove 126 miles on the highway at an average speed of 70 miles an hour. Use the formula above to find his average speed for the entire trip.</p>
+<statement><p>Bruce drove for 24 miles in rush-hour traffic at an average speed of 20 miles per hour. Then he drove 126 miles on the highway at an average speed of 70 miles an hour. Use the formula above to find his average speed for the entire trip.</p>
         <p><var name="$v" width="2"/><var name="$mph" form="popup"/></p>
     </statement>
     <solution><p>50 mph</p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 4</title>
-    <statement><p>Bruce drove for 24 miles in rush-hour traffic at an average speed of 20 miles per hour. Then he drove 126 miles on the highway at an average speed of 70 miles an hour. Use the formula above to find his average speed for the entire trip.</p></statement>
-    <solution><p>50 mph</p></solution></exercise>
+<statement><p>Bruce drove for 24 miles in rush-hour traffic at an average speed of 20 miles per hour. Then he drove 126 miles on the highway at an average speed of 70 miles an hour. Use the formula above to find his average speed for the entire trip.</p></statement>
+    <answer><p>50 mph</p></answer></exercise>
 </subsection>       
 
 <subsection><title>Polynomial Division</title><idx><h>polynomial</h><h>division</h></idx>
 
-<p>Consider three improper fractions: <m>\dfrac{8}{6},~ \dfrac{8}{4},</m> and <m>\dfrac{8}{3}</m>.  Can these fractions be simplified? <ul>
+<p>Consider three improper fractions: <m>\dfrac{8}{6},~ \dfrac{8}{4},</m> and <m>\dfrac{8}{3}</m>. Can these fractions be simplified? <ul>
     <li>We can reduce the first fraction: <m>~\dfrac{8}{6} = \dfrac{4}{3}</m></li>  
     <li>The second fraction reduces to a whole number:  <m>~\dfrac{8}{4}  = \dfrac{2}{1} = 2</m></li> 
     <li>The third fraction does not reduce, but by dividing the denominator into the numerator, we can write it as a whole number plus a proper fraction:  <m>~\dfrac{8}{3} = 2\dfrac{2}{3}</m></li></ul></p>    
 
-<p>An algebraic fraction is "improper" if the degree of the numerator is greater than the degree of the denominator.  If it cannot be reduced, we can simplify the expression by treating it as a division of polynomials.  The quotient will be the sum of a polynomial and a simpler algebraic fraction.</p>
+<p>An algebraic fraction is "improper" if the degree of the numerator is greater than the degree of the denominator. If it cannot be reduced, we can simplify the expression by treating it as a division of polynomials. The quotient will be the sum of a polynomial and a simpler algebraic fraction. <m>~\alert{\text{[TK]}}</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review improper fractions, see <xref ref="tkImpFrac" text="custom"> Section 8.4.2 </xref> of the Toolkit.</p></aside>
 
 <p>If the divisor is a monomial, we can simply divide the monomial into each term of the numerator.</p>
 
@@ -356,8 +366,7 @@ Note that the quotient is the sum of a polynomial, <m>3x^2 - 2x</m>, and an alge
         $frac = Formula("-1/(2a)");
     </pg-code>
     <statement><p>
-        Divide: <m>~\dfrac{6a^3+2a^2-a}{2a^2}=</m> <var name="$poly" width="6"/><m>{}+{}</m> <var name="$frac" width="6"/>
-    </p>
+        Divide: <m>~\dfrac{6a^3+2a^2-a}{2a^2}=</m> <var name="$poly" width="6"/><m>{}+{}</m> <var name="$frac" width="6"/></p>
     <instruction>Enter the appropriate polynomial in the first box, and enter the algebraic fraction in the second box.</instruction>
     </statement>
     <solution><p><m>3a + 1 - \dfrac{1}{2a}</m></p></solution>
@@ -365,11 +374,11 @@ Note that the quotient is the sum of a polynomial, <m>3x^2 - 2x</m>, and an alge
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Divide: <m>~\dfrac{6a^3+2a^2-a}{2a^2}</m></p></statement>
-    <solution><p><m>3a + 1 - \dfrac{1}{2a}</m></p></solution></exercise>
+    <answer><p><m>3a + 1 - \dfrac{1}{2a}</m></p></answer></exercise>
 
 <p>If the denominator is not a monomial, we use a method similar to the long division algorithm used in arithmetic.</p>
 
-<example xml:id="example-long-division"><statement><p>Divide <m>~~\dfrac{2x^2+x-7}{x+3}</m> </p></statement>
+<example xml:id="example-long-division"><statement><p>Divide <m>~~\dfrac{2x^2+x-7}{x+3}</m> <m>~\alert{\text{[TK]}}</m></p></statement>
 
 <solution><p>We first write the quotient as a division problem:
     <md><mrow>\require{enclose}x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex </mrow></md>
@@ -400,6 +409,8 @@ Because the degree of the remainder, 8, is less than the degree of <m>x + 3</m>,
         <me>\dfrac{2x^2 + x - 7}{x + 3} = 2x - 5 + \dfrac{8}{x + 3}</me>
 </p></solution></example>
 
+<aside><p><m>\alert{\text{[TK]}}~~</m>To check a polynomial division, see <xref ref="tkCheckDiv" text="custom"> Section 8.4.3 </xref> of the Toolkit.</p></aside>
+
 <p>When using polynomial division, it helps to write the polynomials in descending powers of the variable. If the numerator is missing any terms, we can insert terms with zero coefficients so that like powers will be aligned. For example, to perform the division
     <me>\dfrac{3x - 1 + 4x^3}{2x-1}</me>
 we first write the numerator in descending powers as <m>4x^3 + 3x - 1</m>. We insert <m>0x^2</m> between <m>4x^3</m> and <m>3x</m> and set up the quotient as
@@ -424,7 +435,7 @@ We then proceed as in <xref ref="example-long-division" text="type-global"/>. Yo
 
 <exercise component="main"><title>Practice 6</title>
 <statement><p>Divide: <m>\dfrac{4+8y^2-3y^3}{3y+1}</m></p></statement>
-    <solution><p><m>-y^2+3y-1+ \dfrac{5}{3y+1}</m></p></solution></exercise>
+    <answer><p><m>-y^2+3y-1+ \dfrac{5}{3y+1}</m></p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
@@ -454,7 +465,7 @@ We then proceed as in <xref ref="example-long-division" text="type-global"/>. Yo
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-<statement><p>True or False.</p>
+<statement><p>Decide whether each statement is true or false.</p>
     <p><ol marker="a">
         <li><p>The shortcut for simplifying complex fractions applies the fundamental principle of fractions.</p></li>
         <li><p>An improper algebraic fraction is one in which the denominator has higher degree than the numerator.</p></li>

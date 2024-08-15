@@ -12,6 +12,7 @@
     <li><p>initial value</p></li>
     <li><p>compound interest</p></li>
     <li><p>principal</p></li>
+    <li><p>balance</p></li>
     <li><p>percent growth rate</p></li>
     <li><p>exponential decay</p></li>
     <li><p>decay factor</p></li>
@@ -20,7 +21,6 @@
     <li><p>exponential equation</p></li>
     <li><p>logarithm</p></li>
     <li><p>common logarithm</p></li>
-    <li><p>logarithmic scale</p></li>
     <li><p>doubling time</p></li>
     <li><p>half-life</p></li>
 </ul></p>
@@ -89,30 +89,30 @@
             <cell><p><term>Exponential Functions</term></p></cell></row>
         <row>
             <cell><p><em>General formula</em></p></cell>
-            <cell><p><m>h(x)=kx^p</m></p></cell>
-            <cell><p><m>f(x)=ab^x</m></p></cell></row>
+            <cell><p><m>f(x)=kx^p</m></p></cell>
+            <cell><p><m>g(x)=ab^x</m></p></cell></row>
         <row>
             <cell><p><em>Description</em></p></cell>
             <cell><p>variable base and constant exponent</p></cell>
             <cell><p>constant base and variable exponent</p></cell></row>
         <row>
             <cell><p><em>Example</em></p></cell>
-            <cell><p><m>h(x)=2x^3</m></p></cell>
-            <cell><p><m>f(x)=2(3^x)</m></p></cell></row>
+            <cell><p><m>f(x)=2x^3</m></p></cell>
+            <cell><p><m>g(x)=2(3^x)</m></p></cell></row>
         </tabular></sidebyside></assemblage></li>
     <li>Many exponential equations can be solved by writing both sides of the equation as powers with the same base. If two equivalent powers have the same base, then their exponents must be equal also (as long as the base is not 0 or <m>\pm 1</m>).</li>
     <li><assemblage><title>Definition of Logarithm</title>
         <p>For <m>b\gt 0, b\ne 1</m>, the <term>base <m>b</m> logarithm of <m>x</m></term>,<idx>base</idx>
-        written <m>\log_{b} x</m>, is the exponent to which <m>b</m> must be raised in order to yield <m>x</m>.
+        written <m>\log_{(b)} x</m>, is the exponent to which <m>b</m> must be raised in order to yield <m>x</m>.
         </p></assemblage></li>
 	<li><assemblage><title>Logarithms and Exponents: Conversion Equations</title>
         <p>If <m>b \gt 0</m>, <m>b\ne 1</m>, and <m>x \gt 0</m>,
-            <me>\blert{y = \log_b x}~~~ \text{ if and only if }~~~ \blert{ x = b^y}</me></p></assemblage></li>
+            <me>\blert{y = \log_b {(x)}}~~~ \text{ if and only if }~~~ \blert{ x = b^y}</me></p></assemblage></li>
 	<li><assemblage><title>Some Useful Logarithms</title>
         <p>For any base <m>b \gt 0, b\ne 1</m>,
-            <md><mrow>\log_b b \amp = 1~~~ \text{ because } ~~~b^1 = b</mrow>
-                <mrow>\log_b 1 \amp = 0 ~~~ \text{ because } ~~~b^0 = 1</mrow>
-                <mrow>\log_b{b^x} \amp = x~~~ \text{ because } ~~~b^x = b^x</mrow></md>
+            <md><mrow>\log_b {(b)} \amp = 1~~~ \text{ because } ~~~b^1 = b</mrow>
+                <mrow>\log_b {(1)} \amp = 0 ~~~ \text{ because } ~~~b^0 = 1</mrow>
+                <mrow>\log_b{(b^x)} \amp = x~~~ \text{ because } ~~~b^x = b^x</mrow></md>
         </p></assemblage></li>
     <li>We use logarithms to solve exponential equations, just as we use square roots to solve quadratic equations. The operation of taking a base <m>b</m> logarithm is the inverse of raising the base <m>b</m> to a power, just as extracting square roots is the inverse of squaring a number.</li>
     <li><assemblage><title>Steps for Solving Base 10 Exponential Equations</title>
@@ -124,9 +124,9 @@
         </assemblage></li>
     <li><assemblage><title>Properties of Logarithms</title>
         <p>If <m>x,~y,</m> and <m>b\gt 0,</m> and <m>b\ne 1</m>, then <ol marker="1">
-            <li><m>\log_b {xy} = \log_b {x} + \log_b {y}</m></li>
-            <li><m>\log_b {\dfrac{x}{y}} = \log_b {x} - \log_b {y}</m></li>
-            <li><m>\log_b {x^k} = k\log_b {x} </m></li></ol>
+            <li><m>\log_b {(xy)} = \log_b {(x)} + \log_b {(y)}</m></li>
+            <li><m>\log_b {\left(\dfrac{x}{y}\right)} = \log_b {(x)} - \log_b {(y)}</m></li>
+            <li><m>\log_b {(x^k)} = k\log_b {(x)} </m></li></ol>
         </p></assemblage></li>
     <li><assemblage><title>Steps for Solving Exponential Equations</title>
         <p><ol marker="1">

@@ -3,6 +3,7 @@
 
 <backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Appendices</title>
+    <xi:include href="./toolkit.ptx" />  
     <xi:include href="./appendix-c.xml" />   <!-- Using a Geogebra Calculator App -->
 
 	<solutions divisional="answer" project="answer">

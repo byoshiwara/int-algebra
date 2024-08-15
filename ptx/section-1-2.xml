@@ -29,7 +29,8 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
     </pg-code>    
     <statement>
         <p>Which of the following values are solutions of the equation
-            <md><mrow>-2x^3+x^2+16x=15\text{?}</mrow></md></p>
+            <md><mrow>-2x^3+x^2+16x=15\text{?}</mrow></md></p> 
+            
             <p><ul>
                 <li><p><m>x=2</m> <var name="$False" form="popup"/></p></li>
                 <li><p><m>x=-3</m> <var name="$True" form="popup"/></p></li>
@@ -43,7 +44,8 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Which of the following values are solutions of the equation
-            <me>-2x^3+x^2+16x=15\text{?}</me></p>
+            <me>-2x^3+x^2+16x=15\text{?}</me>
+            <m>\alert{\text{[TK]}}~~</m></p>
     <p><ol marker="a" cols="2">
         <li><p><m>x=2</m></p></li>
         <li><p><m>x=-3</m></p></li>
@@ -51,17 +53,21 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
         <li><p><m>x=1</m></p></li>
     </ol></p></statement></exercise>
 
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help on checking for a solution, see <xref ref="tkVerify" text="custom"> Section 1.2.1 </xref> of the Toolkit.</p></aside>
+
 <p>A <term>linear equation</term> has no powers of the variable other than 1. It has at most one solution. We find the solution by transforming the equation into a simpler <term>equivalent equation</term> whose solution is obvious.</p>
 
 <example><statement><p>Solve the equation <m>~~3(2x-5)-4x=2x-(6-3x) </m></p></statement>
 
-<solution><p>We begin by simplifying each side of the equation.
+<solution><p>We begin by simplifying each side of the equation.<m>\alert{\text{[TK]}}~~</m>
         <md><mrow>3(2x-5)-4x\amp  =2x-(6-3x)\amp\amp\blert{\text{Apply the distrubutive law. }} </mrow>
             <mrow>6x-15-4x\amp  =2x-6+3x\amp\amp\blert{\text{Combine like terms. }} </mrow>
             <mrow>2x-15\amp  =5x-6\amp\amp\blert{\text{Add } {-5x+15} \text{ to both sides} } </mrow>
             <mrow>-3x \amp = 9 \amp\amp \blert{\text{Divide both sides by }{-3.}} </mrow>
             <mrow>x\amp = -3</mrow></md>
 The solution is <m>-3</m>. You can check that substituting <m>x=-3</m> into the original equation produces a true statement.</p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help on solving linear equations, see <xref ref="tkParens" text="custom"> Section 1.2.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
@@ -109,7 +115,7 @@ The solution is <m>-3</m>. You can check that substituting <m>x=-3</m> into the 
 <solution><p>We begin by isolating the term containing the variable, just as we do when solving a linear equation. We subtract 5 from both sides to obtain  
         <me>-2x \lt -3</me>
 Then we divide both sides by <m>−2</m> to find
-        <me>x\gt \frac{-3}{-2}\amp =\frac{3}{2}\amp\amp\blert{\text{Reverse the direction of the inequality.}} </me>
+        <me>x \alert{\gt} \frac{-3}{-2}=\frac{3}{2} ~~~~~~~~~~~~~~~~ \blert{\text{Reverse the direction of the inequality.}} </me>
 Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequality. We write the solutions as <m>x \gt \frac{3}{2}</m>. Because we cannot list all of these solutions, we often illustrate them as a graph on a <term>number line</term>, as shown below.</p>
         <image width="70%" xml:id="fig-example-1-3-2"><description>number line for inequality</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -133,7 +139,9 @@ Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequ
 <p>If we multiply or divide both sides of an inequality by a negative number, we must reverse the direction of the inequality.</p>
 </assemblage>
 
-<p>Other than the rule stated in the box above, the rules for solving a linear inequality are the same as the rules for solving a linear equation.</p>
+<p>Other than the rule stated in the box above, the rules for solving a linear inequality are the same as the rules for solving a linear equation.<m>~~~\alert{\text{[TK]}}~~</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help on solving linear inequalities, see <xref ref="tkSolveLinIneq" text="custom"> Section 1.1.4 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
     <webwork><pg-code>
@@ -229,7 +237,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
         </statement>
     <solution><p>An ordered pair of values <m>(x,y) </m> that satisfy the equation.</p>
         </solution>
-</webwork>    </exercise>
+</webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>What is the solution of an equation in two variables?</p>
@@ -242,7 +250,8 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
 
 <example><statement><p><ol marker="a">
             <li><p>Is <m>(2,7.5) </m> a solution of the equation <m>~-3x+4y=24</m>?</p></li>
-            <li><p>Is <m>(4,3) </m> a solution of the equation <m>~-3x+4y=24</m>?</p></li></ol></p></statement>
+            <li><p>Is <m>(4,3) </m> a solution of the equation <m>~-3x+4y=24</m>?</p></li>
+</ol></p><m>\alert{\text{[TK]}}~~</m></statement>
 
 <solution><p><ol marker="a">
         <li><p>The ordered pair <m>(2,7.5) </m> is a solution of the equation above, because it satifies the equation.
@@ -250,6 +259,8 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
         <li><p>The ordered pair <m>(4,3) </m> is not a solution, because it does not satify the equation.
             <me>-3(\alert{4})+4(\alert{3})=-12+12=0\ne 24</me></p></li>
     </ol></p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help on finding solutions of an equation in two variables, see <xref ref="tkEqn2Var" text="custom"> Section 1.2.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork" xml:id="exercise-table-linear-equationw"><title>Practice 3</title>
     <webwork><pg-code>
@@ -502,7 +513,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
     <p><m>(-1.6,4.8) </m> lies on the graph and satisfies the equation.</p></answer></exercise>
 </subsection>
 
-<subsection><title>Graphical Solution of Equations and Inequalities</title><idx><h>equation</h><h>graphical solution</h></idx>
+<subsection xml:id="GraphSol"><title>Graphical Solution of Equations and Inequalities</title><idx><h>equation</h><h>graphical solution</h></idx>
 
 <p>Here is a clever way to solve an equation in one variable by using a graph. Suppose we would like to solve the equation <m>~150 = 285 - 15x</m>. We start by looking at the graph of <m>~y = 285 - 15x</m>.</p>
 

@@ -19,7 +19,7 @@
 <exercise number="2"><statement><p>Use the calculator to graph <m>x^2 − y^2 = 1</m> in the window <m>[-6,6]\times [-4,4]</m>. (Follow the steps above for Problem 1.)<ol marker="a">
         <li><p>What are the vertices of this hyperbola?</p></li>
         <li><p>What are the asymptotes?</p></li>
-        <li><p>How does this hyperbola differ from the one in Problem 2?</p></li></ol></p></statement></exercise>
+        <li><p>How does this hyperbola differ from the one in Problem 1?</p></li></ol></p></statement></exercise>
 </subexercises>
 
 <subexercises><title>Skills Practice</title>
@@ -302,7 +302,7 @@
 
 <exercisegroup><introduction><p>For problems 13<ndash/>18:<ol marker="a">
         <li><p>Graph the hyperbola.</p></li>
-        <li><p>Give the exact coordinates of any four points on the hyperbola</p></li></ol></p></introduction>
+        <li><p>Give the exact coordinates of any four points on the hyperbola.</p></li></ol></p></introduction>
 
 <exercise number="13"><statement><p><m>\dfrac{(y+2)^2}{6}-\dfrac{(x+2)^2}{10}=1</m></p></statement>
 <answer><p><ol marker="a">
@@ -418,7 +418,7 @@
 <exercise number="22"><statement><p>One vertex at <m>(-1, 3)</m>, one end of the horizontal conjugate axis at <m>(-5, 1)</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 23<ndash/>28, name the graph of the equation and descsribe its main features.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 23<ndash/>28, name the graph of the equation and describe its main features.</p></introduction>
 
 <exercise number="23"><statement><p><m>x^2+2y-4=0</m></p></statement>
 <answer><p>Parabola; vertex <m>(0,2)</m>, opens downward, <m>a=\dfrac{-1}{2} </m></p></answer></exercise>
@@ -443,7 +443,7 @@
 <sidebyside width="80%"><image source="images/fig-hyperbola-tower"><description>graph</description></image></sidebyside>
 </introduction>
 
-<exercise number="29"><statement><p>The base of the cooling tower is 360 feet below the center of the hyperbola. What is the diamter of the base?</p></statement>
+<exercise number="29"><statement><p>The base of the cooling tower is 360 feet below the center of the hyperbola. What is the diameter of the base?</p></statement>
 <answer><p>520 ft</p></answer></exercise>
 
 <exercise number="30"><statement><p>The top of the cooling tower is 200 feet above the center of the hyperbola. What is the diameter of the top?</p></statement></exercise>

@@ -25,7 +25,8 @@
 	<md><mrow> \sqrt{9+16} \amp \not= \sqrt{9} +\sqrt{16}</mrow>
 		<mrow> \text{and}~~~~~~ \sqrt[3]{27-8} \amp \not= \sqrt[3]{27}-\sqrt[3]{8}</mrow></md></p></warning>
 
-<example><statement><p>Which of the following are true?<ol marker="a">
+<example><statement><p>Which of the following are true? <m>~\alert{\text{[TK]}}</m>
+    <ol marker="a">
             <li><p>Is <m>\sqrt{36+64}= \sqrt{36}+\sqrt{64}~\text{?}</m></p></li>
             <li><p>Is <m>\sqrt[3]{8(64)}= \sqrt[3]{8}\sqrt[3]{64}~\text{?}</m></p></li>
             <li><p>Is <m>\sqrt{x^2+4}= x+2~\text{?}</m></p></li>
@@ -33,6 +34,8 @@
         </ol></p></statement>
 <solution><p>The statements in (b) and (d) are true, and both are examples of the <xref ref="Summary-product-rule-radicals" text="custom">first property of radicals</xref>.</p>
 <p> Statements (a) and (c) are false. </p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more on the properties of radicals, see <xref ref="tkRadProps" text="custom"> Section 6.4.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
@@ -66,7 +69,8 @@
 
 <subsection><title>Simplifying Radicals</title><idx><h>radical</h><h>simpifying</h></idx>
 
-<p>Each time we use a calculator to approximate a radical, we lose accuracy, and in the course of a long calculation, the error accumulates. To avoid this problem, we simplify radicals by factoring out any perfect powers from the radicand.</p>  
+<p>Each time we use a calculator to approximate a radical, we lose accuracy, and in the course of a long calculation, the error accumulates. To avoid this problem, we simplify radicals by factoring out any perfect powers from the radicand. 
+    <m>~\alert{\text{[TK]}}</m></p>  
 
 <example xml:id="example-simplify-cube-root"><statement><p>Simplify  <m>~\sqrt[3]{108}</m></p></statement>
 
@@ -76,6 +80,8 @@ and so on, until we find one that is a factor. For this example, we find that <m
     <md><mrow>\sqrt[3]{108} \amp =\sqrt[3]{27}\sqrt[3]{4} \amp \amp \blert{\text{Simplify:}~\sqrt[3]{27}=3.}</mrow>
         <mrow>\amp = 3 \sqrt[3]{4} </mrow></md>
 This expression is considered simpler than the original radical because the new radicand, <m>4</m>, is smaller than the original, <m>108</m>.</p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more on factoring out perfect powers, see <xref ref="tkPerfSq" text="custom"> Section 6.4.1 </xref> of the Toolkit.</p></aside>
 
 <warning><p>Finding a decimal approximation for a radical is not the same as simplifying the radical. In the <xref ref="example-simplify-cube-root" text="custom">Example</xref> above, we can use a calculator to find 
     <me>\sqrt[3]{108} \approx 4.762</me>
@@ -109,7 +115,7 @@ but <m>4.762</m>  is not the <em>exact</em> value for <m>\sqrt[3]{108}</m>.</p>
 <warning><p>Do not confuse <m>\sqrt{a^{16}}</m> with <m>\sqrt{16}</m>.  Compare the two radicals:
     <me>\sqrt{16}=4~~~~~~\text{but}~~~~~~\sqrt{a^{16}}=a^8</me></p></warning>
 
-<example><statement><p>Simplify  <m>~\sqrt[3]{x^{11}}</m></p></statement>
+<example><statement><p>Simplify  <m>~\sqrt[3]{x^{11}}</m> </p></statement>
 
 <solution><p>Because the exponent on the variable, 11, is not a multiple of the index, 3, we factor out the highest power that is a multiple.
 	 <md><mrow> \sqrt[3]{x^{11}} \amp = \sqrt[3]{x^9 \cdot x^2}\amp\amp\blert{\text{Apply the Product Rule.}}</mrow>
@@ -139,7 +145,8 @@ but <m>4.762</m>  is not the <em>exact</em> value for <m>\sqrt[3]{108}</m>.</p>
 
 <p>To simplify a root of a monomial, we factor the coefficient and each power of a variable separately.</p>
 
-<example><statement><p>Simplify each radical.<ol marker="a" cols="2">
+<example><statement><p>Simplify each radical. <m>~\alert{\text{[TK]}}</m>
+<ol marker="a" cols="2">
             <li><p><m>\sqrt{18x^5}</m></p></li>
             <li><p><m>\sqrt[3]{24x^6y^8} </m></p></li>
         </ol></p></statement>
@@ -154,6 +161,8 @@ but <m>4.762</m>  is not the <em>exact</em> value for <m>\sqrt[3]{108}</m>.</p>
             <mrow>\amp = \sqrt[3]{8x^6 y^6} \sqrt[3]{3 y^2}\amp\amp\blert{\text{Take cube roots.}}</mrow>
             <mrow> \amp = 2x^2 y^2\sqrt[3]{3y^2}</mrow></md></p></li>
     </ol></p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help on simplifying radicals, see <xref ref="tkSimpRad" text="custom"> Section 6.4.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 3</title>
 <webwork>
@@ -536,11 +545,13 @@ If we multiply the numerator and denominator of this fraction by the conjugate o
         =\dfrac{ab-a\sqrt{c}}{b^2-c}</me>
 The denominator of the fraction no longer contains any radicals—it has been rationalized.</p>
 
-<example><statement><p>Rationalize the denominator: <m>\displaystyle{\frac{x}{\sqrt{2}+\sqrt{x}}} </m>.</p></statement>
+<example><statement><p>Rationalize the denominator: <m>\displaystyle{\frac{x}{\sqrt{2}+\sqrt{x}}}</m>. <m>~\alert{\text{[TK]}}~~</m> </p></statement>
 
 <solution><p>We multiply numerator and denominator by the conjugate of the denominator, <m>\sqrt{2}-\sqrt{x} </m>.
         <me>\frac{x (\alert{\sqrt{2}-\sqrt{x}}) }{(\sqrt{2}+\sqrt{x})(\alert{\sqrt{2}-\sqrt{x}} )}
             =\frac{x(\sqrt{2}-\sqrt{x})}{2-x}</me></p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of rationalizing the denominator, see <xref ref="tkSimpRad" text="custom"> Section 6.4.4 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 9</title>
 <webwork>

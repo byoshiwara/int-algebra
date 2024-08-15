@@ -17,7 +17,7 @@
 <p><m>s</m> is called an <term> <m>n</m>th root of <m>b</m></term> if <m>\blert{s^n = b}</m>.
 </p></assemblage>
 
-<p>We use the symbol <m>\sqrt[n]{b}</m> to denote the <m>n</m>th root of <m>b</m>. An expression of the form <m>\sqrt[n]{b}</m> is called a <term>radical</term><idx>radical</idx>, <m>b</m> is called the <term>radicand</term><idx>radicand</idx>, and <m>n</m> is called the <term>index of the radical</term><idx>index (of a radical)</idx>. </p>
+<p>We use the symbol <m>\sqrt[n]{b}</m> to denote the <m>n</m>th root of <m>b</m>. An expression of the form <m>\sqrt[n]{b}</m> is called a <term>radical</term><idx>radical</idx>, <m>b</m> is called the <term>radicand</term><idx>radicand</idx>, and <m>n</m> is called the <term>index of the radical</term><idx>index (of a radical)</idx>. </p> <m>~\alert{\text{[TK]}}</m>
 
 <example xml:id="example-nth-roots"><statement><p><ol marker="a">
         <li><m>\sqrt[4]{81} = 3</m> because <m>3^4 = 81</m></li>
@@ -26,6 +26,8 @@
         <li><m>\sqrt[4]{1} = 1</m> because <m>1^4 = 1</m></li>
         <li><m>\sqrt[5]{100,000} = 10</m> because <m>10^5 = 100,000</m></li>
     </ol></p></statement></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review the definition of root, see <xref ref="tkDefRoot" text="custom"> Section 6.2.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork" xml:id="exercise-nth-rootsw"><title>Practice 1</title>
     <webwork><pg-code>
@@ -325,7 +327,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 
 <p>What about <m>n</m>th roots such as <m>\sqrt{23}</m> and <m>5^{1/3}</m> that cannot be evaluated easily? These are examples of <term>irrational numbers</term><idx>irrational numbers</idx>. An irrational number is one that cannot be expressed as a quotient of two integers.</p>
 
-<p>It is not possible to write down an exact decimal equivalent for an irrational number, but we can find an approximation to as many decimal places as we like. We can use a calculator to obtain decimal approximations for irrational numbers. For example, you can verify that
+<p>It is not possible to write down an exact decimal equivalent for an irrational number, but we can find an approximation to as many decimal places as we like. <m>~\alert{\text{[TK]}}~</m> We can use a calculator to obtain decimal approximations for irrational numbers. For example, you can verify that
     <me>\sqrt{23} \approx 4.796 ~~~~~ \text{ and } ~~~~~ 5^{1/3}\approx 1.710</me></p>
 
 <warning><p>The following keying sequence for evaluating the irrational number <m>7^{1/5}</m> is incorrect:</p>
@@ -333,7 +335,9 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 <p>You can check that this sequence calculates <m>\dfrac{7^1}{5}</m>, instead of <m>7^{1/5}</m>. Recall that according to the order of operations, powers are computed before multiplications or divisions. We must enclose the exponent <m>1/5</m> in parentheses and enter</p>
     <p>7 <kbd name="circumflex"/> ( 1 <kbd name="obelus"/> 5 ) <kbd>ENTER</kbd>   </p>
 <p>Or, because <m>\dfrac{1}{5}= 0.2</m>, we can enter</p>
-    <p>7 <kbd name="circumflex"/> 0.2 <kbd>ENTER</kbd></p></warning>  
+    <p>7 <kbd name="circumflex"/> 0.2 <kbd>ENTER</kbd></p></warning> 
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review irrational numbers, see <xref ref="tkRatNos" text="custom"> Section 6.2.2 </xref> of the Toolkit.</p></aside> 
 </subsection>
 
 <subsection><title>Working with Fractional Exponents</title><idx><h>exponent</h><h>rational</h></idx><idx><h>exponent</h><h>fractional</h></idx>
@@ -385,7 +389,9 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
         <li><m>8a^{-1/4} = \dfrac{8}{\sqrt[4]{a}}</m></li>
     </ol></p></example>
 
-<note><p>In <xref ref="example-exponetial-to-radical-notation"/>d, note that the exponent <m>-1/4</m> applies only to <m>a</m>, not to <m>8a</m>. Compare with <m>(8a)^{-1/4} = \dfrac{1}{\sqrt[4]{8a}}</m></p></note>
+<note><p>In <xref ref="example-exponetial-to-radical-notation"/>, note that the exponent <m>-1/4</m> applies only to <m>a</m>, not to <m>8a</m>. Compare with <m>(8a)^{-1/4} = \dfrac{1}{\sqrt[4]{8a}}</m> <m>~\alert{\text{[TK]}}~~</m> </p></note>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of simplifying expressions, see <xref ref="tkMistakes" text="custom"> Section 6.2.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 6</title>
     <webwork><pg-code>

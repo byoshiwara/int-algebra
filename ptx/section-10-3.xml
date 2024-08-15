@@ -63,7 +63,7 @@ The number <m>e</m> is essential for many advanced topics, and it is often calle
 
 <p>Because <m>e</m> is a number between 2 and 3, the graph of <m>f(x) = e^x</m> lies between the graphs of <m>y = 2^x</m> and <m>y = 3^x</m>. Compare the tables of values and the graphs of the three functions below. You can verify the table and graphs on your caclulator.</p>
 
-<sidebyside widths="50% 30%" margins="0% 10%" valigns="middle middle">
+<sidebyside widths="50% 40%" margins="0% 10%" valigns="middle middle">
 <tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
 	<row bottom="major">
 		<cell><m>x</m></cell>
@@ -143,7 +143,7 @@ The number <m>e</m> is essential for many advanced topics, and it is often calle
             <li><m>h(x) = e^x + 2</m></li>
         </ol></p></statement>
 
-<solution><image width="35%" xml:id="fig-translate-exponential"><description>translates of exponential</description><latex-image>
+<solution><image width="45%" xml:id="fig-translate-exponential"><description>translates of exponential</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -168,21 +168,21 @@ The number <m>e</m> is essential for many advanced topics, and it is often calle
 
 <subsection><title>The Natural Logarithmic Function</title>
 
-<p>The base <m>e</m><idx><em>e</em><m>\thinspace</m></idx> logarithm of a number <m>x</m>, or <m>\log_ e x</m>, is called the <term>natural logarithm</term><idx>natural logarithm</idx> of <m>x</m> and is denoted by <m>\ln x</m>.</p>
+<p>The base <m>e</m><idx><em>e</em><m>\thinspace</m></idx> logarithm of a number <m>x</m>, or <m>\log_ e {(x)}</m>, is called the <term>natural logarithm</term><idx>natural logarithm</idx> of <m>x</m> and is denoted by <m>\ln {(x)}</m>.</p>
 
 <assemblage><title>The Natural Logarithm</title><idx>natural logarithm</idx>
 	<p>The natural logarithm is the logarithm base <m>e</m>.
-		<me>\blert{\ln x = \log_{e}{x}, ~~~~ x\gt 0}</me></p>
+		<me>\blert{\ln {(x)} = \log_{e}{(x)}, ~~~~ x\gt 0}</me></p>
 </assemblage>
 
-<p>The natural logarithm of <m>x</m> is the exponent to which <m>e</m> must be raised to produce <m>x</m>. For example, the natural logarithm of <m>10</m>, or <m>\ln 10</m>, is the solution of the equation
+<p>The natural logarithm of <m>x</m> is the exponent to which <m>e</m> must be raised to produce <m>x</m>. For example, the natural logarithm of <m>10</m>, or <m>\ln {(10)}</m>, is the solution of the equation
 	<me>e^y = 10</me>
 You can verify on your calculator that
-	<me>e^{\alert{2.3}} ~~ \approx 10 ~~ \text{ or } ~~ \ln 10 \approx \alert{2.3}</me>
+	<me>e^{\alert{2.3}} ~~ \approx 10 ~~ \text{ or } ~~ \ln {(10)} \approx \alert{2.3}</me>
 In general, natural logs obey the same conversion formulas that work for logs to other bases.</p>
 
 <assemblage><title>Conversion Formulas for Natural Logs</title>
-<p><me>\blert{y= \ln x~~~~~~\text{if and only if}~~~~~~e^y=x}</me></p></assemblage>
+<p><me>\blert{y= \ln {(x)}~~~~~~\text{if and only if}~~~~~~e^y=x}</me></p></assemblage>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>       
@@ -207,20 +207,21 @@ In general, natural logs obey the same conversion formulas that work for logs to
 <statement><p> Which of the following is equivalent to <m>e^x=k</m> ?</p>
     <p><ol marker="a" cols="2">
         <li><m>e^k=x</m></li>
-        <li><m>\ln(e) = x</m></li>
-        <li><m>\ln(k) = x</m></li>
+        <li><m>\ln{(e)} = x</m></li>
+        <li><m>\ln{(k)} = x</m></li>
         <li><m>k^x = e</m></li>
     </ol></p></statement></exercise>
 
 <p>In particular,
-	<md><mrow>\ln e \amp = 1~~~~ \text{ because }~~~~ e^1 = e </mrow>
-	   <mrow>\ln 1 \amp = 0~~~~  \text{ because }~~~~ e^0 = 1</mrow></md></p>
+	<md><mrow>\ln {(e)} \amp = 1~~~~ \text{ because }~~~~ e^1 = e </mrow>
+	   <mrow>\ln {(1)} \amp = 0~~~~  \text{ because }~~~~ e^0 = 1</mrow></md></p>
 
 <p>As is the case with exponential and log functions with other bases, the <term>natural log function</term><idx>natural log function</idx>, and the natural exponential function, <m>f(x) = e^x</m>, "undo" each other, so they are inverse functions.</p>
 
-<example xml:id="example-ln-and-exponential"><statement><p>Graph <m>f(x) = e^x</m> and <m>g(x) = \ln x</m> on the same grid.</p></statement>
+<example xml:id="example-ln-and-exponential"><statement><p>Graph <m>f(x) = e^x</m> and <m>g(x) = \ln {(x)}</m> on the same grid. 
+<m>~\alert{\text{[TK]}}~~</m> </p></statement>
 
-<solution><p>We can make a table of values for <m>g(x) = \ln x</m> by interchanging the columns in the table for <m>f(x) = e^x</m>. Plotting the points gives us the graph below.</p>
+<solution><p>We can make a table of values for <m>g(x) = \ln {(x)}</m> by interchanging the columns in the table for <m>f(x) = e^x</m>. Plotting the points gives us the graph below.</p>
 		<sidebyside widths="50% 35%" valigns="middle middle">
 			<tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
 				<row bottom="major">
@@ -249,6 +250,8 @@ In general, natural logs obey the same conversion formulas that work for logs to
 					<cell><m>3</m></cell></row>
 				</tabular>
 		<image source="images/fig-ln-and-exponential"><description>graphs of ln and natural exponential</description></image></sidebyside></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To see interesting properties of the graphs of <m>y=e^x</m> and <m>y=ln(x)</m>, see <xref ref="tkGraphBaseE" text="custom"> Section 10.3.1 </xref> of the Toolkit.</p></aside>
 
 <p>You can see from the graph that the natural log function has only positive numbers as input values. The natural logs of negative numbers and zero are undefined. You can also see that the natural log of a number greater than 1 is positive, while the logs of fractions between 0 and 1 are negative. </p>
 
@@ -285,15 +288,15 @@ In general, natural logs obey the same conversion formulas that work for logs to
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Use your calculator to evaluate each logarithm. Round your answers to four decimal places.</p>
         <p><ol marker="a" cols="3">
-                <li><p><m>\ln 100</m></p></li>
-                <li><p><m>\ln 0.01</m></p></li>
-                <li><p><m>\ln e^3</m></p></li>
+                <li><p><m>\ln {(100)}</m></p></li>
+                <li><p><m>\ln {(0.01)}</m></p></li>
+                <li><p><m>\ln {(e^3)}</m></p></li>
         </ol></p></statement>
     <solution>
             <p><ol marker="a" cols="2">
-            <li><m>\ln 100\approx 4.6052</m></li>
-            <li><m>\ln 0.01\approx -4.6052</m></li>
-            <li><m>\ln e^3 =3</m></li>
+            <li><m>\ln {(100)}\approx 4.6052</m></li>
+            <li><m>\ln {(0.01)}\approx -4.6052</m></li>
+            <li><m>\ln {(e^3)} =3</m></li>
     </ol></p></solution></exercise>
 </subsection>
 
@@ -303,27 +306,27 @@ In general, natural logs obey the same conversion formulas that work for logs to
 
 <assemblage><title>Properties of Natural Logarithms</title>
 <p>If <m>x, y \gt 0</m>, then <ol marker="1">
-    <li><m>\ln(xy) = \ln x + \ln y</m></li>
-    <li><m>\ln {\dfrac{x}{y}} = \ln x - \ln y</m></li>
-    <li><m>\ln {x^n} = n \ln x</m></li></ol></p>
-<p>If <m>x \le 0</m>, <m>\ln x</m> is undefined.</p></assemblage>
+    <li><m>\ln{(xy)} = \ln {(x)} + \ln {(y)}</m></li>
+    <li><m>\ln {\left(\dfrac{x}{y}\right)} = \ln {(x)} - \ln {(y)}</m></li>
+    <li><m>\ln {(x^n)} = n \ln {(x)}</m></li></ol></p>
+<p>If <m>x \le 0</m>, <m>\ln {(x)}</m> is undefined.</p></assemblage>
 
-<p>And because the functions <m>y=e^x</m> and <m>y= \ln x</m> are inverse functions, the following properties are also true.</p>
+<p>And because the functions <m>y=e^x</m> and <m>y= \ln {(x)}</m> are inverse functions, the following properties are also true.</p>
 
 <assemblage><title>The Natural Log and <m>e^x</m></title>
-    <p><me>\blert{\ln {e^x} =x}~~~~~~\text{and}~~~~~~\blert{e^{\ln {x}} = x}</me></p></assemblage>
+    <p><me>\blert{\ln {(e^x)} =x}~~~~~~\text{and}~~~~~~\blert{e^{\ln {(x)}} = x}</me></p></assemblage>
 
 <example xml:id="example-simplify-ln-and-exp"><statement><p>Simplify each expression.
 		<ol marker="a" cols="2">
-			<li><m>\ln e^{0.3x}</m></li>
-			<li><m>e^{2 \ln(x+3)}</m></li>
+			<li><m>\ln {(e^{0.3x})}</m></li>
+			<li><m>e^{2 \ln{(x+3)}}</m></li>
 		</ol></p></statement>
 <solution><p><ol marker="a">
 		<li><p>The natural log is the log base <m>e</m>, and hence the inverse of <m>e^x</m>. Therefore,
-			<me>\ln {e^{0.3x}} = 0.3x</me></p></li>
+			<me>\ln {(e^{0.3x})} = 0.3x</me></p></li>
 		<li><p>First, we simplify the exponent using the third property of logs to get
-			<me>2 \ln(x + 3) = \ln(x + 3)^2</me>
-		Then <m>e^{2 \ln(x+3)} = e^{\ln(x+3)^2} = (x + 3)^2</m>.</p></li>
+			<me>2 \ln{(x + 3)} = \ln{((x + 3)^2)}</me>
+		Then <m>e^{2 \ln{(x+3)}} = e^{\ln{((x+3)^2)}} = (x + 3)^2</m>.</p></li>
 	</ol></p></solution></example>
 
 <exercise component="webwork"><title>Practice 3</title>
@@ -352,8 +355,8 @@ In general, natural logs obey the same conversion formulas that work for logs to
 <exercise component="main"><title>Practice 3</title>
 <statement><p>Simplify each expression.</p>
     <p><ol marker="a" cols="2">
-            <li><p><m>e^{(\ln x)/2}</m></p></li>
-            <li><p><m>\ln\left(\dfrac{1}{e^{4x}}\right)</m></p></li>
+            <li><p><m>e^{(\ln {(x)}/2)}</m></p></li>
+            <li><p><m>\ln{\left(\dfrac{1}{e^{4x}}\right)}</m></p></li>
     </ol></p></statement>
     <solution><p><ol marker="a" cols="2">
                 <li><p><m>\sqrt{x} </m></p></li>
@@ -367,12 +370,12 @@ In general, natural logs obey the same conversion formulas that work for logs to
 
 <example xml:id="example-solve-ln-equation"><statement><p>Solve each equation for <m>x</m>.<ol marker="a" cols="2">
 			<li><m>e^x = 0.24</m></li>
-			<li><m>\ln x = 3.5</m></li>
+			<li><m>\ln {(x)} = 3.5</m></li>
 		</ol></p></statement>
 
 <solution><p><ol marker="a">
 		<li><p>We convert the equation to logarithmic form and evaluate using a calculator.
-			<me>x = \ln 0.24 \approx -1.427</me></p></li>
+			<me>x = \ln {(0.24)} \approx -1.427</me></p></li>
 		<li><p>We convert the equation to exponential form and evaluate.
 			<me>x = e^{3.5} \approx 33.1155</me></p></li>
 	</ol></p></solution></example>
@@ -409,7 +412,7 @@ In general, natural logs obey the same conversion formulas that work for logs to
 <exercise component="main"><title>Practice 4</title>
 <statement><p>Solve each equation. Round your answers to four decimal places.</p>
          <p><ol marker="a" cols="2">
-            <li><p><m>\ln x =-0.2</m></p></li>
+            <li><p><m>\ln {(x)} =-0.2</m></p></li>
             <li><p><m>e^x = 8</m></p></li>
     </ol></p></statement>
     <solution><p><ol marker="a" cols="2">
@@ -452,16 +455,16 @@ In general, natural logs obey the same conversion formulas that work for logs to
 <solution><p>First, we divide each side by <m>20</m> to obtain
 		<me>7 = e^{0.4x}</me>
 	Then we convert the equation to logarithmic form.
-		<md><mrow>0.4x \amp = \ln 7 \amp\amp \blert{\text{Divide both sides by 0.4.}}</mrow>
-		    <mrow>x \amp= \frac{\ln 7}{0.4}</mrow></md>
+		<md><mrow>0.4x \amp = \ln {(7)} \amp\amp \blert{\text{Divide both sides by 0.4.}}</mrow>
+		    <mrow>x \amp= \frac{\ln {(7)}}{0.4}</mrow></md>
 	Rounded to four decimal places, <m>x \approx 4.8648</m>.</p></solution></example>
 
 <note><p>We can also solve the equation in the <xref ref="example-solve-natural-exponential" text="custom">Example</xref> above,
 	<me>7 = e^{0.4x}</me>
 by taking the natural logarithm of both sides. This gives us
-	<md><mrow>\ln 7 \amp = \ln e^{0.4x}\amp\amp \blert{\text{Simplify the right side.}}</mrow>
-	   <mrow>\ln 7 \amp = 0.4x</mrow></md>
-because <m>\ln{e^a} = a</m> for any number <m>a</m>. We then proceed with the solution as before.</p></note>
+	<md><mrow>\ln {(7)} \amp = \ln {(e^{0.4x})}\amp\amp \blert{\text{Simplify the right side.}}</mrow>
+	   <mrow>\ln {(7)} \amp = 0.4x</mrow></md>
+because <m>\ln{(e^a)} = a</m> for any number <m>a</m>. We then proceed with the solution as before.</p></note>
 
 <exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>
@@ -491,11 +494,11 @@ Then we isolate the power, <m>e^{-kt}</m>, as follows:
 		  <mrow>be^{-kt} \amp = \frac{a - P}{P}\amp\amp \blert{\text{Divide both sides by }b.}</mrow>
 		  <mrow>e^{-kt} \amp= \frac{a - P}{bP}</mrow></md>
 	Next, we take the natural logarithm of both sides to get
-		<me>\ln {e^{-kt}} = \ln{\frac{a - P}{bP}}</me>
-	and recall that <m>\ln {e^x} = x</m> to simplify the left side.
-		<me>-kt = \ln{\frac{a - P}{bP}}</me>
+		<me>\ln {(e^{-kt})} = \ln{\left(\dfrac{a - P}{bP}\right)}</me>
+	and recall that <m>\ln {(e^x)} = x</m> to simplify the left side.
+		<me>-kt = \ln{\left(\dfrac{a - P}{bP}\right)}</me>
 	Finally, we divide both sides by <m>-k</m> to solve for <m>t</m>.
-		<me>t =\frac{-1}{k}\ln{\frac{a-P}{bP}}</me></p></solution></example>
+		<me>t =\frac{-1}{k}\ln{\left(\dfrac{a-P}{bP}\right)}</me></p></solution></example>
 
 <exercise component="webwork"><title>Practice 6</title>
     <webwork><pg-code>
@@ -522,7 +525,7 @@ Then we isolate the power, <m>e^{-kt}</m>, as follows:
             <p><m>\blert{\text{Take the natural log of both sides.}}</m></p>
             <p><m>\blert{\text{Divide both sides by}~ -t.}</m></p>
         </statement>
-    <solution><p><m>k=\dfrac{-\ln(N/A) }{t} </m></p></solution></exercise>
+    <solution><p><m>k=\dfrac{-\ln{(N/A)} }{t} </m></p></solution></exercise>
 </subsection>
 
 <subsection><title>Exponential Growth and Decay</title>
@@ -534,17 +537,17 @@ describe exponential growth when <m>b \gt 1</m> and exponential decay when <m>0 
 where we have substituted <m>e^k</m> for the growth factor <m>b</m>, so that 
 	<md><mrow>P(t) \amp = P_0 \cdot b^t</mrow>
 	   <mrow>\amp = P_0 \cdot \left(e^k\right)^t = P_0 \cdot e^{kt}</mrow></md>
-We can find the value of <m>k</m> by solving the equation <m>b = e^k</m> for <m>k</m>, to get <m>k = \ln b</m>.<idx><h>exponential decay</h></idx><idx><h>exponential growth</h></idx></p>
+We can find the value of <m>k</m> by solving the equation <m>b = e^k</m> for <m>k</m>, to get <m>k = \ln {(b)}</m>.<idx><h>exponential decay</h></idx><idx><h>exponential growth</h></idx></p>
 
 <p>For instance, consider a colony of bacteria that grows according to the formula
 	<me>P(t) = 100 \cdot \alert{3^t}</me>
 We can express this function in the form <m>P(t) = 100 \cdot \alert{e^{kt}}</m> if we set
-	<me>3 = e^k ~ \text{ or } ~ k = \ln 3 \approx 1.0986</me>
+	<me>3 = e^k ~ \text{ or } ~ k = \ln {(3)} \approx 1.0986</me>
 Thus, the growth law for the colony of bacteria can be written
 	<me>P(t) \approx 100 \cdot e^{1.0986t}</me>
 By graphing both functions on your calculator, you can verify that <me>P(t) = 100 \cdot 3^t~~~\text{and}~~~P(t) = 100 \cdot e^{1.0986t}</me> are just two ways of writing the same function.</p>
 
-<example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year.</p>
+<example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year. <m>~\alert{\text{[TK]}}~~</m> </p>
 <p><ol marker="a">
 	<li>What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population <m>t</m> years later.</li>
 	<li>Write a growth formula for Clark County using base <m>e</m>.</li>
@@ -553,9 +556,11 @@ By graphing both functions on your calculator, you can verify that <me>P(t) = 10
 		<li><p>The growth factor was <m>b = 1 + r = 1.064</m>. The population <m>t</m> years later was
 			<me>P(t) = 768,000 (1.064)^t</me></p></li>
 		<li><p>We use the formula <m>P(t) = P_0 \cdot e^{kt}</m>, where <m>e^k = 1.064</m>. Solving for <m>k</m>, we find
-			<me>k = \ln 1.064 = 0.062</me>
+			<me>k = \ln {(1.064)} = 0.062</me>
 			so <m>P(t) = 768,000 e^{0.062t}</m>.</p></li>
 	</ol></p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples using the natural exponential function, see <xref ref="tkUseBaseE" text="custom"> Section 10.3.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 7</title>
     <webwork><pg-code>
@@ -592,7 +597,7 @@ By graphing both functions on your calculator, you can verify that <me>P(t) = 10
 <exercise component="main"><title>Practice 7</title>
 <statement><p>From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula <m>N(t) = 2.8e^{0.85t}</m>, where <m>t = 0</m> in 1994 and <m>N</m> is in millions. (Source: Los Angeles Times, September 6, 1999)</p>
     <p><ol marker="a">
-        <li><p>Evaluate <m>N(1)=</m>. By what percent did the number of Internet users grow in one year?</p></li>
+        <li><p>Evaluate <m>N(1)</m>. By what percent did the number of Internet users grow in one year?</p></li>
         <li><p>Express the growth law in the form <m>N(t) = N_0 (1 + r)^t</m>. (Hint: <m>e^k = 1 + r</m>.)</p></li>
     </ol></p></statement>
 <solution><p><ol marker="a" cols="2">
@@ -638,8 +643,8 @@ Thus, for negative values of <m>k</m>, the function <m>P(t) = P_0 e^{kt}</m> des
 
 <solution><p>For this decay law, <m>N_0 = 60</m> and <m>b = 0.8</m>. We would like to find a value for <m>k</m> so that <m>e^k = b = 0.8</m>, that is, we must solve the equation
 		<md><mrow>e^k \amp = 0.8\amp\amp \blert{\text{Take natural log of both sides.}}</mrow>
-		  <mrow>\ln e^k\amp = \ln 0.8\amp\amp \blert{\text{Simplify.}}</mrow>
-		  <mrow>k\amp = \ln 0.8 \approx -0.2231</mrow></md>
+		  <mrow>\ln {(e^k)}\amp = \ln {(0.8)}\amp\amp \blert{\text{Simplify.}}</mrow>
+		  <mrow>k\amp = \ln {(0.8)} \approx -0.2231</mrow></md>
 Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
 		<me>N(t) \approx 60e^{-0.2231t}</me></p></solution></example>
 
@@ -851,8 +856,8 @@ where <m>P</m> is the principal invested.</p>
 		<li>We substitute 1000 for <m>A(t)</m> and solve the equation.
 			<md><mrow>1000 \amp= 500 e^{0.08t}\amp\amp \blert{\text{Divide both sides by 500.}}</mrow>
 			     <mrow>2 \amp = e^{0.08t}\amp\amp \blert{\text{Take natural log of both sides.}}</mrow>
-			     <mrow>\ln 2 \amp= \ln e^{0.08t} = 0.08t\amp\amp \blert{\text{Divide both sides by 0.08.}}</mrow>
-			     <mrow>t \amp= \frac{\ln 2}{0.08}\approx 8.6643</mrow></md>
+			     <mrow>\ln {(2)} \amp= \ln {(e^{0.08t})} = 0.08t\amp\amp \blert{\text{Divide both sides by 0.08.}}</mrow>
+			     <mrow>t \amp= \frac{\ln {(2)}}{0.08}\approx 8.6643</mrow></md>
 		The account will be worth $1000 after approximately 8.7 years.</li>
 	</ol></p></solution></example>
 

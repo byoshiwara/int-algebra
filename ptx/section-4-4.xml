@@ -4,9 +4,15 @@
 <section xml:id="QuadraticInequalities"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Quadratic Inequalities</title><idx>quadratic inequality</idx>
 
+<introduction><p>In this section we'll see how to solve a quadratic inequality, that is, an inequality that can be written in the form 
+    <me>ax^2+bx+c \lt 0~~~~\text{or}~~~~~ax^2+bx+c \gt 0</me>
+<m>~\alert{\text{[TK]}}~~</m>Before we begin, you can review solving linear inequalities in <xref ref="tkLinIneq" text="custom"> Section 4.4.1 </xref> of the Toolkit.</p></introduction>
+
 <subsection><title>Solving Inequalities Graphically</title><idx><h>inequality</h><h>quadratic</h></idx><idx><h>inequality</h><h>graphical solution</h></idx><idx><h>quadratic inequality</h><h>graphical solution</h></idx>
 
-<p>The easiest way to solve a quadratic inequality is with a graph.</p>
+<p>The easiest way to solve a quadratic inequality is with a graph.  <m>~\alert{\text{[TK]}}</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review solving with a graph, see <xref ref="GraphSol" text="custom"> Section 1.2.4 </xref> </p></aside>
 
 <example xml:id="example-fireworks"><statement><p>The Chamber of Commerce in River City plans to put on a Fourth of July fireworks display. City regulations require that fireworks at public gatherings explode higher than 800 feet above the ground. The mayor particularly wants to include the Freedom Starburst model, which is launched from the ground. Its height after t seconds is given by
         <me>h = 256t - 16t^2</me>
@@ -59,7 +65,7 @@ and read "<m>t</m> greater than 4.25 but less than 11.75."</p></note>
             <mrow>Y_2 \amp= 800</mrow></md>
 on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref ref="example-fireworks" text="type-global"/>.</p> 
     <image width="35%" source="images/fig-GC-fireworks" ><description>GCgraph of fireworks height</description></image> 
-<p>Then use the intersect feature to find the points where the two graphs intersect, at about <m>x=4.26</m> and <m>x=11.74</m>. Both these points <m>y</m>-coordinate <m>800</m>, and between the points the parabola is above the line, so <m>h \gt 800</m> when <m>4.26 \lt t \lt 11.74</m>.</p>  </technology>
+<p>Then use the intersect feature to find the points where the two graphs intersect, at about <m>x=4.26</m> and <m>x=11.74</m>. Both these points <m>y</m>-coordinate <m>800</m>, and between the points the parabola is above the line, so <m>h \gt 800</m> when <m>4.26 \lt t \lt 11.74</m>.</p> </technology> 
 
 <exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
@@ -115,7 +121,7 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
         <li><p>Use the graph to solve the inequality <m>x^2 - 2x - 9 \le 6</m>.</p></li>
     </ol></p></statement>
     <solution><p><ol marker="a" cols="2">
-        <li><image width="50%" xml:id="fig-ex-4-4-1ans"><description>parabola for quadratic inequality</description><latex-image>
+        <li><image width="70%" xml:id="fig-ex-4-4-1ans"><description>parabola for quadratic inequality</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -154,7 +160,7 @@ on the same screen. Use <kbd>WINDOW</kbd> settings to match the graph in <xref r
     <me>x^2 - 2x - 15 \ge 0</me>. 
 We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have <m>y</m>-coordinates greater than or equal to zero. A graph of the equation is shown below.</p>
     <sidebyside widths="60% 30%" valigns="middle middle" margins="0%">
-<p>You can check that the <m>x</m>-intercepts of the graph are <m>-3</m> and <m>5</m>. The points shown in blue on the graph lie above the <m>x</m>-axis and have <m>y \ge 0</m>, so the <m>x</m>-coordinates of these points are the solutions of the inequality.</p>  
+<p>You can check that the <m>x</m>-intercepts of the graph are <m>-3</m> and <m>5</m>. <m>~\alert{\text{[TK]}}~</m>The points shown in blue on the graph lie above the <m>x</m>-axis and have <m>y \ge 0</m>, so the <m>x</m>-coordinates of these points are the solutions of the inequality.</p>  
     <image xml:id="fig-quadratic-inequality"><description>parabola dividing the x-axis into three regions</description>
             <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -180,6 +186,8 @@ We would like to find points on the graph of <m>~y = x^2 - 2x - 15</m> that have
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside>
 <p> Note that the solutions lie in two intervals, less than <m>-3</m> or greater than <m>5</m>. Thus, the solution is <m>x \le -3</m> or <m>x \ge 5</m>.</p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review finding the <m>x</m>-intercepts of a parabola, see <xref ref="tkIntParab" text="custom"> Section 4.4.2 </xref> of the Toolkit.</p></aside>
 
 <warning><p>In <xref ref="example-quadratic-inequality" text="type-global"/> above, the solution of the inequality <m>~x^2 - 2x - 15 \ge 0~</m> is the set of values
     <me>x \le -3~~ \text{ or }  ~~x \ge 5</me>
@@ -454,23 +462,26 @@ All we really need to know is whether the corresponding parabola <m>y = ax^2 + b
 How many parkas should the company produce and sell each month if it must keep the profits above $2000?</p></statement>
 
 <solution><p><ol marker="1">
-        <li><p>We would like to solve the inequality
+    <li><p>We would like to solve the inequality
                     <me>-0.8x^2 + 320x - 25,200\gt 2000</me>
-            or, subtracting <m>2000</m> from both sides,
+        or, subtracting <m>2000</m> from both sides,
                     <me>-0.8x^2 + 320x - 27,200 \gt 0</me></p></li>
-        <li><p>Consider the equation
+    <li><p>Consider the equation
                     <me>y = -0.8x^2 + 320x - 27,200</me>
-            We locate the <m>x</m>-intercepts of the graph by setting <m>y = 0</m> and solving for <m>x</m>. We will use the quadratic formula to solve the equation
+         We locate the <m>x</m>-intercepts of the graph by setting <m>y = 0</m> and solving for <m>x</m>. We will use the quadratic formula to solve the equation
                     <me>-0.8x^2 + 320x - 27,200 = 0</me>
-            so <m>a = \alert{-0.8}</m>, <m>b = \alert{320}</m>, and <m>c = \alert{-27,200}</m>. We substitute these values into the quadratic formula to obtain                    
+        so <m>a = \alert{-0.8}</m>, <m>b = \alert{320}</m>, and <m>c = \alert{-27,200}</m>. We substitute these values into the quadratic formula to obtain <m>~\alert{\text{[TK]}}</m>                   
                 <md><mrow>x \amp=\frac{-(\alert{320})\pm\sqrt{(\alert{320})^2 - 4(-0.8)(\alert{-27,200})}} {2(\alert{-0.8})}</mrow>
                     <mrow>\amp=\frac{-320\pm\sqrt{102,400 - 87,040}}{-1.6}</mrow>
                     <mrow>\amp=\frac{-320\pm\sqrt{15,360}}{-1.6}</mrow></md>
-            To two decimal places, the solutions to the equation are 122.54 and 277.46.</p></li>
-            <li><p>The graph of the equation is a parabola that opens downward, because the coefficient of <m>x^2</m> is negative. </p><image width="40%" source="images/fig-quadratic-inequality3"><description>graph of parabola opening down</description></image></li>
-            <li><p>The graph lies above the <m>x</m>-axis, and hence <m>y \gt 0</m>, for <m>x</m>-values between the two <m>x</m>-intercepts, that is, for <m>122.54 \lt x \lt 277.46</m>. Because we cannot produce a fraction of a parka, we restrict the interval to the closest whole number <m>x</m>-values included, namely 123 and 277.</p>
-            <p>Thus, TrailGear can produce as few as 123 parkas or as many as 277 parkas per month to keep its profit above $2000.</p></li>
-        </ol></p></solution></example>
+        To two decimal places, the solutions to the equation are 122.54 and 277.46.</p></li>
+    <li><p>The graph of the equation is a parabola that opens downward, because the coefficient of <m>x^2</m> is negative. </p>
+        <image width="40%" source="images/fig-quadratic-inequality3"><description>graph of parabola opening down</description></image></li>
+    <li><p>The graph lies above the <m>x</m>-axis, and hence <m>y \gt 0</m>, for <m>x</m>-values between the two <m>x</m>-intercepts, that is, for <m>122.54 \lt x \lt 277.46</m>. Because we cannot produce a fraction of a parka, we restrict the interval to the closest whole number <m>x</m>-values included, namely 123 and 277.</p>
+    <p>Thus, TrailGear can produce as few as 123 parkas or as many as 277 parkas per month to keep its profit above $2000.</p></li>
+</ol></p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review the quadratic formula, see <xref ref="QuadraticFormula" text="custom"> Section 4.1 </xref>.</p></aside>
 
 <exercise component="webwork"><title>Practice 5</title>
     <webwork><pg-code>

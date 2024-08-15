@@ -4,21 +4,26 @@
 <section xml:id="AlgebraicSolution"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Solution of Systems</title>
 
 <introduction>
-<p>In the previous section we used graphs to solve a system of two linear equations. Graphs help us visualize the problem and its solution, but do not always provide the most efficient or most accurate way to find the solution. In this section we review two methods for solving a 2x2 linear system algebraically.</p>
+<p>In the previous section we used graphs to solve a system of two linear equations in two unknowns. Graphs help us visualize the system and its solution, but do not always provide the most efficient or most accurate way to find the solution. In this section we review two methods for solving a 2x2 linear system algebraically.</p>
 </introduction>
 
 <subsection><title>Substitution Method</title><idx><h>system of equations</h><h>substitution method</h></idx><idx><h>substitution method</h><see>system of equations</see></idx>
 
 <p>You may be familiar with the <term>substitution method</term> for solving a system of equations. The idea is to write an expression for one of the variables in terms of the other variable, and then substitute that expression into the other equation.</p>
 
-<p>For example, consider the system
+<example><statement><p>Solve the system
     <md><mrow>x + y \amp = 10</mrow>
         <mrow>2x - y\amp = 2</mrow></md>
-If we solve the first equation for <m>y</m>, we get <m>y=10 - x</m>. We can substitute the expression <m>\alert{10 - x}</m> for <m>y</m> into the second equation to get <m>2x - (\alert{10 - x}) = 2</m>, an equation in only one variable.  Finally, we solve this equation:
+</p></statement>
+
+<solution><p>If we solve the first equation for <m>y</m>, we get <m>y = 10 - x</m>. We can substitute the expression <m>\alert{10 - x}</m> for <m>y</m> into the second equation to get 
+    <me>2x - (\alert{10 - x}) = 2</me> 
+an equation in only one variable.  Finally, we solve this equation:
     <md><mrow>2x-10 + x \amp = 2</mrow>
         <mrow>3x \amp = 12</mrow>
         <mrow>x \amp = 4</mrow></md>
-And because <m>y=10 - x</m>, we find <m>y = 10 - 4 = 6</m>.  The solution is <m>x = 4, y = 6</m>.</p>
+And because <m>y=10 - x</m>, we find <m>y = 10 - 4 = 6</m>. The solution is <m>x = 4, y = 6</m>. We may sometimes write the solution as an ordered pair, <m>(4,6)</m>.</p>
+</solution></example>
 
 <p>Here is a summary of the steps for solving a system by substitution.</p>
 
@@ -27,24 +32,9 @@ And because <m>y=10 - x</m>, we find <m>y = 10 - 4 = 6</m>.  The solution is <m>
         <li><p>Choose one of the variables in one of the equations. (It is best to choose a variable whose coefficient is <m>1</m> or <m>-1</m>.) Solve the equation for that variable.</p></li>
         <li><p>Substitute the result of Step 1 into the other equation. This gives an equation in one variable.</p></li>
         <li><p>Solve the equation obtained in Step 2. This gives the solution value for one of the variables.</p></li>
-        <li><p> Substitute this value into the result of Step 1 to find the solution value of the other variable.</p></li>
+        <li><p>Substitute this value into the result of Step 1 to find the solution value of the other variable.</p></li>
     </ol></p>
 </assemblage>
-
-<example><statement><p>Staci stocks two kinds of sleeping bags in her sporting goods store, a standard model and a down-filled model for colder temperatures. From past experience, she estimates that she will sell twice as many of the standard variety as of the down-filled. She has room to stock 84 sleeping bags at a time. How many of each variety should Staci order?</p></statement>
-    
-<solution><p>We begin by choosing variables for the unknown quantities.
-            <md><mrow>\amp\text{Number of standard sleeping bags: }~x</mrow>
-                <mrow>\amp\text{Number of down-filled sleeping bags: }~y</mrow></md></p>
-    <p>We write two equations about the variables. 
-            <md><mrow>\amp\text{Staci needs twice as many standard model as down-filled: } \amp x \amp = 2y</mrow>
-                <mrow>\amp\text{The total number of sleeping bags is 84: }\amp x+y \amp = 84</mrow></md>
-    We will solve this system using substitution. Notice that the first equation is already solved for <m>x</m> in terms of <m>y</m>. We substitute <m>\alert{2y}</m> for <m>x</m> in the second equation to obtain
-            <md><mrow>\alert{2y} + y \amp = 84</mrow>
-                <mrow>3y\amp = 84</mrow></md>
-    Solving for <m>y</m>, we find <m>y=\alert{28}</m>. Finally, substitute this value into the first equation to find
-            <md><mrow>x = 2(\alert{28}) = 56</mrow></md>
-    The solution to the system is <m>x = 56</m>, <m>y = 28</m>. Staci should order 56 standard sleeping bags and 28 down-filled bags.</p></solution></example>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -375,6 +365,176 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
 <note><p>Which method should you choose to solve a particular system? Both methods work on any linear system, but the substitution method is easier if one of the variables in one of the equations has coefficient <m>1</m> or <m>-1</m>.</p></note>
 </subsection>
 
+<subsection><title>Problem Solving with Systems</title>
+
+<p>If there are two unknown quantities in an applied problem, it is often more easily solved by writing a system of two equations.</p>
+
+<example><statement><p>Staci stocks two kinds of sleeping bags in her sporting goods store, a standard model and a down-filled model for colder temperatures. From past experience, she estimates that she will sell twice as many of the standard variety as of the down-filled. She has room to stock 84 sleeping bags at a time. How many of each variety should Staci order?</p></statement>
+    
+<solution><p>We begin by choosing variables for the unknown quantities.
+            <md><mrow>\amp\text{Number of standard sleeping bags: }~x</mrow>
+                <mrow>\amp\text{Number of down-filled sleeping bags: }~y</mrow></md></p>
+    <p>We write two equations about the variables. 
+            <md><mrow>\amp\text{Staci needs twice as many standard model as down-filled: } \amp x \amp = 2y</mrow>
+                <mrow>\amp\text{The total number of sleeping bags is 84: }\amp x+y \amp = 84</mrow></md>
+    We will solve this system using substitution. Notice that the first equation is already solved for <m>x</m> in terms of <m>y</m>. We substitute <m>\alert{2y}</m> for <m>x</m> in the second equation to obtain
+            <md><mrow>\alert{2y} + y \amp = 84</mrow>
+                <mrow>3y\amp = 84</mrow></md>
+    Solving for <m>y</m>, we find <m>y=\alert{28}</m>. Finally, substitute this value into the first equation to find
+            <md><mrow>x = 2(\alert{28}) = 56</mrow></md>
+    The solution to the system is <m>x = 56</m>, <m>y = 28</m>. Staci should order 56 standard sleeping bags and 28 down-filled bags.</p></solution></example>
+
+<p>In the next Exercise, we'll use the formula <m>I=Pr</m> for calculating the interest, <m>I</m>, earned on an investment. <m>~\alert{\text{[TK]}}</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review the interest formula, see <xref ref="tkInterest" text="custom"> Section 2.3.1 </xref> of the Toolkit.</p></aside>
+
+<exercise component="main"><title>Practice 4</title>
+<statement><p>Jerry invested $2000, part in a CD at 4% interest and the remainder in a business venture at 9%.  After one year, his income from the business venture was $37 more than his income from the CD. How much did he invest at each rate?
+    <ol marker="a">
+    <li><p>Choose variables for the unknown quantities.</p>
+        <p>Fill in the table.</p>
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <row bottom="minor">
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell>Principal</cell>
+                <cell>Interest Rate</cell>
+                <cell>Interest</cell></row>
+            <row> 
+                <cell>First investment</cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\hphantom{0000}</m></cell></row>
+            <row> 
+                <cell>Second investment</cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\hphantom{0000}</m></cell>
+                <cell><m>\hphantom{0000}</m></cell></row>
+            </tabular></li>
+    <li><p>Write two equations; one about the principal, and one about the interest.</p>
+        <p><m>\blert{\text{Principal:}}</m></p>
+        <p><m>\blert{\text{Interest:}}</m></p></li>
+    <li>Solve the system. (Which method seems easiest, substitution or elimination?)</li>
+    <li>Write your answer to the question in the problem in a sentence.</li>
+</ol></p></statement>
+<answer>Jerry invested $1100 at 4% innterest and $900 at 9% interest.</answer></exercise>
+
+<p>A useful application of linear systems involves mixtures. In the next Example, we use the percent formula <m>P=rW</m>. <m>~\alert{\text{[TK]}}</m>  For instance, suppose that 35% of a class of 60 students are math majors. Then the number of math majors is   
+    <md><mrow>\text{Part} \amp = \text{Percent rate} \times \text{Whole}</mrow>
+        <mrow>\text{Number of math majors} \amp = 0.35 \times 60 = 21</mrow></md></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review the percent formula, see <xref ref="tkPercent" text="custom"> Section 2.3.2 </xref> of the Toolkit.</p></aside>
+
+<example><statement><p>A chemist wants to produce 45 milliliters of a 40% solution of carbolic acid by mixing a 20% solution with a 50% solution. How many milliliters of each should she use?</p>
+    <image width="55%" source="photos/fig-4-4-2"><description>picture</description></image>
+</statement>
+
+<solution><p>We let <m>x</m> represent the number of milliliters of the 20% solution she needs and <m>y</m> the number of milliliters of the 50% solution. We can use a table to organize the information. The first two columns contain the variables and information given in the problem: the number of milliliters of each solution and its strength as a percent.</p>
+    
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="18%"></col>             
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><p>Number of Milliliters (<m>W</m>)</p></cell>
+                        <cell><p>Percent Acid (<m>r</m>)</p></cell>
+                        <cell><p>Amount of Acid (<m>P</m>)</p></cell></row>
+                    <row> 
+                        <cell>20% Solution</cell>
+                        <cell><m>x</m></cell>
+                        <cell><m>0.20</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>50% Solution</cell>
+                        <cell><m>y</m></cell>
+                        <cell><m>0.50</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Mixture</cell>
+                        <cell><m>45</m></cell>
+                        <cell><m>0.40</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                </tabular>
+
+<p>We fill in the last column of the table by using the formula <m>P=rW</m>. The entries in this last column give the amount of the important ingredient (in this case, milliliters of acid) in each component solution and in the mixture.</p>
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="18%"></col>             
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><p>Number of Milliliters (<m>W</m>)</p></cell>
+                        <cell><p>Percent Acid (<m>r</m>)</p></cell>
+                        <cell><p>Amount of Acid (<m>P</m>)</p></cell></row>
+                    <row> 
+                        <cell>20% Solution</cell>
+                        <cell><m>x</m></cell>
+                        <cell><m>0.20</m></cell>
+                        <cell><m>\blert{0.20x}</m></cell></row>
+                    <row> 
+                        <cell>50% Solution</cell>
+                        <cell><m>y</m></cell>
+                        <cell><m>0.50</m></cell>
+                        <cell><m>\blert{0.50y}</m></cell></row>
+                    <row> 
+                        <cell>Mixture</cell>
+                        <cell><m>45</m></cell>
+                        <cell><m>0.40</m></cell>
+                        <cell><m>\blert{0.40(45)}</m></cell></row>
+                </tabular>
+
+<p>Now we can write two equations about the mixture problem. The first equation is about the total number of milliliters mixed together. The chemist must mix <m>x</m> milliliters of one solution with <m>y</m> milliliters of the other solution and end up with 45 milliliters of the mixture, so
+    <me>\blert{\text{Total amount of mixture:}}~~~~~~x+y=45</me>
+The second equation uses the fact that the acid in the mixture can only come from the acid in each of the two original solutions. We used the last column of the table to calculate how much acid was in each component, and we add these quantities to get the amount of acid in the mixture.
+    <me>\blert{\text{Amount of acid:}}~~~~~~0.20x+0.50y=0.40(45)</me>
+These two equation make up a system:
+    <md><mrow>x+y=45</mrow>
+        <mrow>0.20x+0.50y=18</mrow></md>
+To simplify the system we first multiply the second equation by 100 to clear the decimals. 
+    <md><mrow>x+y=45</mrow>
+        <mrow>20x+50y=1800</mrow></md>
+We'll solve this system by elimination. Multiply the first equation by <m>-20</m>, and add the equations together.
+    <md><mrow>-20x-20y \amp = -900</mrow>
+        <mrow>\underline{20x+50y} \amp \underline{ {}= 1800\vphantom{y}}</mrow>
+        <mrow>30y \amp = 900</mrow></md> 
+Solving for <m>y</m>, we find <m>y=30</m>. We substitute <m>y=\alert{30}</m> into the first equation to find
+    <me>x+\alert{30}=45</me>
+or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 milliliters of the 50% solution for the mixture.</p></solution></example>
+
+<exercise component="main"><title>Practice 5</title>
+<statement><p>Polls conducted by Senator Bluff's campaign manager show that he can win 60% of the rural vote in his state but only 45% of the urban vote. If 1,200,000 citizens vote, how many voters from rural areas and how many from urban areas must vote in order for the Senator to win 50% of the votes?
+<ol marker="a">
+<li><p>Let <m>x</m> represent the number of rural voters and <m>y</m> the number of urban voters. Fill in the table.</p>
+
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>Number of Voters <m>(W)</m></cell>
+                        <cell>Percent for Bluff <m>(r)</m></cell>
+                        <cell>Number for Bluff <m>(P)</m></cell></row>
+                    <row> 
+                        <cell>Rural</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Urban</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Total</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></li>
+    <li><p>Add down the first and third columns to write a system of equations.</p>
+
+        <p><m>\blert{\text{Number of voters:}}</m></p>
+
+        <p><m>\blert{\text{Number for Bluff:}}</m></p></li>
+    <li>Solve the system.</li>
+    <li>Answer the question in the problem.</li>
+</ol></p></statement>
+<answer>800,000 rural voters and 400,000 urban voters</answer></exercise>
+</subsection>
+
 <subsection><title>Inconsistent and Dependent Systems</title>
 
 <p>Recall that a system of two linear equations does not always have a unique solution; it may be inconsistent or dependent. The elimination method will reveal whether the system falls into one of these two cases.</p>
@@ -441,7 +601,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
         then the system is dependent.</p></li></ol></p>
 </assemblage>
 
-<exercise component="webwork"><title>Practice 4</title>
+<exercise component="webwork"><title>Practice 6</title>
 <webwork><pg-code>       
         $explain = RadioButtons(
           ["dependent",
@@ -457,7 +617,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
     <solution><p>Dependent</p></solution>
 </webwork></exercise>
 
-<exercise component="main"><title>Practice 4</title>
+<exercise component="main"><title>Practice 6</title>
 <statement><p>Identify the system as dependent, inconsistent, or consistent and independent.
             <md><mrow>x+3y=6</mrow>
                 <mrow>2x-12=-6y</mrow></md></p></statement>

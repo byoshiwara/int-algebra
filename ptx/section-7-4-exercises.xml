@@ -20,20 +20,20 @@
     <li><m>8^{-1/3} = \dfrac{1}{2}</m></li>
     <li><m>5^x = 46</m></li></ol></p></statement>
 <answer><p><ol marker="a" cols="2">
-    <li><p><m>\log_8 {\dfrac{1}{2}} = \dfrac{-1}{3}</m></p></li>
-    <li><p><m>\log_5 {46} = x</m></p></li>
+    <li><p><m>\log_8 {\left(\dfrac{1}{2}\right)} = \dfrac{-1}{3}</m></p></li>
+    <li><p><m>\log_5 {(46)} = x</m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="2"><statement><p>Convert each equation to exponential form.<ol marker="a" cols="2">
-    <li><m>\log_{10} C = -4.5</m></li>
-    <li><m>\log_m n = 5</m></li>
+    <li><m>\log_{10} {(C)} = -4.5</m></li>
+    <li><m>\log_m {(n)} = 5</m></li>
 </ol></p></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 3-8, follow the instructions, then state which property of logarithms each problem illustrates.</p></introduction>
 
 <exercise number="3"><statement><ol marker="a">
     <li><p>Simplify <m>10^2 \cdot 10^6</m></p></li>
-    <li><p>Compute <m>\log {10^2},~\log {10^6},~</m> and <m>~\log {(10^2 \cdot 10^6)}</m></p></li>
+    <li><p>Compute <m>\log {(10^2)},~\log {(10^6)},~</m> and <m>~\log {(10^2 \cdot 10^6)}</m></p></li>
 </ol></statement>
 <answer><p><ol marker="a">
     <li><p><m>10^8</m></p></li>
@@ -41,12 +41,12 @@
 
 <exercise number="4"><statement><ol marker="a">
     <li><p>Simplify <m>\dfrac{10^9}{10^6}</m></p></li>
-    <li><p>Compute <m>\log {10^9},~\log {10^6},~</m> and <m>~\log {\dfrac{10^9}{10^6}}</m></p></li>
+    <li><p>Compute <m>\log {(10^9)},~\log {(10^6)},~</m> and <m>~\log {\left(\dfrac{10^9}{10^6}\right)}</m></p></li>
 </ol></statement></exercise>
 
 <exercise number="5"><statement><ol marker="a">
     <li><p>Simplify <m>b^8 \cdot b^5</m></p></li>
-    <li><p>Compute <m>\log_b {b^8},~\log_b {b^5},~</m> and <m>~\log_b {\dfrac{b^8}{b^5}}</m></p></li>
+    <li><p>Compute <m>\log_b {(b^8)},~\log_b {(b^5)},~</m> and <m>~\log_b {\left(\dfrac{b^8}{b^5}\right)}</m></p></li>
 </ol></statement>
 <answer><p><ol marker="a">
     <li><p><m>b^3</m></p></li>
@@ -54,7 +54,7 @@
 
 <exercise number="6"><statement><ol marker="a">
     <li><p>Simplify <m>b^4 \cdot b^3</m></p></li>
-    <li><p>Compute <m>\log_b {b^4},~\log_b {b^3},~</m> and <m>~\log_b {(b^4 \cdot b^3)}</m></p></li>
+    <li><p>Compute <m>\log_b {(b^4)},~\log_b {(b^3)},~</m> and <m>~\log_b {(b^4 \cdot b^3)}</m></p></li>
 </ol></statement></exercise>
 
 <exercise number="7"><statement><ol marker="a">
@@ -67,16 +67,16 @@
 
 <exercise number="8"><statement><ol marker="a">
     <li><p>Simplify <m>(b^2)^6 </m></p></li>
-    <li><p>Compute <m>\log_b {(b^2)^6},~</m> and <m>~\log_b {b^2}</m></p></li>
+    <li><p>Compute <m>\log_b {((b^2)^6)},~</m> and <m>~\log_b {(b^2)}</m></p></li>
 </ol></statement></exercise>
 </exercisegroup>
 
 <exercisegroup ><introduction><p>For Problems 9-12, evaluate each expression. Which (if any) are equal?</p></introduction>
 
-<exercise number="9"><statement><p><ol cols="3">
-    <li><p><m>\log_2(4\cdot 8) </m></p></li>
-    <li><p><m>(\log_2 4)(\log_2 8) </m></p></li>
-    <li><p><m>\log_2 4 + \log_2 8 </m></p></li>
+<exercise number="9"><statement><p><ol cols="2">
+    <li><p><m>\log_2{(4\cdot 8)} </m></p></li>
+    <li><p><m>\left(\log_2 {(4)}\right)\left(\log_2 {(8)}\right) </m></p></li>
+    <li><p><m>\log_2 {(4)} + \log_2 {(8)} </m></p></li>
 </ol></p></statement>
 <answer><p><ol cols="3">
     <li><p><m>5</m></p></li>
@@ -85,26 +85,26 @@
 </ol>(a) and (c) are equal.</p></answer></exercise>
 
 <exercise number="10"><statement><p><ol cols="3">
-    <li><p><m>\log_3(27^2) </m></p></li>
-    <li><p><m>(\log_3 27)^2 </m></p></li>
-    <li><p><m>\log_3 27 + \log_3 27 </m></p></li>
+    <li><p><m>\log_3{(27^2}) </m></p></li>
+    <li><p><m>\left(\log_3 {(27)}\right)^2 </m></p></li>
+    <li><p><m>\log_3 {(27)} + \log_3 {(27)} </m></p></li>
 </ol></p></statement></exercise>
 
 <exercise number="11"><statement><p><ol cols="3">
-    <li><p><m>\log_{10}\left(\dfrac{240}{10} \right) </m></p></li>
-    <li><p><m>\dfrac{\log_{10} 240}{\log_{10} 10} </m></p></li>
-    <li><p><m>\log_{10} (240-10) </m></p></li>
+    <li><p><m>\log_{10}{\left(\dfrac{240}{10} \right)} </m></p></li>
+    <li><p><m>\dfrac{\log_{10} {(240)}}{\log_{10}{(10)}} </m></p></li>
+    <li><p><m>\log_{10} {(240-10)} </m></p></li>
 </ol></p></statement>
 <answer><p><ol cols="3">
-    <li><p><m>\log 24\approx 1.38</m></p></li>
-    <li><p><m>\log 240\approx 2.38</m></p></li>
-    <li><p><m>\log 230\approx 2.36</m></p></li>
+    <li><p><m>\log {(24)} \approx 1.38</m></p></li>
+    <li><p><m>\log {(240)} \approx 2.38</m></p></li>
+    <li><p><m>\log {(230)} \approx 2.36</m></p></li>
 </ol>None are equal.</p></answer></exercise>
 
 <exercise number="12"><statement><p><ol cols="3">
-    <li><p><m>\log_{10}\left(\dfrac{1}{2}\cdot 80 \right) </m></p></li>
-    <li><p><m>\dfrac{1}{2} \log_{10} 80 </m></p></li>
-    <li><p><m>\log_{10} \sqrt{80} </m></p></li>
+    <li><p><m>\log_{10}{\left(\dfrac{1}{2}\cdot 80 \right)} </m></p></li>
+    <li><p><m>\dfrac{1}{2} \log_{10} {(80)} </m></p></li>
+    <li><p><m>\log_{10} {(\sqrt{80})} </m></p></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
@@ -115,82 +115,86 @@
 <exercisegroup><introduction><p>For Problems 13-16, use the properties of logarithms to write each expression in terms of simpler logarithms. All variable expressions denote positive numbers.</p></introduction>
 
 <exercise number="13"><statement><p><ol marker="a" cols="2">
-    <li><p><m>\log_b 2x </m></p></li>
-    <li><p><m>\log_b\dfrac{x}{2} </m></p></li>
-    <li><p><m>\log_b x^3 </m></p></li>
-    <li><p><m>\log_b \sqrt[3]{x^2} </m></p></li>
+    <li><p><m>\log_b {(2x)} </m></p></li>
+    <li><p><m>\log_b {\left(\dfrac{x}{2}\right)} </m></p></li>
+    <li><p><m>\log_b {(x^3)} </m></p></li>
+    <li><p><m>\log_b {\left(\sqrt[3]{x^2}\right)} </m></p></li>
 </ol></p></statement>
 <answer><p><ol marker="a" cols="2">
-    <li><p><m>\log_t {16} = \dfrac{3}{2}</m></p></li>
-    <li><p><m>\log_{0.8}{M} = 1.2</m></p></li>
-    <li><p><m>\log_{3.7}{Q} = 2.5</m></p></li>
-    <li><p><m>\log_3 {2N_0} = -0.2t</m></p></li>
+    <li><p><m>\log_b {(2)} + \log_b {(x)}</m></p></li>
+    <li><p><m>\log_b {(2)} - \log_b {(x)}</m></p></li>
+    <li><p><m>3\log_b {(x)}</m></p></li>
+    <li><p><m>\dfrac{2}{3}\log_b {(x)}</m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="14"><statement><p><ol marker="a" cols="2">
-    <li><p><m>\log_b\dfrac{2x}{x-2} </m></p></li>
-    <li><p><m>\log_b x(2x+3) </m></p></li>
-    <li><p><m>\log_4 x^2y^3 </m></p></li>
-    <li><p><m>\log_3 \sqrt[3]{x^2+1} </m></p></li>
+    <li><p><m>\log_b {\left(\dfrac{2x}{x-2}\right)} </m></p></li>
+    <li><p><m>\log_b {\left(x(2x+3)\right)} </m></p></li>
+    <li><p><m>\log_4 {(x^2y^3)} </m></p></li>
+    <li><p><m>\log_3 {\left(\sqrt[3]{x^2+1}\right)} </m></p></li>
 </ol></p></statement></exercise>
 
 <exercise number="15"><statement><p><ol marker="a" cols="2">
-    <li><p><m>\log_3 (3x^4) </m></p></li>
-    <li><p><m>\log_5 1.1^{1/t} </m></p></li>
-    <li><p><m>\log_b (4b)^t </m></p></li>
-    <li><p><m>\log_2 5(2^x) </m></p></li>
+    <li><p><m>\log_3 {(3x^4)} </m></p></li>
+    <li><p><m>\log_5 {\left(1.1^{1/t}\right)} </m></p></li>
+    <li><p><m>\log_b {\left((4b)^t\right)} </m></p></li>
+    <li><p><m>\log_2 {\left(5(2^x)\right)} </m></p></li>
 </ol></p></statement>
 <answer><p><ol marker="a" cols="2">
-    <li><m>x=\log_4{2.5} \approx 2.7</m></li>
-    <li><m>x=\log_2{0.2} \approx -2.3</m></li></ol></p></answer></exercise>
+    <li><m>\log_3 {(3)} + 4\log_3 {(x)} </m></li>
+    <li><m>(1/t)\log_5{(1.1)}</m></li>
+    <li><p><m>t\left(\log_b {(4)} + \log_b {(t)} </m></p></li>
+    <li><p><m>\log_2 {(5)} + x</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><ol marker="a" cols="2">
-    <li><p><m>\log_{10} \sqrt{\dfrac{2L}{R^2}} </m></p></li>
-    <li><p><m>\log_{10} 2\pi\sqrt{\dfrac{l}{g}} </m></p></li></ol></p></statement></exercise>
+    <li><p><m>\log_{10} {\left(\sqrt{\dfrac{2L}{R^2}}\right)} </m></p></li>
+    <li><p><m>\log_{10} {\left(2\pi\sqrt{\frac{l}{g}}\right)} </m></p></li>
+</ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 17-20, combine into one logarithm and simplify. Assume all expressions are defined.</p></introduction>
 
-<exercise number="17"><statement><p><ol marker="a" cols="2">
-    <li><p><m>\log_b 8 - \log_b 2</m></p></li>
-    <li><p><m>2 \log_4 x + 3 \log_4 y</m></p></li>
+<exercise number="17"><statement><p><ol marker="a">
+    <li><p><m>\log_b {(8)} - \log_b {(2)}</m></p></li>
+    <li><p><m>2 \log_4 {(x)} + 3\log_4 {(y)}</m></p></li>
 </ol></p></statement>
 <answer><p><ol cols="2">
-    <li><p><m>\log_b 4</m></p></li>
-    <li><p><m>\log_4(x^2y^3) </m></p></li>
+    <li><p><m>\log_b {(4)}</m></p></li>
+    <li><p><m>\log_4{(x^2y^3)} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><p><ol marker="a" cols="2">
-    <li><p><m>\log_b 5 + \log_b 2</m></p></li>
-    <li><p><m>\dfrac{1}{4} \log_5 x - \dfrac{3}{4} \log_5 y</m></p></li>
+<exercise number="18"><statement><p><ol marker="a">
+    <li><p><m>\log_b {(5)} + \log_b {(2)}</m></p></li>
+    <li><p><m>\dfrac{1}{4} \log_5 {(x)} - \dfrac{3}{4} \log_5 {(y)}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="19"><statement><p><ol marker="a" cols="2">
-    <li><p><m>\log 2x + 2\log x -\log\sqrt{x} </m></p></li>
-    <li><p><m>\log(t^2-16)-\log(t+4) </m></p></li>
+<exercise number="19"><statement><p><ol marker="a">
+    <li><p><m>\log {(2x)} + 2\log {(x)} -\log{(\sqrt{x})} </m></p></li>
+    <li><p><m>\log{(t^2-16)}-\log{(t+4)} </m></p></li>
 </ol></p></statement>
 <answer><p><ol cols="2">
-    <li><p><m>\log 2x^{5/2} </m></p></li>
-    <li><p><m>\log (t-4) </m></p></li>
+    <li><p><m>\log {(2x^{5/2})} </m></p></li>
+    <li><p><m>\log {(t-4)} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><ol marker="a" cols="2">
-    <li><p><m>\log x^2 + \log  x^3-5\log x</m></p></li>
-    <li><p><m>\log(x^2-x)-\log\sqrt{x^3} </m></p></li>
+<exercise number="20"><statement><p><ol marker="a">
+    <li><p><m>\log {(x^2)} + \log {(x^3)} - 5\log {(x)}</m></p></li>
+    <li><p><m>\log{(x^2-x)}-\log{(\sqrt{x^3})} </m></p></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 21-24, solve for the unknown value.</p></introduction>
 
-<exercise number="21"><statement><p><m>\log_5 y = -2</m></p></statement>
+<exercise number="21"><statement><p><m>\log_5 {(y)} = -2</m></p></statement>
 <answer><p><m>y = \dfrac{1}{25}</m></p></answer></exercise>
 
-<exercise number="22"><statement><p><m>\log_b 625 = 4</m></p></statement></exercise>
+<exercise number="22"><statement><p><m>\log_b {(625)} = 4</m></p></statement></exercise>
 
-<exercise number="23"><statement><p><m>\log_b 10 = \dfrac{1}{2}</m></p></statement>
+<exercise number="23"><statement><p><m>\log_b {(10)} = \dfrac{1}{2}</m></p></statement>
 <answer><p><m>b = 100</m></p></answer></exercise>
 
-<exercise number="24"><statement><p><m>\log_5 (9-4x) = 3</m></p></statement></exercise>
+<exercise number="24"><statement><p><m>\log_5 {(9-4x)} = 3</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>30, use base 10 logarithms to solve. Round your answers to hundredths.</p></introduction>
@@ -212,12 +216,12 @@
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 31 and 32, use the three logs below to find the value of each expression.
-    <me>\log_b 2 = 0.6931, ~~\log_b 3 = 1.0986, ~~\log_b 5 = 1.6094</me>
-    (<em>Hint</em>: For example, <m>\log_b 15 = \log_b 3 + \log_b 5</m>.)</p></introduction>
+    <me>\log_b {(2)} = 0.6931, ~~\log_b {(3)} = 1.0986, ~~\log_b {(5)} = 1.6094</me>
+    (<em>Hint</em>: For example, <m>\log_b {(15)} = \log_b {(3)} + \log_b {(5)}</m>.)</p></introduction>
 
 <exercise number="31"><statement><p><ol cols="2">
-    <li><p><m>\log_b 6</m></p></li>
-    <li><p><m>\log_b\dfrac{2}{5} </m></p></li>
+    <li><p><m>\log_b {(6)}</m></p></li>
+    <li><p><m>\log_b {\left(\dfrac{2}{5}\right)} </m></p></li>
 </ol></p></statement>
 <answer><p><ol cols="2">
     <li><p><m>1.7918</m></p></li>
@@ -225,39 +229,41 @@
 </ol></p></answer></exercise>
 
 <exercise number="32"><statement><p><ol cols="2">
-    <li><p><m>\log_b 75</m></p></li>
-    <li><p><m>\log_b \sqrt{50} </m></p></li>
+    <li><p><m>\log_b {(75)}</m></p></li>
+    <li><p><m>\log_b {(\sqrt{50})} </m></p></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>In Problems 33-35, which expressions are equivalent?</p></introduction>
 
 <exercise number="33"><statement><p><ol cols="2">
-    <li><m>\log\left(\dfrac{x}{4} \right)</m></li>
-    <li><m>\dfrac{\log x}{\log 4}</m></li>
-    <li><m>\log(x-4)</m></li>
-    <li><m>\log x - \log 4 </m></li>
-</ol></p></statement></exercise>
+    <li><m>\log {\left(\dfrac{x}{4}\right)}</m></li>
+    <li><m>\dfrac{\log {(x)}}{\log {(4)}}</m></li>
+    <li><m>\log{(x-4)}</m></li>
+    <li><m>\log {(x)} - \log {(4)} </m></li>
+</ol></p></statement>
+<answer><p>(a) and (d)</p></answer></exercise>
 
 <exercise number="34"><statement><p><ol cols="2">
-    <li><m>\log(x+2)</m></li>
-    <li><m> \log x+\log 2</m></li>
-    <li><m>\log(2x)</m></li>
-    <li><m>(\log 2) (\log x)</m> </li>
-</ol></p></statement>
-<answer><p>(b) and (c)</p></answer></exercise>
+    <li><m>\log{(x+2)}</m></li>
+    <li><m> \log {(x)}+\log {(2)}</m></li>
+    <li><m>\log{(2x)}</m></li>
+    <li><m>\left(\log {(2)}\right) \left(\log {(x)}\right)</m> </li>
+</ol></p></statement></exercise>
 
 <exercise number="35"><statement><p><ol cols="2">
-    <li><m>\log x^3</m></li>
-    <li><m>(\log 3)(\log x)</m></li>
-    <li><m>3\log x</m></li>
-    <li><m>\log 3^x </m></li>
-</ol></p></statement></exercise>
+    <li><m>\log {(x^3)}</m></li>
+    <li><m>\left(\log {(3)}\right)\left(\log {(x)}\right)</m></li>
+    <li><m>3\log {(x)}</m></li>
+    <li><m>\log {(3^x)} </m></li>
+</ol></p></statement>
+<answer><p>(a) and (c)</p></answer></exercise>
 </exercisegroup>
 
 <exercise number="36"><statement><p><ol marker="a">
-    <li>Explain why <m>~\log {\dfrac{1}{x}}~</m> is the same as <m>~-\log {x}</m>.</li>
-    <li>Explain why <m>~\log {x^2}~</m> is the same as <m>~2 \log {x}</m>.</li></ol></p></statement></exercise>
+    <li>Explain why <m>~\log {\left(\dfrac{1}{x}\right)}~</m> is the same as <m>~-\log {(x)}</m>.</li>
+    <li>Explain why <m>~\log {(x^2)}~</m> is the same as <m>~2 \log {(x)}</m>.</li>
+</ol></p></statement></exercise>
 
 </subexercises>
 
@@ -311,16 +317,14 @@
 <exercisegroup cols="2"><introduction><p>For Problems 43-46, solve the formula for the specified variable.</p></introduction>
 
 <exercise number="43"><statement><p><m>N = N_0 a^{kt}</m>, for <m>k</m></p></statement>
-<answer><p><m>k=\dfrac{\log\left(\dfrac{N}{N_0}\right)}{t \log {a}} </m></p></answer></exercise>
+<answer><p><m>k=\dfrac{\log{\left(\dfrac{N}{N_0}\right)}}{t \log {(a)}} </m></p></answer></exercise>
 
 <exercise number="44"><statement><p><m>Q = Q_0 b^{t/2}</m>, for <m>t</m></p></statement></exercise>
 
 <exercise number="45"><statement><p><m>A = A_0(10^{kt}-1)</m>, for <m>t</m></p></statement>
-<answer><p><m>t=\dfrac{1}{k}\log\left(\dfrac{A}{A_0}+1\right) </m></p></answer></exercise>
+<answer><p><m>t=\dfrac{1}{k}\log{\left(\dfrac{A}{A_0}+1\right)} </m></p></answer></exercise>
 
 <exercise number="46"><statement><p><m>w = pv^q</m>, for <m>q</m></p></statement></exercise>
-
-
 </exercisegroup>
 
 </subexercises>

@@ -98,7 +98,7 @@
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p>Write each expression without using negative exponents.</p>
+<statement><p>Write each expression without using negative exponents. <m>~\alert{\text{[TK]}}</m></p>
 <p><ol marker="a" cols="2">
                 <li><p><m>5^{-4}=</m></p></li>
                 <li><p><m>5x^{-4}=</m></p></li>
@@ -107,6 +107,8 @@
             <li><p><m>\dfrac{1}{5^4}</m> </p></li>
             <li><p><m>\dfrac{5}{x^4} </m></p></li>
         </ol></p></solution></exercise>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more practice using negative exponents, see <xref ref="tkNegExp" text="custom"> Section 6.1.1 </xref> of the Toolkit.</p></aside>
 
 <p>In the next Example, we see how to evaluate expressions that contain negative exponents and how to solve equations involving negative exponents.</p>
 
@@ -356,11 +358,11 @@ which is consistent with our previous version of the rule,
 
 <example xml:id="example-laws-of-exponents"><p>
     <md><mrow>\text{a}\amp. ~x^3\cdot x^{-5} = x^{3-5} = x^{-2} 
-    \amp\amp     \blert{\text{Apply the first law: Add exponents.}} </mrow>
+                    \amp\amp     \blert{\text{Apply the first law: Add exponents.}} </mrow>
         <mrow>\text{b}\amp. ~\frac{8x^{-2}}{4x^{-6}}= \frac{8}{4}x^{-2-(-6)} = 2x^4
-    \amp\amp     \blert{\text{Apply the second law: Subtract exponents.}} </mrow>
+                    \amp\amp     \blert{\text{Apply the second law: Subtract exponents.}} </mrow>
         <mrow>\text{c}\amp. ~\left(5x^{-3}\right)^{-2}= 5^{-2}(x^{-3})^{-2}=\frac{x^6}{25}
-    \amp\amp     \blert{\text{Apply laws IV and III.}}</mrow></md>
+                    \amp\amp     \blert{\text{Apply laws IV and III.}}</mrow></md>
 </p> </example>
 
 <p>You can check that each of the calculations in <xref ref="example-laws-of-exponents" text="type-global"/> is shorter when we use negative exponents instead of converting the expressions into algebraic fractions.</p>
@@ -382,7 +384,7 @@ which is consistent with our previous version of the rule,
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 5</title>
-<statement><p>Simplify by applying the laws of exponents. Write without negative exponents.</p>
+<statement><p>Simplify by applying the laws of exponents. Write without negative exponents. <m>\alert{\text{[TK]}}~~</m></p>
     <p><ol marker="a" cols="2">
         <li><p><m>\left(2a^{-4}\right) \left(-4a^2\right)</m></p></li>
         <li><p><m>\dfrac{(r^2)^{-3}}{3r^{-4}}</m></p></li>
@@ -391,6 +393,8 @@ which is consistent with our previous version of the rule,
             <li><p><m>\dfrac{-8}{a^2} </m></p></li>
             <li><p><m>\dfrac{1}{3r^2} </m></p></li></ol></p>
     </solution></exercise>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review using the laws of exponents, see <xref ref="tkExplaws" text="custom"> Section 6.1.2 </xref> of the Toolkit.</p></aside>
 
 <warning><p>The laws of exponents do not apply to sums or differences of powers. We can add or subtract like terms, that is, powers with the same exponent. For example,
     <me>6x^{-2} + 3x^{-2} = 9x^{-2}</me>
@@ -460,14 +464,18 @@ but <em>we cannot combine terms with different exponents</em> into a single term
         <li>If the original number is greater than 10, the exponent is positive.</li>
         <li>If the original number is less than 1, the exponent is negative.</li></ol></p></li></ol></p></assemblage>
 
-<example><statement><p>Write each number in scientific notation.<ol marker="a" cols="2">
+<example><statement><p>Write each number in scientific notation. <m>~\alert{\text{[TK]}}</m>
+<ol marker="a" cols="2">
     <li><m>478,000</m></li>
-    <li><m>0.00032</m></li></ol></p></statement>
+    <li><m>0.00032</m></li>
+</ol></p></statement>
     
 <solution><p><ol marker="a">
-    <li><p><md><mrow>478,000 \amp = 4.78000 \times 10^5 \amp \amp \blert{\text{Move the decimal 5 places to the left.}}</mrow>         <mrow>\amp = 4.78 \times 10^5</mrow></md></p></li>
+    <li><p><md><mrow>478,000 \amp = 4.78000 \times 10^5 \amp \amp \blert{\text{Move the decimal 5 places to the left.}}</mrow>           <mrow>\amp = 4.78 \times 10^5</mrow></md></p></li>
     <li><p><md><mrow>0.00032 \amp = 00003.2 \times 10^{-4} \amp \amp \blert{\text{Move the decimal 4 places to the right.}}</mrow></md></p></li></ol></p></solution>
 </example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help practicec with scientific notation, see <xref ref="tkSciNot" text="custom"> Section 6.1.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 6</title>
 <webwork>

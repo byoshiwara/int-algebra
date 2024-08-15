@@ -9,16 +9,18 @@
 
 <image width="70%" source="images/fig-3-cases-quadratic-system" ><description>graphs of 3 cases for quadratic system</description></image>
 
-<p>In <xref ref="example-Pizza-system" text="type-global"/>, we use both graphical and algebraic techniques to solve the system.</p>
+<p>In the next Example, we use both graphical and algebraic techniques to solve the system. <m>~\alert{\text{[TK]}}~~</m></p> 
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of problems that can be solved with a system of equations, see <xref ref="tkWriteSys" text="custom"> Section 9.5.1 </xref> of the Toolkit.</p></aside>
 
 <example xml:id="example-Pizza-system"><statement><p>The Pizza Connection calculates that the cost, in dollars, of producing <m>x</m> pizzas per day is given by
-            <md><mrow>C = 0.15x^2 + 0.75x + 180</mrow></md>
+            <me>C = 0.15x^2 + 0.75x + 180</me>
 The Pizza Connection charges $15 per pizza, so the revenue from selling <m>x</m> pizzas is
-            <md><mrow>R=15x</mrow></md>
+            <me>R=15x</me>
  How many pizzas per day must the Pizza Connection sell in order to break even?</p></statement>
     
 <solution><p>To break even means to make zero profit. Because
-            <md><mrow>\blert{\text{Profit} = \text{Revenue} - \text{Cost}}</mrow></md>
+            <me>\blert{\text{Profit} = \text{Revenue} - \text{Cost}}</me>
 the break-even points occur when revenue equals cost. In mathematical terms, we would like to find any values of <m>x</m> for which <m>R = C</m>. If we graph the revenue and cost functions on the same axes, these values correspond to points where the two graphs intersect. Use the <kbd>WINDOW</kbd> settings
             <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 94</mrow>
                 <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 1400</mrow></md>
@@ -51,7 +53,7 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
                     <md><mrow>y \amp= x^2 - 8x + 17</mrow>
                         <mrow>y \amp{}+ 4x =13</mrow></md></p>
                 <p>Solution: <var name="$answer" width="6" evaluator="$my_evaluator" /> Note: list solutions as ordered pairs.</p> </li>
-            <li><p>Graph both equations, and show the solutions on the graph.</p></li></ol></p>
+            <li><p>Graph both equations, and show the solutions on the graph. </p></li></ol></p>
         </statement>
         <solution><p><ol marker="a" cols="2">
                 <li><p><m>(2,5) </m></p></li>
@@ -86,9 +88,9 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
             <li><p>Solve the system algebraically:
                     <md><mrow>y \amp= x^2 - 8x + 17</mrow>
                         <mrow>y \amp{}+ 4x =13</mrow></md></p></li>
-            <li><p>Graph both equations, and show the solutions on the graph.</p></li>
+            <li><p>Graph both equations, and show the solutions on the graph. </p></li>
     </ol></p></statement>
-        <solution><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a" cols="2">
                 <li><p><m>(2,5) </m></p></li>
                 <li><image width="55%" xml:id="fig-ex-9-5-1ans"><description>parabola and line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -109,7 +111,7 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
                 \filldraw[black] (2,2.5) ellipse (.18 and .16) node[above right, xshift=.1cm, fill=white, inner sep=1]{$(2,5)$};
                 \end{tikzpicture}]]>
                 </latex-image></image></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
 
 <p>What about a system of two quadratic equations <m>~y = ax^2 + bx + c~</m>?  You can sketch some possible systems to convince yourself that two such graphs can intersect in one point, two points, or no points at all.</p>
 
@@ -125,7 +127,7 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
 <p>To solve the system algebraically, we equate the two expressions for <m>y</m>.
             <md><mrow>(x + 1.1)^2 = 7.825 − 2x − 2.5x^2</mrow></md>
 After expanding the left side and collecting like terms, we arrive at a quadratic equation, which we can solve with the quadratic formula, and find two values for <m>x</m>, namely <m>x = 0.9</m> and <m>x = -2.1</m>. To find the <m>y</m>-value for each of these intersection points, we substitute the <m>x</m>-coordinate into either of the two original equations. For example, for <m>x = 0.9</m>, 
-            <md><mrow>y = (0.9 + 1.1)^2 = 2^2 = 4</mrow></md></p></solution></example>
+            <me>y = (0.9 + 1.1)^2 = 2^2 = 4</me></p></solution></example>
 
 <exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
@@ -161,10 +163,10 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
                         <mrow>y \amp= 13 - x^2</mrow></md></p></li>
             <li><p>Graph both equations, and show the solutions on the graph.</p></li>
     </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<answer><p><ol marker="a" cols="2">
             <li><p><m>(-2,9), (5,-12) </m></p></li>
             <li><image width="55%" source="images/fig-ex-9-5-2ans"><description>two parabolas</description></image></li>
-        </ol></p></solution></exercise>
+        </ol></p></answer></exercise>
 </subsection>
 
 <subsection><title>Systems Involving Conic Sections</title><idx><h>conic section</h><h>systems involving</h></idx><idx><h>system of equations</h><h>involving conic sections</h></idx>
@@ -176,8 +178,8 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
                 <mrow>xy\amp=2</mrow></md></p></statement>
 
 <solution><sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
-<p>We will use substitution to solve the system. We solve the easier of the two equations(the second equation) for <m>y</m> to obtain <m>y =\dfrac{2}{x}</m>. Then we substitute <m>\dfrac{2}{x} </m> for <m>y</m> in the first equation to find
-            <md><mrow>x^2+\left(\frac{2}{x} \right)^2=5 \quad\text{ or }\quad x^2+\frac{4}{x^2} =5  </mrow></md></p>
+<p>We will use substitution to solve the system. <m>~\alert{\text{[TK]}}~~</m>  We solve the easier of the two equations (the second equation) for <m>y</m> to obtain <m>y =\dfrac{2}{x}</m>. Then we substitute <m>\dfrac{2}{x} </m> for <m>y</m> in the first equation to find
+            <me>x^2+\left(\frac{2}{x} \right)^2=5 \quad\text{ or }\quad x^2+\frac{4}{x^2} =5  </me></p>
         <image xml:id="fig-example-9-5-3"><description>circle and hyperbola</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -206,6 +208,8 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
                 <mrow>x=1, \quad x=-1,\quad x=2\amp, \quad \text{ or }\quad x=-2</mrow></md>
     Finally, substitute each of these values into <m>y=\dfrac{2}{x} </m> to find the <m>y</m>-components of each solution. The intersection points of the two graphs are <m>(1,2)</m>, <m>(-1,-2)</m>, <m>(2,1)</m>, and <m>(-2,-1)</m>. The graph of the system is shown above.</p></solution></example>
 
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of using substitution, see <xref ref="tkSubst" text="custom"> Section 9.5.3 </xref> of the Toolkit.</p></aside>
+
 <exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
             Context("Point");
@@ -229,19 +233,19 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
 <statement><p>Find the intersection points of the graphs of
                 <md><mrow>x^2-y^2 \amp= 35</mrow>
                     <mrow>xy \amp= 6</mrow></md></p></statement>
-<solution><p><m>(6,1)</m>, <m>(-6,-1) </m></p></solution></exercise>
+<answer><p><m>(6,1)</m>, <m>(-6,-1) </m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Solving Systems by Elimination</title><idx>elimination method</idx><idx><h>system of equations</h><h>elimination method</h></idx>
 
 <p>We used substitution in the previous <xref ref="Example-intersection-of-conics" text="custom">Example</xref> to solve the system. If both equations are of the form 
-    <md><mrow>ax^2 + by^2 = c</mrow></md>
+    <me>ax^2 + by^2 = c</me>
 elimination of variables is more efficient.</p>
 
 <example><statement><p>Find the solutions to the following system of equations.
             <md><mrow>x^2 - 2y^2 \amp=1</mrow>
                 <mrow>\frac{x^2}{15}+\frac{y^2}{10}\amp=1 </mrow></md>
-Verify the solutions on a graph.</p></statement>
+Verify the solutions on a graph. <m>~\alert{\text{[TK]}}~~</m></p></statement>
 
 <solution><sidebyside widths="60% 38%" margins="0% 0%" valigns="middle middle">
 <p> We multiply the first equation by 3 and the second by 60 to obtain
@@ -255,8 +259,10 @@ Adding these two equations, we have</p>
 so <m>x = \pm 3</m>. We substitute these values for <m>x</m> into either equation and solve for <m>y</m> to find the solutions <m>(3, 2)</m>, <m>(3, -2)</m>, <m>(-3, 2)</m> and <m>(-3, -2)</m>.</p>
 
 <p>The two original equations describe a hyperbola and an ellipse. We can obtain graphs on the calculator by solving each equation for <m>y</m> to get
-    <md><mrow>y=\pm\sqrt{\frac{x^2-1}{2}} \quad\text{ and }\quad y=\pm\sqrt{10\left(1-\frac{x^2}{15} \right)}</mrow></md>
+    <me>y=\pm\sqrt{\frac{x^2-1}{2}} \quad\text{ and }\quad y=\pm\sqrt{10\left(1-\frac{x^2}{15} \right)}</me>
 Using the window <m>[-7.05,7.05] \times [-4.65,4.65]</m>, we obtain the graph shown above. The solutions of the system are the intersection points of the graphs.</p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of using elimination, see <xref ref="tkElim" text="custom"> Section 9.5.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>
@@ -282,7 +288,7 @@ Using the window <m>[-7.05,7.05] \times [-4.65,4.65]</m>, we obtain the graph sh
 <statement><p>Find the intersection points of the graphs of
                 <md><mrow>y^2-x^2 \amp= 5</mrow>
                     <mrow>x^2+y^2 \amp= 13</mrow></md></p></statement>
-    <solution> <p><m>(2,3)</m>, <m>(-2,3)</m>, <m>(2,-3) </m>, <m>(-2,-3)</m> </p></solution></exercise>
+    <answer> <p><m>(2,3)</m>, <m>(-2,3)</m>, <m>(2,-3) </m>, <m>(-2,-3)</m> </p></answer></exercise>
 
 <p>For some quadratic systems, we use a combination of elimination of variable sand substitution.</p>
 
@@ -346,7 +352,7 @@ Thus, <m>y = -5</m> or <m>y = 2</m>. From the equation <m>x = y + 4</m>, we find
 <statement><p>Find the intersection points of the graphs of
                 <md><mrow>x^2 -8x+y^2+2y \amp= 23</mrow>
                     <mrow>x^2-12x+y^2 -6y\amp= -25</mrow></md></p></statement>
-    <solution><p><m>(2,5)</m>, <m>(10,1)</m> </p></solution></exercise>
+    <answer><p><m>(2,5)</m>, <m>(10,1)</m> </p></answer></exercise>
 
 </subsection>  
  

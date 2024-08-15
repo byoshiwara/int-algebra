@@ -56,7 +56,8 @@
 
 <exercise number="5"><statement><p><ol marker="a">
     <li><p>The log scale is labeled with powers of 10. Finish labeling the tick marks in the figure with their corresponding decimal values.</p>
-        <sidebyside width="90%"><image xml:id="fig-log-scale">
+    <p></p>
+        <image xml:id="fig-log-scale">
         <description>log scale with exponents shown</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -70,12 +71,11 @@
         \draw[black] (0,.1) --++(0,-.2)  node[below]   {$10^{1}$};
         \draw[black] (10,.1) --++(0,-.2)  node[below]   {$10^{2}$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        </sidebyside>
+        </latex-image></image>
     </li>
     <li><p>The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of 10.</p>
-        <sidebyside width="90%"><image xml:id="fig-log-scale2">
+    <p></p>
+        <image xml:id="fig-log-scale2">
         <description>log scale with exponents shown</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -89,13 +89,11 @@
         \draw[black] (0,.1) --++(0,-.2)  node[below]   {$10^{1}$};
         \draw[black] (10,.1) --++(0,-.2)  node[below]   {$10^{2}$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        </sidebyside>
+        </latex-image></image>
     </li>
 </ol></p></statement>
 <answer><p><ol marker="a">
-    <li><sidebyside width="90%" margins="0% 0%"><image xml:id="fig-log-scale-ans">
+    <li><image width="90%" xml:id="fig-log-scale-ans">
         <description>log scale with exponents shown</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -120,10 +118,9 @@
         \node[rotate=90,above ] at (9.2,.6) {$79.43$};
         \node[above] at (10,.1) {$100$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        </sidebyside></li>
-    <li><sidebyside width="90%" margins="0% 0%"><image xml:id="fig-log-scale2ans">
+        </latex-image></image>
+    </li>
+    <li><image width="90%"  xml:id="fig-log-scale2ans">
         <description>log scale with exponents shown</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -145,21 +142,21 @@
         \node[rotate=90,below ] at ({10*log10(9)-.2},-.6) {$10^{1.95}$};
         \draw[black] (10,.1) --++(0,-.2)  node[below]   {$10^{2}$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-        </sidebyside>
+        </latex-image></image>
     </li>
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><ol>
     <li><p>The log scale is labeled with powers of 10. Finish labeling the tick marks in the figure with their corresponding decimal values.</p>
-        <sidebyside width="80%"><image source="images/fig-hw-7-6-6"><description>log scale with exponents shown</description></image></sidebyside></li>
+    <p></p>
+        <image width="90%" source="images/fig-hw-7-6-6"><description>log scale with exponents shown</description></image></li>
     <li><p>The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of 10.</p>
-        <sidebyside width="80%"><image source="images/fig-hw-7-6-6b"><description>log scale with exponents shown</description></image></sidebyside></li>
+    <p></p>
+        <image width="90%" source="images/fig-hw-7-6-6b"><description>log scale with exponents shown</description></image></li>
 </ol></p></statement></exercise>
 
 <exercise number="7"><statement><p>Plot the values on a log scale.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row>
             <cell><m>x</m></cell>
             <cell><m>0.075</m></cell>
@@ -167,11 +164,11 @@
             <cell><m>4200</m></cell>
             <cell><m>87,000</m></cell>
             <cell><m>6.5\times 10^7 </m></cell></row>
-    </tabular></sidebyside></statement>
-<answer><sidebyside width="80%"><image source="images/fig-ans-5-4-3"><description>logscale</description></image></sidebyside></answer></exercise>
+    </tabular></statement>
+<answer><image width="80%" source="images/fig-ans-5-4-3"><description>logscale</description></image></answer></exercise>
 
 <exercise number="8"><statement><p>Plot the values on a log scale.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row>
             <cell><m>x</m></cell>
             <cell><m>4\times 10^{-4} </m></cell>
@@ -179,14 +176,14 @@
             <cell><m>0.9</m></cell>
             <cell><m>27</m></cell>
             <cell><m>90 </m></cell></row>
-    </tabular></sidebyside></statement></exercise>
+    </tabular></statement></exercise>
 
 <exercise number="9"><statement><p>Estimate the decimal value of each point on the log scale.</p>
-    <sidebyside width="90%"><image source="images/fig-hw-7-6-9"><description>logscale</description></image></sidebyside></statement>
+    <image source="images/fig-hw-7-6-9"><description>logscale</description></image></statement>
 <answer><p><m>1.58</m>, <m>6.31</m>, <m>15.8</m>, <m>63.1</m></p></answer></exercise>
 
 <exercise number="10"><statement><p>Estimate the decimal value of each point on the log scale.</p>
-    <sidebyside width="90%"><image source="images/fig-hw-7-6-10"><description>logscale</description></image></sidebyside></statement></exercise>
+    <image source="images/fig-hw-7-6-10"><description>logscale</description></image></statement></exercise>
 
 <exercisegroup><introduction><p>In Problems 11<ndash/>18, use the appropriate formulas for logarithmic models.</p></introduction>
 
@@ -215,23 +212,23 @@
 <subexercises><title>Applications</title>
 
 <exercise number="19"><statement><p>The log scale shows various temperatures in Kelvins. Estimate the temperatures of the events indicated.</p>
-    <sidebyside width="90%"><image source="images/fig-hw-7-6-17"><description>logscale</description></image></sidebyside></statement>
+    <image source="images/fig-hw-7-6-17"><description>logscale</description></image></statement>
 <answer><p><m>1</m>, <m>80</m>, <m>330</m>, <m>1600</m>, <m>7000</m>, <m>4\times 10^7</m></p></answer></exercise>
 
 <exercise number="20"><statement><p>The log scale shows the size of various objects, in meters. Estimate the sizes of the objects indicated.</p>
-<sidebyside width="90%"><image source="images/fig-hw-7-6-18"><description>logscale</description></image></sidebyside></statement></exercise>
+<image source="images/fig-hw-7-6-18"><description>logscale</description></image>></statement></exercise>
 
 <exercise number="21"><statement><p>The magnitude of a star is a measure of its brightness. It is given by the formula
-    <me>m = 4.83 - 2.5 \log L</me>
+    <me>m = 4.83 - 2.5 \log {(L)}</me>
 where <m>L</m> is the luminosity of the star, measured in solar units. Calculate the magnitude of the stars whose luminosities are given in the figure.</p>
-    <sidebyside width="80%"><image source="images/fig-star-magnitude"><description>star magnitudes on log scale</description></image></sidebyside></statement>
+    <image width="90%" source="images/fig-star-magnitude"><description>star magnitudes on log scale</description></image>e></statement>
 <answer><p>Proxima Centauri: <m>15.5</m>; Barnard: <m>13.2</m>; Sirius: <m>1.4</m>; Vega: <m>0.6</m>; Arcturus: <m>-0.4</m>; Antares: <m>-4.7</m>; Betelgeuse: <m>-7.2</m></p></answer></exercise>
 
 <exercise number="22"><statement><p>Estimate the wavelength, in meters, of the types of electromagnetic radiation shown in the figure.</p>
-    <sidebyside width="70%"><image source="images/fig-radiation-wavelength"><description>radiation wavelength on log scale</description></image></sidebyside></statement></exercise>
+    <image width="75%" source="images/fig-radiation-wavelength"><description>radiation wavelength on log scale</description></image></statement></exercise>
 
 <exercise number="23"><statement><p>Plot the values of <m>[H^+]</m> in the section "Acidity and the pH Scale" on a log scale. </p></statement>
-<answer><sidebyside><image source="images/fig-hw-7-6-19"><description>pH on log scale</description></image></sidebyside></answer></exercise>
+<answer><image source="images/fig-hw-7-6-19"><description>pH on log scale</description></image></answer></exercise>
 
 <exercise number="24"><statement><p>Plot the values of sound intensity in the section "Decibels" on a log scale. </p></statement></exercise>
 
@@ -241,12 +238,12 @@ where <m>L</m> is the luminosity of the star, measured in solar units. Calculate
 <exercise number="26"><statement><p>The populations of two cities are separated by 2.8 units on a log scale. What is the ratio of their populations?</p></statement></exercise>
 
 <exercise number="27"><statement><p>The probability of discovering an oil field increases with its diameter, defined to be the square root of its area. Use the graph to estimate the diameter of the oil fields at the labeled points, and their probability of discovery. (Source: Deffeyes, 2001)</p>
-    <sidebyside width="70%"><image source="images/fig-hw-7-6-23"><description>probabilty of discovery vs diameter on log-log</description></image></sidebyside>
+    <image width="75%" source="images/fig-hw-7-6-23"><description>probabilty of discovery vs diameter on log-log</description></image>
 </statement>
 <answer><p>A: <m>a\approx 45</m>, <m>p \approx 7.4\%</m>; B: <m>a \approx 400</m>, <m>p \approx 15\%</m>; C: <m>a\approx 6000</m>, <m>p\approx 50\%</m>; D: <m>a \approx 13000</m>, <m>p \approx 45\%</m></p></answer></exercise>
 
 <exercise number="28"><statement>
-    <sidebyside widths="60% 30%" margins="0% 0%" valigns="top top">
+    <sidebyside widths="60% 35%" margins="0% 0%" valigns="top top">
 <p>The <term>order</term> of a stream is a measure of its size. Use the graph to estimate the drainage area, in square miles, for streams of orders 1 through 4. (Source: Leopold, Wolman, and Miller)</p>
     <image source="images/fig-hw-7-6-24"><description>stream drainage vs order on semi-log</description></image></sidebyside></statement></exercise>
 

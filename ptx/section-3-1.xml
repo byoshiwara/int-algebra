@@ -35,7 +35,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
                 <li><p><m>36y-16=0</m> <var name="$False" form="popup"/></p></li>
                 <li><p><m>v^2=6v</m> <var name="$True" form="popup"/></p></li>
             </ol></p>
-        </statement>
+    </statement>
     <solution><p>(A) and (D) are quadratic.</p></solution>
 </webwork></exercise> 
 
@@ -100,7 +100,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
 
 <example><statement><p>Graph the parabola <m>~y=x^2-4</m></p></statement>
     
-<solution><p>We make a table of values and plot the points. The graph is shown below.</p>
+<solution><p>We make a table of values and plot the points.  <m>~\alert{\text{[TK]}}</m> The graph is shown below.</p>
         <sidebyside widths="50% 30%" margins="0% 10%" valigns="middle middle">
             <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -138,6 +138,8 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside>
 </solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review evaluating quadratic expressions, see <xref ref="tkQuadExp" text="custom"> Section 3.1.1 </xref> of the Toolkit.</p></aside>
 
  <exercise component="webwork"><title>Practice 1</title>
   <webwork><pg-code>
@@ -254,13 +256,16 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
     </latex-image></image>    
 <p>We would like to find the <m>x</m>-values that make <m>y=5</m>. The horizontal line <m>y=5</m> intersects the graph at two points with <m>y</m>-coordinate 5, and their <m>x</m>-coordinates are the solutions of the equation. Thus, there are two solutions, namely <m>3</m> and <m>-3</m>.</p> 
 
-<p>Algebraically, we solve the equation as follows. <ul> 
+<p>Algebraically, we solve the equation as follows.  <m>~\alert{\text{[TK]}}</m><ul> 
     <li><p>First, we isolate the variable.  We add 4 to both sides, yielding <m>~x^2=9</m>.</p></li> 
     <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, <idx><h>square root</h></idx><idx>square root</idx><idx><h>root</h><h>square root</h></idx> in order to solve for <m>x</m>. 
         <md><mrow>x^2 \amp = 9  \amp \amp \blert{\text{Take square roots of both sides.}}</mrow>
             <mrow>x \amp = \pm \sqrt{9} = \pm 3 \amp \amp \blert{\text{Remember that every positive number}}</mrow>
-            <mrow>\amp \amp \amp \blert{\text{has two square roots.}}</mrow></md></p></li></ul>
-    The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.</p>  
+            <mrow>\amp \amp \amp \blert{\text{has two square roots.}}</mrow></md></p></li>
+    </ul>
+    The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.</p> 
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more on square roots, see <xref ref="tkSqRts" text="custom"> Section 3.1.2 </xref> of the Toolkit.</p></aside> 
 
 <note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions, which may be equal. The solutions may also be complex numbers, <idx>complex number</idx> which we'll study in Chapter 4.</p></note>
 
@@ -298,8 +303,8 @@ graphically and algebraically.</p></statement>
             <md><mrow> x^2 \amp = 30  \amp \amp \blert{\text{Take square roots of both sides.}}</mrow>
                 <mrow> x \amp = \pm \sqrt{30} \amp \amp \blert{\text{Remember that every positive number}}</mrow>
                 <mrow>  \amp   \amp \amp \blert{\text{has two square roots.}}</mrow></md></p></li>
-        <li><p>We use a calculator to find that <m>\sqrt{30}</m> is approximately 5.477, or about 5.5, as we saw on the graph.</p></li></ul></p></solution>
-</example>
+        <li><p>We use a calculator to find that <m>\sqrt{30}</m> is approximately 5.477, or about 5.5, as we saw on the graph.</p></li>
+</ul></p></solution></example>
 
 <warning><p>Many square roots are <term>irrational numbers</term>, which means that their decimal form never ends. When we round off the decimal form we have an approximation to the square root, but not its exact value. It is important to make a distinction betweeen exact values and decimal approximations.<ul> 
     <li>For the example above, the exact solutions are <m>\pm \sqrt{30}</m>.</li> 
@@ -316,7 +321,8 @@ graphically and algebraically.</p></statement>
               1, 
             );
         </pg-code>
-    <statement><p>Which solutions are exact values, and which are approximations?<ol marker="a">
+    <statement><p>Which solutions are exact values, and which are approximations?
+    <ol marker="a">
         <li><p><m>x^2=40, \qquad\qquad x=\pm 6.32455532</m>
                     <var name="$approximation" form="popup"/></p></li>
         <li><p><m>t^2=\dfrac{81}{64}, \qquad\qquad t=\pm 1.125</m>
@@ -324,18 +330,22 @@ graphically and algebraically.</p></statement>
         <li><p><m>w^2=50, \qquad\qquad w=\pm 5\sqrt{2} </m>
                         <var name="$exact" form="popup"/></p></li>
         <li><p><m>b^2=(0.632)^2, \qquad b=\pm 0.632</m>
-                        <var name="$exact" form="popup"/></p></li></ol></p>
-    </statement>
+                        <var name="$exact" form="popup"/></p></li>
+    </ol></p></statement>
     <solution><p>Only the solutions to (a) are approximations.</p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-<statement><p>Which solutions are exact values, and which are approximations?<ol marker="a">
+<statement><p>Which solutions are exact values, and which are approximations?
+    <ol marker="a">
         <li><p><m>x^2=40, \qquad\qquad x=\pm 6.32455532</m></p></li>
         <li><p><m>t^2=\dfrac{81}{64}, \qquad\qquad t=\pm 1.125</m></p></li>
         <li><p><m>w^2=50, \qquad\qquad w=\pm 5\sqrt{2} </m></p></li>
         <li><p><m>b^2=(0.632)^2, \qquad b=\pm 0.632</m></p></li>
     </ol></p></statement></exercise>
+</subsection>
+
+<subsection xml:id="ExtractingRoots"><title>Extracting Roots</title>
 
 <p>We can now solve quadratic equations of the form <m>~ax^2+c = 0~</m>, where the linear term <m>bx</m> is missing, by isolating <m>x</m> on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called <term>extraction of roots</term>. <idx><h>extraction of roots</h><seealso>quadratic equation</seealso></idx></p>
 
@@ -407,13 +417,15 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
     <image width="90%" source="images/fig-volume-and-surface-area"><description>3D Objects</description></image>
 </assemblage>
 
-<example><statement><p>The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters.  What is the radius of the can, to the nearest tenth of a centimeter?</p></statement>
+<example><statement><p>The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters.  What is the radius of the can, to the nearest tenth of a centimeter?  <m>~\alert{\text{[TK]}}</m></p></statement>
     
 <solution><p>The volume of a cylinder is given by the formula  <m>V=\pi r^2h</m>. We substitute <m>\alert{582}</m> for <m>V</m> and <m>\alert{10.5}</m> for <m>h</m>, then solve for <m>r</m>.
     <md><mrow>\alert{582} \amp = \pi r^2(\alert{10.5})  \amp \amp \blert{\text{Divide both sides by}~ 10.5 \pi.}</mrow>
         <mrow>17.643 \amp \approx r^2 \amp \amp \blert{\text{Take square roots.}}</mrow>
         <mrow>4.200 \amp \approx r</mrow></md>
  The radius of the can is approximately 4.2 centimeters.</p></solution></example>
+
+ <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples using geometric formulas, see <xref ref="tkGeomForm" text="custom"> Section 3.1.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>

@@ -39,7 +39,9 @@ where the left side of the equation includes the square of a binomial, or a <ter
 
 <p>In each case, the square of the binomial is a <term>quadratic trinomial</term><idx>quadratic trinomial</idx>,
     <me>(x + p)^2= x^2 + 2px + p^2</me>
-The coefficient of the linear term, <m>2p</m>, is twice the constant in the binomial, and the constant term of the trinomial, <m>p^2</m>, is its square.</p>
+The coefficient of the linear term, <m>2p</m>, is twice the constant in the binomial, and the constant term of the trinomial, <m>p^2</m>, is its square. <m>~\alert{\text{[TK]}}</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of squares of binomials, see <xref ref="tkBinSq" text="custom"> Section 3.4.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -79,9 +81,12 @@ You can check that in the resulting trinomial, the constant term is equal to <em
 <solution><p><ol marker="a">
     <li><p>One-half of <m>-12</m> is <m>-6</m>, so the constant term is <m>(-6)^2</m>, or <m>36</m>. We add <m>36</m> to obtain
     <md><mrow>x^2 - 12x \alert{{}+{}36}=(x - 6)^2\amp\amp\amp  {\large\blert{\underset{p^2\, = \,(-6)^2 \,=\, 36\hphantom{0}}{\stackrel {p\, = \,\frac{1}{2}(-12) \,=\, -6}{}}}}</mrow></md></p></li>
-    <li><p>One-half of <m>5</m> is <m>\dfrac{5}{2}</m>, so the constant term is <m>\left(\dfrac{5}{2}\right)^2</m>, or <m>\dfrac{25}{4}</m>. We add <m>\dfrac{25}{4}</m> to obtain
+    <li><p>One-half of <m>5</m> is <m>\dfrac{5}{2}</m>, so the constant term is <m>\left(\dfrac{5}{2}\right)^2</m>, or <m>\dfrac{25}{4}</m>. <m>~\alert{\text{[TK]}}</m></p>
+    <p>We add <m>\dfrac{25}{4}</m> to obtain
     <md><mrow>x^2 +5x \alert{{}+{}\frac{25}{4}}=\left(x +\frac{5}{2}\right)^2 \amp\amp\amp {\large \blert{\underset{p^2\, = \,(\frac{5}{2})^2 \,= \,\frac{25}{4}}{\stackrel {p \,= \,\frac{1}{2}(5) \,=\, \frac{5}{2}~~ }{}}}}</mrow></md></p></li></ol></p>
 </solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review multiplying and adding fractions, see <xref ref="tkMultFrac" text="custom"> Section 3.4.2 </xref> and <xref ref="tkAddFrac" text="custom"> Section 3.4.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
@@ -153,29 +158,31 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             <li><p><m>p=\frac{1}{2}(-18)={}</m>_____ , <m>p^2={}</m> ______</p></li>
             <li><p><m>p=\frac{1}{2}(9)={}</m>_____ , <m>p^2={}</m> ______</p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a">
                 <li><p><m>x^2 - 18x + 81 = (x - 9)^2</m></p></li>
                 <li><p><m>x^2+9x+\dfrac{81}{4}=\left(x+\dfrac{9}{2}\right)^2 </m></p></li>
     </ol></p></solution></exercise>
 </subsection>
 
-<subsection><title>Solving Quadratic Equations by Completing the Square</title><idx><h>quadratic equation</h><h>solving by completing the square</h></idx>
+<subsection xml:id="SolvebyCompletingSquare"><title>Solving Quadratic Equations by Completing the Square</title><idx><h>quadratic equation</h><h>solving by completing the square</h></idx>
 
 <p>Now we will use completing the square to solve quadratic equations. First, we will solve equations in which the coefficient of the squared term is 1. Consider the equation 
     <me>x^2 - 6x - 7 = 0</me></p>
 
 <p><em>Step 1</em>  To begin, we move the constant term to the other side of the equation, to get
-<me>x^2 - 6x{ }<fillin characters="6"/> = 7</me></p>
+    <me>x^2 - 6x~~<fillin characters="6"/> = 7</me></p>
 <p><em>Step 2</em>  Next, we complete the square on the left. Because
         <me>p = \frac{1}{2}(-6) = -3 ~~~\text{ and } ~~~ p^2 = (-3)^2 = 9</me>
     we add <m>9</m> to <em>both</em> sides of our equation to get
         <me>x^2 - 6x \alert{{}+9}=7\alert{{}+9}</me></p>
 <p><em>Step 3</em>  The left side of the equation is now the square of a binomial, namely <m>(x - 3)^2</m>. We write the left side in its square form and simplify the right side, which gives us
         <me>(x - 3)^2 =16</me></p>
-<p><em>Step 4</em>  We can now use extraction of roots to find the solutions. Taking square roots of both sides, we get
+<p><em>Step 4</em>  We can now use extraction of roots to find the solutions. <m>~\alert{\text{[TK]}}~~</m>Taking square roots of both sides, we get
         <md><mrow>x - 3 \amp =4 \amp\text{or}\amp\amp x - 3 \amp= -4\amp \blert{\text{Solve each equation.}}</mrow>
             <mrow>x \amp =7 \amp\text{or}\amp\amp x \amp= -1</mrow></md>
     The solutions are <m>7</m> and <m>-1</m>.</p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review extracting roots, see <xref ref="ExtractingRoots" text="custom"> Section 3.1.4 </xref>.</p></aside>
 
 <p>In Step 3, you can check that this equation is equivalent to the original one; if you expand the left side and collect like terms, you will return to the original equation:
     <md><mrow>(x-3)^2 \amp = 16 \amp \amp \blert{\text{Expand the square.}}</mrow>
@@ -340,7 +347,7 @@ You can check that in the resulting trinomial, the constant term is equal to <em
             <p><ol marker="1">
                 <li><p>Write the equation with the constant on the right.</p></li>
                 <li><p>Complete the square on the left:</p>
-                    <p><m>p=\dfrac{1}{2}(-3)={}</m>_____ , <m>p^2={}_____ </m></p>
+                    <p><m>p=\dfrac{1}{2}(-3)={}</m>_____ , ~~~<m>p^2={}</m>_____ </p>
                         <p>Add <m>p^2</m> to both sides.</p></li>
                 <li><p>Write the left side as a perfect square; simplify the right side.</p></li>
                 <li><p>Solve by extracting roots.</p></li>

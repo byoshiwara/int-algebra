@@ -112,8 +112,9 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>If we know that two variables vary inversely and we can find one pair of corresponding values for the variables, we can determine <m>k</m>, the constant of variation.<idx>constant of variation</idx></p>
 
-<example><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of 12 ohms draws 10 amps of current.<ol marker="a">
-        <li><p>Write a formula that gives current as a function of the resistance.</p></li>
+<example><statement><p>The amount of current, <m>I</m>, that flows through a circuit varies inversely with the resistance, <m>R</m>, on the circuit. An iron with a resistance of 12 ohms draws 10 amps of current.
+<ol marker="a">
+        <li><p>Write a formula that gives current as a function of the resistance. <m>~\alert{\text{[TK]}}</m></p></li>
         <li><p> Complete the table and graph your function in a suitable window.</p>
             <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
@@ -179,6 +180,8 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 <mrow>R \amp = \dfrac{120}{12.5} = 9.6</mrow></md>
         The toaster has a resistance of 9.6 ohms.</li></ol>
 </p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of inverse variation, see <xref ref="tkInvVar" text="custom"> Section 5.5.1 </xref> and <xref ref="tkFindCon" text="custom"> Section 5.5.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 1</title>
   <webwork><pg-code>
@@ -262,12 +265,14 @@ where <m>k</m> is a positive constant.</p></assemblage>
 <statement><p>Delbert's officemates want to buy a $120 gold watch for a colleague who is retiring. The cost per person is inversely proportional to the number of people who contribute.</p>
         <p><ol marker="a">
             <li><p>Express the cost per person, <m>C</m>, as a function of the number of people, <m>p</m>, who contribute.</p></li>
-            <li><p>Sketch the function for <m>0 \le p \le 20</m>.</p></li>
+            <li><p>Sketch the function for <m>0 \le p \le 20</m>.  <m>~\alert{\text{[TK]}}~~</m></p></li>
         </ol></p></statement>
     <solution><p><ol marker="a">
         <li><p><m>C=\dfrac{120}{p}</m></p></li>
         <li></li>
           </ol></p></solution></exercise>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more graphs of inverse variation, see <xref ref="tkSketchVar" text="custom"> Section 5.5.2 </xref> </p></aside>
 </subsection>
 
 <subsection><title>Inverse Variation with a Power</title>
@@ -281,13 +286,14 @@ where <m>k</m> is a positive constant.</p></assemblage>
 
 <p>We may also say that <m>y</m> is <term>inversely proportional</term><idx>inversely proportional</idx><idx><h>proportional</h><h>inversely</h></idx><idx><h>proportional</h><h>inversely</h><seealso>inverse variation</seealso></idx> to <m>x^n</m>.</p>
 
-<example xml:id="example-EMR-vs-distance"><statement><p>The intensity of electromagnetic radiation, such as light or radio waves, varies inversely with the square of the distance from its source. Radio station KPCC broadcasts a signal that is measured at 0.016 watt per square meter by a receiver 1 kilometer away.<ol marker="a">
-        <li>Write a formula that gives signal strength as a function of distance.</li>
-        <li>If you live 5 kilometers from the station, what is the strength of the signal you will receive?</li>
-        <li><p>Graph your function in the window
+<example xml:id="example-EMR-vs-distance"><statement><p>The intensity of electromagnetic radiation, such as light or radio waves, varies inversely with the square of the distance from its source. Radio station KPCC broadcasts a signal that is measured at 0.016 watt per square meter by a receiver 1 kilometer away.
+<ol marker="a">
+    <li>Write a formula that gives signal strength as a function of distance.</li>
+    <li>If you live 5 kilometers from the station, what is the strength of the signal you will receive?</li>
+    <li><p>Graph your function in the window
             <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 6</mrow>
         <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 0.02</mrow></md></p></li>
-    </ol></p></statement>
+</ol></p></statement>
 
 <solution><p><ol marker="a">
     <li><p>Let <m>I</m> stand for the intensity of the signal in watts per square meter, and <m>d</m> for the distance from the station in kilometers. Then <m>I = \dfrac{k}{d^2}</m>. To find the constant <m>k</m>, we substitute <m>\alert{0.016}</m> for <m>I</m> and <m>1</m> for <m>d</m>. Solving for <m>k</m> gives us
@@ -303,7 +309,7 @@ where <m>k</m> is a positive constant.</p></assemblage>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
-                \begin{tikzpicture} [scale=.65]
+                \begin{tikzpicture} [scale=.45]
                 \draw[cyan] (0,0) grid (6,10);
                 \draw[black,thick, ->, >=stealth'] (0,0)--(6.6,0) node[right]{$d$};
                 \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$I$};

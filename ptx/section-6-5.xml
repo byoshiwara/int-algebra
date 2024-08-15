@@ -45,6 +45,8 @@ You can check that <m>x=13</m> is the solution for this equation.</p>
                 </latex-image></image></sidebyside>
 </solution></example>
 
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of solving radical equations, see <xref ref="tkSimpRadEqn" text="custom"> Section 6.5.1 </xref> of the Toolkit.</p></aside>
+
 <exercise component="webwork"><title>Practice 1</title>
 <webwork>
     <pg-code>
@@ -232,7 +234,7 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
 
 <solution><p>First, we isolate the more complicated radical on one side of the equation. (This will make it easier to square both sides.) We subtract <m>\sqrt{x} </m> from both sides to get
         <me>\sqrt{x-7}=7-\sqrt{x} </me>
-Now we square each side to remove one radical. Be careful when squaring the binomial <m>7-\sqrt{x} </m>.
+Now we square each side to remove one radical. Be careful when squaring the binomial <m>7-\sqrt{x} </m>. <m>~\alert{\text{[TK]}}</m>
         <md><mrow>(\sqrt{x-7})^{\alert{2}}\amp =(7-\sqrt{x})^{\alert{2}}</mrow>
             <mrow> x-7\amp = 49-14\sqrt{x}+x</mrow></md>
 We collect like terms, and isolate the radical on one side of the equation.
@@ -244,6 +246,8 @@ Finally, we square both sides again to obtain
 <p><em>Check</em></p><sidebyside widths="40% 45%" margins="5% 10%"><p>
     Does <m>\sqrt{\alert{16}-7}+\sqrt{\alert{16}}=7</m>?</p><p> <m>\hphantom{blank}\blert{\text{Yes. The solution is } 16.}</m>
     </p></sidebyside></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help on squaring binomials, see <xref ref="tkSqRadBin" text="custom"> Section 6.5.2 </xref> of the Toolkit.</p></aside>
 
 <warning><p>Recall that we cannot solve a radical equation by squaring each term separately. So it is <em>incorrect</em> to begin <xref ref="example-radical-equation-with-3-terms" text="type-hybrid"/> by writing
     <me>(\sqrt{x-7})^2+(\sqrt{x})^2=7^2~~~~~~\blert{\text{Incorrect!}}</me>
@@ -315,7 +319,9 @@ In this case, <m>\sqrt{a^2}</m> does not equal <m>a</m>, because <m>a</m> is neg
 	<p><md><mrow>\sqrt[n]{a^n} \amp = a  \amp \amp   \text{If}~n~\text{is odd.}</mrow>
 		<mrow>\sqrt[n]{a^n} \amp = \abs{a}  \amp \amp   \text{If}~n~\text{is even.}</mrow></md></p></assemblage>
 
-<p>In particular, note that it is not always true that <m>\sqrt{a^2} = a</m>, unless we know that <m>a \ge 0</m>. Otherwise, we can only assume that <m>\sqrt{a^2} = \abs{a}</m>.</p>
+<p>In particular, note that it is not always true that <m>\sqrt{a^2} = a</m>, unless we know that <m>a \ge 0</m>. Otherwise, we can only assume that <m>\sqrt{a^2} = \abs{a}</m>. <m>~\alert{\text{[TK]}}</m></p> 
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review absolute value, see <xref ref="tkRadAbsVal" text="custom"> Section 6.5.3 </xref> of the Toolkit.</p></aside>
 
 <example><statement><p><ol marker="a" cols="2">
 	<li><m>\sqrt{16x^2} = 4\abs{x}</m></li>

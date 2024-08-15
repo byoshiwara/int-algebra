@@ -4,7 +4,7 @@
 <section xml:id="Graphing-Parabolas"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Graphing Parabolas</title>
 
-<investigation><title>Perimeter and Area</title>
+<investigation xml:id="PerimArea"><title>Perimeter and Area</title>
 <sidebyside widths="65% 25%" margins="0% 0%" valigns="middle middle">
 <p>Do all rectangles with the same perimeter, say 36 inches, have the same area? Two different rectangles with perimeter 36 inches are shown. The first rectangle has base 10 inches and height 8 inches, and its area is 80 square inches. The second rectangle has base 12 inches and height 6 inches. Its area is 72 square inches.</p>
     <image source="images/fig-two-rectangles-perimeter-36"><description>graph</description></image></sidebyside>
@@ -111,10 +111,11 @@ rectangle? What is its height?</p></li>
 </ol></p></investigation>
 
 <subsection><title> Introduction </title>
-<p>The graph of the quadratic equation <m>y = ax^2 + bx + c</m> is called a <term>parabola</term><idx>parabola</idx>. Some parabolas are shown below.</p>
+ 
+<p>The graph of any quadratic equation <m>y = ax^2 + bx + c</m> is a <term>parabola</term><idx>parabola</idx> (if <m>a \not= 0</m>). In this section we'll make a systematic study of the parabolas we've met earlier in the chapter. Some typical parabolas are shown below.</p>
 	<image source="images/fig-parabola-diagram"><description>two parabolas with labeled features</description></image>
 
-<p>All these parabolas share certain features. <ul>
+<p>To begin, notice that these parabolas share certain features. <ul>
 	<li>The graph has either a highest point (if the parabola opens downward, as in figure (a) or a lowest point (if the parabola opens upward, as in figure (b). This high or low point is called the <term>vertex</term><idx><h>vertex</h><h>of a parabola</h></idx> of the graph.</li>
 	<li>The parabola is symmetric about a vertical line, called the <term>axis of symmetry</term><idx><h>axis</h><h>of symmetry</h></idx><idx><h>parabola</h><h>axis of symmetry</h></idx><idx>axis of symmetry</idx><idx><h>axis of symmetry</h><seealso>parabola</seealso></idx><idx><h>symmetry</h><see>axis of symmetry</see></idx>, that runs through the vertex.</li> 
 	<li>A parabola has a <m>y</m>-intercept<idx><em>y</em>-intercept</idx>, and it may have zero, one, or two <m>x</m>-intercepts<idx><em>x</em>-intercept</idx>.</li>
@@ -523,15 +524,20 @@ rectangle? What is its height?</p></li>
  <example><statement><p>Describe the graph of the equation
 	<me>y = 2x^2 + 8x</me></p></statement>
 
-<solution><p>The graph in the standard window is shown below. We see that the axis of symmetry for this parabola is not the <m>y</m>-axis: the graph is shifted to the left, compared to the basic parabola. We find the <m>y</m>-intercepts of the graph by setting <m>y</m> equal to zero:  
+<solution><p>The graph in the standard window is shown below. We see that the axis of symmetry for this parabola is not the <m>y</m>-axis: the graph is shifted to the left, compared to the basic parabola. We find the <m>y</m>-intercepts of the graph by setting <m>y</m> equal to zero: <m>~\alert{\text{[TK]}}</m> 
     <md><mrow>0 \amp= 2x^2 + 8x</mrow>
         <mrow>\amp= 2x(x + 4)</mrow></md>
 The solutions of this equation are <m>0</m> and <m>-4</m>, so the <m>x</m>-intercepts are the points <m>(0, 0)</m> and <m>(-4, 0)</m>.</p>
 <image width="35%" source="images/fig-GC-horizontally-shifted-parabola"  ><description>shifted parabola</description></image></solution></example>
 
-<p>We can find the vertex of the graph by using the symmetry of the parabola. The <m>x</m>-coordinate of the vertex lies exactly half-way between the <m>x</m>-intercepts, so we average their <m>x</m>-coordinates to find:
-	<me>x=\frac{1}{2}[0 + (-4)] = -2</me>
-To find the <m>y</m>-coordinate of the vertex, substitute <m>x = -2</m> into the equation for the parabola:
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review solving quadratic equations, see <xref ref="tkSolvQuadEqn" text="custom"> Section 3.3.2 </xref> of the Toolkit.</p></aside>
+
+<p>We can find the vertex of the graph by using the symmetry of the parabola. The <m>x</m>-coordinate of the vertex lies exactly half-way between the <m>x</m>-intercepts, so we average their <m>x</m>-coordinates to find: <m>~\alert{\text{[TK]}}</m>
+	<me>x=\frac{1}{2}[0 + (-4)] = -2</me></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review the average of two numbers, see <xref ref="tkAvg" text="custom"> Section 3.3.1 </xref> of the Toolkit.</p></aside>
+
+<p>To find the <m>y</m>-coordinate of the vertex, substitute <m>x = -2</m> into the equation for the parabola:
 	<md><mrow>y \amp= 2(\alert{-2})^2 + 8(\alert{-2})</mrow>
 	   <mrow>\amp= 8 - 16 = -8</mrow></md>
 Thus, the vertex is the point <m>(-2,-8)</m>.</p>
@@ -606,7 +612,7 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
     </ol></p></statement></exercise>
 </subsection>
 
-<subsection><title>A Formula for the Vertex</title>
+<subsection xml:id="VertexFormula"><title>A Formula for the Vertex</title>
 
 <sidebyside widths="55% 35%"  valigns="middle middle"><p>We can find a formula for the vertex of any parabola of the form
 	<me>y = ax^2 + bx</me>
@@ -628,7 +634,9 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 	<p>For the graph of <m>y = ax^2 + bx</m>, the <m>x</m>-coordinate of the vertex is
 		<me>\blert{x_v=\frac{-b}{2a}}</me></p></assemblage>
 
-<p>We find the <m>y</m>-coordinate of the vertex by substituting its <m>x</m>-coordinate into the equation for the parabola.</p>
+<p>We find the <m>y</m>-coordinate of the vertex by substituting its <m>x</m>-coordinate into the equation for the parabola. <m>~\alert{\text{[TK]}}~~</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of finding points on a parabola, see <xref ref="tkParabPts" text="custom"> Section 3.3.3 </xref> of the Toolkit.</p></aside>
 
 <example xml:id="example-parabola-vertex"><statement><p><ol marker="a">
 	<li>Find the vertex of the graph of <m>f(x) = -1.8x^2 - 16.2x</m>.</li>

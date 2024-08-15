@@ -15,7 +15,10 @@ To find a specific line we must find values for the two <term>parameters</term><
     <me>y=ax^2+bx+c</me>
 To find these parameters we need three data points. </p>
 
-<example xml:id="Example-parabola-through-3-points"><statement><p>Find values for <m>a</m>, <m>b</m>, and <m>c</m> so that the points <m>(1, 3)</m>, <m>(3, 5)</m>, and <m>(4, 9)</m> lie on the graph of <m>y = ax^2 + bx + c</m>.</p></statement>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review points on a graph, see <xref ref="tkPtOnGraph" text="custom"> Section 4.3.1 </xref> of the Toolkit.</p></aside>
+
+<example xml:id="Example-parabola-through-3-points"><statement><p>Find values for <m>a</m>, <m>b</m>, and <m>c</m> so that the points <m>(1, 3)</m>, <m>(3, 5)</m>, and <m>(4, 9)</m> lie on the graph of <m>y = ax^2 + bx + c</m>. <m>~\alert{\text{[TK]}}</m></p></statement>
 
 <solution><p>We substitute the coordinates of each of the three points into the equation of the parabola to obtain three equations:
     <md><mrow>\alert{3} =\amp a(\alert{1})^2 + b(\alert{1}) + c \amp</mrow>
@@ -25,7 +28,7 @@ or, equivalently,
     <md><mrow>a + b  + c \amp =  3 \amp\amp(1)</mrow>
         <mrow>9a +  3b + c \amp = 5 \amp\amp(2)</mrow>
         <mrow>16a +  4b + c \amp = 9 \amp\amp(3)</mrow></md> 
-This is a system of three equations in the three unknowns <m>a</m>, <m>b</m>, and <m>c</m>. To solve the system, we use Gaussian reduction. We first eliminate <m>c</m>. We subtract Equation (1) from Equation (2) to obtain
+This is a system of three equations in the three unknowns <m>a</m>, <m>b</m>, and <m>c</m>. To solve the system, we use Gaussian reduction. <m>~\alert{\text{[TK]}}~~</m> We first eliminate <m>c</m>. We subtract Equation (1) from Equation (2) to obtain
     <me>8a + 2b = 2 \hphantom{blankblank}(4)</me>
 and then subtract Equation (1) from Equation (3) to get
     <me>15a + 3b = 6 \hphantom{blankblank}(5)</me>
@@ -79,6 +82,8 @@ Thus, the equation of the parabola is
 The parabola and the three points are shown below.</p>
     <image width="25%" source="images/fig-parabola-through-3-specified-points" ><description>parabola through-3 specified points</description></image>
 </solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review Gaussian reduction, see <xref ref="tkSpecSys" text="custom"> Section 4.3.3 </xref>. To see more examples of elimination, see <xref ref="tkSolve2by2" text="custom"> Section 4.3.2</xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork>
@@ -370,20 +375,20 @@ The graph of this equation, along with the data points, is shown at right.</p></
 
 <p>We can use a graphing calculator or other technology to find an approximate quadratic fit for a set of data. The procedure is similar to the steps for linear regression.</p>
 
-<example xml:id="example-GC-quadratic-fit">
-    <statement><p><ol marker="a">
-            <li><p>Use your calculator to find a quadratic fit for the data in <xref ref="example-quadratic-fit" text="type-hybrid"/>.</p></li>
-            <li><p>How many of the given data points actually lie on the graph of the quadratic approximation?</p></li>
-        </ol></p></statement>
-    <solution><p><ol marker="a">
-            <li><p>We press <kbd>STAT</kbd> <kbd>ENTER</kbd> and enter the data under columns <m>L_1</m> and <m>L_2</m>, as shown below. Next, we calculate the quadratic regression equation and store it in <m>Y_1</m> by pressing <kbd>STAT</kbd> <kbd name="right"/>  <m>5</m> <kbd>VARS</kbd> <kbd name="right"/>  <m>1</m> <m>1</m> <kbd>ENTER</kbd>.</p>
-            <p>The regression equation has the form <m>y = ax^2 + bx + c</m>, where <m>a = 0.0057</m>, <m>b = -0.47</m>, and <m>c = 15.56</m>. Notice that <m>a</m>, <m>b</m>, and <m>c</m> are all close to the values we computed in <xref ref="example-quadratic-fit" text="type-global"/>.</p>
+<example xml:id="example-GC-quadratic-fit"><statement><p>
+    <ol marker="a">
+        <li><p>Use your calculator to find a quadratic fit for the data in <xref ref="example-quadratic-fit" text="type-hybrid"/>.</p></li>
+        <li><p>How many of the given data points actually lie on the graph of the quadratic approximation?</p></li>
+    </ol></p></statement>
+<solution><p><ol marker="a">
+        <li><p>We press <kbd>STAT</kbd> <kbd>ENTER</kbd> and enter the data under columns <m>L_1</m> and <m>L_2</m>, as shown below. Next, we calculate the quadratic regression equation and store it in <m>Y_1</m> by pressing <kbd>STAT</kbd> <kbd name="right"/>  <m>5</m> <kbd>VARS</kbd> <kbd name="right"/>  <m>1</m> <m>1</m> <kbd>ENTER</kbd>.</p>
+        <p>The regression equation has the form <m>y = ax^2 + bx + c</m>, where <m>a = 0.0057</m>, <m>b = -0.47</m>, and <m>c = 15.56</m>. Notice that <m>a</m>, <m>b</m>, and <m>c</m> are all close to the values we computed in <xref ref="example-quadratic-fit" text="type-global"/>.</p>
                 <image width="70%" source="images/fig-GC-quadratic-regression" ><description>GC lists and GC quadratic regression output</description></image></li>
 
-            <li><p>Next, we will graph the data and the regression equation. We press <kbd>Y=</kbd> and select <em>Plot1</em>, then press <kbd>ZOOM</kbd> <m>9</m> to see the graph shown below. The parabola seems to pass close to all the data points.</p> 
-            <p>However, try using either the <em>value</em> feature or a table to find the <m>y</m>-coordinates of points on the regression curve. By comparing these <m>y</m>-coordinates with our original data points, we find that none of the given data points lies precisely on the parabola.</p>
+        <li><p>Next, we will graph the data and the regression equation. We press <kbd>Y=</kbd> and select <em>Plot1</em>, then press <kbd>ZOOM</kbd> <m>9</m> to see the graph shown below. The parabola seems to pass close to all the data points.</p> 
+        <p>However, try using either the <em>value</em> feature or a table to find the <m>y</m>-coordinates of points on the regression curve. By comparing these <m>y</m>-coordinates with our original data points, we find that none of the given data points lies precisely on the parabola.</p>
             <image width="70%" source="images/fig-GC-quadratic-regression2" ><description>GC plot and GC table quadratic regression output</description></image></li>
-        </ol></p></solution></example>
+    </ol></p></solution></example>
 
 <exercise  component="webwork"><title>Practice 3</title>
     <webwork><pg-code>

@@ -12,7 +12,7 @@
 <subexercises><title>Skills Practice</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-4, use your calculator to complete the table for each function. Then choose a suitable window and graph the function.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row>
             <cell><m>x</m></cell>
             <cell><m>-10</m></cell>
@@ -31,10 +31,10 @@
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell>
             <cell><m>\hphantom{0000}</m></cell></row>
-    </tabular></sidebyside></introduction>
+    </tabular></introduction>
 
 <exercise number="1"><statement><p><m>f(x)=e^{0.2x} </m></p></statement>
-<answer><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+<answer>><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row>
             <cell><m>x</m></cell>
             <cell><m>-10</m></cell>
@@ -53,15 +53,14 @@
             <cell><m>7.389</m></cell>
             <cell><m>20.086</m></cell>
             <cell><m>54.598</m></cell></row>
-    </tabular></sidebyside>
-    <sidebyside width="40%"><image source="images/fig-GC-e-to-pt2x"><description>growth</description></image>
-</sidebyside></answer></exercise>
+    </tabular>
+    <image width="40%" source="images/fig-GC-e-to-pt2x"><description>growth</description></image>
+</answer></exercise>
 
 <exercise number="2"><statement><p><m>f(x)=e^{0.6x} </m></p></statement></exercise>
 
 <exercise number="3"><statement><p><m>f(x)= e^{-0.3x} </m></p></statement>
-<answer><sidebyside>
-    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+<answer><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row>
             <cell><m>x</m></cell>
             <cell><m>-10</m></cell>
@@ -80,32 +79,32 @@
             <cell><m>0.05</m></cell>
             <cell><m>0.011</m></cell>
             <cell><m>0.00248</m></cell></row>
-    </tabular></sidebyside>
-    <sidebyside width="40%"><image source="images/fig-GC-e-to-neg-pt3x"><description>decay</description></image>
-</sidebyside></answer></exercise>
+    </tabular>
+    <image width="40%" source="images/fig-GC-e-to-neg-pt3x"><description>decay</description></image>
+</answer></exercise>
 
 <exercise number="4"><statement><p><m>f(x)=e^{-0.1x} </m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup ><introduction><p>For Problems 5 and 6, simplify.</p></introduction>
 
-<exercise number="5"><statement><p><ol cols="4">
-    <li><p><m>\ln e^2</m></p></li>
-    <li><p><m>e^{\ln 5t} </m></p></li>
-    <li><p><m>e^{-\ln x} </m></p></li>
-    <li><p><m>\ln \sqrt{e} </m></p></li>
+<exercise number="5"><statement><p><ol cols="2">
+    <li><p><m>\ln {(e^2)}</m></p></li>
+    <li><p><m>e^{\ln {(5t)}} </m></p></li>
+    <li><p><m>e^{-\ln {(x)}} </m></p></li>
+    <li><p><m>\ln {(\sqrt{e})} </m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="4">
+<answer><p><ol cols="2">
     <li><p><m>2</m></p></li>
     <li><p><m>5t</m></p></li>
     <li><p><m>\dfrac{1}{x} </m></p></li>
     <li><p><m>\dfrac{1}{2} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="6"><statement><p><ol cols="4">
-    <li><p><m>\ln e^{x^4}</m></p></li>
-    <li><p><m>e^{3 \ln x} </m></p></li>
-    <li><p><m>e^{\ln x -\ln y} </m></p></li>
+<exercise number="6"><statement><p><ol cols="2">
+    <li><p><m>\ln {(e^{x^4})}</m></p></li>
+    <li><p><m>e^{3 \ln {(x)}} </m></p></li>
+    <li><p><m>e^{\ln {(x)} -\ln {(y)}} </m></p></li>
     <li><p><m>\ln \left(\dfrac{1}{e^{2t}} \right) </m></p></li>
 </ol></p></statement></exercise>
 </exercisegroup>
@@ -130,9 +129,9 @@
 </ol></p></statement></exercise>
 
 <exercise number="9"><statement><p><ol cols="3">
-    <li><p><m>\ln x=1.42</m></p></li>
-    <li><p><m>\ln x = 0.63</m></p></li>
-    <li><p><m>\ln x = -2.6</m></p></li>
+    <li><p><m>\ln {(x)} = 1.42</m></p></li>
+    <li><p><m>\ln {(x)} = 0.63</m></p></li>
+    <li><p><m>\ln {(x)} = -2.6</m></p></li>
 </ol></p></statement>
 <answer><p><ol cols="3">
     <li><p><m>4.14</m></p></li>
@@ -141,9 +140,9 @@
 </ol></p></answer></exercise>
 
 <exercise number="10"><statement><p><ol cols="3">
-    <li><p><m>\ln x=2.03</m></p></li>
-    <li><p><m>\ln x = 0.59</m></p></li>
-    <li><p><m>\ln x = -3.4</m></p></li>
+    <li><p><m>\ln {(x)} = 2.03</m></p></li>
+    <li><p><m>\ln {(x)} = 0.59</m></p></li>
+    <li><p><m>\ln {(x)} = -3.4</m></p></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
@@ -164,7 +163,7 @@
 
 <exercise number="15"><statement><p><ol>
     <li><p>Fill in the table, rounding your answers to four decimal places.</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>x</m></cell>
                 <cell><m>0</m></cell>
@@ -181,11 +180,11 @@
                 <cell><m>\phantom{000}</m></cell>
                 <cell><m>\phantom{000}</m></cell>
                 <cell><m>\phantom{000}</m></cell></row>
-        </tabular></sidebyside></li>
+        </tabular></li>
     <li><p>Compute the ratio of each function value to the previous one. Explain the result.</p></li>
 </ol></p></statement>
 <answer><p><ol>
-    <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>x</m></cell>
                 <cell><m>0</m></cell>
@@ -202,13 +201,13 @@
                 <cell><m>4.4817</m></cell>
                 <cell><m>7.3891</m></cell>
                 <cell><m>12.1825</m></cell></row>
-        </tabular></sidebyside></li>
+        </tabular></li>
     <li><p>Each ratio is <m>e^{0.5} \approx 1.6487</m>: Increasing <m>x</m>-values by a constant <m>\Delta x = 0.5</m> corresponds to multiplying the <m>y</m>-values of the exponential function by a constant factor of <m>e^{\Delta x}</m>.</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><ol>
     <li><p>Fill in the table, rounding your answers to four decimal places.</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>x</m></cell>
                 <cell><m>0</m></cell>
@@ -225,14 +224,14 @@
                 <cell><m>\phantom{000}</m></cell>
                 <cell><m>\phantom{000}</m></cell>
                 <cell><m>\phantom{000}</m></cell></row>
-        </tabular></sidebyside></li>
+        </tabular></li>
     <li><p>Compute the ratio of each function value to the previous one. Explain the result.</p></li>
 </ol></p></statement></exercise>
 
 <exercise number="17"><statement><p><ol>
     <li><p>
         Fill in the table, rounding your answers to the nearest integer.</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>x</m></cell>
                 <cell><m>0</m></cell>
@@ -251,11 +250,11 @@
                 <cell><m>\phantom{000}</m></cell>
                 <cell><m>\phantom{000}</m></cell>
                 <cell><m>\phantom{000}</m></cell></row>
-        </tabular></sidebyside></li>
+        </tabular></li>
     <li><p>Subtract each <m>x</m>-value from the next one. Explain the result.</p></li>
 </ol></p></statement>
 <answer><p><ol>
-    <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>x</m></cell>
                 <cell><m>0</m></cell>
@@ -274,14 +273,14 @@
                 <cell><m>16</m></cell>
                 <cell><m>32</m></cell>
                 <cell><m>64</m></cell></row>
-        </tabular></sidebyside></li>
+        </tabular></li>
     <li><p>Each difference in <m>x</m>-values is approximately <m>\ln 2\approx 0.6931</m>: Increasing <m>x</m>-values by a constant <m>\Delta x = \ln 2</m> corresponds to multiplying the <m>y</m>-values of the exponential function by a constant factor of <m>e^{\Delta x} = e^{\ln 2} = 2</m>. That is, each function value is approximately equal to double the previous one.</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="18"><statement><p><ol>
     <li><p>
         Fill in the table, rounding your answers to the nearest integer.</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>x</m></cell>
                 <cell><m>0</m></cell>
@@ -300,7 +299,7 @@
                 <cell><m>\phantom{000}</m></cell>
                 <cell><m>\phantom{000}</m></cell>
                 <cell><m>\phantom{000}</m></cell></row>
-        </tabular></sidebyside></li>
+        </tabular></li>
     <li><p>Subtract each <m>x</m>-value from the next one. Explain the result.</p></li>
 </ol></p></statement></exercise>
 
@@ -330,39 +329,22 @@
 <exercisegroup cols="2"><introduction><p>For Problems 27-32, solve the equation for the specified variable.</p></introduction>
 
 <exercise number="27"><statement><p><m>y = e^{kt},~~</m> for <m>t</m></p></statement>
-<answer><p><m>t=\dfrac{1}{k}\ln y </m></p></answer></exercise>
+<answer><p><m>t=\dfrac{1}{k}\ln {(y)} </m></p></answer></exercise>
 
 <exercise number="28"><statement><p><m>\dfrac{T}{R} = e^{t/2},~~</m> for <m>t</m></p></statement></exercise>
 
 <exercise number="29"><statement><p><m>y = k(1-e^{-t}),~~</m> for <m>t</m></p></statement>
-<answer><p><m>t=\ln \left(\dfrac{k}{k-y}\right) </m></p></answer></exercise>
+<answer><p><m>t=\ln {\left(\dfrac{k}{k-y}\right)} </m></p></answer></exercise>
 
 <exercise number="30"><statement><p><m>B - 2 = (A + 3)e^{-t/3},~~</m> for <m>t</m></p></statement></exercise>
 
-<exercise number="31"><statement><p><m>T = T_0 \ln(k + 10),~~</m> for <m>k</m></p></statement>
+<exercise number="31"><statement><p><m>T = T_0 \ln{(k + 10)},~~</m> for <m>k</m></p></statement>
 <answer><p><m>k=e^{T/T_0}-10 </m></p></answer></exercise>
 
-<exercise number="32"><statement><p><m>P = P_0 + \ln 10k,~~</m> for <m>k</m></p></statement></exercise>
+<exercise number="32"><statement><p><m>P = P_0 + \ln {(10k)},~~</m> for <m>k</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="33"><statement><p><ol><li><p>Fill in the table, rounding your answers to three decimal places.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
-        <row>
-            <cell><m>n</m></cell>
-            <cell><m>0.39</m></cell>
-            <cell><m>3.9</m></cell>
-            <cell><m>39</m></cell>
-            <cell><m>390</m></cell></row>
-        <row>
-            <cell><m>\ln n</m></cell>
-            <cell><m>\hphantom{0000} </m></cell>
-            <cell><m>\hphantom{0000} </m></cell>
-            <cell><m>\hphantom{0000} </m></cell>
-            <cell><m>\hphantom{0000} </m></cell></row>
-    </tabular></sidebyside></li>
-    <li><p>Subtract each natural logarithm in your table from the next one. (For example, compute <m>\ln 3.9 - \ln 0.39</m>.) Explain the result.</p></li>
-</ol></p></statement>
-<answer><p><ol><li><sidebyside>
     <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
         <row>
             <cell><m>n</m></cell>
@@ -371,17 +353,34 @@
             <cell><m>39</m></cell>
             <cell><m>390</m></cell></row>
         <row>
-            <cell><m>\ln n</m></cell>
+            <cell><m>\ln {(n)}</m></cell>
+            <cell><m>\hphantom{0000} </m></cell>
+            <cell><m>\hphantom{0000} </m></cell>
+            <cell><m>\hphantom{0000} </m></cell>
+            <cell><m>\hphantom{0000} </m></cell></row>
+    </tabular></li>
+    <li><p>Subtract each natural logarithm in your table from the next one. (For example, compute <m>\ln {(3.9)} - \ln {(0.39)}</m>.) Explain the result.</p></li>
+</ol></p></statement>
+<answer><p><ol>
+    <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
+        <row>
+            <cell><m>n</m></cell>
+            <cell><m>0.39</m></cell>
+            <cell><m>3.9</m></cell>
+            <cell><m>39</m></cell>
+            <cell><m>390</m></cell></row>
+        <row>
+            <cell><m>\ln {(n)}</m></cell>
             <cell><m>-0.942 </m></cell>
             <cell><m>1.361 </m></cell>
             <cell><m>3.664 </m></cell>
             <cell><m>5.966 </m></cell></row>
-    </tabular></sidebyside></li>
+    </tabular></li>
     <li><p>Each difference in function values is approximately <m>\ln 10\approx 2.303</m>: Multiplying <m>x</m>-values by a constant factor of 10 corresponds to adding a constant value of <m>\ln 10</m> to the <m>y</m>-values of the natural log function.</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="34"><statement><p><ol><li><p>Fill in the table, rounding your answers to three decimal places.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
         <row>
             <cell><m>n</m></cell>
             <cell><m>0.64</m></cell>
@@ -394,12 +393,12 @@
             <cell><m>\hphantom{0000} </m></cell>
             <cell><m>\hphantom{0000} </m></cell>
             <cell><m>\hphantom{0000} </m></cell></row>
-    </tabular></sidebyside></li>
-    <li><p>Subtract each natural logarithm in your table from the next one. (For example, compute <m>\ln 6.4 - \ln 0.64</m>.) Explain the result.</p></li>
+    </tabular></li>
+    <li><p>Subtract each natural logarithm in your table from the next one. (For example, compute <m>\ln {(6.4)} - \ln {(0.64)}</m>.) Explain the result.</p></li>
 </ol></p></statement></exercise>
 
 <exercise number="35"><statement><p><ol><li><p>Fill in the table, rounding your answers to three decimal places.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
         <row>
             <cell><m>n</m></cell>
             <cell><m>2</m></cell>
@@ -407,16 +406,15 @@
             <cell><m>8</m></cell>
             <cell><m>16</m></cell></row>
         <row>
-            <cell><m>\ln n</m></cell>
+            <cell><m>\ln {(n)}</m></cell>
             <cell><m>\hphantom{0000} </m></cell>
             <cell><m>\hphantom{0000} </m></cell>
             <cell><m>\hphantom{0000} </m></cell>
             <cell><m>\hphantom{0000} </m></cell></row>
-    </tabular></sidebyside></li>
+    </tabular></li>
     <li><p>Divide each natural logarithm in your table by <m>\ln 2</m>. Explain the result.</p></li>
 </ol></p></statement>
-<answer><p><ol><li><sidebyside>
-    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
+<answer><p><ol><li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
         <row>
             <cell><m>n</m></cell>
             <cell><m>2</m></cell>
@@ -429,12 +427,12 @@
             <cell><m>1.386 </m></cell>
             <cell><m>2.079 </m></cell>
             <cell><m>2.773 </m></cell></row>
-    </tabular></sidebyside></li>
-    <li><p>Each quotient equals <m>k</m>, where <m>n = 2^k</m>. Because <m>\ln n = \ln 2^k = k\cdot \ln 2</m>, <m>k = \dfrac{\ln n}{\ln 2}</m>.</p></li>
+    </tabular></li>
+    <li><p>Each quotient equals <m>k</m>, where <m>n = 2^k</m>. Because <m>\ln {(n)} = \ln {(2^k)} = k\cdot \ln {(2)}</m>, <m>k = \dfrac{\ln {(n)}}{\ln {(2)}}</m>.</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="36"><statement><p><ol><li><p>Fill in the table, rounding your answers to three decimal places.</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/>
         <row>
             <cell><m>n</m></cell>
             <cell><m>5</m></cell>
@@ -442,13 +440,13 @@
             <cell><m>125</m></cell>
             <cell><m>625</m></cell></row>
         <row>
-            <cell><m>\ln n</m></cell>
+            <cell><m>\ln {(n)}</m></cell>
             <cell><m>\hphantom{0000} </m></cell>
             <cell><m>\hphantom{0000} </m></cell>
             <cell><m>\hphantom{0000} </m></cell>
             <cell><m>\hphantom{0000} </m></cell></row>
-    </tabular></sidebyside></li>
-    <li><p>Divide each natural logarithm in your table by <m>\ln 5</m>. Explain the result.</p></li>
+    </tabular></li>
+    <li><p>Divide each natural logarithm in your table by <m>\ln {(5)}</m>. Explain the result.</p></li>
 </ol></p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 37<ndash/>42,<ol marker="a">
@@ -458,24 +456,24 @@
 
 <exercise number="37"><statement><p><m>N(t) = 100\cdot 2^t</m></p></statement>
 <answer><p><ol>
-    <li><p><m>N (t) = 100e^{(\ln 2)t}\approx 100e^{0.6931t}</m></p></li>
-    <li><sidebyside width="35%"><image source="images/fig-ans-5-3-41"><description>growth</description></image> </sidebyside></li>
+    <li><p><m>N (t) = 100e^{(\ln {(2)})t}\approx 100e^{0.6931t}</m></p></li>
+    <li><image width="35%" source="images/fig-ans-5-3-41"><description>growth</description></image></li>
 </ol></p></answer></exercise>
 
 <exercise number="38"><statement><p><m>N(t) = 50\cdot 3^t</m></p></statement></exercise>
 
 <exercise number="39"><statement><p><m>N(t) = 1200(0.6)^t</m></p></statement>
 <answer><p><ol>
-    <li><p><m>N (t) = 1200e^{(\ln 0.6)t}\approx 1200e^{-0.5108t}</m></p></li>
-    <li><sidebyside width="35%"><image source="images/fig-ans-5-3-43"><description>decay</description></image></sidebyside></li>
+    <li><p><m>N (t) = 1200e^{(\ln {(0.6)})t}\approx 1200e^{-0.5108t}</m></p></li>
+    <li><image width="35%" source="images/fig-ans-5-3-43"><description>decay</description></image></li>
 </ol></p></answer></exercise>
 
 <exercise number="40"><statement><p><m>N(t) = 300(0.8)^t</m></p></statement></exercise>
 
 <exercise number="41"><statement><p><m>N(t) = 10(1.15)^t</m></p></statement>
 <answer><p><ol>
-    <li><p><m>N (t) = 10e^{(\ln 1.15)t}\approx 10e^{0.1398t}</m></p></li>
-    <li><sidebyside width="40%"><image source="images/fig-ans-5-3-45"><description>growth</description></image> </sidebyside></li>
+    <li><p><m>N (t) = 10e^{(\ln {(1.15)})t}\approx 10e^{0.1398t}</m></p></li>
+    <li><image width="40%" source="images/fig-ans-5-3-45"><description>growth</description></image></li>
 </ol></p></answer></exercise>
 
 <exercise number="42"><statement><p><m>N(t) = 1000(1.04)^t</m></p></statement></exercise>
@@ -496,8 +494,7 @@
     </ol></p></statement>
 <answer><p><ol>
     <li><p><m>N(t)=6000e^{0.04t} </m></p></li>
-    <li><sidebyside>
-        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>t</m></cell>
                 <cell><m>0</m></cell>
@@ -516,8 +513,8 @@
                 <cell><m>13,353</m></cell>
                 <cell><m>16,310</m></cell>
                 <cell><m>19,921</m></cell></row>
-        </tabular></sidebyside></li>
-    <li><sidebyside width="30%"><image source="images/fig-ans-5-3-11"><description>growth</description></image> </sidebyside></li>
+        </tabular></li>
+    <li><image width="30%" source="images/fig-ans-5-3-11"><description>growth</description></image></li>
     <li><p>15,670</p></li>
     <li><p>70.3 hrs</p></li>
 </ol></p></answer></exercise>
@@ -531,14 +528,14 @@
     </ol></p></statement></exercise>
 
 <exercise number="45"><statement><p>The intensity, <m>I</m> (in lumens), of a light beam after passing through <m>t</m> centimeters of a filter having an absorption coefficient of <m>0.1</m> is given by the function
-    <me>I (t) = 1000e^{-0.1t}</me>
+    <me>I(t) = 1000e^{-0.1t}</me>
     <ol>
     <li><p>Graph <m>I (t)</m>.</p></li>
     <li><p>What is the intensity (to the nearest tenth of a lumen) of a light beam that has passed through 0.6 centimeter of the filter?</p></li>
     <li><p>How many centimeters (to the nearest tenth) of the filter will reduce the illumination to 800 lumens?</p></li>
     </ol></p></statement>
 <answer><p><ol cols="2">
-    <li><sidebyside width="80%"><image source="images/fig-ans-5-3-13"><description>decay</description></image></sidebyside></li>
+    <li><image width="80%" source="images/fig-ans-5-3-13"><description>decay</description></image></li>
     <li><p>941.8 lumens</p></li>
     <li><p>2.2 cm</p></li>
 </ol></p></answer></exercise>
@@ -600,18 +597,16 @@ where <m>I_0</m> is the X-ray count at the source and <m>I (t)</m> is the X-ray 
     <li><p><m>A(t) = 500e^{0.095t}</m></p></li>
     <li><p>7.3 years</p></li>
     <li><p>7.3 years</p></li></ol>
-    d<ndash/>e</p><sidebyside width="50%"><image source="images/fig-ans-5-3-51"><description>growth with marked doubling time
-      </description></image>
-</sidebyside></answer></exercise>
+    d<ndash/>e</p><image width="50%" source="images/fig-ans-5-3-51"><description>growth with marked doubling time</description></image>
+</answer></exercise>
 
 <exercise number="52"><statement><p>The growth of plant populations can be measured by the amount of pollen they produce. The pollen from a population of pine trees that lived more than 9500 years ago in Norfolk, England, was deposited in the layers of sediment in a lake basin and dated with radiocarbon techniques. </p>
 <p>The figure shows the rate of pollen accumulation plotted against time, and the fitted curve <m>P(t) = 650e^{0.00932t}</m>. (Source: Burton, 1998)</p>
-
-    <sidebyside widths="60%"><image source="images/fig-5-3-52"><description>growth</description></image></sidebyside>
+    <image width="60%" source="images/fig-5-3-52"><description>growth</description></image>
 <p><ol>
-        <li><p>What was the annual rate of growth in pollen accumulation?</p></li>
-        <li><p>Find the doubling time for the pollen accumulation, that is, the time it took for the accumulation rate to double.</p></li>
-        <li><p>By what factor did the pollen accumulation rate increase over a period of 500 years?</p></li>
+    <li><p>What was the annual rate of growth in pollen accumulation?</p></li>
+    <li><p>Find the doubling time for the pollen accumulation, that is, the time it took for the accumulation rate to double.</p></li>
+    <li><p>By what factor did the pollen accumulation rate increase over a period of 500 years?</p></li>
     </ol></p></statement></exercise>
 
 <exercise number="53"><statement><p>Technetium-99m (Tc-99m) is an artificially produced radionuclide used as a tracer for producing images of internal organs such as the heart, liver, and thyroid. A solution of Tc-99m with initial radioactivity of 10,000 becquerels (Bq) decays according to the formula
@@ -625,7 +620,7 @@ where <m>t</m> is in hours.<ol>
 <answer><p><ol cols="2">
     <li><p>6 hours</p></li>
     <li><p>6 hours</p></li>
-    <li><sidebyside><image source="images/fig-ans-5-3-53"><description>decay with marked half-life</description></image></sidebyside></li></ol></p></answer></exercise>
+    <li><image source="images/fig-ans-5-3-53"><description>decay with marked half-life</description></image></li></ol></p></answer></exercise>
 
 <exercise number="54"><statement><p>All living things contain a certain amount of the isotope carbon-14. When an organism dies, the carbon-14 decays according to the formula
     <me>N(t) = N_0e^{-0.000124t}</me>
@@ -641,7 +636,7 @@ where <m>t</m> is in hours.<ol>
     </ol></p></statement>
 <answer><p><ol cols="2">
     <li><p><m>\frac{1}{2}N_0 </m>, <m>\frac{1}{4}N_0 </m>, <m>\frac{1}{16}N_0</m></p></li>
-    <li><sidebyside width="70%"><image source="images/fig-ans-5-3-55"><description>decay</description></image></sidebyside></li>
+    <li><image width="70%" source="images/fig-ans-5-3-55"><description>decay</description></image></li>
     <li><p><m>N (t) = N_0e^{-0.0866t}</m></p></li>
 </ol></p></answer></exercise>
 
@@ -652,7 +647,7 @@ where <m>t</m> is in hours.<ol>
     </ol></p></statement></exercise>
 
 <exercise number="57"><statement><p>A Geiger counter measures the amount of radioactive material present in a substance. The table shows the count rate for a sample of iodine-128 as a function of time. (Source: Hunt and Sykes, 1984)</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/>
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/>
         <row>
             <cell>Time (min)</cell>
             <cell><m>0</m></cell>
@@ -677,20 +672,23 @@ where <m>t</m> is in hours.<ol>
             <cell><m>19</m></cell>
             <cell><m>15</m></cell>
             <cell><m>13</m></cell></row>
-    </tabular></sidebyside>
+    </tabular>
     <p><ol>
         <li><p>Graph the data and use your calculator's exponential regression feature to fit a curve to them.</p></li>
         <li><p>Write your equation in the form <m>G(t) = G_0e^{kt}</m>.</p></li>
         <li><p>Calculate the half-life of iodine-128.</p></li>
     </ol></p></statement>
 <answer><p><ol cols="2">
-    <li><sidebyside width="70%"><image source="images/fig-ans-5-3-57.jpg"><description>decay fit on data</description></image></sidebyside><p><m>y = 116 (0.975)^t</m></p></li>
+    <li><image source="images/fig-ans-5-3-57.jpg"><description>decay fit on data</description></image>
+        <p><m>y = 116 (0.975)^t</m></p></li>
+    <li><image width="70%"  source="images/fig-ans-5-3-57.jpg"><description>decay fit on data</description></image>
+        <p><m>y = 116 (0.975)^t</m></p></li>
     <li><p><m>G (t) = 116e^{-0.025t}</m></p></li>
     <li><p>28 minutes</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="58"><statement><p>The table shows the count rate for sodium-24 registered by a Geiger counter as a function of time. (Source: Hunt and Sykes, 1984)</p>
-    <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/>
+    <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/>
         <row>
             <cell>Time (min)</cell>
             <cell><m>0</m></cell>
@@ -715,7 +713,7 @@ where <m>t</m> is in hours.<ol>
             <cell><m>7</m></cell>
             <cell><m>4</m></cell>
             <cell><m>3</m></cell></row>
-    </tabular></sidebyside>
+    </tabular>
     <p><ol>
         <li><p>Graph the data and use your calculator's exponential regression feature to fit a curve to them.</p></li>
         <li><p>Write your equation in the form <m>G(t) = G_0e^{kt}</m>.</p></li>

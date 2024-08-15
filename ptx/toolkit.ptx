@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<appendix xml:id="toolkit"   xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Algebra Toolkit</title>
+<xi:include href="./tkch1.xml" /> 
+<!--  This is a comment and ignored by the PreTeXt processor -->
+<!--
+<xi:include href="./tk-chap2.xml" /> 
+<xi:include href="./tk-chap3.xml" /> 
+<xi:include href="./tk-chap4.xml" /> 
+<xi:include href="./tk-chap5.xml" /> 
+<xi:include href="./tk-chap6.xml" /> 
+<xi:include href="./tk-chap7.xml" /> 
+<xi:include href="./tk-chap8.xml" /> 
+<xi:include href="./tk-chap9.xml" /> 
+<xi:include href="./tk-chap10.xml" /> -->
+
+</appendix>

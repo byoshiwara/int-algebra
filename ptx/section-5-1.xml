@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Functions"   xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Functions</title>
+<section xml:id="Functions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Functions</title>
 
 <introduction>
-
 <investigation><title>Epidemics</title>
  
 <p>A contagious disease whose spread is unchecked can devastate a confined population. For example, in the early 16th-century, Spanish troops introduced smallpox into the Aztec population in Central America, and the resulting epidemic contributed significantly to the fall of Montezuma’s empire.</p>
@@ -84,7 +82,7 @@
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.4]
+        \begin{tikzpicture} [scale=.3]
         \draw[cyan] (0,0) grid (15,25);
         \draw[black,thick, ->, >=stealth'] (0,0)--(15.8,0) node[right]{$t$};
         \draw[black,thick, ->, >=stealth'] (0,0)--(0,25.8) node[above]{$I$};
@@ -98,7 +96,7 @@
          \draw[cyan,ultra thick] (0,\x)--++(15,0);
          }
         \node[font=\bf] at (7.5,-2.3) {Time (days)};
-        \node[rotate=90,font=\bf] at (-3.2,12.5) {Number of infected people};
+        \node[rotate=90,font=\bf] at (-3.7,12.5) {Number of infected people};
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></li>
 
@@ -587,7 +585,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 <exercise component="webwork"><title>Practice 3</title>
 <introduction><p>The graph shows the elevation in feet, <m>a</m>, of the Los Angeles Marathon course at a distance <m>d</m> miles into the race. (Source: <em>Los Angeles Times</em>, March 3, 2005)</p>
-    <image width="90%" source="images/fig-LA-marathonw" ><description>LA marathon elevation</description></image></introduction>
+    <image width="75%" source="images/fig-LA-marathonw" ><description>LA marathon elevation</description></image></introduction>
 <webwork><pg-code>
             $input = RadioButtons(
               ["The input variable is \( d \), and the output variable is \( a \).","The input variable is \( a \), and the output variable is \( d \)."],
@@ -651,7 +649,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>The graph shows the elevation in feet, <m>a</m>, of the Los Angeles Marathon course at a distance <m>d</m> miles into the race. (Source: <em>Los Angeles Times</em>, March 3, 2005)</p>
-    <image width="90%" source="images/fig-LA-marathon" ><description>LA marathon elevation</description></image>
+    <image width="75%" source="images/fig-LA-marathon" ><description>LA marathon elevation</description></image>
     <p><ol marker="a">
         <li><p>Which variable is the input, and which is the output?</p></li>
         <li><p>What is the elevation at mile 20?</p></li>
@@ -748,15 +746,15 @@ We see that</p>
         <mrow>\text{when } t=2, \quad h=1712</mrow>
     </md>
 <p>Using function notation, these relationships can be expressed more concisely as</p>
-    <md>
-        <mrow>f(1)=1760 \quad\text{ and } \quad f(2)=1712</mrow>
-    </md>
+    <me>f(1)=1760 \quad\text{ and } \quad f(2)=1712</me>
 <p>which we read as "<m>f</m> of 1 equals 1760" and "<m>f</m> of 2 equals 1712." The values for the input variable, <m>t</m>, appear <em>inside</em> the parentheses, and the values for the output variable, <m>h</m>, appear on the other side of the equation.</p></example> 
 
-<p>Remember that when we write <m>y = f(x)</m>, the symbol <m>f(x)</m> is just another name for the output variable.</p>
+<p>Remember that when we write <m>y = f(x)</m>, the symbol <m>f(x)</m> is just another name for the output variable.</p> <m>~\alert{\text{[TK]}}</m>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of function terminology, see <xref ref="tkVocab" text="custom"> Section 5.1.1 </xref> of the Toolkit.</p></aside>
 
 <assemblage><title>Function Notation</title>
-    <image  xml:id="Function-Notation"><description>Function notation</description><latex-image>
+    <image width="75%" xml:id="Function-Notation"><description>Function notation</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }

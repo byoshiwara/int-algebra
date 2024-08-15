@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="LinSys"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Systems</title><idx>linear system</idx>
+<section xml:id="LinSys" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Systems</title><idx>linear system</idx>
 
 <introduction>
 <p>For the rest of this chapter we'll consider problems that can be solved using two or more linear equations simultaneously. To begin, think about the two equations in the next Investigation.</p>
@@ -77,7 +77,7 @@
 
 <p>A biologist wants to know the average weights of two species of birds in a wildlife preserve. She sets up a feeder whose platform is actually a scale and mounts a camera to monitor the feeder. She waits until the feeder is occupied only by members of the two species she is studying,  robins and thrushes. Then she takes a picture, which records the number of each species on the scale and the total weight registered.</p>
 
-<p>From her two best pictures, she obtains the following information. The total weight of 3 thrushes and 6 robins is 48 ounces, and the total weight of 5 thrushes and 2 robins is 32 ounces.  The biologist writes two equations about the photos. She begins by assigning variables to the two unknown quantities:
+<p>From her two best pictures, she obtains the following information. The total weight of 3 thrushes and 6 robins is 48 ounces, and the total weight of 5 thrushes and 2 robins is 32 ounces.  The biologist writes two equations about the photos. <m>~\alert{\text{[TK]}}~</m> She begins by assigning variables to the two unknown quantities:
     <md><mrow>\amp\text{Average weight of a thrush:} ~~t </mrow>
         <mrow>\amp\text{Average weight of a robin:} ~~r </mrow></md>
     In each of the photos,
@@ -85,6 +85,8 @@
 So the two equations are
     <md><mrow>3t + 6r \amp = 48</mrow>
         <mrow>5t + 2r \amp =32</mrow></md></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review writing an expression for a linear model, see <xref ref="tkWriteLinMod" text="custom"> Section 2.2.1 </xref> of the Toolkit.</p></aside>
 
 <p>This pair of equations is an example of a <term>linear system of two equations in two unknowns</term><idx><h>system of equations</h><h><m>2\times 2</m></h></idx><idx><h>linear system</h><h><m>2\times 2</m></h></idx> (or a <m>2\times 2</m> linear system, for short). A <term>solution</term><idx><h>solution</h><h>to a system of equations</h></idx><idx><h>system of equations</h><h>solution</h></idx> to the system is an ordered pair of numbers, <m>(t, r)</m>, that satisfies both equations in the system.</p>
 
@@ -147,7 +149,9 @@ So the two equations are
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<p>Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces.</p>
+<p>Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces. <m>~\alert{\text{[TK]}}</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review solutions of linear systems, see <xref ref="tkSysSoln" text="custom"> Section 2.2.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
@@ -185,7 +189,7 @@ So the two equations are
 
 <p>We can use a calculator or graphing utility to graph the equations in a system.</p>
 
-<example><statement><p>Use your grapher to solve the system by graphing.
+<example><statement><p>Use your grapher to solve the system by graphing. <m>~~\alert{\text{[TK]}}</m>
             <md><mrow>y \amp= 1.7x + 0.4</mrow>
                 <mrow>y \amp= 4.1x + 5.2</mrow></md></p></statement>
 
@@ -199,6 +203,8 @@ So the two equations are
 <p>and enter the two equations. We can see in the figure that the two lines intersect in the third quadrant. We use the <kbd>TRACE</kbd> feature to find the coordinates of the intersection point, <m>(-2,-3)</m>. The solution to the system is <m>x=-2</m>, <m>y=-3</m>.</p>
     <image width="38%" source="images/fig-GC-2x2-system"><description>GC display of 2 lines intersecting in 3rd quadrant</description></image></solution>
 </example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To learn about graphing equations with GeoGebra, see Appendix B.</p></aside>
 
 <p>The values we obtain from a calculator may be only approximations, so it is a good idea to check the solution algebraically. In the example above, we find that both equations are true when we substitute <m>x = \alert{-2}</m> and <m>y=\blert{-3}</m>.
     <md><mrow>\blert{-3}\amp = 1.7(\alert{-2})+0.4\amp\amp \blert{\text{True}}</mrow>
@@ -255,11 +261,11 @@ So the two equations are
                 <mrow>Y_2\amp  = (5.3 - 2X)/1.2</mrow></md>
 and use the standard window. If we trace along the graph to the intersection point, we will not find the same coordinates on both lines. The intersection point is not displayed in this window. Instead, we can use the <term>intersect</term> feature of the grapher.</p> 
         
-<p>Follow the instructions for your grapher's intersect feature to find the intersection point, <m>x = 4.36</m>, <m>y = -2.85</m>.</p></solution></example>
-
+<p>Follow the instructions for your grapher's intersect feature to find the intersection point, <m>x = 4.36</m>, <m>y = -2.85</m>.</p>
 <p> We can substitute these values into the original system to check that they satisfy both equations.
         <md><mrow>3(\alert{4.36}) - 2.8(\alert{-2.85}) \amp = 21.06 \amp\amp \blert{\text{True}}</mrow>
             <mrow>2(\alert{4.36}) + 1.2(\alert{-2.85}) \amp = 5.3 \amp\amp \blert{\text{True}}</mrow></md></p>
+</solution></example>
 
 <exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>
@@ -433,7 +439,58 @@ and use the standard window. If we trace along the graph to the intersection poi
 
 <subsection><title>Applications</title>
 
-<p>Systems of equations are useful in many applied problems. One example involves supply and demand. The owner of a retail business must try to balance the demand for his product from consumers with the supply he can obtain from manufacturers. Supply and demand both vary with the price of the product: consumers usually buy fewer items if the price increases, but manufacturers will be willing to supply more units of the product if its price increases.</p>
+<p>Systems of equations are useful in many applied problems. Here are two examples from economics.</p>
+
+<p>A business venture calculates its <term>profit</term><idx>profit</idx> by subtracting its <term>costs</term><idx>cost</idx> from its <term>revenue</term><idx>revenue</idx>, the amount of money it takes in from sales.
+    <me>\blert{\text{Profit} = \text{Revenue} -\text{Cost}}</me>
+Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs, the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>. <m>~\alert{\text{[TK]}}</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of the profit equation, see <xref ref="tkProfit" text="custom"> Section 2.2.3 </xref> of the Toolkit.</p></aside>
+
+<exercise component="webwork"><title>Practice 4</title>
+<webwork><pg-code>
+        $C = Formula("200+4x");
+        $R = Formula("12x");
+        Context("Point");
+        $a = Point("(25,300)");
+        $n = Compute("25");
+    </pg-code>
+<statement><p>The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.
+    <ol marker="a">
+        <li><p>Express the cost <m>C</m> of production in terms of the number <m>x</m> of pendants produced.</p>
+                <p><m>C=</m><var name="$C" width="7"/></p></li>
+        <li><p>Express the revenue <m>R</m> in terms of the number <m>x</m> of pendants sold.</p>
+                <p><m>R=</m><var name="$R" width="7"/></p></li>
+        <li><p>Graph the revenue and cost on the same set of axes. (Find the intercepts of each equation to help you choose a window for the graph.) State the solution of the system.</p>
+                <p>Solution <var name="$a" width="6"/> Give the solution as an ordered pair.</p></li>
+        <li><p>How many pendants must be sold for the Aquarius company to break even on a particular production run?</p>
+            <p>The must sell <var name="$n" width="2"/> pendants to break even.</p></li>
+    </ol></p></statement>
+<solution><p><ol marker="a">
+            <li><p><m>C=200+4x</m></p></li>
+            <li><p><m>R=12x</m></p></li>
+            <li><p><m>(25,300)</m></p></li>
+            <li><p>They must sell 25 pendants in order to break even.</p></li>
+    </ol></p></solution></webwork></exercise>
+
+<exercise component="main"><title>Practice 4</title>
+<statement><p>The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.
+<ol marker="a">
+        <li><p>Express the cost <m>C</m> of production in terms of the number <m>x</m> of pendants produced.</p></li>
+        <li><p>Express the revenue <m>R</m> in terms of the number <m>x</m> of pendants sold.</p></li>
+        <li><p>Graph the revenue and cost on the same set of axes. (Find the intercepts of each equation to help you choose a window for the graph.) State the solution of the system.</p></li>
+        <li><p>How many pendants must be sold for the Aquarius company to break even on a particular production run?</p></li>
+    </ol></p></statement>
+<answer><p><ol marker="a">
+            <li><p><m>C=200+4x</m></p></li>
+            <li><p><m>R=12x</m></p></li>
+            <li><p><m>(25,300)</m></p></li>
+            <li><p>They must sell 25 pendants to break even.</p></li>
+</ol></p></answer></exercise>
+
+
+
+<p>Another example involves supply and demand. The owner of a retail business must try to balance the demand for his product from consumers with the supply he can obtain from manufacturers. Supply and demand both vary with the price of the product: consumers usually buy fewer items if the price increases, but manufacturers will be willing to supply more units of the product if its price increases.</p>
 
 <p>The <term>demand equation</term><idx>demand equation</idx><idx><h>equation</h><h>demand</h></idx> gives the number of units of the product that consumers will buy at a given price. The <term>supply equation</term><idx>supply equation</idx><idx><h>equation</h><h>supply</h></idx> gives the number of units that the producer will supply at that price. The price at which the supply and demand are equal is called the <term>equilibrium price</term><idx>equilibrium price</idx>. This is the price at which the consumer and the producer agree to do business.</p>
 
@@ -452,7 +509,7 @@ and use the standard window. If we trace along the graph to the intersection poi
         <p>The supply equation tells us how many yards of fabric the mill will produce for a price of <m>x</m> dollars per yard.
                         <me>y=400x</me>
         The demand equation tells us how many yards of fabric the garment industry will buy at a price of <m>x</m> dollars per yard.
-                            <me>y = 6000 - 100x</me></p></li>
+                        <me>y = 6000 - 100x</me></p></li>
     <li><title>Step 3</title>
         <p>We graph the two equations on the same set of axes, as shown below. We set the window values to
                     <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 94</mrow>
@@ -463,49 +520,6 @@ and use the standard window. If we trace along the graph to the intersection poi
         <p>The equilibrium price is $12 per yard, and the mill will sell 4800 yards of fabric at that price.</p></li>
     </ul></p></solution></example>
 
-<p>A business venture calculates its <term>profit</term><idx>profit</idx> by subtracting its <term>costs</term><idx>cost</idx> from its <term>revenue</term><idx>revenue</idx>, the amount of money it takes in from sales.
-    <me>\blert{\text{Profit} = \text{Revenue} -\text{Cost}}</me>
-Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs, the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>.</p>
-
-<exercise component="webwork"><title>Practice 4</title>
-<webwork><pg-code>
-        $C = Formula("200+4x");
-        $R = Formula("12x");
-        Context("Point");
-        $a = Point("(25,300)");
-        $n = Compute("25");
-    </pg-code>
-<statement><p>The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.<ol marker="a">
-        <li><p>Express the cost <m>C</m> of production in terms of the number <m>x</m> of pendants produced.</p>
-                <p><m>C=</m><var name="$C" width="7"/></p></li>
-        <li><p>Express the revenue <m>R</m> in terms of the number <m>x</m> of pendants sold.</p>
-                <p><m>R=</m><var name="$R" width="7"/></p></li>
-        <li><p>Graph the revenue and cost on the same set of axes. (Find the intercepts of each equation to help you choose a window for the graph.) State the solution of the system.</p>
-                <p>Solution <var name="$a" width="6"/> Give the solution as an ordered pair.</p></li>
-        <li><p>How many pendants must be sold for the Aquarius company to break even on a particular production run?</p>
-            <p>The must sell <var name="$n" width="2"/> pendants to break even.</p></li>
-            </ol></p>
-    </statement>
-<solution><p><ol marker="a">
-            <li><p><m>C=200+4x</m></p></li>
-            <li><p><m>R=12x</m></p></li>
-            <li><p><m>(25,300)</m></p></li>
-            <li><p>They must sell 25 pendants in order to break even.</p></li></ol></p>
-</solution></webwork></exercise>
-
-<exercise component="main"><title>Practice 4</title>
-<statement><p>The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.<ol marker="a">
-        <li><p>Express the cost <m>C</m> of production in terms of the number <m>x</m> of pendants produced.</p></li>
-        <li><p>Express the revenue <m>R</m> in terms of the number <m>x</m> of pendants sold.</p></li>
-        <li><p>Graph the revenue and cost on the same set of axes. (Find the intercepts of each equation to help you choose a window for the graph.) State the solution of the system.</p></li>
-        <li><p>How many pendants must be sold for the Aquarius company to break even on a particular production run?</p></li>
-    </ol></p></statement>
-<answer><p><ol marker="a">
-            <li><p><m>C=200+4x</m></p></li>
-            <li><p><m>R=12x</m></p></li>
-            <li><p><m>(25,300)</m></p></li>
-            <li><p>They must sell 25 pendants in order to break even.</p></li>
-    </ol></p></answer></exercise>
 </subsection>
 
 <xi:include href="./section-2-2-exercises.xml" />                

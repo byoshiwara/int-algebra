@@ -107,8 +107,9 @@
             <li>Two solutions. <m>\approx \pm 2.5</m></li>
             <li><m>\pm \sqrt{6}</m></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><p>Use the Pythagorean theorem to find the unknown side.<ol marker="a" cols="2">
-    <li><image width="65%" xml:id="fig-x-6-10-rt-triangle">
+<exercise number="6"><statement><p>Use the Pythagorean theorem to find the unknown side. <m>~\alert{\text{[TK]}}</m>  To review the Pythagorean theorem, see <xref ref="tkPythTh" text="custom"> Section 3.1.4 </xref> of the Toolkit. </p>
+    <p><ol marker="a" cols="2">
+    <li><image width="75%" xml:id="fig-x-6-10-rt-triangle">
         <description>right triangle, legs x and 6, hypotenuse 10</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%

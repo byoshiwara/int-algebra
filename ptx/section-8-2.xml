@@ -5,7 +5,16 @@
 
 <subsection><title>Introduction</title>
 
-<p>An <term>algebraic fraction</term><idx><h>algebraic fraction</h></idx> (or <term>rational expression</term><idx>rational expression</idx><idx><h>rational expression</h><seealso>algebraic fraction</seealso></idx>, as they are someitmes called,) is a fraction in which both numerator and denominator are polynomials.  Here are some examples of algebraic fractions:
+<p>In applications, variables may occur in the numerator or denominator of a fraction, or both. For example, the time it takes for the Moon to eclipse the Sun is given by the formula
+    <me>T = \dfrac{rD-Rd}{vR}</me>
+where the variables give the diameter of the Sun and the distances of the Moon and Sun from Earth. The total resistance of two appliances with resistances <m>a</m> and <m>b</m> connected in parallel is given by
+    <me>R=\dfrac{ab}{a+b}</me></p>
+<p>These two formulas involve simple poynomials in more than one variable. Let's start our study of fractions with expressions that include only one variable.</p>
+
+<definition><title>Algebraic Fraction</title>
+<statement><p>An <term>algebraic fraction</term><idx><h>algebraic fraction</h></idx> (or <term>rational expression</term><idx>rational expression</idx><idx><h>rational expression</h><seealso>algebraic fraction</seealso></idx>, as they are sometimes called) is a fraction in which both numerator and denominator are polynomials.</p></statement></definition>
+
+<p>Here are some examples of algebraic fractions:
     <me>\dfrac{3}{x},~~~~~~\dfrac{a^2+1}{a-2},~~~~~~\text{and}~~~~~~\dfrac{z-1}{2z+3}</me>
 We can evaluate algebraic fractions just as we evaluate any other algebraic expression.</p>
 
@@ -49,7 +58,7 @@ where we have divided both numerator and denominator by 9. The new fraction has 
 
 <exercise component="main"><title>Practice 1</title>
     <statement><p>Reduce   <m>\displaystyle\frac{-15ab^4}{25a^2b}</m></p></statement>   
-    <solution><p><m>\dfrac{-3b^3}{5a}</m></p></solution></exercise>
+    <answer><p><m>\dfrac{-3b^3}{5a}</m></p></answer></exercise>
 
 <warning><p>When we cancel common factors, we are <em>dividing</em>. Because division is the inverse or opposite operation for multiplication, we can cancel common <em>factors</em>, but <em>we cannot cancel common terms</em>.
 </p></warning>
@@ -136,7 +145,7 @@ where we have divided both numerator and denominator by 9. The new fraction has 
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 1</title>
-<statement><p>Fill in the blanks.</p>
+<statement><p>Fill in the blanks to complete each statement.</p>
     <p><ol marker="a">
         <li><p>An algebraic fraction is undefined when the <fillin characters="10"/> is <fillin characters="10"/>.</p></li>
         <li><p>"Canceling" common factors uses the operation of <fillin characters="10"/>.</p></li>
@@ -167,11 +176,11 @@ where we have divided both numerator and denominator by 9. The new fraction has 
         <li><p><m>\dfrac{5x}{8x} = \dfrac{5}{8}</m></p></li>
         <li><p><m>\dfrac{x+5}{x+8} = \dfrac{5}{8}</m></p></li>
     </ol></p></statement>
-    <solution><p>(a) <m>~\dfrac{5x}{8x}=\dfrac{5}{8}</m></p></solution></exercise>
+    <answer><p>(a) <m>~\dfrac{5x}{8x}=\dfrac{5}{8}</m></p></answer></exercise>
 
-<p>If the numerator or denominator of the fraction contains more than one term, it is especially important to <em>factor before reducing</em>, so that numerator and denominator are written as products of factors, instead of sums of terms. </p>
+<p>If the numerator or denominator of the fraction contains more than one term, it is especially important to <em>factor before reducing</em>, so that numerator and denominator are written as products of factors, instead of as sums of terms. </p>
 
-<example xml:id="example-reduce"><statement><p>Reduce each fraction.</p>
+<example xml:id="example-reduce"><statement><p>Reduce each fraction. <m>~\alert{\text{[TK]}}</m></p>
     <p><ol marker="a" cols="2">
         <li><m>\dfrac{4x+2}{4}</m></li>
         <li><m>\dfrac{9x^2+3}{6x+3}</m></li></ol></p></statement>
@@ -182,9 +191,11 @@ where we have divided both numerator and denominator by 9. The new fraction has 
         <li><m>\dfrac{9x^2+3}{6x+3} = \dfrac{\cancel{3}(3x^2+1)}{\cancel{3}(2x+1)} = \dfrac{3x^2+1}{2x+1}</m></li>
     </ol></p></solution></example>
 
-<warning><p>We cannot cancel the 4's in part (a) of the <xref ref="example-reduce" text="custom" >Example</xref> above, because 4 is not a factor of the entire numerator.  Thus,
+<aside><p><m>\alert{\text{[TK]}}~~</m>To refresh your factoring skills, see <xref ref="tkFactPoly" text="custom"> Section 8.2.1 </xref> of the Toolkit.</p></aside>
+
+<warning><p>We cannot cancel the 4's in part (a) of the Example above, because 4 is not a factor of the entire numerator.  Thus,
         <me>\dfrac{4x+2}{4} \ne x+2</me>
-In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we cannot cancel the 3's, because they are terms and not factors.  Thus,
+In part (b) of the Example, we cannot cancel the 3's, because they are terms and not factors. Thus,
         <me>\dfrac{9x^2+3}{6x+3} \ne \dfrac{9x^2}{6x}</me></p>
 </warning>
 
@@ -220,9 +231,10 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
         <li><p><m>\dfrac{x-6}{x-9} \rightarrow \dfrac{x-2}{x-3}</m></p></li>
         <li><p><m>\dfrac{2x+5}{2} \rightarrow x+5</m></p></li>
     </ol></p></statement>
-<solution><p><ol marker="a">
+<answer><p><ol marker="a">
     <li>3 is not a factor of numerator or denominator</li>
-    <li>2 is not a factor of the numerator</li></ol></p></solution></exercise>       
+    <li>2 is not a factor of the numerator</li>
+</ol></p></answer></exercise>       
 
 <p>We summarize the procedure for reducing algebraic fractions as follows.</p>
 
@@ -295,7 +307,7 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-<statement><p>Fill in the blanks.</p>
+<statement><p>Fill in the blanks to complete each statement.</p>
 <p><ol marker="a">
         <li>If we want to cancel an expression from a fraction, we must be able to <fillin characters="10"/> it from numerator and denominator.</li>
         <li>When we factor an expression, we write it as a <fillin characters="10"/>.</li>
@@ -336,13 +348,13 @@ In the <xref ref="example-reduce" text="custom" >Example</xref> part (b), we can
         <li><p><m>\dfrac{x^2-x-6}{x^2-9}</m></p></li>
         <li><p><m>\dfrac{16t^2-4}{8t+4}</m></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+<answer><p><ol marker="a" cols="2">
         <li><m>\dfrac{x+2}{x+3}</m></li>
-        <li><m>2t-1</m></li></ol></p></solution></exercise>
+        <li><m>2t-1</m></li></ol></p></answer></exercise>
 
-<p>Keep in mind that the reduced form is equivalent to the original form of the fraction.  If we evaluate the original form and the reduced form at the same value of the variable, the results are equal.</p>
+<p>Keep in mind that the reduced form is equivalent to the original form of the fraction. If we evaluate the original form and the reduced form at the same value of the variable, the results are equal.</p>
 
-<example><statement><p>Verify that <m>\dfrac{x^2-x-6}{x^2-9}</m> is equal to <m>\dfrac{x+2}{x+3}</m> for <m>x=2</m>.</p></statement>
+<example><statement><p>Verify that <m>~\dfrac{x^2-x-6}{x^2-9}~</m> is equal to <m>~\dfrac{x+2}{x+3}~</m> for <m>x=2</m>.</p></statement>
 
 <solution><p>We evaluate each fraction at <m>x=\alert{2}</m>.
     <me>\dfrac{x^2-x-6}{x^2-9} = \dfrac{(\alert{2})^2-\alert{2}-6}{(\alert{2})^2-9} = \dfrac{-4}{-5} = \dfrac{4}{5}</me>
@@ -354,16 +366,16 @@ and
 <webwork><pg-code>
         $answer = Compute("1/2");
     </pg-code>
-    <statement><p>If you evaluate <m>\dfrac{3x+12}{6x+24}</m> for <m>x=2</m> and for <m>x=-5</m>, what answer do you expect to get? (Recall the previous Example with the same algebraic fraction in part a.)</p>
+    <statement><p>If you evaluate <m>~\dfrac{3x+12}{6x+24}~</m> for <m>x=2</m> and for <m>x=-5</m>, what answer do you expect to get? (Recall the previous Example with the same algebraic fraction in part a.)</p>
         <p><var name="$answer" width="3"/> </p>
     </statement>
     <solution><p><m>\dfrac{1}{2}</m></p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 5</title>
-<statement><p>If you evaluate <m>\dfrac{3x+12}{6x+24}</m> for <m>x=2</m> and for <m>x=-5</m>, what answer do you expect to get?</p>
+<statement><p>If you evaluate <m>~\dfrac{3x+12}{6x+24}~</m> for <m>x=2</m> and for <m>x=-5</m>, what answer do you expect to get?</p>
     <p>Hint:  see <xref ref="Reduce-algebraic-fractions" /></p></statement>
-    <solution><p><m>\dfrac{1}{2}</m></p></solution></exercise>
+<answer><p><m>\dfrac{1}{2}</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>Opposite of a Binomial</title><idx><h>binomial</h><h>opposite of</h></idx><idx>opposite of a binomial</idx>
@@ -381,13 +393,15 @@ Here are some examples of opposites.
         <mrow> -x+1~~~~~~~~\amp \text{and}~~~~~~~~x-1</mrow></md>
 We can cancel opposites when we reduce fractions.</p>
 
-<example><statement><p>Reduce  <m>~\dfrac{2x-4y}{6y-3x}</m></p></statement>
+<example><statement><p>Reduce  <m>~\dfrac{2x-4y}{6y-3x}</m> <m>~\alert{\text{[TK]}}</m> </p></statement>
 
 <solution><p>We first factor the numerator and denominator.
     <me>\dfrac{2x-4y}{6y-3x} = \dfrac{2(x-2y)}{3(2y-x)}</me>
 We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-x)</m>.  Thus,
     <me>\dfrac{2(x-2y)}{3(2y-x)} = \dfrac{-2\cancel{(2y-x)}}{3\cancel{(2y-x)}} = \dfrac{-2}{3}</me></p></solution>
 </example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more about the opposite of a binomial, see <xref ref="tkOppBin" text="custom"> Section 8.2.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 6</title>
 <webwork><pg-code>
@@ -419,12 +433,12 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
         <li><p><m>\dfrac{2a-3b}{3b-2a}</m></p></li>
         <li><p><m>\dfrac{2a-3b}{2b-3a}</m> </p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+<answer><p><ol marker="a" cols="2">
     <li>1</li>
     <li>cannot be reduced</li>
     <li><m>-1</m></li>
     <li>cannot be reduced</li>
-</ol></p></solution></exercise>
+</ol></p></answer></exercise>
 </subsection>
 
 <subsection><title>Rational Functions</title><idx><h>rational function</h></idx><idx><h>function</h><h>rational</h></idx>
@@ -470,13 +484,13 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
                     <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 30</mrow></md>
     to verify the graph. In particular, the point <m>(0,4)</m> lies on the graph. This point tells us that if there is no wind, Francine can fly 60 miles in 4 hours, as we calculated earlier.</p>
                 
-    <image width="45%" source="images/fig-graph-time-against-headwind"><description>graph showing time to complete trip vs speed of headwind</description></image>
+    <image width="50%" source="images/fig-graph-time-against-headwind"><description>graph showing time to complete trip vs speed of headwind</description></image>
             
     <p>The graph is increasing, as indicated by the table of values. In fact, as the speed of the wind gets close to 15 miles per hour, Francine's flying time becomes extremely large. In theory, if the wind speed were exactly 15 miles per hour, Francine would never complete her flight. On the graph, the time becomes infinite at <m>x = 15</m>.</p>
     <p>What about negative values for <m>x</m>? If we interpret a negative headwind as a tailwind, Francine's flying time should decrease for negative <m>x</m>-values. For example, if <m>x = -5</m>, there is a tailwind of 5 miles per hour, so Francine's effective speed is 20  miles per hour, and she can complete the flight in 3 hours. As the tailwind gets stronger (that is, as we move farther to the left in the <m>x</m>-direction), Francine's flying time continues to decrease, and the graph approaches the <m>x</m>-axis.</p></li></ol></p>
 </solution></example>
 
-<p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx><h>asymptote</h><h>vertical</h></idx><idx>vertical asymptote</idx> for the graph. We first encountered asymptotes in <xref ref="SomeBasicGraphs" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>
+<p>The vertical dashed line at <m>x=15</m> on the graph of <m>t=\dfrac{60}{15-x}</m> is a <term>vertical asymptote</term><idx><h>asymptote</h><h>vertical</h></idx><idx>vertical asymptote</idx> for the graph. We first encountered asymptotes in <xref ref="EightBasicGraphs" text="type-global"/> when we studied the graph of <m>y=\dfrac{1}{x}</m>. Locating the vertical asymptotes of a rational function is an important part of determining the shape of the graph.</p>
 
 <exercise component="webwork" xml:id="average-tshirt-costw"><title>Practice 7</title>
 <webwork><pg-code>
@@ -531,9 +545,8 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
                     <cell><m>10</m></cell></row>
                 </tabular></li>
             <li><p>A graph is below.</p>                
-                <p>As the number of T-shirts increases, the average cost per shirt decreases, but eventually levels off and approaches $5 per T-shirt.</p></li></ol></p>
-    </solution>
-</webwork>
+                <p>As the number of T-shirts increases, the average cost per shirt decreases, but eventually levels off and approaches $5 per T-shirt.</p></li>
+    </ol></p></solution></webwork>
 <conclusion>
     <p>Graph for part (c):</p>
     <image width="35%" xml:id="fig-average-costw">
@@ -582,7 +595,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
                         </tabular></li>
         <li><p>Graph the function and explain what it tells you about the cost of the T-shirts.</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+<answer><p><ol marker="a">
             <li><m>C=g(x) = \dfrac{100+5x}{x}</m></li>
             <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
@@ -602,7 +615,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
                     <cell><m>15</m></cell>
                     <cell><m>10</m></cell></row>
                 </tabular></li>
-        <li><image width="35%" xml:id="fig-average-cost"><description>graph of average cost of production</description><latex-image>
+        <li><image width="55%" xml:id="fig-average-cost"><description>graph of average cost of production</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -621,9 +634,11 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
         \end{tikzpicture}]]>
         </latex-image></image>                
         <p>As the number of T-shirts increases, the average cost per shirt decreases, but eventually levels off and approaches $5 per T-shirt.</p></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
 
-<p>In <xref ref="average-tshirt-cost" text="custom" >Practice 7</xref>, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx><idx>horizontal asymptote</idx> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions.</p>
+<p>In <xref ref="average-tshirt-cost" text="custom" >Practice 7</xref>, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx><idx>horizontal asymptote</idx> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions. <m>~\alert{\text{[TK]}}</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more about asymptotes, see <xref ref="tkAsymp" text="custom"> Section 8.2.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -657,7 +672,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
-<statement><p>True or False.</p>
+<statement><p>Decide whether each statement is true or false.</p>
     <p><ol marker="a">
         <li><p>A rational function is a quotient of polynomials.</p></li>
         <li><p>A vertical asymptote occurs where a rational function is undefined.</p></li>

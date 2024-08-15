@@ -11,10 +11,10 @@
 
 <subexercises><title>Warm Up</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, <ol marker="a">
     <li>Evaluate the fraction for the given values of the variable.</li>
     <li>For what values of the variable is the fraction undefined?</li>
-    <li>Find a value of <m>x</m> for which the fraction is equal to zero.</li></ol></p></introduction>
+    <li>Find a value of the variable for which the fraction is equal to zero.</li></ol></p></introduction>
 
 <exercise number="1"><statement><p><m>\dfrac{x+1}{x-3},~~~~~x=\dfrac{1}{2},~{-4}</m></p></statement>
 <answer><p><ol marker="a">
@@ -87,7 +87,7 @@
     <li><m>\dfrac{2a+b}{2a-b}</m></li>
     <li><m>\dfrac{-(a-b)}{b-a}</m></li>
     <li><m>\dfrac{2a^2-1}{2a^2}</m></li>
-    <li><m>\dfrac{-a^2+3)}{a^2+3}</m></li></ol></p></statement>
+    <li><m>\dfrac{-a^2+3}{a^2+3}</m></li></ol></p></statement>
 <answer><p><ol marker="a">
     <li><p>cannot be reduced</p></li>
     <li><p><m>1</m></p></li>
@@ -96,29 +96,33 @@
 </ol></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 12-15, reduce if possible, and select the correct reduced form.</p>
+<exercisegroup><introduction><p>For Problems 12<ndash/>15, reduce if possible, and select the correct reduced form.</p>
 </introduction>
 
 <exercise number="12"><statement><p><m>\dfrac{2x+3}{2x}</m><ol marker="a" cols="3">
     <li><m>\dfrac{x+3}{x}</m></li>
     <li><m>3</m></li>
-    <li>neither of these</li></ol></p></statement></exercise>
+    <li>neither of these</li>
+</ol></p></statement></exercise>
 
 <exercise number="13"><statement><p><m>\dfrac{3a+a^2}{3a}</m><ol marker="a" cols="3">
     <li><m>a^2</m></li>
     <li><m>\dfrac{3+a}{3}</m></li>
-    <li>neither of these</li></ol></p></statement>
+    <li>neither of these</li>
+</ol></p></statement>
 <answer><p>(b)</p></answer></exercise>
 
 <exercise number="14"><statement><p><m>\dfrac{y+3}{2y^2+6y}</m><ol marker="a" cols="3">
     <li><m>\dfrac{1}{2y}</m></li>
     <li><m>y</m></li>
-    <li>neither of these</li></ol></p></statement></exercise>
+    <li>neither of these</li>
+</ol></p></statement></exercise>
 
 <exercise number="15"><statement><p><m>\dfrac{a^3}{a^4-a^3}</m><ol marker="a" cols="3">
     <li><m>\dfrac{1}{a-1}</m></li>
     <li><m>\dfrac{1}{a^4}</m></li>
-    <li>neither of these</li></ol></p></statement>
+    <li>neither of these</li>
+</ol></p></statement>
 <answer><p>(a)</p></answer></exercise>
 </exercisegroup>
 
@@ -126,9 +130,10 @@
     <li><m>\dfrac{9b^2-3b}{3b}</m></li>
     <li><m>\dfrac{b+2}{3b^2+6b}</m></li>
     <li><m>\dfrac{3b-9}{9}</m></li>
-    <li><m>\dfrac{9b^2-3b)}{3b-1}</m></li></ol></p></statement></exercise>
+    <li><m>\dfrac{9b^2-3b}{3b-1}</m></li>
+</ol></p></statement></exercise>
 
-<exercisegroup cols="3"><introduction><p>For Problems 17-28, reduce if possible.</p></introduction>
+<exercisegroup cols="3"><introduction><p>For Problems 17<ndash/>28, reduce if possible.</p></introduction>
 
 <exercise number="17"><statement><p><m>\dfrac{2a^2}{2a^2-6a}</m></p></statement>
 <answer><p><m>\dfrac{a}{a-3}</m></p></answer></exercise>
@@ -169,9 +174,7 @@
     <me>t=\dfrac{300}{10-v}</me>
 Use the graph of this equation shown in the figure to answer questions (a) and (b).</p>
 <!--<image source="images/hp-8-1-47.png"><description>graph</description></image>-->
-    <image xml:id="fig-hw-row-upstream">
-        <description>curve</description>
-        <latex-image>
+    <image xml:id="fig-hw-row-upstream"><description>curve</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -189,16 +192,14 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
         }
         \draw[samples=65,domain=0:9,smooth,variable=\x,red, very thick,<->, >=stealth'] plot ({\x},{30 / (10-\x)});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+    </latex-image></image></sidebyside>
 <p><ol marker="a">
     <li>How long does the exercise take if there is no current in the river?</li>
     <li>How long will it take if the current is 4 miles per hour?</li>
     <li>Find an exact answer for part (b) by using the equation.</li>
     <li>If the exercise took 2 hours, what was the current in the river?</li>
-    <li>As the speed of the current increases, what happens to the time needed for the exercise?</li></ol></p>
-</statement>
+    <li>As the speed of the current increases, what happens to the time needed for the exercise?</li>
+</ol></p></statement>
 <answer><p><ol marker="a" cols="2">
     <li><p>30 min</p></li>
     <li><p>50 min</p></li>
@@ -210,7 +211,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 <exercise number="30" xml:id="problem-7-4-1"><statement><p>The eider duck, one of the world's fastest flying birds, can exceed an airspeed of 65 miles per hour. A flock of eider ducks is migrating south at an average airspeed of 50 miles per hour against a moderate headwind. Their next feeding grounds are 150 miles away.<ol marker="a">
     <li><p>Express the ducks' travel time, <m>t</m>, as a function of the windspeed, <m>v</m>.</p></li>
     <li><p>Complete the table showing the travel time for various windspeeds.</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>v</m></cell>
                 <cell><m>0</m></cell>
@@ -227,7 +228,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><m> </m></cell>
                 <cell><m> </m></cell>
                 <cell><m> </m></cell></row>
-        </tabular></sidebyside>
+        </tabular>
         <p>What happens to the travel time as the headwind increases?</p></li>
     <li><p>Use the table to choose an appropriate window and graph your function <m>t(v)</m>. Label the scales on the axes.</p></li>
     <li>Estimate the wind speed if the travel time was 12 hours. Illustrate your result on the graph.</li> 
@@ -259,14 +260,12 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 </ol></p></answer> -->
 </exercise>
 
-<exercise number="31">
-    <statement>
-        <p>The cost, in thousands of dollars, for extracting <m>p</m> percent of a precious ore from a mine is given by the equation
+<exercise number="31"><statement><p>The cost, in thousands of dollars, for extracting <m>p</m> percent of a precious ore from a mine is given by the equation
         <me>C(p)=\frac{360p}{100-p} </me>
-        <ol marker="a">
-            <li><p>What input values make sense for <m>C</m>?</p></li>
-            <li><p>Complete the table showing the cost of extracting various percentages of the ore. (Note: do not convert percents to decimals.)</p>
-                <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <ol marker="a">
+        <li><p>What input values make sense for <m>C</m>?</p></li>
+        <li><p>Complete the table showing the cost of extracting various percentages of the ore. (Note: do not convert percents to decimals.)</p>
+                <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                     <row>
                         <cell><m>p</m></cell>
                         <cell><m>0</m></cell>
@@ -283,17 +282,14 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                         <cell><m> </m></cell>
                         <cell><m> </m></cell>
                         <cell><m> </m></cell></row>
-                </tabular></sidebyside></li>
-            <li><p>Graph the function <m>C</m> in an appropriate window.  What percentage of the ore can be extracted if $540,000 can be spent on the extraction?</p></li>
-            <li><p>For what values of <m>p</m> is the total cost less than $1,440,000?</p></li>
-            <li><p>The graph has a vertical asymptote. What is it? What is its significance in the context of this problem?</p></li>
-        </ol></p>
-    </statement>
-    <answer>
-        <p><ol marker="a">
-            <li><p><m>0\le p \lt 100</m></p></li>
-            <li>
-                <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+                </tabular></li>
+        <li><p>Graph the function <m>C</m> in an appropriate window.  What percentage of the ore can be extracted if $540,000 can be spent on the extraction?</p></li>
+        <li><p>For what values of <m>p</m> is the total cost less than $1,440,000?</p></li>
+        <li><p>The graph has a vertical asymptote. What is it? What is its significance in the context of this problem?</p></li>
+        </ol></p></statement>
+    <answer><p><ol marker="a">
+        <li><p><m>0\le p \lt 100</m></p></li>
+        <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                     <row>
                         <cell><m>p</m></cell>
                         <cell><m>0</m></cell>
@@ -310,12 +306,9 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                         <cell><m>1080</m></cell>
                         <cell><m>3240</m></cell>
                         <cell><m>-- </m></cell></row>
-                </tabular></sidebyside></li>
-            <li>
-                <sidebyside widths="45% 10%" margins="0% 40%" valigns="middle middle" >
-                    <image xml:id="fig-extraction-cost-of-ore">
-                        <description>curve</description>
-                        <latex-image>
+                </tabular></li>
+        <li><sidebyside widths="45% 10%" margins="0% 40%" valigns="middle middle" >
+                <image xml:id="fig-extraction-cost-of-ore"><description>curve</description><latex-image>
                         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                         <![CDATA[\tikzset{%
                         }
@@ -338,21 +331,16 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                         \draw[samples=65,domain={0:1000/53},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {9*\x/(100-5*\x))});
                         \draw[very thick,dashed,blue](20,0)--(20,30);
                         \end{tikzpicture}]]>
-                        </latex-image>
-                    </image>
-                    <p>60%</p>
-                </sidebyside>
-            </li>
-            <li><p><m>p\lt 80\%</m></p></li>
-            <li><p><m>p=100</m>: The cost of extracting more ore grows without bound as the amount extracted approaches 100%.</p></li>
-        </ol></p>
-    </answer>
-</exercise>
+                        </latex-image></image>
+                <p>60%</p></sidebyside></li>
+        <li><p><m>p\lt 80\%</m></p></li>
+        <li><p><m>p=100</m>: The cost of extracting more ore grows without bound as the amount extracted approaches 100%.</p></li>
+        </ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>The total cost in dollars of producing <m>n</m> calculators is approximately <m>20,000+8n</m>.<ol marker="a">
     <li><p>Express the cost per calculator, <m>C</m>, as a function of the number <m>n</m> of calculators produced.</p></li>
     <li><p>Complete the table showing the cost per calculator for various production levels.</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>n</m></cell>
                 <cell><m>100</m></cell>
@@ -369,7 +357,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><m> </m></cell>
                 <cell><m> </m></cell>
                 <cell><m> </m></cell></row>
-        </tabular></sidebyside></li>
+        </tabular></li>
     <li><p>Graph the function <m>C(n)</m> for the cost per calculator. Use the window
         <md><mrow>{\text{Xmin}} \amp = 0 \amp\amp {\text{Xmax}} = 9400</mrow>
             <mrow>{\text{Ymin}} \amp = 0 \amp\amp {\text{Ymax}} = 50</mrow></md></p></li>
@@ -413,7 +401,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
     <li><p>8; If <m>x=13</m>, the area of the cross-section is 8 <m>\text{cm}^2</m>.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="34"><statement><p>Delbert prepares a 25% glucose solution of by mixing 2 ml of glucose with 8 ml of water.  If he adds <m>x</m> ml of glucose to the solution, its concentration is given by
+<exercise number="34"><statement><p>Delbert prepares a 25% glucose solution of by mixing 2 ml of glucose with 6 ml of water.  If he adds <m>x</m> ml of glucose to the solution, its concentration is given by
     <me>C(x)=\dfrac{2+x}{8+x}</me><ol marker="a">
     <li>How many ml of glucose should Delbert add to increase the concentration to 50%?</li>
     <li>Graph the function for <m>0 \le x \le 100</m></li>  
@@ -423,7 +411,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 <exercise number="35"><statement><p>A computer store sells approximately 300 of its most popular model per year. The manager would like to minimize her annual inventory cost by ordering the optimal number of computers, <m>x</m>, at regular intervals. If she orders <m>x</m> computers in each shipment, the cost of storage will be <m>6x</m> dollars, and the cost of reordering will be <m>\dfrac{300}{x} (15x + 10)</m> dollars. The inventory cost is the sum of the storage cost and the reordering cost.<ol marker="a">
     <li><p>Use the distributive law to simplify the expression for the reordering cost. Then express the inventory cost, <m>C</m>, as a function of <m>x</m>.</p></li>
     <li><p>Complete the table of values for the inventory cost for various reorder sizes.</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>x</m></cell>
                 <cell><m>20</m></cell>
@@ -438,7 +426,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><m> </m></cell>
                 <cell><m> </m></cell>
                 <cell><m> </m></cell></row>
-        </tabular></sidebyside></li>
+        </tabular></li>
     <li><p>Graph the function <m>C</m> for the cost per calculator. Use the window
         <md><mrow>{\text{Xmin}} \amp = 0 \amp\amp {\text{Xmax}} = 150</mrow>
             <mrow>{\text{Ymin}} \amp = 4500 \amp\amp {\text{Ymax}} = 5500</mrow></md>
@@ -448,7 +436,7 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
 </ol></p></statement>
 <answer><p><ol marker="a">
     <li><p><m>4500+\dfrac{3000}{x} </m>; <m>C(x) = 6x + 4500 + \dfrac{3000}{x} </m></p></li>
-    <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>x</m></cell>
                 <cell><m>20</m></cell>
@@ -462,17 +450,17 @@ Use the graph of this equation shown in the figure to answer questions (a) and (
                 <cell><m>4815 </m></cell>
                 <cell><m>5018 </m></cell>
                 <cell><m>5130 </m></cell></row>
-        </tabular></sidebyside></li>
-    <li><p>$4768.33</p><sidebyside width="40%"><image source="images/fig-GC-computer-inventory-cost"><description>rational function</description></image></sidebyside></li>
+        </tabular></li>
+    <li><p>$4768.33</p><image width="40%" source="images/fig-GC-computer-inventory-cost"><description>rational function</description></image></li>
     <li><p>22; 14></p></li>
-    <li><sidebyside width="40%"><image source="images/fig-GC-computer-inventory-cost-asymptote"><description>rational function with slant asymptote</description></image></sidebyside><p>The graph of <m>C</m> approaches the line as an asymptote.</p></li>
+    <li><image width="40%" source="images/fig-GC-computer-inventory-cost-asymptote"><description>rational function with slant asymptote</description></image><p>The graph of <m>C</m> approaches the line as an asymptote.</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="36"><statement><p>A train whistle sounds higher when the train is approaching you than when it is moving away from you. This phenomenon is known as the Doppler effect. If the actual pitch of the whistle is 440 hertz (this is the A note below middle C), then the note you hear will have the pitch
     <me>P(v)=\frac{440 (332)}{332-v} </me>
 where the velocity, <m>v</m>, in meters per second is positive as the train approaches and is negative when the train is moving away. (The number 332 that appears in this expression is the speed of sound in meters per second.)<ol marker="a">
     <li><p>Complete the table of values showing the pitch of the whistle at various train velocities.</p>
-        <sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+        <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
             <row>
                 <cell><m>v</m></cell>
                 <cell><m>-100</m></cell>
@@ -495,7 +483,7 @@ where the velocity, <m>v</m>, in meters per second is positive as the train appr
                 <cell><m>\hphantom{000} </m></cell>
                 <cell><m>\hphantom{000} </m></cell>
                 <cell><m> </m></cell></row>
-        </tabular></sidebyside></li>
+        </tabular></li>
     <li><p>Graph the function <m>P</m> in an appropriate window. </p></li>
     <li><p>What is the velocity of the train if the note you hear has a pitch of 415 hertz (corresponding to the note A-flat)? A pitch of <m>553.\overline{3}</m> hertz (C-sharp)?</p></li>
     <li><p>For what velocities will the pitch you hear be greater than 456.5 hertz?</p></li>
