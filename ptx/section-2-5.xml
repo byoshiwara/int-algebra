@@ -271,7 +271,22 @@ is equivalent to
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Graph the solutions of the inequality <m>4x - 2y \lt -8</m>.</p></statement>
-<answer></answer></exercise>
+<answer>
+    <image xml:id="fig-4x-minus-2y-lt-neg8" width="40%"><description>4x-2y less than -8 </description><latex-image>
+        <![CDATA[
+        \begin{tikzpicture} [scale=.4]
+        \draw[cyan] (-6,-6) grid (6,6);
+        \draw[black,thick,->,>=stealth'] (-6,0)--(6.6,0) node[above]{$x$};
+        \draw[black,thick,->,>=stealth'] (0,-6)--(0,6.6) node[left]{$y$};
+          \foreach \x  in {-5,5} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
+        }
+        \filldraw[magenta!50!white, opacity=.2] (-5,-6)--(1,6)--(-6,6)--(-6,-6)--cycle;
+        \draw[red,thick,dashed,<->, >=stealth'] (-5,-6)--(1,6);
+        \end{tikzpicture}]]>
+        </latex-image></image>
+</answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
