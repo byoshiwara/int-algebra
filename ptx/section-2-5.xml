@@ -666,7 +666,7 @@ Its graph is then a region in the plane.</p>
         <p>A graph is also shown below.</p>
     </solution>
 </webwork>  
-<conclusion><image width="36%" xml:id="fig-ex-2-5-5ans"><description>system of inequalities</description><latex-image>
+<conclusion><image width="36%" xml:id="fig-ex-2-5-5answ"><description>system of inequalities</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -697,7 +697,24 @@ Its graph is then a region in the plane.</p>
         <li><p>Lightly shade the solutions of <m>y \gt x-1</m>.</p></li>
         <li><p>Shade the intersection of the two solutions sets.</p></li>
     </ol></p></statement>
-<answer></answer></exercise>
+<answer>        
+    <image width="40%" xml:id="fig-ex-2-5-5ans"><description>system of inequalities</description><latex-image>
+       <![CDATA[
+        \begin{tikzpicture} [scale=.4] 
+        \draw[lightgray] (-4,-4) grid (7,7);
+        \draw[black,thick,->,>=stealth'] (-4,0)--(7.6,0) node[above]{$x$};
+        \draw[black,thick,->,>=stealth'] (0,-4)--(0,7.6) node[left]{$y$};
+        \foreach \x  in {5} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
+        }
+        \filldraw[magenta!50!white, opacity=.2] (-4,-2)--(7,16/3)--(7,-4)--(-4,-4)--cycle;
+        \draw[red,thick,<->, >=stealth'] (-4,-2)--(7,16/3) node[below right, xshift=0cm,yshift=-1.5cm, midway,fill=magenta!10!white, inner sep=2] {$3y-2x \le 2$};
+        \filldraw[blue!50!white, opacity=.2] (-3,-4)--(7,6)--(7,7)--(-4,7)--(-4,-4)--cycle;
+        \draw[blue,thick,<->, >=stealth', dashed] (-3,-4)--(7,6) node[above left, xshift=1.2cm,yshift=1.5cm, midway,fill=blue!10!white, inner sep=2] {$y > x-1$};
+        \end{tikzpicture}]]>
+        </latex-image></image>
+   </answer></exercise>
 
 <p>To describe the solutions of a system of inequalities, it is useful to locate the <term>vertices</term><idx><h>vertices</h><see>system of inequalities</see></idx><idx><h>vertex</h><h>of a system of inequalities</h></idx>, or corner points, of the boundary.</p>
 
@@ -739,7 +756,26 @@ Its graph is then a region in the plane.</p>
                 <mrow>x \lt 6, ~~~~~y \amp\gt 2</mrow></md></p></li>
     <li><p>Find the coordinaes of the vertices of the solution set.</p></li>
 </ol></p></statement>
-<answer></answer></exercise>
+<answer>       
+    <image width="40%" xml:id="fig-ex-2-5-6ans"><description>system of inequalities</description><latex-image>
+       <![CDATA[
+        \begin{tikzpicture} [scale=.4] 
+        \draw[lightgray] (-4,-2) grid (8,10);
+        \draw[black,thick,->,>=stealth'] (-4,0)--(8.6,0) node[above]{$x$};
+        \draw[black,thick,->,>=stealth'] (0,-2)--(0,10.8) node[left]{$y$};
+        \foreach \x  in {5} {
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{$\x$};
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$\x$};
+        }
+          \draw[black,thick] (.1,10)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{$10$};
+        \filldraw[magenta!50!white, opacity=.8] (-4/3,2)--(6,2)--(6,5/2)--(7/2,45/8)--(0,3)--cycle;
+        \draw[red,thick,dashed,<->, >=stealth'] (-4,0)--(8,9);
+        \draw[red,thick,dashed,<->, >=stealth'] (0,10)--(8,0);
+        \draw[red,thick,dashed,<->, >=stealth'] (-4,2)--(8,2);
+        \draw[red,thick,dashed,<->, >=stealth'] (6,-2)--(6,10);
+        \end{tikzpicture}]]>
+        </latex-image></image>
+   </answer></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Decide whether each statement is true or false.</p>
