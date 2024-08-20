@@ -14,8 +14,9 @@
     <title>Testing</title>
     
     
-<!--    <xi:include href="./tk-7-3.xml" /> -->
-    <xi:include href="./section-1-4.xml" />
+    <xi:include href="./tk-2-4.xml" /> 
+    <xi:include href="./section-2-4.xml" />
+    <xi:include href="./section-2-3.xml" />
 
     
     

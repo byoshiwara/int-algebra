@@ -122,7 +122,7 @@ And because <m>y=10 - x</m>, we find <m>y = 10 - 4 = 6</m>. The solution is <m>x
     <answer><p><m>(0,1)</m></p></answer></exercise>
 </subsection>
    
-<subsection><title>Elimination Method</title><idx>elimination method</idx><idx><h>elimination method</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>elimination method</h></idx>
+<subsection xml:id="ElimMeth"><title>Elimination Method</title><idx>elimination method</idx><idx><h>elimination method</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>elimination method</h></idx>
 
 <p>A second algebraic method for solving systems is called <term>elimination</term>. As with the substitution method, we obtain an equation in a single variable, but we do it by eliminating one of the variables in the system. We must first put both equations into the general linear form <m>Ax + By = C</m>.</p>
 
@@ -535,7 +535,7 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
 <answer>800,000 rural voters and 400,000 urban voters</answer></exercise>
 </subsection>
 
-<subsection><title>Inconsistent and Dependent Systems</title>
+<subsection xml:id="IncDep"><title>Inconsistent and Dependent Systems</title>
 
 <p>Recall that a system of two linear equations does not always have a unique solution; it may be inconsistent or dependent. The elimination method will reveal whether the system falls into one of these two cases.</p>
 

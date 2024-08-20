@@ -563,7 +563,7 @@ or, in symbols
     <sidebyside widths="55% 40%" valigns="middle middle">
     <p><ol marker="a">
             <li><p>Choose two points on the graph and compute the slope, including units.</p></li>
-            <li><p>Explain what the slope measures in this problem.</p></li>
+            <li><p>Explain what the slope measures in this problem. <m>~\alert{\text{[TK]}}</m></p></li>
             <li><p>Write a linear model for <m>a</m> in terms of <m>t</m>.</p></li>
     </ol></p>
         <image xml:id="fig-ski-lift"><description>altitude vs time</description><latex-image>
@@ -595,6 +595,8 @@ or, in symbols
     From the graph, we see that at <m>t = 0</m> the skier's altitude was <m>a = 100</m>, and we calculated the rate of change of altitude as 150 feet per minute. Substituting these values into the formula, we find
             <me>a = 100 + 150t</me></p></li>
     </ol></p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help interpretine slope, see <xref ref="tkInterpSlope" text="custom"> Section 1.4.3 </xref> of the Toolkit.</p></aside>
 
 <assemblage><title>Slope as a Rate of Change</title><idx><h>slope</h><h>rate of change</h></idx>
 <p><ol marker="1">

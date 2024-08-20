@@ -182,7 +182,9 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
         <li><p>To reduce a system to the special form, we use <fillin characters="10"/>.</p></li>
     </ol></p></statement></exercise>
 
-<p>To obtain the triangular form, we eliminate one of the variables from each of the three equations by considering them in pairs.  This results in a <m>2\times 2</m> system that we can solve using elimination.</p>
+<p>To obtain the triangular form, we eliminate one of the variables from each of the three equations by considering them in pairs. This results in a <m>2\times 2</m> system that we can solve using elimination. <m>~\alert{\text{[TK]}}</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review the method of elimination, see <xref ref="ElimMeth" text="custom"> Section 2.3 </xref> of the text.</p></aside>
 
 <example><statement><p>Solve the system:
         <md alignment="alignat">
@@ -290,13 +292,15 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
                     <mrow>\frac{2}{3}x +\frac{1}{3}y - z \amp= -1 \amp\amp (2)</mrow>
                     <mrow>3x+3y-2z \amp= 10 \amp\amp (3)</mrow></md>
         Follow the steps:<ul>
-            <li><p>Step 1: Clear the fractions from Equation (2).</p></li>
+            <li><p>Step 1: Clear the fractions from Equation (2). <m>~\alert{\text{[TK]}}</m></p></li>
             <li> <p>Step 2: Eliminate <m>z</m> from Equations (1) and (2).</p></li>
             <li><p>Step 3: Eliminate <m>z</m> from Equations (1) and (3).</p></li>
             <li><p>Step 4: Eliminate <m>x</m> from your new <m>2\times 2</m> system.</p></li>
             <li><p>Step 5: Form a triangular system and solve by back-substitution.</p></li>
         </ul></p></statement>
     <answer><p><m>(2,2,1)</m></p></answer></exercise>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For help on clearing fractions, see <xref ref="tkClrFrac" text="custom"> Section 2.4.2 </xref> of the Toolkit.</p></aside>
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
@@ -305,7 +309,9 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
     <md><mrow>0x + 0y + 0z = k, \qquad (k \ne 0)</mrow></md>
 then the system is inconsistent and has no solution. If we don’t obtain such an equation, but we do obtain one of the form
     <md><mrow>0x + 0y + 0z = 0</mrow></md>
-then the system is dependent and has infinitely many solutions.<idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx></p>
+then the system is dependent and has infinitely many solutions. <m>~\alert{\text{[TK]}}</m><idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review the inconsistent and dependent systems, see <xref ref="IncDep" text="custom"> Section 2.3 </xref> of the text.</p></aside>
 
 <example><statement><p>Solve the systems.<ol marker="a">
         <li><p><m>\begin{alignedat}[t]{5}
@@ -386,7 +392,7 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 4</title>
-<statement><p>True or false.</p>
+<statement><p>Decide whether each statement is true or false.</p>
     <p><ol marker="a">
             <li><p>If a system is dependent, it has no solutions.</p></li>
             <li><p>The equation <m>0x + 0y + 0z = 0</m> has no solution.</p></li>
@@ -415,7 +421,7 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
             </p></li>
     <li><title>Step 3:</title>
         <p>We follow the steps for solving a <m>3\times 3</m> linear system.</p>
-                <p>1.   We write the three equations in standard form.
+                <p>1.   We write the three equations in standard form.  <m>~\alert{\text{[TK]}}</m>
                 <md alignment="alignat">
                     <mrow>x\amp {}-{}\amp 2y\amp \amp \amp =\amp -4\amp\hphantom{blank} \amp(1)</mrow>
                     <mrow>x\amp {}+{}\amp y\amp {}-{}\amp z\amp =\amp -20\amp\hphantom{blank} \amp(2)</mrow>
@@ -444,6 +450,8 @@ then the system is dependent and has infinitely many solutions.<idx><h>system of
         <li><title>Step 4:</title>
             <p>The angles measure 52°, 28°, and 100°.</p></li></ul></p>       
     </solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For help writing an equation in standard form, see <xref ref="tkStdForm" text="custom"> Section 2.4.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>       
