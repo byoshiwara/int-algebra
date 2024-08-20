@@ -3,16 +3,14 @@
 <appendix xml:id="toolkit"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Algebra Toolkit</title>
 <xi:include href="./tkch1.xml" /> 
-<!--  This is a comment and ignored by the PreTeXt processor -->
-<!--
-<xi:include href="./tk-chap2.xml" /> 
-<xi:include href="./tk-chap3.xml" /> 
-<xi:include href="./tk-chap4.xml" /> 
-<xi:include href="./tk-chap5.xml" /> 
-<xi:include href="./tk-chap6.xml" /> 
-<xi:include href="./tk-chap7.xml" /> 
-<xi:include href="./tk-chap8.xml" /> 
-<xi:include href="./tk-chap9.xml" /> 
-<xi:include href="./tk-chap10.xml" /> -->
+<xi:include href="./tkch2.xml" /> 
+<xi:include href="./tkch3.xml" /> 
+<xi:include href="./tkch4.xml" /> 
+<xi:include href="./tkch5.xml" /> 
+<xi:include href="./tkch6.xml" /> 
+<xi:include href="./tkch7.xml" /> 
+<xi:include href="./tkch8.xml" /> 
+<xi:include href="./tkch9.xml" /> 
+<xi:include href="./tkch10.xml" />
 
 </appendix>

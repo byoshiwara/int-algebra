@@ -3,9 +3,9 @@
 
 <project ptx-version="2" source="ptx">
   <targets>
-    <target name="web" format="html" source="int-algebra.xml" publication="publication.ptx" />
-    <target name="print-latex" format="latex" source="int-algebra.xml" publication="publication.ptx" />
-    <target name="print" format="pdf" source="int-algebra.xml" publication="publication.ptx" />
+    <target name="web" format="html" source="int-alg.xml" publication="publication.ptx" />
+    <target name="print-latex" format="latex" source="int-alg.xml" publication="publication.ptx" />
+    <target name="print" format="pdf" source="int-alg.xml" publication="publication.ptx" />
     <target name="subset" format="html" source="test-section.ptx" publication="publication-test.ptx" />
   </targets>
 </project>
