@@ -38,7 +38,7 @@
 
 <subsubsection xml:id="tkMultFrac"><title>Multiply fractions</title>
 
-<introduction><p>To multiply two fractions together, we multiply their numerators together, and multiply their denominators together. We can divide out any common factors in numerator and denominator before we multiply.</p></introduction>
+<p>To multiply two fractions together, we multiply their numerators together, and multiply their denominators together. We can divide out any common factors in numerator and denominator before we multiply.</p>
 
 <example><statement><p>Multiply <m>~\dfrac{3}{8} \cdot \dfrac{6}{5}</m></p></statement>
     
@@ -73,13 +73,11 @@
 
 <subsubsection xml:id="tkAddFrac"><title>Add fractions</title>
 
-<introduction>
-
 <assemblage><title>To add or subtract unlike fractions</title><p><ol marker="1">
     <li>Find the LCD for the fractions.</li>
     <li>Build each fraction to an equivalent one with the LCD as its denominator.</li>
     <li>Add or subtract the numerators. Keep the same denominator.</li>
-</ol></p></assemblage></introduction>
+</ol></p></assemblage>
 
 <example><statement><p>Add. 
     <ol marker="a" cols="2"> 

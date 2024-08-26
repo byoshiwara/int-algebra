@@ -89,7 +89,7 @@
 <p>For this reason, we say that 3 is the <term>growth factor</term><idx>growth factor</idx><idx><h>exponential growth</h><h>growth factor</h></idx> for the function. </p>
 </subsection>
 
-<subsection><title>Growth Factors</title>
+<subsection xml:id="GrowthFactor"><title>Growth Factors</title>
 
 <p>Researchers often use cell lines from the fruit fly <em>Drosophila melanogaster</em> to study protein interactions related to cancer and other diseases.  From 60% to 70% of human disease genes are found in <em>Drosophila</em> cells, and gene discoveries in the flies have led to parallel studies in vertebrates.</p>
 

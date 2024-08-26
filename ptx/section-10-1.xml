@@ -229,7 +229,7 @@ We can also apply the two functions in the opposite order, so that
 
 		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
-                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>~x~</m></cell>
                         <cell bottom="minor"><m>g(x)=\log_2{(x)}</m></cell></row>
                     <row>
                         <cell bottom="minor"><m>\dfrac{1}{4}</m></cell>
@@ -482,9 +482,9 @@ We can also apply the two functions in the opposite order, so that
 <statement><p>Evaluate  <m>~H(t)=20 \log_{10}{\left(\dfrac{t}{C_L}\right)}~</m> for <m>t=2</m>, where <m>C_L=0.5</m>.</p></statement>
     <answer><p><m>20 \log_{10}{(4)} \approx 12.04</m></p></answer></exercise>
 
-<p>Recall that the subscript 10 is often omitted in applications that use common or base 10 logarithms, as illustrated in the following Examples.</p>
+<p>Recall that the subscript 10 is often omitted in applications that use common or base 10 logarithms, as illustrated in the following Example.</p>
 
-<example><statement><p>Evaluate the expression <m>~~T=\dfrac{1}{k}\log{\left(\dfrac{M_f}{M_0}+1\right)}~</m> for <m>k=0.028, ~M_f=1832</m>, and <m>M_0=15.3</m>.</p></statement>
+<example><statement><p>Evaluate the expression <me>~~T=\dfrac{1}{k}\log{\left(\dfrac{M_f}{M_0}+1\right)}~</me> for <m>k=0.028, ~M_f=1832</m>, and <m>M_0=15.3</m>.</p></statement>
 <solution><p>Follow the order of operations and calculate
         <md><mrow>T \amp =\dfrac{1}{0.028}\log{\left(\dfrac{1832}{15.3}+1\right)} = \dfrac{\log{(120.739)}}{0.028}</mrow>
             <mrow> \amp \approx \dfrac{2.082}{0.028} \approx 74.35</mrow></md>
@@ -572,6 +572,8 @@ where <m>x</m> is the number of years after 1900. <ol marker="a">
         The function predicts a life expectancy of 67.7 years in 1950.</p></li>
     <li>Between 1920 and 1930, life expectancy increased from 56.2 to 61.2, or 5 years. Between 1990 and 2000 it increased from 75.0 to 76.4, or 1.4 years.</li></ol></p>
 </solution></example>
+
+<p>In the previous Example, we see that although life expectancy has been increasing over time, it has been slowing down or leveling off. It remains to be seen whether the model continues to predict life expectancy after the year 2000.</p>
 
 <exercise component="webwork"><title>Practice 5</title>
 <webwork>
@@ -762,7 +764,7 @@ where <m>t</m> is in years.</p>
 	<me>\log_4 {(x)} = 3</me>
 is a log equation.</p>
 
-<p>If there is only one log involved, we can use the conversion formula to write the equation in exponential form. (Recall the conversion formula from Section 7.3.)</p>
+<p>If there is only one log involved, we can use the conversion equations to write the equation in exponential form. (Recall the conversion equations from <xref ref="LogExp" text="custom"> Section 7.3.1 </xref>.)</p>
 
 <assemblage><title>Logarithms and Exponents: Conversion Equations</title><idx>conversion equations</idx><idx><h>logarithm</h><h>conversion equations</h></idx>
 <p>If <m>b \gt 0</m>, <m>b\ne 1</m>, and <m>x \gt 0</m>,
@@ -771,7 +773,7 @@ is a log equation.</p>
 
 <example><statement><p>Solve <m>~\log_4{(2x-8)}=3</m>.</p></statement>
 		
-<solution><p>We use the conversion formula to write the equation in exponential form.
+<solution><p>We use the conversion equations to write the equation in exponential form.
 	<md><mrow>2x-8 \amp = 4^3 \amp \amp \blert{\text{Evaluate the power.}}</mrow>
 		<mrow>2x-8 \amp = 64  \amp \amp \blert{\text{Solve for}~x.}</mrow>
 		<mrow> x \amp = 36</mrow></md>
@@ -793,7 +795,7 @@ The solution is 36.</p></solution></example>
     <answer><p><m>x=-40</m></p></answer></exercise>
 
 <warning><p>Remember that we cannot take a logarithm of a negative number or zero, because the output of an exponential function is always positive.</p>
-<p> For example, suppose that <m>\log_5{(-25)} = x</m>. Then <m>5^x = -25</m>. But this is impossible, because <m>5^x</m> cannot be negative. Thus, the log of a negative number (or zero) is undefined.</p>  
+<p> For example, suppose that <m>~\log_5{(-25)} = x~</m>. Then <m>~5^x = -25~</m>. But this is impossible, because <m>5^x</m> cannot be negative. Thus, the log of a negative number (or zero) is undefined.</p>  
 <p>Because of this fact, extraneous solutions can arise when we solve logarithmic equations.<idx>extraneous solution</idx></p></warning>
 
 <p>If the equation contains more than one log, we must first combine any expressions involving logs into a single logarithm.</p>
@@ -831,10 +833,11 @@ We find <m>x = 4</m> or <m>x = -3</m>.  But we must check the original equation 
 
 <exercise component="main"> <title>Practice 7</title>
 <statement><p>Solve <m>~\log_{10}{(x)} + \log_{10}{(2)}= 3</m></p>
-        <p>Hint: Rewrite the left side as a single logarithm.</p>
-        <p>Rewrite the equation in exponential form.</p>
-        <p>Solve for <m>x</m>.</p>   
-        <p>Check for extraneous solutions.</p></statement>
+        <p>Hint: <ol marker="1">
+            <li><p>Rewrite the left side as a single logarithm.</p></li>
+            <li><p>Rewrite the equation in exponential form.</p></li>
+            <li><p>Solve for <m>x</m>.</p></li>   
+            <li><p>Check for extraneous solutions.</p></li></ol></p></statement>
     <answer><p><m>x=500</m></p></answer></exercise>
 
 <exercise component="webwork"><title>QuickCheck 5</title>

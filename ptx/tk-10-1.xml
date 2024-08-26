@@ -49,7 +49,7 @@
 </ol></p></statement> 
 <answer><p><ol marker="a">
     <li><image width="50%" source="images/fig-5-2-4"><description>graph</description></image></li>
-    <li>><image width="50%" source="images/fig-5-2-6"><description>graph</description></image></li>
+    <li><image width="50%" source="images/fig-5-2-6"><description>graph</description></image></li>
 </ol></p></answer></exercise>
 
 </subsubsection>
@@ -83,14 +83,14 @@
         <li><m>125^t</m></li>
 </ol></p></answer></exercise>
 
-<example><statement><p><m>q(x)=9^x.~</m> and <m>p(x)</m> is its inverese function. Evaluate if possible.
+<example><statement><p><m>q(x)=9^x~</m> and <m>p(x)</m> is its inverse function. Evaluate if possible.
 <ol marker="a" cols="2">
     <li><m>q\left(\dfrac{1}{2}\right)</m></li>
     <li><m>p(3)</m></li>
     <li><m>q(0)</m></li>
     <li><m>p(0)</m></li>
 </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a" cols="2">
         <li><m>3</m></li>
         <li><m>\dfrac{1}{2}</m></li>
         <li><m>1</m></li>
@@ -104,7 +104,7 @@
     <li><m>h(0)</m></li>
     <li><m>g(0)</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a" cols="2">
         <li><m>1</m></li>
         <li><m>256</m></li>
         <li>undefined</li>
@@ -116,7 +116,7 @@
     <li><m>f(64p)</m></li>
     <li><m>f(64+p)</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a" cols="2">
         <li><m>2+\log_8 {(p)}</m></li>
         <li>cannot be simplified</li>
 </ol></p></answer></exercise>
@@ -127,7 +127,7 @@
 <p>The three properties of logarithms are helpful in making computations involving logs.</p>
 
 <assemblage><title>Properties of Logarithms</title>
-    <p>If <m>x</m>, <m>y</m>, <m>b \gt 0</m>, and <m>b\ne 1</m>, then <ol label="1">
+    <p>If <m>x</m>, <m>y</m>, <m>b \gt 0</m>, and <m>b\ne 1</m>, then <ol marker="1">
         <li><p><m>\log_{b}{(xy)} = \log_{b}{(x)} + \log_{b}{(y)}</m></p></li>
         <li><p><m>\log_{b}\left(\dfrac{x}{y}\right) = \log_b {(x)} - \log_b {(y)}</m></p></li>
         <li><p><m>\log_b {(x^k)} = k \log_b {(x)} </m></p></li>

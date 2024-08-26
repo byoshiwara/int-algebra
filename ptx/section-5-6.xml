@@ -856,7 +856,7 @@
     <li><p>There are no points on the graph of <m>y = \abs{3x - 6}</m> with <m>y = -2</m>, so the equation <m>\abs{3x - 6} = -2</m> has no solutions.</p></li>
     </ol></p></solution></example>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more practice with absolute value functions, see <xref ref="tkAbsValue" text="custom"> Section 5.6.2 </xref> of the Toolkit.</p></aside>
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more practice with absolute value functions, see <xref ref="tkSimpAbsVal" text="custom"> Section 5.6.2 </xref> of the Toolkit.</p></aside>
 
 <technology><title><!--<image source="images/icon-GC.jpg"  width="8%"><description>Graphing Calculator</description></image>-->Solving Absolute Value Equations</title>
 <p>We can use a graphing calculator to solve the equations in <xref ref="example-abs-equation" text="type-global"/>.</p>

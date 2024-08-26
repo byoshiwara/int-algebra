@@ -59,9 +59,25 @@
     </ol></p></answer></exercise>
 </subsubsection>
 
+<subsubsection xml:id="tkWriteSys"><title>Write a 3x3 linear system</title>
 
+<example><statement><p>Write a 3x3 linear system for the following problem:</p>
+    <p>Ace, Inc. produces three types of wooden rackets: tennis rackets, Ping-Pong paddles, and squash rackets. After the pieces are cut, each racket requires three phases of production: gluing, sanding and finishing. A tennis racket takes 3 hours to glue, 2 hours to sand, and 3 hours to finish. A Ping-Pong paddle takes 1 hour to glue, 1 hour to sand, and 1 hour to finish. A squash racket takes 2 hours to glue, 2 hours to sand, and 2.5 hours to finish. Ace has available 95 labor-hours for gluing, 75 labor-hours for sanding, and 100 labor-hours for finishing per day. How many of each racket should it make in order to use all the available time?</p></statement>
 
+<solution><p>Let <m>x</m>, <m>y</m>, and <m>z</m> stand for the number of tennis rackets, Ping-Pong paddles, and squash rackets, respectively. Write three equations about the number of hours needed for each phase:
+    <md><mrow>\text{Gluing:}~~~~~~ \amp 3x+y+2z = 95</mrow>
+        <mrow>\text{Sanding:}~~~~~~ \amp 2x+y+2z = 75</mrow>
+        <mrow>\text{Finsihing:}~~~~~~ \amp 3x+y+2.5z = 100</mrow></md></p></solution></example>
 
+<exercise><statement><p>Write a 3x3 linear system for the following problem:</p>
+    <p>A box contains $6.25 in nickels, dimes, and quarters. There are 85 coins in all, with 3 times as many nickels as dimes. How many coins of each kind are there?</p></statement>
+
+<answer><p>Let <m>x</m>, <m>y</m>, and <m>z</m> stand for the number of nickels, dimes, and quarters, respectively.</p>
+    <p><md><mrow>x+y+z \amp = 85</mrow>
+        <mrow>x \amp = 3y</mrow>
+        <mrow>5x + 10y + 25z \amp = 625</mrow></md></p></answer></exercise>
+
+</subsubsection>
 
 </subsection>
 <!-- </book>  </pretext> -->

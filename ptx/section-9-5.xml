@@ -11,7 +11,7 @@
 
 <p>In the next Example, we use both graphical and algebraic techniques to solve the system. <m>~\alert{\text{[TK]}}~~</m></p> 
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of problems that can be solved with a system of equations, see <xref ref="tkWriteSys" text="custom"> Section 9.5.1 </xref> of the Toolkit.</p></aside>
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of problems that can be solved with a system of equations, see <xref ref="tkNonLinSys" text="custom"> Section 9.5.1 </xref> of the Toolkit.</p></aside>
 
 <example xml:id="example-Pizza-system"><statement><p>The Pizza Connection calculates that the cost, in dollars, of producing <m>x</m> pizzas per day is given by
             <me>C = 0.15x^2 + 0.75x + 180</me>

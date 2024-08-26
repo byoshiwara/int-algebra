@@ -25,7 +25,7 @@
 <answer><p><m>f(x)=\abs{x},~~~f(x)=x^2,~~~f(x)=\sqrt{x},~~~f(x)=\dfrac{1}{x^2}</m></p></answer></exercise>
 </subsubsection>
 
-<subsubsection xml:id="tkAbsValue"><title>Simplify absolute value functions</title>
+<subsubsection xml:id="tkSimpAbsVal"><title>Simplify absolute value functions</title>
 
 <p>The piecewise definition of the absolute value function is
     <me>f(x) =

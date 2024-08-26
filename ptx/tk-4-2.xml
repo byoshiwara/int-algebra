@@ -4,7 +4,7 @@
                  
 <subsubsection xml:id="tkVertForm"><title>Parabolas in vertex form</title>
 
-<introduction><p>We can sketch the graph of a parabola with the vertex, the <m>y</m>-intercept, and its symmetric point.</p></introduction>
+<p>We can sketch the graph of a parabola with the vertex, the <m>y</m>-intercept, and its symmetric point.</p>
 
 <example><statement><p>Graph the equation <m>~y=2(x-15)^2-72</m></p></statement>
     
@@ -88,7 +88,7 @@ The <m>x</m>-intercepts are <m>(9,0)</m> and <m>(21,0)</m>. We plot these three 
 
 <subsubsection xml:id="tkSolveforParam"><title>Solve for a parameter</title>
 
-<introduction><p>We can find the equation for a parabola if we know, for example, the vertex and one other point.</p></introduction>
+<p>We can find the equation for a parabola if we know, for example, the vertex and one other point.</p>
 
 <example><statement><p>The point <m>(6,2)</m> lies on the graph of <m>~y=a(x-4)^2+1.~</m> Solve for <m>a</m>.</p></statement>
 

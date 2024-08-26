@@ -8,27 +8,27 @@
     
 <subexercises><title>Warm Up</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1-4, write each product as a polynomial in simplest form.</p></introduction>
+<exercisegroup><introduction><p>For Problems 1-4, write each product as a polynomial in simplest form.</p></introduction>
 
-<exercise number="1"><statement><p><ol marker="a">
+<exercise number="1"><statement><p><ol marker="a"   cols="2">
     <li><m>(b+6)(2b-3)</m></li>
     <li><m>(3z-8)(4z-1)</m></li></ol></p></statement>
 <answer><p><ol marker="a" cols="2">
     <li><m>2b^2+9b-18</m></li>
     <li><m>12z^2-35z+8</m></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol marker="a">
+<exercise number="2"><statement><p><ol marker="a"  cols="2">
     <li><m>(4z-3)^2</m></li>
     <li><m>(2d+8)^2</m></li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol marker="a">
+<exercise number="3"><statement><p><ol marker="a" cols="2">
     <li><m>3p(2p-5)(p-3)</m></li>
     <li><m>2v(v+4)(3v-4)</m></li></ol></p></statement>
 <answer><p><ol marker="a" cols="2">
     <li><m>6p^3-33p^2+45p</m></li>
     <li><m>6v^3+16v^2-32v</m></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a">
+<exercise number="4"><statement><p><ol marker="a" cols="2">
     <li><m>-50(1+r)^2</m></li>
     <li><m>12(1-t))^2</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -122,7 +122,7 @@
 <answer><p>All three graphs have the same <m>x</m>-intercepts.</p></answer>
 </exercise>
 
-<exercise number="28"><statement><p>Write a quadratic equation with the given solutions. Give your answers in standard form with integer coefficients.<ol marker="a">
+<exercise number="28"><statement><p>Write a quadratic equation with the given solutions. Give your answers in standard form with integer coefficients.<ol marker="a" cols="3">
     <li><m>-2</m> and <m>1</m></li>
     <li><m>-3</m> and <m>\dfrac{1}{2}</m></li>
     <li><m>\dfrac{-1}{4}</m> and <m>\dfrac{3}{2}</m></li></ol></p></statement>
@@ -179,7 +179,7 @@ where <m>x</m> is the size of the population that year. <ol marker="a">
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside> 
-      <p>Continue the table until you find a pair of chicken coops whose total area is 360 square feet. (Be careful computing the length of each chicken coop:  look at the diagram above.)</p></li>  
+        <p>Continue the table until you find a pair of chicken coops whose total area is 360 square feet. (Be careful computing the length of each chicken coop:  look at the diagram above.)</p></li>  
     <li><p>Write an expression for the length of each of the two coops if their width is <m>x</m>. Then write an expression for the combined area  of the coops if their width is <m>x</m>. Graph the equation for <m>A</m>, and use the graph to find the pair of coops whose combined area is 360 square feet. (Is there more than one solution?)</p></li>
     <li><p>Write an equation for the area <m>A</m> of the two coops in terms of their width, <m>x</m>. Solve your equation algebraically for <m>A=360.</m></p></li></ol></p></statement></exercise>
 
@@ -190,7 +190,7 @@ where <m>x</m> is the size of the population that year. <ol marker="a">
         box. Then write an expression for the volume, <m>V</m>, of the box in terms of <m>x</m>.</li>
     <li>Use your calculator to make a table of values showing the volumes of boxes made from cardboard squares of side 
         4 inches, 5 inches, and so on.</li>
-    <li>Graph your expression for the volume on your calculator. What is the smallest value of <m>x</m> that makes sense for this problems</li>
+    <li>Graph your expression for the volume on your calculator. What is the smallest value of <m>x</m> that makes sense for this problem?</li>
     <li>Use your table or your graph to find what size cardboard you need to make a box with volume 50 cubic inches.</li>
     <li>Write and solve a quadratic equation to answer part (d).</li></ol></p></statement>
 <answer><p><ol marker="a">

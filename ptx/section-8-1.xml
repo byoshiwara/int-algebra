@@ -14,7 +14,7 @@
     <me>f(x) = ax + b</me>
 and quadratic functions
     <me>f(x) = ax^2 + bx + c</me>
-are special cases of polynomial functions. Polynomials can also include terms with higher powers of the variable. <p>Here are some examples.
+are special cases of polynomial functions. Polynomials can also include terms with higher powers of the variable. <p>Here are some examples.  
     <md><mrow>f(x)\amp= 6x^3 - 4x^2 + x - 2 \amp g(x) \amp= 9x^5 - 2</mrow>
         <mrow>p(x) \amp = x^4 + x^2 + 1 \amp q(x) \amp= 2x^{10} - x^7 + 3x^6 + 5x^3 + 3x</mrow></md></p>
 
