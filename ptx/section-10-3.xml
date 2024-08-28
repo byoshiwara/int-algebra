@@ -143,26 +143,24 @@ The number <m>e</m> is essential for many advanced topics, and it is often calle
             <li><m>h(x) = e^{-0.5x}</m></li>
         </ol></p></statement>
 
-<solution><image width="45%" xml:id="fig-translate-exponential"><description>translates of exponential</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [xscale=.65, yscale=.45]
-        \draw[lightgray] (-4,-1) grid (3,10);
-        \draw[black,thick, ->, >=stealth'] (-4,0)--(3.6,0) node[right] {$x$};
-        \draw[black,thick, ->, >=stealth'] (0,-1)--(0,10.6) node[above] {$y$};
-        \foreach \x  in  {-2,2} {
+<solution><image width="55%" xml:id="fig-horizontal-scaling-exponential"><description>horizontal scaling of exponential</description><latex-image>
+        <![CDATA[
+        \begin{tikzpicture} [xscale=.6, yscale=.4]
+        \draw[lightgray] (-5,0) grid (5,10);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(5.6,0) node[right] {$x$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above] {$y$};
+        \foreach \x  in  {-2,2,-4,4} {
          \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-1, fill=white,inner sep=1]   {$\x$};
         }
         \foreach \x  in  {2,6,10} {
          \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white,inner sep=2]   {$\x$};
         }
-        \draw[samples=65,domain={-4:ln(10)},smooth,variable=\x,red, thick, <->, >=stealth'] plot ({(\x)},{e^(\x)}) node[below right, xshift=3, fill=white, inner sep=2] {$y=e^x$};
-        \draw[samples=65,domain={-4:ln(10)-2},smooth,variable=\x,blue, thick, <->, >=stealth'] plot ({(\x)},{e^(\x+2)}) node[below left, xshift=-5, yshift=-7, fill=white, inner sep=2] {$y=e^{x+2}$};
-        \draw[samples=65,domain={-4:ln(8)},smooth,variable=\x,green!60!black, thick, <->, >=stealth'] plot ({(\x)},{e^(\x)+2});
-        \node[text=green!50!black,fill=white, inner sep=2] at (-2.9,2.8) {$y=e^x+2$};
+        \draw[samples=65,domain={-5:ln(10)},smooth,variable=\x,red, thick, <->, >=stealth'] plot ({(\x)},{e^(\x)}) node[above] {$y=e^x$};
+        \draw[samples=65,domain={-5:2*ln(10)},smooth,variable=\x,blue, thick, <->, >=stealth'] plot ({(\x)},{e^(\x/2)}) node[below, xshift=7, yshift=-2cm, fill=white, inner sep=2] {$g(x)=e^{0.5x}$};
+        \draw[samples=65,domain={-2*ln(10):5},smooth,variable=\x,green!60!black, thick, <->, >=stealth'] plot ({(\x)},{e^(-\x/2)});
+        \node[text=green!50!black] at (-3.9,10.8) {$h(x)=e^{-0.5x}$};
         \end{tikzpicture}]]>
-        </latex-image></image>
+        </latex-image></image> 
 <p> The graph of <m>g</m> grows more slowly than <m>y = e^x</m>. The graph of <m>h</m> is a decreasing graph, the reflection of <m>g</m> about the <m>y</m>-axis. The graphs are shown above.</p></solution></example>
 </subsection>
 
@@ -222,7 +220,7 @@ In general, natural logs obey the same conversion equations that work for logs t
 <m>~\alert{\text{[TK]}}~~</m> </p></statement>
 
 <solution><p>We can make a table of values for <m>g(x) = \ln {(x)}</m> by interchanging the columns in the table for <m>f(x) = e^x</m>. Plotting the points gives us the graph below.</p>
-		<sidebyside widths="50% 35%" valigns="middle middle">
+		<sidebyside widths="40% 55%" valigns="middle middle">
 			<tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
 				<row bottom="major">
 					<cell><m>x</m></cell>
@@ -249,7 +247,24 @@ In general, natural logs obey the same conversion equations that work for logs t
 					<cell><m>20.086</m></cell>
 					<cell><m>3</m></cell></row>
 				</tabular>
-		<image source="images/fig-ln-and-exponential"><description>graphs of ln and natural exponential</description></image></sidebyside></solution></example>
+		<!--<image source="images/fig-ln-and-exponential"><description>graphs of ln and natural exponential</description></image>-->
+        <image  xml:id="fig-natural-log-and-exponential"><description>graphs of ln and natural exponential</description><latex-image>
+        <![CDATA[
+        \begin{tikzpicture} [scale=.45]
+        \draw[lightgray] (-4,-4) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-4,0)--(10.6,0) node[right] {$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-4)--(0,10.6) node[above] {$y$};
+        \foreach \x  in  {5,10} {
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-1, fill=white,inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {5,10} {
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white,inner sep=2]   {$\x$};
+        }
+        \draw[darkgray,thick, dashed,<->,>=stealth'] (-4,-4)--(10,10) node[below, yshift=-6mm, fill=white, inner sep=2]{$y=x$};
+        \draw[samples=65,domain={-4:ln(10)},smooth,variable=\x,blue, thick, <->, >=stealth'] plot ({(\x)},{e^(\x)}) node[above] {$y=e^x$};
+        \draw[samples=65,domain={e^(-4):10},smooth,variable=\x,red, thick, <->, >=stealth'] plot ({(\x)},{ln(\x)}) node[below, xshift=7, yshift=-4, fill=white, inner sep=2] {$y=\ln(x)$};
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></solution></example>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To see interesting properties of the graphs of <m>y=e^x</m> and <m>y=ln(x)</m>, see <xref ref="tkGraphBaseE" text="custom"> Section 10.3.1 </xref> of the Toolkit.</p></aside>
 
@@ -555,6 +570,24 @@ Thus, the growth law for the colony of bacteria can be written
 	<me>P(t) \approx 100 \cdot e^{1.0986t}</me>
 By graphing both functions on your calculator, you can verify that <me>P(t) = 100 \cdot 3^t~~~\text{and}~~~P(t) = 100 \cdot e^{1.0986t}</me> are just two ways of writing the same function.</p>
 
+<image  width="50%"><description>P(t) equals 100 3 to the t</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=.45]
+    \draw[lightgray] (-2,0) grid (6,10);
+    \draw[black,thick, ->, >=stealth'] (-2,0)--(6.6,0) node[right] {$t$};
+    \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above] {$y$};
+    \foreach \x  in  {5} {
+     \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-1, fill=white,inner sep=1]   {$\x$};
+    }
+    \foreach \x  in  {5,10} {
+    \def\y {\x 0,000};
+     \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white,inner sep=2]   {$\y$};
+    }
+    \draw[samples=65,domain={-2:ln(500)/ln(3)},smooth,variable=\x,blue, thick, <->, >=stealth'] plot ({(\x)},{3^(\x)/50}) node[above] {$P(t)=100 \cdot 3^t \approx 100 \cdot e^{1.0986t}$};
+   \end{tikzpicture}]]>
+    </latex-image>
+</image>
+
 <example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year. <m>~\alert{\text{[TK]}}~~</m> </p>
 <p><ol marker="a">
 	<li>What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population <m>t</m> years later.</li>
@@ -806,7 +839,22 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
                     <cell><m>0.75</m></cell>
                     <cell><m>0.37</m></cell></row>
                 </tabular></li>
-        <li><image width="35%" source="images/fig-krypton-91-decay"><description>decay</description></image></li>
+        <li><!--<image width="35%" source="images/fig-krypton-91-decay"><description>decay</description></image>-->
+        <image xml:id="fig-krypton-decay" width="55%"><description>exponential decay</description><latex-image>
+        <![CDATA[
+        \begin{tikzpicture} [xscale=.09,yscale=.16] 
+        \draw[cyan,xstep=10,ystep=5] (0,0) grid (60,25);
+        \draw[black,thick,->,>=stealth'] (0,0)--(64,0) node[above]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,27) node[above]{$N(t)$};
+        \foreach \x in {10,20,...,60} {
+          \draw[black,thick] (\x,.15)--++(0,-.3) node[below]{$\x$};
+        }
+        \foreach \x in {5,10,...,25} {
+          \draw[black,thick] (.15,\x)--++(-.3,0) node[left]{$\x$};
+        }
+        \draw[samples=65,domain={0:60},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {25*e^(-.07*\x)});
+        \end{tikzpicture}]]>
+        </latex-image></image></li>
         <li><p><m>25 e^{-0.07t} = 0.40(25)</m>; <m>t=\dfrac{\ln(0.4)}{-0.07}\approx 13.09 </m> seconds</p></li>
     </ol></p></solution></exercise>
 </subsection>

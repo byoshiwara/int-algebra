@@ -313,13 +313,43 @@
 	            <cell><m>1.954</m></cell></row>
 	    </tabular>
 	<p>We plot the integers on a log scale, as shown below.</p>
-		<image source="images/fig-logscale-integer-labels"><description>log scale showing integer points</description></image>
+		<!--<image source="images/fig-logscale-integer-labels"><description>log scale showing integer points</description></image>-->
+        <image xml:id="fig-logscale-integer-labels-new"><description>log scale showing integer points</description>        
+        <latex-image>
+        <![CDATA[
+        \begin{tikzpicture} [scale=.5]
+        \draw[black,thick, ->, >=stealth'] (-.4,0)--(21,0);
+        \foreach \x  in  {2,...,9,20,30,...,90} {
+            \filldraw[red] ({10*log10(\x)},0) circle (.13);
+        }
+        \foreach \x  in  {2,3,5,7,20,30,50,70} {
+            \node[] at ({10*log10(\x)},.6){\x};
+        }        
+        \draw[black] (0,.25) --++(0,-.5) node[below]{$\bf 10^0$};
+        \draw[black] (10,.25) --++(0,-.5) node[below]{$\bf 10^1$};
+        \draw[black] (20,.25) --++(0,-.5) node[below]{$\bf 10^2$};
+       \end{tikzpicture}]]></latex-image>
+        </image>
 </solution></example>
 
 <p>On the log scale in <xref ref="example-logscale-integer-labels" text="type-global"/>, notice how the integer values are spaced: They get closer together as they approach the next power of <m>10</m>. If we would like to label a log scale with integers, we get a very different looking scale, one in which the tick marks are not evenly spaced.</p>
 
 <p>Here is a log scale labeled not with powers of <m>10</m>, but with integer values, like this:</p>
-	<image width="90%" source="images/fig-logscale-integer-labels2" ><description>log scale showing tick marks at integer points</description></image>
+	<!--<image width="90%" source="images/fig-logscale-integer-labels2" ><description>log scale showing tick marks at integer points</description></image>-->
+    <image xml:id="fig-logscale-integer-labels3" width="90%"><description>log scale showing some integers at tick marks</description>
+    <latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=.5]
+    \draw[black,thick, ->, >=stealth'] (-.8,0)--(21,0);
+    \foreach \x  in  {1,2,...,10,20,30,...,100} {
+        \draw[black] ({10*log10(\x)},.25) --++(0,-.5);
+    }
+    \foreach \x  in  {1,2,3,5,7,10,20,30,50,70,100} {
+            \node[] at ({10*log10(\x)},-.7){$\x$};
+    }
+    \end{tikzpicture}]]>
+    </latex-image>
+</image>
 
 <p>Some applications use <term>log-log graph paper</term><idx>log-log graph paper</idx>, which scales both axes with logarithmic scales.</p>
 
