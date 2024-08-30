@@ -2,7 +2,7 @@
 
 <subsection xml:id="tkOperationsonAlgebraicFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Operations on Algebraic Fractions</title>
 
-<subsubsection xml:id="tkMultDiv"><title>Multiply and divide fractions</title>
+<subsubsection xml:id="tkMultFrac"><title>Multiply fractions</title>
 
 <p>To multiply two fractions together, we multiply their numerators together, and multiply their denominators together. We can divide out any common factors in numerator and denominator before we multiply.</p> 
 
@@ -14,24 +14,30 @@
  
 <solution><p><m>4 \left(\dfrac{b}{c}\right) = \dfrac{4}{1} \left(\dfrac{b}{c}\right) = \dfrac{4 \cdot b}{1 \cdot c} = \dfrac{4b}{c}</m></p></solution></example>
 
-<example><statement><p>Multiply  <m>~\dfrac{t}{w} \cdot \dfrac{w}{3t^2}</m></p></statement>
- 
-<solution><p><m>\dfrac{t}{w} \cdot \dfrac{w}{3t^2} = \dfrac{\cancel{t}}{\cancel{w}} \cdot \dfrac{\cancel{w}}{3t \cdot \cancel{t}} = \dfrac{1}{3t}</m></p></solution></example>
-
-<example><statement><p>Multiply  <m>~\dfrac{a}{2} \cdot \dfrac{1-b}{b}</m></p></statement>
- 
-<solution><p><m>\dfrac{a}{2} \cdot \dfrac{1-b}{b} = \dfrac{a(1-b)}{2 \cdot b} = \dfrac{a-ab}{2b}</m></p></solution></example>
-
 <exercise><statement><p>Multiply  <m>~\dfrac{3}{2a}\left(\dfrac{a^2}{6}\right)</m></p></statement>
     <answer><p><m>\dfrac{a}{9}</m></p></answer></exercise>
 
 <exercise><statement><p>Multiply  <m>~8\left(\dfrac{m}{4x^2}\right)</m></p></statement>
     <answer><p><m>\dfrac{2m}{x^2}</m></p></answer></exercise>
 
-<exercise><statement><p>Multiply  <m>~\dfrac{3}{4} \cdot \dfrac{t^2-2}{cw^2}</m></p></statement>
+</subsubsection>
+
+<subsubsection xml:id="tkDivFrac"><title>Divide fractions</title>
+
+<p>To divide one fraction by another, we first take the reciprocal of the second fraction, then proceed as in multiplication.</p>
+
+<example><statement><p>Divide  <m>~\dfrac{t}{w} \div \dfrac{3t^2}{w}</m></p></statement>
+ 
+<solution><p><m>\dfrac{t}{w} \cdot \dfrac{w}{3t^2} = \dfrac{\cancel{t}}{\cancel{w}} \cdot \dfrac{\cancel{w}}{3t \cdot \cancel{t}} = \dfrac{1}{3t}</m></p></solution></example>
+
+<example><statement><p>Divide  <m>~\dfrac{a}{2} \div \dfrac{b}{1-b}</m></p></statement>
+ 
+<solution><p><m>\dfrac{a}{2} \cdot \dfrac{1-b}{b} = \dfrac{a(1-b)}{2 \cdot b} = \dfrac{a-ab}{2b}</m></p></solution></example>
+
+<exercise><statement><p>Divide  <m>~\dfrac{3}{4} \div \dfrac{cw^2}{t^2-2}</m></p></statement>
     <answer><p><m>\dfrac{3t^2-6}{4cw^2}</m></p></answer></exercise>
 
-<exercise><statement><p>Multiply  <m>~\dfrac{n}{n-1} \cdot \dfrac{p+1}{n^2}</m></p></statement>
+<exercise><statement><p>Divide  <m>~\dfrac{n}{n-1} \div \dfrac{n^2}{p+1}</m></p></statement>
     <answer><p><m>\dfrac{p+1}{n^2-n}</m></p></answer></exercise>
 </subsubsection>
 

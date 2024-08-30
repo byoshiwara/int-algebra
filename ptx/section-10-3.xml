@@ -303,10 +303,10 @@ In general, natural logs obey the same conversion equations that work for logs t
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Use your calculator to evaluate each logarithm. Round your answers to four decimal places.</p>
         <p><ol marker="a" cols="2">
-                <li><p><m>\ln {(10)}</m></p></li>
-                <li><p><m>\ln {(0.1)}</m></p></li>
-                li><p><m>\ln {(100)}</m></p></li>
-                <li><p><m>\ln {(0.01)}</m></p></li>
+                <li><m>\ln {(10)}</m></li>
+                <li><m>\ln {(0.1)}</m></li>
+                <li><m>\ln {(100)}</m></li>
+                <li><m>\ln {(0.01)}</m></li>
         </ol></p></statement>
     <solution>
             <p><ol marker="a" cols="2">
@@ -840,7 +840,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
                     <cell><m>0.37</m></cell></row>
                 </tabular></li>
         <li><!--<image width="35%" source="images/fig-krypton-91-decay"><description>decay</description></image>-->
-        <image xml:id="fig-krypton-decay" width="55%"><description>exponential decay</description><latex-image>
+        <image xml:id="fig-krypton-decay" width="45%"><description>exponential decay</description><latex-image>
         <![CDATA[
         \begin{tikzpicture} [xscale=.09,yscale=.16] 
         \draw[cyan,xstep=10,ystep=5] (0,0) grid (60,25);
@@ -855,7 +855,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
         \draw[samples=65,domain={0:60},smooth,variable=\x,red,very thick, ->,>=stealth'] plot (\x, {25*e^(-.07*\x)});
         \end{tikzpicture}]]>
         </latex-image></image></li>
-        <li><p><m>25 e^{-0.07t} = 0.40(25)</m>; <m>t=\dfrac{\ln(0.4)}{-0.07}\approx 13.09 </m> seconds</p></li>
+        <li><p><m>25 e^{-0.07t} = 0.40(25)</m>; <m>~~t=\dfrac{\ln(0.4)}{-0.07}\approx 13.09 </m> seconds</p></li>
     </ol></p></solution></exercise>
 </subsection>
 

@@ -53,7 +53,56 @@ If you look at figure (b), you can see that you are taking home 8 pieces of cake
 <p>There is a shortcut for multiplying fractions that allows us to reduce the answer before we multiply. We do this by dividing out any common factors in a numerator and a denominator. For example,
     <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{\cancel{3} \cdot \cancel{a}}{4} \cdot \dfrac{5}{\cancel{3} \cdot 2 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me>
 or
-    <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{15a}{24a^2} = \dfrac{\cancel{3} \cdot 5 \cdot\cancel{a}}{\cancel{3} \cdot 8 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me></p>
+    <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{15a}{24a^2} = \dfrac{\cancel{3} \cdot 5 \cdot\cancel{a}}{\cancel{3} \cdot 8 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me> <m>~\alert{\text{[TK]}}~~</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of multiplying fractions, see <xref ref="tkMultFrac" text="custom"> Section 8.3.1 </xref> of the Toolkit.</p></aside>
+
+<p>To multiply a fraction by a whole number, we write the whole number with 1 as denominator. 
+    <me>\dfrac{2}{3} \cdot \alert{4} = \dfrac{2}{3} \cdot \alert{\dfrac{4}{1}} = \dfrac{8}{3}</me>
+The same applies to the product of an algebraic fraction and any nonfractional expression. For example,
+    <me>\alert{6x}\left(\dfrac{2}{x^2-x}\right) = \alert{\dfrac{6x}{1}} \cdot \dfrac{2}{x^2-x} = \dfrac{6\cancel{x}}{1} \cdot \dfrac{2}{\cancel{x}(x-1)} = \dfrac{12}{x-1}</me></p>
+</subsection>
+
+<subsection><title>Quotients of Fractions</title><idx>quotient of fractions</idx><idx><h>fraction</h><h>dividing</h></idx>
+
+<p>To divide one fraction by another, we multiply the first fraction by the reciprocal of the second fraction. For example,
+        <me>\dfrac{m}{2} \div \dfrac{2p}{3} = \dfrac{m}{2} \cdot \dfrac{3}{2p} = \dfrac{3m}{4p}</me>
+We express this rule in symbols as follows.</p>
+
+<assemblage><title>Quotient of Fractions</title><idx>quotient of fractions</idx><idx><h>fraction</h><h>dividing</h></idx>
+<p>If <m>b, c, d \ne 0</m>, then
+    <me>\blert{\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}}</me></p></assemblage>
+
+<p>Why does this rule for division work? Consider a simple example, <m>6 \div \dfrac{1}{3}</m>.  This quotient asks us "how many one-thirds are there in six?" To see the answer, we can draw six whole units as shown below, and split each into thirds.</p>
+
+<sidebyside width="65%"><!--<image source="photos/fig-8-2-2.png"><description>rectangles</description></image>-->
+    <image xml:id="fig-8-2-2"><description>rectangles</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \foreach \x in {1,2,3,...,6} {
+         \draw[black, very thick] ({1.2*\x-.5},0) rectangle ++(1,2.1);
+         \draw[black, thick] ({1.2*\x-.5},0.7)--++(1,0);
+         \draw[black, thick] ({1.2*\x-.5},1.4)--++(1,0);
+         \node[text=blue, scale=.8] at ($1.2*(\x,-.3)$) {\x};
+        }
+
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+
+<p>Because there are 3 thirds in each whole unit, we find <m>6 \times 3</m>, or 18 thirds in six units. The answer is 18. Now, 3 is the reciprocal of <m>\dfrac{1}{3}</m>, so by using the reciprocal rule, we also find
+    <me>6 \div \dfrac{1}{3} = 6 \times 3 = 18</me></p>
+
+<p>For a more interesting example, you might try using the figure above to show that 
+    <me>6 \div \dfrac{2}{3} = 6 \times \dfrac{3}{2} = 9</me>
+(Hint: How many groups of two thirds can you make from six whole units?)</p>
+
+<p>Thus, to divide two algebraic fractions, we take the reciprocal of the divisor (the second fraction) and then follow the rules for multiplying fractions.  <m>~\alert{\text{[TK]}}~~</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of dividing fractions, see <xref ref="tkDivFrac" text="custom"> Section 8.3.2 </xref> of the Toolkit.</p></aside>
+</subsection>
+
+<subsection><title>Using Factoring in Multiplication and Division</title>
 
 <p>It is usually easier to cancel any common factors before multiplying. But be careful: if the numerators or denominators have more than one term, we'll need to factor them before looking for common factors!</p>
 
@@ -66,6 +115,15 @@ or
 
 <warning><idx><h>canceling to reduce a fraction</h></idx>
 <p>In the previous Example, it would be incorrect to try to cancel any <em>terms</em> of numerators and denominators before factoring each binomial. For example, we cannot cancel <m>3x</m> into <m>6x</m>, because they are not factors of the fractions.</p></warning>
+
+<p> We summarize the procedure for multiplying algebraic fractions as follows.</p>
+
+ <assemblage><title>To multiply algebraic fractions:</title><idx><h>algebraic fraction</h><h>multiplying</h></idx><idx>product of fractions</idx><idx><h>fraction</h><h>multiplying</h></idx><idx><h>fraction</h><h>multiplying</h></idx><idx>muliplying algebraic fractions</idx>
+ <p><ol marker="1">
+    <li>Factor each numerator and denominator.</li>
+    <li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
+    <li>Multiply the remaining factors of the numerator and the remaining factors of the denominator.</li>
+    <li>Reduce the product if necessary.</li></ol></p></assemblage>
 
 <exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>
@@ -113,58 +171,9 @@ or
 <statement><p>Find the product   <m>\quad\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2}</m></p></statement>
     <answer><p><m>\dfrac{-y(2y-1)}{2(y+2)}</m></p></answer></exercise>
 
-<p>To multiply a fraction by a whole number, we write the whole number with 1 as denominator. 
-    <me>\dfrac{2}{3} \cdot \alert{4} = \dfrac{2}{3} \cdot \alert{\dfrac{4}{1}} = \dfrac{8}{3}</me>
-The same applies to the product of an algebraic fraction and any nonfractional expression.  For example,
-    <me>\alert{6x}\left(\dfrac{2}{x^2-x}\right) = \alert{\dfrac{6x}{1}} \cdot \dfrac{2}{x^2-x} = \dfrac{6\cancel{x}}{1} \cdot \dfrac{2}{\cancel{x}(x-1)} = \dfrac{12}{x-1}</me></p>
+<p>The procedure for dividing fractions still applies: take the reciprocal of the second fraction, then follow the rules for multiplication.</p>
 
- <p> We summarize the procedure for multiplying algebraic fractions as follows.</p>
-
- <assemblage><title>To multiply algebraic fractions:</title><idx><h>algebraic fraction</h><h>multiplying</h></idx><idx>product of fractions</idx><idx><h>fraction</h><h>multiplying</h></idx><idx><h>fraction</h><h>multiplying</h></idx><idx>muliplying algebraic fractions</idx>
- <p><ol marker="1">
-    <li>Factor each numerator and denominator.</li>
-    <li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
-    <li>Multiply the remaining factors of the numerator and the remaining factors of the denominator.</li>
-    <li>Reduce the product if necessary.</li></ol></p></assemblage>
-</subsection>
-
-<subsection><title>Quotients of Fractions</title><idx>quotient of fractions</idx><idx><h>fraction</h><h>dividing</h></idx>
-
-<p>To divide one fraction by another, we multiply the first fraction by the reciprocal of the second fraction.  For example,
-        <me>\dfrac{m}{2} \div \dfrac{2p}{3} = \dfrac{m}{2} \cdot \dfrac{3}{2p} = \dfrac{3m}{4p}</me>
-We express this rule in symbols as follows.</p>
-
-<assemblage><title>Quotient of Fractions</title><idx>quotient of fractions</idx><idx><h>fraction</h><h>dividing</h></idx>
-<p>If <m>b, c, d \ne 0</m>, then
-    <me>\blert{\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}}</me></p></assemblage>
-
-<p>Why does this rule for division work? Consider a simple example, <m>6 \div \dfrac{1}{3}</m>.  This quotient asks us "how many one-thirds are there in six?" To see the answer, we can draw six whole units as shown below, and split each into thirds.</p>
-
-<sidebyside width="65%"><!--<image source="photos/fig-8-2-2.png"><description>rectangles</description></image>-->
-    <image xml:id="fig-8-2-2"><description>rectangles</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} 
-        \foreach \x in {1,2,3,...,6} {
-         \draw[black, very thick] ({1.2*\x-.5},0) rectangle ++(1,2.1);
-         \draw[black, thick] ({1.2*\x-.5},0.7)--++(1,0);
-         \draw[black, thick] ({1.2*\x-.5},1.4)--++(1,0);
-         \node[text=blue, scale=.8] at ($1.2*(\x,-.3)$) {\x};
-        }
-
-        \end{tikzpicture}]]></latex-image></image></sidebyside>
-
-<p>Because there are 3 thirds in each whole unit, we find <m>6 \times 3</m>, or 18 thirds in six units. The answer is 18. Now, 3 is the reciprocal of <m>\dfrac{1}{3}</m>, so by using the reciprocal rule, we also find
-    <me>6 \div \dfrac{1}{3} = 6 \times 3 = 18</me></p>
-
-<p>For a more interesting example, you might try using the figure above to show that 
-    <me>6 \div \dfrac{2}{3} = 6 \times \dfrac{3}{2} = 9</me>
-(Hint:  How many groups of two thirds can you make from six whole units?)</p>
-
-<p>Thus, to divide two algebraic fractions, we take the reciprocal of the divisor (the second fraction) and then follow the rules for multiplying algebraic fractions.</p>
-
-<example><statement><p>Divide:  <m>~\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a}</m> <m>~\alert{\text{[TK]}}~~</m></p></statement>
+<example><statement><p>Divide:  <m>~\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a}</m></p></statement>
 
 <solution><p>First, we change the operation to multiplication by taking the reciprocal of the second fraction.
     <me>\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a} = \dfrac{a-2}{6a^2} \cdot \dfrac{4a^2-2a}{4-a^2}</me>
@@ -172,53 +181,6 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
     <md><mrow>\amp = \dfrac{a-2}{3 \cdot 2 \cdot a \cdot a} \cdot \dfrac{2a(2a-1)}{(2-a)(2+a)} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
         <mrow>\amp = \dfrac{-1 \cancel{(2-a)}}{3 \cdot \cancel{2} \cdot \cancel{a} \cdot a} \cdot \dfrac{\cancel{2}a(2a-1)}{\cancel{(2-a)}(2+a)} \amp \amp \blert{\text{Note}~a-2 = -1(2-a).}</mrow>
         <mrow> \amp = \dfrac{-1(2a-1)}{3a(2+a)} = \dfrac{1-2a}{3a(2+a)}</mrow></md></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of multiplying and dividing algebraic fractions, see <xref ref="tkMultDiv" text="custom"> Section 8.3.3 </xref> of the Toolkit.</p></aside>
-
-<note><p>When working with algebraic fractions, we often leave the denominators in factored form. This makes it easier to add and subtract fractions, and to check whether they can be reducecd.</p></note>
-
-<exercise component="webwork"><title>QuickCheck 1</title>
-<webwork><pg-code>
-        $factor = PopUp(["?", 
-            "add together the numerators",
-            "factor each numerator and denominator" ,
-            "find the reciprocal of each fraction",
-            "remove any exponents"],
-            2);
-        $cancel = PopUp(["?", 
-            "after",
-            "before"], 
-            2);
-        $reciprocal = PopUp(["?", 
-            "GCF", 
-            "LCD", 
-            "opposite",
-            "reciprocal"], 
-            4);
-            $one = Compute("1");
-    </pg-code>
-    <statement><p>Fill in the blanks.<ol marker="a">
-          <li>The first step in multiplying fractions is to <var name="$factor" form="popup"/>.</li>
-          <li>It is usually easier to cancel common factors <var name="$cancel" form="popup"/> multiplying.</li>
-          <li>To divide two fractions, we multiply the first fraction by the <var name="$reciprocal" form="popup"/> of the second fraction.</li>
-          <li>We can write a whole number as a fraction with denominator <var name="$one" width="2"/>.</li></ol></p>
-    </statement>
-    <solution><p><ol marker="a">
-        <li>factor</li>
-        <li>before</li>
-        <li>reciprocal</li>
-        <li>1</li></ol></p>
-    </solution>
-</webwork></exercise>
-
-<exercise component="main"><title>QuickCheck 1</title>
-<statement><p>Fill in the blanks tosomplete each statement.</p>
-    <p><ol marker="a">
-          <li><p>The first step in multiplying fractions is to <fillin characters="10"/>.</p></li>
-          <li><p>It is usually easier to cancel common factors <fillin characters="10"/> multiplying.</p></li>
-          <li><p>To divide two fractions, we multiply the first fraction by the <fillin characters="10"/> of the second fraction.</p></li>
-          <li><p>We can write a whole number as a fraction with denominator <fillin characters="10"/>.</p></li>
-      </ol></p></statement></exercise>
 
 <p>We summarize the procedure for dividing algebraic fractions as follows.</p>
 
@@ -270,9 +232,55 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 2</title>
-<statement><p>Divide: <m>~\dfrac{x^2-4y^2}{4y^2} \div \dfrac{x^2-3xy+2y^2}{3xy}</m></p></statement>
+<statement><p>Divide: <m>~\dfrac{x^2-4y^2}{4y^2} \div \dfrac{x^2-3xy+2y^2}{3xy}</m> <m>~\alert{\text{[TK]}}~~</m></p></statement>
     <answer><p><m>\dfrac{3x(x+2y)}{4y(x-y)}</m></p></answer></exercise>
 
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of multiplying and dividing algebraic fractions, see <xref ref="tkUseFact" text="custom"> Section 8.3.3 </xref> of the Toolkit.</p></aside>
+
+<note><p>When working with algebraic fractions, we often leave the denominators in factored form. This makes it easier to add and subtract fractions, and to check whether they can be reducecd.</p></note>
+
+<exercise component="webwork"><title>QuickCheck 1</title>
+<webwork><pg-code>
+        $factor = PopUp(["?", 
+            "add together the numerators",
+            "factor each numerator and denominator" ,
+            "find the reciprocal of each fraction",
+            "remove any exponents"],
+            2);
+        $cancel = PopUp(["?", 
+            "after",
+            "before"], 
+            2);
+        $reciprocal = PopUp(["?", 
+            "GCF", 
+            "LCD", 
+            "opposite",
+            "reciprocal"], 
+            4);
+            $one = Compute("1");
+    </pg-code>
+    <statement><p>Fill in the blanks.<ol marker="a">
+          <li>The first step in multiplying fractions is to <var name="$factor" form="popup"/>.</li>
+          <li>It is usually easier to cancel common factors <var name="$cancel" form="popup"/> multiplying.</li>
+          <li>To divide two fractions, we multiply the first fraction by the <var name="$reciprocal" form="popup"/> of the second fraction.</li>
+          <li>We can write a whole number as a fraction with denominator <var name="$one" width="2"/>.</li></ol></p>
+    </statement>
+    <solution><p><ol marker="a">
+        <li>factor</li>
+        <li>before</li>
+        <li>reciprocal</li>
+        <li>1</li></ol></p>
+    </solution>
+</webwork></exercise>
+
+<exercise component="main"><title>QuickCheck 1</title>
+<statement><p>Fill in the blanks to complete each statement.</p>
+    <p><ol marker="a">
+        <li><p>The first step in multiplying fractions is to <fillin characters="10"/>.</p></li>
+        <li><p>It is usually easier to cancel common factors <fillin characters="10"/> multiplying.</p></li>
+        <li><p>To divide two fractions, we multiply the first fraction by the <fillin characters="10"/> of the second fraction.</p></li>
+        <li><p>We can write a whole number as a fraction with denominator <fillin characters="10"/>.</p></li>
+      </ol></p></statement></exercise>
 </subsection>
 
 <subsection><title>Adding and Subtracting Like Fractions</title><idx><h>fraction</h><h>adding or subtracting</h></idx><idx><h>like fractions</h><h>adding or subtracting</h></idx><idx>sum or difference of fractions</idx>
@@ -644,8 +652,6 @@ We add or subtract algebraic fractions with the same three steps.</p>
         <mrow>\amp = \dfrac{x^2+6x-12}{x-2}</mrow></md></p>
 <p>Step 4: The numerator of this fraction cannot be factored, so the sum cannot be reduced.</p></solution></example>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more on finding the LCD, see <xref ref="tkLCD" text="custom"> Section 8.3.1 </xref> of the Toolkit.</p></aside>
-
 <exercise component="webwork"><title>Practice 6</title>
 <webwork><pg-code>
         $num = Compute("-x-10");
@@ -708,12 +714,14 @@ You can check that both 12 and 18 divide evenly into 36.</p>
     <li>Include each different factor in the LCD as many times as it occurs in any one of the given denominators.</li>
 </ol></p></assemblage>
 
-<example xml:id="Example-find-LCD"><statement><p>Find the LCD for the fractions <m>~\dfrac{2x}{x^2-1}~</m> and <m>~\dfrac{x+3}{x^2+x}~</m></p></statement>
+<example xml:id="Example-find-LCD"><statement><p>Find the LCD for the fractions <m>~\dfrac{2x}{x^2-1}~</m> and <m>~\dfrac{x+3}{x^2+x}~</m>  <m>~\alert{\text{[TK]}}~~</m></p></statement>
 
 <solution><p>We factor the denominators of each of the given fractions.
     <me>x^2-1 = (x-1)(x+1)~~~~\text{and}~~~~x^2+x = x(x+1)</me>
  The factor <m>(x-1)</m> occurs once in the first denominator, the factor <m>x</m> occurs once in the second denominator, and the factor <m>(x+1)</m> occurs once in each denominator.  Therefore we include in our LCD one copy of each of these factors.  The LCD is  <m>x(x-1)(x+1)</m>.  </p>
 </solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more on finding the LCD, see <xref ref="tkLCD" text="custom"> Section 8.3.4 </xref> of the Toolkit.</p></aside>
 
 <warning><p>In the previous Example, we do not include two factors of <m>(x+1)</m> in the LCD. We need only one factor of <m>(x+1)</m>, because <m>(x+1)</m> occurs only once in each denominator. You can check that each original denominator divides evenly into our LCD, <m>x(x-1)(x+1)</m>.  </p></warning> 
 
@@ -757,7 +765,7 @@ The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.
     <me>\dfrac{x^2+2x+8}{x(x-2)(x+2)} = \dfrac{(x+4)\cancel{(x-2)}}{x\cancel{(x-2)}(x+2)} = \dfrac{x+4}{x(x+2)}</me></p>
 </solution></example>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more help with building, see <xref ref="tkBuild" text="custom"> Section 8.3.2 </xref> of the Toolkit.</p></aside>
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help with building, see <xref ref="tkBuild" text="custom"> Section 8.3.5 </xref> of the Toolkit.</p></aside>
 
 <warning><p>Do not reduce the built-up fractions in Step 3 -- you will just get back to the original problem. When adding fractions, we have to make the fractions "harder" before we can combine them. Don't reduce until the last step of the problem.</p></warning>
 
