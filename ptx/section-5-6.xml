@@ -944,14 +944,28 @@
 </exercise>
 
 <exercise component="main" xml:id="exercise-GC-solve-abs-equation"><title>Practice 6</title>
-<statement><p><ol marker="a">
-          <li><p>Graph <m>y = |2x + 7|</m> for <m>-12 \le x \le 8</m>.</p></li>
-          <li><p>Use your graph to solve the equation <m>|2x + 7| = 11</m>.</p></li>
-      </ol></p></statement>
-    <solution><p><ol marker="a">
-          <li></li>
-          <li><p><m>x=-9</m> or <m>x=2</m></p></li></ol></p></solution></exercise>
-
+    <statement><p><ol marker="a">
+              <li><p>Graph <m>y = |2x + 7|</m> for <m>-12 \le x \le 8</m>.</p></li>
+              <li><p>Use your graph to solve the equation <m>|2x + 7| = 11</m>.</p></li>
+          </ol></p></statement>
+        <solution><p><ol marker="a">
+              <li><image width="50%" margins="0% 50%"  xml:id="fig-solve-abs-equation"><description>cubic and exponential functions</description><latex-image>
+                <![CDATA[
+                \begin{tikzpicture} [scale=.3] 
+                \draw[cyan] (-12,0) grid (8,20);
+                \draw[black,thick,->,>=stealth'] (-12,0)--(8.9,0) node[above]{$x$};
+                \draw[black,thick,->,>=stealth'] (0,0)--(0,21) node[right]{$y$};
+                \foreach \x in {-10,-5,5} {
+                    \draw[black,thick] (\x,.15)--++(0,-.3) node[below]{$\x$};
+                    }
+                \foreach \y in {10,20} {
+                    \draw[black,thick] (.15,\y)--++(-.3,0) node[left, fill=white, inner sep=1, xshift=-2]{$\y$};
+                }
+                \draw[samples=129,domain={-12:6.5},smooth,variable=\x,red,thick, <->,>=stealth'] plot (\x, {abs(2*\x+7)});
+                \node[text=red,above] at (6.5,20) {$y=|2x+7|$};
+                \end{tikzpicture}]]>
+                </latex-image></image></li>
+              <li><p><m>x=-9</m> or <m>x=2</m></p></li></ol></p></solution></exercise>
 <p>To solve an absolute value equation algebraically, we use the definition of absolute value.</p>
 
 <example xml:id="example-abs-algebraic"><statement><p>Solve the equation <m>\abs{3x - 6} = 9</m> algebraically.</p></statement>

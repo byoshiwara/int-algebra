@@ -385,7 +385,7 @@ In general, natural logs obey the same conversion equations that work for logs t
 
 <p>We use the natural logarithm to solve exponential equations with base <m>e</m>. The techniques we've learned for solving other exponential equations also apply to equations with base <m>e</m>.  <m>~\alert{\text{[TK]}}</m> <idx>exponential equation</idx><idx><h>exponential equation</h><h>solving with logarithms</h></idx></p>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review solving exponential equations, see <xref ref="tkSolvExpEqn" text="custom"> Section 7.4.3 </xref> of the textbook.</p></aside>
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review solving exponential equations, see <xref ref="tkSolveExpEqn" text="custom"> Section 7.4.3 </xref> of the textbook.</p></aside>
 
 <example xml:id="example-solve-ln-equation"><statement><p>Solve each equation for <m>x</m>.<ol marker="a" cols="2">
 			<li><m>e^x = 0.24</m></li>
