@@ -55,7 +55,7 @@ If you look at figure (b), you can see that you are taking home 8 pieces of cake
 or
     <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{15a}{24a^2} = \dfrac{\cancel{3} \cdot 5 \cdot\cancel{a}}{\cancel{3} \cdot 8 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me> <m>~\alert{\text{[TK]}}~~</m></p>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of multiplying fractions, see <xref ref="tkMultFrac" text="custom"> Section 8.3.1 </xref> of the Toolkit.</p></aside>
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of multiplying fractions, see <xref ref="tkMultAlgFrac" text="custom"> Section 8.3.1 </xref> of the Toolkit.</p></aside>
 
 <p>To multiply a fraction by a whole number, we write the whole number with 1 as denominator. 
     <me>\dfrac{2}{3} \cdot \alert{4} = \dfrac{2}{3} \cdot \alert{\dfrac{4}{1}} = \dfrac{8}{3}</me>
@@ -99,7 +99,7 @@ We express this rule in symbols as follows.</p>
 
 <p>Thus, to divide two algebraic fractions, we take the reciprocal of the divisor (the second fraction) and then follow the rules for multiplying fractions.  <m>~\alert{\text{[TK]}}~~</m></p>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of dividing fractions, see <xref ref="tkDivFrac" text="custom"> Section 8.3.2 </xref> of the Toolkit.</p></aside>
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of dividing fractions, see <xref ref="tkDivAlgFrac" text="custom"> Section 8.3.2 </xref> of the Toolkit.</p></aside>
 </subsection>
 
 <subsection><title>Using Factoring in Multiplication and Division</title>
