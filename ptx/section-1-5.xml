@@ -138,7 +138,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <p>Using the formula <m>m = \dfrac{\Delta y}{\Delta x}</m>, it is fairly easy to calculate the slope of a line from its graph if there are two obvious points to use. However, if the coordinates are not easy, or if we don't have a graph, we may need another method.</p>
 
-<p>You know that to calculate the <term>net change</term><idx>net change</idx><idx><h>Delta (<m>\Delta</m>)</h><see>net change</see></idx> between two points on a number line, we can subtract their coordinates. That is,
+<p>You know that to calculate the <term>net change</term><idx><h>net change</h></idx> between two points on a number line, we can subtract their coordinates. That is,
     <me>\blert{\text{net change} = \text{final value} - \text{starting value}}</me></p>
 
 <p>For example, if you walk from <m>3^{\text{rd}}</m> street to <m>8^{\text{th}}</m> street, your distance, <m>s</m>, from the center of town has increased by 5 blocks, or
