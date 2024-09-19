@@ -1,0 +1,111 @@
+INFO    : PreTeXt-CLI version: 2.6.1
+
+INFO    : PreTeXt project found in `C:\Users\byosh\int-algebra`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/byosh/int-algebra/publication/publication.ptx'}
+INFO    : discovering source file's directory name: C:\Users\byosh\int-algebra\ptx
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../ext
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\ext
+INFO    : XSL conversion of C:\Users\byosh\int-algebra\ptx\int-alg.xml by C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-pg.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR: the @xml:id value "tkMultFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "tkAddFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add fractions" (title)
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add or subtract fractions" (title)
+INFO    : successful application of C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-pg.xsl
+INFO    : validating, cleaning server URL: https://webwork-ptx.aimath.org
+INFO    : converting latex-image pictures from C:\Users\byosh\int-algebra\ptx\int-alg.xml to svg graphics for placement in C:\Users\byosh\int-algebra\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\byosh\int-algebra\ptx\int-alg.xml
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/byosh/int-algebra/publication/publication.ptx', 'subtree': 'fig-logscale-integer-labels-new'}
+INFO    : discovering source file's directory name: C:\Users\byosh\int-algebra\ptx
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../ext
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\ext
+INFO    : XSL conversion of C:\Users\byosh\int-algebra\ptx\int-alg.xml by C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-latex-image.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR: the @xml:id value "tkMultFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "tkAddFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add fractions" (title)
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add or subtract fractions" (title)
+INFO    : successful application of C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-latex-image.xsl
+INFO    : converting fig-logscale-integer-labels-new.tex to fig-logscale-integer-labels-new.pdf
+INFO    : cropping fig-logscale-integer-labels-new.pdf to cropped-fig-logscale-integer-labels-new.pdf
+INFO    : renaming cropped-fig-logscale-integer-labels-new.pdf to fig-logscale-integer-labels-new.pdf
+INFO    : converting fig-logscale-integer-labels-new.pdf to fig-logscale-integer-labels-new.svg
+INFO    : converting latex-image pictures from C:\Users\byosh\int-algebra\ptx\int-alg.xml to svg graphics for placement in C:\Users\byosh\int-algebra\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\byosh\int-algebra\ptx\int-alg.xml
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/byosh/int-algebra/publication/publication.ptx', 'subtree': 'fig-logscale-integer-labels3'}
+INFO    : discovering source file's directory name: C:\Users\byosh\int-algebra\ptx
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../ext
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\ext
+INFO    : XSL conversion of C:\Users\byosh\int-algebra\ptx\int-alg.xml by C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-latex-image.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR: the @xml:id value "tkMultFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "tkAddFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add fractions" (title)
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add or subtract fractions" (title)
+INFO    : successful application of C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-latex-image.xsl
+INFO    : converting fig-logscale-integer-labels3.tex to fig-logscale-integer-labels3.pdf
+INFO    : cropping fig-logscale-integer-labels3.pdf to cropped-fig-logscale-integer-labels3.pdf
+INFO    : renaming cropped-fig-logscale-integer-labels3.pdf to fig-logscale-integer-labels3.pdf
+INFO    : converting fig-logscale-integer-labels3.pdf to fig-logscale-integer-labels3.svg
+INFO    : converting latex-image pictures from C:\Users\byosh\int-algebra\ptx\int-alg.xml to svg graphics for placement in C:\Users\byosh\int-algebra\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\byosh\int-algebra\ptx\int-alg.xml
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/byosh/int-algebra/publication/publication.ptx', 'subtree': 'fig-horizontal-scaling-exponential'}
+INFO    : discovering source file's directory name: C:\Users\byosh\int-algebra\ptx
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../ext
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\ext
+INFO    : XSL conversion of C:\Users\byosh\int-algebra\ptx\int-alg.xml by C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-latex-image.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR: the @xml:id value "tkMultFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "tkAddFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add fractions" (title)
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add or subtract fractions" (title)
+INFO    : successful application of C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-latex-image.xsl
+INFO    : converting fig-horizontal-scaling-exponential.tex to fig-horizontal-scaling-exponential.pdf
+INFO    : cropping fig-horizontal-scaling-exponential.pdf to cropped-fig-horizontal-scaling-exponential.pdf
+INFO    : renaming cropped-fig-horizontal-scaling-exponential.pdf to fig-horizontal-scaling-exponential.pdf
+INFO    : converting fig-horizontal-scaling-exponential.pdf to fig-horizontal-scaling-exponential.svg
+INFO    : converting latex-image pictures from C:\Users\byosh\int-algebra\ptx\int-alg.xml to svg graphics for placement in C:\Users\byosh\int-algebra\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\byosh\int-algebra\ptx\int-alg.xml
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/byosh/int-algebra/publication/publication.ptx', 'subtree': 'fig-natural-log-and-exponential'}
+INFO    : discovering source file's directory name: C:\Users\byosh\int-algebra\ptx
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../ext
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\ext
+INFO    : XSL conversion of C:\Users\byosh\int-algebra\ptx\int-alg.xml by C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-latex-image.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR: the @xml:id value "tkMultFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+INFO    : *              located within: "tkMultFrac" (xml:id), "Multiply fractions" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "tkAddFrac" should be unique, but is authored 2 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add fractions" (title)
+INFO    : *              located within: "tkAddFrac" (xml:id), "Add or subtract fractions" (title)

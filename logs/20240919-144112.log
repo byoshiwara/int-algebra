@@ -1,0 +1,22 @@
+INFO    : PreTeXt-CLI version: 2.6.1
+
+INFO    : PreTeXt project found in `C:\Users\byosh\int-algebra`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : Preparing to build into C:\Users\byosh\int-algebra\output\web.
+INFO    : discovering source file's directory name: C:\Users\byosh\int-algebra\ptx
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\byosh\int-algebra\ptx\../ext
+INFO    : input directory expanded to absolute path: C:\Users\byosh\int-algebra\ext
+INFO    : Runestone Services (via PreTeXt repository): version 7.3.3
+INFO    : Runestone Services (using newer, via online CDN query): version 7.4.0
+INFO    : Using existing Runestone Services located in C:/Users/byosh/int-algebra/output/web\_static. Delete Runestone files there to force a fresh download.
+INFO    : converting C:\Users\byosh\int-algebra\ptx\int-alg.xml to HTML in C:\Users\byosh\AppData\Local\Temp\ptx-_dfrp4m9
+INFO    : XSL conversion of C:\Users\byosh\int-algebra\ptx\int-alg.xml by C:\Users\byosh\.ptx\2.6.1\core\xsl\pretext-html.xsl
+INFO    : successful application of C:\Users\byosh\.ptx\2.6.1\core\xsl\pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 

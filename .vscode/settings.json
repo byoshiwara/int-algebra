@@ -1,0 +1,8 @@
+{
+    "xml.fileAssociations": [
+        {
+            "pattern": "**/source/**.ptx",
+            "systemId": "C:\\Users\\byosh\\.ptx\\2.6.1\\core\\schema\\pretext.rng"
+        }
+    ]
+}
