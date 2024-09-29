@@ -13,15 +13,14 @@
    <chapter xml:id="testchap"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Testing</title>
     
-    
-    <xi:include href="./tk-8-3.xml" /> 
-    <xi:include href="./section-8-3.xml" />
+        
+        
     
     
       
 
 </chapter>
-
+<xi:include href="./chap10.xml" />
 
 <backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Appendices</title>
