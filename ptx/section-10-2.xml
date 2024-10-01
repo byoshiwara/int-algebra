@@ -77,7 +77,7 @@
 
 <p>A scale labeled with powers of 10 is called a <term>logarithmic scale</term><idx>logarithmic scale</idx>, or log scale.</p>
 
-<p>To help you get used to this new scale, you can check that the mass of the horse, at 300 kg, is plotted between <m>10^2 = 100</m> and <m>10^3 = 1000</m> on the log scale. Similarly, the mass of the cat, at 4 kg, is plotted between <m>100 = 1</m> and <m>101 = 10</m> on the log scale.</p>
+<p>To help you get used to this new scale, you can check that the mass of the horse, at 300 kg, is plotted between <m>10^2 = 100</m> and <m>10^3 = 1000</m> on the log scale. Similarly, the mass of the cat, at 4 kg, is plotted between <m>10^0 = 1</m> and <m>10^1 = 10</m> on the log scale.</p>
 
 <example xml:id="example-plot-logscale"><statement><p>Plot the values on a log scale.</p>
 		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">

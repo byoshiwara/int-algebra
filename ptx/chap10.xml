@@ -12,10 +12,10 @@
 <p>An interesting example of a logarithmic model arises in psychology. In 1885, the German philosopher Hermann Ebbinghaus conducted one of the first experiments on memory, using himself as a subject. He memorized lists of nonsense syllables and then tested his memory of the syllables at intervals ranging from 20 minutes to 31 days. After one hour, he remembered less than 50% of the items, but he found that the rate of forgetting leveled off over time. He modeled his data by the function
     <me>y = \frac{184}{2.88 \log {(t)} + 1.84}</me></p>
 
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<sidebyside widths="35% 55%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell>Time elapsed</cell>
-            <cell>Percent remembered</cell></row>
+            <cell><line>Percent</line> <line>remembered</line></cell></row>
         <row>
             <cell><m>20</m> minutes</cell>
             <cell><m>58.2\%</m></cell></row>
@@ -40,10 +40,35 @@
     </tabular>
 <figure>
     <caption>The <q>forgetting curve</q></caption>
-    <image source="images/fig-Ebbinghaus"><description>forgettng curve</description></image>
+            <!--<image source="images/fig-Ebbinghaus"><description>forgettng curve</description></image>-->
+            <image xml:id="fig-Ebbinghaus"><description>forgetting curve</description><latex-image>
+                <![CDATA[
+                \begin{tikzpicture} [scale=.45]
+                \draw[cyan] (0,0) grid (10,6);
+                \draw[black,thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$t$};
+                \draw[black,thick, ->, >=stealth'] (0,0)--(0,6.6) node[above]{$y$};
+                \foreach \x [evaluate=\x as \xi using int(100*\x)] in {2,4,...,10} {
+                \draw[black] (\x,.15) --++(0,-.3)  node[below]   {$\xi$};
+                }
+                \foreach \x [evaluate=\x as \xi using int(10*\x)] in {2,4} {
+                \draw[black] (.16,\x) --++(-.3,0)  node[left]   {$\xi$};
+                }
+                \draw[samples=65,domain={.03:10},smooth,variable=\x,red, very thick, ->, >=stealth'] plot (\x,{(18.4/(2.88*log10(100*\x)+1.84) });
+                \filldraw[blue] (1/300,5.82) circle (.1);
+                \filldraw[blue] (1/100,4.42) circle (.1);
+                \filldraw[blue] (9/100,3.58) circle (.1);
+                \filldraw[blue] (.24,3.37) circle (.1);
+                \filldraw[blue] (.48,2.78) circle (.1);
+                \filldraw[blue] (1.44,2.54) circle (.1);
+                \filldraw[blue] (7.44,2.11) circle (.1);
+                \node at (6,-1.5) {Hours};
+                \node[rotate=90] at (-1.8,3) {Percent};
+                \end{tikzpicture}]]>
+                </latex-image></image>            
 </figure></sidebyside>
 
-<p>Ebbinghaus's model uses a logarithmic function. The graph of the data, shown above with <m>t</m> in minutes and <m>y</m> in percents, is called the "forgetting curve." Ebbinghaus's work, including his application of the scientific method to his research, provides part of the foundation of modern psychology.</p>
+<p>Ebbinghaus's model uses a logarithmic function. The graph of the data, shown above with <m>t</m> in minutes and <m>y</m> in percents, is called the "forgetting curve."
+ Ebbinghaus's work, including his application of the scientific method to his research, provides part of the foundation of modern psychology.</p>
 
 </introduction>
 

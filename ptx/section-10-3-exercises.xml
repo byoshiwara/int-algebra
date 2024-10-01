@@ -602,7 +602,7 @@ where <m>I_0</m> is the X-ray count at the source and <m>I (t)</m> is the X-ray 
 
 <exercise number="52"><statement><p>The growth of plant populations can be measured by the amount of pollen they produce. The pollen from a population of pine trees that lived more than 9500 years ago in Norfolk, England, was deposited in the layers of sediment in a lake basin and dated with radiocarbon techniques. </p>
 <p>The figure shows the rate of pollen accumulation plotted against time, and the fitted curve <m>P(t) = 650e^{0.00932t}</m>. (Source: Burton, 1998)</p>
-    <image width="60%" source="images/fig-5-3-52"><description>growth</description></image>
+    <image width="75%" source="images/fig-5-3-52"><description>growth</description></image>
 <p><ol>
     <li><p>What was the annual rate of growth in pollen accumulation?</p></li>
     <li><p>Find the doubling time for the pollen accumulation, that is, the time it took for the accumulation rate to double.</p></li>
