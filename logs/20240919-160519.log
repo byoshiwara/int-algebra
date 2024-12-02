@@ -1,8 +1,0 @@
-INFO    : PreTeXt-CLI version: 2.6.1
-
-INFO    : PreTeXt project found in `C:\Users\byosh\int-algebra`.
-INFO    : Staging deployment according to strategy default_target
-INFO    : Since no target was supplied, we will use "web".
-
-INFO    : Staging latest build located in `C:\Users\byosh\int-algebra\output\web` at `C:\Users\byosh\int-algebra\output\stage`.
-INFO    : 
