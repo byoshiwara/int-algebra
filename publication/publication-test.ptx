@@ -20,6 +20,7 @@
   <common>
     <tableofcontents level="2"/>
         <exercise-divisional answer="no" solution="no"/>
+    <fillin textstyle="underline" mathstyle="box"/>
   </common>
   <numbering>
     <!-- the divisions element describes the numbering of divisions.  -->
@@ -52,10 +53,9 @@
   <html>
     <!-- Whether to knowl a particular elements is set here    -->
     <!-- Lots of elements have this possibility; see the guide -->
-    <css style="oscarlevin"/>
-    <css style="default" colors="default"/>
-    <knowl remark="no" example="no" proof="no" exercise-inline="yes"/>
-    <!-- Specify the style of the html by giving names to      -->
+    <css style="oscarlevin" colors="default"/>
+    <knowl remark="no" example="no" example-solution="no" proof="no" exercise-inline="no"/>
+   <!-- Specify the style of the html by giving names to      -->
     <!-- override defaults.  Ex: to use "style_oscarlevin.css" -->
     <!-- put <css style="oscarlevin"/>                         -->
     <!-- @colors now implemented                               -->

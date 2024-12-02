@@ -929,7 +929,7 @@ whose graphs are shown below.</p>
     </ol></p></statement></exercise>
 </subsection>
 
-<subsection><title>Percent Increase</title><idx>percent increase</idx>
+<subsection xml:id="PercentIncrease"><title>Percent Increase</title><idx>percent increase</idx>
 
 <p>Exponential growth is often described as growth by a certain percent increase. Suppose the town of Lakeview had 4000 residents in the year 2000, and grew at a rate of 5% per year. This means that each year we add 5% of last year's population to find the current population, <m>P(t)</m>. Thus
     <md><mrow>\text{In 2000,  } P(0) \amp = 4000</mrow>
@@ -1240,12 +1240,41 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
             <li>About 26 months</li>
     </ol></p></answer></exercise>
 
-<p>Compound interest is another example of exponential growth. Suppose you deposit a sum of money into an account that pays 5% interest compounded annually. Each year, 5% of your current balance is added to your account as interest, so your balance grows by a factor of 1.05. In general, we have the following formula.</p>
+<p>Compound interest is another example of exponential growth. Suppose you deposit a sum of money, <m>P</m>, into an account that pays 5% interest compounded annually. "Compounded" means that each year your interest, 5% of your current balance, is added to your account, so your balance, <m>B</m>, grows by a factor of 1.05.</p> 
+
+<p>You can see this more clearly with a little calculation. At interest rate <m>r</m>, after 1 year your balance is
+    <me>B = \text{Principal} + \text{Interest} =  P + Pr = P(1+r)</me>
+So the balance grew by a factor of <m>(1+r)</m>. After the second year, the new balance of <m>B = P(1+r)</m> grows by another factor of <m>(1+r)</m>, giving
+    <me>B = P(1+r)(1+r) = P(1+r)^2</me>
+In general, we have the following formula.</p>
 
 <assemblage><title>Compound Interest</title><idx>compound interest</idx><idx><h>balance</h><seealso>compound interest</seealso></idx><idx><h>compound interest</h><h>balance</h></idx><idx><h>compound interest</h><h>principal</h></idx>
 <p>If a <term>principal</term><idx><h>principal</h></idx> of <m>P</m> dollars is invested in an account that pays an interest rate <m>r</m> compounded annually, the <term>balance</term><idx><h>balance</h></idx> <m>B</m> after <m>t</m> years is given by
     <me>\blert{B=P(1+r)^t}</me></p></assemblage>
 
+<sidebyside widths="50% 50%" valigns="middle middle"><p>As an example, suppose you put $100 in an account that pays 5% interest compounded annually. Using the formula above, we can make a table showing the balance in your account over the next few years.</p>
+
+<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>P(1+r)^t</m></cell>
+                    <cell><m>B(t)</m></cell></row>
+                <row> 
+                    <cell><m>0</m></cell>
+                    <cell><m>100</m></cell>
+                    <cell><m>100</m></cell></row>
+                <row> 
+                    <cell><m>1</m></cell>
+                    <cell><m>100(1.05)</m></cell>
+                    <cell><m>105</m></cell></row>
+                <row> 
+                    <cell><m>2</m></cell>
+                    <cell><m>100(1.05)^2</m></cell>
+                    <cell><m>1110.25</m></cell></row>
+                <row> 
+                    <cell><m>3</m></cell>
+                    <cell><m>100(1.05)^3</m></cell>
+                    <cell><m>115.76</m></cell></row></tabular></sidebyside>
 </subsection>
 
 <subsection><title>Percent Decrease</title><idx>percent decrease</idx>

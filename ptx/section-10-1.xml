@@ -562,50 +562,68 @@ is used by X-ray technicians to calculate the doubling time of a malignant tumor
 <example xml:id="example-life-expectancy"><statement><p>Life expectancy at birth is the average number of years a newborn child is expected to live. In 1900, the average life expectancy at birth in the U.S. was 47.3 years, and in 1910 it had risen to 50.0 years. During rest of the twentieth century, life expectancy was modeled by the formula
     <me>L(x)=19.13 + 28.34 \log {(x)}</me>
 where <m>x</m> is the number of years after 1900. <ol marker="a">
-    <li>Graph the life expectancy function for the years 1910 to 2010.</li>
+    <li>Graph the life expectancy function for the years 1910 to 2000.</li>
     <li>The life expectancy in 1950 was 68.2 years. What does the function <m>L(x)</m> predict for life expectancy in 1950?</li>
     <li>According to the model, how much did life expectancy increase between 1920 and 1930? How much did it increase between 1990 and 2000?</li>
 </ol></p></statement>
 
 <solution><p><ol marker="a">
-    <li><p>We can make a table of values for <m>L(x)</m> and plot points to obtain the graph below.</p>
+    <li><p>We can make a table of values for <m>L(x)</m> and plot points to obtain the graph below, which also shows the actual data points for life expectancy for the decades from 1910 to 2000.</p>
 
-    <sidebyside widths="55% 40%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
-                        <cell><m>0</m></cell>
+                        <cell><m>10</m></cell>
                         <cell><m>20</m></cell>
+                        <cell><m>30</m></cell>
                         <cell><m>40</m></cell>
+                        <cell><m>50</m></cell>
                         <cell><m>60</m></cell>
+                        <cell><m>70</m></cell>
                         <cell><m>80</m></cell>
+                        <cell><m>90</m></cell>
                         <cell><m>100</m></cell></row>
                     <row> 
                         <cell><m>L(x)</m></cell>
-                        <cell><m>47.3</m></cell>
-                        <cell><m>56.2</m></cell>
-                        <cell><m>64.9</m></cell>
-                        <cell><m>70.0</m></cell>
-                        <cell><m>73.6</m></cell>
-                        <cell><m>76.4</m></cell></row>
+                        <cell><m>47.5</m></cell>
+                        <cell><m>56.1</m></cell>
+                        <cell><m>61.1</m></cell>
+                        <cell><m>64.6</m></cell>
+                        <cell><m>67.4</m></cell>
+                        <cell><m>69.6</m></cell>
+                        <cell><m>71.5</m></cell>
+                        <cell><m>73.1</m></cell>
+                        <cell><m>74.6</m></cell>
+                        <cell><m>75.9</m></cell></row>
                     </tabular>
 
-        <image xml:id="fig-life-expectancy"><description>average life expectancy</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.45]
-        \draw[cyan] (0,0) grid (11,10);
-        \draw[black,thick, ->, >=stealth'] (0,0)--(11.6,0) node[right]{$x$};
-        \draw[black,thick, ->, >=stealth'] (0,0)--(0,10.6) node[above]{$y$};
+        <image width="60%" xml:id="fig-life-expectancy"><description>average life expectancy</description><latex-image>
+        <![CDATA[
+        \begin{tikzpicture} [xscale=.45, yscale=.9]
+        \draw[cyan] (0,4) grid[xstep=1,ystep=1/2] (10,8);
+        \draw[black,thick, ->, >=stealth'] (0,4)--(10.6,4) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,4)--(0,8.6) node[above]{$y$};
         \foreach \x [evaluate=\x as \xi using int(10*\x)] in {5,10} {
-         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        \draw[black] (\x,4.15) --++(0,-.3)  node[below]   {$\xi$};
         }
-        \draw[samples=65,domain={.03:11},smooth,variable=\x,red, very thick, ->, >=stealth'] plot (\x,{(18.53+28.92 * ln(10*\x)/ln(10))/10 });
-        \node[font=\bf] at (6,-1.4) {Years after 1900};
-        \node[rotate=90,font=\bf] at (-1.7,5) {Average Life Expectancy};
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in {4,6,8} {
+        \draw[black] (.15,\x) --++(-.3,0)  node[left]   {$\xi$};
+        }
+        \draw[samples=65,domain={.55:10},smooth,variable=\x,red, very thick, ->, >=stealth'] plot (\x,{(19.13+28.38 * ln(10*\x)/ln(10))/10 });
+        \filldraw[blue] (1,5) ellipse (.2 and .1);
+        \filldraw[blue] (2,5.41) ellipse (.2 and .1);
+        \filldraw[blue] (3,5.97) ellipse (.2 and .1);
+        \filldraw[blue] (4,6.29) ellipse (.2 and .1);
+        \filldraw[blue] (5,6.82) ellipse (.2 and .1);
+        \filldraw[blue] (6,6.97) ellipse (.2 and .1);
+        \filldraw[blue] (7,7.08) ellipse (.2 and .1);
+        \filldraw[blue] (8,7.37) ellipse (.2 and .1);
+        \filldraw[blue] (9,7.54) ellipse (.2 and .1);
+        \filldraw[blue] (10,7.68) ellipse (.2 and .1);
+        \node at (6,3) {Years after 1900};
+        \node[rotate=90] at (-1.8,6) {Average Life Expectancy};
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside></li>
+        </latex-image></image></li>
     <li><p>We substitute <m>x=50</m> into the function to find
         <me>L(50) = 19.13 + 28.34 \log {(50)} \approx 67.4</me>
         The function predicts a life expectancy of 67.4 years in 1950.</p></li>

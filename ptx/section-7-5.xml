@@ -454,6 +454,39 @@ Once again, you can check that this formula is equivalent to the decay function 
         <li><p>The half-life of a substance is half the time it takes for all of the substance to decay.</p></li>
         <li><p>We can sketch the graph of an exponential decay function if we know its half-life and initial value.</p></li>
     </ol></p></statement></exercise>
+</subsection>
+
+<subsection xml:id="CompAnn"><title>Compound Interest</title>
+
+<p>In <xref ref="PercentIncrease" text="custom"> Section 7.1.5 </xref> we considered a formula for interest compounded annually. Many accounts compound interest more frequently than once a year. If the interest is compounded <m>n</m> times per year, then in <m>t</m> years there will be <m>nt</m> compounding periods, and in each period the account earns interest at a rate of <m>\dfrac{r}{n}</m>. The amount accumulated is given by a generalization of our earlier formula.</p>
+
+<assemblage><title>Compound Interest</title>
+<p>The <term>amount <m>A(t)</m></term> accumulated (principal plus interest) in an account earning interest compounded <m>n</m> times annually is 
+    <me>A(t) = P\left(1 + \dfrac{r}{n}\right)^{nt}</me>
+where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>t</m> is the time period, in years.</p></assemblage>
+
+<example><statement><p>Nigel deposited $1000 in an account that pays 4% interest. Calculate the amount in his account after 5 years if the interest is compounded 
+<ol marker="a." cols="2">
+    <li><p>quarterly</p></li>
+    <li><p>monthly</p></li>
+</ol></p></statement>
+
+<solution><p><ol marker="a.">
+    <li><p><q>Quarterly</q> means 4 times a year, so we use the compound interest formula with <m>~P=1000, ~r=0.04, ~n=4, ~\text{and}~ t=5</m>.
+        <md><mrow>A(5) \amp = 1000 \left(1 + \dfrac{0.04}{4}\right)^{4(5)}</mrow>
+            <mrow> \amp = 1000(1.01)^{20} = 1220.19</mrow></md>
+    If interest is compounded quarterly, the balance in the account after 5 years is $1220.19.</p></li>
+    <li><p>There are 12 months in a year, so we use the compound interest formula with <m>~P=1000, ~r=0.04, ~n=12, ~\text{and}~ t=5</m>.
+        <md><mrow>A(5) \amp = 1000 \left(1 + \dfrac{0.04}{2}\right)^{12(5)}</mrow>
+            <mrow> \amp = 1000(1.0\overline{3})^{60} = 1221.00</mrow></md>
+    If interest is compounded quarterly, the balance in the account after 5 years is $1221.</p></li>
+</ol></p></solution></example>
+
+<p>In Example 7.1.18 above, you can see that the larger the value of <m>n</m>, the greater the value of <m>A</m>. More frequent compounding periods result in a higher account balance.</p>
+
+<exercise component="main"><title>Practice 7</title>
+<statement><p>Calculate the amount in Nigel's account after 5 years if the interest is compounded weekly. (See Example 7.1.18. There are 52 weeks in a year.)</p></statement>
+    <answer><p>$1221.31</p></answer></exercise>
 
 </subsection>
 
