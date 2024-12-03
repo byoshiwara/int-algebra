@@ -5,7 +5,7 @@
 <subsubsection xml:id="tkVocab"><title>New vocabulary</title>
                   
 <p>Write a definition or description for each term. You can find answers in Section 5.1 of your textbook.
-    <ol marker="1">
+    <ol marker="1.">
         <li>Function</li>
         <li>Input variable</li>
         <li>Output variable</li>
@@ -16,7 +16,7 @@
 <exercise><statement><p>Identify each term above, or give an example, for this situation: At time <m>t</m> seconds,
 the height of a basketball above the ground, <m>h</m>, in feet, is given by 
     <me>~~h=-16t^2+20t+5</me>.</p></statement>
-<answer><p><ol marker="1">
+<answer><p><ol marker="1.">
         <li><m>h</m> is a function of <m>t</m>.</li>
         <li>The input variable is <m>t</m>.</li>
         <li>The output variable is <m>h</m>.</li>

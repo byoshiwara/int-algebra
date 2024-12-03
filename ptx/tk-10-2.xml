@@ -6,7 +6,7 @@
 
 <p>Because <m>\log {(x)}</m> grows very slowly, we can use logs to compare quantities that vary greatly in magnitude.</p>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
     <li><p> Complete the table.  Round the values to one decimal place.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -29,7 +29,7 @@
     <li>Each time we multiply <m>x</m> by 5, how much does the logarithm increase? What is <m>\log {(5)}</m>, to one decimal place?</li>
 </ol></p></statement>
  
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -51,7 +51,7 @@
         <me>\log {(5x)} = \log {(x)} + \log {(5)} = \log {(x)} + 0.7</me></li>
 </ol></p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
     <li><p> Complete the table.  Round the values to one decimal place.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -73,7 +73,7 @@
         <image width="75%" source="images/fig-5-4-2.png"><description>log scale</description></image></li>
     <li>Each time we multiply <m>x</m> by 2, how much does the logarithm increase? What is <m>\log {(2)}</m>, to one decimal place?</li>
 </ol></p> </statement>
-<answer><p><ol markerl="a">
+<answer><p><ol markerl="a.">
         <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -94,7 +94,7 @@
         <li><m>0.3;~0.3</m></li>
 </ol></p></answer></exercise>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
     <li><p> Complete the table.  Round the values to one decimal place.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -118,7 +118,7 @@
         <image width="75%" source="images/fig-5-4-2.png"><description>log scale</description></image></li>
     <li>Each time we multiply <m>x</m> by 4, how much does the logarithm increase? What is <m>\log {(4)}</m>, to one decimal place?</li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -152,7 +152,7 @@
 <example><statement><p>When we say that "<m>A</m> is 3 more than <m>B</m>," we mean that <m>A=B+3</m>.</p>
 </statement></example>
 
-<p>Use these equations for the following Checkpoints.<ol marker="a" cols="3">
+<p>Use these equations for the following Checkpoints.<ol marker="a." cols="3">
     <li><m>x=5H</m></li>
     <li><m>x=\dfrac{5}{H}</m></li>
     <li><m>x=5+H</m></li>

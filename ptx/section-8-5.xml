@@ -193,13 +193,13 @@ The two towns are 80 kilometers apart.</p></solution></example>
             3
         );        
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>To clear fractions from an equation, we multiply each term by the <var name="$lcd" form="popup"/> of all the fractions.</p></li>
         <li><p>True or False:  When clearing fraction from an equation, we do not multiply terms that are not fractions. <var name="$False" form="popup"/></p></li>
         <li><p>A proportion is a statement that two <var name="$ratios" form="popup"/> are equal. </p></li>
         <li><p>Cross-multiplying works only on  <var name="$prop" form="popup"/>.</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>LCD</li>
     <li>False</li>
     <li>ratios</li>
@@ -207,7 +207,7 @@ The two towns are 80 kilometers apart.</p></solution></example>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 1</title>
-<statement><p>Fill in the blanks to complete each statement.<ol marker="a">
+<statement><p>Fill in the blanks to complete each statement.<ol marker="a.">
         <li><p>To clear fractions from an equation, we multiply each term by the <fillin characters="10"/> of all the fractions.</p></li>
         <li><p>True or False:  When clearing fraction from an equation, we do not multiply terms that are not fractions.</p></li>
         <li><p>A proportion is a statement that two <fillin characters="10"/> are equal. </p></li>
@@ -284,13 +284,13 @@ you will find that the graphs never intersect, which means that there is no solu
             1
         );        
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li>An algebraic fraction is undefined when <var name="$undef" form="popup"/>.</li>
         <li>An apparent solution that does not satisfy the original equation is called  <var name="$extra" form="popup"/> solution.</li>
         <li>We may introduce extraneous solutions if we multiply both sides of an equation by <var name="$zero" form="popup"/>.</li>
         <li>We must multiply each <var name="$term" form="popup"/> of the equation by the LCD.</li>
     </ol></p></statement>
-    <solution><p><ol marker="a">    
+    <solution><p><ol marker="a.">    
         <li>the denominator equals zero</li>
         <li>an extraneous</li>
         <li>an expression containing the variable</li>
@@ -299,7 +299,7 @@ you will find that the graphs never intersect, which means that there is no solu
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-    <statement><p>Fill in the blanks to complete each statement.<ol marker="a">
+    <statement><p>Fill in the blanks to complete each statement.<ol marker="a.">
         <li><p>An algebraic fraction is undefined when <fillin characters="10"/>.</p></li>
         <li><p>An apparent solution that does not satisfy the original equation is called <fillin characters="10"/> solution.</p></li>
         <li><p>We may introduce extraneous solutions if we multiply both sides of an equation by <fillin characters="10"/>.</p></li>
@@ -355,14 +355,14 @@ and obtain the close-up view shown in figure (b). In this window, we can see tha
     </pg-code>
 <statement><p>The manager of a new health club kept track of the number of active members over the club's first few months of operation.  The number, <m>N</m>  of active members, in hundreds, <m>t</m> months after the club opened is given by the equation
     <md><mrow>N=\dfrac{10t}{4+t^2}</mrow></md>
-    <ol marker="a">
+    <ol marker="a.">
     <li><p>Graph the equation in the window
         <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 9.4</mrow>
             <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 3</mrow></md></p></li>
     <li><p>Use the graph to find out in which months the club had 200 active members.</p>
         <p>Months: <var name="$answer" width="5"/> Enter month numbers separated by a comma.</p></li>
     <li>Verify your answer algebraically by solving an equation.</li></ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>A graph is below.</li>
     <li>1, 4</li>
 </ol></p></solution></webwork>
@@ -374,14 +374,14 @@ and obtain the close-up view shown in figure (b). In this window, we can see tha
 <exercise component="main"><title>Practice 5</title>
 <statement><p>The manager of a new health club kept track of the number of active members over the club's first few months of operation.  The number, <m>N</m>  of active members, in hundreds, <m>t</m> months after the club opened is given by the equation
     <md><mrow>N=\dfrac{10t}{4+t^2}</mrow></md></p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Graph the equation in the window
             <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 9.4</mrow>
                 <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 3</mrow></md></p></li>
         <li><p>Use the graph to find out in which months the club had 200 active members.</p></li>
         <li><p>Verify your answer algebraically by solving an equation.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><image width="40%" source="images/fig-GC-healt-club-membership"><description>graph</description></image></li>
     <li>In months 1 and 4</li>
 </ol></p></answer></exercise>
@@ -446,7 +446,7 @@ to obtain the graph shown below.</p>
         $t = Compute("9/2");
         $ans = Compute("9");
     </pg-code>
-    <statement><p>A cruise boat travels 18 miles downstream and back in <m>4\dfrac{1}{2}</m> hours. If the speed of the current is 3 miles per hour, what is the speed of the boat in still water? <ol marker="a">
+    <statement><p>A cruise boat travels 18 miles downstream and back in <m>4\dfrac{1}{2}</m> hours. If the speed of the current is 3 miles per hour, what is the speed of the boat in still water? <ol marker="a.">
         <li><p>Let <m>x</m> represent the speed of the boat in still water, and fill in the table.</p>
                     <tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
                         <row>
@@ -471,7 +471,7 @@ to obtain the graph shown below.</p>
         <li><p>Solve your equation, and answer the question in the problem.</p>
             <p><m>x=</m><var name="$ans" width="3"/>: The speed of the boat in still water is <var name="$ans" width="2"/> mph.</p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li><tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
             <row>
                 <cell></cell>
@@ -495,7 +495,7 @@ to obtain the graph shown below.</p>
 
 <exercise component="main"><title>Practice 6</title>
 <statement><p>A cruise boat travels 18 miles downstream and back in <m>4\dfrac{1}{2}</m> hours. If the speed of the current is 3 miles per hour, what is the speed of the boat in still water?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Let <m>x</m> represent the speed of the boat in still water, and fill in the table.</p>
                     <tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
                         <row>
@@ -518,7 +518,7 @@ to obtain the graph shown below.</p>
             <p><m>\text{Downstream time + Upstream time = Total trip time}</m></p></li>
         <li><p>Solve your equation, and answer the question in the problem.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><tabular top="major" left="minor" right="minor" bottom="minor" halign="center">
             <row>
                 <cell></cell>
@@ -589,12 +589,12 @@ We cannot combine the two terms containing <m>v</m> because they are not like te
             2
         );        
     </pg-code>
-    <statement><p>True or False.<ol marker="a">
+    <statement><p>True or False.<ol marker="a.">
         <li><p>To solve an equation graphically, we graph two functions, <m>y=</m> (each side of the equation.) <var name="$True" form="popup"/></p></li>
         <li><p>The solutions are the <m>y</m>-coordinates of the intersection points of the two graphs.  <var name="$False" form="popup"/></p></li>
         <li><p>To solve a formula that is linear in the desired variable, we must get all terms including that variable on one side of the equation. <var name="$True" form="popup"/></p></li>
         <li><p>If two or more terms on one side of the equation include the desired variable, we factor it out. <var name="$True" form="popup"/></p></li></ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>True</li>
     <li>False</li>
     <li>True</li>
@@ -602,7 +602,7 @@ We cannot combine the two terms containing <m>v</m> because they are not like te
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
-<statement><p>Decide whether each statement is true or false.<ol marker="a">
+<statement><p>Decide whether each statement is true or false.<ol marker="a.">
         <li><p>To solve an equation graphically, we graph two functions, <m>y=</m> (each side of the equation.)</p></li>
         <li><p>The solutions are the <m>y</m>-coordinates of the intersection points of the two graphs.</p></li>
         <li><p>To solve a formula that is linear in the desired variable, we must get all terms including that variable on one side of the equation.</p></li>

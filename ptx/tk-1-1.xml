@@ -129,11 +129,11 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 </solution></example>
 
 <example><statement><p>Byron borrowed $6000 from his uncle to help pay for his college education.  Now that he has graduated and has a job, he is paying back the loan at $100 per month.
-<ol marker="a">    
+<ol marker="a.">    
     <li>Write an equation showing the amount of money, <m>y</m>, that Byron still owes his uncle after <m>x</m> months.</li>
     <li>Graph your equation.</li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><m>y=6000-100x</m></li>
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
     <col /><col/><col halign="left" />            
@@ -303,7 +303,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 </exercise>
 
 <exercise><statement><p>Stuart invested $800 in a computer and now makes $5 a page typing research papers. Let <m>x</m> represent the number of pages Stuart has typed, and let <m>y</m> represent his profit.  
-<ol marker="a">
+<ol marker="a.">
     <li>Write an equation for <m>y</m> in terms of <m>x</m>.</li>
     <li>Complete the table and graph your equation.</li></ol></p>
 
@@ -342,7 +342,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
         </latex-image></image>
     </sidebyside></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>y=5x-800</m></li>
     <li><sidebyside widths="40% 45%" margins="0% 10%" valigns="middle middle">
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -388,7 +388,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 </exercise>
 
 <exercise><statement><p>Ludmilla earns a commission of 5% of her real estate sales.  Let <m>x</m> represent her sales in thousands of dollars, and let <m>y</m> represent the commission she earns from her sales, in thousands of dollars.
-<ol marker="a">
+<ol marker="a.">
     <li>Write an equation for <m>y</m> in terms of <m>x</m>.</li>
     <li>Complete the table and graph the equation.</li>
 </ol></p>
@@ -426,7 +426,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
         </latex-image></image>
     </sidebyside></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>y=0.05x</m></li>
     <li><sidebyside widths="40% 45%" margins="0% 10%" valigns="middle middle">
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">

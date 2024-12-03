@@ -30,13 +30,13 @@ so the new price is $153.</p></solution></example>
 <introduction><p>Recall that evaluating powers comes before multiplication in the order of operations.</p></introduction>
 
 <example><statement><p>Simplify.
-<ol marker="a" cols="3">
+<ol marker="a." cols="3">
     <li><m>-4-2^3</m></li>
     <li><m>-4(-2)^3</m></li>
     <li><m>(-4-2)^3</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li>Compute <m>2^3</m> first, then subtract the result from <m>-4</m>:
         <me>-4-2^3=-4-8=-12</me></li>
     <li>Compute <m>(-2)^3</m> first, then multiply the result by <m>-4</m>:
@@ -46,12 +46,12 @@ so the new price is $153.</p></solution></example>
 </ol></p></solution></example>
 
 <example><statement><p> Evaluate for<m>x=6</m>. Round your answers to hundredths.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>12(1.05)^x</m></li>
     <li><m>12(1+x/100)^5</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>Follow the order of operations. Compute the power first:
         <me>12(1.05)^{\alert{6}} = 12(1.3400956...) = 16.08</me></p></li>
     <li><p>Follow the order of operations. Compute the power first:
@@ -59,21 +59,21 @@ so the new price is $153.</p></solution></example>
 </ol></p></solution></example>
 
 <exercise><statement><p>Simplify. Round your answers to the nearest whole number.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>450(1-0.12)^4</m></li>
     <li><m>180-80(1+0.25)^3</m></li>
 </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><m>270</m></li>
         <li><m>24</m></li>
 </ol></p></answer></exercise>
 
 <exercise><statement><p>Evaluate for <m>x=-3,~y=-2</m>.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>-2x^2+y^3</m></li>
     <li><m>4(x-y)(x+2y)</m></li>
 </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><m>-26</m></li>
         <li><m>28</m></li>
 </ol></p></answer></exercise>
@@ -84,12 +84,12 @@ so the new price is $153.</p></solution></example>
 <p>Be careful to avoid tempting but false operations with exponents.</p>
 
 <example><statement><p>Which equation is a correct application of the laws of exponents?
-<ol marker="a">
+<ol marker="a.">
     <li><m>20(1+r)^4 = 20+20r^4~~~~~</m> or <m>~~~~~(ab^t)^3 = a^3b^{3t}</m></li>
     <li><m>2^{t/5} = (2^{1/5})^t~~~~~</m> or <m>~~~~~6.8(10)^t = 68^t</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The first statement is not correct. There is no law that says <m>(a+b)^n</m> is equivalent to <m>a^n+b^n</m>, so <m>(1+r)^4</m> is not equivalent to <m>1^4+r^4</m> or <m>1+r^4</m>.</p>
     <p> However, it is true that <m>(ab)^n = a^nb^n</m>, so in particular the second statement is true: 
         <me>~~(ab^t)^3 = a^3(b^t)^3 = a^3b^{3t}</me></p></li> 
@@ -116,7 +116,7 @@ so the new price is $153.</p></solution></example>
 <!--<subsubsection xml:id="tkFracPowr"><title>3. Raise fractions to powers</title>
 
 <example><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
@@ -147,7 +147,7 @@ so the new price is $153.</p></solution></example>
                     </tabular></li>
 </ol></p></statement>
  
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
      <li><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
@@ -183,7 +183,7 @@ so the new price is $153.</p></solution></example>
     </ol></p></solution></example>
 
 <example><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
@@ -214,7 +214,7 @@ so the new price is $153.</p></solution></example>
                     </tabular></li>
 </ol></p></statement>
 
-<solution><p> <ol marker="a">
+<solution><p> <ol marker="a.">
         <li><sidebyside width="45%" margins="0% 5%">
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -249,7 +249,7 @@ so the new price is $153.</p></solution></example>
 </ol></p></solution></example>
 
 <exercise><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
@@ -278,7 +278,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
                     </tabular></li></ol></p></statement> 
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
@@ -311,7 +311,7 @@ so the new price is $153.</p></solution></example>
                 <p>Increase</p></li>
 </ol></p></answer></exercise> 
 
-<exercise><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?<ol marker="a" cols="2">
+<exercise><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?<ol marker="a." cols="2">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
@@ -341,7 +341,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m></m></cell></row>
                     </tabular></li>
 </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>

@@ -24,12 +24,12 @@ There are several other kinds of roots, one of which is called the <term>cube ro
 Simplifying radicals occupies the same position in the order of operations as computing powers:  after parentheses, and before products and quotients.</p>
 
 <example><statement><p>Simplify each expression. <m>~\alert{\text{[TK]}}</m>
-<ol marker="a" cols = "2">
+<ol marker="a." cols = "2">
     <li><m>3\sqrt[3]{-8}</m></li>
     <li> <m>2-\sqrt[3]{-125}</m></li></ol></p>
 </statement>
 
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
     <li><m>3\sqrt[3]{-8}=3(-2)=-6</m></li>
     <li><m>2-\sqrt[3]{-125}=2-(-5)=7</m></li>
 </ol></p></solution></example>
@@ -43,22 +43,22 @@ and <xref ref="tkOrderOp" text="custom"> Section 5.3.3 </xref> of the Toolkit.</
         $a = Compute("-7");
         $b = Compute("9/2");
     </pg-code>
-    <statement><p>Simplify each expression.<ol marker="a" cols = "2">
+    <statement><p>Simplify each expression.<ol marker="a." cols = "2">
         <li><p><m>5-3\sqrt[3]{64}=</m><var name="$a" width="4"/></p></li>
         <li><p><m>\dfrac{6-\sqrt[3]{-27}}{2}=</m><var name="$b" width="4"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols = "2">
+    <solution><p><ol marker="a." cols = "2">
         <li><m>-7</m></li>
         <li> <m>\dfrac{9}{2}</m></li></ol></p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title> Practice 1</title>
 <statement><p>Simplify each expression.</p>
-    <p><ol marker="a" cols = "2">
+    <p><ol marker="a." cols = "2">
         <li><p><m>5-3\sqrt[3]{64}</m></p></li>
         <li><p><m>\dfrac{6-\sqrt[3]{-27}}{2}</m></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols = "2">
+    <solution><p><ol marker="a." cols = "2">
         <li><m>-7</m></li>
         <li> <m>\dfrac{9}{2}</m></li>
     </ol></p></solution></exercise>
@@ -75,13 +75,13 @@ and <xref ref="tkOrderOp" text="custom"> Section 5.3.3 </xref> of the Toolkit.</
           2, 
         );
     </pg-code>
-    <statement><p>True or False.<ol marker="a">
+    <statement><p>True or False.<ol marker="a.">
         <li><p>A negative number has a negative cube root. <var name="$True" form="popup"/></p></li>
         <li><p>A negative number has a negative square root. <var name="$False" form="popup"/></p></li>
         <li><p>A positive number has a negative square root. <var name="$True" form="popup"/></p></li>
         <li><p>A positive number has a negative cube root. <var name="$False" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li>True</li>
             <li>False</li>
             <li>True</li>
@@ -91,7 +91,7 @@ and <xref ref="tkOrderOp" text="custom"> Section 5.3.3 </xref> of the Toolkit.</
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Decide whether each statement is true or false.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>A negative number has a negative cube root.</p></li>
         <li><p>A negative number has a negative square root.</p></li>
         <li><p>A positive number has a negative square root</p></li>
@@ -143,7 +143,7 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>If <m> \left| x \right| =-x </m>, what can you say about <m> x </m>?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p><m>x</m> must be zero.</p></li>
         <li><p><m>x</m> must be negative.</p></li>
         <li><p><m>x</m> must be zero or negative.</p></li>
@@ -153,11 +153,11 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
 <p>Absolute value bars act like grouping devices in the order of operations:  you should complete any operations that appear inside absolute value bars before you compute the absolute value.</p>
 
 <example xml:id="example-abs"><statement><p>Simplify each expression. <m>~\alert{\text{[TK]}}</m></p>
-    <p><ol marker="a" cols ="2">
+    <p><ol marker="a." cols ="2">
         <li><p><m>\abs{3 - 8}</m></p></li>
         <li><p><m>\abs{3} - \abs{8}</m></p></li>
     </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
         <li><p>We simplify the expression inside the absolute value bars first.
             <me>\abs{3 - 8} = \abs{-5} = 5</me></p></li>
         <li><p>We simplify each absolute value; then subtract.
@@ -173,11 +173,11 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
             $ans2 = -7 - 3*abs(2 - 9);
         </pg-code>
     <statement><p>Simplify each expression.</p>
-            <p><ol marker="a" cols = "2">
+            <p><ol marker="a." cols = "2">
                 <li><p><m>12 - 3 \left|-6\right|=</m><var name="$ans1" width="2"/> </p></li>
                 <li><p><m>-7 - 3\left|2 - 9\right|=</m><var name="$ans2" width="2"/></p></li>
             </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>-6</m></p></li>
                 <li><p><m>-28</m></p></li>
             </ol></p></solution>
@@ -185,11 +185,11 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Simplify each expression.</p>
-    <p><ol marker="a" cols = "2">
+    <p><ol marker="a." cols = "2">
         <li><p><m>12 - 3 \left|-6\right|=</m></p></li>
         <li><p><m>-7 - 3\left|2 - 9\right|=</m></p></li>
     </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
         <li><p><m>-6</m></p></li>
         <li><p><m>-28</m></p></li>
 </ol></p></solution></exercise>

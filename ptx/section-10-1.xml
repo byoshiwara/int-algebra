@@ -10,12 +10,12 @@
 We can say that a logarithm is actually an exponent. Asking for the log base 5 of 25 is asking "what power of 5, or what exponent on base 5 will give me 25?"</p>
 
 <example><statement><p>Write each logarithmic equation as an equivalent exponential equation.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
     <li><m>\log_3 {(81)} = 4</m></li>
     <li><m>\log_b {(32)} = 5</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The logarithm asks "To what power must I raise 3 to get 81?" The base is 3 and the logarithm (or exponent) is 4, so <m>3^4 = 81</m>.</p></li>
     <li><p>The logarithm asks "To what power must I raise <m>b</m> to get 32?" The base is <m>b</m> and the logarithm (or exponent) is 5, so <m>b^5 = 32</m>.</p></li>
 </ol></p></solution></example>
@@ -40,7 +40,7 @@ We can say that a logarithm is actually an exponent. Asking for the log base 5 o
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Which of these could you use to estimate the value of <m>\log_5 {(378)}</m> ?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Find multiples of 5.</p></li>
     <li><p>Find the fifth root of 378.</p></li>
     <li><p>Find powers of 5.</p></li>
@@ -146,7 +146,7 @@ Now consider the functions that describe those operations: The graphs of <m>f(x)
         $b = Compute("213");
         $c = Formula("b");
     </pg-code>
-    <statement><p>Simplify each expression without a calculator.<ol marker="a">
+    <statement><p>Simplify each expression without a calculator.<ol marker="a.">
         <li><p>
             <m>\sqrt[4]{17^4}=</m><var name="$a" width="3"/>
         </p></li>
@@ -157,7 +157,7 @@ Now consider the functions that describe those operations: The graphs of <m>f(x)
             <m>(\sqrt[5]{b})^5=</m><var name="$c" width="3"/>
         </p></li></ol>
     </p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><m>17</m></li>
         <li><m>213</m></li>
         <li><m>b</m></li></ol>
@@ -166,7 +166,7 @@ Now consider the functions that describe those operations: The graphs of <m>f(x)
 
 <exercise component="main"><title>Quickcheck 2</title>
 <statement><p>Simplify each expression without a calculator.</p>
-    <p><ol marker="a" cols="3">
+    <p><ol marker="a." cols="3">
         <li><p><m>\sqrt[4]{17^4}</m></p></li>
         <li><p><m>(\sqrt{213})^2</m></p></li>
         <li><p><m>(\sqrt[5]{b})^5</m></p></li>
@@ -196,24 +196,24 @@ We can also apply the two functions in the opposite order, so that
 	<me>\blert{b^{\log_b{(x)}} = x}</me></p>
 
 <example><statement><p>For this Example, recall that <m>\log {(x)}</m>, the "common logarithm," means <m>\log_{10} {(x)}</m>.  Simplify each expression.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>\log {(10^{3.4})}</m></li>
     <li><m>10^{\log{(0.6)}}</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>Because <m>\log {(x)}</m> and <m>10^x</m> are inverse functions, <m>\log {(10^{3.4})} = 3.4</m>. You can verify the result on your calculator by first computing <m>10^{3.4}</m> and then taking the log of the result.</p></li>
     <li><p>Again, because <m>\log {(x)}</m> and <m>10^x</m> are inverse functions, <m>10^{\log{(0.6)}} = 0.6</m>. You can verify the result on your calculator by first computing <m>\log {(0.6)}</m> and then computing <m>10</m> to the result.</p></li>
 </ol></p></solution></example>
 
 <example><statement><p><m>f(x)=\log_6 {(x)}~</m> and <m>g(x)</m> is its inverse function.  <m>~\alert{\text{[TK]}}</m>
-<ol marker="a">
+<ol marker="a.">
     <li>What is <m>~g</m>?</li>
     <li>Evaluate and simplify <m>~f\left(g(4)\right)</m></li>
     <li>Evaluate and simplify <m>~g\left(f(5)\right)</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The inverse of a logartihmic function is the exponential function with the same base, so <m>~g(x) = 6^x</m>.</p></li>
     <li><p>First compute <m>g(4) = 6^4</m>. Then <m>~f(g(4)) = f(6^4) = \log_6 {(6^4)} = 4</m>.</p></li>
     <li><p>First compute <m>f(5) = \log_6 {(5)}</m>. Then <m>~g(\log_6 {(5)}) = 6^{\log_6 {(5)}} = 5</m></p></li>
@@ -231,13 +231,13 @@ We can also apply the two functions in the opposite order, so that
         $c = Formula("6");
         $d = Formula("1000");
     </pg-code>
-    <statement><p>Simplify each expression. <ol marker="a">
+    <statement><p>Simplify each expression. <ol marker="a.">
         <li><p><m>\log_4 {4^6}=</m><var name="$a" width="3"/></p></li>
         <li><p><m>4^{\log_4 {64}}=</m><var name="$b" width="3"/></p></li>
         <li><p><m>\log_{10} {10^6}=</m><var name="$c" width="3"/></p></li>
         <li><p><m>10^{\log_{10} {1000}}=</m><var name="$d" width="3"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><m>6</m></li>
         <li><m>64</m></li>
         <li><m>6</m></li>
@@ -246,13 +246,13 @@ We can also apply the two functions in the opposite order, so that
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p>Simplify each expression. <ol marker="a" cols="2">
+<statement><p>Simplify each expression. <ol marker="a." cols="2">
         <li><p><m>\log_4 {(4^6)}</m></p></li>
         <li><p><m>4^{\log_4 {(64)}}</m></p></li>
         <li><p><m>\log_{10} {(10^6)}</m></p></li>
         <li><p><m>10^{\log_{10} {(1000)}}</m></p></li>
     </ol></p></statement>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
         <li><m>6</m></li>
         <li><m>64</m></li>
         <li><m>6</m></li>
@@ -448,7 +448,7 @@ We can also apply the two functions in the opposite order, so that
 <p>In addition, the logarithmic function has the following properties.</p>
 
 <assemblage><title>Properties of Log Functions</title>
-<p> For any base <m>b \gt 0, b \ne 1</m>: <ol marker="1">
+<p> For any base <m>b \gt 0, b \ne 1</m>: <ol marker="1.">
 	<li>The logarithmic function <m>y = \log_b {(x)}</m> is defined for positive <m>x</m> only.</li>
 	<li>The <m>x</m>-intercept <idx><em>x</em>-intercept</idx>of its graph is <m>(1,0)</m>.</li>
 	<li>The graph has a vertical asymptote at <m>x=0</m>.</li>
@@ -478,7 +478,7 @@ We can also apply the two functions in the opposite order, so that
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>What is the <m>y</m>-intercept of the graph of <m>y=\log_5 {(x)}</m> ?</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m>(0,1)</m></p></li>
         <li><p><m>(1,0)</m></p></li>
         <li><p><m>(0,5)</m></p></li>
@@ -490,12 +490,12 @@ We can also apply the two functions in the opposite order, so that
 
 <p>We can use the <kbd>LOG</kbd> key on a calculator to evaluate the function <m>f(x) = \log_{10}{(x)}</m>.</p>
 
-<example xml:id="example-GC-evaluate-logs"><statement><p>Let <m>f(x) = \log_{10}{(x)}</m>. Evaluate the following expressions.<ol marker="a" cols="3">
+<example xml:id="example-GC-evaluate-logs"><statement><p>Let <m>f(x) = \log_{10}{(x)}</m>. Evaluate the following expressions.<ol marker="a." cols="3">
 		<li><m>f(35)</m></li>
 		<li><m>f(-8)</m></li>
 		<li><m>2 f(16) + 1</m></li>
 	</ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><m>f (35) = \log_{10}{(35)}\approx 1.544</m></li>
 	<li><m>f(-8)</m>, or <m>\log_{10}{(-8)}</m>, is undefined.</li>
 	<li><m>2 f(16) + 1 = 2(\log_{10}{(16)}) + 1 \approx 2(1.204) + 1 = 3.408</m></li>
@@ -561,13 +561,13 @@ is used by X-ray technicians to calculate the doubling time of a malignant tumor
 
 <example xml:id="example-life-expectancy"><statement><p>Life expectancy at birth is the average number of years a newborn child is expected to live. In 1900, the average life expectancy at birth in the U.S. was 47.3 years, and in 1910 it had risen to 50.0 years. During rest of the twentieth century, life expectancy was modeled by the formula
     <me>L(x)=19.13 + 28.34 \log {(x)}</me>
-where <m>x</m> is the number of years after 1900. <ol marker="a">
+where <m>x</m> is the number of years after 1900. <ol marker="a.">
     <li>Graph the life expectancy function for the years 1910 to 2000.</li>
     <li>The life expectancy in 1950 was 68.2 years. What does the function <m>L(x)</m> predict for life expectancy in 1950?</li>
     <li>According to the model, how much did life expectancy increase between 1920 and 1930? How much did it increase between 1990 and 2000?</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We can make a table of values for <m>L(x)</m> and plot points to obtain the graph below, which also shows the actual data points for life expectancy for the decades from 1910 to 2000.</p>
 
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -657,7 +657,7 @@ where <m>x</m> is the number of years after 1900. <ol marker="a">
 <statement><p>The CDC (Centers for Disease Control and Prevention) provides Growth Charts for the average height and weight of children from age 2 to 20. The average height of girl children is given in centimeters by
             <md><mrow>H(t) = 49.29+91.3 \log {t}</mrow></md>
 where <m>t</m> is age in years.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Graph the height function for <m>2 \le t \le 20</m>.</li>
         <li><p>Use the height function to complete the table.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -679,7 +679,7 @@ where <m>t</m> is age in years.</p>
         <li><p>How much is a girl's height expected to increase between the ages of 5 and 10? <var name="$c1" width="3"/> cm. </p>
                 <p>Between the ages of 15 and 20?  <var name="$c2" width="3"/> cm. </p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>A graph is below.</li>
         <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -726,7 +726,7 @@ where <m>t</m> is age in years.</p>
 <statement><p>The CDC (Centers for Disease Control and Prevention) provides Growth Charts for the average height and weight of children from age 2 to 20. The average height of girl children is given in centimeters by
             <me>H(t) = 49.29+91.3 \log {(t)}</me>
 where <m>t</m> is age in years.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Graph the height function for <m>2 \le t \le 20</m>.</li>
         <li><p>Use the height function to complete the table.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -748,7 +748,7 @@ where <m>t</m> is age in years.</p>
         <li><p>How much is a girl's height expected to increase between the ages of 5 and 10?</p>
             <p>Between the ages of 15 and 20?</p></li>
         </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><image width="55%" xml:id="child-height"><description>curve</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -807,7 +807,7 @@ where <m>t</m> is age in years.</p>
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>Which function grows most slowly for large values of <m>x</m> ?</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m>f(x)=2x</m></p></li>
         <li><p><m>f(x)=\log_2{(x)}</m></p></li>
         <li><p><m>f(x)=\sqrt{x}</m></p></li>
@@ -894,7 +894,7 @@ so <m>x=4</m> is a solution.</p>
 
 <exercise component="main"> <title>Practice 7</title>
 <statement><p>Solve <m>~\log_{10}{(x)} + \log_{10}{(2)}= 3</m></p>
-        <p>Hint: <ol marker="1">
+        <p>Hint: <ol marker="1.">
             <li><p>Rewrite the left side as a single logarithm.</p></li>
             <li><p>Rewrite the equation in exponential form.</p></li>
             <li><p>Solve for <m>x</m>.</p></li>   
@@ -934,14 +934,14 @@ so <m>x=4</m> is a solution.</p>
             3
         );
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>We cannot take a logarithm of <var name="$a" form="popup"/>.</p></li>
         <li><p>After solving a logarithmic equation, we must check for  <var name="$b" form="popup"/>.</p></li>
         <li><p>If an equation contains more than one log, we must first combine them into  <var name="$c" form="popup"/>.
         </p></li>
         <li><p>If there is only one log involved, we write the equation in  <var name="$d" form="popup"/> form.</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>a negative number or zero</li>
     <li>extraneous solutions</li>
     <li>a single logarithm</li>
@@ -949,7 +949,7 @@ so <m>x=4</m> is a solution.</p>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 5</title>
-<statement><p>Fill in the blanks to complete each statement.<ol marker="a">
+<statement><p>Fill in the blanks to complete each statement.<ol marker="a.">
         <li><p>We cannot take a logarithm of <fillin characters="10"/>.</p></li>
         <li><p>After solving a logarithmic equation, we must check for <fillin characters="10"/>.</p></li>
         <li><p>If an equation contains more than one log, we must first combine them into <fillin characters="10"/>.</p></li>

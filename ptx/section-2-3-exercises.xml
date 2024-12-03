@@ -91,17 +91,17 @@
 
 <subexercises><title>Applications</title>
 
-<exercise number="11"><statement><p>Benham will service <m>2.5x</m> copy machines per week if he can charge <m>x</m> dollars per machine, and the public will pay for <m>350-4.5x</m> jobs at <m>x</m> dollars per machine.<ol marker="a">
+<exercise number="11"><statement><p>Benham will service <m>2.5x</m> copy machines per week if he can charge <m>x</m> dollars per machine, and the public will pay for <m>350-4.5x</m> jobs at <m>x</m> dollars per machine.<ol marker="a.">
     <li>Write the supply and demand equations for servicing copy machines.</li>
     <li>Find the equilibrium price and the number of copy machines Benham will service at that price.</li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>S=2.5x;~~D=350-4.5x</m></li>
     <li>50 dollars per machine; 125 machines</li></ol></p></answer></exercise>
 
 <exercise number="12"><statement><p>Delbert answered 13 true-false and 9 fill-in questions correctly on his last test and got a score of 71. If he had answered 9 true-false and 13 fill-ins correctly, he would have made an 83. How many points was each type of problem worth?</p></statement></exercise>
 
-<exercise number="13"><statement><p>Paul needs 40 pounds of 48% silver alloy to finish a collection of jewelry. How many pounds of 45% silver alloy should he melt with 60% silver alloy to obtain the alloy he needs?<ol marker="a">
+<exercise number="13"><statement><p>Paul needs 40 pounds of 48% silver alloy to finish a collection of jewelry. How many pounds of 45% silver alloy should he melt with 60% silver alloy to obtain the alloy he needs?<ol marker="a.">
     <li><p>Choose variables for the unknown quantities, and fill in the table.</p>
         <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
                     <row>
@@ -117,7 +117,7 @@
     <li><p>Write a second equation about the amount of silver in the alloys.</p></li>
     <li><p>Solve the system and answer the question in the problem.</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
                 <row>
                     <cell></cell><cell>Pounds</cell><cell>% silver</cell><cell>Amount of silver</cell></row>
@@ -133,7 +133,7 @@
     <li><p>32 lb</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p>Amal plans to make 10 liters of a 17% acid solution by mixing a 20% acid solution with a 15% acid solution. How much of each should she use?<ol marker="a">
+<exercise number="14"><statement><p>Amal plans to make 10 liters of a 17% acid solution by mixing a 20% acid solution with a 15% acid solution. How much of each should she use?<ol marker="a.">
     <li><p>Choose variables for the unknown quantities, and fill in the table.</p>
             <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
                     <row>
@@ -150,7 +150,7 @@
     <li><p>Solve the system and answer the question in the problem.</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="15"><statement><p>Rani kayaks downstream for 45 minutes and travels a distance of 6000 meters. On the return journey upstream, she covers only 4800 meters in 45 minutes. How fast is the current in the river, and how fast would Rani kayak in still water? (Give your answers in meters per minute.)     <ol marker="a">
+<exercise number="15"><statement><p>Rani kayaks downstream for 45 minutes and travels a distance of 6000 meters. On the return journey upstream, she covers only 4800 meters in 45 minutes. How fast is the current in the river, and how fast would Rani kayak in still water? (Give your answers in meters per minute.)     <ol marker="a.">
     <li><p>Choose variables for the unknown quantities, and fill in the table.  <m>~\alert{\text{[TK]}}~~</m></p>
             <tabular top="minor" left="minor" right="minor" bottom="minor"><col /><col halign="center"/><col halign="center"/><col halign="center"/>
                             <row><cell></cell>
@@ -172,7 +172,7 @@
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review the distance formula, see <xref ref="tkDistance" text="custom"> Section 2.3.3 </xref> of the Toolkit.</p></aside>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><tabular>
                     <row><cell>Rani's speed in still water:</cell>
                         <cell><m>x</m></cell></row>
@@ -199,7 +199,7 @@
     </ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>Because of prevailing winds, a flight from Detroit to Denver, a distance of 1120 miles, took 4 hours on Econoflite, and the return trip took 3.5 hours. What were the speed of the airplane and the speed of the wind?
-    <ol marker="a">
+    <ol marker="a.">
     <li><p>Choose variables for the unknown quantities, and fill in the table.</p>
             <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
                     <row>
@@ -217,7 +217,7 @@
 <exercise number="17"><statement><p>Geologists can calculate the distance from their seismograph to the epicenter of an earthquake by timing the arrival of the P and S waves. They know that, for this earthquake, P waves travel at about 5.4 miles per second and S waves travel at 3.0 miles per second. If the P waves arrived 3 minutes before the S waves, how far away is the epicenter of the quake?</p></statement>
 <answer><p>607.5 mi</p></answer></exercise>
 
-<exercise number="18"><statement><p>A cup of rolled oats provides 310 calories. A cup of rolled wheat flakes provides 290 calories. A new breakfast cereal combines wheat and oats to provide 302 calories per cup. How much of each grain does 1 cup of the cereal include?<ol marker="a">
+<exercise number="18"><statement><p>A cup of rolled oats provides 310 calories. A cup of rolled wheat flakes provides 290 calories. A new breakfast cereal combines wheat and oats to provide 302 calories per cup. How much of each grain does 1 cup of the cereal include?<ol marker="a.">
     <li><p>Choose variables for the unknown quantities, and fill in the table.</p>
             <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
                     <row>
@@ -235,7 +235,7 @@
 </ol></p></statement></exercise>
 
 <exercise number="19"><statement><p>Acme Motor Company is opening a new plant to produce chassis for two of its models, a sports coupe and a wagon. Each sports coupe requires a riveter for 3 hours and a welder for 4 hours; each wagon requires a riveter for 4 hours and a welder for 5 hours. The plant has available 120 hours of riveting and 155 hours of welding
-per day. How many of each model of chassis can it produce in a day?<ol marker="a">
+per day. How many of each model of chassis can it produce in a day?<ol marker="a.">
     <li><p>Choose variables for the unknown quantities, and fill in the table.</p>
             <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
                     <row>
@@ -249,7 +249,7 @@ per day. How many of each model of chassis can it produce in a day?<ol marker="a
     <li><p>Write a second equation about the hours of welding.</p></li>
     <li><p>Solve the system and answer the question in the problem.</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
                     <row>
                         <cell></cell><cell>Sports coupes</cell><cell>Wagons</cell><cell>Total</cell></row>
@@ -263,7 +263,7 @@ per day. How many of each model of chassis can it produce in a day?<ol marker="a
     <li>20 sports coupes and 15 wagons</li>
 </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p>Carmella has $1200 invested in two stocks; one returns 8% per year and the other returns 12% per year. The income from the 8% stock is $3 more than the income from the 12% stock. How much did she invest in each stock?<ol marker="a">
+<exercise number="20"><statement><p>Carmella has $1200 invested in two stocks; one returns 8% per year and the other returns 12% per year. The income from the 8% stock is $3 more than the income from the 12% stock. How much did she invest in each stock?<ol marker="a.">
     <li><p>Choose variables for the unknown quantities, and fill in the table.</p>
             <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center"><col halign="left"/><col/><col/><col/>
                     <row>

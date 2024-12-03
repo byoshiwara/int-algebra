@@ -8,18 +8,18 @@
     <title>Problem Set 1.1</title>
     <subexercises><title>Warm Up</title>
 
-<exercise number="1"><statement><p>Solve the equation.<ol marker="a" cols="2">
+<exercise number="1"><statement><p>Solve the equation.<ol marker="a." cols="2">
         <li><p><m>8x-18=26</m></p></li>
         <li><p><m>14-\dfrac{3}{4}x=5 </m></p></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
          <li><p><m>5.5</m></p></li>
          <li><p><m>12</m></p></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p>Solve the inequality.<ol marker="a" cols="2">
+<exercise number="2"><statement><p>Solve the inequality.<ol marker="a." cols="2">
         <li><p><m>8x-18\lt 16</m></p></li>
         <li><p><m>14-\dfrac{3}{4}x \ge 5 </m></p></li></ol></p></statement>
 <!--            <answer><p>
-                <ol marker="a" cols="2">
+                <ol marker="a." cols="2">
                     <li><p><m>x\lt 5.5</m></p></li>
                     <li><p><m>x \le 12</m></p></li>
                 </ol>
@@ -64,7 +64,7 @@
 <subexercises><title>Applications</title>
 
 <exercise number="11"><statement><p>Frank plants a dozen corn seedlings, each 6 inches tall. With plenty of water and sunlight they will grow approximately 2 inches per day. Complete the table of values for the height, <m>h</m>, of the seedlings after <m>t</m> days.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Complete the table of values for the height, <m>h</m> of the seedlings after <m>t</m> days.</p>
                     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                         <row bottom="minor">
@@ -110,7 +110,7 @@
                     <me>h = 14 + 1.5t</me>
            What do the constants in this equation tell us about the tomato plants?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                         <row bottom="minor">
                             <cell><m>t</m> (days)</cell>
@@ -158,7 +158,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="12"><statement><p>On October 31, Betty and Paul fill their 250-gallon oil tank for their heater. Beginning in November they use an average of 15 gallons of oil per week.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Complete the table of values for the amount of oil, <m>A</m>, left in the tank after <m>w</m> weeks.</p>
                     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                         <row bottom="minor">
@@ -199,7 +199,7 @@
      <li><p>Write and solve an inequality to verify your answer to part (e).</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="13"><statement><p>The boiling point of water changes with altitude. At sea level, water boils at <m>212\degree</m>F, and the boiling point decreases by approximately <m>2\degree</m>F for each 1000-foot increase in altitude.<ol marker="a">
+<exercise number="13"><statement><p>The boiling point of water changes with altitude. At sea level, water boils at <m>212\degree</m>F, and the boiling point decreases by approximately <m>2\degree</m>F for each 1000-foot increase in altitude.<ol marker="a.">
     <li><p>Write an equation for the boiling point, <m>B</m>, in terms of <m>a</m>, the altitude in thousands of feet.</p></li>
     <li><p>Complete the table of values.</p>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -249,7 +249,7 @@
     <li><p>How much does the boiling point decrease when the altitude increases from 1000 to 3000 feet? Illustrate this amount on the graph.</p></li>
     <li><p>At what altitudes is the boiling point less than <m>204\degree</m>F? Illustrate on the graph.</p></li></ol></p>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                         <col halign="left"/>
                         <col halign="center"/>
@@ -324,7 +324,7 @@
                         <cell><m>\hphantom{0000}</m> </cell>
                         <cell><m>\hphantom{0000}</m> </cell></row>
             </tabular><p>
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>Write an equation for the charge, <m>C</m>, in terms of the number of miles traveled, <m>n</m>.</p></li>
         <li><p>Graph the equation.</p>
             <image width="40%" xml:id="fig-ex-1-1-14"><description>grid for taxi charge vs miles</description><latex-image>

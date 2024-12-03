@@ -103,7 +103,7 @@ The doubling time is 18.59 years.</p></solution></example>
 
 <example>
     <statement>
-        <p>The graph shows the population, <m>P</m>, of a herd of llamas <m>t</m> years after 2000.<ol label="a">
+        <p>The graph shows the population, <m>P</m>, of a herd of llamas <m>t</m> years after 2000.<ol marker="a.">
             <li>How many llamas were there in 2000?</li>
             <li>What is the doubling time for the population?</li>
             <li>What is the annual growth rate for the population?</li></ol>
@@ -134,7 +134,7 @@ The doubling time is 18.59 years.</p></solution></example>
         </sidebyside>
     </statement>
     <solution>
-        <p><ol label="a">
+        <p><ol marker="a.">
             <li> The initial value of the population is given by the <m>P</m>-intercept of the graph, <m>(0,15)</m>. There were 15 llamas in 2000.</li>
             <li>Look for the time when the initial llama population doubles. When <m>t=4,~P=30</m>, and when <m>t=8,~P=60</m>, so the llama population doubles every 4 years.</li>
             <li>The growth factor for the population is <m>2^{1/4} = 1.189</m>, so the annual growth rate is 18.9%.</li></ol>
@@ -178,7 +178,7 @@ The doubling time is 18.59 years.</p></solution></example>
 
 <subsubsubsection><title>Exercises</title>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a.">
     <li>Write a growth law for the population whose graph is shown, where <m>t</m> is in years.</li>
     <li>What is the annual growth rate for the population?</li></ol></p>
    <sidebyside width="35%">
@@ -206,11 +206,11 @@ The doubling time is 18.59 years.</p></solution></example>
             </image>
         </sidebyside>
 </statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
     <li><m>P(t) = 10(2^{t/2.5})</m></li>
     <li>32.0%</li></ol></p></answer></exercise> 
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a.">
     <li>Write a decay law for the population whose graph is shown, where <m>t</m> is in days.</li>
     <li>What is the daily decay rate for the population?</li></ol></p>
    <sidebyside width="35%">
@@ -241,7 +241,7 @@ The doubling time is 18.59 years.</p></solution></example>
             </image>
         </sidebyside>
 </statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
     <li><m>P(t) = 120(0.5^{t/3})</m></li>
     <li>20.6%</li></ol></p></answer></exercise> 
 </subsubsubsection>

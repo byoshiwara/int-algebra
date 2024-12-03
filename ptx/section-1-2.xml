@@ -46,7 +46,7 @@ because <m>4(\alert{−2})^3 + 5(\alert{−2})^2 - 8(\alert{−2}) = -2 + 20 + 1
 <statement><p>Which of the following values are solutions of the equation
             <me>-2x^3+x^2+16x=15\text{?}</me>
             <m>\alert{\text{[TK]}}~~</m></p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m>x=2</m></p></li>
         <li><p><m>x=-3</m></p></li>
         <li><p><m>x=3</m></p></li>
@@ -161,7 +161,7 @@ Any value of <m>x</m> greater than <m>\frac{3}{2}</m> is a solution of the inequ
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Which of the following show the correct solutions of the inequality? </p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p><m>2x \gt -8~</m> has solution <m>~x \lt -4</m></p></li>
         <li><p><m>-2x \gt -8~</m> has solution <m>~x \lt 4</m></p></li>
         <li><p><m>x+2 \gt -8~</m> has solution <m>~x \lt -10</m></p></li>
@@ -241,19 +241,19 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>What is the solution of an equation in two variables?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>A value of <m>x</m> that makes the equation true</p></li>
         <li><p>An ordered pair of values <m>(x,y)</m> that satisfy the equation</p></li>
         <li><p>Solving the equation for <m>y</m> in terms of <m>x</m></p></li>
         <li><p>The graph of the equation</p></li>
     </ol></p></statement></exercise>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
             <li><p>Is <m>(2,7.5) </m> a solution of the equation <m>~-3x+4y=24</m>?</p></li>
             <li><p>Is <m>(4,3) </m> a solution of the equation <m>~-3x+4y=24</m>?</p></li>
 </ol></p><m>\alert{\text{[TK]}}~~</m></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
         <li><p>The ordered pair <m>(2,7.5) </m> is a solution of the equation above, because it satifies the equation.
             <me>-3(\alert{2})+4(\alert{7.5})=-6+30=24</me></p></li>
         <li><p>The ordered pair <m>(4,3) </m> is not a solution, because it does not satify the equation.
@@ -369,7 +369,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
          <li><p>If a point lies on the graph of an equation, it is a solution of the equation.  <var name="$true" form="popup"/></p></li></ol></p>
     </statement>
     <solution>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li>True</li>
             <li>True</li>
             <li>True</li>
@@ -385,7 +385,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
          <li><p>If a point lies on the graph of an equation, it is a solution of the equation.</p></li>
     </ol></p></statement></exercise>
 
-<example><statement><sidebyside widths="50% 35%" margins="0% 10%" valigns="middle middle"><p>The figure shows a graph of the equation <m>~Ax + By = C</m>. Which of the following equations are true? <ol marker="a">
+<example><statement><sidebyside widths="50% 35%" margins="0% 10%" valigns="middle middle"><p>The figure shows a graph of the equation <m>~Ax + By = C</m>. Which of the following equations are true? <ol marker="a.">
                <li><p><m>24B=C</m></p></li>
                <li><p><m>Ap+Bq=C</m></p></li>
                <li><p><m>Ag+Bh=C</m></p></li></ol></p>
@@ -407,7 +407,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The point <m>(0, 24)</m> lies on the graph, so <m>x = 0</m>, <m>y = 24</m> is a solution of the equation. Thus, <m>A \cdot 0 + B \cdot 24 = C</m>, or  <m>24B = C</m> is a true statement.</p></li>
     <li><p>The point <m>(p, q)</m> does not lie on the graph, so <m>x = p</m>, <m>y = q</m> does not satisfy the equation, and <m>A p+ B q = C</m> is a not true.</p></li>
     <li><p>The point <m>(g,h )</m> does lie on the graph, so <m>x = g</m>, <m>y = h</m> does satisfy the equation, and <m>A g+ B h = C</m> is a true statement.</p></li></ol></p></solution></example>
@@ -484,7 +484,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
         }
         \end{tikzpicture}]]>
     </latex-image></image>
-    <stack><p><ol marker="a" cols="3">
+    <stack><p><ol marker="a." cols="3">
         <li><p><m>(-13,-4)</m></p></li>
         <li><p><m>(-1.6, 4.8)</m></p></li>
         <li><p><m>(1.25, 7)</m></p></li>
@@ -532,7 +532,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
 </p></solution></example>
 
 <note><p>The relationship between an equation and its graph is an important one. For the previous example, make sure you understand that the following three statements are equivalent.</p>
-    <p><ol marker="1">
+    <p><ol marker="1.">
         <li><p>The point <m>(9, 150)</m> lies on the graph of <m>y = 285 - 15x</m>.</p></li>
         <li><p>The ordered pair <m>(9, 150)</m> is a solution of the equation <m>y = 285 - 15x</m>.</p></li>
         <li><p><m>x=9</m> is a solution of the equation <m>150 = 285 - 15x</m>.</p></li>
@@ -559,7 +559,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
 <webwork><pg-code>
         $answer = Compute("-2.5");
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Use the graph of <m>y = 30 - 8x</m> to solve the equation <m>30 - 8x = 50</m>. Follow the steps:
             <ul>
             <li><p>Step 1: Locate the point <m>P</m> on the graph with <m>y = 50</m>.</p></li>
@@ -573,7 +573,7 @@ has many solutions. Each <term>solution</term><idx><h>solution</h><h>to an equat
 
 <exercise component="main"><title>Practice 5</title>
 <statement><sidebyside widths="50% 40%" valigns="middle middle">
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Use the graph of <m>y = 30 - 8x</m> to solve the equation <m>30 - 8x = 50</m>. Follow the steps:
             <ul>
             <li><p>Step 1: Locate the point <m>P</m> on the graph with <m>y = 50</m>.</p></li>
@@ -657,7 +657,7 @@ To solve this inequality means to find all values of <m>x</m> that make the expr
         Context("Inequalities");
         $answer = Compute("x &gt; 2");
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Use the graph of <m>y = 30 - 8x</m> to solve the inequality <m>30 - 8x \lt 14</m>. Follow the steps:<ul>
             <li><p>Step 1: Locate the point <m>P</m> on the graph with <m>y = 14</m>.</p></li>
             <li><p>Step 2: Find the <m>x</m>-coordinate of the point <m>P</m>.</p></li>
@@ -673,7 +673,7 @@ To solve this inequality means to find all values of <m>x</m> that make the expr
 
 <exercise component="main"><title>Practice 6</title>
 <statement><sidebyside widths="60% 30%">
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Use the graph of <m>y = 30 - 8x</m> to solve the inequality <m>30 - 8x \lt 14</m>. Follow the steps:<ul>
             <li><p>Step 1: Locate the point <m>P</m> on the graph with <m>y = 14</m>.</p></li>
             <li><p>Step 2: Find the <m>x</m>-coordinate of the point <m>P</m>.</p></li>
@@ -734,7 +734,7 @@ Note that the equation now has the form of the linear models we saw in <xref ref
  <p>Now we are ready to graph an equation with technology. For most graphing utilities, we follow three steps.</p>
 
 <assemblage><title>To Graph an Equation</title>
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><p>Enter the equation you wish to graph.</p></li>
     <li><p>Select a graphing window.</p></li>
     <li><p>Graph.</p></li>
@@ -761,7 +761,7 @@ Note that the equation now has the form of the linear models we saw in <xref ref
         Context()->flags->set( reduceConstants => 0, reduceConstantFunctions => 0,  );
         $f = Formula("3/4 x + 6");
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
             <li><p>Solve the equation <m>-3x + 4y = 24</m> for <m>y</m> in terms of <m>x</m>.</p>
             <p><m>y=</m><var name="$f" width="5"/></p></li>
             <li><p>Graph the equation in the standard window.</p></li></ol></p></statement>
@@ -787,11 +787,11 @@ Note that the equation now has the form of the linear models we saw in <xref ref
 </conclusion></exercise>
 
 <exercise component="main"><title>Practice 8</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
             <li><p>Solve the equation <m>-3x + 4y = 24</m> for <m>y</m> in terms of <m>x</m>.</p></li>
             <li><p>Graph the equation in the standard window.</p></li>
         </ol></p></statement>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
             <li><p><m>y=\dfrac{3}{4}x+6 </m></p></li>
             <li><image xml:id="fig-ex-ans-1-3-7"><description>graph</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -833,7 +833,7 @@ Note that the equation now has the form of the linear models we saw in <xref ref
         Context("Point");
         $answer = Point("(-2.5,-122)");
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
             <li><p>Graph the equation <m>y=32x-42</m> in the window:</p>
                 <tabular>
                 <row>
@@ -849,7 +849,7 @@ Note that the equation now has the form of the linear models we saw in <xref ref
                 <p><var name="$answer" width="8"/> Enter an ordered pair.</p></li>
             <li><p>Verify your answer algebraically by substituting your <m>x</m>-value into the equation.</p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><p>A graph is below.</p></li>
             <li><p><m>(-2.5,-122) </m></p></li>
             <li><p><m>\blert{-122} = 32(\alert{-2.5}) - 42</m></p></li>
@@ -861,7 +861,7 @@ Note that the equation now has the form of the linear models we saw in <xref ref
 </conclusion></exercise>
 
 <exercise component="main"><title>Practice 9</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>Graph the equation <m>y=32x-42</m> in the window:</p>
         <sidebyside><tabular>
         <row><cell>Xmin<m>=-4.7 \qquad</m></cell>
@@ -874,7 +874,7 @@ Note that the equation now has the form of the linear models we saw in <xref ref
     <li><p>Use the Trace feature to find the point that has <m>y</m>-coordinate <m>-122</m>.</p></li>
     <li><p>Verify your answer algebraically by substituting your <m>x</m>-value into the equation.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
             <li><image width="40%" source="images/fig-GC-ex-1-2-9ans.png"><description>GC line</description></image></li>
             <li><p><m>(-2.5,-122) </m></p></li>
             <li><p><m>\blert{-122} = 32(\alert{-2.5}) - 42</m></p></li>

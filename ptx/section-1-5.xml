@@ -56,7 +56,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Choose the correct statement about the equation <m>y = 8 - 6x.</m></p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>The slope is <m>8</m> and the <m>y</m>-intercept is <m>-6</m>.</p></li>
     <li><p>The slope is <m>-6</m> and the <m>y</m>-intercept is <m>8</m>.</p></li>
     <li><p>The slope is <m>-6x</m> and the <m>y</m>-intercept is <m>-6</m>.</p></li>
@@ -65,7 +65,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <example><statement><sidebyside widths="55% 40%" margins="0% 0%">
     <p>Recall Practice 4 from Section 1.4:  The graph shows the amount of garbage <m>G</m>, in tons, that has been deposited at a dumpsite <m>t</m> years after new regulations go into effect.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>State the vertical intercept and the slope of the graph.</p></li>
         <li><p>Find an equation for the graph shown. <m>~\alert{\text{[TK]}}</m></p></li>
         <li><p>State the meaning of the slope and the vertical intercept for this model.</p></li>
@@ -73,7 +73,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
     <image source="images/fig-ex-1-4-4"><description>linear graph of garbage deposited</description></image></sidebyside>
 </statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The vertical intercept of the graph is <m>(0,25)</m>. Two points on the line are <m>(0, 25)</m> and <m>(10, 150)</m>, so the slope is
         <me>m=\frac{\Delta G}{\Delta t}=\frac{125\text{ tons}}{10\text{ years}}=12.5 \text{ tons/year}</me></p></li>
     <li><p><m>G = mt + b</m>, so the equation is <m>~G = 12.5t + 25</m></p></li>
@@ -103,7 +103,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
               3, # index of correct answer; could also just be the correct answer
             );
         </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Write a formula for Delbert's Internet costs under each plan. Use <m>x</m> for the variable.</p>    
                 <p>Earthlink: <m>E=</m><var name="$Earthlink" width="10"/> </p>
                 <p>DigitalRain: <m>D=</m><var name="$DigitalRain" width="10"/> </p>
@@ -113,7 +113,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
                 <p>Line II: <var name="$Line2" form="popup"/> </p>
                 <p>Line III: <var name="$Line3" form="popup"/> </p></li></ol></p>
         </statement>
-        <solution><p><ol marker="a">
+        <solution><p><ol marker="a.">
     <li><p>Earthlink: <m>E=99 + 39.95x</m>; DigitalRain: <m>D=50 + 34.95x</m>; FreeAmerica: <m>F=149 + 34.95x</m></p></li>
     <li><p>DigitalRain: I; Earthlink: II; FreeAmerica: III</p></li>
 </ol></p></solution>
@@ -122,11 +122,11 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 <exercise component="main"><title>Practice 1</title>
 <statement><sidebyside widths="50% 40%" valigns="middle middle"><p>Delbert decides to use DSL for his Internet service. Earthlink charges a $99 activation fee and $39.95 per month, DigitalRain charges $50 for activation and $34.95 per month, and FreeAmerica charges $149 for activation and $34.95 per month.</p>
     <image source="images/fig-dsl-price"><description>dsl costs</description></image></sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
         <li><p>Write a formula for Delbert's Internet costs under each plan.</p></li>
         <li><p>Match Delbert's Internet cost under each company with its graph in the figure.</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>Earthlink: <m>E=99 + 39.95x</m>;</p>
         <p> DigitalRain: <m>D=50 + 34.95x</m>;</p>
         <p> FreeAmerica: <m>F=149 + 34.95x</m></p></li>
@@ -192,14 +192,14 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>In the coordinate formula for slope, why do we require that <m>x_1 \ne x_2</m>?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>The slope cannot be zero.</p></li>
     <li><p>The two points cannot be the same.</p></li>
     <li><p>The denominator of a fraction cannot be zero.</p></li>
     <li><p>The denominator must equal 1.</p></li>
 </ol></p></statement></exercise>
 
-<example><statement><p>The graph shows wine consumption, <m>W</m>, in the US, in millions of cases, starting in 1990. In 1993, Americans drank 188.6 million cases of wine. In 2003, Americans drank 258.3 million cases of wine.<ol marker="a">
+<example><statement><p>The graph shows wine consumption, <m>W</m>, in the US, in millions of cases, starting in 1990. In 1993, Americans drank 188.6 million cases of wine. In 2003, Americans drank 258.3 million cases of wine.<ol marker="a.">
     <li><p>Find the slope of the graph from 1993 to 2003. <m>~\alert{\text{[TK]}}</m></p></li>
     <li><p>State the slope as a rate of change. What does the slope tell us about wine consumption?</p>
         <image width="45%" xml:id="fig-example-1-5-2"><description>line with positive slope</description><latex-image>
@@ -226,7 +226,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
                         \end{tikzpicture}]]>
                     </latex-image></image></li></ol></p></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>If <m>t = 0</m> in 1990, then in 1993, <m>t = 3</m>, and in 2003, <m>t = 13 </m>. Thus, the points <m>P(3, 188.6)</m> and <m>Q(13, 258.3)</m> lie on the line. We want to compute the slope,
         <me>m=\frac{\Delta W}{\Delta t}=\frac{W_2-W_1}{t_2 - t_1}</me>
      between these two points. Think of moving from <m>P</m> to <m>Q</m> in two steps, first moving horizontally to the right from <m>P</m> to the point <m>R</m>, and then vertically from <m>R</m> to <m>Q</m>. The coordinates of <m>R</m> are <m>(13, 188.6)</m>. (Do you see why?) Then
@@ -301,7 +301,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
                     2
                 );
         </pg-code>
-    <statement><p>In 1991, there were 64.6 burglaries per 1000 households in the United States. The number of burglaries reported annually declined at a roughly constant rate over the next decade, and in 2001 there were 28.7 burglaries per 1000 households. (Source: U.S. Department of Justice)<ol marker="a">
+    <statement><p>In 1991, there were 64.6 burglaries per 1000 households in the United States. The number of burglaries reported annually declined at a roughly constant rate over the next decade, and in 2001 there were 28.7 burglaries per 1000 households. (Source: U.S. Department of Justice)<ol marker="a.">
         <li><p>Sketch a line that goes through the two points <m>(t, B)</m> given in the problem, where <m>t = 0</m> in 1990.</p>
                 <image pg-name="$gr[1]" width="35%"/>
                 <image pg-name="$gr[2]" width="35%"/>
@@ -315,7 +315,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
                 <p><var name="$tale" form="buttons"/></p> 
                 <p>(in the years 1991 to 2001).</p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><p>Because <m>t=0</m> corresponds to 1990, we have the two points <m>(1,64.6)</m> and <m>(11,28.7)</m>. The line joining those two points corresponds to the line with equation <m>y = <var name="$func"/> </m></p> </li>
         <li><p>We use the two points <m>(1,64.6)</m> and <m>(11,28.7)</m> to compute the slope:  <m>-3.59</m> burglaries per 1000 households per year. From 1991 to 2001, the burglary rate declined by 3.59 burglaries per 1000 households every year.</p></li>
     </ol></p></solution>
@@ -323,11 +323,11 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>In 1991, there were 64.6 burglaries per 1000 households in the United States. The number of burglaries reported annually declined at a roughly constant rate over the next decade, and in 2001 there were 28.7 burglaries per 1000 households. (Source: U.S. Department of Justice)</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Give the coordinates of two points on the graph of <m>B=mt+b</m>, where <m>t = 0</m> in 1990, and <m>B</m> stands for the number of burglaries per 1000 households. </p></li>
     <li><p>Find the slope of the line, including units.</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p> <m>(1, 64.6)</m> and <m>(11, 28.7)</m></p></li>
     <li><p>The number of burglaries per 1000 households declined at a rate of 3.59 burglaries per year.</p></li>
 </ol></p></answer>
@@ -356,7 +356,7 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>A line has slope <m>\dfrac{-3}{4}</m> and passes through the point <m>(1,-4)</m>. Which equation can you use to find the <m>y</m>-coordinate of the point on the line with <m>x</m>-coordinate 6?</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
     <li><p><m>\dfrac{3}{4} = \dfrac{1-6}{y+4}</m></p></li>
     <li><p><m>\dfrac{-3}{4} = \dfrac{y+4}{1-6}</m></p></li>
     <li><p><m>\dfrac{-3}{4} = \dfrac{y-6}{-4-1}</m></p></li>
@@ -365,13 +365,13 @@ Usually we write the terms in the opposite order, like this: <m>y = mx + b</m>. 
 
 <p>Remember that the equation for a line is really just a formula that gives the <m>y</m>-coordinate of any point on the line in terms of its <m>x</m>-coordinate. So, if we know the slope of a particular line and one point on the line, we can use the coordinate formula for slope to find its equation.</p>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
     <li><p>Graph the line that passes through the point <m>(1,-4)</m> and has  <m>\text{slope}=\dfrac{-3}{4}</m>. 
     <m>~\alert{\text{[TK]}}</m></p></li>
     <li><p>Find an equation for the line in part (a). <m>~\alert{\text{[TK]}}</m> </p></li>
 </ol></p></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><sidebyside widths="55% 40%">
     <p>We first plot the given point, <m>(1,-4)</m>, and then use the slope to find another point on the line. The slope is <m>m =\dfrac{-3}{4}=\dfrac{\Delta y}{\Delta x} </m>, so starting from <m>(1,-4)</m> we move down 3 units and then 4 units to the right. This brings us to the point <m>(5,-7)</m>. We draw the line through these two points. </p>
         <image source="images/fig-point-slope"><description>point slope</description></image></sidebyside></li>
@@ -447,7 +447,7 @@ You may also see the formula written in an alternate version:
                         <cell><m>31.328</m></cell>
                         <cell><m>30.88</m></cell></row>
                     </tabular>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>Do these data points describe a linear model? Why or why not?</li>
     <li><p>Find a linear equation for freezing temperature, <m>T</m>, in terms of salinity, <m>S</m>.</p>
         <p>Step 1: Find the slope.</p>
@@ -456,7 +456,7 @@ You may also see the formula written in an alternate version:
     <li>Sea water has an average salinity of 35 ppt. What is the freezing point of sea water?</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We check to see if the slope between each pair of points is the same.
         <md><mrow>m \amp = \dfrac{T_2-T_1}{S_2-S_1} = \dfrac{31.328-31.552}{12-8} = -0.056</mrow>
             <mrow>m \amp = \dfrac{T_3-T_2}{S_3-S_2} = \dfrac{30.88 - 31.328}{20-12} = -0.056</mrow></md>
@@ -488,7 +488,7 @@ You may also see the formula written in an alternate version:
               1, 
             ); 
     </pg-code>
-<statement><p>The fee for registering a new car is given by a linear equation that depends on the car's value. The fee for a $15,000 car is $128.50, and the fee for a $25,000 car is $193.50.<ol marker="a">
+<statement><p>The fee for registering a new car is given by a linear equation that depends on the car's value. The fee for a $15,000 car is $128.50, and the fee for a $25,000 car is $193.50.<ol marker="a.">
     <li><p>Find a linear equation that gives the registration fee <m>F</m> for a new car that cost <m>V</m> dollars.</p>
         <p> Answer: <var name="$equation" width="11"/></p></li>
     <li><p>Use your equation to estimate the registration fee for a car that costs $22,000.</p>
@@ -497,7 +497,7 @@ You may also see the formula written in an alternate version:
         <p>The slope is <var name="$slope" width="5"/> and it tells</p>
         <p><var name="$explain" form="buttons"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
           <li><p><m>F=31+0.0065V</m></p></li>
           <li><p>$174</p></li>
           <li><p><m>0.0065</m>: The registration fee increases by 0.65% of the value of the car.</p></li>
@@ -506,12 +506,12 @@ You may also see the formula written in an alternate version:
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>The fee for registering a new car is given by a linear equation that depends on the car's value. The fee for a $15,000 car is $128.50, and the fee for a $25,000 car is $193.50.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Find a linear equation that gives the registration fee <m>F</m> for a new car that cost <m>V</m> dollars.</p></li>
     <li><p>Use your equation to estimate the registration fee for a car that costs $22,000.</p></li>
     <li><p>What is the slope of your line? What does the slope mean for registration fees?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><p><m>F=31+0.0065V</m></p></li>
         <li><p>$174</p></li>
         <li><p><m>0.0065</m>: The registration fee increases by 0.65% of the value of the car.</p></li>
@@ -520,7 +520,7 @@ You may also see the formula written in an alternate version:
 
 <subsection><title>Summary</title>
 <p>In this section, we studied three different formulas associated with linear equations: the slope-intercept formula, the coordinate formula for slope, and the point-slope formula. How are these formulas related, and how are they different?</p>
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><p>The <term>slope-intercept form</term>, <m>y = mx + b</m>, is just a special case of the <term>point-slope formula</term>. If the given point <m>(x_1, y_1)</m> happens to be the <m>y</m>-intercept<idx><em>y</em>-intercept</idx> <m>(0, b)</m>, then the point-slope formula reduces to the familiar form:
         <md><mrow>y\amp =y_1+m(x-x_1) \amp\amp\blert{\text{Substitute } b \text{ for } y_1 \text{ and 0 for } x_1.}</mrow>
             <mrow>y\amp = b + m(x-0) \amp\amp \blert{\text{Simplify.}}</mrow>
@@ -531,7 +531,7 @@ You may also see the formula written in an alternate version:
         and the <term>point-slope formula</term>
             <me>m= \frac{y-y_1}{x-x_1} ?</me>
         They are really the same formula, but they are used for different purposes:
-        <ol marker="a">
+        <ol marker="a.">
             <li><p>The slope formula is used to calculate the slope when we know two points. We know <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>, and we are looking for <m>m</m>.</p></li>
             <li><p>The point-slope formula is used to find the equation of a line. We know <m>(x_1, y_1)</m> and <m>m</m>, and we are looking for <m>y = mx + b</m>.</p></li>
         </ol></p></li>

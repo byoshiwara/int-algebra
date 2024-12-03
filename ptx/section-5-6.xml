@@ -10,13 +10,13 @@
 <p> In Examples <xref ref="example-home-to-school" text="global"/> and <xref ref="concavity" text="global"/>, we investigate how the shape of a graph illustrates the nature of the process it models.</p>
 
 <example xml:id="example-home-to-school"><statement>
-    <p>Forrest leaves his house to go to school. For each of the following situations, sketch a possible graph of Forrest's distance from home as a function of time.<ol marker="a">
+    <p>Forrest leaves his house to go to school. For each of the following situations, sketch a possible graph of Forrest's distance from home as a function of time.<ol marker="a.">
     <li><p>Forrest walks at a constant speed until he reaches the bus stop.</p></li>
     <li><p>Forrest walks at a constant speed until he reaches the bus stop; then he waits there until the bus arrives.</p></li>
     <li><p>Forrest walks at a constant speed until he reaches the bus stop, waits there until the bus arrives, and then the bus drives him to school at a constant speed.</p></li>
     </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The graph is a straight-line segment, as shown in figure (a). It begins at the origin because at the instant Forrest leaves the house, his distance from home is 0. (In other words, when <m>t = 0, y = 0</m>.) The graph is a straight line because Forrest has a constant speed. The slope of the line is equal to Forrest’s walking speed.</p>
     <image width="100%" source="images/fig-home-to-school" ><description>distance from home</description></image></li>
     
@@ -92,7 +92,7 @@
 <p>The graphs in <xref ref="example-home-to-school" text="type-global"/> are portions of straight lines. We can also consider graphs that bend upward or downward. The bend is called the <term>concavity</term><idx><h>concavity</h></idx><idx><h>concavity</h><seealso>concave up, concave down</seealso></idx><idx><h>graph</h><h>concavity</h></idx> of the graph.</p>
 
 <example xml:id="concavity"><statement><p>The two functions described in this example are both increasing functions, but they increase in different ways. Match each function to its graph and to the appropriate table of values.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>The number of flu cases reported at an urban medical center during an epidemic is an increasing function of time, and it is growing at a faster and faster rate.</p></li>
         <li><p>The temperature of a potato placed in a hot oven increases rapidly at first, then more slowly as it approaches the temperature of the oven.</p></li>
     </ol></p><sidebyside widths="35% 35%">
@@ -131,7 +131,7 @@
     <image width="70%" source="images/fig-concavity" ><description>increasing graphs of opposite concavity</description></image>
     </statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The number of flu cases is described by  graph (A) and table (1). The function values in table (1) increase at an increasing rate. We can see this by computing the rate of change over successive time intervals. 
         <md><mrow>x = 0 \text{ to } x = 5: ~~~~~~~~m = \frac{\Delta y}{\Delta x}=\frac{123-70}{5-0} = 10.6</mrow>
             <mrow></mrow>
@@ -219,20 +219,20 @@
         );
     </pg-code>
     <statement><p>Match each type of graph with its properties.
-        <ol marker="a">
+        <ol marker="a.">
                 <li><p>Increasing, concave up <var name="$a" form="popup"/></p> </li> 
                 <li><p>Increasing, concave down <var name="$b" form="popup"/></p></li>
                 <li><p>Decreasing, concave up <var name="$c" form="popup"/></p></li>
                 <li><p>Decreasing, concave down <var name="$d" form="popup"/></p></li>
         </ol>
-        <ol marker="i">  
+        <ol marker="i.">  
                 <li> <m>y</m>-values decrease, slopes decrease</li>
                 <li><m>y</m>-values decrease, slopes increase</li>
                 <li><m>y</m>-values increase, slopes decrease</li>
                 <li><m>y</m>-values increase, slopes increase</li>
             </ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li>iv</li> 
             <li>iii</li>
             <li>ii</li>
@@ -242,13 +242,13 @@
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Match each type of graph with its properties.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><p>Increasing, concave up</p></li> 
             <li><p>Increasing, concave down</p></li>
             <li><p>Decreasing, concave up</p></li>
             <li><p>Decreasing, concave down</p></li>
     </ol></p>
-    <p><ol marker="i">  
+    <p><ol marker="i.">  
                 <li> <m>y</m>-values decrease, slopes decrease</li>
                 <li><m>y</m>-values decrease, slopes increase</li>
                 <li><m>y</m>-values increase, slopes decrease</li>
@@ -261,12 +261,12 @@
 <p>We have considered situations that can be modeled by linear or quadratic functions.  In this section we'll look at a few of the other basic functions.</p>
 
 <example><statement><p>Choose one of the eight basic functions to model each situation, and sketch a possible graph. <m>~\alert{\text{[TK]}}~~</m>
-    <ol marker="a">
+    <ol marker="a.">
     <li>The number of board-feet, <m>B</m>, that can be cut from a Ponderosa pine is a function of the <em>cube</em> of the circumference, <m>c</m>, of the tree at a standard height.</li>
     <li>The manager of an appliance store must decide how many coffee-makers to order every quarter. The optimal order size, <m>Q</m>, is a function of the <em>square root</em> of the annual demand for coffee-makers, <m>D</m>.</li>
     <li>The loudness, or intensity, <m>I</m>, of the music at a concert is a function of the <em>reciprocal of the square</em> of your distance, <m>d</m>, from the speakers.</li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p><m>B=kc^3</m></p><!-- could use fig-cubic-model -->
         <image width="40%" xml:id="fig-example-5-6-3a"><description>cubic</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -318,7 +318,7 @@
             );            
         </pg-code>
     <statement><p>Which basic graph is concave down wherever it is defined?</p>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p><m>y=x^3</m></p></li>
             <li><p><m>y=\dfrac{1}{x}</m></p></li>
             <li><p><m>y=\sqrt[3]{x}</m></p></li>
@@ -329,7 +329,7 @@
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Which basic graph is concave down wherever it is defined?</p>
-     <p><ol marker="a">
+     <p><ol marker="a.">
             <li><p><m>f(x)=x^3</m></p></li>
             <li><p><m>f(x)=\dfrac{1}{x}</m></p></li>
             <li><p><m>f(x)=\sqrt[3]{x}</m></p></li>
@@ -378,7 +378,7 @@
           5, 
         );
    </pg-code>
-<statement><p>Choose one of the eight basic functions to model each situation, and sketch a possible graph.<ol marker="a">
+<statement><p>Choose one of the eight basic functions to model each situation, and sketch a possible graph.<ol marker="a.">
     <li><p>The contractor for a new hotel is estimating the cost of the marble tile for a circular lobby. The cost, <m>C</m>, is a function of the square of the diameter, <m>D</m>, of the lobby.</p>
         <p>Basic function: <var name="$a" form="popup"/></p></li>
     <li><p>Investors are deciding whether to support a windmill farm. The wind speed, <m>v</m>, needed to generate a given amount of power is a function of the cube root of the power, <m>P</m>.</p>
@@ -386,14 +386,14 @@
     <li><p>The frequency, <m>F</m>, of the note produced by a violin string is a function of the reciprocal of the length, <m>L</m>, of the string.</p>
         <p>Basic function: <var name="$c" form="popup"/></p></li></ol></p>
 </statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p><m>C=kD^2</m>; a graph is below.</p></li>
     <li><p><m>v=k\sqrt[3]{P}</m>; a graph is below.</p></li>
     <li><p><m>F=\dfrac{k}{L}</m>; a graph is below.</p></li></ol></p>
     </solution>
 </webwork>
 <conclusion>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><image width="25%" margins="5% 5%" source="images/fig-quadratic-modelw"><description>graph</description></image></li>
         <li><image width="25%" margins="5% 5%" source="images/fig-cube-root-modelw"><description>graph</description></image></li>
         <li><image width="25%" margins="5% 5%" source="images/fig-inverse-modelw"><description>graph</description></image></li>
@@ -402,12 +402,12 @@
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>Choose one of the eight basic functions to model each situation, and sketch a possible graph.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>The contractor for a new hotel is estimating the cost of the marble tile for a circular lobby. The cost, <m>C</m>, is a function of the square of the diameter, <m>D</m>, of the lobby.</p></li>
     <li><p>Investors are deciding whether to support a windmill farm. The wind speed, <m>v</m>, needed to generate a given amount of power is a function of the cube root of the power, <m>P</m>.</p></li>
     <li><p>The frequency, <m>F</m>, of the note produced by a violin string is a function of the reciprocal of the length, <m>L</m>, of the string.</p></li>
 </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p><m>C=kD^2</m>,</p> <image width="25%" source="images/fig-quadratic-model"><description>graph</description></image></li>
     <li><p><m>v=k\sqrt[3]{P}</m>,</p> <image width="25%" source="images/fig-cube-root-model"><description>graph</description></image></li>
     <li><p><m>F=\dfrac{k}{L}</m>,</p> <image width="25%" source="images/fig-inverse-model"><description>graph</description></image></li>
@@ -434,13 +434,13 @@
             <cell><m>283.7</m></cell>
             <cell><m>401.2</m></cell></row>
     </tabular>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Plot the data to obtain a graph. Which of the basic functions does your graph most resemble?</li>
         <li>Find a value of <m>k</m> so that <m>s = kf(T)</m> fits the data.</li>
         <li>On a summer night when the temperature is <m>20\degree</m> Celsius, you see a flash of lightning, and 6 seconds later you hear the thunderclap. Use your function to estimate your distance from the thunderstorm.</li>
     </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The graph of the data is shown below. The shape of the graph reminds us of the square root function, <m>y = \sqrt{x}</m>.</p>
     <image width="50%" source="images/fig-speed-sound" ><description>speed of sound</description></image></li>
     <li>We are looking for a value of <m>k</m> so that the function <m>f(T) = k \sqrt{T}</m> fits the data. We substitute one of the data points into the formula and solve for <m>k</m>. If we choose the point <m>(100, 200.6)</m>, we obtain 
@@ -508,7 +508,7 @@
                     <cell><m>30</m></cell>
                     <cell><m>25</m></cell></row>
             </tabular>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Plot <m>m</m>, the minutes to burn, against <m>u</m>, the UVI, to obtain two graphs, one for people who are more sensitive to sunburn, and another for people less sensitive to sunburn. Which of the basic functions do your graphs most resemble?</p>
                 <p><var name="$basic" form="buttons"/> </p></li>
         <li><p>For each graph, find a value of <m>k</m> so that <m>m = k f(u)</m> fits the data.</p>
@@ -516,7 +516,7 @@
                 <p>Less sensitive: <m>k=</m><var name="$less" width="4"/> </p>
                 </li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><p>The graphs are shown below. They resemble <m>f (x) = \dfrac{1}{x}</m>. </p></li>
         <li><p>More sensitive: <m>k = 60</m>, Less sensitive: <m>k = 300</m> </p></li></ol></p>
     </solution></webwork>
@@ -558,11 +558,11 @@
                     <cell><m>30</m></cell>
                     <cell><m>25</m></cell></row>
             </tabular>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Plot <m>m</m>, the minutes to burn, against <m>u</m>, the UVI, to obtain two graphs, one for people who are more sensitive to sunburn, and another for people less sensitive to sunburn. Which of the basic functions do your graphs most resemble?</p></li>
         <li><p>For each graph, find a value of <m>k</m> so that <m>m = k f(u)</m> fits the data.</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><image width="30%" source="images/fig-ex-5-6-4ans"><description>two concave up decreasing curves</description></image> <p>The graphs resemble <m>f(x) = \dfrac{1}{x}</m>. </p></li>
         <li><p>More sensitive: <m>k = 60</m>, Less sensitive: <m>k = 300</m> </p></li>
         </ol></p></solution></exercise>
@@ -585,7 +585,7 @@
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>To decide which basic function might model a set of data, we can</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>plot the data.</p></li>
         <li><p>look at the variables.</p></li>
         <li><p>choose scales for the axes.</p></li>
@@ -624,7 +624,7 @@
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>To find the absolute value of a number, we can</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>change its sign.</p></li>
         <li><p>subtract it from 0.</p></li>
         <li><p>find its distance from 0.</p></li>
@@ -641,13 +641,13 @@
 <p>For example, the equation <m>\abs{x - 2} = 6</m> means "the distance between <m>x</m> and <m>2</m> is <m>6</m> units." The number <m>x</m> could be to the left or the right of <m>2</m> on the number line. Thus, the equation has two solutions, <m>8</m> and <m>-4</m>, as shown below.</p>
 <image width="70%" source="images/fig-abs-x-minus-2-is-6"  ><description>6 units from 2</description></image>
 
-<example xml:id="example-distances"><statement><p>Write each statement using absolute value notation. Illustrate the solutions on a number line.<ol marker="a">
+<example xml:id="example-distances"><statement><p>Write each statement using absolute value notation. Illustrate the solutions on a number line.<ol marker="a.">
         <li><m>x</m> is three units from the origin.</li>
         <li><m>p</m> is two units from <m>5</m>.</li>
         <li><m>a</m> is within four units of <m>-2</m>.</li>
     </ol></p></statement>
 
-<solution><p>First, we restate each statement in terms of distance.<ol marker="a">
+<solution><p>First, we restate each statement in terms of distance.<ol marker="a.">
     <li><p>The distance between <m>x</m> and the origin is three units, or <m>\abs{x} = 3</m>. Thus, <m>x</m> can be <m>3</m> or <m>-3</m>. </p>
         <image width="70%" source="images/fig-abs-x-is-3"><description>absolut value of x is 3</description></image></li>
     <li><p>The distance between <m>p</m> and <m>5</m> is two units, or 
@@ -676,7 +676,7 @@
 
 <exercise component="main"><title>QuickCheck 5</title>
 <statement><p>The notation <m>|x-3|=5</m> means</p>
- <p><ol marker="a">
+ <p><ol marker="a.">
         <li><p><m>x</m> is 3 units bigger than 5.</p></li>
         <li><p>the distance between <m>x</m> and 5 is 3 units.</p></li>
         <li><p>5 and 3 are <m>x</m> units apart.</p></li>
@@ -691,19 +691,19 @@
             $b = 6;
         </pg-code> 
     <statement><p>Write each statement using absolute value notation; then illustrate the solutions on a number line.
-                <ol marker="a">
+                <ol marker="a.">
                     <li><p><m>x</m> is five units away from <m>-3</m>.</p>
                     <p><var name="$f" width="15"/><m>=</m><var name="$a" width="2"/> </p></li>
                     <li><p><m>x</m> is at least six units away from <m>4</m>.</p>
                     <p><var name="$g" width="15"/><m>\ge</m><var name="$b" width="2"/> </p></li></ol></p>
             <instruction>Use "abs(x)" to get <m>|x|</m>, etc.</instruction></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><p><m>\left|x+3\right|=5</m></p>
                 <p>A number line is shown below.</p></li>
             <li><p><m>\left|x-4\right|\ge 6</m></p>
                 <p>A numberline is shown below.</p></li></ol></p></solution>
     </webwork>
-    <conclusion><p><ol marker="a">
+    <conclusion><p><ol marker="a.">
             <li><image width="55%" margins="0% 45%" xml:id="fig-abs-x-minus-3-eq5w"><description>number line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
@@ -752,11 +752,11 @@
 
 <exercise component="main" xml:id="exercise-write-abs"><title>Practice 5</title>
 <statement><p>Write each statement using absolute value notation; then illustrate the solutions on a number line.</p>
-     <p><ol marker="a">
+     <p><ol marker="a.">
             <li><p><m>x</m> is five units away from <m>-3</m>.</p></li>
             <li><p><m>x</m> is at least six units away from <m>4</m>.</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><p><m>\left|x+3\right|=5</m></p>
             <image width="55%" margins="0% 45%" xml:id="fig-abs-x-minus-3-eq5"><description>number line</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -832,14 +832,14 @@
 
 <exercise component="main"><title>QuickCheck 6</title>
 <statement><p>True or false.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>The graph of <m>y=|2x-8|</m> has no negative inputs.</p></li>
         <li><p>The equation <m>|2x-8|=-4</m> has two solutions.</p></li>
         <li><p>Depending on <m>x,~~~|2x-8|</m> can equal <m>2x-8</m> or <m>8-2x</m>.</p></li>
         <li><p>The graph of <m>y=|2x-8|</m> is a straight line.</p></li>
     </ol></p></statement></exercise>
 
-<example xml:id="example-abs-equation"><statement><p><ol marker="a">
+<example xml:id="example-abs-equation"><statement><p><ol marker="a.">
         <li><p>Use a graph of <m>y = \abs{3x - 6}</m> to solve the equation 
             <m>\abs{3x - 6} = 9</m>.</p></li>
         <li><p>Use a graph of <m>y = \abs{3x - 6}</m> to solve the equation
@@ -847,7 +847,7 @@
     </ol></p></statement>
 
 <solution><image width="30%" source="images/fig-abs-3x-6"><description>absolute value of 3x-6</description></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>The graph shows the graphs of <m>y = \abs{3x - 6}</m> and <m>y = 9</m>. We see that there are two points on the graph of <m>y = \abs{3x - 6}</m> that have <m>y = 9</m>, and those points have <m>x</m>-coordinates <m>x = -1</m> and <m>x = 5</m>. We can verify algebraically that the solutions are <m>-1</m> and <m>5</m>. <m>~\alert{\text{[TK]}}</m>
     <md><mrow>x = \alert{-1}\text{: }\amp </mrow> 
         <mrow>\amp ~~ \abs{3(\alert{-1}) - 6} = \abs{-9} = 9\hphantom{00000}</mrow>
@@ -922,7 +922,7 @@
          partialCredit => 1,
         ); 
       </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
           <li><p>Graph <m>y = |2x + 7|</m> for <m>-12 \le x \le 8</m>.</p>
                 <image pg-name="$gr[0]" margin="35%"/>
                 <image pg-name="$gr[1]" margin="35%"/>
@@ -944,11 +944,11 @@
 </exercise>
 
 <exercise component="main" xml:id="exercise-GC-solve-abs-equation"><title>Practice 6</title>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
               <li><p>Graph <m>y = |2x + 7|</m> for <m>-12 \le x \le 8</m>.</p></li>
               <li><p>Use your graph to solve the equation <m>|2x + 7| = 11</m>.</p></li>
           </ol></p></statement>
-        <solution><p><ol marker="a">
+        <solution><p><ol marker="a.">
               <li><image width="50%" margins="0% 50%"  xml:id="fig-solve-abs-equation"><description>cubic and exponential functions</description><latex-image>
                 <![CDATA[
                 \begin{tikzpicture} [scale=.3] 
@@ -1053,7 +1053,7 @@ Solving these two equations gives us the same solutions we found in <xref ref="e
 
 <exercise component="main"><title>QuickCheck 8</title>
 <statement><p>If <m>|x-3| \gt 5</m>, then</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>either <m>x-3 \gt 5</m> or <m>x-3 \gt -5</m>.</p></li>
         <li><p><m>5 \gt x-3 \gt -5</m></p></li>
         <li><p>either <m>x-3 \gt 5</m> or <m>x-3 \lt -5</m>.</p></li>
@@ -1077,23 +1077,23 @@ Because the inequality symbol is <m>\lt</m>, the solutions of the inequality are
            $answer= Compute("-9 &lt; x &lt; 2");
            $answer2= Compute("x &lt; -9 or x &gt; 2");
         </pg-code> 
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
                 <li><p>Solve the inequality <m>|2x + 7| \lt 11</m></p>
                 <p><var name="$answer" width="15"/> </p></li>
                 <li><p>Solve the inequality <m>|2x + 7| \gt 11</m></p>
                 <p><var name="$answer2" width="15"/> </p></li></ol></p>
         <instruction>You may use inequality symbols or enter your answers using interval notation. When using interval notation, use "inf" for <m>\infty</m> and use "U" (an upper case letter u) for the union symbol <m>\cup</m>.</instruction></statement>
-        <solution><p><ol marker="a" cols="2">
+        <solution><p><ol marker="a." cols="2">
             <li><p><m>(-9,2)</m></p></li>
             <li><p><m>(-\infty,-9) \cup (2, \infty)</m></p></li></ol></p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 8</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
                 <li><p>Solve the inequality <m>|2x + 7| \lt 11</m></p></li>
                 <li><p>Solve the inequality <m>|2x + 7| \gt 11</m></p></li>
             </ol></p></statement>
-        <solution><p><ol marker="a" cols="2">
+        <solution><p><ol marker="a." cols="2">
             <li><p><m>(-9,2)</m></p></li>
             <li><p><m>(-\infty,-9) \cup (2, \infty)</m></p></li></ol></p></solution></exercise>
 

@@ -86,12 +86,12 @@
             <cell><m>80</m></cell>
             <cell><m>125</m></cell></row>
     </tabular></sidebyside>
-<ol label="a">
+<ol marker="a.">
     <li>Evaluate <m>~f(3,5)</m>.</li>
     <li>Solve the equation <m>~f(x,y) = 16.~</m> Give your answer as an ordered pair.</li>
     <li>Is the function <m>~f(2,y)~</m> increasing or decreasing?</li></ol></p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a.">
     <li>The inputs are <m>x=3</m> and <m>y=5</m>. We look in the third row and fifth column to find <m>~f(3,5) = 75.</m></li>
     <li>We see the entry 16 in the fourth row and the second column, so <m>x=4</m> and <m>y=2</m>.  The solution is <m>(4,2).</m></li>
     <li>The entries in the second row are increasing as <m>y</m> increases, so <m>~f(2,y)~</m> is increasing.</li>
@@ -148,12 +148,12 @@
             <cell><m>50</m></cell>
             <cell><m>26</m></cell></row>
     </tabular></sidebyside></p>
-<p><ol label="a">
+<p><ol marker="a.">
     <li>Evaluate <m>~f(8,20)</m>.</li>
     <li>Solve the equation <m>~f(x,y) = 62.~</m> Give your answer as an ordered pair.</li>
     <li>For which value(s) of <m>x</m> is the function <m>~f(x,y)~</m> decreasing?</li></ol></p></statement>
 
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
     <li><m>60</m> </li>
     <li><m>(12,20)</m> and <m>(20,10)</m></li>
     <li><m>x=4</m></li>

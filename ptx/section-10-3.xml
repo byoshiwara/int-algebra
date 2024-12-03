@@ -446,12 +446,12 @@ You can verify on your calculator that
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review solving exponential equations, see <xref ref="tkSolveExpEqn" text="custom"> Section 7.4.3 </xref> of the textbook.</p></aside>
 
-<example xml:id="example-solve-ln-equation"><statement><p>Solve each equation for <m>x</m>.<ol marker="a" cols="2">
+<example xml:id="example-solve-ln-equation"><statement><p>Solve each equation for <m>x</m>.<ol marker="a." cols="2">
 			<li><m>e^x = 0.24</m></li>
 			<li><m>\ln {(x)} = 3.5</m></li>
 		</ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 		<li><p>We convert the equation to logarithmic form and evaluate using a calculator.
 			<me>x = \ln {(0.24)} \approx -1.427</me></p></li>
 		<li><p>We convert the equation to exponential form and evaluate.
@@ -472,7 +472,7 @@ You can verify on your calculator that
         </pg-code>
     <statement>
             <p>Solve each equation. Round your answers to four decimal places.
-            <ol marker="a">
+            <ol marker="a.">
                 <li><p><m>\ln x =-0.2</m></p>
                 <p><m>x\approx</m><var name="$a" width="6"/></p></li>
                 <li><p><m>e^x = 8</m></p>
@@ -480,7 +480,7 @@ You can verify on your calculator that
             </ol></p>
     </statement>
         <solution>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
                 <li><p><m>0.8187 </m></p></li>
                 <li><p><m>2.0794</m></p></li>
             </ol></p>
@@ -489,11 +489,11 @@ You can verify on your calculator that
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Solve each equation. Round your answers to four decimal places.</p>
-         <p><ol marker="a" cols="2">
+         <p><ol marker="a." cols="2">
             <li><p><m>\ln {(x)} =-0.2</m></p></li>
             <li><p><m>e^x = 8</m></p></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
                 <li><p><m>0.8187 </m></p></li>
                 <li><p><m>2.0794</m></p></li>
     </ol></p></answer></exercise>
@@ -519,7 +519,7 @@ You can verify on your calculator that
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p> Which statement below explains why the equation <m>e^x=6.5</m> is easier to solve than <m>8^x=6.5</m> ?</p>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>8 is larger than 6.5.</p></li> 
             <li><p><m>k</m> is a constant.</p></li>
             <li><p>There is a button for log base <m>e</m> on the calculator, but not a button for log base 8.</p></li>
@@ -674,11 +674,11 @@ Thus, the growth law for the colony of bacteria can be written
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review percent increase, see <xref ref="PercentIncrease" text="custom"> Section 7.1.5 </xref> of the textbook.</p></aside>
 
 <example xml:id="example-population-growth-e"><statement><p>From 1990 to 2000, the population of Clark County, Nevada, grew by <m>6.4\%</m> per year. <m>~\alert{\text{[TK]}}~~</m> </p>
-<p><ol marker="a">
+<p><ol marker="a.">
 	<li>What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population <m>t</m> years later.</li>
 	<li>Write a growth formula for Clark County using base <m>e</m>.</li>
 </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 		<li><p>The growth factor was <m>b = 1 + r = 1.064</m>. The population <m>t</m> years later was
 			<me>P(t) = 768,000 (1.064)^t</me></p></li>
 		<li><p>We use the formula <m>P(t) = P_0 \cdot e^{kt}</m>, where <m>e^k = 1.064</m>. Solving for <m>k</m>, we find
@@ -702,7 +702,7 @@ Thus, the growth law for the colony of bacteria can be written
             $b = Formula("2.8*(1+$percent/100)**t");
         </pg-code>
     <statement><p>From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula <m>N(t) = 2.8e^{0.85t}</m>, where <m>t = 0</m> in 1994 and <m>N</m> is in millions. (Source: Los Angeles Times, September 6, 1999)</p>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>Evaluate <m>N(1)=</m><var name="$a" width="3"/> . By what percent did the number of Internet users grow in one year?</p>
             <p>About <var name="$percent" width="3"/>%</p></li>
             <li><p>Express the growth law in the form <m>N(t) = N_0 (1 + r)^t</m>. </p>
@@ -713,7 +713,7 @@ Thus, the growth law for the colony of bacteria can be written
             <p><m>e^k = 1 + r</m></p>
         </hint>
     <solution>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
                 <li><p><m>N(1)\approx 6.55</m>, <m>~134\%</m></p></li>
                 <li><p><m>N(t)\approx 2.8 (2.3396)^t </m></p></li>
             </ol></p>
@@ -724,11 +724,11 @@ Thus, the growth law for the colony of bacteria can be written
 <statement><p>From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula 
     <me>N(t) = 2.8e^{0.85t}</me> 
 where <m>t = 0</m> in 1994 and <m>N</m> is in millions. (Source: Los Angeles Times, September 6, 1999)</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Evaluate <m>N(1)</m>. By what percent did the number of Internet users grow in one year?</p></li>
         <li><p>Express the growth law in the form <m>~N(t) = N_0 (1 + r)^t</m>. (Hint: <m>e^k = 1 + r</m>.)</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
         <li><p><m>N(1)\approx 6.55</m>, <m>~134\%</m></p></li>
         <li><p><m>N(t)\approx 2.8 (2.3396)^t </m></p></li>
     </ol></p></answer></exercise>
@@ -760,7 +760,7 @@ Thus, for negative values of <m>k</m>, the function <m>P(t) = P_0 e^{kt}</m> des
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p> The natural log of a number between 0 and 1 is</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><p>positive.</p></li> 
             <li><p>negative.</p></li>
             <li><p>undefined.</p></li>
@@ -803,7 +803,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
         </pg-code>
     <statement><p>A scientist isolates <m>25</m> grams of krypton-91, which decays according to the formula
                 <me>N(t) = 25e^{-0.07t}</me> 
-        where <m>t</m> is in seconds.<ol marker="a">
+        where <m>t</m> is in seconds.<ol marker="a.">
             <li><p>Complete the table of values showing the amount of krypton-91 left at <m>10</m>-second intervals over the first minute.</p>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -843,7 +843,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
             <p>If <m>60\%</m> of the krypton-91 has decayed, <m>40\%</m> of the original <m>25</m> grams remains.</p>
         </hint>
     <solution>
-            <p><ol marker="a">
+            <p><ol marker="a.">
                 <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
                     <cell halign="left"><m>t</m></cell>
@@ -879,7 +879,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
 <statement><p>A scientist isolates <m>25</m> grams of krypton-91, which decays according to the formula
                 <me>N(t) = 25e^{-0.07t}</me>, 
         where <m>t</m> is in seconds.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Complete the table of values showing the amount of krypton-91 left at <m>10</m>-second intervals over the first minute.</p>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -905,7 +905,7 @@ Replacing <m>b</m> with <m>e^k</m>, we find that the decay law is
         <li><p>Write and solve an equation to answer the question: How long does it take for 60% of the krypton-91 to decay?</p> 
             <p>Hint: If <m>60\%</m> of the krypton-91 has decayed, <m>40\%</m> of the original <m>25</m> grams remains.</p></li>
         </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
                 <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
                     <cell halign="left"><m>t</m></cell>
@@ -955,7 +955,7 @@ where <m>P</m> is the principal invested and <m>r</m> is the interest rate.  <m>
 <aside><p><m>\alert{\text{[TK]}}~~</m>For an explanation of this formula, see <xref ref="CompCont" text="custom"> Investigation 10.3.7 </xref> below.</p></aside>
 
 <example xml:id="example-continuous-compounding"><statement><p>Suppose you invest $500 in an account that pays 8% interest compounded continuously. You leave the money in the account without making any additional deposits or withdrawals.
-	<ol marker="a">
+	<ol marker="a.">
 		<li>Write a formula that gives the value of your account <m>A(t)</m> after <m>t</m> years.</li>
 		<li>Make a table of values showing <m>A(t)</m> for the first 5 years.</li>
 		<li>Graph the function <m>A(t)</m>.</li>
@@ -963,7 +963,7 @@ where <m>P</m> is the principal invested and <m>r</m> is the interest rate.  <m>
 		<li>How long will it be before the account is worth $1000?</li>
 	</ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 		<li>We substitute 500 for <m>P</m>, and 0.08 for <m>r</m> to find
 			<me>A(t) = 500e^{0.08t}</me></li>
 		<li><p>We evaluate the formula for <m>A(t)</m> to obtain a table.</p>
@@ -1034,7 +1034,7 @@ where <m>P</m> is the principal invested and <m>r</m> is the interest rate.  <m>
     <me>A=P\left(1+\dfrac{r}{n} \right)^{nt} </me>
 where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>t</m> is the time period, in years.</p>
 
-<p><ol marker="1">
+<p><ol marker="1.">
 
 <li><p>Suppose you keep <m>\$1000</m> in an account that pays 8% interest. How much is the amount <m>A</m> after 1 year if the interest is compounded twice a year? Four times a year?
         <md><mrow>n = \alert{2}: A = 1000\left(1 + \frac{0.08}{\alert{2}} \right)^{\alert{2}(1)}= </mrow>
@@ -1076,7 +1076,7 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
 <li><p>Plot the values in the table from <m>n = 1</m> to <m>n = 12</m>, and connect them with a smooth curve. Describe the curve: What is happening to the value of <m>A</m>?</p></li>
 
 <li><p>In part (2), as you increased the value of <m>n</m>, the other parameters in the formula stayed the same. In other words, <m>A</m> is a function of <m>n</m>, given by <m>A = 1000 \left(1 + \dfrac{0.08}{n} \right)^n</m>. Use your calculator to graph A on successively larger intervals:
-            <ol marker="a">
+            <ol marker="a.">
                 <li><p><m>\text{Xmin} = 0, \text{Xmax} = 12; \text{Ymin} = 1080, \text{Ymax} = 1084</m></p></li>
                 <li><p><m>\text{Xmin} = 0, \text{Xmax} = 50; \text{Ymin} = 1080, \text{Ymax} = 1084</m></p></li>
                 <li><p><m>\text{Xmin} = 0, \text{Xmax} = 365; \text{Ymin} = 1080, \text{Ymax} = 1084</m></p></li>
@@ -1089,7 +1089,7 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
 <li><p>Is there an easier way to compute <m>A</m> under continues compounding? Yes! Compute <m>1000e^{0.08}</m> on your calculator. (Press <kbd>2nd</kbd>  <kbd>LN</kbd> to enter <m>e^x</m>.) Compare the value to your answer in part (5) for the limiting value. </p></li>
 
 <li><p>Repeat your calculations for two other interest rates, 15% and (an extremely unrealistic) 100%, again for an investment of $1000 for 1 year. In each case, compare the limiting value of <m>A</m>, and compare to the value of <m>1000e^r</m>.
-        <ol marker="a" cols="2">
+        <ol marker="a." cols="2">
             <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="right"/><col/>
                     <row>
                         <cell  halign="center" colspan="2"><m>r=0.15</m></cell></row>

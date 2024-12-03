@@ -11,20 +11,20 @@
 
 <subexercises><title>Warm Up</title>
 
-<exercise number="1"><statement><p>Solve the equation. Isolate the radical first, then square both sides of the equation. <ol marker="a" cols="2">
+<exercise number="1"><statement><p>Solve the equation. Isolate the radical first, then square both sides of the equation. <ol marker="a." cols="2">
     <li><m>-3\sqrt{z} + 14 = 8</m></li>
     <li><m>8-3\sqrt{9+2w} = -7</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>z=4</m></li>
     <li><m>w=8</m></li></ol></p></answer></exercise>         
 
-<exercise number="2"><statement><p>Square the binomial.<ol marker="a" cols="2">
+<exercise number="2"><statement><p>Square the binomial.<ol marker="a." cols="2">
     <li><m>(3x+4)^2</m></li>
     <li><m>(2\sqrt{x}-3)^2</m></li>
     <li><m>(4-\sqrt{x+3})^2</m></li>
     <li><m>(5-2\sqrt{2x-5})^2</m></li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol marker="a">
+<exercise number="3"><statement><p><ol marker="a.">
     <li><p>Complete the table of values and graph <m>y=\sqrt{x-4}</m>.</p>
     <sidebyside widths="45% 50%" valigns="middle middle">
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -93,7 +93,7 @@
     <li>13</li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a">
+<exercise number="4"><statement><p><ol marker="a.">
     <li><p>Complete the table of values and graph <m>y=4-\sqrt{x+3}</m>.</p>
     <sidebyside widths="45% 45%" valigns="middle middle">
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -136,7 +136,7 @@
      <li>Solve <m>~4-\sqrt{x+3}=1~</m> graphically and algebraically. Do your answers agree?</li></ol></p>
  </statement></exercise>
 
-<exercise number="5"><statement><p><ol marker="a">
+<exercise number="5"><statement><p><ol marker="a.">
     <li><p>Complete the table of values and graph <m>y=4-\sqrt[3]{x}</m>.</p>
     <sidebyside widths="45% 45%" valigns="middle middle">
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -181,7 +181,7 @@
                     \end{tikzpicture}]]>
                     </latex-image></image></sidebyside></li>
     <li>Solve <m>~4-\sqrt[3]{x}=6~</m> graphically and algebraically. Do your answers agree?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
             <li>
                 <sidebyside widths="45% 55%" valigns="middle middle">
                     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -229,7 +229,7 @@
                         </latex-image></image></sidebyside></li>        
     <li><m>-8</m></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><p><ol marker="a">
+<exercise number="6"><statement><p><ol marker="a.">
     <li><p>Complete the table of values and graph <m>y=3+\sqrt[3]{x-3}</m>.</p>
     <sidebyside widths="45% 45%" valigns="middle middle">
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -309,17 +309,17 @@
 <exercisegroup><introduction><p>For Problems 17 and 18, use absolute value bars as necessary to simplify the radicals.
 </p></introduction>
 
-<exercise number="17"><statement><p><ol marker="a" cols="3">
+<exercise number="17"><statement><p><ol marker="a." cols="3">
     <li><m>\sqrt{4x^2}</m></li>
     <li><m>\sqrt{(x-5)^2}</m></li>
     <li><m>\sqrt{x^2-6x+9}</m></li></ol></p></statement>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
         <li><m>2\abs{x}</m></li>
         <li><m>\abs{x-5}</m></li>
         <li><m>\abs{x-3}</m></li>
     </ol></p></answer></exercise>
 
-<exercise number="18"><statement><p><ol marker="a" cols="3">
+<exercise number="18"><statement><p><ol marker="a." cols="3">
     <li><m>\sqrt{9x^2y^4}</m></li>
     <li><m>\sqrt{(2x-1)^2}</m></li>
     <li><m>\sqrt{9x^2-6x+1}</m></li></ol></p></statement></exercise>
@@ -330,31 +330,31 @@
 <subexercises><title>Applications</title>
 
 <exercise number="19"><statement><p>If you are flying in an airplane at an altitude of <m>h</m> miles, on a clear day you can see a distance of <m>h</m> miles to the horizon, where 
-    <me>d=89.4\sqrt{h}</me><ol marker="a">
+    <me>d=89.4\sqrt{h}</me><ol marker="a.">
     <li>At what altitude will you be able to see for a distance of 100 miles?  How high is that in feet?</li>
     <li>Solve the formula for <m>h</m> in terms of <m>d</m>.</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li>1.25 mi; 6600 ft</li>
     <li><m>h=(\dfrac{d}{89.4})^2</m></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>If a gun is fired vertically into the air, the time it takes the bullet to return to the ground is given approximately by
         <me>t=\dfrac{1}{2}\sqrt{\dfrac{2h}{g}}</me>
-where <m>h</m> is the greatest height the bullet reaches in meters, and <m>g</m> is the acceleration due to gravity, 9.8 meters per second squared.<ol marker="a">
+where <m>h</m> is the greatest height the bullet reaches in meters, and <m>g</m> is the acceleration due to gravity, 9.8 meters per second squared.<ol marker="a.">
     <li>If the bullet returns to earth in 12 seconds, what was the greatest height it reached?</li>
     <li>Solve the formula for <m>h</m> in terms of <m>g</m> and <m>t</m>.</li></ol></p></statement></exercise>
 
 <exercise number="21"><statement><p>The height of a cylindrical storage tank is four times its radius. If the tank holds <m>V</m> cubic inches of liquid, its radius in inches is
     <me>r=\sqrt[3]{\dfrac{V}{12.57}}</me>
-<ol marker="a">
+<ol marker="a.">
     <li>What is the volume of a tank whose radius is 3 inches?</li>
     <li>Solve the formula for <m>V</m> in terms of <m>r</m>.</li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li>339.39 cubic in</li>
     <li><m>V=12.57r^3</m></li>
 </ol></p></answer></exercise>
 
 <exercise number="22"><statement><p>In order for a windmill to generate <m>P</m> watts of power, the velocity of the wind, in miles per hour, must be
-    <me>v=\sqrt[3]{\dfrac{P}{0.015}}</me><ol marker="a">
+    <me>v=\sqrt[3]{\dfrac{P}{0.015}}</me><ol marker="a.">
    <li>How much power will a wind speed of 30 mph generate?</li>
    <li>Solve the formula for <m>P</m> in terms of <m>v</m>.</li></ol></p></statement></exercise>
 

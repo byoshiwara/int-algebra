@@ -47,7 +47,7 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
 <introduction>
 
 <assemblage><title>Strategy for solving linear equations</title>
-    <p><ol marker="1">
+    <p><ol marker="1.">
 <li>Simplify each side of the equation:  
     apply the distributive law, combine like terms.</li>
 <li>Use addition and subtraction to get all the variable terms on one 
@@ -104,7 +104,7 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
 The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p></solution></example>
 
 <example><statement><sidebyside widths="65% 30%" margins="0% 0%"><p>Which of the following ordered pairs are solutions of the equation whose graph is shown?
-    <ol marker="a" cols="2">
+    <ol marker="a." cols="2">
         <li><m>(-3,-2)</m></li>
         <li><m>(-5,0)</m></li>
         <li><m>(1,-4)</m></li>

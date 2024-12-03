@@ -48,14 +48,14 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
              partialCredit => 1,
             ); 
         </pg-code> 
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
             <li><p>Solve the system algebraically:
                     <md><mrow>y \amp= x^2 - 8x + 17</mrow>
                         <mrow>y \amp{}+ 4x =13</mrow></md></p>
                 <p>Solution: <var name="$answer" width="6" evaluator="$my_evaluator" /> Note: list solutions as ordered pairs.</p> </li>
             <li><p>Graph both equations, and show the solutions on the graph. </p></li></ol></p>
         </statement>
-        <solution><p><ol marker="a" cols="2">
+        <solution><p><ol marker="a." cols="2">
                 <li><p><m>(2,5) </m></p></li>
                 <li><p>A graph is below.</p></li></ol></p>
         </solution>
@@ -84,13 +84,13 @@ The solutions are 15 and 80, as we found from the graph.</p></solution></example
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
             <li><p>Solve the system algebraically:
                     <md><mrow>y \amp= x^2 - 8x + 17</mrow>
                         <mrow>y \amp{}+ 4x =13</mrow></md></p></li>
             <li><p>Graph both equations, and show the solutions on the graph. </p></li>
     </ol></p></statement>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
                 <li><p><m>(2,5) </m></p></li>
                 <li><image width="55%" xml:id="fig-ex-9-5-1ans"><description>parabola and line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -140,14 +140,14 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
             ); 
 
         </pg-code> 
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
             <li><p>Solve the system algebraically:
                     <md><mrow>y \amp= x^2 - 6x - 7</mrow>
                         <mrow>y \amp= 13 - x^2</mrow></md></p>
                 <p>Solutions: <var name="$answer" width="12" evaluator="$my_evaluator" /> Note: list solutions as ordered pairs, and use a comma to separate different solutions.</p> </li>
             <li><p>Graph both equations, and show the solutions on the graph.</p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>(-2,9), (5,-12) </m></p></li>
                 <li><p>A graph is below.</p></li></ol></p>
     </solution></webwork>
@@ -157,13 +157,13 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 2</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
             <li><p>Solve the system algebraically:
                     <md><mrow>y \amp= x^2 - 6x - 7</mrow>
                         <mrow>y \amp= 13 - x^2</mrow></md></p></li>
             <li><p>Graph both equations, and show the solutions on the graph.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
             <li><p><m>(-2,9), (5,-12) </m></p></li>
             <li><image width="55%" source="images/fig-ex-9-5-2ans"><description>two parabolas</description></image></li>
         </ol></p></answer></exercise>

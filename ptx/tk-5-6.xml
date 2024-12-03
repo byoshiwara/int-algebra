@@ -73,14 +73,14 @@ To write the absolute value of some other algebraic expression, we replace <m>x<
 <p>Recall that square brackets on an interval mean that the endpoints are included, and round brackets mean that the endpoints are not included.</p>
 
 <example><statement><p>Write each set with interval notation, and graph the set on a number line.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>3 \le x \lt 6</m></li>
     <li><m>x \ge -9</m></li>
     <li><m>x \le 1~\text{or}~x\gt 4</m></li>
     <li><m>-8 \lt x \le 5~\text{or}~-1\le x \lt 3</m></li>
 </ol></p></statement>
  
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p><m>[3,6).</m> This is called a half-open or half-closed interval. <m>3</m> is included in the interval, but <m>6</m> is not included.</p>
     <image width="70%" source="images/fig-2-5-1.png"><description>interval</description></image></li>
     <li><p><m>[-9, \infty).</m> We use round brackets next to the symbol <m>\infty</m> because <m>\infty</m> is not a specific number and is not included in the set.</p>
@@ -92,12 +92,12 @@ To write the absolute value of some other algebraic expression, we replace <m>x<
 </ol></p></solution></example>
 
 <exercise><statement><p>Write each set with interval notation, and graph the set on a number line.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>-5 \lt x \le 3</m></li>
     <li><m>-6 \lt x \lt \infty</m></li>
     <li><m>x \lt -3 ~\text{or}~ x\ge -1</m></li>
     <li><m>-6 \le x \lt-4 ~\text{or}~ -2 \lt x \le 0</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><p><m>(-5,-3]</m></p>
             <image width="70%" source="images/fig-2-5-5.png"><description>interval</description></image></li>
         <li><p><m>(-6, \infty)</m></p>
@@ -137,13 +137,13 @@ To write the absolute value of some other algebraic expression, we replace <m>x<
     <li><m>d=rt</m></li>
     <li><m>P=rW</m></li>
 </ul></p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>The distance traveled at a constant speed.</li>
         <li>The simple interest on an investment.</li>
         <li>The part specified by a percentage.</li>
         <li>The profit on sales of an item.</li>
 </ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
     <li><p><m>d=rt</m></p>
         <p><m>~~d</m> stands for the distance traveled at speed <m>r</m> for time <m>t</m>.</p></li>
     <li><p><m>I=Prt</m></p>
@@ -162,14 +162,14 @@ To write the absolute value of some other algebraic expression, we replace <m>x<
     <li><m>V=\pi r^2h</m></li>
     <li><m>V=\dfrac{4}{3}\pi r^3</m></li>
 </ul></p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>The volume of a cylinder.</li>
         <li>The area of a circle.</li>
         <li>The area of a rectangle.</li>
         <li>The perimeter of a rectangle.</li>
         <li>The volume of a sphere.</li>
         <li>The circumference of a circle.</li></ol></p></statement>
-<answer><p><ol label="a">
+<answer><p><ol marker="a.">
     <li><p><m>V=\pi r^2h</m></p>
         <p><m>~~V</m> stands for the volume, <m>r</m> for the radius, and <m>h</m> for the height of the cylinder.</p></li>
     <li><p><m>A=\pi r^2</m></p> 

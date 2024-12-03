@@ -29,9 +29,9 @@
 </subsection>
 
 <subsection><title>Key Concepts</title>
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><assemblage><title>Horizontal and Vertical Lines</title>
-        <p><ol marker="1">
+        <p><ol marker="1.">
             <li><p>The equation of the <term>horizontal line</term> passing through <m>(0, b)</m> is
                 <md><mrow>y=b</mrow></md></p></li>
             <li><p>The equation of the <term>vertical line</term> passing through <m>(a,0)</m> is
@@ -42,7 +42,7 @@
         <p>The slope of a <term>vertical line</term> is <em>undefined</em>.</p>
     </assemblage></li>
     <li><assemblage><title>Parallel and Perpendicular Lines</title>
-        <p><ol marker="1">
+        <p><ol marker="1.">
             <li><p>Two lines are <term>parallel</term> if their slopes are equal, that is, if
                 <md><mrow>m_1 = m_2</mrow></md>
                 or if both lines are vertical.</p></li>
@@ -76,7 +76,7 @@
         </p></assemblage></li>
     <li><assemblage><title>Conic Sections</title>
         <p>The graph of <m>Ax^2+Cy^2+Dx+Ey+F=0</m> is
-            <ol marker="1">
+            <ol marker="1.">
                 <li><p>a circle of <m>A=C</m>.</p></li>
                 <li><p>a parabola if <m>A=0</m> or <m>C=0</m> (but not both).</p></li>
                 <li><p>an ellipse if <m>A</m> and <m>C</m> have the same sign.</p></li>

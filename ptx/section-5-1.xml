@@ -10,7 +10,7 @@
 
  <p>Suppose that an outbreak of cholera follows severe flooding in an isolated town of 5000 people. Initially (Day 0), 40 people are infected. Every day after that, 25% of those still healthy fall ill.</p>
 
-<p><ol marker="1">
+<p><ol marker="1.">
 <li><p>At the beginning of the first day (Day 1), how many people are still healthy? How many will fall ill during the first day? What is the total number of people infected after the first day?</p></li>
 
 <li><p>Check your results against the table below. Subtract the total number of infected residents from 5000 to find the number of healthy residents at the beginning of the second day. Then fill in the rest of the table for 10 days. (Round off decimal results to the nearest whole number.)</p>
@@ -186,14 +186,14 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>What distinguishes a function from other variable relationships?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
     <li><p>There cannot be two output values for a single input value.</p></li>
     <li><p>We can display the variables as ordered pairs.</p></li>
     <li><p>The variables are related by a formula.</p></li>
     <li><p>The values of the input and output variables must be different</p></li>
 </ol></p></statement></exercise>
 
-<example  xml:id="example-functions"><p><ol marker="a">
+<example  xml:id="example-functions"><p><ol marker="a.">
     <li><p>The distance, <m>d</m>, traveled by a car in 2 hours is a function of its speed, <m>r</m>. If we know the speed of the car, we can determine the distance it travels by the formula <m>d = r \cdot 2</m>.</p></li>
     <li><p>The cost of a fill-up with unleaded gasoline is a function of the number of gallons purchased. The gas pump represents the function by displaying the corresponding values of the input variable (number of gallons) and the output variable (cost).</p></li>
     <li><p>Score on the Scholastic Aptitude Test (SAT) is not a function of score on an IQ test, because two people with the same score on an IQ test may score differently on the SAT; that is, a person’s score on the SAT is not uniquely determined by his or her score on an IQ test.</p></li>
@@ -224,7 +224,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             );
         </pg-code>
 
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>As part of a project to improve the success rate of freshmen, the counseling department studied the grades earned by a group of students in English and algebra. Do you think that a student's grade in algebra is a function of his or her grade in English? <var name="$YNgrade" form="popup"/></p>
         <p>Explain why or why not.</p>
         <p><var name="$WHYgrade" form="buttons"/></p></li>
@@ -232,18 +232,18 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
         <p>Explain why or why not.</p>
         <p><var name="$WHYcalories" form="buttons"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><p>No, students with the same grade in English can have different grades in algebra.</p></li>
             <li><p>Yes, the number of calories is proportional to the number of fluid ounces.</p></li></ol></p>
     </solution>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
         <li><p>As part of a project to improve the success rate of freshmen, the counseling department studied the grades earned by a group of students in English and algebra. Do you think that a student's grade in algebra is a function of his or her grade in English? Explain why or why not.</p></li>
         <li><p>Phatburger features a soda bar, where you can serve your own soft drinks in any size. Do you think that the number of calories in a serving of Zap Kola is a function of the number of fluid ounces? Explain why or why not.</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><p>No, students with the same grade in English can have different grades in algebra.</p></li>
             <li><p>Yes, the number of calories is proportional to the number of fluid ounces.</p></li>
         </ol></p></solution></exercise>
@@ -254,7 +254,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <subsection><title>Functions Defined by Tables</title>
 <p>When we use a table to describe a function, the first variable in the table (the left column of a vertical table or the top row of a horizontal table) is the input variable, and the second variable is the output. We say that the output variable <em>is a function of</em> the input.</p>
 
-<example xml:id="example-table-functions"><statement><p><ol marker="a">
+<example xml:id="example-table-functions"><statement><p><ol marker="a.">
     <li><p>The table below shows data on sales compiled over several years by the accounting office for Eau Claire Auto Parts, a division of Major Motors. In this example, the year is the input variable, and total sales is the output. We say that total sales, <m>S</m>, <em>is a function of</em> <m>t</m>.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -427,7 +427,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             );
         </pg-code>
 
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><tabular width="63%" margins="0% 37%" top="major" halign="center" right="minor" left="minor" bottom="minor"> <row bottom="minor">
             <cell><m>x</m></cell>
             <cell><m>3.5</m></cell>
@@ -475,7 +475,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
         </ol></p>
     </statement>
 
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><p>No, for example, <m>x=3.5</m> corresponds both to <m>y=2.5</m> and also to <m>y=4</m>.</p></li>
         <li><p>Yes, each value of <m>x</m> has exactly one value of <m>y</m> associated with it.</p></li>
         </ol></p>
@@ -484,7 +484,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Decide whether each table describes <m>y</m> as a function of <m>x</m>. Explain your choice.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
         <li><tabular width="63%" margins="0% 37%" top="major" halign="center" right="minor" left="minor" bottom="minor"> <row bottom="minor">
             <cell><m>x</m></cell>
             <cell><m>3.5</m></cell>
@@ -527,7 +527,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
         </tabular></li>
         </ol></p></statement>
 
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><p>No, for example, <m>x=3.5</m> corresponds both to <m>y=2.5</m> and also to <m>y=4</m>.</p></li>
         <li><p>Yes, each value of <m>x</m> has exactly one value of <m>y</m> associated with it.</p></li>
         </ol></p></solution></exercise>
@@ -553,7 +553,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>How would you know if a table of values does not come from a function?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>The output values are all the same.</p></li>
         <li><p>The input values are not evely spaced.</p></li>
         <li><p>Two different input values have the same output value.</p></li>
@@ -567,7 +567,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <example xml:id="example-sun-hours"><statement>
     <p>The graph  shows the number of hours, <m>H</m>, that the sun is above the horizon in Peoria, Illinois, on day <m>t</m>, where <m>t = 0</m> on January 1.</p>
     <sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%">        
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>Which variable is the input, and which is the output?</p></li>
             <li><p>How many hours of sunlight are there in Peoria on day 150?</p></li>
             <li><p>On which days are there 12 hours of sunlight?</p></li>
@@ -575,7 +575,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
         </ol></p>
         <image source="images/fig-sun-hours" ><description>Peoria sunlight hours</description></image>
     </sidebyside></statement> 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The input variable, <m>t</m>, appears on the horizontal axis. The number of daylight hours, <m>H</m>, is a function of the date. The output variable appears on the vertical axis.</p></li>
     <li><p>The point on the curve where <m>t = 150</m> has <m>H \approx 14.1</m>, so Peoria gets about 14.1 hours of daylight when <m>t = 150</m>, which is at the end of May.</p></li>
     <li><p><m>H = 12</m> at the two points where <m>t \approx 85</m> (in late March) and <m>t \approx 270</m> (late September).</p></li>
@@ -624,7 +624,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
             );            
         </pg-code>
 
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Which variable is the input, and which is the output?</p>
         <p><var name="$input" form="buttons"/></p></li>
         <li><p>What is the elevation at mile 20?</p>
@@ -638,7 +638,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
     </ol></p>
     </statement>
 
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><p>The input variable is <m> d </m>, and the output variable is <m> a </m>.</p></li>
         <li><p>Approximately 210 feet</p></li>
         <li><p>Approximately where <m> d\approx 5 </m>, <m> d\approx 11 </m>, <m> d\approx 12 </m>, <m> d\approx 16 </m>, <m> d\approx 17.5 </m>, and <m> d\approx 18 </m></p></li>
@@ -650,7 +650,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 <exercise component="main"><title>Practice 3</title>
 <statement><p>The graph shows the elevation in feet, <m>a</m>, of the Los Angeles Marathon course at a distance <m>d</m> miles into the race. (Source: <em>Los Angeles Times</em>, March 3, 2005)</p>
     <image width="75%" source="images/fig-LA-marathon" ><description>LA marathon elevation</description></image>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Which variable is the input, and which is the output?</p></li>
         <li><p>What is the elevation at mile 20?</p></li>
         <li><p>At what distances is the elevation 150 feet?</p></li>
@@ -658,7 +658,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
         <li><p>The runners pass by the Los Angeles Coliseum at about 4.2 miles into the race. What is the elevation there?</p></li>
     </ol></p></statement>
 
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><p>The input variable is <m> d </m>, and the output variable is <m> a </m>.</p></li>
         <li><p>Approximately 210 feet</p></li>
         <li><p>Approximately where <m> d\approx 5 </m>, <m> d\approx 11 </m>, <m> d\approx 12 </m>, <m> d\approx 16 </m>, <m> d\approx 17.5 </m>, and <m> d\approx 18 </m></p></li>
@@ -709,7 +709,7 @@ The variable <m>t</m> is called the <term>input</term> variable, and <m>C</m> is
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>Name three ways to describe a function.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>By inputs, outputs, or evaluation</p></li>
         <li><p>By tables, equations, or graphs</p></li>
         <li><p>By the intercepts, the slope, or the vertex</p></li>
@@ -780,7 +780,7 @@ We see that</p>
           2, 
         );
     </pg-code>
-<statement><p>True or False.<ol marker="a">
+<statement><p>True or False.<ol marker="a.">
     <li><p>The notation <m>f(t)</m> indicates the product of  <m>f</m> and <m>t</m>. <var name="$False" form="popup"/>
             </p></li>
     <li><p> If <m>y=f(x)</m>, then <m>f(x)</m> gives the value of the input variable. <var name="$False" form="popup"/>
@@ -789,7 +789,7 @@ We see that</p>
             </p></li>
     <li><p>In the equation <m>d=g(n)</m>, the letters <m>d</m>, <m>g</m>, and <m>n</m> are variables. <var name="$False" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li>False</li>
             <li>False</li>
             <li>False</li>
@@ -799,7 +799,7 @@ We see that</p>
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>True or False.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>The notation <m>f(t)</m> indicates the product of  <m>f</m> and <m>t</m>.</p></li>
     <li><p> If <m>y=f(x)</m>, then <m>f(x)</m> gives the value of the input variable.</p></li>
     <li><p>If <m>Q</m> is a function of <m>M</m>, we may write <m>M=f(Q)</m>.</p></li>
@@ -820,13 +820,13 @@ We see that</p>
               2, # index of correct answer; could also just be the correct answer
             );               
             </pg-code>
-        <statement><p><ol marker="a">
+        <statement><p><ol marker="a.">
             <li><p>Use function notation to state that <m>H</m> is a function of <m>t</m>.</p>
             <p><var name="$function" form="buttons"/></p></li>
             <li><p>What does the statement <m>F(15) = 9.7</m> mean in the context of the problem?</p>
             <p><var name="$meaning" form="buttons"/></p></li>
         </ol></p></statement>
-        <solution><p><ol marker="a">
+        <solution><p><ol marker="a.">
             <li><p><m>H = F(t)</m></p></li>
             <li><p>The sun is above the horizon in Peoria for 9.7 hours on January 16.</p></li></ol></p>
         </solution>
@@ -834,11 +834,11 @@ We see that</p>
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Let <m>F</m> be the name of the function defined by the graph in <xref ref="example-sun-hours" text="type-global"/>, the number of hours of daylight in Peoria <m>t</m> days after January 1.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><p>Use function notation to state that <m>H</m> is a function of <m>t</m>.</p></li>
             <li><p>What does the statement <m>F(15) = 9.7</m> mean in the context of the problem?</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><p><m>H = F(t)</m></p></li>
             <li><p>The sun is above the horizon in Peoria for 9.7 hours on January 16.</p></li>
     </ol></p></solution></exercise>
@@ -864,7 +864,7 @@ We see that</p>
 
 <exercise component="main"><title>QuickCheck 5</title>
 <statement><p>Use function notation to write the statement "<m>L</m> defines <m>w</m> as a function of <m>p</m>."</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
             <li><p><m>L=w(p)</m></p></li>
             <li><p><m>w=L(p)</m></p></li>
             <li><p><m>p=L(w)</m></p></li>
@@ -937,7 +937,7 @@ We see that</p>
         <cell>116</cell>
         <cell>112</cell></row>
     </tabular> 
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Find <m> f(25) </m> and <m> f(50) </m>.</p>
             <p><m> f(25)= </m><var name="$r0" width="3"/></p>
             <p><m> f(50)= </m><var name="$r1" width="3"/></p></li>
@@ -945,7 +945,7 @@ We see that</p>
             <p><m> a= </m><var name="$a0" width="3"/></p></li></ol></p>
     </statement>
     <solution>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p><m> f (25) = 146 </m>,  <m> f(50) = 127 </m></p></li>
             <li><p><m> a = 40 </m></p></li></ol></p>
     </solution>
@@ -980,12 +980,12 @@ We see that</p>
         <cell>116</cell>
         <cell>112</cell></row>
     </tabular> 
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Find <m> f(25) </m> and <m> f(50) </m>.</p></li>
         <li><p>Find a value of <m> a </m> for which <m> f(a) = 135 </m>.</p></li>
     </ol></p></statement>
     <solution>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p><m> f (25) = 146 </m>,  <m> f(50) = 127 </m></p></li>
             <li><p><m> a = 40 </m></p></li>
         </ol></p></solution></exercise>
@@ -1011,7 +1011,7 @@ We see that</p>
 
 <exercise component="main"><title>QuickCheck 6</title>
 <statement><p>If <m>n=f(a)</m>, what are the input and output variables?</p>
-        <p><ol marker = "a">
+        <p><ol marker = "a.">
         <li><p><m>f</m> is the output and <m>n</m> is the input</p></li>
         <li><p><m>a</m> is the input and <m>f</m> is the output</p></li>
         <li><p><m>a</m> is the input and<m>n</m> is the output</p></li>
@@ -1021,12 +1021,12 @@ We see that</p>
 <p>To evaluate a function described by an equation, we simply substitute the given input value into the equation to find the corresponding output, or function value.</p>
 
 <example xml:id="example-evaluate-function"><statement>
-    <p>The function <m>H</m> is defined by <m>~H=f(s) = \dfrac{\sqrt{s+3}}{s}.~~</m> Evaluate the function at the following values.<ol marker = "a" cols="2">
+    <p>The function <m>H</m> is defined by <m>~H=f(s) = \dfrac{\sqrt{s+3}}{s}.~~</m> Evaluate the function at the following values.<ol marker = "a." cols="2">
         <li><p><m>s=6</m></p></li>
         <li><p><m>s=-1</m></p></li></ol></p>
     </statement>
 
-<solution><p><ol marker = "a">
+<solution><p><ol marker = "a.">
         <li><p><m>f(\alert{6})=\dfrac{\sqrt{\alert{6}+3}}{\alert{6}}=
             \dfrac{\sqrt{9}}{6}=\dfrac{3}{6}=\dfrac{1}{2}</m>. Thus, <m>f(6)=\dfrac{1}{2}</m>.</p></li>
         <li><p><m>f(\alert{-1})=\dfrac{\sqrt{\alert{-1}+3}}{\alert{-1}}=

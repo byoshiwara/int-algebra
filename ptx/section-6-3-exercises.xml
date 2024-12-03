@@ -11,7 +11,7 @@
 
 <subexercises><title>Warm Up</title>
 
-<exercise number="1"><statement><p>Combining powers and roots<ol marker="a">
+<exercise number="1"><statement><p>Combining powers and roots<ol marker="a.">
     <li><p>Start with 8, square it, and then take the cube root of the result.  That is:  
             <me>\sqrt[3]{8^2} = \sqrt[3]{?}=</me>
     Now start with 8, take the cube root, then square the result.  That is:    
@@ -19,19 +19,19 @@
     <li><p>Do you get the same answers for parts (a) and (b)? You should! Now try the same thing with some irrational numbers. Use your calculator, and round your answers to two decimal places.
         <md><mrow>\sqrt{3^5} \amp =  \amp \amp (\sqrt{3})^5 = </mrow>
             <mrow>(\sqrt[3]{58})^4\amp = \amp \amp \sqrt[3]{58^4}=</mrow></md></p></li>
-    <li><p>Choose the most convenient order of operations to evaluate each root without using a calculator.<ol marker="i" cols="2">
+    <li><p>Choose the most convenient order of operations to evaluate each root without using a calculator.<ol marker="i." cols="2">
             <li><m>\sqrt[5]{32^3}</m></li>
             <li><m>-\sqrt[3]{27^4}</m></li></ol></p></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li>4; 4</li>
     <li>15.59; 15.59</li>
     <li><m>8;~-81</m></li></ol></p></answer></exercise>         
 
-<exercise number="2"><statement><p>Using exponents<ol marker="a">
+<exercise number="2"><statement><p>Using exponents<ol marker="a.">
     <li><p>Simplify <m>(\sqrt[3]{8})^2</m> using exponents as follows. Fill in the blanks with the correct exponents. 
         <me>(\sqrt[3]{8})^2 = (8^{<fillin characters="2"/>})^2 = 8^{<fillin characters="2"/>}</me></p></li>               
     <li>Use your calculator to compute <m>8^{2/3}</m>.  Don't forget to put parentheses around the exponent.</li>
-    <li><p>Approximate each power to the nearest thousandth.<ol marker="1" cols="2">
+    <li><p>Approximate each power to the nearest thousandth.<ol marker="1." cols="2">
         <li><m>12^{5/6}</m></li>
         <li><m>\sqrt[3]{6^4}</m></li>
         <li><m>37^{-2/3}</m></li>
@@ -54,7 +54,7 @@
     <li><p><m>-2x^5y</m></p></li></ol></p>
 </answer></exercise>
 
-<exercise number="4"><statement><p>Evaluate each power without using a calculator.<ol marker="a" cols="3">
+<exercise number="4"><statement><p>Evaluate each power without using a calculator.<ol marker="a." cols="3">
         <li><p><m>81^{3/4} </m></p></li>
         <li><p><m>125^{2/3} </m></p></li>
         <li><p><m>625^{0.75} </m></p></li>
@@ -178,7 +178,7 @@
 </exercise>
 </exercisegroup>
 
-<exercise number="31"><statement><p><ol marker="a">
+<exercise number="31"><statement><p><ol marker="a.">
     <li><p>Complete the table of values, then graph both functions on the grid, along with the graph of <m>y=x</m>.
             <me>f(x) = x^{4/3},\quad g(x)=x^{3/2}</me></p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -274,7 +274,7 @@
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside></answer></exercise>
 
-<exercise number="32"><statement><p><ol marker="a">
+<exercise number="32"><statement><p><ol marker="a.">
     <li><p>Complete the table of values, then graph both functions on the grid, along with the graph of <m>y=x</m>.
             <me>f(x) = x^{3/4}, \quad g(x)=x^{2/3}</me></p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -324,7 +324,7 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 33 and 34, solve the equations, and locate the corresponding points on the graphs in Problems 31 and 32.</p></introduction>
 
-<exercise number="33"><statement><p><ol marker="a">
+<exercise number="33"><statement><p><ol marker="a.">
     <li><p><m>x^{4/3}=4 </m></p></li>
     <li><p><m>x^{3/2}=6</m></p></li>
 </ol></p></statement>
@@ -333,7 +333,7 @@
     <li><p><m>3.30</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="34"><statement><p><ol marker="a">
+<exercise number="34"><statement><p><ol marker="a.">
     <li><p><m>x^{3/4}=4 </m></p></li>
     <li><p><m>x^{2/3}=6</m></p></li>
 </ol></p></statement></exercise>
@@ -343,7 +343,7 @@
 <subexercises><title>Applications</title>
 
 <exercise number="35"><statement><p>During a flu epidemic in a small town, health officials estimate that the number of people infected <m>t</m> days after the first case was discovered is given by
-    <me>I(t) =  50 t^{3/5}</me> <ol marker="a">
+    <me>I(t) =  50 t^{3/5}</me> <ol marker="a.">
     <li><p>Complete the table of values.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -362,7 +362,7 @@
     <li>How long will it be before 300 people are ill?</li>
     <li>Graph the function <m>I(t)</m> on your calculator, and verify your answer to part (b) on your graph.</li></ol></p>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
@@ -382,7 +382,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="36"><statement><p>The research division of an advertising firm estimates that the number of people who have seen their ads <m>t</m> days after the campaign begins is given by the function
-    <me>N(t) =  2000 t^{5/4}</me> <ol marker="a">
+    <me>N(t) =  2000 t^{5/4}</me> <ol marker="a.">
     <li><p>Complete the table of values.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -469,12 +469,12 @@ where <m>S</m> is the number of species on an island of area <m>A</m> square kil
             <cell><m>0.70</m></cell></row>
         <row><cell>Heart rate</cell>
             <cell><m>-0.25</m></cell></row>
-    </tabular></sidebyside><p><ol marker="a">
+    </tabular></sidebyside><p><ol marker="a.">
     <li><p>The average body mass of a dolphin is about 140 kilograms, twice the body mass of an average human male.
     Using the allometric equation above, calculate the ratio of the brain mass of a dolphin to that of a human.</p></li>
     <li><p>A good-sized brown bear weighs about 280 kilograms, twice the weight of a dolphin. Calculate the ratio of the brain mass of a brown bear to that of a dolphin.</p></li>
     <li><p>Use a ratio to compare the heartbeat frequencies of a dolphin and a human, and those of a brown bear and a dolphin. </p></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li>1.62</li>
     <li>1.62</li>
     <li>0.84; 0.84</li></ol></p></answer></exercise>
@@ -483,7 +483,7 @@ where <m>S</m> is the number of species on an island of area <m>A</m> square kil
     <me>y = 500x^{-0.29}</me>
 which approximately models the data. (Source: Alexander, 1992)</p>
     <sidebyside width="40%"><image source="images/fig-power-cyclist"><description>graph</description></image></sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>As represented by the graph, which variable is the input, and which is the output?</li>
     <li>The athlete maintained 650 watts of power for 40 seconds.  What power output does the equation predict for 40 seconds?</li>
     <li>The athlete maintained 300 watts of power for 10 minutes. How long does the equation predict that power output can be maintained?</li>
@@ -492,14 +492,14 @@ which approximately models the data. (Source: Alexander, 1992)</p>
 
 <exercise number="41"><statement><p>Birds’ eggs typically lose 10%–20% of their mass during incubation. The embryo metabolizes lipid during growth, and this process releases water vapor through the porous shell. The incubation time for birds’ eggs is a function of the mass of the egg and has been experimentally determined as
     <me>I(m) = 12.0 m^{0.217}</me>
-where <m>m</m> is measured in grams and <m>I</m> in days. (Source: Burton, 1998) <ol marker="a">
+where <m>m</m> is measured in grams and <m>I</m> in days. (Source: Burton, 1998) <ol marker="a.">
     <li>Calculate the incubation time (to the nearest day) for the wren, whose eggs weigh about 2.5 grams, and the greylag goose, whose eggs weigh 46 grams.</li>
     <li>The rate of water loss from the egg is also a function of its mass and appears to follow the rule
         <me>W(m) = 0.015 m^{0.742}</me>
     Combine the functions <m>I(m)</m> and <m>W(m)</m> to calculate the fraction of the initial egg mass that is lost during the entire incubation period.</li>
     <li>Explain why your result shows that most eggs lose about 18% of their mass during incubation.</li></ol></p>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li>15 days, 28 days</li>
     <li><m>\dfrac{I(m)\times W(m)}{m} = 0.18 m^{-0.041}</m></li>
     <li><m>m^{-0.041}</m> is close to 1</li></ol></p></answer></exercise>
@@ -509,22 +509,22 @@ where <m>m</m> is measured in grams and <m>I</m> in days. (Source: Burton, 1998)
 where <m>m</m> is measured in grams and <m>I</m> in days. (See Problem 41.) Before hatching, the eggs take in oxygen
 at the rate of
     <me>O(m) = 22.2 m^{0.77}</me>
-in milliliters per day. (Source: Burton, 1998) <ol marker="a">
+in milliliters per day. (Source: Burton, 1998) <ol marker="a.">
     <li>Combine the functions <m>I(m)</m> and <m>O(m)</m> to calculate the total amount of oxygen taken in by the egg during its incubation.</li>
     <li>Use your result from part (a) to explain why total oxygen consumption per unit mass is approximately inversely proportional to incubation time. (Oxygen consumption is a reliable indicator of metabolic rate, and it is reasonable that incubation time should be inversely proportional to metabolic rate.)</li>
     <li>Predict the oxygen consumption per gram of a herring gull’s eggs, given that their incubation time is 26 days. (The actual value is 11 milliliters per day.)</li></ol></p></statement></exercise>
 
 <exercise number="43"><statement><p>Kepler’s law gives a relation between the period, <m>p</m>, of a planet’s revolution and its average distance, <m>a</m>, from the Sun:
     <me>p^2 = Ka^3</me>
-where <m>K = 1.243 \times 10^{-24}</m>, <m>a</m> is measured in miles, and <m>p</m> is measured in years.<ol marker="a">
+where <m>K = 1.243 \times 10^{-24}</m>, <m>a</m> is measured in miles, and <m>p</m> is measured in years.<ol marker="a.">
     <li>Solve Kepler’s law for <m>p</m> in terms of <m>a</m>.</li>
     <li>Find the period of Mars if its average distance from the Sun is <m>1.417 \times 10^8</m> miles.</li></ol></p>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>p=K^{1/2}a^{3/2}</m></li>
     <li>1.88 years</li></ol></p></answer></exercise>
 
-<exercise number="44"><statement><p>Refer to Kepler's law, <m>p^2=Ka^3</m>, in Problem 43.<ol marker="a">
+<exercise number="44"><statement><p>Refer to Kepler's law, <m>p^2=Ka^3</m>, in Problem 43.<ol marker="a.">
     <li>Solve Kepler’s law for <m>a</m> in terms of <m>p</m>.</li>
     <li>The period of Venus is 0.615 years. Find the distance from Venus to the Sun.</li></ol></p></statement></exercise> 
 

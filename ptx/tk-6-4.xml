@@ -7,21 +7,21 @@
 <p>To simplify a radical, we factor out the largest perfect square.</p>
 
 <example><statement><p>Find the missiing factor.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>60x^9 = 3x^3 \cdot~</m> ?</li>
 	<li><m>9x^3 - 3x^9 \cdot~</m> ?</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>We mentally divide <m>60x^9</m> by <m>3x^3</m> to find <m>\dfrac{60x^9}{3x^3} = 20x^6</m>. The missing factor is <m>20x^6</m>.</li>
 	<li>We mentally divide each term by <m>3x^3</m> to find <m>\dfrac{9x^3}{3x^3} = 3</m> and <m>\dfrac{3x^9}{3x^3}=x^6</m>.  The missing factor is <m>3-x^6</m>.</li>
 </ol></p></solution></example>
 
-<example><statement><p>Factor out the largest perfect square.<ol marker="a" cols="2">
+<example><statement><p>Factor out the largest perfect square.<ol marker="a." cols="2">
 	<li><m>108a^5b^2</m></li>
 	<li><m>\dfrac{a^2+4a^4}{8}</m></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>By trial and error, we find that 36 is the largest square that divides 108. From each power, we can factor out the power with the largest possible even exponent, namely <m>a^4</m> and <m>b^2</m>. Thus, we factor out <m>36a^4b^2</m> to find <m>108a^5b^2 =36a^4b^2 \cdot 3a</m>.</li>
  	<li>The largest even power that divides into both <m>a^2</m> and <m>a^4</m> is <m>a^2</m>, so we factor <m>a^2</m> from the numerator:  
  		<me>a^2+a^4=a^2(1+4a^2)</me>
@@ -30,21 +30,21 @@
  </ol></p></solution></example>
  
 <exercise><statement><p>Find the missiing factor.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>16z^{16}+4z^6 = 4z^4 \cdot~</m> ?</li>
 	<li><m>\dfrac{20}{7}m^7 = 4m^6 \cdot~</m> ?</li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>4z^{12}+z^2</m></li>
 	<li><m>\dfrac{5}{7}m</m></li>
 </ol></p></answer></exercise>
 
 <exercise><statement><p>Factor out the largest perfect square.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>\dfrac{5k^5}{9n}</m> </li>
 	<li><m>32a^{10}-48a^9</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>\dfrac{k^4}{9} \cdot \dfrac{5k}{n}</m></li>
 	<li><m>16a^8(2a^2-3a)</m></li>
 </ol></p></answer></exercise>
@@ -60,12 +60,12 @@
 </ul></p></assemblage>
 
 <example><statement><p>Decide whether each statement is true or false.  Then use a calculator to verify your answer.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>\sqrt{6} = \sqrt{2}~\sqrt{3}</m></li>
 	<li><m>\sqrt{6} = \sqrt{2}+\sqrt{4}</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>Yes:  we can multiply (or divide) radicals together, if they have the same index. You can check that <m>\sqrt{6} \approx 2.4495</m>, and 
 		<me>\sqrt{2}~\sqrt{3} \approx (1.4142)(1.7321) = 2.4495</me> 
 	rounded to four decimal places.</li>
@@ -73,12 +73,12 @@
 </ol></p></solution></example>
 
 <example><statement><p>Find and correct the error in each calculation.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>\sqrt{36+64} \rightarrow 6+8</m></li>
 	<li><m>\sqrt{3}+\sqrt{3} \rightarrow \sqrt{6}</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>We cannot split radicals with addition or subtraction; we must follow the order of operations:
 		<me> = \sqrt{36+64} = \sqrt{100} = 10</me></p></li>	
 	<li><p>We cannot combine radicals with addition or subtraction. However, we can add like terms:
@@ -86,13 +86,13 @@
 </ol></p></solution></example>
 
 <exercise><statement><p>Decide whether each statement is true or false. Then use a calculator to verify your answer.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>\sqrt{16} = \sqrt{18} - \sqrt{2}</m></li>
 	<li><m>\sqrt{8} = \dfrac{\sqrt{72}}{\sqrt{9}}</m></li>
 	<li><m>\sqrt{5} + \sqrt{5} = \sqrt{10}</m></li>
 	<li><m>\sqrt{2}~\sqrt{9} = \sqrt{18}</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li>False</li>
 	<li>True</li>
 	<li>False</li>
@@ -100,13 +100,13 @@
 </ol></p></answer></exercise>
 
 <exercise><statement><p>Find and correct the error in each calculation.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>\sqrt{25+5} \rightarrow 5+\sqrt{5}</m></li>
 	<li><m>\sqrt{10}+\sqrt{15} \rightarrow 5</m></li>
 	<li><m>\sqrt{9+x^2} \rightarrow 3+x</m></li>
 	<li><m>\sqrt{a^2-b^2}\rightarrow a-b</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>\sqrt{30}</m></li>
 	<li>cannot be simplified</li>
 	<li>cannot be simplified</li>

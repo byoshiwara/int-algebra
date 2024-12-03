@@ -8,7 +8,7 @@
 
 <example><statement><sidebyside widths="60% 25%" margins="0% 5%">
 	<p>In the right triangle shown, <m>a=8</m> and <m>b=6</m>.
-<ol marker="a">
+<ol marker="a.">
 	<li>Is <m>c=a+b</m>?  Why or why not?</li>
 	<li>Find the length of <m>c</m>.</li></ol></p>
 	<image xml:id="fig-6-8-10-triangle"><description>right triangle</description><latex-image>
@@ -24,7 +24,7 @@
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>No, the length of <m>c</m> is shorter than the lengths of <m>a</m> and <m>b</m> combined, so <m>c \lt a+b</m>.</li>
 	<li><p>We use the Pythagorean theorem:
 		<md><mrow>c^2 \amp = a^2+b^2 \amp \amp \blert{\text{Substitute }a=8~ \text{and }b=6~ \text{and evaluate.}}</mrow>
@@ -38,11 +38,11 @@
 <solution><p>No. In the previous example, <m>c=\sqrt{a^2+b^2}</m>, and we saw that <m>c \lt a+b</m>. We cannot simplify  <m>\sqrt{a^2+b^2}</m> by taking the square root of each term.</p></solution></example>
 
 <example><statement><p>If <m>r=\sqrt{14}</m>, write and simplify expressions for:
-<ol marker="a">
+<ol marker="a.">
 	<li><m>r \cdot r</m></li>
 	<li><m>r+r</m></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><m>r \cdot r = \left(\sqrt{14}\right)\left(\sqrt{14}\right) = 14</m>. Or, <m>r \cdot r = r^2 = \left(\sqrt{14}\right)^2 = 14</m>.</li>
 	<li><m>r+r = \sqrt{14} + \sqrt{14} = 2\sqrt{14}</m>.  Or, <m>r+r = 2r = 2\sqrt{14}</m>.</li>
 </ol></p></solution></example>

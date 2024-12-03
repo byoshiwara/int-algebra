@@ -8,7 +8,7 @@
 
 <subsubsubsection><title>Example</title>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a.">
     <li><p> Complete the table.  Round the values to one decimal place.
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -30,7 +30,7 @@
         <sidebyside width="75%"><image source="images/fig-5-4-2.png"><description>log scale</description></image></sidebyside></li>
     <li>Each time we multiply <m>x</m> by 5, how much does the logarithm increase? What is <m>\log 5</m>, to one decimal place?</li></ol></p></statement>
  
-<solution><p><ol label="a">
+<solution><p><ol marker="a.">
     <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -54,7 +54,7 @@
 
 <subsubsubsection><title>Exercises</title>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a.">
     <li><p> Complete the table.  Round the values to one decimal place.
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -75,7 +75,7 @@
     <li>Plot the values of <m>x</m> on a log scale.
         <sidebyside width="75%"><image source="images/fig-5-4-2.png"><description>log scale</description></image></sidebyside></li>
     <li>Each time we multiply <m>x</m> by 2, how much does the logarithm increase? What is <m>\log 2</m>, to one decimal place?</li></ol></p> </statement>
-    <answer><p><ol label="a">
+    <answer><p><ol marker="a.">
         <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -95,7 +95,7 @@
         <li><sidebyside width="75%"><image source="images/fig-5-4-3.png"><description>log scale</description></image></sidebyside></li>
         <li><m>0.3;~0.3</m></li></ol></p></answer></exercise>
 
-<exercise><statement><p><p><ol label="a">
+<exercise><statement><p><p><ol marker="a.">
     <li><p> Complete the table.  Round the values to one decimal place.
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -118,7 +118,7 @@
     <li>Plot the values of <m>x</m> on a log scale.
         <sidebyside width="75%"><image source="images/fig-5-4-2.png"><description>log scale</description></image></sidebyside></li>
     <li>Each time we multiply <m>x</m> by 4, how much does the logarithm increase? What is <m>\log 4</m>, to one decimal place?</li></ol></p> </p> </statement>
-    <answer><p><ol label="a">
+    <answer><p><ol marker="a.">
         <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -147,7 +147,7 @@
 <introduction><p>The three properties of lagarithms are helpful in making computations involving logs.
 
 <assemblage><title>Properties of Logarithms</title>
-    <p>If <m>x</m>, <m>y</m>, <m>b \gt 0</m>, and <m>b\ne 1</m>, then <ol label="1">>
+    <p>If <m>x</m>, <m>y</m>, <m>b \gt 0</m>, and <m>b\ne 1</m>, then <ol marker="1.">>
         <li><p><m>\log_{b}{(xy)} = \log_{b}{x} + \log_{b}{y}</m></p></li>
         <li><p><m>\log_{b}\dfrac{x}{y} = \log_b x - \log_b y</m></p></li>
         <li><p><m>\log_b {x^k} = k \log_b x </m></p></li></ol></p></assemblage>
@@ -168,33 +168,33 @@
 
 <subsubsubsection><title>Exercises</title>
 
-<exercise><statement><p> Take the log of each number. What do you notice?<ol label = "a" cols="2">
+<exercise><statement><p> Take the log of each number. What do you notice?<ol marker= "a." cols="2">
     <li><m>8 \cdot 100 = 800</m></li>
     <li><m>12 \cdot 1000 = 12,000</m></li>
     <li><m>20 \cdot 25 = 500</m></li>
     <li><m>200 \cdot 250 = 50,000</m></li></ol>
 </p></statement>
-    <answer><p><ol label="a">
+    <answer><p><ol marker="a.">
         <li><m>\log 8 + \log 10 = \log 800</m></li>
         <li><m>\log 12 + \log 100 = \log 12,000</m></li>
         <li><m>\log 20 + \log 25 = \log 500</m></li>
         <li><m>\log 200 + \log 250 = \log 50,000</m></li></ol>
     </p></answer></exercise>
 
-<exercise><statement><p>Compare the two operations. What do you notice?<ol label = "a">
+<exercise><statement><p>Compare the two operations. What do you notice?<ol marker= "a.">
     <li>(i) Compute <m>10^{2.68}~~~~~~~~~~~~~~~~~</m>  (ii) Solve for <m>x:~~\log x = 2.68</m></li>
     <li>(i) Compute <m>10^{-0.75}~~~~~~~~~~~~~~~~</m>  (ii) Solve for <m>x:~~\log x = -0.75</m></li></ol>
 </p></statement>
-    <answer><p><ol label = "a">
+    <answer><p><ol marker= "a.">
         <li>(i) and (ii) have the same answer: <m>478.63</m></li>
         <li>(i) and (ii) have the same answer: <m>0.1778</m></li></ol>
     </p></answer></exercise>
 
-<exercise><statement><p><ol label = "a">
+<exercise><statement><p><ol marker= "a.">
     <li>The ratio of <m>N</m> to <m>P</m> is <m>32.6</m>.  Compute <m>\log N - \log P</m>.</li>
     <li><m>\log z - \log t = 2.5</m>.  Compute <m>\dfrac{z}{t}</m>.</li></ol></p>
 </statement>
-    <answer><p><ol label = "a">
+    <answer><p><ol marker= "a.">
         <li><m>1.5132</m></li>
         <li><m>316.2278</m></li></ol></p>
     </answer></exercise>
@@ -216,7 +216,7 @@
 
 <subsubsubsection><title>Exercises</title>
 
-<introduction><p><ol label="a" cols="3">
+<introduction><p><ol marker="a." cols="3">
     <li><m>x=5H</m></li>
     <li><m>x=\dfrac{5}{H}</m></li>
     <li><m>x=5+H</m></li>

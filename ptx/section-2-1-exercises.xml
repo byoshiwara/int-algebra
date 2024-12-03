@@ -8,7 +8,7 @@
 <subexercises><title>Warm Up</title>
 
 <exercise number="1"><statement><p>Choose the correct graph for each equation. The scales on both axes are the same.
-    <ol marker="a" cols="2">
+    <ol marker="a." cols="2">
     <li><p><m>y=\dfrac{3}{4}x+2</m></p></li>
     <li><p><m>y=\dfrac{-3}{4}x+2</m></p></li>
     <li><p><m>y=\dfrac{3}{4}x-2</m></p></li>
@@ -67,7 +67,7 @@
 <answer><p>a: II; b: III;  c: I; d: IV</p></answer></exercise>   
 
 <exercise number="2"><statement><p>Choose the correct graph for each equation. The scales on both axes are the same.
-    <ol marker="a" cols="2">
+    <ol marker="a." cols="2">
     <li><p><m>y=1+2(x+3)</m></p></li>
     <li><p><m>y=-1+2(x-3)</m></p></li>
     <li><p><m>y=-1+2(x+3)</m></p></li>
@@ -123,14 +123,14 @@
             </latex-image></image></stack></sidebyside></statement>
 <answer><p>a: III; b: IV;  c: II; d: I</p></answer></exercise>
 
-<exercisegroup><introduction><p>In Problems 3 and 4, find a linear model from two data points as follows:<ol marker="a">
+<exercisegroup><introduction><p>In Problems 3 and 4, find a linear model from two data points as follows:<ol marker="a.">
         <li><p>Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?)</p></li>
         <li><p>Write an equation for the line.</p></li>
         <li><p>State the slope of the line, including units, and explain its meaning in the context of the problem.</p></li>
     </ol></p></introduction>
 
 <exercise number="3"><statement><p>On an international flight a passenger may check two bags each weighing 70 kilograms, or 154 pounds, and one carry-on bag weighing 50 kilograms, or 110 pounds. Express the weight, <m>p</m>, of a bag in pounds in terms of its weight, <m>k</m>, in kilograms.</p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                     <row>
                         <cell><m>k</m></cell>
@@ -152,7 +152,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="5"><statement><p><ol marker="a">
+<exercise number="5"><statement><p><ol marker="a.">
     <li><p>Find the slope, the <m>C</m>-intercept, and the <m>T</m>-intercept for the regression line in <xref ref="example-cocoa" text="type-global" />.</p></li>
     <li><p>What do the slope and the intercepts tell us about the sale of cocoa?</p></li></ol></p>
 </statement>
@@ -184,7 +184,7 @@
                 <cell><m>78</m></cell></row>
         </tabular>
     <image source="images/fig-manatee-deaths"><description>scatterplot with regression line</description></image></sidebyside>
-<p>An equation for the regression line is  <m>y=4.7+2.6t</m></p><ol marker="a">
+<p>An equation for the regression line is  <m>y=4.7+2.6t</m></p><ol marker="a.">
     <li>Use the regression equation to estimate the number of manatees killed by watercraft in 1998.</li>
     <li>What does the slope of the regression line mean in this situation?</li>
     <li>Which data point might be considered an outlier?</li>
@@ -198,14 +198,14 @@
 <exercise number="8"><statement><image width="50%" source="images/fig-ex-2-1-4"><description>scatterplot and line</description></image></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 9 and 10,<ol marker="a">
+<exercisegroup><introduction><p>For Problems 9 and 10,<ol marker="a.">
         <li><p>Use the point-slope formula to write an equation.</p></li>
         <li><p>Use linear interpolation to give approximate answers.</p></li>
         <li><p>What does the slope tell us about the problem setting?</p></li>
     </ol></p></introduction>
 
 <exercise number="9"><statement><p>Newborn blue whales are about 24 feet long and weigh 3 tons. The young whale nurses for 7 months, at which time it is 53 feet long. Estimate the length of a 1-year-old blue whale.</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>L=24+(29/7)t</m>, where <m>t</m> is in months</p></li>
     <li>74 feet</li>
     <li>The young whale grows in length about 4.14 foot per month</li></ol></p></answer></exercise>
@@ -226,7 +226,7 @@
 
 <exercise number="13"><statement><p>The scatterplot shows the ages of 10 army drill sergeants and the time it took each to run 100 meters, in seconds.</p>
         <image width="40%" source="images/fig-age-vs-100m-time"><description>scatterplot</description></image>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>What was the hundred-meter time for the 25-year-old drill sergeant?</p></li>
             <li><p>How old was the drill sergeant whose hundred-meter time was 12.6 seconds?</p></li>
             <li><p>Use a straightedge to draw a line of best fit through the data points.</p></li>
@@ -234,7 +234,7 @@
             <li><p>Choose two points on your regression line and find its equation.</p></li>
             <li><p>Use the equation to predict the hundred-meter time of a 40-year-old drill sergeant and a 12 year-old drill sergeant. Are these predictions reasonable?</p></li>
         </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
             <li><p>12 seconds</p></li>
             <li><p>39</p></li>
             <li><image width="40%" source="images/fig-ans-1-6-11"><description>scatterplot with regression line</description></image></li>
@@ -245,7 +245,7 @@
 
 <exercise number="14"><statement><p>The scatterplot shows the weights in pounds and the heights in inches of a team of distance runners.</p>
     <image width="32%" source="images/fig-scatterplot-runner-wt-vs-ht"><description>graph</description></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>Use a straightedge to draw a line that fits the data.</li>
     <li>Use your line to predict the weight of a 65-inch tall runner and the weight of a 71-inch tall runner.</li>
     <li>Use your answers from part (b) to approximate the equation of your regression line.</li>
@@ -254,13 +254,13 @@
 
 <exercise number="15"><statement><p>The scatterplot shows the best times for various women running the 400 meters and the 100 meters.</p>
     <image width="40%" source="images/fig-time-400m-vs-100m"><description>graph</description></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>Use a straightedge to draw a line that fits the data.</li>
     <li>Use your line to predict the 400-meter time of a woman who runs the 100-meter dash in 11.2 seconds, and the 400-meter time of a woman who runs the 100-meter dash in 13.2 seconds.</li>
     <li>Use your answers from part (b) to approximate the equation of your regression line.</li>
     <li>Use your answer from part (c) to predict the the 400-meter time of a woman who runs the 100-meter dash in 12.1 seconds.</li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><image width="40%" source="images/fig-time-400m-vs-100m-line"><description>graph</description></image></li>
     <li>53 sec, 64 sec</li>
     <li><m>y=5.5x-8.6</m></li>
@@ -308,7 +308,7 @@
                     <cell><m>5.15</m></cell>
                     <cell><m>7.25</m></cell></row>
             </tabular>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>Let <m>t</m> represent the number of years after 1960 and plot the data. Draw a line of best fit for the data points. </p></li>
             <li><p>Find an equation for your regression line.</p></li>
             <li><p>Estimate the minimum wage in 1972.</p></li>
@@ -336,12 +336,12 @@
                     <cell><m>262</m></cell>
                     <cell><m>274</m></cell></row>
         </tabular>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>Let <m>t</m> represent the number of years after 1995 and plot the data. Draw a line of best fit for the data points. </p></li>
             <li><p>Find an equation for your regression line.</p></li>
             <li><p>How many area codes do you predict for 2010?</p></li>
         </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
             <li><sidebyside width="80%" margins="0% 20%"><image source="images/fig-hw-2-1-9ans"><description>scatterplot with regression line</description></image></sidebyside></li>
             <li><p><m>y = 121 + 19.86t</m></p></li>
             <li><p><m>419 </m></p></li>
@@ -385,12 +385,12 @@
                     <cell><m>5.9</m></cell>
                     <cell><m>6.2</m></cell></row>
             </tabular>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Let <m>t</m> represent the number of years after 1950 and plot the data. Scale the <m>t</m>-axis from 0 to 50 by 5's, and the <m>C</m>-axis from 0 to 7 by 0.5's. </p></li>
         <li><p>Draw a line of best fit for the data points.</p></li>
         <li><p>Find an equation for your regression line.</p></li>
         <li><p>Estimate the amount of carbon released in 1992.</p></li></ol></p></statement>
-<!--  (from MFG)      <answer><p><ol marker="a">
+<!--  (from MFG)      <answer><p><ol marker="a.">
                 <li><sidebyside width="25%"><image source="images/fig-ans-1-6-21"><description>scatterplot with regression line</description></image></sidebyside></li>
                 <li><p><m>y = 1.6 + 0.11t</m></p></li>
                 <li><p><m>6.2</m> billion tons</p></li>
@@ -437,7 +437,7 @@
                 <cell><m>42</m></cell>
             </row>
             </tabular>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Plot the data points on graph paper, scale the <m>x</m>-axis from 0 to 65 by 5’s, and the <m>y</m>-axis from 0 to 60 by 5’s.</p></li>
         <li><p>The least-squares regression line is 
             <me>y = -0.85x + 53</me> 
@@ -446,7 +446,7 @@
         <li><p>Use extrapolation to estimate when a sedge warbler that knows 10 songs can expect to find a mate.</p></li>
         <li><p>What do the intercepts of the regression line represent? Do these values make sense for this situation?</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><image width="35%" xml:id="fig-hw-2-1-11ans"><description>scatterplot and regression line</description><latex-image>
                     <![CDATA[\tikzset{%
                     }
@@ -481,7 +481,7 @@
 
 <exercise number="20"><statement><p>One measure of a person's physical fitness is the body mass index, or BMI. Your body mass index is the ratio of your weight in kilograms to the square of your height in meters. The points on the scatterplot show the BMI of Miss America from 1921 to 1991.</p>
     <image width="80%" source="images/fig-BMI"><description>Miss America BMI</description></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Use a straightedge to draw a line of best fit on the scatterplot above.</p></li>
     <li><p>The equation of the least-squares regression line for the data is
             <me>y = 20.69 - 0.04t</me>

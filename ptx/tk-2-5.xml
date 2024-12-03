@@ -33,12 +33,12 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
 <introduction><p>The boundary of the solution set for a linear inequality in two variables is made up of portions of straight lines.</p></introduction>
 
 <example><statement><p>Use the most convenient method to graph the equation. 
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>5x-10y=750</m></li>
     <li><m>y=400-25x</m></li>
 </ol> </p></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>This equation is in the form <m>Ax+By=C</m>, so the intercept method of graphing is convenient. The intercepts are <m>(150,0)</m> and <m>(0,-75)</m>. The graph is shown below.</p>
     <image width="45%" xml:id="fig-5x-minus-10y-eq750"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

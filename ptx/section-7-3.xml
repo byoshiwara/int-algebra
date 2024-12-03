@@ -32,7 +32,7 @@ In other words, we solved an exponential equation by computing a logarithm. We m
 <p>Some logarithms, like some square roots, are easy to evaluate, while others require a calculator. We'll start with the easy ones.</p>
 
 <example xml:id="example-easy-logarithm"><statement><p>Here are some examples of logarithms.
-	<ol marker="a">
+	<ol marker="a.">
 		<li><p><m>\log_3 {(9)} = \alert{2}~~~</m> because <m>~~~3^\alert{2}=9</m></p></li>
 		<li><p><m>\log_5 {(125)} = \alert{3}~~~</m> because <m>~~~5^\alert{3}=125</m></p></li>
 		<li><p><m>\log_4 {\left(\dfrac{1}{16}\right)} = \alert{-2}~~~</m> because <m>~~~4^{\alert{-2}}=\dfrac{1}{16}</m></p></li>
@@ -52,22 +52,22 @@ In other words, we solved an exponential equation by computing a logarithm. We m
             $b = Compute("-3");
         </pg-code>
     <statement><p>Find each logarithm.</p>
-            <p><ol marker="a">
+            <p><ol marker="a.">
                 <li><p><m>\log_{3}{81}=</m><var name="$a" width="2"/></p></li>
                 <li><p><m>\log_{10}{\dfrac{1}{1000}}=</m><var name="$b" width="2"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>4</m></p></li>
                 <li><p><m>-3</m></p></li></ol></p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
 <statement><p>Find each logarithm.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p><m>\log_{3}{(81)}~~~</m> (What exponent on 3 gives me 81?)</p></li>
         <li><p><m>\log_{10}{\left(\dfrac{1}{1000}\right)}~~~</m> (What exponent on 10 gives me <m>\frac{1}{1000}</m>?)</p></li>
     </ol></p></statement>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
                 <li><p><m>4</m></p></li>
                 <li><p><m>-3</m></p></li></ol></p></answer></exercise>
 
@@ -94,7 +94,7 @@ In other words, we solved an exponential equation by computing a logarithm. We m
 </p></assemblage>
 
 <example xml:id="example-useful-logarithms"><statement><p>Here are some more examples. Once again, we are looking for the exponent on the given base <m>b</m> to get <m>x</m>.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
 		<li><p><m>\log_{2}{(2)} = 1~~</m> because <m>~~2^1=2</m></p></li>
 		<li><p><m>\log_{5}{(1)} = 0~~</m> because <m>~~5^0=1</m></p></li>
 		<li><p><m>\log_{3}{(3^4)} = 4~~</m> because, well, <m>~3^4=3^4</m></p></li>
@@ -110,13 +110,13 @@ In other words, we solved an exponential equation by computing a logarithm. We m
         $c = Compute("5");
         $d = Formula("w^p");
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p><m>\log_6{216}=</m> <var name="$a" width="2" /> because 6^<var name="$a" width="2" /> <m>= 216</m></p></li>
         <li><p><m>\log_8{1} =</m> <var name="$b" width="2" /> because 8^<var name="$b" width="2" /> <m>= 1</m></p></li>
         <li><p><m>\log_9{9^5} =</m> <var name="$c" width="2" /></p></li>
         <li><p>If <m>\log_w{87} = p,</m> then <m>87 =</m> <var name="$d" width="5"/></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>3</li>
     <li>0</li>
     <li>5</li>
@@ -125,7 +125,7 @@ In other words, we solved an exponential equation by computing a logarithm. We m
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 1</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
         <li><p><m>\log_6{(216)}=</m> <fillin characters="6"/> because <m>~~6^<fillin characters="2"/> = 216</m></p></li>
         <li><p><m>\log_8{(1)} =</m> <fillin characters="6"/> because <m>~~8^<fillin characters="2"/>= 1</m></p></li>
         <li><p><m>\log_9{(9^5)} =</m> <fillin characters="6"/></p></li>
@@ -147,14 +147,14 @@ are equivalent statements, just as
 	<me>5 = \sqrt{25}~~~~ \text{ and }~~~~ 25 = 5^2</me>
 are equivalent statements. Rewriting an equation in logarithmic form is a basic strategy for finding its solution.</p>
 
-<example xml:id="example-exponential-to-log-form"><statement><p>Rewrite each equation in logarithmic form.<ol marker="a" cols="2">
+<example xml:id="example-exponential-to-log-form"><statement><p>Rewrite each equation in logarithmic form.<ol marker="a." cols="2">
 		<li><p><m>2^{-1} = \dfrac{1}{2}</m></p></li>
 		<li><p><m>a^{1/5} = 2.8</m></p></li>
 		<li><p><m>6^{1.5} = T</m></p></li>
 		<li><p><m>M^v = 3K</m></p></li>
 	</ol></p></statement>
 <solution><p>First identify the base <m>b</m>, and then the exponent or logarithm <m>y</m>. Use the conversion equations to rewrite <m>b^y = x</m> in the form <m>\log_{b}{(x)} = y</m>.
-	<ol marker="a">
+	<ol marker="a.">
 		<li><p>The base is <m>\blert{2}</m> and the exponent is <m>\alert{-1}.~~</m> Thus, <m>\log_{\blert{2}}{\left(\dfrac{1}{2}\right)}= \alert{-1}</m>.</p></li>
 		<li><p>The base is <m>\blert{a}</m> and the exponent is <m>\alert{\dfrac{1}{5}}.~~</m> Thus, <m>\log_{\blert{a}}{(2.8)} = \alert{\dfrac{1}{5}}</m>.</p></li>
 		<li><p>The base is <m>\blert{6}</m> and the exponent is <m>\alert{1.5}.~~</m> Thus, <m>\log_{\blert{6}}{(T)} = \alert{1.5}</m>.</p></li>
@@ -171,7 +171,7 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
             $bb = Compute("5");
             $xb = Compute("46");
         </pg-code>
-    <statement><p>Rewrite each equation in logarithmic form. </p><p><ol marker="a" cols="2">
+    <statement><p>Rewrite each equation in logarithmic form. </p><p><ol marker="a." cols="2">
         <li><p><m>8^{-1/3} = \dfrac{1}{2}</m></p>
                 <p>The given equation is equivalent to one of the form <m>\log_{b}m=n</m>, where</p>
                 <p><m>b=</m><var name="$ba" width="3"/></p>
@@ -183,7 +183,7 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
                 <p><m>m=</m><var name="$xb" width="3"/>, and</p>
                 <p><m>n=</m><var name="$yb" width="3"/> </p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
         <li><p><m>\log_8 \left(\dfrac{1}{2} \right)=\dfrac{-1}{3} </m></p></li>
         <li><p><m>\log_{5} 46=x </m></p></li>
     </ol></p></solution>
@@ -191,11 +191,11 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 
 <exercise component="main"> <title>Practice 2</title>
 <statement><p>Rewrite each equation in logarithmic form. </p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m>8^{-1/3} = \dfrac{1}{2}</m></p></li>
         <li><p><m>V=S^{3/2}</m></p></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
         <li><p><m>\log_8 {\left(\dfrac{1}{2} \right)}=\dfrac{-1}{3} </m></p></li>
         <li><p><m>\log_S {(V)} = \dfrac{3}{2}</m></p></li>
     </ol></p></answer></exercise>
@@ -203,12 +203,12 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 <p>We can solve an exponential equation by converting the equation to logarithmic form.</p>
 
 <example><statement><p>Solve each equation by converting to logarithmic form.</p> <m>~\alert{\text{[TK]}}</m>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
     <li><m>4^x = 64</m></li>
     <li><m>4^x = 60</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>In this case we can see by inspection that the solution is <m>3</m>, or <m>x = \log_4 {(64)}.</m></p></li>
     <li><p>The log form is <m>x = \log_4 {(60)}</m>, which is not easy to evaluate without a calculator.</p></li>
 </ol></p></solution></example>
@@ -217,11 +217,11 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 
 <exercise component="main"> <title>Practice 3</title>
 <statement><p>Solve each equation by converting to logarithmic form.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
         <li><m>18^x = 324</m></li>
         <li><m>5^x = 46</m></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><m>x = \log_18 {(324)} = 2 </m></li>
     <li><m>x = \log_5{(46)}</m></li>
 </ol></p></answer></exercise>
@@ -260,13 +260,13 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
             3
         );
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
     <li><p>What is the inverse operation for squaring a number? <var name="$sqrt" form="popup"/></p></li>
     <li><p>What is the inverse operation for raising to a power? <var name="$log" form="popup"/></p></li>
     <li><p>Every exponential equation can be rewritten in logarithmic form by using the <var name="$con" form="popup"/>.
     </p></li>
     <li><p>A logarithm is an unknown <var name="$exp" form="popup"/>.</p></li></ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>Taking a square root</li>
     <li>Taking a logarithm</li>
     <li>conversion equations</li>
@@ -275,7 +275,7 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-<statement><p>Answer the question or complete the statement.<ol marker="a">
+<statement><p>Answer the question or complete the statement.<ol marker="a.">
     <li><p>What is the inverse operation for squaring a number?</p></li>
     <li><p>What is the inverse operation for raising to a power?</p></li>
     <li><p>Every exponential equation can be rewritten in logarithmic form by using the <fillin characters="6"/>.</p></li>
@@ -358,7 +358,7 @@ To the nearest hundredth, <m>\log_{3}{(7)} \approx 1.77</m>.</p>
               tolerance => .0005,
             );          
         </pg-code>
-   <statement><p><ol marker="a">
+   <statement><p><ol marker="a.">
         <li><p>Rewrite the equation <m>3^x = 90</m> in logarithmic form.</p>
                 <p>The given equation is equivalent to one of the form <m>\log_{b}m=n</m>, where</p>
                 <p><m>b=</m><var name="$b" width="3"/></p>
@@ -367,18 +367,18 @@ To the nearest hundredth, <m>\log_{3}{(7)} \approx 1.77</m>.</p>
         <li><p>Use a graph to approximate the solution to the equation in part (a). Round your answer to three decimal places.</p>
             <p><m>x\approx</m><var name="$answer" width="5"/> </p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
             <li><p><m>\log_8{(90)}=x </m></p></li>
             <li><p><m>x\approx 4.096 </m></p></li>
     </ol></p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 4</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
         <li><p>Rewrite the equation <m>3^x = 90</m> in logarithmic form.</p></li>
         <li><p>Use a graph to approximate the solution to the equation in part (a). Round your answer to three decimal places.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
             <li><p><m>\log_8{(90)}=x </m></p></li>
             <li><p><m>x\approx 4.096 </m></p></li>
     </ol></p></answer></exercise>
@@ -408,7 +408,7 @@ Base 10 logarithms are called <term>common logarithms</term><idx>common logarith
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>If <m>\log {(x)} = 2.5</m>, which statement(s) about <m>x</m> are true?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p><m>x=25</m></p></li>
         <li><p><m>x</m> is between 20 and 30</p></li>
         <li><p><m>x</m> is between 100 and 1000</p></li>
@@ -418,11 +418,11 @@ Base 10 logarithms are called <term>common logarithms</term><idx>common logarith
 <p>To evaluate a base 10 logarithm, we use the <kbd>LOG</kbd> key on a calculator. Many logarithms are irrational numbers, and the calculator gives as many digits as its display allows. We can then round off to the desired accuracy.</p>
 
 <example xml:id="example-calculator-log"><statement><p>Approximate the following logarithms to 2 decimal places.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 			<li><p><m>\log{(6.5)}</m></p></li>
 			<li><p><m>\log{(256)}</m></p></li>
 		</ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>The keying sequence <kbd>LOG</kbd> <m>6.5</m> <kbd>)</kbd><kbd>ENTER</kbd> yields <m>.812913566</m>, so <m>\log {(6.5)} \approx 0.81</m>.</p></li>
 	<li><p>The keying sequence <kbd>LOG</kbd> <m>256</m> <kbd>)</kbd> <kbd>ENTER</kbd> yields <m>2.408239965</m>, so <m>\log {(256)} \approx 2.41</m>.</p></li>
 	</ol></p></solution></example>
@@ -439,10 +439,10 @@ so our approximations are reasonable, although you can see that rounding a logar
         $a = Compute("-0.699");
         $b = Compute("5.9274");
     </pg-code>
-    <statement><p>Approximate the logarithms to four decimal places. <ol marker="a" cols="2">
+    <statement><p>Approximate the logarithms to four decimal places. <ol marker="a." cols="2">
     <li><p><m>\log {0.2}\approx</m><var name="$a" width="5"/></p> </li>
     <li><p><m>\log {846,000}\approx</m><var name="$b" width="5"/></p></li></ol></p></statement>
-    <solution><p> <ol marker="a" cols="2">
+    <solution><p> <ol marker="a." cols="2">
     <li><m> -0.6990</m></li>
     <li><m>5.9274</m></li>
 </ol></p></solution>
@@ -450,11 +450,11 @@ so our approximations are reasonable, although you can see that rounding a logar
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Approximate the logarithms to four decimal places.</p>
-    <p> <ol marker="a" cols="2">
+    <p> <ol marker="a." cols="2">
     <li><p><m>\log {(0.2)}</m></p> </li>
     <li><p><m>\log {(846,000)}</m></p></li>
 </ol></p></statement>
-    <answer><p> <ol marker="a" cols="2">
+    <answer><p> <ol marker="a." cols="2">
     <li><m> -0.6990</m></li>
     <li><m>5.9274</m></li>
 </ol></p></answer></exercise>
@@ -475,7 +475,7 @@ so our approximations are reasonable, although you can see that rounding a logar
         );
     </pg-code>
 <statement><p>True or False.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>The LOG key on a calculator computes logarithms base 2. <var name="$False" form="popup"/></p></li>
         <li><p><m>\log_5 {100}</m> is a number between 2 and 3.  <var name="$True" form="popup"/></p></li>
         <li><p>Rounding a logarithm to two decimal places gives very accurate results. <var name="$False" form="popup"/>
@@ -483,7 +483,7 @@ so our approximations are reasonable, although you can see that rounding a logar
         <li><p>The value of <m>\log_4 {392}</m> is also the solution of <m>4^x = 392</m>. <var name="$True" form="popup"/>
             </p></li>
     </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li>False</li>
     <li>True</li>
     <li>False</li>
@@ -493,7 +493,7 @@ so our approximations are reasonable, although you can see that rounding a logar
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>Decide whether each statement is true or false.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>The LOG key on a calculator computes logarithms base 2. </p></li>
         <li><p><m>\log_5 {(100)}</m> is a number between 2 and 3. </p></li>
         <li><p>Rounding a logarithm to two decimal places gives very accurate results. </p></li>
@@ -526,7 +526,7 @@ We can evaluate this expression on the calculator by entering</p>
 <p>To solve exponential equations involving powers of 10, we can use the following steps.</p>
 
 <assemblage><title>Steps for Solving Exponential Equations</title><idx><h>exponential equation</h><h>solving</h></idx><idx><h>exponential equation</h><h>solving with logarithms</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
 	<li>Isolate the power on one side of the equation.</li>
 	<li>Rewrite the equation in logarithmic form.</li>
 	<li>Use a calculator, if necessary, to evaluate the logarithm.</li>
@@ -552,7 +552,7 @@ We can evaluate this expression on the calculator by entering</p>
 
 <exercise component="main"><title>QuickCheck 5</title>
 <statement><p>What is the first step in solving the equation <m>5(10)^x=12</m>?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Multiply 5 times 10.</p></li>
         <li><p>Take the log of both sides.</p></li>
         <li><p>Get zero on one side of the equation.</p></li>
@@ -625,7 +625,7 @@ To evaluate this expression, we key in</p>
             2
         );
     </pg-code>
-    <statement><p>True or False.<ol marker="a">
+    <statement><p>True or False.<ol marker="a.">
         <li><p>The first step in solving an exponential equation is to convert to logarithmic form. <var name="$False" form="popup"/></p></li>
         <li><p>To solve the equation <m>10^x = 19</m>, we divide both sides by 10.  <var name="$False" form="popup"/></p>
             </li>
@@ -633,7 +633,7 @@ To evaluate this expression, we key in</p>
             </p></li>
         <li><p>Logarithms are used in the study of exponential growth and decay. <var name="$True" form="popup"/></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>False</li>
     <li>False</li>
     <li>False</li>
@@ -642,7 +642,7 @@ To evaluate this expression, we key in</p>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 6</title>
-<statement><p>Decide whether each statement is true or false.<ol marker="a">
+<statement><p>Decide whether each statement is true or false.<ol marker="a.">
         <li><p>The first step in solving an exponential equation is to convert to logarithmic form.</p></li>
         <li><p>To solve the equation <m>10^x = 19</m>, we divide both sides by 10.</p></li>
         <li><p> <m>\dfrac{\log{(15)}}{6}</m> is the same as <m>\log{\left(\dfrac{15}{6}\right)}</m>.</p></li>
@@ -670,7 +670,7 @@ To evaluate this expression, we key in</p>
         </pg-code>
     <statement><p>The percentage of American homes with computers grew exponentially from 1994 to 1999. For <m>t = 0</m> in 1994, the growth law was 
             <me>P(t) = <var name="$f"/></me> 
-            [Source: Los Angeles Times, August 20, 1999]<ol marker="a">
+            [Source: Los Angeles Times, August 20, 1999]<ol marker="a.">
             <li><p>What percent of American homes had computers in 1994?</p>
                 <p>Answer: <var name="$p0" width="4"/>%</p></li>
             <li><p>If the percentage of homes with computers continued to grow at the same rate, when did 90% of American homes have a computer?</p>
@@ -678,7 +678,7 @@ To evaluate this expression, we key in</p>
              <li><p>Do you think that the function <m>P(t)</m> will continue to model the percentage of American homes with computers? Why or why not?</p>
                 <p><var name="$YN" form="buttons"/> </p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
                 <li><p>25.85%</p></li>
                 <li><p><m>t\approx 10.4</m> (year 2004)</p></li>
                 <li><p>No, the percent of homes with computers cannot exceed 100%.</p></li>
@@ -689,12 +689,12 @@ To evaluate this expression, we key in</p>
 <statement><p>The percentage of American homes with computers grew exponentially from 1994 to 1999. For <m>t = 0</m> in 1994, the growth law was 
             <me>P(t) = 25.85(10)^{0.052t}</me> 
 [Source: Los Angeles Times, August 20, 1999]</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><p>What percent of American homes had computers in 1994?</p></li>
             <li><p>If the percentage of homes with computers continued to grow at the same rate, when did 90% of American homes have a computer?</p></li>
              <li><p>Do you think that the function <m>P(t)</m> will continue to model the percentage of American homes with computers? Why or why not?</p></li>
     </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
                 <li><p>25.85%</p></li>
                 <li><p><m>t\approx 10.4</m> (year 2004)</p></li>
                 <li><p>No, the percent of homes with computers cannot exceed 100%.</p></li>

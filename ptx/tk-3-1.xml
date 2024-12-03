@@ -7,7 +7,7 @@
 <introduction><p>When squaring a negative number, don't forget to enclose it in parentheses. For example, if <m>x=-4</m>, then <me>x^2=(-4)^2 = (-4)(-4) = 16</me>  If we write <m>-4^2</m>, then only the 4 is squared, so we have <me>-4^2 = - (4)(4) = -16</me></p></introduction>
 
 <example><statement><p>Evaluate for <m>x=-6</m>.
-    <ol marker="a" cols="2">  
+    <ol marker="a." cols="2">  
         <li><m>2x^2</m></li>
         <li><m>2-x^2</m></li>
         <li><m>(2x)^2</m></li>
@@ -15,7 +15,7 @@
 </ol></p></statement>
  
 <solution><p>Enclose <m>-6</m> in parentheses, and follow the order of operations.
-    <ol marker="a">
+    <ol marker="a.">
     <li>Square first, then multiply by 2:  <m>~~2x^2=2(-6)^2=2(36)=72</m></li>
     <li>Square first, then subtract from 2:  <m>~~2-x^2=2-(-6)^2=2-36=-34</m></li>
     <li>Multiply by 2 first, then square:  <m>~~(2x)^2=[2(-6)]^2=[-12]^2=144</m></li>
@@ -95,12 +95,12 @@
         </latex-image></image></sidebyside></solution></example>
 
 <exercise><statement><p>Evaluate for <m>w=-9</m>
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>(2w)^2</m></li>
     <li><m>36-(2w)^2</m></li>
     <li><m>-2(4-w)^2</m></li>
     <li><m>2-w^2</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>324</m></li>
         <li><m>-288</m></li>
         <li><m>-338</m></li>
@@ -108,14 +108,14 @@
     </ol></p></answer></exercise>
 
 <exercise><statement><p>Evaluate for <m>a=-3,~b=-4</m>
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>ab^2</m></li>
     <li><m>a-b^2</m></li>
     <li><m>(a-b^2)^2</m></li>
     <li><m>ab(a^2-b^2)</m></li>
 </ol></p></statement>
 <answer>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><m>-48</m></li>
         <li><m>-19</m></li>
         <li><m>361</m></li>
@@ -123,13 +123,13 @@
 </ol></p></answer></exercise>
 
 <exercise><statement><p>Evaluate for <m>h=-2,~g=-5</m>
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>h^2-2hg+g^2</m></li>
     <li><m>(h-g)^2</m></li>
     <li><m>h^2-g^2</m></li>
     <li><m>(h-g)(h+g)</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>9</m></li>
         <li><m>9</m></li>
         <li><m>-21</m></li>
@@ -240,14 +240,14 @@ They are missing a linear term, <m>bx</m>, and are not difficult to solve.</p></
 The solutions are <m>5</m> and <m>-5</m>.</p></solution></example>
 
 <exercise><statement><p>Solve by extraction of roots.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>98=2a^2</m></li>
     <li><m>0=3n^2-15</m></li>
     <li><m>144 + \dfrac{h^2}{9} = 169</m></li>
     <li><m>12-5v^2=2</m></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><m>\pm 7</m></li>
     <li><m> \pm \sqrt{5}</m></li>
     <li><m>\pm 15</m></li>
@@ -328,11 +328,11 @@ The length of the hypotenuse is a positive number, so <m>z=37</m>.</p></solution
 The height must be a positive number, so the ladder reaches 24 feet up the wall.</p></solution></example>
 
 <exercise><statement><p>A baseball diamond is a square whose sides are 90 feet long. Find the straight-line distance from home plate to second base.
-    <ol marker="a">
+    <ol marker="a.">
             <li>Make a sketch of the situation and label a right triangle.</li>
             <li>Write an equation and solve.</li>
         </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><image width="95%" xml:id="fig-baseball-diamond"><description>baseball diamond</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -349,11 +349,11 @@ The height must be a positive number, so the ladder reaches 24 feet up the wall.
 </ol></p></answer></exercise>
 
 <exercise><statement><p>How long a wire is needed to stretch from the top of a 40-foot telephone pole to a point on the ground 20 feet from the base of the pole?
-    <ol marker="a">
+    <ol marker="a.">
         <li>Make a sketch of the situation and label a right triangle.</li>
         <li>Write an equation and solve.</li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><image width="45%" xml:id="fig-telephone-pole"><description>telephone pole and wire</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%

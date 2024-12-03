@@ -19,7 +19,7 @@
 
 <p>We use the symbol <m>\sqrt[n]{b}</m> to denote the <m>n</m>th root of <m>b</m>. An expression of the form <m>\sqrt[n]{b}</m> is called a <term>radical</term><idx>radical</idx>, <m>b</m> is called the <term>radicand</term><idx>radicand</idx>, and <m>n</m> is called the <term>index of the radical</term><idx>index (of a radical)</idx>. </p> <m>~\alert{\text{[TK]}}</m>
 
-<example xml:id="example-nth-roots"><statement><p><ol marker="a">
+<example xml:id="example-nth-roots"><statement><p><ol marker="a.">
         <li><m>\sqrt[4]{81} = 3</m> because <m>3^4 = 81</m></li>
         <li><m>\sqrt[5]{32} = 2</m> because <m>2^5 = 32</m></li>
         <li><m>\sqrt[6]{64} = 2</m> because <m>2^6 = 64</m></li>
@@ -37,11 +37,11 @@
             $a = Compute("2");
             $b = Compute("3");
         </pg-code>
-    <statement><p>Evaluate each radical.<ol marker="a">
+    <statement><p>Evaluate each radical.<ol marker="a.">
             <li><p><m>\sqrt[4]{16}=</m><var name="$a" width="2"/></p> </li>
             <li><p><m>\sqrt[5]{243}=</m><var name="$b" width="2"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>2</m></p></li>
                 <li><p><m>3</m></p></li></ol></p>
     </solution>
@@ -49,11 +49,11 @@
 
 <exercise component="main" xml:id="exercise-nth-roots"><title>Practice 1</title>
 <statement><p>Evaluate each radical.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
             <li><p><m>\sqrt[4]{16}</m></p> </li>
             <li><p><m>\sqrt[5]{243}</m></p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>2</m></p></li>
                 <li><p><m>3</m></p></li></ol></p>
     </solution></exercise>
@@ -91,7 +91,7 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
           2, 
         );
      </pg-code>
-    <statement><p>Fill in the blanks.<ol marker="a">
+    <statement><p>Fill in the blanks.<ol marker="a.">
         <li><p>Inverse variation can be expressed as a power function by using a <var name="$a" form="popup"/> exponent.
              </p></li>
         <li><p>The number <m>n</m> in the expression <m>\sqrt[n]{b}</m> is called the <var name="$b" form="popup"/> of the radical.</p></li>
@@ -99,7 +99,7 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
         <li><p>State the law of exponents that shows that <m>a^{1/2}</m> is a square root of <m>a</m>.</p>
             <p><var name="$d" form="buttons"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>negative</li>
         <li>index</li>
         <li>fractional</li>
@@ -109,7 +109,7 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Fill in the blanks.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
         <li><p>Inverse variation can be expressed as a power function by using a <fillin characters="10"/> exponent.</p></li>
         <li><p>The number <m>n</m> in the expression <m>\sqrt[n]{b}</m> is called the <fillin characters="10"/> of the radical.</p></li>
         <li><p>We use <fillin characters="10"/> exponents to denote radicals.</p></li>
@@ -119,7 +119,7 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
 <p>Remember that <m>9</m> actually has two square roots, namely <m>3</m> and <m>-3</m>. But the symbol <m>\sqrt{\hphantom{00}}</m> represents only the positive square root, so that <m>\sqrt{9} = 3</m>. The same is true for the exponent <m>\frac{1}{2}</m>:  any nonnegative number raised to the <m>\frac{1}{2}</m> power is equal to the <em>positive</em> square root of the number, or
     <me>a^{1/2} =\sqrt{a}</me></p>
 
-<example xml:id="example-exponential-notation"><statement><p><ol marker="a" cols="2">
+<example xml:id="example-exponential-notation"><statement><p><ol marker="a." cols="2">
         <li><m>25^{1/2} = 5</m></li>
         <li><m>-25^{1/2} = -5</m></li>
         <li><m>(-25)^{1/2}</m> is not a real number.</li>
@@ -137,13 +137,13 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
             $d = Compute("1/2");
             
         </pg-code>
-    <statement><p>Evaluate each power.<ol marker="a" cols="2">
+    <statement><p>Evaluate each power.<ol marker="a." cols="2">
                 <li><p><m>4^{1/2}=</m><var name="$a" width="3"/></p> </li>
                 <li><p><m>4^{-2}=</m><var name="$b" width="3"/></p></li>
                 <li><p><m>4^{-1/2}=</m><var name="$c" width="3"/></p></li>
                 <li><p><m>\left(\dfrac{1}{4}\right)^{1/2}=</m><var name="$d" width="3"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="4">
+    <solution><p><ol marker="a." cols="4">
                 <li><p><m>2</m></p></li>
                 <li><p><m>\dfrac{1}{16} </m></p></li>
                 <li><p><m>\dfrac{1}{2} </m></p></li>
@@ -153,13 +153,13 @@ Thus, <m>9^{1/2}</m> is a number whose square is <m>9</m>. But this means that <
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Evaluate each power.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
                 <li><p><m>4^{1/2}</m></p> </li>
                 <li><p><m>4^{-2}</m></p></li>
                 <li><p><m>4^{-1/2}</m></p></li>
                 <li><p><m>\left(\dfrac{1}{4}\right)^{1/2}</m></p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a" cols="4">
+    <solution><p><ol marker="a." cols="4">
                 <li><p><m>2</m></p></li>
                 <li><p><m>\dfrac{1}{16} </m></p></li>
                 <li><p><m>\dfrac{1}{2} </m></p></li>
@@ -176,7 +176,7 @@ Thus, we make the following definition for fractional exponents.</p>
 </p></assemblage>
 
 <example xml:id="example-exponential-notation2"><statement><p>
-    <ol marker="a" cols="2">
+    <ol marker="a." cols="2">
         <li><m>81^{1/4} = \sqrt[4]{81} = 3</m></li>
         <li><m>125^{1/3} = \sqrt[3]{125} = 5</m></li>
     </ol></p></statement></example>
@@ -207,7 +207,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
                     2
                 );
         </pg-code>
-    <statement><p>Write each power with radical notation, and then evaluate.<ol marker="a" cols="2">
+    <statement><p>Write each power with radical notation, and then evaluate.<ol marker="a." cols="2">
                 <li><p><m> 32^{1/5}</m> is</p> 
                 <p><var name="$A" form="buttons"/> </p>
                 <p><m> 32^{1/5}=</m><var name="$a" width="2"/></p></li>
@@ -215,7 +215,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
                 <p><var name="$B" form="buttons"/> </p>
                 <p><m> 625^{1/4}=</m><var name="$b" width="2"/></p></li>
             </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>\sqrt[5]{32}= 2</m></p></li>
                 <li><p><m>\sqrt[4]{625}= 5</m></p></li></ol></p>
         </solution>
@@ -223,11 +223,11 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>Write each power with radical notation, and then evaluate.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
                 <li><p><m> 32^{1/5}</m></p></li>
                 <li><p><m> 625^{1/4}</m></p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>\sqrt[5]{32}= 2</m></p></li>
                 <li><p><m>\sqrt[4]{625}= 5</m></p></li>
         </ol></p></solution></exercise>
@@ -235,7 +235,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 <p> Of course, we can use decimal fractions for exponents as well. For example,
     <me>\sqrt{a} = a^{1/2} = a^{0.5} ~~~~\text{ and } ~~~~ \sqrt[4]{a} = a^{1/4} = a^{0.25}</me></p>
 
-<example xml:id="example-decimal-exponential-notation"><statement><p><ol marker="a" cols="2">
+<example xml:id="example-decimal-exponential-notation"><statement><p><ol marker="a." cols="2">
         <li><m>100^{0.5} = \sqrt{100} = 10</m></li>
         <li><m>16^{0.25} = \sqrt[4]{16} = 2</m></li></ol></p>
 </statement></example>
@@ -262,7 +262,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
                     1
                 );
         </pg-code>
-    <statement><p>Write each power with radical notation, and then evaluate.<ol marker="a" >
+    <statement><p>Write each power with radical notation, and then evaluate.<ol marker="a." >
             <li><p><m>100,000^{0.2}</m> is</p> 
                 <p><var name="$A" form="buttons"/> </p>
                 <p><m>100,000^{0.2}=</m><var name="$a" width="2"/></p></li>
@@ -270,7 +270,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
                 <p><var name="$B" form="buttons"/> </p>
                 <p><m>81^{0.25}=</m><var name="$b" width="2"/></p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>\sqrt[5]{100,000}=10 </m></p></li>
                 <li><p><m>\sqrt[4]{81}=3 </m></p></li>
         </ol></p></solution>
@@ -278,11 +278,11 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>Write each power with radical notation, and then evaluate.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
             <li><p><m>100,000^{0.2}</m></p></li>
             <li><p><m>81^{0.25}</m></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>\sqrt[5]{100,000}=10 </m></p></li>
                 <li><p><m>\sqrt[4]{81}=3 </m></p></li>
         </ol></p></solution></exercise>
@@ -298,14 +298,14 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>The exponent <m>\dfrac{1}{n}</m> tells us to take a reciprocal. <var name="$False" form="popup"/></p></li>
     <li><p>The exponent 0.2 denotes a fifth root. <var name="$True" form="popup"/></p></li>
     <li><p>A power with a negative exponent is not a real number. <var name="$False" form="popup"/></p></li>
     <li><p>The expressions <m>x^{-3}</m> and <m>x^{1/3}</m> are the same. <var name="$False" form="popup"/></p></li></ol>
         </p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>False</li>
         <li>True</li>
         <li>False</li>
@@ -315,7 +315,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>True or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>The exponent <m>\dfrac{1}{n}</m> tells us to take a reciprocal.</p></li>
     <li><p>The exponent 0.2 denotes a fifth root.</p></li>
     <li><p>A power with a negative exponent is not a real number.</p></li>
@@ -344,7 +344,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 
 <p>Fractional exponents simplify many calculations involving radicals. It will be useful for you to convert easily between exponential and radical notation.</p>
 
-<example xml:id="example-radical-to-exponential-notation"><p>Convert each radical to exponential notation.<ol marker="a" cols="2">
+<example xml:id="example-radical-to-exponential-notation"><p>Convert each radical to exponential notation.<ol marker="a." cols="2">
             <li><m>\sqrt[3]{12} = 12^{1/3}</m></li>
             <li><m>\sqrt[4]{2y} = (2y)^{1/4} \text{ or } (2y)^{0.25}</m></li>
         </ol></p></example>
@@ -361,11 +361,11 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
             $f = Formula("(ab)**(-1/5)");
             $g = Formula("3*w^(1/6)");
         </pg-code>
-    <statement><p>Convert each radical to exponential notation.<ol marker="a">
+    <statement><p>Convert each radical to exponential notation.<ol marker="a.">
                 <li><p><m>\dfrac{1}{\sqrt[5]{ab}}=</m><var name="$f" width="10"/></p> </li>
                 <li><p><m>3\sqrt[6]{w}=</m><var name="$g" width="10"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>(ab)^{-1/5} </m></p></li>
                 <li><p><m>3w^{1/6} </m></p></li>
         </ol></p></solution>
@@ -373,16 +373,16 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Convert each radical to exponential notation.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
                 <li><p><m>\dfrac{1}{\sqrt[5]{ab}}</m></p> </li>
                 <li><p><m>3\sqrt[6]{w}</m></p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>(ab)^{-1/5} </m></p></li>
                 <li><p><m>3w^{1/6} </m></p></li>
         </ol></p></solution></exercise>
 
-<example xml:id="example-exponetial-to-radical-notation"><p>Convert each power to radical notation.<ol marker="a" cols="2">
+<example xml:id="example-exponetial-to-radical-notation"><p>Convert each power to radical notation.<ol marker="a." cols="2">
         <li><m>5^{1/2} = \sqrt{5}</m></li>
         <li><m>x^{0.2} = \sqrt[5]{x}</m></li>
         <li><m>2x^{1/3} = 2 \sqrt[3]{x}</m></li>
@@ -412,24 +412,24 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 # setting the context to force students to use exponential format for (a)
 # would prevent students from entering radical format for (b)
         </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
             <li><p>Convert <m>\dfrac{3}{\sqrt[4]{2x} } </m> to exponential notation.</p>
                 <p><var name="$A" form="buttons"/> </p></li>
             <li><p>Convert <m>-5b^{0.125}</m> to radical notation.</p>
                 <p><var name="$B" form="buttons"/> </p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>3(2x)^{-1/4} </m></p></li>
                 <li><p><m>-5\sqrt[8]{b} </m></p></li>
         </ol></p></solution>
     </webwork></exercise>
 
 <exercise component="main"><title>Practice 6</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
             <li><p>Convert <m>\dfrac{3}{\sqrt[4]{2x} } </m> to exponential notation.</p></li>
             <li><p>Convert <m>-5b^{0.125}</m> to radical notation.</p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>3(2x)^{-1/4} </m></p></li>
                 <li><p><m>-5\sqrt[8]{b} </m></p></li>
         </ol></p></solution></exercise>
@@ -446,7 +446,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>All expressions of the form <m>x^{1/n}</m> represent irrational numbers. <var name="$False" form="popup"/>
         </p></li>
     <li><p>When we enter an exponent <m>1/n</m> into a calculator, we must enclose it in parentheses. <var name="$True" form="popup"/></p></li>
@@ -454,7 +454,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
         </p></li>
     <li><p>You can use your calculator to find a decimal equivalent for an irrational number. <var name="$False" form="popup"/></p></li></ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>False</li>
         <li>True</li>
         <li>True</li>
@@ -464,7 +464,7 @@ An exponent of <m>\dfrac{1}{2}</m> denotes the square root of its base, and an e
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>True or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>All expressions of the form <m>x^{1/n}</m> represent irrational numbers.</p></li>
     <li><p>When we enter an exponent <m>1/n</m> into a calculator, we must enclose it in parentheses.</p></li>
     <li><p>In the expression <m>16x^{1/4}</m>, the exponent does not apply to 16. </p></li>
@@ -483,12 +483,12 @@ Notice again that <m>\left(x^a\right)^b = x^{ab}</m>, so
     <me>\left(x^5\right)^{1/5} = x^{(1/5)(5)} = x^1</me> 
 Thus, to solve an equation involving a power function <m>x^n</m>, we first isolate the power, then raise both sides to the exponent <m>\dfrac{1}{n}</m>.</p>
 
-<example xml:id="example-star-luminosity"><statement><p>For astronomers, the mass of a star is its most important property, but it is also the most difficult to measure directly. For many stars, their luminosity, or brightness, varies roughly as the fourth power of the mass.<ol marker="a">
+<example xml:id="example-star-luminosity"><statement><p>For astronomers, the mass of a star is its most important property, but it is also the most difficult to measure directly. For many stars, their luminosity, or brightness, varies roughly as the fourth power of the mass.<ol marker="a.">
     <li>Our Sun has luminosity <m>4 \times 10^{26}</m> watts and mass <m>2 \times 10^{30}</m> kilograms. Because the numbers involved are so large, astronomers often use these solar constants as units of measure: The luminosity of the Sun is <m>1</m> solar luminosity, and its mass is <m>1</m> solar mass. Write a power function for the luminosity, <m>L</m>, of a star in terms of its mass, <m>M</m>, using units of solar mass and solar luminosity.</li>
     <li>The star Sirius is 23 times brighter than the Sun, so its luminosity is 23 solar luminosities. Estimate the mass of Sirius in units of solar mass.</li></ol></p>
 </statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li>Because <m>L</m> varies as the fourth power of <m>M</m>, we have
         <me>L = kM^4</me>
     Substituting the values of <m>L</m> and <m>M</m> for the Sun (namely, <m>L = 1</m> and <m>M = 1</m>), we find
@@ -520,20 +520,20 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
           2, 
         );
     </pg-code>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>How do we solve the equation <m>x^8=32</m>?</p>
         <p><var name="$a" form="buttons"/></p></li>
     <li><p>Which law of exponents justifies this strategy?</p>
         <p><var name="$b" form="buttons"/></p></li></ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>Raise each side to the power <m>1/8</m>.</li>
         <li><m>\left(x^a\right)^b = x^{ab}</m></li>
     </ol></p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 4</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>How do we solve the equation <m>x^8=32</m>?</p></li>
     <li><p>Which law of exponents justifies this strategy?</p></li>
 </ol></p></statement></exercise>
@@ -549,7 +549,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
 <p>The size of a diamond is usually given by its weight <m>w</m> in carats. The diameter, <m>D</m>, of a diamond cut in a traditional round style is then a power function of its weight, given by 
     <me>D=f(w)=kw^{1/3}</me></p>
 
-<example xml:id="Example-diamonds"><statement><p><ol marker="a">
+<example xml:id="Example-diamonds"><statement><p><ol marker="a.">
     <li>A diamond weighing one-quarter carat has diameter about 4.05 millimeters. Find the constant of proportionality, <m>k</m>, and write a formula for <m>D</m> as a function of <m>w</m>.</li>
     <li><p>Complete the table with the diameters of diamonds of various weights.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -580,7 +580,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
     <li>What is the diameter of the Hope Diamond, which weighs 45.52 carats and is worth $300 million?</li></ol></p>
 </statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li>We substitute <m>w=\alert{0.25}</m> and <m>D=\alert{4.05}</m> into the equation and solve for <m>k</m>. 
         <md><mrow>\alert{4.05} \amp = k(\alert{0.25})^{1/3}</mrow>
             <mrow>k \amp = \dfrac{4.05}{0.25^{1/3}} = 6.429</mrow></md>
@@ -674,7 +674,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
                     0
                 );
         </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
             <li><p>Complete the table of values for the power function <m>f (x) = x^{-1/2}</m>.</p>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -713,7 +713,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
                 <p>and also, <m>f(x)</m> is</p>
                 <p><var name="$B" form="buttons"/> </p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -752,7 +752,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 8</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
             <li><p>Complete the table of values for the power function <m>f (x) = x^{-1/2}</m>.</p>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -787,7 +787,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
             <li><p>Sketch the graph of <m>y = f(x)</m>.</p></li>
             <li><p>Write the formula for <m>f(x)</m> with a decimal exponent, and with radical notation.</p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -835,12 +835,12 @@ Then we raise both sides of the equation to the reciprocal of <m>\dfrac{1}{3}</m
 
 <example xml:id="example-car-brakes"><statement><p>When a car brakes suddenly, its speed can be estimated from the length of the skid marks it leaves on the pavement. A formula for the car’s speed, in miles per hour, is 
     <me>v = f(d) = (24d)^{1/2}</me> 
-where the length of the skid marks, <m>d</m>, is given in feet.<ol marker="a">
+where the length of the skid marks, <m>d</m>, is given in feet.<ol marker="a.">
     <li>If a car leaves skid marks 80 feet long, how fast was the car traveling when the driver applied the brakes?</li>
     <li>How far will a car skid if its driver applies the brakes while traveling 80 miles per hour?</li></ol></p>
 </statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>To find the velocity of the car, we evaluate the function for <m>d = \alert{80}</m>.
         <md><mrow>v\amp= (24 \cdot \alert{80})^{1/2}</mrow>
             <mrow>\amp = (1920)^{1/2} \approx 43.8178046</mrow></md>
@@ -881,7 +881,7 @@ where the length of the skid marks, <m>d</m>, is given in feet.<ol marker="a">
           1, 
         );
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
             <li><p>How do we solve the equation <m>~x^{1/6} = 12</m>?</p>
                 <p><var name="$a" form="buttons"/></p></li>
             <li><p>How do we solve the equation <m>~\sqrt[6]{x} = 12</m>?</p>
@@ -891,7 +891,7 @@ where the length of the skid marks, <m>d</m>, is given in feet.<ol marker="a">
             <li><p>How do we evaluate the function <m>~f(x)=x^{1/6}</m> for <m>x=12</m>?</p>
                 <p><var name="$d" form="buttons"/></p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>Raise each side to the power <m>6</m>.</li>
         <li>Raise each side to the power <m>6</m>.</li>
         <li>Raise each side to the power <m>\dfrac{1}{6}</m>.</li>
@@ -900,7 +900,7 @@ where the length of the skid marks, <m>d</m>, is given in feet.<ol marker="a">
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 5</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
             <li><p>How do we solve the equation <m>~x^{1/6} = 12</m>?</p></li>
             <li><p>How do we solve the equation <m>~\sqrt[6]{x} = 12</m>?</p></li>
             <li><p>How do we solve the equation <m>~x^6 = 12</m>?</p></li>
@@ -946,7 +946,7 @@ where the length of the skid marks, <m>d</m>, is given in feet.<ol marker="a">
     <li>Every real number, positive, negative, or zero, has exactly one real-valued root if the index is odd.</li>
 </ol></p></assemblage>
 
-<example xml:id="example-roots-of-negatives"><statement><p><ol marker="a">
+<example xml:id="example-roots-of-negatives"><statement><p><ol marker="a.">
         <li><m>\sqrt[4]{-625}</m> is not a real number.</li>
         <li><m> - \sqrt[4]{625} = -5</m></li>
         <li><m> \sqrt[5]{-1} = -1</m></li>
@@ -979,13 +979,13 @@ because the exponent <m>1/6</m> applies only to <m>64</m>, and the negative sign
         );        
     </pg-code>
     <statement><p>Fill in the blanks.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>We cannot take an <var name="$even" form="popup"/> root of a <var name="$negative" form="popup"/> number.</p></li>
         <li><p>The principal root is the <var name="$positive" form="popup"/> root.</p></li>
         <li><p>An odd root of a negative number is <var name="$negative" form="popup"/>.</p></li>
         <li><p>An <m>n^{th}</m> root is the same as the <var name="$d" form="popup"/> power.</p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>even, negative</li>
     <li>positive</li>
     <li>negative</li>
@@ -994,7 +994,7 @@ because the exponent <m>1/6</m> applies only to <m>64</m>, and the negative sign
 
 <exercise component="webwork"><title>QuickCheck 6</title>
 <statement><p>Fill in the blanks.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>We cannot take an <fillin characters="10"/> root of a <fillin characters="10"/> number.</p></li>
         <li><p>The principal root is the <fillin characters="10"/> root.</p></li>
         <li><p>An odd root of a negative number is <fillin characters="10"/>.</p></li>
@@ -1012,13 +1012,13 @@ because the exponent <m>1/6</m> applies only to <m>64</m>, and the negative sign
             Context($popup->context); 
             $b = OneOf(@choices[1..2]);
         </pg-code>
-    <statement><p>Evaluate each power, if possible. Enter "DNE" if it is not possible to evaluate.<ol marker="a">
+    <statement><p>Evaluate each power, if possible. Enter "DNE" if it is not possible to evaluate.<ol marker="a.">
                 <li><p><m>-81^{1/4}=</m><var name="$a" width="3"/> </p></li>
                 <li><p><m> (-81)^{1/4}=</m><var name="$b" width="3"/></p></li>
                 <li><p><m> -64^{1/3}=</m><var name="$c" width="3"/></p></li>
                 <li><p><m> (-64)^{1/3}=</m><var name="$d" width="3"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="4">
+    <solution><p><ol marker="a." cols="4">
                 <li><p><m>-3</m></p></li>
                 <li><p>undefined</p></li>
                 <li><p><m>-4</m></p></li>
@@ -1028,13 +1028,13 @@ because the exponent <m>1/6</m> applies only to <m>64</m>, and the negative sign
 
 <exercise component="main"><title>Practice 10</title>
 <statement><p>Evaluate each power, if possible.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
                 <li><p><m>-81^{1/4}</m></p></li>
                 <li><p><m> (-81)^{1/4}</m></p></li>
                 <li><p><m> -64^{1/3}</m></p></li>
                 <li><p><m> (-64)^{1/3}</m></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>-3</m></p></li>
                 <li><p>undefined</p></li>
                 <li><p><m>-4</m></p></li>

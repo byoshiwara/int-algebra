@@ -154,7 +154,7 @@ The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when 
 <exercise><statement><p>Sheri bought a bottle of multivitamins for her family. The number of vitamins lt in the bottle after <m>d</m> days is given by
     <me>N=300-5d</me></p>
 <sidebyside widths="50% 30%" valigns="bottom bottom"><p>
-    <ol marker="a"> 
+    <ol marker="a."> 
         <li>Find the intercepts and use them to make a graph of the equation.
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row> <cell><m>d</m></cell><cell><m>N</m></cell></row>
@@ -191,7 +191,7 @@ The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when 
         \draw[magenta!90!black,very thick] (0,6)--(6,0);
         \end{tikzpicture}]]>
         </latex-image></image>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><m>(0,300)</m> There were 300 vitamins to start.</li>               
         <li><m>(60,0)</m> The vitamin bottle is empty after 60 days.</li>
     </ol></p></sidebyside></answer></exercise>
@@ -200,7 +200,7 @@ The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when 
     <me>P=-600+40d</me>
 where <m>d</m> is the number of dogs he has groomed.</p>
 <sidebyside widths="50% 45%" valigns="bottom bottom">
-    <p><ol marker="a"> 
+    <p><ol marker="a."> 
         <li><p>Find the intercepts and use them to make a graph of the equation.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row> <cell><m>d</m></cell><cell><m>P</m></cell></row>

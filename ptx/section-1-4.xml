@@ -114,7 +114,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>What does the symbol <m>\Delta</m> stand for?</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p>A triangle</p></li>
          <li><p>Speed</p></li>
          <li><p>Change in</p></li>
@@ -207,7 +207,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>What feature of a graph illustrates rate of change?</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
         <li><p>The <m>y</m>-axis</p></li>
          <li><p>Slope</p></li>
          <li><p>Scales on the axes</p></li>
@@ -244,7 +244,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>The slope of a line tells us how much the <m>y</m>-coordinate changes <fillin characters="10"/></p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>from one end of the graph to the other.</p></li>
     <li><p>as we move up the <m>y</m>-axis.</p></li>
     <li><p>from one point to the next point.</p></li>
@@ -362,13 +362,13 @@ or, in symbols
 <p>From these examples, we can make the following observations:</p>
 
 <assemblage><title>Slope and Steepness</title><idx>slope</idx><p>
-<ol marker="a">
+<ol marker="a.">
     <li><p>For positive slopes, the larger the value of <m>m</m>, the more the <m>y</m>-value increases for each unit increase in <m>x</m>, and the more we climb up as our location changes from left to right. (So graph A is steeper than graph B.)<idx><h>slope</h><h>positive</h></idx></p></li>
     <li><p>If <m>y</m> decreases as we move from left to right, then <m>\Delta y</m> is negative when <m>\Delta x</m> is positive, so their ratio (the slope) is negative. (See graph C.)<idx><h>slope</h><h>positive</h></idx></p></li>
 </ol></p></assemblage>
 
 <example><statement><sidebyside widths="55% 40%" margins="0% 0%">
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Compute the slope of the line.  <m>~\alert{\text{[TK]}}~~</m></p></li>
         <li><p> Illustrate the slope on the graph by drawing a vertical segment of length <m>\Delta y</m> and a horizontal segment of length <m>\Delta x</m>.</p></li>
         <li><p>If <m>\Delta x =1</m>, what is the length of the vertical segment? </p></li>
@@ -395,7 +395,7 @@ or, in symbols
             </latex-image></image></sidebyside>
     </statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The points <m>(20,500)</m> and <m>(40,1000) </m> lie on the graph. As we move from the first point to the second point, <m>x</m> increases by 20 units, so <m>\Delta x=20</m>, and <m>y</m> increases by 500 units, so <m>\Delta y = 500</m>. Thus
             <me>\frac{\Delta y}{\Delta x}=\frac{500}{20}=25 </me> </p></li>
     <li><p>The segments are shown in the graph below.</p>
@@ -498,7 +498,7 @@ or, in symbols
 
 <exercise component="main"><title>Practice 3</title>
 <statement><sidebyside widths="50% 40%">
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Compute the slope of the line.</p></li>
         <li><p>Illustrate the slope on the graph by drawing a vertical segment for <m>\Delta y</m> and a horizontal segment for <m>\Delta x</m>.</p></li>
         <li><p>If <m>\Delta x=1</m>, what is the length of the vertical segment?</p></li>
@@ -524,7 +524,7 @@ or, in symbols
         \filldraw[red] (2,9) circle (0.15);
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
             <li><p><m>-37.5</m></p></li>
             <li><image width="50%" xml:id="fig-ex-1-4-3-ans"><description>negative slope line with different scales on axes</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -561,7 +561,7 @@ or, in symbols
 
 <example><statement><p>The graph shows the altitude, <m>a</m> (in feet), of a skier <m>t</m> minutes after getting on a ski lift.</p>
     <sidebyside widths="55% 40%" valigns="middle middle">
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><p>Choose two points on the graph and compute the slope, including units.</p></li>
             <li><p>Explain what the slope measures in this problem. <m>~\alert{\text{[TK]}}</m></p></li>
             <li><p>Write a linear model for <m>a</m> in terms of <m>t</m>.</p></li>
@@ -586,7 +586,7 @@ or, in symbols
             \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We choose the points <m>(2,400)</m> and <m>(4, 700)</m>, as shown on the graph. Then
             <me>m=\frac{\Delta a}{\Delta t} = \frac{300 \text{ feet}}{2 \text{ minutes}} = 150 \text{ feet/minute} </me></p></li>
     <li><p>The slope gives the rate of change of altitude with respect to time. The skier rises at a rate of 150 feet per minute.</p></li>
@@ -599,7 +599,7 @@ or, in symbols
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more help interpretine slope, see <xref ref="tkInterpSlope" text="custom"> Section 1.4.3 </xref> of the Toolkit.</p></aside>
 
 <assemblage><title>Slope as a Rate of Change</title><idx><h>slope</h><h>rate of change</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><p>The slope of a line measures the <term>rate of change</term> of <m>y</m> with respect to <m>x</m>.</p></li>
     <li><p>The units of <m>\Delta y</m> and <m>\Delta x</m> can help us interpret the slope as a rate.</p></li>
 </ol></p>
@@ -646,7 +646,7 @@ or, in symbols
             );            
         </pg-code>
     <statement><p>The graph shows the amount of garbage <m>G</m> (in tons) that has been deposited at a dumpsite <m>t</m> years after new regulations go into effect.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>Choose two points on the graph and compute the slope, including units.</p>
             <p>The slope is <var name="$m" width="3"/><var name="$units" form="buttons"/></p></li>
         <li><p>Explain what the slope measures in this problem.
@@ -654,7 +654,7 @@ or, in symbols
         <li><p>Choose two different points and compute the slope again. Do you get the same value as before?</p>
                 <p>The slope is <var name="$m" width="3"/><var name="$units" form="buttons"/></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><p>12.5 tons per year</p></li>
             <li><p>The slope gives the rate at which garbage is accumulating.</p></li>
             <li><p>The slope is the same using any two points on the line.</p></li>
@@ -664,7 +664,7 @@ or, in symbols
 <exercise component="main"><title>Practice 4</title>
 <statement><p>The graph shows the amount of garbage <m>G</m> (in tons) that has been deposited at a dumpsite <m>t</m> years after new regulations go into effect.</p>
 <sidebyside widths="50% 35%">
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Choose two points on the graph and compute the slope, including units.</p></li>
         <li><p>Explain what the slope measures in this problem.</p></li>
         <li><p>Choose two different points and compute the slope again. Do you get the same value as before?</p></li>
@@ -688,7 +688,7 @@ or, in symbols
             \filldraw[red] (4,6) circle (.12);
             \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
             <li><p>12.5 tons per year</p></li>
             <li><p>The slope gives the rate at which garbage is accumulating.</p></li>
             <li><p>The slope is the same using any two points on the line.</p></li>
@@ -756,7 +756,7 @@ or, in symbols
 
 <exercise component="main"><title>QuickCheck 5</title>
 <statement><p>What formula can we use to find <m>\Delta y</m> when we know <m>\Delta x</m>, or <m>\Delta x</m> when we know <m>\Delta y</m>?</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
         <li><p>The equation of the line</p></li>
         <li><p>The general linear formula</p></li>
         <li><p>The slope formula</p></li>
@@ -823,7 +823,7 @@ or, in symbols
 
 <exercise component="main"><title>QuickCheck 6</title>
 <statement><p>How can we can tell whether a collection of data points lies on a straight line?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
         <li><p>Plot them and look at the graph.</p></li>
         <li><p>Calculate the slopes between points.</p></li>
         <li><p>Find an equation for the line.</p></li>

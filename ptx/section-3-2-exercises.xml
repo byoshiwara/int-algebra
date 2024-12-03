@@ -10,41 +10,41 @@
 
 <exercisegroup><introduction><p>For Problems 1-4, write each product as a polynomial in simplest form.</p></introduction>
 
-<exercise number="1"><statement><p><ol marker="a"   cols="2">
+<exercise number="1"><statement><p><ol marker="a."   cols="2">
     <li><m>(b+6)(2b-3)</m></li>
     <li><m>(3z-8)(4z-1)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><m>2b^2+9b-18</m></li>
     <li><m>12z^2-35z+8</m></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol marker="a"  cols="2">
+<exercise number="2"><statement><p><ol marker="a."  cols="2">
     <li><m>(4z-3)^2</m></li>
     <li><m>(2d+8)^2</m></li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol marker="a" cols="2">
+<exercise number="3"><statement><p><ol marker="a." cols="2">
     <li><m>3p(2p-5)(p-3)</m></li>
     <li><m>2v(v+4)(3v-4)</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><m>6p^3-33p^2+45p</m></li>
     <li><m>6v^3+16v^2-32v</m></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a" cols="2">
+<exercise number="4"><statement><p><ol marker="a." cols="2">
     <li><m>-50(1+r)^2</m></li>
     <li><m>12(1-t))^2</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="5"><statement><p>Factor if possible.<ol marker="a" cols="2">
+<exercise number="5"><statement><p>Factor if possible.<ol marker="a." cols="2">
         <li><p><m>x^2-16</m></p></li>
         <li><p><m>x^2-16x </m></p></li>
         <li><p><m>x^2-8x+16</m></p></li>
         <li><p><m>x^2+16 </m></p></li></ol></p></statement>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
         <li><p><m>(x-4)(x+4)</m></p></li>
         <li><p><m>x(x-16)</m></p></li>
         <li><p><m>(x-4)(x-4)</m></p></li>
         <li><p>cannot be factored</p></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><p>Solve if possible.<ol marker="a" cols="2">
+<exercise number="6"><statement><p>Solve if possible.<ol marker="a." cols="2">
         <li><p><m>x^2-16=0</m></p></li>
         <li><p><m>x^2-16x=0 </m></p></li>
         <li><p><m>x^2-8x+16=0</m></p></li>
@@ -115,14 +115,14 @@
 <exercise number="26"><statement><p><m>y=-0.06(x^2-22x-504)</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="27"><statement><p>Use technology to graph all three equations in the same window.  What do you notice about the <m>x</m>-intercepts? <ol marker="a">
+<exercise number="27"><statement><p>Use technology to graph all three equations in the same window.  What do you notice about the <m>x</m>-intercepts? <ol marker="a.">
     <li><m>y = x^2+2x-15</m></li>
     <li><m>y = 3(x^2+2x-15)</m></li>
     <li><m>y = 0.2(x^2+2x-15)</m></li></ol></p></statement>
 <answer><p>All three graphs have the same <m>x</m>-intercepts.</p></answer>
 </exercise>
 
-<exercise number="28"><statement><p>Write a quadratic equation with the given solutions. Give your answers in standard form with integer coefficients.<ol marker="a" cols="3">
+<exercise number="28"><statement><p>Write a quadratic equation with the given solutions. Give your answers in standard form with integer coefficients.<ol marker="a." cols="3">
     <li><m>-2</m> and <m>1</m></li>
     <li><m>-3</m> and <m>\dfrac{1}{2}</m></li>
     <li><m>\dfrac{-1}{4}</m> and <m>\dfrac{3}{2}</m></li></ol></p></statement>
@@ -133,7 +133,7 @@
 
 <exercise number="29"><statement><p>Delbert stands at the top of a 300-foot cliff and throws his algebra book directly upward with a velocity of 20 feet per second. The height of his book above the ground <m>t</m> seconds later is given by the equation
     <me>h=-16t^2+20t+300</me>
-where <m>h</m> is in feet.<ol marker="a">
+where <m>h</m> is in feet.<ol marker="a.">
     <li>Use your graphing utility to make a table of values for the height equation, with increments of 0.5 second.</li>  
     <li>Graph the height equation. Use your table of values to help you choose appropriate <kbd>WINDOW</kbd> settings.</li>
     <li>What is the highest altitude Delbert's book reaches? When does it reach that height? Use the <kbd>TRACE</kbd> feature to find approximate answers first. Then use the <kbd>Table</kbd> feature to improve your estimate.</li>
@@ -143,7 +143,7 @@ where <m>h</m> is in feet.<ol marker="a">
 
 <exercise number="30"><statement><p>The annual increase <m>I</m> in the deer population in a national park is given by the formula 
     <me>I=1.2x-0.0002x^2</me>
-where <m>x</m> is the size of the population that year. <ol marker="a">
+where <m>x</m> is the size of the population that year. <ol marker="a.">
     <li>Make a table of values for <m>I</m> for <m>0 \le x \le 7000.</m> Use increments of 500 in <m>x</m>.</li>
     <li>How much will a population of 2000 deer increase? A population of 5000 deer? A population of 7000 deer?</li>
     <li>Use your calculator to graph the annual increase versus the size of the population, <m>x</m>, for <m>0 \le x \le 7000.</m> Use your table from part (b) to help you choose appropriate values for Ymin and Ymax.</li>
@@ -151,7 +151,7 @@ where <m>x</m> is the size of the population that year. <ol marker="a">
     <li>Estimate the population size that results in the largest annual increase. What is that increase?</li></ol>
 </p></statement></exercise>
 
-<exercise number="31"><statement><p>One end of a ladder is 10 feet from the base of a wall, and the other end reaches a window in the wall. The ladder is 2 feet longer than the height of the window. <ol marker="a">  
+<exercise number="31"><statement><p>One end of a ladder is 10 feet from the base of a wall, and the other end reaches a window in the wall. The ladder is 2 feet longer than the height of the window. <ol marker="a.">  
     <li>Choose a variable for the height of the window.  Make a sketch of the situation described, and label the sides of a right triangle.</li>
     <li>Write a quadratic equation about the height of the window.</li>
     <li>Solve your equation to find the height of the window.</li></ol></p></statement>
@@ -159,7 +159,7 @@ where <m>x</m> is the size of the population that year. <ol marker="a">
 
 <exercise number="32"><statement><p>Irene would like to enclose two adjacent chicken coops of equal size against the henhouse wall. She has 66 feet of chicken wire fencing, and she would like the total area of the two coops to be 360 square feet. What should the dimensions of the chicken coops be?</p>
     <sidebyside  width="40%"><image source="images/fig-hw-3-2-16"><description>picture</description></image></sidebyside>
-<p>We'll use three methods to solve this problem:  a table of values, a graph, and an algebraic equation.<ol marker="a">
+<p>We'll use three methods to solve this problem:  a table of values, a graph, and an algebraic equation.<ol marker="a.">
     <li><p>Make a table by hand that shows the areas of coops of various widths, as shown below.</p>
             <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
@@ -185,7 +185,7 @@ where <m>x</m> is the size of the population that year. <ol marker="a">
 
 <exercise number="33"><statement><p>A box is made from a square piece of cardboard by cutting 2-inch squares from each corner and then turning up the edges.</p>
     <sidebyside  width="60%"><image source="images/fig-hw-3-4-20"><description>box</description></image></sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>If the piece of cardboard is <m>x</m> inches square, write expressions for the length, width, and height of the
         box. Then write an expression for the volume, <m>V</m>, of the box in terms of <m>x</m>.</li>
     <li>Use your calculator to make a table of values showing the volumes of boxes made from cardboard squares of side 
@@ -193,7 +193,7 @@ where <m>x</m> is the size of the population that year. <ol marker="a">
     <li>Graph your expression for the volume on your calculator. What is the smallest value of <m>x</m> that makes sense for this problem?</li>
     <li>Use your table or your graph to find what size cardboard you need to make a box with volume 50 cubic inches.</li>
     <li>Write and solve a quadratic equation to answer part (d).</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>l=x-4,~w=x-4,~h=2,~V=2(x-4)^2</m></li>
     <li>0 cubic in, 2 cubic in, 8 cubic in, etc.</li>
     <li><m>x = 4</m></li>
@@ -202,7 +202,7 @@ where <m>x</m> is the size of the population that year. <ol marker="a">
 
 <exercise number="34"><statement><p>A length of rain gutter is made from a piece of aluminum 6 feet long and 1 foot wide.</p>
 <sidebyside  width="60%"><image source="images/fig-hw-3-2-17"><description>picture</description></image></sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>If a strip of width <m>x</m> is turned up along each long edge, write expressions for the length, width and height of the gutter.  Then write an expression for the volume <m>V</m> of the gutter in terms of <m>x</m>.</li> 
     <li>Use your calculator to make a table of values showing the volumes of various rain gutters formed by turning up edges of 0.1 foot, 0.2 foot, and so on.</li>
     <li>Graph your expression for the volume.  What happens to <m>V</m> as <m>x</m> increases?</li>

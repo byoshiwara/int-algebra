@@ -93,7 +93,7 @@
                 <cell>4.25</cell>
                 <cell>5.15</cell></row>
         </tabular>
-        <sidebyside widths="50% 45%" margins="0% 0%" valigns="top middle"><p><ol marker="a">
+        <sidebyside widths="50% 45%" margins="0% 0%" valigns="top middle"><p><ol marker="a.">
             <li><p>Let <m>t</m> represent the number of years after 1960, and plot the data. Are the data linear?</p></li>
             <li><p>Draw a line that "fits" the data. <m>~\alert{\text{[TK]}}</m> </p></li>
         </ol></p>
@@ -101,7 +101,7 @@
         </sidebyside>
     </statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The graph shown is called a <term>scatterplot</term><idx>scatterplot</idx>. The data are not strictly linear, because the slope is not constant: from 1960 to 1965, the minimum wage increased at an average rate of 
             <me>\dfrac{1.25-1.00}{5}=0.05~ \text{dollars per year}</me> 
     and from 1970 to 1975, the minimum wage increased at a rate of 
@@ -137,7 +137,7 @@
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Explain how to find the equation of a regression line.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Choose two data points and use the point-slope formula.</p></li>
     <li><p>Use the point-slope formula with the first and last data points.</p></li>
     <li><p>The regression line must pass through two data points, and we use the point-slope formula for those points.</p></li>
@@ -194,14 +194,14 @@
                 <cell>16</cell>
                 <cell>15</cell>
                 <cell>6</cell></row>
-        </tabular><p><ol marker="a">
+        </tabular><p><ol marker="a.">
     <li><p>Make a scatterplot of the data, and draw a regression line</p></li>
     <li><p>Read values from your line for the number of cups of cocoa that will be sold when the temperature is <m>8\degree\text{C}</m> and when the temperature is <m>16\degree\text{C}</m>.</p></li>
     <li><p>Find an equation for the regression line.</p></li>
     <li><p>Use your equation to predict the number of cups of cocoa that will be sold when the temperature is <m>9\degree\text{C}</m>, and when the temperature is <m>24\degree\text{C}.</m></p></li>
 </ol></p></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The scatterplot and a regression line are shown in the figure.</p>
         <image width="85%" source="images/fig-example-cocoa"><description>scatterplot with regression line</description></image>
     <p>The regression line need not pass through any of the data points, but it should be as close as possible. We try to draw the regression line so that there are an equal number of data points above and below the line.</p></li>
@@ -231,7 +231,7 @@
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>A scatterplot is a type of linear model. <var name="$TF" form="popup"/></p></li>
     <li><p>A regression line should give the same <m>y</m>-values as the data points. <var name="$TF" form="popup"/></p></li>
     <li><p>We use interpolation to estimate the <m>y</m>-value at a data point. <var name="$TF" form="popup"/></p></li>
@@ -242,7 +242,7 @@
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>A scatterplot is a type of linear model.</p></li>
     <li><p>A regression line should give the same <m>y</m>-values as the data points.</p></li>
     <li><p>We use interpolation to estimate the <m>y</m>-value at a data point. </p></li>
@@ -268,7 +268,7 @@
           3, 
         );            
         </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
          <li><p>Use your regression equation from the previous Example to predict the number of cups of cocoa sold when the temperature is <m>-10^\circ\text{C} </m>.</p>
                     <p><var name="$a1" width="2"/> cups</p></li>
         <li><p>Predict the number of cups of cocoa sold when the temperature is <m>7^\circ\text{C}</m>.</p>
@@ -276,7 +276,7 @@
         <li><p>Which prediction is more likely to be accurate?  Why?</p>
                     <p><var name="$explain" form="buttons"/></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
                 <li><p>77</p></li>
                 <li><p>34 or 35</p></li>
                 <li><p>(b), because it is interpolation</p></li>
@@ -284,12 +284,12 @@
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 2</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
          <li><p>Use your regression equation from the previous Example to predict the number of cups of cocoa sold when the temperature is <m>-10^\circ\text{C} </m>.</p></li>
         <li><p>Predict the number of cups of cocoa sold when the temperature is <m>7^\circ\text{C}</m>.</p></li>
         <li><p>Which prediction is more likely to be accurate?  Why?</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
             <li><p>77</p></li>
             <li><p>34 or 35</p></li>
             <li><p>(b), because it is interpolation</p></li>
@@ -302,7 +302,7 @@
 
 <example xml:id="Example-female-literacy"><statement><p>The world's population is growing at different rates in different nations. Many factors, including economic and social forces, influence the birthrate. Is there a connection between birth rates and education levels? The figure below shows the birth rate plotted against the female literacy rate in 148 countries.</p>
     <image width="90%" source="images/fig-female-literacy-scatterplot"><description>scatterplot birth rate and female literacy</description></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Draw a line of best fit for the data points.</p></li>
     <li><p>Locate on the scatterplot the points representing the following nations</p>
         <tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
@@ -338,7 +338,7 @@
     <li><p>Data points that lie far from the regression line are called <term>outliers</term><idx><h>linear regression</h><h>outliers</h></idx><idx>outliers</idx><idx><h>outliers</h><seealso>linear regression</seealso></idx>. Which of the nations listed in part (b) could be considered outliers?</p></li>
 </ol></p></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
         <li><image width="95%" source="images/fig-female-literacy-line"><description>regression line for birth rate and female literacy</description></image></li>
         <li><p>The figure above shows the regression line and the data points for each of the nations in part (b).</p></li>
         <li><p> Morocco and the Maldives could be considered outliers.</p></li>
@@ -367,7 +367,7 @@
             );            
         </pg-code>
     <statement><p>The equation for the least-squares regression line in the previous Example is
-            <md><mrow>y = 7.04 - 0.05x</mrow></md><ol marker="a">
+            <md><mrow>y = 7.04 - 0.05x</mrow></md><ol marker="a.">
             <li><p>What values for the input variable make sense for the model? </p>
                 <p>From <var name="$zero" width="1"/> to <var name="$hundred" width="2"/> </p>
                 <p>What is the largest value predicted by the model for the output variable?</p>
@@ -381,7 +381,7 @@
                 <p>The birth rate decreases by : </p>
                         <p><var name="$explain" form="buttons"/></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><p>From 0 to 100; largest: 7.04; smallest: 2.04</p></li>
         <li><p><m>-0.05</m> births per woman per percentage point. The birth rate decreases by 0.05 births per woman for each percentage point increase in the female literacy rate.</p></li>
     </ol></p></solution>
@@ -390,11 +390,11 @@
 <exercise component="main"><title>Practice 3</title>
 <statement><p>The equation for the least-squares regression line in the previous Example is
             <md><mrow>y = 7.04 - 0.05x</mrow></md></p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><p>What values for the input variable make sense for the model? What are the largest and smallest values predicted by the model for the output variable?</p></li>
             <li><p>State the slope of the regression line, including units, and explain what it means in the context of the data.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><p>From 0 to 100; largest: 7.04; smallest: 2.04</p></li>
         <li><p><m>-0.05</m> births per woman per percentage point. The birth rate decreases by 0.05 births per woman for each percentage point increase in the female literacy rate.</p></li>
     </ol></p></answer></exercise>

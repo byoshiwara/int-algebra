@@ -169,7 +169,7 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>At most one of the solutions of a radical equation can be extraneous. <var name="$False" form="popup"/>
         </p></li>
     <li><p>We don't have to check for extraneous solutions if we cube both sides of an equation. <var name="$True" form="popup"/></p></li>
@@ -177,7 +177,7 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
     <li><p>It is helpful to isolate the radical before squaring both sides. <var name="$True" form="popup"/></p></li>
         </ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>False</li>
         <li>True</li>
         <li>False</li>
@@ -187,7 +187,7 @@ This is because <m>(a + b)^2 \ne a^2 + b^2</m>. Instead, we must square the <em>
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>True or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>At most one of the solutions of a radical equation can be extraneous. </p></li>
     <li><p>We don't have to check for extraneous solutions if we cube both sides of an equation.</p></li>
     <li><p>We can square each term of an equation separately without changing its solutions. </p></li>
@@ -323,7 +323,7 @@ In this case, <m>\sqrt{a^2}</m> does not equal <m>a</m>, because <m>a</m> is neg
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review absolute value, see <xref ref="tkRadAbsVal" text="custom"> Section 6.5.3 </xref> of the Toolkit.</p></aside>
 
-<example><statement><p><ol marker="a" cols="2">
+<example><statement><p><ol marker="a." cols="2">
 	<li><m>\sqrt{16x^2} = 4\abs{x}</m></li>
 	<li><m>\sqrt{(x-1)^2} = \abs{x-1}</m></li></ol></p></statement></example>
 
@@ -332,23 +332,23 @@ In this case, <m>\sqrt{a^2}</m> does not equal <m>a</m>, because <m>a</m> is neg
         $a = Formula("-5*x^2");
         $b = Formula("2* abs(x^3)");
     </pg-code>
-<statement><p>Simplify. <ol marker="a" cols="2">  
+<statement><p>Simplify. <ol marker="a." cols="2">  
     <li><p><m>\sqrt[3]{-125x^6}=</m><var name="$a" width="8"/> </p></li>
     <li><p><m>\sqrt[4]{16x^{12}}=</m><var name="$b" width="8"/></p></li></ol></p>
         <instruction>Use "abs(x)" to get <m>| x |</m>.</instruction>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
         <li><m>-5x^2</m></li>
         <li><m>2\left| {x^3} \right|</m></li></ol></p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Simplify.</p>
-<p> <ol marker="a" cols="2">  
+<p> <ol marker="a." cols="2">  
     <li><p><m>\sqrt[3]{-125x^6}</m></p></li>
     <li><p><m>\sqrt[4]{16x^{12}}</m></p></li>
 </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
         <li><m>-5x^2</m></li>
         <li><m>2\left| {x^3} \right|</m></li>
     </ol></p></solution></exercise>
@@ -364,14 +364,14 @@ In this case, <m>\sqrt{a^2}</m> does not equal <m>a</m>, because <m>a</m> is neg
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>If an equation contains more than one radical, we square each term of the equation. <var name="$False" form="popup"/></p></li>
     <li><p><m>(7-\sqrt{x})^2 = 49-x</m> <var name="$False" form="popup"/></p></li>
     <li><p>If <m>\sqrt{x^2} \not= x</m>, then <m>\sqrt{x^2} = -x</m>. <var name="$True" form="popup"/></p></li>
     <li><p> If <m>n</m> is even and <m>a \not= 0</m>, then <m>a^n</m> is always positive. <var name="$True" form="popup"/>
         </p></li></ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>False</li>
         <li>False</li>
         <li>True</li>
@@ -381,7 +381,7 @@ In this case, <m>\sqrt{a^2}</m> does not equal <m>a</m>, because <m>a</m> is neg
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>True or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>If an equation contains more than one radical, we square each term of the equation. </p></li>
     <li><p><m>(7-\sqrt{x})^2 = 49-x</m> </p></li>
     <li><p>If <m>\sqrt{x^2} \not= x</m>, then <m>\sqrt{x^2} = -x</m>.</p></li>

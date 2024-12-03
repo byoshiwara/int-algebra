@@ -29,7 +29,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
             );            
     </pg-code>    
     <statement><p>Which of the following equations are quadratic?</p>
-            <p><ol marker="A">
+            <p><ol marker="a.">
                 <li><p><m>3x+2x^2=1</m> <var name="$True" form="popup"/></p></li>
                 <li><p><m>4z^2-2z^3+2=0</m> <var name="$False" form="popup"/></p></li>
                 <li><p><m>36y-16=0</m> <var name="$False" form="popup"/></p></li>
@@ -41,7 +41,7 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Which of the following equations are quadratic?</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m>3x+2x^2=1</m> </p></li>
         <li><p><m>4z^2-2z^3+2=0</m></p></li>
         <li><p><m>36y-16=0</m></p></li>
@@ -322,7 +322,7 @@ graphically and algebraically.</p></statement>
             );
         </pg-code>
     <statement><p>Which solutions are exact values, and which are approximations?
-    <ol marker="a">
+    <ol marker="a.">
         <li><p><m>x^2=40, \qquad\qquad x=\pm 6.32455532</m>
                     <var name="$approximation" form="popup"/></p></li>
         <li><p><m>t^2=\dfrac{81}{64}, \qquad\qquad t=\pm 1.125</m>
@@ -337,7 +337,7 @@ graphically and algebraically.</p></statement>
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Which solutions are exact values, and which are approximations?
-    <ol marker="a">
+    <ol marker="a.">
         <li><p><m>x^2=40, \qquad\qquad x=\pm 6.32455532</m></p></li>
         <li><p><m>t^2=\dfrac{81}{64}, \qquad\qquad t=\pm 1.125</m></p></li>
         <li><p><m>w^2=50, \qquad\qquad w=\pm 5\sqrt{2} </m></p></li>
@@ -351,7 +351,7 @@ graphically and algebraically.</p></statement>
 
 <assemblage><title>Extraction of Roots</title><idx>extraction of roots</idx><idx><h>quadratic equation</h><h>solving by extraction of roots</h></idx>
 <p>To solve a quadratic equation of the form
-    <me>ax^2+c=0</me> <ol marker="1">
+    <me>ax^2+c=0</me> <ol marker="1.">
     <li>Isolate <m>x</m> on one side of the equation.</li> 
     <li>Take the square root of each side.</li></ol></p></assemblage> 
 
@@ -380,12 +380,12 @@ graphically and algebraically.</p></statement>
 
 <p>In the next Example, we compare the steps for <em>evaluating a quadratic expression</em> and for <em>solving a quadratic equation</em>.</p>
 
-<example><statement><p>Tux the cat falls off a tree branch 20 feet above the ground. His height <m>t</m> seconds later is given by <m>h=20-16t^2</m>.<ol marker="a">   
+<example><statement><p>Tux the cat falls off a tree branch 20 feet above the ground. His height <m>t</m> seconds later is given by <m>h=20-16t^2</m>.<ol marker="a.">   
     <li>How high is Tux above the ground 0.5 second later?</li>
     <li>How long does Tux have to get in position to land on his feet before he reaches the ground?</li>
 </ol></p></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We evaluate the formula for <m>t=0.5</m>. We substitute <m>\alert{0.5}</m> for <m>t</m> into the formula, and simplify. 
         <md><mrow>h \amp= 20-16(\alert{0.5})^2 \amp \amp \blert{\text{Compute the power.}}</mrow>
             <mrow> \amp = 20-16(0.25)  \amp \amp \blert{\text{Multiply, then subtract.}}</mrow>
@@ -497,17 +497,17 @@ Because the radius of a cone must be a positive number, we use only the positive
               3, 
             );           
         </pg-code>
-    <statement><p>Match each quantity with the appropriate units.<ol marker="a">
+    <statement><p>Match each quantity with the appropriate units.<ol marker="a.">
             <li><p>Height of a cylinder <var name="$length" form="popup"/></p></li>
             <li><p>Volume of a cone <var name="$volume" form="popup"/></p></li>
             <li><p>Surface area of a sphere <var name="$area" form="popup"/></p></li>
             <li><p>Area of a triangle <var name="$area" form="popup"/></p></li></ol></p>
-        <p><ol marker="I">
+        <p><ol marker="I.">
             <li>Square meters</li>
             <li>Feet</li>
             <li>Cubic centimeters</li>
             <li>Kilograms</li></ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
                 <li>II</li>
                 <li>III</li>
                 <li>I</li>
@@ -518,13 +518,13 @@ Because the radius of a cone must be a positive number, we use only the positive
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>Match each quantity with the appropriate units.</p>
     <sidebyside widths="50% 50%">
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><p>Height of a cylinder </p></li>
             <li><p>Volume of a cone</p></li>
             <li><p>Surface area of a sphere</p></li>
             <li><p>Area of a triangle</p></li>
     </ol></p>
-    <p><ol marker="I">
+    <p><ol marker="I.">
             <li>Square meters</li>
             <li>Feet</li>
             <li>Cubic centimeters</li>
@@ -566,7 +566,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
             );
         </pg-code> 
 <statement><p>Solve <m>2(5x + 3)^2 = 38</m> by extracting roots.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Give your answers as exact values, separating the solutions with a comma.</p>
             <p><var name="$exact" width="25" evaluator="$my_evaluator"/> </p>
             <p>Note: Enter "sqrt(2)" to get <m>\sqrt{2}</m>, and take care to use parentheses appropriately. </p>
@@ -574,7 +574,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
         <li><p>Find approximations for the solutions to two decimal places, separating the solutions with a comma.</p>
             <p><var name="$approx" width="15"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>x=\dfrac{-3\pm \sqrt{19}}{5} </m></p></li>
                 <li><p><m>x\approx -1.47</m> or <m>x\approx 0.27</m></p></li></ol></p>
         </solution>
@@ -582,11 +582,11 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Solve <m>2(5x + 3)^2 = 38</m> by extracting roots.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Give your answers as exact values.</p></li>
         <li><p>Find approximations for the solutions to two decimal places.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
                 <li><p><m>x=\dfrac{-3\pm \sqrt{19}}{5} </m></p></li>
                 <li><p><m>x\approx -1.47</m> or <m>x\approx 0.27</m></p></li>
     </ol></p></answer></exercise>
@@ -598,7 +598,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
               2, 
             );           
         </pg-code>
-    <statement><p>True or false.<ol marker="a">
+    <statement><p>True or false.<ol marker="a.">
         <li><p>The first step in extraction of roots is to take square roots. 
                         <var name="$TF" form="popup"/></p></li>
         <li><p>The solutions of a quadratic equation are always of the form <m>~\pm k</m>. 
@@ -608,7 +608,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
         <li><p>The coefficients of a quadratic equation are called parabolas. 
                         <var name="$TF" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
                 <li>False</li>
                 <li>False</li>
                 <li>False</li>
@@ -617,7 +617,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 4</title>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
         <li><p>The first step in extraction of roots is to take square roots.</p></li>
         <li><p>The solutions of a quadratic equation are always of the form <m>~\pm k</m>.</p></li>
         <li><p>Your calculator gives exact decimal values for square roots of integers.</p></li>
@@ -633,12 +633,12 @@ where <m>P</m> is the original principal and <m>r</m> is the interest rate, expr
 
 <aside><p><m>\alert{\text{[TK]}}~~</m> We'll see more about compound interest in Section 7.1.</p></aside>
  
-<example><statement><p>Carmella invests $3000 in an account that pays an interest rate <m>r</m> compounded annually.<ol marker="a">
+<example><statement><p>Carmella invests $3000 in an account that pays an interest rate <m>r</m> compounded annually.<ol marker="a.">
     <li>Write an expression for the amount of money in Carmella's account after two years.</li>
     <li>What interest rate would be necessary for Carmella's account to grow to $3500 in two years?</li></ol></p>
 </statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We use the formula <m>A=P(1+r)^n</m> with <m>P=3000</m> and <m>n=2</m>.  Carmella's account balance will be
         <me>A=3000(1+r)^2</me></p></li> 
     <li><p>We substitute <m>\alert{3500}</m> for <m>A</m> in the equation. 

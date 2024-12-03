@@ -45,7 +45,7 @@ Then use the distributive law to multiply the result by the monomial factor, <m>
                   \end{aligned}</me></p>
 
 <assemblage><title>Sign Patterns for Quadratic Trinomials</title>
-<p>Assume that <m>b,~c,~p</m> and <m>q</m> are positive integers. Then <ol marker="1">
+<p>Assume that <m>b,~c,~p</m> and <m>q</m> are positive integers. Then <ol marker="1.">
     <li><p><m>x^2+bx+c = (x+p)(x+q)</m></p>
         <p>If all the coefficients of the trinomial are positive, then both <m>p</m> and <m>q</m> are positive.</p></li>
     <li><p><m>x^2-bx+c = (x-p)(x-q)</m></p>

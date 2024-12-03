@@ -26,7 +26,7 @@
 		<mrow> \text{and}~~~~~~ \sqrt[3]{27-8} \amp \not= \sqrt[3]{27}-\sqrt[3]{8}</mrow></md></p></warning>
 
 <example><statement><p>Which of the following are true? <m>~\alert{\text{[TK]}}</m>
-    <ol marker="a">
+    <ol marker="a.">
             <li><p>Is <m>\sqrt{36+64}= \sqrt{36}+\sqrt{64}~\text{?}</m></p></li>
             <li><p>Is <m>\sqrt[3]{8(64)}= \sqrt[3]{8}\sqrt[3]{64}~\text{?}</m></p></li>
             <li><p>Is <m>\sqrt{x^2+4}= x+2~\text{?}</m></p></li>
@@ -48,7 +48,7 @@
           2, 
         );
     </pg-code>
-<statement><p>Which of the following are true?<ol marker="a">
+<statement><p>Which of the following are true?<ol marker="a.">
     <li><p><m>\sqrt[3]{8a^3-b^3} = 2a-b~</m>? <var name="$False" form="popup"/></p></li>
     <li><p><m>\sqrt[5]{x^3y^4} = \sqrt[5]{x^3}\sqrt[5]{y^4}~</m>? <var name="$True" form="popup"/></p></li>
     <li><p><m>\sqrt[4]{\dfrac{1}{w^4}}=\dfrac{1}{w}</m>, for <m>w \gt 0~</m>? <var name="$True" form="popup"/></p></li>
@@ -59,7 +59,7 @@
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Which of the following are true?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p><m>\sqrt[3]{8a^3-b^3} = 2a-b~</m>? </p></li>
     <li><p><m>\sqrt[5]{x^3y^4} = \sqrt[5]{x^3}\sqrt[5]{y^4}~</m>? </p></li>
     <li><p><m>\sqrt[4]{\dfrac{1}{w^4}}=\dfrac{1}{w}</m>, for <m>w \gt 0~</m>? </p></li>
@@ -146,11 +146,11 @@ but <m>4.762</m>  is not the <em>exact</em> value for <m>\sqrt[3]{108}</m>.</p>
 <p>To simplify a root of a monomial, we factor the coefficient and each power of a variable separately.</p>
 
 <example><statement><p>Simplify each radical. <m>~\alert{\text{[TK]}}</m>
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
             <li><p><m>\sqrt{18x^5}</m></p></li>
             <li><p><m>\sqrt[3]{24x^6y^8} </m></p></li>
         </ol></p></statement>
-<solution><p><ol marker = "a">
+<solution><p><ol marker = "a.">
     <li><p>The index of the radical is <m>2</m>, so we look for perfect square factors of <m>18x^5</m>. The factor <m>9</m> is a perfect square, and <m>x^4</m> has an exponent divisible by <m>2</m>. Thus,
                 <md><mrow>\sqrt{18x^5} \amp = \sqrt{9x^4\cdot 2x}\amp\amp\blert{\text{Apply the Product Rule.}}</mrow>
                     <mrow> \amp = \sqrt{9x^4} \sqrt{2x}\amp\amp\blert{\text{Take square roots.}}</mrow>
@@ -212,13 +212,13 @@ and
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>To simplify a radical means to find a decimal approximation. <var name="$False" form="popup"/></p></li>
     <li><p><m>\sqrt{x^{16}} = x^4</m> <var name="$False" form="popup"/></p></li>
     <li><p>We cannot simplify <m>\sqrt[3]{x^{10}}.</m> <var name="$False" form="popup"/></p></li>
     <li><p><m>\sqrt{83^5} = 83^2\sqrt{83}</m> <var name="$True" form="popup"/></p></li></ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>False</li>
         <li>False</li>
         <li>False</li>
@@ -228,7 +228,7 @@ and
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>True or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>To simplify a radical means to find a decimal approximation.</p></li>
     <li><p><m>\sqrt{x^{16}} = x^4</m></p></li>
     <li><p>We cannot simplify <m>\sqrt[3]{x^{10}}.</m> </p></li>
@@ -251,12 +251,12 @@ So we may add like radicals by adding their coefficients. The same idea applies 
 <assemblage><title>Like Radicals</title>
 <p>To add or subtract like radicals, we add or subtract their coefficients.  We do not change the index or the radicand.</p></assemblage>
 
-<example xml:id="example-like-radicals"><p><ol marker="a">
+<example xml:id="example-like-radicals"><p><ol marker="a.">
         <li><p><m>3\sqrt{3}+4\sqrt{3} = (3+4)\sqrt{3} = 7\sqrt{3}</m></p></li>
         <li><p><m>4\sqrt[3]{y}-6\sqrt[3]{y} = (4-6)\sqrt[3]{y} = -2\sqrt[3]{y}</m></p></li>
     </ol></p></example>
 
-<warning><p><ol marker="1">
+<warning><p><ol marker="1.">
     <li><p>In <xref ref="example-like-radicals" text="type-global"/>a, <m>3\sqrt{3}+4\sqrt{3}\ne 7\sqrt{6} </m>. Only the coefficients are added; the radicand does not change.</p></li>
     <li><p>Sums of radicals with different radicands or different indices cannot be combined. Thus, 
         <md><mrow>\sqrt{11}+\sqrt{5} \amp \ne\sqrt{16} \amp \amp \blert{\text{Radicands are not the same.}}</mrow>
@@ -301,13 +301,13 @@ So we may add like radicals by adding their coefficients. The same idea applies 
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>We combine like radicals the same way we combine like terms:  by adding or subtracting their coefficients. <var name="$True" form="popup"/></p></li>
     <li><p>To add radicals with different indices, we multiply the indices. <var name="$False" form="popup"/></p></li>
     <li><p><m>3\sqrt{5}+6\sqrt{5}=9\sqrt{10}</m> <var name="$False" form="popup"/></p></li>
     <li><p>Like radicals must have identical coefficients.  <var name="$False" form="popup"/></p></li></ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>True</li>
         <li>False</li>
         <li>False</li>
@@ -317,7 +317,7 @@ So we may add like radicals by adding their coefficients. The same idea applies 
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>True or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>We combine like radicals the same way we combine like terms: by adding or subtracting their coefficients.</p></li>
     <li><p>To add radicals with different indices, we multiply the indices.</p></li>
     <li><p><m>3\sqrt{5}+6\sqrt{5} = 9\sqrt{10}</m></p></li>
@@ -363,11 +363,11 @@ So we may add like radicals by adding their coefficients. The same idea applies 
 		<mrow>\dfrac{\sqrt[n]{a}}{\sqrt[n]{b}} \amp = \sqrt[n]{\dfrac{a}{b}}  \amp \amp (a \ge 0, b \gt 0)</mrow></md>
 These rules tell us that for products and quotients, the radicands do not have to be the same; only the indices must match.</p>
 
-<example><statement><p>Simplify.<ol marker="a" cols="2">
+<example><statement><p>Simplify.<ol marker="a." cols="2">
             <li><p><m>\sqrt[4]{6x^2} \sqrt[4]{8x^3}</m></p></li>
             <li><p><m>\displaystyle{\frac{\sqrt[3]{16y^5}}{\sqrt[3]{y^2}}}</m></p></li>
         </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We apply the Product Rule to write the product as a single radical, then simplify.
             <md><mrow>\sqrt[4]{6x^2} \sqrt[4]{8x^3}\amp =\sqrt[4]{48x^5}\amp\amp\blert{\text{Factor out perfect fourth powers.}} </mrow>
                 <mrow>\amp = \sqrt[4]{16x^4}\sqrt[4]{3x}\amp\amp\blert{\text{Simplify.}}</mrow>
@@ -387,14 +387,14 @@ These rules tell us that for products and quotients, the radicands do not have t
         $ans = Formula("3*x^2*sqrt(2*x)/(5*y^2)");
         $ansb = Formula("a*root(3,12a)");    
     </pg-code>
-<statement><p>Simplify. <ol marker="a" cols="2">
+<statement><p>Simplify. <ol marker="a." cols="2">
     <li><p><m>~\sqrt{\dfrac{18x^5}{25y^4}}=</m> <var name="$ans" width="15"/></p></li>
     <li><p><m>\sqrt[3]{2a^2}\sqrt[3]{6a^2}=</m> <var name="$ansb" width="15"/></p></li></ol></p>
         <instruction>
             Enter "sqrt(3)" to get <m>\sqrt{3}</m>, and enter "root(3,4)" to get <m>\sqrt[3]{4}</m>
         </instruction>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><m>\dfrac{3x^2\sqrt{2x}}{5y^2}</m></li>
         <li><m>a\sqrt[3]{12a}</m></li></ol></p>
     </solution>
@@ -402,22 +402,22 @@ These rules tell us that for products and quotients, the radicands do not have t
 
 <exercise component="main"><title>Practice 6</title>
 <statement><p>Simplify.</p> 
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
     <li><p><m>~\sqrt{\dfrac{18x^5}{25y^4}}</m></p></li>
     <li><p><m>\sqrt[3]{2a^2}\sqrt[3]{6a^2}</m></p></li>
 </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
         <li><m>\dfrac{3x^2\sqrt{2x}}{5y^2}</m></li>
         <li><m>a\sqrt[3]{12a}</m></li>
 </ol></p></solution></exercise>
 
 <p>For products involving binomials, we apply the distributive law.</p>
 
-<example xml:id="example-distribute-radicals"><statement><p>Expand each product.<ol marker="a" cols="2">
+<example xml:id="example-distribute-radicals"><statement><p>Expand each product.<ol marker="a." cols="2">
     <li><p><m>2\sqrt{3} \left(\sqrt{2x}+5\sqrt{6} \right)</m></p></li>
     <li><p><m>\left(\sqrt{x}-\sqrt{y} \right)\left(\sqrt{x}+\sqrt{y} \right)</m></p></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We multiply each term within the parentheses by <m>2\sqrt{3}</m>.
         <md><mrow>\alert{2\sqrt{3}}\amp \left(\sqrt{2x}+5\sqrt{6} \right) =</mrow>
             <mrow>\amp = \alert{2\sqrt{3}} \cdot \sqrt{2x} + \alert{2\sqrt{3}} \cdot 5\sqrt{6} \amp \amp \blert{\text{Apply the Product Rule.}}</mrow>
@@ -466,13 +466,13 @@ We multiply together any expressions outside the radical, and apply the product 
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>We can only simplify products or quotients of like radicals. <var name="$False" form="popup"/></p></li>
     <li><p><m>4\left(3\sqrt{5}\right) = 3 \cdot 4 + 3\sqrt{5}</m> <var name="$False" form="popup"/></p></li>
     <li><p><m>(\sqrt{3}+\sqrt{5})^2 = 3+5=8</m> <var name="$False" form="popup"/></p></li>
     <li><p><m>(3\sqrt{x})^2=9x</m>  <var name="$True" form="popup"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>False</li>
         <li>False</li>
         <li>False</li>
@@ -482,7 +482,7 @@ We multiply together any expressions outside the radical, and apply the product 
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>True or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>We can only simplify products or quotients of like radicals.</p></li>
     <li><p><m>4\left(3\sqrt{5}\right) = 3 \cdot 4 + 3\sqrt{5}</m></p></li>
     <li><p><m>(\sqrt{3}+\sqrt{5})^2 = 3+5=8</m></p></li>
@@ -495,12 +495,12 @@ We multiply together any expressions outside the radical, and apply the product 
 
 <p>It is easier to work with radicals if there are no roots in the denominators of fractions. We can use the fundamental principle of fractions to remove radicals from the denominator. This process is called <term>rationalizing the denominator</term><idx>rationalizing the denominator</idx>. For square roots, we multiply the numerator and denominator of the fraction by the radical in the denominator.</p>
 
-<example><statement><p>Rationalize the denominator of each fraction.<ol marker="a" cols="2">
+<example><statement><p>Rationalize the denominator of each fraction.<ol marker="a." cols="2">
             <li><p><m>\displaystyle{\sqrt{\frac{1}{3}}}</m></p></li>
             <li><p><m>\displaystyle{\frac{\sqrt{2}}{\sqrt{50x}} }</m></p></li>
     </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>First, we apply the Quotient Rule to write the radical as a quotient.
         <md><mrow>\sqrt{\frac{1}{3}}\amp = \frac{\sqrt{1}}{\sqrt{3}}=\frac{1}{\sqrt{3}}\amp\amp\blert{\text{Multiply numerator and denominator by } \sqrt{3}.}</mrow>
             <mrow> \amp = \frac{1\cdot \alert{\sqrt{3}}}{\sqrt{3}\cdot \alert{\sqrt{3}}}</mrow>
@@ -591,7 +591,7 @@ The denominator of the fraction no longer contains any radicals—it has been ra
         $ans = Formula("sqrt(5)");
         
     </pg-code>
-<statement><p>Fill in the blanks.<ol marker="a">
+<statement><p>Fill in the blanks.<ol marker="a.">
     <li><p>We rationalize the denominator to remove  <var name="$radicals" form="popup"/>  from the denominator.</p></li>
      <li><p>To rationalize a binomial denominator, we multiply by its <var name="$conjugate" form="popup"/>.</p></li>
     <li><p>Before rationalizing, it is always best to <var name="$simplify" form="popup"/>.</p></li>
@@ -599,7 +599,7 @@ The denominator of the fraction no longer contains any radicals—it has been ra
                     </li></ol></p>
                     <instruction>Enter "sqrt(2)" to get <m>\sqrt{2}</m></instruction>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>radicals</li>
         <li>conjugate</li>
         <li>simplify</li>
@@ -609,7 +609,7 @@ The denominator of the fraction no longer contains any radicals—it has been ra
 
 <exercise component="main"><title>QuickCheck 5</title>
 <statement><p>Fill in the blanks.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>We rationalize the denominator to remove <fillin characters="10"/> from the denominator.</p></li>
      <li><p>To rationalize a binomial denominator, we multiply by its <fillin characters="10"/>.</p></li>
     <li><p>Before rationalizing, it is always best to <fillin characters="10"/>.</p></li>

@@ -9,12 +9,12 @@
 </introduction>
 
 <example><statement><p>Write each trinomial as the square of a binomial.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>x^2+6x+9</m></li>
     <li><m>x^2-5x+\dfrac{25}{4}</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>In the formula above, note that the coefficient of <m>x</m> is <m>2p</m> and the constant term is <m>p^2</m>. In this example, <m>2p=6</m> and <m>p^2=9</m>, so <m>p=\alert{3}</m>, and 
         <me>x^2+6x+9 = (x+\alert{3})^2</me></p></li>
     <li><p>The coefficient of <m>x</m> is <m>2p=-5</m> and the constant terms is <m>p^2=\dfrac{25}{4}</m>, so <m>p=\alert{\dfrac{-5}{2}}</m>, and 
@@ -51,20 +51,20 @@
     <me>\dfrac{ab}{6} \cdot \dfrac{3a}{2b} = \dfrac{a \cancel{b}}{2 \cdot \cancel{3}} \cdot \dfrac{\cancel{3}a}{2 \cancel{b}} = \dfrac{a^2}{4}</me></p></solution></example>
 
 <exercise><statement><p>Multiply. 
-    <ol marker="a" cols="2">  
+    <ol marker="a." cols="2">  
     <li><m>\dfrac{2}{3} \cdot \dfrac{5}{7}</m></li>
     <li><m>\dfrac{6}{7} \cdot \dfrac{14}{15}</m></li></ol> </p> </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>\dfrac{10}{21}</m></li>
         <li><m>\dfrac{4}{5}</m></li>
 </ol></p></answer></exercise>
 
 <exercise><statement><p>Multiply. 
-<ol marker="a" cols="2">  
+<ol marker="a." cols="2">  
     <li><m>\dfrac{12x}{16y} \cdot \dfrac{18}{27xy}</m></li>
     <li><m>\dfrac{9c^2}{10c} \cdot \dfrac{25cd}{12d^2}</m></li>
 </ol> </p> </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>\dfrac{1}{2y^2}</m></li>
         <li><m>\dfrac{15c^2}{8d}</m></li>
 </ol></p></answer></exercise>
@@ -73,19 +73,19 @@
 
 <subsubsection xml:id="tkAddFrac"><title>Add fractions</title>
 
-<assemblage><title>To add or subtract unlike fractions</title><p><ol marker="1">
+<assemblage><title>To add or subtract unlike fractions</title><p><ol marker="1.">
     <li>Find the LCD for the fractions.</li>
     <li>Build each fraction to an equivalent one with the LCD as its denominator.</li>
     <li>Add or subtract the numerators. Keep the same denominator.</li>
 </ol></p></assemblage>
 
 <example><statement><p>Add. 
-    <ol marker="a" cols="2"> 
+    <ol marker="a." cols="2"> 
     <li><m>\dfrac{7}{10} + \dfrac{5}{6}</m></li>
     <li><m>6 + \dfrac{4}{9}</m></li>
 </ol></p></statement>
  
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>Step1:  Find the LCD. Factor each denominator.
         <md><mrow>10=2\cdot 5</mrow>
             <mrow>6 = 2\cdot 3</mrow></md>
@@ -103,20 +103,20 @@
 </ol></p></solution></example>
 
 <exercise><statement><p>Add or subtract. 
-<ol marker="a" cols="2">  
+<ol marker="a." cols="2">  
     <li><m>\dfrac{5}{8} + \dfrac{1}{12}</m></li>
     <li><m>3 - \dfrac{3}{4}</m></li></ol> </p> </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>\dfrac{17}{24}</m></li>
         <li><m>\dfrac{9}{4}</m></li>
     </ol></p></answer></exercise>
 
 <exercise><statement><p>Add or subtract. 
-<ol marker="a" cols="2">  
+<ol marker="a." cols="2">  
     <li><m>\dfrac{5}{2} - \dfrac{5}{3}</m></li>
     <li><m>4 + \dfrac{3}{8}</m></li>
 </ol> </p> </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>\dfrac{5}{6}</m></li>
         <li><m>\dfrac{35}{8}</m></li>
 </ol></p></answer></exercise>

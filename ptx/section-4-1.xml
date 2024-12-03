@@ -41,7 +41,7 @@ in a single formula.  <m>~\alert{\text{[TK]}}~~</m></p></note>
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Which of the following is a correct statement of the quadratic formula?</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m>x=-b \pm \dfrac{\sqrt{b^2-4ac}}{2a}</m></p></li>
         <li><p><m>x=\dfrac{-b}{2a} \pm \dfrac{\sqrt{b^2-4ac}}{2a}</m></p></li>
         <li><p><m>x=-b \pm \dfrac{b-\sqrt{4ac}}{2a}</m></p></li>
@@ -123,13 +123,13 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
             );            
         </pg-code>
 <statement><p>Match each equation with the most efficient method of solution.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p><m>6(x-4)^2=120 </m> <var name="$a" form="popup"/></p></li>
         <li><p><m>x^2-9x+20=0</m> <var name="$b" form="popup"/></p></li>
         <li><p><m>1.4x^2-6.2x+2.5=0</m> <var name="$c" form="popup"/></p></li>
         <li><p><m>x^2-20x=44</m> <var name="$d" form="popup"/></p></li>
     </ol></p>
-    <p><ol marker="I">
+    <p><ol marker="I.">
                     <li>Factoring</li>
                     <li>Extraction of roots</li>
                     <li>Completing the square </li>
@@ -137,7 +137,7 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
                 </ol></p>
 </statement>
 <solution>
-            <p><ol marker="a">
+            <p><ol marker="a.">
                 <li>II</li>
                 <li>I</li>
                 <li>IV</li>
@@ -147,13 +147,13 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Match each equation with the most efficient method of solution.
-    <ol marker="a" cols="2">
+    <ol marker="a." cols="2">
         <li><p><m>6(x-4)^2=120 </m></p></li>
         <li><p><m>x^2-9x+20=0</m></p></li>
         <li><p><m>1.4x^2-6.2x+2.5=0</m></p></li>
         <li><p><m>x^2-20x=44</m></p></li>
     </ol></p>
-    <p><ol marker="I" cols="2">
+    <p><ol marker="I." cols="2">
                     <li><p>Factoring</p></li>
                     <li><p>Extraction of roots</p></li>
                     <li><p>Completing the square</p> </li>
@@ -243,7 +243,7 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
 <p>Thus, the square root of any negative real number can be written as the product of a real number and <m>i</m>.  Every negative real number has two imaginary square roots.  For example, the square roots of <m>-9</m> are <m>3i</m> and <m>-3i</m>.  You can verify that
     <me>(3i)^2=9i^2=9(-1)=-9~~~\text{and}~~~(-3i)^2=(-3)^2i^2=9(-1)=-9</me></p>   
 
-<example><statement><p><ol marker="a" cols="2">
+<example><statement><p><ol marker="a." cols="2">
     <li><p><md><mrow>\sqrt{-4} \amp = \sqrt{-1}\sqrt{4}</mrow>
             <mrow> \amp = i \sqrt{4} = 2i</mrow></md></p></li>
     <li><p><md><mrow>\sqrt{-3} \amp = \sqrt{-1}\sqrt{3}</mrow>
@@ -262,11 +262,11 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
             $b = Compute("-25");
         </pg-code> 
 <statement><p>Simplify.</p>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
             <li><p><m>-\sqrt{-36}=</m><var name="$a" width="3"/> </p></li>
             <li><p><m>(5i)^2=</m><var name="$b" width="3"/></p></li></ol></p>
 </statement>
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
                 <li><p><m>-6i </m></p></li>
                 <li><p><m>-25 </m></p></li></ol></p>
         </solution>
@@ -274,11 +274,11 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>Simplify.</p>
-        <p><ol marker="a" cols="2">
+        <p><ol marker="a." cols="2">
             <li><p><m>-\sqrt{-36}</m></p></li>
             <li><p><m>(5i)^2</m></p></li>
         </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
                 <li><p><m>-6i </m></p></li>
                 <li><p><m>-25 </m></p></li>
     </ol></p></solution></exercise>
@@ -389,19 +389,19 @@ For example, consider the three graphs shown at right.</p>
 
 <assemblage><title>The Discriminant</title><idx>discriminant</idx><idx>complex conjugate</idx><idx><h>complex conjugate</h><seealso>conjugate pair</seealso></idx>
 <p>The <term>discriminant</term> of a quadratic equation is
-        <me>\blert{D=b^2-4ac}</me>  <ol marker="1">      
+        <me>\blert{D=b^2-4ac}</me>  <ol marker="1.">      
     <li>If <m>D \gt 0</m>,  there are two unequal real solutions.</li>
     <li>If  <m>D = 0</m>,  there is one solution of multiplicity two.</li>
     <li>If <m>D \lt 0</m>,  there are two complex conjugate solutions.</li></ol></p></assemblage>
 
 <example xml:id="example-discriminant"><statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph has. 
-<ol marker="a" >
+<ol marker="a." >
     <li><m>y = x^2 - x - 3 </m></li>
     <li><m>y = 2x^2 + x + 1</m></li>
     <li><m>y = x^2 - 6x + 9</m></li>
     </ol></p></statement>
 
-<solution><p>We set <m>y=0</m> and compute the discriminant for the resulting equation.<ol marker="a">
+<solution><p>We set <m>y=0</m> and compute the discriminant for the resulting equation.<ol marker="a.">
     <li><p><m>D = b^2 - 4ac = (-1)^2 - 4(1)(-3) = 13 \gt 0</m>. The equation has two real, unequal solutions, and the graph has two <m>x</m>-intercepts.</p></li>
     <li><p><m>D = b^2 - 4ac = 1^2 - 4(2)(1) = -7 \lt 0</m>.</p><p>The equation has no real solutions, so the graph has no <m>x</m>-intercepts.</p></li>
     <li><p><m>D = b^2 - 4ac = (-6)^2 - 4(1)(9) = 0</m>.</p><p> The equation has one real solution of multiplicity two, and the graph has a single <m>x</m>-intercept.</p></li></ol></p></solution></example> 
@@ -417,7 +417,7 @@ For example, consider the three graphs shown at right.</p>
           2, 
         );
     </pg-code>
-<statement><p>True or False. <ol marker="a">
+<statement><p>True or False. <ol marker="a.">
     <li><p>The discriminant is part of the quadratic formula. <var name="$True" form="popup"/></p></li>
     <li><p>We use the discriminant to calculate the solutions of a quadratic equation. <var name="$TF" form="popup"/>
         </p></li>
@@ -425,7 +425,7 @@ For example, consider the three graphs shown at right.</p>
     <li><p>If a quadratic equation won't factor, its graph has no <m>x</m>-intercepts. <var name="$TF" form="popup"/>
         </p></li></ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li>True</li>
             <li>False</li>
             <li>False</li>
@@ -434,7 +434,7 @@ For example, consider the three graphs shown at right.</p>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
-<statement><p>True or False. <ol marker="a">
+<statement><p>True or False. <ol marker="a.">
     <li><p>The discriminant is part of the quadratic formula.</p></li>
     <li><p>We use the discriminant to calculate the solutions of a quadratic equation.</p></li>
     <li><p>If the discriminant is negative, both <m>x</m>-intercepts of the graph are negative.</p></li>
@@ -451,12 +451,12 @@ For example, consider the three graphs shown at right.</p>
             "1", );
         </pg-code>
 <statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph of each equation has.</p>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
             <li><p><m>y = x^2 + 5x + 7</m> <var name="$counta" form="popup"/></p></li>
             <li><p><m>y = -\dfrac{1}{2}x^2 + 4x - 8</m> <var name="$countb" form="popup"/></p></li></ol></p>
     </statement>
         <solution>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
             <li><p>None: the discriminant is negative.</p></li>
             <li><p>One: the discriminant is 0.</p></li>
             </ol></p>
@@ -465,12 +465,12 @@ For example, consider the three graphs shown at right.</p>
 
 <exercise component="main" xml:id="exercise-discriminant"><title>Practice 5</title>
 <statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph of each equation has.</p>
-        <p><ol marker="a" cols="2">
+        <p><ol marker="a." cols="2">
             <li><p><m>y = x^2 + 5x + 7</m></p></li>
             <li><p><m>y = -\dfrac{1}{2}x^2 + 4x - 8</m></p></li>
         </ol></p></statement>
     <solution>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
             <li><p>None: the discriminant is negative.</p></li>
             <li><p>One: the discriminant is 0.</p></li>
             </ol></p></solution></exercise>

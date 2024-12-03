@@ -103,7 +103,7 @@ On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded regi
             $my_eval3 = $yn2 -> cmp(checker=>
             mychecker($xn2) );
         </pg-code> 
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                     <row>
                         <cell><m>x</m></cell>
@@ -119,7 +119,7 @@ On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded regi
                 <li><p>Graph the line <m>y - 3x = 6</m>. Then plot your solutions from part (a) on the same grid.</p></li>
             </ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
         <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
                     <cell><m>x</m></cell>
@@ -142,7 +142,7 @@ On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded regi
 </exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
         <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p>
         <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                     <row><cell><m>x</m></cell>
@@ -156,7 +156,7 @@ On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded regi
                 </tabular></li>
         <li><p>Graph the line <m>y - 3x = 6</m>. Then plot your solutions from part (a) on the same grid.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row><cell><m>x</m></cell>
                     <cell><m>1</m></cell>
@@ -307,13 +307,13 @@ is equivalent to
           2, 
         );
     </pg-code>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>The solutions of a linear inequality in two variables consist of a boundary line and a <var name="$a" form="popup"/>.</p></li>
     <li><p>An inequality that uses <m>\gt</m> or <m>\lt</m> instead of <m>\ge</m> or <m>\le</m> is called <var name="$b" form="popup"/>.</p></li>
     <li><p>If we multiply or divide an inequality by a negative number we must <var name="$c" form="popup"/> the direction of the inequality symbol.</p></li>
     <li><p>The shaded region shows all the <var name="$d" form="popup"/> of the inequality.</p></li>
 </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
             <li><p>half-plane</p></li>
             <li><p>strict </p></li>
             <li><p>reverse</p></li>
@@ -323,7 +323,7 @@ is equivalent to
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Complete each statement by filling in the blank.
-<ol marker="a">
+<ol marker="a.">
     <li><p>The solutions of a linear inequality in two variables consist of a boundary line and a <fillin characters="10"/>.</p></li>
     <li><p>An inequality that uses <m>\gt</m> or <m>\lt</m> instead of <m>\ge</m> or <m>\le</m> is called <fillin characters="10"/>.</p></li>
     <li><p>If we multiply or divide an inequality by a negative number we must <fillin characters="10"/> the direction of the inequality symbol.</p></li>
@@ -348,10 +348,10 @@ is equivalent to
 
 <p>Here is a summary of our test point method for graphing inequalities.</p>
 
-<assemblage><title>To Graph an Inequality Using a Test Point</title><idx><h>graph</h><h>graphing an inequality using a test point</h></idx><idx>test point for inequalities</idx><p><ol marker="1">
+<assemblage><title>To Graph an Inequality Using a Test Point</title><idx><h>graph</h><h>graphing an inequality using a test point</h></idx><idx>test point for inequalities</idx><p><ol marker="1.">
     <li><p>Graph the corresponding equation to obtain the boundary line.</p></li>
     <li><p>Choose a test point that does not lie on the boundary line.</p></li>
-    <li><p>Substitute the coordinates of the test point into the inequality.<ol marker="a">
+    <li><p>Substitute the coordinates of the test point into the inequality.<ol marker="a.">
         <li><p>If the resulting statement is true, shade the half-plane that includes the test point.</p></li>
         <li><p>If the resulting statement is false, shade the half-plane that does not include the test point.</p></li>
         </ol></p></li>
@@ -417,7 +417,7 @@ which is a false statement. Thus, <m>(5, 0)</m> is not a solution to the inequal
         );
     </pg-code>
     <statement><p>Graph the solutions of the inequality <m> y \gt \dfrac{-3}{2}x</m>
-    <ol marker="1">
+    <ol marker="1.">
         <li><p>Graph the line <m>y = \dfrac{-3}{2}x.</m> (Use the slope-intercept method.)</p></li>
         <li><p>Choose a test point. (Do not choose <m>(0, 0)</m>!)</p></li>
         <li><p>Decide which side of the line to shade. <var name="$where" form="popup"/> </p></li>
@@ -436,7 +436,7 @@ which is a false statement. Thus, <m>(5, 0)</m> is not a solution to the inequal
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>Graph the solutions of the inequality <m> y \gt \dfrac{-3}{2}x</m></p>
-    <p><ol marker="1">
+    <p><ol marker="1.">
         <li><p>Graph the line <m>y = \dfrac{-3}{2}x.</m> (Use the slope-intercept method.)</p></li>
         <li><p>Choose a test point. (Do not choose <m>(0, 0)</m>!)</p></li>
         <li><p>Decide which side of the line to shade.</p></li>
@@ -647,7 +647,7 @@ Its graph is then a region in the plane.</p>
         <p>Use the following steps to graph the solutions of the system
             <md><mrow>3y-2x \amp\le 2</mrow>
                 <mrow>y \amp\gt x-1</mrow></md>
-        <ol marker="1">
+        <ol marker="1.">
             <li><p>Graph the boundary line <m>3y-2x = 2</m>.</p></li>
             <li><p>Lightly shade the solutions of the inequality <m>3y-2x \le 2</m>.</p></li>
             <li><p>Graph the boundary line <m>y=x-1</m>.</p></li>
@@ -690,7 +690,7 @@ Its graph is then a region in the plane.</p>
 <statement><p>Use the following steps to graph the solutions of the system
             <md><mrow>3y-2x \amp\le 2</mrow>
                 <mrow>y \amp\gt x-1</mrow></md></p>
-    <p><ol marker="1">
+    <p><ol marker="1.">
         <li><p>Graph the boundary line <m>3y-2x = 2</m>.</p></li>
         <li><p>Lightly shade the solutions of the inequality <m>3y-2x \le 2</m>.</p></li>
         <li><p>Graph the boundary line <m>y=x-1</m>.</p></li>
@@ -749,7 +749,7 @@ Its graph is then a region in the plane.</p>
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review solving a linear 2x2 system, see <xref ref="tkTwobyTwo" text="custom"> Section 2.5.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="main"><title>Practice 6</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>Graph the system of inequalities
         <md><mrow>5x+4y \amp\lt 40</mrow>
                 <mrow>-3x+4y \amp\lt 12</mrow>
@@ -779,7 +779,7 @@ Its graph is then a region in the plane.</p>
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Decide whether each statement is true or false.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>We cannot choose a test point that lies on <fillin characters="10"/>.</p></li>
         <li><p>The soution set of a system of inequalities is the <fillin characters="10"/> of the solutions to each inequality in the system.</p></li>
         <li><p>The corner points of the solution set are called the <fillin characters="10"/>. </p></li>

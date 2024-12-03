@@ -8,7 +8,7 @@
 
 <investigation><title>Water Level</title>
  
-<p>When sailing upstream in a canal or a river that has rapids, ships must sometimes negotiate locks to raise them to a higher water level. Suppose your ship is in one of the lower locks, at an elevation of 20 feet. The next lock is at an elevation of 50 feet. Water begins to flow from the higher lock to the lower one, raising your level by 1 foot per minute, and simultaneously lowering the water level in the next lock by 1.5 feet per minute. <ol marker="1">
+<p>When sailing upstream in a canal or a river that has rapids, ships must sometimes negotiate locks to raise them to a higher water level. Suppose your ship is in one of the lower locks, at an elevation of 20 feet. The next lock is at an elevation of 50 feet. Water begins to flow from the higher lock to the lower one, raising your level by 1 foot per minute, and simultaneously lowering the water level in the next lock by 1.5 feet per minute. <ol marker="1.">
 
 <li><p>Fill in the table</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
@@ -42,7 +42,7 @@
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></li>
 
-<li><p>Let <m>t</m> stand for the number of minutes the water has been flowing.<ol marker="a">
+<li><p>Let <m>t</m> stand for the number of minutes the water has been flowing.<ol marker="a.">
     <li>Write an equation for <m>L</m>, the water level in the lower lock after <m>t</m> minues.</li>
     <li>Write an equation for <m>U</m>, the water level in the upper lock after <m>t</m> minues.</li>
 </ol></p></li>
@@ -114,7 +114,7 @@ So the two equations are
 <statement><p>Choose the solution of the system:
         <md><mrow>3x-2y \amp = 19</mrow>
             <mrow>4x+5y \amp = 10</mrow></md></p>
-    <p><ol marker="a" cols="4">
+    <p><ol marker="a." cols="4">
             <li><p><m>(7,1)</m></p></li>
             <li><p><m>(0,2)</m></p></li>
             <li><p><m>(5,-2)</m></p></li>
@@ -164,14 +164,14 @@ So the two equations are
           1, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>The point where two lines cross is called the <term>intercept</term>. <var name="$TF" form="popup"/></p></li>
     <li><p>The <term>intercepts</term> of a line are the points where it intersects the axes. <var name="$TrueF" form="popup"/></p></li>
     <li><p>The solution of a system may occur at an intercept. <var name="$TrueF" form="popup"/></p></li>
     <li><p>The words <term>intercept</term> and <term>intersect</term> mean the same thing. <var name="$TF" form="popup"/></p></li></ol></p>
 </statement>
     <solution>
-        <p><ol marker="a" cols="4">
+        <p><ol marker="a." cols="4">
             <li><p>False</p></li>
             <li><p>True</p></li>
             <li><p>True</p></li>
@@ -180,7 +180,7 @@ So the two equations are
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>The point where two lines cross is called the <term>intercept</term>.</p></li>
     <li><p>The <term>intercepts</term> of a line are the points where it intersects the axes.</p></li>
     <li><p>The solution of a system may occur at an intercept.</p></li>
@@ -215,7 +215,7 @@ So the two equations are
             Context("Point");
             $a = Compute("(7,2)");
         </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Solve the system of equations
                     <md><mrow>y \amp = -0.7x + 6.9</mrow>
                         <mrow>y \amp =1.2x - 6.4</mrow></md>
@@ -235,7 +235,7 @@ So the two equations are
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
         <li><p>Solve the system of equations
                     <md><mrow>y \amp = -0.7x + 6.9</mrow>
                         <mrow>y \amp =1.2x - 6.4</mrow></md>
@@ -327,19 +327,19 @@ and use the standard window. If we trace along the graph to the intersection poi
 
 <definition xml:id="Definition-solution-system"><title>Solutions of Linear Systems</title><idx><h>linear system</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>solution</h></idx><idx><h>solution</h><h>to a system of equations</h></idx><idx><h>consistent</h><see>system of equations</see></idx><idx><h>system of equations</h><h>consistent and independent</h></idx><idx><h>inconsistent system</h><see>system of equations</see></idx><idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx><idx><h>system of equations</h><h>independent</h></idx>
 
-<statement><p>There are three types of <m>2 \times 2</m> linear system<idx><h>linear system</h><h><m>2\times 2</m></h></idx> : <ol marker="1">
+<statement><p>There are three types of <m>2 \times 2</m> linear system<idx><h>linear system</h><h><m>2\times 2</m></h></idx> : <ol marker="1.">
     <li><p><term>Consistent and independent system</term><idx><h>independent system</h><see>system of equations</see></idx>. The graphs of the two lines intersect in exactly one point. The system has exactly one solution.</p></li>
     <li><p><term>Inconsistent system</term><idx>inconsistent</idx>. The graphs of the equations are parallel lines and hence do not intersect. An inconsistent system has no solutions.</p></li>
     <li><p><term>Dependent system</term><idx>dependent</idx>. All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</p></li></ol></p></statement>
 </definition>
 
-<example xml:id="example-inconsistent-system"><statement><p>Solve each system.<ol marker="a" cols="2">
+<example xml:id="example-inconsistent-system"><statement><p>Solve each system.<ol marker="a." cols="2">
     <li><p><md><mrow>y = -x + 5</mrow>
                 <mrow>2x + 2y = 3</mrow></md></p></li>
     <li><p><md><mrow>x = \frac{2}{3}y + 3</mrow>
                 <mrow>3x - 2y = 9</mrow></md></p></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We can use technology to graph both equations on the same axes. First, we rewrite the second equation in slope-intercept form by solving for <m>y</m>.
                 <md><mrow>2x + 2y \amp = 3\amp\amp \blert{\text{Substract } 2x \text{ from both sides.}}</mrow>
                     <mrow>2y \amp = -2x + 3\amp\amp \blert{\text{Divide both sides by 2.}}</mrow>
@@ -375,7 +375,7 @@ and use the standard window. If we trace along the graph to the intersection poi
         3, 
         );
     </pg-code>
-    <statement><p>Complete the statements.<ol marker="a">
+    <statement><p>Complete the statements.<ol marker="a.">
         <li><p>If two lines have the same slope but different <m>y</m>-intercepts, the system is <var name="$typeI" form="popup"/></p></li>
         <li><p>If two lines have the same slope and the same <m>y</m>-intercept, the system is <var name="$typeD" form="popup"/></p></li>
         <li><p>If two lines have the same <m>y</m>-intercept but different slopes, the system is <var name="$typeC" form="popup"/></p></li>
@@ -390,7 +390,7 @@ and use the standard window. If we trace along the graph to the intersection poi
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
-<statement><p>Complete the statements.<ol marker="a">
+<statement><p>Complete the statements.<ol marker="a.">
         <li><p>If two lines have the same slope but different <m>y</m>-intercepts, the system is <fillin characters="10"/>.</p></li>
         <li><p>If two lines have the same slope and the same <m>y</m>-intercept, the system is <fillin characters="10"/>.</p></li>
         <li><p>If two lines have the same <m>y</m>-intercept but different slopes, the system is <fillin characters="10"/>.</p></li>
@@ -405,7 +405,7 @@ and use the standard window. If we trace along the graph to the intersection poi
             );
             
         </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
             <li><p>Graph the system
                     <md><mrow>y = -3x + 6</mrow>
                         <mrow>6x + 2y = 15</mrow></md>
@@ -413,7 +413,7 @@ and use the standard window. If we trace along the graph to the intersection poi
             <li><p>Identify the system as dependent, inconsistent, or consistent and independent.</p>
                 <p><var name="$type" form="popup"/> </p></li></ol></p>
     </statement>
-        <solution><p><ol marker="a" cols="2">
+        <solution><p><ol marker="a." cols="2">
                 <li><p>A graph is below.</p></li>
                 <li><p>Inconsistent: The graph is two parallel lines.</p></li></ol></p>
         </solution>
@@ -424,14 +424,14 @@ and use the standard window. If we trace along the graph to the intersection poi
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 3</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>Graph the system
                     <md><mrow>y = -3x + 6</mrow>
                         <mrow>6x + 2y = 15</mrow></md>
         by hand, using either the intercept method or the slope-intercept method.</p></li>
     <li><p>Identify the system as dependent, inconsistent, or consistent and independent.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
             <li><image width="70%" source="images/fig-ex-2-2-3ans"><description>parallel lines</description></image></li>
             <li><p>Inconsistent: The graph is two parallel lines.</p></li>
     </ol></p></answer></exercise>
@@ -456,7 +456,7 @@ Cost is usually calculated as the sum of fixed costs, or overhead, and variable 
         $n = Compute("25");
     </pg-code>
 <statement><p>The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>Express the cost <m>C</m> of production in terms of the number <m>x</m> of pendants produced.</p>
                 <p><m>C=</m><var name="$C" width="7"/></p></li>
         <li><p>Express the revenue <m>R</m> in terms of the number <m>x</m> of pendants sold.</p>
@@ -466,7 +466,7 @@ Cost is usually calculated as the sum of fixed costs, or overhead, and variable 
         <li><p>How many pendants must be sold for the Aquarius company to break even on a particular production run?</p>
             <p>The must sell <var name="$n" width="2"/> pendants to break even.</p></li>
     </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
             <li><p><m>C=200+4x</m></p></li>
             <li><p><m>R=12x</m></p></li>
             <li><p><m>(25,300)</m></p></li>
@@ -475,13 +475,13 @@ Cost is usually calculated as the sum of fixed costs, or overhead, and variable 
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>The Aquarius jewelry company determines that each production run to manufacture a pendant involves an initial setup cost of $200 and $4 for each pendant produced. The pendants sell for $12 each.
-<ol marker="a">
+<ol marker="a.">
         <li><p>Express the cost <m>C</m> of production in terms of the number <m>x</m> of pendants produced.</p></li>
         <li><p>Express the revenue <m>R</m> in terms of the number <m>x</m> of pendants sold.</p></li>
         <li><p>Graph the revenue and cost on the same set of axes. (Find the intercepts of each equation to help you choose a window for the graph.) State the solution of the system.</p></li>
         <li><p>How many pendants must be sold for the Aquarius company to break even on a particular production run?</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
             <li><p><m>C=200+4x</m></p></li>
             <li><p><m>R=12x</m></p></li>
             <li><p><m>(25,300)</m></p></li>

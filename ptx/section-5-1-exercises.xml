@@ -38,17 +38,17 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="9"><statement><p><m>x=h(v)=2v^2-3v+1</m> <ol marker="a">
+<exercise number="9"><statement><p><m>x=h(v)=2v^2-3v+1</m> <ol marker="a.">
     <li>Which variable is the input, and which is the output?</li>
     <li>Evaluate <m>h(-2)</m>.</li> 
     <li>Solve <m>h(v)=6</m>.</li></ol></p>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li>input: <m>v</m>, output: <m>x</m></li>
     <li>15</li> 
     <li><m>-1, \dfrac{5}{2}</m>.</li></ol></p></answer></exercise>
 
-<exercise number="10"><statement><p><m>A=g(r)=750(1+r)^2</m> <ol marker="a">
+<exercise number="10"><statement><p><m>A=g(r)=750(1+r)^2</m> <ol marker="a.">
     <li>Which variable is the input, and which is the output?</li>
     <li>Evaluate <m>g(0.04)</m>.</li> 
     <li>Solve <m>g(r)=874.80</m>.</li></ol></p>
@@ -56,19 +56,19 @@
 
 <exercisegroup><introduction><p>For Problems 11 and 12, evaluate the function.</p></introduction>
 
-<exercise number="11"><statement><p><m>F(x)=\dfrac{1-x}{2x-3}</m><ol marker="a" cols="2">
+<exercise number="11"><statement><p><m>F(x)=\dfrac{1-x}{2x-3}</m><ol marker="a." cols="2">
     <li><m>F(0)</m></li>
     <li><m>F(-3)</m></li>
     <li><m>F\left(\dfrac{5}{2}\right)</m></li>
     <li><m>F(9.8)</m></li></ol></p>
 </statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><m>\dfrac{-1}{3}</m></li>
     <li><m>\dfrac{-4}{9}</m></li>
     <li><m>\dfrac{-3}{4}</m></li>
     <li><m>-0.530</m></li></ol></p></answer></exercise>
 
-<exercise number="12"><statement><p><m>E(t)=\sqrt{t-4}</m><ol marker="a" cols="2">
+<exercise number="12"><statement><p><m>E(t)=\sqrt{t-4}</m><ol marker="a." cols="2">
     <li><m>E(16)</m></li>
     <li><m>E(4)</m></li>
     <li><m>E(7)</m></li>
@@ -80,7 +80,7 @@
 
 <subexercises><title>Applications</title>
 
-<exercise number="13"><statement><p>Which of the following tables define the second variable as a function of the first variable? Explain why or why not.<ol marker="a" cols="2">
+<exercise number="13"><statement><p>Which of the following tables define the second variable as a function of the first variable? Explain why or why not.<ol marker="a." cols="2">
     <li><sidebyside>
                 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -209,7 +209,7 @@
                 </tabular></sidebyside></li></ol></p></statement> 
 <answer><p>(b), (c), (e), and (f)</p></answer></exercise>
 
-<exercise number="14"><statement><p>Which of the following tables define the second variable as a function of the first variable? Explain why or why not.<ol marker="a" cols="2">
+<exercise number="14"><statement><p>Which of the following tables define the second variable as a function of the first variable? Explain why or why not.<ol marker="a." cols="2">
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell>Pressure (<m>p</m>)</cell>
@@ -321,18 +321,18 @@
                         <cell><m>7.4\%</m></cell></row>
                 </tabular></sidebyside></li></ol></p></statement></exercise>
 
-<exercise number="15"><statement><p>The function described in Problem 14(a) is called <m>g</m>, so that <m>v = g(p)</m>. Find the following: <ol marker="a">
+<exercise number="15"><statement><p>The function described in Problem 14(a) is called <m>g</m>, so that <m>v = g(p)</m>. Find the following: <ol marker="a.">
                 <li><p><m>g(25)</m></p></li>
                 <li><p><m>g(40)</m></p></li>
                 <li><p><m>x</m> so that <m>g(x) = 50</m></p></li>
             </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
                 <li>60</li>
                 <li>37.5</li>
                 <li>20</li></ol></p>
 </answer></exercise>
 
-<exercise number="16"><statement><p>The function described in Problem 14(b) is called <m>h</m>, so that <m>w = h(f)</m>. Find the following: <ol marker="a">
+<exercise number="16"><statement><p>The function described in Problem 14(b) is called <m>h</m>, so that <m>w = h(f)</m>. Find the following: <ol marker="a.">
                 <li><p><m>h(20)</m></p></li>
                 <li><p><m>h(60)</m></p></li>
                 <li><p><m>x</m> so that <m>h(x) = 10</m></p></li></ol></p>
@@ -341,14 +341,14 @@
 <exercisegroup><introduction><p>For Problems 17<mdash/>24, use the graph of the function to answer the questions.</p></introduction>
 
 <exercise number="17"><statement><p>The graph shows <m>C=h(t)</m>, where <m>C</m> stands for the number of customers (in thousands) signed up for a new movie streaming service, measured in months after their advertising campaign at <m>t=0</m> in January.</p>
-        <sidebyside   width="36%"><image source="images/fig-y-eq-2-to-x"><description>increasing concave up graph</description></image></sidebyside><p><ol marker="a">
+        <sidebyside   width="36%"><image source="images/fig-y-eq-2-to-x"><description>increasing concave up graph</description></image></sidebyside><p><ol marker="a.">
                 <li><p>When did the service have 2000 customers? Write your answer with function notation.</p></li>
                 <li><p>How long did it take that number to double?</p></li>
                 <li><p>How long did it take for the number to double again?</p></li>
                 <li><p>How many customers signed up between March and April (months 2 and 3)?</p></li>
             </ol></p></statement>
     <answer><p>
-            <ol marker="a">
+            <ol marker="a.">
                 <li><m>h(1)=2</m></li>
                 <li><p>1 month</p></li>
                 <li><p>1 month</p></li>
@@ -357,7 +357,7 @@
 
 <exercise number="18"><statement><p>The graph shows <m>P</m> as a function of <m>t</m>. <m>P</m> is the number of houses in Cedar Grove who have had solar panels installed <m>t</m> years after 2000.</p>
         <sidebyside  width="36%"><image source="images/fig-asymptote-y-eq-5000"><description>increasing concave down graph</description>
-        </image></sidebyside>     <ol marker="a">
+        </image></sidebyside>     <ol marker="a.">
             <li><p>When did 3500 houses have solar panels? Write your answer using function notation.</p></li>
             <li><p>How many houses had solar panels in 2005? Write your answer using function notation.</p></li>
             <li><p>The number of houses with solar panels in Cedar Grove seems to be leveling off at what number?</p></li>
@@ -366,13 +366,13 @@
 
 <exercise number="19"><statement><p>The graph shows the revenue, <m>R=f(d)</m>, a movie theater collects as a function of the price, <m>d</m>, it charges for a ticket.</p>
         <sidebyside  width="40%"><image source="images/fig-y-eq-neg20-sq-x-minus-10-plus-2000"><description>concave down graph</description>
-        </image></sidebyside><ol marker="a">
+        </image></sidebyside><ol marker="a.">
                 <li><p>Estimate the revenue if the theater charges $12.00 for a ticket.</p></li>
                 <li><p>What should the theater charge for a ticket in order to collect $1500 in revenue?</p></li>
                 <li>Write your answers to parts (a) and (b) using function notation.</li>
                 <li><p>For what values of <m>d</m> is <m>R \gt 1800</m>?</p></li></ol>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
                 <li><p>Approximately $1920</p></li>
                 <li><p>$5 or $15</p></li>
                 <li><m>f(12) \approx 1920;~~ f(5)=1500,~f(15)=1500</m></li>
@@ -381,7 +381,7 @@
 
 <exercise number="20"><statement><p>The graph shows <m>S=g(w)</m>. <m>S</m> represents the weekly sales of a best-selling book, in thousands of dollars, <m>w</m> weeks after it is released.</p>
         <sidebyside  width="40%"><image source="images/fig-bell-curve"><description>bell-shaped graph</description>
-        </image></sidebyside><ol marker="a">
+        </image></sidebyside><ol marker="a.">
                 <li><p>In which weeks were sales over $7000?</p></li>
                 <li><p>In which week did sales fall below $5000 on their way down?</p></li>
                 <li><p>For what values of <m>w</m> is <m>S\gt 3.4</m>?</p></li>
@@ -389,19 +389,19 @@
 
 <exercise number="21"><statement><p>The graph shows the U.S. unemployment rate, <m>U=F(t)</m>, where <m>t</m>, represents years. Give your answers to the questions below in function notation. (Source: U.S. Bureau of Labor Statistics)</p>
         <sidebyside  width="60%"><image source="images/fig-unemployment"><description>unemployment rate</description>
-        </image></sidebyside><p><ol marker="a">
+        </image></sidebyside><p><ol marker="a.">
                 <li><p>When did the unemployment rate reach its highest value, and what was its highest value?</p></li>
                 <li><p>When did the unemployment rate fall to its lowest value, and what was its lowest value?</p></li>
                 <li><p>Give two years in which the unemployment rate was 4.5%.</p></li>
                 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>F(1992) = 7.5\%</m></li>
     <li><m>F(2000) = 4\%</m></li>
     <li><m>F(1998+ = 4.5\%,~ F(2001) = 4.5\%</m></li></ol></p></answer></exercise>
 
 <exercise number="22"><statement><p>The graph shows the federal minimum wage, <m>M</m>, over the past five decades, adjusted for inflation to reflect its buying power in 2004 dollars. (Source: www.infoplease.com)</p>
     <sidebyside><image source="images/fig-min-wage"><description>minimum wage</description></image></sidebyside><p>
-        <ol marker="a">
+        <ol marker="a.">
             <li>Is <m>M</m> a function of <m>t</m>?  Support your answer.</li>
             <li><p>What is the largest function value on the graph, and when did it occur?  Write your answer with function notation, and explain what it means about the federal minimum wage.</p></li>
             <li><p>Give two years in which the minimum wage was worth $8 in 2004 dollars. Does this fact mean that <m>M</m> is not a function of <m>t</m>?  Why or why not?</p></li></ol></p>
@@ -409,7 +409,7 @@
 
 <exercise number="23"><statement><p>The bar graph shows the percent of Earth's surface that lies at various altitudes or depths below the surface of the oceans. (Depths are given as negative altitudes.) (Source: Open University)</p>
         <sidebyside  width="70%"><image source="images/fig-earth-surface-bargraph"><description>bar graph</description></image></sidebyside>
-                <p><ol marker="a">
+                <p><ol marker="a.">
                     <li><p>Read the graph and complete the table.</p>
                 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -495,7 +495,7 @@
                         <cell><m>73</m></cell>
                         <cell><m>74</m></cell></row>
                     </tabular></sidebyside>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Did the temperature rise at a constant rate? Describe the temperature as a function of time.</li>
         <li><p>Graph the temperature as a function of time.</p>
         <sidebyside width="45%">
@@ -527,19 +527,19 @@
 </exercisegroup>
 
 <exercise number="25"><statement><p>The number of compact cars that a large dealership can sell at price <m>p</m> is given by   
-    <me>N(p) = \dfrac{12,000,000}{p}</me> <ol marker="a">
+    <me>N(p) = \dfrac{12,000,000}{p}</me> <ol marker="a.">
         <li>Evaluate <m>N(6000)</m> and explain what it means.</li>
         <li>As <m>p</m> increases, does <m>N(p)</m> increase or decrease? Support your answer with calculations.</li>
         <li><p>Solve the equation <m>F(p)=400</m>, and explain what it means.</p></li></ol></p>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><p><m>N(6000) = 2000</m>: 2000 cars will be sold at a price of $6000.</p></li>
         <li>decrease</li>
         <li>30,000.  At a price of $30,000, they will sell 400 cars.</li></ol></p>
 </answer></exercise>
 
 <exercise number="26"><statement><p>The distance, <m>d</m>, in miles that a person can see on a clear day from a height, <m>h</m>, in feet is given by 
-        <me>d = G(h) = 1.22\sqrt{h}</me><ol marker="a">
+        <me>d = G(h) = 1.22\sqrt{h}</me><ol marker="a.">
         <li><p>Evaluate <m>G(20,320)</m> and explain what it means.</p></li>
         <li><p>As <m>h</m> increases, does <m>d</m> increase or decrease?  Support your answer with calculations.</p></li>
         <li><p>Estimate the height you need in order to see 100 miles. Write your answer with function notation.</p></li></ol></p>

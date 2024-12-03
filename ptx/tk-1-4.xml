@@ -187,11 +187,11 @@ The Lookout Point trail is steeper.</p></solution></example>
         \draw[red, ultra thick, ->, >=stealth'] (O)--(10,10);
         \end{tikzpicture}]]>
     </latex-image></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>Compute the slope of the graph, including units.</li>
     <li>Interpret the slope as a rate; what does it tell you about the problem?</li>
 </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p><m>\dfrac{\Delta d}{\Delta g} = \dfrac{225-150}{9-6} = \dfrac{25\text{ miles}}{1\text{ gallon}} </m></p></li>
     <li><p>The car gets 25 miles per gallon in gas mileage</p></li>
 </ol></p></solution></example>
@@ -218,11 +218,11 @@ The Lookout Point trail is steeper.</p></solution></example>
         \draw[red, ultra thick, ->, >=stealth'] (O)--(4,5);
         \end{tikzpicture}]]>
     </latex-image></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>Compute the slope of the graph, including units.</li>
     <li>Interpret the slope as a rate; what does it tell you about the problem?
 </li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>\dfrac{4~ \text{cents}}{\text{dollar}}</m></li>
     <li><p>The tax rate is 4 cents per dollar, or 4%</p></li>
 </ol></p></answer></exercise>
@@ -247,10 +247,10 @@ The Lookout Point trail is steeper.</p></solution></example>
         \draw[red, ultra thick, ->, >=stealth'] (0,2)--(12,8);
         \end{tikzpicture}]]>
     </latex-image></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>Compute the slope of the graph, including units.</li> 
     <li>What does the slope tell you about the problem?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>~\dfrac{\Delta A}{\Delta w}=50~</m> dollars/week</p></li> 
     <li><p>Lynette is saving $50 per week.</p></li></ol></p></answer></exercise>
 
@@ -274,10 +274,10 @@ The Lookout Point trail is steeper.</p></solution></example>
         \draw[red, ultra thick, ->, >=stealth'] (0,1)--(10,6);
         \end{tikzpicture}]]>
     </latex-image></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li>Compute the rabbit's rate of growth, including units.</li>
     <li>What does the slope tell you about the problem?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>~\dfrac{\Delta W}{\Delta t}=1~</m> pound/week</li>
     <li><p>The rabbit gained 1 pound per week in weight.</p></li>
 </ol></p></answer></exercise>

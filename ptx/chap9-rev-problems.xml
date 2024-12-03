@@ -340,7 +340,7 @@
 <exercisegroup cols="2"><introduction>
     <p>
         For Problems 19<ndash/>30
-        <ol marker="a">
+        <ol marker="a.">
             <li><p>
                 Write the equation of each conic section in standard form.
             </p></li>
@@ -355,7 +355,7 @@
     <statement><p><m>
         x^2+y^2-4x+2y-4=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>(x-2)^2+(y+1)^2=9</m></p></li>
         <li><p>Circle: center <m>(2,-1)</m>, radius 3</p></li>
     </ol></p></answer>
@@ -365,7 +365,7 @@
     <statement><p><m>
         x^2+y^2-6y-4=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>x^2+(y-3)^2=13</m></p></li>
         <li><p>Circle: center <m>(0,3)</m>, radius <m>\sqrt{13}</m></p></li>
     </ol></p></answer>
@@ -375,7 +375,7 @@
     <statement><p><m>
         4x^2+y^2-16x+4y+4=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>\dfrac{(x-2)^2}{4}+\dfrac{(y+2)^2}{16}=1</m></p></li>
         <li><p>Ellipse: center <m>(2,-2)</m>, <m>a=2</m>, <m>b=4</m></p></li>
     </ol></p></answer>
@@ -385,7 +385,7 @@
     <statement><p><m>
         8x^2+5y^2+16x-20y-12=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>\dfrac{(x+1)^2}{5}+\dfrac{(y-2)^2}{8}=1</m></p></li>
         <li><p>Ellipse: center <m>(-1,2)</m>, <m>a=\sqrt{5}</m>, <m>b=\sqrt{8}</m></p></li>
     </ol></p></answer>
@@ -395,7 +395,7 @@
     <statement><p><m>
         x^2-8x-y+6=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>y+10=(x-4)^2</m></p></li>
         <li><p>Parabola: vertex <m>(4,10)</m>, opens upward, <m>a=1</m></p></li>
     </ol></p></answer>
@@ -405,7 +405,7 @@
     <statement><p><m>
         y^2+6y+4x+1=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>x-2=\dfrac{-1}{4}(y+3)^2</m></p></li>
         <li><p>Parabola: vertex <m>(2,-3)</m>, opens left, <m>a=\dfrac{-1}{4}</m></p></li>
     </ol></p></answer>
@@ -415,7 +415,7 @@
     <statement><p><m>
         x^2+y=4x-6
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>y+2=-(x-2)^2</m></p></li>
         <li><p>Parabola: vertex <m>(2,-2)</m>, opens downward, <m>a=-1</m></p></li>
     </ol></p></answer>
@@ -425,7 +425,7 @@
     <statement><p><m>
         y^2=2y+2x+2
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>x+\dfrac{3}{2}=\dfrac{1}{2}(y-1)^2</m></p></li>
         <li><p>Parabola: vertex <m>\left(\dfrac{-3}{2},1\right)</m>, opens right, <m>a=\dfrac{1}{2}</m></p></li>
     </ol></p></answer>
@@ -435,7 +435,7 @@
     <statement><p><m>
         2y^2-3x^2-16y-12x+8=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>\dfrac{(y-4)^2}{6}-\dfrac{(x+2)^2}{4}=1</m></p></li>
         <li><p>Hyperbola: center <m>(-2,4)</m>, transverse axis vertical, <m>a=2</m>, <m>b=\sqrt{6}</m></p></li>
     </ol></p></answer>
@@ -445,7 +445,7 @@
     <statement><p><m>
         9x^2-4y^2-72x-24y+72=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>\dfrac{(x-4)^2}{4}-\dfrac{(y+3)^2}{9}=1</m></p></li>
         <li><p>Hyperbola: center <m>(4,-3)</m>, transverse axis horizontal, <m>a=2</m>, <m>b=3</m></p></li>
     </ol></p></answer>
@@ -455,7 +455,7 @@
     <statement><p><m>
         2x^2-y^2+6y-19=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>\dfrac{x^2}{5}-\dfrac{(y-3)^2}{10}=1</m></p></li>
         <li><p>Hyperbola: center <m>(0,3)</m>, transverse axis horizontal, <m>a=\sqrt{5}</m>, <m>b=\sqrt{10}</m></p></li>
     </ol></p></answer>
@@ -465,7 +465,7 @@
     <statement><p><m>
         4y^2-x^2+8x-28=0
     </m></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>\dfrac{y^2}{3}-\dfrac{(x-4)^2}{12}=1</m></p></li>
         <li><p>Hyperbola: center <m>(4,0)</m>, transverse axis vertical, <m>a=2\sqrt{3}</m>, <m>b=\sqrt{310}</m></p></li>
     </ol></p></answer>
@@ -476,12 +476,12 @@
 <exercise number="31">
     <statement><p>
         An ellipse centered at the origin has a vertical major axis of length 16 and a horizontal minor axis of length 10.
-        <ol marker="a">
+        <ol marker="a.">
             <li><p>Find the equation of the ellipse.</p></li>
             <li><p>What are the values of <m>y</m> when <m>x = 4</m>?</p></li>
         </ol>
     </p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>\dfrac{x^2}{25}+\dfrac{y^2}{64}=1</m></p></li>
         <li><p><m>\dfrac{\pm 24}{5}</m></p></li>
     </ol></p></answer>
@@ -490,12 +490,12 @@
 <exercise number="32">
     <statement><p>
         An ellipse centered at the origin has a horizontal major axis of length 26 and a vertical minor axis of length 18.
-        <ol marker="a">
+        <ol marker="a.">
             <li><p>Find the equation of the ellipse.</p></li>
             <li><p>What are the values of <m>y</m> when <m>x = 12</m>?</p></li>
         </ol>
     </p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><p><m>\dfrac{x^2}{169}+\dfrac{y^2}{81}=1</m></p></li>
         <li><p><m>\dfrac{\pm 45}{13}</m></p></li>
     </ol></p></answer>

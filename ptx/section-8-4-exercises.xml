@@ -89,7 +89,7 @@
 
 <subexercises><title>Applications</title>
 
-<exercise number="25"><statement><p><ol marker="a">
+<exercise number="25"><statement><p><ol marker="a.">
     <li><sidebyside widths="65% 30%" margins="0% 0%" valigns="middle middle">
             <p>On the figure at right, locate the points  <m>P\left(\dfrac{a}{2},0\right)</m>, <m>Q\left(a, \dfrac{b}{2}\right)</m>, <m>~R\left(\dfrac{a}{2},b\right)</m>, and <m>~S\left(0,\dfrac{b}{2}\right)</m>. Connect the points with line segments in the order <m>PQRS</m> to form a four-sided figure.</p>  
     
@@ -109,14 +109,14 @@
     <li>Compute the slopes of each side of the figure.</li></ol></p></statement>
 <answer><p><m>\overline{PQ}</m> and <m>overline{RS}: ~\dfrac{b}{a}</m>; <m>\overline{QR}</m> and <m>overline{SP}: ~\dfrac{b}{a}</m></p></answer></exercise>
 
-<exercise number="26"><statement><p><ol marker="a">
+<exercise number="26"><statement><p><ol marker="a.">
     <li>Suppose <m>x</m> and <m>y</m> are two positive numbers.  Write an expression for their average, and then for the reciprocal of their average.</li>
     <li>For the same numbers <m>x</m> and <m>y</m>, write an expression for the average of their reciprocals.</li>
     <li>Are your expressions in parts (a) and (b) the same?  Choose values for <m>x</m> and <m>y</m> and evaluate both expressions.</li></ol></p></statement></exercise>
 
 <exercise number="27"><statement><p>The focal length of a lens is given by the formula
     <me>\dfrac{1}{f}=\dfrac{1}{p}+\dfrac{1}{q} </me> 
-where <m>f</m> stands for the focal length, <m>p</m> is the distance from the object viewed to the lens, and <m>q</m> is the distance from the image to the lens. Suppose you estimate that the distance from your cat (the object viewed) to your camera lens is 60 inches greater than the distance from the lens to the film inside the camera, where the image forms.<ol marker="a">
+where <m>f</m> stands for the focal length, <m>p</m> is the distance from the object viewed to the lens, and <m>q</m> is the distance from the image to the lens. Suppose you estimate that the distance from your cat (the object viewed) to your camera lens is 60 inches greater than the distance from the lens to the film inside the camera, where the image forms.<ol marker="a.">
         <li><p>Express <m>1/f</m> as a single fraction in terms of <m>q</m>.</p></li>
         <li><p>Write and simplify an expression for <m>f</m> as a function of <m>q</m>.</p></li>
     </ol></p></statement>
@@ -125,7 +125,7 @@ where <m>f</m> stands for the focal length, <m>p</m> is the distance from the ob
     <li><p> <m>f=\dfrac{q^2+60q}{2q+60} </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p>Andy drives 300 miles to Lake Tahoe at 70 miles per hour and returns home at 50 miles per hour. What is his average speed for the round trip? (It is not 60 miles per hour!) <ol marker="a">
+<exercise number="28"><statement><p>Andy drives 300 miles to Lake Tahoe at 70 miles per hour and returns home at 50 miles per hour. What is his average speed for the round trip? (It is not 60 miles per hour!) <ol marker="a.">
     <li>Write expressions for the time it takes for each leg of the trip if Andy drives a distance <m>d</m> at speed <m>r_1</m> and returns at speed <m>r_2</m>.</li>
     <li>Write expressions for the total distance and total time for the trip.</li>
     <li>Write an expression for the average speed for the entire trip.</li>

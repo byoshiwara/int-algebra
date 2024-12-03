@@ -63,14 +63,14 @@
 </exercisegroup> 
 
 <exercisegroup cols="2">
-    <introduction><p>For Problems 15<ndash/>18, <ol marker="a">
+    <introduction><p>For Problems 15<ndash/>18, <ol marker="a.">
         <li>Find the coordinates of the vertex and the intercepts.</li>
         <li>Sketch the graph.</li></ol></p></introduction>
 
 <exercise number="15"><statement><p><m>y=\dfrac{1}{2}x^2</m></p></statement>
     <answer>
         <p>
-            <ol marker="a">
+            <ol marker="a.">
                 <li><p>
                     Vertex: <m>(0,0)</m>, <m>y</m>-int: <m>(0,0)</m>, <m>x</m>-int: <m>(0,0)</m>
                 </p></li>
@@ -104,7 +104,7 @@
 </exercise>
 
 <exercise number="16"><statement><p><m>y=x^2-4</m></p></statement>
-<!--     <answer><p><ol marker="a">
+<!--     <answer><p><ol marker="a.">
         <li><p>Vertex: <m>(0,-4)</m>, <m>y</m>-int: <m>(0,-4)</m>, <m>x</m>-int: <m>(-2,0),~(2,0)</m></p></li>
         </ol></p></answer> -->
 </exercise>
@@ -112,7 +112,7 @@
 <exercise number="17"><statement><p><m>y=x^2-9x</m></p></statement>
     <answer>
         <p>
-            <ol marker="a">
+            <ol marker="a.">
                 <li><p>Vertex: <m>\left(\dfrac{9}{2},\dfrac{-81}{4}\right)</m>, <m>y</m>-int: <m>(0,0)</m>, <m>x</m>-int: <m>(0,0),~(9,0)</m></p></li>
                 <li>
                     <sidebyside width="40%" margins="0% 30%">
@@ -147,7 +147,7 @@
 </exercise>
 
 <exercise number="18"><statement><p><m>y=-2x^2-4x</m></p></statement>
-<!--     <answer><p><ol marker="a">
+<!--     <answer><p><ol marker="a.">
         <li><p>Vertex: <m>(-1,2)</m>, <m>y</m>-int: <m>(0,0)</m>, <m>x</m>-int: <m>(0,0),~(-2,0)</m></p></li>
         <li><sidebyside width="40%"><image source="images/fig???"><description>figures </description></image></sidebyside></li></ol></p></answer> -->
 </exercise>

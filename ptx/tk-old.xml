@@ -77,12 +77,12 @@ Substituting 7 into <m>x-1</m>, we see that 7 does not cause the denominator to 
 
 <subsubsubsection><title>Example</title>
 
-<example><statement><p><ol label="a">
+<example><statement><p><ol marker="a.">
     <li>Solve the equation <m>~x^2+y^2=9~</m> for <m>y</m> to get two functions.</li>
     <li>Find two points on the circle that have <m>x</m>-coordinate <m>1</m>.</li></ol>
 </p></statement>
 
-<solution><p><ol label="a">
+<solution><p><ol marker="a.">
     <li><p>
         <md>
             <mrow>
@@ -104,12 +104,12 @@ The two functions are <m>~y = \sqrt{9-x^2}~</m> and <m>~y = -\sqrt{9-x^2}~</m>.<
 
 <subsubsubsection><title>Exercise</title>
 
-<exercise><statement><p><ol label="a">
+<exercise><statement><p><ol marker="a.">
     <li>Solve the equation <m>~x^2+y^2=100~</m> for <m>y</m> to get two functions.</li>
     <li>Find two points on the circle that have <m>x</m>-coordinate <m>-6</m>.</li>
     <li>Find two points on the circle that have <m>y</m>-coordinate <m>5</m>.</li></ol>
 </p></statement>
-    <answer><p><ol label="a">
+    <answer><p><ol marker="a.">
         <li><p><m>y = \sqrt{100-x^2}</m> and <m>y = -\sqrt{100-x^2}</m></p></li>
         <li><p><m>(-6,8)</m> and <m>(-6,-8)</m></p></li>
         <li><p><m>(5\sqrt{3},5)</m> and <m>(-5\sqrt{3},5)</m></p></li></ol></p>

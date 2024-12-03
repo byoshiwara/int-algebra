@@ -7,7 +7,7 @@
 <p>Powers come before products in the order of operations, so to evaluate an exponential function <m>f(x)=ab^x</m> we evaluate <m>b^x</m> before multiplying by <m>a</m>.</p>
 
 <example><statement><p>Evaluate <m>~f(x)=8 \cdot 4^x</m>. 
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>f(2)</m></li>
     <li><m>f(-2)</m></li>
     <li><m>f\left(\frac{1}{2}\right)</m></li>
@@ -15,7 +15,7 @@
 </ol></p></statement>
  
 <solution><p>Follow the order of operations:  compute powers before products.
-<ol marker="a">
+<ol marker="a.">
     <li><m>f(2)=8 \cdot 4^2 = 8\cdot 16 = 128</m></li>
     <li><m>f(-2)=8 \cdot 4^{-2} = 8\cdot \dfrac{1}{16} = \dfrac{1}{2}</m></li>
     <li><m>f\left(\frac{1}{2}\right)=8 \cdot 4^{1/2} = 8\cdot 2 = 16</m></li>
@@ -23,7 +23,7 @@
 </ol></p></solution></example>
 
 <example><statement><p>Evaluate <m>~g(x)=120(0.65)^x~</m>. Round your answers to thousandths.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>g(2.3)</m></li>
     <li><m>g(-1.8)</m></li>
     <li><m>g(0.4)</m></li>
@@ -31,7 +31,7 @@
 </ol></p></statement>
  
 <solution><p>Follow the order of operations:  use your calculator to compute powers before products. Do not round off at intermediate steps!
-<ol marker="a">
+<ol marker="a.">
     <li><m>g(2.3) = 120(0.65)^{2.3} = 120(0.37127...) = 44.554</m></li>
     <li><m>g(-1.8) = 120(0.65)^{-1.8} = 120(2.17148...) = 260.578</m></li>
     <li><m>g(0.4) = 120(0.65)^{0.4} = 120(0.84171...) = 101.006</m></li>
@@ -39,24 +39,24 @@
 </ol></p></solution></example>
 
 <exercise><statement><p>Evaluate each function. Give your answers as common fractions.
-<ol marker="a">
+<ol marker="a.">
     <li><m>G(t)=15(5)^t~</m>. Find <m>G(-3)</m></li>
     <li><m>H(n)=4\left(\dfrac{1}{27}\right)^n~</m>. Find <m>H\left(\dfrac{2}{3}\right)</m></li>
     <li><m>F(x)=\dfrac{1}{2} \cdot 8^x~</m>. Find <m>F\left(-\dfrac{1}{3}\right)</m></li>
 </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><m>\dfrac{3}{25}</m></li>
         <li><m>\dfrac{4}{9}</m></li>
         <li><m>\dfrac{1}{4}</m></li>
 </ol></p></answer></exercise>
 
 <exercise><statement><p>Evaluate each function. Round your answers to hundredths.
-<ol marker="a">
+<ol marker="a.">
     <li><m>G(t)=15(1.5)^t~</m>. Find <m>G(-3)</m></li>
     <li><m>h(z)=1.8(0.8)^z~</m>. Find <m>h(4)</m></li>
     <li><m>F(w)=2500(1.03)^w~</m>. Find <m>F(25)</m></li>
 </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><m>4.44</m></li>
         <li><m>0.745</m></li>
         <li><m>5234.44</m></li>
@@ -68,14 +68,14 @@
 <introduction><p>If we can write both sides of an equation as powers with the same base, we can equate the exponents.</p></introduction>
 
 <example><statement><p> Find the value of the exponent.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>3^x=81</m></li>
     <li><m>5^x=\dfrac{1}{125}</m></li>
     <li><m>\left(\dfrac{3}{4}\right)^x=\dfrac{16}{9}</m></li>
     <li><m>64^x=16</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We can write both sides with base 3.
         <me>~~ 81 = 3^4,~~~\text{so} ~~x=4</me>.</p></li>
     <li><p>We can write both sides with base 5.
@@ -91,14 +91,14 @@
 </ol></p></solution></example>
 
 <example><statement><p> By using trial and error, estimate the value of the exponent to the nearest tenth.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>2^x=15</m></li>
     <li><m>3^x=65</m></li>
     <li><m>10^x=0.03</m></li>
     <li><m>0.5^x = 0.20</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><m>2^4=16~</m>, so we try a slightly smaller exponent and find that <m>2^{3.9} = 14.9285~</m>, so <m>x \approx 3.9</m>.</li>
     <li> 65 is between <m>3^3=27</m> and <m>3^4=81</m>, so <m>x</m> must be between 3 and 4. By trying exponents 3.1, 3.2, 3.3, and so on, we find that <m>3^{3.8}=65.022</m>, so <m>x \approx 3.8</m>.</li>
     <li><m>10^{-1}=0.1</m> and <m>10^{-2}=0.01</m>, so <m>-2 \lt x \lt -1</m>. By trying exponents between <m>-2</m> and <m>-1</m>, we find that <m>10^{-1.5} = 0.0316</m>, so <m>x \approx -1.5</m>.</li>
@@ -106,21 +106,21 @@
 </ol></p></solution></example>
 
 <exercise><statement><p>Find the value of the exponent.
-<ol marker = "a" cols="2">
+<ol marker = "a." cols="2">
     <li><m>2^x = \dfrac{1}{1024}</m></li>
     <li><m>125^x = 25</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>10</m></li>
         <li><m>\dfrac{2}{3}</m></li>
 </ol></p></answer></exercise>
 
 <exercise><statement><p>By using trial and error, estimate the value of the exponent to the nearest tenth.
-<ol marker = "a" cols="2">
+<ol marker = "a." cols="2">
     <li><m>10^x = 50</m></li>
     <li><m>1.08^x = 1.5</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>1.7</m></li>
         <li><m>5.3</m></li>
 </ol></p></answer></exercise>

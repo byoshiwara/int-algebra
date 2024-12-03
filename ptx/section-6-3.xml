@@ -25,7 +25,7 @@ In other words, we can compute <m>x^{3/2}</m> by first taking the square root of
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>When we raise a power to a power, we multiply the exponents; in symbols 
                         <md><mrow>(a^m)^n = a^{mn}</mrow></md> 
                         <var name="$True" form="popup"/></p></li>
@@ -34,7 +34,7 @@ In other words, we can compute <m>x^{3/2}</m> by first taking the square root of
     <li><p>The notation <m>16^{3/4}</m> means to multipy 16 by <m>\dfrac{3}{4}</m>.  <var name="$False" form="popup"/>
         </p></li></ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>True</li>
         <li>True</li>
         <li>True</li>
@@ -44,7 +44,7 @@ In other words, we can compute <m>x^{3/2}</m> by first taking the square root of
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>True or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>When we raise a power to a power, we multiply the exponents; in symbols 
                         <md><mrow>(a^m)^n = a^{mn}</mrow></md></p></li>
     <li><p><m>\dfrac{4}{3} = 4\left(\dfrac{1}{3}\right)</m>, and in general <m>\dfrac{p}{q} = p\left(\dfrac{1}{q}\right)</m>. </p></li>
@@ -63,7 +63,7 @@ In other words, we can compute <m>x^{3/2}</m> by first taking the square root of
 or
     <me>8^{2/3} = \left(8^2\right)^{1/3} = 64^{1/3} = 4</me></p>
 
-<example xml:id="example-rational-exponent"><statement><p><ol marker="a">
+<example xml:id="example-rational-exponent"><statement><p><ol marker="a.">
         <li><m>81^{3/4}  = \left(81^{1/4}\right)^3 = 3^3 = 27</m></li>
         <li><m>-27^{5/3} = -\left(27^{1/3}\right)^5 = -3^5 = -243</m></li>
         <li><m>27^{-2/3} = \frac{1}{\left(27^{1/3}\right)^2} = \frac{1}{3^2}= \frac{1}{9}</m></li>
@@ -88,22 +88,22 @@ or
             $a = Compute("1/8");
             $b = Compute("-243");
         </pg-code>
-    <statement><p>Evaluate each power.<ol marker="a">
+    <statement><p>Evaluate each power.<ol marker="a.">
                 <li><p><m> 32^{-3/5}=</m><var name="$a" width="3"/> </p></li>
                 <li><p><m> -81^{1.25}=</m><var name="$b" width="3"/></p></li></ol></p>
     </statement>
-    <solution><p><ol cols="2" marker="a">
+    <solution><p><ol cols="2" marker="a.">
                 <li><p><m>\dfrac{1}{8} </m></p></li>
                 <li><p><m>-243</m></p></li></ol></p>
     </solution>
     </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p>Evaluate each power.<ol marker="a" cols="2">
+<statement><p>Evaluate each power.<ol marker="a." cols="2">
                 <li><p><m> 32^{-3/5}</m></p></li>
                 <li><p><m> -81^{1.25}</m></p></li>
         </ol></p></statement>
-    <solution><p><ol cols="2" marker="a">
+    <solution><p><ol cols="2" marker="a.">
                 <li><p><m>\dfrac{1}{8} </m></p></li>
                 <li><p><m>-243</m></p></li></ol></p>
     </solution></exercise>
@@ -119,7 +119,7 @@ or
 
 <example xml:id="example-Kleiber-rule"><statement><p>A revised form of Kleiber's Rule <idx>Kleiber's Rule</idx> states that the basal metabolic rate for many groups of animals is given by 
     <me>B(m) = 70m^{0.75}</me>
-where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in kilocalories per day.<ol marker="a">
+where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in kilocalories per day.<ol marker="a.">
     <li><p>Calculate the BMR for various animals whose masses are given in the table.</p>
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -154,7 +154,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     <li><p>Do larger species eat more or less, relative to their body mass, than smaller ones?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We evaluate the function for the values of <m>m</m> given. For example, to calculate the BMR of a bat, we compute
     <me>B(0.1) = 70(0.1)^{0.75} = 12.4</me>
     A bat expends, and hence must consume, at least 12 kilocalories per day. We evaluate the function to complete the rest of the table. The values of BMR are rounded to the nearest whole number.</p>
@@ -204,14 +204,14 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p>The graph of <m>f(x)=70x^{3/4}</m> is concave down. <var name="$True" form="popup"/></p></li>
     <li><p>Energy consumption is not directly proportional to body weight. <var name="$True" form="popup"/></p></li>
     <li><p>An animal twice as heavy as a squirrel uses twice as much energy as a squirrel. <var name="$False" form="popup"/></p></li>
     <li><p>The graph of <m>f(x)=70x^{3/4}</m> passes through the origin.  <var name="$True" form="popup"/></p></li></ol>
         </p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>True</li>
         <li>True</li>
         <li>False</li>
@@ -221,7 +221,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>True or false</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
     <li><p>The graph of <m>f(x)=70x^{3/4}</m> is concave down.</p></li>
     <li><p>Energy consumption is not directly proportional to body weight.</p></li>
     <li><p>An animal twice as heavy as a squirrel uses twice as much energy as a squirrel.</p></li>
@@ -246,7 +246,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
             );
             }            
         </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Complete the table of values for the function <m>f (x) = x^{-3/4}</m>.</p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
@@ -276,7 +276,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
                 </tabular></li>
             <li><p>Sketch the graph of the function.</p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -327,7 +327,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
 </exercise>
 
 <exercise component="main"><title>Practice 2</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
         <li><p>Complete the table of values for the function <m>f (x) = x^{-3/4}</m>.</p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">
@@ -357,7 +357,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
                 </tabular></li>
             <li><p>Sketch the graph of the function.</p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -412,7 +412,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     <p><me>\blert{a^{m/n} = \sqrt[n]{a^m} =\left( \sqrt[n]{a}\right)^m}</me></p>
 </assemblage>
 
-<example xml:id="example-rational-exponent-to-radicals"><statement><p><ol marker="a">
+<example xml:id="example-rational-exponent-to-radicals"><statement><p><ol marker="a.">
         <li><p><m>125^{4/3} = \sqrt[3]{125^4} \text{ or } \left(\sqrt[3]{125}\right)^4</m></p></li>
         <li><p><m>x^{0.4} = x^{2/5} = \sqrt[5]{x^2}</m></p></li>
         <li><p><m>6w^{-3/4} = \dfrac{6}{\sqrt[4]{w^3}}</m></p></li></ol></p>
@@ -435,31 +435,31 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
                     ], 0
                 );
         </pg-code>
-    <statement><p>Write each expression in radical notation.<ol marker="a">
+    <statement><p>Write each expression in radical notation.<ol marker="a.">
             <li><p><m>5t^{1.25}</m></p>
                 <p><var name="$A" form="buttons"/> </p></li>
             <li><p><m> 3m^{-5/3}</m></p>
                 <p><var name="$B" form="buttons"/> </p></li></ol></p>
     </statement>
-    <solution><p><ol cols="2" marker="a">
+    <solution><p><ol cols="2" marker="a.">
             <li><p><m>5\sqrt[4]{t^5} </m></p></li>
             <li><p><m>\dfrac{3}{\sqrt[3]{m^5} } </m></p></li></ol></p>
     </solution>
     </webwork></exercise>
 
 <exercise component="main"><title>Practice 3</title>
-<statement><p>Write each expression in radical notation.<ol marker="a" cols="2">
+<statement><p>Write each expression in radical notation.<ol marker="a." cols="2">
             <li><p><m>5t^{1.25}</m></p></li>
             <li><p><m> 3m^{-5/3}</m></p></li>
         </ol></p></statement>
-    <solution><p><ol cols="2" marker="a">
+    <solution><p><ol cols="2" marker="a.">
             <li><p><m>5\sqrt[4]{t^5} </m></p></li>
             <li><p><m>\dfrac{3}{\sqrt[3]{m^5} } </m></p></li>
     </ol></p></solution></exercise>
 
 <p> Usually, we will want to convert from radical notation to fractional exponents, because exponential notation is easier to use.</p>
 
-<example xml:id="example-radical-to-exponential"><statement><p><ol marker="a" cols="2">
+<example xml:id="example-radical-to-exponential"><statement><p><ol marker="a." cols="2">
     <li><p><m>\sqrt{x^5} = x^{5/2}</m></p></li>
     <li><p><m> 5 \sqrt[4]{p^3} = 5p^{3/4}</m></p></li>
     <li><p><m> \dfrac{3}{\sqrt[5]{t^2}}= 3t^{-2/5}</m></p></li>
@@ -473,11 +473,11 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
             $a = Formula("6**(1/3)* w**(2/3)");
             $b = Formula(" v**(3/4)*s**(-5/4) ");
         </pg-code>
-    <statement><p>Convert to exponential notation.</p><p><ol marker="a">
+    <statement><p>Convert to exponential notation.</p><p><ol marker="a.">
                 <li><p><m>\sqrt[3]{6w^2}=</m><var name="$a" width="12"/></p></li>
                 <li><p><m>  \sqrt[4]{\dfrac{v^3}{s^5}}=</m><var name="$b" width="12"/></p></li></ol></p>
     </statement>
-        <solution><p><ol cols="2" marker="a">
+        <solution><p><ol cols="2" marker="a.">
             <li><p><m>6^{1/3} w^{2/3} </m></p></li>
             <li><p><m>v^{3/4} s^{-5/4} </m></p></li></ol></p>
         </solution>
@@ -485,11 +485,11 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>Convert to exponential notation.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
             <li><p><m>\sqrt[3]{6w^2}</m></p></li>
             <li><p><m>  \sqrt[4]{\dfrac{v^3}{s^5}}</m></p></li>
     </ol></p></statement>
-        <solution><p><ol cols="2" marker="a">
+        <solution><p><ol cols="2" marker="a.">
             <li><p><m>6^{1/3} w^{2/3} </m></p></li>
             <li><p><m>v^{3/4} s^{-5/4} </m></p></li>
     </ol></p></solution></exercise>
@@ -506,7 +506,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p><m>x^{3/5}</m> represents the cube root of <m>x</m> to the fifth power. <var name="$False" form="popup"/>
         </p></li>
     <li><p>We can simplify <m>2x^{4/3}</m> as <m>\sqrt[3]{2x^4}</m>. <var name="$False" form="popup"/></p></li>
@@ -514,7 +514,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
     <li><p>We can simplify <m>5b^{-3/2}</m>  as <m>\dfrac{1}{5b^{3/2}}</m>.  <var name="$False" form="popup"/></p></li>
         </ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>False</li>
         <li>False</li>
         <li>False</li>
@@ -524,7 +524,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
 
 <exercise component="main"> <title>QuickCheck 3</title>
 <statement><p>True or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p><m>x^{3/5}</m> represents the cube root of <m>x</m> to the fifth power.</p></li>
     <li><p>We can simplify <m>2x^{4/3}</m> as <m>\sqrt[3]{2x^4}</m>. </p></li>
     <li><p>The notation <m>a^{-1/4}</m> means <m>-a^4</m>.</p></li>
@@ -537,7 +537,7 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
 <p>Powers with rational exponents—positive, negative, or zero—obey the laws of exponents, which we discussed in <xref ref="IntegerExponents" text="type-global"/>. You may want to review those laws before studying the following examples.</p>
 
 <example xml:id="example-operations-with-rational-exponents"><statement><p>Use the laws of ecponents to simplify each expression. <m>~\alert{\text{[TK]}}</m>
-<ol marker="a">
+<ol marker="a.">
     <li><p><md><mrow>\frac{7^{0.75}}{7^{0.5}}\amp= 7^{0.75-0.5} = 7^{0.25}
          \amp\amp \blert{\text{Apply the second law of exponents.}}</mrow></md></p></li>
     <li><p><md><mrow>v \cdot v^{-2/3}\amp= v^{1+(-2/3)}
@@ -602,11 +602,11 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
             return $OK;
             });
         </pg-code>
-    <statement><p>Simplify by applying the laws of exponents.</p><p><ol marker="a">
+    <statement><p>Simplify by applying the laws of exponents.</p><p><ol marker="a.">
         <li><p><m> x^{1/3}\left(x + x^{2/3}\right)=</m><var name="$f" width="12" evaluator="$f_evaluator"/> </p></li>
         <li><p><m> \dfrac{n^{9/4}}{4n^{3/4}}=</m><var name="$g" width="12" evaluator="$g_evaluator"/></p></li></ol></p>
         </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>x^{4/3}+x </m></p></li>
                 <li><p><m>\dfrac{n^{3/2}}{4} </m></p></li></ol></p>
     </solution>
@@ -614,11 +614,11 @@ where <m>m</m> is the mass of the animal in kilograms and the BMR is measured in
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Simplify by applying the laws of exponents.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m> x^{1/3}\left(x + x^{2/3}\right)</m></p></li>
         <li><p><m> \dfrac{n^{9/4}}{4n^{3/4}}</m></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>x^{4/3}+x </m></p></li>
                 <li><p><m>\dfrac{n^{3/2}}{4} </m></p></li>
         </ol></p></solution></exercise>
@@ -679,13 +679,13 @@ The solution is <m>8</m>.</p>
           2, 
         );
     </pg-code>
-<statement><p>True or false.<ol marker="a">
+<statement><p>True or false.<ol marker="a.">
     <li><p> The first step in solving an equation with a fractional exponent is to isolate the power. <var name="$True" form="popup"/></p></li>
     <li><p> Then we raise both sides to the reciprocal of the exponent. <var name="$True" form="popup"/></p></li>
     <li><p>We can use the laws of exponents to simplify expressions involving fractional exponents. <var name="$True" form="popup"/></p></li>
     <li><p>The reciprocal of 0.6 is <m>\dfrac{1}{0.6}</m>.  <var name="$True" form="popup"/></p></li></ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>True</li>
         <li>True</li>
         <li>True</li>
@@ -695,7 +695,7 @@ The solution is <m>8</m>.</p>
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>Decide whether each statement is true or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p> The first step in solving an equation with a fractional exponent is to isolate the power.</p></li>
     <li><p> Then we raise both sides to the reciprocal of the exponent.</p></li>
     <li><p>We can use the laws of exponents to simplify expressions involving fractional exponents. </p></li>
@@ -716,7 +716,7 @@ Jay Boleman, Physics, a Window on Our World</p>
 <p>“Contrary to the process of blowing up a toy balloon, the pressure required to force air into a bubble decreases with bubble size.”
 Francis Sears, Mechanics, Heat, and Sound</p>
 
-<p><ol marker="1">
+<p><ol marker="1.">
 <li><p>On the basis of these two quotations and your own intuition, sketch a graph of pressure as a function of the diameter of the balloon. Describe your graph: Is it increasing or decreasing? Is it concave up (bending upward) or concave down (bending downward)?</p></li>
 
 <li><p>Two high school students, April Leonardo and Tolu Noah, decided to see for themselves how the pressure inside a balloon changes as the balloon expands. Using a column of water to measure pressure, they collected the following data while blowing up a balloon. Graph their data on the grid below.</p>

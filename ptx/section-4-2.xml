@@ -8,7 +8,7 @@
  
 <p>The local theater group sold tickets to its opening-night performance for $5 and drew an audience of 100 people. The next night they reduced the ticket price by $0.25 and 10 more people attended; that is, 110 people bought tickets at $4.75 apiece. In fact, for each $0.25 reduction in ticket price, 10 additional tickets can be sold.</p>
 
-<p><ol marker="1">
+<p><ol marker="1.">
 <li><p>Fill in the table</p>
 
 <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
@@ -156,12 +156,12 @@ So the coordinates of the vertex are <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>Find the vertex of the graph of <m>y = 3x^2 - 6x + 4</m>.</p></li>
     <li><p>Decide whether the vertex is a maximum point or a minimum point of the graph.</p>
         <p>Hint: Does the parabola open up or down?</p></li>
 </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
     <li><p><m>(1, 1)</m></p></li>
     <li><p> minimum</p></li>
 </ol></p></solution></exercise>
@@ -272,12 +272,12 @@ Usually, when the price of an item increases, the number of items sold decreases
 <p>Finding the maximum or minimum value for a variable expression is a common problem in applications. For example, if you own a company that manufactures blue jeans, you might like to know how much to charge for your jeans in order to maximize your revenue. As you increase the price of the jeans, your revenue may increase for a while. But if you charge too much for the jeans, consumers will not buy as many pairs, and your revenue may actually start to decrease. Is there some optimum price you should charge for a pair of jeans in order to achieve the greatest revenue?</p>
 
 <example xml:id="example-maximum-revenue"><statement><p>Late Nite Blues finds that it can sell <m>600 - 15x</m> pairs of jeans per week if it charges <m>x</m> dollars per pair. (Notice that as the price increases, the number of pairs of jeans sold decreases.)
-        <ol marker="a">
+        <ol marker="a.">
             <li><p>Write an equation for the revenue as a function of the price of a pair of jeans.</p></li>
             <li><p>Graph the function.</p></li>
             <li><p>How much should Late Nite Blues charge for a pair of jeans in order to maximize its revenue?</p></li>
         </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
         <li><p>Using the formula for revenue stated above, we find
                 <md><mrow>\text{Revenue} \amp= (\text{price of one item})(\text{number of items sold})</mrow>
                     <mrow>R \amp = x(600 - 15x)</mrow>
@@ -315,7 +315,7 @@ Usually, when the price of an item increases, the number of items sold decreases
 <exercise component="main"><title>QuickCheck 1</title>
 <statement>
         <p>To find the maximum or minimum value of a quadratic expression, we should:</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p>Set <m>y=0</m> and solve for <m>x</m>.</p></li>
         <li><p>Factor the expression.</p></li>
         <li><p>Use the quadratic formula.</p></li>
@@ -329,7 +329,7 @@ Usually, when the price of an item increases, the number of items sold decreases
             $p = sprintf("%0.2f", 7.50);
         </pg-code>
         <statement><p>The Metro Rail service sells <m>1200 - 80x</m> tickets each day when it charges <m>x</m> dollars per ticket.</p>
-            <p><ol marker="a">
+            <p><ol marker="a.">
             <li><p>Write an equation for the revenue, <m>R</m>, as a function of the price of a ticket.</p>
             <p><m>R=</m><var name="$f" width="10"/> </p></li>
             <li><p>What ticket price will return the maximum revenue?</p>
@@ -337,7 +337,7 @@ Usually, when the price of an item increases, the number of items sold decreases
             <li><p>What is the maximum revenue?</p>
             <p>$<var name="$R" width="5"/> </p></li></ol></p>
         </statement>
-        <solution><p><ol marker="a" cols="2">
+        <solution><p><ol marker="a." cols="2">
                 <li><p><m>R = 1200x - 80x^2</m></p></li>
                 <li><p>$<m>7.50 </m></p></li>
                 <li><p> $<m>4500</m></p></li></ol></p>
@@ -346,11 +346,11 @@ Usually, when the price of an item increases, the number of items sold decreases
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>The Metro Rail service sells <m>1200 - 80x</m> tickets each day when it charges <m>x</m> dollars per ticket.</p>
-            <p><ol marker="a">
+            <p><ol marker="a.">
             <li><p>Write an equation for the revenue, <m>R</m>, as a function of the price of a ticket.</p></li>
             <li><p>What ticket price will return the maximum revenue?</p></li>
         </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>R = 1200x - 80x^2</m></p></li>
                 <li><p>$<m>7.50 </m>, $<m>4500</m></p></li>
         </ol></p></solution></exercise>
@@ -412,7 +412,7 @@ which confirms that when <m>x = 4</m>, <m>y = 6</m>. Next, notice that if <m>x</
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Which of the following is the vertex form for a parabola with vertex <m>(-2,3)</m>?</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m>y=4(x-2)+3</m></p></li>
         <li><p><m>y=4(x-2)^2+3</m></p></li>
         <li><p><m>y=4(x+2)^2+3</m></p></li>
@@ -425,24 +425,24 @@ which confirms that when <m>x = 4</m>, <m>y = 6</m>. Next, notice that if <m>x</
             $v = Point("(-2,5)");
             $f = Formula("-1/2*x**2-2*x+3");
         </pg-code>
-        <statement><p><ol marker="a">
+        <statement><p><ol marker="a.">
                 <li><p>Find the vertex of the graph of <m>y = 5 - \dfrac{1}{2}(x + 2)^2</m>.</p>
                 <p>Vertex: <var name="$v" width="5"/> </p></li>
                 <li><p>Write the equation of the parabola in standard form.</p>
                 <p><m>y=</m><var name="$f" width="15"/> </p></li></ol></p>
         </statement>
-        <solution><p><ol marker="a" cols="2">
+        <solution><p><ol marker="a." cols="2">
                 <li><p><m>(-2,5) </m></p></li>
                 <li><p><m>y=-\frac{1}{2}x^2-2x+3 </m></p></li></ol></p>
         </solution>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 4</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
                 <li><p>Find the vertex of the graph of <m>y = 5 - \dfrac{1}{2}(x + 2)^2</m>.</p></li>
                 <li><p>Write the equation of the parabola in standard form.</p></li>
             </ol></p></statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>(-2,5) </m></p></li>
                 <li><p><m>y=-\frac{1}{2}x^2-2x+3 </m></p></li>
     </ol></p></solution></exercise>
@@ -479,7 +479,7 @@ The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
             <p><m>y_v=</m><var name="$k" width="2"/> </p>
             <p>The vertex of the graph is <var name="$v" width="5"/> </p>
     </statement>
-        <hint><p><ol marker="1">
+        <hint><p><ol marker="1.">
                 <li><p>Factor <m>2</m> from the variable terms.</p></li>
                 <li><p>Complete the square inside parentheses.</p></li>
                 <li><p>Subtract <m>2p^2</m> outside parentheses.</p></li>
@@ -490,7 +490,7 @@ The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Write the equation <m>y = 2x^2 + 12x + 13</m> in vertex form, and find the vertex of its graph.</p>
-            <p>Hint:<ol marker="1">
+            <p>Hint:<ol marker="1.">
                 <li><p>Factor <m>2</m> from the variable terms.</p></li>
                 <li><p>Complete the square inside parentheses.</p></li>
                 <li><p>Subtract <m>2p^2</m> outside parentheses.</p></li>
@@ -558,12 +558,12 @@ The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The a
 
 <p>If we know the vertex of a parabola and one other point, we can use the vertex form to find its equation. <m>~\alert{\text{[TK]}}</m></p>
 
-<example><statement><p>When Andre practices free-throws at the park, the ball leaves his hands at a height of 7 feet, and reaches the vertex of its trajectory 10 feet away at a height of 11 feet.<ol marker="a">
+<example><statement><p>When Andre practices free-throws at the park, the ball leaves his hands at a height of 7 feet, and reaches the vertex of its trajectory 10 feet away at a height of 11 feet.<ol marker="a.">
     <li>Find a quadratic equation for the ball's trajectory.</li>
     <li>Do you think Andre's free-throw would score on a regulation basketball court, where the hoop is 15 feet from the shooter and 10 feet high?</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>If Andre's feet are at the origin, then the vertex of the ball's trajectory is the point <m>(\alert{10},\alert{11})</m>, and its  <m>y</m>-intercept is <m>(0,7)</m>.  We start with the vertex form for a parabola.
         <md><mrow>y \amp =a(x-x_v)^2+y_v</mrow>
             <mrow>y \amp =a(x-\alert{10})^2+\alert{11}</mrow></md>
@@ -601,7 +601,7 @@ The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The a
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>Why do we need to know a second point besides the vertex to find the equation of a parabola?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>We need two points to find the equation of a line.</p></li>
         <li><p>To find the value of <m>a</m>.</p></li>
          <li><p>We must know one of the <m>x</m>-intercepts.</p></li>

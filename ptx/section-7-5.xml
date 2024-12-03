@@ -72,7 +72,7 @@ Thus, <m>a = 0.5</m> and <m>b = 3</m>, and the function is <m>f(x) = 0.5(3^x)</m
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>You have written a system of equations to fit an exponential function through two points. What is the next step?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Calculate the slope.</p></li>
     <li><p>Subtract one equation from the other.</p></li>
     <li><p>Divide one equation by the other.</p></li>
@@ -111,14 +111,14 @@ Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see tha
         </pg-code>
     <statement><p>The number of earthquakes that occur worldwide is a decreasing exponential function of their magnitude on the Richter scale. Between 2000 and 2005, there were 7480 earthquakes of magnitude 5 and 793 earthquakes of magnitude 6.</p>
     <p>(Source: National Earthquake Information Center, U.S. Geological Survey)</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Find a formula for the number of earthquakes that occurred between 2000 and 2005, <m>N(m)</m>, in terms of their magnitude.</p>
                 <p><m>N(m)=</m><var name="$N" width="20"/> </p>
                 <p>Do not use any commas: For example, instead of "10,000" enter simply "10000".</p></li>
         <li><p>It is difficult to keep an accurate count of small earthquakes. Use your formula to estimate the number of magnitude 1 earthquakes that occurred between 2000 and 2005. <var name="$one" width="8"/> </p> 
                 <p>How many earthquakes of magnitude 8 occurred?  <var name="$eight" width="2"/> </p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
                 <li><p><m>N(m) = 558,526,329(0.106)^m</m></p></li>
                 <li><p>59,212,751; <m>~9</m></p></li>
             </ol></p></solution>
@@ -126,12 +126,12 @@ Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see tha
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>The number of earthquakes that occur worldwide is a decreasing exponential function of their magnitude on the Richter scale. Between 2000 and 2005, there were 7480 earthquakes of magnitude 5 and 793 earthquakes of magnitude 6. (Source: National Earthquake Information Center, U.S. Geological Survey)</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Find a formula for the number of earthquakes that occurred between 2000 and 2005, <m>N(m)</m>, in terms of their magnitude, <m>m</m>. (Notice that in this problem <m>N(m)</m> is not a function of time; <m>N</m> is a function of Richter magnitude <m>m</m>.) Round your value for <m>a</m> to the nearest million, because greater accuracy is not realistic.</p></li>
         <li><p>It is difficult to keep an accurate count of small earthquakes. Use your formula to estimate the number of magnitude 1 earthquakes that occurred between 2000 and 2005.</p></li> 
         <li><p>How many earthquakes of magnitude 8 occurred over those five years?</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
             <li><p><m>N(m) = 559,000,000(0.106)^m</m></p></li>
             <li><p><m>59,254,000</m></p></li>
             <li><p><m>9</m></p></li>
@@ -142,13 +142,13 @@ Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see tha
 
 <p>Instead of giving the rate of growth of a population, we often specify its rate of growth by giving the time it takes for the population to double. Let us see how those two descriptions are connected.</p>
 
-<example xml:id="example-doubling-time"><statement><p>In 2005, the population of Egypt was 74 million and was growing by 2% per year.<ol marker="a">
+<example xml:id="example-doubling-time"><statement><p>In 2005, the population of Egypt was 74 million and was growing by 2% per year.<ol marker="a.">
 		<li>If it continues to grow at the same rate, how long will it take the population of Egypt to double?</li>
 		<li>How long will it take the population to double again?</li>
 		<li>Illustrate the results on a graph.</li>
 	</ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>The population of Egypt is growing according to the formula 
 		<me>P(t) = 74(1.02)^t</me> 
 	where <m>t</m> is in years and <m>P(t)</m> is in millions. We would like to know when the population will reach 148 million (twice 74 million), so we solve the equation
@@ -179,7 +179,7 @@ Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see tha
             );
         </pg-code>
     <statement><p>In 2005, the population of Uganda was 26.9 million people and was growing by 3.2% per year.</p>
-            <p><ol marker="a">
+            <p><ol marker="a.">
                 <li><p>Write a formula for the population of Uganda as a function of years since 2005.</p>
                 <p><m>P(t)=</m><var name="$f" width="12"/> million</p></li>
                 <li><p>How long will it take the population of Uganda to double?</p>
@@ -187,7 +187,7 @@ Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see tha
                 <li><p>Use your formula from part (a) to verify the doubling time for three doubling periods.</p></li>
             </ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
                 <li><p><m>P(t) = 26.9(1.032)^t</m> million</p></li>
                 <li><p>22 years</p></li>
                 <li><p><m>P(0) = 26.9</m>; <m>P(22)\approx 53.8</m>, so  <m>P(22)\approx 2\cdot P(0)</m>; <m>P(44)\approx 107.6</m>, so  <m>P(44)\approx 2\cdot P(22)</m>; <m>P(66)\approx 215.1</m>, so  <m>P(66)\approx 2\cdot P(44)</m></p></li>
@@ -196,12 +196,12 @@ Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see tha
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>In 2005, the population of Uganda was 26.9 million people and was growing by 3.2% per year.</p>
-            <p><ol marker="a">
+            <p><ol marker="a.">
                 <li><p>Write a formula for the population of Uganda as a function of years since 2005.</p></li>
                 <li><p>To the nearest year,how long will it take the population of Uganda to double?</p></li>
                 <li><p>Use your formula from part (a) to verify the doubling time for three doubling periods.</p></li>
             </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
                 <li><p><m>P(t) = 26.9(1.032)^t</m> million</p></li>
                 <li><p>22 years</p></li>
                 <li><p><m>P(0) = 26.9</m>; <m>P(22)\approx 53.8</m>, so  <m>P(22)\approx 2\cdot P(0)</m>;</p>
@@ -228,7 +228,7 @@ Thus, <m>C(t) = 108.75(1.31)^t</m>. Finally, recall that <m>b=1+r</m> to see tha
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Which of these statements are true?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>The doubling time of a population depends on its initial value.</p></li>
         <li><p>An increasing exponential function has a constant doubling time.</p></li>
         <li><p>The doubling time is twice the percent growth rate.</p></li>
@@ -247,12 +247,12 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 <p>So, from knowing the doubling time, we can easily find the growth rate of a population.</p>
 
 <example ><statement><p>At its current rate of growth, the population of the United States will double in 115.87 years.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
 		<li>Write a formula for the population of the United States as a function of time.</li>
 		<li>What is the annual percent growth rate of the population?</li>
 	</ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>The current population of the United States is not given, so we represent it by <m>P_0</m>. With <m>t</m> expressed in years, the formula is then
 		<me>P(t) = P_0 ~2^{t/115.87}</me></li>
 	<li>We write <m>2^{t/115.87}</m> in the form <m>\left(2^{1/115.87}\right)^t</m> to see that the growth factor is <m>b = 2^{1/115.87}</m>, or 1.006. For exponential growth, <m>b = 1 + r</m>, so <m>r = 0.006</m>, or 0.6%.</li>
@@ -280,13 +280,13 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 
 <p>The <term>half-life</term><idx>half-life</idx> of a decreasing exponential function is the time it takes for the output to decrease to half its original value. For example, the half-life of a radioactive isotope is the time it takes for half of the substance to decay. The half-life of a drug is the time it takes for half of the drug to be eliminated from the body. Like the doubling time, the half-life is constant for a particular function; no matter where you start, it takes the same amount of time to reach half that value.</p>
 
-<example xml:id="example-half-life"><statement><p>If you take <m>200</m> mg of ibuprofen to relieve sore muscles, the amount of the drug left in your body after <m>t</m> hours is <m>Q(t) = 200(0.73)^t</m>.<ol marker="a">
+<example xml:id="example-half-life"><statement><p>If you take <m>200</m> mg of ibuprofen to relieve sore muscles, the amount of the drug left in your body after <m>t</m> hours is <m>Q(t) = 200(0.73)^t</m>.<ol marker="a.">
 		<li>What is the half-life of ibuprofen?</li>
 		<li>When will 50 mg of ibuprofen remain in your body?</li>
 		<li>Use the half-life to sketch a graph of <m>Q(t)</m>.</li>
 	</ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>To find the half-life, we calculate the time elapsed when only half the original amount, or 100 mg, is left.
 		<md><mrow>200(0.73)^t \amp = 100\amp\amp \blert{\text{Divide both sides by 200.}}</mrow>
 			<mrow>0.73^t \amp = 0.5\amp\amp \blert{\text{Take the log of both sides.}}</mrow>
@@ -324,24 +324,24 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
               tolerance => .05,
             );         
         </pg-code>
-    <statement><p>Alcohol is eliminated from the body at a rate of 15% per hour.</p><p><ol marker="a">
-            <li><p>Write a decay formula for the amount of alcohol remaining in the body, using <m>A_0</m> for the initial amount of alcohol.  [Note: Enter "A" to get <m>A_0</m>.].</p>
+    <statement><p>Alcohol is eliminated from the body at a rate of 15% per hour.</p><p><ol marker="a.">
+            <li><p>Write a decay formula for the amount of alcohol remaining in the body, using <m>A_0</m> for the initial amount of alcohol.  [Note: Enter "a." to get <m>A_0</m>.].</p>
                 <p><m>A(t)=</m><var name="$f" width="15"/> </p></li>
             <li><p>What is the half-life of alcohol in the body?</p>
                 <p><var name="$hl" width="3"/> hours</p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>A(t) = A_0(0.85)^t</m></p></li>
                 <li><p>4.3 hours</p></li></ol></p></solution>
     </webwork></exercise>
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>Alcohol is eliminated from the body at a rate of 15% per hour.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><p>Write a decay formula for the amount of alcohol remaining in the body, using <m>A_0</m> for the initial amount of alcohol.</p></li>
             <li><p>What is the half-life of alcohol in the body?</p></li>
         </ol></p></statement>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
                 <li><p><m>A(t) = A_0(0.85)^t</m></p></li>
                 <li><p>4.3 hours</p></li>
         </ol></p></answer></exercise>
@@ -364,7 +364,7 @@ In this form, the growth factor for the population is <m>2^{1/35}</m>, and you c
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>The half-life of DDT is 15 years. This means that:</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>30 pounds of DDT dissolve in one year.</p></li>
         <li><p>100 pounds of DDT dissolve in 30 years.</p></li>
         <li><p>After 30 years, 100 pounds of DDT is reduced to 25 pounds.</p></li>
@@ -384,12 +384,12 @@ Once again, you can check that this formula is equivalent to the decay function 
 
 <example ><statement><p>Cobalt-60 is used in cold pasteurization to sterilize certain types of food. Gamma rays emitted by the isotope during radioactive decay kill any bacteria present without damaging the food. The half-life of cobalt-60 is 5.27 years.
     <m>~\alert{\text{[TK]}}</m>
-    <ol marker="a">
+    <ol marker="a.">
 		<li>Write a decay law for cobalt-60.</li>
 		<li>What is the annual decay rate for cobalt-60?</li>
 	</ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>We let <m>Q(t)</m> denote the amount of cobalt-60 left after <m>t</m> years, and let <m>Q_0</m> denote the initial amount. Every 5.27 years, <m>Q(t)</m> is reduced by a factor of 0.5, so
 		<me>Q(t) = Q_0 (0.5)^{t/5.27}</me></li>
 	<li>We rewrite the decay law in the form <m>Q(t) = Q_0 (1 - r )^t</m> as follows:
@@ -432,14 +432,14 @@ Once again, you can check that this formula is equivalent to the decay function 
             2
         );
     </pg-code>
-    <statement><p>True or False.<ol marker="a">
+    <statement><p>True or False.<ol marker="a.">
         <li><p>Every increasing exponential function has a constant doubling time. <var name="$True" form="popup"/></p>
         </li>
         <li><p>If the doubling time of a population is 5 years, then its growth factor is given by <m>2^{1/5}</m>.  <var name="$True" form="popup"/></p></li>
         <li><p>The half-life of a substance is half the time it takes for all of the substance to decay.  <var name="$False" form="popup"/></p></li>
         <li><p>We can sketch the graph of an exponential decay function if we know its half-life and initial value.  <var name="$True" form="popup"/></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>True</li>
     <li>True</li>
     <li>False</li>
@@ -448,7 +448,7 @@ Once again, you can check that this formula is equivalent to the decay function 
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>Decide whether each statement is true or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
         <li><p>Every increasing exponential function has a constant doubling time.</p></li>
         <li><p>If the doubling time of a population is 5 years, then its growth factor is given by <m>2^{1/5}</m>.</p></li>
         <li><p>The half-life of a substance is half the time it takes for all of the substance to decay.</p></li>

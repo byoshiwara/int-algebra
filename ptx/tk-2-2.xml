@@ -7,45 +7,45 @@
 <introduction><p>Applied problems that involve more than one unknown are often easier to model and solve with a system of equations.</p></introduction>
 
 <example><statement><p>Write equations about the number of tables and the number of chairs:
-    <ol marker="a">
+    <ol marker="a.">
         <li>There are four chairs for each table.</li>
         <li>Chairs cost $125 each; a table costs $350.  Darryl spent $10,200 on tables and chairs.</li>
     </ol> </p></statement>
     
 <solution><p>Let <m>x</m> be the number of tables and <m>y</m> the number of chairs.
-    <ol marker="a">
+    <ol marker="a.">
         <li>The number of chairs is 4 times the number of tables: <m>~y=4x</m>.</li> 
         <li><m>125y+350x=10,200</m></li>
     </ol></p></solution></example>
 
 <example><statement><p>Write equations about the dimensions of a rectangle:
-    <ol marker="a">
+    <ol marker="a.">
         <li>The perimeter of the rectangle is 42 meters.</li>
         <li>The length is 3 meters more than twice the width.</li>
     </ol></p></statement>
 
 <solution><p>Let <m>x</m> be the width of the rectangle and <m>y</m> its length.
-    <ol marker="a">
+    <ol marker="a.">
         <li><m>2x+2y=42</m></li>  
         <li><m>y=3+2x</m></li>
     </ol></p></solution></example>
 
 <exercise><statement><p>Write equations about the number of calories in a hamburger and in a chocolate shake.
-    <ol marker="a">    
+    <ol marker="a.">    
         <li>A hamburger and a chocolate shake together contain 1020 calories.</li>
         <li>Two shakes and three hamburgers contain 2710 calories.</li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>x+y=1020</m></li>
         <li><m>3x+2y=2710</m></li>
     </ol></p></answer></exercise>
 
 <exercise><statement><p>Write equations about the vertex angle and the base angles of an isosceles triangle.
-    <ol marker="a">
+    <ol marker="a.">
         <li>The vertex angle is <m>15 \degree</m> less than each base angle.</li>
         <li>The sum of the angles in a triangle is <m>180 \degree</m>.</li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>y=x-5</m></li>
         <li><m>2x+y=180</m></li>
     </ol></p></answer></exercise>
@@ -145,12 +145,12 @@ The owner's profit was $350.</p></solution></example>
     <me>1848 = R - 3246</me>
 to find that <m>R=5094</m>.  Their revenue was $5094.</p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
     <li>The Earth Alliance made $6000 in revenue from selling tickets to Earth Day, an educational event for children.  Write an expression for their profit in terms of their costs.</li>  
     <li>What was their profit if their costs were $2500?</li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>P=6000-C </m></li>
     <li>$3500</li>
 </ol></p></answer></exercise>

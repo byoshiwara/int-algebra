@@ -9,37 +9,37 @@
 <p>The laws of exponents still apply to variable exponents. (If you would like to review the laws of exponents, they are listed in Section 3.2.)</p>
 
 <example><statement><p>Use the laws of exponents to simplify.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>1.35^6(1.35^4)</m></li>
     <li><m>0.64^5(0.64^n)</m></li>
 </ol></p></statement>
  
 <solution><p>When multiplying two powers with the same base, we add the exponents. Notice that the base does not change.
-<ol marker="a">
+<ol marker="a.">
     <li><m>1.35^6(1.35^4) = 1.35^{6+4}=1.35^{10}</m></li>
     <li><m>0.64^5(0.64^n) = 0.64^{5+n}</m></li>
 </ol></p></solution></example>
 
 <example><statement><p>Use the laws of exponents to simplify.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>\dfrac{0.32^8}{0.32^2}</m></li>
     <li><m>\dfrac{0.32^t}{0.32^x}</m></li>
 </ol></p></statement>
 
 <solution><p> When dividing two powers with the same base, we subtract the exponents.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>\dfrac{0.32^8}{0.32^2} = 0.32^{8-2} = 0.32^6</m></li>
     <li><m>\dfrac{0.32^t}{0.32^x} = 0.32^{t-x}</m></li>
 </ol></p></solution></example>
 
 <example><statement><p>Use the laws of exponents to simplify.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>\left(1.07^5\right)^3</m></li>
     <li><m>\left(1.07^4\right)^p</m></li>
 </ol></p></statement>
 
 <solution><p> When raising a power to a power, we multiply the exponents.
-<ol marker="a">
+<ol marker="a.">
     <li><m>\left(1.07^5\right)^3 = 1.07^{15}</m></li>
     <li><m>\left(1.07^4\right)^p = 1.07^{4p}</m></li>
 </ol></p></solution></example>
@@ -57,12 +57,12 @@
 <subsubsection xml:id="tkDistLaw"><title>Apply the distributive law</title>
 
 <example><statement><p>Which equation is a correct application of the distributive law?
-<ol marker="a">
+<ol marker="a.">
     <li><m>2(5 \cdot 3^x) = 10 \cdot 6^x~~~~~</m> or <m>~~~~~2(5+3^x) = 10+2 \cdot 3^x</m></li>
     <li><m>\log (x+10) = \log {x} + \log {10}~~~~~</m> or <m>~~~~~\dfrac{1}{x}(x+10) = 1 +\dfrac{10}{x}</m></li>
 </ol></p></statement>
  
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The distributive law applies to multiplying a sum or difference, not a product. In the first equation, <m>5 \cdot 3^x</m> is a product, so the distributive law does not apply.  (We can, however, simplfy that expression with the associative law:
         <me>2(5 \cdot 3^x) = (2\cdot 5)\cdot 3^x = 10 \cdot 3^x</me></p>
     <p>The second equation is a correct application of the distributive law. You can check that the first equation is false and the second equation is true by substituting <m>x=1</m>.</p></li>

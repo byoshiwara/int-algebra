@@ -13,14 +13,13 @@
   <!-- stored or created.  Directories are relative to the main -->
   <!-- source PreTeXt file                                      -->
   <source>
-    <version include="main"/> <!-- no webwork reading questions -->
+    <version include="webwork"/> <!-- include only webwork reading questions -->
     <directories external="../ext" generated="../generated-assets"/>
   </source>
 
   <common>
     <tableofcontents level="2"/>
         <exercise-divisional answer="no" solution="no"/>
-    <fillin textstyle="underline" mathstyle="box"/>
   </common>
   <numbering>
     <!-- the divisions element describes the numbering of divisions.  -->
@@ -54,8 +53,9 @@
     <!-- Whether to knowl a particular elements is set here    -->
     <!-- Lots of elements have this possibility; see the guide -->
     <css style="oscarlevin"/>
-    <knowl remark="no" example="no" example-solution="no" proof="no" exercise-inline="no"/>
-   <!-- Specify the style of the html by giving names to      -->
+    <css style="default" colors="default"/>
+    <knowl remark="no" example="no" proof="no" exercise-inline="yes"/>
+    <!-- Specify the style of the html by giving names to      -->
     <!-- override defaults.  Ex: to use "style_oscarlevin.css" -->
     <!-- put <css style="oscarlevin"/>                         -->
     <!-- @colors now implemented                               -->

@@ -8,20 +8,20 @@
     
 <subexercises><title>Warm Up</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, <ol marker="a.">
     <li>Find the <m>x</m>-intercepts of the parabola.</li>
     <li>Decide whether the parabola opens up or down.</li></ol>
 </p></introduction>
 
 <exercise number="1"><statement><p><m>y=x^2-2x-24</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>(-4,0),~(6,0)</m></li>
     <li>up</li></ol></p></answer></exercise>
 
 <exercise number="2"><statement><p><m>y=40-x^2</m></p></statement></exercise>
 
 <exercise number="3"><statement><p><m>y=12-(x-3)^2</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>(3 \pm \sqrt{12},0)</m></li>
     <li>down</li></ol></p></answer></exercise>
 
@@ -30,14 +30,14 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 5 and 6, write the set with interval notation, and graph the set on a number line.</p></introduction>
 
-<exercise number="5"><statement><p><ol marker="a">
+<exercise number="5"><statement><p><ol marker="a.">
     <li><m>0 \le x \lt 4</m></li>
     <li><m>8 \gt x \gt 5</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>[0,4)</m></li>
     <li><m>(5,8)</m></li></ol></p></answer></exercise>
 
-<exercise number="6"><statement><p><ol marker="a">
+<exercise number="6"><statement><p><ol marker="a.">
     <li><m>x \le 1</m></li>
     <li><m>x \ge 3</m> or <m>x \le -3</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -45,7 +45,7 @@
 
 <subexercises><title>Skills Practice</title>
 
-<exercise number="7"><statement><p><ol marker="a">
+<exercise number="7"><statement><p><ol marker="a.">
     <li><p>Graph the equation <m>~y=x^2-2x-3~</m> on the grid.</p>
         <sidebyside width="30%"><image xml:id="fig-xsqd-minus-2x-minus-3-grid"><description>grid</description>
                 <latex-image>
@@ -66,7 +66,7 @@
                 </latex-image></image></sidebyside></li>
     <li>Darken the portion of the <m>x</m>-axis for which <m>y \gt 0</m>.</li>
     <li>Solve the inequality <m>~x^2-2x-3\gt 0</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><sidebyside width="30%"><image xml:id="fig-xsqd-minus-2x-minus-3"><description>grid</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -93,7 +93,7 @@
     <li><p><m>x \gt 3</m> or <m>x \lt -1</m></p></li></ol></p>
     </answer></exercise>
 
-<exercise number="8"><statement><p><ol marker="a">
+<exercise number="8"><statement><p><ol marker="a.">
     <li><p>Graph the equation <m>~y=x^2+2x-8~</m> on the grid.</p>
         <sidebyside width="30%"><image xml:id="fig-xsqd-plus-2x-minus-8-grid"><description>grid</description>
                 <latex-image>
@@ -141,10 +141,10 @@
         </latex-image>
         </image>
     </sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><m>x^2-3x-180 = 0</m></li>
     <li><m>x^2-3x-180 \gt 0</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>-12, 5</m></li>
     <li><m>x \lt -12</m> or <m>x \gt 15</m></li></ol></p></answer></exercise>
 
@@ -172,7 +172,7 @@
         </latex-image>
         </image>
     </sidebyside>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><m>175-18x-x^2 = 0</m></li>
     <li><m>175-18x-x^2 \lt 0</m></li></ol></p></statement></exercise>
 </exercisegroup>
@@ -183,19 +183,19 @@
 Then use the graph to solve the inequalities. Write your answers in interval notation.</p></introduction>
 
 <exercise number="11"><statement><p><m>y=x^2-3x-18</m></p>
-    <p>For parts (c) and (d), it may be helpful to graph <m>Y_2=-8</m> as well.<ol marker="a">
+    <p>For parts (c) and (d), it may be helpful to graph <m>Y_2=-8</m> as well.<ol marker="a.">
     <li><m>x^2-3x-18 \gt 0</m></li>
     <li><m>x^2-3x-18 \lt 0</m></li>
     <li><m>x^2-3x-18 \le -8</m></li>
     <li><m>x^2-3x-18 \ge -8</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>(-\infty,-3) \cup (6, \infty)</m></li>
     <li><m>(-3,6)</m></li>
     <li><m>[-2,5]</m></li>
     <li><m>(-\infty,2] \cup [5,\infty)</m></li></ol></p></answer></exercise>
 
 <exercise number="12"><statement><p><m>y=16-x^2</m></p>
-    <p>For parts (c) and (d), it may be helpful to graph <m>Y_2=7</m> as well.<ol marker="a">
+    <p>For parts (c) and (d), it may be helpful to graph <m>Y_2=7</m> as well.<ol marker="a.">
     <li><m>16-x^2 \gt 0</m></li>
     <li><m>16-x^2 \lt 0</m></li>
     <li><m>16-x^2 \le 7</m></li>
@@ -256,13 +256,13 @@ Then use the graph to solve the inequalities. Write your answers in interval not
 <exercise number="27"><statement><p>The <m>x</m>-intercepts of the graph of <m>~y=2x^2+bx+c~</m> are <m>-4.2</m> and <m>2.6</m>. What are the solutions of the inequality <m>~2x^2+bx+c \gt 0</m>?</p></statement>
     <answer><p><m>(-\infty, -4.2) \cup (2.6, \infty)</m></p></answer></exercise>
 
-<exercise number="28"><statement><p>The <m>x</m>-intercepts of the graph of <m>~y=-x^2+bx+c~</m> are <m>-2 \pm \sqrt{17}.</m> Which of the following are solutions of the inequality <m>~-x^2+bx+c \ge 0</m>? <ol marker="a" cols="2">
+<exercise number="28"><statement><p>The <m>x</m>-intercepts of the graph of <m>~y=-x^2+bx+c~</m> are <m>-2 \pm \sqrt{17}.</m> Which of the following are solutions of the inequality <m>~-x^2+bx+c \ge 0</m>? <ol marker="a." cols="2">
     <li><m>2</m></li>
     <li><m>-6</m></li>
     <li><m>\sqrt{17}</m></li>
     <li><m>2\sqrt{17}</m></li></ol></p></statement></exercise> 
 
-<exercisegroup><introduction><p>For Problems 29 and 30, <ol marker="a">
+<exercisegroup><introduction><p>For Problems 29 and 30, <ol marker="a.">
     <li>Solve the problem by writing and solving an inequality.</li>
     <li>Graph the equation and verify your solution on the graph.</li></ol></p></introduction>
 
@@ -284,7 +284,7 @@ During what time interval is the rocket higher than 1024 feet?</p></statement>
 <exercise number="32"><statement><p>The Locker Room finds that it sells <m>1200-30p</m> sweatshirts each month when it charges <m>p</m> dollars per sweatshirt. It would like its revenue from sweatshirts to be over $9000 per month. In what range should it keep the price of a sweatshirt? </p></statement></exercise>
 </exercisegroup>
 
-<exercise number="33"><statement><p>A farmer inherits an apple orchard on which 60 trees are planted per acre. Each tree yields 12 bushels of apples. Experimentation has shown that for each tree removed per acre, the yield per tree increases by <m>\dfrac{1}{2}</m> bushel.<ol marker="a">
+<exercise number="33"><statement><p>A farmer inherits an apple orchard on which 60 trees are planted per acre. Each tree yields 12 bushels of apples. Experimentation has shown that for each tree removed per acre, the yield per tree increases by <m>\dfrac{1}{2}</m> bushel.<ol marker="a.">
     <li>Write algebraic expressions for the number of trees per acre and for the yield per tree if <m>x</m> trees per acre
     are removed.</li>
     <li>Write a quadratic equation for the total yield per acre if <m>x</m> trees are removed per acre.</li>
@@ -294,7 +294,7 @@ During what time interval is the rocket higher than 1024 feet?</p></statement>
             <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 94</mrow>
                 <mrow>\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 1000</mrow></md>
         and use your graph to verify your answers to parts (e) and (f).</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>60-x;~~12+\dfrac{1}{2}x</m></li>
     <li><m>y=(60-x)(12+\dfrac{1}{2}x)</m></li>
     <li>882 bu; 18 trees</li>

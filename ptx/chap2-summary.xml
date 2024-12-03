@@ -28,7 +28,7 @@
 </subsection>
 
 <subsection><title>Key Concepts</title>
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><p>We can approximate a linear pattern in a <term>scatterplot</term> using a <term>regression line</term>.</p></li>
     <li><p>We can use <term>interpolation</term> or <term>extrapolation</term> to make estimates and predictions.</p></li>
     <li><p>If we extrapolate too far beyond the known data, we may get unreasonable results.</p></li>
@@ -48,11 +48,11 @@
         <md><mrow>ax+by+c\le 0\qquad\text{ or }\qquad ax+by+c\ge 0</mrow></md>
         consists of the line <m>ax+by+c=0</m> and a <term>half-plane</term> on one side of that line.</p></li>
     <li><assemblage><title>To Graph an Inequality Using a Test Point</title>
-        <p><ol marker="1">
+        <p><ol marker="1.">
             <li><p>Graph the corresponding equation to obtain the boundary line.</p></li>
             <li><p>Choose a test point that does not lie on the boundary line.</p></li>
             <li><p>Substitute the coordinates of the test point into the inequality.
-                <ol marker="a">
+                <ol marker="a.">
                     <li><p>If the resulting statement is true, shade the half-plane that includes the test point.</p></li>
                     <li><p>If the resulting statement is false, shade the half-plane that does not include the test point.</p></li></ol></p></li>
             <li><p>If the inequality is strict, make the boundary line a dashed line.</p></li></ol></p>

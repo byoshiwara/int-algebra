@@ -7,26 +7,26 @@
 <introduction><p>To reduce an algebraic fraction, we must factor its numerator and denominator.</p></introduction>
                    
 <example><statement><p>Factor.
-<ol marker="a" cols="3">
+<ol marker="a." cols="3">
 	<li><m>4x^2-4x</m></li>
 	<li><m>4x^2-1</m></li>
 	<li><m>4x^2-4x+2</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>We factor out  a common factor of <m>4x</m> to get <m>4x(x-1)</m>.</p></li>
 	<li><p>This is a difference of two squares that factors as <m>(2x-1)(2x+1)</m>.</p></li> 
 	<li><p>This is the square of a binomial, <m>(2x-1)^2</m>.</p></li>
 </ol></p></solution></example>
 
 <example><statement><p>Factor.
-<ol marker="a" cols="3">
+<ol marker="a." cols="3">
 	<li><m>27a^2-3</m></li>
 	<li><m>27a^3-1</m></li>
 	<li><m>81a^3-a</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>We first factor out 3 to find <m>3(9a^2-1)</m>, then factor the difference of two squares to get <m>3(3a-1)(3a+1)</m>.</p></li>
 	<li><p>This is a differece of two cubes, which factors as <m>(3a-1)(9a^2+3a+1)</m>.</p></li>
 	<li><p>We first factor out <m>a</m> to get <m>a(81a^2-1)</m>, then factor the difference of two squares to get <m>a(9a-1)(9a+1)</m> .</p></li>
@@ -50,7 +50,7 @@
 <introduction><p>To find the opposite or negative of a binomial we multiply by <m>-1</m>.</p></introduction>
                    
 <example><statement><p>Which of these is the opposite of <m>m^2-p~</m>?
-<ol marker="a" cols="3">
+<ol marker="a." cols="3">
 	<li><m>m^2+p</m></li>
 	<li><m>m-p^2</m></li>
 	<li><m>p-m^2</m></li>
@@ -59,7 +59,7 @@
 <solution><p>The opposite of <m>m^2-p</m> is <m>-(m^2-p) = -m^2+p</m>, or <m>p-m^2</m>.</p></solution></example>
 
 <example><statement><p>Which of these pairs of binomials are opposites?
-<ol markerl="a">
+<ol markerl="a.">
 	<li><m>3c-5</m> and <m>5+3c</m></li>
 	<li><m>5-3c</m> and <m>3-5c</m></li>
 	<li><m>5c-3</m> and <m>3-5c</m></li>

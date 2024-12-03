@@ -6,7 +6,7 @@
 
 <p>One way to graph a log function is to first make a table of values for its inverse function, the exponential function with the same base, then interchange the variables.</p>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
     <li><p>Complete the table of values and graph on the same grid: <m>~f(x)=x^3~</m> and <m>~g(x)=3^x~</m></p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -71,7 +71,7 @@
     \end{tikzpicture}]]>
     </latex-image></image></li>
 </ol></p></statement> 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><!--<image width="50%" source="images/fig-5-2-4"><description>graph</description></image>-->
     <image width="50%"  xml:id="fig-3-to-x-and-x-cubed"><description>3 to x and x-cubed</description><latex-image>
     <![CDATA[
@@ -115,12 +115,12 @@
 <p>A log function is the inverse of the exponential function with the same base, and vice versa.</p>
 
 <example><statement><p> For each function <m>~f(x)~</m>, decide whether <m>f(a+b)=f(a)+f(b)</m>.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>f(x)=3^x</m></li>
     <li><m>f(x)=\log_3 {(x)}</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p><m>f(a+b)=3^{a+b},~</m> and <m>~f(a)+f(b) = 3^a+3^b.~</m></p>
         <p> But <m>~3^{a+b}~</m> is not equivalent to <m>~3^a+3^b;~</m> in fact <m>~3^{a+b} =3^a \cdot 3^b.</m></p>
         <p>So for this function, <m>f(a+b) \not= f(a)+f(b)</m>.</p></li>
@@ -130,23 +130,23 @@
     </ol></p></solution></example>
 
 <exercise><statement><p><m>g(x)=5^x~</m>. Evaluate and simplify if possible.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>g(3+t)</m></li>
     <li><m>g(3t)</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>125 \cdot 5^{t}</m></li>
         <li><m>125^t</m></li>
 </ol></p></answer></exercise>
 
 <example><statement><p><m>q(x)=9^x~</m> and <m>p(x)</m> is its inverse function. Evaluate if possible.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>q\left(\dfrac{1}{2}\right)</m></li>
     <li><m>p(3)</m></li>
     <li><m>q(0)</m></li>
     <li><m>p(0)</m></li>
 </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
         <li><m>3</m></li>
         <li><m>\dfrac{1}{2}</m></li>
         <li><m>1</m></li>
@@ -154,13 +154,13 @@
 </ol></p></solution></example>
 
 <exercise><statement><p><m>h(x)=\log_4 {(x)}.~</m> Evaluate if possible.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>h(4)</m></li>
     <li><m>g(4)</m>, where <m>g</m> is the inverse function for <m>h</m></li>
     <li><m>h(0)</m></li>
     <li><m>g(0)</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
         <li><m>1</m></li>
         <li><m>256</m></li>
         <li>undefined</li>
@@ -168,11 +168,11 @@
 </ol></p></answer></exercise>
 
 <exercise><statement><p><m>f(x)=\log_8 {(x)}~</m>. Evaluate and simplify if possible.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>f(64p)</m></li>
     <li><m>f(64+p)</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
         <li><m>2+\log_8 {(p)}</m></li>
         <li>cannot be simplified</li>
 </ol></p></answer></exercise>
@@ -183,7 +183,7 @@
 <p>The three properties of logarithms are helpful in making computations involving logs.</p>
 
 <assemblage><title>Properties of Logarithms</title>
-    <p>If <m>x</m>, <m>y</m>, <m>b \gt 0</m>, and <m>b\ne 1</m>, then <ol marker="1">
+    <p>If <m>x</m>, <m>y</m>, <m>b \gt 0</m>, and <m>b\ne 1</m>, then <ol marker="1.">
         <li><p><m>\log_{b}{(xy)} = \log_{b}{(x)} + \log_{b}{(y)}</m></p></li>
         <li><p><m>\log_{b}\left(\dfrac{x}{y}\right) = \log_b {(x)} - \log_b {(y)}</m></p></li>
         <li><p><m>\log_b {(x^k)} = k \log_b {(x)} </m></p></li>
@@ -201,13 +201,13 @@
     <me>\log_b {(20)} = \log_b {(10 \cdot 2)} = \log_b {(10)} + \log_b {(2)} = 2.303 + 0.693 = 2.996</me></p></solution></example>
 
 <exercise><statement><p> Take the log of each number. What do you notice?
-<ol marker = "a" cols="2">
+<ol marker = "a." cols="2">
     <li><m>8 \cdot 100 = 800</m></li>
     <li><m>12 \cdot 1000 = 12,000</m></li>
     <li><m>20 \cdot 25 = 500</m></li>
     <li><m>200 \cdot 250 = 50,000</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
         <li><m>\log {(8)} + \log {(10)} = \log {(800)}</m></li>
         <li><m>\log {(12)} + \log {(100)} = \log {(12,000)}</m></li>
         <li><m>\log {(20)} + \log {(25)} = \log {(500)}</m></li>
@@ -215,20 +215,20 @@
     </answer></exercise>
 
 <exercise><statement><p>Compare the two operations. What do you notice?
-<ol marker = "a">
+<ol marker = "a.">
     <li>(i) Compute <m>10^{2.68}~~~~~~~~~~~~~~~~~</m>  (ii) Solve for <m>x:~~\log {(x)} = 2.68</m></li>
     <li>(i) Compute <m>10^{-0.75}~~~~~~~~~~~~~~~~</m>  (ii) Solve for <m>x:~~\log {(x)} = -0.75</m></li>
 </ol></p></statement>
-<answer><p><ol marker = "a">
+<answer><p><ol marker = "a.">
         <li>(i) and (ii) have the same answer: <m>478.63</m></li>
         <li>(i) and (ii) have the same answer: <m>0.1778</m></li>
 </ol></p></answer></exercise>
 
-<exercise><statement><p><ol marker = "a">
+<exercise><statement><p><ol marker = "a.">
     <li>The ratio of <m>N</m> to <m>P</m> is <m>32.6</m>.  Compute <m>\log {(N)} - \log {(P)}</m>.</li>
     <li><m>\log {(z)} - \log {(t)} = 2.5</m>.  Compute <m>\dfrac{z}{t}</m>.</li>
 </ol></p></statement>
-<answer><p><ol marker = "a">
+<answer><p><ol marker = "a.">
         <li><m>1.5132</m></li>
         <li><m>316.2278</m></li>
 </ol></p></answer></exercise>

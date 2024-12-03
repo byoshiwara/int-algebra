@@ -7,7 +7,7 @@
 <p>Recall that a negative exponent indicates a reciprocal.</p>
                    
 <example><statement><p>Write each expression without negative exponents.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>\dfrac{1}{4}xy^{-2}</m></li>
 	<li><m>a^{-3}b^{-2}</m></li>
 	<li><m>\dfrac{2a^{-1}}{{bc}^{-2}}</m></li>
@@ -15,7 +15,7 @@
 </ol></p></statement>
 
 <solution><p>We use the fact that  <m>~a^{-n} = \dfrac{1}{a^n}</m>, and consequently that <m>~\dfrac{1}{a^{-n}} = a^n</m>.
- <ol marker="a" cols="2">
+ <ol marker="a." cols="2">
 	<li><m>\dfrac{x}{4y^2}</m></li>
 	<li><m>\dfrac{1}{a^{3}b^{2}}</m></li>
 	<li><m>\dfrac{2c^2}{ab}</m></li>
@@ -23,14 +23,14 @@
 </ol></p></solution></example>
 
 <example><statement><p>Simplify where possible using the laws of exponents.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>3x^{-3}x^5</m></li>
 	<li><m>\dfrac{4a^{-4}}{8a^{-8}}</m></li>
 	<li><m>(2bc^{-3})^{-2}</m></li>
 	<li><m>3x^{-4}-2x^{-3}</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>Add the exponents: <m>~3x^{-3}x^5 = 3x^2</m></li>
 	<li>Subtract the exponents: <m>~\dfrac{4a^{-4}}{8a^{-8}} = \dfrac{1}{2}a^{-4-(-8)} = \dfrac{a^4}{2}</m></li>
 	<li><p>Raise each factor to the power <m>-2</m>.  Multiply exponents:
@@ -73,21 +73,21 @@
 </p></solution></example>
                   
 <exercise><statement><p>Write an improper fraction for each sum or difference.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>1 + \dfrac{3}{4}</m></li>
 	<li><m>2 - \dfrac{3}{10}</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>\dfrac{7}{4}</m></li>
 	<li><m>\dfrac{17}{10}</m></li>
 </ol></p></answer></exercise>
 
 <exercise><statement><p>Write an improper fraction for each sum or difference.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
 	<li><m>1 - \dfrac{23}{100}</m></li>
 	<li><m>3 + \dfrac{3}{25}</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
 	<li><m>\dfrac{77}{100}</m></li>
 	<li><m>\dfrac{78}{25}</m></li>
 </ol></p></answer></exercise>

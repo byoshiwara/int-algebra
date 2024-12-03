@@ -8,39 +8,39 @@
     
 <subexercises><title>Warm Up</title>
 
-<exercise number="1"><statement><p>Simplify.<ol marker="a" cols="3">
+<exercise number="1"><statement><p>Simplify.<ol marker="a." cols="3">
     <li><m>4-2\sqrt{64}</m></li>
     <li><m>\dfrac{4-\sqrt{64}}{2}</m></li>
     <li><m>\sqrt{9-4(-18)}</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
         <li><p><m>-12</m></p></li>
         <li><p><m>-2</m></p></li>
         <li><p><m>9</m></p></li></ol></p></answer></exercise>
 
-<exercise number="2"><statement><p>Give a decimal approximation rounded to thousandths.<ol marker="a" cols="3">
+<exercise number="2"><statement><p>Give a decimal approximation rounded to thousandths.<ol marker="a." cols="3">
     <li><m>5\sqrt{3}</m></li>
     <li><m>\dfrac{-2}{3}\sqrt{21}</m></li>
     <li><m>-3+2\sqrt{6}</m></li></ol></p></statement></exercise>
 
-<exercise number="3"><statement><p>Use the definition of square toot to simplify the expression.<ol marker="a" cols="3">
+<exercise number="3"><statement><p>Use the definition of square toot to simplify the expression.<ol marker="a." cols="3">
     <li><m>\sqrt{29}(\sqrt{29})</m></li>
     <li><m>(\sqrt{7})^2</m></li>
     <li><m>\dfrac{6}{\sqrt{6}}</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
         <li><p><m>29</m></p></li>
         <li><p><m>7</m></p></li>
         <li><p><m>\sqrt{6}</m></p></li></ol></p></answer></exercise>
 
-<exercise number="4"><statement><p>Solve. Remember that every positive number has two square roots.<ol marker="a" cols="3">
+<exercise number="4"><statement><p>Solve. Remember that every positive number has two square roots.<ol marker="a." cols="3">
         <li><p><m>3x^2=147</m></p></li>
         <li><p><m>4x^2=25 </m></p></li>
         <li><p><m>3x^2=15</m></p></li></ol></p></statement>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
         <li><p><m>\pm 7</m></p></li>
         <li><p><m>\pm \dfrac{5}{2}</m></p></li>
         <li><p><m>\pm \sqrt{5}</m></p></li></ol></p></answer></exercise>
 
-<exercise number="5"><statement><p><ol marker="a">
+<exercise number="5"><statement><p><ol marker="a.">
         <li><p>Complete the table and graph <m>~y=2x^2-5</m>.</p> 
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -81,7 +81,7 @@
         <li>Use the graph to solve the equation <m>~2x^2-5=7</m>. Show your work on the graph. How many solutions did you find?</li>
         <li><p>Solve the equation <m>~2x^2-5=7~</m> algebraically, by "undoing" each operation.</p></li></ol></p>
     </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
             <li><image width="32%" xml:id="fig-hw-3-1-3ans"><description>parabola</description><latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
@@ -108,7 +108,7 @@
             <li><m>\pm \sqrt{6}</m></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p>Use the Pythagorean theorem to find the unknown side. <m>~\alert{\text{[TK]}}</m>  To review the Pythagorean theorem, see <xref ref="tkPythTh" text="custom"> Section 3.1.4 </xref> of the Toolkit. </p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
     <li><image width="75%" xml:id="fig-x-6-10-rt-triangle">
         <description>right triangle, legs x and 6, hypotenuse 10</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -174,19 +174,19 @@
 <exercise number="16"><statement><p><m>17-\dfrac{x^2}{4}=43-x^2</m></p></statement></exercise>        
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For problems 17 and 18, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For problems 17 and 18, <ol marker="a.">
     <li>Use technology to graph the quadratic equation in the suggested window.</li>
     <li>Use your graph to find two solutions for the equation in part (b).</li>  
     <li>Check your solutions algebraically, using mental arithmetic.</li></ol></p></introduction>
 
-<exercise number="17"><statement><p><ol marker="a">
+<exercise number="17"><statement><p><ol marker="a.">
     <li><m>y=3(x-4)^2</m>
         <md><mrow>\text{Xmin} \amp = -5 \amp \amp \text{Ymin} = -20</mrow>
             <mrow>\text{Xmax} \amp = 15 \amp \amp \text{Ymax}  = 130</mrow></md></li>
     <li><m>3(x-4)^2 = 108</m></li></ol></p></statement>
     <answer><p> b. 10, -2</p></answer></exercise>
 
-<exercise number="18"><statement><p><ol marker="a">
+<exercise number="18"><statement><p><ol marker="a.">
     <li><m>y=\dfrac{1}{2}(x+3)^2</m>
         <md><mrow>\text{Xmin} \amp = -15 \amp \amp \text{Ymin}  = -5</mrow>
             <mrow>\text{Xmax} \amp = 5 \amp \amp \text{Ymax}  = 15</mrow></md></li>
@@ -210,7 +210,7 @@
 
 <subexercises><title>Applications</title>
 
-<exercisegroup><introduction><p>For problems 23 and 24, <ol marker="a">
+<exercisegroup><introduction><p>For problems 23 and 24, <ol marker="a.">
     <li>Make a sketch of the situation described, and label a right triangle.</li>
     <li>Use the Pythagorean theorem to solve each problem.</li></ol></p></introduction>
 
@@ -221,7 +221,7 @@
 <exercise number="24"><statement><p>A 30-meter pine tree casts a shadow of 30 meters, how far is the tip of the shadow from the top of the tree? </p></statement></exercise>
 </exercisegroup>
 
-<exercise number="25"><statement><p>You plan to deposit your savings of $1600 in an account that compounds interest annually.<ol marker="a">
+<exercise number="25"><statement><p>You plan to deposit your savings of $1600 in an account that compounds interest annually.<ol marker="a.">
     <li>Write a formula for the amount, <m>A</m>, in your savings account after two years in terms of the interest rate, <m>r</m>.</li>
     <li><p>Complete the table showing your account balance after two years for various interest rates.</p>
 
@@ -241,7 +241,7 @@
                     </tabular></li>
     <li>To the nearest tenth of a percent, what interest rate will you require if you want your $1600 to grow to $2000 in two years?</li>
     <li>Use your calculator to graph the formula for the account balance.  Locate the point on the graph that corresponds to the amount in part (c).</li></ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><m>A=1600(1+r)^2</m></li>
         <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -282,7 +282,7 @@
 If the box should have a volume of 1960 cubic inches, what size cardboard square is needed?</p></statement></exercise>
 
 <exercise number="29"><statement><p>A large bottle of shampoo is 20 centimeters tall and cylindrical in shape.
-    <ol marker="a">
+    <ol marker="a.">
     <li>Write a formula for the volume of the bottle in terms of its radius.</li>
     <li><p>Complete the table of values for the volume equation. If you cut the radius of the bottle in half, by what factor does the volume decrease?</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -309,7 +309,7 @@ If the box should have a volume of 1960 cubic inches, what size cardboard square
                     </tabular></li>
     <li>What radius should the bottle have if it must hold 240 milliliters of shampoo? (A milliliter is equal to one cubic centimeter.)</li>
     <li>Use your calculator to graph the volume equation. (Use the table to help you choose a suitable window.) Locate the point on the graph that corresponds to the bottle in part (c). Make a sketch of your graph, and lable the scales on the axes.</li></ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><m>V=62.8r^2</m></li>
         <li><m>\dfrac{1}{4}</m></li>
         <li>1.96 cm</li></ol></p></answer></exercise>
@@ -318,7 +318,7 @@ If the box should have a volume of 1960 cubic inches, what size cardboard square
 <p>The area of a ring is given by the formula
         <md><mrow>A = \pi R^2 - \pi r^2</mrow></md>
  where <m>R</m> is the radius of the outer circle, and <m>r</m> is the radius of the inner circle.</p>
-        <image source="images/fig-annulus"><description>graph</description></image></sidebyside><p><ol marker="a">
+        <image source="images/fig-annulus"><description>graph</description></image></sidebyside><p><ol marker="a.">
     <li>Suppose the inner radius of the ring is kept fixed at <m>r=4</m> centimeters, but the radius of the outer circle, <m>R</m>, is allowed to vary. Find the area of the ring when the outer radius is 6 centimeters, 8 centimeters, and 12 centimeters.</li>
     <li><p>Graph the area equation, with <m>r=4</m>, in the window
         <md><mrow>\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 14.1</mrow>
@@ -331,14 +331,14 @@ If the box should have a volume of 1960 cubic inches, what size cardboard square
 
 <exercisegroup><introduction><p>For Problems 31 and 32, solve for <m>x</m> in terms of <m>a</m>, <m>b</m>, and <m>c</m>.</p></introduction>
 
- <exercise number="31"><statement><p><ol marker="a" cols="2">
+ <exercise number="31"><statement><p><ol marker="a." cols="2">
     <li><m>\dfrac{ax^2}{b} = c</m></li>
     <li><m>\dfrac{bx^2}{c} - a = 0</m></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><m> \pm \sqrt{\dfrac{bc}{a}}</m></li>
     <li><m> \pm \sqrt{\dfrac{ac}{b}}</m></li></ol></p></answer></exercise>
 
-<exercise number="32"><statement><p><ol marker="a" cols="2">
+<exercise number="32"><statement><p><ol marker="a." cols="2">
     <li><m>(x-a)^2 = 16</m></li>
     <li><m>(ax+b)^2 = 9</m></li></ol></p></statement></exercise>
 </exercisegroup>

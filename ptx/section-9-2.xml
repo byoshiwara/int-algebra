@@ -92,14 +92,14 @@ Taking the (positive) square root of each side of this equation gives us the <te
           2, 
         );
     </pg-code>
-    <statement><p>True or false.<ol marker="a">
+    <statement><p>True or false.<ol marker="a.">
         <li><p>The distance formula is a version of the Pythagorean theorem. <var name="$True" form="popup"/></p></li>
         <li><p><m>(u-v)^2 = (v-u)^2 = |u-v|^2=|v-u|^2 </m> <var name="$True" form="popup"/></p></li>
         <li><p>We can find the length of a horizontal segment by subtracting the <m>x</m>-coordinates of its endpoints. <var name="$True" form="popup"/></p></li>
         <li><p>The distance between two points is always a positive number (or zero). <var name="$True" form="popup"/></p>
             </li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li>True</li>
         <li>True</li>
         <li>True</li>
@@ -109,7 +109,7 @@ Taking the (positive) square root of each side of this equation gives us the <te
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Decide whether each statement is true or false.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>The distance formula is a version of the Pythagorean theorem.</p></li>
         <li><p><m>(u-v)^2 = (v-u)^2 = |u-v|^2=|v-u|^2 </m> </p></li>
         <li><p>We can find the length of a horizontal segment by subtracting the <m>x</m>-coordinates of its endpoints.</p></li>
@@ -137,7 +137,7 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
 <webwork><pg-code>
         $d = Compute("sqrt(208)");
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Find the distance between the points <m>(-5,3)</m> and <m>(3,-9)</m>: <var name="$d" width="10"/></p>
                 </li>
         <li><p>Plot the points, and illustrate how the Pythagorean theorem is used in calculating the distance.</p></li>
@@ -147,7 +147,7 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
         </instruction>
     </statement>
     <solution>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><m>\sqrt{208}</m></li>
             <li>A graph is below.</li></ol></p>
     </solution>
@@ -176,11 +176,11 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
 </exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
         <li><p>Find the distance between the points <m>(-5,3)</m> and <m>(3,-9)</m>.</p></li>
         <li><p>Plot the points, and illustrate how the Pythagorean theorem is used in calculating the distance.</p></li>
     </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
             <li><m>\sqrt{208}</m></li>
             <li><image width="40%" xml:id="fig-ex-9-2-1ans"><description>distance formula</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -240,7 +240,7 @@ so it cannot be true that <m>\sqrt{3^2+4^2} </m> equals <m>3+4</m>, or 7. For th
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Fill in the blanks to complete the statements.
-<ol marker="a">
+<ol marker="a.">
     <li><p>Each coordinate of the midpoint is the <fillin/> of the corresponding coordinates of the endpoints.</p></li>
     <li><p>The midpoint of a segment is the same <fillin/> from each endpoint of the segment.</p></li>
 </ol></p></statement></exercise>
@@ -257,11 +257,11 @@ The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m
         Context("Point");
         $answer = Point("(-1,-3)");
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Find the midpoint of the line joining the points <m>(-5,3)</m> and <m>(3,-9)</m>: <var name="$answer" width="6"/></p></li>
         <li><p>Plot the points and draw a rectangle with the points as opposite vertices. Illustrate that the midpoint is the center of the rectangle.</p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
         <li><m>(-1,-3)</m></li>
         <li>A figure is below.</li>
     </ol></p></solution>
@@ -291,11 +291,11 @@ The midpoint of the segment is the point <m>(\overline{x},\overline{y})=(1,2)</m
 </conclusion></exercise>
 
 <exercise component="main"><title>Practice 2</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
         <li><p>Find the midpoint of the line joining the points <m>(-5,3)</m> and <m>(3,-9)</m></p></li>
         <li><p>Plot the points and draw a rectangle with the points as opposite vertices. Illustrate that the midpoint is the center of the rectangle.</p></li>
     </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
         <li><m>(-1,-3)</m></li>
         <li><image width="35%" xml:id="fig-ex-9-2-2ans"><description>rectangle</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -364,14 +364,14 @@ We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3
         $radius = Compute("9");
         $diameter = Compute("18");
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>Does the center of a circle lie on the graph of the circle? <var name="$No" form="popup"/> </p></li>
          <li><p>What is the radius of the circle <m>x^2 + y^2 = 81</m>? <var name="$radius" width="2"/> </p></li>
         <li><p>What is the diameter of the circle in part (b)?  <var name="$diameter" width="2"/></p></li>
         <li><p>Can we simplify the equation in part (b) to <m>x + y = 9</m>? <var name="$No" form="popup"/></p></li>
         </ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li>No</li>
             <li>9</li>
             <li>18</li>
@@ -381,7 +381,7 @@ We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
-<statement><p>Answer each question below.<ol marker="a">
+<statement><p>Answer each question below.<ol marker="a.">
         <li><p>Does the center of a circle lie on the graph of the circle?</p></li>
          <li><p>What is the radius of the circle <m>x^2 + y^2 = 81</m>?</p></li>
         <li><p>What is the diameter of the circle in part (b)?</p></li>
@@ -391,11 +391,11 @@ We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3
 <p>It is easy to graph a circle if its equation is given in standard form.</p>
 
 <example xml:id="example-two-circles"><statement><p>Graph the circles.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><m>(x-2)^2+(y+3)^2=16</m></li>
     <li><m>x^2+(y-4)^2=7</m></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The graph of <m>(x-2)^2+(y+3)^2=16</m> is a circle with radius 4 and center at <m>(2,-3)</m>. To sketch the graph, we first locate the center of the circle. (The center is not part of the graph of the circle.)</p>
     <p> From the center, we move a distance of 4 units (the radius of the circle) in each of four directions:  up, down, left, and right. This locates four points that lie on the circle: <m>(2,1)</m>, <m>(2,-7)</m>, <m>(-2,-3)</m>, and <m>(6,-3)</m>.  We sketch the circle through these four points.</p> 
 
@@ -410,12 +410,12 @@ We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3
         $center = Point("(-3,-2)");
         $r = Compute("4");
     </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
         <li><p>State the center and radius of the circle
                 <me>(x+3)^2+(y+2)^2=16</me></p>
             <p>center: <var name="$center"  width="6"/>, radius: <var name="$r" width="2"/> </p></li>
         <li>Graph the circle.</li></ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li><p>center <m>(-3,-2)</m>, radius 4</p></li>
     <li>A graph is below.</li>
 </ol></p></solution>
@@ -440,12 +440,12 @@ We see that the solutions are <m>y=6</m> and <m>y=2</m>. Thus, the points <m>(-3
 </exercise>
 
 <exercise component="main"><title>Practice 4</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
         <li><p>State the center and radius of the circle
                 <me>(x+3)^2+(y+2)^2=16</me></p></li>
         <li><p>Graph the circle.</p></li>
     </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>center <m>(-3,-2)</m>, radius 4</p></li>
     <li><image width="40%" xml:id="fig-ex-9-2-3ans"><description>circle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -610,14 +610,14 @@ Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}
           1, 
         );        
     </pg-code>
-    <statement><p>Fill in the blanks.<ol marker="a">
+    <statement><p>Fill in the blanks.<ol marker="a.">
         <li><p>The standard form for a circle is useful because we can see the <var name="$a" form="popup"/> of the circle in the equation.</p></li>
         <li><p>A quadratic equation in two variables describes a circle if the coefficients of the quadratic terms are <var name="$b" form="popup"/>.</p></li>
         <li><p>We convert the equation for a circle into standard form by <var name="$c" form="popup"/> in both variables.
             </p></li></ol></p>
     </statement>
     <solution>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li>center and radius</li>
             <li>equal</li>
             <li>completing the square</li></ol></p>
@@ -625,7 +625,7 @@ Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 4</title>
-<statement><p>Fill in the blanks.<ol marker="a">
+<statement><p>Fill in the blanks.<ol marker="a.">
         <li><p>The standard form for a circle is useful because we can see the <fillin characters="6"/> of the circle in the equation.</p></li>
         <li><p>A quadratic equation in two variables describes a circle if the coefficients of the quadratic terms are <fillin characters="6"/>.</p></li>
         <li><p>We convert the equation for a circle into standard form by <fillin characters="6"/> in both variables.</p></li>
@@ -685,7 +685,7 @@ point of several such spheres centered on different satellites.</p>
         </latex-image></image>
     
 <p>To make the computations simpler, we will also assume that the satellite transmissions travel at 5 meters per second.</p>
-<p><ol marker="1">
+<p><ol marker="1.">
 
 <li><p>A signal from Satellite A arrives 18 seconds after it was transmitted. How far are you from Satellite A?</p></li>
 

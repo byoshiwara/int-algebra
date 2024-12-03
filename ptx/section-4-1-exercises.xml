@@ -10,33 +10,33 @@
 
 <exercisegroup><introduction><p>For Problems 1 and 2, simplify according to the order of operations.</p></introduction>
 
-<exercise number="1"><statement><p><ol marker="a" cols = "2">
+<exercise number="1"><statement><p><ol marker="a." cols = "2">
     <li><m>8-2\sqrt{36-16}</m></li>
     <li><m>\dfrac{4+4\sqrt{4(16)}}{4}</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>8-2\sqrt{20}</m></li>
     <li><m>9</m></li></ol></p></answer></exercise>
 
- <exercise number="2"><statement><p><ol marker="a" cols = "2">
+ <exercise number="2"><statement><p><ol marker="a." cols = "2">
     <li><m>\dfrac{6+3\sqrt{36-4(3)}} {2(3)}</m></li>
     <li><m>\dfrac{\sqrt{10^2+4(11)}-\sqrt{9+3(6)}} {12-\sqrt{1+5(16)}}</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="3"><statement><p><ol marker="a">
+<exercise number="3"><statement><p><ol marker="a.">
     <li>Write the formulas for the area and perimeter of a rectangle.</li>
-    <li><p>Find the area and perimeter of each rectangle:<ol marker="i" cols="2">
+    <li><p>Find the area and perimeter of each rectangle:<ol marker="i." cols="2">
         <li>  4 ft by 6 ft</li>
         <li>  3 ft by 8 ft</li></ol></p></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>A=lw,~P=2l+2w</m></li>
-    <li><p><ol marker="i">
+    <li><p><ol marker="i.">
         <li> <m>A=24</m> sq ft, <m>P=20</m> ft</li>
         <li> <m>A=24</m> sq ft, <m>P=22</m> ft</li></ol></p></li></ol></p>
 </answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a">
+<exercise number="4"><statement><p><ol marker="a.">
     <li>Do all rectangles with the same area have the same perimeter?</li>
-    <li><p>Write expressions for the area and perimeter of each rectangle:<ol marker="i" cols="2">
+    <li><p>Write expressions for the area and perimeter of each rectangle:<ol marker="i." cols="2">
         <li> <m>w~</m> in by <m>~w-3~</m> in</li>  
         <li> <m>w~</m> cm by <m>~160-2w~</m> cm</li></ol></p></li></ol></p>
 </statement></exercise>
@@ -62,7 +62,7 @@
 <exercise number="10"><statement><p><m>x=\dfrac{1}{2}x^2-\dfrac{3}{4}</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="11"><statement><p><ol marker="a">
+<exercise number="11"><statement><p><ol marker="a.">
     <li>Graph <m>~y=6x^2-7x-3~</m> in the window
         <md><mrow>\text{Xmin}=-2~~~~\text{Ymin}=-6</mrow>
             <mrow>\text{Xmax}=3~~~~~\text{Ymax}=4</mrow></md></li>
@@ -70,13 +70,13 @@
     <li>Use the quadratic formula to solve the equation
             <me>6x^2-7x-3=0</me>
         How do the solutions compare to your estimates in part (b)?</li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><sidebyside width="40%"><image source="images/y-eq-6x-sq-minus-7x-minus3"><description>graph</description></image></sidebyside></li>
     <li>Approximately <m>(1.5,0)</m> and <m>(-0.3,0)</m></li>
     <li><m>\dfrac{3}{2}</m> and <m>\dfrac{-1}{3}</m>. These are the <m>x</m>-intercepts of the graph.</li></ol></p>
 </answer></exercise>
 
-<exercise number="12"><statement><p><ol marker="a">
+<exercise number="12"><statement><p><ol marker="a.">
     <li><p>Solve by the quadratic formula
         <me>2x^2-1=5x</me>
     Find decimal approximations for your answers. Round to hundredths.</p></li>
@@ -102,7 +102,7 @@
             </latex-image></image></sidebyside></li>
     <li>How are your solutions from part (a) related to the graph?</li></ol></p></statement></exercise>
 
-<exercise number="13"><statement><p><ol marker="a">
+<exercise number="13"><statement><p><ol marker="a.">
     <li><p>Graph the three equations
         <md><mrow>y \amp = x^2-6x+5</mrow>
             <mrow>y \amp = x^2-6x+9</mrow>
@@ -116,25 +116,25 @@
             <mrow>x^2-6x+9 \amp = 0</mrow>
             <mrow>x^2-6x+12 \amp = 0</mrow></md>
         How are your answers related to the graphs in part (a)?</p></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>(5,0)</m> and <m>(1,0)</m>; <m>(3,0)</m>; no <m>x</m>-intercepts</li>
     <li>1 and 5; 3; <m>\dfrac{6 \pm i\sqrt{12}}{2}</m>. The real-valued solutions are the <m>x</m>-intercepts of the graph. If the solutions are complex, the graph has no <m>x</m>-intercepts.</li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><p>Use the discriminant to determine the nature of the solutions of each equation. 
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>3x^2+26=17x</m></li>
     <li><m>4x^2+23x=19</m></li>
     <li><m>16x^2-712x+7921=0</m></li>
     <li><m>0.03x^2=0.05x-0.12</m></li></ol></p></statement></exercise>
 
-<exercise number="15"><statement><p>Here is one solution of a quadratic equation. Find the other solution, then write a quadratic equation in standard form that has those solutions. <ol marker="a" cols="2">
+<exercise number="15"><statement><p>Here is one solution of a quadratic equation. Find the other solution, then write a quadratic equation in standard form that has those solutions. <ol marker="a." cols="2">
     <li><m>2+\sqrt{5}</m></li>
     <li><m>4-3i</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>x^2-4x-1=0</m></li>
     <li><m>x^2-8x+25=0</m></li></ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol marker="a">
+<exercise number="16"><statement><p><ol marker="a.">
     <li>What is the sum of the two solutions of the quadratic equation <m>~ax^2 + bx + c = 0~</m>? (Hint: The two solutions are given by the quadratic formula.)</li>
     <li>What is the product of the two solutions of the quadratic equation <m>~ax^2 + bx + c = 0~</m>? (Hint: Do not try to multiply the two solutions given by the quadratic formula! Think about the factored form of the equation.)</li>
 </ol></p></statement></exercise>
@@ -161,7 +161,7 @@
 <subexercises><title>Applications</title>
 
 <exercise number="23"><statement><p>A car traveling at <m>s</m> miles per hour on a wet road surface requires approximately <m>d</m> feet to stop, where <m>d</m> is given by the equation
-    <me>d = \dfrac{s^2}{12}+\dfrac{s}{2} </me><ol marker="a">
+    <me>d = \dfrac{s^2}{12}+\dfrac{s}{2} </me><ol marker="a.">
         <li><p>Make a table showing the stopping distance, <m>d</m>, for speeds of 10, 10, <m>\ldots</m>, 100 miles per hour. (Use the <term>Table</term> feature of your calculator.)</p></li>
         <li><p>Graph the equation for <m>d</m> in terms of <m>s</m>. Use your table values to help you choose appropriate window settings.</p></li>
         <li><p>Insurance investigators at the scene of an accident find skid marks 100 feet long leading up to the point of impact. Write and solve an equation to discover how fast the car was traveling when it put on the brakes. Verify your answer on your graph.</p></li>
@@ -169,7 +169,7 @@
 <answer><p>c.  31.77 mph</p></answer></exercise>
 
 <exercise number="24"><statement><p>A high diver jumps from the 10-meter springboard. His height in meters above the water <m>t</m> seconds after leaving the board is given by
-    <me>h=-4.9t^2+8t+10</me><ol marker="a">
+    <me>h=-4.9t^2+8t+10</me><ol marker="a.">
     <li>Make a table of values showing the diver’s altitude at 0.25-second intervals after he jumps from the springboard. (Use the Table feature of your calculator.)</li>
     <li>Graph the equation. Use your table of values to choose appropriate window settings.</li>
     <li>How long is it before the diver passes the board on the way down?</li>
@@ -179,21 +179,21 @@
 
 <exercise number="25"><statement><sidebyside widths="65% 20%" valigns="middle middle"><p>When you look down from a height, say a tall building or a mountain peak, your line of sight is tangent to the Earth at the horizon, as shown in the figure.</p>
     <image source="images/fig-hw-4-1-14"><description>tangent to earth</description></image></sidebyside><p>
-<ol marker="a">
+<ol marker="a.">
     <li>The radius of the earth is 6370 kilometers. How far can you see from an airplane at an altitude of 10,000
         meters? (You will need to use the Pythagorean theorem.)</li>
     <li>How high would the airplane have to be in order for you to see a distance of 300 kilometers?</li></ol></p>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li>357 km</li>
     <li>7100 m</li></ol></p></answer></exercise>
 
-<exercise number="26"><statement><p>Refer to the figure in Problem 25.<ol marker="a">
+<exercise number="26"><statement><p>Refer to the figure in Problem 25.<ol marker="a.">
         <li><p>Suppose you are standing on top of the Petronas Tower in Kuala Lumpur, 1483 feet high. How far can you see on a clear day? (The radius of the Earth is 3960 miles. Don't forget to convert the height of the Petronas Tower to miles.)</p></li>
         <li><p>How tall a building should you stand on in order to see 100 miles?</p></li>
     </ol></p></statement></exercise>
 
-<exercise number="27"><statement><p>The volume of a large aquarium at the zoo is 2160 cubic feet. The tank is 10 feet wide, and its length is 6 feet less than twice its height.<ol marker="a">  
+<exercise number="27"><statement><p>The volume of a large aquarium at the zoo is 2160 cubic feet. The tank is 10 feet wide, and its length is 6 feet less than twice its height.<ol marker="a.">  
     <li>Sketch the aquarium, and label its dimensions in terms of a variable.</li>
     <li>Write an equation for the the variable.</li>
     <li>Find the dimensions of the aquarium.</li></ol></p></statement>
@@ -202,7 +202,7 @@
 
 <exercise number="28"><statement><p>You have 72 feet of rope to enclose a rectangular display area against one wall of an exhibit hall. The area enclosed depends upon the dimensions of the rectangle you make. Because the wall makes one side of the rectangle, the length of the rope accounts for only three sides, as shown below.</p>
       <sidebyside width="40%"><image source="images/fig-hw-4-1-16"><description>figure</description></image></sidebyside>
-<p><ol marker="a">                                     
+<p><ol marker="a.">                                     
     <li>Let <m>h</m> stand for the height of a rectangle, and write an algebraic expression for the base of the rectangle.</li>  
     <li>Write an expression for the area of the rectangle.</li> 
     <li>If you would like to enclose 640 square feet of display space, what should the dimensions of the rectangle be? (There are two possible solutions.)</li>

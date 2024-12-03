@@ -7,42 +7,42 @@
 <p>Compare the rules for simplilfying products to the rules for simplifying sums.</p>
                    
 <example><statement><p>Simplify each expression if possible. 
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>3x^2-5x^3</m></li>
     <li><m>3x^2(-5x^3)</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li>This expression is a difference of terms, but they are not like terms (because the variable has different exponents), so we cannot combine them.</li>
     <li>This expression is a product, and the powers have the same base, so we can apply the first law of exponents to get <m>~3x^2(-5x^3)=-15x^5</m>.</li>
 </ol></p></solution></example>
 
 <example><statement><p>Simplify each expression if possible. 
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>-6t^4-8t^4</m></li>
     <li><m>-6t^4(-8t^4)</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li>This expression is a difference of like terms, so we can combine their coefficients to get <m>~-6t^4-8t^4=-14t^4</m></li>
     <li>This expression is a product, and the powers have the same base, so we can apply the first law of exponents to get <m>~-6t^4(-8t^4)=48t^8</m></li>
 </ol></p></solution></example>
 
 <exercise><statement><p>Simplify each expression if possible. 
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>2a^2-9a^3+a^2</m></li>
     <li><m>2a^2(-9a^3+a^2)</m></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>3a^2-9a^3</m></li>
     <li><m>-18a^5+2a^4</m></li></ol></p></answer></exercise>
 
 <exercise><statement><p>Simplify each expression if possible. 
-<ol markerl="a" cols="2">
+<ol markerl="a." cols="2">
     <li><m>7-4a^3+2a^3</m></li>
     <li><m>7-4a^2(2a^3)</m></li>
 </ol></p></statement>
-<answer><p><ol markerl="a">
+<answer><p><ol markerl="a.">
     <li><m>7-2a^3</m></li>
     <li><m>7-8a^5</m></li>
 </ol></p></answer></exercise>  

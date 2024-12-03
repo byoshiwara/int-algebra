@@ -9,14 +9,14 @@
 and so on.</p>
 
 <example><statement><p>Evaluate each cube root.
-<ol marker="a" cols="2">  
+<ol marker="a." cols="2">  
     <li><m>\sqrt[3]{64}</m></li>
     <li><m>\sqrt[3]{-125}</m></li>
     <li><m>\sqrt[3]{1}</m></li>
     <li><m>\sqrt[3]{\dfrac{-1}{8}}</m></li>
 </ol></p></statement>
  
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><m>4^3=64,~</m> so <m>~\sqrt[3]{64}=4</m></li>
     <li><p>The cube root of a negative number is negative.
         <me>(-5)^3=-125,~~\text{so}~~\sqrt[3]{-125}=-5</me></p></li>
@@ -26,14 +26,14 @@ and so on.</p>
 </ol></p></solution></example>
 
 <example><statement><p>Use a calculator to evaluate the cube root. Round to thousandths.
-<ol marker="a">
+<ol marker="a.">
     <li><m>\sqrt[3]{347}</m></li>    
     <li><m>\sqrt[3]{0.85}</m></li>
     <li><m>\sqrt[3]{-9}</m></li></ol>
 </p></statement>
 
 <solution><p>On a scientific calculator, look for the key labeled <m>\boxed{\sqrt[3]{\hphantom{1}\vphantom{1}}}</m>. On a graphing calculator, press <kbd>MATH</kbd> <kbd>4</kbd>
-<ol marker="a">
+<ol marker="a.">
     <li><m>\sqrt[3]{347} \approx 7.027</m></li>    
     <li><m>\sqrt[3]{0.85} \approx 0.947</m></li>
     <li><m>\sqrt[3]{-9} \approx -2.080</m></li></ol></p>
@@ -49,13 +49,13 @@ and so on.</p>
 <subsubsection xml:id="tkAbsVal"><title>Evaluate absolute values</title>
 
 <p>The definition of how to take an absolute value may look complicated, but it just says two things:
-<ol marker="1">
+<ol marker="1.">
     <li>If the number is positive, leave it alone.</li>
     <li>If the number is negative, put another negative in front, which will make the number positive.</li>
 </ol></p>
 
 <example><statement><p>Simplify each expression.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
     <li><m>|-3|</m></li>
     <li><m>-|3|</m></li>
     <li><m>-(-3)</m></li>
@@ -63,7 +63,7 @@ and so on.</p>
 </ol></p></statement>
 
 <solution><p>The absolute value of any number is positive (or zero).  We can think of the absolute value of a number as its distnce from  on a number line.
-<ol marker="a">
+<ol marker="a.">
     <li><m>-3</m> is 3 units from 0, so <m>|-3|=3</m>.</li>
     <li><m>-|3|</m> is the opposite of <m>|3|</m>, so <m>-|3|=-3</m>.</li>
     <li>The opposite of <m>-3</m> is <m>3</m>, so <m>-(-3)=3</m>.</li>
@@ -71,13 +71,13 @@ and so on.</p>
 </ol></p></solution></example>
 
 <example><statement><p>Suppose <m>x</m> represents <m>-8</m>. Evaluate each expression.
-<ol marker="a">
+<ol marker="a.">
     <li><m>-x</m></li>
     <li><m>|x|</m></li>
     <li><m>|-x|</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><m>-x = -(-8) = 8</m></li>
     <li><m>|x| = |-8| = 8</m></li>
     <li><m>|-x| = |-(-8)| = 8</m></li>
@@ -96,7 +96,7 @@ and so on.</p>
 <subsubsection xml:id="tkOrderOp"><title>Use the order of operations</title>
 
 <introduction><p>Recall the order of operations: 
-<ol marker="1">
+<ol marker="1.">
     <li>Simplify what's inside parentheses (or absolute value bars) first.</li>
     <li>Next evaluate all powers and roots.</li>
     <li>Then perform all multiplications and divisions in order from left to right.</li>

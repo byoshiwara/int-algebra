@@ -50,7 +50,7 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
 <exercise number="3"><statement><p>Plot the values in the table from <m>n = 1</m> to <m>n = 12</m>, and connect them with a smooth curve. Describe the curve: What is happening to the value of <m>A</m>?</p></statement></exercise>
 
 <exercise number="4"><statement><p>In part (2), as you increased the value of <m>n</m>, the other parameters in the formula stayed the same. In other words, <m>A</m> is a function of <m>n</m>, given by <m>A = 1000 (1 + \dfrac{0.08}{n} )^n</m>. Use your calculator to graph A on successively larger intervals:
-			<ol marker="a">
+			<ol marker="a.">
 				<li><p><m>\text{Xmin} = 0, \text{Xmax} = 12; \text{Ymin} = 1080, \text{Ymax} = 1084</m></p></li>
 				<li><p><m>\text{Xmin} = 0, \text{Xmax} = 50; \text{Ymin} = 1080, \text{Ymax} = 1084</m></p></li>
 				<li><p><m>\text{Xmin} = 0, \text{Xmax} = 365; \text{Ymin} = 1080, \text{Ymax} = 1084</m></p></li>
@@ -63,7 +63,7 @@ where <m>P</m> is the principal invested, <m>r</m> is the interest rate, and <m>
 <exercise number="7"><statement><p>Is there an easier way to compute <m>A</m> under continues compounding? Yes! Compute <m>1000e^{0.08}</m> on your calculator. (Press <kbd>2nd</kbd>  <kbd>LN</kbd> to enter <m>e^x</m>.) Compare the value to your answer in part (5) for the limiting value. The number <m>e</m> is called the <term>natural base</term><idx>natural base</idx>. We'll compute its value shortly.</p></statement></exercise>
 
 <exercise number="8"><statement><p>Repeat your calculations for two other interest rates, 15% and (an extremely unrealistic) 100%, again for an investment of $1000 for 1 year. In each case, compare the limiting value of <m>A</m>, and compare to the value of <m>1000e^r</m>.
-			<ol marker="a" cols="2"><li><sidebyside>
+			<ol marker="a." cols="2"><li><sidebyside>
 				<tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="right"/><col/>
 					<row>
 						<cell  halign="center" colspan="2"><m>r=0.15</m></cell></row>

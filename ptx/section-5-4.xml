@@ -93,7 +93,7 @@
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>When does a table represent proportional variables?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>If it has a constant slope</p></li>
     <li><p>If it includes the point <m>(0,0)</m></p></li>
     <li><p>If the ratio output/input is constant</p></li>
@@ -119,7 +119,7 @@ where <m>k</m> is a positive constant called the <term>constant of variation</te
 </p></assemblage>
 
 <example xml:id="example-circumference-and-simple-interest">
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>The circumference, <m>C</m>, of a circle varies directly with its radius, <m>r</m>, because 
         <me>C = 2\pi r </me>
     The constant of variation is <m>2\pi</m>, or about 6.28.</p></li>
@@ -155,7 +155,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 <exercise component="main"><title>Practice 1</title>
 <statement><image width="65%" source="images/fig-three-lines"><description>graphs of three lines</description></image>
     <p>Which of the graphs above could represent direct variation? Explain why.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>(a). The graph is a straight line that increases.</p></li>
         <li><p>(b). The graph is a straight line through the origin.</p></li>
         <li><p>(c). The graph is a straight line that decreases.</p></li>
@@ -187,7 +187,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
           4, 
         );
     </pg-code>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>A table describes direct variation if the ratio of corresponding entries is <var name="$a" form="popup"/>.</p>
             </li>
     <li><p>A graph describes direct variation if it is a <var name="$b" form="popup"/>.</p></li>
@@ -196,7 +196,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
         </ol></p> 
     </statement>
     <solution>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li>constant</li>
             <li>straight line through the origin</li>
             <li><m>y=kx</m></li>
@@ -206,7 +206,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 2</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
     <li><p>A table describes direct variation if the ratio of corresponding entries is <fillin characters="10"/>.</p></li>
     <li><p>A graph describes direct variation if it is a <fillin characters="10"/>.</p></li>
     <li><p>An equation describes direct variation if it has the form <fillin characters="10"/>.</p></li>
@@ -255,12 +255,12 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 <solution><p>$56; $89.60; 1.6 </p></solution></exercise>
 
 <example xml:id="example-two-linear-functions"><statement><p>
-<ol marker="a">
+<ol marker="a.">
     <li>Tuition at Woodrow University is $400 plus $30 per unit. Is the tuition proportional to the number of units you take?</li>
     <li>Imogen makes a 15% commission on her sales of environmentally friendly products marketed by her co-op. Do her earnings vary directly with her sales?</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>Let <m>u</m> represent the number of units you take, and let <m>T(u)</m> represent your tuition. Then
        <me>T(u) = 400 + 30u</me>
     Thus, <m>T(u)</m> is a linear function of <m>u</m>, but the <m>T</m>-intercept is <m>400</m>, not <m>0</m>. Your tuition is <em>not</em> proportional to the number of units you take, so this is not an example of direct variation. You can check that doubling the number of units does not double the tuition. For example,
@@ -285,7 +285,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
             );            
         </pg-code> 
         <statement>
-            <p>Which table could represent direct variation? Explain why. (Hint: What happens to <m>y</m> if you multiply <m>x</m> by a constant?)<ol marker="a">
+            <p>Which table could represent direct variation? Explain why. (Hint: What happens to <m>y</m> if you multiply <m>x</m> by a constant?)<ol marker="a.">
                 <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -330,7 +330,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 
 <exercise component="main"><title>Practice 2</title>
 <statement><p>Which table could represent direct variation? Explain why. (Hint: What happens to <m>y</m> if you multiply <m>x</m> by a constant?)</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -377,13 +377,13 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 <p>If we know any one pair of values for the variables in a direct variation, we can find the constant of variation. Then we can use the constant to write a formula for one of the variables as a function of the other.</p>
 
 <example xml:id="example-falling-into-grand-canyon"><statement><p>If you kick a rock off the rim of the Grand Canyon, its speed, <m>v</m>, varies directly with the time, <m>t</m>, it has been falling. The rock is falling at a speed of 39.2 meters per second when it passes a lizard on a ledge 4 seconds later.
-<ol marker="a">
+<ol marker="a.">
     <li>Express <m>v</m> as a function of <m>t</m>.</li>
     <li>What is the speed of the rock after it has fallen for 6 seconds?</li>
     <li>Sketch a graph of <m>v(t)</m> versus <m>t</m>.</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>Because <m>v</m> varies directly with <m>t</m>, there is a positive constant <m>k</m> for which 
             <me>v = kt</me>.
     We substitute <m>v = \alert{39.2}</m> and <m>t = \alert{4}</m> and solve for <m>k</m> to find
@@ -418,13 +418,13 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
               }
             );            
         </pg-code>
-    <statement><p>The volume of a bag of rice, in cups, is directly proportional to the weight of the bag. A 2-pound bag contains 3.5 cups of rice.<ol marker="a">
+    <statement><p>The volume of a bag of rice, in cups, is directly proportional to the weight of the bag. A 2-pound bag contains 3.5 cups of rice.<ol marker="a.">
                 <li><p>Express the volume, <m>V</m>, of a bag of rice as a function of its weight, <m>w</m>.</p>
                 <p><var name="$multians" width="2"/><m>=</m><var name="$multians" width="5"/> </p></li>
                 <li><p>How many cups of rice are in a <m>15</m>-pound bag?</p>
                 <p><var name="$V" width="4"/> </p></li></ol></p>
         </statement>
-        <solution><p><ol marker="a" cols="2">
+        <solution><p><ol marker="a." cols="2">
                 <li><p><m><var name="$f1"/>=<var name="$f2"/> </m></p></li>
                 <li><p><m>26.25</m></p></li></ol></p>
         </solution>
@@ -432,11 +432,11 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>The volume of a bag of rice, in cups, is directly proportional to the weight of the bag. A 2-pound bag contains 3.5 cups of rice.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Express the volume, <m>V</m>, of a bag of rice as a function of its weight, <m>w</m>.</p></li>
     <li><p>How many cups of rice are in a <m>15</m>-pound bag?</p></li>
 </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
     <li><p><m>V=1.75w</m></p></li>
     <li><p><m>26.25</m> cups</p></li>
 </ol></p></solution></exercise>
@@ -462,7 +462,7 @@ Compareing this equation to the standard form for a linear function, <m>y = b + 
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>How can you find the value of the constant of variation?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Double the value of <m>x</m></p></li>
         <li><p>Find the <m>y</m>-intercept of the graph</p></li>
         <li><p>Substitute a pair of related values into <m>y=kx</m></p></li>
@@ -481,13 +481,13 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
 </assemblage>
 
 <example xml:id="example-sphere-surface-area"><statement><p>The surface area of a sphere varies directly with the <em>square</em> of its radius. A balloon of radius 5 centimeters has surface area <m>100\pi</m> square centimeters, or about 314 square centimeters. 
-<ol marker="a">
+<ol marker="a.">
     <li><p>Find a formula <m>S=f(r)</m> for the surface area of a sphere as a function of its radius <m>~\alert{\text{[TK]}}</m>.</p></li>
     <li><p>What is the radius of a sphere whose surface area is <m>200\pi</m> square centimeters,or about 628 square centimeters?</p></li>
     <li><p>Sketch a graph of the function.</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>If <m>S</m> stands for the surface area of a sphere of radius <m>r</m>, then
         <me>S = f(r) = kr^2</me>
     To find the constant of variation, <m>k</m>, we substitute the values of <m>S</m> and <m>r</m>.
@@ -535,12 +535,12 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>The volume of a sphere varies directly with the <em>cube</em> of its radius. A balloon of radius 5 centimeters has volume <m>\dfrac{500\pi}{3}</m> cubic centimeters, or about 524 cubic centimeters. 
-<ol marker="a">
+<ol marker="a.">
     <li><p>Find a formula for the volume, <m>V</m>, of a sphere as a function of its radius, <m>r</m>.</p></li>
     <li><p>What is the radius of a balloon whose volume is <m>\dfrac{1000\pi}{3}</m> cubic centimeters, or about 1028 cubic centimeters?</p></li>
     <li><p>Sketch a graph of the function.</p></li>
 </ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><m>V=\dfrac{4}{3}\pi r^3</m></li>
     <li><p>We solve the variation equation for <m>r</m> when <m>V=dfrac{1000\pi}{3}</m>.
         <md><mrow>\alert{dfrac{1000\pi}{3}} \amp = \dfrac{4}{3}\pi r^3</mrow>
@@ -567,14 +567,14 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
         );
     </pg-code>
 <statement><p>True or False.
-<ol marker="a">
+<ol marker="a.">
     <li><p>Every increasing function is a direct variation. <var name="$False" form="popup"/></p></li>
     <li><p>Every direct variation is an increasing function. <var name="$True" form="popup"/></p></li>
     <li><p>The graph of every direct variation is a straight line. <var name="$False" form="popup"/></p></li>
     <li><p>The graph of every direct variation passes through the origin. <var name="$True" form="popup"/></p></li>
             </ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li>False</li>
             <li>True</li>
             <li>False</li>
@@ -584,7 +584,7 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
 
 <exercise component="main"><title>QuickCheck 5</title>
 <statement><p>Decide whether each statement is true or false.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Every increasing function is a direct variation.</p></li>
     <li><p>Every direct variation is an increasing function.</p></li>
     <li><p>The graph of every direct variation is a straight line.</p></li>

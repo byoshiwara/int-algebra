@@ -7,7 +7,7 @@
 
 <investigation><title>Sales on Commission</title>
 
-<p>Delbert is offered a part-time job selling restaurant equipment. He will be paid $1000 per month plus a 6% commission on his sales. The sales manager tells Delbert he can expect to sell about $8000 worth of equipment per month. To help him decide whether to accept the job, Delbert does a few calculations. <ol marker="1">
+<p>Delbert is offered a part-time job selling restaurant equipment. He will be paid $1000 per month plus a 6% commission on his sales. The sales manager tells Delbert he can expect to sell about $8000 worth of equipment per month. To help him decide whether to accept the job, Delbert does a few calculations. <ol marker="1.">
 
 <li><p>Based on the sales manager's estimate, what monthly income can Delbert expect from this job?  What annual salary would that provide?</p></li>
 
@@ -92,7 +92,7 @@
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>What is the first step in creating a mathematical model?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Solve the equation.</li>
         <li>Analyze data, identify trends, and predict the effects of change.</li>
         <li>Describe the relationships between the variables involved.</li>
@@ -105,7 +105,7 @@
         <li><p>an algebraic equation</p></li></ul></p>
 
 <p>Each of these mathematical tools is useful in a different way.
-    <ol marker="1">
+    <ol marker="1.">
         <li>A <term>table of values</term><idx><h>table of values</h></idx> lists specific data points with precise numerical values.</li>
         <li>A <term>graph</term><idx><h>graph</h></idx> is a visual display of the data. It is easier to spot trends and describe the overall behavior of the variables from a graph.</li>
         <li>An <term>algebraic equation</term><idx><h>algebraic equation</h></idx><idx><h>equation</h><h>algebraic</h></idx> is a compact summary of the model. It can be used to analyze the model and to make predictions.</li> </ol></p>
@@ -136,13 +136,13 @@
 
 <example xml:id="example-bicycle"><statement><p>In May 2005, the city of Lyons, France, started a bicycle rental program. Over 3,000 bicycles are available at 350 computerized stations around the city. Each of the 52,000 subscribers pays an annual 5 euro fee (about $7.20) and gets a PIN to access the bicycles. The bicycles rent for 1 euro per hour and can be returned to any station.</p>
 <p>Your community decides to set up a similar program, charging a $5 subscription fee and $3 an hour for rental. (A fraction of an hour is charged as the corresponding fraction of $3).</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Make a table of values showing the cost, <m>C</m>, of renting a bike for various lengths of time, <m>t</m>.</p></li>
         <li><p>Plot the points on a graph. Draw a curve through the data points. <m>\alert{\text{[TK]}}~~</m></p></li>
         <li><p>Write an equation for <m>C</m> in terms of <m>t</m>. </p></li>
     </ol></p></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>There is an initial fee of $5, and a rental fee of $3 per hour. To find the cost, we multiply the rental time by $3 per hour, and add the result to the $5 subscription fee. For example, the cost of a one-hour bike ride is
         <md><mrow>\text{Cost}\amp=(\$5\text{ subscription fee})+(\$3\text{ per hour})\times(\alert{\text{one hour}})</mrow>
             <mrow>C\amp=5+3(\alert{1})=8</mrow></md>
@@ -235,7 +235,7 @@
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>What sort of variables can be described by a linear model?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li>Increasing variables</li>
         <li>Variables that change at a constant rate</li>
         <li>Variables that describe time</li>
@@ -248,12 +248,12 @@
 
 <example xml:id="example-6hrbike"><statement>
     <p>Use the equation <m>~ C=5+3\cdot t ~</m> you found in <xref ref="example-bicycle" text="type-global"/> to answer the following questions. Then show how to find the answers by using the graph.</p><p>
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>How much will it cost to rent a bicycle for 6 hours?</p></li>
         <li><p>How long can you bicycle for $18.50?</p></li>
     </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We substitute <m>t=\alert{6}</m> into the equation to find 
         <me>C=5+3(\alert{6})=23</me>
     A 6-hour bike ride will cost $23.  The point <m>P</m> on the graph in the figure represents the cost of a 6-hour bike ride.  The value on the <m>C</m>-axis at the same height as point <m>P</m> is 23, so a 6-hour bike ride costs $23.</p></li>
@@ -327,14 +327,14 @@
 <p>In the examples above, the graph is <term>increasing</term><idx>increasing graph</idx><idx><h>graph</h><h>increasing</h></idx> as <m>t</m> increases. In the next Example we consider a <term>decreasing graph</term><idx><h>decreasing graph</h></idx><idx><h>decreasing graph</h><seealso>decreasing function</seealso></idx><idx><h>graph</h><h>decreasing</h></idx><idx><h>graph</h><h>decreasing</h><seealso>decreasing function</seealso></idx>.</p>
 
 <example xml:id="Leon-camper"><statement><p>Leon's camper has a 20-gallon gas tank, and he gets 12 miles to the gallon. (Note that getting 12 miles to the gallon is the same as using <m>\frac{1}{12}</m> gallon of gas per mile.)</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Write an equation for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles.</p></li>
         <li><p>Make a table of values for the equation.</p></li>
         <li><p>Graph the equation.</p></li>
         <li><p>If Leon has less than 5 gallons of gas left, how many miles has he driven since his last fill-up? Illustrate on the graph.</p></li>
     </ol></p></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We use the form for a linear model,
                 <me>y=(\text{starting value})+(\text{rate})\times t</me>
     However, in this problem, instead of variables <m>y</m> and <m>t</m>, we use <m>g</m> and <m>d</m>.  Leon's fuel tank started with 20 gallons, and the amount of gasoline is decreasing at a rate of <m>\frac{1}{12}</m> gallon for every mile that he drives. Thus,

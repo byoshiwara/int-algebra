@@ -23,7 +23,7 @@
 	<p>Each of these laws corresponds to a property of logarithms.</p>
 
 <assemblage xml:id="properties-of-logarithms"><title>Properties of Logarithms</title><idx><h>logarithm</h><h>properties</h></idx>
-<p>If <m>x,~y,</m> and <m>b\gt 0,</m> and <m>b\ne 1</m>, then <ol marker="1">
+<p>If <m>x,~y,</m> and <m>b\gt 0,</m> and <m>b\ne 1</m>, then <ol marker="1.">
 	<li><m>\log_b {(xy)} = \log_b {(x)} + \log_b {(y)}</m></li>
 	<li><m>\log_b {\left(\dfrac{x}{y}\right)} = \log_b {(x)} - \log_b {(y)}</m></li>
 	<li><m>\log_b {(x^k)} = k\log_b {(x)} </m></li></ol>
@@ -61,7 +61,7 @@
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Which of the statements below are true?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p><m>\log {(8+y)}=\log {(8)}+\log {(y)}</m></p></li>
     <li><p><m>\log {(8y)}=\log {(8)}+\log {(y)}</m></p></li>
     <li><p><m>\log {(8y)}=\log {(8)} \cdot \log {(y)}</m></p></li>
@@ -146,7 +146,7 @@ Thus, <m>3(\log_b {(x)} - \log_b  {(y)}) = \log_{b}{\left(\dfrac{x}{y}\right)^3}
         );
     </pg-code>
     <statement><p>True or False.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>The log of a product is equal to the sum of the logs of the factors. <var name="$True" form="popup"/></p>
         </li>
         <li><p>The log of a quotient is the equal to the difference of the logs. <var name="$True" form="popup"/></p></li>
@@ -154,7 +154,7 @@ Thus, <m>3(\log_b {(x)} - \log_b  {(y)}) = \log_{b}{\left(\dfrac{x}{y}\right)^3}
         </li>
         <li><p>The distributive law applies to the operation of taking a logarithm of a sum or difference.  <var name="$False" form="popup"/></p></li>
     </ol></p></statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
     <li>True</li>
     <li>True</li>
     <li>True</li>
@@ -163,7 +163,7 @@ Thus, <m>3(\log_b {(x)} - \log_b  {(y)}) = \log_{b}{\left(\dfrac{x}{y}\right)^3}
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Decide whether each statement is true or false.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p>The log of a product is equal to the sum of the logs of the factors.</p></li>
         <li><p>The log of a quotient is the equal to the difference of the logs.</p></li>
         <li><p>The log of a power is equal to the exponent times the log of the base.</p></li>
@@ -261,13 +261,13 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
               tolerance => .51,
             );
         </pg-code>
-    <statement><p>The volume of traffic on U.S. highways is growing by 2.7% per year. (Source: <em>Time</em>, Jan. 25, 1999)<ol marker="a">
+    <statement><p>The volume of traffic on U.S. highways is growing by 2.7% per year. (Source: <em>Time</em>, Jan. 25, 1999)<ol marker="a.">
         <li><p>Write a formula for the volume, <m>V</m>, of traffic as a function of time, using <m>V_0</m> for the current volume.  [Note: Enter "V0" to get <m>V_0</m>.]</p>
             <p><m>V=</m><var name="$f" width="12"/> </p></li>
         <li><p>How long will it take the volume of traffic to double? <em>Hint:</em> Find the value of <m>t</m> that gives <m>V = 2V_0</m>.</p>
             <p>Answer: about <var name="$t" width="2"/> years</p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
             <li><p><m>V(t) = V_0(1.027)^t</m></p></li>
             <li><p>about 26 years</p></li>
         </ol></p></solution>
@@ -275,12 +275,12 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>The volume of traffic on U.S. highways is growing by 2.7% per year. (Source: <em>Time</em>, Jan. 25, 1999)</p>
-<p><ol marker="a">
+<p><ol marker="a.">
         <li><p>Write a formula for the volume, <m>V</m>, of traffic as a function of time, using <m>V_0</m> for the current volume.</p></li>
         <li><p>How long will it take the volume of traffic to double?</p> 
             <p>Hint: Find the value of <m>t</m> that gives <m>V = 2V_0</m>.</p></li>
     </ol></p></statement>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
             <li><p><m>V(t) = V_0(1.027)^t</m></p></li>
             <li><p>about 26 years</p></li>
         </ol></p></answer></exercise>
@@ -320,7 +320,7 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
         );
     </pg-code>
 <statement><p>The first step for solving each equation below is <em>incorrect</em>. Replace it with the correct step.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p><md><mrow>6(5^{3t})\amp=20</mrow>
                  <mrow>\color{gray}{(\log 6)(\log 5^{3t})}\amp=\color{gray}{\log {20}}\amp\amp \blert{\text{(Wrong!)}}</mrow></md></p>
                     <p>Instead, the first step should be </p>
@@ -339,7 +339,7 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
                     <p>Instead, the first step should be </p>
                     <p><var name="$d" form="buttons"/></p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
         <li><m>5^{3t} = \dfrac{20}{6}</m></li>
         <li><m>t = \dfrac{\log {53}}{\log 8}</m></li>
         <li><m> 10^{-0.06t} = \dfrac{192}{12}</m></li>
@@ -348,7 +348,7 @@ We use a calculator to evaluate the answer, <m>t \approx 26.71</m>. The populati
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>The first step for solving each equation below is <em>incorrect</em>. Replace it with the correct step.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p><md><mrow>6(5^{3t})\amp=20</mrow>
                 <mrow>\color{gray}{(\log 6)(\log 5^{3t})}\amp=\color{gray}{\log {20}}\amp\amp \blert{\text{(Wrong!)}}</mrow></md></p></li>
         <li><p><md><mrow>t \log {(8)}\amp=\log{(53)}</mrow>

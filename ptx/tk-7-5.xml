@@ -8,23 +8,23 @@
 <p>The definitions of the variables help us interpret function notation.</p>
 
 <example><statement><p> The number of students at Salt Creek Elementary School is growing according to the formula <m>~f(t)=500(1.08)^t~</m>, where <m>t</m> is the number of years since the school opened in 2005.
-<ol marker="a">  
+<ol marker="a.">  
     <li>What does the equation <m>~f(6)=500(1.08)^6~</m> tell us about the school?</li>
     <li>Use function notation to say that the student population was 583 in 2007.</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li>In this equation, <m>t=6</m> and <m>f(6)=793</m>. In 2011 (six years after the school opened), the student population was 793.</li>
     <li>In 2007, <m>t=2</m>, so <m>f(2)=500(1.08)^2=583</m>.</li>
 </ol></p></solution></example>
 
 <example><statement><p> The value of Digicorp stock has been falling according to the formula <m>~V(w)=48(0.96)^w~</m>, where <m>w</m> is the number of weeks since its peak value of $48 per share.
-<ol marker="a">
+<ol marker="a.">
     <li>Use function notation to say that 8 weeks later the value of a share of Digicorp stock was $34.63.</li>
     <li>What does the equation <m>~V(12) = 48(0.96)^{12} = 29.41~</m> tell us about the stock?</li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li>We evaluate the function at <m>w=8</m> to get <m>~V(8) = 48(0.96)^8 = 34.63</m>.</li> 
     <li>In this equation, <m>w=12</m> and <m>V(12) = 29.41</m>, so 12 weeks after the peak value a share of Digicorp stock was worth $29.41.</li>
 </ol></p></solution></example>
@@ -76,7 +76,7 @@ The doubling time is 18.59 years.</p></solution></example>
 <introduction><p>From a graph, we can read the initial value of an exponential function and then its doubling time or half-life.  From there we can calculate the growth or decay law.</p></introduction>
 
 <example><statement><p>The graph shows the population, <m>P</m>, of a herd of llamas <m>t</m> years after 2000.
-<ol marker="a">
+<ol marker="a.">
     <li>How many llamas were there in 2000?</li>
     <li>What is the doubling time for the population?</li>
     <li>What is the annual growth rate for the population?</li>
@@ -101,7 +101,7 @@ The doubling time is 18.59 years.</p></solution></example>
                 \end{tikzpicture}]]>
                 </latex-image></image></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li> The initial value of the population is given by the <m>P</m>-intercept of the graph, <m>(0,15)</m>. There were 15 llamas in 2000.</li>
     <li>Look for the time when the initial llama population doubles. When <m>t=4,~P=30</m>, and when <m>t=8,~P=60</m>, so the llama population doubles every 4 years.</li>
     <li>The growth factor for the population is <m>2^{1/4} = 1.189</m>, so the annual growth rate is 18.9%.</li>
@@ -131,7 +131,7 @@ The doubling time is 18.59 years.</p></solution></example>
 <solution><p>The initial value is given by the vertical intercept of the graph, <m>(0,600)</m>, so <m>N_0 = 600</m>.</p>  
 <p>When <m>t=5,~N=300</m>, so the half-life of the substance is 5 hours. Thus the decay law is <m>N(t)=600(0.5)^{t/5}</m>, or <m>N(t)=600(0.87)^t</m>.</p></solution></example> 
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
     <li>Write a growth law for the population whose graph is shown, where <m>t</m> is in years.</li>
     <li>What is the annual growth rate for the population?</li>
 </ol></p>
@@ -155,12 +155,12 @@ The doubling time is 18.59 years.</p></solution></example>
                 \end{tikzpicture}]]>
                 </latex-image></image></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>P(t) = 10(2^{t/2.5})</m></li>
     <li>32.0%</li>
 </ol></p></answer></exercise> 
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
     <li>Write a decay law for the population whose graph is shown, where <m>t</m> is in days.</li>
     <li>What is the daily decay rate for the population?</li>
 </ol></p>
@@ -186,7 +186,7 @@ The doubling time is 18.59 years.</p></solution></example>
                 \filldraw[red] (6,3) circle (.12);
                 \end{tikzpicture}]]>
                 </latex-image></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><m>P(t) = 120(0.5^{t/3})</m></li>
     <li>20.6%</li>
 </ol></p></answer></exercise> 
