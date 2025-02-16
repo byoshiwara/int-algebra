@@ -1,18 +1,18 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "frontmatter-2",
+  "id": "front-colophon",
   "level": "1",
-  "url": "frontmatter-2.html",
+  "url": "front-colophon.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": " copyright  "
+  "body": ""
 },
 {
-  "id": "frontmatter-3",
+  "id": "preface",
   "level": "1",
-  "url": "frontmatter-3.html",
+  "url": "preface.html",
   "type": "Preface",
   "number": "",
   "title": "Preface",
@@ -1798,7 +1798,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Equations of Lines",
-  "body": "Equations of Lines   Three main factors influence the energy balance of the Earth and its temperature:  The total energy influx from the sun  The chemical composition of the atmosphere  The ability of the Earth's surface to reflect light, or albedo   Because polar ice reflects light from the sun, the radiation balance over an ice-covered ocean is very different from the balance over an open ocean. The ice component of the climate system, called the cryosphere , plays an important role in the Earth's radiation balance.  Climate models predict that global warming over the next few decades will occur mainly in the polar regions. As polar ice begins to melt, less sunlight is reflected into space, which raises the overall temperature and fuels further melting. This process is called ice albedo feedback . Since satellite monitoring began in 1979, Arctic sea ice cover has decreased about 10% per decade, falling to a startling new low in 2007.  annual sea ice minimum  Numerous factors influence the freezing point of sea water, including its salinity, or mineral content. In this Lesson we'll develop a formula for the freezing temperature of water in terms of its salinity.   Slope-Intercept Form slope-intercept form linear equation slope-intercept form slope-intercept formula slope-intercept form  In earlier sections we learned that:   The -intercept y -intercept of a line gives the initial value initial value starting value initial value of .  The slope of the line gives the rate of change of with respect to .   Comparing these observations with the form for a linear model, we see that Usually we write the terms in the opposite order, like this: . We call this last equation the slope-intercept form for a line.  Slope-Intercept Form slope-intercept form linear equation slope-intercept form  We can write the equation of a line in the form where is the slope of the line, and is the -intercept y -intercept .  QuickCheck 1 Choose the correct statement about the equation   The slope is and the -intercept is .  The slope is and the -intercept is .  The slope is and the -intercept is .  The slope is and the -intercept is .    Recall Practice 4 from Section 1.4: The graph shows the amount of garbage , in tons, that has been deposited at a dumpsite years after new regulations go into effect.  State the vertical intercept and the slope of the graph.  Find an equation for the graph shown.  State the meaning of the slope and the vertical intercept for this model.   linear graph of garbage deposited    The vertical intercept of the graph is . Two points on the line are and , so the slope is  , so the equation is  The slope tells us that garbage is accumulating at a rate of 12.5 tons per year. The vertical intercept tells us that when the new regulations went into effect, the dump held 25 tons of garbage.   For more help with slope-intercept form, see Section 1.5.1 of the Toolkit.  Practice 1 Delbert decides to use DSL for his Internet service. Earthlink charges a $99 activation fee and $39.95 per month, DigitalRain charges $50 for activation and $34.95 per month, and FreeAmerica charges $149 for activation and $34.95 per month.  dsl costs   Write a formula for Delbert's Internet costs under each plan.  Match Delbert's Internet cost under each company with its graph in the figure.   Earthlink: ;  DigitalRain: ;  FreeAmerica:  DigitalRain: I; Earthlink: II; FreeAmerica: III    Coordinate Formula for Slope coordinate formula for slope  Using the formula , it is fairly easy to calculate the slope of a line from its graph if there are two obvious points to use. However, if the coordinates are not easy, or if we don't have a graph, we may need another method.  You know that to calculate the net change net change between two points on a number line, we can subtract their coordinates. That is,  For example, if you walk from street to street, your distance, , from the center of town has increased by 5 blocks, or If the temperature drops from to , it has decreased by , or   The net change is positive if the variable increases, and negative if it decreases. For the graph shown at right, the net change in -coordinate from to is  horizontal change -23 to 51  We can use the notion of net change to write a coordinate formula for computing slope. We will need subscripts to designate the coordinates of two different points. We'll write for the coordinates of the first point, and for the coordinates of the second point.  Do not confuse subscripts with exponents! An exponent changes the value of a variable, so that for instance if then , but a subscript merely tells us which point the variable comes from, so that just means \"the -coordinate of the second point.\"  Coordinate Formula for Slope coordinate formula for slope slope coordinate formula for  If and are two points on a line, then the slope of the line is given by as long as   Notice that the numerator of the slope formula, , gives the net change in , or , and the denominator, , gives the net change in , or . The coordinate formula is equivalent to our definition of slope, .  QuickCheck 2 In the coordinate formula for slope, why do we require that ?   The slope cannot be zero.  The two points cannot be the same.  The denominator of a fraction cannot be zero.  The denominator must equal 1.   The graph shows wine consumption, , in the US, in millions of cases, starting in 1990. In 1993, Americans drank 188.6 million cases of wine. In 2003, Americans drank 258.3 million cases of wine.  Find the slope of the graph from 1993 to 2003.  State the slope as a rate of change. What does the slope tell us about wine consumption?  line with positive slope   If in 1990, then in 1993, , and in 2003, . Thus, the points and lie on the line. We want to compute the slope, between these two points. Think of moving from to in two steps, first moving horizontally to the right from to the point , and then vertically from to . The coordinates of are . (Do you see why?) Then and thus  The slope gives us a rate of change, and the units of the variables help us interpret the slope in context. Over the ten years between 1993 and 2003, wine consumption in the US increased at a rate of 6.97 million cases per year.   For more help calculating slope, see Section 1.5.2 of the Toolkit.  Practice 2 In 1991, there were 64.6 burglaries per 1000 households in the United States. The number of burglaries reported annually declined at a roughly constant rate over the next decade, and in 2001 there were 28.7 burglaries per 1000 households. (Source: U.S. Department of Justice)   Give the coordinates of two points on the graph of , where in 1990, and stands for the number of burglaries per 1000 households.  Find the slope of the line, including units.    and  The number of burglaries per 1000 households declined at a rate of 3.59 burglaries per year.    Point-Slope Formula point-slope formula linear equation point-slope formula  Now we'll consider using the slope formula for a different problem. If we know the slope of a line and the coordinates of one point on the line, we can use the coordinate formula for slope to find the -coordinate of any other point on the line.  Instead of evaluating the formula to find , we substitute the values we know for and for . If we then plug in the -coordinate of any unknown point, we can solve for .  QuickCheck 3 A line has slope and passes through the point . Which equation can you use to find the -coordinate of the point on the line with -coordinate 6?        Remember that the equation for a line is really just a formula that gives the -coordinate of any point on the line in terms of its -coordinate. So, if we know the slope of a particular line and one point on the line, we can use the coordinate formula for slope to find its equation.   Graph the line that passes through the point and has .  Find an equation for the line in part (a).      We first plot the given point, , and then use the slope to find another point on the line. The slope is , so starting from we move down 3 units and then 4 units to the right. This brings us to the point . We draw the line through these two points.  point slope  To find an equation for the line, we start with the slope formula, We substitute for the slope, , and for . For the second point, , we substitute the variable point to obtain  This is an equation for the line, but if we want to solve for , we first multiply both sides by . In slope-intercept form, the equation of the line is .    For more help graphing with the point-slope form, see Section 1.5.4 of the Toolkit.  When we use the slope formula to find the equation of a line, we substitute a variable point for the second point. This version of the formula, is called the point-slope form point-slope form point-slope form point-slope formula for a linear equation. It is sometimes stated in another version by clearing the fraction to get  Point-Slope Form point-slope formula linear equation point-slope formula  The equation of the line that passes through the point and has slope is You may also see the formula written in an alternate version:   For more help using the point-slope form, see Section 1.5.3 of the Toolkit.  Practice 3 Use the point-slope form to find the equation of the line that passes throughthe point and has slope .   Finding a Linear Model linear model linear model linear equation  Now we are ready to find the equation promised in the introduction to this section: a formula for the freezing temperature of water in terms of its salinity.  When we have two data points for a linear model, we can find its equation using two steps:  first we compute the slope of the line,  then we use the point-slope formula.   Sea water does not freeze at exactly 32 F because of its salinity. The temperature at which water freezes depends on its dissolved mineral content. A common unit for measuring salinity is parts per thousand, or ppt. For example, salinity of 8 ppt means 8 grams of dissolved salts in each kilogram of water. Here are some data for the freezing temperature of water.    Salinity (ppt),      Freezing temperature ( F),       Do these data points describe a linear model? Why or why not?  Find a linear equation for freezing temperature, , in terms of salinity, .  Step 1: Find the slope.  Step 2: Use the point-slope formula.  What is the salinity of water that freezes at 32 F?  Sea water has an average salinity of 35 ppt. What is the freezing point of sea water?    We check to see if the slope between each pair of points is the same. Because the slopes are the same, the data could describe a linear model.  Step 1: In part (a) we found the slope:  Step 2: We substitute the slope and either point into the point-slope formula.  If in our equation, then must be zero, so pure water (no salinity) freezes at 32 F.  We substitute 35 for in our equation. Sea water freezes at 30.04 F.   Practice 4 The fee for registering a new car is given by a linear equation that depends on the car's value. The fee for a $15,000 car is $128.50, and the fee for a $25,000 car is $193.50.   Find a linear equation that gives the registration fee for a new car that cost dollars.  Use your equation to estimate the registration fee for a car that costs $22,000.  What is the slope of your line? What does the slope mean for registration fees?    $174  : The registration fee increases by 0.65% of the value of the car.    Summary  In this section, we studied three different formulas associated with linear equations: the slope-intercept formula, the coordinate formula for slope, and the point-slope formula. How are these formulas related, and how are they different?   The slope-intercept form , , is just a special case of the point-slope formula . If the given point happens to be the -intercept y -intercept  , then the point-slope formula reduces to the familiar form: We can use the (shorter) slope-intercept form if we are lucky enough to know the -intercept of the line.  What is the difference between the slope formula  and the point-slope formula  They are really the same formula, but they are used for different purposes:  The slope formula is used to calculate the slope when we know two points. We know and , and we are looking for .  The point-slope formula is used to find the equation of a line. We know and , and we are looking for .      Problem Set 1.5  Warm Up  For Problems 1 and 2, complete the table of values and graph the line, then answer the questions below.                                  line    8  decreases by 2 units  The constant term is the -intercept and the coefficient of is the slope.                     What is the initial value for each line; that is, what is the -value when ?   Line 1:  Line 2:  Look at the table for each line. How much does increase or decrease for each 1-unit increase in ? What is this value called?   Line 1:  Line 2:  Compare your answers to parts (a) and (b) with the equation for each line. What do you observe?    For Problems 3 and 4, calculate the net change in coordinate from to .   vertical line segment  horizontal line segment     vertical line segment  horizontal line segment     Skills Practice  For Problems 5 8,  Write the equation in slope-intercept form.  State the slope and the -intercept of its graph.           For Problems 9 and 10,  Sketch the graph of the line with the given slope and -intercept.  Write an equation for the line.  Find the -intercept of the line.  and  line    and   In Problems 11 and 12, choose the correct graph for each equation. The scales on both axes are the same.         four lines >  II  III  I  IV     ,  ,  ,  ,   four lines    For Problems 13 and 14,  Graph the line that passes through the given point and has the given slope.  Write an equation for the line in point-slope form.  Put your equation from part (b) into slope-intercept form.  ;  line through (2,-5) with slope -3    ;   For Problems 15 and 16, find an equation for the line that goes through the given points. Put your equation into slope-intercept form.  ,  ,   In Problems 17 and 18, choose the correct graph for each equation. The scales on both axes are the same.         four lines  III  IV  II  I          four lines     Applications  In Problems 19 and 20,  Find a formula for the function whose graph is shown.  Say what the slope and the vertical intercept tell us about the problem.   The graph shows the amount of money, (in dollars), in Tammy’s bank account weeks after she loses all sources of income.  dollars vs time    The slope tells us that Tammy's bank account is diminishing at a rate of $400 per week, the vertical intercept that she had $7000 (when she lost all sources of income).   The graph shows the distance, (in meters), traveled by a train seconds after it passes an observer.  distance vs time    The boiling point of water changes with altitude and is approximated by the formula where is in degrees and is in feet. State the slope and vertical intercept of the graph, including units, and explain their meaning in this context. degree\/foot, so the boiling point drops with altitude at a rate of 0.0018 degree per foot. , so the boiling point is at sea level (where the elevation ).   The height of a woman in centimeters is related to the length of her femur (in centimeters) by the formula State the slope and the vertical intercept of the graph, including units, and explain their meaning in this context.  In Problems 23 26, we find a linear model from two data points.  Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?)  Find a linear equation relating the variables.  State the slope of the line, including units, and explain its meaning in the context of the problem.  Flying lessons cost $645 for an 8-hour course and $1425 for a 20-hour course. Both prices include a fixed insurance fee. Write an equation for the cost, , of flying lessons in terms of the length, , of the course in hours.             , the lesson rate is 65 dollars per hour   In the desert, the sun rose at 6 am. At 9 am the temperature was and at 3 pm the temperature was Write an equation for the temperature at hours after sunrise.  A radio station in Detroit, Michigan, reports the high and low temperatures in the Detroit\/Windsor area as F and F, respectively. A station in Windsor, Ontario, reports the same temperatures as C and C. Express the Fahrenheit temperature, , in terms of the Celsius temperature, .             , so an increase of C is equivalent to an increase of F.   The gas tank in Cicely's car holds gallons. When the tank was half full her odometer read miles, and when she filled her tank with gallons of gasoline the odometer read . Express her odometer reading, in terms of the amount of gas, she used.   If the temperature on the ground is Fahrenheit, the formula gives the temperature at an altitude of feet.  What is the temperature at an altitude of 4100 feet?  At what altitude is the temperature Fahrenheit?  Choose appropriate WINDOW settings and graph the equation .  Find the slope and explain its meaning for this problem.  Find the intercepts and explain their meanings for this problem.  F  9840 ft  temperature vs altitude    . The temperature decreases 3 degrees for each increase in altitude of 820 feet.  . At an altitude of feet, the temperature is F. . At an altitude of 0 feet, the temperature is F.   European shoe sizes are scaled differently than American shoe sizes. The table shows the European equivalents for various American shoe sizes.     American shoe size  5.5  6.5  7.5  8.5   Europoean shoe size  37  38  39  40    Use the grid below to plot the data and draw a line through the data points.  grid  Calculate the slope of your line. Estimate the -intercept from the graph.  Find an equation that gives the European shoe size, , in terms of the American shoe size, .  The table shows the amount of ammonium chloride salt, in grams, that can be dissolved in 100 grams of water at different temperatures.     Temperature ( )  10  12  15  21  25  40  52   Salt (grams)  33  34  35.5  38.5  40.5  48  54    Use the grid below to plot the data and draw a straight line through the points. Estimate the -intercept of your graph.  grid  Calculate the slope of the line.  Use the point-slope formula to find an equation for the line.  At what temperature will 46 grams of salt dissolve?   salt dissolved     A spring is suspended from the ceiling. The table shows the length of the spring in centimeters as it is stretched by hanging various weights from it.    Weight, kg          Length, cm          Plot the data on graph paper and draw a straight line through the points. Estimate the -intercept of your graph.  grid  Find an equation for the line.  If the spring is stretched to cm, how heavy is the attached weight?     "
+  "body": "Equations of Lines   Three main factors influence the energy balance of the Earth and its temperature:  The total energy influx from the sun  The chemical composition of the atmosphere  The ability of the Earth's surface to reflect light, or albedo   Because polar ice reflects light from the sun, the radiation balance over an ice-covered ocean is very different from the balance over an open ocean. The ice component of the climate system, called the cryosphere , plays an important role in the Earth's radiation balance.  Climate models predict that global warming over the next few decades will occur mainly in the polar regions. As polar ice begins to melt, less sunlight is reflected into space, which raises the overall temperature and fuels further melting. This process is called ice albedo feedback . Since satellite monitoring began in 1979, Arctic sea ice cover has decreased about 10% per decade, falling to a startling new low in 2007.  annual sea ice minimum  Numerous factors influence the freezing point of sea water, including its salinity, or mineral content. In this Lesson we'll develop a formula for the freezing temperature of water in terms of its salinity.   Slope-Intercept Form slope-intercept form linear equation slope-intercept form slope-intercept formula slope-intercept form  In earlier sections we learned that:   The -intercept y -intercept of a line gives the initial value initial value starting value initial value of .  The slope of the line gives the rate of change of with respect to .   Comparing these observations with the form for a linear model, we see that Usually we write the terms in the opposite order, like this: . We call this last equation the slope-intercept form for a line.  Slope-Intercept Form slope-intercept form linear equation slope-intercept form  We can write the equation of a line in the form where is the slope of the line, and is the -intercept y -intercept .  QuickCheck 1 Choose the correct statement about the equation   The slope is and the -intercept is .  The slope is and the -intercept is .  The slope is and the -intercept is .  The slope is and the -intercept is .    Recall Practice 4 from Section 1.4: The graph shows the amount of garbage , in tons, that has been deposited at a dumpsite years after new regulations go into effect.  State the vertical intercept and the slope of the graph.  Find an equation for the graph shown.  State the meaning of the slope and the vertical intercept for this model.   linear graph of garbage deposited    The vertical intercept of the graph is . Two points on the line are and , so the slope is  , so the equation is  The slope tells us that garbage is accumulating at a rate of 12.5 tons per year. The vertical intercept tells us that when the new regulations went into effect, the dump held 25 tons of garbage.   For more help with slope-intercept form, see Section 1.5.1 of the Toolkit.  Practice 1 Delbert decides to use DSL for his Internet service. Earthlink charges a $99 activation fee and $39.95 per month, DigitalRain charges $50 for activation and $34.95 per month, and FreeAmerica charges $149 for activation and $34.95 per month.  dsl costs   Write a formula for Delbert's Internet costs under each plan.  Match Delbert's Internet cost under each company with its graph in the figure.   Earthlink: ;  DigitalRain: ;  FreeAmerica:  DigitalRain: I; Earthlink: II; FreeAmerica: III    Coordinate Formula for Slope coordinate formula for slope  Using the formula , it is fairly easy to calculate the slope of a line from its graph if there are two obvious points to use. However, if the coordinates are not easy, or if we don't have a graph, we may need another method.  You know that to calculate the net change net change between two points on a number line, we can subtract their coordinates. That is,  For example, if you walk from street to street, your distance, , from the center of town has increased by 5 blocks, or If the temperature drops from to , it has decreased by , or   The net change is positive if the variable increases, and negative if it decreases. For the graph shown at right, the net change in -coordinate from to is  horizontal change -23 to 51  We can use the notion of net change to write a coordinate formula for computing slope. We will need subscripts to designate the coordinates of two different points. We'll write for the coordinates of the first point, and for the coordinates of the second point.  Do not confuse subscripts with exponents! An exponent changes the value of a variable, so that for instance if then , but a subscript merely tells us which point the variable comes from, so that just means \"the -coordinate of the second point.\"  Coordinate Formula for Slope coordinate formula for slope slope coordinate formula for  If and are two points on a line, then the slope of the line is given by as long as   Notice that the numerator of the slope formula, , gives the net change in , or , and the denominator, , gives the net change in , or . The coordinate formula is equivalent to our definition of slope, .  QuickCheck 2 In the coordinate formula for slope, why do we require that ?   The slope cannot be zero.  The two points cannot be the same.  The denominator of a fraction cannot be zero.  The denominator must equal 1.   The graph shows wine consumption, , in the US, in millions of cases, starting in 1990. In 1993, Americans drank 188.6 million cases of wine. In 2003, Americans drank 258.3 million cases of wine.  Find the slope of the graph from 1993 to 2003.  State the slope as a rate of change. What does the slope tell us about wine consumption?  line with positive slope   If in 1990, then in 1993, , and in 2003, . Thus, the points and lie on the line. We want to compute the slope, between these two points. Think of moving from to in two steps, first moving horizontally to the right from to the point , and then vertically from to . The coordinates of are . (Do you see why?) Then and thus  The slope gives us a rate of change, and the units of the variables help us interpret the slope in context. Over the ten years between 1993 and 2003, wine consumption in the US increased at a rate of 6.97 million cases per year.   For more help calculating slope, see Section 1.5.2 of the Toolkit.  Practice 2 In 1991, there were 64.6 burglaries per 1000 households in the United States. The number of burglaries reported annually declined at a roughly constant rate over the next decade, and in 2001 there were 28.7 burglaries per 1000 households. (Source: U.S. Department of Justice)   Give the coordinates of two points on the graph of , where in 1990, and stands for the number of burglaries per 1000 households.  Find the slope of the line, including units.    and  The number of burglaries per 1000 households declined at a rate of 3.59 burglaries per year.    Point-Slope Formula point-slope formula linear equation point-slope formula  Now we'll consider using the slope formula for a different problem. If we know the slope of a line and the coordinates of one point on the line, we can use the coordinate formula for slope to find the -coordinate of any other point on the line.  Instead of evaluating the formula to find , we substitute the values we know for and for . If we then plug in the -coordinate of any unknown point, we can solve for .  QuickCheck 3 A line has slope and passes through the point . Which equation can you use to find the -coordinate of the point on the line with -coordinate 6?        Remember that the equation for a line is really just a formula that gives the -coordinate of any point on the line in terms of its -coordinate. So, if we know the slope of a particular line and one point on the line, we can use the coordinate formula for slope to find its equation.   Graph the line that passes through the point and has .  Find an equation for the line in part (a).      We first plot the given point, , and then use the slope to find another point on the line. The slope is , so starting from we move down 3 units and then 4 units to the right. This brings us to the point . We draw the line through these two points.  point slope  To find an equation for the line, we start with the slope formula, We substitute for the slope, , and for . For the second point, , we substitute the variable point to obtain  This is an equation for the line, but if we want to solve for , we first multiply both sides by . In slope-intercept form, the equation of the line is .    For more help graphing with the point-slope form, see Section 1.5.4 of the Toolkit.  When we use the slope formula to find the equation of a line, we substitute a variable point for the second point. This version of the formula, is called the point-slope form point-slope form point-slope form point-slope formula for a linear equation. It is sometimes stated in another version by clearing the fraction to get  Point-Slope Form point-slope formula linear equation point-slope formula  The equation of the line that passes through the point and has slope is You may also see the formula written in an alternate version:   For more help using the point-slope form, see Section 1.5.3 of the Toolkit.  Practice 3 Use the point-slope form to find the equation of the line that passes throughthe point and has slope .   Finding a Linear Model linear model linear model linear equation  Now we are ready to find the equation promised in the introduction to this section: a formula for the freezing temperature of water in terms of its salinity.  When we have two data points for a linear model, we can find its equation using two steps:  first we compute the slope of the line,  then we use the point-slope formula.   Sea water does not freeze at exactly 32 F because of its salinity. The temperature at which water freezes depends on its dissolved mineral content. A common unit for measuring salinity is parts per thousand, or ppt. For example, salinity of 8 ppt means 8 grams of dissolved salts in each kilogram of water. Here are some data for the freezing temperature of water.    Salinity (ppt),      Freezing temperature ( F),       Do these data points describe a linear model? Why or why not?  Find a linear equation for freezing temperature, , in terms of salinity, .  Step 1: Find the slope.  Step 2: Use the point-slope formula.  What is the salinity of water that freezes at 32 F?  Sea water has an average salinity of 35 ppt. What is the freezing point of sea water?    We check to see if the slope between each pair of points is the same. Because the slopes are the same, the data could describe a linear model.  Step 1: In part (a) we found the slope:  Step 2: We substitute the slope and either point into the point-slope formula.  If in our equation, then must be zero, so pure water (no salinity) freezes at 32 F.  We substitute 35 for in our equation. Sea water freezes at 30.04 F.   Practice 4 The fee for registering a new car is given by a linear equation that depends on the car's value. The fee for a $15,000 car is $128.50, and the fee for a $25,000 car is $193.50.   Find a linear equation that gives the registration fee for a new car that cost dollars.  Use your equation to estimate the registration fee for a car that costs $22,000.  What is the slope of your line? What does the slope mean for registration fees?    $174  : The registration fee increases by 0.65% of the value of the car.    Summary  In this section, we studied three different formulas associated with linear equations: the slope-intercept formula, the coordinate formula for slope, and the point-slope formula. How are these formulas related, and how are they different?   The slope-intercept form , , is just a special case of the point-slope formula . If the given point happens to be the -intercept y -intercept  , then the point-slope formula reduces to the familiar form: We can use the (shorter) slope-intercept form if we are lucky enough to know the -intercept of the line.  What is the difference between the slope formula  and the point-slope formula  They are really the same formula, but they are used for different purposes:  The slope formula is used to calculate the slope when we know two points. We know and , and we are looking for .  The point-slope formula is used to find the equation of a line. We know and , and we are looking for .      Problem Set 1.5  Warm Up  For Problems 1 and 2, complete the table of values and graph the line, then answer the questions below.                                  line    8  decreases by 2 units  The constant term is the -intercept and the coefficient of is the slope.                     What is the initial value for each line; that is, what is the -value when ?   Line 1:  Line 2:  Look at the table for each line. How much does increase or decrease for each 1-unit increase in ? What is this value called?   Line 1:  Line 2:  Compare your answers to parts (a) and (b) with the equation for each line. What do you observe?    For Problems 3 and 4, calculate the net change in coordinate from to .   vertical line segment  horizontal line segment     vertical line segment  horizontal line segment     Skills Practice  For Problems 5 8,  Write the equation in slope-intercept form.  State the slope and the -intercept of its graph.           For Problems 9 and 10,  Sketch the graph of the line with the given slope and -intercept.  Write an equation for the line.  Find the -intercept of the line.  and  line    and   In Problems 11 and 12, choose the correct graph for each equation. The scales on both axes are the same.         four lines  II  III  I  IV     ,  ,  ,  ,   four lines    For Problems 13 and 14,  Graph the line that passes through the given point and has the given slope.  Write an equation for the line in point-slope form.  Put your equation from part (b) into slope-intercept form.  ;  line through (2,-5) with slope -3    ;   For Problems 15 and 16, find an equation for the line that goes through the given points. Put your equation into slope-intercept form.  ,  ,   In Problems 17 and 18, choose the correct graph for each equation. The scales on both axes are the same.         four lines  III  IV  II  I          four lines     Applications  In Problems 19 and 20,  Find a formula for the function whose graph is shown.  Say what the slope and the vertical intercept tell us about the problem.   The graph shows the amount of money, (in dollars), in Tammy’s bank account weeks after she loses all sources of income.  dollars vs time    The slope tells us that Tammy's bank account is diminishing at a rate of $400 per week, the vertical intercept that she had $7000 (when she lost all sources of income).   The graph shows the distance, (in meters), traveled by a train seconds after it passes an observer.  distance vs time    The boiling point of water changes with altitude and is approximated by the formula where is in degrees and is in feet. State the slope and vertical intercept of the graph, including units, and explain their meaning in this context. degree\/foot, so the boiling point drops with altitude at a rate of 0.0018 degree per foot. , so the boiling point is at sea level (where the elevation ).   The height of a woman in centimeters is related to the length of her femur (in centimeters) by the formula State the slope and the vertical intercept of the graph, including units, and explain their meaning in this context.  In Problems 23 26, we find a linear model from two data points.  Make a table showing the coordinates of two data points for the model. (Which variable should be plotted on the horizontal axis?)  Find a linear equation relating the variables.  State the slope of the line, including units, and explain its meaning in the context of the problem.  Flying lessons cost $645 for an 8-hour course and $1425 for a 20-hour course. Both prices include a fixed insurance fee. Write an equation for the cost, , of flying lessons in terms of the length, , of the course in hours.             , the lesson rate is 65 dollars per hour   In the desert, the sun rose at 6 am. At 9 am the temperature was and at 3 pm the temperature was Write an equation for the temperature at hours after sunrise.  A radio station in Detroit, Michigan, reports the high and low temperatures in the Detroit\/Windsor area as F and F, respectively. A station in Windsor, Ontario, reports the same temperatures as C and C. Express the Fahrenheit temperature, , in terms of the Celsius temperature, .             , so an increase of C is equivalent to an increase of F.   The gas tank in Cicely's car holds gallons. When the tank was half full her odometer read miles, and when she filled her tank with gallons of gasoline the odometer read . Express her odometer reading, in terms of the amount of gas, she used.   If the temperature on the ground is Fahrenheit, the formula gives the temperature at an altitude of feet.  What is the temperature at an altitude of 4100 feet?  At what altitude is the temperature Fahrenheit?  Choose appropriate WINDOW settings and graph the equation .  Find the slope and explain its meaning for this problem.  Find the intercepts and explain their meanings for this problem.  F  9840 ft  temperature vs altitude    . The temperature decreases 3 degrees for each increase in altitude of 820 feet.  . At an altitude of feet, the temperature is F. . At an altitude of 0 feet, the temperature is F.   European shoe sizes are scaled differently than American shoe sizes. The table shows the European equivalents for various American shoe sizes.     American shoe size  5.5  6.5  7.5  8.5   Europoean shoe size  37  38  39  40    Use the grid below to plot the data and draw a line through the data points.  grid  Calculate the slope of your line. Estimate the -intercept from the graph.  Find an equation that gives the European shoe size, , in terms of the American shoe size, .  The table shows the amount of ammonium chloride salt, in grams, that can be dissolved in 100 grams of water at different temperatures.     Temperature ( )  10  12  15  21  25  40  52   Salt (grams)  33  34  35.5  38.5  40.5  48  54    Use the grid below to plot the data and draw a straight line through the points. Estimate the -intercept of your graph.  grid  Calculate the slope of the line.  Use the point-slope formula to find an equation for the line.  At what temperature will 46 grams of salt dissolve?   salt dissolved     A spring is suspended from the ceiling. The table shows the length of the spring in centimeters as it is stretched by hanging various weights from it.    Weight, kg          Length, cm          Plot the data on graph paper and draw a straight line through the points. Estimate the -intercept of your graph.  grid  Find an equation for the line.  If the spring is stretched to cm, how heavy is the attached weight?     "
 },
 {
   "id": "EquationsOfLines-2-1",
@@ -2104,7 +2104,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.5.6.11",
   "title": "",
-  "body": "       four lines >  II  III  I  IV  "
+  "body": "       four lines  II  III  I  IV  "
 },
 {
   "id": "section-1-5-exercises-3-4-3",
@@ -4795,7 +4795,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Extraction of Roots",
-  "body": "Extraction of Roots extraction of roots  Introduction  So far you have learned how to solve linear equations. In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called first-degree first-degree equation degree (of a polynomial) equation first-degree . Now we'll consider second-degree equations, or quadratic quadratic equation equation quadratic second-degree quadratic equation second-degree quadratic equations. A quadratic equation includes the square of the variable.  Here are some examples.  Some familiar geometric formulas are quadratic equations, such as the formula for the area of a circle, .  Quadratic Equation  A quadratic equation can be written in the standard form where and are constants, and is not zero.  QuickCheck 1 Which of the following equations are quadratic?         We would like to be able to solve quadratic equations, use them in applications, and graph quadratic equations in two variables. Let's begin by considering some simple examples.   Graphs of Quadratic Equations quadratic equation graph of   The simplest quadratic equation in two variables is Its graph is not a straight line, but a curve called a parabola parabola , shown in the figure. You can verify the table of values below for this parabola.                      standard parabola  Be careful when squaring negative numbers. To evaluate the square of a negative number on a calculator, we must enclose the number in parentheses to show that the negative sign is included in the expression to be squared. For example,  Graph the parabola  We make a table of values and plot the points. The graph is shown below.                      parabola   To review evaluating quadratic expressions, see Section 3.1.1 of the Toolkit.  Practice 1 Graph the parabola on the same grid in the Example above. parabola   Solving Quadratic Equations  How can we solve a quadratic equation? Consider the equation First, we can solve it graphically. Look again at the graph of from Example 1. quadratic equation solving by graphing  parabola and y=5  We would like to find the -values that make . The horizontal line intersects the graph at two points with -coordinate 5, and their -coordinates are the solutions of the equation. Thus, there are two solutions, namely and .  Algebraically, we solve the equation as follows.  First, we isolate the variable. We add 4 to both sides, yielding .  Because is squared in this equation, we perform the opposite operation, or take square roots, square root square root root square root in order to solve for .  The solutions are and , as we saw on the graph.  For more on square roots, see Section 3.1.2 of the Toolkit.  Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions, which may be equal. The solutions may also be complex numbers, complex number which we'll study in Chapter 4.  Solve the equation graphically and algebraically.  The figure shows the graph of   parabola and y=8  We would like to find the -values that make . The horizontal line intersects the graph at two points with -coordinates approximately and . These are the solutions of the equation.  Algebraically, we solve the equation as follows.  First, we isolate the variable. We add 7 to both sides, then multiply by 2, yielding .  Because is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for .  We use a calculator to find that is approximately 5.477, or about 5.5, as we saw on the graph.   Many square roots are irrational numbers , which means that their decimal form never ends. When we round off the decimal form we have an approximation to the square root, but not its exact value. It is important to make a distinction betweeen exact values and decimal approximations.  For the example above, the exact solutions are .  The values from the calculator, , are decimal approximations to the solutions, rounded to thousandths.  QuickCheck 2 Which solutions are exact values, and which are approximations?        Extracting Roots  We can now solve quadratic equations of the form , where the linear term is missing, by isolating on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called extraction of roots . extraction of roots quadratic equation  Extraction of Roots extraction of roots quadratic equation solving by extraction of roots  To solve a quadratic equation of the form   Isolate on one side of the equation.  Take the square root of each side.  Practice 2 Solve by extracting roots  In the next Example, we compare the steps for evaluating a quadratic expression and for solving a quadratic equation .  Tux the cat falls off a tree branch 20 feet above the ground. His height seconds later is given by .  How high is Tux above the ground 0.5 second later?  How long does Tux have to get in position to land on his feet before he reaches the ground?    We evaluate the formula for . We substitute for into the formula, and simplify. Tux is 16 feet above the ground after 0.5 second. You can also use your calculator to simplify the expression for by entering        ENTER   We would like to find the value of when Tux's height, , is zero. We substitute into the equation to obtain To solve this equation we use extraction of roots. We first isolate on one side of the equation. Next, we take the square root of both sides of the equation to find Only the positive solution makes sense here, so Tux has approximately 1.12 seconds to be in position for landing.   A graph of the Tux's height after seconds is shown below. The points corresponding to parts (a) and (b) are labeled.  graph    Geometric Formulas  The formulas for the volume and surface area of some everyday objects, such as cylinders and cones, involve quadratic expressions. We can use extraction of roots to solve problems involving these objects.  Formulas for Volume and Surface Area geometric formulas surface area of a sphere surface area of a cylinder surface area of a cone surface area of a pyramid  volume of a sphere volume of a cylinder volume of a cone volume of a pyramid  3D Objects   The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters. What is the radius of the can, to the nearest tenth of a centimeter?  The volume of a cylinder is given by the formula . We substitute for and for , then solve for . The radius of the can is approximately 4.2 centimeters.  For more examples using geometric formulas, see Section 3.1.3 of the Toolkit.  Practice 3 The glass pyramid at the Louvre in Paris has a square base, is 21.64 meters tall, and encloses a volume of 9049.68 cubic meters. Use the formula to find the length of the base. Round your answer to hundredths. 35.42 m   Solving Formulas  Sometimes it is useful to solve a formula for one variable in terms of the others. You might want to know what radius you need to build cones of various fixed volumes. In that case, it is more efficient to solve the volume formula for in terms of .  The formula gives the volume of a cone in terms of its height and radius. Solve the formula for in terms of and .  Because the variable we want is squared, we use extraction of roots. First, we multiply both sides by 3 to clear the fraction. Because the radius of a cone must be a positive number, we use only the positive square root: .  Practice 4 Find a formula for the radius of a circle in terms of its area, .  Hint: Start with the formula for the area of a circle:   Solve for in terms of .  QuickCheck 3 Match each quantity with the appropriate units.    Height of a cylinder  Volume of a cone  Surface area of a sphere  Area of a triangle    Square meters  Feet  Cubic centimeters  Kilograms    More Extraction of Roots extraction of roots  We can also use extraction of roots to solve quadratic equations of the form We start by isolating the squared expression, .  Solve the equation .  First, we isolate the perfect square, . This gives us two equations for , The solutions are and . You can check that both of these solutions satisfy the original equation.   Practice 5 Solve by extracting roots.   Give your answers as exact values.  Find approximations for the solutions to two decimal places.    or   QuickCheck 4 True or false.  The first step in extraction of roots is to take square roots.  The solutions of a quadratic equation are always of the form .  Your calculator gives exact decimal values for square roots of integers.  The coefficients of a quadratic equation are called parabolas.    An Application: Compound Interest  Many savings accounts offer interest compounded annually: compound interest compound interest principal at the end of each year the interest earned is added to the principal, and the interest for the next year is computed on this larger sum of money. After years, the amount of money in the account is given by the formula where is the original principal and is the interest rate, expressed as a decimal fraction.  Carmella invests $3000 in an account that pays an interest rate compounded annually.  Write an expression for the amount of money in Carmella's account after two years.  What interest rate would be necessary for Carmella's account to grow to $3500 in two years?    We use the formula with and . Carmella's account balance will be  We substitute for in the equation. This is a quadratic equation in the variable , which we can solve by extraction of roots. First, we isolate the perfect square. Because the interest rate must be a positive number, we discard the negative solution. Carmella needs an account with interest rate , or over 8%, in order to have an account balance of $3500 in two years.   The formula for compound interest also applies to calculating the effects of inflation. For instance, if there is a steady inflation rate of 4% per year, then in two years the price of an item that costs $100 now will be  Practice 6 The average cost of dinner and a movie two years ago was $36. This year the average cost is $38.16. What was the rate of inflation over the past two years? (Round to two decimal places.) 2.96%   Problem Set 3.1  Warm Up  Simplify.        Give a decimal approximation rounded to thousandths.     Use the definition of square toot to simplify the expression.        Solve. Remember that every positive number has two square roots.         Complete the table and graph .                      grid  Use the graph to solve the equation . Show your work on the graph. How many solutions did you find?  Solve the equation algebraically, by \"undoing\" each operation.   parabola  Two solutions.   Use the Pythagorean theorem to find the unknown side. To review the Pythagorean theorem, see Section 3.1.4 of the Toolkit.    right triangle, legs x and 6, hypotenuse 10   right triangle, legs 12 and 35, hypotenuse z    Skills Practice  For problems 7 14, Solve by extracting roots. Give exact values for your answers.           For problems 15 and 16, solve by extracting roots. Round your answers to two decimal places.     For problems 17 and 18,  Use technology to graph the quadratic equation in the suggested window.  Use your graph to find two solutions for the equation in part (b).  Check your solutions algebraically, using mental arithmetic.     b. 10, -2       For problems 19 22, solve the formula for the specified variable.  for  for  for  for    Applications  For problems 23 and 24,  Make a sketch of the situation described, and label a right triangle.  Use the Pythagorean theorem to solve each problem.  The size of a TV screen is the length of its diagonal. If the width of a 35-inch TV screen is 28 inches, what is its height? 21 in  A 30-meter pine tree casts a shadow of 30 meters, how far is the tip of the shadow from the top of the tree?   You plan to deposit your savings of $1600 in an account that compounds interest annually.  Write a formula for the amount, , in your savings account after two years in terms of the interest rate, .  Complete the table showing your account balance after two years for various interest rates.                To the nearest tenth of a percent, what interest rate will you require if you want your $1600 to grow to $2000 in two years?  Use your calculator to graph the formula for the account balance. Locate the point on the graph that corresponds to the amount in part (c).                 11.8%  Two years ago Carol's living expenses were $1200 per month. This year the same items cost Carol $1400 per month. What was the annual inflation rate for the past two years?   What size rectangle will fit inside a circle of radius 30 feet if the length of the rectangle must be three times its width?  rectangle inscribed in circle radius 30 19 ft by 57 ft  A storage box for sweaters is constructed from a square sheet of cardboard measuring inches on a side. The volume of the box, in cubic inches, is If the box should have a volume of 1960 cubic inches, what size cardboard square is needed?  A large bottle of shampoo is 20 centimeters tall and cylindrical in shape.  Write a formula for the volume of the bottle in terms of its radius.  Complete the table of values for the volume equation. If you cut the radius of the bottle in half, by what factor does the volume decrease?                        What radius should the bottle have if it must hold 240 milliliters of shampoo? (A milliliter is equal to one cubic centimeter.)  Use your calculator to graph the volume equation. (Use the table to help you choose a suitable window.) Locate the point on the graph that corresponds to the bottle in part (c). Make a sketch of your graph, and lable the scales on the axes.    1.96 cm   The area of a ring is given by the formula where is the radius of the outer circle, and is the radius of the inner circle.  graph  Suppose the inner radius of the ring is kept fixed at centimeters, but the radius of the outer circle, , is allowed to vary. Find the area of the ring when the outer radius is 6 centimeters, 8 centimeters, and 12 centimeters.  Graph the area equation, with , in the window Use the Trace to verify your answers to part (a).  Trace along the curve to the point . What do the coordinates of this point represent?  Use your graph to estimate the outer radius of the ring when its area is 100 square centimeters.  Write and solve an equation to answer part(d).  For Problems 31 and 32, solve for in terms of , , and .             "
+  "body": "Extraction of Roots extraction of roots  Introduction  So far you have learned how to solve linear equations. In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called first-degree first-degree equation degree (of a polynomial) equation first-degree . Now we'll consider second-degree equations, or quadratic quadratic equation equation quadratic second-degree quadratic equation second-degree quadratic equations. A quadratic equation includes the square of the variable.  Here are some examples.  Some familiar geometric formulas are quadratic equations, such as the formula for the area of a circle, .  Quadratic Equation  A quadratic equation can be written in the standard form where and are constants, and is not zero.  QuickCheck 1 Which of the following equations are quadratic?         We would like to be able to solve quadratic equations, use them in applications, and graph quadratic equations in two variables. Let's begin by considering some simple examples.   Graphs of Quadratic Equations quadratic equation graph of   The simplest quadratic equation in two variables is Its graph is not a straight line, but a curve called a parabola parabola , shown in the figure. You can verify the table of values below for this parabola.                      standard parabola  Be careful when squaring negative numbers. To evaluate the square of a negative number on a calculator, we must enclose the number in parentheses to show that the negative sign is included in the expression to be squared. For example,  Graph the parabola  We make a table of values and plot the points. The graph is shown below.                      parabola   To review evaluating quadratic expressions, see Section 3.1.1 of the Toolkit.  Practice 1 Graph the parabola on the same grid in the Example above. parabola   Solving Quadratic Equations  How can we solve a quadratic equation? Consider the equation First, we can solve it graphically. Look again at the graph of from Example 1. quadratic equation solving by graphing  parabola and y=5  We would like to find the -values that make . The horizontal line intersects the graph at two points with -coordinate 5, and their -coordinates are the solutions of the equation. Thus, there are two solutions, namely and .  Algebraically, we solve the equation as follows.  First, we isolate the variable. We add 4 to both sides, yielding .  Because is squared in this equation, we perform the opposite operation, or take square roots, square root square root root square root in order to solve for .  The solutions are and , as we saw on the graph.  For more on square roots, see Section 3.1.2 of the Toolkit.  Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions, which may be equal. The solutions may also be complex numbers, complex number which we'll study in Chapter 4.  Solve the equation graphically and algebraically.  The figure shows the graph of   parabola and y=8  We would like to find the -values that make . The horizontal line intersects the graph at two points with -coordinates approximately and . These are the solutions of the equation.  Algebraically, we solve the equation as follows.  First, we isolate the variable. We add 7 to both sides, then multiply by 2, yielding .  Because is squared in this equation, we perform the opposite operation, or take square roots, in order to solve for .  We use a calculator to find that is approximately 5.477, or about 5.5, as we saw on the graph.   Many square roots are irrational numbers , which means that their decimal form never ends. When we round off the decimal form we have an approximation to the square root, but not its exact value. It is important to make a distinction betweeen exact values and decimal approximations.  For the example above, the exact solutions are .  The values from the calculator, , are decimal approximations to the solutions, rounded to thousandths.  QuickCheck 2 Which solutions are exact values, and which are approximations?        Extracting Roots  We can now solve quadratic equations of the form , where the linear term is missing, by isolating on one side of the equation, and then taking the square root of each side. This method for solving quadratic equations is called extraction of roots . extraction of roots quadratic equation  Extraction of Roots extraction of roots quadratic equation solving by extraction of roots  To solve a quadratic equation of the form   Isolate on one side of the equation.  Take the square root of each side.  Practice 2 Solve by extracting roots  In the next Example, we compare the steps for evaluating a quadratic expression and for solving a quadratic equation .  Tux the cat falls off a tree branch 20 feet above the ground. His height seconds later is given by .  How high is Tux above the ground 0.5 second later?  How long does Tux have to get in position to land on his feet before he reaches the ground?    We evaluate the formula for . We substitute for into the formula, and simplify. Tux is 16 feet above the ground after 0.5 second. You can also use your calculator to simplify the expression for by entering        ENTER   We would like to find the value of when Tux's height, , is zero. We substitute into the equation to obtain To solve this equation we use extraction of roots. We first isolate on one side of the equation. Next, we take the square root of both sides of the equation to find Only the positive solution makes sense here, so Tux has approximately 1.12 seconds to be in position for landing.   A graph of the Tux's height after seconds is shown below. The points corresponding to parts (a) and (b) are labeled.  graph    Geometric Formulas  The formulas for the volume and surface area of some everyday objects, such as cylinders and cones, involve quadratic expressions. We can use extraction of roots to solve problems involving these objects.  Formulas for Volume and Surface Area geometric formulas surface area of a sphere surface area of a cylinder surface area of a cone surface area of a pyramid  volume of a sphere volume of a cylinder volume of a cone volume of a pyramid  3D Objects   The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters. What is the radius of the can, to the nearest tenth of a centimeter?  The volume of a cylinder is given by the formula . We substitute for and for , then solve for . The radius of the can is approximately 4.2 centimeters.  For more examples using geometric formulas, see Section 3.1.3 of the Toolkit.  Practice 3 The glass pyramid at the Louvre in Paris has a square base, is 21.64 meters tall, and encloses a volume of 9049.68 cubic meters. Use the formula to find the length of the base. Round your answer to hundredths. 35.42 m   Solving Formulas  Sometimes it is useful to solve a formula for one variable in terms of the others. You might want to know what radius you need to build cones of various fixed volumes. In that case, it is more efficient to solve the volume formula for in terms of .  The formula gives the volume of a cone in terms of its height and radius. Solve the formula for in terms of and .  Because the variable we want is squared, we use extraction of roots. First, we multiply both sides by 3 to clear the fraction. Because the radius of a cone must be a positive number, we use only the positive square root: .  Practice 4 Find a formula for the radius of a circle in terms of its area, .  Hint: Start with the formula for the area of a circle:   Solve for in terms of .  QuickCheck 3 Match each quantity with the appropriate units.    Height of a cylinder  Volume of a cone  Surface area of a sphere  Area of a triangle    Square meters  Feet  Cubic centimeters  Kilograms    More Extraction of Roots extraction of roots  We can also use extraction of roots to solve quadratic equations of the form We start by isolating the squared expression, .  Solve the equation .  First, we isolate the perfect square, . This gives us two equations for , The solutions are and . You can check that both of these solutions satisfy the original equation.   Practice 5 Solve by extracting roots.   Give your answers as exact values.  Find approximations for the solutions to two decimal places.    or   QuickCheck 4 True or false.  The first step in extraction of roots is to take square roots.  The solutions of a quadratic equation are always of the form .  Your calculator gives exact decimal values for square roots of integers.  The coefficients of a quadratic equation are called parabolas.    An Application: Compound Interest  Many savings accounts offer interest compounded annually: compound interest compound interest principal at the end of each year the interest earned is added to the principal, and the interest for the next year is computed on this larger sum of money. After years, the amount of money in the account is given by the formula where is the original principal and is the interest rate, expressed as a decimal fraction.  We'll see more about compound interest in Section 7.1.  Carmella invests $3000 in an account that pays an interest rate compounded annually.  Write an expression for the amount of money in Carmella's account after two years.  What interest rate would be necessary for Carmella's account to grow to $3500 in two years?    We use the formula with and . Carmella's account balance will be  We substitute for in the equation. This is a quadratic equation in the variable , which we can solve by extraction of roots. First, we isolate the perfect square. Because the interest rate must be a positive number, we discard the negative solution. Carmella needs an account with interest rate , or over 8%, in order to have an account balance of $3500 in two years.   The formula for compound interest also applies to calculating the effects of inflation. For instance, if there is a steady inflation rate of 4% per year, then in two years the price of an item that costs $100 now will be  Practice 6 The average cost of dinner and a movie two years ago was $36. This year the average cost is $38.16. What was the rate of inflation over the past two years? (Round to two decimal places.) 2.96%   Problem Set 3.1  Warm Up  Simplify.        Give a decimal approximation rounded to thousandths.     Use the definition of square toot to simplify the expression.        Solve. Remember that every positive number has two square roots.         Complete the table and graph .                      grid  Use the graph to solve the equation . Show your work on the graph. How many solutions did you find?  Solve the equation algebraically, by \"undoing\" each operation.   parabola  Two solutions.   Use the Pythagorean theorem to find the unknown side. To review the Pythagorean theorem, see Section 3.1.4 of the Toolkit.    right triangle, legs x and 6, hypotenuse 10   right triangle, legs 12 and 35, hypotenuse z    Skills Practice  For problems 7 14, Solve by extracting roots. Give exact values for your answers.           For problems 15 and 16, solve by extracting roots. Round your answers to two decimal places.     For problems 17 and 18,  Use technology to graph the quadratic equation in the suggested window.  Use your graph to find two solutions for the equation in part (b).  Check your solutions algebraically, using mental arithmetic.     b. 10, -2       For problems 19 22, solve the formula for the specified variable.  for  for  for  for    Applications  For problems 23 and 24,  Make a sketch of the situation described, and label a right triangle.  Use the Pythagorean theorem to solve each problem.  The size of a TV screen is the length of its diagonal. If the width of a 35-inch TV screen is 28 inches, what is its height? 21 in  A 30-meter pine tree casts a shadow of 30 meters, how far is the tip of the shadow from the top of the tree?   You plan to deposit your savings of $1600 in an account that compounds interest annually.  Write a formula for the amount, , in your savings account after two years in terms of the interest rate, .  Complete the table showing your account balance after two years for various interest rates.                To the nearest tenth of a percent, what interest rate will you require if you want your $1600 to grow to $2000 in two years?  Use your calculator to graph the formula for the account balance. Locate the point on the graph that corresponds to the amount in part (c).                 11.8%  Two years ago Carol's living expenses were $1200 per month. This year the same items cost Carol $1400 per month. What was the annual inflation rate for the past two years?   What size rectangle will fit inside a circle of radius 30 feet if the length of the rectangle must be three times its width?  rectangle inscribed in circle radius 30 19 ft by 57 ft  A storage box for sweaters is constructed from a square sheet of cardboard measuring inches on a side. The volume of the box, in cubic inches, is If the box should have a volume of 1960 cubic inches, what size cardboard square is needed?  A large bottle of shampoo is 20 centimeters tall and cylindrical in shape.  Write a formula for the volume of the bottle in terms of its radius.  Complete the table of values for the volume equation. If you cut the radius of the bottle in half, by what factor does the volume decrease?                        What radius should the bottle have if it must hold 240 milliliters of shampoo? (A milliliter is equal to one cubic centimeter.)  Use your calculator to graph the volume equation. (Use the table to help you choose a suitable window.) Locate the point on the graph that corresponds to the bottle in part (c). Make a sketch of your graph, and lable the scales on the axes.    1.96 cm   The area of a ring is given by the formula where is the radius of the outer circle, and is the radius of the inner circle.  graph  Suppose the inner radius of the ring is kept fixed at centimeters, but the radius of the outer circle, , is allowed to vary. Find the area of the ring when the outer radius is 6 centimeters, 8 centimeters, and 12 centimeters.  Graph the area equation, with , in the window Use the Trace to verify your answers to part (a).  Trace along the curve to the point . What do the coordinates of this point represent?  Use your graph to estimate the outer radius of the ring when its area is 100 square centimeters.  Write and solve an equation to answer part(d).  For Problems 31 and 32, solve for in terms of , , and .             "
 },
 {
   "id": "ExtractRoots-3-2",
@@ -4996,18 +4996,18 @@ var ptx_lunr_docs = [
   "body": "QuickCheck 4 True or false.  The first step in extraction of roots is to take square roots.  The solutions of a quadratic equation are always of the form .  Your calculator gives exact decimal values for square roots of integers.  The coefficients of a quadratic equation are called parabolas.  "
 },
 {
-  "id": "ExtractRoots-10-3",
+  "id": "ExtractRoots-10-4",
   "level": "2",
-  "url": "ExtractRoots.html#ExtractRoots-10-3",
+  "url": "ExtractRoots.html#ExtractRoots-10-4",
   "type": "Example",
   "number": "3.1.20",
   "title": "",
   "body": "Carmella invests $3000 in an account that pays an interest rate compounded annually.  Write an expression for the amount of money in Carmella's account after two years.  What interest rate would be necessary for Carmella's account to grow to $3500 in two years?    We use the formula with and . Carmella's account balance will be  We substitute for in the equation. This is a quadratic equation in the variable , which we can solve by extraction of roots. First, we isolate the perfect square. Because the interest rate must be a positive number, we discard the negative solution. Carmella needs an account with interest rate , or over 8%, in order to have an account balance of $3500 in two years.  "
 },
 {
-  "id": "ExtractRoots-10-5",
+  "id": "ExtractRoots-10-6",
   "level": "2",
-  "url": "ExtractRoots.html#ExtractRoots-10-5",
+  "url": "ExtractRoots.html#ExtractRoots-10-6",
   "type": "Checkpoint",
   "number": "3.1.21",
   "title": "Practice 6.",
@@ -15757,7 +15757,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Exponential Growth and Decay",
-  "body": "Exponential Growth and Decay  Introduction  While completing the next Investigation, keep in mind that using an exponent, or raising to a power, means repeated multiplication by the base.  Population Growth  In a laboratory experiment, researchers establish a colony of bacteria and monitor its growth. The colony triples in population every day.                                             Fill in the table showing the population of bacteria days later.  Plot the data points from the table and connect them with a smooth curve.  Write a function that gives the population of the colony at any time , in days. Hint: Express the values you calculated in part (1) using powers of . What connection do you see between the value of and the exponent on ?  Graph your function from part (3) using technology. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).  Evaluate your function to find the number of bacteria present after 8 days. How many bacteria are present after 36 hours (1.5 days)?   grid for graph of bacteria population    The function in describes exponential growth . During each time interval of a fixed length, the population is multiplied by a certain constant amount. In this case, the bacteria population grows by a factor of 3 every day.  table of bacteria population  For this reason, we say that 3 is the growth factor growth factor exponential growth growth factor for the function.   Growth Factors  Researchers often use cell lines from the fruit fly Drosophila melanogaster to study protein interactions related to cancer and other diseases. From 60% to 70% of human disease genes are found in Drosophila cells, and gene discoveries in the flies have led to parallel studies in vertebrates.  One milliliter of culture contains about 1 million Drosophila cells, and the population doubles every 24 hours. The table shows the population, , of Drosophila cells, in millions, as a function of time in days.     (days)  (millions)                        Growth of Drosophila melanogaster  Looking at the table, we see that we multiply the fruit fly population by 2 every day, so that after days, the initial population is multiplied by . Because the population grows by a factor of 2 each day, the function describes exponential growth. We can express functions that describe exponential growth in a standard form.  Exponential Growth exponential growth exponential growth growth factor growth factor exponential growth initial value exponential growth initial value  The function describes exponential growth , where is the initial value of the function and the positive constant is the growth factor .  For the Drosophila cell population, the growth factor is , and the initial value is million cells, so we have There is a sort of similarity between the formula for exponential functions and the formula for linear functions. Each has an initial value and a constant that describes change. But compare the graph of exponential growth, described by a constant growth factor, with linear growth. You can see that the graph of the fruit fly population is not a straight line with a constant slope, as a linear function would be.  In 1985, there were about 1.2 million cell phone users world-wide. For some years after that time, the number grew by a factor of 1.5 each year.  Let be the number of cell phone users years after 1985 according to this model. Make a table of values and graph .  Write a formula for  How many cell phone users does this model predict for the year 2000?  Do you think this model will be valid indefinitely? Why or why not?    We let in 1985, so , in millions. Each value of can be obtained by multiplying the previous value by the growth factor, 1.5.                                  growth of cellphone owners  The initial value of the function is million. The annual growth factor is , so the formula is  The year 2000 is 15 years after 1985, so we evaluate the function for . The formula predicts that over 525 million people used cell phones in 2000.  It is unlikely that the model will be valid indefinitely, because will eventually exceed the population of Earth.   Once again, in the examples above, you can see that the graphs of these exponential functions are not linear. In each case, the function grows slowly at first, but eventually grows faster and faster.  Be careful when evaluating exponential growth functions. In part (c) of the previous Example, note that According to the order of operations, we compute the power first, and then multiply the result by 1.2.   To review the order of operations with powers, see Section 7.1.2 of the Toolkit.  QuickCheck 1 A population grows according to the formula , where is in years.   What was the starting value of the population?  What was the population one year later?  What does 1.06 tell you about the population?  Choose the correct first step to evaluate :  Multiply 800 by 1.06 or  Raise 1.06 to the 5th power    In the next Practice, we consider a population that doubles not every month, but every three months.  Practice 1 A colony of rabbits started with 20 rabbits and doubles every 3 months.    Complete the table for the number of rabbits after months, and graph the function.  How is the exponent on the base 2 related to ? Write a formula for the function .  How many rabbits will there be after 1 year?                                                           rabbit population  The exponent is the value of divided by 3.  320 rabbits  In Practice 1, the rabbit population doubled every 3 months, leading to the growth law Notice how the 3 of \"every 3 months\" appears in the formula.  Now suppose we would like to know the monthly growth factor for the rabbit population, that is, by what factor did the population grow every month?  Recall that when we raise a power to a power we can multiply the exponents, like this: For example, Using the same idea for the rabbit population, we can see that So the growth factor for the rabbit population is , or about 1.26. The rabbit population grows by a factor of 1.26 every month.   Comparing Linear Growth and Exponential Growth exponential function vs linear growth exponential growth vs linear growth  It may be helpful to compare linear growth linear growth and exponential growth exponential growth. Consider the two functions whose graphs are shown below.                      Slope                     Growth factor  graph of linear and exponential  is a linear function with -intercept 5 and slope 2; is an exponential function with initial value 5 and growth factor 2. In a way, the growth factor of an exponential function is analogous to the slope of a linear function: Each measures how quickly the function is increasing.  However, for each unit increase in , 2 units are added to the value of , whereas the value of is multiplied by 2. An exponential function with growth factor 2 eventually grows much more rapidly than a linear function with slope 2, as you can see by comparing the graphs or the function values in the tables.   A solar energy company sold $80,000 worth of solar collectors last year, its first year of operation. This year its sales rose to $88,000. The marketing department must estimate its projected sales for the next 3 years.   If the marketing department predicts that sales will grow linearly, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow linearly.  If the marketing department predicts that sales will grow exponentially, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow exponentially.    Let represent the company's total sales years after starting business, where is the first year of operation. If sales grow linearly, then has the form . Because , the intercept is 80,000. The slope of the graph is where is the increase in sales during the first year. Thus, , and sales grow by adding $8000 each year. The expected sales total for the next year is  Let represent the company's sales assuming that sales will grow exponentially. Then has the form , and the initial value is . We find the growth factor in sales over the first year by dividing by : Thus, , and the expected sales total for the next year is   We evaluate each function at several points to obtain the graphs shown in the figure.                             linear and exponential growth    Exponential Decay  In the examples above, exponential growth was modeled by increasing functions increasing function of the form where the growth factor, , is a number greater than 1. If we multiply the function value by a number smaller than 1, t he function values will decrease. Thus, if , then is a decreasing function. decreasing function In this case, we say that the function describes exponential decay exponential decay , and the constant is called the decay factor decay factor exponential decay decay factor .  Observe that if , then powers of decrease as the exponent increases. For example, consider powers of .               Exponential Decay exponential decay  A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals), the population declined to approximately 0.90 of its earlier figure.                                         Fill in the table showing the population of the town years after 1940.  Plot the data points and connect them with a smooth curve.  Write a function that gives the population of the town at any time in years after 1940.  Hint: Express the values you calculated in part (1) using powers of 0.90. What is the connection between the value of and the exponent on 0.90?  Graph your function from part (3) using technology. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).  Evaluate your function to find the population of the town in 1995. What was the population in 2000?   graph of linear and exponential   Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles. During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined to 0.942 of its previous value each year.   In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of , the number of years after 1944.  Graph the function from 1944 to 2000.  In 1998, only 3.3% of beer was sold in refillable bottles. How well does the model predict this number?    We let in 1944, so that . The formula is  We evaluate the formula for several values of , and plot the data points.    Year  1950  1965  1980  1995         68.5%  27.9%  11.4%  4.7%   exponential decay  In 1998, , and The model predicts that 3.89% of beer was sold in refillable bottles in 1998, just slightly above the actual figure.   Practice 2 The number of perch in Hidden Lake has declined to 0.88 of its previous value every year since 2000, when the perch population was estimated at 8000.   Let represent the perch population years after 2000. Complete the table.                    Write a formula for the function .  Graph the function, using the table values to choose an appropriate window.  What does the model predict for the perch population in 2025?                    exponential decay  327   QuickCheck 2 Complete the statement or answer the question.   We can tell whether a linear function is increasing or decreasing by whether its slope is .  We can tell whether an exponential function is increasing or decreasing by whether is .  If a linear function has slope 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one?  If an exponential function has growth factor 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one?    Percent Increase percent increase  Exponential growth is often described as growth by a certain percent increase. Suppose the town of Lakeview had 4000 residents in the year 2000, and grew at a rate of 5% per year. This means that each year we add 5% of last year's population to find the current population, . Thus and so on. Now here is the important observation about percent increase:    Thus, we can find the current population by multiplying the old population by 1.05. In other words,   A formula for the population of Lakeview years after 2000 is This formula describes exponential growth with a growth factor of . In general, a function that grows at a percent rate , where is expressed as a decimal, has a growth factor of .  Growth by a Constant Percent growth by a constant percent  The function describes exponential growth at a constant percent rate of growth, .  The initial value initial value of the function is , and is the growth factor exponential growth growth factor .  Many quantities besides population can grow by a fixed percent. For example, an inflation rate gives the percent rate at which prices are rising.  During a period of rapid inflation, prices rose by 12% each year. At the beginning of this time, a loaf of bread cost $2.  Make a table showing the cost of bread over the next four years.  Write a function that gives the price of a loaf of bread years after inflation began.  How much did a loaf of bread cost after 6 years? After 30 months?   Graph the function found in (b).    The percent increase in the cost of bread is 12% every year. Therefore, the growth factor for the cost of bread is every year. If represents the price of bread after years, then , and we multiply the price by 1.12 every year, as shown in the table.                                      After years of inflation the original price of $2 has been multiplied times by a factor of 1.12. Thus,  To find the price of bread at any time after inflation began, we evaluate the function at the appropriate value of . After 6 years the price was $3.95. Thirty months is 2.5 years, so we evaluate . After 30 months the price was $2.66.   To graph the function we evaluate it for several values, as shown in the table. We plot the points and connect them with a smooth curve to obtain the graph shown.  percent increase   For some hints on evaluating expponential expressions, see Section 7.1.3 of the Toolkit.  QuickCheck 3 Fill in the blanks.  Increasing by 10% is the same as multiplying by .  If a population grows by 2% annually, its growth factor is .  If a population grows by 46% annually, its growth factor is .  If a population grows by 100% annually, its growth factor is .    Practice 3 Tombstone, Arizona was the most famous \"boomtown\" during the gold rush in the American west. It was established in December, 1879, after the discovery of a large silver deposit nearby. The original town had 40 dwellings and a population of 100. Over the next two to three years, the population grew at an average rate of 19% per month.  What was the population one year later, in December, 1880?  Write a formula for , the population of Tombstone months after its founding.  Complete the table and sketch a graph of .                    Tombstone's peak population was about 10,000 people. Use your graph to estimate the time it took to reach that figure.   806              100  239  569  1359  3243  7739  population Tombstone, AZ  About 26 months   Compound interest is another example of exponential growth. Suppose you deposit a sum of money into an account that pays 5% interest compounded annually. Each year, 5% of your current balance is added to your account as interest, so your balance grows by a factor of 1.05. In general, we have the following formula.  Compound Interest compound interest balance compound interest compound interest balance compound interest principal  If a principal principal of dollars is invested in an account that pays an interest rate compounded annually, the balance balance  after years is given by   Percent Decrease percent decrease  We have seen that a percent increase of (in decimal form) corresponds to a growth factor of . A percent decrease of corresponds to a decay factor decay factor of . For example, if a population declines by 25% each year, then each year the new population is 75% of its previous value. So and . Remember that multiplying by gives us the population remaining, not the amount of decline.  To review percent increase and decrease, see Section 7.1.1 of the Toolkit.  According to Context magazine: \"Computing prices have been falling exponentially for the past 30 years and will probably stay on that curve for another couple of decades.\" In fact, prices have been falling at a rate of 37% every year. Suppose an accounting firm invests $50,000 this year in new computer equipment.   Write a formula for the cost of similar equipment years from now.  What would the same equipment cost 5 years from now?  Graph the function for .   The current cost of the equipment is . Every year, the cost of similar equipment is multiplied by After years, the cost of that equipment is  After 5 years, we have The cost of the equipment after 5 years is $4962.18.   We evaluate the function for several values of , and plot the points to obtain the graph shown.                  computing prices    In the preceding Example, the cost of computer equipment decreases by 37% each year, so 63% of the value remains, and the decay factor for the value function is 0.63, not 0.37. The function gives the cost remaining, not the amount that has declined.  Practice 4 The number of butterflies visiting a nature station is declining by 18% per year. In 1998, 3600 butterflies visited the nature station.   What is the decay factor in the annual butterfly count?  Write a formula for , the number of butterflies years after 1998.  Complete the table and sketch a graph of .                                        exponential decay   Compare these two descriptions of exponential decay:  Each year, the population decreases by 25% of its previous value.  Each year, the population decreases to 25% of its previous value.  In the first description, and . If the population this year is 100, next year it will be 75. If 25% of the population is gone, 75% remains.  In the second description, only 25% of the population remains, so . If the population this year is 100, next year it will be 25.  QuickCheck 4 Complete the statement or answer the question.   If , it represents a decrease of %.  An annual decrease of 15% corresponds to a decay factor of .  Which function decreases more rapidly: , with a decay factor of 0.15, or , with a decay factor of 0.05?  An exponential function is decreasing if .   We summarize our observations about exponential growth and decay functions as follows.  Exponential Growth and Decay exponential growth and decay function exponential growth and decay  The function models exponential growth and decay.   is the initial value initial value of ;  is the growth  exponential growth growth factor or decay factor decay factor .  If , then is increasing, and , where represents percent increase.  If , then is decreasing, and , where represents percent decrease.    Practice 5 A new car begins to depreciate in value as soon as you drive it off the lot. Some models depreciate linearly, and others depreciate exponentially. Suppose you buy a new car for $20,000, and 1 year later its value has decreased to $17,000.   If the value decreased linearly, what was its annual rate of decrease?  If the value decreased exponentially, what was its annual decay factor? What was its annual percent depreciation?  Calculate the value of your car when it is 5 years old under each assumption, linear or exponential depreciation.   $3000 per year  0.85; 15%  Linear: $5000; Exponential: $8874     Problem Set 7.1  Warm Up   A parking permit at Huron College cost $25 last year, but this year the price increased by 12%. What is the price this year?  If the price of a parking permit increases by 12% again next year, what will the price be then?  Did the parking permit increase by the same amount each year? Why or why not?  $28  #31.36  No. It increase by 12% of different amounts.   The computer you want cost $1200 when it first came on the market, but after 3 months the price was reduced by 15%. What was the price then?  If the price falls by another 15% next month, what will the price be then?  Did the price fall by the same amount each month? Why or why not?  The value of your stock portfolio fell 10% last year, but this year it increased by 10%. How does the current value of your portfolio compare to what it was two years ago? Decreased by 1%.  You got a 5% raise in January, but then in March everyone took a pay cut of 5%. How does your new salary compare to what it was last December?  For Problems 5 10, solve. Round your answers to two places if necessary.   4     ;     Skills Practice  The population of Summerville is currently 12 hundred people. Let represent the population, in hundreds of people, after years.  Write a formula for the population if it grows at a constant rate of 1.5 hundred people per year. What is the population after 3 years?  Write a formula for the population if it has a constant growth factor of 1.5 per year. What is the population after 3 years?   ; 1650  ; 4050   Delbert's sports car was worth $45,000 when he bought it.  Write a formula for the value of the car if it depreciates at a constant rate of $7000 per year. What is the value of the car after 4 years?  Write a formula for the value of the car if it has a constant depreciation factor of 0.70 per year. What is the value of the car after 4 years?   Francine's truck was worth $18,000 when she bought it.  Write a formula for the value of the truck if it depreciates by $2000 per year. What is the value of the truck after 5 years?  Write a formula for the value of the truck if it depreciates by 20% per year. What is the value of the truck after 5 years?   ; $8000  ; $5898.24   The population of Lakeview is currently 150,000 people.  Write a formula for the population if it grows by 6000 people per year. What is the population after 2 years?  Write a formula for the population if grows by 6% per year. What is the population after 2 years?   The table shows the growth factor for a number of different populations. For each population, find the percent growth rate.    Population  A  B  C  D  E   Growth factor        Percent growth rate       20%, 2%, 7.5%, 100%, 115%  The table shows the decay factor for a number of different populations. For each population, find the percent decay rate.    Population  A  B  C  D  E   Decay factor        Percent decay rate        The graphs in Problems 17 and 18 represent exponential growth or decay.  Find the initial value and the growth or decay factor.  Write a formula for the function.    growth      decay  Initial value , decay factor     For Problems 19 22,  Each table describes exponential growth or decay. Find the growth or decay factor.  Complete the table. Round values to two decimal places if necessary.                   The growth factor is .                                  The decay factor is .                                  The decay factor is .                                  The growth factor is .                    Applications  For Problems 23 30,  Complete the table of values.  Write a function that describes exponential growth or decay.  Use your calculator to graph the function.  Evaluate the function at the given values.  Sales of Windsurfers have increased 12% per year since 2010. If Sunsails sold 1500 Windsurfers in 2010, how many did it sell in 2015? How many should it expect to sell in 2022?    Years after 2010        Windsurfers          Years after 2010        Windsurfers           Windsurfer sales exponential growth   2644; 5844  Paul bought a house for $200,000 in 1983. For the next 20 years, housing prices rose an average of 5% per year. How much was the house worth in 1995? In 2000?    Years after 1983        Value of house            Years after 1983        Value of house          house value  $359,171.27; $458,403.66   A typical beehive contains 20,000 insects. The population can increase in size by a factor of 2.5 every 6 weeks. How many bees could there be after 4 weeks? After 20 weeks?    Weeks        Bees          Weeks        Bees         bee population   Otto invests $600 in an account that pays 7.3% interest compounded annually. How much is in Otto's account after 3 years? After 6 years?    Years        Account balance        During a vigorous spraying program, the mosquito population was reduced to of its previous size every week. If the mosquito population was originally estimated at 250,000, how many mosquitoes remained after 3 weeks of spraying? After 9 weeks?    Weeks        Mosquitos          Weeks        Mosquitos         graph  162,280; 68,504  Scuba divers find that the water in Emerald Lake filters out 15% of the sunlight for each 4 feet they descend. How much sunlight penetrates to a depth of 20 feet? To a depth of 45 feet?    Feet        % of light        Arch's motorboat cost $15,000 in 2000 and has depreciated by 11.5% every year. How much was the boat worth in 2009? In 2010?    Years        Value of boat          Years        Value of boat          motorboat depreciation  $4995.52; $4421.04  Plutonium-238 is a radioactive element that decays over time into a less harmful element at a rate of 0.8% per year. A power plant has 50 pounds of plutonium-238 to dispose of. How much plutonium-238 will be left after 10 years? After 100 years?    Years        Pounds           Riverside County is the fastest growing county in California. In 2000, the population was 1,545,387.  Write a formula for the population of Riverside County as a function of time. (You don't know the value of the growth factor yet.)  In 2004, the population had grown to 1,871,950. Find the growth factor and the percent rate of growth.  According to this model, what was the population of Riverside County in 2010?    3,167,157  In 2006, a new Ford Focus cost $15,574. The value of a Focus decreases exponentially over time.  Write a formula for the value of a Focus as a function of time. (You don't know the value of the decay factor yet.)  A 2-year old Focus cost $11,788. Find the decay factor and the percent rate of depreciation.  According to this model, how much did a 4-year old Focus cost?   In the 1940s David Lack undertook a study of the European robin. He tagged 130 one-year-old robins and found that on average 35.6% of the birds survived each year. (Source: Burton, 1998.)  According to the data, how many robins would have originally hatched to produce 130 one-year-olds?  Write a formula for the number of the original robins still alive after years.  Graph your function on your calculator.  One of the original robins actually survived for 9 years. How many robins does the model predict will survive for 9 years?  365  exponential decay   0.03  Many insects grow by discrete amounts each time they shed their exoskeletons. Dyar’s rule says that the size of the insect increases by a constant ratio at each stage. (Source: Burton, 1998.)  Dyar measured the width of the head of a caterpillar of a swallowtail butterfly at each stage. The caterpillar’s head was initially approximately 42 millimeters wide and was 63.84 millimeters wide after its first stage. Find the growth ratio.  Write an equation for the width of the caterpillar’s head at the stage.  Graph your equation on your calculator.  What head width does the model predict after 5 stages?  The world’s population of tigers declined from 10,400 in 1980 to 6000 in 1998.  If the population declined linearly, what was its annual rate of decrease?  If the population declined exponentially, what was its annual decay factor? What was its annual percent decrease?  Predict the number of tigers in 2010 under each assumption, linear or exponential decline.   2440 tigers per decade  0.765; 23.5%  3080; 4656   On January 10, the college infirmary treated 4 cases of flu. One week later, the total number of flu cases had grown to 6.  If the number of cases grew linearly, what was its weekly rate of growth?  If the number of cases grew exponentially, what was its weekly growth factor? What was its weekly percent increase?  Predict the number of flu cases 6 weeks later under each assumption, linear or exponential growth.  Write a function for the number of flu cases under each assumption. Graph both functions for 10 weeks from January 10.  A researcher starts 2 populations of fruit flies of different species, each with 30 flies. Species A increases by 30% in 6 days, and species B increases by 20% increases in 4 days.  What was the population of species A after 6 days? Find the daily growth factor for species A.  What was the population of species B after 4 days? Find the daily growth factor for species B.  Which species multiplies more rapidly?  39; 1.045  36; 1.047  Species B   The population of Elmira was 350,000 in 1970 and doubled in 20 years. What was the annual percent increase to the nearest hundredth of a percent?  If a population doubles in 20 years, does the percent increase depend on the size of the original population?  The population of Grayling doubled in 20 years. What was the annual percent increase to the nearest hundredth of a percent?    "
+  "body": "Exponential Growth and Decay  Introduction  While completing the next Investigation, keep in mind that using an exponent, or raising to a power, means repeated multiplication by the base.  Population Growth  In a laboratory experiment, researchers establish a colony of bacteria and monitor its growth. The colony triples in population every day.                                             Fill in the table showing the population of bacteria days later.  Plot the data points from the table and connect them with a smooth curve.  Write a function that gives the population of the colony at any time , in days. Hint: Express the values you calculated in part (1) using powers of . What connection do you see between the value of and the exponent on ?  Graph your function from part (3) using technology. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).  Evaluate your function to find the number of bacteria present after 8 days. How many bacteria are present after 36 hours (1.5 days)?   grid for graph of bacteria population    The function in describes exponential growth . During each time interval of a fixed length, the population is multiplied by a certain constant amount. In this case, the bacteria population grows by a factor of 3 every day.  table of bacteria population  For this reason, we say that 3 is the growth factor growth factor exponential growth growth factor for the function.   Growth Factors  Researchers often use cell lines from the fruit fly Drosophila melanogaster to study protein interactions related to cancer and other diseases. From 60% to 70% of human disease genes are found in Drosophila cells, and gene discoveries in the flies have led to parallel studies in vertebrates.  One milliliter of culture contains about 1 million Drosophila cells, and the population doubles every 24 hours. The table shows the population, , of Drosophila cells, in millions, as a function of time in days.     (days)  (millions)                        Growth of Drosophila melanogaster  Looking at the table, we see that we multiply the fruit fly population by 2 every day, so that after days, the initial population is multiplied by . Because the population grows by a factor of 2 each day, the function describes exponential growth. We can express functions that describe exponential growth in a standard form.  Exponential Growth exponential growth exponential growth growth factor growth factor exponential growth initial value exponential growth initial value  The function describes exponential growth , where is the initial value of the function and the positive constant is the growth factor .  For the Drosophila cell population, the growth factor is , and the initial value is million cells, so we have There is a sort of similarity between the formula for exponential functions and the formula for linear functions. Each has an initial value and a constant that describes change. But compare the graph of exponential growth, described by a constant growth factor, with linear growth. You can see that the graph of the fruit fly population is not a straight line with a constant slope, as a linear function would be.  In 1985, there were about 1.2 million cell phone users world-wide. For some years after that time, the number grew by a factor of 1.5 each year.  Let be the number of cell phone users years after 1985 according to this model. Make a table of values and graph .  Write a formula for  How many cell phone users does this model predict for the year 2000?  Do you think this model will be valid indefinitely? Why or why not?    We let in 1985, so , in millions. Each value of can be obtained by multiplying the previous value by the growth factor, 1.5.                                  growth of cellphone owners  The initial value of the function is million. The annual growth factor is , so the formula is  The year 2000 is 15 years after 1985, so we evaluate the function for . The formula predicts that over 525 million people used cell phones in 2000.  It is unlikely that the model will be valid indefinitely, because will eventually exceed the population of Earth.   Once again, in the examples above, you can see that the graphs of these exponential functions are not linear. In each case, the function grows slowly at first, but eventually grows faster and faster.  Be careful when evaluating exponential growth functions. In part (c) of the previous Example, note that According to the order of operations, we compute the power first, and then multiply the result by 1.2.   To review the order of operations with powers, see Section 7.1.2 of the Toolkit.  QuickCheck 1 A population grows according to the formula , where is in years.   What was the starting value of the population?  What was the population one year later?  What does 1.06 tell you about the population?  Choose the correct first step to evaluate :  Multiply 800 by 1.06 or  Raise 1.06 to the 5th power    In the next Practice, we consider a population that doubles not every month, but every three months.  Practice 1 A colony of rabbits started with 20 rabbits and doubles every 3 months.    Complete the table for the number of rabbits after months, and graph the function.  How is the exponent on the base 2 related to ? Write a formula for the function .  How many rabbits will there be after 1 year?                                                           rabbit population  The exponent is the value of divided by 3.  320 rabbits  In Practice 1, the rabbit population doubled every 3 months, leading to the growth law Notice how the 3 of \"every 3 months\" appears in the formula.  Now suppose we would like to know the monthly growth factor for the rabbit population, that is, by what factor did the population grow every month?  Recall that when we raise a power to a power we can multiply the exponents, like this: For example, Using the same idea for the rabbit population, we can see that So the growth factor for the rabbit population is , or about 1.26. The rabbit population grows by a factor of 1.26 every month.   Comparing Linear Growth and Exponential Growth exponential function vs linear growth exponential growth vs linear growth  It may be helpful to compare linear growth linear growth and exponential growth exponential growth. Consider the two functions whose graphs are shown below.                      Slope                     Growth factor  graph of linear and exponential  is a linear function with -intercept 5 and slope 2; is an exponential function with initial value 5 and growth factor 2. In a way, the growth factor of an exponential function is analogous to the slope of a linear function: Each measures how quickly the function is increasing.  However, for each unit increase in , 2 units are added to the value of , whereas the value of is multiplied by 2. An exponential function with growth factor 2 eventually grows much more rapidly than a linear function with slope 2, as you can see by comparing the graphs or the function values in the tables.   A solar energy company sold $80,000 worth of solar collectors last year, its first year of operation. This year its sales rose to $88,000. The marketing department must estimate its projected sales for the next 3 years.   If the marketing department predicts that sales will grow linearly, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow linearly.  If the marketing department predicts that sales will grow exponentially, what sales total should it expect next year? Graph the projected sales figures over the next 3 years, assuming that sales will grow exponentially.    Let represent the company's total sales years after starting business, where is the first year of operation. If sales grow linearly, then has the form . Because , the intercept is 80,000. The slope of the graph is where is the increase in sales during the first year. Thus, , and sales grow by adding $8000 each year. The expected sales total for the next year is  Let represent the company's sales assuming that sales will grow exponentially. Then has the form , and the initial value is . We find the growth factor in sales over the first year by dividing by : Thus, , and the expected sales total for the next year is   We evaluate each function at several points to obtain the graphs shown in the figure.                             linear and exponential growth    Exponential Decay  In the examples above, exponential growth was modeled by increasing functions increasing function of the form where the growth factor, , is a number greater than 1. If we multiply the function value by a number smaller than 1, t he function values will decrease. Thus, if , then is a decreasing function. decreasing function In this case, we say that the function describes exponential decay exponential decay , and the constant is called the decay factor decay factor exponential decay decay factor .  Observe that if , then powers of decrease as the exponent increases. For example, consider powers of .               Exponential Decay exponential decay  A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals), the population declined to approximately 0.90 of its earlier figure.                                         Fill in the table showing the population of the town years after 1940.  Plot the data points and connect them with a smooth curve.  Write a function that gives the population of the town at any time in years after 1940.  Hint: Express the values you calculated in part (1) using powers of 0.90. What is the connection between the value of and the exponent on 0.90?  Graph your function from part (3) using technology. (Use the table to choose an appropriate window.) The graph should resemble your hand-drawn graph from part (2).  Evaluate your function to find the population of the town in 1995. What was the population in 2000?   graph of linear and exponential   Before the introduction of disposable containers, soft drinks and draught beer were sold in refillable glass botles. During the second half of the last century, the percent of beer volume sold in refillable glass bottles declined to 0.942 of its previous value each year.   In 1944, 98% of beer was sold in refillable bottles. Write a formula for the percent of beer sold in refillable bottles as a function of , the number of years after 1944.  Graph the function from 1944 to 2000.  In 1998, only 3.3% of beer was sold in refillable bottles. How well does the model predict this number?    We let in 1944, so that . The formula is  We evaluate the formula for several values of , and plot the data points.    Year  1950  1965  1980  1995         68.5%  27.9%  11.4%  4.7%   exponential decay  In 1998, , and The model predicts that 3.89% of beer was sold in refillable bottles in 1998, just slightly above the actual figure.   Practice 2 The number of perch in Hidden Lake has declined to 0.88 of its previous value every year since 2000, when the perch population was estimated at 8000.   Let represent the perch population years after 2000. Complete the table.                    Write a formula for the function .  Graph the function, using the table values to choose an appropriate window.  What does the model predict for the perch population in 2025?                    exponential decay  327   QuickCheck 2 Complete the statement or answer the question.   We can tell whether a linear function is increasing or decreasing by whether its slope is .  We can tell whether an exponential function is increasing or decreasing by whether is .  If a linear function has slope 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one?  If an exponential function has growth factor 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one?    Percent Increase percent increase  Exponential growth is often described as growth by a certain percent increase. Suppose the town of Lakeview had 4000 residents in the year 2000, and grew at a rate of 5% per year. This means that each year we add 5% of last year's population to find the current population, . Thus and so on. Now here is the important observation about percent increase:    Thus, we can find the current population by multiplying the old population by 1.05. In other words,   A formula for the population of Lakeview years after 2000 is This formula describes exponential growth with a growth factor of . In general, a function that grows at a percent rate , where is expressed as a decimal, has a growth factor of .  Growth by a Constant Percent growth by a constant percent  The function describes exponential growth at a constant percent rate of growth, .  The initial value initial value of the function is , and is the growth factor exponential growth growth factor .  Many quantities besides population can grow by a fixed percent. For example, an inflation rate gives the percent rate at which prices are rising.  During a period of rapid inflation, prices rose by 12% each year. At the beginning of this time, a loaf of bread cost $2.  Make a table showing the cost of bread over the next four years.  Write a function that gives the price of a loaf of bread years after inflation began.  How much did a loaf of bread cost after 6 years? After 30 months?   Graph the function found in (b).    The percent increase in the cost of bread is 12% every year. Therefore, the growth factor for the cost of bread is every year. If represents the price of bread after years, then , and we multiply the price by 1.12 every year, as shown in the table.                                      After years of inflation the original price of $2 has been multiplied times by a factor of 1.12. Thus,  To find the price of bread at any time after inflation began, we evaluate the function at the appropriate value of . After 6 years the price was $3.95. Thirty months is 2.5 years, so we evaluate . After 30 months the price was $2.66.   To graph the function we evaluate it for several values, as shown in the table. We plot the points and connect them with a smooth curve to obtain the graph shown.  percent increase   For some hints on evaluating expponential expressions, see Section 7.1.3 of the Toolkit.  QuickCheck 3 Fill in the blanks.  Increasing by 10% is the same as multiplying by .  If a population grows by 2% annually, its growth factor is .  If a population grows by 46% annually, its growth factor is .  If a population grows by 100% annually, its growth factor is .    Practice 3 Tombstone, Arizona was the most famous \"boomtown\" during the gold rush in the American west. It was established in December, 1879, after the discovery of a large silver deposit nearby. The original town had 40 dwellings and a population of 100. Over the next two to three years, the population grew at an average rate of 19% per month.  What was the population one year later, in December, 1880?  Write a formula for , the population of Tombstone months after its founding.  Complete the table and sketch a graph of .                    Tombstone's peak population was about 10,000 people. Use your graph to estimate the time it took to reach that figure.   806              100  239  569  1359  3243  7739  population Tombstone, AZ  About 26 months   Compound interest is another example of exponential growth. Suppose you deposit a sum of money, , into an account that pays 5% interest compounded annually. \"Compounded\" means that each year your interest, 5% of your current balance, is added to your account, so your balance, , grows by a factor of 1.05.  You can see this more clearly with a little calculation. At interest rate , after 1 year your balance is So the balance grew by a factor of . After the second year, the new balance of grows by another factor of , giving In general, we have the following formula.  Compound Interest compound interest balance compound interest compound interest balance compound interest principal  If a principal principal of dollars is invested in an account that pays an interest rate compounded annually, the balance balance  after years is given by  As an example, suppose you put $100 in an account that pays 5% interest compounded annually. Using the formula above, we can make a table showing the balance in your account over the next few years.                        Percent Decrease percent decrease  We have seen that a percent increase of (in decimal form) corresponds to a growth factor of . A percent decrease of corresponds to a decay factor decay factor of . For example, if a population declines by 25% each year, then each year the new population is 75% of its previous value. So and . Remember that multiplying by gives us the population remaining, not the amount of decline.  To review percent increase and decrease, see Section 7.1.1 of the Toolkit.  According to Context magazine: \"Computing prices have been falling exponentially for the past 30 years and will probably stay on that curve for another couple of decades.\" In fact, prices have been falling at a rate of 37% every year. Suppose an accounting firm invests $50,000 this year in new computer equipment.   Write a formula for the cost of similar equipment years from now.  What would the same equipment cost 5 years from now?  Graph the function for .   The current cost of the equipment is . Every year, the cost of similar equipment is multiplied by After years, the cost of that equipment is  After 5 years, we have The cost of the equipment after 5 years is $4962.18.   We evaluate the function for several values of , and plot the points to obtain the graph shown.                  computing prices    In the preceding Example, the cost of computer equipment decreases by 37% each year, so 63% of the value remains, and the decay factor for the value function is 0.63, not 0.37. The function gives the cost remaining, not the amount that has declined.  Practice 4 The number of butterflies visiting a nature station is declining by 18% per year. In 1998, 3600 butterflies visited the nature station.   What is the decay factor in the annual butterfly count?  Write a formula for , the number of butterflies years after 1998.  Complete the table and sketch a graph of .                                        exponential decay   Compare these two descriptions of exponential decay:  Each year, the population decreases by 25% of its previous value.  Each year, the population decreases to 25% of its previous value.  In the first description, and . If the population this year is 100, next year it will be 75. If 25% of the population is gone, 75% remains.  In the second description, only 25% of the population remains, so . If the population this year is 100, next year it will be 25.  QuickCheck 4 Complete the statement or answer the question.   If , it represents a decrease of %.  An annual decrease of 15% corresponds to a decay factor of .  Which function decreases more rapidly: , with a decay factor of 0.15, or , with a decay factor of 0.05?  An exponential function is decreasing if .   We summarize our observations about exponential growth and decay functions as follows.  Exponential Growth and Decay exponential growth and decay function exponential growth and decay  The function models exponential growth and decay.   is the initial value initial value of ;  is the growth  exponential growth growth factor or decay factor decay factor .  If , then is increasing, and , where represents percent increase.  If , then is decreasing, and , where represents percent decrease.    Practice 5 A new car begins to depreciate in value as soon as you drive it off the lot. Some models depreciate linearly, and others depreciate exponentially. Suppose you buy a new car for $20,000, and 1 year later its value has decreased to $17,000.   If the value decreased linearly, what was its annual rate of decrease?  If the value decreased exponentially, what was its annual decay factor? What was its annual percent depreciation?  Calculate the value of your car when it is 5 years old under each assumption, linear or exponential depreciation.   $3000 per year  0.85; 15%  Linear: $5000; Exponential: $8874     Problem Set 7.1  Warm Up   A parking permit at Huron College cost $25 last year, but this year the price increased by 12%. What is the price this year?  If the price of a parking permit increases by 12% again next year, what will the price be then?  Did the parking permit increase by the same amount each year? Why or why not?  $28  #31.36  No. It increase by 12% of different amounts.   The computer you want cost $1200 when it first came on the market, but after 3 months the price was reduced by 15%. What was the price then?  If the price falls by another 15% next month, what will the price be then?  Did the price fall by the same amount each month? Why or why not?  The value of your stock portfolio fell 10% last year, but this year it increased by 10%. How does the current value of your portfolio compare to what it was two years ago? Decreased by 1%.  You got a 5% raise in January, but then in March everyone took a pay cut of 5%. How does your new salary compare to what it was last December?  For Problems 5 10, solve. Round your answers to two places if necessary.   4     ;     Skills Practice  The population of Summerville is currently 12 hundred people. Let represent the population, in hundreds of people, after years.  Write a formula for the population if it grows at a constant rate of 1.5 hundred people per year. What is the population after 3 years?  Write a formula for the population if it has a constant growth factor of 1.5 per year. What is the population after 3 years?   ; 1650  ; 4050   Delbert's sports car was worth $45,000 when he bought it.  Write a formula for the value of the car if it depreciates at a constant rate of $7000 per year. What is the value of the car after 4 years?  Write a formula for the value of the car if it has a constant depreciation factor of 0.70 per year. What is the value of the car after 4 years?   Francine's truck was worth $18,000 when she bought it.  Write a formula for the value of the truck if it depreciates by $2000 per year. What is the value of the truck after 5 years?  Write a formula for the value of the truck if it depreciates by 20% per year. What is the value of the truck after 5 years?   ; $8000  ; $5898.24   The population of Lakeview is currently 150,000 people.  Write a formula for the population if it grows by 6000 people per year. What is the population after 2 years?  Write a formula for the population if grows by 6% per year. What is the population after 2 years?   The table shows the growth factor for a number of different populations. For each population, find the percent growth rate.    Population  A  B  C  D  E   Growth factor        Percent growth rate       20%, 2%, 7.5%, 100%, 115%  The table shows the decay factor for a number of different populations. For each population, find the percent decay rate.    Population  A  B  C  D  E   Decay factor        Percent decay rate        The graphs in Problems 17 and 18 represent exponential growth or decay.  Find the initial value and the growth or decay factor.  Write a formula for the function.    growth      decay  Initial value , decay factor     For Problems 19 22,  Each table describes exponential growth or decay. Find the growth or decay factor.  Complete the table. Round values to two decimal places if necessary.                   The growth factor is .                                  The decay factor is .                                  The decay factor is .                                  The growth factor is .                    Applications  For Problems 23 30,  Complete the table of values.  Write a function that describes exponential growth or decay.  Use your calculator to graph the function.  Evaluate the function at the given values.  Sales of Windsurfers have increased 12% per year since 2010. If Sunsails sold 1500 Windsurfers in 2010, how many did it sell in 2015? How many should it expect to sell in 2022?    Years after 2010        Windsurfers          Years after 2010        Windsurfers           Windsurfer sales exponential growth   2644; 5844  Paul bought a house for $200,000 in 1983. For the next 20 years, housing prices rose an average of 5% per year. How much was the house worth in 1995? In 2000?    Years after 1983        Value of house            Years after 1983        Value of house          house value  $359,171.27; $458,403.66   A typical beehive contains 20,000 insects. The population can increase in size by a factor of 2.5 every 6 weeks. How many bees could there be after 4 weeks? After 20 weeks?    Weeks        Bees          Weeks        Bees         bee population   Otto invests $600 in an account that pays 7.3% interest compounded annually. How much is in Otto's account after 3 years? After 6 years?    Years        Account balance        During a vigorous spraying program, the mosquito population was reduced to of its previous size every week. If the mosquito population was originally estimated at 250,000, how many mosquitoes remained after 3 weeks of spraying? After 9 weeks?    Weeks        Mosquitos          Weeks        Mosquitos         graph  162,280; 68,504  Scuba divers find that the water in Emerald Lake filters out 15% of the sunlight for each 4 feet they descend. How much sunlight penetrates to a depth of 20 feet? To a depth of 45 feet?    Feet        % of light        Arch's motorboat cost $15,000 in 2000 and has depreciated by 11.5% every year. How much was the boat worth in 2009? In 2010?    Years        Value of boat          Years        Value of boat          motorboat depreciation  $4995.52; $4421.04  Plutonium-238 is a radioactive element that decays over time into a less harmful element at a rate of 0.8% per year. A power plant has 50 pounds of plutonium-238 to dispose of. How much plutonium-238 will be left after 10 years? After 100 years?    Years        Pounds           Riverside County is the fastest growing county in California. In 2000, the population was 1,545,387.  Write a formula for the population of Riverside County as a function of time. (You don't know the value of the growth factor yet.)  In 2004, the population had grown to 1,871,950. Find the growth factor and the percent rate of growth.  According to this model, what was the population of Riverside County in 2010?    3,167,157  In 2006, a new Ford Focus cost $15,574. The value of a Focus decreases exponentially over time.  Write a formula for the value of a Focus as a function of time. (You don't know the value of the decay factor yet.)  A 2-year old Focus cost $11,788. Find the decay factor and the percent rate of depreciation.  According to this model, how much did a 4-year old Focus cost?   In the 1940s David Lack undertook a study of the European robin. He tagged 130 one-year-old robins and found that on average 35.6% of the birds survived each year. (Source: Burton, 1998.)  According to the data, how many robins would have originally hatched to produce 130 one-year-olds?  Write a formula for the number of the original robins still alive after years.  Graph your function on your calculator.  One of the original robins actually survived for 9 years. How many robins does the model predict will survive for 9 years?  365  exponential decay   0.03  Many insects grow by discrete amounts each time they shed their exoskeletons. Dyar’s rule says that the size of the insect increases by a constant ratio at each stage. (Source: Burton, 1998.)  Dyar measured the width of the head of a caterpillar of a swallowtail butterfly at each stage. The caterpillar’s head was initially approximately 42 millimeters wide and was 63.84 millimeters wide after its first stage. Find the growth ratio.  Write an equation for the width of the caterpillar’s head at the stage.  Graph your equation on your calculator.  What head width does the model predict after 5 stages?  The world’s population of tigers declined from 10,400 in 1980 to 6000 in 1998.  If the population declined linearly, what was its annual rate of decrease?  If the population declined exponentially, what was its annual decay factor? What was its annual percent decrease?  Predict the number of tigers in 2010 under each assumption, linear or exponential decline.   2440 tigers per decade  0.765; 23.5%  3080; 4656   On January 10, the college infirmary treated 4 cases of flu. One week later, the total number of flu cases had grown to 6.  If the number of cases grew linearly, what was its weekly rate of growth?  If the number of cases grew exponentially, what was its weekly growth factor? What was its weekly percent increase?  Predict the number of flu cases 6 weeks later under each assumption, linear or exponential growth.  Write a function for the number of flu cases under each assumption. Graph both functions for 10 weeks from January 10.  A researcher starts 2 populations of fruit flies of different species, each with 30 flies. Species A increases by 30% in 6 days, and species B increases by 20% increases in 4 days.  What was the population of species A after 6 days? Find the daily growth factor for species A.  What was the population of species B after 4 days? Find the daily growth factor for species B.  Which species multiplies more rapidly?  39; 1.045  36; 1.047  Species B   The population of Elmira was 350,000 in 1970 and doubled in 20 years. What was the annual percent increase to the nearest hundredth of a percent?  If a population doubles in 20 years, does the percent increase depend on the size of the original population?  The population of Grayling doubled in 20 years. What was the annual percent increase to the nearest hundredth of a percent?    "
 },
 {
   "id": "investigation-population-growth",
@@ -15904,45 +15904,45 @@ var ptx_lunr_docs = [
   "body": "QuickCheck 2 Complete the statement or answer the question.   We can tell whether a linear function is increasing or decreasing by whether its slope is .  We can tell whether an exponential function is increasing or decreasing by whether is .  If a linear function has slope 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one?  If an exponential function has growth factor 1.5, each time we increase the input by 1 unit, how do we find the new function value from the old one?  "
 },
 {
-  "id": "ExponentialGrowthandDecay-6-8-4",
+  "id": "PercentIncrease-8-4",
   "level": "2",
-  "url": "ExponentialGrowthandDecay.html#ExponentialGrowthandDecay-6-8-4",
+  "url": "ExponentialGrowthandDecay.html#PercentIncrease-8-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "initial value growth factor "
 },
 {
-  "id": "ExponentialGrowthandDecay-6-10",
+  "id": "PercentIncrease-10",
   "level": "2",
-  "url": "ExponentialGrowthandDecay.html#ExponentialGrowthandDecay-6-10",
+  "url": "ExponentialGrowthandDecay.html#PercentIncrease-10",
   "type": "Example",
   "number": "7.1.11",
   "title": "",
   "body": "During a period of rapid inflation, prices rose by 12% each year. At the beginning of this time, a loaf of bread cost $2.  Make a table showing the cost of bread over the next four years.  Write a function that gives the price of a loaf of bread years after inflation began.  How much did a loaf of bread cost after 6 years? After 30 months?   Graph the function found in (b).    The percent increase in the cost of bread is 12% every year. Therefore, the growth factor for the cost of bread is every year. If represents the price of bread after years, then , and we multiply the price by 1.12 every year, as shown in the table.                                      After years of inflation the original price of $2 has been multiplied times by a factor of 1.12. Thus,  To find the price of bread at any time after inflation began, we evaluate the function at the appropriate value of . After 6 years the price was $3.95. Thirty months is 2.5 years, so we evaluate . After 30 months the price was $2.66.   To graph the function we evaluate it for several values, as shown in the table. We plot the points and connect them with a smooth curve to obtain the graph shown.  percent increase  "
 },
 {
-  "id": "ExponentialGrowthandDecay-6-12",
+  "id": "PercentIncrease-12",
   "level": "2",
-  "url": "ExponentialGrowthandDecay.html#ExponentialGrowthandDecay-6-12",
+  "url": "ExponentialGrowthandDecay.html#PercentIncrease-12",
   "type": "Checkpoint",
   "number": "7.1.12",
   "title": "QuickCheck 3.",
   "body": "QuickCheck 3 Fill in the blanks.  Increasing by 10% is the same as multiplying by .  If a population grows by 2% annually, its growth factor is .  If a population grows by 46% annually, its growth factor is .  If a population grows by 100% annually, its growth factor is .   "
 },
 {
-  "id": "ExponentialGrowthandDecay-6-13",
+  "id": "PercentIncrease-13",
   "level": "2",
-  "url": "ExponentialGrowthandDecay.html#ExponentialGrowthandDecay-6-13",
+  "url": "ExponentialGrowthandDecay.html#PercentIncrease-13",
   "type": "Checkpoint",
   "number": "7.1.13",
   "title": "Practice 3.",
   "body": "Practice 3 Tombstone, Arizona was the most famous \"boomtown\" during the gold rush in the American west. It was established in December, 1879, after the discovery of a large silver deposit nearby. The original town had 40 dwellings and a population of 100. Over the next two to three years, the population grew at an average rate of 19% per month.  What was the population one year later, in December, 1880?  Write a formula for , the population of Tombstone months after its founding.  Complete the table and sketch a graph of .                    Tombstone's peak population was about 10,000 people. Use your graph to estimate the time it took to reach that figure.   806              100  239  569  1359  3243  7739  population Tombstone, AZ  About 26 months  "
 },
 {
-  "id": "ExponentialGrowthandDecay-6-15-6",
+  "id": "PercentIncrease-16-6",
   "level": "2",
-  "url": "ExponentialGrowthandDecay.html#ExponentialGrowthandDecay-6-15-6",
+  "url": "ExponentialGrowthandDecay.html#PercentIncrease-16-6",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -18097,7 +18097,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.5",
   "title": "Exponential Models",
-  "body": "Exponential Models  Using what we have learned about exponential functions and logarithms, we can now explore some exponential models. In this secction we'll see how to fit an exponential function to data and how to use doubling time and half-life.  Fitting an Exponential Function through Two Points  To write a formula for an exponential function , we need to know the initial value, initial value , and the growth or decay factor, . We can find these two parameters if we know any two function values.  Find an exponential function that has the values and .  We would like to find values of and so that the given function values satisfy . By substituting the function values into the formula, we can write two equations. We now have a system of equations in the two unknowns and : but it is not a linear system. We can solve the system by the method of elimination, but instead of adding the equations, we will divide one of the equations by the other. Note that by dividing the two equations, we eliminated , and we can now solve for . Next we substitute into either of the two equations and solve for . Thus, and , and the function is .  Knowing only two points on the graph of is not enough to tell us what kind of function is. Through the two points in , we can also fit a linear function or a power function.  You can check that the three functions below all satisfy and . The graphs of the functions are shown at right.  three functions through the same two points   However, if we already know that we are looking for an exponential function, we can follow the steps below to find its formula. This method is sometimes called the ratio method ratio method . (Of course, if one of the known function values is the initial value, we can find without resorting to the ratio method.)   To find an exponential function through two points: exponential function finding a formula     Use the coordinates of the points to write two equations in and .   Divide one equation by the other to eliminate .  Solve for .  Substitute into either equation and solve for .     Practice 1 Use the ratio method to find an exponential function whose graph includes the points and .  QuickCheck 1 You have written a system of equations to fit an exponential function through two points. What is the next step?   Calculate the slope.  Subtract one equation from the other.  Divide one equation by the other.  Take the log of both sides.   We can use the ratio method to find an exponential growth or decay model if we know two function values.  The unit of currency in Ghana is the cedi, denoted by ¢. Beginning in 1986, the cedi underwent a period of exponential inflation. In 1993, one U.S. dollar was worth ¢720, and in 1996, the dollar was worth about ¢1620. Find a formula for the number of cedi to the dollar as a function of time since 1986. What was the annual inflation rate during the decade from 1986 to 1996?  We want to find a function for the number of cedi to the dollar, where in 1986. We have two function values, , and , and with these values we can write two equations. We divide the second equation by the first to find Now we can solve this last equation for to get . Finally, we substitute into the first equation to find . Thus, . Finally, recall that to see that the annual inflation rate was 31%.  For help interpreting function notation, see Section 7.5.1 of the Toolkit.  Practice 2 The number of earthquakes that occur worldwide is a decreasing exponential function of their magnitude on the Richter scale. Between 2000 and 2005, there were 7480 earthquakes of magnitude 5 and 793 earthquakes of magnitude 6. (Source: National Earthquake Information Center, U.S. Geological Survey)   Find a formula for the number of earthquakes that occurred between 2000 and 2005, , in terms of their magnitude, . (Notice that in this problem is not a function of time; is a function of Richter magnitude .) Round your value for to the nearest million, because greater accuracy is not realistic.  It is difficult to keep an accurate count of small earthquakes. Use your formula to estimate the number of magnitude 1 earthquakes that occurred between 2000 and 2005.  How many earthquakes of magnitude 8 occurred over those five years?        Doubling Time doubling time  Instead of giving the rate of growth of a population, we often specify its rate of growth by giving the time it takes for the population to double. Let us see how those two descriptions are connected.  In 2005, the population of Egypt was 74 million and was growing by 2% per year.  If it continues to grow at the same rate, how long will it take the population of Egypt to double?  How long will it take the population to double again?  Illustrate the results on a graph.    The population of Egypt is growing according to the formula where is in years and is in millions. We would like to know when the population will reach 148 million (twice 74 million), so we solve the equation It will take the population about 35 years to double.  Twice 148 million is 296 million, so we solve the equation It will take the population about 35 years to double again.  A graph of is shown below. Note that the population doubles every 35 years.  graph showing doubling time   In the Example above, notice that the calculations in parts (a) and (b) are identical after the first step, and give the same result, 35 years. In fact, we can start at any time, and it will take the population 35 years to double. We say that 35 years is the doubling time for this population. Every increasing exponential function exponential growth has a constant doubling time. And if a function has a constant doubling time, it must be exponential.  Practice 3 In 2005, the population of Uganda was 26.9 million people and was growing by 3.2% per year.   Write a formula for the population of Uganda as a function of years since 2005.  To the nearest year,how long will it take the population of Uganda to double?  Use your formula from part (a) to verify the doubling time for three doubling periods.   million  22 years  ; , so ;   , so ;   , so   QuickCheck 2 Which of these statements are true?   The doubling time of a population depends on its initial value.  An increasing exponential function has a constant doubling time.  The doubling time is twice the percent growth rate.  The doubling time is half the percent growth rate.   If we know the doubling time for a population, we can immediately write down its growth law. Because the population of Egypt doubles in 35 years, we can write In this form, the growth factor for the population is , and you can check that, to five decimal places, .  Doubling Time doubling time  If is the doubling time for an exponential function , then   So, from knowing the doubling time, we can easily find the growth rate of a population.  At its current rate of growth, the population of the United States will double in 115.87 years.   Write a formula for the population of the United States as a function of time.  What is the annual percent growth rate of the population?    The current population of the United States is not given, so we represent it by . With expressed in years, the formula is then  We write in the form to see that the growth factor is , or 1.006. For exponential growth, , so , or 0.6%.    Practice 4 At its current rate of growth, the population of Mexico will double in 36.8 years. What is its annual percent rate of growth? 1.9%  Half-Life half-life  The half-life half-life of a decreasing exponential function is the time it takes for the output to decrease to half its original value. For example, the half-life of a radioactive isotope is the time it takes for half of the substance to decay. The half-life of a drug is the time it takes for half of the drug to be eliminated from the body. Like the doubling time, the half-life is constant for a particular function; no matter where you start, it takes the same amount of time to reach half that value.  If you take mg of ibuprofen to relieve sore muscles, the amount of the drug left in your body after hours is .  What is the half-life of ibuprofen?  When will 50 mg of ibuprofen remain in your body?  Use the half-life to sketch a graph of .    To find the half-life, we calculate the time elapsed when only half the original amount, or 100 mg, is left. The half-life is 2.2 hours.  After 2.2 hours, 100 mg of ibuprofen is left in the body. After another 2.2 hours, half of that amount, or 50 mg, is left. Thus, 50 mg remain after 4.4 hours.  We locate multiples of 2.2 hours on the horizontal axis. After each interval of 2.2 hours, the amount of ibuprofen is reduced to half its previous value. The graph is shown below.   graph showing half-life                   Practice 5 Alcohol is eliminated from the body at a rate of 15% per hour.   Write a decay formula for the amount of alcohol remaining in the body, using for the initial amount of alcohol.  What is the half-life of alcohol in the body?    4.3 hours   QuickCheck 3 The half-life of DDT is 15 years. This means that:   30 pounds of DDT dissolve in one year.  100 pounds of DDT dissolve in 30 years.  After 30 years, 100 pounds of DDT is reduced to 25 pounds.  Each half-pound of DDT takes 15 years to dissolve.   Just as we can write an exponential growth law in terms of its doubling time, we can use the half-life to write a formula for exponential decay. exponential decay For example, the half-life of ibuprofen is 2.2 hours, so every 2.2 hours the amount remaining is reduced by a factor of 0.5. After hours a 200-mg dose will be reduced to Once again, you can check that this formula is equivalent to the decay function given in the previous Example.  Half-Life half-life  If is the half-life for an exponential function , then   Radioactive isotopes are molecules that decay into more stable molecules, emitting radiation in the process. Although radiation in large doses is harmful to living things, radioactive isotopes are useful as tracers in medicine and industry, and as treatment against cancer. The decay laws for radioactive isotopes are often given in terms of their half-lives.  Cobalt-60 is used in cold pasteurization to sterilize certain types of food. Gamma rays emitted by the isotope during radioactive decay kill any bacteria present without damaging the food. The half-life of cobalt-60 is 5.27 years.   Write a decay law for cobalt-60.  What is the annual decay rate for cobalt-60?    We let denote the amount of cobalt-60 left after years, and let denote the initial amount. Every 5.27 years, is reduced by a factor of 0.5, so  We rewrite the decay law in the form as follows: Thus, , so , or 12.32%.   For more examples of doubling time and half-life, see Section 7.5.3 of the Toolkit.  Practice 6 Cesium-137, with a half-life of 30 years, is one of the most dangerous by-products of nuclear fission. What is the annual decay rate for cesium-137? 2.28%  QuickCheck 4 Decide whether each statement is true or false.   Every increasing exponential function has a constant doubling time.  If the doubling time of a population is 5 years, then its growth factor is given by .  The half-life of a substance is half the time it takes for all of the substance to decay.  We can sketch the graph of an exponential decay function if we know its half-life and initial value.     Problem Set 7.5  Warm Up  For Problems 1-4, solve. Round your answers to hundredths.  4.16   16    For Problems 5 8, find an equation for the line with the given properties.   slope , -intercept is  slope , passes through  passes through and  passes through and    Skills Practice  For Problems 9 and 10, find an exponential function that has the given values.      For Problems 11 and 12, find a formula for the exponential function.   mystery exponential growth  mystery exponential decay   For Problems 13 and 14,  fit a linear function to the points,  fit an exponential function to the points,  graph both functions in the same window.  ,    graph     Applications  For Problems 15-18, write a growth or decay formula for the exponential function. Then find the percent growth or decay rate.  A population starts with 2000 and has a doubling time of 5 years. 14.9%  You have 10 grams of a radioactive isotope whose half-life is 42 years.  A certain medication has a half-life of 18 hours in the body. You are given an initial dose of mg. 3.8%  The doubling time of a certain financial investment is 8 years. You invest an amount .   In 1798, the English political economist Thomas R. Malthus claimed that human populations, unchecked by environmental or social constraints, double every 25 years, regardless of the initial population size.  Write a growth law for human populations under these conditions.  What is the growth rate in unconstrained conditions?    2.81%   David Sifry observed in 2005 that over the previous two years, the number of Weblogs, or blogs, was doubling every 5 months. (Source: www.sifry.com\/alerts\/archives)  Write a formula for the number of blogs years after January 2005, assuming it continues to grow at the same rate.  What is the growth rate for the number of blogs?   Radioactive potassium-42, which is used by cardiologists as a tracer, decays at a rate of 5.4% per hour.  Find the half-life of potassium-42.  How long will it take for three-fourths of the sample to decay? For seven-eighths of the sample?  Suppose you start with 400 milligrams of potassium-42. Using your answers to (a) and (b), make a rough sketch of the decay function.   hours  25 hours  decay   Caffeine leaves the body at a rate of 15.6% each hour. Your first cup of coffee in the morning has 100 mg of caffeine.  How long will it take before you have 50 mg of that caffeine in your body?  How long will it take before you have 25 mg of that caffeine in your body?  Using your answers to (a) and (b), make a rough sketch of the decay function.   Dichloro-diphenyl-trichloroethane (DDT) is a pesticide that was used in the middle decades of the twentieth century to control malaria. After 1945, it was also widely used on crops in the United States, and as much as one ton might be sprayed on a single cotton field. However, after the toxic effects of DDT on the environment began to appear, the chemical was banned in 1972.  A common estimate for the half-life of DDT in the soil is 15 years. Write a decay law for DDT in the soil.  In 1970, many soil samples in the United States contained about 0.5 mg of DDT per kg of soil. The NOAA (National Oceanic and Atmospheric Administration) safe level for DDT in the soil is 0.008 mg\/kg. When will DDT content in the soil be reduced to a safe level?    After 89.5 years, or in 2060  In 1986, the inflation rate in Bolivia was 8000% annually. The unit of currency in Bolivia is the boliviano.  Write a formula for the price of an item as a function of time. Let be its initial price.  How long did it take for prices to double? Give both an exact value and a decimal approximation rounded to two decimal places.  Suppose bolivianos. Graph your function in the window , , , .  Use intersect to verify that the price of the item doubles from 5 to 10 bolivianos, from 10 to 20, and from 20 to 40 in equal periods of time.   In Problems 25 and 26,  Write a decay law for the isotope.  Use the decay law to answer the question. (Round to the nearest ten years.)   In living organisms, carbon-14 occurs with a fixed ratio to nonradioactive carbon-12. After a plant or animal dies, the carbon-14 decays into stable carbon with a halflife of 5730 years. When samples from the Shroud of Turin were analyzed in 1988, they were found to have 91.2% of their original carbon-14. How old were those samples in 1988?   About 760 years old   Rubidium-strontium radioactive dating is used in geologic studies to measure the age of minerals. Rubidium-87 decays into strontium-87 with a half-life of 48.8 billion years. Several meteors were found to have 93.7% of their original rubidium. How old are the meteors?   For Problems 27-30, use the following formula for compound interest. If dollars is invested at an annual interest rate (expressed as a decimal) compounded times yearly, the amount after years is given by   What rate of interest is required so that $1000 will yield $1900 after 5 years if the interest rate is compounded monthly? 12.9%  What rate of interest is required so that $400 will yield $600 after 3 years if the interest rate is compounded quarterly?  How long will it take a sum of money to triple if it is invested at 10% compounded daily? About 11 years  How long will it take a sum of money to increase by a factor of 5 if it is invested at 10% compounded quarterly?     "
+  "body": "Exponential Models  Using what we have learned about exponential functions and logarithms, we can now explore some exponential models. In this secction we'll see how to fit an exponential function to data and how to use doubling time and half-life.  Fitting an Exponential Function through Two Points  To write a formula for an exponential function , we need to know the initial value, initial value , and the growth or decay factor, . We can find these two parameters if we know any two function values.  Find an exponential function that has the values and .  We would like to find values of and so that the given function values satisfy . By substituting the function values into the formula, we can write two equations. We now have a system of equations in the two unknowns and : but it is not a linear system. We can solve the system by the method of elimination, but instead of adding the equations, we will divide one of the equations by the other. Note that by dividing the two equations, we eliminated , and we can now solve for . Next we substitute into either of the two equations and solve for . Thus, and , and the function is .  Knowing only two points on the graph of is not enough to tell us what kind of function is. Through the two points in , we can also fit a linear function or a power function.  You can check that the three functions below all satisfy and . The graphs of the functions are shown at right.  three functions through the same two points   However, if we already know that we are looking for an exponential function, we can follow the steps below to find its formula. This method is sometimes called the ratio method ratio method . (Of course, if one of the known function values is the initial value, we can find without resorting to the ratio method.)   To find an exponential function through two points: exponential function finding a formula     Use the coordinates of the points to write two equations in and .   Divide one equation by the other to eliminate .  Solve for .  Substitute into either equation and solve for .     Practice 1 Use the ratio method to find an exponential function whose graph includes the points and .  QuickCheck 1 You have written a system of equations to fit an exponential function through two points. What is the next step?   Calculate the slope.  Subtract one equation from the other.  Divide one equation by the other.  Take the log of both sides.   We can use the ratio method to find an exponential growth or decay model if we know two function values.  The unit of currency in Ghana is the cedi, denoted by ¢. Beginning in 1986, the cedi underwent a period of exponential inflation. In 1993, one U.S. dollar was worth ¢720, and in 1996, the dollar was worth about ¢1620. Find a formula for the number of cedi to the dollar as a function of time since 1986. What was the annual inflation rate during the decade from 1986 to 1996?  We want to find a function for the number of cedi to the dollar, where in 1986. We have two function values, , and , and with these values we can write two equations. We divide the second equation by the first to find Now we can solve this last equation for to get . Finally, we substitute into the first equation to find . Thus, . Finally, recall that to see that the annual inflation rate was 31%.  For help interpreting function notation, see Section 7.5.1 of the Toolkit.  Practice 2 The number of earthquakes that occur worldwide is a decreasing exponential function of their magnitude on the Richter scale. Between 2000 and 2005, there were 7480 earthquakes of magnitude 5 and 793 earthquakes of magnitude 6. (Source: National Earthquake Information Center, U.S. Geological Survey)   Find a formula for the number of earthquakes that occurred between 2000 and 2005, , in terms of their magnitude, . (Notice that in this problem is not a function of time; is a function of Richter magnitude .) Round your value for to the nearest million, because greater accuracy is not realistic.  It is difficult to keep an accurate count of small earthquakes. Use your formula to estimate the number of magnitude 1 earthquakes that occurred between 2000 and 2005.  How many earthquakes of magnitude 8 occurred over those five years?        Doubling Time doubling time  Instead of giving the rate of growth of a population, we often specify its rate of growth by giving the time it takes for the population to double. Let us see how those two descriptions are connected.  In 2005, the population of Egypt was 74 million and was growing by 2% per year.  If it continues to grow at the same rate, how long will it take the population of Egypt to double?  How long will it take the population to double again?  Illustrate the results on a graph.    The population of Egypt is growing according to the formula where is in years and is in millions. We would like to know when the population will reach 148 million (twice 74 million), so we solve the equation It will take the population about 35 years to double.  Twice 148 million is 296 million, so we solve the equation It will take the population about 35 years to double again.  A graph of is shown below. Note that the population doubles every 35 years.  graph showing doubling time   In the Example above, notice that the calculations in parts (a) and (b) are identical after the first step, and give the same result, 35 years. In fact, we can start at any time, and it will take the population 35 years to double. We say that 35 years is the doubling time for this population. Every increasing exponential function exponential growth has a constant doubling time. And if a function has a constant doubling time, it must be exponential.  Practice 3 In 2005, the population of Uganda was 26.9 million people and was growing by 3.2% per year.   Write a formula for the population of Uganda as a function of years since 2005.  To the nearest year,how long will it take the population of Uganda to double?  Use your formula from part (a) to verify the doubling time for three doubling periods.   million  22 years  ; , so ;   , so ;   , so   QuickCheck 2 Which of these statements are true?   The doubling time of a population depends on its initial value.  An increasing exponential function has a constant doubling time.  The doubling time is twice the percent growth rate.  The doubling time is half the percent growth rate.   If we know the doubling time for a population, we can immediately write down its growth law. Because the population of Egypt doubles in 35 years, we can write In this form, the growth factor for the population is , and you can check that, to five decimal places, .  Doubling Time doubling time  If is the doubling time for an exponential function , then   So, from knowing the doubling time, we can easily find the growth rate of a population.  At its current rate of growth, the population of the United States will double in 115.87 years.   Write a formula for the population of the United States as a function of time.  What is the annual percent growth rate of the population?    The current population of the United States is not given, so we represent it by . With expressed in years, the formula is then  We write in the form to see that the growth factor is , or 1.006. For exponential growth, , so , or 0.6%.    Practice 4 At its current rate of growth, the population of Mexico will double in 36.8 years. What is its annual percent rate of growth? 1.9%  Half-Life half-life  The half-life half-life of a decreasing exponential function is the time it takes for the output to decrease to half its original value. For example, the half-life of a radioactive isotope is the time it takes for half of the substance to decay. The half-life of a drug is the time it takes for half of the drug to be eliminated from the body. Like the doubling time, the half-life is constant for a particular function; no matter where you start, it takes the same amount of time to reach half that value.  If you take mg of ibuprofen to relieve sore muscles, the amount of the drug left in your body after hours is .  What is the half-life of ibuprofen?  When will 50 mg of ibuprofen remain in your body?  Use the half-life to sketch a graph of .    To find the half-life, we calculate the time elapsed when only half the original amount, or 100 mg, is left. The half-life is 2.2 hours.  After 2.2 hours, 100 mg of ibuprofen is left in the body. After another 2.2 hours, half of that amount, or 50 mg, is left. Thus, 50 mg remain after 4.4 hours.  We locate multiples of 2.2 hours on the horizontal axis. After each interval of 2.2 hours, the amount of ibuprofen is reduced to half its previous value. The graph is shown below.   graph showing half-life                   Practice 5 Alcohol is eliminated from the body at a rate of 15% per hour.   Write a decay formula for the amount of alcohol remaining in the body, using for the initial amount of alcohol.  What is the half-life of alcohol in the body?    4.3 hours   QuickCheck 3 The half-life of DDT is 15 years. This means that:   30 pounds of DDT dissolve in one year.  100 pounds of DDT dissolve in 30 years.  After 30 years, 100 pounds of DDT is reduced to 25 pounds.  Each half-pound of DDT takes 15 years to dissolve.   Just as we can write an exponential growth law in terms of its doubling time, we can use the half-life to write a formula for exponential decay. exponential decay For example, the half-life of ibuprofen is 2.2 hours, so every 2.2 hours the amount remaining is reduced by a factor of 0.5. After hours a 200-mg dose will be reduced to Once again, you can check that this formula is equivalent to the decay function given in the previous Example.  Half-Life half-life  If is the half-life for an exponential function , then   Radioactive isotopes are molecules that decay into more stable molecules, emitting radiation in the process. Although radiation in large doses is harmful to living things, radioactive isotopes are useful as tracers in medicine and industry, and as treatment against cancer. The decay laws for radioactive isotopes are often given in terms of their half-lives.  Cobalt-60 is used in cold pasteurization to sterilize certain types of food. Gamma rays emitted by the isotope during radioactive decay kill any bacteria present without damaging the food. The half-life of cobalt-60 is 5.27 years.   Write a decay law for cobalt-60.  What is the annual decay rate for cobalt-60?    We let denote the amount of cobalt-60 left after years, and let denote the initial amount. Every 5.27 years, is reduced by a factor of 0.5, so  We rewrite the decay law in the form as follows: Thus, , so , or 12.32%.   For more examples of doubling time and half-life, see Section 7.5.3 of the Toolkit.  Practice 6 Cesium-137, with a half-life of 30 years, is one of the most dangerous by-products of nuclear fission. What is the annual decay rate for cesium-137? 2.28%  QuickCheck 4 Decide whether each statement is true or false.   Every increasing exponential function has a constant doubling time.  If the doubling time of a population is 5 years, then its growth factor is given by .  The half-life of a substance is half the time it takes for all of the substance to decay.  We can sketch the graph of an exponential decay function if we know its half-life and initial value.    Compound Interest  In Section 7.1.5 we considered a formula for interest compounded annually. Many accounts compound interest more frequently than once a year. If the interest is compounded times per year, then in years there will be compounding periods, and in each period the account earns interest at a rate of . The amount accumulated is given by a generalization of our earlier formula.  Compound Interest  The amount accumulated (principal plus interest) in an account earning interest compounded times annually is where is the principal invested, is the interest rate, and is the time period, in years.  Nigel deposited $1000 in an account that pays 4% interest. Calculate the amount in his account after 5 years if the interest is compounded  quarterly  monthly    Quarterly means 4 times a year, so we use the compound interest formula with . If interest is compounded quarterly, the balance in the account after 5 years is $1220.19.  There are 12 months in a year, so we use the compound interest formula with . If interest is compounded quarterly, the balance in the account after 5 years is $1221.   In Example 7.1.18 above, you can see that the larger the value of , the greater the value of . More frequent compounding periods result in a higher account balance.  Practice 7 Calculate the amount in Nigel's account after 5 years if the interest is compounded weekly. (See Example 7.1.18. There are 52 weeks in a year.) $1221.31    Problem Set 7.5  Warm Up  For Problems 1-4, solve. Round your answers to hundredths.  4.16   16    For Problems 5 8, find an equation for the line with the given properties.   slope , -intercept is  slope , passes through  passes through and  passes through and    Skills Practice  For Problems 9 and 10, find an exponential function that has the given values.      For Problems 11 and 12, find a formula for the exponential function.   mystery exponential growth  mystery exponential decay   For Problems 13 and 14,  fit a linear function to the points,  fit an exponential function to the points,  graph both functions in the same window.  ,    graph     Applications  For Problems 15-18, write a growth or decay formula for the exponential function. Then find the percent growth or decay rate.  A population starts with 2000 and has a doubling time of 5 years. 14.9%  You have 10 grams of a radioactive isotope whose half-life is 42 years.  A certain medication has a half-life of 18 hours in the body. You are given an initial dose of mg. 3.8%  The doubling time of a certain financial investment is 8 years. You invest an amount .   In 1798, the English political economist Thomas R. Malthus claimed that human populations, unchecked by environmental or social constraints, double every 25 years, regardless of the initial population size.  Write a growth law for human populations under these conditions.  What is the growth rate in unconstrained conditions?    2.81%   David Sifry observed in 2005 that over the previous two years, the number of Weblogs, or blogs, was doubling every 5 months. (Source: www.sifry.com\/alerts\/archives)  Write a formula for the number of blogs years after January 2005, assuming it continues to grow at the same rate.  What is the growth rate for the number of blogs?   Radioactive potassium-42, which is used by cardiologists as a tracer, decays at a rate of 5.4% per hour.  Find the half-life of potassium-42.  How long will it take for three-fourths of the sample to decay? For seven-eighths of the sample?  Suppose you start with 400 milligrams of potassium-42. Using your answers to (a) and (b), make a rough sketch of the decay function.   hours  25 hours  decay   Caffeine leaves the body at a rate of 15.6% each hour. Your first cup of coffee in the morning has 100 mg of caffeine.  How long will it take before you have 50 mg of that caffeine in your body?  How long will it take before you have 25 mg of that caffeine in your body?  Using your answers to (a) and (b), make a rough sketch of the decay function.   Dichloro-diphenyl-trichloroethane (DDT) is a pesticide that was used in the middle decades of the twentieth century to control malaria. After 1945, it was also widely used on crops in the United States, and as much as one ton might be sprayed on a single cotton field. However, after the toxic effects of DDT on the environment began to appear, the chemical was banned in 1972.  A common estimate for the half-life of DDT in the soil is 15 years. Write a decay law for DDT in the soil.  In 1970, many soil samples in the United States contained about 0.5 mg of DDT per kg of soil. The NOAA (National Oceanic and Atmospheric Administration) safe level for DDT in the soil is 0.008 mg\/kg. When will DDT content in the soil be reduced to a safe level?    After 89.5 years, or in 2060  In 1986, the inflation rate in Bolivia was 8000% annually. The unit of currency in Bolivia is the boliviano.  Write a formula for the price of an item as a function of time. Let be its initial price.  How long did it take for prices to double? Give both an exact value and a decimal approximation rounded to two decimal places.  Suppose bolivianos. Graph your function in the window , , , .  Use intersect to verify that the price of the item doubles from 5 to 10 bolivianos, from 10 to 20, and from 20 to 40 in equal periods of time.   In Problems 25 and 26,  Write a decay law for the isotope.  Use the decay law to answer the question. (Round to the nearest ten years.)   In living organisms, carbon-14 occurs with a fixed ratio to nonradioactive carbon-12. After a plant or animal dies, the carbon-14 decays into stable carbon with a halflife of 5730 years. When samples from the Shroud of Turin were analyzed in 1988, they were found to have 91.2% of their original carbon-14. How old were those samples in 1988?   About 760 years old   Rubidium-strontium radioactive dating is used in geologic studies to measure the age of minerals. Rubidium-87 decays into strontium-87 with a half-life of 48.8 billion years. Several meteors were found to have 93.7% of their original rubidium. How old are the meteors?   For Problems 27-30, use the following formula for compound interest. If dollars is invested at an annual interest rate (expressed as a decimal) compounded times yearly, the amount after years is given by   What rate of interest is required so that $1000 will yield $1900 after 5 years if the interest rate is compounded monthly? 12.9%  What rate of interest is required so that $400 will yield $600 after 3 years if the interest rate is compounded quarterly?  How long will it take a sum of money to triple if it is invested at 10% compounded daily? About 11 years  How long will it take a sum of money to increase by a factor of 5 if it is invested at 10% compounded quarterly?     "
 },
 {
   "id": "example-fit-exponential",
@@ -18280,11 +18280,38 @@ var ptx_lunr_docs = [
   "body": "QuickCheck 4 Decide whether each statement is true or false.   Every increasing exponential function has a constant doubling time.  If the doubling time of a population is 5 years, then its growth factor is given by .  The half-life of a substance is half the time it takes for all of the substance to decay.  We can sketch the graph of an exponential decay function if we know its half-life and initial value.  "
 },
 {
+  "id": "CompAnn-3-2",
+  "level": "2",
+  "url": "ExponentialModels.html#CompAnn-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "amount "
+},
+{
+  "id": "CompAnn-4",
+  "level": "2",
+  "url": "ExponentialModels.html#CompAnn-4",
+  "type": "Example",
+  "number": "7.5.18",
+  "title": "",
+  "body": "Nigel deposited $1000 in an account that pays 4% interest. Calculate the amount in his account after 5 years if the interest is compounded  quarterly  monthly    Quarterly means 4 times a year, so we use the compound interest formula with . If interest is compounded quarterly, the balance in the account after 5 years is $1220.19.  There are 12 months in a year, so we use the compound interest formula with . If interest is compounded quarterly, the balance in the account after 5 years is $1221.  "
+},
+{
+  "id": "CompAnn-6",
+  "level": "2",
+  "url": "ExponentialModels.html#CompAnn-6",
+  "type": "Checkpoint",
+  "number": "7.5.19",
+  "title": "Practice 7.",
+  "body": "Practice 7 Calculate the amount in Nigel's account after 5 years if the interest is compounded weekly. (See Example 7.1.18. There are 52 weeks in a year.) $1221.31 "
+},
+{
   "id": "section-7-5-exercises-2-2-2",
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-2-2-2",
   "type": "Exercise",
-  "number": "7.5.4.1",
+  "number": "7.5.5.1",
   "title": "",
   "body": "4.16 "
 },
@@ -18293,7 +18320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-2-2-3",
   "type": "Exercise",
-  "number": "7.5.4.2",
+  "number": "7.5.5.2",
   "title": "",
   "body": ""
 },
@@ -18302,7 +18329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-2-2-4",
   "type": "Exercise",
-  "number": "7.5.4.3",
+  "number": "7.5.5.3",
   "title": "",
   "body": "16 "
 },
@@ -18311,7 +18338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-2-2-5",
   "type": "Exercise",
-  "number": "7.5.4.4",
+  "number": "7.5.5.4",
   "title": "",
   "body": ""
 },
@@ -18320,7 +18347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-2-3-2",
   "type": "Exercise",
-  "number": "7.5.4.5",
+  "number": "7.5.5.5",
   "title": "",
   "body": "slope , -intercept is "
 },
@@ -18329,7 +18356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-2-3-3",
   "type": "Exercise",
-  "number": "7.5.4.6",
+  "number": "7.5.5.6",
   "title": "",
   "body": "slope , passes through "
 },
@@ -18338,7 +18365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-2-3-4",
   "type": "Exercise",
-  "number": "7.5.4.7",
+  "number": "7.5.5.7",
   "title": "",
   "body": "passes through and "
 },
@@ -18347,7 +18374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-2-3-5",
   "type": "Exercise",
-  "number": "7.5.4.8",
+  "number": "7.5.5.8",
   "title": "",
   "body": "passes through and "
 },
@@ -18356,7 +18383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-3-2-2",
   "type": "Exercise",
-  "number": "7.5.4.9",
+  "number": "7.5.5.9",
   "title": "",
   "body": ""
 },
@@ -18365,7 +18392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-3-2-3",
   "type": "Exercise",
-  "number": "7.5.4.10",
+  "number": "7.5.5.10",
   "title": "",
   "body": ""
 },
@@ -18374,7 +18401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-3-3-2",
   "type": "Exercise",
-  "number": "7.5.4.11",
+  "number": "7.5.5.11",
   "title": "",
   "body": "mystery exponential growth "
 },
@@ -18383,7 +18410,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-3-3-3",
   "type": "Exercise",
-  "number": "7.5.4.12",
+  "number": "7.5.5.12",
   "title": "",
   "body": "mystery exponential decay "
 },
@@ -18392,7 +18419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-3-4-2",
   "type": "Exercise",
-  "number": "7.5.4.13",
+  "number": "7.5.5.13",
   "title": "",
   "body": ",    graph "
 },
@@ -18401,7 +18428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-3-4-3",
   "type": "Exercise",
-  "number": "7.5.4.14",
+  "number": "7.5.5.14",
   "title": "",
   "body": ""
 },
@@ -18410,7 +18437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-2-2",
   "type": "Exercise",
-  "number": "7.5.4.15",
+  "number": "7.5.5.15",
   "title": "",
   "body": "A population starts with 2000 and has a doubling time of 5 years. 14.9% "
 },
@@ -18419,7 +18446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-2-3",
   "type": "Exercise",
-  "number": "7.5.4.16",
+  "number": "7.5.5.16",
   "title": "",
   "body": "You have 10 grams of a radioactive isotope whose half-life is 42 years. "
 },
@@ -18428,7 +18455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-2-4",
   "type": "Exercise",
-  "number": "7.5.4.17",
+  "number": "7.5.5.17",
   "title": "",
   "body": "A certain medication has a half-life of 18 hours in the body. You are given an initial dose of mg. 3.8% "
 },
@@ -18437,7 +18464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-2-5",
   "type": "Exercise",
-  "number": "7.5.4.18",
+  "number": "7.5.5.18",
   "title": "",
   "body": "The doubling time of a certain financial investment is 8 years. You invest an amount . "
 },
@@ -18446,7 +18473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-3",
   "type": "Exercise",
-  "number": "7.5.4.19",
+  "number": "7.5.5.19",
   "title": "",
   "body": "In 1798, the English political economist Thomas R. Malthus claimed that human populations, unchecked by environmental or social constraints, double every 25 years, regardless of the initial population size.  Write a growth law for human populations under these conditions.  What is the growth rate in unconstrained conditions?    2.81%  "
 },
@@ -18455,7 +18482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-4",
   "type": "Exercise",
-  "number": "7.5.4.20",
+  "number": "7.5.5.20",
   "title": "",
   "body": "David Sifry observed in 2005 that over the previous two years, the number of Weblogs, or blogs, was doubling every 5 months. (Source: www.sifry.com\/alerts\/archives)  Write a formula for the number of blogs years after January 2005, assuming it continues to grow at the same rate.  What is the growth rate for the number of blogs?  "
 },
@@ -18464,7 +18491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-5",
   "type": "Exercise",
-  "number": "7.5.4.21",
+  "number": "7.5.5.21",
   "title": "",
   "body": "Radioactive potassium-42, which is used by cardiologists as a tracer, decays at a rate of 5.4% per hour.  Find the half-life of potassium-42.  How long will it take for three-fourths of the sample to decay? For seven-eighths of the sample?  Suppose you start with 400 milligrams of potassium-42. Using your answers to (a) and (b), make a rough sketch of the decay function.   hours  25 hours  decay  "
 },
@@ -18473,7 +18500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-6",
   "type": "Exercise",
-  "number": "7.5.4.22",
+  "number": "7.5.5.22",
   "title": "",
   "body": "Caffeine leaves the body at a rate of 15.6% each hour. Your first cup of coffee in the morning has 100 mg of caffeine.  How long will it take before you have 50 mg of that caffeine in your body?  How long will it take before you have 25 mg of that caffeine in your body?  Using your answers to (a) and (b), make a rough sketch of the decay function.  "
 },
@@ -18482,7 +18509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-7",
   "type": "Exercise",
-  "number": "7.5.4.23",
+  "number": "7.5.5.23",
   "title": "",
   "body": "Dichloro-diphenyl-trichloroethane (DDT) is a pesticide that was used in the middle decades of the twentieth century to control malaria. After 1945, it was also widely used on crops in the United States, and as much as one ton might be sprayed on a single cotton field. However, after the toxic effects of DDT on the environment began to appear, the chemical was banned in 1972.  A common estimate for the half-life of DDT in the soil is 15 years. Write a decay law for DDT in the soil.  In 1970, many soil samples in the United States contained about 0.5 mg of DDT per kg of soil. The NOAA (National Oceanic and Atmospheric Administration) safe level for DDT in the soil is 0.008 mg\/kg. When will DDT content in the soil be reduced to a safe level?    After 89.5 years, or in 2060 "
 },
@@ -18491,7 +18518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-8",
   "type": "Exercise",
-  "number": "7.5.4.24",
+  "number": "7.5.5.24",
   "title": "",
   "body": "In 1986, the inflation rate in Bolivia was 8000% annually. The unit of currency in Bolivia is the boliviano.  Write a formula for the price of an item as a function of time. Let be its initial price.  How long did it take for prices to double? Give both an exact value and a decimal approximation rounded to two decimal places.  Suppose bolivianos. Graph your function in the window , , , .  Use intersect to verify that the price of the item doubles from 5 to 10 bolivianos, from 10 to 20, and from 20 to 40 in equal periods of time.  "
 },
@@ -18500,7 +18527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-9-2",
   "type": "Exercise",
-  "number": "7.5.4.25",
+  "number": "7.5.5.25",
   "title": "",
   "body": "In living organisms, carbon-14 occurs with a fixed ratio to nonradioactive carbon-12. After a plant or animal dies, the carbon-14 decays into stable carbon with a halflife of 5730 years. When samples from the Shroud of Turin were analyzed in 1988, they were found to have 91.2% of their original carbon-14. How old were those samples in 1988?   About 760 years old  "
 },
@@ -18509,7 +18536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-9-3",
   "type": "Exercise",
-  "number": "7.5.4.26",
+  "number": "7.5.5.26",
   "title": "",
   "body": "Rubidium-strontium radioactive dating is used in geologic studies to measure the age of minerals. Rubidium-87 decays into strontium-87 with a half-life of 48.8 billion years. Several meteors were found to have 93.7% of their original rubidium. How old are the meteors? "
 },
@@ -18518,7 +18545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-10-2",
   "type": "Exercise",
-  "number": "7.5.4.27",
+  "number": "7.5.5.27",
   "title": "",
   "body": "What rate of interest is required so that $1000 will yield $1900 after 5 years if the interest rate is compounded monthly? 12.9% "
 },
@@ -18527,7 +18554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-10-3",
   "type": "Exercise",
-  "number": "7.5.4.28",
+  "number": "7.5.5.28",
   "title": "",
   "body": "What rate of interest is required so that $400 will yield $600 after 3 years if the interest rate is compounded quarterly? "
 },
@@ -18536,7 +18563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-10-4",
   "type": "Exercise",
-  "number": "7.5.4.29",
+  "number": "7.5.5.29",
   "title": "",
   "body": "How long will it take a sum of money to triple if it is invested at 10% compounded daily? About 11 years "
 },
@@ -18545,7 +18572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ExponentialModels.html#section-7-5-exercises-4-10-5",
   "type": "Exercise",
-  "number": "7.5.4.30",
+  "number": "7.5.5.30",
   "title": "",
   "body": "How long will it take a sum of money to increase by a factor of 5 if it is invested at 10% compounded quarterly? "
 },
@@ -25486,12 +25513,30 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.1",
   "title": "Logarithmic Functions",
-  "body": "Logarithmic Functions  In this section we study logarithmic functions logarithmic function . For example, is a logarithmic function. In order to understand logarithmic functions better, we first investigate how they are related to more familiar functions, the exponential functions.  Inverse of a Function  You know that raising to the th power and taking th roots are inverse operations . For example, if we first cube a number and then take its cube root, we return to the original number. Now consider the functions that describe those operations: The graphs of and are related in an interesting way, as shown below.  cube root and cube funcions  If we place a mirror along the line , each graph is the reflection of the other. We say that the graphs are \"symmetric about the line .\"  The two functions and are called inverse functions . Look at the tables of values for the two functions.                                         By interchanging the rows in the table for , we get the table for . This makes sense when we recall that each function undoes the effect of the other. In fact, we define the cube root function by  In other words, if we interchange the variables in the cubing function, , to get , we have an equivalent formula for the cube root function, .  Quickcheck 1 Simplify each expression without a calculator.        Inverse of an Exponential Function  A similar rule relates the operations of raising a base to a power and taking a base logarithm. So the function is the inverse function for . Each function undoes the effect of the other. For example, let and . Start with , apply , and then apply to the result. We return to the original number, 3.  We can write these operations in one expression as (Remember the order of operations: do what's inside of parentheses first.) Because the log and the exponential are inverse functions, this identity holds for any value of and any base . That is We can also apply the two functions in the opposite order, so that (This one is harder to see, but we compute the exponent, , first.) And in general  and is its inverse function.   What is ?  Evaluate and simplify  Evaluate and simplify        To see more examples using function notation, see Section 10.1.2 of the Toolkit.  Practice 1 Simplify each expression.             Graphs of Logarithmic Functions  What does the graph of a log function look like? We can use exponential functions to help us.  Graph  We can make a table of values for by interchanging the columns in a table for .                                                 We plot the points for each function, connecting them with smooth curves, as shown below. You can see that the two graphs are symmetric about the line .  2 to x and log base 2   For another example of a logarithmic function, see Section 10.1.1 of the Toolkit.  The same technique works for graphing a log function with any base.  Practice 2 Graph the function and its inverse function on the same axes. 10 to x and common log  QuickCheck 2 Using a calculator, how could you estimate the value of ?   Find multiples of 5.  Find the fifth root of 378.  Find powers of 5.  Divide 378 by 5.   Did you notice that the graphs of the log functions do not have any points with negative -coordinates? This is because an exponential function has no negative (or zero) output values, so a log function has no negative or zero input values. In other words,   In addition, the logarithmic function has the following properties.  Properties of Log Functions  For any base :  The logarithmic function is defined for positive only.  The -intercept x -intercept of its graph is .  The graph has a vertical asymptote at .  The graphs of and are symmetric about the line .   You can also see that while an exponential growth function increases very rapidly for positive input values, its inverse, the logarithmic function, grows extremely slowly.  QuickCheck 3 What is the -intercept of the graph of ?      There is none.    Using Logarithmic Functions  We can use the LOG key on a calculator to evaluate the function .  Let . Evaluate the following expressions.        , or , is undefined.    Practice 3 Evaluate for , where .  Recall that the subscript 10 is often omitted in applications that use common or base 10 logarithms, as illustrated in the following Example.  Evaluate the expression for , and .  Follow the order of operations and calculate A calculator keying sequence for the calculation is  LOG     +   )    ENTER   Practice 4 The formula is used by X-ray technicians to calculate the doubling time of a malignant tumor. is the diameter of the tumor when first detected, is its diameter at the next reading, and is the time interval between readings, in days.  Calculate the doubling time of the following tumor: its diameter when first detected was 1 cm, and 7 days later its diameter was 1.05 cm. 33 days  Logarithmic functions are useful for modeling increasing functions increasing function that slow down as the input increases.  In 1900, the average life expectancy at birth in the U.S. was 47.3 years. Since then, life expectancy has increased according to the formula where is the number of years after 1900.  Graph the life expectancy function for the years 1900 to 2010.  The life expectancy in 1950 was 68.2 years. What does the function predict for life expectancy in 1950?  How much did life expectancy increase between 1920 and 1930? How much did it increase between 1990 and 2000?    We can make a table of values and plot points to obtain the graph below.                    average life expectancy  We substitute into the function to find The function predicts a life expectancy of 67.7 years in 1950.  Between 1920 and 1930, life expectancy increased from 56.2 to 61.2, or 5 years. Between 1990 and 2000 it increased from 75.0 to 76.4, or 1.4 years.   In the previous Example, we see that although life expectancy has been increasing over time, it has been slowing down or leveling off. It remains to be seen whether the model continues to predict life expectancy after the year 2000.  Practice 5 The CDC (Centers for Disease Control and Prevention) provides Growth Charts for the average height and weight of children from age 2 to 20. The average height of girl children is given in centimeters by where is in years.   Graph the height function for .  Use the height function to complete the table.                  How much is a girl's height expected to increase between the ages of 5 and 10?  Between the ages of 15 and 20?   curve                  28 cm, 11 cm   QuickCheck 4 Which function grows most slowly for large values of ?         Solving Logarithmic Equations  A logarithmic equation logarithmic equation logarithmic equation conversion equations logarithm equation is one in which the variable appears inside of a logarithm. For example, is a log equation.  If there is only one log involved, we can use the conversion equations to write the equation in exponential form. (Recall the conversion equations from Section 7.3.1 .)  Logarithms and Exponents: Conversion Equations conversion equations logarithm conversion equations  If , , and ,   Solve .  We use the conversion equations to write the equation in exponential form. The solution is 36.  Practice 6 Solve  Remember that we cannot take a logarithm of a negative number or zero, because the output of an exponential function is always positive.  For example, suppose that . Then . But this is impossible, because cannot be negative. Thus, the log of a negative number (or zero) is undefined.  Because of this fact, extraneous solutions can arise when we solve logarithmic equations. extraneous solution  If the equation contains more than one log, we must first combine any expressions involving logs into a single logarithm.  Solve .  We use Property (1) of logarithms (see Properties of Logarithms ) to rewrite the left-hand side as a single logarithm: Once the left-hand side is expressed as a single logarithm, we can rewrite the equation in exponential form as Simplifying the right side gives us a quadratic equation to solve. We find or . But we must check the original equation for extraneous solutions. The number is not a solution of the original equation, because neither nor is defined for . The apparent solution is extraneous, and the solution of the original equation is .  to review using the properties of logs, see Section 10.1.3 of the Toolkit.  Practice 7 Solve  Hint:  Rewrite the left side as a single logarithm.  Rewrite the equation in exponential form.  Solve for .  Check for extraneous solutions.  QuickCheck 5 Fill in the balnks to complete each statement.  We cannot take a logarithm of .  After solving a logarithmic equation, we must check for .  If an equation contains more than one log, we must first combine them into .  If there is only one log involved, we rewrite the equation in form.     Problem Set 10.1  Warm Up  For Problems 1 4, convert the logarithmic equation into exponential form.       For Problems 5 8, write the expression as a single log with a coefficient of 1.        Skills Practice  For Problems 9 and 10,  Make a table of values for each function.  Graph both functions on the same set of axes.  ,   grid   3 to x and log base 3   ,   grid    For Problems 11 and 12, . Evaluate the expression, and round the answer to four decimal places.           For Problems 13 and 14, evaluate the expression.  , for and  , for , and   For Problems 15 and 16, . Solve for .           For Problems 17 and 18, solve for the unknown variable.           Let and  Compute  Compute  Compute  Compute  81  4  1.8   Let and  Compute  Compute  Compute  Compute  Each figure shows a portion of the graph of one of the following functions. Match each function with its graph.  six curves         IV  V  I  II  III  VI  Choose the graph for each function described below.  The area, , of a pentagon is a quadratic function of the length , of its side.  The strength, , of a hurricane varies inversely with its speed, .  The price of food has increased 3% every year for a decade.  The magnitude, , of a star is a logarithmic function of its brightness, .  The speed of the train increased at a constant rate.  if you don't practice a foreign language, you lose of the words in your working vocabulary each year.  six curves   How large must be before the graph of reaches a height of 4?  How large must be before the graph of reaches a height of 8?  10,000  100,000,000   How large must be before the graph of reaches a height of 5?  How large must be before the graph of reaches a height of 10?  For Problems 25 28, solve the logarithmic equation.    3     Applications  In a psychology experiment, volunteers were asked to memorize a list of nonsense words, and 24 hours later they were tested to see how many of the words they recalled. On average, the subjects had forgotten 20% of the words. The researchers found that the more lists their volunteers memorized, the larger the fraction of words they were unable to recall. (Source: Underwood, Scientific American , vol. 210, no. 3)    Number of lists,         Percent forgotten,          Plot the data. What sort of function seems to fit the data points?  Psychologists often describe rates of forgetting by logarithmic functions. Graph the function on the same graph with your data. Comment on the fit.  What happens to the values of as grows increasingly large? Does this behavior accurately reflect the situation being modeled?   data points and log curve  The graph resembles a logarithmic function. The function is close to the points but appears too steep at first and not steep enough after . Overall, it is a good fit.  grows (more and more slowly) without bound. will eventually exceed per cent, but no one can forget more than 100% of what is learned.   The water velocity at any point in a stream or river is related to the logarithm of the depth at that point. For the Hoback River near Bondurant, Wyoming, where is the velocity of the water, in feet per second, and is the vertical distance from the stream bed, in feet, at that point. For Pole Creek near Pinedale, Wyoming, Both streams are feet deep at the locations mentioned. (Source: Leopold, Luna, Wolman, and Gordon, 1992)  Complete the table of values for each stream.    Distance from bed (feet)         Velocity, Hoback River, (ft\/sec)         Velocity, Pole Creek (ft\/sec)         If you double the distance from the bed, by how much does the velocity increase in each stream?  Plot both functions on the same graph.  The average velocity of the entire stream can be closely approximated as follows: Measure the velocity at 20% of the total depth of the stream from the surface and at 80% of the total depth, then average these two values. Find the average velocity for the Hoback River and for Pole Creek.   In of this section, we considered a formula for the average life expectancy in the U.S. as a function of years after 1900, According to the formula, in what year was the life expectancy 70 years? 1962  In Practice 5 of this section, we considerd a formula for the average height, in centimeters, of girls between the ages of 2 and 20. According to the formula, at what age should a girl expect to be 152.4 centimeters (5 feet) tall?    "
+  "body": "Logarithmic Functions  Logarithms and Exponents  Before we look at logarithmic functions, let's quickly review exponents and logs. For a particular base, let's say 5, taking a logarithm is the opposite operation for raising to a power. For example, if we raise base 5 to a power of , we get We can say that a logarithm is actually an exponent. Asking for the log base 5 of 25 is asking \"what power of 5, or what exponent on base 5 will give me 25?\"  Write each logarithmic equation as an equivalent exponential equation.       The logarithm asks \"To what power must I raise 3 to get 81?\" The base is 3 and the logarithm (or exponent) is 4, so .  The logarithm asks \"To what power must I raise to get 32?\" The base is and the logarithm (or exponent) is 5, so .   For a more thorough review of logarithms you can refer to Section 7.3.1 .  QuickCheck 1 Which of these could you use to estimate the value of ?   Find multiples of 5.  Find the fifth root of 378.  Find powers of 5.  Divide 378 by 5.   Now we'll consider functions defined in terms of logarithms, or logarithmic functions logarithmic function . For example, is a logarithmic function. In order to understand logarithmic functions better, we first investigate how they are related to more familiar functions, the exponential functions.   Inverse of a Function  You know that raising to the th power and taking th roots are inverse operations . For example, if we first cube a number and then take the cube root of the result, we return to the original number. Now consider the functions that describe those operations: The graphs of and are related in an interesting way, as shown below.  cube root and cube funcions  If we place a mirror along the line , each graph is the reflection of the other. Or imagine folding the grid along the line , and one graph will match the other exactly. We say that the graphs are \"symmetric about the line .\"  The two functions and are called inverse functions . Look at the tables of values for the two functions.                                         By interchanging the rows in the table for , we get the table for . This makes sense when we recall that each function undoes the effect of the other. In fact, we define the cube root function by  In other words, if we interchange the variables in the cubing function, , to get , we have an equivalent formula for the cube root function, .  Let's look at inverse operations in terms of functions. If we apply a function and then its inverse to an input, we return to that input. Use and , for example, and start by applying the innermost function.  Without the function notation we are simply saying that . But this is an example of the more general rule that if and are inverse functions, then and .  Quickcheck 2 Simplify each expression without a calculator.        Inverse of an Exponential Function  Because and are inverse functions, we saw that  A similar rule relates the operations of raising a base to a power and taking a base logarithm. You may recall from Chapter 7 that So the function is the inverse function for . Each function undoes the effect of the other. For example, let and . Start with , apply , and then apply to the result. We return to the original number, 3.  And because and are inverse functions, we can write these operations in one expression as (Remember the order of operations: do what's inside of parentheses first, to get .) Because the log and the exponential are inverse functions, this identity holds for any value of and any base . That is We can also apply the two functions in the opposite order, so that (We compute the exponent, , first, and then compute the power .) And in general  For this Example, recall that , the \"common logarithm,\" means . Simplify each expression.      Because and are inverse functions, . You can verify the result on your calculator by first computing and then taking the log of the result.  Again, because and are inverse functions, . You can verify the result on your calculator by first computing and then computing to the result.   and is its inverse function.   What is ?  Evaluate and simplify  Evaluate and simplify    The inverse of a logartihmic function is the exponential function with the same base, so .  First compute . Then .  First compute . Then   To see more examples using function notation, see Section 10.1.2 of the Toolkit.  Practice 1 Simplify each expression.             Graphs of Logarithmic Functions  What does the graph of a log function look like? We can use exponential functions to help us.  Graph  We can make a table of values for by interchanging the columns in a table for .                                                 We plot the points for each function, connecting them with smooth curves, as shown below. You can see that the two graphs are symmetric about the line .  2 to x and log base 2   For another example of a logarithmic function, see Section 10.1.1 of the Toolkit.  The same technique works for graphing a log function with any base.  Practice 2 Graph the function and its inverse function on the same axes. 10 to x and common log  Did you notice that the graphs of the log functions do not have any points with negative -coordinates? This is because an exponential function has no negative (or zero) output values, so a log function has no negative or zero input values.  For example, suppose that . Then . But this is impossible, because cannot be negative. Thus, the log of a negative number (or zero) is undefined. In other words,   In addition, the logarithmic function has the following properties.  Properties of Log Functions  For any base :  The logarithmic function is defined for positive only.  The -intercept x -intercept of its graph is .  The graph has a vertical asymptote at .  The graphs of and are symmetric about the line .   You can also see that while an exponential growth function increases very rapidly for positive input values, its inverse, the logarithmic function, grows extremely slowly.  QuickCheck 3 What is the -intercept of the graph of ?      There is none.    Using Logarithmic Functions  We can use the LOG key on a calculator to evaluate the function .  Let . Evaluate the following expressions.        , or , is undefined.    Practice 3 Evaluate for .  Recall that the subscript 10 is often omitted in applications that use common or base 10 logarithms, as illustrated in the following Example.  Evaluate the expression for , and .  Follow the order of operations and calculate    Practice 4 The formula is used by X-ray technicians to calculate the doubling time of a malignant tumor. is the diameter of the tumor when first detected, is its diameter at the next reading, and is the time interval between readings, in days.  Calculate the doubling time of the following tumor: its diameter when first detected was 1 cm, and 7 days later its diameter was 1.05 cm. 33 days  Logarithmic functions are useful for modeling increasing functions increasing function that slow down as the input increases.  Life expectancy at birth is the average number of years a newborn child is expected to live. In 1900, the average life expectancy at birth in the U.S. was 47.3 years, and in 1910 it had risen to 50.0 years. During rest of the twentieth century, life expectancy was modeled by the formula where is the number of years after 1900.  Graph the life expectancy function for the years 1910 to 2000.  The life expectancy in 1950 was 68.2 years. What does the function predict for life expectancy in 1950?  According to the model, how much did life expectancy increase between 1920 and 1930? How much did it increase between 1990 and 2000?    We can make a table of values for and plot points to obtain the graph below, which also shows the actual data points for life expectancy for the decades from 1910 to 2000.                            average life expectancy  We substitute into the function to find The function predicts a life expectancy of 67.4 years in 1950.  Between 1920 and 1930, life expectancy increased from 56.1 to 61.1, or 5 years. Between 1990 and 2000 it increased from 74.6 to 75.9, or 1.3 years.   In the previous Example, we see that although life expectancy has been increasing over time, it has been slowing down or leveling off. In fact, life expectancy in the US actually declined slightly from 78.94 in 2013 to 78.81 in 2018. (What factors may have contributed to this decline?) By 2024 it had rebounded to 79.25. It remains to be seen how well the model predicts life expectancy in the 21st century.  Practice 5 The CDC (Centers for Disease Control and Prevention) provides Growth Charts for the average height and weight of children from age 2 to 20. The average height of girl children is given in centimeters by where is age in years.   Graph the height function for .  Use the height function to complete the table.                  How much is a girl's height expected to increase between the ages of 5 and 10?  Between the ages of 15 and 20?   curve                  28 cm, 11 cm   QuickCheck 4 Which function grows most slowly for large values of ?         Solving Logarithmic Equations  A logarithmic equation logarithmic equation logarithmic equation conversion equations logarithm equation is one in which the variable appears inside of a logarithm. For example, is a log equation.  If there is only one log involved, we can use the conversion equations to write the equation in exponential form. (Recall the conversion equations from Section 7.3.1 .)  Logarithms and Exponents: Conversion Equations conversion equations logarithm conversion equations  If , , and ,   Solve .  We use the conversion equations to write the equation in exponential form. The solution is 36.  Practice 6 Solve  If an equation contains more than one log, we must first combine any expressions involving logs into a single logarithm.  Solve .  We use Property (1) of logarithms (see Properties of Logarithms ) to rewrite the left-hand side as a single logarithm: Once the left-hand side is expressed as a single logarithm, we can rewrite the equation in exponential form as Simplifying the right side gives us a quadratic equation to solve. We find or . But let us check both of these values in the original equation.  For we have so is a solution.  But is not a solution of the original equation, because neither nor is defined for . (Remember that we cannot take a logarithm of a negative number or zero.) We say that the apparent solution is extraneous , and the only solution of the original equation is . extraneous solution  to review using the properties of logs, see Section 10.1.3 of the Toolkit.  Extraneous solutions can arise whenever we solve a logarithmic equation, especially if there is more than one apparent solution. Therefore, we should always check that a possible solution does not cause one of the logarithms to be undefined.  Practice 7 Solve  Hint:  Rewrite the left side as a single logarithm.  Rewrite the equation in exponential form.  Solve for .  Check for extraneous solutions.  QuickCheck 5 Fill in the blanks to complete each statement.  We cannot take a logarithm of .  After solving a logarithmic equation, we must check for .  If an equation contains more than one log, we must first combine them into .  If there is only one log involved, we rewrite the equation in form.     Problem Set 10.1  Warm Up  For Problems 1 4, convert the logarithmic equation into exponential form.       For Problems 5 8, write the expression as a single log with a coefficient of 1.        Skills Practice  For Problems 9 and 10,  Make a table of values for each function.  Graph both functions on the same set of axes.  ,   grid   3 to x and log base 3   ,   grid    For Problems 11 and 12, . Evaluate the expression, and round the answer to four decimal places.           For Problems 13 and 14, evaluate the expression.  , for and  , for , and   For Problems 15 and 16, . Solve for .           For Problems 17 and 18, solve for the unknown variable.           Let and  Compute  Compute  Compute  Compute  81  4  1.8   Let and  Compute  Compute  Compute  Compute  Each figure shows a portion of the graph of one of the following functions. Match each function with its graph.  six curves         IV  V  I  II  III  VI  Choose the graph for each function described below.  The area, , of a pentagon is a quadratic function of the length , of its side.  The strength, , of a hurricane varies inversely with its speed, .  The price of food has increased 3% every year for a decade.  The magnitude, , of a star is a logarithmic function of its brightness, .  The speed of the train increased at a constant rate.  if you don't practice a foreign language, you lose of the words in your working vocabulary each year.  six curves   How large must be before the graph of reaches a height of 4?  How large must be before the graph of reaches a height of 8?  10,000  100,000,000   How large must be before the graph of reaches a height of 5?  How large must be before the graph of reaches a height of 10?  For Problems 25 28, solve the logarithmic equation.    3     Applications  In a psychology experiment, volunteers were asked to memorize a list of nonsense words, and 24 hours later they were tested to see how many of the words they recalled. On average, the subjects had forgotten 20% of the words. The researchers found that the more lists their volunteers memorized, the larger the fraction of words they were unable to recall. (Source: Underwood, Scientific American , vol. 210, no. 3)    Number of lists,         Percent forgotten,          Plot the data. What sort of function seems to fit the data points?  Psychologists often describe rates of forgetting by logarithmic functions. Graph the function on the same graph with your data. Comment on the fit.  What happens to the values of as grows increasingly large? Does this behavior accurately reflect the situation being modeled?   data points and log curve  The graph resembles a logarithmic function. The function is close to the points but appears too steep at first and not steep enough after . Overall, it is a good fit.  grows (more and more slowly) without bound. will eventually exceed per cent, but no one can forget more than 100% of what is learned.   The water velocity at any point in a stream or river is related to the logarithm of the depth at that point. For the Hoback River near Bondurant, Wyoming, where is the velocity of the water, in feet per second, and is the vertical distance from the stream bed, in feet, at that point. For Pole Creek near Pinedale, Wyoming, Both streams are feet deep at the locations mentioned. (Source: Leopold, Luna, Wolman, and Gordon, 1992)  Complete the table of values for each stream.    Distance from bed (feet)         Velocity, Hoback River, (ft\/sec)         Velocity, Pole Creek (ft\/sec)         If you double the distance from the bed, by how much does the velocity increase in each stream?  Plot both functions on the same graph.  The average velocity of the entire stream can be closely approximated as follows: Measure the velocity at 20% of the total depth of the stream from the surface and at 80% of the total depth, then average these two values. Find the average velocity for the Hoback River and for Pole Creek.   In of this section, we considered a formula for the average life expectancy in the U.S. as a function of years after 1900, According to the formula, in what year was the life expectancy 70 years? 1962  In Practice 5 of this section, we considerd a formula for the average height, in centimeters, of girls between the ages of 2 and 20. According to the formula, at what age should a girl expect to be 152.4 centimeters (5 feet) tall?    "
 },
 {
-  "id": "LogarithmicFunctions-2-1",
+  "id": "LogarithmicFunctions-2-3",
   "level": "2",
-  "url": "LogarithmicFunctions.html#LogarithmicFunctions-2-1",
+  "url": "LogarithmicFunctions.html#LogarithmicFunctions-2-3",
+  "type": "Example",
+  "number": "10.1.1",
+  "title": "",
+  "body": "Write each logarithmic equation as an equivalent exponential equation.       The logarithm asks \"To what power must I raise 3 to get 81?\" The base is 3 and the logarithm (or exponent) is 4, so .  The logarithm asks \"To what power must I raise to get 32?\" The base is and the logarithm (or exponent) is 5, so .  "
+},
+{
+  "id": "LogarithmicFunctions-2-5",
+  "level": "2",
+  "url": "LogarithmicFunctions.html#LogarithmicFunctions-2-5",
+  "type": "Checkpoint",
+  "number": "10.1.2",
+  "title": "QuickCheck 1.",
+  "body": "QuickCheck 1 Which of these could you use to estimate the value of ?   Find multiples of 5.  Find the fifth root of 378.  Find powers of 5.  Divide 378 by 5.  "
+},
+{
+  "id": "LogarithmicFunctions-2-6",
+  "level": "2",
+  "url": "LogarithmicFunctions.html#LogarithmicFunctions-2-6",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -25507,29 +25552,38 @@ var ptx_lunr_docs = [
   "body": "inverse functions "
 },
 {
-  "id": "LogarithmicFunctions-3-9",
+  "id": "LogarithmicFunctions-3-11",
   "level": "2",
-  "url": "LogarithmicFunctions.html#LogarithmicFunctions-3-9",
+  "url": "LogarithmicFunctions.html#LogarithmicFunctions-3-11",
   "type": "Checkpoint",
-  "number": "10.1.1",
-  "title": "Quickcheck 1.",
-  "body": "Quickcheck 1 Simplify each expression without a calculator.      "
+  "number": "10.1.3",
+  "title": "Quickcheck 2.",
+  "body": "Quickcheck 2 Simplify each expression without a calculator.      "
 },
 {
-  "id": "LogarithmicFunctions-4-4",
+  "id": "LogarithmicFunctions-4-5",
   "level": "2",
-  "url": "LogarithmicFunctions.html#LogarithmicFunctions-4-4",
+  "url": "LogarithmicFunctions.html#LogarithmicFunctions-4-5",
   "type": "Example",
-  "number": "10.1.2",
+  "number": "10.1.4",
   "title": "",
-  "body": "and is its inverse function.   What is ?  Evaluate and simplify  Evaluate and simplify       "
+  "body": "For this Example, recall that , the \"common logarithm,\" means . Simplify each expression.      Because and are inverse functions, . You can verify the result on your calculator by first computing and then taking the log of the result.  Again, because and are inverse functions, . You can verify the result on your calculator by first computing and then computing to the result.  "
 },
 {
   "id": "LogarithmicFunctions-4-6",
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-4-6",
+  "type": "Example",
+  "number": "10.1.5",
+  "title": "",
+  "body": "and is its inverse function.   What is ?  Evaluate and simplify  Evaluate and simplify    The inverse of a logartihmic function is the exponential function with the same base, so .  First compute . Then .  First compute . Then  "
+},
+{
+  "id": "LogarithmicFunctions-4-8",
+  "level": "2",
+  "url": "LogarithmicFunctions.html#LogarithmicFunctions-4-8",
   "type": "Checkpoint",
-  "number": "10.1.3",
+  "number": "10.1.6",
   "title": "Practice 1.",
   "body": "Practice 1 Simplify each expression.           "
 },
@@ -25538,7 +25592,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-5-3",
   "type": "Example",
-  "number": "10.1.4",
+  "number": "10.1.7",
   "title": "",
   "body": "Graph  We can make a table of values for by interchanging the columns in a table for .                                                 We plot the points for each function, connecting them with smooth curves, as shown below. You can see that the two graphs are symmetric about the line .  2 to x and log base 2  "
 },
@@ -25547,7 +25601,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-5-6",
   "type": "Checkpoint",
-  "number": "10.1.5",
+  "number": "10.1.8",
   "title": "Practice 2.",
   "body": "Practice 2 Graph the function and its inverse function on the same axes. 10 to x and common log "
 },
@@ -25555,17 +25609,17 @@ var ptx_lunr_docs = [
   "id": "LogarithmicFunctions-5-7",
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-5-7",
-  "type": "Checkpoint",
-  "number": "10.1.6",
-  "title": "QuickCheck 2.",
-  "body": "QuickCheck 2 Using a calculator, how could you estimate the value of ?   Find multiples of 5.  Find the fifth root of 378.  Find powers of 5.  Divide 378 by 5.  "
+  "type": "Caution",
+  "number": "10.1.9",
+  "title": "",
+  "body": "Did you notice that the graphs of the log functions do not have any points with negative -coordinates? This is because an exponential function has no negative (or zero) output values, so a log function has no negative or zero input values.  For example, suppose that . Then . But this is impossible, because cannot be negative. Thus, the log of a negative number (or zero) is undefined. In other words,  "
 },
 {
-  "id": "LogarithmicFunctions-5-13",
+  "id": "LogarithmicFunctions-5-11",
   "level": "2",
-  "url": "LogarithmicFunctions.html#LogarithmicFunctions-5-13",
+  "url": "LogarithmicFunctions.html#LogarithmicFunctions-5-11",
   "type": "Checkpoint",
-  "number": "10.1.7",
+  "number": "10.1.10",
   "title": "QuickCheck 3.",
   "body": "QuickCheck 3 What is the -intercept of the graph of ?      There is none.  "
 },
@@ -25574,7 +25628,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#example-GC-evaluate-logs",
   "type": "Example",
-  "number": "10.1.8",
+  "number": "10.1.11",
   "title": "",
   "body": "Let . Evaluate the following expressions.        , or , is undefined.   "
 },
@@ -25583,25 +25637,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-6-4",
   "type": "Checkpoint",
-  "number": "10.1.9",
+  "number": "10.1.12",
   "title": "Practice 3.",
-  "body": "Practice 3 Evaluate for , where . "
+  "body": "Practice 3 Evaluate for . "
 },
 {
   "id": "LogarithmicFunctions-6-6",
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-6-6",
   "type": "Example",
-  "number": "10.1.10",
+  "number": "10.1.13",
   "title": "",
-  "body": "Evaluate the expression for , and .  Follow the order of operations and calculate A calculator keying sequence for the calculation is  LOG     +   )    ENTER  "
+  "body": "Evaluate the expression for , and .  Follow the order of operations and calculate   "
 },
 {
   "id": "LogarithmicFunctions-6-7",
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-6-7",
   "type": "Checkpoint",
-  "number": "10.1.11",
+  "number": "10.1.14",
   "title": "Practice 4.",
   "body": "Practice 4 The formula is used by X-ray technicians to calculate the doubling time of a malignant tumor. is the diameter of the tumor when first detected, is its diameter at the next reading, and is the time interval between readings, in days.  Calculate the doubling time of the following tumor: its diameter when first detected was 1 cm, and 7 days later its diameter was 1.05 cm. 33 days "
 },
@@ -25610,25 +25664,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#example-life-expectancy",
   "type": "Example",
-  "number": "10.1.12",
+  "number": "10.1.15",
   "title": "",
-  "body": "In 1900, the average life expectancy at birth in the U.S. was 47.3 years. Since then, life expectancy has increased according to the formula where is the number of years after 1900.  Graph the life expectancy function for the years 1900 to 2010.  The life expectancy in 1950 was 68.2 years. What does the function predict for life expectancy in 1950?  How much did life expectancy increase between 1920 and 1930? How much did it increase between 1990 and 2000?    We can make a table of values and plot points to obtain the graph below.                    average life expectancy  We substitute into the function to find The function predicts a life expectancy of 67.7 years in 1950.  Between 1920 and 1930, life expectancy increased from 56.2 to 61.2, or 5 years. Between 1990 and 2000 it increased from 75.0 to 76.4, or 1.4 years.  "
+  "body": "Life expectancy at birth is the average number of years a newborn child is expected to live. In 1900, the average life expectancy at birth in the U.S. was 47.3 years, and in 1910 it had risen to 50.0 years. During rest of the twentieth century, life expectancy was modeled by the formula where is the number of years after 1900.  Graph the life expectancy function for the years 1910 to 2000.  The life expectancy in 1950 was 68.2 years. What does the function predict for life expectancy in 1950?  According to the model, how much did life expectancy increase between 1920 and 1930? How much did it increase between 1990 and 2000?    We can make a table of values for and plot points to obtain the graph below, which also shows the actual data points for life expectancy for the decades from 1910 to 2000.                            average life expectancy  We substitute into the function to find The function predicts a life expectancy of 67.4 years in 1950.  Between 1920 and 1930, life expectancy increased from 56.1 to 61.1, or 5 years. Between 1990 and 2000 it increased from 74.6 to 75.9, or 1.3 years.  "
 },
 {
   "id": "LogarithmicFunctions-6-11",
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-6-11",
   "type": "Checkpoint",
-  "number": "10.1.13",
+  "number": "10.1.16",
   "title": "Practice 5.",
-  "body": "Practice 5 The CDC (Centers for Disease Control and Prevention) provides Growth Charts for the average height and weight of children from age 2 to 20. The average height of girl children is given in centimeters by where is in years.   Graph the height function for .  Use the height function to complete the table.                  How much is a girl's height expected to increase between the ages of 5 and 10?  Between the ages of 15 and 20?   curve                  28 cm, 11 cm  "
+  "body": "Practice 5 The CDC (Centers for Disease Control and Prevention) provides Growth Charts for the average height and weight of children from age 2 to 20. The average height of girl children is given in centimeters by where is age in years.   Graph the height function for .  Use the height function to complete the table.                  How much is a girl's height expected to increase between the ages of 5 and 10?  Between the ages of 15 and 20?   curve                  28 cm, 11 cm  "
 },
 {
   "id": "LogarithmicFunctions-6-12",
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-6-12",
   "type": "Checkpoint",
-  "number": "10.1.14",
+  "number": "10.1.17",
   "title": "QuickCheck 4.",
   "body": "QuickCheck 4 Which function grows most slowly for large values of ?       "
 },
@@ -25646,7 +25700,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-7-5",
   "type": "Example",
-  "number": "10.1.15",
+  "number": "10.1.18",
   "title": "",
   "body": "Solve .  We use the conversion equations to write the equation in exponential form. The solution is 36. "
 },
@@ -25655,34 +25709,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-7-6",
   "type": "Checkpoint",
-  "number": "10.1.16",
+  "number": "10.1.19",
   "title": "Practice 6.",
   "body": "Practice 6 Solve "
 },
 {
-  "id": "LogarithmicFunctions-7-7",
+  "id": "LogarithmicFunctions-7-8",
   "level": "2",
-  "url": "LogarithmicFunctions.html#LogarithmicFunctions-7-7",
-  "type": "Caution",
-  "number": "10.1.17",
+  "url": "LogarithmicFunctions.html#LogarithmicFunctions-7-8",
+  "type": "Example",
+  "number": "10.1.20",
   "title": "",
-  "body": "Remember that we cannot take a logarithm of a negative number or zero, because the output of an exponential function is always positive.  For example, suppose that . Then . But this is impossible, because cannot be negative. Thus, the log of a negative number (or zero) is undefined.  Because of this fact, extraneous solutions can arise when we solve logarithmic equations. extraneous solution "
+  "body": "Solve .  We use Property (1) of logarithms (see Properties of Logarithms ) to rewrite the left-hand side as a single logarithm: Once the left-hand side is expressed as a single logarithm, we can rewrite the equation in exponential form as Simplifying the right side gives us a quadratic equation to solve. We find or . But let us check both of these values in the original equation.  For we have so is a solution.  But is not a solution of the original equation, because neither nor is defined for . (Remember that we cannot take a logarithm of a negative number or zero.) We say that the apparent solution is extraneous , and the only solution of the original equation is . extraneous solution "
 },
 {
-  "id": "LogarithmicFunctions-7-9",
+  "id": "LogarithmicFunctions-7-10",
   "level": "2",
-  "url": "LogarithmicFunctions.html#LogarithmicFunctions-7-9",
-  "type": "Example",
-  "number": "10.1.18",
+  "url": "LogarithmicFunctions.html#LogarithmicFunctions-7-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": "Solve .  We use Property (1) of logarithms (see Properties of Logarithms ) to rewrite the left-hand side as a single logarithm: Once the left-hand side is expressed as a single logarithm, we can rewrite the equation in exponential form as Simplifying the right side gives us a quadratic equation to solve. We find or . But we must check the original equation for extraneous solutions. The number is not a solution of the original equation, because neither nor is defined for . The apparent solution is extraneous, and the solution of the original equation is . "
+  "body": "Extraneous solutions "
 },
 {
   "id": "LogarithmicFunctions-7-11",
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-7-11",
   "type": "Checkpoint",
-  "number": "10.1.19",
+  "number": "10.1.21",
   "title": "Practice 7.",
   "body": "Practice 7 Solve  Hint:  Rewrite the left side as a single logarithm.  Rewrite the equation in exponential form.  Solve for .  Check for extraneous solutions. "
 },
@@ -25691,16 +25745,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#LogarithmicFunctions-7-12",
   "type": "Checkpoint",
-  "number": "10.1.20",
+  "number": "10.1.22",
   "title": "QuickCheck 5.",
-  "body": "QuickCheck 5 Fill in the balnks to complete each statement.  We cannot take a logarithm of .  After solving a logarithmic equation, we must check for .  If an equation contains more than one log, we must first combine them into .  If there is only one log involved, we rewrite the equation in form.  "
+  "body": "QuickCheck 5 Fill in the blanks to complete each statement.  We cannot take a logarithm of .  After solving a logarithmic equation, we must check for .  If an equation contains more than one log, we must first combine them into .  If there is only one log involved, we rewrite the equation in form.  "
 },
 {
   "id": "section-10-1-exercises-2-2-2",
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-2-2-2",
   "type": "Exercise",
-  "number": "10.1.6.1",
+  "number": "10.1.7.1",
   "title": "",
   "body": ""
 },
@@ -25709,7 +25763,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-2-2-3",
   "type": "Exercise",
-  "number": "10.1.6.2",
+  "number": "10.1.7.2",
   "title": "",
   "body": ""
 },
@@ -25718,7 +25772,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-2-2-4",
   "type": "Exercise",
-  "number": "10.1.6.3",
+  "number": "10.1.7.3",
   "title": "",
   "body": ""
 },
@@ -25727,7 +25781,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-2-2-5",
   "type": "Exercise",
-  "number": "10.1.6.4",
+  "number": "10.1.7.4",
   "title": "",
   "body": ""
 },
@@ -25736,7 +25790,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-2-3-2",
   "type": "Exercise",
-  "number": "10.1.6.5",
+  "number": "10.1.7.5",
   "title": "",
   "body": ""
 },
@@ -25745,7 +25799,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-2-3-3",
   "type": "Exercise",
-  "number": "10.1.6.6",
+  "number": "10.1.7.6",
   "title": "",
   "body": ""
 },
@@ -25754,7 +25808,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-2-3-4",
   "type": "Exercise",
-  "number": "10.1.6.7",
+  "number": "10.1.7.7",
   "title": "",
   "body": ""
 },
@@ -25763,7 +25817,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-2-3-5",
   "type": "Exercise",
-  "number": "10.1.6.8",
+  "number": "10.1.7.8",
   "title": "",
   "body": ""
 },
@@ -25772,7 +25826,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-2-2",
   "type": "Exercise",
-  "number": "10.1.6.9",
+  "number": "10.1.7.9",
   "title": "",
   "body": ",   grid   3 to x and log base 3  "
 },
@@ -25781,7 +25835,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-2-3",
   "type": "Exercise",
-  "number": "10.1.6.10",
+  "number": "10.1.7.10",
   "title": "",
   "body": ",   grid  "
 },
@@ -25790,7 +25844,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-3-2",
   "type": "Exercise",
-  "number": "10.1.6.11",
+  "number": "10.1.7.11",
   "title": "",
   "body": "    "
 },
@@ -25799,7 +25853,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-3-3",
   "type": "Exercise",
-  "number": "10.1.6.12",
+  "number": "10.1.7.12",
   "title": "",
   "body": "  "
 },
@@ -25808,7 +25862,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-4-2",
   "type": "Exercise",
-  "number": "10.1.6.13",
+  "number": "10.1.7.13",
   "title": "",
   "body": ", for and "
 },
@@ -25817,7 +25871,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-4-3",
   "type": "Exercise",
-  "number": "10.1.6.14",
+  "number": "10.1.7.14",
   "title": "",
   "body": ", for , and "
 },
@@ -25826,7 +25880,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-5-2",
   "type": "Exercise",
-  "number": "10.1.6.15",
+  "number": "10.1.7.15",
   "title": "",
   "body": "    "
 },
@@ -25835,7 +25889,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-5-3",
   "type": "Exercise",
-  "number": "10.1.6.16",
+  "number": "10.1.7.16",
   "title": "",
   "body": "  "
 },
@@ -25844,7 +25898,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-6-2",
   "type": "Exercise",
-  "number": "10.1.6.17",
+  "number": "10.1.7.17",
   "title": "",
   "body": "    "
 },
@@ -25853,7 +25907,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-6-3",
   "type": "Exercise",
-  "number": "10.1.6.18",
+  "number": "10.1.7.18",
   "title": "",
   "body": "  "
 },
@@ -25862,7 +25916,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-7",
   "type": "Exercise",
-  "number": "10.1.6.19",
+  "number": "10.1.7.19",
   "title": "",
   "body": "Let and  Compute  Compute  Compute  Compute  81  4  1.8  "
 },
@@ -25871,7 +25925,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-8",
   "type": "Exercise",
-  "number": "10.1.6.20",
+  "number": "10.1.7.20",
   "title": "",
   "body": "Let and  Compute  Compute  Compute  Compute "
 },
@@ -25880,7 +25934,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-9",
   "type": "Exercise",
-  "number": "10.1.6.21",
+  "number": "10.1.7.21",
   "title": "",
   "body": "Each figure shows a portion of the graph of one of the following functions. Match each function with its graph.  six curves         IV  V  I  II  III  VI "
 },
@@ -25889,7 +25943,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-10",
   "type": "Exercise",
-  "number": "10.1.6.22",
+  "number": "10.1.7.22",
   "title": "",
   "body": "Choose the graph for each function described below.  The area, , of a pentagon is a quadratic function of the length , of its side.  The strength, , of a hurricane varies inversely with its speed, .  The price of food has increased 3% every year for a decade.  The magnitude, , of a star is a logarithmic function of its brightness, .  The speed of the train increased at a constant rate.  if you don't practice a foreign language, you lose of the words in your working vocabulary each year.  six curves "
 },
@@ -25898,7 +25952,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-11",
   "type": "Exercise",
-  "number": "10.1.6.23",
+  "number": "10.1.7.23",
   "title": "",
   "body": " How large must be before the graph of reaches a height of 4?  How large must be before the graph of reaches a height of 8?  10,000  100,000,000 "
 },
@@ -25907,7 +25961,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-12",
   "type": "Exercise",
-  "number": "10.1.6.24",
+  "number": "10.1.7.24",
   "title": "",
   "body": " How large must be before the graph of reaches a height of 5?  How large must be before the graph of reaches a height of 10? "
 },
@@ -25916,7 +25970,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-13-2",
   "type": "Exercise",
-  "number": "10.1.6.25",
+  "number": "10.1.7.25",
   "title": "",
   "body": ""
 },
@@ -25925,7 +25979,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-13-3",
   "type": "Exercise",
-  "number": "10.1.6.26",
+  "number": "10.1.7.26",
   "title": "",
   "body": ""
 },
@@ -25934,7 +25988,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-13-4",
   "type": "Exercise",
-  "number": "10.1.6.27",
+  "number": "10.1.7.27",
   "title": "",
   "body": "3 "
 },
@@ -25943,7 +25997,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-3-13-5",
   "type": "Exercise",
-  "number": "10.1.6.28",
+  "number": "10.1.7.28",
   "title": "",
   "body": ""
 },
@@ -25952,7 +26006,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-4-2",
   "type": "Exercise",
-  "number": "10.1.6.29",
+  "number": "10.1.7.29",
   "title": "",
   "body": "In a psychology experiment, volunteers were asked to memorize a list of nonsense words, and 24 hours later they were tested to see how many of the words they recalled. On average, the subjects had forgotten 20% of the words. The researchers found that the more lists their volunteers memorized, the larger the fraction of words they were unable to recall. (Source: Underwood, Scientific American , vol. 210, no. 3)    Number of lists,         Percent forgotten,          Plot the data. What sort of function seems to fit the data points?  Psychologists often describe rates of forgetting by logarithmic functions. Graph the function on the same graph with your data. Comment on the fit.  What happens to the values of as grows increasingly large? Does this behavior accurately reflect the situation being modeled?   data points and log curve  The graph resembles a logarithmic function. The function is close to the points but appears too steep at first and not steep enough after . Overall, it is a good fit.  grows (more and more slowly) without bound. will eventually exceed per cent, but no one can forget more than 100% of what is learned.  "
 },
@@ -25961,7 +26015,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-4-3",
   "type": "Exercise",
-  "number": "10.1.6.30",
+  "number": "10.1.7.30",
   "title": "",
   "body": "The water velocity at any point in a stream or river is related to the logarithm of the depth at that point. For the Hoback River near Bondurant, Wyoming, where is the velocity of the water, in feet per second, and is the vertical distance from the stream bed, in feet, at that point. For Pole Creek near Pinedale, Wyoming, Both streams are feet deep at the locations mentioned. (Source: Leopold, Luna, Wolman, and Gordon, 1992)  Complete the table of values for each stream.    Distance from bed (feet)         Velocity, Hoback River, (ft\/sec)         Velocity, Pole Creek (ft\/sec)         If you double the distance from the bed, by how much does the velocity increase in each stream?  Plot both functions on the same graph.  The average velocity of the entire stream can be closely approximated as follows: Measure the velocity at 20% of the total depth of the stream from the surface and at 80% of the total depth, then average these two values. Find the average velocity for the Hoback River and for Pole Creek.  "
 },
@@ -25970,7 +26024,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-4-4",
   "type": "Exercise",
-  "number": "10.1.6.31",
+  "number": "10.1.7.31",
   "title": "",
   "body": "In of this section, we considered a formula for the average life expectancy in the U.S. as a function of years after 1900, According to the formula, in what year was the life expectancy 70 years? 1962 "
 },
@@ -25979,7 +26033,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicFunctions.html#section-10-1-exercises-4-5",
   "type": "Exercise",
-  "number": "10.1.6.32",
+  "number": "10.1.7.32",
   "title": "",
   "body": "In Practice 5 of this section, we considerd a formula for the average height, in centimeters, of girls between the ages of 2 and 20. According to the formula, at what age should a girl expect to be 152.4 centimeters (5 feet) tall? "
 },
@@ -25990,21 +26044,12 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.2",
   "title": "Logarithmic Scales",
-  "body": "Logarithmic Scales logarithm scale logarithmic scale logarithm  Making a Log Scale  Because grows very slowly as increases, logarithms are useful for modeling phenomena that take on a very wide range of values. For example, biologists study how metabolic functions such as heart rate are related to an animal’s weight, or mass. The table shows the mass in kilograms of several mammals.    Animal  Shrew  Cat  Wolf  Horse  Elephant  Whale   Mass, kg         Imagine trying to scale the -axis to show all of these values. If we set tick marks at intervals of 10,000 kg, as shown below, we can plot the mass of the whale, and maybe the elephant, but the dots for the smaller animals will be indistinguishable.  number line with masses of mammals  On the other hand, we can plot the mass of the cat if we set tick marks at intervals of 1 kg, but the axis will have to be extremely long to include even the wolf. We cannot show the masses of all these animals on the same scale.  number line with masses of mammals  To get around this problem, we'll compute the the log of each mass, and use the logs on a new scale. The table below shows the base 10 log of each animal's mass, rounded to 2 decimal places.    Animal  Shrew  Cat  Wolf  Horse  Elephant  Whale   Mass, kg         Log (mass)         The logs of the masses range from -2.40 to 4.85. We can easily plot these values on a single scale, as we shall see. We are going to use a number line on which the tick marks are labeled with powers of 10, because, as you recall, a logarithm is actually an exponent. exponent (logarithm) The number line looks like this. logscale with integer exponents  Before we continue, let's review the conversion equations for logs. For example,  We are not going to plot the logs from the table, we are going to plot powers of 10 that give the actual masses of the animals. For example, the mass of the horse is 300 kg, and we saw that , or So to plot the mass of the horse, we plot . The powers of 10 on our number line are evenly spaced, so we plot about halfway between and .  If we continue to plot the rest of the animals' masses as powers of 10, we get the number line shown below. Even though we computed the log of each mass, we still plotted the actual mass of each animal, in its form as a power of 10. It is the scale on the number line that has changed.  mammal masses plotted on log scale  A scale labeled with powers of 10 is called a logarithmic scale logarithmic scale , or log scale.  To help you get used to this new scale, you can check that the mass of the horse, at 300 kg, is plotted between and on the log scale. Similarly, the mass of the cat, at 4 kg, is plotted between and on the log scale.  Plot the values on a log scale.             We first compute the base 10 logarithm of each number.                     Then we plot each number as a power of 10, estimating its position between powers with integer exponents. For example, we plot the first value, , closer to than to . The finished plot is shown below.  points plotted on log scale   For more examples plotting log scales, see Section 10.2.1 of the Toolkit.  Practice 1 Complete the table by estimating the logarithm of each point plotted on the log scale below. Then use a calculator to give a decimal value for each point.   points on logscale                                QuickCheck 1 Fill in the blanks to complete each statement.  We use for graphing variables that take on a very wide range of values.  The tick marks on a log scale are labeled with .  To plot values on a log scale, we first compute the of the values.  A fraction less than 1 is plotted on a log scale as a power with a exponent.    Labeling a Log Scale  Before we look more closely at log scales, take a moment to consider how we compare quantities. See Section 10.2.2 of the Toolkit.  Log scales allow us to plot a wide range of values, but there is a trade-off. Equal increments on a log scale do not correspond to equal differences in value, as they do on a linear scale. You can see this more clearly if we label the tick marks with their integer values, as well as powers of 10. The difference between and is , but the difference between and is .  logscale with integer exponents  As we move from left to right on this scale, we multiply the value at the previous tick mark by 10. Moving up by equal increments on a log scale does not add equal amounts to the values plotted; it multiplies the values by equal factors . In the next Example, observe how the integers are plotted on a log scale: they are not evenly spaced.  Plot the integer values 2 through 9 and 20 through 90 on a log scale.  We compute the logarithm of each integer value.                                              We plot the integers on a log scale, as shown below.   log scale showing integer points     On the log scale in , notice how the integer values are spaced: They get closer together as they approach the next power of . If we would like to label a log scale with integers, we get a very different looking scale, one in which the tick marks are not evenly spaced.  Here is a log scale labeled not with powers of , but with integer values, like this:   log scale showing some integers at tick marks    Some applications use log-log graph paper log-log graph paper , which scales both axes with logarithmic scales.  Practice 2 The opening page of Chapter 6 shows the \"mouse-to-elephant\" curve, a graph of the metabolic rate of mammals as a function of their mass. (The elephant does not appear on that graph, because its mass is too big.) The figure below shows the same function, graphed on log-log paper.  mouse-to-elephant curve on log-log graph  Use this graph to estimate the mass and metabolic rate for the following animals, labeled on the graph.    Animal  Mouse  Dog  Sheep  Cow  Elephant   Mass (kg)        Metabolic rate (kcal\/day)         Animal  Mouse  Dog  Sheep  Cow  Elephant   Mass (kg)        Metabolic rate (kcal\/day)        QuickCheck 2 Decide whether each statement is true or false.  Equal increments on a log scale correspond to equal differences in value.  Moving up by equal increments on a log scale multiplies the values by equal factors.  If we label a log scale with integers, the tick marks are evenly spaced.  On log-log graph paper, both axes are labeled with logarithmic scales.    Acidity and the pH Scale  You may have already encountered log scales in some everyday applications. A simple example is the pH scale pH scale acid (pH) scale , used by chemists to measure the acidity of a substance or chemical compound. This scale is based on the concentration of hydrogen ions in the substance, denoted by . The pH value is defined by the formula Values for pH fall between 0 and 14, with 7 indicating a neutral solution. The lower the pH value, the more acidic the substance. Some common substances and their pH values are shown in the table.     Substance  pH    Battery acid     Lemon juice     Vinegar     Milk     Baking soda     Milk of magnesia     Lye     A decrease of 1 on the pH scale corresponds to an increase in acidity by a factor of 10. Thus, lemon juice is 10 times more acidic than vinegar, and battery acid is 100 times more acidic than vinegar.   Calculate the pH of a solution with a hydrogen ion concentration of .  The water in a swimming pool should be maintained at a pH of 7.5. What is the hydrogen ion concentration of the water?    We use a calculator to evaluate the pH formula with .  We solve the equation for . First, we write Then we convert the equation to exponential form to get The hydrogen ion concentration of the water is .   Practice 3 The pH of the water in a tide pool is 8.3. What is the hydrogen ion concentration of the water?   Decibels  The decibel scale decibel scale , used to measure the loudness or intensity of a sound, is another example of a logarithmic scale. The perceived loudness of a sound is measured in decibels, , by where is the intensity of its sound waves (in watts per square meter). The table below shows the intensity of some common sounds, measured in watts per square meter.    Sound  Intensity (watts\/m )  Decibels   Whisper     Background music     Loud conversation     Heavy traffic     Jet airplane     Thunder     Consider the ratio of the intensity of thunder to that of a whisper: Thunder is , or one billion times more intense than a whisper. It would be impossible to show such a wide range of values on a graph. When we use a log scale, however, there is a difference of only 90 decibels between a whisper and thunder.   Normal breathing generates about watts per square meter at a distance of 3 feet. Find the number of decibels for a breath 3 feet away.  Normal conversation registers at about 40 decibels. How many times more intense than breathing is normal conversation?   We evaluate the decibel formula with to find The sound of breathing registers at 10 decibels.  We let stand for the sound intensity of breathing, and stand for the intensity of normal conversation. We are looking for the ratio . From part (a), we know that and we can calculate from the decibels formula. Finally, we compute the ratio : Normal conversation is 1000 times more intense than breathing.   Practice 4 The noise of city traffic registers at about decibels.   What is the intensity of traffic noise, in watts per square meter?  How many times more intense is traffic noise than conversation?   watts\/m    Both the decibel model and the Richter scale in the next example use expressions of the form . Be careful to follow the order of operations when using these models. We must compute the quotient before taking a logarithm. In particular, keep in mind that can be simplified to .   The Richter Scale Richter scale (or magnitude)  One method for measuring the magnitude of an earthquake compares the amplitude of its seismographic trace with the amplitude of the smallest detectable earthquake. The log of their ratio is the Richter Richter scale (or magnitude) magnitude, . Thus,   The Northridge earthquake of January 1994 registered 6.9 on the Richter scale. What would be the magnitude of an earthquake 100 times as powerful as the Northridge quake?  How many times more powerful than the Northridge quake was the San Francisco earthquake of 1989, which registered 7.1 on the Richter scale?    We let represent the amplitude of the Northridge quake and represent the amplitude of a quake 100 times more powerful. From the Richter model, we have or, rewriting in exponential form, Now, we want to be 100 times , so Thus, the magnitude of the more powerful quake is  We let stand for the amplitude of the San Francisco earthquake. We are looking for the ratio . First, we use the Richter formula to compute values for and . Rewriting each equation in exponential form, we have or Now we can compute the ratio we want: The San Francisco earthquake was , or approximately 1.58 times as powerful as the Northridge quake.   Practice 5 In October 2005, a magnitude 7.6 earthquake struck Pakistan. How much more powerful was this earthquake than the 1989 San Francisco earthquake of magnitude 7.1? 3.16   Comparing Quantities on a Log Scale  An earthquake 100, or , times as strong is only two units greater in magnitude on the Richter scale. In general, a difference of units on the Richter scale (or any logarithmic scale) corresponds to a factor of units in the intensity of the quake.  For more about comparing quantities, see Section 10.2.2 of the Toolkit.  On a log scale, the weights of two animals differ by 1.6 units. What is the ratio of their actual weights?  A difference of 1.6 on a log scale corresponds to a factor of in the actual weights. Thus, the heavier animal is , or 39.8 times as heavy as the lighter animal.  Practice 6 Two points, labeled and , differ by units on a log scale. What is the ratio of their decimal values? 316.2  QuickCheck 3 Decide whether each statement is true or false.  An increase of 1 on the pH scale corresponds to an increase in acidity by a factor of 10.  A ratio of sound intensities of one billion corresponds to a difference of 90 decibels.  The second property of logs says that .  A difference of 3 on a log scale corresponds to a ratio of , or 1000.     Problem Set 10.2  Warm Up  For Problems 1 and 2, bound the base 10 log of the number between two integers. Do not use a calculator!       0 and 1  2 and 3  and 0  6 and 7        For Problems 3 and 4, given , find .       3981.1  5.01  0.00079  0.398         Skills Practice   The log scale is labeled with powers of 10. Finish labeling the tick marks in the figure with their corresponding decimal values.    log scale with exponents shown    The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of 10.    log scale with exponents shown      log scale with exponents shown     log scale with exponents shown      The log scale is labeled with powers of 10. Finish labeling the tick marks in the figure with their corresponding decimal values.   log scale with exponents shown  The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of 10.   log scale with exponents shown   Plot the values on a log scale.          logscale  Plot the values on a log scale.           Estimate the decimal value of each point on the log scale.  logscale , , ,  Estimate the decimal value of each point on the log scale.  logscale  In Problems 11 18, use the appropriate formulas for logarithmic models.  The hydrogen ion concentration of vinegar is about . Calculate the pH of vinegar.  The hydrogen ion concentration of spinach is about . Calculate the pH of spinach.  The pH of lime juice is 1.9. Calculate its hydrogen ion concentration.  The pH of ammonia is 9.8. Calculate its hydrogen ion concentration.  A lawn mower generates a noise of intensity watts per square meter. Find the decibel level of the sound of a lawn mower.  A jet airplane generates 100 watts per square meter at a distance of 100 feet. Find the decibel level for a jet airplane.  The loudest sound emitted by any living source is made by the blue whale. Its whistles have been measured at 188 decibels and are detectable 500 miles away. Find the intensity of the blue whale's whistle in watts per square meter. 6,309,573 watts per square meter  The noise of a leaf blower was measured at 110 decibels. What was the intensity of the sound waves?    Applications  The log scale shows various temperatures in Kelvins. Estimate the temperatures of the events indicated.  logscale , , , , ,  The log scale shows the size of various objects, in meters. Estimate the sizes of the objects indicated.  logscale >  The magnitude of a star is a measure of its brightness. It is given by the formula where is the luminosity of the star, measured in solar units. Calculate the magnitude of the stars whose luminosities are given in the figure.  star magnitudes on log scale e> Proxima Centauri: ; Barnard: ; Sirius: ; Vega: ; Arcturus: ; Antares: ; Betelgeuse:  Estimate the wavelength, in meters, of the types of electromagnetic radiation shown in the figure.  radiation wavelength on log scale  Plot the values of in the section \"Acidity and the pH Scale\" on a log scale. pH on log scale  Plot the values of sound intensity in the section \"Decibels\" on a log scale.  The distances to two stars are separated by 3.4 units on a log scale. What is the ratio of their distances?  The populations of two cities are separated by 2.8 units on a log scale. What is the ratio of their populations?  The probability of discovering an oil field increases with its diameter, defined to be the square root of its area. Use the graph to estimate the diameter of the oil fields at the labeled points, and their probability of discovery. (Source: Deffeyes, 2001)  probabilty of discovery vs diameter on log-log  A: , ; B: , ; C: , ; D: ,    The order of a stream is a measure of its size. Use the graph to estimate the drainage area, in square miles, for streams of orders 1 through 4. (Source: Leopold, Wolman, and Miller)  stream drainage vs order on semi-log  The pH of normal rain is 5.6. Some areas of Ontario have experienced acid rain with a pH of 4.5. How many times more acidic is acid rain than normal rain? 12.6  The pH of normal hair is about 5, the average pH of shampoo is 8, and 4 for conditioner. Compare the acidity of normal hair, shampoo, and conditioner.  At a concert by The Who in 1976, the sound level 50 meters from the stage registered 120 decibels. How many times more intense was this than a 90-decibel sound (the threshold of pain for the human ear)?  A refrigerator produces 50 decibels of noise, and a vacuum cleaner produces 85 decibels. How much more intense are the sound waves from a vacuum cleaner than those from a refrigerator?  In 1964, an earthquake in Alaska measured 8.4 on the Richter scale. An earthquake measuring 4.0 is consideredsmall and causes little damage. How many times stronger was the Alaska quake than one measuring 4.0?  On April 30, 1986, an earthquake in Mexico City measured 7.0 on the Richter scale. On September 21, a second earthquake occurred, this one measuring 8.1, hit Mexico City. How many times stronger was the September quake than the one in April?    "
+  "body": "Logarithmic Scales logarithm scale logarithmic scale logarithm  Making a Log Scale  Because grows very slowly as increases from 1, logarithms are useful for modeling phenomena that take on a very wide range of values. For example, biologists study how metabolic functions such as heart rate are related to an animal’s weight, or mass. The table shows the mass in kilograms of several mammals.    Animal  Shrew  Cat  Wolf  Horse  Elephant  Whale   Mass, kg         Imagine trying to scale the -axis to show all of these values. If we set tick marks at intervals of 10,000 kg, as shown below, we can plot the mass of the whale, and maybe the elephant, but the dots for the smaller animals will be indistinguishable. (On this graph, the first dot would have to represent the shrew, cat, wolf and horse!)  number line with masses of mammals  On the other hand, we can plot the mass of the cat if we set tick marks at intervals of 1 kg, but the axis will have to be extremely long to include even the wolf. We cannot show the masses of all these animals on the same scale.  number line with masses of mammals  To get around this problem, we'll compute the the log of each mass, and use the logs on a new scale. The table below shows the base 10 log of each animal's mass, rounded to 2 decimal places.    Animal  Shrew  Cat  Wolf  Horse  Elephant  Whale   Mass, kg         Log (mass)         The logs of the masses range from to . We can easily plot these values on a single scale, as shown below.  mammal masses plotted on log scale  We'd need to keep in mind that we are plotting the logs of the animals' masses, and not the actual masses. However, remember that a logarithm is really an exponent! For example, the mass of the horse is 300 kg, and So instead of plotting the logs from the table, we will plot powers of 10 that give the actual masses of the animals, like this:  mammal masses plotted on log scale  Compare this new scale to the previous one. It looks almost the same, except that the number line is labeled with powers of 10. Even though we computed the log of each mass, we still plotted the actual mass of each animal, in its form as a power of 10. It is the scale on the number line that has changed.  A scale labeled with powers of 10 is called a logarithmic scale logarithmic scale , or log scale. The powers of 10 on a log scale are evenly spaced, so that the actual values at the tick marks look like this.  logscale with integer exponents  We can see right away that the increments between tick marks on a log scale are not equal, as they are on a usual linear scale. The increments get larger as we move from left to right on the scale. However, when we are plotting powers of 10 we use the exponents to place the data points on the scale. For example, you can check that the mass of the horse, at kg, is plotted about half-way between and on the log scale, because 2.48 is about half-way between 2 and 3. Similarly, the mass of the cat, at kg, is plotted between and on the log scale.  Plot the values on a log scale.              We first compute the base 10 logarithm of each number.                     Then we plot each number as a power of 10, estimating its position between powers with integer exponents. For example, we plot the first value, , closer to than to . The finished plot is shown below.  points plotted on log scale   For more examples plotting log scales, see Section 10.2.1 of the Toolkit.  Practice 1 Complete the table by estimating the logarithm of each point plotted on the log scale below. Then use a calculator to give a decimal value for each point.   points on logscale                                QuickCheck 1 Fill in the blanks to complete each statement.  We use for graphing variables that take on a very wide range of values.  The tick marks on a log scale are labeled with .  To plot values on a log scale, we first compute the of the values.  A fraction less than 1 is plotted on a log scale as a power with a exponent.    Labeling a Log Scale  Log scales allow us to plot a wide range of values, but there is a trade-off. Equal increments on a log scale do not correspond to equal differences in value, as they do on a linear scale. You can see this more clearly if we label the tick marks with their integer values, as well as powers of 10. The difference between and is , but the difference between and is .  logscale with integer exponents  As we move from left to right on this scale, we multiply the value at the previous tick mark by 10. Moving up by equal increments on a log scale does not add equal amounts to the values plotted; it multiplies the values by equal factors . In the next Example, observe how the integers are plotted on a log scale: they are not evenly spaced.  Plot the integer values 2 through 9 and 20 through 90 on a log scale.  We compute the logarithm of each integer value.                                              We plot the integers on a log scale, as shown below.   log scale showing integer points    Notice that the spacing between the integers 2 through 9 is the same as the spacing between the integers 20 through 90.   On the log scale in , notice how the integer values are spaced: They get closer together as they approach the next power of . If we would like to label a log scale with integers, we get a very different looking scale, one in which the tick marks are not evenly spaced.  Here is a log scale labeled not with powers of , but with integer values, like this:   log scale showing some integers at tick marks    Some applications use log-log graph paper log-log graph paper , which scales both axes with logarithmic scales. On the graph in the next Checkpoint, the tick marks between powers of 10 show integer values, as on the scale above.  Practice 2 The opening page of Chapter 6 shows the \"mouse-to-elephant\" curve, a graph of the metabolic rate of mammals as a function of their mass. Here it is again.  Kleiber mouse-to-elephant-curve  (The elephant does not appear on that graph, because its mass is too big.) The figure below shows the same function, graphed on log-log paper.  mouse-to-elephant curve on log-log graph  Use this graph to estimate the mass and metabolic rate for the following animals, labeled on the graph.    Animal  Mouse  Dog  Sheep  Cow  Elephant   Mass (kg)        Metabolic rate (kcal\/day)         Animal  Mouse  Dog  Sheep  Cow  Elephant   Mass (kg)        Metabolic rate (kcal\/day)        QuickCheck 2 Decide whether each statement is true or false.  Equal increments on a log scale correspond to equal differences in value.  Moving up by equal increments on a log scale multiplies the values by equal factors.  If we label a log scale with integers, the tick marks are evenly spaced.  On log-log graph paper, both axes are labeled with logarithmic scales.   You may have already encountered log scales in some everyday applications. In the examples that follow, don't worry if you aren't familiar with the science surrounding the application; we will mainly be concerned with the mathematics of using the scale.   Acidity and the pH Scale  You have probably heard that the pH value of most shampoo is between 7 and 9. The pH scale pH scale acid (pH) scale is a log scale used to measure the acidity of a substance or a chemical compound. Acidity depends on the concentration of hydrogen ions in the substance, denoted by , which can take on a wide range of values, from to .  To simplify the numbers we have to work with, we define the pH value by By taking the log of (and changing its sign), we are looking at just its exponent, so that values for pH fall between 0 and 14. A pH value of 7 indicates a neutral solution, and the lower the pH value, the more acidic the substance.  Some common substances and their pH values are shown in the table.     Substance  pH    Battery acid     Lemon juice     Vinegar     Milk     Baking soda     Milk of magnesia     Lye     Notice that the pH values are a log scale, so that a decrease of 1 on the pH scale corresponds to an increase in by a factor of 10. Thus, lemon juice is 10 times more acidic than vinegar, and battery acid is 100 times more acidic than vinegar.   Calculate the pH of a solution with a hydrogen ion concentration of .  The water in a swimming pool should be maintained at a pH of 7.5. What is the hydrogen ion concentration of the water?    We use a calculator to evaluate the pH formula with .  We solve the equation for . First, we write Then we convert the equation to exponential form to get The hydrogen ion concentration of the water is .   Practice 3 The pH of the water in a tide pool is 8.3. What is the hydrogen ion concentration of the water?   Decibels  The decibel scale decibel scale , used to measure the loudness of a sound, is another example of a logarithmic scale. The loudness of a sound depends on the intensity of its sound waves, which is measured in watts per square meter. The decibel value, , is given by Once again, taking the log of simplifies the numbers involved by considering just their exponents. (And dividing by brings the values into a convenient range.)  The table below shows the intensity of some common sounds.    Sound  Intensity (watts\/m )  Decibels   Whisper     Background music     Loud conversation     Heavy traffic     Jet airplane     Thunder     Consider the ratio of the intensity of thunder to that of a whisper: Thunder is , or one billion times more intense than a whisper. It would be impossible to show such a wide range of values on a graph. When we use a log scale, however, there is a difference of only 90 decibels between a whisper and thunder.   Normal breathing generates about watts per square meter of intensity at a distance of 3 feet. Find the number of decibels for a breath 3 feet away.  Normal conversation registers at about 40 decibels. How many times more intense than breathing is normal conversation?   We evaluate the decibel formula with to find The sound of breathing registers at 10 decibels.  From part (a), we know that the sound intensity of breathing is watts per square meter. We'll calculate the intensity of conversation from its decibel value. Finally, we compute the ratio of intensities: Normal conversation is 1000 times more intense than breathing.   Practice 4 The noise of city traffic registers at about decibels.   What is the intensity of traffic noise, in watts per square meter?  How many times more intense is traffic noise than conversation?   watts\/m    Both the decibel model and the Richter scale in the next example use expressions of the form . Be careful to follow the order of operations when using these models. We must compute the quotient before taking a logarithm. In particular, keep in mind that can be simplified to .   The Richter Scale Richter scale (or magnitude)  One method for measuring the magnitude of an earthquake compares the amplitude of its seismographic trace with the amplitude of the smallest detectable earthquake. The log of their ratio is the Richter Richter scale (or magnitude) magnitude, . Thus,   The Northridge earthquake of January 1994 registered 6.9 on the Richter scale. What would be the magnitude of an earthquake 100 times as powerful as the Northridge quake?  How many times more powerful than the Northridge quake was the San Francisco earthquake of 1989, which registered 7.1 on the Richter scale?    The amplitude of the Northridge quake is given by and by rewriting in exponential form we find An earthquake 100 times as powerful would have amplitude Thus, the magnitude of the more powerful quake is  In part (a) we used the Richter formula to find that the amplitude of the Northridge quake was Similarly, the amplitude of the San Francisco quake was So the ratio of their amplitudes is The San Francisco earthquake was , or approximately 1.58 times as powerful as the Northridge quake.   Practice 5 In October 2005, a magnitude 7.6 earthquake struck Pakistan. How much more powerful was this earthquake than the 1989 San Francisco earthquake of magnitude 7.1? 3.16   Comparing Quantities on a Log Scale  An earthquake 100, or , times as strong is only two units greater in magnitude on the Richter scale. In general, a difference of units on the Richter scale (or any logarithmic scale) corresponds to a factor of units in the intensity of the quake.  For more about comparing quantities, see Section 10.2.2 of the Toolkit.  On a log scale, the weights of two animals differ by 1.6 units. What is the ratio of their actual weights?  A difference of 1.6 on a log scale corresponds to a factor of in the actual weights. Thus, the heavier animal is , or 39.8 times as heavy as the lighter animal.  Practice 6 Two points, labeled and , differ by units on a log scale. What is the ratio of their decimal values? 316.2  QuickCheck 3 Decide whether each statement is true or false.  An increase of 1 on the pH scale corresponds to an increase in acidity by a factor of 10.  A ratio of sound intensities of one billion corresponds to a difference of 90 decibels.  The second property of logs says that .  A difference of 3 on a log scale corresponds to a ratio of , or 1000.     Problem Set 10.2  Warm Up  For Problems 1 and 2, bound the base 10 log of the number between two integers. Do not use a calculator!       0 and 1  2 and 3  and 0  6 and 7        For Problems 3 and 4, given , find .       3981.1  5.01  0.00079  0.398         Skills Practice   The log scale is labeled with powers of 10. Finish labeling the tick marks in the figure with their corresponding decimal values.    log scale with exponents shown    The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of 10.    log scale with exponents shown      log scale with exponents shown     log scale with exponents shown      The log scale is labeled with powers of 10. Finish labeling the tick marks in the figure with their corresponding decimal values.   log scale with exponents shown  The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of 10.   log scale with exponents shown   Plot the values on a log scale.          logscale  Plot the values on a log scale.           Estimate the decimal value of each point on the log scale.  logscale , , ,  Estimate the decimal value of each point on the log scale.  logscale  In Problems 11 18, use the appropriate formulas for logarithmic models.  The hydrogen ion concentration of vinegar is about . Calculate the pH of vinegar.  The hydrogen ion concentration of spinach is about . Calculate the pH of spinach.  The pH of lime juice is 1.9. Calculate its hydrogen ion concentration.  The pH of ammonia is 9.8. Calculate its hydrogen ion concentration.  A lawn mower generates a noise of intensity watts per square meter. Find the decibel level of the sound of a lawn mower.  A jet airplane generates 100 watts per square meter at a distance of 100 feet. Find the decibel level for a jet airplane.  The loudest sound emitted by any living source is made by the blue whale. Its whistles have been measured at 188 decibels and are detectable 500 miles away. Find the intensity of the blue whale's whistle in watts per square meter. 6,309,573 watts per square meter  The noise of a leaf blower was measured at 110 decibels. What was the intensity of the sound waves?    Applications  The log scale shows various temperatures in Kelvins. Estimate the temperatures of the events indicated.  logscale , , , , ,  The log scale shows the size of various objects, in meters. Estimate the sizes of the objects indicated.  logscale  The magnitude of a star is a measure of its brightness. It is given by the formula where is the luminosity of the star, measured in solar units. Calculate the magnitude of the stars whose luminosities are given in the figure.  star magnitudes on log scale e> Proxima Centauri: ; Barnard: ; Sirius: ; Vega: ; Arcturus: ; Antares: ; Betelgeuse:  Estimate the wavelength, in meters, of the types of electromagnetic radiation shown in the figure.  radiation wavelength on log scale  Plot the values of in the section \"Acidity and the pH Scale\" on a log scale. pH on log scale  Plot the values of sound intensity in the section \"Decibels\" on a log scale.  The distances to two stars are separated by 3.4 units on a log scale. What is the ratio of their distances?  The populations of two cities are separated by 2.8 units on a log scale. What is the ratio of their populations?  The probability of discovering an oil field increases with its diameter, defined to be the square root of its area. Use the graph to estimate the diameter of the oil fields at the labeled points, and their probability of discovery. (Source: Deffeyes, 2001)  probabilty of discovery vs diameter on log-log  A: , ; B: , ; C: , ; D: ,    The order of a stream is a measure of its size. Use the graph to estimate the drainage area, in square miles, for streams of orders 1 through 4. (Source: Leopold, Wolman, and Miller)  stream drainage vs order on semi-log  The pH of normal rain is 5.6. Some areas of Ontario have experienced acid rain with a pH of 4.5. How many times more acidic is acid rain than normal rain? 12.6  The pH of normal hair is about 5, the average pH of shampoo is 8, and 4 for conditioner. Compare the acidity of normal hair, shampoo, and conditioner.  At a concert by The Who in 1976, the sound level 50 meters from the stage registered 120 decibels. How many times more intense was this than a 90-decibel sound (the threshold of pain for the human ear)?  A refrigerator produces 50 decibels of noise, and a vacuum cleaner produces 85 decibels. How much more intense are the sound waves from a vacuum cleaner than those from a refrigerator?  In 1964, an earthquake in Alaska measured 8.4 on the Richter scale. An earthquake measuring 4.0 is consideredsmall and causes little damage. How many times stronger was the Alaska quake than one measuring 4.0?  On April 30, 1986, an earthquake in Mexico City measured 7.0 on the Richter scale. On September 21, a second earthquake occurred, this one measuring 8.1, hit Mexico City. How many times stronger was the September quake than the one in April?    "
 },
 {
-  "id": "LogarithmicScales-4-10-3",
+  "id": "LogarithmicScales-4-15",
   "level": "2",
-  "url": "LogarithmicScales.html#LogarithmicScales-4-10-3",
-  "type": "Note",
-  "number": "10.2.1",
-  "title": "",
-  "body": "Before we continue, let's review the conversion equations for logs. For example, "
-},
-{
-  "id": "LogarithmicScales-4-11",
-  "level": "2",
-  "url": "LogarithmicScales.html#LogarithmicScales-4-11",
+  "url": "LogarithmicScales.html#LogarithmicScales-4-15",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -26015,25 +26060,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicScales.html#example-plot-logscale",
   "type": "Example",
-  "number": "10.2.2",
+  "number": "10.2.1",
   "title": "",
-  "body": "Plot the values on a log scale.             We first compute the base 10 logarithm of each number.                     Then we plot each number as a power of 10, estimating its position between powers with integer exponents. For example, we plot the first value, , closer to than to . The finished plot is shown below.  points plotted on log scale  "
+  "body": "Plot the values on a log scale.              We first compute the base 10 logarithm of each number.                     Then we plot each number as a power of 10, estimating its position between powers with integer exponents. For example, we plot the first value, , closer to than to . The finished plot is shown below.  points plotted on log scale  "
 },
 {
-  "id": "LogarithmicScales-4-15",
+  "id": "LogarithmicScales-4-20",
   "level": "2",
-  "url": "LogarithmicScales.html#LogarithmicScales-4-15",
+  "url": "LogarithmicScales.html#LogarithmicScales-4-20",
   "type": "Checkpoint",
-  "number": "10.2.3",
+  "number": "10.2.2",
   "title": "Practice 1.",
   "body": "Practice 1 Complete the table by estimating the logarithm of each point plotted on the log scale below. Then use a calculator to give a decimal value for each point.   points on logscale                               "
 },
 {
-  "id": "LogarithmicScales-4-16",
+  "id": "LogarithmicScales-4-21",
   "level": "2",
-  "url": "LogarithmicScales.html#LogarithmicScales-4-16",
+  "url": "LogarithmicScales.html#LogarithmicScales-4-21",
   "type": "Checkpoint",
-  "number": "10.2.4",
+  "number": "10.2.3",
   "title": "QuickCheck 1.",
   "body": "QuickCheck 1 Fill in the blanks to complete each statement.  We use for graphing variables that take on a very wide range of values.  The tick marks on a log scale are labeled with .  To plot values on a log scale, we first compute the of the values.  A fraction less than 1 is plotted on a log scale as a power with a exponent.  "
 },
@@ -26042,18 +26087,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicScales.html#example-logscale-integer-labels",
   "type": "Example",
-  "number": "10.2.5",
+  "number": "10.2.4",
   "title": "",
-  "body": "Plot the integer values 2 through 9 and 20 through 90 on a log scale.  We compute the logarithm of each integer value.                                              We plot the integers on a log scale, as shown below.   log scale showing integer points    "
+  "body": "Plot the integer values 2 through 9 and 20 through 90 on a log scale.  We compute the logarithm of each integer value.                                              We plot the integers on a log scale, as shown below.   log scale showing integer points    Notice that the spacing between the integers 2 through 9 is the same as the spacing between the integers 20 through 90.  "
+},
+{
+  "id": "LogarithmicScales-5-9",
+  "level": "2",
+  "url": "LogarithmicScales.html#LogarithmicScales-5-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "log-log graph paper "
 },
 {
   "id": "LogarithmicScales-5-10",
   "level": "2",
   "url": "LogarithmicScales.html#LogarithmicScales-5-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "log-log graph paper "
+  "type": "Checkpoint",
+  "number": "10.2.5",
+  "title": "Practice 2.",
+  "body": "Practice 2 The opening page of Chapter 6 shows the \"mouse-to-elephant\" curve, a graph of the metabolic rate of mammals as a function of their mass. Here it is again.  Kleiber mouse-to-elephant-curve  (The elephant does not appear on that graph, because its mass is too big.) The figure below shows the same function, graphed on log-log paper.  mouse-to-elephant curve on log-log graph  Use this graph to estimate the mass and metabolic rate for the following animals, labeled on the graph.    Animal  Mouse  Dog  Sheep  Cow  Elephant   Mass (kg)        Metabolic rate (kcal\/day)         Animal  Mouse  Dog  Sheep  Cow  Elephant   Mass (kg)        Metabolic rate (kcal\/day)       "
 },
 {
   "id": "LogarithmicScales-5-11",
@@ -26061,15 +26115,6 @@ var ptx_lunr_docs = [
   "url": "LogarithmicScales.html#LogarithmicScales-5-11",
   "type": "Checkpoint",
   "number": "10.2.6",
-  "title": "Practice 2.",
-  "body": "Practice 2 The opening page of Chapter 6 shows the \"mouse-to-elephant\" curve, a graph of the metabolic rate of mammals as a function of their mass. (The elephant does not appear on that graph, because its mass is too big.) The figure below shows the same function, graphed on log-log paper.  mouse-to-elephant curve on log-log graph  Use this graph to estimate the mass and metabolic rate for the following animals, labeled on the graph.    Animal  Mouse  Dog  Sheep  Cow  Elephant   Mass (kg)        Metabolic rate (kcal\/day)         Animal  Mouse  Dog  Sheep  Cow  Elephant   Mass (kg)        Metabolic rate (kcal\/day)       "
-},
-{
-  "id": "LogarithmicScales-5-12",
-  "level": "2",
-  "url": "LogarithmicScales.html#LogarithmicScales-5-12",
-  "type": "Checkpoint",
-  "number": "10.2.7",
   "title": "QuickCheck 2.",
   "body": "QuickCheck 2 Decide whether each statement is true or false.  Equal increments on a log scale correspond to equal differences in value.  Moving up by equal increments on a log scale multiplies the values by equal factors.  If we label a log scale with integers, the tick marks are evenly spaced.  On log-log graph paper, both axes are labeled with logarithmic scales.  "
 },
@@ -26087,16 +26132,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicScales.html#example-pH",
   "type": "Example",
-  "number": "10.2.8",
+  "number": "10.2.7",
   "title": "",
   "body": " Calculate the pH of a solution with a hydrogen ion concentration of .  The water in a swimming pool should be maintained at a pH of 7.5. What is the hydrogen ion concentration of the water?    We use a calculator to evaluate the pH formula with .  We solve the equation for . First, we write Then we convert the equation to exponential form to get The hydrogen ion concentration of the water is .  "
 },
 {
-  "id": "LogarithmicScales-6-6",
+  "id": "LogarithmicScales-6-7",
   "level": "2",
-  "url": "LogarithmicScales.html#LogarithmicScales-6-6",
+  "url": "LogarithmicScales.html#LogarithmicScales-6-7",
   "type": "Checkpoint",
-  "number": "10.2.9",
+  "number": "10.2.8",
   "title": "Practice 3.",
   "body": "Practice 3 The pH of the water in a tide pool is 8.3. What is the hydrogen ion concentration of the water? "
 },
@@ -26114,25 +26159,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicScales.html#example-decibels",
   "type": "Example",
-  "number": "10.2.10",
+  "number": "10.2.9",
   "title": "",
-  "body": " Normal breathing generates about watts per square meter at a distance of 3 feet. Find the number of decibels for a breath 3 feet away.  Normal conversation registers at about 40 decibels. How many times more intense than breathing is normal conversation?   We evaluate the decibel formula with to find The sound of breathing registers at 10 decibels.  We let stand for the sound intensity of breathing, and stand for the intensity of normal conversation. We are looking for the ratio . From part (a), we know that and we can calculate from the decibels formula. Finally, we compute the ratio : Normal conversation is 1000 times more intense than breathing.  "
-},
-{
-  "id": "LogarithmicScales-7-6",
-  "level": "2",
-  "url": "LogarithmicScales.html#LogarithmicScales-7-6",
-  "type": "Checkpoint",
-  "number": "10.2.11",
-  "title": "Practice 4.",
-  "body": "Practice 4 The noise of city traffic registers at about decibels.   What is the intensity of traffic noise, in watts per square meter?  How many times more intense is traffic noise than conversation?   watts\/m   "
+  "body": " Normal breathing generates about watts per square meter of intensity at a distance of 3 feet. Find the number of decibels for a breath 3 feet away.  Normal conversation registers at about 40 decibels. How many times more intense than breathing is normal conversation?   We evaluate the decibel formula with to find The sound of breathing registers at 10 decibels.  From part (a), we know that the sound intensity of breathing is watts per square meter. We'll calculate the intensity of conversation from its decibel value. Finally, we compute the ratio of intensities: Normal conversation is 1000 times more intense than breathing.  "
 },
 {
   "id": "LogarithmicScales-7-7",
   "level": "2",
   "url": "LogarithmicScales.html#LogarithmicScales-7-7",
+  "type": "Checkpoint",
+  "number": "10.2.10",
+  "title": "Practice 4.",
+  "body": "Practice 4 The noise of city traffic registers at about decibels.   What is the intensity of traffic noise, in watts per square meter?  How many times more intense is traffic noise than conversation?   watts\/m   "
+},
+{
+  "id": "LogarithmicScales-7-8",
+  "level": "2",
+  "url": "LogarithmicScales.html#LogarithmicScales-7-8",
   "type": "Caution",
-  "number": "10.2.12",
+  "number": "10.2.11",
   "title": "",
   "body": "Both the decibel model and the Richter scale in the next example use expressions of the form . Be careful to follow the order of operations when using these models. We must compute the quotient before taking a logarithm. In particular, keep in mind that can be simplified to . "
 },
@@ -26141,16 +26186,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicScales.html#example-northridge-earthquake",
   "type": "Example",
-  "number": "10.2.13",
+  "number": "10.2.12",
   "title": "",
-  "body": " The Northridge earthquake of January 1994 registered 6.9 on the Richter scale. What would be the magnitude of an earthquake 100 times as powerful as the Northridge quake?  How many times more powerful than the Northridge quake was the San Francisco earthquake of 1989, which registered 7.1 on the Richter scale?    We let represent the amplitude of the Northridge quake and represent the amplitude of a quake 100 times more powerful. From the Richter model, we have or, rewriting in exponential form, Now, we want to be 100 times , so Thus, the magnitude of the more powerful quake is  We let stand for the amplitude of the San Francisco earthquake. We are looking for the ratio . First, we use the Richter formula to compute values for and . Rewriting each equation in exponential form, we have or Now we can compute the ratio we want: The San Francisco earthquake was , or approximately 1.58 times as powerful as the Northridge quake.  "
+  "body": " The Northridge earthquake of January 1994 registered 6.9 on the Richter scale. What would be the magnitude of an earthquake 100 times as powerful as the Northridge quake?  How many times more powerful than the Northridge quake was the San Francisco earthquake of 1989, which registered 7.1 on the Richter scale?    The amplitude of the Northridge quake is given by and by rewriting in exponential form we find An earthquake 100 times as powerful would have amplitude Thus, the magnitude of the more powerful quake is  In part (a) we used the Richter formula to find that the amplitude of the Northridge quake was Similarly, the amplitude of the San Francisco quake was So the ratio of their amplitudes is The San Francisco earthquake was , or approximately 1.58 times as powerful as the Northridge quake.  "
 },
 {
   "id": "LogarithmicScales-8-5",
   "level": "2",
   "url": "LogarithmicScales.html#LogarithmicScales-8-5",
   "type": "Checkpoint",
-  "number": "10.2.14",
+  "number": "10.2.13",
   "title": "Practice 5.",
   "body": "Practice 5 In October 2005, a magnitude 7.6 earthquake struck Pakistan. How much more powerful was this earthquake than the 1989 San Francisco earthquake of magnitude 7.1? 3.16 "
 },
@@ -26159,7 +26204,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicScales.html#example-compare-logscale",
   "type": "Example",
-  "number": "10.2.15",
+  "number": "10.2.14",
   "title": "",
   "body": "On a log scale, the weights of two animals differ by 1.6 units. What is the ratio of their actual weights?  A difference of 1.6 on a log scale corresponds to a factor of in the actual weights. Thus, the heavier animal is , or 39.8 times as heavy as the lighter animal. "
 },
@@ -26168,7 +26213,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicScales.html#LogarithmicScales-9-5",
   "type": "Checkpoint",
-  "number": "10.2.16",
+  "number": "10.2.15",
   "title": "Practice 6.",
   "body": "Practice 6 Two points, labeled and , differ by units on a log scale. What is the ratio of their decimal values? 316.2 "
 },
@@ -26177,7 +26222,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "LogarithmicScales.html#LogarithmicScales-9-6",
   "type": "Checkpoint",
-  "number": "10.2.17",
+  "number": "10.2.16",
   "title": "QuickCheck 3.",
   "body": "QuickCheck 3 Decide whether each statement is true or false.  An increase of 1 on the pH scale corresponds to an increase in acidity by a factor of 10.  A ratio of sound intensities of one billion corresponds to a difference of 90 decibels.  The second property of logs says that .  A difference of 3 on a log scale corresponds to a ratio of , or 1000.  "
 },
@@ -26359,7 +26404,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "10.2.7.20",
   "title": "",
-  "body": "The log scale shows the size of various objects, in meters. Estimate the sizes of the objects indicated.  logscale > "
+  "body": "The log scale shows the size of various objects, in meters. Estimate the sizes of the objects indicated.  logscale "
 },
 {
   "id": "section-10-2-exercises-4-4",
@@ -26494,12 +26539,12 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.3",
   "title": "The Natural Base",
-  "body": " The Natural Base natural base natural base e e  There is another base for logarithms and exponential functions that is often used in applications. This base is an irrational number called , where The number is essential for many advanced topics, and it is often called the natural base . natural base  The Natural Exponential Function  The natural exponential function natural exponential function exponential function exponential function natural function natural exponential e is the function . Values for can be obtained with a calculator using the key ( 2nd  LN on most calculators). For example, you can evaluate by pressing  2nd  LN   to confirm the value of given above.  Practice 1 Use your calculator to evaluate the following powers. Round to four decimal places.          Because is a number between 2 and 3, the graph of lies between the graphs of and . Compare the tables of values and the graphs of the three functions below. You can verify the table and graphs on your caclulator.                                             graph of 3 exponential functions   QuickCheck 1 The value of is closest to        Graph each function. How does each graph differ from the graph of ?     horizontal scaling of exponential  The graph of grows more slowly than . The graph of is a decreasing graph, the reflection of about the -axis. The graphs are shown above.   The Natural Logarithmic Function  The base e logarithm of a number , or , is called the natural logarithm natural logarithm of and is denoted by .  The Natural Logarithm natural logarithm  The natural logarithm is the logarithm base .   The natural logarithm of is the exponent to which must be raised to produce . For example, the natural logarithm of , or , is the solution of the equation You can verify on your calculator that In general, natural logs obey the same conversion equations that work for logs to other bases.  Conversion Equations for Natural Logs   QuickCheck 2 Which of the following is equivalent to ?        In particular,  As is the case with exponential and log functions with other bases, the natural log function natural log function , and the natural exponential function, , \"undo\" each other, so they are inverse functions.  Graph and on the same grid.   We can make a table of values for by interchanging the columns in the table for . Plotting the points gives us the graph below.                              graphs of ln and natural exponential  To see interesting properties of the graphs of and , see Section 10.3.1 of the Toolkit.  You can see from the graph that the natural log function has only positive numbers as input values. The natural logs of negative numbers and zero are undefined. You can also see that the natural log of a number greater than 1 is positive, while the logs of fractions between 0 and 1 are negative.  Practice 2 Use your calculator to evaluate each logarithm. Round your answers to four decimal places.               Properties of the Natural Logarithm  The three properties of logarithms also apply to base logarithms.  Properties of Natural Logarithms  If , then     If , is undefined.  And because the functions and are inverse functions, the following properties are also true.  The Natural Log and   Simplify each expression.      The natural log is the log base , and hence the inverse of . Therefore,  First, we simplify the exponent using the third property of logs to get Then .   Practice 3 Simplify each expression.          Solving Equations  We use the natural logarithm to solve exponential equations with base . The techniques we've learned for solving other exponential equations also apply to equations with base .  exponential equation exponential equation solving with logarithms  To review solving exponential equations, see Section 7.4.3 of the textbook.  Solve each equation for .      We convert the equation to logarithmic form and evaluate using a calculator.  We convert the equation to exponential form and evaluate.   Practice 4 Solve each equation. Round your answers to four decimal places.         QuickCheck 3 Why is the equation easier to solve than ?   8 is larger than 6.5.  is a constant.  There is a button for log base on the calculator, but not a button for log base 8.  Because is an irrational number.    To solve more complicated exponential equations, we isolate the power on one side of the equation before converting to logarithmic form. exponential equation solving  Solve  First, we divide each side by to obtain Then we convert the equation to logarithmic form. Rounded to four decimal places, .  We can also solve the equation in the Example above, by taking the natural logarithm of both sides. This gives us because for any number . We then proceed with the solution as before.  Practice 5 Solve  Solve for .  We multiply both sides of the equation by the denominator, , to get Then we isolate the power, , as follows: Next, we take the natural logarithm of both sides to get and recall that to simplify the left side. Finally, we divide both sides by to solve for .  Practice 6 Solve for .  Hint:      Exponential Growth and Decay  Recall that functions of the form describe exponential growth when and exponential decay when .  To review exponential growth, see Section 7.1.5 of the textbook.  Exponential growth and decay can also be modeled by functions of the form where we have substituted for the growth factor , so that We can find the value of by solving the equation for , to get . exponential decay exponential growth  For instance, consider a colony of bacteria that grows according to the formula We can express this function in the form if we set Thus, the growth law for the colony of bacteria can be written By graphing both functions on your calculator, you can verify that are just two ways of writing the same function.  P(t) equals 100 3 to the t   From 1990 to 2000, the population of Clark County, Nevada, grew by per year.    What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population years later.  Write a growth formula for Clark County using base .    The growth factor was . The population years later was  We use the formula , where . Solving for , we find so .   To see more examples using the natural exponential function, see Section 10.3.2 of the Toolkit.  Practice 7 From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula , where in 1994 and is in millions. (Source: Los Angeles Times, September 6, 1999)   Evaluate . By what percent did the number of Internet users grow in one year?  Express the growth law in the form . (Hint: .)   ,    If is negative, then is a fraction less than . For example, if , Thus, for negative values of , the function describes exponential decay.   Exponential Growth and Decay exponential growth exponential decay  The function describes exponential growth if , and exponential decay if .   QuickCheck 4 The natural log of a fraction between 0 and 1 is   positive.  negative.  undefined.  between and .    Express the decay law in the form .  For this decay law, and . We would like to find a value for so that , that is, we must solve the equation Replacing with , we find that the decay law is  Practice 8 A scientist isolates grams of krypton-91, which decays according to the formula , where is in seconds.   Complete the table of values showing the amount of krypton-91 left at -second intervals over the first minute.                      Use the table to choose a suitable window and graph the function .  Write and solve an equation to answer the question: How long does it take for 60% of the krypton-91 to decay?  Hint: If of the krypton-91 has decayed, of the original grams remains.                        exponential decay  ; seconds    Continuous Compounding  Some savings institutions offer accounts on which the interest is compounded continuously compounded continuously . The amount accumulated in such an account after years at interest rate is given by the function where is the principal invested.  For an explanation of this formula, see Investigation 10.3.7 below.  Suppose you invest $500 in an account that pays 8% interest compounded continuously. You leave the money in the account without making any additional deposits or withdrawals.  Write a formula that gives the value of your account after years.  Make a table of values showing for the first 5 years.  Graph the function .  How much will the account be worth after 10 years?  How long will it be before the account is worth $1000?    We substitute 500 for , and 0.08 for to find  We evaluate the formula for to obtain a table.                          graph of continuous compounded interest  The graph of is shown above.  We evaluate for . The account will be worth $1112.77 after 10 years.  We substitute 1000 for and solve the equation. The account will be worth $1000 after approximately 8.7 years.   Practice 9 Zelda invested $1000 in an account that pays 4.5% interest compounded continuously. How long will it be before the account is worth $2000? About 15.4 years   Compound Interest  Interest Compounded Continuously  We learned in that the amount, (principal plus interest), accumulated in an account with interest compounded times annually is where is the principal invested, is the interest rate, and is the time period, in years.   Suppose you keep in an account that pays 8% interest. How much is the amount after 1 year if the interest is compounded twice a year? Four times a year?  What happens to as we increase , the number of compounding periods per year? Fill in the table showing the amount in the account for different values of .        (annually)    (semiannually)    (quarterly)    (bimonthly)    (monthly)    (daily)          grid  Plot the values in the table from to , and connect them with a smooth curve. Describe the curve: What is happening to the value of ?  In part (2), as you increased the value of , the other parameters in the formula stayed the same. In other words, is a function of , given by . Use your calculator to graph A on successively larger intervals:      Use the Trace feature or the Table feature to evaluate for very large values of . Rounded to the nearest penny, what is the largest value of that you can find?  As increases, the values of approach a limiting value. Although continues to increase, it does so by smaller and smaller increments and will never exceed $1083.29. When the number of compounding periods increases without bound, we call the limiting result continuous compounding continuous compounding .  Is there an easier way to compute under continues compounding? Yes! Compute on your calculator. (Press 2nd  LN to enter .) Compare the value to your answer in part (5) for the limiting value. The number is called the natural base natural base . We'll compute its value shortly.  Repeat your calculations for two other interest rates, 15% and (an extremely unrealistic) 100%, again for an investment of $1000 for 1 year. In each case, compare the limiting value of , and compare to the value of .                                                                 In part (8b), you have computed an approximation for . What is the value of , rounded to 5 decimal places?  Complete the table of values. What does appear to approach as increases?                   Homework 10.3  Skills Practice  For Problems 1-4, use your calculator to complete the table for each function. Then choose a suitable window and graph the function.                      >                     growth                        decay     For Problems 5 and 6, simplify.                    For Problems 7 10, solve for . Round your answers to two decimal places.                               For Problems 11-14, express each exponential function in the form . Is the function increasing or decreasing? What is its initial value?  ; increasing; initial value   ; decreasing; initial value     Fill in the table, rounding your answers to four decimal places.                    Compute the ratio of each function value to the previous one. Explain the result.                     Each ratio is : Increasing -values by a constant corresponds to multiplying the -values of the exponential function by a constant factor of .    Fill in the table, rounding your answers to four decimal places.                    Compute the ratio of each function value to the previous one. Explain the result.    Fill in the table, rounding your answers to the nearest integer.                      Subtract each -value from the next one. Explain the result.                       Each difference in -values is approximately : Increasing -values by a constant corresponds to multiplying the -values of the exponential function by a constant factor of . That is, each function value is approximately equal to double the previous one.    Fill in the table, rounding your answers to the nearest integer.                      Subtract each -value from the next one. Explain the result.   For Problems 19 26, solve. Round your answers to two decimal places.           For Problems 27-32, solve the equation for the specified variable.  for  for  for  for  for  for   Fill in the table, rounding your answers to three decimal places.                Subtract each natural logarithm in your table from the next one. (For example, compute .) Explain the result.                 Each difference in function values is approximately : Multiplying -values by a constant factor of 10 corresponds to adding a constant value of to the -values of the natural log function.   Fill in the table, rounding your answers to three decimal places.                Subtract each natural logarithm in your table from the next one. (For example, compute .) Explain the result.   Fill in the table, rounding your answers to three decimal places.                Divide each natural logarithm in your table by . Explain the result.                Each quotient equals , where . Because , .   Fill in the table, rounding your answers to three decimal places.                Divide each natural logarithm in your table by . Explain the result.   For Problems 37 42,  Express each growth or decay law in the form .  Check your answer by graphing both forms of the function on the same axes. Do they have the same graph?     growth      decay      growth      Applications  The number of bacteria in a culture grows according to the function where is the number of bacteria present at time and is the time in hours.  Write a growth law for a sample in which 6000 bacteria were present initially.  Make a table of values for in 5-hour intervals over the first 30 hours.  Graph .  How many bacteria were present at hours?  How much time must elapse (to the nearest tenth of an hour) for the original 6000 bacteria to increase to 100,000?                        growth  15,670  70.3 hrs   Hope invests $2000 in a savings account that pays annual interest compounded continuously.  Write a formula that gives the amount of money in Hope’s account after years.  Make a table of values for in 2-year intervals over the first 10 years.  Graph .  How much will Hope's account be worth after 7 years?  How long will it take for the account to grow to $5000?   The intensity, (in lumens), of a light beam after passing through centimeters of a filter having an absorption coefficient of is given by the function   Graph .  What is the intensity (to the nearest tenth of a lumen) of a light beam that has passed through 0.6 centimeter of the filter?  How many centimeters (to the nearest tenth) of the filter will reduce the illumination to 800 lumens?   decay  941.8 lumens  2.2 cm   X-rays can be absorbed by a lead plate so that where is the X-ray count at the source and is the X-ray count behind a lead plate of thickness inches.  Graph .  What percent of an X-ray beam will penetrate a lead plate inch thick?  How thick should the lead plate be in order to screen out 70% of the X-rays?   The population of Citrus Valley was 20,000 in 2000. In 2010, it was 35,000.  What is if in 2000?  Use the population in 2010 to find the growth factor .  Write a growth law of the form for the population of Citrus Valley.  If it continues at the same rate of growth, what will the population be in 2030?   20,000    107,188   A copy of Time magazine cost $1.50 in 1981. In 1988, the cover price had increased to $2.00.  What is if in 1981?  Use the price in 1988 to find the growth factor .  Find a growth law of the form for the price of Time .  In 1999, a copy of Time cost $3.50. Did the price of the magazine continue to grow at the same rate from 1981 to 1999?   Cobalt-60 is a radioactive isotope used in the treatment of cancer. A 500-milligram sample of cobalt-60 decays to 385 milligrams after 2 years.  Using , find the decay factor for cobalt-60.  Write a decay law for cobalt-60.  How much of the original sample will be left after 10 years?     135.3 mg   Weed seeds can survive for a number of years in the soil. An experiment on cultivated land found 155 million weed seeds per acre, and in the following years the experimenters prevented the seeds from coming to maturity and producing new weeds. Four years later, there were 13.6 million seeds per acre. (Source: Burton, 1998)  Find the annual decay factor for the number of weed seeds in the soil.  Write an exponential formula with base for the number of weed seeds that survived after years.   Problems 51 58 are about doubling time and half-life.  Delbert invests $500 in an account that pays 9.5% interest compounded continuously.  Write a formula for that gives the amount of money in Delbert's account after years.  How long will it take Delbert's investment to double to $1000?  How long will it take Delbert's money to double again, to $2000?  Graph and illustrate the doubling time on your graph.  Choose any point on the graph, then find the point on the graph with vertical coordinate . Verify that the difference in the -coordinates of the two points is the doubling time.    7.3 years  7.3 years d e growth with marked doubling time   The growth of plant populations can be measured by the amount of pollen they produce. The pollen from a population of pine trees that lived more than 9500 years ago in Norfolk, England, was deposited in the layers of sediment in a lake basin and dated with radiocarbon techniques.  The figure shows the rate of pollen accumulation plotted against time, and the fitted curve . (Source: Burton, 1998)  growth   What was the annual rate of growth in pollen accumulation?  Find the doubling time for the pollen accumulation, that is, the time it took for the accumulation rate to double.  By what factor did the pollen accumulation rate increase over a period of 500 years?   Technetium-99m (Tc-99m) is an artificially produced radionuclide used as a tracer for producing images of internal organs such as the heart, liver, and thyroid. A solution of Tc-99m with initial radioactivity of 10,000 becquerels (Bq) decays according to the formula where is in hours.  How long will it take the radioactivity to fall to half its initial value, or 5000 Bq?  How long will it take the radioactivity to be halved again?  Graph and illustrate the half-life on your graph.  Choose any point on the graph, then find the point on the graph with vertical coordinate . Verify that the difference in the -coordinates of the two points is the half-life.   6 hours  6 hours  decay with marked half-life  All living things contain a certain amount of the isotope carbon-14. When an organism dies, the carbon-14 decays according to the formula where is measured in years. Scientists can estimate the age of an organic object by measuring the amount of carbon-14 remaining.  When the Dead Sea scrolls were discovered in 1947, they had 78.8% of their original carbon-14. How old were the Dead Sea scrolls then?  What is the half-life of carbon-14, that is, how long does it take for half of an object's carbon-14 to decay?   The half-life of iodine-131 is approximately 8 days.  If a sample initially contains grams of iodine-131, how much will it contain after 8 days? How much will it contain after 16 days? After 32 days?  Use your answers to part (a) to sketch a graph of , the amount of iodine-131 remaining, versus time. (Choose an arbitrary height for on the vertical axis.)  Calculate , and hence find a decay law of the form , where , for iodine-131.   , ,  decay    The half-life of hydrogen-3 is 12.5 years.  If a sample initially contains grams of hydrogen-3, how much will it contain after 12.5 years? How much will it contain after 25 years?  Use your answers to part (a) to sketch a graph of , the amount of hydrogen-3 remaining, versus time. (Choose an arbitrary height for on the vertical axis.)  Calculate , and hence find a decay law of the form , where , for hydrogen-3.   A Geiger counter measures the amount of radioactive material present in a substance. The table shows the count rate for a sample of iodine-128 as a function of time. (Source: Hunt and Sykes, 1984)    Time (min)             Counts\/sec              Graph the data and use your calculator's exponential regression feature to fit a curve to them.  Write your equation in the form .  Calculate the half-life of iodine-128.   decay fit on data   decay fit on data    28 minutes   The table shows the count rate for sodium-24 registered by a Geiger counter as a function of time. (Source: Hunt and Sykes, 1984)    Time (min)             Counts\/sec              Graph the data and use your calculator's exponential regression feature to fit a curve to them.  Write your equation in the form .  Calculate the half-life of sodium-24.       "
+  "body": " The Natural Base natural base natural base e e   We have looked at logarithms with various bases, and in particular we studied the common or base 10 logarithms, which often appear in applications. There is another base for logarithms and exponential functions that is used in scientific applications. This base is an irrational number called , where  To review exponential functions, see Section 7.2 of the textbook.  The number is essential for many advanced topics, and it is often called the natural base . natural base It may seem strange to use an irrational number as the base for exponential functions, but just as the irrational number arises naturally in geometry, so does arise in calculus and its applications. At the end of this section we'll look at a specific case of how base occurs, and how its use is connected to the ideas and techniques of calculus.  The Natural Exponential Function  The natural exponential function natural exponential function exponential function exponential function natural function natural exponential e is the function Values for can be obtained with a calculator using the key ( 2nd  LN on most calculators). For example, you can evaluate by pressing  2nd  LN   to confirm the value of given above. (We'll explain why we use the 2nd  LN key a little later.)  Try a few more calculations to become familiar with base .  Practice 1 Use your calculator to evaluate the following powers. Round to four decimal places.          What about the graph of this new exponential function? Because is a number between 2 and 3, the graph of lies between the graphs of and . Compare the table of values and the graphs of the three functions below. For example, note that for , the value of is between and . You can verify the table and the graphs on your calculator.                                             graph of 3 exponential functions   QuickCheck 1  The value of is closest to which of these?        The value of is closest to which of these?         Variations on the natural exponential function occur in many disciplines. For example, the graph in the figure below is called a \"bell curve.\" It is the graph of the normal distribution in statistics.  male height  The normal distribution above shows the heights of men in the US. The average or mean height for men is 70 inches, and the formula for the graph is Evaluate the function for and for .  The probability that a given man has a height between two values is the area under the curve between those values.  To evaluate the function we follow the order of operations. For we have  For we have  This next graph is an example of a logistic function , which models population growth with an upper bound.  graph of covid  Practice 2 The logistic function shown above models the spread of Covid in China during the 2020 epidemic. It gives the number of infections , in thousands, reported days after January 21, 2020. The equation for this model is According to the model, how many cases of Covid were reported on February 20 (day )? 58,194 cases  To use the natural base for exponential growth and decay, we will need to look at functions of the form for various values of . Here are some examples.  Use technology to graph each function. How does the coefficient of make each graph different from the graph of ?     horizontal scaling of exponential   The graph of is shown in red. For positive , the coefficient makes the graph of grow more slowly than , because is smaller than . So for positive the graph of lies below the graph of .  Because , the graph of is decreasing, and in fact it is the reflection of the graph of about the -axis.    The Natural Logarithmic Function  Recall that each exponential function with base has an inverse function, the logarithmic function with the same base. For example, the function is the inverse of the function . It gives the exponent needed on 2 to give , so that, for instance, , because .  To review logarithmic functions, see Section 7.3 of the textbook.  The base e logarithm of a number , or , is called the natural logarithm natural logarithm of and is denoted by . (Why ln and not nl ? The natural logarithm is denoted by ln because it stands for logarithmus naturalis, which is the Latin for natural logarithm. ) Here is its official definition.  The Natural Logarithm natural logarithm  The natural logarithm is the logarithm base .   The natural logarithm of is the exponent to which must be raised to produce . For example, the natural logarithm of , or , is the solution of the equation You can verify on your calculator that  As is the case with exponential and log functions with other bases, the natural log function natural log function , , and the natural exponential function, , undo each other, so they are inverse functions. (This is why many calculators use 2nd  LN to indicate .)  Practice 3 Use your calculator to evaluate each logarithm. Round your answers to four decimal places.             As usual, we can gain a better understanding of a new function by looking at its graph.  Graph and on the same grid.  Earlier we made a table of values to graph the fuction , and we can make a table of values for by interchanging the columns in that table. Plotting the points gives us the graph below.                              graphs of ln and natural exponential  You can see that the graph of is the reflection of the graph of about the line . In particular, notice that while the graph of has no points with negative -values, the graph of has no points with negative -values.  From the graph of you can make the following observations.   The natural log function has only positive numbers as input values.  The natural logs of negative numbers and zero are undefined.  The natural log of a number greater than 1 is positive, while the logs of numbers between 0 and 1 are negative.   To see some interesting properties of the graphs of and , see Section 10.3.1 of the Toolkit.   Properties of the Natural Logarithm  In general, natural logs obey the same conversion equations that work for logs to other bases. In fact, all the techniques you have already learned for working with exponential and log functions still work for base .  Conversion Equations for Natural Logs   QuickCheck 2 Which of the following is equivalent to ?        In particular,  The three properties of logarithms you learned in Section 7.4 also apply to base logarithms.  Properties of Natural Logarithms  If , then     If , is undefined.  Because the functions and are inverse functions, the following properties are also true.  The Natural Log and   Simplify each expression.      The natural log is the log base , and hence the inverse of . Therefore,  First, we simplify the exponent using the third property of logs to get Then .   Practice 4 Simplify each expression.      or     Solving Equations  We use the natural logarithm to solve exponential equations with base . The techniques we've learned for solving other exponential equations also apply to equations with base .  exponential equation exponential equation solving with logarithms  To review solving exponential equations, see Section 7.4.3 of the textbook.  Solve each equation for .      We convert the equation to logarithmic form and evaluate using a calculator.  We convert the equation to exponential form and evaluate.   Practice 5 Solve each equation. Round your answers to four decimal places.         QuickCheck 3 Which statement below explains why the equation is easier to solve than ?   8 is larger than 6.5.  is a constant.  There is a button for log base on the calculator, but not a button for log base 8.  Because is an irrational number.    To solve more complicated exponential equations, we isolate the power on one side of the equation before converting to logarithmic form. exponential equation solving  Solve  First, we isolate the power. Then we convert the equation to logarithmic form. Rounded to four decimal places, .  When solving the equation in the Example above, we can think of taking the natural logarithm of both sides. This gives us because for any number . We then proceed with the solution as before.  Practice 6 Solve   The logistic function has its upper bound at . Find the value of for which .  We must solve the equation for . To begin, we multiply both sides of the equation by the denominator, , to get Then we isolate the power, , as follows: Next, we take the natural logarithm of both sides to get and recall that to simplify the left side. Finally, we divide both sides by to solve for .  Practice 7 Solve for .     Exponential Growth and Decay  Recall that functions of the form describe exponential growth when and exponential decay when .  To review exponential growth, see Section 7.1.2 of the textbook.  Exponential growth and decay can also be modeled by functions of the form where we have substituted for the growth factor , so that We can find the value of by solving the equation for , to get . exponential decay exponential growth  For instance, consider a colony of bacteria that grows according to the formula We can express this function in the form if we set Thus, the growth law for the colony of bacteria can be written   By graphing both functions on your calculator, you can verify that are just two ways of writing the same function.  P(t) equals 100 3 to the t   Sometimes exponential growth is given as a percentage, so for example we might say prices rose by 5% annually. In this case the growth factor is , where is the percentage rate in decimal form. For a percent decrease, .  To review percent increase, see Section 7.1.5 of the textbook.  From 1990 to 2000, the population of Clark County, Nevada, grew by per year.    What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population years later.  Write a growth formula for Clark County using base .    The growth factor was . The population years later was  We use the formula , where . Solving for , we find so .   To see more examples using the natural exponential function, see Section 10.3.2 of the Toolkit.  Practice 8 From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula where in 1994 and is in millions. (Source: Los Angeles Times, September 6, 1999)   Evaluate . By what percent did the number of Internet users grow in one year?  Express the growth law in the form . (Hint: .)   ,    Now, what about exponential decay, where the the decay fator is a number less than 1? If is negative, then is a number less than 1. For example, if , Thus, for negative values of , the function describes exponential decay.   Exponential Growth and Decay exponential growth exponential decay  The function describes exponential growth if , and exponential decay if .   QuickCheck 4 The natural log of a number between 0 and 1 is   positive.  negative.  undefined.  between and .    Express the decay law in the form .  For this decay law, and . We would like to find a value for so that , that is, we must solve the equation Replacing with , we find that the decay law is  Practice 9 A scientist isolates grams of krypton-91, which decays according to the formula , where is in seconds.   Complete the table of values showing the amount of krypton-91 left at -second intervals over the first minute.                      Use the table to choose a suitable window and graph the function .  Write and solve an equation to answer the question: How long does it take for 60% of the krypton-91 to decay?  Hint: If of the krypton-91 has decayed, of the original grams remains.                        exponential decay  ; seconds    Continuous Compounding  In Section 7.5.4 we looked at a formula for savings accounts on which the interest is compounded times per year, and we saw that the amount on such an account increased when increased. But there is a limit or upper bound to the amount, no matter how large the value of . At this upper bound we say that the interest is compounded continuously compounded continuously , and the amount is given by the function where is the principal invested and is the interest rate.  For an explanation of this formula, see Investigation 10.3.7 below.  Suppose you invest $500 in an account that pays 8% interest compounded continuously. You leave the money in the account without making any additional deposits or withdrawals.  Write a formula that gives the value of your account after years.  Make a table of values showing for the first 5 years.  Graph the function .  How much will the account be worth after 10 years?  How long will it be before the account is worth $1000?    We substitute 500 for , and 0.08 for to find  We evaluate the formula for to obtain a table.                          graph of continuous compounded interest  The graph of is shown above.  We evaluate for . The account will be worth $1112.77 after 10 years.  We substitute 1000 for and solve the equation. The account will be worth $1000 after approximately 8.7 years.   Practice 10 Zelda invested $1000 in an account that pays 4.5% interest compounded continuously. How long will it be before the account is worth $2000? About 15.4 years  In the next Investigation we'll see how the formula for interest compounded continuously, , arises when , the number of compounding periods, increases.  Interest Compounded Continuously  We learned in Section 7.5.4 that the amount, (principal plus interest), accumulated in an account with interest compounded times annually is where is the principal invested, is the interest rate, and is the time period, in years.   Suppose you keep in an account that pays 8% interest. How much is the amount after 1 year if the interest is compounded twice a year? Four times a year?  What happens to as we increase , the number of compounding periods per year? Fill in the table showing the amount in the account for different values of .        (annually)    (semiannually)    (quarterly)    (bimonthly)    (monthly)    (daily)          grid  Plot the values in the table from to , and connect them with a smooth curve. Describe the curve: What is happening to the value of ?  In part (2), as you increased the value of , the other parameters in the formula stayed the same. In other words, is a function of , given by . Use your calculator to graph A on successively larger intervals:      Use the Trace feature or the Table feature to evaluate for very large values of . Rounded to the nearest penny, what is the largest value of that you can find?  As increases, the values of approach a limiting value. Although continues to increase, it does so by smaller and smaller increments and will never exceed $1083.29. When the number of compounding periods increases without bound, we call the limiting result continuous compounding continuous compounding .  Is there an easier way to compute under continues compounding? Yes! Compute on your calculator. (Press 2nd  LN to enter .) Compare the value to your answer in part (5) for the limiting value.  Repeat your calculations for two other interest rates, 15% and (an extremely unrealistic) 100%, again for an investment of $1000 for 1 year. In each case, compare the limiting value of , and compare to the value of .                                                                 In part (8b), you have computed an approximation for . What is the value of , rounded to 5 decimal places?  Complete the table of values. What does appear to approach as increases?                 In the Investigation, we saw that the number arises as the limiting value of the expression as increases without bound. The limiting process is one of the fundamental methods of calculus, and helps us understand and analyze other continuous phenomena, such as rates of growth.    Homework 10.3  Skills Practice  For Problems 1-4, use your calculator to complete the table for each function. Then choose a suitable window and graph the function.                                          growth                        decay     For Problems 5 and 6, simplify.                    For Problems 7 10, solve for . Round your answers to two decimal places.                               For Problems 11-14, express each exponential function in the form . Is the function increasing or decreasing? What is its initial value?  ; increasing; initial value   ; decreasing; initial value     Fill in the table, rounding your answers to four decimal places.                    Compute the ratio of each function value to the previous one. Explain the result.                     Each ratio is : Increasing -values by a constant corresponds to multiplying the -values of the exponential function by a constant factor of .    Fill in the table, rounding your answers to four decimal places.                    Compute the ratio of each function value to the previous one. Explain the result.    Fill in the table, rounding your answers to the nearest integer.                      Subtract each -value from the next one. Explain the result.                       Each difference in -values is approximately : Increasing -values by a constant corresponds to multiplying the -values of the exponential function by a constant factor of . That is, each function value is approximately equal to double the previous one.    Fill in the table, rounding your answers to the nearest integer.                      Subtract each -value from the next one. Explain the result.   For Problems 19 26, solve. Round your answers to two decimal places.           For Problems 27-32, solve the equation for the specified variable.  for  for  for  for  for  for   Fill in the table, rounding your answers to three decimal places.                Subtract each natural logarithm in your table from the next one. (For example, compute .) Explain the result.                 Each difference in function values is approximately : Multiplying -values by a constant factor of 10 corresponds to adding a constant value of to the -values of the natural log function.   Fill in the table, rounding your answers to three decimal places.                Subtract each natural logarithm in your table from the next one. (For example, compute .) Explain the result.   Fill in the table, rounding your answers to three decimal places.                Divide each natural logarithm in your table by . Explain the result.                Each quotient equals , where . Because , .   Fill in the table, rounding your answers to three decimal places.                Divide each natural logarithm in your table by . Explain the result.   For Problems 37 42,  Express each growth or decay law in the form .  Check your answer by graphing both forms of the function on the same axes. Do they have the same graph?     growth      decay      growth      Applications  The number of bacteria in a culture grows according to the function where is the number of bacteria present at time and is the time in hours.  Write a growth law for a sample in which 6000 bacteria were present initially.  Make a table of values for in 5-hour intervals over the first 30 hours.  Graph .  How many bacteria were present at hours?  How much time must elapse (to the nearest tenth of an hour) for the original 6000 bacteria to increase to 100,000?                        growth  15,670  70.3 hrs   Hope invests $2000 in a savings account that pays annual interest compounded continuously.  Write a formula that gives the amount of money in Hope’s account after years.  Make a table of values for in 2-year intervals over the first 10 years.  Graph .  How much will Hope's account be worth after 7 years?  How long will it take for the account to grow to $5000?   The intensity, (in lumens), of a light beam after passing through centimeters of a filter having an absorption coefficient of is given by the function   Graph .  What is the intensity (to the nearest tenth of a lumen) of a light beam that has passed through 0.6 centimeter of the filter?  How many centimeters (to the nearest tenth) of the filter will reduce the illumination to 800 lumens?   decay  941.8 lumens  2.2 cm   X-rays can be absorbed by a lead plate so that where is the X-ray count at the source and is the X-ray count behind a lead plate of thickness inches.  Graph .  What percent of an X-ray beam will penetrate a lead plate inch thick?  How thick should the lead plate be in order to screen out 70% of the X-rays?   The population of Citrus Valley was 20,000 in 2000. In 2010, it was 35,000.  What is if in 2000?  Use the population in 2010 to find the growth factor .  Write a growth law of the form for the population of Citrus Valley.  If it continues at the same rate of growth, what will the population be in 2030?   20,000    107,188   A copy of Time magazine cost $1.50 in 1981. In 1988, the cover price had increased to $2.00.  What is if in 1981?  Use the price in 1988 to find the growth factor .  Find a growth law of the form for the price of Time .  In 1999, a copy of Time cost $3.50. Did the price of the magazine continue to grow at the same rate from 1981 to 1999?   Cobalt-60 is a radioactive isotope used in the treatment of cancer. A 500-milligram sample of cobalt-60 decays to 385 milligrams after 2 years.  Using , find the decay factor for cobalt-60.  Write a decay law for cobalt-60.  How much of the original sample will be left after 10 years?     135.3 mg   Weed seeds can survive for a number of years in the soil. An experiment on cultivated land found 155 million weed seeds per acre, and in the following years the experimenters prevented the seeds from coming to maturity and producing new weeds. Four years later, there were 13.6 million seeds per acre. (Source: Burton, 1998)  Find the annual decay factor for the number of weed seeds in the soil.  Write an exponential formula with base for the number of weed seeds that survived after years.   Problems 51 58 are about doubling time and half-life.  Delbert invests $500 in an account that pays 9.5% interest compounded continuously.  Write a formula for that gives the amount of money in Delbert's account after years.  How long will it take Delbert's investment to double to $1000?  How long will it take Delbert's money to double again, to $2000?  Graph and illustrate the doubling time on your graph.  Choose any point on the graph, then find the point on the graph with vertical coordinate . Verify that the difference in the -coordinates of the two points is the doubling time.    7.3 years  7.3 years d e growth with marked doubling time   The growth of plant populations can be measured by the amount of pollen they produce. The pollen from a population of pine trees that lived more than 9500 years ago in Norfolk, England, was deposited in the layers of sediment in a lake basin and dated with radiocarbon techniques.  The figure shows the rate of pollen accumulation plotted against time, and the fitted curve . (Source: Burton, 1998)  growth   What was the annual rate of growth in pollen accumulation?  Find the doubling time for the pollen accumulation, that is, the time it took for the accumulation rate to double.  By what factor did the pollen accumulation rate increase over a period of 500 years?   Technetium-99m (Tc-99m) is an artificially produced radionuclide used as a tracer for producing images of internal organs such as the heart, liver, and thyroid. A solution of Tc-99m with initial radioactivity of 10,000 becquerels (Bq) decays according to the formula where is in hours.  How long will it take the radioactivity to fall to half its initial value, or 5000 Bq?  How long will it take the radioactivity to be halved again?  Graph and illustrate the half-life on your graph.  Choose any point on the graph, then find the point on the graph with vertical coordinate . Verify that the difference in the -coordinates of the two points is the half-life.   6 hours  6 hours  decay with marked half-life  All living things contain a certain amount of the isotope carbon-14. When an organism dies, the carbon-14 decays according to the formula where is measured in years. Scientists can estimate the age of an organic object by measuring the amount of carbon-14 remaining.  When the Dead Sea scrolls were discovered in 1947, they had 78.8% of their original carbon-14. How old were the Dead Sea scrolls then?  What is the half-life of carbon-14, that is, how long does it take for half of an object's carbon-14 to decay?   The half-life of iodine-131 is approximately 8 days.  If a sample initially contains grams of iodine-131, how much will it contain after 8 days? How much will it contain after 16 days? After 32 days?  Use your answers to part (a) to sketch a graph of , the amount of iodine-131 remaining, versus time. (Choose an arbitrary height for on the vertical axis.)  Calculate , and hence find a decay law of the form , where , for iodine-131.   , ,  decay    The half-life of hydrogen-3 is 12.5 years.  If a sample initially contains grams of hydrogen-3, how much will it contain after 12.5 years? How much will it contain after 25 years?  Use your answers to part (a) to sketch a graph of , the amount of hydrogen-3 remaining, versus time. (Choose an arbitrary height for on the vertical axis.)  Calculate , and hence find a decay law of the form , where , for hydrogen-3.   A Geiger counter measures the amount of radioactive material present in a substance. The table shows the count rate for a sample of iodine-128 as a function of time. (Source: Hunt and Sykes, 1984)    Time (min)             Counts\/sec              Graph the data and use your calculator's exponential regression feature to fit a curve to them.  Write your equation in the form .  Calculate the half-life of iodine-128.   decay fit on data   decay fit on data    28 minutes   The table shows the count rate for sodium-24 registered by a Geiger counter as a function of time. (Source: Hunt and Sykes, 1984)    Time (min)             Counts\/sec              Graph the data and use your calculator's exponential regression feature to fit a curve to them.  Write your equation in the form .  Calculate the half-life of sodium-24.       "
 },
 {
-  "id": "The-Natural-Base-5-1",
+  "id": "The-Natural-Base-5-3",
   "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-5-1",
+  "url": "The-Natural-Base.html#The-Natural-Base-5-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -26515,101 +26560,146 @@ var ptx_lunr_docs = [
   "body": "natural exponential function "
 },
 {
-  "id": "The-Natural-Base-6-5",
+  "id": "The-Natural-Base-6-6",
   "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-6-5",
+  "url": "The-Natural-Base.html#The-Natural-Base-6-6",
   "type": "Checkpoint",
   "number": "10.3.1",
   "title": "Practice 1.",
   "body": "Practice 1 Use your calculator to evaluate the following powers. Round to four decimal places.         "
 },
 {
-  "id": "The-Natural-Base-6-8",
+  "id": "The-Natural-Base-6-9",
   "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-6-8",
+  "url": "The-Natural-Base.html#The-Natural-Base-6-9",
   "type": "Checkpoint",
   "number": "10.3.2",
   "title": "QuickCheck 1.",
-  "body": "QuickCheck 1 The value of is closest to       "
+  "body": "QuickCheck 1  The value of is closest to which of these?        The value of is closest to which of these?        "
+},
+{
+  "id": "The-Natural-Base-6-10",
+  "level": "2",
+  "url": "The-Natural-Base.html#The-Natural-Base-6-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "normal distribution "
+},
+{
+  "id": "The-Natural-Base-6-12",
+  "level": "2",
+  "url": "The-Natural-Base.html#The-Natural-Base-6-12",
+  "type": "Example",
+  "number": "10.3.3",
+  "title": "",
+  "body": "The normal distribution above shows the heights of men in the US. The average or mean height for men is 70 inches, and the formula for the graph is Evaluate the function for and for .  The probability that a given man has a height between two values is the area under the curve between those values.  To evaluate the function we follow the order of operations. For we have  For we have "
+},
+{
+  "id": "The-Natural-Base-6-13",
+  "level": "2",
+  "url": "The-Natural-Base.html#The-Natural-Base-6-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "logistic function "
+},
+{
+  "id": "The-Natural-Base-6-15",
+  "level": "2",
+  "url": "The-Natural-Base.html#The-Natural-Base-6-15",
+  "type": "Checkpoint",
+  "number": "10.3.4",
+  "title": "Practice 2.",
+  "body": "Practice 2 The logistic function shown above models the spread of Covid in China during the 2020 epidemic. It gives the number of infections , in thousands, reported days after January 21, 2020. The equation for this model is According to the model, how many cases of Covid were reported on February 20 (day )? 58,194 cases "
 },
 {
   "id": "example-translate-exponential",
   "level": "2",
   "url": "The-Natural-Base.html#example-translate-exponential",
   "type": "Example",
-  "number": "10.3.3",
+  "number": "10.3.5",
   "title": "",
-  "body": "Graph each function. How does each graph differ from the graph of ?     horizontal scaling of exponential  The graph of grows more slowly than . The graph of is a decreasing graph, the reflection of about the -axis. The graphs are shown above. "
+  "body": "Use technology to graph each function. How does the coefficient of make each graph different from the graph of ?     horizontal scaling of exponential   The graph of is shown in red. For positive , the coefficient makes the graph of grow more slowly than , because is smaller than . So for positive the graph of lies below the graph of .  Because , the graph of is decreasing, and in fact it is the reflection of the graph of about the -axis.  "
 },
 {
-  "id": "The-Natural-Base-7-2",
+  "id": "The-Natural-Base-7-4",
   "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-7-2",
+  "url": "The-Natural-Base.html#The-Natural-Base-7-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "natural logarithm "
 },
 {
-  "id": "The-Natural-Base-7-6",
+  "id": "The-Natural-Base-7-5-3",
   "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-7-6",
-  "type": "Checkpoint",
-  "number": "10.3.4",
-  "title": "QuickCheck 2.",
-  "body": "QuickCheck 2 Which of the following is equivalent to ?       "
+  "url": "The-Natural-Base.html#The-Natural-Base-7-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "natural logarithm "
 },
 {
-  "id": "The-Natural-Base-7-8",
+  "id": "The-Natural-Base-7-7",
   "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-7-8",
+  "url": "The-Natural-Base.html#The-Natural-Base-7-7",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "natural log function "
 },
 {
+  "id": "The-Natural-Base-7-8",
+  "level": "2",
+  "url": "The-Natural-Base.html#The-Natural-Base-7-8",
+  "type": "Checkpoint",
+  "number": "10.3.6",
+  "title": "Practice 3.",
+  "body": "Practice 3 Use your calculator to evaluate each logarithm. Round your answers to four decimal places.            "
+},
+{
   "id": "example-ln-and-exponential",
   "level": "2",
   "url": "The-Natural-Base.html#example-ln-and-exponential",
   "type": "Example",
-  "number": "10.3.5",
+  "number": "10.3.7",
   "title": "",
-  "body": "Graph and on the same grid.   We can make a table of values for by interchanging the columns in the table for . Plotting the points gives us the graph below.                              graphs of ln and natural exponential "
+  "body": "Graph and on the same grid.  Earlier we made a table of values to graph the fuction , and we can make a table of values for by interchanging the columns in that table. Plotting the points gives us the graph below.                              graphs of ln and natural exponential  You can see that the graph of is the reflection of the graph of about the line . In particular, notice that while the graph of has no points with negative -values, the graph of has no points with negative -values. "
 },
 {
-  "id": "The-Natural-Base-7-12",
+  "id": "The-Natural-Base-8-4",
   "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-7-12",
+  "url": "The-Natural-Base.html#The-Natural-Base-8-4",
   "type": "Checkpoint",
-  "number": "10.3.6",
-  "title": "Practice 2.",
-  "body": "Practice 2 Use your calculator to evaluate each logarithm. Round your answers to four decimal places.             "
+  "number": "10.3.8",
+  "title": "QuickCheck 2.",
+  "body": "QuickCheck 2 Which of the following is equivalent to ?       "
 },
 {
   "id": "example-simplify-ln-and-exp",
   "level": "2",
   "url": "The-Natural-Base.html#example-simplify-ln-and-exp",
   "type": "Example",
-  "number": "10.3.7",
+  "number": "10.3.9",
   "title": "",
   "body": "Simplify each expression.      The natural log is the log base , and hence the inverse of . Therefore,  First, we simplify the exponent using the third property of logs to get Then .  "
 },
 {
-  "id": "The-Natural-Base-8-7",
+  "id": "The-Natural-Base-8-11",
   "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-8-7",
+  "url": "The-Natural-Base.html#The-Natural-Base-8-11",
   "type": "Checkpoint",
-  "number": "10.3.8",
-  "title": "Practice 3.",
-  "body": "Practice 3 Simplify each expression.        "
+  "number": "10.3.10",
+  "title": "Practice 4.",
+  "body": "Practice 4 Simplify each expression.      or   "
 },
 {
   "id": "example-solve-ln-equation",
   "level": "2",
   "url": "The-Natural-Base.html#example-solve-ln-equation",
   "type": "Example",
-  "number": "10.3.9",
+  "number": "10.3.11",
   "title": "",
   "body": "Solve each equation for .      We convert the equation to logarithmic form and evaluate using a calculator.  We convert the equation to exponential form and evaluate.  "
 },
@@ -26618,99 +26708,81 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#The-Natural-Base-9-5",
   "type": "Checkpoint",
-  "number": "10.3.10",
-  "title": "Practice 4.",
-  "body": "Practice 4 Solve each equation. Round your answers to four decimal places.        "
+  "number": "10.3.12",
+  "title": "Practice 5.",
+  "body": "Practice 5 Solve each equation. Round your answers to four decimal places.        "
 },
 {
   "id": "The-Natural-Base-9-6",
   "level": "2",
   "url": "The-Natural-Base.html#The-Natural-Base-9-6",
   "type": "Checkpoint",
-  "number": "10.3.11",
+  "number": "10.3.13",
   "title": "QuickCheck 3.",
-  "body": "QuickCheck 3 Why is the equation easier to solve than ?   8 is larger than 6.5.  is a constant.  There is a button for log base on the calculator, but not a button for log base 8.  Because is an irrational number.   "
+  "body": "QuickCheck 3 Which statement below explains why the equation is easier to solve than ?   8 is larger than 6.5.  is a constant.  There is a button for log base on the calculator, but not a button for log base 8.  Because is an irrational number.   "
 },
 {
   "id": "example-solve-natural-exponential",
   "level": "2",
   "url": "The-Natural-Base.html#example-solve-natural-exponential",
   "type": "Example",
-  "number": "10.3.12",
+  "number": "10.3.14",
   "title": "",
-  "body": "Solve  First, we divide each side by to obtain Then we convert the equation to logarithmic form. Rounded to four decimal places, . "
+  "body": "Solve  First, we isolate the power. Then we convert the equation to logarithmic form. Rounded to four decimal places, . "
 },
 {
   "id": "The-Natural-Base-9-9",
   "level": "2",
   "url": "The-Natural-Base.html#The-Natural-Base-9-9",
   "type": "Note",
-  "number": "10.3.13",
+  "number": "10.3.15",
   "title": "",
-  "body": "We can also solve the equation in the Example above, by taking the natural logarithm of both sides. This gives us because for any number . We then proceed with the solution as before. "
+  "body": "When solving the equation in the Example above, we can think of taking the natural logarithm of both sides. This gives us because for any number . We then proceed with the solution as before. "
 },
 {
   "id": "The-Natural-Base-9-10",
   "level": "2",
   "url": "The-Natural-Base.html#The-Natural-Base-9-10",
   "type": "Checkpoint",
-  "number": "10.3.14",
-  "title": "Practice 5.",
-  "body": "Practice 5 Solve "
+  "number": "10.3.16",
+  "title": "Practice 6.",
+  "body": "Practice 6 Solve "
 },
 {
   "id": "example-solve-logistic",
   "level": "2",
   "url": "The-Natural-Base.html#example-solve-logistic",
   "type": "Example",
-  "number": "10.3.15",
+  "number": "10.3.17",
   "title": "",
-  "body": "Solve for .  We multiply both sides of the equation by the denominator, , to get Then we isolate the power, , as follows: Next, we take the natural logarithm of both sides to get and recall that to simplify the left side. Finally, we divide both sides by to solve for . "
+  "body": "The logistic function has its upper bound at . Find the value of for which .  We must solve the equation for . To begin, we multiply both sides of the equation by the denominator, , to get Then we isolate the power, , as follows: Next, we take the natural logarithm of both sides to get and recall that to simplify the left side. Finally, we divide both sides by to solve for . "
 },
 {
   "id": "The-Natural-Base-9-12",
   "level": "2",
   "url": "The-Natural-Base.html#The-Natural-Base-9-12",
   "type": "Checkpoint",
-  "number": "10.3.16",
-  "title": "Practice 6.",
-  "body": "Practice 6 Solve for .  Hint:    "
+  "number": "10.3.18",
+  "title": "Practice 7.",
+  "body": "Practice 7 Solve for .   "
 },
 {
   "id": "example-population-growth-e",
   "level": "2",
   "url": "The-Natural-Base.html#example-population-growth-e",
   "type": "Example",
-  "number": "10.3.17",
+  "number": "10.3.19",
   "title": "",
   "body": "From 1990 to 2000, the population of Clark County, Nevada, grew by per year.    What was the growth factor for the population of Clark County from 1990 to 2000? If the population of Clark County was 768,000 in 1990, write a formula for the population years later.  Write a growth formula for Clark County using base .    The growth factor was . The population years later was  We use the formula , where . Solving for , we find so .  "
 },
 {
-  "id": "The-Natural-Base-10-9",
+  "id": "The-Natural-Base-10-11",
   "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-10-9",
+  "url": "The-Natural-Base.html#The-Natural-Base-10-11",
   "type": "Checkpoint",
-  "number": "10.3.18",
-  "title": "Practice 7.",
-  "body": "Practice 7 From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula , where in 1994 and is in millions. (Source: Los Angeles Times, September 6, 1999)   Evaluate . By what percent did the number of Internet users grow in one year?  Express the growth law in the form . (Hint: .)   ,   "
-},
-{
-  "id": "The-Natural-Base-10-12",
-  "level": "2",
-  "url": "The-Natural-Base.html#The-Natural-Base-10-12",
-  "type": "Checkpoint",
-  "number": "10.3.19",
-  "title": "QuickCheck 4.",
-  "body": "QuickCheck 4 The natural log of a fraction between 0 and 1 is   positive.  negative.  undefined.  between and .   "
-},
-{
-  "id": "example-write-decay-with-e",
-  "level": "2",
-  "url": "The-Natural-Base.html#example-write-decay-with-e",
-  "type": "Example",
   "number": "10.3.20",
-  "title": "",
-  "body": "Express the decay law in the form .  For this decay law, and . We would like to find a value for so that , that is, we must solve the equation Replacing with , we find that the decay law is "
+  "title": "Practice 8.",
+  "body": "Practice 8 From 1994 to 1998, the number of personal computers connected to the Internet grew according to the formula where in 1994 and is in millions. (Source: Los Angeles Times, September 6, 1999)   Evaluate . By what percent did the number of Internet users grow in one year?  Express the growth law in the form . (Hint: .)   ,   "
 },
 {
   "id": "The-Natural-Base-10-14",
@@ -26718,8 +26790,26 @@ var ptx_lunr_docs = [
   "url": "The-Natural-Base.html#The-Natural-Base-10-14",
   "type": "Checkpoint",
   "number": "10.3.21",
-  "title": "Practice 8.",
-  "body": "Practice 8 A scientist isolates grams of krypton-91, which decays according to the formula , where is in seconds.   Complete the table of values showing the amount of krypton-91 left at -second intervals over the first minute.                      Use the table to choose a suitable window and graph the function .  Write and solve an equation to answer the question: How long does it take for 60% of the krypton-91 to decay?  Hint: If of the krypton-91 has decayed, of the original grams remains.                        exponential decay  ; seconds  "
+  "title": "QuickCheck 4.",
+  "body": "QuickCheck 4 The natural log of a number between 0 and 1 is   positive.  negative.  undefined.  between and .   "
+},
+{
+  "id": "example-write-decay-with-e",
+  "level": "2",
+  "url": "The-Natural-Base.html#example-write-decay-with-e",
+  "type": "Example",
+  "number": "10.3.22",
+  "title": "",
+  "body": "Express the decay law in the form .  For this decay law, and . We would like to find a value for so that , that is, we must solve the equation Replacing with , we find that the decay law is "
+},
+{
+  "id": "The-Natural-Base-10-16",
+  "level": "2",
+  "url": "The-Natural-Base.html#The-Natural-Base-10-16",
+  "type": "Checkpoint",
+  "number": "10.3.23",
+  "title": "Practice 9.",
+  "body": "Practice 9 A scientist isolates grams of krypton-91, which decays according to the formula , where is in seconds.   Complete the table of values showing the amount of krypton-91 left at -second intervals over the first minute.                      Use the table to choose a suitable window and graph the function .  Write and solve an equation to answer the question: How long does it take for 60% of the krypton-91 to decay?  Hint: If of the krypton-91 has decayed, of the original grams remains.                        exponential decay  ; seconds  "
 },
 {
   "id": "The-Natural-Base-11-2",
@@ -26735,7 +26825,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#example-continuous-compounding",
   "type": "Example",
-  "number": "10.3.22",
+  "number": "10.3.24",
   "title": "",
   "body": "Suppose you invest $500 in an account that pays 8% interest compounded continuously. You leave the money in the account without making any additional deposits or withdrawals.  Write a formula that gives the value of your account after years.  Make a table of values showing for the first 5 years.  Graph the function .  How much will the account be worth after 10 years?  How long will it be before the account is worth $1000?    We substitute 500 for , and 0.08 for to find  We evaluate the formula for to obtain a table.                          graph of continuous compounded interest  The graph of is shown above.  We evaluate for . The account will be worth $1112.77 after 10 years.  We substitute 1000 for and solve the equation. The account will be worth $1000 after approximately 8.7 years.  "
 },
@@ -26744,9 +26834,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#The-Natural-Base-11-5",
   "type": "Checkpoint",
-  "number": "10.3.23",
-  "title": "Practice 9.",
-  "body": "Practice 9 Zelda invested $1000 in an account that pays 4.5% interest compounded continuously. How long will it be before the account is worth $2000? About 15.4 years "
+  "number": "10.3.25",
+  "title": "Practice 10.",
+  "body": "Practice 10 Zelda invested $1000 in an account that pays 4.5% interest compounded continuously. How long will it be before the account is worth $2000? About 15.4 years "
 },
 {
   "id": "CompCont",
@@ -26755,23 +26845,23 @@ var ptx_lunr_docs = [
   "type": "Investigation",
   "number": "10.3.1",
   "title": "Interest Compounded Continuously.",
-  "body": "Interest Compounded Continuously  We learned in that the amount, (principal plus interest), accumulated in an account with interest compounded times annually is where is the principal invested, is the interest rate, and is the time period, in years.   Suppose you keep in an account that pays 8% interest. How much is the amount after 1 year if the interest is compounded twice a year? Four times a year?  What happens to as we increase , the number of compounding periods per year? Fill in the table showing the amount in the account for different values of .        (annually)    (semiannually)    (quarterly)    (bimonthly)    (monthly)    (daily)          grid  Plot the values in the table from to , and connect them with a smooth curve. Describe the curve: What is happening to the value of ?  In part (2), as you increased the value of , the other parameters in the formula stayed the same. In other words, is a function of , given by . Use your calculator to graph A on successively larger intervals:      Use the Trace feature or the Table feature to evaluate for very large values of . Rounded to the nearest penny, what is the largest value of that you can find?  As increases, the values of approach a limiting value. Although continues to increase, it does so by smaller and smaller increments and will never exceed $1083.29. When the number of compounding periods increases without bound, we call the limiting result continuous compounding continuous compounding .  Is there an easier way to compute under continues compounding? Yes! Compute on your calculator. (Press 2nd  LN to enter .) Compare the value to your answer in part (5) for the limiting value. The number is called the natural base natural base . We'll compute its value shortly.  Repeat your calculations for two other interest rates, 15% and (an extremely unrealistic) 100%, again for an investment of $1000 for 1 year. In each case, compare the limiting value of , and compare to the value of .                                                                 In part (8b), you have computed an approximation for . What is the value of , rounded to 5 decimal places?  Complete the table of values. What does appear to approach as increases?                "
+  "body": "Interest Compounded Continuously  We learned in Section 7.5.4 that the amount, (principal plus interest), accumulated in an account with interest compounded times annually is where is the principal invested, is the interest rate, and is the time period, in years.   Suppose you keep in an account that pays 8% interest. How much is the amount after 1 year if the interest is compounded twice a year? Four times a year?  What happens to as we increase , the number of compounding periods per year? Fill in the table showing the amount in the account for different values of .        (annually)    (semiannually)    (quarterly)    (bimonthly)    (monthly)    (daily)          grid  Plot the values in the table from to , and connect them with a smooth curve. Describe the curve: What is happening to the value of ?  In part (2), as you increased the value of , the other parameters in the formula stayed the same. In other words, is a function of , given by . Use your calculator to graph A on successively larger intervals:      Use the Trace feature or the Table feature to evaluate for very large values of . Rounded to the nearest penny, what is the largest value of that you can find?  As increases, the values of approach a limiting value. Although continues to increase, it does so by smaller and smaller increments and will never exceed $1083.29. When the number of compounding periods increases without bound, we call the limiting result continuous compounding continuous compounding .  Is there an easier way to compute under continues compounding? Yes! Compute on your calculator. (Press 2nd  LN to enter .) Compare the value to your answer in part (5) for the limiting value.  Repeat your calculations for two other interest rates, 15% and (an extremely unrealistic) 100%, again for an investment of $1000 for 1 year. In each case, compare the limiting value of , and compare to the value of .                                                                 In part (8b), you have computed an approximation for . What is the value of , rounded to 5 decimal places?  Complete the table of values. What does appear to approach as increases?                "
 },
 {
   "id": "section-10-3-exercises-2-2-2",
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-2-2",
   "type": "Exercise",
-  "number": "10.3.8.1",
+  "number": "10.3.7.1",
   "title": "",
-  "body": ">                     growth  "
+  "body": "                    growth  "
 },
 {
   "id": "section-10-3-exercises-2-2-3",
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-2-3",
   "type": "Exercise",
-  "number": "10.3.8.2",
+  "number": "10.3.7.2",
   "title": "",
   "body": ""
 },
@@ -26780,7 +26870,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-2-4",
   "type": "Exercise",
-  "number": "10.3.8.3",
+  "number": "10.3.7.3",
   "title": "",
   "body": "                    decay  "
 },
@@ -26789,7 +26879,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-2-5",
   "type": "Exercise",
-  "number": "10.3.8.4",
+  "number": "10.3.7.4",
   "title": "",
   "body": ""
 },
@@ -26798,7 +26888,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-3-2",
   "type": "Exercise",
-  "number": "10.3.8.5",
+  "number": "10.3.7.5",
   "title": "",
   "body": "          "
 },
@@ -26807,7 +26897,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-3-3",
   "type": "Exercise",
-  "number": "10.3.8.6",
+  "number": "10.3.7.6",
   "title": "",
   "body": "     "
 },
@@ -26816,7 +26906,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-4-2",
   "type": "Exercise",
-  "number": "10.3.8.7",
+  "number": "10.3.7.7",
   "title": "",
   "body": "        "
 },
@@ -26825,7 +26915,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-4-3",
   "type": "Exercise",
-  "number": "10.3.8.8",
+  "number": "10.3.7.8",
   "title": "",
   "body": "    "
 },
@@ -26834,7 +26924,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-4-4",
   "type": "Exercise",
-  "number": "10.3.8.9",
+  "number": "10.3.7.9",
   "title": "",
   "body": "        "
 },
@@ -26843,7 +26933,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-4-5",
   "type": "Exercise",
-  "number": "10.3.8.10",
+  "number": "10.3.7.10",
   "title": "",
   "body": "    "
 },
@@ -26852,7 +26942,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-5-2",
   "type": "Exercise",
-  "number": "10.3.8.11",
+  "number": "10.3.7.11",
   "title": "",
   "body": "; increasing; initial value "
 },
@@ -26861,7 +26951,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-5-3",
   "type": "Exercise",
-  "number": "10.3.8.12",
+  "number": "10.3.7.12",
   "title": "",
   "body": ""
 },
@@ -26870,7 +26960,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-5-4",
   "type": "Exercise",
-  "number": "10.3.8.13",
+  "number": "10.3.7.13",
   "title": "",
   "body": "; decreasing; initial value "
 },
@@ -26879,7 +26969,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-5-5",
   "type": "Exercise",
-  "number": "10.3.8.14",
+  "number": "10.3.7.14",
   "title": "",
   "body": ""
 },
@@ -26888,7 +26978,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-6",
   "type": "Exercise",
-  "number": "10.3.8.15",
+  "number": "10.3.7.15",
   "title": "",
   "body": " Fill in the table, rounding your answers to four decimal places.                    Compute the ratio of each function value to the previous one. Explain the result.                     Each ratio is : Increasing -values by a constant corresponds to multiplying the -values of the exponential function by a constant factor of .  "
 },
@@ -26897,7 +26987,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-7",
   "type": "Exercise",
-  "number": "10.3.8.16",
+  "number": "10.3.7.16",
   "title": "",
   "body": " Fill in the table, rounding your answers to four decimal places.                    Compute the ratio of each function value to the previous one. Explain the result.  "
 },
@@ -26906,7 +26996,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-8",
   "type": "Exercise",
-  "number": "10.3.8.17",
+  "number": "10.3.7.17",
   "title": "",
   "body": " Fill in the table, rounding your answers to the nearest integer.                      Subtract each -value from the next one. Explain the result.                       Each difference in -values is approximately : Increasing -values by a constant corresponds to multiplying the -values of the exponential function by a constant factor of . That is, each function value is approximately equal to double the previous one.  "
 },
@@ -26915,7 +27005,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-9",
   "type": "Exercise",
-  "number": "10.3.8.18",
+  "number": "10.3.7.18",
   "title": "",
   "body": " Fill in the table, rounding your answers to the nearest integer.                      Subtract each -value from the next one. Explain the result.  "
 },
@@ -26924,7 +27014,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-10-2",
   "type": "Exercise",
-  "number": "10.3.8.19",
+  "number": "10.3.7.19",
   "title": "",
   "body": ""
 },
@@ -26933,7 +27023,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-10-3",
   "type": "Exercise",
-  "number": "10.3.8.20",
+  "number": "10.3.7.20",
   "title": "",
   "body": ""
 },
@@ -26942,7 +27032,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-10-4",
   "type": "Exercise",
-  "number": "10.3.8.21",
+  "number": "10.3.7.21",
   "title": "",
   "body": ""
 },
@@ -26951,7 +27041,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-10-5",
   "type": "Exercise",
-  "number": "10.3.8.22",
+  "number": "10.3.7.22",
   "title": "",
   "body": ""
 },
@@ -26960,7 +27050,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-10-6",
   "type": "Exercise",
-  "number": "10.3.8.23",
+  "number": "10.3.7.23",
   "title": "",
   "body": ""
 },
@@ -26969,7 +27059,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-10-7",
   "type": "Exercise",
-  "number": "10.3.8.24",
+  "number": "10.3.7.24",
   "title": "",
   "body": ""
 },
@@ -26978,7 +27068,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-10-8",
   "type": "Exercise",
-  "number": "10.3.8.25",
+  "number": "10.3.7.25",
   "title": "",
   "body": ""
 },
@@ -26987,7 +27077,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-10-9",
   "type": "Exercise",
-  "number": "10.3.8.26",
+  "number": "10.3.7.26",
   "title": "",
   "body": ""
 },
@@ -26996,7 +27086,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-11-2",
   "type": "Exercise",
-  "number": "10.3.8.27",
+  "number": "10.3.7.27",
   "title": "",
   "body": "for "
 },
@@ -27005,7 +27095,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-11-3",
   "type": "Exercise",
-  "number": "10.3.8.28",
+  "number": "10.3.7.28",
   "title": "",
   "body": "for "
 },
@@ -27014,7 +27104,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-11-4",
   "type": "Exercise",
-  "number": "10.3.8.29",
+  "number": "10.3.7.29",
   "title": "",
   "body": "for "
 },
@@ -27023,7 +27113,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-11-5",
   "type": "Exercise",
-  "number": "10.3.8.30",
+  "number": "10.3.7.30",
   "title": "",
   "body": "for "
 },
@@ -27032,7 +27122,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-11-6",
   "type": "Exercise",
-  "number": "10.3.8.31",
+  "number": "10.3.7.31",
   "title": "",
   "body": "for "
 },
@@ -27041,7 +27131,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-11-7",
   "type": "Exercise",
-  "number": "10.3.8.32",
+  "number": "10.3.7.32",
   "title": "",
   "body": "for "
 },
@@ -27050,7 +27140,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-12",
   "type": "Exercise",
-  "number": "10.3.8.33",
+  "number": "10.3.7.33",
   "title": "",
   "body": "Fill in the table, rounding your answers to three decimal places.                Subtract each natural logarithm in your table from the next one. (For example, compute .) Explain the result.                 Each difference in function values is approximately : Multiplying -values by a constant factor of 10 corresponds to adding a constant value of to the -values of the natural log function.  "
 },
@@ -27059,7 +27149,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-13",
   "type": "Exercise",
-  "number": "10.3.8.34",
+  "number": "10.3.7.34",
   "title": "",
   "body": "Fill in the table, rounding your answers to three decimal places.                Subtract each natural logarithm in your table from the next one. (For example, compute .) Explain the result.  "
 },
@@ -27068,7 +27158,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-14",
   "type": "Exercise",
-  "number": "10.3.8.35",
+  "number": "10.3.7.35",
   "title": "",
   "body": "Fill in the table, rounding your answers to three decimal places.                Divide each natural logarithm in your table by . Explain the result.                Each quotient equals , where . Because , .  "
 },
@@ -27077,7 +27167,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-15",
   "type": "Exercise",
-  "number": "10.3.8.36",
+  "number": "10.3.7.36",
   "title": "",
   "body": "Fill in the table, rounding your answers to three decimal places.                Divide each natural logarithm in your table by . Explain the result.  "
 },
@@ -27086,7 +27176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-16-2",
   "type": "Exercise",
-  "number": "10.3.8.37",
+  "number": "10.3.7.37",
   "title": "",
   "body": "  growth  "
 },
@@ -27095,7 +27185,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-16-3",
   "type": "Exercise",
-  "number": "10.3.8.38",
+  "number": "10.3.7.38",
   "title": "",
   "body": ""
 },
@@ -27104,7 +27194,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-16-4",
   "type": "Exercise",
-  "number": "10.3.8.39",
+  "number": "10.3.7.39",
   "title": "",
   "body": "  decay  "
 },
@@ -27113,7 +27203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-16-5",
   "type": "Exercise",
-  "number": "10.3.8.40",
+  "number": "10.3.7.40",
   "title": "",
   "body": ""
 },
@@ -27122,7 +27212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-16-6",
   "type": "Exercise",
-  "number": "10.3.8.41",
+  "number": "10.3.7.41",
   "title": "",
   "body": "  growth  "
 },
@@ -27131,7 +27221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-2-16-7",
   "type": "Exercise",
-  "number": "10.3.8.42",
+  "number": "10.3.7.42",
   "title": "",
   "body": ""
 },
@@ -27140,7 +27230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-2",
   "type": "Exercise",
-  "number": "10.3.8.43",
+  "number": "10.3.7.43",
   "title": "",
   "body": "The number of bacteria in a culture grows according to the function where is the number of bacteria present at time and is the time in hours.  Write a growth law for a sample in which 6000 bacteria were present initially.  Make a table of values for in 5-hour intervals over the first 30 hours.  Graph .  How many bacteria were present at hours?  How much time must elapse (to the nearest tenth of an hour) for the original 6000 bacteria to increase to 100,000?                        growth  15,670  70.3 hrs  "
 },
@@ -27149,7 +27239,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-3",
   "type": "Exercise",
-  "number": "10.3.8.44",
+  "number": "10.3.7.44",
   "title": "",
   "body": "Hope invests $2000 in a savings account that pays annual interest compounded continuously.  Write a formula that gives the amount of money in Hope’s account after years.  Make a table of values for in 2-year intervals over the first 10 years.  Graph .  How much will Hope's account be worth after 7 years?  How long will it take for the account to grow to $5000?  "
 },
@@ -27158,7 +27248,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-4",
   "type": "Exercise",
-  "number": "10.3.8.45",
+  "number": "10.3.7.45",
   "title": "",
   "body": "The intensity, (in lumens), of a light beam after passing through centimeters of a filter having an absorption coefficient of is given by the function   Graph .  What is the intensity (to the nearest tenth of a lumen) of a light beam that has passed through 0.6 centimeter of the filter?  How many centimeters (to the nearest tenth) of the filter will reduce the illumination to 800 lumens?   decay  941.8 lumens  2.2 cm  "
 },
@@ -27167,7 +27257,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-5",
   "type": "Exercise",
-  "number": "10.3.8.46",
+  "number": "10.3.7.46",
   "title": "",
   "body": "X-rays can be absorbed by a lead plate so that where is the X-ray count at the source and is the X-ray count behind a lead plate of thickness inches.  Graph .  What percent of an X-ray beam will penetrate a lead plate inch thick?  How thick should the lead plate be in order to screen out 70% of the X-rays?  "
 },
@@ -27176,7 +27266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-6",
   "type": "Exercise",
-  "number": "10.3.8.47",
+  "number": "10.3.7.47",
   "title": "",
   "body": "The population of Citrus Valley was 20,000 in 2000. In 2010, it was 35,000.  What is if in 2000?  Use the population in 2010 to find the growth factor .  Write a growth law of the form for the population of Citrus Valley.  If it continues at the same rate of growth, what will the population be in 2030?   20,000    107,188  "
 },
@@ -27185,7 +27275,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-7",
   "type": "Exercise",
-  "number": "10.3.8.48",
+  "number": "10.3.7.48",
   "title": "",
   "body": "A copy of Time magazine cost $1.50 in 1981. In 1988, the cover price had increased to $2.00.  What is if in 1981?  Use the price in 1988 to find the growth factor .  Find a growth law of the form for the price of Time .  In 1999, a copy of Time cost $3.50. Did the price of the magazine continue to grow at the same rate from 1981 to 1999?  "
 },
@@ -27194,7 +27284,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-8",
   "type": "Exercise",
-  "number": "10.3.8.49",
+  "number": "10.3.7.49",
   "title": "",
   "body": "Cobalt-60 is a radioactive isotope used in the treatment of cancer. A 500-milligram sample of cobalt-60 decays to 385 milligrams after 2 years.  Using , find the decay factor for cobalt-60.  Write a decay law for cobalt-60.  How much of the original sample will be left after 10 years?     135.3 mg  "
 },
@@ -27203,7 +27293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-9",
   "type": "Exercise",
-  "number": "10.3.8.50",
+  "number": "10.3.7.50",
   "title": "",
   "body": "Weed seeds can survive for a number of years in the soil. An experiment on cultivated land found 155 million weed seeds per acre, and in the following years the experimenters prevented the seeds from coming to maturity and producing new weeds. Four years later, there were 13.6 million seeds per acre. (Source: Burton, 1998)  Find the annual decay factor for the number of weed seeds in the soil.  Write an exponential formula with base for the number of weed seeds that survived after years.  "
 },
@@ -27212,7 +27302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-10-2",
   "type": "Exercise",
-  "number": "10.3.8.51",
+  "number": "10.3.7.51",
   "title": "",
   "body": "Delbert invests $500 in an account that pays 9.5% interest compounded continuously.  Write a formula for that gives the amount of money in Delbert's account after years.  How long will it take Delbert's investment to double to $1000?  How long will it take Delbert's money to double again, to $2000?  Graph and illustrate the doubling time on your graph.  Choose any point on the graph, then find the point on the graph with vertical coordinate . Verify that the difference in the -coordinates of the two points is the doubling time.    7.3 years  7.3 years d e growth with marked doubling time  "
 },
@@ -27221,7 +27311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-10-3",
   "type": "Exercise",
-  "number": "10.3.8.52",
+  "number": "10.3.7.52",
   "title": "",
   "body": "The growth of plant populations can be measured by the amount of pollen they produce. The pollen from a population of pine trees that lived more than 9500 years ago in Norfolk, England, was deposited in the layers of sediment in a lake basin and dated with radiocarbon techniques.  The figure shows the rate of pollen accumulation plotted against time, and the fitted curve . (Source: Burton, 1998)  growth   What was the annual rate of growth in pollen accumulation?  Find the doubling time for the pollen accumulation, that is, the time it took for the accumulation rate to double.  By what factor did the pollen accumulation rate increase over a period of 500 years?  "
 },
@@ -27230,7 +27320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-10-4",
   "type": "Exercise",
-  "number": "10.3.8.53",
+  "number": "10.3.7.53",
   "title": "",
   "body": "Technetium-99m (Tc-99m) is an artificially produced radionuclide used as a tracer for producing images of internal organs such as the heart, liver, and thyroid. A solution of Tc-99m with initial radioactivity of 10,000 becquerels (Bq) decays according to the formula where is in hours.  How long will it take the radioactivity to fall to half its initial value, or 5000 Bq?  How long will it take the radioactivity to be halved again?  Graph and illustrate the half-life on your graph.  Choose any point on the graph, then find the point on the graph with vertical coordinate . Verify that the difference in the -coordinates of the two points is the half-life.   6 hours  6 hours  decay with marked half-life "
 },
@@ -27239,7 +27329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-10-5",
   "type": "Exercise",
-  "number": "10.3.8.54",
+  "number": "10.3.7.54",
   "title": "",
   "body": "All living things contain a certain amount of the isotope carbon-14. When an organism dies, the carbon-14 decays according to the formula where is measured in years. Scientists can estimate the age of an organic object by measuring the amount of carbon-14 remaining.  When the Dead Sea scrolls were discovered in 1947, they had 78.8% of their original carbon-14. How old were the Dead Sea scrolls then?  What is the half-life of carbon-14, that is, how long does it take for half of an object's carbon-14 to decay?  "
 },
@@ -27248,7 +27338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-10-6",
   "type": "Exercise",
-  "number": "10.3.8.55",
+  "number": "10.3.7.55",
   "title": "",
   "body": "The half-life of iodine-131 is approximately 8 days.  If a sample initially contains grams of iodine-131, how much will it contain after 8 days? How much will it contain after 16 days? After 32 days?  Use your answers to part (a) to sketch a graph of , the amount of iodine-131 remaining, versus time. (Choose an arbitrary height for on the vertical axis.)  Calculate , and hence find a decay law of the form , where , for iodine-131.   , ,  decay   "
 },
@@ -27257,7 +27347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-10-7",
   "type": "Exercise",
-  "number": "10.3.8.56",
+  "number": "10.3.7.56",
   "title": "",
   "body": "The half-life of hydrogen-3 is 12.5 years.  If a sample initially contains grams of hydrogen-3, how much will it contain after 12.5 years? How much will it contain after 25 years?  Use your answers to part (a) to sketch a graph of , the amount of hydrogen-3 remaining, versus time. (Choose an arbitrary height for on the vertical axis.)  Calculate , and hence find a decay law of the form , where , for hydrogen-3.  "
 },
@@ -27266,7 +27356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-10-8",
   "type": "Exercise",
-  "number": "10.3.8.57",
+  "number": "10.3.7.57",
   "title": "",
   "body": "A Geiger counter measures the amount of radioactive material present in a substance. The table shows the count rate for a sample of iodine-128 as a function of time. (Source: Hunt and Sykes, 1984)    Time (min)             Counts\/sec              Graph the data and use your calculator's exponential regression feature to fit a curve to them.  Write your equation in the form .  Calculate the half-life of iodine-128.   decay fit on data   decay fit on data    28 minutes  "
 },
@@ -27275,7 +27365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "The-Natural-Base.html#section-10-3-exercises-3-10-9",
   "type": "Exercise",
-  "number": "10.3.8.58",
+  "number": "10.3.7.58",
   "title": "",
   "body": "The table shows the count rate for sodium-24 registered by a Geiger counter as a function of time. (Source: Hunt and Sykes, 1984)    Time (min)             Counts\/sec              Graph the data and use your calculator's exponential regression feature to fit a curve to them.  Write your equation in the form .  Calculate the half-life of sodium-24.  "
 },

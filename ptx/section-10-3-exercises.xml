@@ -34,7 +34,7 @@
     </tabular></introduction>
 
 <exercise number="1"><statement><p><m>f(x)=e^{0.2x} </m></p></statement>
-<answer>><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+<answer><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
         <row>
             <cell><m>x</m></cell>
             <cell><m>-10</m></cell>

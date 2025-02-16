@@ -38,7 +38,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <colophon-item/>
     </colophon>
 
-<preface>
+<preface xml:id="preface">
 <p><pubtitle>Intermediate Algebra</pubtitle> is a textbook for students who have some acquaintance with the basic notions of variables and equations, negative numbers, and graphs, although we provide a "Toolkit" to help the reader refresh any skills that may have gotten a little rusty.  In this book we journey farther into the subject, to explore a greater variety of topics including graphs and modeling, curve-fitting, variation, exponentials and logarithms, and the conic sections. We use technology to handle data and give some instructions for using a graphing calculator, but these can easily be adapted to any other graphing utility. </p>  
 
 <p>We discuss functions and their applications, but not in the detail expected of a precalculus course; our intended audience includes students preparing for the many fields that may not use calculus but nonetheless require facility with quantitative reasoning. We aim to develop that facility in the context of modeling and problem solving.</p>

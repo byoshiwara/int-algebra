@@ -12,7 +12,7 @@
     <li><p>Find the equation of the regression line.</p></li>
     <li><p>Use the regression line to predict the heat of vaporization of potassium bromide, whose boiling temperature is <m>1435\degree</m>C.</p></li></ol></p></statement>
 <answer><p><ol marker="a.">
-    <li><sidebyside width="50%" margins="0% 40%"><image source="images/fig-chap2-rev-1ans"><description>regression line for boiling point vs heat of vaporization</description></image></sidebyside></li>
+    <li><sidebyside width="50%" margins="0% 50%"><image source="images/fig-chap2-rev-1ans"><description>regression line for boiling point vs heat of vaporization</description></image></sidebyside></li>
     <li><p>235 kilojoules</p></li>
     <li><p><m>y=0.106x + 4.6</m></p></li>
     <li><p><m>156.7\degree\text{C}</m></p></li></ol></p></answer></exercise>

@@ -4,6 +4,7 @@
 <project ptx-version="2" source="ptx">
   <targets>
     <target name="web" format="html" source="int-alg.xml" publication="publication.ptx" />
+    <target name="webwork" format="html" source="int-alg.xml" publication="publication-webwork.ptx" />
     <target name="print-latex" format="latex" source="int-alg.xml" publication="publication.ptx" />
     <target name="print" format="pdf" source="int-alg.xml" publication="publication.ptx" />
     <target name="subset" format="html" source="test-section.ptx" publication="publication-test.ptx" />

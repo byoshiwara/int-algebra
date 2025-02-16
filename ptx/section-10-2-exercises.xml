@@ -216,7 +216,7 @@
 <answer><p><m>1</m>, <m>80</m>, <m>330</m>, <m>1600</m>, <m>7000</m>, <m>4\times 10^7</m></p></answer></exercise>
 
 <exercise number="20"><statement><p>The log scale shows the size of various objects, in meters. Estimate the sizes of the objects indicated.</p>
-<image source="images/fig-hw-7-6-18"><description>logscale</description></image>></statement></exercise>
+<image source="images/fig-hw-7-6-18"><description>logscale</description></image></statement></exercise>
 
 <exercise number="21"><statement><p>The magnitude of a star is a measure of its brightness. It is given by the formula
     <me>m = 4.83 - 2.5 \log {(L)}</me>

@@ -147,7 +147,7 @@
 <introduction><p>The three properties of lagarithms are helpful in making computations involving logs.
 
 <assemblage><title>Properties of Logarithms</title>
-    <p>If <m>x</m>, <m>y</m>, <m>b \gt 0</m>, and <m>b\ne 1</m>, then <ol marker="1.">>
+    <p>If <m>x</m>, <m>y</m>, <m>b \gt 0</m>, and <m>b\ne 1</m>, then <ol marker="1.">
         <li><p><m>\log_{b}{(xy)} = \log_{b}{x} + \log_{b}{y}</m></p></li>
         <li><p><m>\log_{b}\dfrac{x}{y} = \log_b x - \log_b y</m></p></li>
         <li><p><m>\log_b {x^k} = k \log_b x </m></p></li></ol></p></assemblage>

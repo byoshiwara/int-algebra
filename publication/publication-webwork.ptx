@@ -20,6 +20,7 @@
   <common>
     <tableofcontents level="2"/>
         <exercise-divisional answer="no" solution="no"/>
+    <fillin textstyle="underline" mathstyle="box"/>
   </common>
   <numbering>
     <!-- the divisions element describes the numbering of divisions.  -->
@@ -55,15 +56,9 @@
     <css style="oscarlevin"/>
     <css style="default" colors="default"/>
     <knowl remark="no" example="no" proof="no" exercise-inline="yes"/>
-    <!-- Specify the style of the html by giving names to      -->
-    <!-- override defaults.  Ex: to use "style_oscarlevin.css" -->
-    <!-- put <css style="oscarlevin"/>                         -->
-    <!-- @colors now implemented                               -->
-    <!-- also @knowls, @toc, and @banner, although no          -->
-    <!-- alternative styles exist yet for those.               -->
-    <!-- Magic IDs identify HTML pages to analytics services   -->
-    <!-- Presence implies relevant Javascript will be added    -->
-    <!-- StatCounter requires both values to be set            -->
+    <analytics google-gst="G-MLHBE6655J"
+                statcounter-project="13069512"
+                statcounter-security="3c431ca7"/>
     <!-- <analytics google-gst="UA-0123456-1" statcounter-project="0123456" statcounter-security="0123456"/> -->
     <!-- Google search, via masthead textbox is switched on    -->
     <!-- and associated with a Google account via CX number    -->
