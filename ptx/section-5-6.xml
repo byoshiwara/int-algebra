@@ -80,7 +80,7 @@
     </solution>
   </webwork>
     <conclusion>
-        <image width="35%" margins="0% 65%" source="images/fig-ex-5-6-1answ"><description>piecewise graph</description></image>
+        <image width="35%" margins="0% 65%" source="images/fig-ex-5-6-1ans"><description>piecewise graph</description></image>
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 1</title>
@@ -156,7 +156,7 @@
 
 <exercise component="webwork"><title>Practice 2</title>
     <introduction>
-        <image width="45%" source="images/fig-concavity2w"><description>decreasing graphs of opposite concavity</description></image>
+        <image width="45%" source="images/fig-concavity2"><description>decreasing graphs of opposite concavity</description></image>
     </introduction>
     <webwork>
          <pg-code>
@@ -394,9 +394,9 @@
 </webwork>
 <conclusion>
     <p><ol marker="a.">
-        <li><image width="25%" margins="5% 5%" source="images/fig-quadratic-modelw"><description>graph</description></image></li>
-        <li><image width="25%" margins="5% 5%" source="images/fig-cube-root-modelw"><description>graph</description></image></li>
-        <li><image width="25%" margins="5% 5%" source="images/fig-inverse-modelw"><description>graph</description></image></li>
+        <li><image width="25%" margins="37% 38%" source="images/fig-quadratic-modelw"><description>graph</description></image></li>
+        <li><image width="25%" margins="37% 38%" source="images/fig-cube-root-modelw"><description>graph</description></image></li>
+        <li><image width="25%" margins="37% 38%" source="images/fig-inverse-modelw"><description>graph</description></image></li>
     </ol></p>
 </conclusion></exercise>
 
@@ -521,7 +521,7 @@
         <li><p>More sensitive: <m>k = 60</m>, Less sensitive: <m>k = 300</m> </p></li></ol></p>
     </solution></webwork>
     <conclusion>
-        <image width="25%" margins="0% 75%" source="images/fig-ex-5-6-4answ"><description>two concave up decreasing curves</description></image>
+        <image width="25%" margins="0% 75%" source="images/fig-ex-5-6-4ans"><description>two concave up decreasing curves</description></image>
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 4</title>

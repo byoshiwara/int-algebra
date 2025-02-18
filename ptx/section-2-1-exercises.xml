@@ -15,8 +15,7 @@
     <li><p><m>y=\dfrac{-3}{4}x-2</m></p></li></ol></p>
         <sidebyside widths="36% 36%" margins="5% 5%">
         <stack><image xml:id="fig-hw-2-1-2-I"><description>positive slope, negative y-intercept</description><latex-image>
-                        <![CDATA[\tikzset{%
-                        }
+                        <![CDATA[
                         \begin{tikzpicture} [scale=.35]
                         \draw[cyan] (-6,-6) grid (6,6);
                         \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
@@ -27,8 +26,7 @@
                         \end{tikzpicture}]]>
                 </latex-image></image>
             <image xml:id="fig-hw-2-1-2-III"><description>negative slope, positive y-intercept</description><latex-image>
-                        <![CDATA[\tikzset{%
-                        }
+                        <![CDATA[
                         \begin{tikzpicture} [scale=.35]
                         \draw[cyan] (-6,-6) grid (6,6);
                         \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
@@ -40,8 +38,7 @@
                 </latex-image></image></stack>
             <stack><image xml:id="fig-hw-2-1-2-II"><description>positive slope, positive y-intercept</description>
                         <latex-image>
-                        <![CDATA[\tikzset{%
-                        }
+                        <![CDATA[
                         \begin{tikzpicture} [scale=.35]
                         \draw[cyan] (-6,-6) grid (6,6);
                         \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
@@ -53,8 +50,7 @@
                 </latex-image></image>
                 <image xml:id="fig-hw-2-1-2-IV"><description>negative slope, negative y-intercept</description>
                         <latex-image>
-                        <![CDATA[\tikzset{%
-                        }
+                        <![CDATA[
                         \begin{tikzpicture} [scale=.35]
                         \draw[cyan] (-6,-6) grid (6,6);
                         \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
@@ -74,8 +70,7 @@
     <li><p><m>y=1+2(x-3)</m></p></li></ol></p>
         <sidebyside widths="36% 36%" margins="5% 5%">
         <stack><image xml:id="fig-hw-2-1-6-I"><description>positive slope, y-intercept -5</description><latex-image>
-                    <![CDATA[\tikzset{%
-                    }
+                    <![CDATA[
                     \begin{tikzpicture} [scale=.35]
                     \draw[cyan] (-6,-9) grid (6,3);
                     \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
@@ -86,8 +81,7 @@
                     \end{tikzpicture}]]>
             </latex-image></image>
         <image xml:id="fig-hw-2-1-6-III"><description>positive slope, y-intercept 7</description><latex-image>
-                    <![CDATA[\tikzset{%
-                    }
+                    <![CDATA[
                     \begin{tikzpicture} [scale=.35]
                     \draw[cyan] (-6,-3) grid (6,9);
                     \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
@@ -98,8 +92,7 @@
                     \end{tikzpicture}]]>
             </latex-image></image></stack>
     <stack><image xml:id="fig-hw-2-1-6-II"><description>positive slope, y-intercept 5</description><latex-image>
-                    <![CDATA[\tikzset{%
-                    }
+                    <![CDATA[
                     \begin{tikzpicture} [scale=.35]
                     \draw[cyan] (-6,-3) grid (6,9);
                     \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
@@ -110,8 +103,7 @@
                     \end{tikzpicture}]]>
             </latex-image></image>
         <image xml:id="fig-hw-2-1-6-IV"><description>positive slope, y-intercept -7</description><latex-image>
-                    <![CDATA[\tikzset{%
-                    }
+                    <![CDATA[
                     \begin{tikzpicture} [scale=.35]
                     \draw[cyan] (-6,-9) grid (6,3);
                     \draw[black,thick,->,>=stealth'] (-6,0)--(6.5,0) node[right]{$x$};
@@ -192,7 +184,7 @@
 
 <exercisegroup cols="2"><introduction><p>In Problems 7 and 8, the regression lines can be improved by adjusting either <m>m</m> or <m>b</m>. Draw a line that fits the data points more closely.</p></introduction>
 
-<exercise number="7"><statement><image  source="images/fig-ex-2-1-3"><description>scatterplot and line</description></image></statement>
+<exercise number="7"><statement><image width="50%" margins="0% 50%" source="images/fig-ex-2-1-3"><description>scatterplot and line</description></image></statement>
 <answer><image width="40%" source="images/fig-ex-2-1-3ans"><description>scatterplot and line</description></image></answer></exercise>
 
 <exercise number="8"><statement><image width="50%" source="images/fig-ex-2-1-4"><description>scatterplot and line</description></image></statement></exercise>

@@ -288,7 +288,7 @@
         </solution>
     </webwork>    
     <conclusion>
-        <image width="30%" source="images/fig-ex-1-1-3w"><description>cost of bike rental</description></image>
+        <image width="30%" source="images/fig-ex-1-1-3"><description>cost of bike rental</description></image>
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 2</title>

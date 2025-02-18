@@ -327,7 +327,7 @@ the solutions of the equation <me>x^2+3x-28 = 0</me> are <m>4</m> and <m>-7</m>.
     </webwork>
     <conclusion>
         <p>Graph for part (b)</p>
-        <image width="50%" margins="0% 50%" source="images/fig-ex-8-1-6answ"><description>cubic</description></image>
+        <image width="50%" margins="0% 50%" source="images/fig-ex-8-1-6ans"><description>cubic</description></image>
     </conclusion>
 </exercise>
 

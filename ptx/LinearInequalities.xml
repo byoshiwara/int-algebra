@@ -271,11 +271,11 @@
                 );
     </pg-code>
     <statement><p>Graph the solutions of the inequality <m>4x - 2y \lt -8</m>.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[0]"/>
                 <image pg-name="$gr[1]"/>
             </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[2]"/>
                 <image pg-name="$gr[3]"/>
             </sidebyside>
@@ -465,11 +465,11 @@
                 <li><p>Decide which side of the line to shade. <var name="$where" form="popup"/> </p></li>
                 <li><p>Should the boundary line be dashed or solid? <var name="$which" form="popup"/></p></li>
             </ol></p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[3]"/>
                 <image pg-name="$gr[2]"/>
             </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[1]"/>
                 <image pg-name="$gr[0]"/>
             </sidebyside>
@@ -580,11 +580,11 @@
                 );
     </pg-code>
     <statement><p>Graph  <m>-1\lt y \le 4 </m> in the plane.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[0]"/>
                 <image pg-name="$gr[1]"/>
             </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[2]"/>
                 <image pg-name="$gr[3]"/>
             </sidebyside>

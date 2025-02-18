@@ -20,22 +20,9 @@
   <common>
     <tableofcontents level="2"/>
         <exercise-divisional answer="no" solution="no"/>
-    <fillin textstyle="underline" mathstyle="box"/>
+    <fillin textstyle="underline" mathstyle="underline"/>
   </common>
   <numbering>
-    <!-- the divisions element describes the numbering of divisions.  -->
-    <!-- @part-structure should be "decorative" or "structural",      -->
-    <!-- were the latter would restart numbering chapters within each -->
-    <!-- part (this only matters if your book has parts).             -->
-    <!-- The attribute @chapter-start give the number of the first    -->
-    <!-- chapter.  @level says how deep (chapter->section->subsection)-->
-    <!-- numbering should appear.                                     -->
-      <!-- For use with a book organized by parts
-    <divisions part-structure="decorative" chapter-start="1" level="3"/>
-      -->
-    <!-- The next elements say how the levels deep to break up the    -->
-    <!-- numbering of the respective elements. Can't be more than the -->
-    <!-- @level on divisions above.                                   -->
     <blocks level="2"/>
     <projects level="2"/>
     <equations level="2"/>
@@ -51,18 +38,11 @@
   </latex>
   
   <html>
-    <!-- Whether to knowl a particular elements is set here    -->
-    <!-- Lots of elements have this possibility; see the guide -->
-    <css style="oscarlevin"/>
-    <css style="default" colors="default"/>
-    <knowl remark="no" example="no" proof="no" exercise-inline="yes"/>
+    <index-page ref="preface"/>
+    <css theme="denver" color-meta="#00d5fffc"/>  <!-- denver sets off inline exercises -->
+    <knowl remark="no" example="no" example-solution="no" proof="no" exercise-inline="no"/>
     <analytics google-gst="G-MLHBE6655J"
                 statcounter-project="13069512"
                 statcounter-security="3c431ca7"/>
-    <!-- <analytics google-gst="UA-0123456-1" statcounter-project="0123456" statcounter-security="0123456"/> -->
-    <!-- Google search, via masthead textbox is switched on    -->
-    <!-- and associated with a Google account via CX number    -->
-    <!-- <search google-cx=""/> -->
-    <!-- ***************************************************** -->
   </html>
 </publication>

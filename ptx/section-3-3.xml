@@ -467,7 +467,7 @@ rectangle? What is its height?</p></li>
 
 <exercise component="webwork"><title>Practice 2</title>
     <introduction>
-        <image width="25%" source="images/fig-vertically-shifted-parabolaw" ><description>vertically shifted parabola</description></image>
+        <image width="25%" source="images/fig-vertically-shifted-parabola" ><description>vertically shifted parabola</description></image>
     </introduction>
     <webwork><pg-code>
             $f = Formula("x^2-5");

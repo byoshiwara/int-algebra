@@ -153,7 +153,7 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
     </solution></webwork>
     <conclusion>
         <p>Graph of system:</p>
-        <image width="35%" source="images/fig-ex-9-5-2answ"><description>two parabolas</description></image>
+        <image width="35%" source="images/fig-ex-9-5-2ans"><description>two parabolas</description></image>
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 2</title>

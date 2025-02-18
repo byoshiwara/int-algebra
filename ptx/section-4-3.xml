@@ -300,7 +300,7 @@ The graph of this equation, along with the data points, is shown at right.</p></
     </ol></p></solution>
 </webwork>
 <conclusion>
-        <image width="25%" source="images/fig-chicken-consumptionw"><description>scatterplot and parabola fit</description></image>
+        <image width="25%" source="images/fig-chicken-consumption"><description>scatterplot and parabola fit</description></image>
 </conclusion></exercise>
 
 <exercise component="main"><title>Practice 2</title>

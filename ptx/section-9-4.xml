@@ -14,9 +14,7 @@
 
 <sidebyside widths="40% 40%" margins="5% 5%"><image xml:id="fig-hyperbola-left-right">
         <description>hyperbola with horizontal transverse axis</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=0.6]
         \pgfkeys{/pgf/declare function={asinh(\x) = ln(\x + sqrt(\x^2+1));}}
         \draw[black,thick, ->, >=stealth'] (-4.5,0)--(4.5,0) node[right]{$x$};
@@ -47,9 +45,7 @@
         \end{tikzpicture}]]>
     </latex-image></image>
     <image xml:id="fig-hyperbola-up-down"><description>hyperbola with vertical transverse axis</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=0.6]
         \pgfkeys{/pgf/declare function={asinh(\x) = ln(\x + sqrt(\x^2+1));}}
         \draw[black,thick, ->, >=stealth'] (-4.5,0)--(4.5,0) node[right]{$x$};
@@ -100,9 +96,7 @@
         <sidebyside widths="50% 40%" margins="0% 5%" valigns="middle middle">
     <p>We construct the central rectangle with dimensions <m>2a=4</m> and <m>2b=6</m>, as shown in the figure. Then we draw the asymptotes through the diagonals of the rectangle. The asymptotes have slopes <m>\pm \dfrac{3}{2}</m>. Finally, we sketch the branches of the hyperbola through the vertices and approaching the asymptotes.</p>
         <image xml:id="fig-example-9-4-1"><description>hyperbola opening up and down</description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
+                <![CDATA[
                 \begin{tikzpicture} [scale=.6]
                 \filldraw[cyan!30!white, opacity=.50] (-2,-3) rectangle (2,3);
                 \draw[black,thick, ->, >=stealth'] (-6,0)--(6,0) node[right]{$x$};
@@ -204,9 +198,7 @@
     <conclusion>
         <p><m>\dfrac{x^2}{9} - \dfrac{y^2}{16} = 1</m>:</p>
             <image width="40%" xml:id="fig-ex-9-4-1answ"><description>hyperbola opening left and right</description><latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
              \begin{tikzpicture} [scale=.6]
             \draw[cyan] (-8,-8) grid (8,8);
             \draw[black,thick, ->, >=stealth'] (-8,0)--(8,0) node[right]{$x$};
@@ -229,9 +221,7 @@
 <exercise component="main"><title>Practice 1</title>
 <statement><p>Graph <m>\dfrac{x^2}{9} - \dfrac{y^2}{16} = 1</m></p></statement>
     <answer><image width="40%" xml:id="fig-ex-9-4-1ans"><description>hyperbola opening left and right</description><latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
              \begin{tikzpicture} [scale=.6]
             \draw[cyan] (-8,-8) grid (8,8);
             \draw[black,thick, ->, >=stealth'] (-8,0)--(8,0) node[right]{$x$};
@@ -266,9 +256,7 @@ where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>. As 
         <me>y= \dfrac{1}{2} x\quad \text{ and } y= \frac{-1}{2} x</me></p>
 
     <image xml:id="fig-example-9-4-2"><description>hyperbola opening up and down</description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
+                <![CDATA[
                 \begin{tikzpicture} [scale=.5]
                 \draw[black,thick, ->, >=stealth'] (-7,0)--(7,0) node[right]{$x$};
                 \draw[black,thick, ->, >=stealth'] (0,-7)--(0,7) node[above]{$y$};
@@ -393,8 +381,7 @@ where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>. As 
                     <mrow>y \amp = \pm \sqrt{5}</mrow></md>
 There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and <m>\left(2, -\sqrt{5}\right)</m>, as shown in the figure.</p>
     <image xml:id="fig-example-9-4-3"><description>hyperbola opens up and down</description><latex-image>
-                <![CDATA[\tikzset{%
-                }
+                <![CDATA[
                 \begin{tikzpicture} [scale=.5]
                 \draw[cyan] (-7,-7) grid (7,7);
                 \draw[black,thick, ->, >=stealth'] (-7,0)--(7.6,0) node[right]{$x$};
@@ -651,9 +638,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 <sidebyside widths="37% 37%" margins="5% 5%">
     <image xml:id="fig-hyperbola-left-right-translated"><description>hyperbola-left-and-right-translated</description>
         <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.7]
         \draw[black,thick, ->, >=stealth'] (-4.5,-3)--(4.5,-3) node[right]{$x$};
         \draw[black,thick, ->, >=stealth'] (-3,-4.5)--(-3,4.5) node[above]{$y$};
@@ -679,9 +664,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
         </latex-image></image>
     <image xml:id="fig-hyperbola-up-down-translated">
         <description>hyperbola-up-and-down-translated</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.7]
         \draw[black,thick, ->, >=stealth'] (-4.5,-3)--(4.5,-3) node[right]{$x$};
         \draw[black,thick, ->, >=stealth'] (-3,-4.5)--(-3,4.5) node[above]{$y$};
@@ -715,30 +698,28 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
         <sidebyside widths="50% 48%" margins="0% 0%" valigns="middle middle">
         <p>Because the <m>x^2</m>-term is positive, the branches open left and right. The coordinates of the vertices are thus <m>(3+2\sqrt{2},-2)</m> and <m>(3-2\sqrt{2},-2)</m>, or approximately <m>(5.8,-2)</m> and <m>(0.2,-2)</m>. The ends of the conjugate axis are <m>(3,-2+\sqrt{10}</m>) and <m>(3,-2-\sqrt{10}</m>), or approximately <m>(3,1.2)</m> and <m>(3,-5.2)</m>.</p>
         <image xml:id="fig-example-9-4-5"><description>translated hyperbola, left and right</description><latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                        <![CDATA[\tikzset{%
-                        }
-                        \begin{tikzpicture} [scale=.6]
-                        \draw[cyan] (-3,-7) grid (9,3);
-                        \draw[black,thick, ->, >=stealth'] (-3,0)--(9.6,0) node[right]{$x$};
-                        \draw[black,thick, ->, >=stealth'] (0,-7)--(0,3.6) node[above]{$y$};
-                        \foreach \x in {5} {
-                         \draw[black] (.1,-\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$-\x$};
-                         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-                         }
-                        \def\h{3};
-                        \def\k{-2};
-                        \filldraw[cyan!60!white,very thick, opacity=.3] ({\h-sqrt(8)},{\k-sqrt(10)}) rectangle ({\h+sqrt(8)},{\k+sqrt(10)});
-                        \draw[samples=2,domain={-1.5:7.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+sqrt(10)/sqrt(8) * (\x - \h) } );
-                        \draw[samples=2,domain={-1.5:7.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-sqrt(10)/sqrt(8) * (\x - \h) } );
-                        \filldraw[gray] (\h,\k) circle (.1) node[text=black,left, xshift=-2]{$(\h,\k)$};
-                        \draw[samples=65,domain={-1.25:1.25},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+sqrt(8)*cosh(\x)}, {\k+sqrt(10)*sinh(\x)});
-                        \draw[samples=65,domain={-1.25:1.25},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h-sqrt(8)*cosh(\x)}, {\k+sqrt(10)*sinh(\x)});
-                        \draw [green!90!black, decorate, decoration={brace,amplitude=5}] (\h,\k) --(\h,{\k+sqrt(10)}) node[left, xshift=2mm,midway, yshift=1.5cm, fill=white, inner sep=1, text=green!50!black]{$b=\sqrt{10}$};
-                        \draw [green,thick,->, >=stealth'] (2,1.7) to [out=270,in=140] (2.7,-.3);
-                        \draw [blue, decorate, decoration={brace,amplitude=6}] ({\h+sqrt(8)},\k)--(\h,\k) node[below, midway, yshift=-3mm, fill=white, inner sep=1]{$a=\sqrt{8}$};
-                        \end{tikzpicture}]]>
-                    </latex-image></image></sidebyside>
+        <![CDATA[
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan] (-3,-7) grid (9,3);
+        \draw[black,thick, ->, >=stealth'] (-3,0)--(9.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-7)--(0,3.6) node[above]{$y$};
+        \foreach \x in {5} {
+         \draw[black] (.1,-\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$-\x$};
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         }
+        \def\h{3};
+        \def\k{-2};
+        \filldraw[cyan!60!white,very thick, opacity=.3] ({\h-sqrt(8)},{\k-sqrt(10)}) rectangle ({\h+sqrt(8)},{\k+sqrt(10)});
+        \draw[samples=2,domain={-1.5:7.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+sqrt(10)/sqrt(8) * (\x - \h) } );
+        \draw[samples=2,domain={-1.5:7.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-sqrt(10)/sqrt(8) * (\x - \h) } );
+        \filldraw[gray] (\h,\k) circle (.1) node[text=black,left, xshift=-2]{$(\h,\k)$};
+        \draw[samples=65,domain={-1.25:1.25},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+sqrt(8)*cosh(\x)}, {\k+sqrt(10)*sinh(\x)});
+        \draw[samples=65,domain={-1.25:1.25},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h-sqrt(8)*cosh(\x)}, {\k+sqrt(10)*sinh(\x)});
+        \draw [green!90!black, decorate, decoration={brace,amplitude=5}] (\h,\k) --(\h,{\k+sqrt(10)}) node[left, xshift=2mm,midway, yshift=1.5cm, fill=white, inner sep=1, text=green!50!black]{$b=\sqrt{10}$};
+        \draw [green,thick,->, >=stealth'] (2,1.7) to [out=270,in=140] (2.7,-.3);
+        \draw [blue, decorate, decoration={brace,amplitude=6}] ({\h+sqrt(8)},\k)--(\h,\k) node[below, midway, yshift=-3mm, fill=white, inner sep=1]{$a=\sqrt{8}$};
+        \end{tikzpicture}]]>
+    </latex-image></image></sidebyside>
    <p>The central rectangle is centered at the point <m>(3,-2)</m> and extends to the vertices in the horizontal direction and to the ends of the conjugate axis in the vertical direction. We draw the asymptotes through the opposite corners of the central rectangle, and sketch the hyperbola through the vertices and approaching the asymptotes to obtain the graph shown above.</p></li>
    <li><p>Both asymptotes pass through the center of the hyperbola, <m>(3,-2)</m>.  Their slopes are 
             <me>\frac{\sqrt{10}}{\sqrt{8}} = \frac{\sqrt{5}}{2}\quad \text{ and } \dfrac{-\sqrt{5}}{2}</me>
@@ -874,9 +855,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     <p><m>\dfrac{y^2}{9} - \dfrac{(x+4)^2}{12} = 1</m>:</p>
     <image width="40%" xml:id="fig-ex-9-4-5answ">
             <description>translated hyperbola opening up and down</description><latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
             \begin{tikzpicture} [scale=.4]
             \draw[cyan] (-13,-8) grid (5,8);
             \draw[black,thick, ->, >=stealth'] (-13,0)--(5.6,0) node[right]{$x$};
@@ -909,9 +888,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 <answer><p><ol marker="a.">
         <li><image width="40%" xml:id="fig-ex-9-4-5ans">
             <description>translated hyperbola opening up and down</description><latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
             \begin{tikzpicture} [scale=.4]
             \draw[cyan] (-13,-8) grid (5,8);
             \draw[black,thick, ->, >=stealth'] (-13,0)--(5.6,0) node[right]{$x$};
@@ -962,34 +939,32 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
             Thus, <m>b=3</m> and <m>a = \dfrac{3}{2}</m>, and the vertices are <m>(-1,1)</m> and <m>(-1,5)</m>. The ends of the conjugate axis are <m>\left(\dfrac{-5}{2}, -2\right)</m> and <m>\left(\dfrac{1}{2}, -2\right)</m>.</p>
             <image xml:id="fig-example-translated-hyperbola-up-down">
             <description>translated hyperbola, open up and down</description><latex-image>
-                        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                        <![CDATA[\tikzset{%
-                        }
-                        \begin{tikzpicture} [scale=.6]
-                        \draw[cyan] (-6,-9) grid (6,5);
-                        \draw[black,thick, ->, >=stealth'] (-6,0)--(6.6,0) node[right]{$x$};
-                        \draw[black,thick, ->, >=stealth'] (0,-9)--(0,5.6) node[above]{$y$};
-                        \foreach \x in {-5,5} {
-                         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-                         }
-                        \foreach \x in {5} {
-                         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-                         }
-                        \def\a{3/2};
-                        \def\b{3};
-                        \def\h{-1};
-                        \def\k{-2};
-                        \draw[black, fill=cyan!60!white, opacity=.3] ({\h-\a},{\k-\b}) rectangle ({\h+\a},{\k+\b});
-                        \draw[samples=2,domain={-4.5:2.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+2 * (\x - \h) } );
-                        \draw[samples=2,domain={-4.5:2.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-\b/(\a )* (\x - \h) } );
-                        \filldraw[black] (\h,\k) circle (.15) node[left, xshift=-.4cm, fill=white, inner sep=1]{$(-1,-2)$};
-                        \draw[samples=65,domain={-1.5:1.5},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+\a*sinh(\x)}, {\k+\b*cosh(\x)});
-                        \draw[samples=65,domain={-1.5:1.5},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+\a*sinh(\x)}, {\k-\b*cosh(\x)});
-                        \draw [blue, decorate, decoration={brace,amplitude=7}] (\h+\a+.1,\k+\b) --++(0,{-\b}) node[right, xshift=4mm,midway,  fill=white, inner sep=1]{$b=3$};
-                        \draw [green!60!black, decorate, decoration={brace,amplitude=6}] ({\h+\a},\k)--(\h,\k) node[below, midway, xshift=1.9cm, yshift=-6mm, fill=white, inner sep=1]{$a=\frac{3}{2}$};
-                        \draw [green,thick,->, >=stealth'] (2,-3.5) to [out=180,in=280] (-.2,-2.5);
-                        \end{tikzpicture}]]>
-                    </latex-image></image></sidebyside>
+            <![CDATA[
+            \begin{tikzpicture} [scale=.6]
+            \draw[cyan] (-6,-9) grid (6,5);
+            \draw[black,thick, ->, >=stealth'] (-6,0)--(6.6,0) node[right]{$x$};
+            \draw[black,thick, ->, >=stealth'] (0,-9)--(0,5.6) node[above]{$y$};
+            \foreach \x in {-5,5} {
+             \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+             }
+            \foreach \x in {5} {
+             \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+             }
+            \def\a{3/2};
+            \def\b{3};
+            \def\h{-1};
+            \def\k{-2};
+            \draw[black, fill=cyan!60!white, opacity=.3] ({\h-\a},{\k-\b}) rectangle ({\h+\a},{\k+\b});
+            \draw[samples=2,domain={-4.5:2.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k+2 * (\x - \h) } );
+            \draw[samples=2,domain={-4.5:2.5},smooth,variable=\x,gray,dashed] plot ( {\x}, { \k-\b/(\a )* (\x - \h) } );
+            \filldraw[black] (\h,\k) circle (.15) node[left, xshift=-.4cm, fill=white, inner sep=1]{$(-1,-2)$};
+            \draw[samples=65,domain={-1.5:1.5},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+\a*sinh(\x)}, {\k+\b*cosh(\x)});
+            \draw[samples=65,domain={-1.5:1.5},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\h+\a*sinh(\x)}, {\k-\b*cosh(\x)});
+            \draw [blue, decorate, decoration={brace,amplitude=7}] (\h+\a+.1,\k+\b) --++(0,{-\b}) node[right, xshift=4mm,midway,  fill=white, inner sep=1]{$b=3$};
+            \draw [green!60!black, decorate, decoration={brace,amplitude=6}] ({\h+\a},\k)--(\h,\k) node[below, midway, xshift=1.9cm, yshift=-6mm, fill=white, inner sep=1]{$a=\frac{3}{2}$};
+            \draw [green,thick,->, >=stealth'] (2,-3.5) to [out=180,in=280] (-.2,-2.5);
+            \end{tikzpicture}]]>
+        </latex-image></image></sidebyside>
     <p>The central rectangle is centered at <m>(-1,-2)</m>, as shown in the figure. We draw the asymptotes through the corners of the rectangle, then sketch the hyperbola by starting at the vertices and approaching the asymptotes.</p></li>
     </ol></p></solution></example>
 
@@ -1081,9 +1056,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
     <p><m>4x^2 - 6y^2 + 16x-12y-14=0</m>:</p>
         <image width="40%"  xml:id="fig-ex-9-4-6answ"><description>translated hyperbola opening left and right</description>
             <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
             \begin{tikzpicture} [scale=.6]
             \draw[cyan] (-9,-7) grid (5,5);
             \draw[black,thick, ->, >=stealth'] (-9,0)--(5.6,0) node[right]{$x$};
@@ -1117,9 +1090,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
         <li><m>\dfrac{(x+2)^2}{6} - \dfrac{(y+1)^2}{4}=1</m></li>
         <li><image width="40%"  xml:id="fig-ex-9-4-6ans"><description>translated hyperbola opening left and right</description>
             <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
+            <![CDATA[
             \begin{tikzpicture} [scale=.6]
             \draw[cyan] (-9,-7) grid (5,5);
             \draw[black,thick, ->, >=stealth'] (-9,0)--(5.6,0) node[right]{$x$};

@@ -61,7 +61,7 @@
     <!-- @colors now implemented                               -->
     <!-- also @knowls, @toc, and @banner, although no          -->
     <!-- alternative styles exist yet for those.               -->
-    <css style="oscarlevin" colors="default"/>
+    <css theme="denver" color-meta="#00d5fffc"/>  <!-- denver sets off inline exercises -->
     <!-- Magic IDs identify HTML pages to analytics services   -->
     <!-- Presence implies relevant Javascript will be added    -->
     <!-- StatCounter requires both values to be set            -->

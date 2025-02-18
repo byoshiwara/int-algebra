@@ -124,7 +124,7 @@ So instead of plotting the logs from the table, we will plot powers of 10 that g
 
 <exercise component="webwork"><title>Practice 1</title>
     <introduction>
-        <image width="90%" source="images/fig-read-logscalew"><description>points on logscale</description></image>
+        <image width="90%" source="images/fig-read-logscale"><description>points on logscale</description></image>
     </introduction>
     <webwork><pg-code>
             $l[0] = Compute("-4");
@@ -358,7 +358,7 @@ So instead of plotting the logs from the table, we will plot powers of 10 that g
 
 <exercise component="webwork"><title>Practice 2</title>
     <introduction>
-        <image width="80%" source="images/fig-log-log-graphw" ><description>mouse-to-elephant curve on log-log graph</description></image>
+        <image width="80%" source="images/fig-log-log-graph" ><description>mouse-to-elephant curve on log-log graph</description></image>
     </introduction>
     <webwork><pg-code>
             $mouseMass = Compute("0.02")->with(

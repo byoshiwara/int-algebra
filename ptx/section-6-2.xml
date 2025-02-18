@@ -748,7 +748,7 @@ Thus, to solve an equation involving a power function <m>x^n</m>, we first isola
         <li><p><m>f (x) = x^{-0.5}</m>, <m>f(x)=\dfrac{1}{\sqrt{x}} </m></p></li></ol></p>
 </solution></webwork>
     <conclusion>
-        <image width="20%"  source="images/fig-ex-6-2-8answ"><description>power function</description></image>
+        <image width="20%"  source="images/fig-ex-6-2-8ans"><description>power function</description></image>
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 8</title>

@@ -25,9 +25,7 @@
         <md><mrow>y \ge − x + 10,000</mrow></md>
     This inequality says that for each <m>x</m>-value, we must choose points with <m>y</m>-values greater than or equal to <m>-x + 10,000</m>. As we saw in <xref ref="Example-inequality-1-of-2-variables-specified" text="type-global" /> above, when <m>x = 2000</m>, the solutions have <m>y</m>-values greater than or equal to 8000. Solutions for <m>x = 2000</m>, <m>x = 6000</m>, and <m>x = 11,000</m> are shown in the figure. Do you see a pattern emerging?</p>
     <image xml:id="fig-example-2-5-1"><description>linear inequality</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.6]
         \draw[cyan] (0,-2) grid (12,12);
         \draw[black,thick,->,>=stealth'] (0,0)--(12.6,0) node[above]{$x$};
@@ -49,9 +47,7 @@
 <p>The graph of the inequality must show all the points whose coordinates are solutions. We found some solutions to the inequality <m>x + y \ge 10,000</m> in <xref ref="Example-inequality-1-of-2-variables-specified" text="type-global" /> above by choosing a value for <m>x</m>  and solving for <m>y</m>. A more efficient way to find all the solutions of the inequality is to start with the graph of the corresponding equation
         <me>y = -x + 10,000</me></p>
      <image xml:id="fig-example-2-5-1b"><description>linear inequality, 2 variables</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
+        <![CDATA[
         \begin{tikzpicture} [scale=.6]
         \draw[cyan] (-2,-2) grid (12,12);
         \draw[black,thick,->,>=stealth'] (-2,0)--(12.6,0) node[above]{$x$};
@@ -137,7 +133,7 @@ On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded regi
         </solution>
     </webwork>
     <conclusion>
-        <image width="30%"  source="images/fig-ex-2-5-1w"><description>linear inequality in two variables</description></image>
+        <image width="30%"  source="images/fig-ex-2-5-1"><description>linear inequality in two variables</description></image>
     </conclusion>
 </exercise>
 

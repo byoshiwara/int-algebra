@@ -351,7 +351,7 @@ and press <kbd>ZOOM</kbd> <m>6</m> for the standard window. Your calculator does
                 </tabular>
             <p>The graph is shown below.</p>
     </solution> </webwork>
-    <conclusion><p><m>f(x)=x^3-2</m></p><image width="25%" source="images/fig-ex-5-2-3answ"><description>cubic</description></image></conclusion>
+    <conclusion><p><m>f(x)=x^3-2</m></p><image width="25%" source="images/fig-ex-5-2-3ans"><description>cubic</description></image></conclusion>
 </exercise>
 
 <exercise component="main"><title>Practice 3</title>
