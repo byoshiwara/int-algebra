@@ -420,7 +420,7 @@ and use the standard window. If we trace along the graph to the intersection poi
 </webwork>
     <conclusion>
         <p>Graph for part (a):</p>
-        <image width="30%" source="images/fig-ex-2-2-3answ"><description>parallel lines</description></image>
+        <image width="30%" source="images/fig-ex-2-2-3ans"><description>parallel lines</description></image>
     </conclusion></exercise>
 
 <exercise component="main"><title>Practice 3</title>

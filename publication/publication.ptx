@@ -51,26 +51,20 @@
   </latex>
   
   <html>
-    <!-- Whether to knowl a particular elements is set here    -->
-    <!-- Lots of elements have this possibility; see the guide -->
-    <index-page ref="preface"/>
+        <calculator model="geogebra-graphing"/>
+        <index-page ref="preface"/>
+    <css theme="denver" color-meta="#ffcccc" palette="primaries" color-fact="#009999" color-do="#9966ff" color-main="#006699"/>  <!-- denver sets off inline exercises -->
+<!--    <css style="oscarlevin"/>-->
     <knowl remark="no" example="no" example-solution="no" proof="no" exercise-inline="no"/>
-    <!-- Specify the style of the html by giving names to      -->
-    <!-- override defaults.  Ex: to use "style_oscarlevin.css" -->
-    <!-- put <css style="oscarlevin"/>                         -->
-    <!-- @colors now implemented                               -->
-    <!-- also @knowls, @toc, and @banner, although no          -->
-    <!-- alternative styles exist yet for those.               -->
-    <css theme="denver" color-meta="#00d5fffc"/>  <!-- denver sets off inline exercises -->
-    <!-- Magic IDs identify HTML pages to analytics services   -->
-    <!-- Presence implies relevant Javascript will be added    -->
-    <!-- StatCounter requires both values to be set            -->
-    <analytics google-gst="G-MLHBE6655J"
-                statcounter-project="13069512"
-                statcounter-security="3c431ca7"/>
-    <!-- Google search, via masthead textbox is switched on    -->
-    <!-- and associated with a Google account via CX number    -->
-    <!-- <search google-cx=""/> -->
-    <!-- ***************************************************** -->
+         <video privacy="yes"/>
+        <search variant="default"/>
+        <!-- Magic IDs identify HTML pages to analytics services   -->
+        <!-- Presence implies relevant Javascript will be added    -->
+        <!-- StatCounter requires both values to be set            -->
+        <analytics google-gst="G-MLHBE6655J"
+                   statcounter-project="13069512"
+                   statcounter-security="3c431ca7"/>
+        <video privacy="yes"/>
+        <search variant="default"/>
   </html>
 </publication>

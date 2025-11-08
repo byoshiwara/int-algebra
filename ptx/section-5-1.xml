@@ -994,7 +994,7 @@ We see that</p>
 <webwork><pg-code>       
             $inout = RadioButtons(
               ["\(f\) is the output and \(n\) is the input",
-              "\(a\) is the input and \(f\) is the output",
+              "\(a\) is the output and \(f\) is the input",
               "\(a\) is the input and \(n\) is the output",
               "\(f(a)\) is the input and \(n\) is the output"],
               2, 
@@ -1013,7 +1013,7 @@ We see that</p>
 <statement><p>If <m>n=f(a)</m>, what are the input and output variables?</p>
         <p><ol marker = "a.">
         <li><p><m>f</m> is the output and <m>n</m> is the input</p></li>
-        <li><p><m>a</m> is the input and <m>f</m> is the output</p></li>
+        <li><p><m>a</m> is the output and <m>f</m> is the input</p></li>
         <li><p><m>a</m> is the input and<m>n</m> is the output</p></li>
         <li><p><m>f(a)</m> is the input and <m>n</m> is the output</p></li>
     </ol></p></statement></exercise>
