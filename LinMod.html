@@ -97,15 +97,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.18';
+eBookConfig.runestone_version = '8.1.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.cefb0224014f3333.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c50cdcad467c8d3e.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/prefix-runtime.cb5af2e851de3574.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.f51cd4153b45055d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.66fa8a682a32c0ac.css">
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -1345,7 +1345,7 @@ true);
 </li>
 <li id="LinMod-3-2-2-1-3">
 <div class="para" id="LinMod-3-2-2-1-3-1">Plot your data points on a graph, using sales, <span class="process-math">\(S\text{,}\)</span> on the horizontal axis and income, <span class="process-math">\(I\text{,}\)</span> on the vertical axis, as shown in the figure. Connect the data points to show Delbert’s monthly income for all possible monthly sales totals.</div>
-<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/images/Investigation1Grid.svg" role="img" class="contained" alt="graph"></div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/images/Investigation1Grid.svg" role="img" class="contained" alt="grid for graph of sales versus income"></div>
 </li>
 <li id="LinMod-3-2-2-1-4"><div class="para" id="LinMod-3-2-2-1-4-1">Add two new data points to the table by reading values from your graph.</div></li>
 <li id="LinMod-3-2-2-1-5">
@@ -1403,8 +1403,11 @@ true);
 <div class="para" id="example-bicycle-1-1">In May 2005, the city of Lyons, France, started a bicycle rental program. Over 3,000 bicycles are available at 350 computerized stations around the city. Each of the 52,000 subscribers pays an annual 5 euro fee (about $7.20) and gets a PIN to access the bicycles. The bicycles rent for 1 euro per hour and can be returned to any station.</div> <div class="para" id="example-bicycle-1-2">Your community decides to set up a similar program, charging a $5 subscription fee and $3 an hour for rental. (A fraction of an hour is charged as the corresponding fraction of $3).</div> <div class="para logical" id="example-bicycle-1-3"><ol class="lower-alpha ol-marker-2" id="example-bicycle-1-3-1">
 <li id="example-bicycle-1-3-1-1"><div class="para" id="example-bicycle-1-3-1-1-1">Make a table of values showing the cost, <span class="process-math">\(C\text{,}\)</span> of renting a bike for various lengths of time, <span class="process-math">\(t\text{.}\)</span>
 </div></li>
-<li id="example-bicycle-1-3-1-2"><div class="para" id="example-bicycle-1-3-1-2-1">Plot the points on a graph. Draw a curve through the data points. <span class="process-math">\(\alert{\text{[TK]}}~~\)</span>
-</div></li>
+<li id="example-bicycle-1-3-1-2">
+<div class="para" id="example-bicycle-1-3-1-2-1">Plot the points on a graph. Draw a curve through the data points.</div>
+<aside class="aside aside-like" id="example-bicycle-1-3-1-2-2"><div class="para" id="example-bicycle-1-3-1-2-2-1">
+<span class="process-math">\(\alert{\text{[TK]}}~~\)</span>For more help on plotting points, see <a href="tkchap1.html#tkPlotPoints" class="internal" title="Subsubsection A.1.1.2: Plot points and graph a line">Section 1.1.2</a> of the Toolkit.</div></aside>
+</li>
 <li id="example-bicycle-1-3-1-3"><div class="para" id="example-bicycle-1-3-1-3-1">Write an equation for <span class="process-math">\(C\)</span> in terms of <span class="process-math">\(t\text{.}\)</span>
 </div></li>
 </ol></div>
@@ -1463,7 +1466,7 @@ C\amp=5+3(\alert{1})=8
 <div class="para" id="example-bicycle-2-1-1-2-1-1-1">Each pair of values represents a point on the graph. The first value gives the horizontal coordinate of the point, and the second value gives the vertical coordinate.</div>
 <div class="para" id="example-bicycle-2-1-1-2-1-1-2">The points lie on a straight line, as shown in the figure. The line extends infinitely in only one direction, because negative values of <span class="process-math">\(t\)</span> do not make sense here.</div>
 </div>
-<div class="sbspanel middle" style="width:30.6010928961749%;"><img src="external/images/fig-Annelise-1.svg" role="img" class="contained" alt="graph"></div>
+<div class="sbspanel middle" style="width:30.6010928961749%;"><img src="external/images/fig-Annelise-1.svg" role="img" class="contained" alt="graph of cost versus time with labeled points"></div>
 </div></div></li>
 <li id="example-bicycle-2-1-1-3">
 <div class="para" id="example-bicycle-2-1-1-3-1">To write an equation, we let <span class="process-math">\(C\)</span> represent the cost of the rental, and we use <span class="process-math">\(t\)</span> for the number of hours:</div>
@@ -1475,18 +1478,17 @@ C\amp=5+3\cdot t
 </div></div>
 </li>
 </ol></div>
-</div></article><aside class="aside aside-like" id="LinMod-4-12"><div class="para" id="LinMod-4-12-1">
-<span class="process-math">\(\alert{\text{[TK]}}~~\)</span>For more help on plotting points, see <a href="tkchap1.html#tkPlotPoints" class="internal" title="Subsubsection A.1.1.2: Plot points and graph a line">Section 1.1.2</a> of the Toolkit.</div></aside><article class="exercise exercise-like" id="LinMod-4-13"><h4 class="heading">
+</div></article><article class="exercise exercise-like" id="LinMod-4-12"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Practice 1.</span>
 </h4>
-<div class="para" id="LinMod-4-13-2-1">Write an equation for the cost <span class="process-math">\(C\)</span> of renting a bicycle for <span class="process-math">\(t\)</span> hours if the subscription fee is $7 and the rental fee is $2.50 per hour.</div> <div class="para" id="LinMod-4-13-2-2">Hint: Fill in the correct numbers in the equation below.</div>
-<div class="displaymath process-math" id="LinMod-4-13-2-3">
+<div class="para" id="LinMod-4-12-2-1">Write an equation for the cost <span class="process-math">\(C\)</span> of renting a bicycle for <span class="process-math">\(t\)</span> hours if the subscription fee is $7 and the rental fee is $2.50 per hour.</div> <div class="para" id="LinMod-4-12-2-2">Hint: Fill in the correct numbers in the equation below.</div>
+<div class="displaymath process-math" id="LinMod-4-12-2-3">
 \begin{align*}
 \text{Cost}\amp= (\text{subscription fee}) + (\text{hourly rate}) \cdot(\text{number of hours})\\
 C\amp= \fillinmath{XXXXXXXXXX} + \fillinmath{XXXXXXXXXX} \cdot t
 \end{align*}
 </div>
-<div class="solutions"><details id="LinMod-4-13-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="LinMod-4-13-3-1"><span class="process-math">\(C=7+2.50t \)</span></div></div></details></div></article></section><section class="subsection" id="LinMod-5"><h3 class="heading hide-type">
+<div class="solutions"><details id="LinMod-4-12-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="LinMod-4-12-3-1"><span class="process-math">\(C=7+2.50t \)</span></div></div></details></div></article></section><section class="subsection" id="LinMod-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="space"> </span><span class="title">Equations for Linear Models</span>
 </h3>
 <div class="para" id="LinMod-5-2">The equation we wrote in <a href="LinMod.html#example-bicycle" class="xref" data-knowl="./knowl/xref/example-bicycle.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.1.4">Example 1.1.4</a>, <span class="process-math">\(~C=5+3t~\text{,}\)</span> is an example of a <dfn class="terminology">linear model</dfn>, which describes a variable that increases or decreases at a constant rate. The cost of renting a bicycle increased at a constant rate of $3 every hour.</div>
@@ -1532,11 +1534,12 @@ C=5+3(\alert{6})=23
 </div>
 <div class="para">A 6-hour bike ride will cost $23.  The point <span class="process-math">\(P\)</span> on the graph in the figure represents the cost of a 6-hour bike ride.  The value on the <span class="process-math">\(C\)</span>-axis at the same height as point <span class="process-math">\(P\)</span> is 23, so a 6-hour bike ride costs $23.</div>
 </div></li>
-<li id="example-6hrbike-2-1-1-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<li id="example-6hrbike-2-1-1-2">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
 <div class="sbspanel middle" style="width:61.5384615384615%;"><div class="para logical" id="example-6hrbike-2-1-1-2-1-1">
-<div class="para">We substitute <span class="process-math">\(C=\alert{18.50}\)</span> into the equation and solve for <span class="process-math">\(t\text{.}\)</span> <span class="process-math">\(\alert{\text{[TK]}}~~\)</span>
+<div class="para">We substitute <span class="process-math">\(C=\alert{18.50}\)</span> into the equation and solve for <span class="process-math">\(t\text{.}\)</span>
 </div>
-<div class="displaymath process-math" id="example-6hrbike-2-1-1-2-1-1-4">
+<div class="displaymath process-math" id="example-6hrbike-2-1-1-2-1-1-3">
 \begin{align*}
 \alert{18.50}\amp=5+3t\\
 13.50\amp=3t\\
@@ -1545,25 +1548,26 @@ t\amp=4.5
 </div>
 <div class="para">For $18.50 you can bicycle for <span class="process-math">\(4\frac{1}{2} \)</span> hours. The point <span class="process-math">\(Q\)</span> on the graph represents an $18.50 bike ride. The value on the <span class="process-math">\(t\)</span>-axis below point <span class="process-math">\(Q\)</span> is 4.5, so $18.50 will buy a 4.5 hour bike ride.</div>
 </div></div>
-<div class="sbspanel middle" style="width:35.8974358974359%;"><img src="external/images/fig1-2.svg" role="img" class="contained" alt="line though points"></div>
-</div></div></li>
+<div class="sbspanel middle" style="width:35.8974358974359%;"><img src="external/images/fig1-2.svg" role="img" class="contained" alt="graph of cost versus time with showing coordinates of two points"></div>
+</div></div> <aside class="aside aside-like" id="example-6hrbike-2-1-1-2-2"><div class="para" id="example-6hrbike-2-1-1-2-2-1">
+<span class="process-math">\(\alert{\text{[TK]}}~~\)</span>For more help on solving linear equations, see <a href="tkchap1.html#tkSolveLinEq" class="internal" title="Subsubsection A.1.1.3: Solve a linear equation">Section 1.1.3</a> of the Toolkit.</div></aside>
+</li>
 </ol></div>
-</div></article><aside class="aside aside-like" id="LinMod-5-8"><div class="para" id="LinMod-5-8-1">
-<span class="process-math">\(\alert{\text{[TK]}}~~\)</span>For more help on solving linear equations, see <a href="tkchap1.html#tkSolveLinEq" class="internal" title="Subsubsection A.1.1.3: Solve a linear equation">Section 1.1.3</a> of the Toolkit.</div></aside><article class="exercise exercise-like" id="LinMod-5-9"><h4 class="heading">
+</div></article><article class="exercise exercise-like" id="LinMod-5-8"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Practice 2.</span>
 </h4>
-<div class="para" id="LinMod-5-9-2-1">In the preceding Example, how long can you bicycle for $9.50?</div> <div class="para" id="LinMod-5-9-2-2">Hint: Start by finding $9.50 on the Cost (vertical axis). Then find the point on the graph with <span class="process-math">\(C\)</span>-coordinate $9.50. Finally, find the <span class="process-math">\(t\)</span>-coordinate of that point.</div>
-<div class="solutions"><details id="LinMod-5-9-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="LinMod-5-9-3-1">1.5 hours</div></div></details></div></article><div class="para" id="LinMod-5-10">In <a href="LinMod.html#example-6hrbike" class="xref" data-knowl="./knowl/xref/example-6hrbike.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.1.8">Example 1.1.8</a>, note the different algebraic techniques we used in parts (a) and (b):</div>
-<div class="para logical" id="LinMod-5-11"><ul class="disc" id="LinMod-5-11-1">
-<li id="LinMod-5-11-1-1"><div class="para" id="LinMod-5-11-1-1-1">In part (a) we were given a value of <span class="process-math">\(t\)</span> and we <dfn class="terminology">evaluated the expression</dfn> <span class="process-math">\(5 + 3t\)</span> to find <span class="process-math">\(C\text{.}\)</span>
+<div class="para" id="LinMod-5-8-2-1">In the preceding Example, how long can you bicycle for $9.50?</div> <div class="para" id="LinMod-5-8-2-2">Hint: Start by finding $9.50 on the Cost (vertical axis). Then find the point on the graph with <span class="process-math">\(C\)</span>-coordinate $9.50. Finally, find the <span class="process-math">\(t\)</span>-coordinate of that point.</div>
+<div class="solutions"><details id="LinMod-5-8-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="LinMod-5-8-3-1">1.5 hours</div></div></details></div></article><div class="para" id="LinMod-5-9">In <a href="LinMod.html#example-6hrbike" class="xref" data-knowl="./knowl/xref/example-6hrbike.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.1.8">Example 1.1.8</a>, note the different algebraic techniques we used in parts (a) and (b):</div>
+<div class="para logical" id="LinMod-5-10"><ul class="disc" id="LinMod-5-10-1">
+<li id="LinMod-5-10-1-1"><div class="para" id="LinMod-5-10-1-1-1">In part (a) we were given a value of <span class="process-math">\(t\)</span> and we <dfn class="terminology">evaluated the expression</dfn> <span class="process-math">\(5 + 3t\)</span> to find <span class="process-math">\(C\text{.}\)</span>
 </div></li>
-<li id="LinMod-5-11-1-2"><div class="para" id="LinMod-5-11-1-2-1">In part (b) we were given a value of <span class="process-math">\(C\)</span> and we <dfn class="terminology">solved the equation</dfn> <span class="process-math">\(C = 5 + 3t\)</span> to find <span class="process-math">\(t\text{.}\)</span>
+<li id="LinMod-5-10-1-2"><div class="para" id="LinMod-5-10-1-2-1">In part (b) we were given a value of <span class="process-math">\(C\)</span> and we <dfn class="terminology">solved the equation</dfn> <span class="process-math">\(C = 5 + 3t\)</span> to find <span class="process-math">\(t\text{.}\)</span>
 </div></li>
 </ul></div>
-<article class="exercise exercise-like" id="LinMod-5-12"><h4 class="heading">
+<article class="exercise exercise-like" id="LinMod-5-11"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span><span class="space"> </span><span class="title">QuickCheck 4.</span>
 </h4>
-<div class="para" id="LinMod-5-12-2-1">Consider the expression <span class="process-math">\(C = 5 + 3t\text{.}\)</span> Finding a value of <span class="process-math">\(t\)</span> when we know <span class="process-math">\(C\)</span> is called <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>. Finding a value of <span class="process-math">\(t\)</span> when we know <span class="process-math">\(C\)</span> is called <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</div></article><div class="para" id="LinMod-5-13">In the examples above, the graph is <dfn class="terminology">increasing</dfn> as <span class="process-math">\(t\)</span> increases. In the next Example we consider a <dfn class="terminology">decreasing graph</dfn>.</div>
+<div class="para" id="LinMod-5-11-2-1">Consider the expression <span class="process-math">\(C = 5 + 3t\text{.}\)</span> Finding a value of <span class="process-math">\(t\)</span> when we know <span class="process-math">\(C\)</span> is called <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>. Finding a value of <span class="process-math">\(t\)</span> when we know <span class="process-math">\(C\)</span> is called <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</div></article><div class="para" id="LinMod-5-12">In the examples above, the graph is <dfn class="terminology">increasing</dfn> as <span class="process-math">\(t\)</span> increases. In the next Example we consider a <dfn class="terminology">decreasing graph</dfn>.</div>
 <article class="example example-like" id="Leon-camper"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
 </h4>
@@ -1614,10 +1618,10 @@ g=20-\frac{1}{12}d
 </table></div>
 </li>
 <li id="Leon-camper-2-1-1-3"><div class="para" id="Leon-camper-2-1-1-3-1">We scale the values of <span class="process-math">\(d\)</span> along the horizontal axis, and the values of <span class="process-math">\(g\)</span> along the vertical axis. Then we plot the points from the table and connect with a line, as shown in the figure below.</div></li>
-<li id="Leon-camper-2-1-1-4"><div class="para logical" id="Leon-camper-2-1-1-4-1">
-<div class="para">If Leon has less than 5 gallons of gasoline left, then <span class="process-math">\(g\lt 5\text{,}\)</span> as shown on the <span class="process-math">\(g\)</span>-axis. Using our model from part (a), we solve the inequality. <span class="process-math">\(\alert{\text{[TK]}}\)</span>
-</div>
-<div class="displaymath process-math" id="Leon-camper-2-1-1-4-1-4">
+<li id="Leon-camper-2-1-1-4">
+<div class="para logical" id="Leon-camper-2-1-1-4-1">
+<div class="para">If Leon has less than 5 gallons of gasoline left, then <span class="process-math">\(g\lt 5\text{,}\)</span> as shown on the <span class="process-math">\(g\)</span>-axis. Using our model from part (a), we solve the inequality.</div>
+<div class="displaymath process-math" id="Leon-camper-2-1-1-4-1-3">
 \begin{align*}
 20-\frac{1}{12}d \amp \lt 5 \amp\amp\blert{\text{Subtract } 20 \text{ from both sides.}}\\
 -\frac{1}{12}d \amp \lt -15 \amp\amp\blert{\text{Multiply by } {-12} \text{ on both sides.}} \\
@@ -1628,26 +1632,28 @@ d \amp\gt 180\amp\amp \begin{array}{l}
 \end{align*}
 </div>
 <div class="para">Leon has driven at least 180 miles. The solution is shown on the graph below.</div>
-</div></li>
+</div>
+<aside class="aside aside-like" id="Leon-camper-2-1-1-4-2"><div class="para" id="Leon-camper-2-1-1-4-2-1">
+<span class="process-math">\(\alert{\text{[TK]}}~~\)</span>For more help on solving linear inequalities, see <a href="tkchap1.html#tkSolveLinIneq" class="internal" title="Subsubsection A.1.1.4: Solve a linear inequality">Section 1.1.4</a> of the Toolkit.</div></aside>
+</li>
 </ol></div>
-<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="generated/latex-image/fig-Leon-gas-miles.svg" role="img" class="contained" alt="gas mileage"></div>
-</div></article><aside class="aside aside-like" id="LinMod-5-15"><div class="para" id="LinMod-5-15-1">
-<span class="process-math">\(\alert{\text{[TK]}}~~\)</span>For more help on solving linear inequalities, see <a href="tkchap1.html#tkSolveLinIneq" class="internal" title="Subsubsection A.1.1.4: Solve a linear inequality">Section 1.1.4</a> of the Toolkit.</div></aside><article class="note remark-like" id="LinMod-5-16"><h4 class="heading">
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="generated/latex-image/fig-Leon-gas-miles.svg" role="img" class="contained" alt="graph of gas left versus miles driven, with solution of inequality"></div>
+</div></article><article class="note remark-like" id="LinMod-5-14"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="LinMod-5-16-1">In part (d) of the previous Example we used an <dfn class="terminology">inequality</dfn> to answer the question. We use inequalities to model English phrases such as "less than," "more than," "at least," and "at most."</div></article><article class="exercise exercise-like" id="LinMod-5-17"><h4 class="heading">
+<div class="para" id="LinMod-5-14-1">In part (d) of the previous Example we used an <dfn class="terminology">inequality</dfn> to answer the question. We use inequalities to model English phrases such as "less than," "more than," "at least," and "at most."</div></article><article class="exercise exercise-like" id="LinMod-5-15"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.13</span><span class="period">.</span><span class="space"> </span><span class="title">Practice 3.</span>
 </h4>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
 <div class="sbspanel top" style="width:47.3684210526316%;">
-<div class="para" id="LinMod-5-17-2-1-1-1">Leon forgot to reset his odometer after his last fill-up, but he thinks he has driven at least 150 miles. How much gas does he have left? Show this on the graph.</div>
-<div class="para" id="LinMod-5-17-2-1-1-2">Hint: Locate 150 miles on the <span class="process-math">\(d\)</span>-axis. What part of the axis represents "at least" 150 miles? Find the points on the graph with <span class="process-math">\(d\)</span>-coordinates at least 150. What are the <span class="process-math">\(g\)</span>-coordinates of those points?</div>
+<div class="para" id="LinMod-5-15-2-1-1-1">Leon forgot to reset his odometer after his last fill-up, but he thinks he has driven at least 150 miles. How much gas does he have left? Show this on the graph.</div>
+<div class="para" id="LinMod-5-15-2-1-1-2">Hint: Locate 150 miles on the <span class="process-math">\(d\)</span>-axis. What part of the axis represents "at least" 150 miles? Find the points on the graph with <span class="process-math">\(d\)</span>-coordinates at least 150. What are the <span class="process-math">\(g\)</span>-coordinates of those points?</div>
 </div>
-<div class="sbspanel top" style="width:47.3684210526316%;"><img src="generated/latex-image/fig-Leon-mileage-grid.svg" role="img" class="contained" alt="grid"></div>
+<div class="sbspanel top" style="width:47.3684210526316%;"><img src="generated/latex-image/fig-Leon-mileage-grid.svg" role="img" class="contained" alt="graph of gas left versus miles driven"></div>
 </div></div>
-<div class="solutions"><details id="LinMod-5-17-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
-<div class="para" id="LinMod-5-17-3-1">At most 7.5 gallon</div>
-<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="generated/latex-image/fig-Leon-mileage.svg" role="img" class="contained" alt="line"></div>
+<div class="solutions"><details id="LinMod-5-15-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="LinMod-5-15-3-1">At most 7.5 gallon</div>
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="generated/latex-image/fig-Leon-mileage.svg" role="img" class="contained" alt="graph of gas left versus miles driven with point located"></div>
 </div></details></div></article></section><section class="exercises" id="section-1-1-exercises"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="space"> </span><span class="title">Problem Set 1.1</span>
 </h3>

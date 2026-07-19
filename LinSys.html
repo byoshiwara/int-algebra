@@ -97,15 +97,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.18';
+eBookConfig.runestone_version = '8.1.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.cefb0224014f3333.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c50cdcad467c8d3e.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/prefix-runtime.cb5af2e851de3574.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.f51cd4153b45055d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.66fa8a682a32c0ac.css">
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -1362,8 +1362,8 @@ true);
 </h3>
 <div class="para" id="LinSys-4-2">A biologist wants to know the average weights of two species of birds in a wildlife preserve. She sets up a feeder whose platform is actually a scale and mounts a camera to monitor the feeder. She waits until the feeder is occupied only by members of the two species she is studying,  robins and thrushes. Then she takes a picture, which records the number of each species on the scale and the total weight registered.</div>
 <div class="para logical" id="LinSys-4-3">
-<div class="para">From her two best pictures, she obtains the following information. The total weight of 3 thrushes and 6 robins is 48 ounces, and the total weight of 5 thrushes and 2 robins is 32 ounces.  The biologist writes two equations about the photos. <span class="process-math">\(~\alert{\text{[TK]}}~\)</span> She begins by assigning variables to the two unknown quantities:</div>
-<div class="displaymath process-math" id="LinSys-4-3-2">
+<div class="para">From her two best pictures, she obtains the following information. The total weight of 3 thrushes and 6 robins is 48 ounces, and the total weight of 5 thrushes and 2 robins is 32 ounces.  The biologist writes two equations about the photos.  She begins by assigning variables to the two unknown quantities:</div>
+<div class="displaymath process-math" id="LinSys-4-3-1">
 \begin{align*}
 \amp\text{Average weight of a thrush:} ~~t \\
 \amp\text{Average weight of a robin:} ~~r 
@@ -1376,7 +1376,7 @@ true);
 \end{equation*}
 </div>
 <div class="para">So the two equations are</div>
-<div class="displaymath process-math" id="LinSys-4-3-4">
+<div class="displaymath process-math" id="LinSys-4-3-3">
 \begin{align*}
 3t + 6r \amp = 48\\
 5t + 2r \amp =32
@@ -1417,8 +1417,7 @@ true);
 </div></div>
 <div class="sbspanel middle" style="width:40.6091370558376%;"><img src="generated/latex-image/fig-robins-thrushes.svg" role="img" class="contained" alt="two lines in first quadrant"></div>
 </div></div>
-<div class="para" id="LinSys-5-5">Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces. <span class="process-math">\(~\alert{\text{[TK]}}\)</span>
-</div>
+<div class="para" id="LinSys-5-5">Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces.</div>
 <aside class="aside aside-like" id="LinSys-5-6"><div class="para" id="LinSys-5-6-1">
 <span class="process-math">\(\alert{\text{[TK]}}~~\)</span>To review solutions of linear systems, see <a href="tkchap2.html#tkSysSoln" class="internal" title="Subsubsection A.2.2.2: Identify the solution of a system">Section 2.2.2</a> of the Toolkit.</div></aside><article class="exercise exercise-like" id="LinSys-5-7"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">QuickCheck 2.</span>
@@ -1436,9 +1435,8 @@ true);
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.3</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="LinSys-5-9-1-1">
-<div class="para">Use your grapher to solve the system by graphing. <span class="process-math">\(~~\alert{\text{[TK]}}\)</span>
-</div>
-<div class="displaymath process-math" id="LinSys-5-9-1-1-2">
+<div class="para">Use your grapher to solve the system by graphing.</div>
+<div class="displaymath process-math" id="LinSys-5-9-1-1-1">
 \begin{align*}
 y \amp= 1.7x + 0.4\\
 y \amp= 4.1x + 5.2
@@ -1683,8 +1681,7 @@ y = -3x + 6\\
 \blert{\text{Profit} = \text{Revenue} -\text{Cost}}
 \end{equation*}
 </div>
-<div class="para">Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs, the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <dfn class="terminology">break even</dfn>. <span class="process-math">\(~\alert{\text{[TK]}}\)</span>
-</div>
+<div class="para">Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs, the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <dfn class="terminology">break even</dfn>.</div>
 </div>
 <aside class="aside aside-like" id="LinSys-7-4"><div class="para" id="LinSys-7-4-1">
 <span class="process-math">\(\alert{\text{[TK]}}~~\)</span>To see more examples of the profit equation, see <a href="tkchap2.html#tkProfit" class="internal" title="Subsubsection A.2.2.3: Use the formula for profit, P=R-C">Section 2.2.3</a> of the Toolkit.</div></aside><article class="exercise exercise-like" id="LinSys-7-5"><h4 class="heading">
