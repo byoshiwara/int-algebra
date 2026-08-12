@@ -671,7 +671,7 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
         </solution>
 </webwork></exercise>
 
-<exercise component="MultiAnswer"><title>Practice 5</title>
+<exercise component="main"><title>Practice 5</title>
 <statement><p>Does <m>B</m> vary directly with the cube of <m>r</m>? Explain your decision.</p>
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">

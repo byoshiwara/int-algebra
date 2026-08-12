@@ -81,7 +81,7 @@
 <solution><p>We will use substitution to solve the system. First we solve the "easier" of the two equations (the second equation) for <m>y</m> to obtain
     <me>y=\dfrac{2}{x}</me>
 We substitute <m>\alert{\dfrac{2}{x}}</m> for <m>y</m> in the first equation to find
-    <me>x^2 + (\alert{\dfrac{2}{x}})^2 = 5 ~~~~\text{or} ~~~~~ x^2 + \dfrac{4}{x^2}=5</me>
+    <me>x^2 + \left(\alert{\dfrac{2}{x}})^2 = 5 ~~~~\text{or} ~~~~~ x^2 + \dfrac{4}{x^2}=5</me>
 This equation has only one variable, <m>x</m>, and we solve it by first clearing fractions. We multiply both sides by <m>x^2</m>, and then subtract <m>5x^2</m> to obtain
     <me>x^4-5x^2+4=0</me>
 Then we factor the left side to get
