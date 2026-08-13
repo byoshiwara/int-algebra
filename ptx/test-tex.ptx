@@ -10,7 +10,6 @@
     <title>int-alg</title>
 
 <xi:include href="./frontmatter.xml" />
-<xi:include href="./chap7.xml" />
 <xi:include href="./chap8.xml" />
 <!-- <chapter xml:id="testchap"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Testing</title>
