@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "front-colophon",
+  "id": "frontmatter-3",
   "level": "1",
-  "url": "front-colophon.html",
+  "url": "frontmatter-3.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "preface",
@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Preface",
-  "body": " Intermediate Algebra is a textbook for students who have some acquaintance with the basic notions of variables and equations, negative numbers, and graphs, although we provide a \"Toolkit\" to help the reader refresh any skills that may have gotten a little rusty. In this book we journey farther into the subject, to explore a greater variety of topics including graphs and modeling, curve-fitting, variation, exponentials and logarithms, and the conic sections. We use technology to handle data and give some instructions for using a graphing calculator, but these can easily be adapted to any other graphing utility.  We discuss functions and their applications, but not in the detail expected of a precalculus course; our intended audience includes students preparing for the many fields that may not use calculus but nonetheless require facility with quantitative reasoning. We aim to develop that facility in the context of modeling and problem solving.   Each section of the text includes Examples followed by a similar Practice Exercise that students can try for themselves in WeBWorK.  There are also \"QuickCheck\" exercises, usually multiple choice or fill in the blanks, for students to check their understanding of the concepts presented.  Homework problems come in three groups: a short Skills Warm Up that reviews prerequisite skills for the section, then Skills Practice with new skills, and finally Applications.  We have included a variety of applied problems that we hope students (and their teachers) will find interesting.  In addition, each Chapter begins with an Investigation that can be used as a group project or as a guided in-class activity.  Chapter Reviews include a Glossary and a Summary of key concepts as well as Review Problems. There is an Activity booklet available that provides an interactive lesson for each section of the text. The Activities can be completed by students in groups or with guidance from the instructor; or they can be used as support for a lecture format.  Katherine Yoshiwara  Atascadero, CA 2020  "
+  "body": " Intermediate Algebra is a textbook for students who have some acquaintance with the basic notions of variables and equations, negative numbers, and graphs, although we provide a \"Toolkit\" to help the reader refresh any skills that may have gotten a little rusty. In this book we journey farther into the subject, to explore a greater variety of topics including graphs and modeling, curve-fitting, variation, exponentials and logarithms, and the conic sections. We use technology to handle data and give some instructions for using a graphing calculator, but these can easily be adapted to any other graphing utility.  We discuss functions and their applications, but not in the detail expected of a precalculus course; our intended audience includes students preparing for the many fields that may not use calculus but nonetheless require facility with quantitative reasoning. We aim to develop that facility in the context of modeling and problem solving.   Each section of the text includes Examples followed by a similar Practice Exercise that students can try for themselves.  There are also \"QuickCheck\" exercises, usually multiple choice or fill in the blanks, for students to check their understanding of the concepts presented.  Homework problems come in three groups: a short Skills Warm Up that reviews prerequisite skills for the section, then Skills Practice with new skills, and finally Applications.  We have included a variety of applied problems that we hope students (and their teachers) will find interesting.  In addition, each Chapter begins with an Investigation that can be used as a group project or as a guided in-class activity.  Chapter Reviews include a Glossary and a Summary of key concepts as well as Review Problems. There is an Activity booklet available that provides an interactive lesson for each section of the text. The Activities can be completed by students in groups or with guidance from the instructor; or they can be used as support for a lecture format.  Katherine Yoshiwara  Atascadero, CA 2020  "
 },
 {
   "id": "LinMod",
