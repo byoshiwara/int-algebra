@@ -313,9 +313,9 @@ The total distance she drove is 240 miles, but to find the total time we must co
                     </tabular>
 
 <p>The total distance traveled on the trip is <m>d_1+d_2</m>, and the total time required is  
-    <me>\dfrac{d_1}{r_1} + \dfrac{d_2}{r_2}</me>
+    <me>\frac{d_1}{r_1} + \frac{d_2}{r_2}</me>
 Thus, the average speed for the entire trip is
-    <me>\text{Average speed} = \dfrac{\text{Total distance}}{\text{Total time}} = \dfrac{d_1+d_2}{\dfrac{d_1}{r_1} + \dfrac{d_2}{r_2}}</me></p>
+    <me>\text{Average speed} = \frac{\text{Total distance}}{\text{Total time}} = \frac{d_1+d_2}{\dfrac{d_1}{r_1}} + \frac{d_2}{r_2}</me></p>
 
 <exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>

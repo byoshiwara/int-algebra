@@ -23,14 +23,6 @@
     <fillin textstyle="underline" mathstyle="box"/>
   </common>
   <numbering>
-    <!-- the divisions element describes the numbering of divisions.  -->
-    <!-- @part-structure should be "decorative" or "structural",      -->
-    <!-- were the latter would restart numbering chapters within each -->
-    <!-- part (this only matters if your book has parts).             -->
-    <!-- The attribute @chapter-start give the number of the first    -->
-    <!-- chapter.  @level says how deep (chapter->section->subsection)-->
-    <!-- numbering should appear.                                     -->
-      <!-- For use with a book organized by parts
     <divisions part-structure="decorative" chapter-start="1" level="3"/>
       -->
     <!-- The next elements say how the levels deep to break up the    -->
@@ -46,7 +38,7 @@
     <!-- for printing; set @sides="two" if the printing woudl be two- -->
     <!-- sided.  The asymptote/@links set to "yes" would produce      -->
     <!-- links the html version of asymptote graphics.                -->
-  <latex print="no" sides="one">
+  <latex print="yes" sides="two">
     <asymptote links="no"/>
   </latex>
   

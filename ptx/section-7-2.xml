@@ -752,8 +752,8 @@ which is true if and only if <m>x = 4</m>.<idx><h>exponential equation</h><h>sol
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 4</title>
-<statement><p>Solve the equation <m>2^{x+2} = 128</m>.</p>
-    <hint><p><m>\blert{\text{Write each side as a power of 2, then equate exponents.}}</m></p></hint></statement>
+<statement><p>Solve the equation <m>2^{x+2} = 128</m>.</p></statement>
+    <hint><p><m>\blert{\text{Write each side as a power of 2, then equate exponents.}}</m></p></hint>
     <answer><p><m>x=5</m></p></answer></exercise>
 
 <p>Exponential equations arise frequently in the study of exponential growth.</p>

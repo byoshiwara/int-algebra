@@ -8,5 +8,7 @@
     <target name="print-latex" format="latex" source="int-alg.xml" publication="publication.ptx" />
     <target name="print" format="pdf" source="int-alg.xml" publication="publication.ptx" />
     <target name="subset" format="html" source="test-section.ptx" publication="publication-test.ptx" />
+    <target name="subtex" format="latex" source="test-tex.ptx" publication="publication-testtex.ptx" />
+    <target name="subprint" format="pdf" source="test-tex.ptx" publication="publication-testtex.ptx" />
   </targets>
 </project>

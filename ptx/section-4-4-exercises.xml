@@ -269,7 +269,7 @@ Then use the graph to solve the inequalities. Write your answers in interval not
 <exercise number="29"><statement><p>A fireworks rocket is fired from ground level.  Its height in feet <m>t</m> seconds after launch is given by 
     <me>h=320t-16t^2</me>
 During what time interval is the rocket higher than 1024 feet?</p></statement>
-    <answer><p><m>4 \t t \lt 16</m> sec</p></answer></exercise>
+    <answer><p><m>4 \lt t \lt 16</m> sec</p></answer></exercise>
 
 <exercise number="30"><statement><p>The volume of a cylindrical can should be between 21.2 and 21.6 cubic inches.  If the height of the can is 5 inches, what values for the radius (to the nearest hundredth of an inch) will produce an acceptable can?</p></statement></exercise>
 </exercisegroup>

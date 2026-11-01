@@ -578,8 +578,8 @@ We can evaluate this expression on the calculator by entering</p>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 6</title>
-<statement><p>Solve the equation <m>20+10^x = 220</m>.</p>
-        <hint><p> <m>\blert{\text{Isolate the power of 10, then rewrite in logarithmic form.}}</m></p></hint></statement>
+<statement><p>Solve the equation <m>20+10^x = 220</m>.</p></statement>
+        <hint><p> <m>\blert{\text{Isolate the power of 10, then rewrite in logarithmic form.}}</m></p></hint>
     <answer><p><m>2.3010</m></p></answer></exercise>
 </subsection>
 
